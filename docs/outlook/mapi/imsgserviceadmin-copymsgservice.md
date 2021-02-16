@@ -39,35 +39,35 @@ HRESULT CopyMsgService(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpUID_
   
-> a Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se va a copiar. 
+> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se debe copiar. 
     
  _lpszDisplayName_
   
-> a Este parámetro ha quedado obsoleto. 
+> [entrada] Este parámetro está en desuso. 
     
  _lpInterfaceToCopy_
   
-> a Un puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso a la sección de perfil del servicio de mensajes que se va a copiar. Pasar resultados NULL en la interfaz de sección de perfil estándar, [IProfSect](iprofsectimapiprop.md), que se usa.
+> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la sección de perfil del servicio de mensajes que se va a copiar. Si se pasa NULL, se usa la interfaz de sección de perfil estándar, [IProfSect.](iprofsectimapiprop.md)
     
  _lpInterfaceDst_
   
-> a Puntero al IID que representa la interfaz que se va a usar para obtener acceso al objeto al que apunta el parámetro _lpObjectDst_ . Pasar resultados NULL en la interfaz de sesión, [IMAPISession](imapisessioniunknown.md), que se usa. El parámetro _lpInterfaceDst_ también se puede establecer en IID_IMsgServiceAdmin. 
+> [entrada] Puntero al IID que representa la interfaz que se va a usar para tener acceso al objeto al que apunta el parámetro _lpObjectDst._ Pasar NULL da como resultado el uso de la interfaz de [sesión, IMAPISession.](imapisessioniunknown.md) El  _parámetro lpInterfaceDst_ también se puede establecer en IID_IMsgServiceAdmin. 
     
  _lpObjectDst_
   
-> a Un puntero a un puntero a un objeto de administración de sesión o de servicio de mensajes. El tipo de objeto debe coincidir con el identificador de interfaz pasado en _lpInterfaceDst_. Los punteros de objeto válidos son LPMAPISESSION y LPSERVICEADMIN.
+> [entrada] Puntero a un puntero a un objeto de administración de sesión o servicio de mensajes. El tipo de objeto debe corresponder al identificador de interfaz pasado  _en lpInterfaceDst_. Los punteros de objeto válidos son LPMAPISESSION y LPSERVICEADMIN.
     
  _ulUIParam_
   
-> a Un controlador para la ventana primaria de los cuadros de diálogo o ventanas que este método muestra.
+> [entrada] Identificador de la ventana principal de cualquier cuadro de diálogo o ventana que muestra este método.
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla cómo se copia el servicio de mensajes. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se copia el servicio de mensajes. Se pueden establecer las siguientes marcas:
     
 SERVICE_UI_ALWAYS 
   
@@ -85,15 +85,15 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NOT_FOUND 
   
-> La **MAPIUID** a la que apunta _lpUID_ no hace referencia a un servicio de mensajes existente. 
+> El **MAPIUID** al que apunta  _lpUID_ no hace referencia a un servicio de mensajes existente. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgServiceAdmin:: CopyMsgService** copia un servicio de mensajes en un perfil, ya sea el perfil activo u otro perfil. El perfil que contiene el servicio de mensajes que se va a copiar y el destino no tienen que ser el mismo perfil, pero pueden ser. 
+El **método IMsgServiceAdmin::CopyMsgService** copia un servicio de mensajes en un perfil, ya sea el perfil activo u otro perfil. El perfil que contiene el servicio de mensajes que se va a copiar y el destino no tiene que ser el mismo perfil, pero pueden serlo. 
   
-No se llama a la función de punto de entrada del servicio de mensajes para una operación de copia. El servicio de mensajes copiado tiene las mismas opciones de configuración que su original. Para cambiar esta configuración, un cliente debe llamar al método [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
+No se llama a la función de punto de entrada del servicio de mensajes para una operación de copia. El servicio de mensajes copiado tiene las mismas opciones de configuración que su original. Para cambiar esta configuración, un cliente debe llamar al [método IMsgServiceAdmin::ConfigureMsgService.](imsgserviceadmin-configuremsgservice.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

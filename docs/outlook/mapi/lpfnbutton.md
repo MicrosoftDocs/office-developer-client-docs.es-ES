@@ -25,11 +25,11 @@ ms.locfileid: "33431515"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una función de devolución de llamada que MAPI llama para activar un control de botón opcional en un cuadro de diálogo de la libreta de direcciones. Normalmente, este botón es un botón **detalles** . 
+Define una función de devolución de llamada a la que MAPI llama para activar un control de botón opcional en un cuadro de diálogo de libreta de direcciones. Este botón suele ser **un botón Detalles.** 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Función definida implementada por:  <br/> |Proveedores de servicios  <br/> |
 |Función definida llamada por:  <br/> |MAPI  <br/> |
    
@@ -43,23 +43,23 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
-> a Identificador de las ventanas primarias de los cuadros de diálogo o ventanas que muestra la función.
+> [entrada] Identificador de las ventanas primarias para los cuadros de diálogo o ventanas que muestra esta función.
     
  _lpvContext_
   
-> a Puntero a un valor arbitrario que se pasa a la función de devolución de llamada cuando MAPI la llama. Este valor puede representar una dirección de importancia para la aplicación cliente. Normalmente, para código de C++, _lpvContext_ representa un puntero a un objeto de c++. 
+> [entrada] Puntero a un valor arbitrario pasado a la función de devolución de llamada cuando MAPI lo llama. Este valor puede representar una dirección significativa para la aplicación cliente. Normalmente, para el código C++,  _lpvContext representa_ un puntero a un objeto C++. 
     
  _cbEntryID_
   
-> a Tamaño, en bytes, del identificador de entrada al que apunta el parámetro _lpSelection_ . 
+> [entrada] Tamaño, en bytes, del identificador de entrada al que apunta el _parámetro lpSelection._ 
     
  _lpSelection_
   
-> a Puntero al identificador de entrada que define la selección en el cuadro de diálogo.
+> [entrada] Puntero al identificador de entrada que define la selección en el cuadro de diálogo.
     
  _ulFlags_
   
@@ -73,13 +73,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente llaman a una función de devolución de llamada basada en el prototipo **LPFNBUTTON** para definir un botón en un cuadro de diálogo de detalles. El cliente pasa un puntero a la función de devolución de llamada en llamadas al método [IAddrBook::D etails](iaddrbook-details.md) . 
+Las aplicaciones cliente llaman a una función de devolución de llamada basada en el **prototipo LPFNBUTTON** para definir un botón en un cuadro de diálogo de detalles. El cliente pasa un puntero a la función de devolución de llamada en llamadas al método [IAddrBook::D etails.](iaddrbook-details.md) 
   
-Los proveedores de servicios llaman a una función de enlace en función del prototipo **LPFNBUTTON** para definir un botón en un cuadro de diálogo de detalles. El proveedor pasa un puntero a esta función de enlace en las llamadas al método [IMAPISupport::D etails](imapisupport-details.md) . 
+Los proveedores de servicios llaman a una función de enlace basada en el **prototipo LPFNBUTTON** para definir un botón en un cuadro de diálogo de detalles. El proveedor pasa un puntero a esta función de enlace en llamadas al método [IMAPISupport::D etails.](imapisupport-details.md) 
   
-En ambos casos, cuando se muestra el cuadro de diálogo y el usuario elige el botón definido, llamadas MAPI **LPFNBUTTON**. 
+En ambos casos, cuando se muestra el cuadro de diálogo y el usuario elige el botón definido, MAPI llama **a LPFNBUTTON**. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

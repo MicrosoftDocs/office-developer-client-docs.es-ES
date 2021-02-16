@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251590
 localization_priority: Normal
 ms.assetid: d375c971-fee2-baa3-dc4f-a26018e70e8a
-description: Devuelve el resultado de la expresión evaluada en unidadesDeOrigen como una cadena con formato de acuerdo con el formato expresado en Unidadesdedestino.
+description: Devuelve el resultado de la expresión evaluada en srcUnit como una cadena con formato según el formato expresado en dstUnit.
 ms.openlocfilehash: e341cbcb16cc273f0413f98c195f77ad08946ab1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,26 +18,26 @@ ms.locfileid: "33430969"
 ---
 # <a name="formatex-function"></a>Función FORMATEX
 
-Devuelve el resultado de la expresión evaluada en unidadesDeOrigen como una cadena con formato de acuerdo con el formato expresado en Unidadesdedestino.
+Devuelve el resultado de la expresión evaluada en srcUnit como una cadena con formato según el formato expresado en dstUnit.
   
 ## <a name="syntax"></a>Sintaxis
 
-FORMATEX (* * *expresión* * *, "* * *formato* * *", [* * *unidadesDeOrigen* * *], [* * *unidadesdedestino* * *], [* * *langID* * *] [, * * *calID* * *]) 
+FORMATEX(** *expression* **," ** *format* ** ",[ ** *srcUnit* ** ],[ ** *dstUnit* ** ],[ ** *langID* ** ][, ** *calID* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Obligatorio  <br/> |**String** <br/> |Combinación de constantes, operadores, funciones y referencias a celdas de ShapeSheet que da como resultado un valor.  <br/> |
-| _format_ <br/> |Obligatorio  <br/> |**String** <br/> |La imagen de formato utilizada para dar formato a la cadena. Para obtener más información acerca de las imágenes de formato, vea [acerca de las imágenes de formato](about-format-pictures.md).  <br/> |
-| _unidadesDeOrigen_ <br/> |Opcional  <br/> |**String** <br/> | Unidades usadas para evaluar expresión (pda, cm, etc.).  <br/> |
-| _Unidadesdedestino_ <br/> |Opcional  <br/> |**String** <br/> |Unidades usadas para el resultado de expresión (pda, cm, etc.).  <br/> |
-| _Idioma_ <br/> |Opcional  <br/> |**Number** <br/> |El idioma utilizado para dar formato a las imágenes de fecha y hora de Microsoft Office System.  <br/> |
+| _format_ <br/> |Obligatorio  <br/> |**String** <br/> |Imagen de formato usada para dar formato a la cadena. Para obtener más información acerca del formato de imágenes, vea [Acerca del formato de imágenes.](about-format-pictures.md)  <br/> |
+| _srcUnit_ <br/> |Opcional  <br/> |**String** <br/> | Unidades usadas para evaluar expresión (pda, cm, etc.).  <br/> |
+| _dstUnit_ <br/> |Opcional  <br/> |**String** <br/> |Unidades usadas para el resultado de expresión (pda, cm, etc.).  <br/> |
+| _langID_ <br/> |Opcional  <br/> |**Number** <br/> |El idioma utilizado para dar formato a las imágenes de fecha y hora de Microsoft Office System.  <br/> |
 | _calID_ <br/> |Opcional  <br/> |**Number** <br/> |El calendario usado para dar formato a las imágenes de fecha y hora de Microsoft Office System.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 

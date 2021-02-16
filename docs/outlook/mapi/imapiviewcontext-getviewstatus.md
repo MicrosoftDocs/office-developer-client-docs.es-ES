@@ -25,7 +25,7 @@ ms.locfileid: "33429022"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Recupera el estado actual del visor. 
+Recupera el estado del visor actual. 
   
 ```cpp
 HRESULT GetViewStatus(
@@ -33,11 +33,11 @@ ULONG FAR * lpulStatus
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpulStatus_
   
-> contempla Puntero a una máscara de máscara de indicadores que proporciona el estado del visor. Se pueden establecer los siguientes indicadores:
+> [salida] Puntero a una máscara de bits de indicadores que proporciona el estado del visor. Se pueden establecer las siguientes marcas:
     
 VCSTATUS_CATEGORY 
   
@@ -45,11 +45,11 @@ VCSTATUS_CATEGORY
     
 VCSTATUS_DELETE 
   
-> El formulario permite quitar los mensajes. 
+> El formulario permite quitar mensajes. 
     
 VCSTATUS_INTERACTIVE 
   
-> El formulario debe mostrar una interfaz de usuario. Si no se establece esta marca, el formulario debe suprimir la visualización de una interfaz de usuario incluso en respuesta a un verbo que normalmente hace que se muestre una interfaz de usuario. 
+> El formulario debe mostrar una interfaz de usuario. Si no se establece esta marca, el formulario debería suprimir la visualización de una interfaz de usuario incluso en respuesta a un verbo que normalmente hace que se muestre una interfaz de usuario. 
     
 VCSTATUS_MODAL 
   
@@ -57,7 +57,7 @@ VCSTATUS_MODAL
     
 VCSTATUS_NEXT 
   
-> Hay un mensaje siguiente en la vista. 
+> Hay un siguiente mensaje en la vista. 
     
 VCSTATUS_PREV 
   
@@ -65,7 +65,7 @@ VCSTATUS_PREV
     
 VCSTATUS_READONLY 
   
-> El mensaje debe abrirse en modo de solo lectura. Las operaciones de eliminar, enviar y mover deben estar deshabilitadas. 
+> El mensaje se debe abrir en modo de solo lectura. Las operaciones de eliminación, envío y movimiento deben deshabilitarse. 
     
 VCSTATUS_UNREAD 
   
@@ -75,15 +75,15 @@ VCSTATUS_UNREAD
 
 S_OK 
   
-> El estado del visor se devolvió correctamente.
+> El estado del visor se ha devuelto correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman al método **IMAPIViewContext:: GetViewStatus** para determinar si hay más mensajes que se van a activar en una vista de formulario en una o ambas direcciones, es decir, en la dirección en la que un comando **siguiente** activa los mensajes, en el Dirección en la que un comando **anterior** activa los mensajes o en ambas direcciones. El valor al que señala el parámetro _lpulStatus_ se usa para determinar si las marcas VCSTATUS_NEXT y VCSTATUS_PREV son válidas para [IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md). Si se establece la marca VCSTATUS_DELETE, pero no la marca VCSTATUS_READONLY, el mensaje se puede eliminar mediante el método [IMAPIMessageSite::D eletemessage](imapimessagesite-deletemessage.md) . 
+Los objetos de formulario llaman al método **IMAPIViewContext::GetViewStatus** para determinar si hay más mensajes para activar en una  vista de formulario en una o  ambas direcciones, es decir, en la dirección en la que un comando Next activa los mensajes, en la dirección en que un comando Anterior activa los mensajes o en ambas direcciones. El valor al que apunta el parámetro  _lpulStatus_ se usa para determinar si las marcas VCSTATUS_NEXT y VCSTATUS_PREV son válidas para [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md). Si se VCSTATUS_DELETE marca, pero no la marca VCSTATUS_READONLY, el mensaje se puede eliminar mediante el método [IMAPIMessageSite::D eleteMessage.](imapimessagesite-deletemessage.md) 
   
-Por lo general, los formularios deshabilitan botones y comandos de menú si no son válidos para el contexto del visor. Un visor puede enviar una alerta de un formulario a un cambio de estado llamando a su método [IMAPIFormAdviseSink:: onchange](imapiformadvisesink-onchange.md) . 
+Normalmente, los formularios deshabilitan los comandos de menú y los botones si no son válidos para el contexto del visor. Un visor puede alertar a un formulario sobre un cambio de estado llamando a su [método IMAPIFormAdviseSink::OnChange.](imapiformadvisesink-onchange.md) 
   
-La marca VCSTATUS_MODAL se establece si el formulario tiene que ser modal a la ventana cuyo controlador se pasa en la anterior [IMAPIForm::D llamada overb](imapiform-doverb.md) . Si se establece VCSTATUS_MODAL, el formulario puede usar el subproceso en el que se realizó la llamada a **doverb** hasta que se cierre el formulario. Si no se establece VCSTATUS_MODAL, el formulario no debe ser modal a esta ventana y no debe usar el subproceso. 
+La VCSTATUS_MODAL se establece si el formulario debe ser modal para la ventana cuyo identificador se pasa en la llamada [imapiform::D oVerb](imapiform-doverb.md) anterior. Si VCSTATUS_MODAL se establece, el formulario puede usar el subproceso en el que se realizó la llamada **a DoVerb** hasta que se cierre el formulario. Si VCSTATUS_MODAL no se establece, el formulario no debe ser modal para esta ventana y no debe usar el subproceso. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -91,9 +91,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetViewStatus  <br/> |MFCMAPI implementa el método **IMAPIViewContext:: GetViewStatus** en esta función.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetViewStatus  <br/> |MFCMAPI implementa el **método IMAPIViewContext::GetViewStatus** en esta función.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

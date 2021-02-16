@@ -25,11 +25,11 @@ ms.locfileid: "33432950"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita la información preprocesada escrita por una función basada en [PreprocessMessage](preprocessmessage.md) de un mensaje. 
+Quita de un mensaje la información preprocesada escrita por una función basada en [PreprocessMessage.](preprocessmessage.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapispi. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapispi.h  <br/> |
 |Función definida implementada por:  <br/> |Proveedores de transporte  <br/> |
 |Función definida llamada por:  <br/> |Cola MAPI  <br/> |
    
@@ -39,11 +39,11 @@ HRESULT RemovePreprocessInfo(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpMessage_
   
-> a Puntero al mensaje preprocesado desde el que se va a quitar la información.
+> [entrada] Puntero al mensaje preprocesado del que se va a quitar la información.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -53,8 +53,8 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama a una función basada en **RemovePreprocessInfo**. Un proveedor de transporte registra la función basada en **RemovePreprocessInfo** a la vez que registra la función Parallel **PreprocessMessage** basada en una llamada al método [IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md) . 
+La cola MAPI llama a una función basada en **RemovePreprocessInfo**. Un proveedor de transporte registra la función basada **en RemovePreprocessInfo** al mismo tiempo que registra la función basada **en PreprocessMessage** paralela en una llamada al método [IMAPISupport::RegisterPreprocessor.](imapisupport-registerpreprocessor.md) 
   
-Una representación de imágenes adecuada para la transmisión de fax es un ejemplo de información preprocesada escrita por una función definida por el prototipo de función [PreprocessMessage](preprocessmessage.md). La cola MAPI suele llamar a una función **RemovePreprocessInfo** después de enviar un mensaje que contiene información preprocesada. 
+Una representación de imagen adecuada para la transmisión de fax es un ejemplo de información preprocesada escrita por una función definida por el prototipo de función [PreprocessMessage.](preprocessmessage.md) La cola MAPI normalmente llama a una **función RemovePreprocessInfo** después de enviar un mensaje que contiene información preprocesada. 
   
 

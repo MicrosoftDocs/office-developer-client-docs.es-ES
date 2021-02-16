@@ -25,7 +25,7 @@ ms.locfileid: "33428749"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Guarda una descripción de un formulario en particular en un archivo de configuración.
+Guarda una descripción de un formulario determinado en un archivo de configuración.
   
 ```cpp
 HRESULT SaveForm(
@@ -33,11 +33,11 @@ HRESULT SaveForm(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _szFileName_
   
-> a Una cadena que nombra el archivo de mensaje de Descripción del formulario donde se guarda su descripción. Este nombre de archivo debe tener la extensión. FDM.
+> [entrada] Cadena que nombra el archivo de mensaje de descripción del formulario donde se guarda su descripción. Este nombre de archivo debe tener la extensión .fdm.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,23 +47,23 @@ S_OK
     
 MAPI_E_EXTENDED_ERROR 
   
-> No se pudo escribir el archivo de configuración. Para obtener la estructura [MAPIERROR](mapierror.md) asociada con el error, llame al método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) . 
+> No se pudo escribir el archivo de configuración. Para obtener la [estructura MAPIERROR](mapierror.md) asociada al error, llame al método [IMAPIProp::GetLastError.](imapiprop-getlasterror.md) 
     
 MAPI_E_NO_SUPPORT 
   
-> Es probable que se haya llamado a **SaveForm** para guardar un formulario en el contenedor de formulario local. **SaveForm** no es compatible con el contenedor de formulario local. 
+> **Probablemente se llamó** a SaveForm para guardar un formulario en el contenedor de formularios local. **SaveForm** no se admite en el contenedor de formularios local. 
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente llaman al método **IMAPIFormInfo:: SaveForm** para guardar una descripción del formulario actual en el archivo que tiene el nombre de archivo especificado. **SaveForm** crea un archivo de configuración. 
+Las aplicaciones cliente llaman al método **IMAPIFormInfo::SaveForm** para guardar una descripción del formulario actual en el archivo que tiene el nombre de archivo especificado. **SaveForm** crea un archivo de configuración. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede reinstalar formularios seleccionándolos en una lista de mensajes de descriptor de formulario en un cuadro de diálogo que muestren los proveedores de bibliotecas de formularios. La extensión recomendada para los mensajes de descriptor de formulario es. FDM.
+Puede volver a instalar los formularios seleccionándolos en una lista de mensajes descriptores de formulario en un cuadro de diálogo que muestran los proveedores de bibliotecas de formularios. La extensión recomendada para los mensajes del descriptor de formulario es .fdm.
   
-Llame al método [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) si **SaveForm** devuelve MAPI_E_EXTENDED_ERROR y Compruebe la estructura devuelta **MAPIERROR** para determinar la condición que provocó el error. 
+Llame al [método IMAPIProp::GetLastError](imapiprop-getlasterror.md) si **SaveForm** devuelve MAPI_E_EXTENDED_ERROR y compruebe la estructura **MAPIERROR** devuelta para determinar la condición que provocó el error. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

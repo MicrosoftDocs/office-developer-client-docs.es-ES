@@ -36,41 +36,41 @@ HRESULT SetReceiveFolder(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpszMessageClass_
   
-> a Puntero a la clase de mensaje que se va a asociar a la nueva carpeta de recepción. Si el parámetro _lpszMessageClass_ está establecido en null o una cadena vacía, **SetReceiveFolder** establece la carpeta de recepción predeterminada para el almacén de mensajes. 
+> [entrada] Puntero a la clase de mensaje que se va a asociar a la nueva carpeta de recepción. Si el  _parámetro lpszMessageClass_ se establece en NULL o en una cadena vacía, **SetReceiveFolder** establece la carpeta de recepción predeterminada para el almacén de mensajes. 
     
  _ulFlags_
   
-> a Una máscara de bits de marcadores que controla el tipo de texto en las cadenas que se pasan. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el tipo de texto en las cadenas pasadas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> La cadena de clase de mensaje está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la cadena de clase de mensaje está en formato ANSI.
+> La cadena de clase de mensaje está en formato Unicode. Si no MAPI_UNICODE marca, la cadena de clase de mensaje está en formato ANSI.
     
  _cbEntryID_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> a Un puntero al identificador de entrada de la carpeta que se va a establecer como carpeta de recepción. Si el parámetro _lpEntryID_ se establece en null, **SetReceiveFolder** reemplaza la carpeta de recepción actual por el valor predeterminado del almacén de mensajes. 
+> [entrada] Puntero al identificador de entrada de la carpeta que se establecerá como carpeta de recepción. Si el  _parámetro lpEntryID_ se establece en NULL, **SetReceiveFolder** reemplaza la carpeta de recepción actual por el valor predeterminado del almacén de mensajes. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se ha establecido correctamente una carpeta de recepción.
+> Se estableció correctamente una carpeta de recepción.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgStore:: SetReceiveFolder** establece o cambia la carpeta de recepción para una clase de mensaje determinada. Con **SetReceiveFolder**, un cliente puede, mediante llamadas sucesivas, especificar una carpeta de recepción diferente para cada clase de mensaje definida o especificar que todos los mensajes entrantes para varias clases de mensaje se desplazan a la misma carpeta. Por ejemplo, un cliente puede tener su propia clase de mensajes y llegar a su propia carpeta. Una aplicación de fax puede designar una carpeta en la que el proveedor de almacenamiento coloca los faxes entrantes y otra carpeta en la que el proveedor coloca los faxes salientes.
+El **método IMsgStore::SetReceiveFolder** establece o cambia la carpeta de recepción de una clase de mensaje determinada. Con **SetReceiveFolder,** un cliente puede, mediante llamadas sucesivas, especificar una carpeta de recepción diferente para cada clase de mensaje definida o especificar que los mensajes entrantes para varias clases de mensajes se vayan a la misma carpeta. Por ejemplo, un cliente puede tener su propia clase de mensajes que llegan a su propia carpeta. Una aplicación de fax puede designar una carpeta en la que el proveedor de almacenamiento coloca faxes entrantes y otra carpeta en la que el proveedor coloca faxes salientes.
   
-Si se produce un error durante la llamada a **SetReceiveFolder**, la configuración de la carpeta de recepción permanece inalterada. 
+Si se produce un error durante la llamada a **SetReceiveFolder**, la configuración de la carpeta de recepción no cambia. 
   
-Si **SetReceiveFolder** cambia la configuración de la carpeta de recepción por _LPENTRYID_ establecido en null, lo que indica que la carpeta de recepción predeterminada debe establecerse, **SetReceiveFolder** Devuelve S_OK incluso si no hay ninguna configuración existente para el valor indicado clase de mensaje. 
+Si **SetReceiveFolder** cambia la configuración de la carpeta de recepción con  _lpEntryID_ establecido en NULL, lo que indica que se debe establecer la carpeta de recepción predeterminada, **SetReceiveFolder** devuelve S_OK incluso si no había ninguna configuración existente para la clase de mensaje indicada. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -78,9 +78,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnSetReceiveFolder  <br/> |MFCMAPI usa el método **IMsgStore:: SetReceiveFolder** para establecer una carpeta como la carpeta de recepción para una clase de mensaje determinada.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnSetReceiveFolder  <br/> |MFCMAPI usa el **método IMsgStore::SetReceiveFolder** para establecer una carpeta como carpeta de recepción para una clase de mensaje determinada.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

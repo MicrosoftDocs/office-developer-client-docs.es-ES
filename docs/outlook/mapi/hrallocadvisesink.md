@@ -25,11 +25,11 @@ ms.locfileid: "33428903"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea un objeto de receptor de notificaciones, dado un contexto especificado por la implementación de llamada y una función de devolución de llamada que se desencadenará mediante una notificación de evento. 
+Crea un objeto receptor de aviso, dado un contexto especificado por la implementación de llamada y una función de devolución de llamada que se desencadenará mediante una notificación de evento. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -41,19 +41,19 @@ STDAPI HrAllocAdviseSink(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpfnCallback_
   
-> a Puntero a una función de devolución de llamada basada en el prototipo [NOTIFCALLBACK](notifcallback.md) al que MAPI debe llamar cuando se produce un evento de notificación para el receptor de notificaciones recién creado. 
+> [entrada] Puntero a una función de devolución de llamada basada en el prototipo [NOTIFCALLBACK](notifcallback.md) al que MAPI llamará cuando se produzca un evento de notificación para el receptor de avisos recién creado. 
     
  _lpvContext_
   
-> a Puntero a los datos del autor de la llamada pasados a la función de devolución de llamada cuando MAPI los llama. Los datos del autor de la llamada pueden representar una dirección de importancia para el cliente o el proveedor. Normalmente, para código de C++, el parámetro _lpvContext_ representa un puntero a la dirección de un objeto. 
+> [entrada] Puntero a los datos del autor de la llamada pasados a la función de devolución de llamada cuando MAPI la llama. Los datos del autor de la llamada pueden representar una dirección significativa para el cliente o el proveedor. Normalmente, para el código C++, el  _parámetro lpvContext_ representa un puntero a la dirección de un objeto. 
     
  _lppAdviseSink_
   
-> contempla Puntero a un puntero a un objeto de receptor de notificaciones.
+> [salida] Puntero a un puntero a un objeto receptor de aviso.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,11 +61,11 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Para usar la función **HrAllocAdviseSink** , una aplicación cliente o un proveedor de servicios crea un objeto para recibir notificaciones, crea una función de devolución de llamada de notificación basada en el prototipo de función [NOTIFCALLBACK](notifcallback.md) que va con ese objeto, y pasa un puntero al objeto en la función **HrAllocAdviseSink** como el valor _lpvContext_ . Al hacerlo, se realiza una notificación; como parte del proceso de notificación, MAPI llama a la función de devolución de llamada con el puntero del objeto como contexto. 
+Para usar la función **HrAllocAdviseSink,** una aplicación cliente o un proveedor de servicios crea un objeto para recibir notificaciones, crea una función de devolución de llamada de notificación basada en el prototipo de función [NOTIFCALLBACK](notifcallback.md) que va con ese objeto y pasa un puntero al objeto en la función **HrAllocAdviseSink** como el valor _lpvContext._ Al hacerlo, se realiza una notificación; y como parte del proceso de notificación, MAPI llama a la función de devolución de llamada con el puntero de objeto como contexto. 
   
-MAPI implementa su motor de notificación de forma asincrónica. En C++, la devolución de llamada de la notificación puede ser un método de objeto. Si el objeto que genera la notificación no está presente, el cliente o proveedor que solicita la notificación debe mantener un recuento de referencia independiente para ese objeto para el receptor de notificaciones del objeto. 
+MAPI implementa su motor de notificación de forma asincrónica. En C++, la devolución de llamada de notificación puede ser un método de objeto. Si el objeto que genera la notificación no está presente, el cliente o el proveedor que solicita la notificación debe mantener un recuento de referencia independiente para ese objeto para el receptor de avisos del objeto. 
   
 > [!CAUTION]
-> **HrAllocAdviseSink** debe usarse con moderación; es más seguro para los clientes crear sus propios receptores de notificaciones. 
+> **HrAllocAdviseSink** debe usarse con moderación; es más seguro para los clientes crear sus propios receptores de avisos. 
   
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251476
 localization_priority: Normal
 ms.assetid: 6c2154fa-4190-0699-61f7-f2bdf87173ec
-description: Devuelve TRUE (1) si alguna de las expresiones lógicas pasadas como parámetros son TRUE.
+description: Devuelve TRUE (1) si cualquiera de las expresiones lógicas pasadas como parámetros es TRUE.
 ms.openlocfilehash: 175a1c72f5109caca786b823966f07836f4737f0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33433510"
 ---
 # <a name="or-function"></a>Función OR
 
-Devuelve TRUE (1) si alguna de las expresiones lógicas pasadas como parámetros son TRUE.
+Devuelve TRUE (1) si cualquiera de las expresiones lógicas pasadas como parámetros es TRUE.
   
 ## <a name="syntax"></a>Sintaxis
 
-OR (* * *logicalexpression1* * *, * * *logicalexpression2* * *,..., * * *logicalexpressionN* * *) 
+OR(** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpressionN* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -42,7 +42,7 @@ Cualquier expresión que dé como resultado un valor distinto de cero se conside
   
 ## <a name="example"></a>Ejemplo
 
-O (altura \> 1, PinX \> 1) 
+OR(Height \> 1,PinX \> 1) 
   
 Devuelve TRUE (1) si cualquiera de las expresiones es verdadera. Devuelve FALSE (0) sólo cuando ambas expresiones son falsas. 
   

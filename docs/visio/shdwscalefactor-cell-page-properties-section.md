@@ -22,9 +22,9 @@ Especifica el porcentaje para aumentar o reducir la forma de una sombra.
   
 ## <a name="remarks"></a>Comentarios
 
-Cada sombra tiene una ubicación de eje sombreada, que es un punto en la sombra que corresponde al eje de la forma. Por ejemplo, si el eje de una forma se encuentra en el centro de ésta, la ubicación de eje sombreada sería el punto que se encuentra en el centro de la sombra. Cuando se aplica la escala a sombras sencillas, la ampliación se centra en la ubicación del PIN sombreado; al aplicar la escala a sombras oblicuas, la ampliación se aplica en la dirección oblicuo. 
+Cada sombra tiene una ubicación de eje sombreada, que es un punto en la sombra que corresponde al eje de la forma. Por ejemplo, si el eje de una forma se encuentra en el centro de ésta, la ubicación de eje sombreada sería el punto que se encuentra en el centro de la sombra. Al aplicar escala a sombras simples, la ampliación se centra en la ubicación de la patilla sombreada; al aplicar escala a sombras oblicuas, la ampliación se aplica en dirección oblicua. 
   
- Este porcentaje se usa cuando el tipo de sombra de una forma se establece como predeterminado para la página (la celda ShapeShdwType es igual a * * visFSTPageDefault * *). 
+ Este porcentaje se usa cuando el tipo de sombra de una forma se establece en Page Default (la celda ShapeShdwType es igual a ** visFSTPageDefault ** ). 
   
 Para establecer este comportamiento para una forma individual, utilice la celda ShapeShdwScaleFactor de la sección de formato de relleno.
   

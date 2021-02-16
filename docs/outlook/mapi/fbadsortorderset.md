@@ -25,7 +25,7 @@ ms.locfileid: "33428462"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Valida un criterio de ordenación establecido mediante la comprobación de la asignación de memoria. 
+Valida un conjunto de criterio de ordenación comprobando su asignación de memoria. 
   
 |||
 |:-----|:-----|
@@ -43,20 +43,20 @@ ULONG FBadSortOrderSet(
 
  _lpsos_
   
-> a Puntero a una estructura [SSortOrderSet](ssortorderset.md) que identifica el criterio de ordenación establecido para validarse. 
+> [entrada] Puntero a una [estructura SSortOrderSet](ssortorderset.md) que identifica el criterio de ordenación que se va a validar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> El conjunto de criterios de ordenación especificado no es válido. 
+> El conjunto de criterio de ordenación especificado no es válido. 
     
 FALSE 
   
-> El conjunto de criterio de ordenación especificado es válido.
+> El conjunto de criterios de ordenación especificado es válido.
     
 ## <a name="remarks"></a>Comentarios
 
-La función **FBadSortOrderSet** se puede usar para preparar una llamada a un método de ordenación como el método [IMAPITable:: SortTable](imapitable-sorttable.md) . 
+La **función FBadSortOrderSet** se puede usar para preparar una llamada a un método de ordenación como el método [IMAPITable::SortTable.](imapitable-sorttable.md) 
   
 

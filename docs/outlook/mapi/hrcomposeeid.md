@@ -29,7 +29,7 @@ Crea un identificador de entrada compuesto para un objeto, normalmente un mensaj
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -45,35 +45,35 @@ HrComposeEID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _psession_
   
-> a Puntero a la sesión que usa la aplicación cliente. 
+> [entrada] Puntero a la sesión en uso por la aplicación cliente. 
     
  _cbStoreRecordKey_
   
-> a Tamaño, en bytes, de la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. Si se pasa cero en el parámetro _cbStoreRecordKey_ , el parámetro _ppEID_ apunta a una copia del identificador de entrada del objeto. 
+> [entrada] Tamaño, en bytes, de la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. Si se pasa cero en el parámetro  _cbStoreRecordKey,_ el parámetro  _ppEID_ apunta a una copia del identificador de entrada del objeto. 
     
  _pStoreRecordKey_
   
-> a Puntero a la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. 
+> [entrada] Puntero a la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. 
     
  _cbMsgEID_
   
-> a Tamaño, en bytes, del identificador de entrada del mensaje u otro objeto. 
+> [entrada] Tamaño, en bytes, del identificador de entrada del mensaje u otro objeto. 
     
  _pMsgEID_
   
-> a Puntero al identificador de entrada del objeto. 
+> [entrada] Puntero al identificador de entrada del objeto. 
     
- _pcbEID_
+ _pwEID_
   
-> contempla Puntero al tamaño, en bytes, del identificador devuelto. 
+> [salida] Puntero al tamaño, en bytes, del identificador devuelto. 
     
  _ppEID_
   
-> contempla Puntero a un puntero al identificador de entrada devuelto. Si el valor del parámetro _cbStoreRecordKey_ es mayor que cero, el parámetro _ppEID_ apunta a un puntero al identificador de entrada compuesto que se crea. Si _cbStoreRecordKey_ es cero, _ppEID_ apunta a un puntero a una copia del identificador de entrada del objeto. 
+> [salida] Puntero a un puntero al identificador de entrada devuelto. Si el valor del parámetro  _cbStoreRecordKey_ es mayor que cero, el parámetro  _ppEID_ apunta a un puntero al identificador de entrada compuesto que se crea. Si  _cbStoreRecordKey es_ cero,  _ppEID_ apunta a un puntero a una copia del identificador de entrada del objeto. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -81,11 +81,11 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Si el mensaje u otro objeto para el que se crea el identificador de entrada compuesto reside en un almacén de mensajes, el identificador se crea a partir del identificador de entrada del objeto y la clave de registro del almacén. Si el objeto no está en un almacén, es decir, si el número de bytes para la clave de registro de almacén que se pasa en _cbStoreRecordKey_ es cero, simplemente se copia el identificador de entrada del objeto. 
+Si el mensaje u otro objeto para el que se está creando el identificador de entrada compuesto reside en un almacén de mensajes, el identificador se crea a partir del identificador de entrada del objeto y la clave de registro del almacén. Si el objeto no está en un almacén, es decir, si el número de bytes de la clave de registro de almacén pasada en  _cbStoreRecordKey_ es cero, simplemente se copia el identificador de entrada del objeto. 
   
-La función **HrComposeEID** permite a las aplicaciones trabajar con objetos de varios almacenes mediante el uso de identificadores de entrada compuesta. Una aplicación puede llamar a la función [HrDecomposeEID](hrdecomposeeid.md) para dividir el identificador de entrada compuesta en sus componentes originales. 
+La **función HrComposeEID permite** a las aplicaciones trabajar con objetos en varios almacenes mediante el uso de identificadores de entrada compuestos. Una aplicación puede llamar a [la función HrDecomposeEID](hrdecomposeeid.md) para dividir el identificador de entrada compuesto en sus componentes originales. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

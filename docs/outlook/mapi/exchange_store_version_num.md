@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433727"
 ---
-# <a name="exchangestoreversionnum"></a>EXCHANGE_STORE_VERSION_NUM
+# <a name="exchange_store_version_num"></a>EXCHANGE_STORE_VERSION_NUM
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Almacena la información de versión del servidor de Microsoft Exchange al que están conectadas las cuentas de un perfil de Microsoft Office Outlook.
+Almacena información de versión para el Microsoft Exchange Server al que están conectadas las Microsoft Office Outlook de un perfil.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -39,19 +39,19 @@ typedef struct {
 
  _wMajorVersion_
   
-- Número de versión principal que se suele incrementar cuando una versión contiene nuevas características importantes y cambios de funcionalidad.
+- Número de versión principal que generalmente se incrementa cuando una versión contiene nuevas características y cambios significativos en la funcionalidad.
     
  _wMinorVersion_
   
-- Número de versión secundaria que corresponde a un número de versión principal específico y que, por lo general, se incrementa cuando una versión contiene nuevas características secundarias o correcciones significativas.
+- Número de versión secundaria que corresponde a un número de versión principal específico y que generalmente se incrementa cuando una versión contiene nuevas características secundarias o correcciones significativas.
     
  _wBuild_
   
-- Número de compilación principal que corresponde a números de versiones principales y secundarias específicas y que, por lo general, se incrementa en una versión interna que contiene nuevas características o correcciones. Este valor también se incrementa cuando el lanzamiento es una bifurcación de código interno principal o un hito como, por ejemplo, Release Candidate.
+- Número de compilación principal que corresponde a números de versión principales y secundarias específicos y que generalmente se incrementa en una versión interna que contiene nuevas características o correcciones. Este valor también se incrementa cuando la versión es una rama o hito de código interno importante, como un candidato de versión.
     
  _wMinorBuild_
   
-- Número de compilación secundaria que suele incrementarse en una versión interna que contiene nuevas características o revisiones correspondientes a una compilación principal específica que denota una bifurcación de código principal o un hito.
+- Número de compilación secundaria que generalmente se incrementa en una versión interna que contiene nuevas características o correcciones correspondientes a una compilación principal específica que denota una rama o hito de código principal.
     
 ## <a name="see-also"></a>Vea también
 

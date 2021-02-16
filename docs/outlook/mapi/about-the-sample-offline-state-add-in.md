@@ -1,5 +1,5 @@
 ---
-title: Información sobre el complemento de estado sin conexión de muestra
+title: Acerca del complemento de estado sin conexión de ejemplo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,31 +13,31 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431186"
 ---
-# <a name="about-the-sample-offline-state-add-in"></a>Información sobre el complemento de estado sin conexión de muestra
+# <a name="about-the-sample-offline-state-add-in"></a>Acerca del complemento de estado sin conexión de ejemplo
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La API de estado sin conexión admite devoluciones de llamada que indican cambios en el estado de conexión de un usuario en Outlook (por ejemplo, que están en línea en Outlook para estar sin conexión). El complemento de estado sin conexión de ejemplo es un complemento COM escrito en C++ que muestra cómo recibir notificaciones de los cambios en el estado de conexión y cómo modificar el estado actual mediante la API de estado sin conexión. Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
+La API de estado sin conexión admite devoluciones de llamada que indican cambios en el estado de conexión de un usuario en Outlook, por ejemplo, desde estar en línea en Outlook hasta estar sin conexión. El complemento de estado sin conexión de ejemplo es un complemento COM escrito en C++ que muestra cómo recibir notificaciones de cambios de estado de conexión y cómo modificar el estado actual mediante la API de estado sin conexión. Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
   
 ## <a name="in-this-section"></a>En esta sección
 
 - [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md)
     
-- Explica cómo descargar e instalar el complemento de estado sin conexión de muestra.
+- Explica cómo descargar e instalar el complemento de estado sin conexión de ejemplo.
     
 - [Configurar un complemento de estado sin conexión](setting-up-an-offline-state-add-in.md)
     
-- Describe cómo implementar las funciones de conexión, inicialización y configuración para poder usar un complemento de estado sin conexión.
+- Describe cómo implementar funciones de conexión, inicialización y configuración para usar un complemento de estado sin conexión.
     
 - [Supervisar los cambios de estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
     
-- Describe cómo utilizar la función **[HrOpenOfflineObj](hropenofflineobj.md)** para obtener un objeto sin conexión que supervise y cambie el estado de conexión. 
+- Describe cómo usar la función **[HrOpenOfflineObj](hropenofflineobj.md)** para obtener un objeto sin conexión para supervisar y cambiar el estado de conexión. 
     
-- [Desconexión de un complemento de estado sin conexión](disconnecting-an-offline-state-add-in.md)
+- [Desconectar un complemento de estado sin conexión](disconnecting-an-offline-state-add-in.md)
     
-- Describe cómo finalizar y limpiar correctamente un complemento de estado sin conexión cuando el complemento se desconecta.
+- Describe cómo finalizar y limpiar correctamente un complemento de estado sin conexión cuando se desconecta el complemento.
     
 ## <a name="see-also"></a>Vea también
 

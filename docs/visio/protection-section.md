@@ -18,12 +18,12 @@ ms.locfileid: "33429400"
 ---
 # <a name="protection-section"></a>Sección de protección
 
-Muestra la configuración de bloqueo actual establecida con el comando **protección** (ficha [programador](run-in-developer-mode-display-the-developer-tab.md) ) y algunos bloqueos adicionales que solo se pueden establecer en una ventana ShapeSheet. 
+Muestra la configuración de  bloqueo actual establecida con el comando Protección [(ficha](run-in-developer-mode-display-the-developer-tab.md) Programador) además de algunos bloqueos adicionales que solo se pueden establecer en una ventana ShapeSheet. 
   
 ## <a name="remarks"></a>Comentarios
 
 El bloqueo impide modificaciones accidentales en la forma, pero no evita que los valores sean restablecidos en otras circunstancias. Tampoco protege contra cambios efectuados en la ventana ShapeSheet.
   
-Para evitar que se modifique una fórmula, use la función **Guard** . 
+Para proteger una fórmula de que no se cambie, use la **función GUARD.** 
   
 

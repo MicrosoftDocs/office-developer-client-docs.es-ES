@@ -25,11 +25,11 @@ ms.locfileid: "33433916"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de estructuras [SMAPIVerb](smapiverb.md) que describen los verbos de MAPI. 
+Contiene una matriz [de estructuras SMAPIVerb](smapiverb.md) que describen verbos MAPI. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
 |Macro relacionada:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
    
 ```cpp
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cForms**
   
@@ -53,9 +53,9 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SMAPIVerbArray** se pasa como un parámetro en el método [IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md) . 
+La **estructura SMAPIVerbArray** se pasa como parámetro en el método [IMAPIFormInfo::CalcVerbSet.](imapiforminfo-calcverbset.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

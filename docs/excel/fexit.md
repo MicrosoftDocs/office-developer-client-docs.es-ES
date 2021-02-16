@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - fExit
 keywords:
-- función fexit [Excel 2007]
+- función fexit [excel 2007]
 localization_priority: Normal
 ms.assetid: d85685fa-df70-45bb-b629-a9d43b5cb926
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,13 +22,13 @@ ms.locfileid: "33429918"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Comando definido por el usuario de ejemplo que descarga GENERIC. XLL. Cuando se carga GENERIC. XLL, crea un menú definido por el usuario, genérico, a través del cual se obtiene acceso a este comando. 
+Ejemplo de comando definido por el usuario que descarga GENERIC.xll. Cuando se carga GENERIC.xll, crea un menú definido por el usuario, Generic, a través del cual se tiene acceso a este comando. 
   
 ```cs
 int WINAPI fExit(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 La función no toma ningún parámetro.
   
@@ -38,13 +38,13 @@ La función siempre devuelve 1.
   
 ## <a name="remarks"></a>Comentarios
 
-Se trata de una rutina iniciada por el usuario para salir de GENERIC. XLL debe `UNREGISTER("GENERIC.XLL")` evitar llamar simplemente en esta función. Esto forzaría la anulación del registro de todas las funciones de esta DLL, incluso si están registradas en algún otro lugar. En su lugar, anule el registro de las funciones de una en una. 
+Se trata de una rutina iniciada por el usuario para salir de GENERIC.xll. Debe evitar simplemente llamar  `UNREGISTER("GENERIC.XLL")` a esta función. Esto anularía por la fuerza el registro de todas las funciones de esta DLL, incluso si están registradas en otro lugar. En su lugar, anula el registro de las funciones de una en una. 
   
 ### <a name="example"></a>Ejemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
+Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

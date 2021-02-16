@@ -29,7 +29,7 @@ Describe una propiedad MAPI.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
    
 ```cpp
@@ -42,36 +42,36 @@ typedef struct _SPropValue
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulPropTag**
   
-> Etiqueta de propiedad de la propiedad. Las etiquetas de propiedad son enteros sin signo de 32 bits que constan del identificador único de la propiedad en los 16 bits de orden superior y el tipo de la propiedad en los 16 bits de orden inferior.
+> Etiqueta de propiedad de la propiedad. Las etiquetas de propiedad son enteros sin signo de 32 bits formados por el identificador único de la propiedad en el orden alto de 16 bits y el tipo de la propiedad en orden bajo de 16 bits.
     
  **dwAlignPad**
   
-> Reservado para MAPI; No use. 
+> Reservado para MAPI; no usar. 
     
  **Valor**
   
-> Unión de valores de datos, el valor específico que dicta el tipo de propiedad. En la tabla siguiente se enumeran para cada tipo de propiedad, el miembro de la Unión que se debe usar y su tipo de datos asociado.
+> Unión de valores de datos, el valor específico determinado por el tipo de propiedad. En la tabla siguiente se enumeran cada tipo de propiedad, el miembro de la unión que se debe usar y su tipo de datos asociado.
     
-|**Tipo de propiedad**|**Valor**|**Tipo de datos de valor**|
+|**Tipo de propiedad**|**Valor**|**Tipo de datos del valor**|
 |:-----|:-----|:-----|
-|PT_I2 o PT_SHORT  <br/> |**k** <br/> |short int  <br/> |
-|PT_I4 o PT_LONG (con signo)  <br/> |**l** <br/> |DESDE  <br/> |
-|PT_I4 o PT_LONG (sin asignar)  <br/> |**UL** <br/> |ULONG  <br/> |
-|PT_R4 o PT_FLOAT  <br/> |**FLT** <br/> |float  <br/> |
-|PT_R8 o PT_DOUBLE  <br/> |**japonesa** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**n** <br/> |unsigned short int  <br/> |
-|PT_CURRENCY  <br/> |**Espacia** <br/> |[CURRENCY](currency.md) <br/> |
-|PT_APPTIME  <br/> |**Veamos** <br/> |double  <br/> |
-|PT_SYSTIME  <br/> |**cm** <br/> |[FILETIME](filetime.md) <br/> |
+|PT_I2 o PT_SHORT  <br/> |**i** <br/> |short int  <br/> |
+|PT_I4 o PT_LONG (firmado)  <br/> |**l** <br/> |LONG  <br/> |
+|PT_I4 o PT_LONG (sin signo)  <br/> |**ul** <br/> |ULONG  <br/> |
+|PT_R4 o PT_FLOAT  <br/> |**flt** <br/> |float  <br/> |
+|PT_R8 o PT_DOUBLE  <br/> |**dbl** <br/> |double  <br/> |
+|PT_BOOLEAN  <br/> |**b** <br/> |unsigned short int  <br/> |
+|PT_CURRENCY  <br/> |**cur** <br/> |[CURRENCY](currency.md) <br/> |
+|PT_APPTIME  <br/> |**at** <br/> |double  <br/> |
+|PT_SYSTIME  <br/> |**ft** <br/> |[FILETIME](filetime.md) <br/> |
 |PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |
-|PT_BINARY  <br/> |**definido** <br/> |BYTE [matriz]  <br/> |
+|PT_BINARY  <br/> |**bin** <br/> |BYTE [matriz]  <br/> |
 |PT_UNICODE  <br/> |**lpszW** <br/> |LPWSTR  <br/> |
 |PT_CLSID  <br/> |**lpguid** <br/> |LPGUID  <br/> |
-|PT_I8 o PT_LONGLONG  <br/> |**Li** <br/> |**LARGE_INTEGER** <br/> |
+|PT_I8 o PT_LONGLONG  <br/> |**li** <br/> |**LARGE_INTEGER** <br/> |
 |PT_MV_I2  <br/> |**MVi** <br/> |[SShortArray](sshortarray.md) <br/> |
 |PT_MV_LONG  <br/> |**MVI** <br/> |[SLongArray](slongarray.md) <br/> |
 |PT_MV_R4  <br/> |**MVflt** <br/> |[SRealArray](srealarray.md) <br/> |
@@ -85,28 +85,28 @@ typedef struct _SPropValue
 |PT_MV_CLSID  <br/> |**MVguid** <br/> |[SGuidArray](sguidarray.md) <br/> |
 |PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
 |PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
-|PT_NULL o PT Object  <br/> |**x** <br/> |DESDE  <br/> |
-|PT_PTR  <br/> |**LPV** <br/> |EFECTO\*  <br/> |
+|PT_NULL o PT_OBJECT  <br/> |**x** <br/> |LONG  <br/> |
+|PT_PTR  <br/> |**lpv** <br/> |VOID \*  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El miembro **ulPropTag** está formado por dos partes: 
+El **miembro ulPropTag** se conste de dos partes: 
   
-- Un identificador en los 16 bits de orden superior.
+- Un identificador de 16 bits de orden alto.
     
-- Un tipo en los 16 bits de orden inferior.
+- Un tipo en orden bajo de 16 bits.
     
-El identificador es un valor numérico dentro de un intervalo determinado. MAPI define los intervalos de los identificadores para describir para qué se usa la propiedad y quién es responsable de su mantenimiento. MAPI define restricciones para cada una de las etiquetas de propiedad que admite en el archivo de encabezado Mapitags. h.
+El identificador es un valor numérico dentro de un intervalo determinado. MAPI define intervalos para que los identificadores describan para qué se usa la propiedad y quién es responsable de su mantenimiento. MAPI define restricciones para cada una de las etiquetas de propiedad que admite en el archivo de encabezado Mapitags.h.
   
-El tipo indica el formato del valor de la propiedad. MAPI define constantes para cada uno de los tipos de propiedad que admite en el archivo de encabezado Mapidefs. h. 
+El tipo indica el formato del valor de la propiedad. MAPI define constantes para cada uno de los tipos de propiedad que admite en el archivo de encabezado Mapidefs.h. 
   
-Para obtener una lista completa de los intervalos de propiedades válidos para los identificadores y tipos de propiedades, vea el apéndice [identificadores y tipos de propiedades](property-identifiers-and-types.md) . 
+Para obtener una lista completa de los intervalos de propiedades válidos para identificadores y tipos de propiedad, vea el apéndice Identificadores y [tipos de](property-identifiers-and-types.md) propiedad. 
   
-El miembro **dwAlignPad** se usa como relleno para garantizar una alineación adecuada en los equipos que requieren una alineación de 8 bytes para los valores de 8 bytes. Los desarrolladores que escriben código en estos equipos deben usar rutinas de asignación de memoria que asignan las matrices de **SPropValue** en límites de 8 bytes. 
+El **miembro dwAlignPad** se usa como espaciado interno para garantizar la alineación correcta en equipos que requieren alineación de 8 bytes para valores de 8 bytes. Los desarrolladores que escriben código en estos equipos deben usar rutinas de asignación de memoria que asignen las matrices **SPropValue** en límites de 8 bytes. 
   
-Para obtener más información, consulte [información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y [actualizar las propiedades MAPI](updating-mapi-properties.md). 
+Para obtener más información, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y actualización de propiedades [MAPI](updating-mapi-properties.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

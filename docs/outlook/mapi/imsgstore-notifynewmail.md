@@ -33,7 +33,7 @@ HRESULT NotifyNewMail(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpNotification_
   
@@ -55,7 +55,7 @@ Cuando se llama a **NotifyNewMail**, env�e una notificaci�n de correo nuevo 
   
 No puede modificar ni liberar la memoria para la estructura de [notificaci�n](notification.md) que describe la notificaci�n de correo nuevo. Copie la estructura de **NOTIFICATION** mediante una llamada a la funci�n de utilidad [ScCopyNotifications](sccopynotifications.md) para hacer uso de la informaci�n de sus miembros. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

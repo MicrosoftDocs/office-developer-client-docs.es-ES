@@ -36,23 +36,23 @@ Contiene el nombre para mostrar de la carpeta donde se encontró un mensaje dura
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades no se encuentran en ningún objeto. Solo pueden aparecer en la tabla de contenido de una carpeta de resultados de búsqueda.
+Estas propiedades no están en ningún objeto. Solo pueden aparecer en la tabla de contenido de una carpeta de resultados de búsqueda.
   
-Estas propiedades y las propiedades de **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) no están relacionadas entre sí. Pertenecen a contextos completamente diferentes.
+Estas propiedades **y PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) no están relacionadas entre sí. Pertenecen a contextos totalmente diferentes.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

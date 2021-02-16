@@ -23,9 +23,9 @@ Devuelve un valor numérico que representa el año de la fecha especificada en e
   
 ## <a name="syntax"></a>Sintaxis
 
- **Año** (*Fecha*) 
+ **Year** (*Date*) 
   
-La función **Year** contiene los siguientes argumentos. 
+La **función Year** contiene los argumentos siguientes. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
@@ -33,6 +33,6 @@ La función **Year** contiene los siguientes argumentos.
    
 ## <a name="remarks"></a>Comentarios
 
-Los valores devueltos por las funciones **Year**, **Month**y **Day** serán valores gregorianos independientemente del formato de presentación del valor de fecha proporcionado. Por ejemplo, si el formato de presentación de la fecha suministrada utiliza el calendario Hijri, los valores devueltos para las funciones **Year**, **Month**y **Day** serán valores asociados con la fecha Gregoriana equivalente. 
+Los valores devueltos por **las funciones Year**, **Month** y **Day** serán valores gregorianos independientemente del formato de presentación del valor de fecha proporcionado. Por ejemplo, si el formato de presentación de la fecha proporcionada usa el calendario Hijri, los valores devueltos para las funciones **Year**, **Month** y **Day** serán valores asociados a la fecha gregoriana equivalente. 
   
 

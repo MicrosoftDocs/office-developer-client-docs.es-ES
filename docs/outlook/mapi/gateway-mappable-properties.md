@@ -19,7 +19,7 @@ ms.locfileid: "33430479"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las propiedades asignables a la puerta de enlace son propiedades que pueden requerir traducción cuando se envían de un dominio de mensajería a otro. Las propiedades asignables a la puerta de enlace de MAPI permiten que los mensajes incluyan información que requiere una puerta de enlace para asegurarse de que el sistema de mensajería de destino la usa correctamente. Aunque no es necesario que los programadores de puertas de enlace proporcionen esta capacidad de traducción, deben considerar las propiedades asignables a la puerta de enlace como una oportunidad para mejorar el control del contenido de los mensajes.
+Las propiedades asignables a la puerta de enlace son propiedades que pueden requerir traducción cuando se envían de un dominio de mensajería a otro. Las propiedades asignables de puerta de enlace de MAPI permiten que los mensajes incluyan información que requiere una puerta de enlace para asegurarse de que el sistema de mensajería de destino lo usa correctamente. Aunque no es necesario que los desarrolladores de puertas de enlace proporcionen esta funcionalidad de traducción, deben considerar las propiedades asignables a la puerta de enlace como una oportunidad para mejorar el control del contenido de los mensajes.
   
 MAPI especifica cinco tipos de propiedades asignables a la puerta de enlace:
   
@@ -33,13 +33,13 @@ MAPI especifica cinco tipos de propiedades asignables a la puerta de enlace:
     
 - Clave de búsqueda
     
-Este es el conjunto de propiedades de dirección asociadas con destinatarios, remitentes, destinatarios de informes y destinatarios y remitentes delegados. Para ayudar a su cliente a definir estas propiedades para que una puerta de enlace las controle de forma especial, MAPI especifica una Convención de nomenclatura usando propiedades y conjuntos de propiedades con nombre. Existen cinco conjuntos de propiedades para contener propiedades con nombre, las propiedades de direccionamiento que requieren asignación. Hay un conjunto de propiedades para cada tipo de propiedad asignable. Los conjuntos de propiedades que almacenarán estas propiedades de direccionamiento con nombre son los siguientes.
+Este es el conjunto de propiedades de direccionamiento que están asociadas a destinatarios, remitentes, destinatarios de informes y remitentes y destinatarios delegados. Para ayudar al cliente a definir estas propiedades para que una puerta de enlace las controle especialmente, MAPI especifica una convención de nomenclatura mediante propiedades con nombre y conjuntos de propiedades. Existen cinco conjuntos de propiedades para contener propiedades con nombre, las propiedades de direccionamiento que requieren asignación. Hay un conjunto de propiedades para cada tipo de propiedad asignable. Los conjuntos de propiedades que contendrán estas propiedades de direccionamiento con nombre son los siguientes.
   
 |**Conjunto de propiedades**|**Descripción**|
 |:-----|:-----|
 |PS_ROUTING_DISPLAY_NAME  <br/> |Contiene las propiedades de cadena usadas como nombres para mostrar.  <br/> |
 |PS_ROUTING_EMAIL_ADDRESSES  <br/> |Contiene las propiedades de cadena usadas como direcciones de correo electrónico.  <br/> |
-|PS_ROUTING_ADDRTYPE  <br/> |Contiene las propiedades de cadena usadas como tipos de dirección de correo electrónico.  <br/> |
+|PS_ROUTING_ADDRTYPE  <br/> |Contiene las propiedades de cadena usadas como tipos de direcciones de correo electrónico.  <br/> |
 |PS_ROUTING_ENTRYID  <br/> |Contiene propiedades binarias usadas como identificadores de entrada a largo plazo.  <br/> |
 |PS_ROUTING_SEARCH_KEY  <br/> |Contiene propiedades binarias usadas como claves de búsqueda.  <br/> |
    

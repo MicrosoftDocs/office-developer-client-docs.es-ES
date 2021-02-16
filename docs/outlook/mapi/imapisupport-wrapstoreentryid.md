@@ -25,7 +25,7 @@ ms.locfileid: "33430451"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Convierte el identificador de entrada interno de un almacén de mensajes en un identificador de entrada en el formato MAPI estándar.
+Convierte el identificador de entrada interna de un almacén de mensajes en un identificador de entrada en el formato estándar MAPI.
   
 ```cpp
 HRESULT WrapStoreEntryID(
@@ -36,23 +36,23 @@ LPENTRYID FAR * lppWrappedEntry
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbOrigEntry_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpOrigEntry_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpOrigEntry._ 
     
  _lpOrigEntry_
   
-> a Un puntero al identificador de entrada privada para el almacén de mensajes.
+> [entrada] Puntero al identificador de entrada privada para el almacén de mensajes.
     
  _lpcbWrappedEntry_
   
-> contempla Un puntero al recuento de bytes en el identificador de entrada al que apunta el parámetro _lppWrappedEntry_ . 
+> [salida] Puntero al recuento de bytes en el identificador de entrada al que apunta el parámetro _lppWrappedEntry._ 
     
  _lppWrappedEntry_
   
-> contempla Un puntero a un puntero al identificador de entrada ajustado.
+> [salida] Puntero a un puntero al identificador de entrada ajustado.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,17 +62,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: WrapStoreEntryID** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios usan **WrapStoreEntryID** para que MAPI genere un identificador de entrada para un almacén de mensajes que ajuste el identificador de entrada interno de la tienda. 
+El **método IMAPISupport::WrapStoreEntryID** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios **usan WrapStoreEntryID para** que MAPI genere un identificador de entrada para un almacén de mensajes que ajuste el identificador de entrada interno del almacén. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Cuando un cliente llama al método [IMAPIProp:: GetProps](imapiprop-getprops.md) del almacén de mensajes para recuperar su propiedad **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) y el almacén de mensajes utiliza un identificador de entrada en un formato privado, llame a **WrapStoreEntryID **y devolver el identificador de entrada al que apunta el parámetro _lppWrappedEntry_ . 
+Cuando un cliente llama al método [IMAPIProp::GetProps](imapiprop-getprops.md) del almacén de mensajes para recuperar su propiedad **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)), y el almacén de mensajes usa un identificador de entrada en formato privado, llame a **WrapStoreEntryID** y devuelva el identificador de entrada al que apunta el parámetro _lppWrappedEntry._ 
   
-Las llamadas a los métodos [IMSProvider:: Logon](imsprovider-logon.md) y [IMSLogon:: CompareEntryIDs](imslogon-compareentryids.md) siempre obtienen el identificador de entrada privada del almacén; la versión empaquetada solo se usa entre aplicaciones cliente y MAPI. 
+Las llamadas a [los métodos IMSProvider::Logon](imsprovider-logon.md) e [IMSLogon::CompareEntryIDs](imslogon-compareentryids.md) siempre obtienen el identificador de entrada privada del almacén; la versión ajustada solo se usa entre las aplicaciones cliente y MAPI. 
   
-Libere la memoria del identificador de entrada al que apunta el parámetro _lppWrappedEntry_ mediante la función [MAPIFreeBuffer](mapifreebuffer.md) cuando termine de usar el identificador de entrada. 
+Libera la memoria del identificador de entrada al que apunta el parámetro  _lppWrappedEntry_ mediante la función [MAPIFreeBuffer](mapifreebuffer.md) cuando termines de usar el identificador de entrada. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,24 +25,24 @@ ms.locfileid: "33433300"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes en una estructura [SPropAttrArray](spropattrarray.md) existente. 
+Calcula el número de bytes de una estructura [SPropAttrArray](spropattrarray.md) existente. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |IMessage. h  <br/> |
+|Archivo de encabezado:  <br/> |Imessage.h  <br/> |
 |Estructura relacionada:  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
 CbSPropAttrArray (_lparray)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- __LPArray_
+ _ _lparray_
   
 > Puntero a la estructura **SPropAttrArray** existente. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

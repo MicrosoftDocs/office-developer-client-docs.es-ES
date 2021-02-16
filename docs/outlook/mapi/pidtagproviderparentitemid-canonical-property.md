@@ -25,7 +25,7 @@ ms.locfileid: "33433419"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica un identificador para el elemento primario de una carpeta o un elemento en un almacén.
+Especifica un identificador para el elemento primario de una carpeta o un elemento de un almacén.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Especifica un identificador para el elemento primario de una carpeta o un elemen
    
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacén pueden especificar un valor para esta propiedad para un elemento primario de una carpeta o un elemento, pero deben mantener el valor igual entre sesiones. Los proveedores de almacenamiento usan esta propiedad para identificar los resultados de la búsqueda que devuelve un motor de búsqueda.
+Los proveedores de almacén pueden especificar un valor para esta propiedad para un elemento principal de una carpeta o un elemento, pero deben mantener el mismo valor entre sesiones. Los proveedores de almacén usan esta propiedad para identificar los resultados de búsqueda devueltos por un motor de búsqueda.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

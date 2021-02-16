@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPISecureMessage
+title: IMAPISecureMessage IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,27 +29,27 @@ Define los métodos usados para administrar mensajes seguros.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Exchsec. h  <br/> |
+|Archivo de encabezado:  <br/> |Exchsec.h  <br/> |
 |Expuesto por:  <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
 |Implementado por:  <br/> |Microsoft Outlook 2010 y Microsoft Outlook 2013  <br/> |
-|Llamado por:  <br/> |Client  <br/> |
+|Llamado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
 |Tipo de puntero:  <br/> |LPMAPISECUREMESSAGE  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
-|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
-|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
-|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Recupera el [IMessage: IMAPIProp](imessageimapiprop.md) subyacente que este [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) está encapsulando.  <br/> |
-|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
-|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
-|Marcador de posición de miembro.  <br/> |No es compatible o documentado.  <br/> |
+|Miembro de marcador de posición.  <br/> |No se admite ni se documenta.  <br/> |
+|Miembro de marcador de posición.  <br/> |No se admite ni se documenta.  <br/> |
+|Miembro de marcador de posición.  <br/> |No se admite ni se documenta.  <br/> |
+|Miembro de marcador de posición.  <br/> |No se admite ni se documenta.  <br/> |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Recupera el [IMessage subyacente : IMAPIProp](imessageimapiprop.md) que [este IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) está encapsulando.  <br/> |
+|Miembro de marcador de posición.  <br/> |No se admite ni se documenta.  <br/> |
+|Miembro de marcador de posición.  <br/> |No se admite ni se documenta.  <br/> |
+|Miembro de marcador de posición.  <br/> |No se admite ni se documenta.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

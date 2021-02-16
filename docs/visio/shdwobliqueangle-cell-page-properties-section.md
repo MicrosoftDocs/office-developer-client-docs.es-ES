@@ -24,7 +24,7 @@ Contiene un número que especifica el ángulo de dirección oblicua cuando se ap
 
 Un valor de cero (0) en esta celda indica que la dirección del ángulo es vertical hacia arriba y que se mide moviéndose en el sentido de las agujas del reloj.
   
- El ángulo que se describe en esta celda se utiliza cuando la celda ShapeShdwType (tipo de sombra para una forma de la página) se establece en el valor predeterminado de página (**visFSTPageDefault** ) y el tipo de sombra es oblicuo. El tipo de sombra predeterminado de la página se define en la celda ShdwType. 
+ El ángulo descrito en esta celda se usa siempre que la celda ShapeShdwType (el tipo de sombra de una forma de la página) se establece en Page Default (**visFSTPageDefault** ) y el tipo de sombra es oblicua. El tipo de sombra predeterminado de la página se define en la celda ShdwType. 
   
 Para establecer este comportamiento para una forma individual, utilice la celda ShapeShdwObliqueAngle de la sección de formato de relleno.
   

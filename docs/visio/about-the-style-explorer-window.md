@@ -24,14 +24,14 @@ Los estilos son conjuntos de atributos de formato que tienen un nombre particula
   
 Al contrario de lo que ocurre al aplicar por separado atributos de formato a una forma, las formas cuyo formato deriva de un estilo tienen garantizada la coherencia y, además, responden mejor cuando son creadas, movidas, giradas y cuando se cambia su escala. 
   
-La ventana **Explorador de estilos** proporciona la información necesaria para comprender mejor las implicaciones de los cambios que se realizan en las formas. 
+La **ventana Explorador de** estilos proporciona la información necesaria para comprender mejor las implicaciones de los cambios realizados en las formas. 
   
 > [!NOTE]
 > Los valores de celdas que aparecen en negro en la ventana ShapeSheet son heredados y, los que aparecen en azul, locales. 
   
 ## <a name="using-the-style-explorer-window"></a>Uso de la ventana Explorador de estilos
 
-Para ver la ventana **Explorador de estilos** , con la ventana ShapeSheet activa, en la pestaña diseño de herramientas de **ShapeSheet** , en el grupo **Ver** , seleccione **Explorador de estilos**. La ventana **Explorador de estilos** aparece acoplada en la ventana ShapeSheet de forma predeterminada, pero es una ventana anclada que puede acoplarse, flotar o fusionarse con otras ventanas de ShapeSheet disponibles, por ejemplo, la ventana Rastreo de **fórmulas** . La ventana **Explorador de estilos** contiene una vista en árbol de todos los estilos definidos en el dibujo actual. 
+Para ver la **ventana Explorador de** estilos, con la ventana ShapeSheet  activa, en la ficha Diseño de herramientas de **ShapeSheet,** en el grupo Vista, seleccione **Explorador de estilos.** La  ventana Explorador de estilos aparece acoplada en la ventana ShapeSheet de forma predeterminada, pero es una ventana anclada que se  puede acoplar, flotar o combinar con otras ventanas ShapeSheet ancladas disponibles, por ejemplo, la ventana Seguimiento de fórmulas. La ventana **Explorador de estilos** contiene una vista en árbol de todos los estilos definidos en el dibujo actual. 
   
 > [!NOTE]
 > Para obtener información sobre un estilo, se puede hacer clic con el botón secundario en el estilo desde la ventana **Explorador de estilos**, a fin de mostrar su ShapeSheet. 

@@ -22,9 +22,9 @@ Determina de qué manera se voltea o se rota una forma colocable en la página c
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |Se utilizan las opciones predeterminadas de la página.  <br/> |**visLOFlipDefault** <br/> |
-|1  <br/> |Se voltea horizontalmente.  <br/> |**visLOFlipX** <br/> |
-|segundo  <br/> |Se voltea verticalmente.  <br/> |**visLOFlipY** <br/> |
+|0  <br/> |Se utilizan las opciones predeterminadas de la página.  <br/> |**visLOFlipDefault** <br/> |
+|1   <br/> |Se voltea horizontalmente.  <br/> |**visLOFlipX** <br/> |
+|2   <br/> |Se voltea verticalmente.  <br/> |**visLOFlipY** <br/> |
 |4   <br/> |Se voltea en incrementos de 90 grados entre 0 y 270.  <br/> |**visLOFlipRotate** <br/> |
 |8   <br/> |No se voltea.  <br/> |**visLOFlipNone** <br/> |
    
@@ -32,7 +32,7 @@ Determina de qué manera se voltea o se rota una forma colocable en la página c
 
 El valor de la celda ShapePlaceFlip ayuda a orientar una forma colocable hacia la siguiente forma colocable a la que esté conectada.
   
-Para establecer este comportamiento para *todas* las formas de la página de dibujo, utilice la celda PlaceFlip de la sección de diseño de página. 
+Para establecer este comportamiento para  *todas las*  formas de la página de dibujo, use la celda PlaceFlip de la sección Diseño de página. 
   
 Para obtener una referencia a la celda ShapePlaceFlip por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   

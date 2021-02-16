@@ -29,7 +29,7 @@ Contiene una matriz de valores enteros sin signo que se usan para describir una 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SShortArray
@@ -40,21 +40,21 @@ typedef struct _SShortArray
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cValues**
   
-> Número de valores de la matriz a los que señala el miembro **LPP** . 
+> Número de valores de la matriz que apunta el **miembro lpi.** 
     
- **LPP**
+ **lpi**
   
 > Puntero a una matriz de valores enteros sin signo.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información sobre PT_MV_SHORT y otros tipos de propiedades, consulte [Property Types](property-types.md). 
+Para obtener más información acerca PT_MV_SHORT y otros tipos de propiedad, vea [Tipos de propiedad](property-types.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

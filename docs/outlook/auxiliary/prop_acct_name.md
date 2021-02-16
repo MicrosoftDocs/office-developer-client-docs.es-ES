@@ -14,26 +14,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429435"
 ---
-# <a name="propacctname"></a>PROP_ACCT_NAME
+# <a name="prop_acct_name"></a>PROP_ACCT_NAME
 
 Devuelve o establece el nombre de la cuenta.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkAccount](iolkaccount.md).
+Vea [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x0002  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
 |Etiqueta de propiedad:  <br/> |0x0002001F  <br/> |
-|Al  <br/> |Lectura y escritura  <br/> |
+|Acceso:  <br/> |Lectura/escritura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Obtenga o establezca esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount-getprop.md) o [IOlkAccount:: SetProp](iolkaccount-setprop.md), respectivamente.
+Obtenga o establezca esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md) o [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivamente.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251437
 localization_priority: Normal
 ms.assetid: 2a21d6f9-bad6-92ab-6d36-477bcb9d7f17
-description: Devuelve un valor integer, entre 0 y 23, que representa la hora del día de la fecha y hora o de una expresión.
+description: Devuelve un entero, de 0 a 23, que representa la hora del día de la fecha y hora o la expresión.
 ms.openlocfilehash: 1d0c6ec2bd80605401f44d2a5ef6e3d41bc72556
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,33 +18,33 @@ ms.locfileid: "33429638"
 ---
 # <a name="hour-function-visioshapesheet"></a>Función HOUR (VisioShapeSheet)
 
-Devuelve un valor integer, entre 0 y 23, que representa la hora del día de la _fecha y hora_ o de una _expresión_.
+Devuelve un entero, de 0 a 23, que representa la hora del día de  _la fecha y hora_ o la  _expresión_.
   
 ## <a name="syntax"></a>Sintaxis
 
-HOUR ("* * *DateTime* * *" | * * *expresión* * * [, * * *LCID* * *]) 
+HOUR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> | Una cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
-| _expression_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> |Una expresión que produzca como resultado una fecha y una hora.  <br/> |
+| _datetime_ <br/> |Obligatorio  <br/> |**String** <br/> | Una cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Una expresión que produzca como resultado una fecha y una hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Number** <br/> | Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Se descarta el componente de fecha de *DateTime* y de *expresión* . 
+Se descarta el componente de  *fecha y*  hora  *y la*  expresión. 
   
-No se realiza redondeo. Si falta el *valor de fecha y hora* o no se puede convertir en un resultado válido, la función devuelve un error. 
+No se realiza redondeo. Si falta  *la fecha y*  hora o no se puede convertir en un resultado válido, la función devuelve un error. 
   
 El formato del valor devuelto corresponde al estilo de hora establecido en la configuración regional actual del sistema. 
   
-La función HOUR también acepta un único valor numérico en *expresión* , en el que la parte decimal del resultado representa la fracción de un día contada a partir de la medianoche. 
+La función HOUR también acepta un  valor numérico único para la expresión donde la parte decimal del resultado representa la fracción de un día desde la medianoche. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-HOUR ("15:45")
+HOUR("15:45")
   
 Devuelve 15.
   
@@ -56,13 +56,13 @@ Devuelve 15.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-HORA (0,5)
+HOUR(0.5)
   
 Devuelve 12.
   
 ## <a name="example-4"></a>Ejemplo 4
 
-HOUR ("5/30/1997")
+HOUR("30/5/1997")
   
 Devuelve 0.
   

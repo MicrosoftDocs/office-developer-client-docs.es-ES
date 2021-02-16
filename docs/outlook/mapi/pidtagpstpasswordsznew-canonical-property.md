@@ -23,34 +23,34 @@ ms.locfileid: "33430325"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la nueva contraseña que se debe usar para obtener acceso al almacén de carpetas personales en el futuro.
+Contiene la nueva contraseña que se usará para el acceso futuro al almacén de carpetas personales.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PST_PW_SZ_NEW, PR_PST_PW_SZ_NEW_A, PR_PST_PW_SZ_NEW_W  <br/> |
 |Identificador:  <br/> |0x6704  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Tabla de almacenamiento personal (. pst) interno  <br/> |
+|Área:  <br/> |Tabla de almacenamiento personal (.pst) interna  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]] 
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

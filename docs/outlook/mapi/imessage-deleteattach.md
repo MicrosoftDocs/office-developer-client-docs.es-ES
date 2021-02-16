@@ -36,27 +36,27 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulAttachmentNum_
   
-> a Número de índice de los datos adjuntos que se van a eliminar. Este es el valor de la propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de los datos adjuntos.
+> [entrada] Número de índice de los datos adjuntos que se eliminarán. Este es el valor de la propiedad PR_ATTACH_NUM **datos** adjuntos ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
     
  _ulUIParam_
   
-> a Identificador de la ventana primaria de los cuadros de diálogo o ventanas que este método muestra. El parámetro _ulUIParam_ se omite a menos que se establezca la marca ATTACH_DIALOG en el parámetro _ulFlags_ . 
+> [entrada] Controla la ventana principal de los cuadros de diálogo o ventanas que muestra este método. El _parámetro ulUIParam_ se omite a menos que ATTACH_DIALOG marca esté establecida en el _parámetro ulFlags._ 
     
  _lpProgress_
   
-> a Puntero a un objeto Progress que muestra un indicador de progreso. Si se pasa NULL en _lpProgress_, el proveedor de almacenamiento de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso de MAPI. El parámetro _lpProgress_ se omite a menos que se establezca la marca ATTACH_DIALOG en _ulFlags_.
+> [entrada] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El  _parámetro lpProgress_ se omite a menos ATTACH_DIALOG marca esté establecida en  _ulFlags_.
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla la presentación de una interfaz de usuario. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla la visualización de una interfaz de usuario. Se puede establecer la siguiente marca:
     
 ATTACH_DIALOG 
   
-> Solicita la visualización de un indicador de progreso mientras se lleva a cabo la operación.
+> Solicita la presentación de un indicador de progreso a medida que avanza la operación.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -66,15 +66,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMessage::D eleteattach** elimina datos adjuntos desde dentro de un mensaje. 
+El **método IMessage::D eleteAttach** elimina datos adjuntos de un mensaje. 
   
-Los datos adjuntos eliminados no se eliminan permanentemente hasta que se llama al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) del mensaje. 
+Los datos adjuntos eliminados no se eliminan permanentemente hasta que se haya llamado al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Antes de llamar a **DeleteAttach**, llame al método **IUnknown:: Release** para los datos adjuntos y cada una de sus secuencias. 
+Antes de **llamar a DeleteAttach,** llame al método **IUnknown::Release** para los datos adjuntos y cada una de sus secuencias. 
   
-Como la eliminación de datos adjuntos puede ser un proceso prolongado, **DeleteAttach** proporciona el mecanismo que muestra un indicador de progreso. Puede solicitar la presentación de un indicador de progreso pasando un puntero a su [método imapiprogress:](imapiprogressiunknown.md) implementación de IUNKNOWN o null si no tiene una implementación. También debe especificar un identificador de ventana en el parámetro _ulUIParam_ y la marca ATTACH_DIALOG en el parámetro _ulFlags_ . 
+Dado que la eliminación de datos adjuntos puede ser un proceso largo, **DeleteAttach** proporciona el mecanismo que muestra un indicador de progreso. Puede solicitar la visualización de un indicador de progreso pasando un puntero a la implementación [IMAPIProgress: IUnknown](imapiprogressiunknown.md) o NULL si no tiene una implementación. También debe especificar un identificador de ventana en el _parámetro ulUIParam_ y la marca ATTACH_DIALOG en _el parámetro ulFlags._ 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -82,9 +82,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|AttachmentsDlg. cpp  <br/> |CAttachmentsDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMessage::D eleteattach** para eliminar los datos adjuntos seleccionados.  <br/> |
+|AttachmentsDlg.cpp  <br/> |CAttachmentsDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el **método IMessage::D eleteAttach** para eliminar los datos adjuntos seleccionados.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

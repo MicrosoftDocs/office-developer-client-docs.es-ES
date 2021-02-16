@@ -19,32 +19,32 @@ ms.locfileid: "33429162"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las notificaciones permiten que un objeto informe a otro objeto que ha sufrido un cambio. El tipo de cambio se conoce como un evento. MAPI define varios eventos para los que se generan notificaciones. 
+Las notificaciones permiten a un objeto informar a otro de que se ha sometido a un cambio. El tipo de cambio se denomina evento. MAPI define varios eventos para los que se generan notificaciones. 
   
-Los clientes suelen registrarse para uno o más eventos con uno o más objetos. Estos objetos se conocen como orígenes de notificaciones. Los objetos que pueden actuar como orígenes de notificaciones incluyen el objeto de sesión, bajo el control de MAPI, o un objeto creado por un proveedor de servicios, como un mensaje. El objeto informado, al que se conoce como el receptor de notificaciones, contiene una implementación de la interfaz [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) o la interfaz [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) y está dentro de una aplicación cliente. 
+Normalmente, los clientes se registran para uno o más eventos con uno o más objetos. Estos objetos se denominan fuentes de aviso. Los objetos que pueden actuar como orígenes de aviso incluyen el objeto de sesión, bajo el control de MAPI, o un objeto creado por un proveedor de servicios, como un mensaje. El objeto informado, denominado receptor de avisos, contiene una implementación de la interfaz [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) o [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) y se encuentra dentro de una aplicación cliente. 
   
-Aconseje a los objetos **** de origen que implementen un método Advise, al que llaman los clientes para registrarse para notificaciones y un método unaconsejable, al que se llama para cancelar un registro. **** Uno de los parámetros de **Advise** es un puntero a una implementación de **IMAPIAdviseSink** o * * IMAPIViewAdviseSink * *. El origen Advise almacena en caché este puntero para que pueda llamar a [IMAPIAdviseSink:: BENOTIFY](imapiadvisesink-onnotify.md) o a uno de los métodos de **IMAPIViewAdviseSink** cuando se produzca un cambio. 
+Los objetos de origen de aviso implementan un **método Advise,** al que los clientes llaman para registrarse para recibir notificaciones, y un método **Unadvise,** al que se llama para cancelar un registro. Uno de los parámetros que **se** deben aconsejar es un puntero a una implementación de **IMAPIAdviseSink** o ** IMAPIViewAdviseSink **. El origen de aviso almacena en caché este puntero para que pueda llamar a [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) o a uno de los métodos de **IMAPIViewAdviseSink** cuando se produce un cambio. 
   
-Como la recepción de notificaciones permite a los usuarios ver la información más actualizada, se recomienda que todos los clientes se registren y controlen las notificaciones. Sin embargo, es opcional.
+Dado que la recepción de notificaciones permite a los usuarios ver la información más actualizada, se recomienda que todos los clientes se registren y controlan las notificaciones. Sin embargo, es opcional.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Registro para una notificación](registering-for-a-notification.md): describe cómo registrar un cliente para las notificaciones como parte de su proceso de inicialización.
+- [Registro de una notificación:](registering-for-a-notification.md)describe cómo registrar un cliente para notificaciones como parte de su proceso de inicialización.
     
-- [Cancelación de una notificación](canceling-a-notification.md): describe cómo cancelar una suscripción a una notificación.
+- [Cancelar una notificación:](canceling-a-notification.md)describe cómo cancelar una suscripción a una notificación.
     
-- [Administración](handling-message-store-notification.md)de notificaCiones del almacén de mensajes: describe cómo registrarse para recibir notificaciones del almacén de mensajes.
+- [Control de la notificación del almacén de](handling-message-store-notification.md)mensajes: describe cómo registrarse para las notificaciones del almacén de mensajes.
     
-- [Entrega](handing-address-book-notification.md)de notificaciones de la libreta de direcciones: describe cómo registrar y administrar las notificaciones de la libreta de direcciones.
+- [Notificación de libreta de direcciones](handing-address-book-notification.md)de entrega: describe cómo registrarse y administrar las notificaciones de la libreta de direcciones.
     
-- [Notificación](handling-table-notification.md)de la tabla de administración: describe cómo registrar las notificaciones en la tabla de jerarquías.
+- [Controlar la notificación de tabla:](handling-table-notification.md)describe cómo registrar las notificaciones de la tabla de jerarquía.
     
-- [Implementar un objeto de receptor](implementing-an-advise-sink-object.md)de notificaciones: describe cómo implementar un objeto de receptor de notificaciones.
+- [Implementación de un objeto receptor de aviso:](implementing-an-advise-sink-object.md)describe cómo implementar un objeto receptor de aviso.
     
-- [Cronometrar una notificación](timing-a-notification.md): describe el momento de la notificación del cliente por proveedores de servicios.
+- [Temporización de una](timing-a-notification.md)notificación: describe el momento en que los proveedores de servicios han recibido una notificación de cliente.
     
-- [Garantizar una notificación de seguridad para](ensuring-a-thread-safe-notification.md)subprocesos: describe cómo garantizar la notificación de seguridad para subprocesos con MAPI.
+- [Garantizar una notificación Thread-Safe:](ensuring-a-thread-safe-notification.md)describe cómo garantizar una notificación segura para subprocesos con MAPI.
     
-- [Forzar una notificación](forcing-a-notification.md): describe cómo forzar una notificación en MAPI.
+- [Forzar una notificación:](forcing-a-notification.md)describe cómo forzar una notificación en MAPI.
     
 

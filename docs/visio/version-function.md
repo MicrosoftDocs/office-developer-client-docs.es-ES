@@ -25,7 +25,7 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-VERSIÓN ()
+VERSION()
   
 ### <a name="return-value"></a>Valor devuelto
 

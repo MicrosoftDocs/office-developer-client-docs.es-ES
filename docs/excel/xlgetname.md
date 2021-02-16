@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlGetName
 keywords:
-- función xlgetname [Excel 2007]
+- función xlgetname [excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -28,7 +28,7 @@ Devuelve la ruta de acceso completa y el nombre de archivo de la DLL en forma de
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 Esta función no tiene argumentos.
   

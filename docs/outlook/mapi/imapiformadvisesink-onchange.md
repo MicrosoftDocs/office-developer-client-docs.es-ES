@@ -33,11 +33,11 @@ HRESULT OnChange(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulDir_
   
-> a Máscara de máscara de marcadores que proporciona información sobre el cambio que se ha producido en el visor y la respuesta esperada en el formulario. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que proporciona información sobre el cambio que se ha producido en el visor y la respuesta esperada en el formulario. Se pueden establecer las siguientes marcas:
     
 VCSTATUS_CATEGORY 
   
@@ -45,15 +45,15 @@ VCSTATUS_CATEGORY
     
 VCSTATUS_INTERACTIVE 
   
-> El formulario debe mostrar una interfaz de usuario. Si no se establece esta marca, el formulario debe suprimir la visualización de una interfaz de usuario, incluso en respuesta a un verbo que normalmente hace que se muestre una interfaz de usuario. 
+> El formulario debe mostrar una interfaz de usuario. Si no se establece esta marca, el formulario debería suprimir la visualización de una interfaz de usuario, incluso en respuesta a un verbo que normalmente hace que se muestre una interfaz de usuario. 
     
 VCSTATUS_MODAL 
   
-> El formulario es modal para el visor de formulario. 
+> El formulario debe ser modal para el visor del formulario. 
     
 VCSTATUS_NEXT 
   
-> Hay un mensaje siguiente en el visor de formularios. 
+> Hay un siguiente mensaje en el visor de formularios. 
     
 VCSTATUS_PREV 
   
@@ -61,7 +61,7 @@ VCSTATUS_PREV
     
 VCSTATUS_READONLY 
   
-> Las operaciones de eliminar, enviar y mover deben estar deshabilitadas. 
+> Las operaciones de eliminación, envío y movimiento deben deshabilitarse. 
     
 VCSTATUS_UNREAD 
   
@@ -71,19 +71,19 @@ VCSTATUS_UNREAD
 
 S_OK 
   
-> La notificación se realizó correctamente.
+> La notificación se ha realizado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormAdviseSink:: onchange** para notificar al formulario sobre un cambio en el estado de un visor. Normalmente, el único cambio consiste en establecer o borrar la marca VCSTATUS_NEXT o VCSTATUS_PREVIOUS en función de la presencia o ausencia de un mensaje siguiente o anterior en el visor. Por lo tanto, el objeto Form habilita o deshabilita cualquier acción siguiente o anterior que admita. 
+Los visores de formularios llaman al método **IMAPIFormAdviseSink::OnChange** para notificar al formulario sobre un cambio en el estado de un visor. Normalmente, el único cambio es establecer o borrar la marca VCSTATUS_NEXT o VCSTATUS_PREVIOUS en función de la presencia o ausencia de un mensaje siguiente o anterior en el visor. En consecuencia, el objeto de formulario habilita o deshabilita las acciones siguientes o anteriores que admita. 
   
-La configuración de VCSTATUS_MODAL y VCSTATUS_INTERACTIVE no puede cambiar en un contexto de vista una vez que se ha creado.
+La configuración de VCSTATUS_MODAL y VCSTATUS_INTERACTIVE no pueden cambiar en un contexto de vista después de su creación.
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La implementación específica de este método depende completamente de los detalles del formulario. La mayoría de los objetos Form utilizan este método para cambiar la interfaz de usuario (por ejemplo, para habilitar o deshabilitar los comandos de menú o los botones para que correspondan con el parámetro de indicadores de estado del visor).
+La implementación específica de este método depende completamente de los detalles del formulario. La mayoría de los objetos de formulario usan este método para cambiar su interfaz de usuario (por ejemplo, para habilitar o deshabilitar comandos de menú o botones para que coincidan con el parámetro de indicadores de estado del visor).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

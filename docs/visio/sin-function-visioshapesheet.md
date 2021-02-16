@@ -22,13 +22,13 @@ Devuelve el seno de un ángulo.
   
 ## <a name="syntax"></a>Sintaxis
 
-SIN (* * *Angle* * *) 
+SIN(** *angle* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el seno.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que obtener el seno.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -36,7 +36,7 @@ Número
   
 ## <a name="remarks"></a>Comentarios
 
-La función SIN usa radianes a menos que especifique una unidad de medida diferente en el _ángulo_.
+La función SIN usa radianes a menos que especifique una unidad de medida diferente en _ángulo._
   
 ## <a name="example"></a>Ejemplo
 

@@ -1,5 +1,5 @@
 ---
-title: IUnknown IABProvider
+title: IABProvider IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,21 +29,21 @@ Proporciona un método para iniciar sesión en un objeto de proveedor de libreta
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapispi. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapispi.h  <br/> |
 |Expuesto por:  <br/> |Objetos de proveedor de la libreta de direcciones  <br/> |
 |Implementado por:  <br/> |Proveedores de libretas de direcciones  <br/> |
 |Llamado por:  <br/> |MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IABProvider  <br/> |
 |Tipo de puntero:  <br/> |LPABPROVIDER  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
 |[Inicio de sesión](iabprovider-logon.md) <br/> |Establece una conexión a una sesión activa.  <br/> |
 |[Apagado](iabprovider-shutdown.md) <br/> |Cancela una conexión a una sesión activa.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

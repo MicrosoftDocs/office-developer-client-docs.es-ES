@@ -25,7 +25,7 @@ ms.locfileid: "33433902"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica que un remitente de mensaje ha solicitado una conversión de contenido de mensaje para un destinatario en particular.
+Indica que un remitente del mensaje ha solicitado una conversión de contenido de mensaje para un destinatario determinado.
   
 |||
 |:-----|:-----|
@@ -38,15 +38,15 @@ Indica que un remitente de mensaje ha solicitado una conversión de contenido de
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -54,7 +54,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

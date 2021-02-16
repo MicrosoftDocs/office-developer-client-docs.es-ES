@@ -25,11 +25,11 @@ ms.locfileid: "33433055"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Convierte una cadena terminada en NULL de dígitos hexadecimales en un entero largo sin signo. 
+Convierte una cadena terminada en null de dígitos hexadecimales en un entero largo sin signo. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,20 +39,20 @@ LPCSTR lpsz
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpsz_
   
-> a Puntero a la cadena terminada en null que se va a convertir. El parámetro _lpsz_ no debe superar los 65536 caracteres. 
+> [entrada] Puntero a la cadena terminada en null que se va a convertir. El  _parámetro lpsz_ no debe superar los 65536 caracteres. 
     
 ## <a name="return-value"></a>Valor devuelto
 
- **UlFromSzHex** devuelve un entero largo sin signo. Si la cadena no comienza con al menos un dígito hexadecimal, se devuelve cero. 
+ **UlFromSzHex devuelve** un entero largo sin signo. Si la cadena no comienza con al menos un dígito hexadecimal, se devuelve cero. 
   
 ## <a name="remarks"></a>Comentarios
 
-La función **UlFromSzHex** detiene la conversión cuando alcanza el primer carácter de la cadena que no es un dígito hexadecimal. Por ejemplo, dada la cadena "5A", **UlFromSzHex** devuelve el valor entero 90. Dada la cadena "5g5h", la función devuelve el valor entero 5. Dada la cadena "g5h5", **UlFromSzHex** devuelve cero. 
+La **función UlFromSzHex** deja de convertirse cuando alcanza el primer carácter de la cadena que no es un dígito hexadecimal. Por ejemplo, dado la cadena "5a", **UlFromSzHex** devuelve el valor entero 90. Dada la cadena "5g5h", la función devuelve el valor entero 5. Dado la cadena "g5h5", **UlFromSzHex** devuelve cero. 
   
- **UlFromSzHex** es sensible a las diferencias diacríticas pero permite el ' a ' al ' f ' y el ' a ' a la ' f ' para dígitos hexadecimales. Se admiten cadenas en los formatos Unicode y DBCS. El límite de longitud de _lpsz_ está en caracteres, no necesariamente bytes. 
+ **UlFromSzHex es** sensible a las diferencias diacríticas, pero permite tanto "a" a "f" como "A" a "F" para dígitos hexadecimales. Se admiten cadenas en los formatos Unicode y DBCS. El límite de longitud  _de lpsz_ está en caracteres, no necesariamente bytes. 
   
 

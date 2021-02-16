@@ -25,16 +25,16 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-POINTALONGPATH (* * *sección* * *, * * *viaje* * * * * *[, desplazamiento]* * * * * *[, segmento]* * *) 
+POINTALONGPATH(** *section* **, ** *travel* ** *[,offset]* ** ** *[,segment]* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Obligatorio  <br/> |**String** <br/> |Sección de geometría que representa la ruta de acceso, especificada por una referencia a su celda Path (por ejemplo, Geometry1.Path).  <br/> |
-| _carrera_ <br/> |Obligatorio  <br/> |**Double** <br/> |Porcentaje de la ruta de acceso atravesado, desde el punto inicial al punto final que identifica al punto. Debe oscilar entre 0 y 1.  <br/> |
-| _desplaza_ <br/> |Opcional  <br/> |**Double** <br/> |Distancia de desplazamiento del punto respecto de la ruta de acceso. Para obtener más información, vea los comentarios.  <br/> |
-| _sector_ <br/> |Opcional  <br/> |**Integer** <br/> |Segmento basado en 1 de la ruta de acceso en el cual se van a calcular las coordenadas.  <br/> |
+| _travel_ <br/> |Obligatorio  <br/> |**Double** <br/> |Porcentaje de la ruta de acceso atravesado, desde el punto inicial al punto final que identifica al punto. Debe oscilar entre 0 y 1.  <br/> |
+| _offset_ <br/> |Opcional  <br/> |**Double** <br/> |Distancia de desplazamiento del punto respecto de la ruta de acceso. Para obtener más información, vea los comentarios.  <br/> |
+| _segmentos_ <br/> |Opcional  <br/> |**Integer** <br/> |Segmento basado en 1 de la ruta de acceso en el cual se van a calcular las coordenadas.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -42,11 +42,11 @@ POINTALONGPATH (* * *sección* * *, * * *viaje* * * * * *[, desplazamiento]* * *
   
 ## <a name="remarks"></a>Comentarios
 
-Si la _sección_ o _segmento_ no existe, Microsoft Visio devuelve #REF!. 
+Si  _no_ existe  _una_ sección o un segmento, Microsoft Visio devuelve #REF!. 
   
-Los valores de *desplazamiento* positivos especifican puntos a la izquierda de la dirección del recorrido. 
+Los  *valores de*  desplazamiento positivo especifican puntos a la izquierda de la dirección de viaje. 
   
-Los valores de *desplazamiento* negativos especifican puntos a la derecha de la dirección del recorrido. 
+Los  *valores de*  desplazamiento negativos especifican puntos a la derecha de la dirección de viaje. 
   
 Un **punto** representa un par ordenado de coordenadas geométricas (*x,y*) como valor único. 
   

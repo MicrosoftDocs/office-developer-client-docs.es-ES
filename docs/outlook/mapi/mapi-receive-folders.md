@@ -55,10 +55,10 @@ La siguiente tabla se muestra c�mo se enrutan los mensajes con varias clases a
   
 |**Clase de mensaje entrante**|**Carpeta de recepci�n**|
 |:-----|:-----|
-|**IPM. Note. sample. simple** <br/> |Carpeta de ejemplos  <br/> |
+|**IPM. Note.Sample.Simple** <br/> |Carpeta de ejemplos  <br/> |
 |**IPM.Note** <br/> |Carpeta Bandeja de entrada  <br/> |
-|**IPM. Electrónicas** <br/> |Carpeta Bandeja de entrada  <br/> |
-|**IPM. Note. sample. simple.** <br/> |Carpeta de ejemplos  <br/> |
+|**IPM. Tarjeta de horas** <br/> |Carpeta Bandeja de entrada  <br/> |
+|**IPM. Note.Sample.Simple.Totally** <br/> |Carpeta de ejemplos  <br/> |
    
 Los clientes de llaman al m�todo de **SetReceiveFolder** para realizar una asociaci�n expl�cita entre una clase de mensaje concreto y recibir carpeta. Cuando un mensaje se entrega a una clase de mensaje vac�a, MAPI coloca el mensaje en la carpeta de recepci�n que se define para un prefijo de la clase vac�a. Por ejemplo, si el cliente tiene una carpeta de recepci�n establecida para los mensajes con la clase **IPM** y se env�a un mensaje con la clase **IPM.Note.Test**, este mensaje se colocar� en la carpeta de recepci�n para la clase de mensaje **IPM**. 
   
@@ -72,7 +72,7 @@ Al llamar a **SetReceiveFolder**, los clientes suelen pasan una cadena de la cla
    
 Aunque la clase de un mensaje nunca debe estar vac�o, se puede producir una clase de mensaje vac�a. Es responsabilidad del almac�n de mensajes para asignar la clase de mensaje a **IPM** para nuevos mensajes salientes que tienen una clase vac�a; es responsabilidad del proveedor de transporte para asignar **IPM.Note** como la clase para los mensajes entrantes que tienen cualquier clase vac�a. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

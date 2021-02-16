@@ -19,17 +19,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430171"
 ---
-# <a name="objectnotification"></a>OBJECT_NOTIFICATION
+# <a name="object_notification"></a>OBJECT_NOTIFICATION
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información sobre un objeto que ha sufrido un cambio, como copiar o modificar.
+Contiene información sobre un objeto que se ha sometido a un cambio, como copiarse o modificarse.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _OBJECT_NOTIFICATION
@@ -48,11 +48,11 @@ typedef struct _OBJECT_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cbEntryID**
   
-> Número de bytes en el identificador de entrada al que apunta el miembro **lpEntryID** . 
+> Número de bytes en el identificador de entrada al que apunta el **miembro lpEntryID.** 
     
  **lpEntryID**
   
@@ -72,11 +72,11 @@ MAPI_ADDRBOOK
     
 MAPI_FOLDER 
   
-> Ella.
+> Carpeta.
     
 MAPI_ABCONT 
   
-> Contenedor de libreta de direcciones.
+> Contenedor de la libreta de direcciones.
     
 MAPI_MESSAGE 
   
@@ -100,7 +100,7 @@ MAPI_PROFSECT
     
 MAPI_STATUS 
   
-> Objeto status.
+> Objeto Status.
     
 MAPI_SESSION 
   
@@ -108,35 +108,35 @@ MAPI_SESSION
     
  **cbParentID**
   
-> Número de bytes en el identificador de entrada al que apunta el miembro **lpParentID** . 
+> Recuento de bytes en el identificador de entrada al que apunta el **miembro lpParentID.** 
     
  **lpParentID**
   
-> Puntero al identificador de entrada del elemento primario del objeto afectado.
+> Puntero al identificador de entrada del objeto primario del objeto afectado.
     
  **cbOldID**
   
-> Número de bytes en el identificador de entrada al que apunta el miembro **lpOldID** . 
+> Recuento de bytes en el identificador de entrada al que apunta el **miembro lpOldID.** 
     
  **lpOldID**
   
-> Puntero al identificador de entrada del objeto original. Este puntero puede ser nulo si el evento no requiere un objeto original.
+> Puntero al identificador de entrada del objeto original. Este puntero puede ser NULL si el evento no requiere un objeto original.
     
  **cbOldParentID**
   
-> Número de bytes en el identificador de entrada al que apunta el miembro **lpOldParentID** . 
+> Recuento de bytes en el identificador de entrada al que apunta el **miembro lpOldParentID.** 
     
  **lpOldParentID**
   
-> Puntero al identificador de entrada del elemento primario del objeto original. Este puntero puede ser nulo si el evento no requiere un objeto original.
+> Puntero al identificador de entrada del objeto primario del objeto original. Este puntero puede ser NULL si el evento no requiere un objeto original.
     
  **lpPropTagArray**
   
-> Puntero a una estructura [SPropTagArray](sproptagarray.md) que contiene las etiquetas de propiedad que identifican las propiedades afectadas por el evento. 
+> Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene las etiquetas de propiedad que identifican las propiedades afectadas por el evento. 
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **OBJECT_NOTIFICATION** es uno de los miembros de la Unión de estructuras incluidas en el miembro de **información** de la estructura de [notificación](notification.md) . Cuando el miembro de **información** de una estructura de **notificación** contiene una estructura **OBJECT_NOTIFICATION** , el miembro **ulEventType** de la estructura de **notificación** se establece en uno de los siguientes tipos de eventos: 
+La **OBJECT_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de** información de la [estructura notification.](notification.md) Cuando el miembro  **de** información de una estructura notification contiene una estructura **OBJECT_NOTIFICATION,** el miembro **ulEventType** de la estructura **NOTIFICATION** se establece en uno de los siguientes tipos de eventos: 
   
 - fnevObjectCreated
     
@@ -150,9 +150,9 @@ La estructura **OBJECT_NOTIFICATION** es uno de los miembros de la Unión de est
     
 - fnevSearchComplete
     
-El evento de finalización de búsqueda, representado por el tipo de evento fnevSearchComplete, indica que se ha completado la búsqueda inicial del dominio para una carpeta de búsqueda.
+El evento de búsqueda completa, representado por el tipo de evento fnevSearchComplete, indica que se ha completado la búsqueda inicial del dominio para una carpeta de búsqueda.
   
-Los siguientes miembros que contienen información sobre el objeto original se usan sólo en los eventos de movimiento y copia. 
+Los siguientes miembros que contienen información sobre el objeto original solo se usan en eventos de movimiento y copia. 
   
 - **cbOldID**
     
@@ -164,15 +164,15 @@ Los siguientes miembros que contienen información sobre el objeto original se u
     
 Estos miembros no se aplican a los otros tipos de eventos.
   
-Para obtener más información acerca de las notificaciones, vea los temas que se describen en la tabla siguiente.
+Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
-|[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar [el método IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

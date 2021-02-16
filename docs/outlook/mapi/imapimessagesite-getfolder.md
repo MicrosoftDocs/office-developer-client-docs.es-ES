@@ -25,7 +25,7 @@ ms.locfileid: "33430570"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve la carpeta en la que se ha creado o abierto el mensaje actual, si existe una carpeta de ese tipo. Este método devuelve NULL en el parámetro _ppFolder_ para los mensajes incrustados, que no se almacenan directamente en una carpeta. 
+Devuelve la carpeta en la que se creó o abrió el mensaje actual, si existe dicha carpeta. Este método devuelve NULL en el  _parámetro ppFolder_ para los mensajes incrustados, que no se almacenan directamente en una carpeta. 
   
 ```cpp
 HRESULT GetFolder(
@@ -33,11 +33,11 @@ HRESULT GetFolder(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppFolder_
   
-> contempla Un puntero a un puntero a la carpeta devuelta.
+> [salida] Puntero a un puntero a la carpeta devuelta.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,7 +51,7 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -59,9 +59,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetFolder  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: GetFolder** para devolver el puntero actualmente almacenado en caché a la carpeta especificada.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFolder  <br/> |MFCMAPI usa el **método IMAPIMessageSite::GetFolder** para devolver el puntero almacenado actualmente en caché a la carpeta especificada.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,5 +70,5 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulario de MAPI](mapi-form-interfaces.md)
+[Interfaces de formulario MAPI](mapi-form-interfaces.md)
 

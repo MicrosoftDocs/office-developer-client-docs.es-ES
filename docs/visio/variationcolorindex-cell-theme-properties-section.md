@@ -1,5 +1,5 @@
 ---
-title: Celda VariationColorIndex (sección Propiedades de tema)
+title: Celda VariationColorIndex (Sección de propiedades del tema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431774"
 ---
-# <a name="variationcolorindex-cell-theme-properties-section"></a>Celda VariationColorIndex (sección Propiedades de tema)
+# <a name="variationcolorindex-cell-theme-properties-section"></a>Celda VariationColorIndex (Sección de propiedades del tema)
 
 Determina el índice de color de la variación del tema activo en la página, como un entero.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **VariationColorIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **VariationColorIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | VariationColorIndex  <br/> |
    
-Para obtener una referencia desde un programa a la celda **VariationColorIndex** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a **la celda VariationColorIndex** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

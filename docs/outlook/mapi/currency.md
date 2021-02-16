@@ -29,7 +29,7 @@ Contiene un entero de 64 bits firmado que representa un valor de moneda.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct tagCY
@@ -40,23 +40,23 @@ typedef struct tagCY
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
- **Mínimos**
+ **Lo**
   
-> 32 bits de orden inferior del valor de moneda. 
+> Orden bajo 32 bits del valor de moneda. 
     
- **Tal**
+ **Hola**
   
-> 32 bits de orden superior del valor de moneda.
+> Orden alto 32 bits del valor de moneda.
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura de **moneda** es una representación de enteros a escala de un número decimal con cuatro dígitos a la derecha de la coma decimal. Por ejemplo, un valor almacenado de 327500 se debe interpretar como que representa un valor de moneda de 32,7500. 
+La **estructura CURRENCY** es una representación de enteros con escala de un número decimal con cuatro dígitos a la derecha del separador decimal. Por ejemplo, un valor almacenado de 327500 se interpretará como un valor de moneda de 32,7500. 
   
-La estructura de **divisa** se usa para describir una propiedad de tipo PT_CURRENCY. Para obtener información acerca de los tipos de propiedades, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
+La **estructura CURRENCY** se usa para describir una propiedad de tipo PT_CURRENCY. Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

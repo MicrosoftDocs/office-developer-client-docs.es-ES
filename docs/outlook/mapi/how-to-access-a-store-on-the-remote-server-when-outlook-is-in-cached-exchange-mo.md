@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
-description: 'Última modificación: 2012 de julio de 2002'
+description: 'Última modificación: 2 de julio de 2012'
 ms.openlocfilehash: cfc20c1a9ca4510ffec86bf16666f1fc50822321
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.locfileid: "33433867"
   
 Este tema contiene un ejemplo de código en C++ que muestra cómo usar la marca **MAPI_NO_CACHE** para abrir una carpeta o un mensaje en un almacén de mensajes en el servidor remoto cuando Microsoft Office Outlook está en modo caché de Exchange. 
   
-El modo caché de Exchange permite a Outlook usar una copia local del buzón de un usuario mientras Outlook mantiene una conexión en línea a una copia remota del buzón del usuario en el servidor remoto de Exchange. Cuando Outlook se ejecuta en modo caché de Exchange, de forma predeterminada, todas las soluciones MAPI que inicien sesión en la misma sesión también se conectan al almacén de mensajes en caché. Los datos a los que se obtiene acceso y los cambios realizados se realizan en la copia local del buzón.
+El modo caché de Exchange permite a Outlook usar una copia local del buzón de un usuario mientras Outlook mantiene una conexión en línea a una copia remota del buzón del usuario en el servidor remoto de Exchange. Cuando Outlook se ejecuta en modo caché de Exchange, de forma predeterminada, cualquier solución MAPI que inicie sesión en la misma sesión también se conectará al almacén de mensajes almacenado en caché. Los datos a los que se accede y los cambios realizados se realizan en la copia local del buzón.
   
-Un cliente o un proveedor de servicios puede invalidar la conexión al almacén de mensajes local y abrir un mensaje o una carpeta en el almacén remoto estableciendo el bit de **MAPI_NO_CACHE** en el parámetro *ulFlags* al llamar a **[IMsgStore:: OpenEntry](imsgstore-openentry.md)**. 
+Un cliente o proveedor de servicios puede invalidar la conexión al almacén de mensajes local y abrir un mensaje o una carpeta en el almacén remoto estableciendo el bit para **MAPI_NO_CACHE** en el parámetro  *ulFlags*  al llamar a **[IMsgStore::OpenEntry](imsgstore-openentry.md)**. 
   
-El siguiente ejemplo de código muestra cómo llamar a **IMsgStore:: OpenEntry** con la marca **MAPI_NO_CACHE** establecida en el parámetro *ulFlags* para abrir la carpeta raíz en el almacén de mensajes remotos. 
+En el ejemplo de código siguiente se muestra cómo llamar a **IMsgStore::OpenEntry** con la marca **MAPI_NO_CACHE** establecida en el parámetro  *ulFlags*  para abrir la carpeta raíz en el almacén de mensajes remoto. 
   
 ```cpp
 HRESULT HrOpenRootFolder ( 
@@ -44,7 +44,7 @@ HRESULT HrOpenRootFolder (
 }
 ```
 
-Si ha abierto el almacén de mensajes con la marca **MDB_ONLINE** en el servidor remoto, no es necesario que use la marca **MAPI_NO_CACHE** . 
+Si abrió el almacén de mensajes con la **marca MDB_ONLINE** en el servidor remoto, no es necesario usar la **marca MAPI_NO_CACHE** cliente. 
   
 ## <a name="see-also"></a>Vea también
 

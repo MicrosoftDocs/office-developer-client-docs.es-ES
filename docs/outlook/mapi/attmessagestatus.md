@@ -21,16 +21,16 @@ ms.locfileid: "33430318"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las marcas de mensajes MAPI se asignan a las marcas TNEF para mantener la compatibilidad con versiones anteriores. Todas las marcas se agrupan y se codifican en un solo byte. Las asignaciones son las siguientes:
+Las marcas de mensajes MAPI se asignan a marcas TNEF para conservar la compatibilidad con versiones anteriores. Todas las marcas se agrupan y codifican en un único byte. Las asignaciones son las siguientes:
   
-|**Marcas de mensaje MAPI**|**Marcas TNEF**|
+|**Indicadores de mensajes MAPI**|**Marcas TNEF**|
 |:-----|:-----|
 |MSGFLAG_READ  <br/> |fmsRead  <br/> |
-|MSGFLAG_UNMODIFED  <br/> |~ fmsModified  <br/> |
+|MSGFLAG_UNMODIFED  <br/> |~fmsModified  <br/> |
 |MSGFLAG_SUBMIT  <br/> |fmsSubmitted  <br/> |
 |MSGFLAG_HASATTACH  <br/> |fmsHasAttach  <br/> |
 |MSGFLAG_UNSENT  <br/> |fmsLocal  <br/> |
    
-Estas marcas se definen en la TNEF. H archivo de encabezado.
+Estas marcas se definen en el TNEF. Archivo de encabezado H.
   
 

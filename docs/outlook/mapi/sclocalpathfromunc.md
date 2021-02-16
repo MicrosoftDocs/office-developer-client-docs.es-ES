@@ -25,11 +25,11 @@ ms.locfileid: "33432236"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca una ruta de acceso local equivalente a la ruta de acceso UNC (Convención de nomenclatura universal) dada. 
+Busca un equivalente de ruta de acceso local a la ruta de acceso UNC (convención de nomenclatura universal) especificada. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -41,25 +41,25 @@ SCODE ScLocalPathFromUNC(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _szUNC_
   
-> a Una ruta de acceso con \\el formato [ _servidor_]\[ _RecursoCompartido_]\[ _ruta_] de un archivo o directorio.
+> [entrada] Una ruta de acceso con el \\ formato [ _servidor_] \[ _compartir_] \[ _ruta_ de acceso] de un archivo o directorio.
     
  _szLocal_
   
-> contempla Una ruta de acceso con el formato [ _unidad:_]\[ _ruta de acceso_] del mismo archivo o directorio que para el parámetro _szUNC_ . 
+> [salida] Una ruta de acceso con el formato [ _unidad:_] ruta de acceso] del mismo archivo \[ o directorio que para el _parámetro szUNC._ 
     
  _cchLocal_
   
-> a Tamaño del búfer para la cadena de salida.
+> [entrada] Tamaño del búfer de la cadena de salida.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> Una ruta de acceso local se encontró correctamente.
+> Se ha localizado correctamente una ruta de acceso local.
     
 MAPI_E_TOO_BIG
   
@@ -73,7 +73,7 @@ MAPI_E_NOT_FOUND
   
 > No se encontró una ruta de acceso local.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

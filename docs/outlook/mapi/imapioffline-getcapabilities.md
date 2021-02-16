@@ -25,7 +25,7 @@ ms.locfileid: "33433377"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obtiene las condiciones para las que se admiten las devoluciones de llamada por un objeto sin conexión.
+Obtiene las condiciones para las que un objeto sin conexión admite devoluciones de llamada.
   
 ```cpp
 HRESULT GetCapabilities( 
@@ -33,29 +33,29 @@ HRESULT GetCapabilities(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pulCapablities_
   
-> contempla Máscara de máscara de las siguientes marcas de capacidad:
+> [salida] Máscara de bits de las siguientes marcas de funcionalidad:
     
 MAPIOFFLINE_CAPABILITY_OFFLINE
   
-> El objeto sin conexión es capaz de ofrecer notificaciones sin conexión.
+> El objeto sin conexión es capaz de proporcionar notificaciones sin conexión.
     
 MAPIOFFLINE_CAPABILITY_ONLINE
   
-> El objeto sin conexión es capaz de ofrecer notificaciones en línea.
+> El objeto sin conexión es capaz de proporcionar notificaciones en línea.
     
 ## <a name="remarks"></a>Comentarios
 
-Al abrir un objeto sin conexión con **[HrOpenOfflineObj](hropenofflineobj.md)**, un cliente puede realizar una consulta en [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) para obtener un puntero a una interfaz de **IMAPIOffline** y llamar a **IMAPIOffline:: GetCapabilities** para conocer las devoluciones de llamada admitidas por el objeto. A continuación, el cliente puede elegir configurar las devoluciones de llamada mediante **IMAPIOfflineMgr**.
+Al abrir un objeto sin conexión mediante **[HrOpenOfflineObj](hropenofflineobj.md)**, un cliente puede consultar [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) para obtener un puntero a una interfaz **IMAPIOffline** y llamar a **IMAPIOffline::GetCapabilities** para averiguar las devoluciones de llamada admitidas por el objeto. A continuación, el cliente puede elegir configurar las devoluciones de llamada **mediante IMAPIOfflineMgr**.
   
-Tenga en cuenta que, según el servidor de correo de un objeto sin conexión, un objeto que admite las devoluciones de llamada para la conexión no es necesariamente compatible con las devoluciones de llamada para desconectarse.
+Tenga en cuenta que, según el servidor de correo de un objeto sin conexión, un objeto que admite devoluciones de llamada para ponerse en línea no admite necesariamente devoluciones de llamada para desconectarse.
   
-Además, tenga en cuenta que, aunque un objeto sin conexión puede admitir devoluciones de llamada para cambios que no sean en línea o sin conexión, la API de estado sin conexión solo admite cambios en línea o sin conexión, y los clientes deben comprobar solo dichas funciones.
+Tenga en cuenta también que, aunque un objeto sin conexión puede admitir devoluciones de llamada para cambios que no son en línea o sin conexión, la API de estado sin conexión solo admite cambios en línea o sin conexión, y los clientes deben comprobar solo dichas funcionalidades.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

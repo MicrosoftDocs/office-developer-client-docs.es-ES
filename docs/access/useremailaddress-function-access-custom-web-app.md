@@ -27,6 +27,6 @@ Devuelve la dirección de correo electrónico del usuario actual.
   
 ## <a name="remarks"></a>Comentarios
 
-La función **UserEmailAddress** solo está disponible en las macros de la interfaz de usuario (UI). 
+La **función UserEmailAddress** solo está disponible en macros de interfaz de usuario (UI). 
   
 

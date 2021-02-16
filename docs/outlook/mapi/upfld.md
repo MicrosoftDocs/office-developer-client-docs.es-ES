@@ -19,7 +19,7 @@ ms.locfileid: "33431361"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para cargar una carpeta durante el estado de [carga](upload-folder-state.md)de la carpeta.
+Información para cargar una carpeta durante el estado [de carga de la carpeta.](upload-folder-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -37,37 +37,37 @@ struct UPFLD
 
 _ulFlags_
   
->  [salida]/[in] Flags para determinar las acciones adecuadas para uplaod. 
+>  [out]/[in] Marcas para determinar las acciones apropiadas para el uplaod. 
     
   - UPF_NEW
     
-    - contempla La carpeta es nueva.
+    - [salida] La carpeta es nueva.
     
   - UPF_MOD_PARENT
     
-    - contempla La carpeta se ha movido.
+    - [salida] Se ha movido la carpeta.
     
   - UPF_MOD_PROPS
     
-    - contempla Las propiedades de la carpeta se han modificado.
+    - [salida] Se han modificado las propiedades de carpeta.
     
   - UPF_DEL
     
-    - contempla Se ha eliminado la carpeta.
+    - [salida] Se eliminó la carpeta.
     
   - UPF_OK
     
-    - a La carga se realizó correctamente. El cliente lo establece después de cargar la información de la carpeta en el servidor.
+    - [entrada] La carga se ha realizado correctamente. El cliente establece esto después de cargar la información de la carpeta en el servidor.
     
 _pfld_
   
-> contempla Objeto Folder abierto que se va a cargar.
+> [salida] Objeto de carpeta abierta que se debe cargar.
     
 _feid_
   
 > [salida] Id. de entrada de la carpeta.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de replicación](about-the-replication-api.md) 
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

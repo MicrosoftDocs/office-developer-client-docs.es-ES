@@ -19,7 +19,7 @@ ms.locfileid: "33430409"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para sincronizar el contenido de las carpetas especificadas en un almacén local con el servidor durante el [Estado Synchronize Contents](synchronize-contents-state.md). Esto solo implica carga o una sincronización completa que implique una carga y, a continuación, una descarga.
+Información para sincronizar el contenido de las carpetas especificadas en un almacén local con el servidor durante el [estado de sincronización del contenido.](synchronize-contents-state.md) Esto implica simplemente la carga o una sincronización completa que implica una carga y, a continuación, una descarga.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -39,33 +39,33 @@ struct SYNCCONT
 
 _ulFlags_
   
-> a Marcas para determinar el comportamiento adecuado durante la sincronización.
+> [entrada] Marcas para determinar el comportamiento adecuado durante la sincronización.
     
   - UPC_OK
     
-  - a La carga o la sincronización completa se han realizado correctamente. El cliente lo establece después de sincronizar la información con el servidor.
+  - [entrada] La carga o sincronización completa se ha realizado correctamente. El cliente establece esto después de sincronizar la información con el servidor.
     
 _iEnt_
   
-> contempla Índice para realizar un seguimiento de la sincronización del contenido en el número de carpetas especificado en _cEnt_.
+> [salida] Índice para realizar un seguimiento de la sincronización del contenido en el número de carpetas especificadas por  _cEnt_.
     
-_Ciento_
+_cEnt_
   
-> contempla Número de carpetas que se van a replicar.
+> [salida] Número de carpetas que se replicarán.
     
 _pvReserved_
   
-> Este miembro está reservado para uso interno de Outlook y no es compatible. 
+> Este miembro está reservado para el uso interno de Outlook y no es compatible. 
     
 _ptagaReserved_
   
-> Este miembro está reservado para uso interno de Outlook y no es compatible. 
+> Este miembro está reservado para el uso interno de Outlook y no es compatible. 
     
 _psosReserved_
   
-> Este miembro está reservado para uso interno de Outlook y no es compatible. 
+> Este miembro está reservado para el uso interno de Outlook y no es compatible. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

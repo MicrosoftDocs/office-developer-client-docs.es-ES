@@ -21,9 +21,9 @@ ms.locfileid: "33428931"
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Bloque de macros con comentario (aplicación web personalizada de Access)](comment-macro-block-access-custom-web-app.md)
+- [Bloque de macros de comentario (aplicación web personalizada de Access)](comment-macro-block-access-custom-web-app.md)
     
-- [Si... A continuación,... Bloque de macros else (aplicación web personalizada de Access)](ifthenelse-macro-block-access-custom-web-app.md)
+- [Si... A continuación... Bloque de macros Else (aplicación web personalizada de Access)](ifthenelse-macro-block-access-custom-web-app.md)
     
 - [Bloque de macros de grupo (aplicación web personalizada de Access)](group-macro-block-access-custom-web-app.md)
     

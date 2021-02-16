@@ -36,21 +36,21 @@ Contiene información adicional para su uso en un informe.
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades contienen información generada por el agente de transferencia de mensajes o el proveedor de transporte relacionado con el informe. Se suele usar para el texto de informe de entrega o no entrega que se originó en el sistema de mensajería subyacente.
+Estas propiedades contienen información generada por el agente de transferencia de mensajes o el proveedor de transporte relacionado con el informe. Normalmente se usa para el texto del informe de entrega o no entrega que se originó con el sistema de mensajería subyacente.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Abrir o convertir una plantilla de formulario creada con el kit de herramientas de InfoPath
+title: Abrir o convertir una plantilla de formulario creada con infoPath Toolkit
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428588"
 ---
-# <a name="open-or-convert-a-form-template-created-with-the-infopath-toolkit"></a>Abrir o convertir una plantilla de formulario creada con el kit de herramientas de InfoPath
+# <a name="open-or-convert-a-form-template-created-with-the-infopath-toolkit"></a>Abrir o convertir una plantilla de formulario creada con infoPath Toolkit
 
 Si creó una plantilla de código administrado en InfoPath 2003 usando el kit de herramientas de InfoPath 2003 para Visual Studio y desea mantener la compatibilidad con InfoPath 2003, puede seguir trabajando y desarrollando el proyecto abriéndolo en Microsoft InfoPath y Visual Studio 2012.
   

@@ -19,41 +19,41 @@ ms.locfileid: "33432719"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La cola MAPI es una función del proceso de Microsoft Office Outlook que se encarga de enviar y recibir mensajes de un sistema de mensajería. La cola MAPI desempeña un papel fundamental en el envío y la entrega de mensajes. Cuando un sistema de mensajería no está disponible, la cola MAPI almacena los mensajes y los reenvía automáticamente en un momento posterior. Esta capacidad de retener datos o enviarlos cuando sea necesario se conoce como almacenamiento y reenvío, una característica crítica en entornos en los que las conexiones remotas son comunes y el tráfico de red es elevado. La cola MAPI se ejecuta como un subproceso en segundo plano en Outlook.
+La cola MAPI es una función del proceso Microsoft Office Outlook que se encarga de enviar y recibir mensajes de un sistema de mensajería. La cola MAPI desempeña un papel fundamental en la recepción y entrega de mensajes. Cuando un sistema de mensajería no está disponible, la cola MAPI almacena los mensajes y los reenvía automáticamente más adelante. Esta capacidad de retener o enviar datos cuando sea necesario se conoce como almacenar y reenviar, una característica crítica en entornos donde las conexiones remotas son comunes y el tráfico de red es alto. La cola MAPI se ejecuta como un subproceso en segundo plano en Outlook.
   
-La cola MAPI tiene responsabilidades adicionales relacionadas con la distribución de mensajes. Entre estos deberes adicionales se incluyen los siguientes:
+La cola MAPI tiene responsabilidades adicionales relacionadas con la distribución de mensajes. Entre estas tareas adicionales se incluyen las siguientes:
   
-- Mantener un seguimiento de los tipos de destinatarios que administran los proveedores de transporte específicos.
+- Realizar un seguimiento de los tipos de destinatarios que administran proveedores de transporte específicos.
     
-- Informar de una aplicación cliente cuando se ha entregado un nuevo mensaje.
+- Informar a una aplicación cliente cuando se ha entregado un nuevo mensaje.
     
-- Invocar el preprocesamiento y el procesamiento de mensajes.
+- Invocar preprocesamiento y posprocesamiento de mensajes.
     
-- Generar informes que indican que se ha producido la entrega de mensajes.
+- Generación de informes que indican que se ha producido la entrega de mensajes.
     
-- Mantenimiento del estado de los destinatarios procesados.
+- Mantener el estado de los destinatarios procesados.
     
-En la siguiente ilustración se muestra a alto nivel cómo fluye un mensaje de un cliente al sistema de mensajería.
+En la siguiente ilustración se muestra en un nivel alto cómo fluye un mensaje desde un cliente al sistema de mensajería.
   
 **Flujo de mensajes salientes**
   
-![Flujo de mensajes salientes] (media/amapi_46.gif "Flujo de mensajes salientes")
+![Flujo de mensajes salientes Flujo](media/amapi_46.gif "de mensajes salientes")
   
-El usuario de una aplicación cliente envía un mensaje a uno o más destinatarios. El proveedor de almacenamiento de mensajes inicia el proceso de envío, da formato al mensaje con la información adicional necesaria para la transmisión.
+El usuario de una aplicación cliente envía un mensaje a uno o más destinatarios. El proveedor del almacén de mensajes inicia el proceso de envío, formateando el mensaje con información adicional necesaria para la transmisión.
   
-La cola MAPI recibe el mensaje para procesar si se produce alguna de las condiciones siguientes:
+La cola MAPI recibe el mensaje para procesar si se produce alguna de las siguientes condiciones:
   
-- El proveedor de almacenamiento de mensajes no está estrechamente acoplado a un proveedor de transporte.
+- El proveedor de almacenamiento de mensajes no está estrechamente asociado con un proveedor de transporte.
     
 - El mensaje requiere preprocesamiento.
     
-- El almacén de mensajes y el proveedor de transporte están íntimamente acoplados, pero no pueden administrar todos los destinatarios a los que se dirige el mensaje.
+- El almacén de mensajes y el proveedor de transporte están estrechamente emparejados, pero no pueden controlar todos los destinatarios a los que se dirige el mensaje.
     
-Si la cola MAPI recibe el mensaje, realiza los preprocesamientos necesarios y entrega el mensaje al proveedor de transporte correspondiente. El proveedor de transporte entrega el mensaje a su sistema de mensajería, que lo envía a su destinatario previsto.
+Si la cola MAPI recibe el mensaje, realiza cualquier preprocesamiento necesario y entrega el mensaje al proveedor de transporte adecuado. El proveedor de transporte entrega el mensaje a su sistema de mensajería, que lo envía a su destinatario previsto.
   
-Con los mensajes entrantes, el flujo se invierte. El proveedor de transporte recibe un mensaje de su sistema de mensajería y lo notifica a la cola de impresión de MAPI. La cola de impresión realiza los postprocesamientos necesarios e informa al proveedor del almacén de mensajes que ha recibido un mensaje nuevo. Esta notificación hace que el cliente actualice la presentación del mensaje, lo que permite al usuario leer el nuevo mensaje.
+Con los mensajes entrantes, el flujo se invierte. El proveedor de transporte recibe un mensaje de su sistema de mensajería y se lo comunica a la cola MAPI. Spooler realiza el posprocesamiento necesario e informa al proveedor de al almacenamiento de mensajes de que ha llegado un nuevo mensaje. Esta notificación hace que el cliente actualice su visualización de mensajes, lo que permite al usuario leer el nuevo mensaje.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Arquitectura y características de MAPI](mapi-features-and-architecture.md)
+- [Arquitectura y características mapi](mapi-features-and-architecture.md)
 

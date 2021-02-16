@@ -25,11 +25,11 @@ ms.locfileid: "33429491"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca una etiqueta de propiedad determinada en una interfaz [IMAPIProp](imapipropiunknown.md) o una interfaz derivada de **IMAPIProp**, como [IMessage](imessageimapiprop.md) o [IMAPIFolder](imapifolderimapicontainer.md). 
+Busca una etiqueta de propiedad determinada en una [interfaz IMAPIProp](imapipropiunknown.md) o una interfaz derivada de **IMAPIProp**, como [IMessage](imessageimapiprop.md) o [IMAPIFolder](imapifolderimapicontainer.md). 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -40,28 +40,28 @@ BOOL FPropExists(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pobj_
   
-> a Puntero a la interfaz **IMAPIProp** o interfaz derivada de **IMAPIProp** en la que se va a buscar la etiqueta de propiedad. 
+> [entrada] Puntero a la **interfaz IMAPIProp** o interfaz derivada de **IMAPIProp** en la que se va a buscar la etiqueta de propiedad. 
     
  _ulPropTag_
   
-> a Etiqueta de propiedad que se va a buscar.
+> [entrada] Etiqueta de propiedad para la que se va a buscar.
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> Se encontró una coincidencia para la etiqueta de propiedad especificada. 
+> Se encontró una coincidencia para la etiqueta de propiedad determinada. 
     
 FALSE 
   
-> No se encontró una coincidencia para la etiqueta de propiedad especificada.
+> No se encontró una coincidencia para la etiqueta de propiedad determinada.
     
 ## <a name="remarks"></a>Comentarios
 
-Si la etiqueta de propiedad del parámetro _ulPropTag_ es de tipo PT_UNSPECIFIED, la función **FPropExists** busca una coincidencia basada solo en el identificador de la propiedad. De lo contrario, la coincidencia es para toda la etiqueta de propiedad, incluido el tipo. 
+Si la etiqueta de propiedad del  _parámetro ulPropTag_ tiene el tipo PT_UNSPECIFIED, la función **FPropExists** busca una coincidencia basada únicamente en el identificador de propiedad. De lo contrario, la coincidencia es para toda la etiqueta de propiedad, incluido el tipo. 
   
 

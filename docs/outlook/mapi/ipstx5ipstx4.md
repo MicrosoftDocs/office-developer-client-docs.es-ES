@@ -32,13 +32,13 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 |Proporcionado por  <br/> |Consulta en [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Identificador de interfaz:  <br/> |IID_IPSTX5  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

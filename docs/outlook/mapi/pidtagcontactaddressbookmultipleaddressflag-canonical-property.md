@@ -32,25 +32,25 @@ Contiene una marca que es TRUE cuando el proveedor admite varias direcciones de 
 |Propiedades asociadas:  <br/> |PR_CONTAB_MULTI_ADDR_FLAG  <br/> |
 |Identificador:  <br/> |0x6614  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Libreta de direcciones de contacto  <br/> |
+|Área:  <br/> |Libreta de direcciones de contactos  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si esta propiedad es TRUE, el proveedor no permite contactos sin direcciones de correo electrónico. Si es FALSE, el proveedor muestra todos los contactos independientemente de si tienen una dirección de correo electrónico principal. Solo se respetará la dirección de correo electrónico principal. Se trata de una propiedad de un contenedor de libreta de direcciones de contacto y de una columna en la tabla de contenedores de la libreta de direcciones de contacto.
+Si esta propiedad es TRUE, el proveedor no permite contactos sin direcciones de correo electrónico. Si es FALSE, el proveedor muestra a todos los contactos si tienen o no una dirección de correo electrónico principal. Solo se respetará la dirección de correo electrónico principal. Se trata de una propiedad de un contenedor de libreta de direcciones de contactos y una columna de la tabla de contenedores de libreta de direcciones de contactos.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -22,9 +22,9 @@ Determina la dirección de los saltos de línea en conectores dinámicos horizon
   
 |**Valor**|**Dirección del salto de línea**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| comprendi  <br/> | Valor predeterminado; izquierda o la configuración de página para las formas  <br/> |**visLOJumpDirXDefault** <br/> |
-| 1  <br/> | Arriba  <br/> |**visLOJumpDirXUp** <br/> |
-| segundo  <br/> | Abajo  <br/> |**visLOJumpDirXDown** <br/> |
+| 0  <br/> | Valor predeterminado; izquierda o la configuración de página para las formas  <br/> |**visLOJumpDirXDefault** <br/> |
+| 1   <br/> | Arriba  <br/> |**visLOJumpDirXUp** <br/> |
+| 2   <br/> | Abajo  <br/> |**visLOJumpDirXDown** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

@@ -30,19 +30,19 @@ HRESULT IOlkAccountManager::FindAccount (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _dwProp_
   
-> a Propiedad en la que se va a realizar la búsqueda. Debe ser [PROP_ACCT_ID](prop_acct_id.md) o [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
+> [entrada] La propiedad en la que se buscará. Debe ser [PROP_ACCT_ID](prop_acct_id.md) o [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
     
 _pVar_
   
-> a El valor que debe coincidir.
+> [entrada] Valor que se debe coincidir.
     
 _ppAccount_
   
-> contempla Se ha encontrado la cuenta. Este objeto admite una interfaz [IOlkAccount](iolkaccount.md) . 
+> [salida] La cuenta encontrada. Este objeto admite una [interfaz IOlkAccount.](iolkaccount.md) 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -51,9 +51,9 @@ _ppAccount_
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |No se encuentra la cuenta especificada.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
-|E_OLK_PARAM_NOT_SUPPORTED  <br/> |Uno o más parámetros no son válidos.  <br/> |
+|E_OLK_PARAM_NOT_SUPPORTED  <br/> |Uno o varios parámetros no son válidos.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [ACCT_VARIANT](acct_variant.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  

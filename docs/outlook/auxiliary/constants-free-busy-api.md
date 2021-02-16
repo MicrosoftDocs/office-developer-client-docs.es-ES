@@ -22,25 +22,25 @@ Este tema contiene definiciones de constantes, identificadores de clase e identi
 
 |**Constante**|**Definición**|
 |:-----|:-----|
-|E_NOTIMPL  <br/> | *Tal y como se define en el archivo de encabezado Winerror. h del kit de desarrollo de software (SDK) de Microsoft Windows.*  <br/> |
-|E_OUTOFMEMORY  <br/> | *Como se define en el archivo de encabezado Winerror. h de Windows SDK.*  <br/> |
-|S_FALSE  <br/> | *Como se define en el archivo de encabezado Winerror. h de Windows SDK.*  <br/> |
-|S_OK  <br/> | *Como se define en el archivo de encabezado Winerror. h de Windows SDK.*  <br/> |
+|E_NOTIMPL  <br/> | *Tal como se define en el archivo de encabezado winerror.h del Kit de desarrollo de software (SDK) de Microsoft Windows.*  <br/> |
+|E_OUTOFMEMORY  <br/> | *Tal como se define en el archivo de encabezado winerror.h de Windows SDK.*  <br/> |
+|S_FALSE  <br/> | *Tal como se define en el archivo de encabezado winerror.h de Windows SDK.*  <br/> |
+|S_OK  <br/> | *Tal como se define en el archivo de encabezado winerror.h de Windows SDK.*  <br/> |
    
 ## <a name="interface-identifiers"></a>Identificadores de interfaz
 
-Para los siguientes identificadores de interfaz, asuma la macro DEFINE_GUID definida en el archivo de encabezado guiddef. h del SDK de Windows para asociar el nombre simbólico GUID con su valor.
+Para los siguientes identificadores de interfaz, supongamos que DEFINE_GUID macro definida en el archivo de encabezado guiddef.h de Windows SDK para asociar el nombre simbólico GUID con su valor.
   
 {00067064-0000-0000-C000-000000000046}
   
-DEFINE_GUID (IID_IEnumFBBlock, 0x00067064, 0X0, 0X0, 0xc0, 0X0, 0X0, 0X0, 0X0, 0X0, 0X0, 0x46);
+DEFINE_GUID(IID_IEnumFBBlock, 0x00067064, 0x0, 0x0, 0xc0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x46);
   
 {00067066-0000-0000-C000-000000000046}
   
-DEFINE_GUID (IID_IFreeBusyData, 0x00067066, 0X0, 0X0, 0xc0, 0X0, 0X0, 0X0, 0X0, 0X0, 0X0, 0x46);
+DEFINE_GUID(IID_IFreeBusyData, 0x00067066, 0x0, 0x0, 0xc0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x46);
   
 {00067067-0000-0000-C000-000000000046}
   
-DEFINE_GUID (IID_IFreeBusySupport, 0x00067067, 0X0, 0X0, 0xc0, 0X0, 0X0, 0X0, 0X0, 0X0, 0X0, 0x46);
+DEFINE_GUID(IID_IFreeBusySupport, 0x00067067, 0x0, 0x0, 0xc0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x46);
   
 

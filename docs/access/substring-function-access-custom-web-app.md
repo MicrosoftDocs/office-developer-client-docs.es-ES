@@ -1,5 +1,5 @@
 ---
-title: Función substring (aplicación web personalizada de Access)
+title: Función SubString (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433475"
 ---
-# <a name="substring-function-access-custom-web-app"></a>Función substring (aplicación web personalizada de Access)
+# <a name="substring-function-access-custom-web-app"></a>Función SubString (aplicación web personalizada de Access)
 
 Devuelve parte de una expresión de texto.
   
@@ -23,14 +23,14 @@ Devuelve parte de una expresión de texto.
   
 ## <a name="syntax"></a>Sintaxis
 
- **Subcadena** (*TextExpression*, *Inicio*, *longitud*) 
+ **SubString** (*TextExpression*, *Start*, *Length*) 
   
-La **** función Substring contiene los siguientes argumentos. 
+La **función SubString** contiene los argumentos siguientes. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Una expresión de texto.  <br/> |
-| *Start*  <br/> |Expresión de tipo Integer que especifica dónde se inician los caracteres devueltos. Si Start es menor que 1, la expresión que se devuelve comenzará en el primer carácter que se especifique en la expresión. En este caso, el número de caracteres que se devuelven es el mayor valor de la suma de Start + length-1 o 0. Si Start es mayor que el número de caracteres de la expresión de valor, se devuelve una expresión de longitud cero.  <br/> |
-| *Length*  <br/> |Expresión de número entero positivo que especifica cuántos caracteres de la expresión se van a devolver. Si length es negativo, se genera un error y se termina la instrucción. Si la suma de Start y length es mayor que el número de caracteres en la expresión, se devuelve la expresión de valor completa que comienza en Start.  <br/> |
+| *TextExpression*  <br/> |Expresión de texto.  <br/> |
+| *Start*  <br/> |Expresión de entero que especifica dónde comienzan los caracteres devueltos. Si el valor de start es menor que 1, la expresión devuelta empezará por el primer carácter especificado en la expresión. En este caso, el número de caracteres que se devuelve es el valor más grande de la suma de inicio + longitud- 1 o 0. Si start es mayor que el número de caracteres de la expresión de valor, se devuelve una expresión de longitud cero.  <br/> |
+| *Length*  <br/> |Expresión de entero positivo que especifica cuántos caracteres de la expresión se devolverán. Si la longitud es negativa, se genera un error y finaliza la instrucción. Si la suma de inicio y longitud es mayor que el número de caracteres de la expresión, se devuelve toda la expresión de valor que comienza al principio.  <br/> |
    
 

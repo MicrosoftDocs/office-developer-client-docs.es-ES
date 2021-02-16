@@ -1,5 +1,5 @@
 ---
-title: Estructura de la secuencia TNEF
+title: Estructura de secuencias TNEF
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430206"
 ---
-# <a name="tnef-stream-structure"></a>Estructura de la secuencia TNEF
+# <a name="tnef-stream-structure"></a>Estructura de secuencias TNEF
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un flujo TNEF comienza con una firma de 32 bits que identifica la secuencia como una secuencia TNEF. El seguimiento de la firma es un entero de 16 bits sin signo que se usa como clave para hacer una referencia cruzada de los datos adjuntos a su ubicación en el texto del mensaje etiquetado. El resto de la secuencia es una secuencia de atributos TNEF. Los atributos de mensaje aparecen primero en la secuencia TNEF y los atributos de datos adjuntos siguen. Los atributos que pertenecen a un archivo adjunto en particular se agrupan juntos, comenzando con el atributo **attAttachRenddata** . 
+Una secuencia TNEF comienza con una firma de 32 bits que identifica la secuencia como una secuencia TNEF. Después de la firma se muestra un entero sin signo de 16 bits que se usa como clave para hacer referencia cruzada a los datos adjuntos a su ubicación en el texto del mensaje etiquetado. El resto de la secuencia es una secuencia de atributos TNEF. Los atributos de mensaje aparecen primero en la secuencia TNEF y los atributos de datos adjuntos siguen. Los atributos que pertenecen a un dato adjunto determinado se agrupan, comenzando por el atributo **attAttachRenddata.** 
   
-La mayoría de los valores de constantes usados en las secuencias TNEF se definen en la TNEF. H archivo de encabezado. En particular, **TNEF_SIGNATURE**, **LVL_MESSAGE**, **LVL_ATTACHMENT**, y todos los identificadores de atributo TNEF se definen en este archivo. Otras constantes tienen los valores indicados por su interpretación a un compilador de lenguaje C. Normalmente, estas constantes se usan para proporcionar los tamaños del siguiente elemento. Por ejemplo, **sizeof (ulong)** en la definición de un elemento indica que debe producirse un entero que represente el tamaño del siguiente entero largo sin signo en ese lugar del flujo TNEF. 
+La mayoría de los valores de constante usados en las secuencias TNEF se definen en el TNEF. Archivo de encabezado H. En particular, **TNEF_SIGNATURE**, **LVL_MESSAGE**, **LVL_ATTACHMENT** y todos los identificadores de atributo TNEF se definen en este archivo. Otras constantes tienen los valores indicados por su interpretación en un compilador de lenguaje C. Normalmente, estas constantes se usan para dar los tamaños del siguiente elemento. Por ejemplo, **sizeof(ULONG)** en la definición de un elemento indica que un entero que representa el tamaño del siguiente entero largo sin signo debe producirse en ese lugar en la secuencia TNEF. 
   
-Todos los enteros de una secuencia TNEF se almacenan en formato binario Little-endian, pero se muestran en formato hexadecimal en esta sección. Los valores de suma de comprobación son sencillamente enteros sin signo de 16 bits que son la suma, módulo 65536, de los bytes de datos a los que se aplica la suma de comprobación. Todas las longitudes de atributo son enteros largos sin signo, incluidos los caracteres null de terminación.
+Todos los enteros de una secuencia TNEF se almacenan en formato binario little-endian, pero se muestran en formato hexadecimal en toda esta sección. Los valores de suma de comprobación son simplemente enteros sin signo de 16 bits que son la suma, modulo 65536, de los bytes de datos a los que se aplica la suma de comprobación. Todas las longitudes de atributo son enteros largos sin signo, incluidos los caracteres null finales.
   
-La clave es un entero de 16 bits sin signo que representa el valor inicial de las claves de referencia de datos adjuntos. Las claves de referencia de datos adjuntos se asignan a todos los datos adjuntos que comienzan secuencialmente por el valor inicial que pasa a la función [OpenTnefStream](opentnefstream.md) por el proveedor de servicios que usa TNEF. El proveedor de servicios debe generar un valor inicial aleatorio para la clave a fin de minimizar la posibilidad de que dos mensajes usen la misma clave. 
+La clave es un entero sin signo distinto de cero de 16 bits que significa el valor inicial de las claves de referencia de datos adjuntos. Las claves de referencia de datos adjuntos se asignan a cada dato adjunto secuencialmente a partir del valor inicial que el proveedor de servicios que usa TNEF pasa a la función [OpenTnefStream.](opentnefstream.md) El proveedor de servicios debe generar un valor inicial aleatorio para la clave para minimizar la posibilidad de que dos mensajes usen la misma clave. 
   
-La implementación de TNEF usa identificadores de atributo para asignar atributos a sus propiedades MAPI correspondientes. Un identificador de atributo es un entero sin signo de 32 bits formado por dos valores de palabras. La palabra de orden superior indica el tipo de datos, como String o Binary, y la palabra de orden inferior identifica el atributo en particular. Los tipos de datos en la palabra de orden superior son:
+La implementación de TNEF usa identificadores de atributo para asignar atributos a sus propiedades MAPI correspondientes. Un identificador de atributo es un entero sin signo de 32 bits que se forma con dos valores de palabras. La palabra de orden alto indica el tipo de datos, como cadena o binario, y la palabra de orden bajo identifica el atributo en particular. Los tipos de datos en la palabra de orden alto son:
   
 |**Tipo**|**Valor**|
 |:-----|:-----|
@@ -44,6 +44,6 @@ La implementación de TNEF usa identificadores de atributo para asignar atributo
 |atpDword  <br/> |0x0008  <br/> |
 |atpMax  <br/> |0x0009  <br/> |
    
-Los valores de palabra de orden inferior de cada atributo se definen en la TNEF. H archivo de encabezado.
+Los valores de palabra de orden bajo para cada atributo se definen en el TNEF. Archivo de encabezado H.
   
 

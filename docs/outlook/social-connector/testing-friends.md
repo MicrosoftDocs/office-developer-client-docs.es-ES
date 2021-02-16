@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 109c34b6-911b-4dfc-9799-aadf47172e84
-description: En este tema se describen las pruebas y los escenarios para comprobar que el proveedor de Outlook Social Connector (OSC) devuelve adecuadamente los datos de amigos y no amigos, cuando proceda, según el modo de sincronización que admita el proveedor.
+description: En este tema se describen las pruebas y los escenarios para comprobar que el proveedor de Outlook Social Connector (OSC) devuelve correctamente datos de amigos y no amigos, si procede, según el modo de sincronización admitido por el proveedor.
 ms.openlocfilehash: 1c97342fd5b219b15b1f58dbc065fc268f8e81d7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,44 +17,44 @@ ms.locfileid: "33433671"
 ---
 # <a name="testing-friends"></a>Probar los amigos
 
-En este tema se describen las pruebas y los escenarios para comprobar que el proveedor de Outlook Social Connector (OSC) devuelve adecuadamente los datos de amigos y no amigos, cuando proceda, según el modo de sincronización que admita el proveedor.
+En este tema se describen las pruebas y los escenarios para comprobar que el proveedor de Outlook Social Connector (OSC) devuelve correctamente datos de amigos y no amigos, si procede, según el modo de sincronización admitido por el proveedor.
 
 <a name="olosc_TestingFriends_CachedSync"> </a>
 
 ## <a name="cached-synchronization"></a>Sincronización en caché
 
-Un proveedor OSC implementa [ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md), que el OSC llama para determinar si el proveedor admite la sincronización en caché de los datos de los amigos. Después de llamar a [ISocialPerson:: GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md), el OSC almacena los datos de los amigos devueltos en una carpeta de contactos específica de la red social en la tienda de Outlook predeterminada del usuario que ha iniciado sesión. El OSC también llama a [ISocialSession:: GetPerson](isocialsession-getperson.md) y [ISocialPerson:: GetPicture](isocialperson-getpicture.md) para obtener una imagen de perfil para cada amigo. 
+Un proveedor de OSC implementa [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md), al que llama el OSC para determinar si el proveedor admite la sincronización en caché de datos de amigos. Después de llamar a [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md), el OSC almacena los datos de los amigos devueltos en una carpeta de contactos específica de la red social en el almacén de Outlook predeterminado del usuario que ha iniciado sesión. El OSC también llama a [ISocialSession::GetPerson](isocialsession-getperson.md) e [ISocialPerson::GetPicture](isocialperson-getpicture.md) para obtener una imagen de perfil para cada amigo. 
   
-### <a name="initiate-synchronization"></a>Iniciar la sincronización
+### <a name="initiate-synchronization"></a>Iniciar sincronización
 
-Para iniciar la sincronización, puede activar y usar el botón depurar los **contactos de sincronización** en el componente de la cinta de la interfaz de usuario de Microsoft Office Fluent. Para obtener más información acerca de los botones de depuración de OSC, vea dePurar [un proveedor](debugging-a-provider.md). 
+Para iniciar la sincronización, puede activar y usar el botón de depuración **Sincronizar** contactos en el componente de la cinta de opciones de Microsoft Office interfaz de usuario fluent. Para obtener más información acerca de los botones de depuración de OSC, vea [Depuración de un proveedor.](debugging-a-provider.md) 
   
 ### <a name="test-scenarios"></a>Escenarios de prueba
 
-Pruebe los siguientes elementos para comprobar que los datos de los amigos se almacenan correctamente en la memoria caché.
+Pruebe los siguientes elementos para comprobar que los datos de los amigos se almacenan en caché correctamente.
   
-|**Elemento que se va a probar**|**Comportamiento esperado**|
+|**Elemento que se debe probar**|**Comportamiento esperado**|
 |:-----|:-----|
-|Carpeta de contactos  <br/> |La carpeta de contactos específica de la red social existe en la tienda Outlook predeterminada del usuario.  <br/> |
-|Datos de amigos devueltos por **ISocialPerson:: GetFriendsAndColleagues** <br/> |Cada amigo corresponde a un contacto de la carpeta contactos específica de la red.  <br/> |
+|Carpeta contactos  <br/> |La carpeta de contactos específicos de la red social existe en el almacén de Outlook predeterminado del usuario.  <br/> |
+|Datos de amigos devueltos por **ISocialPerson::GetFriendsAndColleagues** <br/> |Cada amigo corresponde a un contacto de la carpeta de contactos específica de la red.  <br/> |
 |Datos de amigos  <br/> |Los campos de contacto de cada amigo tienen los datos correctos.  <br/> |
-|Imágenes de Perfil de amigos devueltas por **ISocialPerson:: GetPicture** <br/> |El elemento de contacto para cada amigo contiene la imagen de perfil.  <br/> |
+|Imágenes de perfil de amigos devueltas por **ISocialPerson::GetPicture** <br/> |El elemento de contacto de cada amigo contiene la imagen de perfil.  <br/> |
 
 <a name="olosc_TestingFriends_OnDemandSync"> </a>
 
 ## <a name="on-demand-synchronization"></a>Sincronización a petición
 
-Un proveedor OSC implementa **ISocialProvider:: GetCapabilities**, que el OSC llama para determinar si el proveedor admite la sincronización a petición de amigos y no amigos. Para las personas que se muestran en el panel de personas de Outlook, el OSC obtiene y aplica un algoritmo hash a sus direcciones SMTP, llama a [ISocialSession2:: GetPeopleDetails](isocialsession2-getpeopledetails.md)y almacena (en la memoria) los datos devueltos para estas personas. 
+Un proveedor de OSC implementa **ISocialProvider::GetCapabilities**, al que llama el OSC para determinar si el proveedor admite la sincronización a petición de amigos y no amigos. Para las personas que se muestran en el panel de personas de Outlook, el OSC obtiene y aplica un hash a sus direcciones SMTP, llama a [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md)y almacena (en la memoria) los datos devueltos para estas personas. 
   
-### <a name="determining-friends-and-non-friends"></a>Determinación de amigos y personas que no son amigos
+### <a name="determining-friends-and-non-friends"></a>Determinación de amigos y no amigos
 
-Las direcciones SMTP con hash pasadas a **GetPeopleDetails** son la clave para determinar si una persona es de confianza o no Friend. Si una persona no incluye esa dirección SMTP en su cuenta de red social, o incluso si es un amigo con una dirección de correo electrónico distinta en la red social, **GetPeopleDetails** sigue devolviendo a no **amigo** para esa persona como el ** friendStatus** en el parámetro _personsCollection_ . Además, para una persona que no es un amigo pero que especifica la dirección SMTP en su cuenta de red social, los datos devueltos incluyen solo lo que está disponible para los usuarios que no son de confianza y que les permite la configuración de privacidad de esa persona. 
+Las direcciones SMTP con hash que se pasan a **GetPeopleDetails** son la clave para determinar si una persona es un amigo o no. Si una persona no incluye esa dirección SMTP en su cuenta de red social, o incluso si esa persona es un  amigo por una dirección de correo electrónico diferente en la red social, **GetPeopleDetails** aún devuelve no amigos para esa persona como **friendStatus** en el parámetro _personsCollection._ Además, para una persona que no es un amigo pero especifica la dirección SMTP en su cuenta de red social, los datos devueltos incluyen solo lo que está disponible para un usuario que no es amigo, según lo permita la configuración de privacidad de esa persona. 
   
-### <a name="creating-test-subjects-for-friends-and-non-friends"></a>Creación de asuntos de prueba para amigos y no amigos
+### <a name="creating-test-subjects-for-friends-and-non-friends"></a>Creación de temas de prueba para amigos y no amigos
 
-Para crear un asunto de prueba para un amigo, identifique la dirección SMTP de una persona que incluya esa dirección en su cuenta de red social y que tenga un estado de amigo con el usuario que ha iniciado sesión en esa red. Cree un mensaje de correo electrónico que incluya la dirección SMTP. De forma similar, para crear un asunto de prueba para un servicio que no sea de confianza, identifique la dirección SMTP de una persona que no sea una amiga del usuario que ha iniciado sesión por esa dirección, y que haya especificado en su configuración de privacidad para permitir a los usuarios que no sean amigos ver sus actividades en la redes sociales. m. Cree un mensaje de correo electrónico que incluya la dirección SMTP. 
+Para crear un asunto de prueba para un amigo, identifique la dirección SMTP de una persona que incluya esa dirección en su cuenta de red social y que tenga un estado de amigos con el usuario que ha iniciado sesión en esa red. Cree un mensaje de correo electrónico que incluya esa dirección SMTP. De forma similar, para crear un asunto de prueba para un no amigo, identifique la dirección SMTP de una persona que no sea un amigo del usuario que ha iniciado sesión por esa dirección y, sin embargo, que haya especificado en su configuración de privacidad que permita que los usuarios que no son amigos puedan ver sus actividades en la red social. Cree un mensaje de correo electrónico que incluya esa dirección SMTP. 
   
-En el explorador de Outlook, cuando selecciona el mensaje de correo electrónico que incluye a un amigo (o que no es amigo), el panel de personas muestra los destinatarios. Si se selecciona el amigo (o el que no es Friend) en el panel de personas, se puede comprobar que el proveedor proporciona información sobre la persona.
+En el explorador de Outlook, cuando selecciona el mensaje de correo electrónico que incluye un amigo (o no es un amigo), el panel de personas muestra los destinatarios. La selección del amigo (o no es un amigo) en el panel de personas le permite probar que el proveedor proporciona información sobre la persona.
   
 ### <a name="test-scenarios"></a>Escenarios de prueba
 
@@ -62,8 +62,8 @@ Para comprobar que su proveedor proporciona información sobre amigos y no amigo
   
 |**Escenario**|**Comportamiento esperado**|
 |:-----|:-----|
-|La persona seleccionada en el panel de personas es un amigo con el usuario que ha iniciado sesión en la red social.  <br/> |El panel de personas muestra las actividades de esa persona en la red social.  <br/> |
-|La persona seleccionada en el panel de personas no es amigo del usuario que ha iniciado sesión en la red social, pero ha permitido que sus actividades las vean otros usuarios que no son amigos.  <br/> |El panel de personas muestra las actividades de esa persona en la red social.  <br/> |
+|La persona seleccionada en el panel de personas es un amigo del usuario que ha iniciado sesión en la red social.  <br/> |El panel de personas muestra las actividades de esa persona en la red social.  <br/> |
+|La persona seleccionada en el panel de personas no es un amigo del usuario que ha iniciado sesión en la red social, pero ha permitido que sus actividades sean vistas por personas que no son amigos.  <br/> |El panel de personas muestra las actividades de esa persona en la red social.  <br/> |
 
 <a name="olosc_TestingFriends_OnDemandSync"> </a>
 
@@ -71,15 +71,15 @@ Para comprobar que su proveedor proporciona información sobre amigos y no amigo
 
 Si un proveedor de OSC admite la sincronización híbrida de amigos y no amigos, el OSC hace lo siguiente: 
   
-- El OSC almacena información para amigos del usuario que ha iniciado sesión en la carpeta de contactos de redes sociales específicas.
+- El OSC almacena información para amigos del usuario que ha iniciado sesión en la carpeta de contactos específica de la red social.
     
-- El OSC recupera información de las personas que no son de amigos a petición desde la red social y la almacena en la memoria, pero no en una carpeta.
+- El OSC recupera información para no amigos a petición de la red social y la almacena solo en la memoria, pero no en una carpeta.
     
-Para probar la sincronización híbrida, siga las sugerencias de prueba en la sección [sincronización en caché](#olosc_TestingFriends_CachedSync) para amigos y las que se indican en la sección [sincronización a petición](#olosc_TestingFriends_OnDemandSync) para los que no son amigos. 
+Para probar la sincronización híbrida, siga [](#olosc_TestingFriends_CachedSync) las sugerencias de prueba [](#olosc_TestingFriends_OnDemandSync) de la sección Sincronización en caché para amigos y las de la sección Sincronización a petición para no amigos. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md) 
+- [Sincronizar amigos y actividades](synchronizing-friends-and-activities.md) 
 - [XML para amigos](xml-for-friends.md)
-- [Preparación para la publicación de un proveedor OSC](getting-ready-to-release-an-osc-provider.md)
+- [Prepararse para publicar un proveedor de OSC](getting-ready-to-release-an-osc-provider.md)
 

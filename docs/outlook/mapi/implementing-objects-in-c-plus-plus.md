@@ -19,9 +19,9 @@ ms.locfileid: "33432957"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los clientes y proveedores de servicios de C++ definen los objetos MAPI mediante la creación de clases que heredan de las interfaces que están implementando. Cada uno de los métodos de la interfaz es público, al igual que el constructor y el destructor de la clase. Si la clase tiene métodos adicionales, pueden ser públicos o privados, en función de la implementación. Todos los miembros de datos son privados. 
+Los clientes y proveedores de servicios de C++ definen objetos MAPI mediante la creación de clases que heredan de las interfaces que están implementando. Cada uno de los métodos de interfaz es público, al igual que el constructor y destructor de la clase. Si la clase tiene métodos adicionales, pueden ser públicos o privados, según la implementación. Todos los miembros de datos son privados. 
   
-En el código de ejemplo siguiente se muestra cómo definir un objeto de estado de C++. La `CMyMAPIObject` clase hereda de la interfaz [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) . Muchas de las macros usadas en este ejemplo se definen en el archivo de encabezado OLE COMPOBJ. h. Los primeros miembros de la clase son los métodos de la interfaz base, seguidos de los métodos de las interfaces heredadas en orden de herencia. El seguimiento de las definiciones de interfaz son métodos adicionales, el constructor y el destructor y los miembros de datos. 
+El siguiente código de ejemplo muestra cómo definir un objeto de estado de C++. La `CMyMAPIObject` clase hereda de la [interfaz IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Muchas de las macros usadas en este ejemplo se definen en el archivo de encabezado OLE Compobj.h. Los primeros miembros de la clase son los métodos de la interfaz base, seguidos de los métodos de las interfaces heredadas en orden de herencia. Después de las definiciones de interfaz se encuentran los métodos adicionales, el constructor y destructor, y los miembros de datos. 
   
 ```cpp
 class  CMyMAPIObject : public IMAPIStatus
@@ -48,14 +48,14 @@ private :
  
 ```
 
-Para usar una instancia de la `CMyMAPIObject` clase, los clientes o proveedores de servicios de C++ realizan una llamada a uno de sus métodos de la siguiente manera: 
+Para usar una instancia de la clase, los clientes de C++ o los proveedores de servicios hacen una llamada a uno de  `CMyMAPIObject` sus métodos de la siguiente manera: 
   
 ```cpp
 lpMyObj->ValidateState(ulUIParam, ulFlags);
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Implementación de objetos MAPI](implementing-mapi-objects.md)
 

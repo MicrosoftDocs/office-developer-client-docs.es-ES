@@ -24,17 +24,17 @@ En esta sección se incluye información sobre cómo crear y llamar a archivos D
 
 [Desarrollar DLL](developing-dlls.md)
   
-> Describe las ventajas de usar archivos dll y cómo crearlos.
+> Describe las ventajas de usar archivos DLL y cómo crearlos.
     
 [Obtener acceso a las DLL en Excel](how-to-access-dlls-in-excel.md)
   
-> Describe cómo llamar a funciones y comandos DLL a través de un módulo de código de Visual Basic para aplicaciones (VBA), directamente desde una hoja de cálculo o desde la interfaz de usuario de Excel. 
+> Describe cómo llamar a comandos y funciones DLL a través de un módulo de código Visual Basic para Aplicaciones (VBA), directamente desde una hoja de cálculo o desde la interfaz de usuario de Excel. 
     
-[Llamar a funciones definidas por el usuario desde dll](calling-user-defined-functions-from-dlls.md)
+[Llamar User-Defined funciones desde DLL](calling-user-defined-functions-from-dlls.md)
   
 > Describe cómo habilitar dll para llamar a funciones definidas por el usuario.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

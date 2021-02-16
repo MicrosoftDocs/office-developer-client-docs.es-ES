@@ -19,26 +19,26 @@ ms.locfileid: "33429169"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los objetos de formulario pueden estar en uno de cinco Estados distintos, en función de los métodos a los que se haya llamado y si se han producido errores en la realización de esos métodos. Los Estados se describen en los siguientes temas:
+Los objetos de formulario pueden estar en uno de los cinco estados distintos, dependiendo de los métodos que se hayan llamado en ellos y de si se han producido errores al realizar esos métodos. Los estados se describen en los siguientes temas:
   
-- [Estado sin inicializar](uninitialized-state.md)
+- [Estado no inicializado](uninitialized-state.md)
     
 - [Estado normal](normal-state.md)
     
-- [Estado noScribble](noscribble-state.md)
+- [Estado no se puede suscribir](noscribble-state.md)
     
 - [Estado HandsOffAfterSave](handsoffaftersave-state.md)
     
 - [Estado HandsOffFromNormal](handsofffromnormal-state.md)
     
-Los Estados están principalmente relacionados con el estado de los datos del objeto de formulario. Los diferentes Estados reflejan si es necesario guardar los datos, si el objeto de formulario debe permitir modificaciones a los datos y en qué punto del proceso se guardan los datos en el formulario. Por lo tanto, los Estados de formulario y las transiciones entre ellos tienen más que ver con la implementación del servidor de formularios de [IPersistMessage:](ipersistmessageiunknown.md) métodos de interfaz IUnknown que otros. Conocer estos Estados es muy útil para la correcta implementación de las interfaces de formulario MAPI que debe implementar su servidor de formularios. 
+Los estados se relacionan principalmente con el estado de los datos del objeto de formulario. Los distintos estados reflejan si los datos deben guardarse, si el objeto de formulario debe permitir modificaciones en los datos y en qué punto del proceso de guardar los datos en los que se encuentra el formulario. Como tal, los estados de formulario y las transiciones entre ellos tienen más que ver con la implementación del servidor de formulario de métodos de interfaz [IPersistMessage : IUnknown](ipersistmessageiunknown.md) que cualquier otro. El conocimiento de estos estados es muy útil para la correcta implementación de las interfaces de formulario MAPI que debe implementar el servidor de formularios. 
   
-En los temas de esta sección se describen los distintos Estados, junto con las acciones permitidas que provocan transiciones a otros Estados. No se permiten las transiciones que no aparezcan en los temas. Si los objetos de formulario realizan transiciones entre Estados no permitidos, no se comportarán de la manera que esperan los clientes de mensajería y podrían provocar un comportamiento impredecible del cliente o del objeto de formulario.
+En los temas de esta sección se describen los distintos estados, junto con las acciones permitidas que provocan transiciones a otros estados. No se permiten las transiciones que no aparecen en los temas. Si los objetos de formulario hacen transiciones no permitidos entre estados, no se comportarán de la forma esperada por los clientes de mensajería y podrían provocar un comportamiento impredecible de los objetos de formulario o cliente.
   
 > [!NOTE]
-> Algunas transiciones de estado dependen de la información de los Estados anteriores. El servidor de formularios probablemente tendrá que implementar una marca en sus objetos de formulario para indicar si los valores de las propiedades del mensaje se han cambiado para facilitar los cambios de estado posteriores. 
+> Algunas transiciones de estado dependen de la información de estados anteriores. Lo más probable es que el servidor de formulario tenga que implementar una marca en sus objetos de formulario para indicar si los valores de las propiedades del mensaje se han cambiado para facilitar cambios de estado posteriores. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
+- [Desarrollo de servidores de formulario MAPI](developing-mapi-form-servers.md)
 

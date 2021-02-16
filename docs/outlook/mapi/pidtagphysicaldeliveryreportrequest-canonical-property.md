@@ -25,7 +25,7 @@ ms.locfileid: "33431130"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el modo de un informe que se entregará a un destinatario de mensaje concreto al finalizar la entrega o entrega de mensajes físicos por el sistema de tratamiento de mensajes.
+Contiene el modo de un informe que se entregará a un destinatario de mensaje determinado cuando el sistema de control de mensajes haya completado la entrega o entrega de mensajes físicos.
   
 |||
 |:-----|:-----|
@@ -38,15 +38,15 @@ Contiene el modo de un informe que se entregará a un destinatario de mensaje co
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -54,7 +54,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

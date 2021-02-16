@@ -25,7 +25,7 @@ ms.locfileid: "33432607"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obliga a que se carguen o descarguen inmediatamente todos los mensajes que esperan ser enviados o recibidos. El objeto de estado de cola MAPI y los objetos de estado que implementan los proveedores de transporte admiten este método.
+Fuerza la carga o descarga inmediata de todos los mensajes en espera de ser enviados o recibidos. El objeto de estado de cola MAPI y los objetos de estado que los proveedores de transporte implementan admiten este método.
   
 ```cpp
 HRESULT FlushQueues(
@@ -36,75 +36,75 @@ HRESULT FlushQueues(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
-> a Identificador de la ventana primaria de los cuadros de diálogo o ventanas que muestra este método.
+> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
     
  _cbTargetTransport_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpTargetTransport_ . El parámetro _cbTargetTransport_ se establece únicamente en llamadas al objeto status del administrador de trabajos de MAPI. Para las llamadas a un proveedor de transporte, el parámetro _cbTargetTransport_ se establece en 0. 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpTargetTransport._ El  _parámetro cbTargetTransport_ solo se establece en llamadas al objeto de estado de la cola MAPI. Para las llamadas a un proveedor de transporte, el  _parámetro cbTargetTransport_ se establece en 0. 
     
  _lpTargetTransport_
   
-> a Un puntero al identificador de entrada del proveedor de transporte que va a vaciar sus colas de mensajes. El parámetro _lpTargetTransport_ se establece únicamente en llamadas al objeto status del administrador de trabajos de MAPI. Para las llamadas a un proveedor de transporte, el parámetro _lpTargetTransport_ se establece en NULL. 
+> [entrada] Puntero al identificador de entrada del proveedor de transporte que va a vaciar las colas de mensajes. El  _parámetro lpTargetTransport_ se establece solo en llamadas al objeto de estado de la cola MAPI. Para las llamadas a un proveedor de transporte, el  _parámetro lpTargetTransport_ se establece en NULL. 
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla la operación de vaciado. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla la operación de vaciado. Se pueden establecer las siguientes marcas:
     
 FLUSH_ASYNC_OK 
   
-> La operación de vaciado puede realizarse de forma asincrónica. Esta marca solo se aplica al objeto de estado del administrador de trabajos en cola MAPI. 
+> La operación de vaciado puede producirse de forma asincrónica. Esta marca solo se aplica al objeto de estado de la cola MAPI. 
     
 FLUSH_DOWNLOAD 
   
-> Se deben vaciar las colas de mensajes entrantes.
+> Las colas de mensajes entrantes deben vaciarse.
     
 FLUSH_FORCE 
   
-> La operación de vaciado debe producirse, a pesar de la posibilidad de una disminución en el rendimiento. Esta marca se debe establecer cuando se destina un proveedor de transporte asincrónico.
+> La operación de vaciado debe producirse independientemente de la posibilidad de una disminución del rendimiento. Esta marca debe establecerse cuando se tiene como destino un proveedor de transporte asincrónico.
     
 FLUSH_NO_UI 
   
-> El objeto status no debe mostrar un indicador de progreso.
+> El objeto de estado no debe mostrar un indicador de progreso.
     
 FLUSH_UPLOAD 
   
-> Se deben vaciar las colas de mensajes salientes.
+> Las colas de mensajes salientes deben vaciarse.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La operación de vaciado se realizó correctamente.
+> La operación de vaciado se ha realizado correctamente.
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso; se debe permitir que se complete o debe detenerse antes de que se pueda iniciar esta operación.
+> Hay otra operación en curso; debe poder completarse, o debe detenerse, antes de que se pueda iniciar esta operación.
     
 MAPI_E_NO_SUPPORT 
   
-> El objeto status no admite esta operación, como indica la ausencia de la marca STATUS_FLUSH_QUEUES en la propiedad **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) del objeto de estado.
+> El objeto de estado no admite esta operación, como se indica por la ausencia de la marca STATUS_FLUSH_QUEUES en la propiedad PR_RESOURCE_METHODS **(** [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) del objeto de estado.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIStatus:: FlushQueues** solicita que la cola MAPI o un proveedor de transporte envíen inmediatamente todos los mensajes en la cola de salida o reciban todos los mensajes de la cola entrante. **FlushQueues** se implementa solo mediante el objeto de estado de cola de MAPI y los objetos de estado que suministran los proveedores de transporte. 
+El **método IMAPIStatus::FlushQueues** solicita que la cola MAPI o un proveedor de transporte envíen inmediatamente todos los mensajes de la cola saliente o reciban todos los mensajes de la cola entrante. **FlushQueues solo** lo implementa el objeto de estado de cola MAPI y los objetos de estado que suministran los proveedores de transporte. 
   
-MAPI_E_BUSY debe devolverse para las solicitudes asincrónicas, de modo que los clientes puedan continuar su trabajo. 
+MAPI_E_BUSY deben devolverse para las solicitudes asincrónicas para que los clientes puedan continuar trabajando. 
   
-De forma predeterminada, **FlushQueues** es una operación sincrónica; el control no vuelve al autor de la llamada hasta que el vaciado se ha completado. Solo la operación de vaciado que realiza la cola MAPI puede ser asincrónica; los clientes solicitan este comportamiento estableciendo la marca FLUSH_ASYNC_OK. 
+De forma predeterminada, **FlushQueues** es una operación sincrónica; no vuelve al autor de la llamada hasta que se haya completado el vaciado. Solo la operación de vaciado realizada por la cola MAPI puede ser asincrónica; los clientes solicitan este comportamiento estableciendo la marca FLUSH_ASYNC_OK usuario. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La implementación de **FlushQueues** establece bits en la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la fila de estado del objeto de inicio de sesión para controlar cómo se vacían las colas. Si un visor remoto pasa la marca FLUSH_UPLOAD, el método **FlushQueues** debe establecer los bits STATUS_INBOUND_ENABLED y STATUS_INBOUND_ACTIVE. Si un visor remoto pasa la marca FLUSH_DOWNLOAD, el método **FlushQueues** debe establecer los bits STATUS_OUTBOUND_ENABLED y STATUS_OUTBOUND_ACTIVE. **FlushQueues** debe devolver S_OK. A continuación, la cola de MAPI iniciará las acciones adecuadas para cargar y descargar mensajes. 
+La implementación de **FlushQueues** de un proveedor de transporte remoto establece bits en la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la fila de estado del objeto de inicio de sesión para controlar cómo se vacían las colas. Si un visor remoto pasa la marca FLUSH_UPLOAD, el método **FlushQueues** debe establecer los STATUS_INBOUND_ENABLED y STATUS_INBOUND_ACTIVE bits. Si un visor remoto pasa la marca FLUSH_DOWNLOAD, el método **FlushQueues** debe establecer los STATUS_OUTBOUND_ENABLED y STATUS_OUTBOUND_ACTIVE bits. **FlushQueues** debe devolver S_OK. A continuación, la cola MAPI iniciará las acciones adecuadas para cargar y descargar mensajes. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Una llamada al objeto de estado de cola MAPI es una directiva para transferir todos los mensajes hacia o desde el proveedor de transporte correspondiente. Cuando se llama a un objeto de estado de un proveedor de transporte individual, solo se ven afectados los mensajes de ese proveedor.
+Una llamada al objeto de estado de cola MAPI es una directiva para transferir todos los mensajes al proveedor de transporte adecuado o desde él. Cuando se llama al objeto de estado de un proveedor de transporte individual, solo se ven afectados los mensajes de ese proveedor.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

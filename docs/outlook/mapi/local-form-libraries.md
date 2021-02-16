@@ -21,11 +21,11 @@ ms.locfileid: "33431284"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las bibliotecas de formularios locales se almacenan directamente en el equipo de un usuario, normalmente en un archivo denominado FRMCACHE. DAT. 
+Las bibliotecas de formularios locales se almacenan directamente en el equipo de un usuario, normalmente en un archivo denominado FRMCACHE.DAT. 
   
-Las aplicaciones cliente pueden tener acceso a los formularios de la biblioteca de formularios local sin tener acceso a ningún recurso de red. Las bibliotecas de formularios locales son una excepción a la regla de que los formularios se almacenan en tablas de contenido asociadas, ya que la biblioteca de formularios local simplemente es un archivo en el disco que no forma parte de ninguna jerarquía de carpetas de MAPI.
+Las aplicaciones cliente pueden tener acceso a los formularios de la biblioteca de formularios local sin tener acceso a los recursos de red. Las bibliotecas de formularios locales son una excepción a la regla en la que los formularios se almacenan en tablas de contenido asociadas, ya que la biblioteca de formularios local es simplemente un archivo en disco que no forma parte de ninguna jerarquía de carpetas MAPI.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

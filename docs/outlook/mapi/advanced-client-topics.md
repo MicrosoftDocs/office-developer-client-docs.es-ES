@@ -1,5 +1,5 @@
 ---
-title: Temas de cliente avanzado
+title: Temas de cliente avanzados
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,37 +15,37 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431032"
 ---
-# <a name="advanced-client-topics"></a>Temas de cliente avanzado
+# <a name="advanced-client-topics"></a>Temas de cliente avanzados
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En esta sección se incluyen temas secundarios sobre cómo implementar algunas de las características más complicadas o difíciles en una aplicación cliente.
+En esta sección se incluyen temas secundarios sobre cómo implementar algunas de las características más poco comunes o difíciles en una aplicación cliente.
   
 ## <a name="in-this-section"></a>En esta sección
 
 [Escritura de un cliente automatizado](writing-an-automated-client.md)
   
-> Describe cómo escribir un cliente automatizado que suprima la interfaz de usuario.
+> Describe cómo escribir un cliente automatizado que suprime la interfaz de usuario.
     
-[Escribir un visor remoto](writing-a-remote-viewer.md)
+[Escritura de un visor remoto](writing-a-remote-viewer.md)
   
 > Describe cómo escribir una aplicación cliente que proporciona acceso controlado a los mensajes almacenados en otro equipo.
     
-[Escribir un visor de jerarquía](writing-a-hierarchy-viewer.md)
+[Escritura de un Visor de jerarquía](writing-a-hierarchy-viewer.md)
   
-> Describe cómo escribir un visor de jerarquía, un componente de interfaz de usuario que se usa para mostrar las tablas de jerarquías de contenedor de libretas de direcciones y carpetas.
+> Describe cómo escribir un visor de jerarquía, un componente de interfaz de usuario que se usa para mostrar tablas de jerarquía de contenedor de carpetas y libretas de direcciones.
     
-[Uso de las herramientas MAPI](using-the-mapi-utilities.md)
+[Uso de las utilidades MAPI](using-the-mapi-utilities.md)
   
-> Describe cómo usar las herramientas MAPI que se componen de datos de tabla y objetos de datos de propiedad, y una variedad de funciones para admitir varias características.
+> Describe cómo usar utilidades MAPI que están hechas de datos de tabla y objetos de datos de propiedades y una variedad de funciones para admitir características diversas
     
 [Implementar un indicador de progreso](implementing-a-progress-indicator.md)
   
 > Describe cómo implementar un indicador de progreso.
     
-[Centralizar la recepción de NDR](centralizing-the-receipt-of-ndrs.md)
+[Centralización de la recepción de NDRs](centralizing-the-receipt-of-ndrs.md)
   
 > Describe cómo centralizar la recepción de informes de no entrega.
     

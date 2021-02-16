@@ -33,11 +33,11 @@ HRESULT RemoveForm(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _szMessageClass_
   
-> a Una cadena que asigna un nombre a la clase de mensaje del formulario que se va a quitar del contenedor de formulario. Los nombres de clase de mensaje son siempre cadenas ANSI, nunca Unicode.
+> [entrada] Cadena que nombra la clase de mensaje del formulario que se va a quitar del contenedor de formularios. Los nombres de clase de mensaje siempre son cadenas ANSI, nunca Unicode.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,7 +47,7 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La clase de mensaje pasada en el parámetro _szMessageClass_ no coincide con la clase de mensaje de ningún formulario del contenedor de formulario. 
+> La clase de mensaje pasada en  _el parámetro szMessageClass_ no coincide con la clase de mensaje de ningún formulario del contenedor de formularios. 
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -55,9 +55,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI usa el método **IMAPIFormContainer:: RemoveForm** para eliminar un formulario de un contenedor de formulario.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el **método IMAPIFormContainer::RemoveForm** para eliminar un formulario de un contenedor de formularios.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

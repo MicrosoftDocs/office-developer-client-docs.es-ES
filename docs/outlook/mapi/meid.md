@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 'Última modificación: 3 de julio de 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -40,25 +40,25 @@ struct MEID
 
  _abFlags_
   
-> identificador de entrada de 4 bytes para el elemento de Outlook. Para obtener más información acerca de los identificadores de entrada MAPI, vea **[EntryID](entryid.md)**. 
+> Identificador de entrada de 4 bytes para el elemento de Outlook. Para obtener más información acerca de los identificadores de entrada MAPI, **[vea ENTRYID](entryid.md)**. 
     
- _Muid_
+ _muid_
   
-> GUID que identifica el proveedor de almacenamiento. Consulte mapidefs. h para obtener la definición de tipo de **MAPIUID**. 
+> GUID que identifica el proveedor de almacén. Vea mapidefs.h para obtener la definición de tipo **de MAPIUID**. 
     
  _marcador de posición_
   
-> Este miembro está reservado para uso interno de Outlook y no es compatible.
+> Este miembro está reservado para el uso interno de Outlook y no es compatible.
     
  _ltidFld_
   
-> IDENTIFICADOR a largo plazo de la carpeta.
+> Identificador a largo plazo de la carpeta.
     
  _ltidMsg_
   
-> IDENTIFICADOR de largo plazo del elemento de Outlook.
+> Identificador a largo plazo del elemento de Outlook.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -68,7 +68,7 @@ struct MEID
   
 [LTID](ltid.md)
   
-[SINCRONIZÁNDOSE](sync.md)
+[Sincronizar](sync.md)
   
 [UPMSG](upmsg.md)
 

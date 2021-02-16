@@ -25,7 +25,7 @@ En el ejemplo siguiente, se muestra cómo se puede agregar al código una lógic
   
 En este ejemplo, se supone que se ha creado un formulario para enviar un informe de ventas que contiene un campo denominado "período" que especifica el mes y el año al que se refiere el informe. También asume que ya se ha definido una conexión de datos y la lógica para enviar el informe cuando el usuario está en línea.
   
-### <a name="add-a-data-connection-that-submits-the-form-as-an-attachment-to-an-email-message"></a>Adición de una conexión de datos que envíe el formulario como datos adjuntos a un mensaje de correo electrónico
+### <a name="add-a-data-connection-that-submits-the-form-as-an-attachment-to-an-email-message"></a>Agregar una conexión de datos que envíe el formulario como datos adjuntos a un mensaje de correo electrónico
 
 1. Cree o abra una plantilla de formulario con código administrado de InfoPath.
     
@@ -35,9 +35,9 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 4. En el **Asistente para la conexión de datos**, haga clic en **Enviar datos** y, a continuación, en **Siguiente**.
     
-5. En la siguiente página del asistente, haga clic en **como mensaje de correo electrónico**y, a continuación, haga clic en **siguiente**.
+5. En la página siguiente del asistente, haga clic en **Como mensaje de** correo electrónico y, a continuación, haga clic en **Siguiente.**
     
-6. En la siguiente página del asistente, escriba su dirección de correo electrónico en el cuadro **para** . 
+6. En la siguiente página del asistente, escriba su dirección de correo electrónico en el **cuadro Para.** 
     
 7. En el cuadro **Asunto**, lleve a cabo la siguiente operación para combinar el período de ventas con el texto del informe de ventas: 
     
@@ -57,7 +57,7 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 8. En el asistente, haga clic en **Siguiente**.
     
-9. En la siguiente página del asistente, escriba "envío de correo electrónico" en el cuadro **Escriba un nombre para esta conexión de datos** y, a continuación, haga clic en **Finalizar**.
+9. En la página siguiente del asistente, escriba "Enviar correo electrónico" en el cuadro Escribir un nombre para esta conexión de datos y, **a** continuación, haga clic **en Finalizar**.
     
 ### <a name="add-logic-for-submitting-the-form-depending-on-the-connected-state-of-a-users-computer"></a>Añadir la lógica para enviar el formulario según el estado de la conexión del equipo del usuario
 
@@ -119,7 +119,7 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 4. En Internet Explorer, haga clic en **Trabajar sin conexión** en el menú **Archivo**. 
     
-5. En InfoPath, haga clic en **Enviar**. Debe ver un mensaje que indica que el formulario se enviará como un mensaje de correo electrónico.
+5. En InfoPath, haga clic en **Enviar**. Debería ver un mensaje que indica que el formulario se enviará como un mensaje de correo electrónico.
     
 6. Haga clic en **Enviar**. Verá un mensaje que le notificará que el formulario se ha enviado sin conexión.
     

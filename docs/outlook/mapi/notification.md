@@ -23,11 +23,11 @@ ms.locfileid: "33432880"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información sobre un evento que se ha producido y los datos afectados por el evento.
+Contiene información sobre un evento que se ha producido y los datos que se han visto afectados por el evento.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct
@@ -46,61 +46,61 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 **ulEventType**
   
-> Tipo de evento de notificación que se ha producido. El valor del miembro **ulEventType** corresponde a la estructura que se incluye en la **información** de la Unión. El miembro **ulEventType** se puede establecer en uno de los valores siguientes: 
+> Tipo de evento de notificación que se ha producido. El valor del **miembro ulEventType** corresponde a la estructura que se incluye en la unión **de** información. El **miembro ulEventType** se puede establecer en uno de los siguientes valores: 
     
  _fnevCriticalError_
   
-> Se ha producido un error global, como que se apagó la sesión en curso. El miembro **info** contiene una estructura [ERROR_NOTIFICATION](error_notification.md) . 
+> Se ha producido un error global, como un cierre de sesión en curso. El **miembro** de información contiene [una ERROR_NOTIFICATION](error_notification.md) de datos. 
     
  _fnevExtended_
   
-> Se ha producido un evento interno definido por un proveedor de servicios en particular. El miembro **info** contiene una estructura [EXTENDED_NOTIFICATION](extended_notification.md) . 
+> Se ha producido un evento interno definido por un proveedor de servicios determinado. El **miembro** de información contiene [una EXTENDED_NOTIFICATION](extended_notification.md) datos. 
     
  _fnevNewMail_
   
-> Se entregó un mensaje a la carpeta de recepción adecuada para la clase de mensaje y está a la espera de ser procesado. El miembro **info** contiene una estructura [NEWMAIL_NOTIFICATION](newmail_notification.md) . 
+> Se ha entregado un mensaje a la carpeta de recepción adecuada para la clase de mensaje y está esperando a ser procesado. El **miembro** de información contiene [una NEWMAIL_NOTIFICATION](newmail_notification.md) de datos. 
     
  _fnevObjectCopied_
   
-> Se ha copiado un objeto MAPI. El miembro **info** contiene una estructura [OBJECT_NOTIFICATION](object_notification.md) . 
+> Se ha copiado un objeto MAPI. El **miembro** de información contiene [una OBJECT_NOTIFICATION](object_notification.md) de datos. 
     
  _fnevObjectCreated_
   
-> Se ha creado un objeto MAPI. El miembro **info** contiene una estructura **OBJECT_NOTIFICATION** . 
+> Se ha creado un objeto MAPI. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
     
  _fnevObjectDeleted_
   
-> Se ha eliminado un objeto MAPI. El miembro **info** contiene una estructura **OBJECT_NOTIFICATION** . 
+> Se ha eliminado un objeto MAPI. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
     
  _fnevObjectModified_
   
-> Un objeto MAPI ha cambiado. El miembro **info** contiene una estructura **OBJECT_NOTIFICATION** . 
+> Un objeto MAPI ha cambiado. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
     
  _fnevObjectMoved_
   
-> Se movió un objeto de la libreta de direcciones o de almacén de mensajes. El miembro **info** contiene una estructura **OBJECT_NOTIFICATION** . 
+> Se ha movido un almacén de mensajes o un objeto de libreta de direcciones. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
     
  _fnevSearchComplete_
   
-> Una operación de búsqueda ha finalizado y los resultados están disponibles. El miembro **info** contiene una estructura **OBJECT_NOTIFICATION** . 
+> Una operación de búsqueda ha finalizado y los resultados están disponibles. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
     
  _fnevTableModified_
   
-> La información de una tabla ha cambiado. El miembro **info** contiene una estructura [TABLE_NOTIFICATION](table_notification.md) . 
+> La información de una tabla ha cambiado. El **miembro** de información contiene [una TABLE_NOTIFICATION](table_notification.md) de datos. 
     
 **info**
   
-> Unión de estructuras de notificación que describen los datos afectados para un tipo concreto de evento. La estructura que se incluye en el miembro **info** depende del valor del miembro **ulEventType** . 
+> Unión de estructuras de notificación que describen los datos afectados para un tipo determinado de evento. La estructura incluida en el **miembro de** información depende del valor del **miembro ulEventType.** 
     
 ## <a name="remarks"></a>Comentarios
 
-Una o más estructuras de **notificación** se pasan como parámetros de entrada con cada llamada a un método [IMAPIAdviseSink:: método Notify](imapiadvisesink-onnotify.md) del receptor registrado. Las estructuras de **notificación** contienen información sobre los eventos concretos que se han producido y describen los objetos afectados. 
+Una o más estructuras **de** notificación se pasan como parámetros de entrada con cada llamada al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) de un receptor de aviso registrado. Las **estructuras notification** contienen información sobre los eventos concretos que se han producido y describen los objetos afectados. 
   
-Antes de que los clientes o proveedores de servicios que reciben una notificación puedan usar la estructura para procesar el evento, deben comprobar el tipo de evento como se indica en el miembro **ulEventType** . Por ejemplo, el ejemplo de código que se muestra aquí comprueba la llegada de un nuevo mensaje y, después de detectar un evento de este tipo, imprime la clase de mensaje del mensaje. 
+Para que los clientes o proveedores de servicios que reciban una notificación puedan usar la estructura para procesar el evento, deben comprobar el tipo de evento tal como se indica en el **miembro ulEventType.** Por ejemplo, el ejemplo de código que se muestra aquí comprueba la llegada de un mensaje nuevo y, al detectar un evento de este tipo, imprime la clase de mensaje del mensaje. 
   
 ```cpp
 if (pNotif -> ulEventType == fnevNewMail)
@@ -110,15 +110,15 @@ printf("%s\n", pNotif -> newmail.lpszMessageClass)
 
 ```
 
-Para obtener más información acerca de las notificaciones, vea los temas que se describen en la tabla siguiente.
+Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
-|[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo deben administrarse las notificaciones los clientes.  <br/> |
+|[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar [el método IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 - [ERROR_NOTIFICATION](error_notification.md)  

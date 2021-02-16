@@ -1,5 +1,5 @@
 ---
-title: Suministro de informes leídos y no leídos para proveedores de almacenamiento de mensajes
+title: Proporcionar informes leídos y no leídos para proveedores de almacén de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,20 +15,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432341"
 ---
-# <a name="providing-read-and-nonread-reports-for-message-store-providers"></a>Suministro de informes leídos y no leídos para proveedores de almacenamiento de mensajes
+# <a name="providing-read-and-nonread-reports-for-message-store-providers"></a>Proporcionar informes leídos y no leídos para proveedores de almacén de mensajes
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Si un proveedor de almacenamiento de mensajes puede recibir mensajes, es necesario que admita informes de lectura y informes no leídos de mensajes recibidos por el proveedor de almacenamiento de mensajes. Si un mensaje recibido contiene la propiedad **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) y el valor de dicha propiedad es true, el almacén de mensajes debería enviar un mensaje de notificación al remitente cuando el usuario abra el mensaje, que indica que se ha leído el mensaje. De forma similar, si el usuario elimina el mensaje antes de abrirlo, el almacén de mensajes debe emitir una respuesta al remitente que indica que no se leyó el mensaje.
+Si un proveedor de almacén de mensajes puede recibir mensajes, es necesario que admita informes de lectura e informes no leídos de los mensajes recibidos por el proveedor del almacén de mensajes. Si un mensaje recibido contiene la propiedad **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) y el valor de esa propiedad es TRUE, el almacén de mensajes debe enviar un mensaje de notificación al remitente cuando el usuario abra el mensaje, indicando que el mensaje se ha leído. Del mismo modo, si el usuario elimina el mensaje antes de abrirlo, el almacén de mensajes debe emitir una respuesta al remitente que indique que el mensaje no se leyó.
   
-La emisión de estos informes es una cuestión de crear un objeto [IMessage: IMAPIProp](imessageimapiprop.md) , rellenar las propiedades relevantes del mensaje y enviarlo a la cola de espera de MAPI como si el mensaje se hubiera originado con el usuario. Se puede usar el método [IMAPISupport:: ReadReceipt](imapisupport-readreceipt.md) para esto. 
+Emitir estos informes es cuestión de crear un objeto [IMessage : IMAPIProp,](imessageimapiprop.md) rellenar las propiedades relevantes del mensaje y enviarlo a la cola MAPI como si el mensaje se hubiera originado con el usuario. Para ello, se puede usar el método [IMAPISupport::ReadReceipt.](imapisupport-readreceipt.md) 
   
 > [!NOTE]
-> Debe tener especial cuidado cuando un almacén de mensajes realice copias de un mensaje no leído con informes de lectura o no leídos pendientes. Estos informes no deben generarse cuando los usuarios lean copias de un mensaje para el que se han solicitado informes. Al realizar una copia de este tipo de mensajes, el proveedor de almacenamiento de mensajes debe incluir las marcas CLEAR_RN_PENDING y CLEAR_NRN_PENDING en sus llamadas a [IMAPIFolder:: SetReadFlags](imapifolder-setreadflags.md) y [IMessage:: SetReadFlag](imessage-setreadflag.md). 
+> Se debe tener especial cuidado cuando un almacén de mensajes hace copias de un mensaje no leído con informes pendientes leídos o no leídos. Estos informes no deben generarse cuando los usuarios leen copias de un mensaje para el que se han solicitado informes. Al realizar una copia de dicho mensaje, el proveedor del almacén de mensajes debe incluir las marcas CLEAR_RN_PENDING y CLEAR_NRN_PENDING en sus llamadas a [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md) e [IMessage::SetReadFlag](imessage-setreadflag.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -38,11 +38,11 @@ HRESULT DoConfigPropsheet(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
-> a Identificador de la ventana primaria de la hoja de propiedades.
+> [entrada] Identificador de la ventana primaria de la hoja de propiedades.
     
  _ulFlags_
   
@@ -50,37 +50,37 @@ HRESULT DoConfigPropsheet(
     
  _lpszTitle_
   
-> a Un puntero al título de la hoja de propiedades.
+> [entrada] Puntero al título de la hoja de propiedades.
     
  _lpDisplayTable_
   
-> a Un puntero a la tabla de presentación que describe los controles que deben aparecer en la hoja de propiedades.
+> [entrada] Puntero a la tabla para mostrar que describe los controles que aparecen en la hoja de propiedades.
     
  _lpConfigData_
   
-> a Un puntero a la implementación de [IMAPIProp](imapipropiunknown.md) que se va a usar para obtener acceso a las propiedades de configuración que se mostrarán en la hoja de propiedades. 
+> [entrada] Puntero a la [implementación IMAPIProp](imapipropiunknown.md) que se usará para obtener acceso a las propiedades de configuración que se mostrarán en la hoja de propiedades. 
     
  _ulTopPage_
   
-> a Índice de base cero de la página superior predeterminada de la hoja de propiedades.
+> [entrada] Índice de base cero en la página superior predeterminada de la hoja de propiedades.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se muestra la hoja de propiedades de configuración.
+> Se ha mostrado la hoja de propiedades de configuración.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport::D oconfigpropsheet** se implementa para todos los objetos de compatibilidad. **DoConfigPropSheet** proporciona una interfaz de usuario estándar para mostrar las propiedades de los proveedores de servicios y los servicios de mensajes. Debe usar este cuadro de diálogo estándar para todas las pantallas de propiedades de configuración para que los usuarios se beneficien de una interfaz de Windows coherente. 
+El **método IMAPISupport::D oConfigPropsheet** se implementa para todos los objetos de compatibilidad. **DoConfigPropSheet proporciona** una interfaz de usuario estándar para mostrar las propiedades de los proveedores de servicios y los servicios de mensajes. Debes usar este cuadro de diálogo estándar para todas las pantallas de propiedades de configuración para que los usuarios se beneficien de una interfaz de Windows coherente. 
   
-Los proveedores de servicios llaman a **DoConfigPropSheet** como parte de su implementación del método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) o desde un botón usado para mostrar detalles sobre las propiedades. Los servicios de mensajes llaman a **DoConfigPropSheet** desde su función de punto de entrada del servicio de mensajes. 
+Los proveedores de servicios llaman a **DoConfigPropSheet** como parte de su implementación del método [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) o desde un botón usado para mostrar detalles sobre las propiedades. Los servicios de mensajes **llaman a DoConfigPropSheet desde** su función de punto de entrada del servicio de mensajes. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede crear la tabla de presentación a la que señala el parámetro _lpDisplayTable_ llamando a la función [BuildDisplayTable](builddisplaytable.md) o con código personalizado. 
+Puede crear la tabla para mostrar a la que apunta el parámetro  _lpDisplayTable_ llamando a la [función BuildDisplayTable](builddisplaytable.md) o con código personalizado. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

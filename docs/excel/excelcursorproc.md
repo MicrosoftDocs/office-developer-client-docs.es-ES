@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - ExcelCursorProc
 keywords:
-- función excelcursorproc [Excel 2007]
+- función excelcursorproc [excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,37 +22,37 @@ ms.locfileid: "33432495"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Cuando se muestra un cuadro de diálogo modal sobre la ventana de Microsoft Excel, el cursor es un cursor de ocupado sobre la ventana de Excel. Este **WndProc** revienta WM_SETCURSOR escribe mensajes de Windows y vuelve a cambiar el cursor a una flecha normal. 
+Cuando se muestra un cuadro de diálogo modal sobre la ventana de Microsoft Excel, el cursor es un cursor ocupado sobre la ventana de Excel. Este **WndProc** captura WM_SETCURSOR mensajes de Windows y vuelve a cambiar el cursor a una flecha normal. 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _hWndDlg_ (**HWnd**)
+ _hWndDlg_ (**HWND**)
   
-Contiene el identificador de ventana de HWND del cuadro de diálogo.
+Contiene el identificador de Windows HWND del cuadro de diálogo.
   
- _mensaje de error_ (**Uint**)
+ _message_ (**UINT**)
   
-Mensaje al que responde.
+Mensaje al que se debe responder.
   
- _wParam_ (**WParam**)
+ _wParam_ (**WPARAM**)
   
- _lParam_ (**LParam**)
+ _lParam_ (**LPARAM**)
   
 Argumentos pasados por Windows.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-LRESULT: 0 si se controló el mensaje; de lo contrario, el resultado devuelto por el **WndProc**predeterminado.
+LRESULT: 0 si se controló el mensaje; de lo contrario, el resultado devuelto por **el WndProc predeterminado.**
   
 ### <a name="example"></a>Ejemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
+Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

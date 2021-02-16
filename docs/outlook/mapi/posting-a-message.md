@@ -19,40 +19,40 @@ ms.locfileid: "33429771"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La publicación de un mensaje es similar a enviar un mensaje. La principal diferencia es el destino. En lugar de dirigirse a uno o más destinatarios en uno o varios sistemas de mensajería, un mensaje publicado permanece en una carpeta del almacén de mensajes actual.
+Publicar un mensaje es similar al envío de un mensaje. La principal diferencia es el destino. En lugar de dirigirse a uno o más destinatarios en uno o más sistemas de mensajería, un mensaje publicado permanece en una carpeta del almacén de mensajes actual.
   
 ### <a name="to-post-a-message"></a>Para publicar un mensaje
   
-1. Para abrir la carpeta de destino, llame a [IMsgStore:: OpenEntry](imsgstore-openentry.md). Si la carpeta de destino es la bandeja de entrada, busque el identificador de entrada que se va a pasar a **OpenEntry** llamando a [IMsgStore:: GetReceiveFolder](imsgstore-getreceivefolder.md). 
+1. Abra la carpeta de destino llamando a [IMsgStore::OpenEntry](imsgstore-openentry.md). Si la carpeta de destino es la Bandeja de entrada, busque el identificador de entrada que se va a pasar **a OpenEntry** llamando a [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md). 
     
-2. Llame a [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) para crear el mensaje. 
+2. Llame [a IMAPIFolder::CreateMessage](imapifolder-createmessage.md) para crear el mensaje. 
     
-3. Llame al método [IMAPIProp:: SetProps](imapiprop-setprops.md) del mensaje para establecer: 
+3. Llame al método [IMAPIProp::SetProps](imapiprop-setprops.md) del mensaje para establecer: 
     
-   - La marca MSGFLAG_READ en la propiedad **PidTagMessageFlags** ( [PR_MESSAGE_FLAGS](pidtagmessageflags-canonical-property.md)).
+   - Marca MSGFLAG_READ en la **propiedad PidTagMessageFlags** ( [PR_MESSAGE_FLAGS](pidtagmessageflags-canonical-property.md)).
     
-   - Las propiedades de **PR_SENDER** . 
+   - El **PR_SENDER** propiedades. 
     
-   - Las propiedades de **PR_SENT_REPRESENTING** . 
+   - El **PR_SENT_REPRESENTING** propiedades. 
     
-   - La propiedad **PR_RECEIPT_TIME** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)).
+   - Propiedad **PR_RECEIPT_TIME** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)).
     
-   - Propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) o **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)).
+   - La **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) o **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)).
     
-   - La propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
+   - Propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
     
-   - La propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
+   - Propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
     
-   - Las propiedades requeridas por la clase de mensaje.
+   - Cualquier propiedad requerida por la clase de mensaje.
     
-4. Llame al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) del mensaje para guardar el mensaje. 
+4. Llame al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje para guardar el mensaje. 
     
-5. Si es necesario, cree un dato adjunto, establezca sus propiedades y guárdelo. Para obtener más información acerca de la adición de datos adjuntos a mensajes, consulte [Creating a Message Attachment](creating-a-message-attachment.md).
+5. Si es necesario, cree un archivo adjunto, establezca sus propiedades y guárdelo. Para obtener más información acerca de cómo agregar datos adjuntos a los mensajes, vea [Creación de datos adjuntos de un mensaje.](creating-a-message-attachment.md)
     
-6. Llame a **IMessage:: SaveChanges** para guardar el mensaje. En este momento, aparecerá en la tabla de contenido de la carpeta de destino. 
+6. Llame **a IMessage::SaveChanges** para guardar el mensaje. En este momento aparecerá en la tabla de contenido de la carpeta de destino. 
     
-Observe que no se crea una lista de destinatarios. En su lugar, se establecen varias propiedades que normalmente establece un proveedor de transporte para un mensaje enviado. 
+Tenga en cuenta que no crea una lista de destinatarios. En su lugar, se establecen varias propiedades que normalmente establece un proveedor de transporte para un mensaje enviado. 
   
-Si desea guardar un mensaje intermitentemente antes de que aparezca en la tabla de contenido de la carpeta visible, créelo en una carpeta oculta, como la carpeta raíz del subárbol IPM y, a continuación, muévalo a la carpeta de destino. 
+Si desea guardar un mensaje de forma intermitente antes de que aparezca en la tabla de contenido de la carpeta visible, cráigalo en su lugar en una carpeta oculta, como la carpeta raíz del subárbol IPM y, a continuación, muévelo a la carpeta de destino. 
   
 

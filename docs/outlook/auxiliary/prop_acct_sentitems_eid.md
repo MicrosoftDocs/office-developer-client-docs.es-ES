@@ -14,27 +14,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431844"
 ---
-# <a name="propacctsentitemseid"></a>PROP_ACCT_SENTITEMS_EID
+# <a name="prop_acct_sentitems_eid"></a>PROP_ACCT_SENTITEMS_EID
 
 Representa el identificador de entrada de la carpeta predeterminada para los elementos enviados para la cuenta. 
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkAccount](iolkaccount.md).
+Vea [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x0020  <br/> |
 |Tipo de propiedad:  <br/> |PT_BINARY  <br/> |
 |Etiqueta de propiedad:  <br/> |0x00200102  <br/> |
-|Al  <br/> |Solo lectura  <br/> |
+|Acceso:  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Obtenga esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount-getprop.md).
+Obtenga esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md).
   
-La carpeta predeterminada para los elementos enviados es **elementos enviados**.
+La carpeta predeterminada para los elementos enviados es **Elementos enviados**.
   
-Esta propiedad es de sólo lectura para cuentas POP3 e IMAP. Si se intenta establecer esta propiedad para estos tipos de cuentas, devuelve **E_ACCT_NOT_FOUND**. 
+Esta propiedad es de solo lectura para cuentas POP3 e IMAP. Al intentar establecer esta propiedad para estos tipos de cuentas se **devuelve E_ACCT_NOT_FOUND**. 
   
 

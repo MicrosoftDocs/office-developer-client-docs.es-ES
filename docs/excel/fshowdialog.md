@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - fShowDialog
 keywords:
-- función fshowdialog [Excel 2007]
+- función fshowdialog [excel 2007]
 localization_priority: Normal
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,37 +22,37 @@ ms.locfileid: "33433594"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Comando de ejemplo definido por el usuario que carga y muestra un cuadro de diálogo de Windows nativo de ejemplo. Cuando se carga GENERIC. XLL, crea un menú definido por el usuario, genérico, a través del cual se obtiene acceso a este comando.
+Ejemplo de comando definido por el usuario que carga y muestra un cuadro de diálogo nativo de Windows de ejemplo. Cuando se carga GENERIC.xll, crea un menú definido por el usuario, Generic, a través del cual se tiene acceso a este comando.
   
 ```cs
 int WINAPI fShowDialog(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 La función no toma ningún parámetro.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-La función devuelve un entero cero para indicar que la operación se completó correctamente
+La función devuelve un entero cero para indicar que se ha completado correctamente
   
 ## <a name="remarks"></a>Comentarios
 
-Los pasos para mostrar el cuadro de diálogo de Windows nativo son los siguientes:
+Los pasos para mostrar el cuadro de diálogo nativo de Windows son los siguientes:
   
-1. Obtener el identificador principal de Windows de Microsoft Excel mediante **GetHwnd**.
+1. Obtener el controlador principal de Windows de Microsoft Excel con **GetHwnd**.
     
-2. Enlace la ventana principal de Excel mediante **HookExcelWindow**.
+2. Enlazar la ventana principal de Excel mediante **HookExcelWindow**.
     
 3. Mostrar el cuadro de diálogo mediante **DialogBox**.
     
-4. Desenlaza la ventana principal de Excel mediante **UnhookExcelWindow**.
+4. Desenlace la ventana principal de Excel **mediante UnhookExcelWindow**.
     
 ### <a name="example"></a>Ejemplo
 
-Consulte `\SAMPLES\GENERIC\GENERIC.C` para obtener el código fuente de esta función. 
+Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

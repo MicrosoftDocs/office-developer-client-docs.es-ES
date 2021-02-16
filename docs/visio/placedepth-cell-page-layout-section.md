@@ -22,10 +22,10 @@ Determina el método mediante el que se analiza el dibujo antes de crear el dise
   
 |**Valor**|**Profundidad de colocación para los diseños verticales y horizontales**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| comprendi  <br/> | Valor predeterminado de página  <br/> |**visPLOPlaceDepthDefault** <br/> |
-| 1  <br/> | Mediano  <br/> |**visPLOPlaceDepthMedium** <br/> |
-| segundo  <br/> | Gran  <br/> |**visPLOPlaceDepthDeep** <br/> |
-| 3  <br/> | Profunda  <br/> |**visPLOPlaceDepthShallow** <br/> |
+| 0  <br/> | Valor predeterminado de página  <br/> |**visPLOPlaceDepthDefault** <br/> |
+| 1   <br/> | Mediano  <br/> |**visPLOPlaceDepthMedium** <br/> |
+| 2   <br/> | Deep  <br/> |**visPLOPlaceDepthDeep** <br/> |
+| 3   <br/> | Superficial  <br/> |**visPLOPlaceDepthShallow** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

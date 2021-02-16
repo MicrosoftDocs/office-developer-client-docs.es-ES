@@ -36,25 +36,25 @@ Contiene el nombre de la función de punto de entrada para la configuración de 
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los implementadores del servicio de mensajes proporcionen un punto de entrada al servicio de mensajes, pero el punto de entrada no es necesario. Sin embargo, el punto de entrada solo debe proporcionarse si existen las propiedades de configuración relacionadas. Si no existen estas propiedades, MAPI supone que no se proporciona ningún punto de entrada.
+Se recomienda que los implementadores del servicio de mensajes proporcionen un punto de entrada de servicio de mensajes, pero no es necesario el punto de entrada. Sin embargo, el punto de entrada solo debe proporcionarse si existen las propiedades de configuración relacionadas. Si estas propiedades no existen, MAPI asume que no se proporciona ningún punto de entrada.
   
-La biblioteca de vínculos dinámicos (DLL) en la que aparece la función de punto de entrada se nombra mediante la propiedad **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)).
+La biblioteca de vínculos dinámicos (DLL) en la que aparece la función de punto de entrada se denomina mediante la propiedad **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)).
   
-Para obtener más información acerca de los puntos de entrada del servicio de mensajes, consulte [implementar una función de punto de entrada de proveedor de servicios](implementing-a-service-provider-entry-point-function.md).
+Para obtener más información sobre los puntos de entrada del servicio de mensajes, vea Implementar una función de punto de entrada [del proveedor de servicios.](implementing-a-service-provider-entry-point-function.md)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

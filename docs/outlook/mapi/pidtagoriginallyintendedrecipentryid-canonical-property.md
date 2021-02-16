@@ -25,7 +25,7 @@ ms.locfileid: "33430143"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada del destinatario previsto originalmente de un mensaje de reenvío automático.
+Contiene el identificador de entrada del destinatario originalmente deseado de un mensaje reenviado automáticamente.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contiene el identificador de entrada del destinatario previsto originalmente de 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es una de las propiedades de dirección del destinatario del mensaje que se diseñó originalmente. Debe establecerse mediante el agente automático que ha reenviado el mensaje.
+Esta propiedad es una de las propiedades de dirección del destinatario del mensaje originalmente previsto. Debe establecerlo el agente automático que reenvía el mensaje.
   
-Esta propiedad corresponde al atributo per-recipient del informe X. 400.
+Esta propiedad corresponde al atributo de informe por destinatario X.400.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

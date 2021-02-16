@@ -15,12 +15,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428917"
 ---
-# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Evitar el uso de IStream:: setSize para extender una secuencia
+# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Evitar el uso de IStream::SetSize para extender una secuencia
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Al escribir en secuencias, a veces es necesario agrandarlas porque su tamaño inicial ya no es suficiente. Use el método OLE **IStream:: Write** para lograr esto en lugar de **IStream:: setSize**. **IStream:: Write** amplía automáticamente la secuencia, lo que hace que * * IStream:: setSize * * no sea necesario. Llamar a **IStream:: Write** sin **IStream:: setSize** puede ser hasta tres veces más rápido que realizar la llamada **setSize** antes de **escribir**.
+Al escribir en secuencias, a veces es necesario ampliarlas porque su tamaño inicial ya no es suficiente. Use el método OLE **IStream::Write** para hacerlo en lugar de **IStream::SetSize**. **IStream::Write** extiende automáticamente la secuencia, lo que hace que ** IStream::SetSize ** no es necesario. Llamar **a IStream::Write** sin **IStream::SetSize** puede ser hasta tres veces más rápido que realizar la llamada **SetSize** antes de **Escribir.**
   
 

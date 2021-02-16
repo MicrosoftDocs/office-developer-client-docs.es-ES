@@ -20,7 +20,7 @@ Obtiene una cadena de mensaje para el error especificado.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkErrorUnknown](iolkerrorunknown.md).
+Vea [IOlkErrorUnknown](iolkerrorunknown.md).
   
 ```cpp
 HRESULT IOlkErrorUnknown::GetLastError(  
@@ -30,15 +30,15 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
-_Departamento_
+_hr_
   
-> a Código de error que se va a buscar.
+> [entrada] Código de error que se debe buscar.
     
 _ppwszError_
   
-> contempla Mensaje de error que corresponde a *HR* . 
+> [salida] El mensaje de error que corresponde a  *hr*  . 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -47,7 +47,7 @@ _ppwszError_
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más argumentos no son válidos.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

@@ -29,20 +29,20 @@ Calcula el número de bytes de una estructura [SMAPIFormInfoArray](smapiforminfo
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
 |Estructura relacionada:  <br/> |**SMAPIFormInfoArray** <br/> |
    
 ```cpp
 CbMAPIFormInfoArray (_c)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- __c_
+ _ _c_
   
-> Número de objetos de información de formulario en la estructura **SMAPIFormInfoArray** existente. 
+> Recuento de objetos de información de formulario en la **estructura SMAPIFormInfoArray** existente. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

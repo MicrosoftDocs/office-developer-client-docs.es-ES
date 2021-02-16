@@ -44,11 +44,11 @@ HRESULT UlValidateParameters(
 
  _eMethod_
   
-> a Especifica, por enumeración, el método que se va a validar. 
+> [entrada] Especifica, por enumeración, el método que se debe validar. 
     
  _Primero_
   
-> a Puntero al primer argumento de la pila.
+> [entrada] Puntero al primer argumento de la pila.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,6 +62,6 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **UlValidateParameters** se ha reemplazado por la macro [UlValidateParms](ulvalidateparms.md) . **UlValidateParameters** no funciona correctamente en plataformas RISC y ahora se impide su compilación en ellos. Sigue compilando y funciona correctamente en plataformas Intel, pero **UlValidateParms** se recomienda en todas las plataformas. 
+La macro **UlValidateParameters** ha sido reemplazada por la macro [UlValidateParms.](ulvalidateparms.md) **UlValidateParameters** no funciona correctamente en plataformas RISC y ahora no se puede compilar en ellas. Sigue compilando y funciona correctamente en plataformas Intel, pero se recomienda **UlValidateParms** en todas las plataformas. 
   
 

@@ -76,7 +76,7 @@ Cuando se depura una plantilla de formulario de InfoPath, a menudo resulta útil
     ```
 
 > [!NOTE] 
-> Cuando use Visual Basic, agregue `Imports Microsoft.VisualBasic.Constants` a las directivas que se encuentra en la parte superior del archivo de código del formulario. 
+> Al usar Visual Basic, agregue  `Imports Microsoft.VisualBasic.Constants` las directivas en la parte superior del archivo de código de formulario. 
   
 ## <a name="test-the-addtodebugfield-function"></a>Probar la función AddToDebugField
 

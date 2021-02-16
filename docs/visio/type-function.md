@@ -35,11 +35,11 @@ La tabla siguiente enumera los tipos internos de objeto como números.
 |**Objeto**|**Number**|
 |:-----|:-----|
 |Page  <br/> |70  <br/> |
-|Grupo  <br/> |71  <br/> |
+|Group  <br/> |71  <br/> |
 |Forma  <br/> |72  <br/> |
-|Style  <br/> |74  <br/> |
-|Introducción  <br/> |77  <br/> |
-|Externa  <br/> |78  <br/> |
+|Estilo  <br/> |74  <br/> |
+|Guía  <br/> |77  <br/> |
+|Externo  <br/> |78  <br/> |
 |Documento  <br/> |79  <br/> |
    
 

@@ -25,11 +25,11 @@ ms.locfileid: "33432446"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Inicializa el motor de inactividad MAPI para la aplicación que realiza la llamada. 
+Inicializa el motor de inactividad MAPI para la aplicación que llama. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,7 +39,7 @@ LONG MAPIInitIdle(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpvReserved_
   
@@ -47,25 +47,25 @@ LONG MAPIInitIdle(
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **MAPIInitIdle** devuelve cero si la inicialización es correcta y 1 en caso contrario. Si se llama a **MAPIInitIdle** varias veces, todas las llamadas adicionales se realizan correctamente, pero se omiten excepto para incrementar el recuento de referencia. 
+La **función MAPIInitIdle** devuelve cero si la inicialización se realiza correctamente y 1 de lo contrario. Si **se llama a MAPIInitIdle** varias veces, todas las llamadas adicionales se realiza correctamente, pero se omiten excepto para incrementar el recuento de referencias. 
   
 ## <a name="remarks"></a>Comentarios
 
-Una aplicación cliente o un proveedor de servicios debe llamar a **MAPIInitIdle** antes de llamar a cualquier otra función del motor de inactividad. 
+Una aplicación cliente o un proveedor de servicios debe llamar a **MAPIInitIdle** antes de llamar a cualquier otra función del motor inactivo. 
   
-Cada llamada a **MAPIInitIdle** debe coincidir con una llamada subsiguiente a [MAPIDeInitIdle](mapideinitidle.md)o el motor inactivo se deja en ejecución para la aplicación que realiza la llamada. 
+Cada llamada a **MAPIInitIdle** debe coincidir con una llamada posterior a [MAPIDeInitIdle](mapideinitidle.md)o el motor inactivo se deja en ejecución para la aplicación que realiza la llamada. 
   
-Las siguientes funciones tratan con el motor de inactividad de MAPI y con rutinas inactivas basadas en el prototipo de función [FNIDLE](fnidle.md) : 
+Las siguientes funciones tratan con el motor de inactividad MAPI y con rutinas inactivas basadas en el prototipo de función [FNIDLE:](fnidle.md) 
   
-|**Función de rutina inActiva**|**Usage**|
+|**Función de rutina inactiva**|**Uso**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina inactiva registrada.  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Quita una rutina inactiva registrada del sistema MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o vuelve a habilitar una rutina inactiva registrada sin quitarla del sistema MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina inactiva al sistema MAPI, con o sin habilitar.  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Cierra el motor de inactividad MAPI de la aplicación que realiza la llamada.  <br/> |
-|**MAPIInitIdle** <br/> |Inicializa el motor de inactividad MAPI para la aplicación que realiza la llamada.  <br/> |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Quita una rutina de inactividad registrada del sistema MAPI.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o vuelve a habilitar una rutina de inactividad registrada sin quitarla del sistema MAPI.  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina inactiva al sistema MAPI, con o sin habilitarla.  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Apaga el motor de inactividad MAPI para la aplicación que llama.  <br/> |
+|**MAPIInitIdle** <br/> |Inicializa el motor de inactividad MAPI para la aplicación que llama.  <br/> |
    
-Cuando todas las tareas de primer plano de la plataforma se convierten en inactivas, el motor de inactividad de MAPI llama a la rutina inactiva de máxima prioridad que está lista para ejecutarse. No hay ninguna garantía del orden de llamadas entre rutinas de inactividad de la misma prioridad. 
+Cuando todas las tareas en primer plano de la plataforma están inactivas, el motor de inactividad MAPI llama a la rutina de inactividad de prioridad más alta que está lista para ejecutarse. No hay ninguna garantía de orden de llamada entre rutinas inactivas de la misma prioridad. 
   
 

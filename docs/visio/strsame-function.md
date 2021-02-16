@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251786
 localization_priority: Normal
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
-description: Determina si las cadenas son iguales. Devuelve TRUE si son iguales y FALSE si no lo son.
+description: Determina si las cadenas son las mismas. Devuelve TRUE si son iguales y FALSE si no lo son.
 ms.openlocfilehash: 0f298c966ec7a3f1e23c89473fecc555ed950f79
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33428686"
 ---
 # <a name="strsame-function"></a>Función STRSAME
 
-Determina si las cadenas son iguales. Devuelve TRUE si son iguales y FALSE si no lo son. 
+Determina si las cadenas son las mismas. Devuelve TRUE si son iguales y FALSE si no lo son. 
   
 ## <a name="syntax"></a>Sintaxis
 
-STRSAME ("* * *string1* * *", "* * *cadena2* * *", * * *ignoreCase* * *) 
+STRSAME (" ** *string1* ** ", " ** *string2* ** ", ** *ignoreCase* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -42,13 +42,13 @@ Para comparar cadenas de varios bytes o para hacer comparaciones utilizando regl
   
 ## <a name="example-1"></a>Ejemplo 1
 
-STRSAME ("gato", "perro")
+STRSAME("cat","dog")
   
 Devuelve FALSE.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-STRSAME ("gato", "gato")
+STRSAME("cat","cat")
   
 Devuelve TRUE.
   
@@ -60,7 +60,7 @@ Devuelve TRUE.
   
 ## <a name="example-4"></a>Ejemplo 4
 
-STRSAME ("gato", "gato")
+STRSAME("cat","CAT")
   
 Devuelve FALSE.
   

@@ -25,11 +25,11 @@ ms.locfileid: "33429876"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de valores float que se usan para describir una propiedad de tipo PT_MV_R4. 
+Contiene una matriz de valores flotantes que se usan para describir una propiedad de tipo PT_MV_R4. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SRealArray
@@ -40,21 +40,21 @@ typedef struct _SRealArray
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cValues**
   
-> Número de valores de la matriz a los que señala el miembro **lpflt** . 
+> Número de valores de la matriz que apunta el **miembro lpflt.** 
     
  **lpflt**
   
-> Puntero a una matriz de valores float.
+> Puntero a una matriz de valores flotantes.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información sobre el tipo de propiedad PT_MV_R4, vea [tipos de propiedades](property-types.md).
+Para obtener más información acerca del tipo PT_MV_R4 propiedad, vea [Tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
-description: Guarda los cambios realizados en la cuenta especificada.
+description: Guarda los cambios en la cuenta especificada.
 ms.openlocfilehash: dbb1dffa1725e96bd2ab635341718ce53738b864
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33429610"
 ---
 # <a name="iolkaccountmanagersavechanges"></a>IOlkAccountManager::SaveChanges
 
-Guarda los cambios realizados en la cuenta especificada.
+Guarda los cambios en la cuenta especificada.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -29,11 +29,11 @@ HRESULT IOlkAccountManager::SaveChanges (
 ); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _dwAcctID_
   
-> a IDENTIFICADOR de cuenta que se va a guardar. 
+> [entrada] El id. de cuenta que se guardará. 
     
 _dwFlags_
   
@@ -43,15 +43,15 @@ _dwFlags_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |La llamada se realizó correctamente  <br/> |
+|S_OK  <br/> |La llamada se ha realiza correctamente  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |No se encuentra la cuenta especificada.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Después de cambiar el valor de las propiedades de cuenta mediante [IOlkAccount:: SetProp](iolkaccount-setprop.md), use **IOlkAccountManager:: SaveChanges** o [IOlkAccount:: SaveChanges](iolkaccount-savechanges.md) para guardar los cambios. 
+Después de cambiar el valor de las propiedades de la cuenta mediante [IOlkAccount::SetProp](iolkaccount-setprop.md), use **IOlkAccountManager::SaveChanges** o [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) para guardar dichos cambios. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md) 
 - [IOlkAccount::SaveChanges](iolkaccount-savechanges.md)

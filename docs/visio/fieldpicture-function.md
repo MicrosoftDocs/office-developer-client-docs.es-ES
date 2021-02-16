@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251592
 localization_priority: Normal
 ms.assetid: df88c55f-c098-dd4c-bf53-c7d7b60cf719
-description: Devuelve una cadena de formato de imagen que coincide con el código de formato interno del campo de texto de Microsoft Visio.
+description: Devuelve una cadena de formato de imagen que coincide con el código de formato de campo de texto interno de Microsoft Visio.
 ms.openlocfilehash: 1ab24c602c7975cf6be22a564a8b9ee9aa0d6f46
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33431459"
 ---
 # <a name="fieldpicture-function"></a>Función FIELDPICTURE
 
-Devuelve una cadena de formato de imagen que coincide con el código de formato interno del campo de texto de Microsoft Visio.
+Devuelve una cadena de formato de imagen que coincide con el código de formato de campo de texto interno de Microsoft Visio.
   
 ## <a name="syntax"></a>Sintaxis
 
-FIELDPICTURE (* * *código* * *) 
+FIELDPICTURE(** *code* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -32,7 +32,7 @@ FIELDPICTURE (* * *código* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 
@@ -40,7 +40,7 @@ Las cadenas de formato de imagen se utilizan en la función FORMAT para definir 
   
 ## <a name="example"></a>Ejemplo
 
-FIELDPICTURE (0) 
+FIELDPICTURE(0) 
   
 Devuelve la cadena de formato de imagen "esc(0)", que especifica un número con un decimal y la descripción de las unidades en letras minúsculas cuando se usa en la función FORMAT. 
   

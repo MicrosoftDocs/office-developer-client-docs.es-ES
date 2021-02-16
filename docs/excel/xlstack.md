@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlStack
 keywords:
-- función xlstack [Excel 2007]
+- función xlstack [excel 2007]
 localization_priority: Normal
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33429982"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Comprueba la cantidad de espacio restante en la pila.
+Comprueba la cantidad de espacio que queda en la pila.
   
 ```cs
 Excel12(xlStack, LPXLOPER12 pxRes, 0);
@@ -38,17 +38,17 @@ Devuelve el número de bytes (**xltypeInt**) restantes en la pila.
   
 ## <a name="remarks"></a>Comentarios
 
-La cantidad de espacio de pila disponible de versiones recientes desborda el entero de 16 bits con signo del **XLOPER**. Esto significa que **xlStack** puede devolver un valor entre-32767 y 32768 cuando se llama usando **XLOPER**s y **Excel4** o **Excel4v**. Para obtener el valor correcto en este caso, debe convertir el valor devuelto a un unsigned short.
+La cantidad de espacio de pila disponible de las versiones recientes desborda el entero con signo de 16 bits del **XLOPER**. Esto significa que **xlStack** puede devolver un valor entre -32767 y 32768 cuando se llama mediante **XLOPER** y **Excel4** o **Excel4v**. Para obtener el valor correcto en este caso, debe convertir el valor devuelto en un short sin signo.
   
-A partir de Excel 2007, debe llamar a esta función con **XLOPER12**s y **Excel12** o **Excel12v**, en cuyo caso el valor devuelto es la cantidad de espacio de pila disponible o 64 KB, lo que sea menor.
+A partir de Excel 2007, debe llamar a esta función mediante **XLOPER12** s y **Excel12** o **Excel12v**, en cuyo caso el valor devuelto es la cantidad de espacio de pila disponible o 64 KB, lo que sea menor.
   
-Excel tiene una cantidad limitada de espacio en la pila y debe tener cuidado de no saturar este espacio. No ponga nunca estructuras de datos muy grandes en la pila y convierta tantas variables locales como sea posible. Evite llamar a las funciones de forma recursiva, ya que de este modo se llenará rápidamente la pila.
+Excel tiene una cantidad limitada de espacio en la pila y debe tener cuidado de no saturar este espacio. Nunca coloque estructuras de datos muy grandes en la pila y haga tantas variables locales como sea posible estáticas. Evite llamar a funciones de forma recursiva, ya que eso rellenará rápidamente la pila.
   
-Si sospecha que está sobreutilizando la pila, llame a esta función con frecuencia para ver la cantidad de espacio de pila que queda.
+Si sospecha que está sobresalir la pila, llame a esta función con frecuencia para ver cuánto espacio de pila queda.
   
 ## <a name="example"></a>Ejemplo
 
-En el primer ejemplo se muestra un mensaje de alerta que contiene la cantidad de espacio de pila `\SAMPLES\EXAMPLE\EXAMPLE.C`restante y que se incluye en. El segundo ejemplo hace lo mismo, ya que se trabaja con **XLOPER**y no incluido en el código de ejemplo del SDK.
+El primer ejemplo muestra un mensaje de alerta que contiene la cantidad de espacio de pila que queda y está incluido en  `\SAMPLES\EXAMPLE\EXAMPLE.C` . El segundo ejemplo hace lo mismo, trabajando con **XLOPER** y no está incluido en el código de ejemplo del SDK.
   
 ```cs
 short WINAPI xlStackExample(void)
@@ -70,7 +70,7 @@ short int WINAPI xlStackExample_XLOPER(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 
