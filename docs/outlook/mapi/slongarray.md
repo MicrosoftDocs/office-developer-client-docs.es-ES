@@ -29,7 +29,7 @@ Contiene una matriz de tipos de valor LONG que se usan para describir una propie
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SLongArray
@@ -40,21 +40,21 @@ typedef struct _SLongArray
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cValues**
   
-> Número de valores de la matriz a los que señala el miembro **LPL** . 
+> Recuento de valores en la matriz a la que apunta el **miembro lpl.** 
     
- **LPL**
+ **lpl**
   
-> Puntero a una matriz de valores de tipo LONG.
+> Puntero a una matriz de valores LONG.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca de PT_MV_LONG, vea [lista de tipos de propiedades](property-types.md).
+Para obtener más información acerca PT_MV_LONG, vea [Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

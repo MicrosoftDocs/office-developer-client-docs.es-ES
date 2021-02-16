@@ -22,7 +22,7 @@ Determina si dos cadenas son iguales.
   
 ## <a name="syntax"></a>Sintaxis
 
-STRSAMEEX ("* * *string1* * *", "* * *cadena2* * *", * * *localeID* * *, * * *Flag* * *) 
+STRSAMEEX (" ** *string1* ** ", " ** *string2* ** ", ** *localeID* **, ** *flag* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -30,7 +30,7 @@ STRSAMEEX ("* * *string1* * *", "* * *cadena2* * *", * * *localeID* * *, * * *Fl
 |:-----|:-----|:-----|:-----|
 | _string1_ <br/> |Obligatorio  <br/> |**String** <br/> |La primera cadena de la comparación.  <br/> |
 | _string2_ <br/> |Obligatorio  <br/> |**String** <br/> | La segunda cadena de la comparación.  <br/> |
-| _Regional_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El código del identificador regional.  <br/> |
+| _localeID_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El código del identificador regional.  <br/> |
 | _flag_ <br/> |Obligatorio  <br/> |**Numérico** <br/> | Un bit que especifica el tipo de comparación.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
@@ -46,7 +46,7 @@ En la función STRSAMEEX, puede usar cualquier combinación de las siguientes ma
 |**Flag**|**Descripción**|
 |:-----|:-----|
 |1  <br/> |No distinguir mayúsculas y minúsculas.  <br/> |
-|segundo  <br/> |Omitir los caracteres que no ocupan un espacio.  <br/> |
+|2   <br/> |Omitir los caracteres que no ocupan un espacio.  <br/> |
 |4   <br/> |Omitir los símbolos.  <br/> |
 |4096  <br/> |Tratar la puntuación igual que los símbolos.  <br/> |
 |65536  <br/> |No distinguir entre caracteres Hiragana y Katakana.  <br/> |

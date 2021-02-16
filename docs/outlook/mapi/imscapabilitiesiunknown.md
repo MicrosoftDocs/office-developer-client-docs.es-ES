@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMSCapabilities
+title: IMSCapabilities IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -32,17 +32,17 @@ Proporciona información sobre lo que puede admitir un almacén.
 |Suministrado por:  <br/> |Proveedor de almacenamiento de mensajes  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMSCapabilities  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Devuelve la funcionalidad de un almacén en función de la selección especificada.  <br/> |
+|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Devuelve funcionalidades de un almacén basándose en la selección especificada.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
- **IMSCapabilities** proporciona información sobre lo que puede admitir un almacén si el almacén admite esta interfaz. 
+ **IMSCapabilities proporciona** información sobre lo que una tienda puede admitir si la tienda admite esta interfaz. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

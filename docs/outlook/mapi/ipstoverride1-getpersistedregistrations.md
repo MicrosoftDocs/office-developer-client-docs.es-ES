@@ -25,28 +25,28 @@ ms.locfileid: "33415134"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Recupera la lista de registros del archivo de carpetas personales (. pst).
+Recupera la lista de registros del archivo de carpetas personales (.pst).
   
 ```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppmval_
   
-> a Un puntero a un puntero a una estructura [SPropValue](spropvalue.md) . El miembro ulPropTag de esta estructura es del tipo PT_MV_UNICODE y el miembro del valor MVszW será una matriz de cadenas Unicode terminadas en NULL. Estas cadenas son rutas de archivos DLL para las que se ha conservado el registro. 
+> [entrada] Puntero a un puntero a una [estructura SPropValue.](spropvalue.md) El miembro ulPropTag de esta estructura es del tipo PT_MV_UNICODE y el miembro de valor MVszW será una matriz de cadenas Unicode terminadas en null. Estas cadenas son rutas de acceso a dll para las que el registro se ha persistente. 
     
 > [!NOTE]
-> no se ha implementado la compatibilidad con. pst para ANSI. 
+> No se implementa la compatibilidad con .pst para ANSI. 
   
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada a la función se realizó correctamente.
+> La llamada a la función se ha realizado correctamente.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

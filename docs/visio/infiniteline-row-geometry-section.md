@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm3020
 localization_priority: Normal
 ms.assetid: 55942a42-5e88-2f6b-69f8-405ce406fcaf
-description: Contiene las coordenadas x e y de dos puntos en una línea infinita.
+description: Contiene las coordenadas x - e y de dos puntos en una línea infinita.
 ms.openlocfilehash: b6338b6b50535379759649c791b9678de640df70
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,16 +18,16 @@ ms.locfileid: "33413622"
 ---
 # <a name="infiniteline-row-geometry-section"></a>Fila InfiniteLine (Sección de Geometría)
 
-Contiene las coordenadas *x* e ** y de dos puntos en una línea infinita. 
+Contiene las  *coordenadas x*  -  *e y*  de dos puntos en una línea infinita. 
   
 Las filas InfiniteLine contienen las celdas siguientes.
   
 |**Cell**|**Descripción**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordenada *x* de un punto de la línea infinita; emparejado con la coordenada *y* representada por la celda y.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Coordenada *y* de un punto de la línea infinita; emparejado con la coordenada *x* representada por la celda x.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |Coordenada *x* de un punto de la línea infinita; emparejado con la coordenada *y* representada por la celda B.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |Coordenada *y* de un punto de una línea infinita; emparejado con la coordenada *x* representada por la celda A.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordenada  *x*  de un punto de la línea infinita; emparejado con  *coordenada y*  representada por la celda Y.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Coordenada  *y*  de un punto de la línea infinita; emparejado con coordenada  *x*  representada por la celda X.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |Coordenada  *x*  de un punto de la línea infinita; emparejado con  *coordenada y*  representada por la celda B.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |Coordenada  *y*  de un punto en una línea infinita; emparejado con coordenada  *x*  representada por la celda A.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

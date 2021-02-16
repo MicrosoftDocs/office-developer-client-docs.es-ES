@@ -30,13 +30,13 @@ Para obtener más detalles sobre cómo mostrar un objeto específico en la venta
     
 ## <a name="show-a-master"></a>Mostrar un patrón
 
-Puede tener acceso a la ventana ShapeSheet y modificar las fórmulas solo para los patrones en una galería de símbolos personalizada o de documento. A partir de Microsoft Office Visio 2003, no es posible modificar los patrones de las galerías de símbolos que incluye Visio.
+Puede tener acceso a la ventana ShapeSheet y editar fórmulas solo para los patrones de una galería de símbolos personalizada o de documento. A partir de Microsoft Office Visio 2003, no es posible modificar los patrones de las galerías de símbolos que incluye Visio.
   
-1. En la ventana **Formas**, haga clic en**Más formas** y, a continuación, haga clic en **Abrir galería de símbolos**.
+1. En la ventana **Formas**, haga clic en **Más formas** y, a continuación, haga clic en **Abrir galería de símbolos**.
     
-2. Busque y seleccione la galería de símbolos que contiene el patrón, haga clic en la flecha situada junto al botón **abrir** , seleccione una opción de apertura de la lista desplegable y, a continuación, haga clic en **abrir**. 
+2. Busque y seleccione la galería de símbolos que contiene  el patrón, haga clic en la flecha situada junto al botón Abrir, seleccione una opción de apertura en la lista desplegable y, a continuación, haga clic en **Abrir**. 
     
-    Si la galería de símbolos ya está abierta, haga clic con el botón secundario en la barra de título de la galería de símbolos y haga clic en **Editar Galería de símbolos** en el menú contextual. 
+    Si la galería de símbolos ya está abierta, haga clic con  el botón secundario en la barra de título de la galería de símbolos y, a continuación, haga clic en Editar galería de símbolos en el menú contextual. 
     
 3. Haga clic con el botón secundario en la galería de símbolos, haga clic en **Modificar patrón** en el menú contextual y, a continuación, haga clic en **Modificar forma de patrón**.
     
@@ -50,13 +50,13 @@ Puede tener acceso a la ventana ShapeSheet y modificar las fórmulas solo para l
     
 ## <a name="show-a-document"></a>Mostrar un documento
 
-1. En la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Mostrar u ocultar** , seleccione **ventana Explorador de dibujos**.
+1. En la [ficha](run-in-developer-mode-display-the-developer-tab.md) Programador, en el grupo **Mostrar u ocultar,** seleccione **Ventana del Explorador de dibujos.**
     
 2. En **Explorador de dibujos**, haga clic con el botón secundario en el documento y, a continuación, haga clic en **Mostrar ShapeSheet** en el menú contextual. 
     
 ## <a name="show-a-style"></a>Mostrar un estilo
 
-1. En la ficha [programador](run-in-developer-mode-display-the-developer-tab.md) , en el grupo **Mostrar u ocultar** , seleccione **ventana Explorador de dibujos**.
+1. En la [ficha](run-in-developer-mode-display-the-developer-tab.md) Programador, en el grupo **Mostrar u ocultar,** seleccione **Ventana del Explorador de dibujos.**
     
 2. En **Explorador de dibujos**, expanda la carpeta **Estilos**. 
     

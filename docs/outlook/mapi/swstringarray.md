@@ -29,7 +29,7 @@ Contiene una matriz de cadenas de caracteres que se usan para describir una prop
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SWStringArray
@@ -40,21 +40,21 @@ typedef struct _SWStringArray
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cValues**
   
-> Número de cadenas en la matriz a las que apunta el miembro **lppszW** . 
+> Número de cadenas de la matriz a las que apunta el **miembro lppszW.** 
     
  **lppszW**
   
-> Puntero a una matriz de cadenas de caracteres Unicode terminadas en NULL.
+> Puntero a una matriz de cadenas de caracteres Unicode terminadas en null.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca de PT_MV_UNICODE, vea [tipos de propiedades](property-types.md).
+Para obtener más información acerca PT_MV_UNICODE, vea [Tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

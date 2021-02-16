@@ -17,7 +17,7 @@ ms.locfileid: "33415295"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las adiciones MAPI son API que pertenecen a la interfaz de programación de aplicaciones de mensajería (MAPI), como tipos de datos, funciones y propiedades, que no se han expuesto previamente y documentado como parte de la referencia del programador de MAPI. Incluyen las siguientes definiciones y propiedades.
+Las adiciones de MAPI son API que pertenecen a interfaz de programación de aplicaciones de mensajería (MAPI), como tipos de datos, funciones y propiedades, que anteriormente no estaban expuestas y documentadas como parte de la referencia del programador de MAPI. Incluyen las siguientes definiciones y propiedades.
   
 ## <a name="constant-definitions"></a>Definiciones de constantes
 
@@ -29,7 +29,7 @@ Las adiciones MAPI son API que pertenecen a la interfaz de programación de apli
     
 - **[FollowUpStatus](followupstatus.md)**
     
-- **[Gender](gender.md)**
+- **[Género](gender.md)**
     
 - **[OlFlagIcon](olflagicon.md)**
     
@@ -39,7 +39,7 @@ Las adiciones MAPI son API que pertenecen a la interfaz de programación de apli
     
 ## <a name="properties"></a>Propiedades
 
-Por lo general, los objetos de mensaje exponen las siguientes propiedades.
+Generalmente, los objetos de mensaje exponen las siguientes propiedades.
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -79,11 +79,11 @@ Por lo general, los objetos de mensaje exponen las siguientes propiedades.
     
 - **[PR_SUBJECT_W](pidtagsubject-canonical-property.md)**
     
-Las siguientes propiedades las exponen los objetos de tabla de contenido de la libreta de direcciones.
+Los objetos de la tabla de contenido de la libreta de direcciones exponen las siguientes propiedades.
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-Los objetos de contenedor de la libreta de direcciones exponen las siguientes propiedades.
+Los objetos contenedor de la libreta de direcciones exponen las siguientes propiedades.
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,7 +91,7 @@ Los objetos de contenedor de la libreta de direcciones exponen las siguientes pr
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-Los objetos Folder exponen las siguientes propiedades.
+Los objetos de carpeta exponen las siguientes propiedades.
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
@@ -189,7 +189,7 @@ Los objetos de usuario de mensajería exponen las siguientes propiedades.
     
 - **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
-Las siguientes propiedades se exponen mediante objetos de sección de perfil.
+Los objetos de sección de perfil exponen las siguientes propiedades.
   
 - **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
@@ -207,7 +207,7 @@ Las siguientes propiedades se exponen mediante objetos de sección de perfil.
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-Los objetos Store exponen las siguientes propiedades.
+Los objetos de almacenamiento exponen las siguientes propiedades.
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ Los objetos Store exponen las siguientes propiedades.
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-Las siguientes propiedades están expuestas por objetos Store y se usan para buscar elementos específicos de un correo electrónico en el almacén.
+Los objetos de almacén exponen las siguientes propiedades y se usan para buscar elementos específicos de un correo electrónico en la tienda.
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     
@@ -231,7 +231,7 @@ Las siguientes propiedades están expuestas por objetos Store y se usan para bus
     
 - **[PR_SEARCH_RECIP_EMAIL_TO_W](pidtagsearchrecipientemailto-canonical-property.md)**
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Acceder a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
 - [Detectar la versión de Exchange Server en un perfil de Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)

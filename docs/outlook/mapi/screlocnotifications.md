@@ -29,7 +29,7 @@ Ajusta un puntero dentro de una matriz de notificación de eventos especificada.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -43,33 +43,33 @@ SCODE ScRelocNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _CNTF_
+ _cntf_
   
-> a Número de estructuras de [notificación](notification.md) en la matriz indicada por el parámetro _rgntf_ . 
+> [entrada] Recuento de [estructuras notification](notification.md) en la matriz indicada por el _parámetro rgntf._ 
     
  _rgntf_
   
-> a Puntero a la matriz de estructuras de **notificación** que define las notificaciones de eventos dentro de los cuales se va a ajustar un puntero. 
+> [entrada] Puntero a la matriz de **estructuras notification** que definen las notificaciones de eventos dentro de las cuales se ajustará un puntero. 
     
  _pvBaseOld_
   
-> a Puntero a la dirección base original de la matriz indicada por el parámetro _rgntf_ . 
+> [entrada] Puntero a la dirección base original de la matriz indicada por el _parámetro rgntf._ 
     
  _pvBaseNew_
   
-> a La ubicación en la que **ScRelocNotifications** escribe la nueva dirección base de la matriz indicada por el parámetro _rgntf_ . 
+> [entrada] Ubicación en la que **ScRelocNotifications** escribe la nueva dirección base de la matriz indicada por el _parámetro rgntf._ 
     
- _impreso_
+ _indeste_
   
-> contempla Puntero al tamaño, en bytes, de la matriz indicada por el parámetro _pvBaseNew_ . 
+> [salida] Puntero al tamaño, en bytes, de la matriz indicada por el _parámetro pvBaseNew._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> Un puntero se ajustó correctamente.
+> Un puntero se ha ajustado correctamente.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -77,9 +77,9 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentarios
 
-El parámetro _PCB_ para la función **ScRelocNotifications** es opcional. 
+El  _parámetro para_ la función **ScRelocNotifications** es opcional. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

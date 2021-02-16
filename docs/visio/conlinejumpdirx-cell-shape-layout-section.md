@@ -22,13 +22,13 @@ Determina la dirección del salto de línea para los saltos de línea que se pro
   
 |**Valor**|**Dirección del salto de línea**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| comprendi  <br/> | Valor predeterminado de página  <br/> |**visLOJumpDirXDefault** <br/> |
-| 1  <br/> | Arriba  <br/> |**visLOJumpDirXUp** <br/> |
-| segundo  <br/> | Abajo  <br/> |**visLOJumpDirXDown** <br/> |
+| 0  <br/> | Valor predeterminado de página  <br/> |**visLOJumpDirXDefault** <br/> |
+| 1   <br/> | Arriba  <br/> |**visLOJumpDirXUp** <br/> |
+| 2   <br/> | Abajo  <br/> |**visLOJumpDirXDown** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para establecer la dirección horizontal predeterminada de *todos los* saltos de conector en una página, utilice la celda PageLineJumpDirX en la sección de diseño de página. 
+Para establecer la dirección  horizontal predeterminada para todos los saltos de conector de una página, use la celda PageLineJumpDirX en la sección Diseño de página. 
   
 Para obtener una referencia a la celda ConLineJumpDirX por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415708"
 ---
-# <a name="propsmtpserver"></a>PROP_SMTP_SERVER
+# <a name="prop_smtp_server"></a>PROP_SMTP_SERVER
 
 Representa el nombre del servidor de la cuenta SMTP.
   
@@ -25,9 +25,9 @@ Representa el nombre del servidor de la cuenta SMTP.
 |Identificador:  <br/> |0x0200  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
 |Etiqueta de propiedad:  <br/> |0x0200001F  <br/> |
-|Al  <br/> |Solo lectura  <br/> |
+|Acceso:  <br/> |Solo lectura  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

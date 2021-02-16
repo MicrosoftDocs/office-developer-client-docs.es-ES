@@ -29,8 +29,8 @@ Inicializa un proveedor de almacenamiento de mensajes para su funcionamiento.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapispi. h  <br/> |
-|Implementado por:  <br/> |Proveedores de almacenamiento de mensajes  <br/> |
+|Archivo de encabezado:  <br/> |Mapispi.h  <br/> |
+|Implementado por:  <br/> |Proveedores de al almacenamiento de mensajes  <br/> |
 |Llamado por:  <br/> |MAPI  <br/> |
    
 ```cpp
@@ -47,31 +47,31 @@ HRESULT MSProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _hInstance_
   
-> a La instancia de la biblioteca de vínculos dinámicos (DLL) del proveedor de almacenamiento de mensajes que MAPI usó cuando se vinculó. 
+> [entrada] Instancia de la biblioteca de vínculos dinámicos (DLL) del proveedor de almacenamiento de mensajes que MAPI usó cuando se vinculó. 
     
  _lpMalloc_
   
-> a Puntero a un objeto de asignador de memoria que expone la interfaz OLE **IMalloc** . Es posible que el proveedor de almacenamiento de mensajes deba usar este método de asignación al trabajar con determinadas interfaces, como **IStream**. 
+> [entrada] Puntero a un objeto de asignador de memoria que expone la interfaz OLE **IMalloc.** Es posible que el proveedor del almacén de mensajes necesite usar este método de asignación al trabajar con determinadas interfaces, como **IStream**. 
     
  _lpAllocateBuffer_
   
-> a Puntero a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , que se va a usar para asignar memoria. 
+> [entrada] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria. 
     
  _lpAllocateMore_
   
-> a Puntero a la función [MAPIAllocateMore](mapiallocatemore.md) , que se va a usar para asignar memoria adicional. 
+> [entrada] Puntero a la [función MAPIAllocateMore,](mapiallocatemore.md) que se usará para asignar memoria adicional. 
     
  _lpFreeBuffer_
   
-> a Puntero a la función [MAPIFreeBuffer](mapifreebuffer.md) , que se usará para liberar memoria. 
+> [entrada] Puntero a la [función MAPIFreeBuffer,](mapifreebuffer.md) que se usará para liberar memoria. 
     
  _ulFlags_
   
-> a Máscara de máscara de marcas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas. Se puede establecer la siguiente marca:
     
 MAPI_NT_SERVICE 
   
@@ -79,15 +79,15 @@ MAPI_NT_SERVICE
     
  _ulMAPIVer_
   
-> a Número de versión de la interfaz del proveedor de servicios (SPI) que usa MAPI. Para el número de versión actual, vea el archivo de encabezado Mapispi. h. 
+> [entrada] Número de versión de la interfaz del proveedor de servicios (SPI) que utiliza MAPI. Para el número de versión actual, vea el archivo de encabezado Mapispi.h. 
     
  _lpulProviderVer_
   
-> contempla Puntero al número de versión del SPI que usa este proveedor de almacenamiento de mensajes. 
+> [salida] Puntero al número de versión del SPI que usa este proveedor de al almacenamiento de mensajes. 
     
  _lppMSProvider_
   
-> contempla Puntero a un puntero al objeto de proveedor de almacenamiento de mensajes inicializado.
+> [salida] Puntero a un puntero al objeto del proveedor del almacén de mensajes inicializado.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -97,25 +97,25 @@ S_OK
     
 MAPI_E_VERSION 
   
-> La versión de SPI que usa MAPI no es compatible con el SPI que usa este proveedor.
+> La versión SPI que usa MAPI no es compatible con el SPI que usa este proveedor.
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI llama a la función de punto de entrada **MSProviderInit** para inicializar un proveedor de almacén de mensajes después de un inicio de sesión de cliente. 
+MAPI llama a la función de punto de **entrada MSProviderInit para** inicializar un proveedor de almacén de mensajes después de un inicio de sesión de cliente. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Un proveedor de almacenamiento de mensajes debe implementar **MSProviderInit** como una función de punto de entrada en el archivo DLL del proveedor. La implementación debe basarse en el prototipo de función **MSPROVIDERINIT** , también especificado en MAPISPI. H. MAPI define **MSPROVIDERINIT** para usar el tipo de llamada de inicialización MAPI estándar, STDMAPIINITCALLTYPE, que hace que **MSPROVIDERINIT** siga la Convención de llamada Cdecl. Una ventaja de CDECL es que las llamadas se pueden intentar incluso si el número de parámetros de llamada no coincide con el número de parámetros definidos. 
+Un proveedor de almacén de mensajes debe **implementar MSProviderInit** como una función de punto de entrada en la DLL del proveedor. La implementación debe basarse en el prototipo de función **MSPROVIDERINIT,** también especificado en MAPISPI.H. MAPI define **MSPROVIDERINIT para** usar el tipo de llamada de inicialización MAPI estándar, STDMAPIINITCALLTYPE, que hace que **MSProviderInit** siga la convención de llamada CDECL. Una ventaja de CDECL es que las llamadas se pueden intentar incluso si el número de parámetros de llamada no coincide con el número de parámetros definidos. 
   
-Un proveedor se puede inicializar varias veces, como resultado de aparecer en varios perfiles en uso simultáneo o de aparecer más de una vez en el mismo perfil. Debido a que el objeto de proveedor contiene contexto, **MSProviderInit** debe devolver un objeto de proveedor diferente en _lppMSProvider_ para cada inicialización, incluso para varias inicializaciones en el mismo proceso. 
+Un proveedor se puede inicializar varias veces, como resultado de aparecer en varios perfiles en uso simultáneo o de aparecer más de una vez en el mismo perfil. Dado que el objeto de proveedor contiene contexto, **MSProviderInit** debe devolver un objeto de proveedor diferente en  _lppMSProvider_ para cada inicialización, incluso para varias inicializaciones en el mismo proceso. 
   
-La DLL del proveedor no debe vincularse con Mapix. dll. En su lugar, debe usar estos punteros para la asignación o desasignación de la memoria. 
+La DLL del proveedor no debe vincularse con Mapix.dll. En su lugar, debe usar estos punteros para la asignación o desasignación de memoria. 
   
-El proveedor de almacén de mensajes debe usar las funciones a las que apunta _lpAllocateBuffer_, _lpAllocateMore_y _lpFreeBuffer_ para la mayor parte de la asignación y desasignación de memoria. En concreto, el proveedor debe usar estas funciones para asignar memoria para que la usen las aplicaciones cliente al llamar a interfaces de objeto como [IMAPIProp:: GetProps](imapiprop-getprops.md) y [IMAPITable:: QueryRows](imapitable-queryrows.md). Si el proveedor también espera utilizar el asignador de memoria OLE, debe llamar al método **IUnknown:: AddRef** del objeto de asignador al que señala el parámetro _lpMalloc_ . 
+El proveedor del almacén de mensajes debe usar las funciones a las que  _apuntan lpAllocateBuffer_,  _lpAllocateMore_ y  _lpFreeBuffer_ para la mayor parte de la asignación y desasignación de memoria. En particular, el proveedor debe usar estas funciones para asignar memoria para que las usen las aplicaciones cliente al llamar a interfaces de objetos como [IMAPIProp::GetProps](imapiprop-getprops.md) e [IMAPITable::QueryRows](imapitable-queryrows.md). Si el proveedor también espera usar el asignador de memoria OLE, debe llamar al método **IUnknown::AddRef** del objeto de asignador al que apunta el parámetro _lpMalloc._ 
   
-Para obtener más información sobre cómo escribir **MSProviderInit**, vea [cargar proveedores de almacenamiento de mensajes](loading-message-store-providers.md). Para obtener más información acerca de las funciones de punto de entrada, vea [implementar una función de punto de entrada de proveedor de servicios](implementing-a-service-provider-entry-point-function.md). 
+Para obtener más información acerca de cómo **escribir MSProviderInit,** vea [Cargar proveedores de almacén de mensajes.](loading-message-store-providers.md) Para obtener más información acerca de las funciones de punto de entrada, vea Implementar una función de punto de entrada [del proveedor de servicios.](implementing-a-service-provider-entry-point-function.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

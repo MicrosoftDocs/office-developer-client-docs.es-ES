@@ -29,20 +29,20 @@ Calcula el número de bytes que se deben asignar para una nueva estructura [FLAT
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
 CbNewFLATMTSIDIDLIST (_cb)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- __CB_
+ _ _cb_
   
-> Número de bytes de las estructuras **MTSID** que se incluirán en la nueva estructura **FLATMTSIDLIST** . 
+> Número de bytes en las **estructuras MTSID** que se incluirán en la nueva **estructura FLATMTSIDLIST.** 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

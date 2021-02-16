@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlDisableXLMsgs
 keywords:
-- función xldisablexlmsgs [Excel 2007]
+- Función xldisablexlmsgs [excel 2007]
 localization_priority: Normal
 ms.assetid: b29d4720-7855-4252-9dbe-b4fc4eb8f995
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -28,7 +28,7 @@ Esta función está en desuso y ya no es necesario llamarla.
 Excel12(xlDisableXLMsgs, 0, 0);
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

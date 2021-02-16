@@ -19,9 +19,9 @@ ms.locfileid: "33415106"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los temas de esta sección describen las interacciones entre las aplicaciones cliente, el administrador de formularios MAPI, los servidores de formularios y los objetos de formulario para una gran variedad de acciones comunes, como abrir un mensaje y redactar un nuevo mensaje.
+En los temas de esta sección se describen las interacciones entre las aplicaciones cliente, el administrador de formularios MAPI, los servidores de formularios y los objetos de formulario para una variedad de acciones comunes, como abrir un mensaje y redactar un nuevo mensaje.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Desarrollar servidores de formulario MAPI](developing-mapi-form-servers.md)
+- [Desarrollo de servidores de formulario MAPI](developing-mapi-form-servers.md)
 

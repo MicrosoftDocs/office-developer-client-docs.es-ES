@@ -20,8 +20,8 @@ En esta sección se describen los tipos de datos que exporta Outlook.
   
 |**Tipo de datos**|**Descripción**|
 |:-----|:-----|
-|[TZDEFINITION](tzdefinition.md) <br/> |Representa una zona horaria completa que incluye todas las reglas de turno de zona horaria histórica, actual y futura para el horario de verano.  <br/> |
-|[TZREG](tzreg.md) <br/> |Define cuándo se inicia el horario de verano, Cuándo se produce el cambio de hora estándar y cuántas horas tiene el horario de verano.  <br/> |
-|[TZRULE](tzrule.md) <br/> |Especifica información para una regla de zona horaria en la que se inicia el horario de verano y el año en el que esa regla de zona horaria tiene efecto por primera vez.  <br/> |
+|[TZDEFINITION](tzdefinition.md) <br/> |Representa una zona horaria completa, incluidas todas las reglas de turno de zona horaria históricas, actuales y futuras para el horario de verano.  <br/> |
+|[TZREG](tzreg.md) <br/> |Define cuándo se inicia el horario de verano, cuándo se produce la vuelta a la hora estándar y cuántas horas es el turno de verano.  <br/> |
+|[TZRULE](tzrule.md) <br/> |Especifica información para una regla de zona horaria sobre cuándo se inicia el horario de verano y el año en que esa regla de zona horaria primero surte efecto.  <br/> |
    
 

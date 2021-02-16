@@ -22,13 +22,13 @@ Devuelve una cadena convertida en mayúsculas.
   
 ## <a name="syntax"></a>Sintaxis
 
-UPPER (* * *expresión* * *) 
+UPPER(** *expression* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatorio  <br/> |**Diferencias** <br/> | Una cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en mayúsculas.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> | Una cadena, referencia de celda o expresión; el resultado se convierte en una cadena cuyos caracteres se convierten en mayúsculas.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

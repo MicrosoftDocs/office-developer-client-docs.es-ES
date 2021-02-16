@@ -25,7 +25,7 @@ ms.locfileid: "33413356"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Informa al almacén de mensajes local que la sincronización está a punto de iniciarse.
+Informa al almacén de mensajes local de que la sincronización está a punto de iniciarse.
   
 ```cpp
 HRESULT InitSync( 
@@ -33,13 +33,13 @@ HRESULT InitSync(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Marcas para determinar el comportamiento adecuado durante la sincronización. Outlook usa estas marcas en cada estado de la máquina de estado de replicación para determinar la información que debe proporcionar para el cliente. Por ejemplo, si el cliente pasa **SYNC_ONLY_ASSOCIATED**, Outlook solo devolverá información relacionada con los elementos asociados (u ocultos). 
+> [entrada] Marcas para determinar el comportamiento adecuado durante la sincronización. Outlook usa estas marcas en cada estado de la máquina de estado de replicación para determinar la información que debe proporcionar al cliente. Por ejemplo, si el cliente pasa SYNC_ONLY_ASSOCIATED **,** Outlook solo devolverá información relacionada con elementos asociados (u ocultos). 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

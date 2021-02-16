@@ -21,26 +21,26 @@ ms.locfileid: "33413307"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Si elige escribir código para crear un perfil, asegúrese de que comprende cómo ordenar las entradas de perfil y el tipo y la cantidad de información necesaria para cada entrada. Las implicaciones de las entradas de ordenación en un perfil se explican en los [perfiles MAPI](mapi-profiles.md).
+Si decide escribir código para crear un perfil, asegúrese de comprender cómo ordenar las entradas de perfil y el tipo y la cantidad de información que se necesita para cada entrada. Las implicaciones de ordenar entradas en un perfil se explican en [perfiles MAPI.](mapi-profiles.md)
   
  **Para crear un perfil con código C o C++**
   
-1. Lea el archivo de encabezado para cada servicio de mensajes. Comprenda qué propiedades tendrá que configurar y qué valores va a usar.
+1. Lea el archivo de encabezado de cada servicio de mensajes. Comprenda qué propiedades necesitará configurar y qué valores usará.
     
-2. Llame a la función [MAPIAdminProfiles](mapiadminprofiles.md) para recuperar un puntero de interfaz **IProfAdmin** . 
+2. Llame a [la función MAPIAdminProfiles](mapiadminprofiles.md) para recuperar un puntero de interfaz **IProfAdmin.** 
     
-3. Llame a [IProfAdmin:: CreateProfile](iprofadmin-createprofile.md) para crear su perfil. Si desea crear un perfil con los servicios de mensajes enumerados en la sección **[default Services]** del MAPISVC. INF, establezca la marca MAPI_DEFAULT_SERVICE. Si desea permitir que el usuario escriba información de configuración, establezca la marca MAPI_DIALOG. Asegúrese de establecer esta marca si no toda la información necesaria está disponible a través del MAPISVC. Archivo INF. **CreateProfile** llama a la función de punto de entrada para que cada servicio de mensajes se agregue al perfil con MSG_SERVICE_CREATE establecido como el parámetro _ulContext_ . 
+3. Llama [a IProfAdmin::CreateProfile](iprofadmin-createprofile.md) para crear el perfil. Si desea crear un perfil con los servicios de mensajes enumerados en la **sección [Servicios predeterminados]** de MAPISVC. Inf, establece la marca MAPI_DEFAULT_SERVICE. Si desea permitir que el usuario escriba información de configuración, establezca la marca MAPI_DIALOG configuración. Asegúrese de establecer esta marca si no toda la información necesaria está disponible a través de MAPISVC. Archivo INF. **CreateProfile** llama a la función de punto de entrada para cada servicio de mensajes que se agregará al perfil con MSG_SERVICE_CREATE como parámetro _ulContext._ 
     
-4. Llame a [IProfAdmin:: AdminServices](iprofadmin-adminservices.md) para obtener un objeto de administración del servicio de mensajes. 
+4. Llame [a IProfAdmin::AdminServices](iprofadmin-adminservices.md) para obtener un objeto de administración del servicio de mensajes. 
     
-5. Use el objeto de administración del servicio de mensajes para agregar servicios de mensajes al perfil. Para cada servicio de mensajes que desee agregar:
+5. Use el objeto de administración del servicio de mensajes para agregar servicios de mensaje al perfil. Para cada servicio de mensajes que desee agregar:
     
-1. Llame al método [IMsgServiceAdmin:: CreateMsgService](imsgserviceadmin-createmsgservice.md) para crear el nuevo servicio de mensajes. 
+1. Llame al [método IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) para crear el nuevo servicio de mensajes. 
     
-2. Llame a [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md), pasando la estructura **MAPIUID** del servicio que acaba de crear y una matriz de valores de propiedad con sus propiedades de configuración. 
+2. Llame [a IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md), pasando la estructura **MAPIUID** del servicio que acaba de crear y una matriz de valores de propiedad con sus propiedades de configuración. 
     
-6. Para recuperar el identificador de un servicio recién agregado, que es su propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)), llame a [IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) para obtener acceso a la tabla de servicio de mensajes y busque la fila que representa el servicio de mensajes. La última fila de la tabla representará el servicio de mensajes que se ha agregado más recientemente. 
+6. Para recuperar el identificador de un servicio recién agregado, que es su propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)), llame a [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) para obtener acceso a la tabla del servicio de mensajes y busque la fila que representa el servicio de mensajes. La última fila de la tabla representará el servicio de mensajes agregado más recientemente. 
     
-Para crear un nuevo perfil temporal, llame al método [IProfAdmin::D eleteprofile](iprofadmin-deleteprofile.md) inmediatamente después de iniciar sesión. **DeleteProfile** marcará el nuevo perfil como eliminado mientras se puede usar durante la duración de la sesión. Como no se incluirá en la tabla de perfiles de la sesión, otros clientes no podrán usarla. 
+Para que un nuevo perfil sea temporal, llame al [método IProfAdmin::D eleteProfile](iprofadmin-deleteprofile.md) inmediatamente después de iniciar sesión. **DeleteProfile** marcará el nuevo perfil como eliminado mientras lo hace utilizable durante la sesión. Dado que no se incluirá en la tabla de perfiles de la sesión, otros clientes no podrán usarla. 
   
 

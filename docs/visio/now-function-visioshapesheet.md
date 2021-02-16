@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251470
 localization_priority: Normal
 ms.assetid: 96cac1f6-cc17-466f-23d8-a9006e7de05f
-description: Devuelve el valor de fecha y hora actual.
+description: Devuelve el valor actual de fecha y hora.
 ms.openlocfilehash: 9e28f51b0e1d1c09a70e54e432a865968c721940
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33414084"
 ---
 # <a name="now-function-visioshapesheet"></a>Función NOW (VisioShapeSheet)
 
-Devuelve el valor de fecha y hora actual.
+Devuelve el valor actual de fecha y hora.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -26,7 +26,7 @@ NOW ( )
   
 ### <a name="return-value"></a>Valor devuelto
 
-DateTime
+Datetime
   
 ## <a name="remarks"></a>Comentarios
 
@@ -46,7 +46,7 @@ Devuelve la fecha y hora actuales en el formato especificado, por ejemplo 27 Sep
   
 ## <a name="example-3"></a>Ejemplo 3
 
-AHORA () + 2EW.
+NOW()+2EW.
   
 Devuelve la fecha y hora actuales más dos semanas, por ejemplo 11/10/10 16:03:30.
   

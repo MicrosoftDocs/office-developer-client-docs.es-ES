@@ -19,7 +19,7 @@ ms.locfileid: "33414924"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para sincronizar una jerarquía de carpetas durante el [Estado de carga](upload-hierarchy-state.md)de la jerarquía.
+Información para sincronizar una jerarquía de carpetas durante el estado [de la jerarquía de carga.](upload-hierarchy-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -37,27 +37,27 @@ struct UPHIER
 
 _ulFlags_
   
-> a Marcas para modificar el comportamiento al sincronizar la jerarquía de carpetas.
+> [entrada] Marcas para modificar el comportamiento al sincronizar la jerarquía de carpetas.
     
   - UPH_OK
     
-    - a La carga se realizó correctamente. El cliente lo establece después de cargar correctamente la información en el servidor. Una vez que se ve esta marca, Outlook borra la información interna de contabilidad que indicó que era necesario actualizar la jerarquía de carpetas. 
+    - [entrada] La carga se ha realizado correctamente. El cliente establece esto después de cargar correctamente la información en el servidor. Al ver esta marca, Outlook borra la información de contabilidad interna que indicaba la jerarquía de carpetas necesaria para la actualización. 
     
-    - El cliente pasa el HRESULT si la carga no se realizó correctamente.
+    - El cliente pasa el HRESULT si la carga no se ha realizado correctamente.
     
 _pstmReserved_
   
-> contempla Este miembro está reservado para uso interno de Outlook y no es compatible.
+> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible.
     
 _iEnt_
   
-> contempla Índice para realizar un seguimiento de la sincronización del número de carpetas especificado en *cEnt* . 
+> [salida] Índice para realizar un seguimiento de la sincronización del número de carpetas especificadas por  *cEnt*  . 
     
-_Ciento_
+_cEnt_
   
-> contempla Número de carpetas que no están sincronizadas.
+> [salida] Número de carpetas que no están sincronizadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfRegister
 keywords:
-- función xlfRegister [Excel 2007]
+- función xlfregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,31 +22,31 @@ ms.locfileid: "33416044"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Se puede llamar desde un comando DLL o XLL a los que ha llamado Microsoft Excel. Esto equivale a llamar a **Register** desde una hoja de macros XLM de Excel. 
+Se puede llamar desde un comando DLL o XLL que microsoft Excel haya llamado a sí mismo. Esto equivale a llamar **a REGISTER** desde una hoja de macros XLM de Excel. 
   
 Se puede llamar a la función **xlfRegister** de dos formas: 
   
-- [xlfRegister (formulario 1)](xlfregister-form-1.md): registra un comando o una función individual.
+- [xlfRegister (formulario 1):](xlfregister-form-1.md)registra un comando o función individual.
     
 - xlfRegister (formulario 2): carga y activa un XLL.
     
-Se llama en el formulario 2, esta función solo se puede usar para cargar y activar un XLL que contenga un procedimiento [xlAutoOpen](xlautoopen.md) . 
+Llamada en el formulario 2, esta función solo se puede usar para cargar y activar un XLL que contenga un [procedimiento xlAutoOpen.](xlautoopen.md) 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pxModuleText_ (**xltypeStr**)
   
-Nombre del archivo DLL que se va a cargar y activar.
+Nombre de la DLL que se va a cargar y activar.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Si se ejecuta correctamente, devuelve el nombre de la DLL (**xltypeStr**). De lo contrario, devuelve un #VALUE! error.
+Si se realiza correctamente, devuelve el nombre de la DLL (**xltypeStr**). De lo contrario, devuelve un #VALUE! error.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

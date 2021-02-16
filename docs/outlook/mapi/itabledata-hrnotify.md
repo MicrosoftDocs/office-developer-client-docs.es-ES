@@ -35,7 +35,7 @@ HRESULT HrNotify(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -43,11 +43,11 @@ HRESULT HrNotify(
     
  _cValues_
   
-> a El número de valores de propiedad en la estructura [SPropValue](spropvalue.md) apuntado por el parámetro _lpSPropValue_ . 
+> [entrada] Recuento de valores de propiedad en la [estructura SPropValue](spropvalue.md) a la que apunta el _parámetro lpSPropValue._ 
     
  _lpSPropValue_
   
-> a Un puntero a una estructura **SPropValue** que describe los valores de las columnas en la fila de destino. 
+> [entrada] Puntero a una **estructura SPropValue** que describe los valores de las columnas de la fila de destino. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,9 +57,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **ITableData:: HrNotify** envía una notificación de TABLE_ROW_MODIFIED para la fila que coincide con la fila descrita por las propiedades a las que apunta el parámetro _lpSPropValue_ . **HrNotify** envía la notificación independientemente de si se han producido cambios en la fila. Todos los clientes y proveedores de servicios que tienen vistas de la tabla y han llamado a [IMAPITable:: Advise](imapitable-advise.md) para registrarse en las notificaciones en sus vistas reciben esta notificación. 
+El **método ITableData::HrNotify** envía una notificación TABLE_ROW_MODIFIED para la fila que coincide con la fila descrita por las propiedades a las que apunta el parámetro _lpSPropValue._ **HrNotify envía** la notificación independientemente de si se han producido cambios en la fila. Todos los clientes y proveedores de servicios que tienen vistas de la tabla y han llamado [IMAPITable::Advise](imapitable-advise.md) para registrarse para recibir notificaciones en sus vistas reciben esta notificación. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

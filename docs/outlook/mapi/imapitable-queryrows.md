@@ -35,23 +35,23 @@ LPSRowSet FAR * lppRows
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lRowCount_
   
-> a Número máximo de filas que se van a devolver.
+> [entrada] Número máximo de filas que se devolverán.
     
  _ulFlags_
   
-> a Máscara de caracteres de marcas que controlan cómo se devuelven las filas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controlan cómo se devuelven las filas. Se puede establecer la siguiente marca:
     
 TBL_NOADVANCE 
   
-> Impide que el cursor avance como resultado de la recuperación de la fila. Si se establece la marca TBL_NOADVANCE, el cursor apunta a la primera fila devuelta. Si no se establece la marca TBL_NOADVANCE, el cursor apunta a la fila que sigue a la última fila devuelta.
+> Impide que el cursor avance como resultado de la recuperación de filas. Si se TBL_NOADVANCE marca, el cursor apunta a la primera fila devuelta. Si no TBL_NOADVANCE marca, el cursor apunta a la fila que sigue a la última fila devuelta.
     
  _lppRows_
   
-> contempla Puntero a un puntero a una estructura [SRowSet](srowset.md) que contiene las filas de la tabla. 
+> [salida] Puntero a un puntero a una [estructura SRowSet](srowset.md) que contiene las filas de la tabla. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,55 +61,55 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que impide que se inicie la operación de recuperación de filas. Debe permitirse que la operación en curso se complete o que deba detenerse.
+> Hay otra operación en curso que impide que se inicie la operación de recuperación de filas. La operación en curso debe poder completarse o debe detenerse.
     
 MAPI_E_INVALID_PARAMETER 
   
-> El parámetro _IRowCount_ se establece en cero. 
+> El  _parámetro IRowCount_ se establece en cero. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable:: QueryRows** obtiene una o varias filas de datos de una tabla. El valor del parámetro _IRowCount_ afecta al punto inicial de la recuperación. Si _IRowCount_ es positivo, las filas se leen en dirección hacia delante, comenzando en la posición actual. Si _IRowCount_ es negativo, **QueryRows** restablece el punto inicial desplazándose hacia atrás el número indicado de filas. Una vez restablecido el cursor, las filas se leen en orden de reenvío. 
+El **método IMAPITable::QueryRows** obtiene una o más filas de datos de una tabla. El valor del parámetro  _IRowCount_ afecta al punto de inicio de la recuperación. Si  _IRowCount_ es positivo, las filas se leen en dirección hacia delante, comenzando en la posición actual. Si  _IRowCount_ es negativo, **QueryRows** restablece el punto inicial moviendo hacia atrás el número de filas indicado. Una vez restablecido el cursor, las filas se leen en orden hacia delante. 
   
-El **** miembro Crows de la estructura [SRowSet](srowset.md) apuntado por el parámetro _lppRows_ indica el número de filas devueltas. Si se devuelven cero filas: 
+El **miembro cRows** de la estructura [SRowSet](srowset.md) a la que apunta el parámetro  _lppRows_ indica el número de filas devueltas. Si se devuelven cero filas: 
   
-- El cursor ya estaba situado al principio de la tabla y el valor de _IRowCount_ es negativo. O 
+- El cursor ya estaba situado al principio de la tabla y el valor de  _IRowCount_ es negativo. -Or- 
     
-- El cursor ya estaba situado al final de la tabla y el valor de _IRowCount_ es positivo. 
+- El cursor ya estaba situado al final de la tabla y el valor de  _IRowCount_ es positivo. 
     
-El número de columnas y su ordenación son los mismos para cada fila. Si una propiedad no existe para una fila o se produce un error al leer una propiedad, la estructura **SPropValue** de la propiedad en la fila contiene los siguientes valores: 
+El número de columnas y su orden es el mismo para cada fila. Si una propiedad no existe para una fila o hay un error al leer una propiedad, la estructura **SPropValue** de la propiedad de la fila contiene los siguientes valores: 
   
-- PT_ERROR para el tipo de propiedad en el miembro **ulPropTag** . 
+- PT_ERROR para el tipo de propiedad en el **miembro ulPropTag.** 
     
-- MAPI_E_NOT_FOUND para el miembro **Value** . 
+- MAPI_E_NOT_FOUND para el **miembro Value.** 
     
-La memoria usada para las estructuras [SPropValue](spropvalue.md) en el conjunto de filas al que apunta el parámetro _lppRows_ debe asignarse por separado y liberarse para cada fila. Use [MAPIFreeBuffer](mapifreebuffer.md) para liberar las estructuras de valores de propiedad y liberar el conjunto de filas. Sin embargo, cuando una llamada a **QueryRows** devuelve cero, lo que indica el principio o el final de la tabla, solo es necesario liberar la propia estructura **SRowSet** . Para obtener más información acerca de cómo asignar y liberar memoria en una estructura **SRowSet** , consulte [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
+La memoria usada para las [estructuras SPropValue](spropvalue.md) del conjunto de filas al que apunta el parámetro  _lppRows_ debe asignarse y liberarse por separado para cada fila. Usa [MAPIFreeBuffer para](mapifreebuffer.md) liberar las estructuras de valores de propiedad y liberar el conjunto de filas. Sin embargo, cuando una llamada a **QueryRows** devuelve cero, lo que indica el principio o el final de la tabla, solo es necesario liberar la estructura **SRowSet** en sí. Para obtener más información acerca de cómo asignar y liberar memoria en una estructura **SRowSet,** vea Managing [Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
-Las filas que se devuelven y el orden en que se devuelven dependen de si se han realizado o no llamadas correctas a [IMAPITable:: Restrict](imapitable-restrict.md) y [IMAPITable:: SortTable](imapitable-sorttable.md). **Restringir** las filas de filtros de la vista, lo que hace que **QueryRows** devuelva sólo las filas que coinciden con los criterios especificados en la restricción. **SortTable** establece un criterio de ordenación estándar o categorizado, que afecta a la secuencia de filas devueltas por **QueryRows**. Las filas devueltas están en el orden especificado en la estructura [SSortOrderSet](ssortorderset.md) que se pasa a **SortTable**.
+Las filas que se devuelven y el orden en que se devuelven dependen de si se han realizado o no llamadas correctas a [IMAPITable::Restrict](imapitable-restrict.md) e [IMAPITable::SortTable](imapitable-sorttable.md). **Restringir** filtra filas de la vista, lo que hace que **QueryRows** devuelva solo las filas que coinciden con los criterios especificados en la restricción. **SortTable** establece un criterio de ordenación estándar o categorizado, que afecta a la secuencia de filas devueltas por **QueryRows**. Las filas devueltas están en el orden especificado en la estructura [SSortOrderSet](ssortorderset.md) pasada a **SortTable**.
   
-Las columnas devueltas para cada fila y el orden en que se devuelven dependen de si se realizó o no una llamada correcta a [IMAPITable:: SetColumns](imapitable-setcolumns.md). **SetColumns** establece un conjunto de columnas que especifica las propiedades que se incluirán en las columnas de la tabla y el orden en que deben incluirse. Si se ha realizado una llamada de **SetColumns** , las columnas determinadas de cada fila y el orden de esas columnas coinciden con el conjunto de columnas especificado en la llamada. Si no se ha realizado ninguna llamada de **SetColumns** , la tabla devuelve el conjunto de columnas predeterminado. 
+Las columnas devueltas para cada fila y el orden en que se devuelven dependen de si se ha realizado o no una llamada correcta a [IMAPITable::SetColumns](imapitable-setcolumns.md). **SetColumns** establece un conjunto de columnas, especificando las propiedades que se incluirán en las columnas de la tabla y el orden en que deben incluirse. Si se ha realizado una llamada **a SetColumns,** las columnas concretas de cada fila y el orden de esas columnas coinciden con el conjunto de columnas especificado en la llamada. Si no se ha realizado ninguna llamada a **SetColumns,** la tabla devuelve su conjunto de columnas predeterminado. 
   
-Si no se ha realizado ninguna de estas llamadas, **QueryRows** devuelve todas las filas de la tabla. Cada fila contiene el conjunto de columnas predeterminado en el orden predeterminado. 
+Si no se ha realizado ninguna de estas llamadas, **QueryRows** devuelve todas las filas de la tabla. Cada fila contiene la columna predeterminada establecida en orden predeterminado. 
   
-Cuando el conjunto de columnas establecido en una llamada a [IMAPITable:: SetColumns](imapitable-setcolumns.md) incluye columnas establecidas en PR_NULL, la matriz [SPropValue](spropvalue.md) dentro del conjunto de filas devuelto en _lppRows_ contendrá ranuras vacías. 
+Cuando el conjunto de columnas se establece en una llamada a [IMAPITable::SetColumns](imapitable-setcolumns.md) incluye columnas establecidas en PR_NULL, la matriz [SPropValue](spropvalue.md) dentro del conjunto de filas devuelto en _lppRows contendrá ranuras vacías._ 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Puede permitir que un llamador solicite una columna no admitida que se incluirá en el conjunto de columnas. Cuando esto ocurre, se colocan PT_ERROR en la parte de tipo de propiedad de la etiqueta de propiedad y MAPI_E_NOT_FOUND en el valor de la propiedad para la columna no admitida. 
+Puede permitir que el autor de la llamada solicite que se incluya una columna no admitida en el conjunto de columnas. Cuando esto ocurre, coloque PT_ERROR la parte del tipo de propiedad de la etiqueta de propiedad y MAPI_E_NOT_FOUND en el valor de propiedad de la columna no admitida. 
   
-Trate el recuento de filas como una solicitud en lugar de un requisito. Puede devolver cualquier parte de cero filas, si no hay ninguna fila en la dirección de la consulta, al número solicitado. 
+Trate el recuento de filas como una solicitud en lugar de un requisito. Puede volver a cualquier lugar desde cero filas, si no hay filas en la dirección de la consulta, hasta el número solicitado. 
   
-Devuelve solo las filas que el usuario verá cuando se solicitan filas de una vista de tabla clasificada, lo que permite al autor de la llamada realizar suposiciones válidas sobre el ámbito de los datos y evitar el trabajo adicional. 
+Devuelve solo las filas que el usuario verá cuando se soliciten filas desde una vista de tabla categorizada, lo que permite al autor de la llamada hacer suposiciones válidas sobre el ámbito de los datos y evitar trabajo adicional. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Por lo general, acabará con tantas filas como ha especificado en el parámetro _lRowCount_ . Sin embargo, cuando los límites de memoria o de implementación son un problema o cuando la operación alcanza el principio o el final de la tabla de forma prematura, **QueryRows** devolverá menos filas de las solicitadas. 
+Normalmente, terminará con tantas filas como haya especificado en el _parámetro lRowCount._ Sin embargo, cuando los límites de memoria o implementación son un problema o cuando la operación llega al principio o al final de la tabla prematuramente, **QueryRows** devolverá menos filas de las solicitadas. 
   
-Si **QueryRows** devuelve MAPI_E_BUSY, llame al método [IMAPITable:: WaitForCompletion](imapitable-waitforcompletion.md) y vuelva a intentar la llamada a **QueryRows** cuando se complete la operación asincrónica. 
+Si **QueryRows** devuelve MAPI_E_BUSY, llame al método [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) y vuelva a intentar la llamada a **QueryRows** cuando se complete la operación asincrónica. 
   
-Al llamar a **QueryRows**, tenga en cuenta que el tiempo de las notificaciones asincrónicas puede provocar potencialmente que el conjunto de filas que se obtiene de **QueryRows** no represente con precisión los datos subyacentes. Por ejemplo, una llamada a **QueryRows** a la tabla de contenido de una carpeta tras la eliminación de un mensaje, pero antes de la recepción de la notificación correspondiente hará que la fila eliminada se devuelva en el conjunto de filas. Espere siempre a que llegue una notificación antes de actualizar la vista del usuario de los datos. 
+Al llamar **a QueryRows,** tenga en cuenta que la sincronización de las notificaciones asincrónicas puede provocar que el conjunto de filas que obtiene de **QueryRows** no represente con precisión los datos subyacentes. Por ejemplo, una llamada a **QueryRows** a la tabla de contenido de una carpeta después de eliminar un mensaje, pero antes de recibir la notificación correspondiente hará que la fila eliminada se devuelva en el conjunto de filas. Espere siempre a que llegue una notificación antes de actualizar la vista del usuario de los datos. 
   
-Para obtener más información acerca de la recuperación de filas de tablas, vea [recuperar datos de filas de tabla](retrieving-data-from-table-rows.md).
+Para obtener más información acerca de cómo recuperar filas de tablas, vea [Recuperar datos de filas de tabla](retrieving-data-from-table-rows.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -117,9 +117,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa el método **IMAPITable:: QueryRows** para recuperar las filas de la tabla que se van a cargar en la vista.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI usa el **método IMAPITable::QueryRows** para recuperar filas de la tabla para cargar en la vista.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

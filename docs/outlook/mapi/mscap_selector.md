@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417206"
 ---
-# <a name="mscapselector"></a>MSCAP_SELECTOR
+# <a name="mscap_selector"></a>MSCAP_SELECTOR
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica las funciones que se van a devolver para un almacén.
+Especifica las capacidades que se devolverán para un almacén.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -40,22 +40,22 @@ typedef enum
 
  *MSCAP_SEL_RESERVED1* 
   
-> Este miembro está reservado para uso interno de Outlook y no es compatible. 
+> Este miembro está reservado para el uso interno de Outlook y no es compatible. 
     
  *MSCAP_SEL_RESERVED2* 
   
-> Este miembro está reservado para uso interno de Outlook y no es compatible. 
+> Este miembro está reservado para el uso interno de Outlook y no es compatible. 
     
  *MSCAP_SEL_FOLDER* 
   
-> Funcionalidades sobre carpetas auxiliares en un almacén.
+> Funcionalidades sobre la compatibilidad de carpetas en un almacén.
     
  *MSCAP_SEL_RESERVED3* 
   
-> Este miembro está reservado para uso interno de Outlook y no es compatible. 
+> Este miembro está reservado para el uso interno de Outlook y no es compatible. 
     
  *MSCAP_SEL_RESTRICTION* 
   
-> Capacidades para admitir restricciones en un almacén.
+> Funcionalidades sobre compatibilidad con restricciones en un almacén.
     
 

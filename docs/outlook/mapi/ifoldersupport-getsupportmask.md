@@ -25,7 +25,7 @@ ms.locfileid: "33417374"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obtiene información sobre la compatibilidad de una carpeta con el uso compartido.
+Obtiene información sobre la compatibilidad de una carpeta para compartir.
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -33,11 +33,11 @@ HRESULT GetSupportMask(
 ); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pdwSupportMask_
   
-> contempla Máscara de máscara que indica si la carpeta admite el uso compartido.
+> [salida] Máscara de bits que indica si la carpeta admite el uso compartido.
     
  **FS_NONE**
   
@@ -51,6 +51,6 @@ HRESULT GetSupportMask(
 
 S_OK 
   
-> La llamada se realizó correctamente.
+> La llamada se ha realizado correctamente.
     
 

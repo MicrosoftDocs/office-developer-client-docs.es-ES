@@ -18,9 +18,9 @@ ms.locfileid: "33415883"
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
 
-- [Función CAST (aplicación web personalizada de Access)](cast-function-access-custom-web-app.md)
+- [Función Cast (aplicación web personalizada de Access)](cast-function-access-custom-web-app.md)
     
-- [Función COALESCE (aplicación web personalizada de Access)](coalesce-function-access-custom-web-app.md)
+- [Función Coalesce (aplicación web personalizada de Access)](coalesce-function-access-custom-web-app.md)
     
 - [Función DateWithTimeFromParts (aplicación web personalizada de Access)](datewithtimefromparts-function-access-custom-web-app.md)
     
@@ -30,6 +30,6 @@ ms.locfileid: "33415883"
     
 - [Función TimeFromParts (aplicación web personalizada de Access)](timefromparts-functionaccess-custom-web-app.md)
     
-- [Función Try_Parse (aplicación web personalizada de Access)](try_parse-function-access-custom-web-app.md)
+- [Try_Parse (aplicación web personalizada de Access)](try_parse-function-access-custom-web-app.md)
     
 

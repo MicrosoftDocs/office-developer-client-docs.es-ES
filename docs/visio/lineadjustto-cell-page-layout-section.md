@@ -20,12 +20,12 @@ ms.locfileid: "33414028"
 
 Determina qué conectores dinámicos se alinean uno encima de otro.
   
-|**Valor**|**Cód**|**Constante de automatización**|
+|**Valor**|**Ajuste**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |Predeterminado para el estilo de enrutamiento  <br/> |**visPLOLineAdjustToDefault** <br/> |
-|1  <br/> |Líneas cercanas entre sí  <br/> |**visPLOLineAdjustToAll** <br/> |
-|segundo  <br/> |Sin líneas  <br/> |**visPLOLineAdjustToNone** <br/> |
-|3  <br/> |Líneas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
+|0  <br/> |Predeterminado para el estilo de enrutamiento  <br/> |**visPLOLineAdjustToDefault** <br/> |
+|1   <br/> |Líneas cercanas entre sí  <br/> |**visPLOLineAdjustToAll** <br/> |
+|2   <br/> |Sin líneas  <br/> |**visPLOLineAdjustToNone** <br/> |
+|3   <br/> |Líneas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

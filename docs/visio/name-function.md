@@ -22,17 +22,17 @@ Devuelve el nombre de una hoja como una cadena.
   
 ## <a name="syntax"></a>Sintaxis
 
-NOMBRE (* * *ididiomaopc* * *) 
+NAME (** *langID_opt* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _Ididiomaopc_ <br/> |Opcional  <br/> |**Number** <br/> |Se usa para especificar un idioma para la cadena devuelta por la función. Use 0 (valor predeterminado) para especificar el idioma local. Use 750 para especificar un idioma universal.  <br/> |
+| _langID_opt_ <br/> |Opcional  <br/> |**Number** <br/> |Se usa para especificar un idioma para la cadena devuelta por la función. Use 0 (valor predeterminado) para especificar el idioma local. Use 750 para especificar un idioma universal.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 

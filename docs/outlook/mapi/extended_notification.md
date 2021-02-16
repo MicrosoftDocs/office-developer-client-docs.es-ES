@@ -19,17 +19,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415722"
 ---
-# <a name="extendednotification"></a>EXTENDED_NOTIFICATION
+# <a name="extended_notification"></a>EXTENDED_NOTIFICATION
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe la información relacionada con un evento que es específico del proveedor de servicios. 
+Describe la información relacionada con un evento específico del proveedor de servicios. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _EXTENDED_NOTIFICATION
@@ -41,7 +41,7 @@ typedef struct _EXTENDED_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulEvent**
   
@@ -49,29 +49,29 @@ typedef struct _EXTENDED_NOTIFICATION
     
  **cb**
   
-> Número de bytes en los parámetros específicos de evento señalados por **pbEventParameters**. 
+> Recuento de bytes en los parámetros específicos del evento a los que apunta **pbEventParameters**. 
     
  **pbEventParameters**
   
-> Puntero a parámetros específicos del evento. El tipo de parámetros que se usa depende del valor del miembro **ulEvent** ; Estos parámetros están documentados por el proveedor que emitió el evento. 
+> Puntero a parámetros específicos del evento. El tipo de parámetros que se usan depende del valor del **miembro ulEvent;** estos parámetros los documenta el proveedor que emitió el evento. 
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **EXTENDED_NOTIFICATION** es uno de los miembros de la Unión de estructuras incluidas en el miembro de **información** de la estructura de [notificación](notification.md) . Cuando el miembro de **información** de una estructura de **notificación** contiene una estructura **EXTENDED_NOTIFICATION** , el miembro **ulEventType** de la estructura de **notificación** se establece en _fnevExtended_.
+La **EXTENDED_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de** información de la [estructura notification.](notification.md) Cuando el miembro  **de** información de una estructura notification contiene una estructura **EXTENDED_NOTIFICATION,** el miembro **ulEventType** de la estructura **NOTIFICATION** se establece en _fnevExtended_.
   
-El evento extendido lo define un proveedor de servicios para representar un tipo de cambio que no puede estar cubierto por ningún otro evento predefinido. Solo los clientes que sepan que deben registrarse antes de que un proveedor de servicios admita un evento extendido pueden registrarse para ese evento. Los clientes no pueden determinar sin conocimiento avanzado si un proveedor de servicios admite un evento extendido. Si un proveedor de servicios admite un evento extendido, muestra cómo controlar dicho evento cuando se recibe.
+El evento extendido lo define un proveedor de servicios para representar un tipo de cambio que no puede estar cubierto por ninguno de los demás eventos predefinidos. Solo los clientes que sepan antes de registrar que un proveedor de servicios admite un evento extendido pueden registrarse para ese evento. No es posible que los clientes determinen sin conocimientos avanzados si un proveedor de servicios admite un evento extendido. Si un proveedor de servicios admite un evento extendido, muestra cómo controlar dicho evento cuando se recibe.
   
-La sesión envía una notificación extendida cuando un cliente cierra sesión. Para registrar esta notificación, llame a [IMAPISession:: Advise](imapisession-advise.md) con el parámetro _LPENTRYID_ establecido en NULL y el parámetro _cbEntryID_ establecido en cero. 
+La sesión envía una notificación extendida cuando un cliente cierra sesión. Regístrese para esta notificación llamando a [IMAPISession::Advise](imapisession-advise.md) con el parámetro  _lpEntryID_ establecido en NULL y el parámetro  _cbEntryID_ establecido en cero. 
   
-Para obtener más información acerca de las notificaciones, vea los temas que se describen en la tabla siguiente.
+Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
-|[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Información sobre cómo los proveedores de servicios pueden usar los métodos de [IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo deben administrarse las notificaciones los clientes.  <br/> |
+|[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar [los métodos IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

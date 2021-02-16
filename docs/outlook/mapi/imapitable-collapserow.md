@@ -25,7 +25,7 @@ ms.locfileid: "33416177"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contrae una categoría de tabla expandida, quitando los títulos de nivel inferior y las filas de hoja que pertenecen a la categoría de la vista de tabla.
+Contrae una categoría de tabla expandida, quitando los encabezados de nivel inferior y las filas hoja que pertenecen a la categoría de la vista de tabla.
   
 ```cpp
 HRESULT CollapseRow(
@@ -36,47 +36,47 @@ ULONG FAR * lpulRowCount
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbInstanceKey_
   
-> a El número de bytes de la propiedad PR_INSTANCE_KEY a la que apunta el parámetro _pbInstanceKey_ . 
+> [entrada] El recuento de bytes en la PR_INSTANCE_KEY propiedad que apunta el _parámetro pbInstanceKey._ 
     
  _pbInstanceKey_
   
-> a Un puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica la fila de encabezado de la categoría. 
+> [entrada] Puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica la fila de título de la categoría. 
     
  _ulFlags_
   
-> Reserve debe ser cero.
+> Reservado; debe ser cero.
     
  _lpulRowCount_
   
-> contempla Un puntero al número total de filas que se van a quitar de la vista de tabla.
+> [salida] Puntero al número total de filas que se están quitando de la vista de tabla.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La operación de contracción se realizó correctamente.
+> La operación de con contraer se ha hecho correctamente.
     
 MAPI_E_NOT_FOUND 
   
-> La fila identificada por el parámetro _pbInstanceKey_ no existe. 
+> La fila identificada por el  _parámetro pbInstanceKey_ no existe. 
     
 MAPI_E_INVALID_ENTRYID 
   
-> La fila identificada por el parámetro _pbInstanceKey_ no existe. Este error es una alternativa a MAPI_E_NOT_FOUND; los proveedores de servicios pueden devolver cualquiera de los dos. 
+> La fila identificada por el  _parámetro pbInstanceKey_ no existe. Este error es una alternativa a MAPI_E_NOT_FOUND; los proveedores de servicios pueden devolver cualquiera de los dos. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable:: CollapseRow** contrae una categoría de tabla y la quita de la vista de tabla. Las filas se contraen comenzando en la fila identificada por la propiedad **PR_INSTANCE_KEY** a la que señala el parámetro _pbInstanceKey_ . El número de filas que se quitan de la vista se devuelve en el contenido del parámetro _lpulRowCount_ . 
+El **método IMAPITable::CollapseRow** contrae una categoría de tabla y la quita de la vista de tabla. Las filas se contraen empezando por la fila identificada por **la PR_INSTANCE_KEY** que apunta el _parámetro pbInstanceKey._ El número de filas que se quitan de la vista se devuelve en el contenido del parámetro _lpulRowCount._ 
   
-Las notificaciones nunca se generan para las filas de tabla que se quitan de una vista como resultado de una operación de contracción. 
+Las notificaciones nunca se generan para las filas de tabla que se quitan de una vista como resultado de una operación de con contraer. 
   
-Cuando una fila definida por un marcador está contraída de la vista, el marcador se mueve para que apunte a la siguiente fila visible. 
+Cuando una fila definida por un marcador se contrae fuera de la vista, el marcador se mueve para apuntar a la siguiente fila visible. 
   
-Para obtener más información acerca de las tablas clasificadas por categorías, vea [ordenar y categorización](sorting-and-categorization.md).
+Para obtener más información acerca de las tablas categorizadas, vea [Ordenar y categorizar.](sorting-and-categorization.md)
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -84,9 +84,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI usa el método **IMAPITable:: CollapseRow** para contraer una categoría de tabla.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI usa el **método IMAPITable::CollapseRow** para contraer una categoría de tabla.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

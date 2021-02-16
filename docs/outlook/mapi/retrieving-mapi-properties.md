@@ -23,7 +23,7 @@ ms.locfileid: "33417087"
   
 Cuando un cliente o proveedor de servicios recupera una propiedad de un objeto, el objeto pone a disposición el valor, el tipo y el identificador de la propiedad. 
   
-Los clientes y los proveedores de servicios pueden recuperar las propiedades de un objeto mediante una llamada a uno de los siguientes:
+Los clientes y proveedores de servicios pueden recuperar las propiedades de un objeto llamando a una de las siguientes opciones:
   
 [IMAPIProp::GetProps](imapiprop-getprops.md)
   
@@ -31,42 +31,42 @@ Los clientes y los proveedores de servicios pueden recuperar las propiedades de 
   
 [HrGetOneProp](hrgetoneprop.md)
   
-El método **GetProps** se usa para recuperar una o más propiedades que no necesitan una interfaz especializada o de acceso alternativo para Access. Esto implica que las propiedades disponibles con **GetProps** son pequeñas, como enteros y valores booleanos. 
+El **método GetProps** se usa para recuperar una o más propiedades que no necesitan una interfaz especializada o alternativa para el acceso. Esto implica que las propiedades disponibles con **GetProps** son pequeñas, como enteros y valores booleanos. 
   
  **Para recuperar varias propiedades**
   
-1. Asigne una estructura [SPropTagArray](sproptagarray.md) lo suficientemente grande para contener el número de propiedades que se van a recuperar. 
+1. Asigne una [estructura SPropTagArray](sproptagarray.md) lo suficientemente grande como para contener el número de propiedades que se recuperarán. 
     
-2. Establezca el miembro **cValues** de la estructura **SPropTagArray** en el número de propiedades que se recuperarán y establezca cada miembro **aulPropTag** en el identificador y el tipo, si es posible, de una de las propiedades de destino. Si el tipo es desconocido, establézcalo en PT_UNSPECIFIED. Si el tipo y el identificador son desconocidos, busque esta información mediante una llamada a [IMAPIProp:: GetPropList](imapiprop-getproplist.md). **GetPropList** devuelve una matriz de etiquetas de propiedad con todas las propiedades admitidas del objeto. Si solo hay disponible un nombre de propiedad, llame a [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener acceso al identificador asociado. 
+2. Establezca el miembro **cValues** de la estructura **SPropTagArray** en el número de propiedades que se recuperarán y establezca cada miembro **aulPropTag** en el identificador y el tipo, si es posible, de una de las propiedades de destino. Si el tipo es desconocido, estadórlo en PT_UNSPECIFIED. Si el tipo y el identificador son desconocidos, busque esta información llamando a [IMAPIProp::GetPropList](imapiprop-getproplist.md). **GetPropList devuelve** una matriz de etiquetas de propiedades con todas las propiedades admitidas del objeto. Si solo hay un nombre de propiedad disponible, llame a [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener acceso al identificador asociado. 
     
-3. Llame a [IMAPIProp:: GetProps](imapiprop-getprops.md) para abrir la propiedad o las propiedades. 
+3. Llame [a IMAPIProp::GetProps](imapiprop-getprops.md) para abrir la propiedad o las propiedades. 
     
-El método **OpenProperty** se usa para abrir propiedades más grandes que requieren una interfaz alternativa como **IStream** o [IMAPITable](imapitableiunknown.md) para Access. **OpenProperty** se usa normalmente para abrir Propiedades de cadena de caracteres, binarios y objetos de gran tamaño y sólo puede abrir una propiedad a la vez. Los autores de las llamadas pasan el identificador de la interfaz adicional que se requiere como uno de los parámetros de entrada. 
+El **método OpenProperty** se usa para abrir propiedades más grandes que requieren una interfaz alternativa como **IStream** o [IMAPITable](imapitableiunknown.md) para el acceso. **OpenProperty** se usa normalmente para abrir propiedades de cadena de caracteres grandes, binarios y objetos y solo puede abrir una propiedad a la vez. Los autores de llamadas pasan el identificador de la interfaz adicional necesaria como uno de los parámetros de entrada. 
   
-Algunos de los usos comunes de **OpenProperty** incluyen la apertura de **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propiedad que contiene el cuerpo de un mensaje basado en texto, **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)), la propiedad que contiene un Objeto OLE o datos adjuntos del mensaje y **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), la propiedad que contiene una tabla de contenido del contenedor de la libreta de direcciones o carpeta. 
+Algunos de los usos comunes de **OpenProperty** incluyen abrir **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propiedad que contiene el cuerpo de un mensaje basado en texto, **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)), la propiedad que contiene un objeto OLE o datos adjuntos de mensaje, y **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), la propiedad que contiene una tabla de contenido de contenedor de carpeta o libreta de direcciones. 
   
-En función de la propiedad, se solicita una interfaz distinta desde **OpenProperty**. **IStream**, una interfaz que permite leer y escribir datos de propiedad como una secuencia de bytes, suele usarse para obtener acceso a **PR_BODY**. Se puede usar [IMessage](imessageimapiprop.md) o **IStream** para obtener acceso a **PR_ATTACH_DATA_OBJ**. Los datos adjuntos de mensajes incrustados que son mensajes estándar usan **IMessage** mientras que los mensajes en formato TNEF usan **IStream**. Dado que **PR_CONTAINER_CONTENTS** es un objeto Table, se tiene acceso a él con el [IMAPITable](imapitableiunknown.md).
+Según la propiedad, se solicita una interfaz diferente a **OpenProperty**. **IStream**, una interfaz que permite leer y escribir datos de propiedad como una secuencia de bytes, se usa normalmente para obtener acceso a **PR_BODY**. Se [puede usar IMessage](imessageimapiprop.md) **o IStream** para obtener acceso a **PR_ATTACH_DATA_OBJ**. Los datos adjuntos de mensajes incrustados que son mensajes estándar usan **IMessage,** mientras que los mensajes en formato TNEF usan **IStream**. Dado **PR_CONTAINER_CONTENTS** es un objeto de tabla, se tiene acceso a él con [IMAPITable](imapitableiunknown.md).
   
- **Para recuperar la propiedad PR_ATTACH_DATA_BIN de un archivo adjunto**
+ **Para recuperar la propiedad de PR_ATTACH_DATA_BIN datos adjuntos**
   
-1. Llame a la función [OpenStreamOnFile](openstreamonfile.md) para abrir un objeto Stream para el archivo. 
+1. Llame a [la función OpenStreamOnFile](openstreamonfile.md) para abrir una secuencia para el archivo. 
     
-2. Llame al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) del mensaje para recuperar la **propiedad PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) con la interfaz **IStream** . Establezca los indicadores MAPI_MODIFY y MAPI_CREATE. 
+2. Llame al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del mensaje para recuperar la propiedad **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) con la **interfaz IStream.** Establezca las marcas MAPI_MODIFY y MAPI_CREATE marcas. 
     
-3. Asigne una estructura **STATSTG** y pásela en una llamada al método **IStream:: Stat** del flujo de archivos para determinar su tamaño. Otra forma de determinar el tamaño de la secuencia es llamar a **IStream:: Seek** con la marca STREAM_SEEK_END. 
+3. Asigna una **estructura STATSTG** y pásala en una llamada al método **IStream::Stat** de la secuencia de archivos para determinar su tamaño. Otra forma de determinar el tamaño de la secuencia es llamar a **IStream::Seek** con la marca STREAM_SEEK_END. 
     
-4. Llame al método **IStream:: CopyTo** de la secuencia para copiar los datos de la secuencia del archivo en la secuencia de datos adjuntos. 
+4. Llama al método **IStream::CopyTo** de la secuencia para copiar los datos de la secuencia del archivo en la secuencia de datos adjuntos. 
     
-5. Una vez finalizada la operación de copia, libere ambas secuencias llamando a sus métodos **IUnknown:: Release** . 
+5. Cuando finalice la operación de copia, libere ambas secuencias llamando a sus métodos **IUnknown::Release.** 
     
-Cuando se usa **IStream** para el acceso a la propiedad, algunos proveedores de servicios vuelven a enviar automáticamente el tamaño de la propiedad con la secuencia. La llamada a **OpenProperty** con la marca MAPI_DEFERRED_ERRORS puede retrasar la apertura de la propiedad y la devolución del tamaño de la transmisión. Si se llama a **IStream:: Stat** para recuperar este tamaño tras **OpenProperty** con la marca MAPI_DEFERRED_ERRORS establecida, el rendimiento se verá afectado porque esta secuencia de llamadas fuerza una llamada a procedimiento remoto adicional. Para evitar el impacto en el rendimiento, los clientes pueden llamar a cualquier método MAPI entre las llamadas a **OpenProperty** y a **STAT**.
+Cuando **se usa IStream** para el acceso a propiedades, algunos proveedores de servicios envían automáticamente el tamaño de la propiedad con la secuencia. Llamar **a OpenProperty** con MAPI_DEFERRED_ERRORS marca puede retrasar la apertura de la propiedad y la devolución del tamaño de la secuencia. Si se llama a **IStream::Stat** para recuperar este tamaño después de **OpenProperty** con la marca MAPI_DEFERRED_ERRORS establecida, el rendimiento se verá afectado porque esta secuencia de llamadas fuerza una llamada de procedimiento remoto adicional. Para evitar que se alcance el rendimiento, los clientes pueden llamar a cualquier método MAPI entre las llamadas **a OpenProperty** y **a Stat**.
   
-La función [HrGetOneProp](hrgetoneprop.md) , como **OpenProperty**, abre una propiedad a la vez. **HrGetOneProp** solo debe usarse cuando el objeto de destino existe en el equipo local. Cuando el objeto de destino no está disponible de forma local, el uso repetido de **HrGetOneProp** puede dar como resultado varias llamadas a procedimientos remotos y una degradación del rendimiento. 
+La [función HrGetOneProp,](hrgetoneprop.md) como **OpenProperty,** abre una propiedad a la vez. **HrGetOneProp** solo debe usarse cuando el objeto de destino existe en el equipo local. Cuando el objeto de destino no está disponible localmente, el uso de **HrGetOneProp** repetidamente puede provocar varias llamadas a procedimiento remoto y una degradación del rendimiento. 
   
-Los autores de llamadas que necesitan varias propiedades pueden llamar a **HrGetOneProp** o **OpenProperty** en un bucle o realizar una llamada a **GetProps**. Llamar a **GetProps** una vez es más eficiente. 
+Los autores de llamadas que necesitan varias propiedades pueden llamar a **HrGetOneProp** o **OpenProperty** en un bucle o realizar una llamada a **GetProps**. Llamar **a GetProps una** vez es más eficaz. 
   
 > [!NOTE]
-> Las propiedades seguras no están disponibles automáticamente con otras propiedades en una llamada a **GetProps**, **HrGetOneProp**o **GetPropList** . Las propiedades seguras deben solicitarse explícitamente mediante sus identificadores de propiedad. 
+> Las propiedades seguras no están disponibles automáticamente con otras propiedades en una llamada **GetProps**, **HrGetOneProp** o **GetPropList.** Las propiedades seguras deben solicitarse explícitamente mediante sus identificadores de propiedad. 
   
 ## <a name="see-also"></a>Vea también
 

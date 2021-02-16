@@ -23,22 +23,22 @@ ms.locfileid: "33416268"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una estructura [DTBLCOMBOBOX](dtblcombobox.md) para describir un control de cuadro combinado y el número máximo de caracteres que se pueden escribir en el control de edición asociado. 
+Crea una estructura con nombre que incluye una estructura [DTBLCOMBOBOX](dtblcombobox.md) para describir un control de cuadro combinado y el número máximo de caracteres que se pueden especificar en el control de edición asociado. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**DTBLCOMBOBOX** <br/> |
    
 ```cpp
 SizedDtblComboBox (n, u)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _n_
   
-> Número de caracteres que se pueden escribir en el control de edición del cuadro combinado. 
+> Número de caracteres que se pueden especificar en el control de edición del cuadro combinado. 
     
 _s_
   
@@ -46,7 +46,7 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblComboBox** permite definir un cuadro combinado cuando se conoce la longitud de la cadena de caracteres habilitada. La nueva estructura se crea con los siguientes miembros: 
+La macro **SizedDtblComboBox** permite definir un cuadro combinado cuando se conoce la longitud de la cadena de caracteres habilitados. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLCOMBOBOX dtblcombobox;
@@ -54,14 +54,14 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Para usar un puntero a la estructura resultante desde la macro **SizedDtblComboBox** como un puntero de estructura **DTBLCOMBOBOX** , realice la siguiente conversión: 
+Para usar un puntero a la estructura resultante de la macro **SizedDtblComboBox** como puntero de estructura **DTBLCOMBOBOX,** realice la conversión siguiente: 
   
 ```cpp
 lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [DTBLCOMBOBOX](dtblcombobox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

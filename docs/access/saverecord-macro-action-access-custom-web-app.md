@@ -1,5 +1,5 @@
 ---
-title: Acción de macro SaveRecord (aplicación web personalizada de Access)
+title: GuardarRegistro (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415561"
 ---
-# <a name="saverecord-macro-action-access-custom-web-app"></a>Acción de macro SaveRecord (aplicación web personalizada de Access)
+# <a name="saverecord-macro-action-access-custom-web-app"></a>GuardarRegistro (aplicación web personalizada de Access)
 
 Guarda el registro actual.
   
@@ -23,6 +23,6 @@ Guarda el registro actual.
   
 ## <a name="remarks"></a>Comentarios
 
-La acción **SaveRecord** es equivalente a usar el botón **Guardar** en la barra de acciones para guardar el registro actual. 
+La **acción GuardarRegistro** equivale a usar el **botón** Guardar en la barra de acciones para guardar el registro actual. 
   
 

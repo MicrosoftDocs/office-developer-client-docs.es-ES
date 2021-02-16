@@ -22,9 +22,9 @@ Determina el tipo de punto de conexión.
   
 |**Valor**|**Tipo**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |Activo  <br/> |**visCnnctTypeInward** <br/> |
-|1  <br/> |Fuera  <br/> |**visCnnctTypeOutward** <br/> |
-|segundo  <br/> |Hacia &amp; adentro  <br/> |**visCnnctTypeInwardOutward** <br/> |
+|0  <br/> |Hacia dentro  <br/> |**visCnnctTypeInward** <br/> |
+|1   <br/> |Salida  <br/> |**visCnnctTypeOutward** <br/> |
+|2   <br/> |Hacia dentro &amp; hacia afuera  <br/> |**visCnnctTypeInwardOutward** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -34,15 +34,15 @@ Para obtener una referencia a la celda Type / C por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Connections. Type [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Connections.Type[  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Type / C por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionConnectionPts** <br/> |
-|Índice de fila:  <br/> |**visRowConnectionPts** +  *i* donde *i* = 0, 1, 2...  <br/> |
-|Índice de celda:  <br/> |**visCnnctType** (filas no extensibles) **visCnnctC** (filas extendidas)  <br/> |
+|Índice de fila:  <br/> |**visRowConnectionPts**  +   *i* donde *i* = 0, 1, 2...  <br/> |
+|Índice de celda:  <br/> |**visCnnctType** (filas no extendidas) **visCnnctC** (filas extendidas)  <br/> |
    
 Para obtener información sobre las filas extensibles y no extensibles, vea la fila de puntos de conexión.
   

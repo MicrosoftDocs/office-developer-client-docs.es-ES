@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60100
 localization_priority: Normal
 ms.assetid: 6574edeb-eb6f-afd9-89c4-eb5996dffa30
-description: Ejecuta el comando identificado.
+description: Realiza el comando identificado.
 ms.openlocfilehash: 9e5c02c9a90f3aab66c5d582c83d7d9d892f964c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "33413076"
 ---
 # <a name="docmd-function"></a>Función DOCMD
 
-Ejecuta el comando identificado.
+Realiza el comando identificado.
   
 ## <a name="syntax"></a>Sintaxis
 
- **DoCmd** ( __ CommandID)
+ **DOCMD**( _commandID_)
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _commandId_ <br/> |Obligatorio  <br/> |**Number** <br/> | Comando que se debe ejecutar.  <br/> |
+| _commandID_ <br/> |Obligatorio  <br/> |**Number** <br/> | Comando que se debe ejecutar.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una lista de los comandos compatibles con la función DOCMD, vea el tema "comandos DoCmd/DOCMD" en la referencia de automatización de Microsoft Visio 2013. 
+Para obtener una lista de los comandos compatibles con la función DOCMD, consulte el tema "Comandos DoCmd/DOCMD" en la Referencia de automatización de Microsoft Visio 2013. 
   
 ## <a name="example"></a>Ejemplo
 

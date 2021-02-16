@@ -1,5 +1,5 @@
 ---
-title: Sección degradado de línea
+title: Sección de degradado de línea
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415456"
 ---
-# <a name="line-gradient-section"></a>Sección degradado de línea
+# <a name="line-gradient-section"></a>Sección de degradado de línea
 
 Muestra los valores de color del degradado de línea aplicado a la forma. 
   
 ## <a name="remarks"></a>Comentarios
 
-La fila de cada [fila de detención de degradado (sección degradado de línea)](gradient-stop-row-line-gradient-section.md) de la sección representa un punto de degradado de la línea. Esta sección puede estar vacía. 
+Cada [fila de detenciones de degradado (Sección de](gradient-stop-row-line-gradient-section.md) degradado de línea) de la sección representa un punto de degradado en la línea. Esta sección puede estar vacía. 
   
-La configuración del degradado usa solo las 10 primeras filas que contiene la sección. Se **** omiten todas las filas de delimitador de degradado superiores a 10. 
+Solo las 10 primeras filas contenidas en la sección se usan en la configuración de degradado. Se **omiten todas** las filas Detenciones de degradado superiores a 10. 
   
-Puede establecer las propiedades de degradado de línea en la sección **línea** del panel **formato de forma** (en la ficha **Inicio** , en el grupo **estilos de forma** , haga clic en **línea**y, a continuación, en **Opciones de línea**). 
+Puede establecer las propiedades de  degradado de línea en la sección Línea  del panel Formato de forma (en la ficha Inicio, en el grupo Estilos de formas, haga clic en Línea y, a continuación, haga clic en Opciones de **línea).**   
   
-Puede habilitar o deshabilitar el color de línea de degradado para la forma cambiando el valor de la celda [LineGradientEnabled (sección Propiedades de degradado)](linegradientenabled-cell-gradient-properties-section.md) . 
+Puede habilitar o deshabilitar un color de línea de degradado para la forma cambiando el valor de la celda [LineGradientEnabled (Sección](linegradientenabled-cell-gradient-properties-section.md) de propiedades de degradado). 
   
 

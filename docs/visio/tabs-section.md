@@ -22,7 +22,7 @@ Contiene celdas para formas o estilos que controlan la posición de tabulación 
   
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer estos valores mediante la ficha tabulaciones en el cuadro de diálogo **texto** (haga clic en iniciador de cuadro de diálogo en el grupo **fuente** en la ficha **Inicio** ) o mediante la **regla de texto**. **** Para mostrar la **Regla de Texto**, haga clic con el botón secundario del mouse en el texto mientras está en modo de modificación de texto y, a continuación, haga clic en **Regla de Texto** en el menú contextual. 
+También puede establecer estos valores mediante la  ficha **Fichas** en el cuadro  de diálogo  Texto (haga clic en el iniciador de cuadros de diálogo en el grupo Fuente de la ficha Inicio) o mediante la regla de **texto**. Para mostrar la **Regla de Texto**, haga clic con el botón secundario del mouse en el texto mientras está en modo de modificación de texto y, a continuación, haga clic en **Regla de Texto** en el menú contextual. 
   
 Puede establecer las posiciones de los tabuladores para caracteres específicos si selecciona el texto y, a continuación, establece la posición del tabulador. Cuando se establecen las posiciones de los tabuladores para caracteres específicos, se agrega una fila nueva a la ventana ShapeSheet. El nombre de la fila representa el número de caracteres que contiene el tabulador.
   

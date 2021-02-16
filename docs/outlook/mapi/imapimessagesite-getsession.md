@@ -25,7 +25,7 @@ ms.locfileid: "33412691"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve la sesión MAPI en la que se ha abierto o creado el mensaje actual.
+Devuelve la sesión MAPI en la que se creó o abrió el mensaje actual.
   
 ```cpp
 HRESULT GetSession(
@@ -33,11 +33,11 @@ HRESULT GetSession(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ppSession_
   
-> contempla Un puntero a un puntero al objeto Session devuelto.
+> [salida] Puntero a un puntero al objeto de sesión devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,7 +51,7 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una lista de las interfaces relacionadas con los servidores de formularios, consulte [MAPI Form interfaces](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -59,9 +59,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI usa el método **IMAPIMessageSite:: GetSession** para devolver el puntero de sesión actualmente almacenado en caché, si está disponible.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI usa el **método IMAPIMessageSite::GetSession** para devolver el puntero de sesión almacenado actualmente en caché, si está disponible.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -1,11 +1,11 @@
 ---
-title: Permitir los saltos de usuario en operaciones largas
+title: Permitir interrupciones de usuario en operaciones largas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- función xlAbort [Excel 2007], tareas simultáneas [Excel 2007], saltos de usuario [Excel 2007]
+- Función xlabort [excel 2007],tareas simultáneas [Excel 2007],saltos de usuario [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -16,19 +16,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414693"
 ---
-# <a name="permitting-user-breaks-in-lengthy-operations"></a>Permitir los saltos de usuario en operaciones largas
+# <a name="permitting-user-breaks-in-lengthy-operations"></a>Permitir interrupciones de usuario en operaciones largas
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Aunque Windows usa la multitarea preferente, donde las funciones o los comandos pueden tardar mucho tiempo en ejecutarse, se recomienda dar tiempo al sistema operativo ahora y de nuevo para ayudar a programar las tareas simultáneas. Mediante el uso de llamadas nativas de Windows, puede hacerlo con la función SLEEP. Con la API de C, puede hacerlo con la [función xlAbort](xlabort.md), que no solo proporciona el procesador de forma instantánea, sino que también comprueba si el usuario ha presionado la tecla cancelar, **ESC**.
+Aunque Windows usa multitareas preferentes, donde las funciones o comandos pueden tardar mucho tiempo en ejecutarse, es una buena práctica producir un poco de tiempo en el sistema operativo de vez en cuando para ayudarle a programar tareas simultáneas. Con las llamadas nativas de Windows, puedes hacerlo mediante la función de suspensión. Con la API de C, puede hacerlo mediante la función [xlAbort](xlabort.md), que no solo produce el procesador durante un instante, sino que también comprueba si el usuario ha presionado la tecla de cancelación, **ESC**.
   
-Por lo tanto, la función **xlAbort** permite al código comprobar si el usuario desea finalizar el proceso, realizar la limpieza necesaria y, a continuación, devolver el control a Excel. La función también permite borrar la condición de interrupción. Esto permite que los comandos muestren un cuadro de diálogo para comprobar si el usuario desea finalizar el comando. Si el usuario no desea finalizar el comando, al llamar a la función **xlAbort** con el argumento *false* , se borra el salto. (El argumento predeterminado es *true* , que simplemente comprueba la condición pero no la borra). 
+Por lo tanto, la función **xlAbort** permite al código comprobar si el usuario desea finalizar el proceso, realizar la limpieza necesaria y, a continuación, devolver el control a Excel. La función también permite borrar la condición de interrupción. Esto permite que los comandos muestren un cuadro de diálogo para comprobar si el usuario desea finalizar el comando. Si el usuario no desea finalizar el comando, al llamar a la función **xlAbort** con el argumento  *FALSE*  se borra el salto. (El argumento predeterminado es  *TRUE*  , que simplemente comprueba la condición pero no la borra). 
   
-Puede llamar a la función **xlAbort** desde una función definida por el usuario (UDF) o desde un comando XLL. En un archivo UDF, cuando la función **xlAbort** devuelve **true**, detectando un salto de usuario, normalmente se corta el cálculo de la función y devuelve algún valor para indicar que no se completó el cálculo, por ejemplo, un error o cero. No se borrará la condición de interrupción, por lo que también se interrumpirán otras instancias de funciones largas que también comprueban esta condición. Excel borra implícitamente esta condición cuando finaliza un nuevo cálculo.
+Puede llamar a la **función xlAbort** desde una función definida por el usuario (UDF) o desde un comando XLL. En una UDF, cuando la función **xlAbort** devuelve **TRUE**, después de haber detectado un salto de usuario, normalmente cortaría el cálculo de la función y devolvería algún valor para indicar que el cálculo no se completó, quizás un error o cero. No borraría la condición de interrupción para que otras instancias de funciones largas que también comprueben esta condición también se rompan. Excel borra implícitamente esta condición cuando finaliza una actualización.
   
-Cuando se detecta una condición de salto en un comando, normalmente se borra la condición al llamar de nuevo a la función **xlAbort** con el argumento **false**, si bien Excel implícitamente borra esta condición cuando finaliza un comando.
+Cuando se detecta una condición de interrupción en un comando, normalmente se borra la condición llamando de nuevo a la función **xlAbort** con el argumento **FALSE**, aunque Excel borra implícitamente esta condición cuando finaliza un comando.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

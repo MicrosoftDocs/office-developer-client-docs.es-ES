@@ -20,6 +20,6 @@ En esta sección se describen las interfaces que exporta Outlook.
   
 |**Interfaz**|**Descripción**|
 |:-----|:-----|
-|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Admite el reajuste de citas en una carpeta de calendario.  <br/> |
+|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Admite el reabasado de citas en una carpeta de calendario.  <br/> |
    
 

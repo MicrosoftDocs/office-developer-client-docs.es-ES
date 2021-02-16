@@ -25,19 +25,19 @@ ms.locfileid: "33413832"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define el nivel de compresión que se debe aplicar en los datos adjuntos de imagen.
+Define un nivel de compresión que se aplicará a los datos adjuntos de la imagen.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidImgAttchmtsCompressLevel  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008593  <br/> |
+|Long ID (LID):  <br/> |0x00008593  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Los siguientes niveles de compresión son válidos:
+Los siguientes son niveles de compresión válidos:
   
 ```cpp
 enum PictureCompressLevel
@@ -51,19 +51,19 @@ enum PictureCompressLevel
 
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -71,7 +71,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

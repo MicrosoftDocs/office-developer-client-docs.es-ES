@@ -25,7 +25,7 @@ ms.locfileid: "33414385"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Intenta quitar un mensaje de la cola de salida.
+Intenta quitar un mensaje de la cola saliente.
   
 ```cpp
 AbortSubmit(
@@ -35,15 +35,15 @@ AbortSubmit(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> a Un puntero al identificador de entrada del mensaje que se va a quitar de la cola de salida. 
+> [entrada] Puntero al identificador de entrada del mensaje que se quitará de la cola saliente. 
     
  _ulFlags_
   
@@ -53,23 +53,23 @@ AbortSubmit(
 
 S_OK 
   
-> El mensaje se quitó correctamente de la cola de salida.
+> El mensaje se quitó correctamente de la cola saliente.
     
 MAPI_E_NOT_IN_QUEUE 
   
-> El mensaje identificado por _lpEntryID_ ya no se encuentra en la cola de salida del almacén de mensajes, normalmente porque ya se ha enviado. 
+> El mensaje identificado por  _lpEntryID_ ya no está en la cola de salida del almacén de mensajes, normalmente porque ya se ha enviado. 
     
 MAPI_E_UNABLE_TO_ABORT 
   
-> El mensaje identificado por _lpEntryID_ está bloqueado por la cola MAPI y la operación no se puede anular. 
+> El mensaje identificado por  _lpEntryID_ está bloqueado por la cola MAPI y la operación no se puede anular. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgStore:: AbortSubmit** intenta quitar un mensaje enviado de la cola de salida del almacén de mensajes. 
+El **método IMsgStore::AbortSubmit** intenta quitar un mensaje enviado de la cola saliente del almacén de mensajes. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Una vez enviado un mensaje, la anulación del envío mediante una llamada a **AbortSubmit** es la única acción que puede realizarse en el mensaje. No espere que **AbortSubmit** siempre se realice correctamente. En función de cómo se implemente el sistema de mensajería subyacente, es posible que no sea posible cancelar el envío del mensaje. 
+Después de enviar un mensaje, anular el envío llamando a **AbortSubmit** es la única acción que se puede realizar en el mensaje. No espere que **AbortSubmit** siempre se realice correctamente. Según cómo se implemente el sistema de mensajería subyacente, es posible que no sea posible cancelar el envío del mensaje. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -77,9 +77,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|FolderDlg. cpp  <br/> |CFolderDlg:: OnAbortSubmit  <br/> |MFCMAPI usa el método **IMsgStore:: AbortSubmit** para anular el envío del mensaje seleccionado.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI usa el **método IMsgStore::AbortSubmit** para anular el envío del mensaje seleccionado.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

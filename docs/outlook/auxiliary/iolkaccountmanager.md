@@ -15,7 +15,7 @@ ms.locfileid: "33413657"
 ---
 # <a name="iolkaccountmanager"></a>IOlkAccountManager
 
-Administra el acceso a las cuentas y configura las notificaciones sobre los cambios en las cuentas.
+Administra el acceso a las cuentas y configura las notificaciones sobre los cambios en la cuenta.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -24,40 +24,40 @@ Administra el acceso a las cuentas y configura las notificaciones sobre los camb
 |Hereda de:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
 |Suministrado por:  <br/> |CLSID_OlkAccountManager  <br/> |
-|Llamado por:  <br/> |Client  <br/> |
+|Llamado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IOlkAccountManager  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
 |[Init](iolkaccountmanager-init.md) <br/> |Inicializa el administrador de cuentas para su uso.  <br/> |
-|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Muestra el cuadro de diálogo Configuración de la **cuenta** o **Agregar una nueva cuenta** .  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
+|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Muestra el cuadro **de diálogo Configuración de la** cuenta o Agregar **nueva** cuenta.  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
 |[FindAccount](iolkaccountmanager-findaccount.md) <br/> |Busca una cuenta por valor de propiedad.  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
 |[DeleteAccount](iolkaccountmanager-deleteaccount.md) <br/> |Elimina la cuenta especificada.  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-|[SaveChanges](iolkaccountmanager-savechanges.md) <br/> |Guarda los cambios realizados en la cuenta especificada.  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+|[SaveChanges](iolkaccountmanager-savechanges.md) <br/> |Guarda los cambios en la cuenta especificada.  <br/> |
 |[GetOrder](iolkaccountmanager-getorder.md) <br/> |Obtiene el orden de la categoría de cuentas especificada.  <br/> |
 |[SetOrder](iolkaccountmanager-setorder.md) <br/> |Modifica el orden de la categoría de cuentas especificada.  <br/> |
 |[EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |Obtiene un enumerador para las cuentas de la categoría y el tipo específicos.  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-|[FreeMemory](iolkaccountmanager-freememory.md) <br/> |Libera la memoria asignada por la interfaz **IOlkAccountManager** .  <br/> |
-|[Aconsej](iolkaccountmanager-advise.md) <br/> |Registra un cliente con el administrador de cuentas para las notificaciones relativas a todas las cuentas.  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+|[FreeMemory](iolkaccountmanager-freememory.md) <br/> |Libera memoria asignada por la interfaz **IOlkAccountManager.**  <br/> |
+|[Aconsejar](iolkaccountmanager-advise.md) <br/> |Registra un cliente con el administrador de cuentas para recibir notificaciones sobre todas las cuentas.  <br/> |
 |[Unadvise](iolkaccountmanager-unadvise.md) <br/> |Anula el registro de un cliente con el administrador de cuentas para las notificaciones de todas las cuentas.  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No admitido o documentado*  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

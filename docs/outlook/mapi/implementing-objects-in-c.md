@@ -19,17 +19,17 @@ ms.locfileid: "33414945"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las aplicaciones cliente y los proveedores de servicios escritos en C definen objetos MAPI mediante la creación de una estructura de datos y una matriz de punteros de función ordenados conocida como una tabla de funciones virtuales o vtable. Un puntero a la vtable debe ser el primer miembro de la estructura de datos.
+Las aplicaciones cliente y los proveedores de servicios escritos en C definen objetos MAPI mediante la creación de una estructura de datos y una matriz de punteros de función ordenados conocidos como tabla de funciones virtuales o tabla virtual. Un puntero a la tabla virtual debe ser el primer miembro de la estructura de datos.
   
-En la propia vtable, hay un puntero para cada método de cada interfaz compatible con el objeto. El orden de los punteros debe seguir el orden de los métodos en la especificación de interfaz Publicada en el archivo de encabezado Mapidefs. h. Cada puntero a función en la tabla vtable se establece en la dirección de la implementación real del método. En C++, el compilador configura automáticamente la vtable. En C, no lo hace. 
+En la propia tabla virtual, hay un puntero para cada método en cada interfaz admitida por el objeto. El orden de los punteros debe seguir el orden de los métodos en la especificación de interfaz publicada en el archivo de encabezado Mapidefs.h. Cada puntero de función de la tabla virtual se establece en la dirección de la implementación real del método. En C++, el compilador configura automáticamente la tabla virtual. En C, no lo hace. 
   
-En la siguiente ilustración se muestra cómo funciona. El cuadro del extremo izquierdo representa un cliente que necesita usar un objeto de proveedor de servicios. A lo largo de la sesión, el cliente obtiene un puntero al objeto **lpObject**. Vtable aparece primero en el objeto seguido de los datos y métodos privados. El puntero vtable apunta a la vtable real, que contiene punteros a cada una de las implementaciones de los métodos de la interfaz. 
+En la ilustración siguiente se muestra cómo funciona. El cuadro del extremo izquierdo representa un cliente que necesita usar un objeto de proveedor de servicios. A través de la sesión, el cliente obtiene un puntero al objeto, **lpObject**. La tabla virtual aparece en primer lugar en el objeto seguido de datos privados y métodos. El puntero de tabla virtual apunta a la tabla virtual real, que contiene punteros a cada una de las implementaciones de los métodos de la interfaz. 
   
 **Implementación de objeto**
   
-![Implementación de objeto] (media/amapi_42.gif "Implementación de objeto")
+![Implementación de objeto Implementación](media/amapi_42.gif "de objeto")
   
-En el ejemplo de código siguiente se muestra cómo un proveedor de servicios C puede definir un objeto de estado simple. El primer miembro es el puntero vtable; el resto del objeto está compuesto de miembros de datos. 
+En el siguiente ejemplo de código se muestra cómo un proveedor de servicios de C puede definir un objeto de estado simple. El primer miembro es el puntero de tabla virtual; el resto del objeto está hecho de miembros de datos. 
   
 ```C
 typedef struct _MYSTATUSOBJECT
@@ -43,7 +43,7 @@ typedef struct _MYSTATUSOBJECT
  
 ```
 
-Dado que este objeto es un objeto status, la vtable incluye punteros a las implementaciones de cada uno de los métodos de la interfaz [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) , así como punteros a las implementaciones de cada uno de los métodos de las interfaces base: **IUnknown **y **IMAPIProp**. El orden de los métodos en la tabla vtable coincide con el orden especificado, tal como se define en el archivo de encabezado Mapidefs. h.
+Dado que este objeto es un objeto de estado, la tabla virtual incluye punteros a las implementaciones de cada uno de los métodos de la interfaz [IMAPIStatus : IMAPIProp,](imapistatusimapiprop.md) así como punteros a las implementaciones de cada uno de los métodos de las interfaces base : **IUnknown** e **IMAPIProp**. El orden de los métodos de la tabla virtual coincide con el orden especificado, tal como se define en el archivo de encabezado Mapidefs.h.
   
 ```js
 static const MYOBJECT_Vtbl vtblSTATUS =
@@ -70,16 +70,16 @@ static const MYOBJECT_Vtbl vtblSTATUS =
  
 ```
 
-Los clientes y los proveedores de servicios escritos en C utilizan objetos indirectamente a través de vtable y agregan un puntero de objeto como el primer parámetro en cada llamada. Cada llamada a un método de interfaz MAPI requiere un puntero al objeto al que se llama como su primer parámetro. C++ define un puntero especial que se conoce como el puntero **this** para este propósito. El compilador de C++ agrega implícitamente el puntero **this** como el primer parámetro para cada llamada al método. En C no existe tal puntero; debe agregarse explícitamente. 
+Los clientes y proveedores de servicios escritos en C usan objetos indirectamente a través de la tabla virtual y agregan un puntero de objeto como primer parámetro en cada llamada. Cada llamada a un método de interfaz MAPI requiere un puntero al objeto al que se llama como su primer parámetro. C++ define un puntero especial conocido como **este puntero** para este propósito. El compilador de C++ agrega implícitamente **este** puntero como primer parámetro a cada llamada de método. En C no hay ningún puntero de este tipo; debe agregarse explícitamente. 
   
-El código siguiente muestra cómo un cliente puede realizar una llamada a una instancia de MYSTATUSOBJECT:
+El siguiente código muestra cómo un cliente puede realizar una llamada a una instancia de MYSTATUSOBJECT:
   
 ```C
 lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
  
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Implementación de objetos MAPI](implementing-mapi-objects.md)
 

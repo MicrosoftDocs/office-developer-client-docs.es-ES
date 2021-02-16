@@ -22,9 +22,9 @@ Determina la posición del texto de la forma con respecto a la línea base.
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| comprendi  <br/> | Posición normal  <br/> |**visPosNormal** <br/> |
-| 1  <br/> | Superíndice  <br/> |**visPosSuper** <br/> |
-| segundo  <br/> | Subíndice  <br/> |**visPosSub** <br/> |
+| 0  <br/> | Posición normal  <br/> |**visPosNormal** <br/> |
+| 1   <br/> | Superscript  <br/> |**visPosSuper** <br/> |
+| 2   <br/> | Subscript  <br/> |**visPosSub** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -32,14 +32,14 @@ Para obtener una referencia a la celda Pos por su nombre desde otra fórmula, o 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Char. pos [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Char.Pos[  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Pos por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionCharacter** <br/> |
-| Índice de fila:  <br/> |**visRowCharacter** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowCharacter**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visCharacterPos** <br/> |
    
 

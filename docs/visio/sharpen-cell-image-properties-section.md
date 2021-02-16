@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Sharpen por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Perfil  <br/> |
+| Nombre de celda:  <br/> | Nifilo  <br/> |
    
 Para obtener una referencia desde un programa a la celda Sharpen por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

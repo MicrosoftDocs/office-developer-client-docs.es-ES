@@ -35,31 +35,31 @@ HRESULT GetMemAllocRoutines(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lppAllocateBuffer_
   
-> contempla Un puntero a un puntero a la función **MAPIAllocateBuffer** . **MAPIAllocateBuffer** asigna memoria. 
+> [salida] Puntero a un puntero a la **función MAPIAllocateBuffer.** **MAPIAllocateBuffer** asigna memoria. 
     
  _lppAllocateMore_
   
-> contempla Un puntero a un puntero a la función **MAPIAllocateMore** . **MAPIAllocateMore** asigna memoria adicional para la memoria que se asignó originalmente mediante **MAPIAllocateBuffer**.
+> [salida] Puntero a un puntero a la **función MAPIAllocateMore.** **MAPIAllocateMore** asigna memoria adicional para la memoria que se asignó originalmente mediante **MAPIAllocateBuffer**.
     
  _lppFreeBuffer_
   
-> contempla Un puntero a un puntero a la función **MAPIFreeBuffer** . **MAPIFreeBuffer** libera memoria. 
+> [salida] Puntero a un puntero a la **función MAPIFreeBuffer.** **MAPIFreeBuffer** libera memoria. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Las direcciones de la función se devolvieron correctamente.
+> Las direcciones de función se devolvieron correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: GetMemAllocRoutines** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios llaman a **GetMemAllocRoutines** para obtener las direcciones de las tres funciones de asignación de memoria que se pasan a su función de inicialización ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)o [XPProviderInit](xpproviderinit.md)). 
+El **método IMAPISupport::GetMemAllocRoutines** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios llaman a **GetMemAllocRoutines** para obtener las direcciones de las tres funciones de asignación de memoria que se pasan a su función de inicialización ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)o [XPProviderInit](xpproviderinit.md)). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

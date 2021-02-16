@@ -25,11 +25,11 @@ ms.locfileid: "33416975"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de punteros a objetos de información de formulario. 
+Contiene una matriz de punteros para formar objetos de información. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
 |Macro relacionada:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
    
 ```cpp
@@ -41,19 +41,19 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cForms**
   
-> Número de punteros en la matriz a la que señala el miembro **aFormInfo** . 
+> Número de punteros en la matriz a los que apunta el **miembro aFormInfo.** 
     
  **aFormInfo**
   
-> Puntero a una matriz de punteros a objetos de información de formulario.
+> Puntero a una matriz de punteros para formar objetos de información.
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SMAPIFormInfoArray** se pasa como un parámetro en los métodos siguientes: 
+La **estructura SMAPIFormInfoArray** se pasa como parámetro en los métodos siguientes: 
   
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
@@ -63,7 +63,7 @@ La estructura **SMAPIFormInfoArray** se pasa como un parámetro en los métodos 
     
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

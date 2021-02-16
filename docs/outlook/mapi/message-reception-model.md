@@ -21,23 +21,23 @@ ms.locfileid: "33415120"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El proveedor de transporte controla si la cola MAPI debe sondearla para el correo entrante o si realiza una devolución de llamada a la cola MAPI cuando llega correo nuevo. El proveedor de transporte establece la marca SP_LOGON_POLL cuando vuelve de [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) para solicitar el sondeo. De lo contrario, el proveedor de transporte usa [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) cuando el correo entrante está disponible. Una vez que se ha familiarizado con el correo entrante disponible, la cola MAPI abre un nuevo mensaje y pide al proveedor de transporte que almacene las propiedades del mensaje recibido en el mensaje. 
+El proveedor de transporte controla si la cola MAPI debe sondear el correo entrante o si realiza una llamada a la cola MAPI cuando llega el nuevo correo. El proveedor de transporte establece la SP_LOGON_POLL cuando devuelve desde [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) para solicitar sondeo. De lo contrario, el proveedor de transporte [usa IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) cuando el correo entrante está disponible. Después de saber que el correo entrante está disponible, la cola MAPI abre un nuevo mensaje y pide al proveedor de transporte que almacene las propiedades del mensaje recibido en el mensaje. 
   
 Este proceso funciona de la siguiente manera:
   
-1. Los mensajes disponibles los indica el proveedor de transporte que llama a **IMAPISupport:: SpoolerNotify** o por el administrador de trabajos en cola MAPI llamando a [IXPLogon::P Oll](ixplogon-poll.md).
+1. Los mensajes disponibles se indican mediante el proveedor de transporte que llama **a IMAPISupport::SpoolerNotify** o mediante la cola MAPI que llama [a IXPLogon::P oll](ixplogon-poll.md).
     
-2. La cola MAPI llama a [IXPLogon:: StartMessage](ixplogon-startmessage.md) para iniciar el proceso. 
+2. La cola MAPI llama a [IXPLogon::StartMessage](ixplogon-startmessage.md) para iniciar el proceso. 
     
-3. El proveedor de transporte coloca un valor de referencia en la ubicación a la que se hace referencia en **StartMessage**. Estos valores de referencia permiten al proveedor de transporte y a la cola MAPI realizar un seguimiento del mensaje que se está procesando cuando hay varios mensajes que entregar.
+3. El proveedor de transporte coloca un valor de referencia en la ubicación a la que se hace referencia **en StartMessage**. Estos valores de referencia permiten que el proveedor de transporte y la cola MAPI realicen un seguimiento del mensaje que se está procesando cuando hay varios mensajes que entregar.
     
-4. El proveedor de transporte almacena los datos del mensaje en la instancia de [IMessage: IMAPIProp](imessageimapiprop.md) pasada. 
+4. El proveedor de transporte almacena los datos del mensaje en la [instancia IMessage : IMAPIProp pasada.](imessageimapiprop.md) 
     
-5. El proveedor de transporte llama al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) en la instancia **IMessage** y vuelve de **StartMessage**.
+5. El proveedor de transporte llama al [método IMAPIProp::SaveChanges](imapiprop-savechanges.md) en la **instancia de IMessage** y devuelve desde **StartMessage**.
     
-6. La cola MAPI llama a [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) si debe detener la entrega de mensajes. 
+6. La cola MAPI llama a [IXPLogon::TransportNotify si](ixplogon-transportnotify.md) debe detener la entrega de mensajes. 
     
 > [!NOTE]
-> Si un proveedor de transporte debe entregar un gran número de mensajes y el proveedor de transporte usa **IMAPISupport:: SpoolerNotify** en lugar de **IXPLogon::P Oll**, debe tenerse cuidado de no llamar a **SpoolerNotify** con demasiada frecuencia para privar a otros proveedores de transporte de tiempo de CPU. La cola MAPI tiene lógica para evitar que esto suceda, pero, en general, el intervalo entre llamadas **SpoolerNotify** debe ser mayor que el tiempo que tarda el proveedor de transporte en procesar un mensaje. > también puede que la cola MAPI no procese un mensaje entrante inmediatamente. La cola MAPI puede pedir al proveedor de transporte que realice otras tareas antes de recibir el mensaje entrante. 
+> Si un proveedor de transporte debe entregar un gran número de mensajes y el proveedor de transporte usa **IMAPISupport::SpoolerNotify** en lugar de **IXPLogon::P oll**, debe tenerse cuidado de no llamar a **SpoolerNotify** con demasiada frecuencia para no quitar tiempo de CPU a otros proveedores de transporte. La cola MAPI tiene lógica para evitar que esto ocurra, pero, en general, el intervalo entre las llamadas **SpoolerNotify** debe ser mayor que el tiempo que tarda el proveedor de transporte en procesar un mensaje. >, es posible que la cola MAPI no procese un mensaje entrante inmediatamente. La cola MAPI puede pedir al proveedor de transporte que realice otras tareas antes de recibir el mensaje entrante. 
   
 

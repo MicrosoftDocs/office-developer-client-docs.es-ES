@@ -25,11 +25,11 @@ Ver carpetas son las carpetas de ra�z que contienen informaci�n asociada par
   
 MAPI es compatible con dos carpetas de vista:
   
-- Com�n: La carpeta de vista comunes contiene vistas que son est�ndar para el almac�n de mensajes y pueden ser usadas por cualquier usuario de un cliente que tiene acceso el almac�n de mensajes. El identificador de entrada de la carpeta vista común se almacena en la propiedad **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)) de la tienda.
+- Com�n: La carpeta de vista comunes contiene vistas que son est�ndar para el almac�n de mensajes y pueden ser usadas por cualquier usuario de un cliente que tiene acceso el almac�n de mensajes. El identificador de entrada de la carpeta de vista común se almacena en la propiedad PR_COMMON_VIEWS_ENTRYID **del** almacén ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
     
-- Personal: La carpeta de la vista personal contiene las vistas definidas por un usuario en particular. MAPI define la propiedad **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) para contener el identificador de entrada de la carpeta de vista personal. Usar vistas personales, por ejemplo, un usuario podr�a ser en un grupo de mensajes ordenados por remitente, listado s�lo el asunto y la recepci�n de fecha del mensaje; otro usuario podr�a buscar en el mismo grupo ordenado por fecha, el asunto, el remitente y el tama�o de los mensajes de la lista.
+- Personal: La carpeta de la vista personal contiene las vistas definidas por un usuario en particular. MAPI define la **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) para mantener el identificador de entrada de la carpeta de vista personal. Usar vistas personales, por ejemplo, un usuario podr�a ser en un grupo de mensajes ordenados por remitente, listado s�lo el asunto y la recepci�n de fecha del mensaje; otro usuario podr�a buscar en el mismo grupo ordenado por fecha, el asunto, el remitente y el tama�o de los mensajes de la lista.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

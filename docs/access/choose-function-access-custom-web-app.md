@@ -22,18 +22,18 @@ Devuelve el elemento en el índice especificado de una lista de valores.
   
 ## <a name="syntax"></a>Sintaxis
 
-**Elige** (*IndexNumber*, *Value*, [*Value_n*]) 
+**Choose** (*IndexNumber*, *Value*, [*Value_n*]) 
   
-La función **Choose** contiene los siguientes argumentos. 
+La **función Choose** contiene los argumentos siguientes. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *IndexNumber*  <br/> |Expresión de tipo Integer que representa un índice de base 1 en la lista de los elementos que le siguen.  <br/> |
+| *IndexNumber*  <br/> |Expresión de entero que representa un índice basado en 1 en la lista de los elementos que le sigue.  <br/> |
 | *Valor*  <br/> |Lista de valores de cualquier tipo de datos.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si el *IndexNumber* proporcionado no es un entero, el valor se convierte implícitamente en un entero. 
+Si  *indexNumber proporcionado*  no es un entero, el valor se convierte implícitamente en un entero. 
   
 Si el valor de índice supera los límites de la matriz de valores, **Choose** devuelve NULL. 
   

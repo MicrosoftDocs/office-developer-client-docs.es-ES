@@ -18,27 +18,27 @@ ms.locfileid: "33414721"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Informa al conector de clúster de que se ha cancelado un cálculo de Excel y, por lo tanto, se pueden cancelar todas las llamadas de función pendientes dentro de esa sesión (y que Excel no espera las devoluciones de llamada con sus resultados).
+Informa al conector de clúster de que se ha cancelado un cálculo de Excel y, por lo tanto, todas las llamadas de función pendientes dentro de esa sesión también se pueden cancelar (y que Excel no espera devoluciones de llamada con sus resultados).
   
 ```cpp
 int CancelOutstandingRequests(int SessionId)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _SessionID_
   
-> IDENTIFICADOR de la sesión usada por el cálculo cancelado. Este valor coincide con el valor devuelto por [OpenSession](opensession.md).
+> Identificador de la sesión usada por el cálculo cancelado. Este valor coincide con el valor devuelto por [OpenSession](opensession.md).
     
 ## <a name="return-value"></a>Valor devuelto
 
-**xlHpcRetSuccess** si el argumento _SessionID_ es válido; **xlHpcRetInvalidSessionId** si el argumento _SessionID_ no es válido; **xlHpcRetCallFailed** en otros errores. 
+**xlHpcRetSuccess** si el  _argumento SessionId_ es válido; **xlHpcRetInvalidSessionId** si el  _argumento SessionId_ no es válido; **xlHpcRetCallFailed** en otros errores. 
   
 ## <a name="remarks"></a>Comentarios
 
-Los implementadores deben detener todos los procesos de la sesión para mejorar el rendimiento, como cualquier resultado que se haya recibido después de que Excel descartará esta llamada.
+Los implementadores deben detener todos los procesos de la sesión para mejorar el rendimiento, ya que Excel descartará los resultados recibidos después de esta llamada.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Funciones de conectores clúster de Excel](excel-cluster-connector-functions.md)
 

@@ -25,9 +25,9 @@ Establece la dirección URL del sitio de red social.
 
 ## <a name="property-value"></a>Valor de propiedad
 
-Una cadena que representa una dirección URL de un sitio de red social.
+Cadena que representa una dirección URL de sitio de red social.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

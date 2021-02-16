@@ -54,7 +54,7 @@ Cuando la aplicación de Office está instalada, la aplicación de referencia pu
     
 - Modo de apertura
     
-- Dirección URL
+- URL
     
 - Protocolo de retorno
     
@@ -127,7 +127,7 @@ Formato de esquema:
   
  `<app protocol>:ofe|u|<URL>|z|<yes or no>|c|<doc context> Example: clouddrive:ofe|u|https://contoso/Q4/budget.docx|z|no|c|folderviewQ4`
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 <a name="bk_addresources"> </a>
 
 - [Método canOpenURL](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html)

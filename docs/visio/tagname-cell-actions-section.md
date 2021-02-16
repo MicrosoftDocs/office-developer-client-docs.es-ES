@@ -27,11 +27,11 @@ Contiene el nombre de la etiqueta de acción a la que está asociada esta acció
 
 Mediante la celda TagName de la sección de acciones y la celda TagName de la sección de etiquetas de acción se asocian etiquetas de acción y acciones. 
   
-- Si la celda TagName de una fila de acciones está en blanco, la acción aparece en un menú contextual, no en un menú de etiqueta de acción.
+- Si la celda TagName de una fila Actions está en blanco, la acción aparece en un menú contextual, no en un menú de etiquetas de acción.
     
-- Si el valor de la celda TagName de la fila Actions coincide con el valor de la celda TagName de una fila de etiquetas inteligentes, la acción aparece en el menú etiqueta de acción.
+- Si un valor de celda TagName de la fila Actions coincide con el valor de la celda TagName de una fila de etiquetas inteligentes, la acción aparece en el menú de etiquetas de acción.
     
-- Si la celda TagName de una acción tiene un valor que no coincide con el valor de TagName de ninguna fila de etiqueta de forma, la acción no aparece en los menús de etiqueta de acción ni en los menús contextuales.
+- Si la celda TagName de una acción tiene un valor pero no coincide con el valor TagName de ninguna fila de etiqueta de forma, dicha acción no aparece en ningún menú de etiquetas de acción ni menús contextuales.
     
 - Si varias filas de etiquetas inteligentes tienen el mismo valor de TagName, todas mostrarán las mismas acciones.
     
@@ -39,7 +39,7 @@ Para obtener una referencia a la celda TagName por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Actividades. *nombre* . Acciones TagNamedonde.  *nombre* es el nombre de la fila de acciones.  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*  . TagNamewhere Actions.  *es*  el nombre de la fila Actions  <br/> |
    
 Para obtener una referencia a la celda TagName por su índice
  desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
@@ -47,7 +47,7 @@ Para obtener una referencia a la celda TagName por su índice
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionAction** <br/> |
-|Índice de fila:  <br/> |**visRowAction** +  *i* donde *i* = 0, 1, 2...  <br/> |
+|Índice de fila:  <br/> |**visRowAction**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 |Índice de celda:  <br/> |**visActionTagName** <br/> |
    
 

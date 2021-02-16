@@ -25,13 +25,13 @@ ms.locfileid: "33415792"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Denota los elementos del Protocolo de acceso al correo de Internet (IMAP) que están marcados para su eliminación.
+Indica los elementos del Protocolo de acceso al correo de Internet (IMAP) marcados para su eliminación.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidImapDeleted  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008570  <br/> |
+|Long ID (LID):  <br/> |0x00008570  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |IMAP  <br/> |
    
@@ -41,19 +41,19 @@ Si se establece en un valor distinto de cero, el elemento se ha marcado para su 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -61,7 +61,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

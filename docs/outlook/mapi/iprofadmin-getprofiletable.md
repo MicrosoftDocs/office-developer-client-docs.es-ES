@@ -34,31 +34,31 @@ HRESULT GetProfileTable(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Siempre NULL.
+> [entrada] Siempre NULL.
     
  _lppTable_
   
-> contempla Un puntero a un puntero a la tabla de perfiles.
+> [salida] Puntero a un puntero a la tabla de perfil.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La tabla de perfiles se recuperó correctamente.
+> La tabla de perfil se recuperó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProfAdmin:: GetProfileTable** proporciona acceso a la tabla de perfiles, que contiene una fila por cada perfil disponible. Solo hay dos columnas en cada fila: el nombre para mostrar del perfil y una marca que indica si el perfil es el predeterminado. 
+El **método IProfAdmin::GetProfileTable** proporciona acceso a la tabla de perfil, que contiene una fila para cada perfil disponible. Solo hay dos columnas en cada fila: el nombre para mostrar del perfil y una marca que indica si el perfil es el predeterminado. 
   
-Los perfiles que se han eliminado, o que están en uso pero que se han marcado para su eliminación, no se incluyen en la tabla de perfiles. La tabla de perfiles es estática; las adiciones y eliminaciones siguientes de perfiles no se reflejan en la tabla. 
+Los perfiles que se han eliminado o que están en uso pero que se han marcado para su eliminación no se incluyen en la tabla de perfiles. La tabla de perfiles es estática; Las adiciones y eliminaciones posteriores de perfiles no se reflejan en la tabla. 
   
-Si no existe ningún perfil, **GetProfileTable** devuelve una tabla con cero filas. 
+Si no existen perfiles, **GetProfileTable** devuelve una tabla con cero filas. 
   
-Para obtener más información acerca de la tabla de perfiles, consulte [Profile tables](profile-tables.md). 
+Para obtener más información acerca de la tabla de perfiles, vea [Tablas de perfiles.](profile-tables.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -66,9 +66,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnShowProfiles  <br/> |MFCMAPI usa el método **IProfAdmin:: GetProfileTable** para obtener la tabla de perfil que se va a mostrar en un nuevo cuadro de diálogo.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI usa el **método IProfAdmin::GetProfileTable** para obtener la tabla de perfil para mostrar en un cuadro de diálogo nuevo.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,11 +25,11 @@ ms.locfileid: "33416527"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Asigna un valor de devolución SCODE de un objeto de almacenamiento OLE a un tipo HRESULT. 
+Asigna un valor devuelto de SCODE de un objeto de almacenamiento OLE a un tipo HRESULT. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |IMessage. h  <br/> |
+|Archivo de encabezado:  <br/> |Imessage.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,17 +39,17 @@ SCODE MapStorageSCode(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _StgSCode_
   
-> a Valor devuelto MAPI SCODE de un objeto de almacenamiento OLE que se va a asignar a un valor HRESULT.
+> [entrada] MAPI SCODE devuelve el valor de un objeto de almacenamiento OLE que se asignará a un valor HRESULT.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se realizó correctamente y devolvió el valor esperado.
+> La llamada se realiza correctamente y devuelve el valor esperado.
     
 MAPI_E_CALL_FAILED 
   
@@ -57,8 +57,8 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI proporciona la función **MapStorageSCode** para el uso interno de componentes MAPI que basen sus implementaciones de mensajes en la dll del mensaje. Como estos componentes abren por sí mismos el almacenamiento OLE, deben poder asignar valores de error devueltos para problemas con el almacenamiento OLE en un valor HRESULT. 
+MAPI proporciona la **función MapStorageSCode** para el uso interno de componentes MAPI que basan sus implementaciones de mensajes en la DLL del mensaje. Dado que estos componentes abren el almacenamiento OLE por sí mismos, deben ser capaces de asignar valores de error devueltos para problemas con el almacenamiento OLE a un valor HRESULT. 
   
-Para obtener más información, consulte [Structured Storage](structured-storage-in-mapi.md). 
+Para obtener más información, vea [Almacenamiento estructurado.](structured-storage-in-mapi.md) 
   
 

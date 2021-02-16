@@ -25,31 +25,31 @@ ms.locfileid: "33415281"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si Microsoft Outlook ha descargado en el equipo cliente solo el encabezado de un mensaje o bien el encabezado y el cuerpo del mensaje, cuando Outlook está configurado en el modo de intercambio en caché.
+Especifica si Microsoft Outlook ha descargado en el equipo cliente solo el encabezado de un mensaje, o tanto el encabezado como el cuerpo del mensaje, cuando Outlook está configurado en modo caché de Exchange.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidHeaderItem  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008578  <br/> |
+|Long ID (LID):  <br/> |0x00008578  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -57,7 +57,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

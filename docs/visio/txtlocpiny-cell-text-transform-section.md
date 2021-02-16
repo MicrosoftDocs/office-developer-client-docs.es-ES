@@ -18,9 +18,9 @@ ms.locfileid: "33414063"
 ---
 # <a name="txtlocpiny-cell-text-transform-section"></a>Celda TxtLocPinY (Sección de transformación de texto)
 
-Determina la coordenada *y* del centro de rotación del bloque de texto en relación con el origen del bloque de texto. La fórmula predeterminada es: 
+Determina la  *coordenada y*  del centro de rotación del bloque de texto en relación con el origen del bloque de texto. La fórmula predeterminada es: 
   
-= TxtHeight \* 0,5
+= TxtHeight \* 0.5
   
 ## <a name="remarks"></a>Comentarios
 

@@ -19,7 +19,7 @@ ms.locfileid: "33413843"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información extendida para cargar el contenido de una carpeta durante el [Estado de carga](upload-table-state.md)de la tabla.
+Información extendida para cargar el contenido de una carpeta durante el estado [de la tabla de carga.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -39,29 +39,29 @@ struct UPTBLE
 
  _iEntMod_
   
->  contempla Índice para realizar un seguimiento de la carga del _cEntMod_ número de elementos nuevos o modificados. 
+>  [salida] Índice para realizar un seguimiento de la  _carga del número cEntMod_ de elementos nuevos o modificados. 
     
  _cEntMod_
   
->  contempla Número de elementos nuevos o modificados de la carpeta. 
+>  [salida] Número de elementos nuevos o modificados de la carpeta. 
     
  _iEntRead_
   
->  contempla Índice para realizar un seguimiento de la carga del número de elementos leídos de _cEntRead_ . 
+>  [salida] Índice para realizar un seguimiento de la carga del número de elementos de lectura _cEntRead._ 
     
  _cEntRead_
   
->  contempla Número de elementos leídos de la carpeta. 
+>  [salida] Número de elementos leídos en la carpeta. 
     
  _iEntDel_
   
->  contempla Índice para realizar un seguimiento de la carga del número de elementos eliminados de _cEntDel_ . 
+>  [salida] Índice para realizar un seguimiento de la carga del número _de elementos eliminados de cEntDel._ 
     
  _cEntDel_
   
->  contempla Número de elementos eliminados de la carpeta. 
+>  [salida] Número de elementos eliminados en la carpeta. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de replicación](about-the-replication-api.md) 
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

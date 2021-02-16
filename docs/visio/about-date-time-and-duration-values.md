@@ -38,29 +38,29 @@ Para utilizar fechas y horas en una expresión (en lugar de utilizar una constan
 
 ||||
 |:-----|:-----|:-----|
-| "3:45"  <br/> | "3:45:27"  <br/> | bis  <br/> |
+| "3:45"  <br/> | "3:45:27"  <br/> | "7a"  <br/> |
 | "7 am"  <br/> | "7 p"  <br/> | "7:30 PM"  <br/> |
    
 ## <a name="date-and-time-functions"></a>Funciones de fecha y hora
 
 |**Función**|**Descripción**|
 |:-----|:-----|
-|[OBSOLET](date-function-visioshapesheet.md) <br/> | Convierte números en un valor de fecha.  <br/> |
+|[DATE](date-function-visioshapesheet.md) <br/> | Convierte números en un valor de fecha.  <br/> |
 |[DATETIME](datetime-function.md) <br/> | Convierte una cadena en un valor de fecha y hora.  <br/> |
 |[DATEVALUE](datevalue-function-visioshapesheet.md) <br/> | Convierte una cadena en un valor de fecha.  <br/> |
 |[NOW](now-function-visioshapesheet.md) <br/> | Devuelve la fecha actual del sistema como un valor de fecha y hora.  <br/> |
-|[TEMPORAL](time-function-visioshapesheet.md) <br/> | Convierte números en un valor de hora.  <br/> |
-|[HORANUMERO](timevalue-function-visioshapesheet.md) <br/> | Convierte una cadena en un valor de hora.  <br/> |
+|[hora](time-function-visioshapesheet.md) <br/> | Convierte números en un valor de hora.  <br/> |
+|[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | Convierte una cadena en un valor de hora.  <br/> |
 |[DAY](day-function-visioshapesheet.md) <br/> | Devuelve el componente de día de una expresión de fecha y hora.  <br/> |
 |[DAYOFYEAR](dayofyear-function.md) <br/> | Devuelve el número de día del año de una expresión de fecha y hora.  <br/> |
 |[HOUR](hour-function-visioshapesheet.md) <br/> | Devuelve el componente de hora de una expresión de fecha y hora.  <br/> |
 |[MINUTE](minute-function-visioshapesheet.md) <br/> | Devuelve el componente de minutos de una expresión de fecha y hora.  <br/> |
 |[MONTH](month-function-visioshapesheet.md) <br/> | Devuelve el componente de mes de una expresión de fecha y hora.  <br/> |
 |[SECOND](second-function-visioshapesheet.md) <br/> | Devuelve el componente de segundos de una expresión de fecha y hora.  <br/> |
-|[LABOR](weekday-function-visioshapesheet.md) <br/> | Devuelve el número de día de la semana de una expresión de fecha y hora.  <br/> |
+|[WEEKDAY](weekday-function-visioshapesheet.md) <br/> | Devuelve el número de día de la semana de una expresión de fecha y hora.  <br/> |
 |[YEAR](year-function-visioshapesheet.md) <br/> | Devuelve el componente de año de una expresión de fecha y hora.  <br/> |
    
-## <a name="duration"></a>Duracion
+## <a name="duration"></a>Duración
 
 Es posible realizar operaciones que calculen una duración o el tiempo transcurrido. La duración se almacena internamente como número de días y una fracción de día. Por ejemplo, 1 semana, 7 días y 168 horas transcurridos se almacenan internamente como 7,0, pero se muestran con las unidades correspondientes.
   
@@ -69,14 +69,14 @@ Visio reconoce las unidades de duración enumeradas en la tabla siguiente.
 |**Unit**|**Abbreviation**|**Abreviatura universal**|
 |:-----|:-----|:-----|
 | día transcurrido  <br/> | díat, dt.  <br/> | ed  <br/> |
-| hora transcurrida  <br/> | horat, ht.  <br/> | verdad  <br/> |
+| hora transcurrida  <br/> | horat, ht.  <br/> | eh  <br/> |
 | minuto transcurrido  <br/> | minutot, mt.  <br/> | em  <br/> |
 | segundo transcurrido  <br/> | segundot, st.  <br/> | es  <br/> |
-| semana transcurrida  <br/> | semanat, st.  <br/> | ueva  <br/> |
+| semana transcurrida  <br/> | semanat, st.  <br/> | ew  <br/> |
    
 Puede agregar un valor de fecha y hora a una duración para calcular un nuevo valor de fecha y hora. Las fechas, horas y duraciones permiten realizar las operaciones que se muestran en la tabla siguiente:
   
-|**Entrada**|**Resultado**|
+|**Input**|**Resultado**|
 |:-----|:-----|
 | Fecha-hora +/- duración  <br/> | Valor de fecha y hora  <br/> |
 | Duración +/- fecha-hora  <br/> | Valor de fecha y hora  <br/> |

@@ -19,7 +19,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412838"
 ---
-# <a name="proptype"></a>PROP_TYPE
+# <a name="prop_type"></a>PROP_TYPE
 
   
   
@@ -29,14 +29,14 @@ Devuelve el tipo de propiedad de una etiqueta de propiedad especificada.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 PROP_TYPE (ulPropTag)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulPropTag_
   
@@ -44,11 +44,11 @@ PROP_TYPE (ulPropTag)
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **PROP_TYPE** se puede usar para determinar el tipo de una propiedad. Por ejemplo, llamar a PROP_TYPE**** (método ([PidTagEntryId](pidtagentryid-canonical-property.md))) da como resultado el valor PT_BINARY que se devuelve.
+La **PROP_TYPE** macro puede usarse para determinar el tipo de una propiedad. Por ejemplo, al llamar PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) se devuelve el valor PT_BINARY.
   
-Cada etiqueta de propiedad contiene el tipo de propiedad en la palabra de orden inferior (bits del 0 al 15) y el identificador de la propiedad en la palabra de orden superior (bits 16 a 31). La macro **PROP_TYPE** extrae el tipo de propiedad y lo coloca en los bits del 0 al 15 del entero que se va a devolver. Los bits restantes del valor devuelto se establecen en ceros. 
+Cada etiqueta de propiedad contiene el tipo de propiedad en la palabra de orden bajo (bits 0 a 15) y el identificador de propiedad en la palabra de orden alto (bits 16 a 31). La **PROP_TYPE** macro extrae el tipo de propiedad y la coloca en bits del 0 al 15 del entero que se va a devolver. Los bits restantes del valor devuelto se establecen en ceros. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

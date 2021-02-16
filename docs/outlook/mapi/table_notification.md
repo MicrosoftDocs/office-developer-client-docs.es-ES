@@ -19,7 +19,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415960"
 ---
-# <a name="tablenotification"></a>TABLE_NOTIFICATION
+# <a name="table_notification"></a>TABLE_NOTIFICATION
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
@@ -27,7 +27,7 @@ Describe una fila de una tabla que se ha visto afectada por algún tipo de event
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _TABLE_NOTIFICATION
@@ -41,19 +41,19 @@ typedef struct _TABLE_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
 **ulTableEvent**
   
-> Máscara de las marcas usadas para representar el tipo de evento de tabla. Se pueden establecer los siguientes indicadores:
+> Máscara de bits de marcas usadas para representar el tipo de evento de tabla. Se pueden establecer las siguientes marcas:
     
 TABLE_CHANGED 
   
-> Indica en un nivel alto que algo sobre la tabla ha cambiado. El estado de la tabla es como estaba antes del evento. Esto significa que todas las propiedades, marcadores, posicionamiento actual y selecciones de la interfaz de usuario de **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) siguen siendo válidos. Controle este evento volviendo a leer la tabla. Los proveedores de servicios que no desean implementar notificaciones de tablas enriquecidas envían eventos de TABLE_CHANGED en lugar de eventos más detallados para indicar un tipo de cambio determinado. 
+> Indica en un nivel alto que algo de la tabla ha cambiado. El estado de la tabla es el mismo que antes del evento. Esto significa que todas **las PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), los marcadores, el posicionamiento actual y las selecciones de la interfaz de usuario siguen siendo válidos. Para controlar este evento, vuelva a leer la tabla. Los proveedores de servicios que no desean implementar notificaciones de tabla enriquecida envían TABLE_CHANGED eventos en lugar de eventos más detallados para indicar un tipo concreto de cambio. 
     
 TABLE_ERROR 
   
-> Se ha producido un error, normalmente durante el procesamiento de una operación asincrónica. Los errores producidos durante el procesamiento de los métodos siguientes pueden generar este evento: 
+> Se ha producido un error, normalmente durante el procesamiento de una operación asincrónica. Los errores durante el procesamiento de los métodos siguientes pueden generar este evento: 
     
    - [IMAPITable::SortTable](imapitable-sorttable.md)
     
@@ -61,71 +61,71 @@ TABLE_ERROR
     
    - [IMAPITable::Restrict](imapitable-restrict.md)
     
-   Después de recibir un evento TABLE_ERROR, un cliente no puede depender de la exactitud del contenido de la tabla. Además, es posible que se pierdan las notificaciones pendientes sobre otros cambios. Es posible que el método [IMAPITable:: GetLastError](imapitable-getlasterror.md) no proporcione información adicional sobre el error porque se generó en algún punto anterior, no necesariamente desde la última llamada al método. 
+   Después de recibir un TABLE_ERROR evento, un cliente no puede confiar en la precisión del contenido de la tabla. Además, es posible que se pierdan las notificaciones pendientes sobre otros cambios. Es posible que el método [IMAPITable::GetLastError](imapitable-getlasterror.md) no proporcione información adicional sobre el error porque se generó en algún punto anterior, no necesariamente a partir de la última llamada al método. 
     
 TABLE_RELOAD 
   
-> Los datos de la tabla se deben volver a cargar. Los proveedores de servicios envían TABLE_RELOAD cuando, por ejemplo, los datos subyacentes se almacenan en una base de datos y se reemplaza la base de datos. Para controlar este evento, supongamos que no hay nada de la tabla que siga siendo válido y que relea la tabla. Todos los marcadores, claves de instancia, estado e información de posicionamiento no son válidos.
+> Los datos de la tabla deben volver a cargarse. Los proveedores de servicios TABLE_RELOAD cuando, por ejemplo, los datos subyacentes se almacenan en una base de datos y se reemplaza la base de datos. Controle este evento suponiendo que nada sobre la tabla sigue siendo válido y releciendo la tabla. Todos los marcadores, las claves de instancia, el estado y la información de posicionamiento no son válidos.
     
 TABLE_RESTRICT_DONE 
   
-> Se ha completado una operación de restricción iniciada con una llamada al método **IMAPITable:: Restrict** . 
+> Se ha completado una operación de restricción iniciada con una llamada al método **IMAPITable::Restrict.** 
     
 TABLE_ROW_ADDED 
   
-> Se ha agregado una fila nueva a la tabla y se ha guardado el objeto correspondiente. Los eventos TABLE_ROW_ADDED se generan después de una llamada al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
+> Se ha agregado una nueva fila a la tabla y se ha guardado el objeto correspondiente. TABLE_ROW_ADDED eventos se generan después de una llamada al método [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
     
 TABLE_ROW_DELETED 
   
-> Se ha quitado una fila de la tabla. El miembro **propPrior** se establece en NULL. 
+> Se ha quitado una fila de la tabla. El **miembro propPrior** se establece en NULL. 
     
 TABLE_ROW_MODIFIED 
   
-> Se ha cambiado una fila. El miembro **Row** contiene las propiedades afectadas de la fila. Se envían varios eventos TABLE_ROW_MODIFIED en el orden en que aparecen en la vista de tabla. 
+> Se ha cambiado una fila. El **miembro** de fila contiene las propiedades afectadas de la fila. Varios TABLE_ROW_MODIFIED eventos se envían en el orden en que aparecen en la vista de tabla. 
     
-  Los eventos TABLE_ROW_MODIFIED se envían después de que los cambios realizados en el objeto correspondiente se hayan confirmado con una llamada al método **IMAPIProp:: SaveChanges** . Si la fila modificada es ahora la primera fila de la tabla, el valor de la etiqueta de propiedad en el miembro **propPrior** es **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
+  TABLE_ROW_MODIFIED eventos se envían después de que se hayan confirmado los cambios realizados en el objeto correspondiente con una llamada al método **IMAPIProp::SaveChanges.** Si la fila modificada es ahora la primera fila de la tabla, el valor de la etiqueta de propiedad en el miembro **propPrior** **es PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
     
 TABLE_SETCOL_DONE 
   
-> Se ha completado una operación de configuración de columna iniciada con una llamada al método **IMAPITable:: SetColumns** . 
+> Se ha completado una operación de configuración de columna iniciada con una llamada al método **IMAPITable::SetColumns.** 
     
 TABLE_SORT_DONE 
   
-> Se ha completado una operación de ordenación de tabla iniciada con una llamada al método **IMAPITable:: SortTable** . 
+> Se ha completado una operación de ordenación de tabla iniciada con una llamada al método **IMAPITable::SortTable.** 
     
-**Valores**
+**hResult**
   
-> Valor HRESULT del error que se ha producido, si el miembro **ulTableEvent** está establecido en TABLE_ERROR. 
+> Valor HRESULT del error que se ha producido, si el **miembro ulTableEvent** está establecido en TABLE_ERROR. 
     
 **propIndex**
   
-> Estructura [SPropValue](spropvalue.md) de la propiedad **PR_INSTANCE_KEY** de la fila afectada. 
+> [Estructura SPropValue](spropvalue.md) para la **PR_INSTANCE_KEY** propiedad de la fila afectada. 
     
 **propPrior**
   
-> Estructura **SPropValue** de la propiedad **PR_INSTANCE_KEY** de la fila antes de la afectada. Si la fila afectada es la primera fila de la tabla, **propPrior** debe establecerse en **PR_NULL** y no en cero. Cero no es una etiqueta de propiedad válida. 
+> **Estructura SPropValue** para la **PR_INSTANCE_KEY** propiedad de la fila antes de la afectada. Si la fila afectada es la primera fila de la tabla, **propPrior** debe establecerse en **PR_NULL** y no en cero. Cero no es una etiqueta de propiedad válida. 
     
-**columna**
+**row**
   
-> Estructura [SRow](srow.md) que describe la fila afectada. Esta estructura se rellena para todos los eventos de notificación de tabla. Para los eventos de notificación de tabla que no pasan datos de fila, el miembro **cValues** de la estructura **SRow** se establece en cero y el miembro **lpProps** se establece en NULL. Porque esta estructura **SRow** es de solo lectura; los clientes deben realizar una copia de la misma si quieren realizar modificaciones. La función [ScDupPropset](scduppropset.md) se puede usar para realizar la copia. 
+> [Estructura SRow](srow.md) que describe la fila afectada. Esta estructura se rellena para todos los eventos de notificación de tabla. Para eventos de notificación de tabla que no pasan datos de fila, el miembro **cValues** de la estructura **SRow** se establece en cero y el miembro **lpProps** se establece en NULL. Dado que **esta estructura de SRow** es de solo lectura; los clientes deben hacer una copia de él si desean realizar modificaciones. La [función ScDupPropset](scduppropset.md) se puede usar para realizar la copia. 
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura de **notificación de\_tabla** es uno de los miembros de la Unión de estructuras incluidas en el miembro de **información** de la estructura de [notificación](notification.md) . El miembro **info** incluye una estructura de **notificación de\_tabla** cuando el miembro **UlEventType** de la estructura se establece en _fnevTableModified_.
+La **estructura \_ TABLE NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro de **información** de la [estructura NOTIFICATION.](notification.md) El **miembro** de información incluye una **estructura TABLE \_ NOTIFICATION** cuando el **miembro ulEventType** de la estructura se establece en  _fnevTableModified_.
   
-El orden y el tipo de las columnas del miembro de fila reflejan el orden y el tipo que estaban en vigor en el momento en que se generó la notificación. El orden y el tipo en el momento en que se generó la notificación no es necesariamente el mismo que cuando se entregó la notificación. 
+El orden y el tipo de columnas en el miembro de fila reflejan el orden y el tipo que estaba en vigor en el momento en que se generó la notificación. El pedido y el tipo en el momento en que se generó la notificación no es necesariamente el mismo que cuando se entregó la notificación. 
   
-Para obtener más información acerca de las notificaciones, vea los temas que se describen en la tabla siguiente.
+Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Descripción de cómo deben administrar los clientes las notificaciones.  <br/> |
-|[Admitir notificación de eventos](supporting-event-notification.md) <br/> |Explicación de cómo los proveedores de servicios pueden usar el método **IMAPISupport** para generar notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar **el método IMAPISupport** para generar notificaciones.  <br/> |
    
-Como las notificaciones de tabla son asincrónicas, los clientes pueden recibir una notificación de una fila agregada después de aprender sobre la adición a través de otros medios. Es posible recibir un evento TABLE_ERROR cuando hay un error en un método **IMAPITable:: Sort**, **IMAPITable:: Restrict**o **IMAPITable:: SetColumns** o cuando un proceso subyacente intenta actualizar una tabla con, por ejemplo, New o filas modificadas. 
+Dado que las notificaciones de tabla son asincrónicas, los clientes pueden recibir notificaciones de una fila agregada después de conocer la adición a través de otros medios. Es posible recibir un evento TABLE_ERROR cuando hay un error en un método **IMAPITable::Sort**, **IMAPITable::Restrict** o **IMAPITable::SetColumns** o cuando un proceso subyacente intenta actualizar una tabla con, por ejemplo, filas nuevas o modificadas. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Notificaci�n](notification.md) 
 - [ScDupPropset](scduppropset.md)

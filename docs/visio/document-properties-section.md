@@ -22,6 +22,6 @@ Contiene celdas para que un documento controle la calidad, el alcance y el forma
   
 ## <a name="remarks"></a>Comentarios
 
- También puede establecer estos valores mediante el cuadro de diálogo **propiedades** (haga clic en la pestaña **archivo** , haga clic en **información**, haga clic en **propiedades**y, a continuación, haga clic en **propiedades avanzadas**).
+ También puede establecer estos valores  mediante el cuadro  de diálogo Propiedades (haga clic en la pestaña Archivo, en **Información,** en Propiedades y, a continuación, en **Propiedades avanzadas).**
   
 

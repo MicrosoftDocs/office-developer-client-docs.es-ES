@@ -19,13 +19,13 @@ ms.locfileid: "33414392"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- Crea un objeto MAPI sin conexión que utiliza el proveedor y el almacén para notificar a MAPI Cuándo el objeto se conecta y se desconecta, 
+ Crea un objeto MAPI sin conexión que usa el proveedor y el almacén para notificar a MAPI cuando el objeto está en línea y sin conexión. 
   
 |||
 |:-----|:-----|
-|ExPortado por:  <br/> |Msmapi32. dll  <br/> |
+|Exportado por:  <br/> |Msmapi32.dll  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
-|Llamado por:  <br/> |Client  <br/> |
+|Llamado por:  <br/> |Cliente  <br/> |
    
 ```cpp
 STDAPI HrCreateOfflineObj(
@@ -35,19 +35,19 @@ IMAPIOfflineMgr** ppOffline
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _ulFlags_
   
-> a Debe ser 0.
+> [entrada] Debe ser 0.
     
 _pCreateInfo_
   
-> a Un puntero a una estructura **MAPIOFFLINE_CREATEINFO** que contiene la información necesaria para crear el objeto sin conexión. 
+> [entrada] Puntero a una estructura **MAPIOFFLINE_CREATEINFO** que contiene la información necesaria para crear el objeto sin conexión. 
     
 _ppOffline_
   
-> contempla Un puntero a la interfaz **IMAPIOfflineMgr** . 
+> [salida] Puntero a la interfaz **IMAPIOfflineMgr.** 
     
 ## <a name="return-value"></a>Valor devuelto
 

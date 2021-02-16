@@ -1,5 +1,5 @@
 ---
-title: Objetos de proveedor de almacén de mensajes MAPI
+title: Objetos de proveedor de almacenamiento de mensajes MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413300"
 ---
-# <a name="mapi-message-store-provider-objects"></a>Objetos de proveedor de almacén de mensajes MAPI
+# <a name="mapi-message-store-provider-objects"></a>Objetos de proveedor de almacenamiento de mensajes MAPI
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de almacenamiento de mensajes implementan los objetos de proveedor y de inicio de sesión, como todos los proveedores de servicios. También implementan un objeto de almacén de mensajes, carpetas, mensajes, datos adjuntos y tablas. Como opción, algunos proveedores de almacenamiento de mensajes implementan objetos de estado.
+Los proveedores de almacenamiento de mensajes implementan objetos de proveedor y de inicio de sesión, al igual que todos los proveedores de servicios. También implementan un objeto de almacén de mensajes, carpetas, mensajes, datos adjuntos y tablas. Como opción, algunos proveedores de almacenamiento de mensajes implementan objetos de estado.
   
-La ilustración siguiente muestra cada objeto de almacén de mensajes con su interfaz correspondiente y el componente MAPI que lo utiliza.
+En la siguiente ilustración se muestra cada objeto de almacén de mensajes con su interfaz correspondiente y el componente MAPI que lo usa.
   
-![Objetos que implementan los proveedores de almacenamiento de mensajes] (media/amapi_63.gif "Objetos que implementan los proveedores de almacenamiento de mensajes")
+![Objetos que los proveedores de al almacenamiento de mensajes implementan]objetos que implementan los proveedores de al almacenamiento de(media/amapi_63.gif "mensajes")
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Objetos de proveedor de servicios MAPI](mapi-service-provider-objects.md)
+- [Objetos del proveedor de servicios MAPI](mapi-service-provider-objects.md)
 

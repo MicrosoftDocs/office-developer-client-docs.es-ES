@@ -19,27 +19,27 @@ ms.locfileid: "33417122"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- En este tema se describe lo que ocurre durante el estado de encabezado del mensaje de descarga de la máquina de estado de replicación. 
+ En este tema se describe lo que sucede durante el estado del encabezado del mensaje de descarga de la máquina de estado de replicación. 
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |
-|Estructura de datos relacionada:  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
+|Estructura de datos relacionados:  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
 |Desde este estado:  <br/> |[Estado inactivo](idle-state.md) <br/> |
 |A este estado:  <br/> |Estado inactivo  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es un equipo de estado determinista. Un cliente que deja de estar en un estado a otro debe volver eventualmente a la primera parte de la segunda. 
+> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que va de un estado a otro debe volver al primero desde el segundo. 
   
-## <a name="description"></a>Descripción
+## <a name="description"></a>Description
 
-Durante este estado, el cliente actualiza el encabezado de un mensaje en un almacén local. El almacén local especifica este estado a partir de **[IOSTX:: SyncHdrBeg](iostx-synchdrbeg.md)** y sale cuando se llama a **[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)** . Durante este estado, Outlook inicializa los miembros de la estructura de datos **HDRSYNC** asociada con la información sobre el encabezado de un mensaje. En primer lugar, el cliente descarga el elemento de mensaje completo desde el servidor y, a continuación, actualiza el encabezado del elemento de mensaje de forma local. 
+Durante este estado, el cliente actualiza el encabezado de un mensaje en un almacén local. El almacén local entra en este estado en **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** y sale cuando se llama a **[IOSTX::SyncHdrEnd.](iostx-synchdrend.md)** Durante este estado, Outlook inicializa los miembros de la estructura de datos **HDRSYNC** asociada con información sobre el encabezado de un mensaje. El cliente primero descarga el elemento de mensaje completo del servidor y, a continuación, actualiza el encabezado del elemento de mensaje localmente. 
   
-Cuando finaliza sincronización, el cliente establece los resultados de la descarga. El almacén local vuelve al estado inactivo.
+Cuando finaliza la sincronización, el cliente establece los resultados de la descarga. El almacén local vuelve al estado inactivo.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

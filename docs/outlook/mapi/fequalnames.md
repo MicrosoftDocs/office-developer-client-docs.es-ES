@@ -25,11 +25,11 @@ ms.locfileid: "33414805"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina si dos propiedades con nombre de MAPI son iguales. 
+Determina si dos propiedades con nombre MAPI son las mismas. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -40,15 +40,15 @@ BOOL FEqualNames(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpName1_
   
-> a Puntero a una estructura [MAPINAMEID](mapinameid.md) que describe la primera propiedad con nombre. 
+> [entrada] Puntero a una [estructura MAPINAMEID](mapinameid.md) que describe la primera propiedad con nombre. 
     
  _lpName2_
   
-> a Puntero a una estructura **MAPINAMEID** que describe la segunda propiedad con nombre. 
+> [entrada] Puntero a una **estructura MAPINAMEID** que describe la segunda propiedad con nombre. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,8 +62,8 @@ FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-La función **FEqualNames** es útil porque la estructura **MAPINAMEID** contiene un [GUID](guid.md) y puede representar el propio nombre de la propiedad de más de una forma. Esto significa que las dos estructuras no se pueden comparar por los métodos binarios simples. 
+La **función FEqualNames** es útil porque la estructura **MAPINAMEID** contiene un [GUID](guid.md) y puede representar el propio nombre de propiedad en más de una forma. Esto significa que los métodos binarios simples no pueden comparar las dos estructuras. 
   
-El proceso de prueba distingue entre mayúsculas y minúsculas para las cadenas de nombres de propiedades. 
+El proceso de prueba distingue mayúsculas de minúsculas para las cadenas de nombre de propiedad. 
   
 

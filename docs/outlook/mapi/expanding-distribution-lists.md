@@ -23,7 +23,7 @@ ms.locfileid: "33414140"
   
  **Para solicitar a MAPI que expanda una lista de distribución**
   
-- Establezca su propiedad **PR_ADDRTYPE** ([PIDTAGADDRESSTYPE](pidtagaddresstype-canonical-property.md)) en MAPIPDL.
+- Establezca su **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) en MAPIPDL.
     
     MAPI expande las direcciones con este tipo antes de enviar el mensaje al proveedor de transporte.
     

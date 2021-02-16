@@ -32,7 +32,7 @@ Set dsCell = ActivePage.PageSheet.Cells("DrawingScale")
 End Sub 
 ```
 
-Puede determinar el sistema de medida de un dibujo observando la propiedad **Units** de la celda DrawingScale. Después de ejecutar la macro anterior, la siguiente instrucción ejecutada en la ventana inmediato del editor de Visual Basic devolverá *true* . 
+Puede determinar el sistema de medida de un dibujo observando la propiedad **Units** de la celda DrawingScale. Después de ejecutar la macro anterior, la siguiente instrucción ejecutada en la Visual Basic Editor inmediato devolverá  *True*  . 
   
 ```vb
 debug.print ActivePage.PageSheet.Cells("DrawingScale").Units = _ 

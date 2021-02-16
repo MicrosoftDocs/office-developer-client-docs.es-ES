@@ -24,27 +24,27 @@ Se usa para devolver el resultado de una función asincrónica definida por el u
 Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12 pxFunctionResult);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pxAsyncHandle_ (**xltypeBigData**)
   
-Identificador asincrónico de la FDU a la que se devuelve el resultado.
+El identificador asincrónico de la UDF a la que se devuelve el resultado.
   
 _pxFunctionResult_
   
-El valor devuelto de UDF.
+Valor devuelto de la UDF.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Si se ejecuta correctamente, devuelve **true** (**xltypeBool**). Si no se realiza correctamente, devuelve **false**.
+Si se realiza **correctamente, devuelve TRUE** (**xltypeBool**). Si no se realiza correctamente, devuelve **FALSE**.
   
 ## <a name="remarks"></a>Comentarios
 
-**xlAsyncReturn** es la única devolución de llamada que Excel permite en los subprocesos que no son de cálculo durante la actualización. La parte asincrónica de una UDF asincrónica no debe realizar ninguna devolución de llamada que no sea **xlAsyncReturn**. El XLL debe liberar la memoria asignada para contener el valor devuelto.
+**xlAsyncReturn** es la única devolución de llamada que Excel permite en subprocesos que no son de cálculo durante la actualización. La parte asincrónica de una UDF asincrónica no debe realizar devoluciones de llamada que no **sea xlAsyncReturn**. El XLL debe liberar memoria asignada para contener el valor devuelto.
   
-Los parámetros _pxAsyncHandle_ y _pxFunctionResult_ también pueden ser de tipo **xltypeMulti** cuando se usan para devolver una matriz de identificadores y los valores correspondientes en una sola devolución de llamada. Al usar una sola devolución de llamada, pase un LPXLOPER12 que apunte a las estructuras XLOPER12 que contienen matrices unidimensionales que contienen los identificadores asincrónicos y los valores devueltos. Estas matrices deben estar en el mismo orden para que Excel coincida correctamente con un identificador asincrónico con su valor correspondiente. 
+Los _parámetros pxAsyncHandle_ y  _pxFunctionResult_ también pueden ser de tipo **xltypeMulti** cuando se usan para devolver una matriz de controladores y los valores correspondientes en una sola devolución de llamada. Al usar una sola devolución de llamada, pase un LPXLOPER12 que apunta a estructuras XLOPER12 que contienen matrices unidimensionales que contienen los controladores asincrónicos y valores devueltos. Estas matrices deben estar en el mismo orden para que Excel coincida correctamente con un controlador asincrónico con su valor correspondiente. 
   
-En el ejemplo siguiente se muestra cómo realizar una llamada por lotes mediante **xlAsyncReturn**.
+En el siguiente ejemplo se muestra cómo realizar una llamada por lotes **mediante xlAsyncReturn**.
   
 ```cpp
 int batchSize = 10;
@@ -73,7 +73,7 @@ int batchSize = 10;
 
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Funciones asincrónicas definidas por el usuario](asynchronous-user-defined-functions.md)
 

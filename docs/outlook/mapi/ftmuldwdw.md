@@ -25,11 +25,11 @@ ms.locfileid: "33412915"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Multiplica un entero unsigned 32-bit por otro.
+Multiplica un entero de 32 bits sin signo por otro.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -40,18 +40,18 @@ FILETIME FtMulDwDw(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _Multiplicand_
   
-> a Una palabra doble que contiene el entero de 32 bits sin signo que se va a multiplicar por el valor en el parámetro _multiplicador_ . 
+> [entrada] Palabra doble que contiene el entero de 32 bits sin signo que se multiplicará por el valor del parámetro _Multiplicador._ 
     
  _Multiplicador_
   
-> a Una palabra doble que contiene el multiplicador de enteros de 32 bits sin signo.
+> [entrada] Palabra doble que contiene el multiplicador entero de 32 bits sin signo.
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función **FtMulDwDw** devuelve una estructura [FILETIME](filetime.md) que contiene el producto de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
+La **función FtMulDwDw devuelve** una estructura [FILETIME](filetime.md) que contiene el producto de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
   
 

@@ -24,12 +24,12 @@ ms.locfileid: "33413454"
     
 2. Escriba la nueva fórmula.
     
-    La fórmula que se escribe reemplaza la fórmula anterior de la celda.
+    La fórmula que escriba reemplazará a la fórmula anterior de la celda.
     
-    Si escribe un número pero no suministra unidades de medida, Microsoft Visio usa las unidades del valor anterior de la celda si hay alguna. En caso contrario, si la celda necesita unidades, Visio usa las unidades predeterminadas para esta celda.
+    Si escribe un número pero no proporciona unidades de medida, Microsoft Visio usa las unidades del valor anterior de la celda si la había. En caso contrario, si la celda necesita unidades, Visio usa las unidades predeterminadas para esta celda.
     
-3. Para aceptar la fórmula, presione Entrar.
+3. Para aceptar la fórmula, presione ENTRAR.
     
-    Si el número o la fórmula contienen un error, Visio muestra un mensaje y, a continuación, resalta el error en la barra de fórmulas o en la celda. Corrija el error y presione ENTRAR para aceptar la corrección.
+    Si el número o la fórmula contiene un error, Visio muestra un mensaje y, a continuación, resalta el error en la barra de fórmulas o en la celda. Corrija el error y presione ENTRAR para aceptar la corrección.
     
 

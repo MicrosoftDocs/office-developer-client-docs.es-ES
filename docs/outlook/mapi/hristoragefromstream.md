@@ -25,11 +25,11 @@ ms.locfileid: "33416835"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Capas una interfaz **IStorage** en un objeto **IStream** . 
+Capas de **una interfaz IStorage** en un **objeto IStream.** 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -42,31 +42,31 @@ HRESULT HrIStorageFromStream(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpUnkIn_
   
-> a Puntero al objeto **IUnknown** que implementa **IStream**. 
+> [entrada] Puntero al **objeto IUnknown** que implementa **IStream**. 
     
  _lpInterface_
   
-> a Puntero al identificador de interfaz (IID) del objeto Stream. Cualquiera de los siguientes valores se puede pasar en el parámetro _lpInterface_ : null, IID_IStream o IID_ILockBytes. Pasar NULL en _lpInterface_ es lo mismo que pasar IID_IStream. 
+> [entrada] Puntero al identificador de interfaz (IID) del objeto de secuencia. Cualquiera de los siguientes valores se puede pasar en el parámetro  _lpInterface:_ NULL, IID_IStream o IID_ILockBytes. Pasar NULL en  _lpInterface_ es lo mismo que pasar IID_IStream. 
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se va a crear el objeto de almacenamiento en relación con la secuencia. El valor predeterminado es STGSTRM_RESET, que proporciona el acceso de solo lectura al objeto de almacenamiento y lo inicia en la posición cero del flujo. Los siguientes indicadores se pueden establecer en cualquier combinación, excepto como se indica:
+> [entrada] Máscara de bits de marcas que controla cómo se va a crear el objeto de almacenamiento en relación con la secuencia. El valor predeterminado es STGSTRM_RESET, que proporciona al objeto de almacenamiento acceso de solo lectura y lo inicia en la posición cero de la secuencia. Las siguientes marcas se pueden establecer en cualquier combinación, excepto como se indica:
     
 STGSTRM_CREATE 
   
-> Crea un nuevo objeto de almacenamiento para el objeto Stream. Esta marca no se puede establecer si se establece la marca STGSTRM_RESET. 
+> Crea un nuevo objeto de almacenamiento para el objeto de secuencia. Esta marca no se puede establecer si se STGSTRM_RESET marca. 
     
 STGSTRM_CURRENT 
   
-> Inicia el almacenamiento en la posición actual de la secuencia. Esta marca no se puede establecer si se establece la marca STGSTRM_RESET. 
+> Inicia el almacenamiento en la posición actual de la secuencia. Esta marca no se puede establecer si se STGSTRM_RESET marca. 
     
 STGSTRM_MODIFY 
   
-> Permite al proveedor de servicios de llamada escribir en el almacenamiento devuelto. Esta marca no se puede establecer si se establece la marca STGSTRM_RESET. 
+> Permite al proveedor de servicios de llamadas escribir en el almacenamiento devuelto. Esta marca no se puede establecer si se STGSTRM_RESET marca. 
     
 STGSTRM_RESET 
   
@@ -74,7 +74,7 @@ STGSTRM_RESET
     
  _lppStorageOut_
   
-> contempla Puntero a un puntero al objeto **IStorage** devuelto. 
+> [salida] Puntero a un puntero al objeto **IStorage** devuelto. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -84,6 +84,6 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacenamiento de mensajes admiten la función **HrIStorageFromStream** mediante la interfaz **IStorage** para datos adjuntos. Los proveedores de almacén deben implementar la interfaz **IStream** . **HrIStorageFromStream** proporciona la interfaz **IStorage** para el objeto **IStream** . Es posible pasar una interfaz **ILockBytes** o **IStream** en _lpUnkIn_. 
+Los proveedores de almacenamiento de mensajes admiten la función **HrIStorageFromStream** mediante la **interfaz IStorage** para datos adjuntos. Los proveedores de la Tienda deben implementar la **interfaz IStream.** **HrIStorageFromStream** proporciona la **interfaz IStorage** para el **objeto IStream.** Es posible pasar una interfaz **ILockBytes** o **IStream**  _en lpUnkIn_. 
   
 

@@ -20,17 +20,17 @@ ms.locfileid: "33412845"
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [\<(Menor que) (Aplicación web personalizada de Access)](less-thanaccess-custom-web-app.md)
+- [\< (Menor que) (Aplicación web personalizada de Access)](less-thanaccess-custom-web-app.md)
     
-- [\<= (Menor o igual que) (aplicación web personalizada de Access)](equalsless-than-or-equal-toaccess-custom-web-app.md)
+- [\<= (menor o igual que) (aplicación web personalizada de Access)](equalsless-than-or-equal-toaccess-custom-web-app.md)
     
-- [\<\>(No es igual a) (Aplicación web personalizada de Access)](not-equal-toaccess-custom-web-app.md)
+- [\<\> (No igual a) (Aplicación web personalizada de Access)](not-equal-toaccess-custom-web-app.md)
     
-- [= (Igual a) (aplicación web personalizada de Access)](equalsequalsaccess-custom-web-app.md)
+- [= (es igual a) (aplicación web personalizada de Access)](equalsequalsaccess-custom-web-app.md)
     
-- [\>(Mayor que) (Aplicación web personalizada de Access)](greater-thanaccess-custom-web-app.md)
+- [\> (Mayor que) (Aplicación web personalizada de Access)](greater-thanaccess-custom-web-app.md)
     
-- [\>= (Mayor o igual que) (aplicación web personalizada de Access)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
+- [\>= (mayor o igual que) (aplicación web personalizada de Access)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
     
 - [BETWEEN (aplicación web personalizada de Access)](between-access-custom-web-app.md)
     

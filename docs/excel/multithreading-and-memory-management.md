@@ -1,5 +1,5 @@
 ---
-title: Multiproceso y administración de memoria
+title: Multithreading y administración de memoria
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,15 +14,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414469"
 ---
-# <a name="multithreading-and-memory-management"></a>Multiproceso y administración de memoria
+# <a name="multithreading-and-memory-management"></a>Multithreading y administración de memoria
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-El control adecuado de la memoria es fundamental para crear complementos XLL fiables para Microsoft Excel. No se pueden asignar los búferes de memoria apropiados y liberarlos cuando ya no son necesarios reduce el rendimiento, crea contención de recursos y desestabiliza Excel.
+Un control adecuado de la memoria es fundamental para crear complementos XLL confiables para Microsoft Excel. Si no se asignan búferes de memoria adecuados y se liberan cuando ya no son necesarios, se reduce el rendimiento, se crea contención de recursos y se desestabiliza Excel.
   
-A partir de Microsoft Office Excel 2007, puede configurar Excel para usar hasta 1.024 subprocesos simultáneos al actualizar. En algunos casos, especialmente cuando hay varios procesadores disponibles o con funciones definidas por el usuario que se ejecutan en servidores agrupados, el subprocesamiento múltiple puede mejorar el rendimiento.
+A partir Microsoft Office Excel 2007, puede configurar Excel para que use hasta 1.024 subprocesos simultáneos al recalcular. En algunos casos, especialmente cuando hay varios procesadores disponibles o con funciones definidas por el usuario que se ejecutan en servidores en clúster, el multithreading puede mejorar el rendimiento.
   
-En los siguientes temas se describe cómo administrar la memoria y los subprocesos en los XLL:
+En los siguientes temas se describe cómo administrar la memoria y los subprocesos en XLL:
   
 - [Administración de memoria en Excel](memory-management-in-excel.md)
     
@@ -30,7 +30,7 @@ En los siguientes temas se describe cómo administrar la memoria y los subproces
     
 - [Actualización multiproceso en Excel](multithreaded-recalculation-in-excel.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

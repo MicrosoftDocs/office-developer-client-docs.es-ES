@@ -1,5 +1,5 @@
 ---
-title: IUnknown A ifoldersupport
+title: IFolderSupport IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,23 +25,23 @@ ms.locfileid: "33415778"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona información acerca de la compatibilidad de una carpeta con el uso compartido.
+Proporciona información sobre la compatibilidad de una carpeta para compartir.
   
 |||
 |:-----|:-----|
 |Suministrado por:  <br/> |Proveedor de almacenamiento de mensajes  <br/> |
 |Identificador de interfaz:  <br/> |IID_IFolderSupport  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Obtiene información sobre la compatibilidad de una carpeta con el uso compartido.  <br/> |
+|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Obtiene información sobre la compatibilidad de una carpeta para compartir.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Por lo general, Microsoft Office Outlook requiere un proveedor de almacén MAPI para implementar esta interfaz si el proveedor desea compartir una carpeta. La excepción es el proveedor del almacén de Exchange Server, que puede compartir carpetas sin implementar esta interfaz.
+Por lo general, Microsoft Office Outlook un proveedor de almacén MAPI para implementar esta interfaz si el proveedor desea compartir una carpeta. La excepción es el Exchange Server de almacenamiento, que puede compartir carpetas sin implementar esta interfaz.
   
-Un cliente puede consultar un **[IMAPIFolder](imapifolderimapicontainer.md)** de **a ifoldersupport**. Si se realiza correctamente, llame a **a ifoldersupport:: GetSupportMask** y compruebe el bit **FS_SUPPORTS_SHARING** que se va a establecer. 
+Un cliente puede consultar un **[IMAPIFolder](imapifolderimapicontainer.md)** para **IFolderSupport**. Si esto se realiza correctamente, llame a **IFolderSupport::GetSupportMask** y compruebe si se **FS_SUPPORTS_SHARING** bit que se va a establecer. 
   
 

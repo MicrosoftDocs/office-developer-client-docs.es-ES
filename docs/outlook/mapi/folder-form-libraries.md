@@ -21,11 +21,11 @@ ms.locfileid: "33414287"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En algunos casos, es posible que desee asociar uno o más formularios con una carpeta específica. Por ejemplo, los empleados de su organización podrían tener una carpeta de informe de progreso en su almacén personal de mensajes para crear y almacenar informes de progreso. Como el informe de progreso es específico de la carpeta de informes de progreso de cada usuario, puede que no sea adecuado almacenar el formulario de informe de progreso en la biblioteca de formularios de todo el sistema. Sin embargo, se puede conservar una copia del formulario del informe de progreso en la tabla de contenido asociado de la carpeta de informes de progreso de cada usuario. Esto impide que el usuario Use formularios de informe de progreso fuera de la carpeta designada.
+En algunos casos, es posible que desee asociar uno o más formularios a una carpeta específica. Por ejemplo, los empleados de la organización podrían tener una carpeta Informe de progreso en su almacén de mensajes personales para crear y almacenar informes de progreso. Dado que el informe de progreso es específico de la carpeta Informe de progreso de cada usuario, puede que no sea adecuado almacenar el formulario de informe de progreso en la biblioteca de formularios de todo el sistema. Sin embargo, se puede conservar una copia del formulario de informe de progreso en la tabla de contenido asociado de la carpeta Informe de progreso de cada usuario. Esto restringe al usuario el uso de formularios de informe de progreso fuera de la carpeta designada.
   
-Conceptualmente, hay una biblioteca de formularios de carpetas para cada carpeta de un almacén de mensajes, incluso si no hay servidores de formularios instalados en ella. Las bibliotecas de formularios de carpeta se implementan como otras bibliotecas de formularios, que se almacenan como tablas de contenido asociado en la parte alternativa de la carpeta. Como las bibliotecas de formularios de carpeta están contenidas en la carpeta, se copian junto con la carpeta principal en operaciones de copia.
+Conceptualmente, hay una biblioteca de formularios de carpeta para cada carpeta de un almacén de mensajes, incluso si no hay ningún servidor de formulario instalado en él. Las bibliotecas de formularios de carpetas se implementan como otras bibliotecas de formularios: se almacenan como tablas de contenido asociado en la parte alternativa de la carpeta. Dado que las bibliotecas de formularios de carpetas están contenidas en la carpeta, se copian junto con su carpeta principal en las operaciones de copia.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

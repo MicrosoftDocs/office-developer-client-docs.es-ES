@@ -31,30 +31,30 @@ Contiene una tabla de la configuración de la carpeta de recepción de un almac�
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_RECEIVE_FOLDER_SETTINGS  <br/> |
 |Identificador:  <br/> |0x3415  <br/> |
-|Tipo de datos:  <br/> |PT OBJECT  <br/> |
+|Tipo de datos:  <br/> |PT_OBJECT  <br/> |
 |Área:  <br/> |Almacén de mensajes MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se puede excluir en las operaciones de [IMAPIProp:: CopyTo](imapiprop-copyto.md) o incluirse en las operaciones de [IMAPIProp:: CopyProps](imapiprop-copyprops.md) . Como una propiedad de tipo PT Object, el método [IMAPIProp:: GetProps](imapiprop-getprops.md) no puede recuperarlo correctamente; debe obtener acceso a su contenido mediante el método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) , que solicita la interfaz con el identificador IID_IMAPITable. Los proveedores de servicios deben informar al método [IMAPIProp:: GetPropList](imapiprop-getproplist.md) si está establecido, pero, opcionalmente, puede informar de él o no si no se ha establecido. 
+Esta propiedad puede excluirse en operaciones [IMAPIProp::CopyTo](imapiprop-copyto.md) o incluirse en [operaciones IMAPIProp::CopyProps.](imapiprop-copyprops.md) Como propiedad de tipo PT_OBJECT, el método [IMAPIProp::GetProps](imapiprop-getprops.md) no puede recuperarla correctamente; el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) debe tener acceso a su contenido, solicitando la interfaz con identificador IID_IMAPITable. Los proveedores de servicios deben notificarlo al método [IMAPIProp::GetPropList](imapiprop-getproplist.md) si está establecido, pero opcionalmente pueden notificarlo o no si no está establecido. 
   
-Para recuperar el contenido de la tabla, una aplicación cliente debe llamar al método [IMsgStore:: GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) . Para obtener más información, vea [Receive Folder tables](receive-folder-tables.md).
+Para recuperar el contenido de la tabla, una aplicación cliente debe llamar al método [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) Para obtener más información, vea [Tablas de carpetas de recepción.](receive-folder-tables.md)
   
-Esta propiedad contiene una tabla de asignaciones de las carpetas de recepción del almacén de mensajes. Llamar a **OpenProperty** en esta propiedad equivale a llamar a **GetReceiveFolderTable** en el almacén de mensajes. 
+Esta propiedad contiene una tabla de asignaciones de las carpetas de recepción para el almacén de mensajes. Llamar **a OpenProperty** en esta propiedad equivale a llamar a **GetReceiveFolderTable** en el almacén de mensajes. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

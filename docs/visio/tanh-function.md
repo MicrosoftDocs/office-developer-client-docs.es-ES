@@ -22,13 +22,13 @@ Devuelve la tangente hiperbólica de un ángulo.
   
 ## <a name="syntax"></a>Sintaxis
 
-TANH (* * *ángulo* * *) 
+TANH(** *angle* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que se va a obtener la tangente hiperbólica.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que se obtiene la tangente hiperbólica.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -36,11 +36,11 @@ Numérico
   
 ## <a name="remarks"></a>Comentarios
 
-La función TANH usa radianes a menos que especifique una unidad de medida diferente en el *ángulo* . 
+La función TANH usa radianes a menos que especifique una unidad de medida diferente en *ángulo.* 
   
 ## <a name="example"></a>Ejemplo
 
-TANH (-45) 
+TANH(-45) 
   
 Devuelve -0,6558. 
   

@@ -29,7 +29,7 @@ Contiene una matriz de punteros a cadenas de clase de mensaje.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
 |Macro relacionada:  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
    
 ```cpp
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cValues**
   
@@ -53,13 +53,13 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SMessageClassArray** se pasa como un parámetro en los métodos siguientes: 
+La **estructura SMessageClassArray** se pasa como parámetro en los métodos siguientes: 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

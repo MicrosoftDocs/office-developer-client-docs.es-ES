@@ -18,11 +18,11 @@ ms.locfileid: "33414476"
 ---
 # <a name="time-function-visioshapesheet"></a>Función TIME (VisioShapeSheet)
 
-Devuelve la hora representada por _hora_, _minuto_y _segundo_.
+Devuelve la hora representada por  _hora_,  _minuto_ y  _segundo_.
   
 ## <a name="syntax"></a>Sintaxis
 
-TIEMPO (* * *hora* * *, * * *minuto* * *, * * *segundo* * *) 
+TIME(** *hour* **, ** *minute* **, ** *second* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -38,13 +38,13 @@ Numérico
   
 ## <a name="example-1"></a>Ejemplo 1
 
-HORA (15, 30, 30)
+TIME(15,30,30)
   
 Devuelve el valor que representa las 15:30:30.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-FORMAT (tiempo (15, 30, 30), "HH: mm")
+FORMAT(TIME(15,30,30),"HH:mm")
   
 Devuelve el valor que representa las 15:30.
   

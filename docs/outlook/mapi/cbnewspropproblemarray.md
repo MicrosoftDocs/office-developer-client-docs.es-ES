@@ -25,24 +25,24 @@ ms.locfileid: "33413342"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se van a asignar para una nueva estructura [SPropProblemArray](spropproblemarray.md) que contiene un número especificado de estructuras [SPropProblem](spropproblem.md) . 
+Calcula el número de bytes que se asignarán a una nueva estructura [SPropProblemArray](spropproblemarray.md) que contiene un número especificado de estructuras [SPropProblem.](spropproblem.md) 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbNewSPropProblemArray (_cprob)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- __cprob_
+ _ _cprob_
   
-> Número de estructuras **SPropProblem** que se incluirán en la nueva estructura **SPropProblemArray** . 
+> Recuento de **estructuras SPropProblem** que se incluirán en la nueva **estructura SPropProblemArray.** 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

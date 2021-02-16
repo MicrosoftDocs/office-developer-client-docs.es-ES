@@ -15,7 +15,7 @@ ms.locfileid: "33416723"
 ---
 # <a name="eventmultidrop-cell-events-section"></a>Celda EventMultiDrop (Sección de eventos)
 
-Una celda de evento que se evalúa cuando se colocan varias formas en la página de dibujo, ya sea como instancias o cuando se duplican o se pegan formas.
+Celda de evento que se evalúa cuando se descartan varias formas en la página de dibujo, ya sea como instancias o cuando se duplican o pegan formas.
   
 Las celdas de eventos se evalúan sólo cuando se produce el evento, no al escribir la fórmula.
   

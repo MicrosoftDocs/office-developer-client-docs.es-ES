@@ -25,7 +25,7 @@ ms.locfileid: "33413181"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Abre un objeto status.
+Abre un objeto de estado.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -36,27 +36,27 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpInterface_
   
-> a Un puntero al identificador de interfaz (IID) del objeto status que se va a abrir. Si se pasa NULL, se indica la interfaz estándar para el objeto que se devuelve (en este caso, la interfaz [IMAPIStatus](imapistatusimapiprop.md) ). El parámetro _lpInterface_ también se puede establecer en un identificador para una interfaz adecuada para el objeto. 
+> [entrada] Puntero al identificador de interfaz (IID) para que se abra el objeto de estado. Pasar NULL indica que se devuelve la interfaz estándar del objeto (en este caso, la [interfaz IMAPIStatus).](imapistatusimapiprop.md) El  _parámetro lpInterface_ también se puede establecer en un identificador para una interfaz adecuada para el objeto. 
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se abre el objeto status. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla cómo se abre el objeto de estado. Se puede establecer la siguiente marca:
     
 MAPI_MODIFY 
   
-> Solicita el permiso de lectura y escritura. De forma predeterminada, los objetos se crean con permiso de solo lectura y las aplicaciones cliente no deben funcionar por el supuesto de que se ha concedido el permiso de lectura y escritura. 
+> Solicita permiso de lectura y escritura. De forma predeterminada, los objetos se crean con permiso de solo lectura y las aplicaciones cliente no deben funcionar en la suposición de que se ha concedido permiso de lectura y escritura. 
     
  _lpulObjType_
   
-> contempla Un puntero al tipo del objeto abierto.
+> [salida] Puntero al tipo del objeto abierto.
     
  _lppEntry_
   
-> contempla Un puntero al puntero al objeto abierto.
+> [salida] Puntero al puntero al objeto abierto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -66,9 +66,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacenamiento de mensajes implementan el método **IMSLogon:: OpenStatusEntry** para abrir un objeto de estado. A continuación, este objeto de estado se usa para permitir a los clientes llamar a métodos [IMAPIStatus](imapistatusimapiprop.md) . Por ejemplo, los clientes pueden usar el método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) para reconfigurar la sesión de inicio del almacén de mensajes o el método [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) para validar el estado de la sesión de inicio del almacén de mensajes. 
+Los proveedores de almacenamiento de mensajes implementan **el método IMSLogon::OpenStatusEntry** para abrir un objeto de estado. A continuación, este objeto de estado se usa para permitir que los clientes llamen a [métodos IMAPIStatus.](imapistatusimapiprop.md) Por ejemplo, los clientes pueden usar el método [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) para volver a configurar la sesión de inicio de sesión del almacén de mensajes o el método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) para validar el estado de la sesión de inicio de sesión del almacén de mensajes. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

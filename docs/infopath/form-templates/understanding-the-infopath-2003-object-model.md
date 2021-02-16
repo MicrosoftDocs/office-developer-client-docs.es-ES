@@ -25,7 +25,7 @@ En esta sección, se trata el modelo de objeto de las soluciones de código admi
   
 > Ofrece información general sobre los modelos de objetos que se utilizan en los proyectos de código administrado de InfoPath.
     
-[Obtener acceso a datos de aplicaciones mediante el modelo de objetos de InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+[Obtener acceso a datos de la aplicación mediante el modelo de objetos de InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
   
 > Trata de cómo obtener acceso a información sobre la aplicación InfoPath, el documento XML subyacente del formulario y el archivo de definición de formularios (.xsf).
     
@@ -33,7 +33,7 @@ En esta sección, se trata el modelo de objeto de las soluciones de código admi
   
 > Trata de cómo obtener acceso a los datos de orígenes externos.
     
-[Obtener acceso a datos de formulario con el modelo de objetos de InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
+[Obtener acceso a datos de formulario mediante el modelo de objetos de InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
   
 > Trata de cómo obtener acceso a información sobre el documento XML subyacente del formulario y los datos que contiene y cómo realizar alguna acción en el mismo.
     
@@ -41,15 +41,15 @@ En esta sección, se trata el modelo de objeto de las soluciones de código admi
   
 > Trata de cómo mostrar alertas y cuadros de diálogo en los proyectos de código administrado de InfoPath.
     
-[Controlar errores con el modelo de objetos de InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+[Controlar errores mediante el modelo de objetos de InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
   
 > Explica cómo tratar los errores en los proyectos de código administrado de InfoPath.
     
-[Responder a eventos de formulario con el modelo de objetos de InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+[Responder a eventos de formulario mediante el modelo de objetos de InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
   
 > Trata de cómo crear controladores de eventos que respondan a los eventos que se producen mientras el usuario rellena el formulario.
     
-[Trabajar con ventanas de formularios mediante el modelo de objetos de InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+[Trabajar con ventanas de formulario mediante el modelo de objetos de InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
   
 > Trata de cómo trabajar con ventanas de formularios.
     

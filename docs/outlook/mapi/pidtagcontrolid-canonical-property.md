@@ -25,34 +25,34 @@ ms.locfileid: "33416023"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un identificador único para un control utilizado en un cuadro de diálogo. 
+Contiene un identificador único para un control usado en un cuadro de diálogo. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_CONTROL_ID  <br/> |
 |Identificador:  <br/> |0x3F07  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Tabla de visualización de MAPI  <br/> |
+|Área:  <br/> |Tabla para mostrar MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad contiene un identificador único para el control. Este identificador debe contener una estructura [GUID](guid.md) y un valor binario de tipo **Long**. Todos los controles del cuadro de diálogo deben usar el mismo **GUID** para identificar el proveedor de servicios, y cada control debe usar un valor de **tipo Long** único para garantizar que los controles no entren en colisión. 
+Esta propiedad contiene un identificador único para el control. Este identificador debe contener una [estructura GUID](guid.md) y un valor binario de tipo **LONG**. Todos los controles del cuadro de diálogo deben usar el mismo **GUID** para identificar el proveedor de servicios y cada control debe usar un valor **LONG** único para garantizar que los controles no entren en colisión. 
   
-Esta propiedad se usa en las notificaciones. Por ejemplo, las notificaciones enviadas en la tabla de presentación deben establecer esta propiedad para identificar de forma exclusiva el control que se va a actualizar. 
+Esta propiedad se usa en las notificaciones. Por ejemplo, las notificaciones enviadas en la tabla para mostrar deben establecer esta propiedad para identificar de forma única el control que se va a actualizar. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

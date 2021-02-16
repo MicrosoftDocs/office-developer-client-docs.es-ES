@@ -29,20 +29,20 @@ Calcula el número de bytes de una estructura [SMessageClassArray](smessageclass
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**SMessageClassArray** <br/> |
    
 ```cpp
 CbMessageClassArray (_c)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- __c_
+ _ _c_
   
-> ReCuento de punteros a clases de mensaje que se incluyen en la **SMessageClassArray**existente.
+> Recuento de punteros a las clases de mensaje que se incluyen en **el SMessageClassArray existente.**
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

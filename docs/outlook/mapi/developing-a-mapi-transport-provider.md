@@ -1,5 +1,5 @@
 ---
-title: Desarrollar un proveedor de transporte MAPI
+title: Desarrollo de un proveedor de transporte MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416912"
 ---
-# <a name="developing-a-mapi-transport-provider"></a>Desarrollar un proveedor de transporte MAPI
+# <a name="developing-a-mapi-transport-provider"></a>Desarrollo de un proveedor de transporte MAPI
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Debe estar familiarizado con la arquitectura del subsistema MAPI, el lenguaje C++ y con la escritura de bibliotecas de vínculos dinámicos (dll) para las distintas plataformas de Windows antes de desarrollar un proveedor de transporte.
+Debe estar familiarizado con la arquitectura del subsistema MAPI, el lenguaje C++ y con la escritura de bibliotecas de vínculos dinámicos (DLL) para las distintas plataformas windows antes de desarrollar un proveedor de transporte.
   
 

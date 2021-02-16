@@ -35,23 +35,23 @@ HRESULT EmptyFolder(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulUIParam_
   
-> a Identificador de la ventana primaria del indicador de progreso. El parámetro _ulUIParam_ se omite a menos que se establezca la marca FOLDER_DIALOG en el parámetro _ulFlags_ . 
+> [entrada] Identificador de la ventana principal del indicador de progreso. El _parámetro ulUIParam_ se omite a menos FOLDER_DIALOG marca esté establecida en el _parámetro ulFlags._ 
     
  _lpProgress_
   
-> a Un puntero a un objeto Progress que muestra un indicador de progreso. Si se pasa NULL en _lpProgress_, el proveedor de almacenamiento de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso de MAPI. El parámetro _lpProgress_ se omite a menos que se establezca la marca FOLDER_DIALOG en el parámetro _ulFlags_ . 
+> [entrada] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El _parámetro lpProgress_ se omite a menos que FOLDER_DIALOG marca esté establecida en el _parámetro ulFlags._ 
     
  _ulFlags_
   
-> a Una máscara de máscara de marcas que controla cómo se vacía la carpeta. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se vacía la carpeta. Se pueden establecer las siguientes marcas:
     
 DEL_ASSOCIATED 
   
-> Elimina todas las subcarpetas, incluidas las subcarpetas que contienen mensajes con contenido asociado. La marca DEL_ASSOCIATED solo tiene significado para la carpeta de nivel superior en la que actúa la llamada.
+> Elimina todas las subcarpetas, incluidas las subcarpetas que contienen mensajes con contenido asociado. El DEL_ASSOCIATED marca solo tiene significado para la carpeta de nivel superior en la que actúa la llamada.
     
 DELETE_HARD_DELETE
   
@@ -59,41 +59,41 @@ DELETE_HARD_DELETE
     
 FOLDER_DIALOG 
   
-> Muestra un indicador de progreso mientras se lleva a cabo la operación.
+> Muestra un indicador de progreso mientras continúa la operación.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La carpeta se vació correctamente.
+> La carpeta se ha vaciado correctamente.
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> La llamada se realizó correctamente, pero la carpeta no se vació completamente. Cuando se devuelve esta advertencia, la llamada se debe administrar como correcta. Para probar esta advertencia, use la macro **HR_FAILED** . Para obtener más información, consulte [usar macros para el control de errores](using-macros-for-error-handling.md).
+> La llamada se ha hecho correctamente, pero la carpeta no se ha vaciado por completo. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIFolder:: EmptyFolder** elimina todo el contenido de una carpeta sin eliminar la carpeta en sí. 
+El **método IMAPIFolder::EmptyFolder** elimina todo el contenido de una carpeta sin eliminar la carpeta en sí. 
   
-Durante una llamada de **EmptyFolder** , no se eliminan los mensajes enviados. 
+Durante una **llamada EmptyFolder,** los mensajes enviados no se eliminan. 
   
-El contenido asociado a una carpeta incluye mensajes que se usan para describir vistas, reglas, formularios personalizados y almacenamiento de soluciones personalizado, y también puede incluir definiciones de formulario. 
+El contenido asociado de una carpeta incluye mensajes que se usan para describir vistas, reglas, formularios personalizados y almacenamiento de soluciones personalizado, y también pueden incluir definiciones de formulario. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-No llame al método [IMsgStore:: AbortSubmit](imsgstore-abortsubmit.md) para los mensajes de la carpeta que se han enviado. Los mensajes enviados no se eliminan. 
+No llame al [método IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) para los mensajes de la carpeta que se han enviado. Los mensajes enviados no se eliminan. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
 Espere estos valores devueltos en las siguientes condiciones.
   
-|**Condición**|**Valor devuelto**|
+|**Condition**|**Valor devuelto**|
 |:-----|:-----|
-|**EmptyFolder** ha vaciado la carpeta correctamente.  <br/> |S_OK  <br/> |
-|**EmptyFolder** no pudo vaciar por completo la carpeta.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**EmptyFolder** ha vaciado correctamente la carpeta.  <br/> |S_OK  <br/> |
+|**EmptyFolder** no pudo vaciar completamente la carpeta.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
 |**EmptyFolder** no se pudo completar.  <br/> |Cualquier valor de error  <br/> |
    
-Cuando **EmptyFolder** no pueda completarse, no dé por supuesto que no se ha realizado ningún trabajo. Es posible que **EmptyFolder** haya podido eliminar parte del contenido de la carpeta antes de que se produzca el error. 
+Cuando **EmptyFolder** no se puede completar, no suponga que no se ha realizado ningún trabajo. Es posible que **EmptyFolder** haya podido eliminar parte del contenido de la carpeta antes de encontrar el error. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -101,9 +101,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnEmptyFolder  <br/> |MFCMAPI usa el método **IMAPIFolder:: EmptyFolder** para eliminar el contenido de la carpeta especificada.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI usa el **método IMAPIFolder::EmptyFolder** para eliminar el contenido de la carpeta especificada.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

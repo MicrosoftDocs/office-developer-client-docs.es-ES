@@ -25,11 +25,11 @@ ms.locfileid: "33412978"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de marcas utilizadas para indicar el estado de las entradas de direcciones durante el proceso de resolución de nombres.
+Contiene una lista de marcas usadas para indicar el estado de las entradas de dirección durante el proceso de resolución de nombres.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct
@@ -40,33 +40,33 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cFlags**
   
-> Número de marcas definidas por MAPI en la lista.
+> Recuento de marcas definidas por MAPI en la lista.
     
  **ulFlags**
   
-> Matriz de marcadores que proporciona el estado de la operación de resolución de nombres para un destinatario. Se pueden establecer los siguientes indicadores:
+> Matriz de marcas que proporciona el estado de la operación de resolución de nombres para un destinatario. Se pueden establecer las siguientes marcas:
     
 MAPI_AMBIGUOUS 
   
-> Se ha resuelto el destinatario, pero no un identificador de entrada único. Otros contenedores de libretas de direcciones no deben intentar resolver este destinatario. 
+> El destinatario se ha resuelto, pero no a un identificador de entrada único. Otros contenedores de libreta de direcciones no deben intentar resolver este destinatario. 
     
 MAPI_RESOLVED 
   
-> El destinatario se ha resuelto en un identificador de entrada único. Otros contenedores de libretas de direcciones no deben intentar resolver este destinatario. 
+> El destinatario se ha resuelto en un identificador de entrada único. Otros contenedores de libreta de direcciones no deben intentar resolver este destinatario. 
     
 MAPI_UNRESOLVED 
   
-> La entrada no se ha resuelto. Otros contenedores de libretas de direcciones deben intentar resolver este destinatario.
+> La entrada no se ha resuelto. Otros contenedores de libreta de direcciones deben intentar resolver este destinatario.
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **FLAGLIST** se usa como parámetro para [IABContainer:: ResolveNames](iabcontainer-resolvenames.md). Cada uno de los destinatarios que se van a resolver se incluye en una estructura [ADRLIST](adrlist.md) . Como el contenedor de la libreta de direcciones intenta resolver cada destinatario, establece la marca correspondiente en la entrada correspondiente de la estructura **FLAGLIST** . Todas las entradas de la estructura **FLAGLIST** están en el mismo orden que las entradas de la estructura **ADRLIST** . Esto hace que sea más fácil asociar una configuración de marca a un destinatario. 
+La **estructura FLAGLIST** se usa como parámetro para [IABContainer::ResolveNames](iabcontainer-resolvenames.md). Cada uno de los destinatarios que se va a resolver se incluye en una [estructura ADRLIST.](adrlist.md) Cuando el contenedor de la libreta de direcciones intenta resolver cada destinatario, establece la marca adecuada en la entrada correspondiente en la **estructura FLAGLIST.** Todas las entradas de la estructura **FLAGLIST** están en el mismo orden que las entradas de la **estructura ADRLIST.** Esto facilita la asociación de una configuración de marca con un destinatario. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

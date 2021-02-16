@@ -29,7 +29,7 @@ Convierte una representación de cadena de un número hexadecimal en datos binar
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -40,27 +40,27 @@ BOOL FBinFromHex(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _SZ_
+ _sz_
   
-> a Puntero a la cadena ASCII terminada en null que se va a convertir. No es una cadena Unicode. Los caracteres válidos incluyen los caracteres hexadecimales del 0 al 9 y los caracteres en mayúsculas y minúsculas de la a a la F.
+> [entrada] Puntero a la cadena ASCII terminada en null que se va a convertir. No es una cadena Unicode. Los caracteres válidos incluyen los caracteres hexadecimales de cero a nueve y los caracteres en mayúsculas y minúsculas A a F.
     
  _pb_
   
-> contempla Puntero al número binario devuelto.
+> [salida] Puntero al número binario devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> La cadena se convirtió correctamente en un número binario. 
+> La cadena se ha convertido correctamente en un número binario. 
     
 FALSE 
   
 > La cadena de entrada contiene caracteres hexadecimales ASCII no válidos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

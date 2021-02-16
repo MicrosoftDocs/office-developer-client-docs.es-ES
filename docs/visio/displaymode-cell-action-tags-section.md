@@ -1,5 +1,5 @@
 ---
-title: Celda DisplayMode (sección de etiquetas de acción)
+title: Celda DisplayMode (Sección de etiquetas de acción)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415820"
 ---
-# <a name="displaymode-cell-action-tags-section"></a>Celda DisplayMode (sección de etiquetas de acción)
+# <a name="displaymode-cell-action-tags-section"></a>Celda DisplayMode (Sección de etiquetas de acción)
 
 Determina si la etiqueta de acción aparece cuando el usuario mueve el puntero sobre la etiqueta, cuando se selecciona la forma o siempre.
   
@@ -25,9 +25,9 @@ Determina si la etiqueta de acción aparece cuando el usuario mueve el puntero s
   
 |**Valor**|**Modo de presentación**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| comprendi  <br/> | Aparece cuando se pausa el mouse sobre la etiqueta (valor predeterminado).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
-| 1  <br/> | Aparece mientras está seleccionada la forma.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
-| segundo  <br/> | Aparece siempre.  <br/> |**visSmartTagDispModeAlways** <br/> |
+| 0  <br/> | Aparece cuando se pausa el mouse sobre la etiqueta (valor predeterminado).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
+| 1   <br/> | Aparece mientras está seleccionada la forma.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
+| 2   <br/> | Aparece siempre.  <br/> |**visSmartTagDispModeAlways** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -40,14 +40,14 @@ Para obtener una referencia a la celda DisplayMode por su nombre desde otra fór
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | SmartTags.  *nombre* . DisplayMode donde SmartTags. *nombre* es el nombre de la fila de la etiqueta de acción.  <br/> |
+| Nombre de celda:  <br/> | SmartTags.  *nombre*  . DisplayMode donde SmartTags. *es*  el nombre de la fila de etiqueta de acción  <br/> |
    
 Para obtener una referencia a la celda DisplayMode por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionSmartTag** <br/> |
-| Índice de fila:  <br/> |**visRowSmartTag** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowSmartTag**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visSmartTagDisplayMode** <br/> |
    
 

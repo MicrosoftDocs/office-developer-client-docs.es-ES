@@ -22,9 +22,9 @@ Determina el formato de salida de un dibujo. Las páginas de dibujo suelen tener
   
 |**Valor**|**Formato de salida**|
 |:-----|:-----|
-| comprendi  <br/> | Impresión (valor predeterminado)  <br/> |
-| 1  <br/> | Presentación de diapositivas de PowerPoint  <br/> |
-| segundo  <br/> | Salida HTML o GIF  <br/> |
+| 0  <br/> | Impresión (valor predeterminado)  <br/> |
+| 1   <br/> | Presentación de diapositivas de PowerPoint  <br/> |
+| 2   <br/> | Salida HTML o GIF  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

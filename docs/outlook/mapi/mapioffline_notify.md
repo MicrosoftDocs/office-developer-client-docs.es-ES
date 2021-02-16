@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414770"
 ---
-# <a name="mapiofflinenotify"></a>MAPIOFFLINE_NOTIFY
+# <a name="mapioffline_notify"></a>MAPIOFFLINE_NOTIFY
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta es la notificación de un cambio en el estado de conexión. Indica la parte del estado de conexión que ha cambiado, el estado de conexión anterior y el nuevo estado de conexión.
+Esta es la notificación de un cambio en el estado de conexión. Indica la parte del estado de conexión que ha cambiado, el estado de conexión antiguo y el nuevo estado de conexión.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+Vea **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
   
 ```cpp
 typedef struct  
@@ -42,15 +42,15 @@ typedef struct
 } MAPIOFFLINE_NOTIFY;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  _ulSize_
   
-> Tamaño de la estructura **MAPIOFFLINE_NOTIFY** . 
+> Tamaño de la **MAPIOFFLINE_NOTIFY** estructura. 
     
  _NotifyType_
   
-> Tipo de notificación. Tenga en cuenta que solo se admite la notificación de cambio del estado de conexión; los únicos valores admitidos son:
+> Tipo de notificación. Tenga en cuenta que solo se admite la notificación sobre el cambio del estado de conexión; los únicos valores admitidos son:
     
    - MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START
     
@@ -60,15 +60,15 @@ typedef struct
     
  _ulClientToken_
   
-> Un token definido por el cliente en la estructura **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** en **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. 
+> Un token definido por el cliente en la **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** en **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. 
     
  _ulMask_
   
-> La parte del estado de conexión que ha cambiado. El único valor admitido es MAPIOFFLINE_STATE_OFFLINE_MASK.
+> Parte del estado de conexión que ha cambiado. El único valor admitido es MAPIOFFLINE_STATE_OFFLINE_MASK.
     
  _ulStateOld_
   
-> Estado de conexión anterior. Los únicos valores admitidos son:
+> El estado de conexión anterior. Los únicos valores admitidos son:
     
    - MAPIOFFLINE_STATE_OFFLINE
     
@@ -84,13 +84,13 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La API de estado sin conexión solo admite notificaciones para cambios en línea o sin conexión. Un cliente debe comprobar que Outlook devuelve los siguientes valores antes de examinar el cambio real:
+La API de estado sin conexión solo admite notificaciones de cambios en línea o sin conexión. Un cliente debe comprobar que Outlook devuelve los siguientes valores antes de examinar el cambio real:
   
-1.  *NotifyType* tiene el valor MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE o MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE. En este caso, el cliente puede suponer que el cambio es un cambio de estado de conexión y la *información* es de la estructura *StateChange* . 
+1.  *NotifyType*  tiene el valor MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE o MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE. En este caso, el cliente puede suponer que el cambio es un cambio de estado de conexión y  *la información*  es de la estructura  *StateChange*  . 
     
-2.  *ulMask* tiene el valor MAPIOFFLINE_STATE_OFFLINE_MASK. En este caso, el cliente puede suponer que el cambio es un cambio de estado de conexión en línea o sin conexión y puede continuar con el examen de *ulStateOld* y *ulStateNew* . 
+2.  *ulMask*  tiene el valor MAPIOFFLINE_STATE_OFFLINE_MASK. En este caso, el cliente puede suponer que el cambio es un cambio de estado de conexión en línea/sin conexión y puede continuar examinando  *ulStateOld*  y  *ulStateNew*  . 
     
-Es posible que Outlook notifique a un cliente otros cambios que no se admiten. En estos casos, *NotifyType* no sería ninguno de los tres valores indicados anteriormente, o *ULMASK* no sería MAPIOFFLINE_STATE_OFFLINE_MASK, y el cliente debe omitir el resto de los datos de la *información* . 
+Es posible que Outlook notimente a un cliente de otros cambios que no son compatibles. En estos casos,  *NotifyType*  no sería ninguno de los tres valores indicados anteriormente, o  *ulMask*  no sería MAPIOFFLINE_STATE_OFFLINE_MASK y el cliente debe omitir el resto de los datos de  *Info*  . 
   
 ## <a name="see-also"></a>Vea también
 

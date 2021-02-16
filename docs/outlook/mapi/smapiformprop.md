@@ -25,11 +25,11 @@ ms.locfileid: "33416702"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una propiedad con nombre utilizada con un formulario. 
+Describe una propiedad con nombre usada con un formulario. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormProp
@@ -56,11 +56,11 @@ typedef struct _SMAPIFormProp
 
  **ulFlags**
   
-> Marcas utilizadas para distinguir el formato de las cadenas en la estructura **SMAPIFormProp** . Se puede establecer la siguiente marca: 
+> Marcas usadas para distinguir el formato de las cadenas en la **estructura SMAPIFormProp.** Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> Las cadenas devueltas están en formato Unicode. Si no se establece MAPI_UNICODE, las cadenas están en formato ANSI.
+> Las cadenas devueltas están en formato Unicode. Si MAPI_UNICODE no se establece, las cadenas están en formato ANSI.
     
  **nPropType**
   
@@ -76,19 +76,19 @@ MAPI_UNICODE
     
  **nSpecialType**
   
-> Valor que describe el tipo de datos incluidos en el miembro **u** . Los valores posibles son los siguientes: 
+> Valor que describe el tipo de datos incluidos en el **miembro u.** Los valores posibles son los siguientes: 
     
 FPST_VANILLA 
   
-> El miembro **u** no contiene una enumeración. 
+> El **miembro u** no contiene una enumeración. 
     
 FPST_ENUM_PROP 
   
-> El miembro **u** contiene una estructura que describe una enumeración. 
+> El **miembro u** contiene una estructura que describe una enumeración. 
     
  **s**
   
-> Unión que describe la asociación entre el nombre y el número de la propiedad con nombre. Mediante el uso de algunas propiedades, el miembro **u** está vacío. Con otras propiedades, se representa en una estructura que consta de los siguientes miembros: 
+> Unión que describe la asociación entre el nombre y el número de la propiedad con nombre. Al usar algunas propiedades, el **miembro u** está vacío. Con otras propiedades, se representa en una estructura formada por los siguientes miembros: 
     
  **nmidIdx**
   
@@ -96,17 +96,17 @@ FPST_ENUM_PROP
     
  **cfpevAvailable**
   
-> Número de estructuras [SMAPIFormPropEnumVal](smapiformpropenumval.md) en la matriz señalada por el miembro **pfpevAvailable** . 
+> Recuento de [estructuras SMAPIFormPropEnumVal](smapiformpropenumval.md) en la matriz a la que apunta el **miembro pfpevAvailable.** 
     
  **pfpevAvailable**
   
-> Puntero a una matriz de estructuras **SMAPIFormPropEnumVal** , cada una de las cuales contiene un valor para la propiedad con nombre. 
+> Puntero a una matriz **de estructuras SMAPIFormPropEnumVal,** cada una de las cuales contiene un valor para la propiedad con nombre. 
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **SMAPIFormProp** contiene información sobre una propiedad de formulario usada como parte de las definiciones de la interfaz [IMAPIFormInfo](imapiforminfoimapiprop.md) ; **nSpecialType** contiene una etiqueta que se aplica a la Unión **u** que forma parte de **SMAPIFormProp**.
+La **estructura SMAPIFormProp** contiene información sobre una propiedad de formulario usada como parte de las definiciones de la interfaz [IMAPIFormInfo;](imapiforminfoimapiprop.md) **nSpecialType** contiene una etiqueta que se aplica a la **unión u** que forma parte de **SMAPIFormProp**.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

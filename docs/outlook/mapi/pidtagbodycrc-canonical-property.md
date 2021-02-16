@@ -36,23 +36,23 @@ Contiene un valor de comprobación de redundancia cíclica (CRC) en el texto del
    
 ## <a name="remarks"></a>Comentarios
 
-El almacén de mensajes puede usar cualquier algoritmo CRC que genere un valor de PT_LONG. Debe calcular esta propiedad como parte del método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) cuando se ha establecido la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) por primera vez y siempre que se haya modificado posteriormente.
+El almacén de mensajes puede usar cualquier algoritmo CRC que genere un valor PT_LONG mensaje. Debe calcular esta propiedad como parte del método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) cuando la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) se ha establecido por primera vez y siempre que se haya modificado posteriormente.
   
-Una aplicación cliente usa **PR_BODY_CRC** para facilitar la comparación de las cadenas de texto de mensaje contenidas en las propiedades de **PR_BODY** o sus variantes. Mediante esta propiedad, el cliente puede detectar rápida y fácilmente cuándo cambia el texto del mensaje. Puede obtener ganancias de rendimiento considerables usando **PR_BODY_CRC** en lugar de obtener **PR_BODY** del almacén de mensajes y compararlo con una versión local. 
+Una aplicación cliente usa **PR_BODY_CRC** ayuda a comparar las cadenas de texto del mensaje contenidas **en PR_BODY** propiedades o sus variantes. Con esta propiedad, el cliente puede detectar rápida y fácilmente cuándo ha cambiado el texto del mensaje. Puede obtener mejoras significativas en el rendimiento mediante  **PR_BODY_CRC** en lugar de obtener PR_BODY del almacén de mensajes y compararlo con una versión local. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

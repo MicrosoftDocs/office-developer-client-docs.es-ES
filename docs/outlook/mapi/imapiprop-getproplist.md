@@ -25,7 +25,7 @@ ms.locfileid: "33414791"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve las etiquetas de propiedad de todas las propiedades. 
+Devuelve etiquetas de propiedad para todas las propiedades. 
   
 ```cpp
 HRESULT GetPropList(
@@ -34,19 +34,19 @@ HRESULT GetPropList(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla el formato de las cadenas en las etiquetas de propiedad devueltas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el formato de las cadenas de las etiquetas de propiedad devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas devueltas están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI.
+> Las cadenas devueltas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
     
  _lppPropTagArray_
   
-> contempla Un puntero a un puntero a la matriz de etiquetas de propiedades que contiene las etiquetas de todas las propiedades del objeto.
+> [salida] Puntero a un puntero a la matriz de etiquetas de propiedades que contiene etiquetas para todas las propiedades del objeto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,23 +56,23 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció la marca MAPI_UNICODE y la implementación no admite Unicode, o no se estableció MAPI_UNICODE y la implementación solo admite Unicode.
+> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIProp:: GetPropList** recupera la etiqueta de propiedad para cada propiedad admitida actualmente por un objeto. Si el objeto no admite actualmente ninguna propiedad, **GetPropList** devuelve una matriz de etiquetas de propiedad con el miembro **cValues** establecido en 0. 
+El **método IMAPIProp::GetPropList** recupera la etiqueta de propiedad de cada propiedad admitida actualmente por un objeto. Si el objeto no admite actualmente ninguna propiedad, **GetPropList** devuelve una matriz de etiquetas de propiedad con el miembro **cValues** establecido en 0. 
   
-El ámbito de las propiedades devueltas por **GetPropList** varía de un proveedor a un proveedor. Algunos proveedores de servicios excluyen las propiedades para las que el autor de la llamada no tiene acceso. Todos los proveedores devuelven propiedades de tipo **PT Object**.
+El ámbito de las propiedades devueltas **por GetPropList** varía de un proveedor a otro. Algunos proveedores de servicios excluyen aquellas propiedades para las que el autor de la llamada no tiene acceso. Todos los proveedores devuelven propiedades de **tipo PT_OBJECT**.
   
 Si el objeto no admite Unicode, **GetPropList** devuelve MAPI_E_BAD_CHARWIDTH, incluso si no hay ninguna propiedad de cadena definida para el objeto. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Los proveedores de transporte remoto implementan **GetPropList** exactamente como se especifica aquí. No hay ninguna preocupación especial. Por supuesto, la implementación debe devolver la misma lista de propiedades que admita el método [IMAPIProp:: GetProps](imapiprop-getprops.md) . 
+Los proveedores de transporte remoto **implementan GetPropList** exactamente como se especifica aquí. No hay ningún problema especial. Por supuesto, la implementación debe devolver la misma lista de propiedades que admite el método [IMAPIProp::GetProps.](imapiprop-getprops.md) 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame a la función [MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de etiquetas de propiedad a la que apunta _lppPropTagArray_. 
+Llame a [la función MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de etiquetas de propiedad a la que  _apunta lppPropTagArray_. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -80,9 +80,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFunctions. cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa el método **IMAPIProp:: GetPropList** para obtener una lista de propiedades para pasar a **GetProps**.  <br/> |
+|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa el **método IMAPIProp::GetPropList** para obtener una lista de propiedades para pasar a **GetProps**.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

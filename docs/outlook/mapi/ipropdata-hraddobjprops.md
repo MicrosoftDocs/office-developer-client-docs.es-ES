@@ -25,7 +25,7 @@ ms.locfileid: "33416387"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Agrega una o más propiedades de tipo PT Object al objeto.
+Agrega una o varias propiedades de tipo PT_OBJECT al objeto.
   
 ```cpp
 HRESULT HrAddObjProps(
@@ -34,15 +34,15 @@ HRESULT HrAddObjProps(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpPropTagArray_
   
-> a Un puntero a una matriz de etiquetas de propiedad que indica las propiedades que se van a agregar.
+> [entrada] Puntero a una matriz de etiquetas de propiedad que indican las propiedades que se agregarán.
     
  _lppProblems_
   
-> [in, out] En la entrada, un puntero válido a una estructura [SPropProblemArray](spropproblemarray.md) o null. En la salida, un puntero a un puntero a una estructura que contiene información sobre las propiedades que no se han podido agregar o NULL. Un puntero a una propiedad se devuelve una estructura de matriz con problemas sólo si se pasa un puntero válido. 
+> [entrada, salida] En la entrada, un puntero válido a una [estructura SPropProblemArray](spropproblemarray.md) o NULL. En el resultado, un puntero a un puntero a una estructura que contiene información acerca de las propiedades que no se pudieron agregar o NULL. Solo se devuelve un puntero a una estructura de matriz de problemas de propiedad si se pasa un puntero válido. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,11 +52,11 @@ S_OK
     
 MAPI_E_INVALID_TYPE 
   
-> Se pasó un tipo de propiedad que no es PT Object en la matriz a la que apunta el parámetro _lpPropTagArray_ . 
+> Se pasó un tipo de propiedad distinto PT_OBJECT en la matriz a la que apunta el parámetro _lpPropTagArray._ 
     
 MAPI_E_NO_ACCESS 
   
-> El objeto se ha establecido para no permitir el permiso de lectura y escritura.
+> El objeto se ha establecido para no permitir permisos de lectura y escritura.
     
 MAPI_W_PARTIAL_COMPLETION 
   
@@ -64,15 +64,15 @@ MAPI_W_PARTIAL_COMPLETION
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IPropData:: HrAddObjProps** agrega una o más propiedades de tipo PT Object al objeto. **HrAddObjProps** proporciona una alternativa al método [IMAPIProp:: SetProps](imapiprop-setprops.md) para propiedades de objeto, porque las propiedades de objeto no se pueden crear llamando a **SetProps**. Agregar una propiedad de objeto da como resultado la etiqueta Property que se va a incluir en la lista de etiquetas de propiedad que devuelve el método [IMAPIProp:: GetPropList](imapiprop-getproplist.md) . 
+El **método IPropData::HrAddObjProps** agrega una o más propiedades de tipo PT_OBJECT al objeto. **HrAddObjProps proporciona** una alternativa al método [IMAPIProp::SetProps](imapiprop-setprops.md) para las propiedades de objeto, ya que las propiedades de objeto no se pueden crear llamando **a SetProps**. Agregar una propiedad de objeto da como resultado que la etiqueta de propiedad se incluya en la lista de etiquetas de propiedad que devuelve el método [IMAPIProp::GetPropList](imapiprop-getproplist.md) . 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si **HrAddObjProps** devuelve MAPI_W_PARTIAL_COMPLETION y ha establecido _lppProblems_ en un puntero válido, Compruebe la estructura de [SPropProblemArray](spropproblemarray.md) devuelta para averiguar qué propiedades no se han agregado. Normalmente, el único problema que se produce es la falta de memoria. Libere la estructura **SPropProblemArray** llamando a la función [MAPIFreeBuffer](mapifreebuffer.md) cuando haya terminado con ella. 
+Si **HrAddObjProps** devuelve MAPI_W_PARTIAL_COMPLETION y ha establecido  _lppProblems_ en un puntero válido, compruebe la estructura [SPropProblemArray](spropproblemarray.md) devuelta para averiguar qué propiedades no se agregaron. Normalmente, el único problema que se produce es la falta de memoria. Libera la **estructura SPropProblemArray** llamando a la [función MAPIFreeBuffer](mapifreebuffer.md) cuando termines con ella. 
   
-Para agregar una propiedad, el objeto de destino debe tener permiso de lectura y escritura. Si **HrAddObjProps** devuelve MAPI_E_NO_ACCESS, no se pueden agregar propiedades al objeto porque no permite modificación. Para obtener permiso de lectura y escritura en un objeto antes de llamar a **HrAddObjProps**, llame a [IPropData:: HrSetObjAccess](ipropdata-hrsetobjaccess.md) y establezca el parámetro _ulAccess_ en IPROP_READWRITE. 
+Para agregar una propiedad, el objeto de destino debe tener permiso de lectura y escritura. Si **HrAddObjProps** devuelve MAPI_E_NO_ACCESS, no puede agregar propiedades al objeto porque no permite la modificación. Para obtener permiso de lectura y escritura en un objeto antes de llamar a **HrAddObjProps**, llame a [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) y establezca el parámetro  _ulAccess_ en IPROP_READWRITE. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

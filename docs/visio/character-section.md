@@ -22,8 +22,8 @@ Muestra los atributos de formato del texto de una forma, como la fuente, color, 
   
 ## <a name="remarks"></a>Comentarios
 
-Cada estilo de carácter de una forma tiene una fila correspondiente en la sección de **caracteres** como se ve en la ventana ShapeSheet. El nombre de la fila representa el número de caracteres al que se aplica el estilo de carácter. 
+Cada estilo de carácter de una forma tiene una fila correspondiente en **la** sección de caracteres como se ve en la ventana ShapeSheet. El nombre de la fila representa el número de caracteres al que se aplica el estilo de carácter. 
   
-Puede establecer los formatos de texto en el cuadro de diálogo **texto** (haga clic en el iniciador del cuadro de diálogo en el grupo **fuente** en la ficha **Inicio** ), aplicando un estilo de texto o haciendo una entrada en la celda de la sección de **caracteres** . 
+Puede establecer formatos  de texto en el cuadro de diálogo Texto  (haga clic en el iniciador del cuadro  de diálogo en el grupo Fuente de la ficha Inicio), aplicando un estilo de texto o realizando una entrada en una celda de sección de caracteres.  
   
 

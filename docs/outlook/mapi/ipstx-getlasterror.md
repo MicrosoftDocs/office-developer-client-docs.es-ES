@@ -35,11 +35,11 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _Valores_
+ _hResult_
   
->  a Código de error. 
+>  [entrada] Código de error. 
     
  _ulFlags_
   
@@ -47,9 +47,9 @@ HRESULT GetLastError(
     
  _lppMAPIError_
   
->  contempla Puntero a la estructura **MAPIERROR** que contiene la información extendida del error. Consulte mapidefs. h para obtener la definición de tipo de **LPMAPIERROR**. 
+>  [salida] Puntero a la **estructura MAPIERROR** que contiene la información extendida del error. Vea mapidefs.h para obtener la definición de tipo **de LPMAPIERROR**. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

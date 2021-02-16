@@ -1,5 +1,5 @@
 ---
-title: Implementación de seguridad
+title: Implementación de la seguridad
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417290"
 ---
-# <a name="implementing-security"></a>Implementación de seguridad
+# <a name="implementing-security"></a>Implementación de la seguridad
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Si el sistema de mensajería lo requiere, el proveedor de transporte es responsable de implementar un nivel adecuado de seguridad para el acceso al sistema de mensajería. Todos los mensajes entrantes o salientes que se envían a través de un proveedor de transporte por la cola MAPI se controlan en el contexto de una sesión de inicio de sesión del proveedor. El proveedor de transporte puede mostrar un cuadro de diálogo de inicio de sesión al usuario que solicita las credenciales de un usuario antes de establecer dicha conexión. Como alternativa, el proveedor de transporte puede almacenar las credenciales especificadas previamente del usuario en el intervalo de propiedades seguras dentro de una sección de perfil y usarlas para Access sin pedir confirmación.
+Si el sistema de mensajería lo requiere, el proveedor de transporte es responsable de implementar un nivel de seguridad adecuado para el acceso al sistema de mensajería. Cada mensaje entrante o saliente enviado a través de un proveedor de transporte por la cola MAPI se controla en el contexto de una sesión de inicio de sesión del proveedor. El proveedor de transporte puede mostrar un cuadro de diálogo de inicio de sesión al usuario que solicita las credenciales de un usuario antes de establecer dicha conexión. Como alternativa, el proveedor de transporte puede almacenar las credenciales especificadas anteriormente por el usuario en el rango de propiedades seguras dentro de una sección de perfil y usarlas para obtener acceso sin preguntar.
   
 Al implementar la seguridad del proveedor de transporte, tenga en cuenta lo siguiente:
   
-- Con varios proveedores de servicios instalados, puede haber una multitud de nombres y contraseñas asociados con un usuario.
+- Con varios proveedores de servicios instalados, puede haber una gran variedad de nombres y contraseñas asociados con un usuario.
     
-- MAPI permite varias sesiones con varias identidades. Se recomienda a los proveedores que admitan varias sesiones pero no son necesarias para ello.
+- MAPI permite varias sesiones con varias identidades. Se recomienda a los proveedores que admitan varias sesiones, pero no es necesario que lo hagan.
     
-- Cada sesión con un proveedor de transporte está asociada por MAPI con una sección discreta en el perfil del usuario. El proveedor de transporte puede usar el método [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) para obtener acceso a esta sección, que se puede usar para almacenar cualquier información asociada a esta sesión, incluidas las credenciales. 
+- Mapi asocia cada sesión con un proveedor de transporte con una sección discreta en el perfil del usuario. El proveedor de transporte puede usar el método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) para obtener acceso a esta sección, que se puede usar para almacenar cualquier información asociada a esta sesión, incluidas las credenciales. 
     
-- Con varios proveedores de transporte instalados, no es necesariamente cierto que el usuario solo tiene una dirección de correo electrónico única. Un usuario puede tener una dirección de correo electrónico independiente para cada proveedor de transporte instalado o puede tener una dirección diferente para cada sesión en un único proveedor.
+- Con varios proveedores de transporte instalados, no es necesariamente cierto que el usuario solo tenga una única dirección de correo electrónico. Un usuario puede tener una dirección de correo electrónico independiente para cada proveedor de transporte instalado o puede tener una dirección diferente para cada sesión en un único proveedor.
     
-Para obtener más información sobre el almacenamiento de credenciales en secciones de perfil, vea [servicios y perfiles de mensajes](message-services-and-profiles.md) y [IProfSect: IMAPIProp](iprofsectimapiprop.md).
+Para obtener más información acerca del almacenamiento de credenciales en las secciones de perfil, vea [Servicios](message-services-and-profiles.md) y perfiles de mensajes e [IProfSect : IMAPIProp](iprofsectimapiprop.md).
   
 

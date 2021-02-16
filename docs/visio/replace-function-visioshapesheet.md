@@ -22,20 +22,20 @@ Reemplaza parte de una cadena de texto por otra cadena, de acuerdo con el númer
   
 ## <a name="syntax"></a>Sintaxis
 
-RePLACE (* * *texto_original* * *, * * *núm_inicial* * *, * * *Núm_de_caracteres* * *, * * *texto_nuevo* * *) 
+REPLACE (** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _texto_original_ <br/> |Obligatorio  <br/> |**String** <br/> |El texto en el que desea reemplazar algunos caracteres.  <br/> |
-| _Núm_inicial_ <br/> |Obligatorio  <br/> |**Number** <br/> |Posición del carácter en _texto_original_ que se desea reemplazar por _texto_nuevo_. El primer carácter de la cadena ocupa la posición 1.  <br/> |
-| _Núm_de_caracteres_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número de caracteres en _texto_original_ que desea reemplazar.  <br/> |
-| _argumento_ <br/> |Obligatorio  <br/> |**String** <br/> |Texto que va a reemplazar los caracteres de _texto_original_.  <br/> |
+| _old_text_ <br/> |Obligatorio  <br/> |**String** <br/> |El texto en el que desea reemplazar algunos caracteres.  <br/> |
+| _start_num_ <br/> |Obligatorio  <br/> |**Number** <br/> |La posición del carácter en  _old_text_ que desea reemplazar por  _new_text_. El primer carácter de la cadena ocupa la posición 1.  <br/> |
+| _num_chars_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número de caracteres  _old_text_ caracteres que desea reemplazar  <br/> |
+| _new_text_ <br/> |Obligatorio  <br/> |**String** <br/> |Texto que reemplazará los caracteres de  _old_text_.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 

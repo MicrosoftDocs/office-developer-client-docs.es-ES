@@ -24,13 +24,13 @@ Especifica el formato de un elemento de datos de formas que puede ser una cadena
 
 |**Tipo de elemento de datos de formas**|**Valor**|**Contenido de la celda Format**|
 |:-----|:-----|:-----|
-| Cadena  <br/> | comprendi  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
-| Lista fija  <br/> | 1  <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
-| Número  <br/> | segundo  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| String  <br/> | 0  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Lista fija  <br/> | 1   <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
+| Número  <br/> | 2   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
 | Lista variable  <br/> | 4   <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
 | Fecha u hora  <br/> | 5   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
-| Duracion  <br/> | 6   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
-| Moneda  <br/> | 7   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Duración  <br/> | 6   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Divisa  <br/> | 7   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
    
 Como ejemplo para especificar una imagen de formato adecuado para el tipo de datos, la imagen de formato "# #/4 UU" muestra el número 12,43 pulgadas como 12 2/4 PULGADAS. Para obtener más información sobre cómo especificar una imagen de formato, vea [Imágenes de formato](about-format-pictures.md).
   
@@ -44,14 +44,14 @@ Para obtener una referencia a la celda Format por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Polyprop.  *nombre* . Format donde prop.  *Name* es el nombre de la fila  <br/> |
+| Nombre de celda:  <br/> | Prop.  *nombre*  . Formato donde Prop.  *nombre*  es el nombre de fila  <br/> |
    
 Para obtener una referencia a la celda Format por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionProp** <br/> |
-| Índice de fila:  <br/> |**visRowProp** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowProp**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visCustPropsFormat** <br/> |
    
 

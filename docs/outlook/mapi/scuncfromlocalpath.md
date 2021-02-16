@@ -25,11 +25,11 @@ ms.locfileid: "33414539"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca una ruta de acceso de Convención de nomenclatura universal (UNC) equivalente a la ruta de acceso local especificada.
+Busca un equivalente de ruta de acceso de convención de nomenclatura universal (UNC) a la ruta de acceso local especificada.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -41,29 +41,29 @@ SCODE ScUNCFromLocalPath(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _szLocal_
   
-> a Una ruta de acceso con el formato [ _unidad:_]\[ _ruta de acceso_] de un archivo o directorio.
+> [entrada] Una ruta de acceso en el formato [ _unidad:_] \[ _ruta_ de acceso] de un archivo o directorio.
     
  _szUNC_
   
-> contempla Una ruta de acceso con \\el formato [ _servidor_]\[ _share_]\[ _path_] del mismo archivo o directorio que para el parámetro _szLocal_ . 
+> [salida] Una ruta de acceso con el formato [ servidor ] compartir ] ruta de acceso] del mismo archivo \\ o directorio que para el parámetro  \[  \[  _szLocal._ 
     
  _cchUNC_
   
-> a Tamaño del búfer para la cadena de salida.
+> [entrada] Tamaño del búfer de la cadena de salida.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> La ruta de acceso UNC se encontró correctamente.
+> El equivalente de ruta de acceso UNC se ha localizado correctamente.
     
 MAPI_E_INVALID_PARAMETER
   
-> Uno o más parámetros no son válidos.
+> Uno o varios parámetros no son válidos.
     
 MAPI_E_TOO_BIG
   
@@ -73,7 +73,7 @@ S_FALSE
   
 > La ruta de acceso local ya era una cadena UNC.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

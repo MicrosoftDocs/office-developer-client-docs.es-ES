@@ -26,14 +26,14 @@ Para obtener una referencia a la celda Description por su nombre desde otra fór
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | SmartTags.  *nombre* . Descripción donde SmartTags. *nombre* es el nombre de la fila de la etiqueta de acción.  <br/> |
+| Nombre de celda:  <br/> | SmartTags.  *nombre*  . Descripción donde SmartTags. *es*  el nombre de la fila de etiqueta de acción  <br/> |
    
 Para obtener una referencia a la celda Description por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionSmartTag** <br/> |
-| Índice de fila:  <br/> |**visRowSmartTag** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowSmartTag**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visSmartTagDescription** <br/> |
    
 
