@@ -35,19 +35,19 @@ HRESULT HrQueryRow(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpSPropValue_
   
-> a Un puntero a una estructura de valores de propiedad que describe la columna de índice de la fila que se va a recuperar. El miembro **ulPropTag** de la estructura del valor de la propiedad debe contener la misma etiqueta de propiedad que el parámetro _ulPropTagIndexColumn_ de la llamada a la función [createTable](createtable.md) , que obtiene acceso a la implementación de [ITableData](itabledataiunknown.md) . 
+> [entrada] Puntero a una estructura de valores de propiedad que describe la columna de índice de la fila que se va a recuperar. El **miembro ulPropTag** de la estructura de valores de propiedad debe contener la misma etiqueta de propiedad que el parámetro _ulPropTagIndexColumn_ de la llamada a la función [CreateTable,](createtable.md) que tiene acceso a la implementación [de ITableData.](itabledataiunknown.md) 
     
  _lppSRow_
   
-> contempla Un puntero a un puntero a la fila recuperada. 
+> [salida] Puntero a un puntero a la fila recuperada. 
     
  _lpuliRow_
   
-> [in, out] En la entrada, un puntero válido o NULL, que indica que no es necesario devolver información. En la salida, un puntero válido que señala al número de fila de la fila, un número secuencial que identifica la posición de la fila en la tabla.
+> [entrada, salida] En la entrada, un puntero válido o NULL, que indica que no es necesario devolver información. En el resultado, un puntero válido que apunta al número de fila de la fila, un número secuencial que identifica la posición de la fila en la tabla.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,15 +57,15 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER 
   
-> La estructura [SPropValue](spropvalue.md) a la que apunta _lpSPropValue_ no contiene la propiedad columna de índice. 
+> La [estructura SPropValue](spropvalue.md) a la que  _apunta lpSPropValue_ no contiene la propiedad de columna de índice. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **ITableData:: HrQueryRow** recupera todas las propiedades de la fila que tiene una columna de índice que coincide con el valor de la columna de índice incluida en la estructura de propiedad a la que apunta _lpSPropValue_. **HrQueryRow** también devuelve el número de fila, si el autor de la llamada lo solicita, que identifica la posición de la fila en la tabla. 
+El **método ITableData::HrQueryRow** recupera todas las propiedades de la fila que tiene una columna de índice que coincide con el valor de la columna de índice incluida en la estructura de propiedades a la que apunta  _lpSPropValue_. **HrQueryRow** también devuelve el número de fila, si el autor de la llamada lo solicita, que identifica la posición de la fila en la tabla. 
   
-Dado que **HrQueryRow** no modifica la estructura **SPropValue** a la que apunta _lpSPropValue_, los llamadores deben liberar la estructura cuando **HrQueryRow** devuelva. Los autores de las llamadas también deben liberar la estructura **SRow** que contiene la fila recuperada. 
+Debido **a que HrQueryRow** no modifica la estructura **SPropValue** a la que apunta  _lpSPropValue_, los autores de llamadas deben liberar la estructura cuando **HrQueryRow** devuelve. Los autores de llamadas también deben liberar la **estructura SRow** que contiene la fila recuperada. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

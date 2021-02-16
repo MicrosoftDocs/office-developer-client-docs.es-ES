@@ -36,21 +36,21 @@ Contiene un valor que el remitente del mensaje puede usar para hacer coincidir u
    
 ## <a name="remarks"></a>Comentarios
 
-El contenido de la cadena binaria se define por el autor del mensaje. Si se establece en un mensaje saliente, esta propiedad debe copiarse en cualquier informe generado en respuesta al mensaje.
+El contenido de la cadena binaria lo define el autor del mensaje. Si se establece en un mensaje saliente, esta propiedad debe copiarse en los informes generados en respuesta al mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

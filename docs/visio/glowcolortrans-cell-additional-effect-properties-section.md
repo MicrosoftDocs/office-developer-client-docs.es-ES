@@ -1,12 +1,12 @@
 ---
-title: Celda GlowColorTrans (sección Propiedades del efecto adicional)
+title: Celda GlowColorTrans (Sección de propiedades de efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d6cf67cb-f9e6-43a5-918a-f9151821ab4d
-description: Determina el nivel de transparencia del color utilizado para el trazo del resplandor de la forma, en forma de porcentaje.
+description: Determina el nivel de transparencia del color utilizado para el trazo del iluminado de la forma, como un porcentaje.
 ms.openlocfilehash: 81b734de6212540e0f50df05aca11dc535fc49ab
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439754"
 ---
-# <a name="glowcolortrans-cell-additional-effect-properties-section"></a>Celda GlowColorTrans (sección Propiedades del efecto adicional)
+# <a name="glowcolortrans-cell-additional-effect-properties-section"></a>Celda GlowColorTrans (Sección de propiedades de efecto adicional)
 
-Determina el nivel de transparencia del color utilizado para el trazo del resplandor de la forma, en forma de porcentaje. 
+Determina el nivel de transparencia del color utilizado para el trazo del iluminado de la forma, como un porcentaje. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **GlowColorTrans** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **GlowColorTrans** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | GlowColorTrans  <br/> |
    
-Para obtener una referencia desde un programa a la celda **GlowColorTrans** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a **la celda GlowColorTrans** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

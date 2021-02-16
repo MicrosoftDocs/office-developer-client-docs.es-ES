@@ -29,7 +29,7 @@ Describe una restricción de tamaño que se usa para probar el tamaño de un val
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SSizeRestriction
@@ -41,15 +41,15 @@ typedef struct _SSizeRestriction
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
- **relop**
+ **reeste**
   
-> Operador relacional que se usa en la comparación de tamaños. Los valores posibles son los siguientes: 
+> Operador relacional que se usa en la comparación de tamaño. Los valores posibles son los siguientes: 
     
 RELOP_GE 
   
-> La comparación se realiza en función de un valor mayor o igual al primero.
+> La comparación se realiza en función de un primer valor mayor o igual.
     
 RELOP_GT 
   
@@ -57,15 +57,15 @@ RELOP_GT
     
 RELOP_LE 
   
-> La comparación se realiza en función de un valor menor o igual al primero.
+> La comparación se realiza en función de un primer valor menor o igual.
     
 RELOP_LT 
   
-> La comparación se realiza en función de un valor primero menor.
+> La comparación se realiza en función de un primer valor menor.
     
 RELOP_NE 
   
-> La comparación se realiza en función de valores desiguales.
+> La comparación se realiza en función de valores no iguales.
     
 RELOP_RE 
   
@@ -73,11 +73,11 @@ RELOP_RE
     
 RELOP_EQ 
   
-> La comparación se realiza en función de los valores iguales.
+> La comparación se realiza en función de valores iguales.
     
  **ulPropTag**
   
-> Etiqueta de propiedad que identifica la propiedad que se va a probar.
+> Etiqueta de propiedad que identifica la propiedad que se debe probar.
     
  **cb**
   
@@ -85,9 +85,9 @@ RELOP_EQ
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una descripción general del funcionamiento de las restricciones, consulte [About Restrictions](about-restrictions.md). 
+Para obtener una explicación general de cómo funcionan las [restricciones,](about-restrictions.md)vea Acerca de las restricciones . 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

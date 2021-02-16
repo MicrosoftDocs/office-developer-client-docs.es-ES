@@ -1,5 +1,5 @@
 ---
-title: IUnknown IPSTX
+title: IPSTX IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,31 +25,31 @@ ms.locfileid: "33436226"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a través de la interfaz **[IOSTX](iostxiunknown.md)** . 
+Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a través de la **[interfaz IOSTX.](iostxiunknown.md)** 
   
 |||
 |:-----|:-----|
 |Proporcionado por  <br/> |Consulta en [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Identificador de interfaz:  <br/> |IID_IPSTX  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|**[Volvió](ipstx-getlasterror.md)** <br/> |Obtiene información extendida sobre el último error.  <br/> |
+|**[GetLastError](ipstx-getlasterror.md)** <br/> |Obtiene información ampliada sobre el último error.  <br/> |
 |**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Obtiene la interfaz **[IOSTX](iostxiunknown.md)** asociada.  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
-|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Establece un almacén local para emular el administrador de protocolos de Outlook para poner en cola los mensajes salientes a un servidor.  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
-| *Marcador de posición de miembro*  <br/> | *No es compatible o documentado.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
+|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Establece un almacén local para emular el Administrador de protocolo de Outlook para colar mensajes salientes en un servidor.  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
+| *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

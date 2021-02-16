@@ -1,5 +1,5 @@
 ---
-title: Función exp (aplicación web personalizada de Access)
+title: Función Exp (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436415"
 ---
-# <a name="exp-function-access-custom-web-app"></a>Función exp (aplicación web personalizada de Access)
+# <a name="exp-function-access-custom-web-app"></a>Función Exp (aplicación web personalizada de Access)
 
 Devuelve el valor exponencial de la expresión especificada.
   
@@ -25,7 +25,7 @@ Devuelve el valor exponencial de la expresión especificada.
 
  **Exp** (*NumericExpression*) 
   
-La función **exp** contiene el siguiente argumento. 
+La **función Exp** contiene el argumento siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
@@ -35,8 +35,8 @@ La función **exp** contiene el siguiente argumento.
 
 La constante **e** (2,718281...), es la base de los logaritmos naturales. 
   
-El exponente de un número es la constante **e** elevado a la potencia del número. Por ejemplo, **exp** (1,0) = e ^ 1.0 = 2.71828182845905 and **exp** (10) = e ^ 10 = 22026.4657948067. 
+El exponente de un número es la **constante e** elevado a la potencia del número. Por **ejemplo, Exp** (1.0) = e^1.0 = 2.71828182845905 y **Exp** (10) = e^10 = 22026.4657948067. 
   
-La función exponencial del logaritmo natural de un número es el propio número: **exp** (log (n)) = n. Y el logaritmo natural de la función exponencial de un número es el propio número: LOG (**exp** (n)) = n. 
+El exponencial del logaritmo natural de un número es el número en sí: **Exp** (LOG (n)) = n. Y el logaritmo natural del exponencial de un número es el número en sí: LOG (**Exp** (n)) = n. 
   
 

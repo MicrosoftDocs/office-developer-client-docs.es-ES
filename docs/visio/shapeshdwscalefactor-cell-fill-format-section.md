@@ -22,7 +22,7 @@ Especifica el porcentaje en que se puede aumentar o reducir la sombra de una for
   
 ## <a name="remarks"></a>Comentarios
 
-Cada sombra tiene una ubicación de eje sombreada, que es un punto en la sombra que corresponde al eje de la forma. Por ejemplo, si el eje de una forma se encuentra en el centro de ésta, la ubicación de eje sombreada sería el punto que se encuentra en el centro de la sombra. Cuando se aplica la escala a sombras sencillas, la ampliación se centra en la ubicación del PIN sombreado; al aplicar la escala a sombras oblicuas, la ampliación se aplica en la dirección oblicuo. 
+Cada sombra tiene una ubicación de eje sombreada, que es un punto en la sombra que corresponde al eje de la forma. Por ejemplo, si el eje de una forma se encuentra en el centro de ésta, la ubicación de eje sombreada sería el punto que se encuentra en el centro de la sombra. Al aplicar la escala a sombras simples, la ampliación se centra en la ubicación de la patilla sombreada; al aplicar escala a sombras oblicuas, la ampliación se aplica en dirección oblicua. 
   
 Para establecer este valor para todas las formas de una página, utilice la celda ShdwScaleFactor de la sección de propiedades de página.
   

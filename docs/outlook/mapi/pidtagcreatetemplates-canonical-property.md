@@ -25,34 +25,34 @@ ms.locfileid: "33438186"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un objeto Table incrustado que contiene identificadores de entrada de plantilla de cuadro de diálogo. 
+Contiene un objeto de tabla incrustado que contiene identificadores de entrada de plantilla de cuadro de diálogo. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_CREATE_TEMPLATES  <br/> |
 |Identificador:  <br/> |0x3604  <br/> |
-|Tipo de datos:  <br/> |PT OBJECT  <br/> |
+|Tipo de datos:  <br/> |PT_OBJECT  <br/> |
 |Área:  <br/> |Libreta de direcciones  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener información sobre los objetos template que pueden crearse dentro de un contenedor, llame al método [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) en esta propiedad. El objeto resultante es la tabla única que proporciona los identificadores de entrada para todas las plantillas que se pueden crear dentro del contenedor. 
+Para obtener información sobre qué objetos de plantilla se pueden crear dentro de un contenedor, llame al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en esta propiedad. El objeto resultante es la tabla de uso único que proporciona los identificadores de entrada de todas las plantillas que puede crear dentro del contenedor. 
   
-Para crear los objetos de plantilla, llame al método **CreateEntry** del objeto contenedor en **** los valores de columna de "[PidTagEntryId](pidtagentryid-canonical-property.md)" de la tabla de uso único.
+Para crear los objetos de plantilla, llame al método **CreateEntry** del objeto contenedor en los valores de columna **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la tabla de un solo elemento.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -63,7 +63,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

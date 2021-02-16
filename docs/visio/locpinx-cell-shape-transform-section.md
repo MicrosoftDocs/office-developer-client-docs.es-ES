@@ -18,7 +18,7 @@ ms.locfileid: "33439243"
 ---
 # <a name="locpinx-cell-shape-transform-section"></a>Celda LocPinX (Sección de transformación de forma)
 
-Representa la coordenada *x* del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es: 
+Representa la coordenada  *x*  del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es: 
   
 = Ancho \* 0,5
   

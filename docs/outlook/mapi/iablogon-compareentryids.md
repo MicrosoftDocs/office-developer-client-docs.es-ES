@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID1_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID1_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID1._ 
     
  _lpEntryID1_
   
-> a Puntero al primer identificador de entrada que se va a comparar.
+> [entrada] Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID2_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID2._ 
     
  _lpEntryID2_
   
-> a Puntero al segundo identificador de entrada que se va a comparar.
+> [entrada] Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,27 +62,27 @@ HRESULT CompareEntryIDs(
     
  _lpulRet_
   
-> contempla Un puntero al resultado de la comparación. TRUE para indicar que los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
+> [salida] Puntero al resultado de la comparación. TRUE para indicar que los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Los identificadores de entrada se comparó correctamente.
+> Los identificadores de entrada se compararon correctamente.
     
 MAPI_E_INVALID_ENTRYID 
   
-> Uno o ambos de los identificadores de entrada no pertenecen al proveedor de la libreta de direcciones.
+> Uno o ambos identificadores de entrada no pertenecen al proveedor de libreta de direcciones.
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de la libreta de direcciones implementan el método **CompareEntryIDs** para comparar dos identificadores de entrada para determinar si hacen referencia al mismo objeto. 
+Los proveedores de libretas de direcciones implementan el método **CompareEntryIDs** para comparar dos identificadores de entrada para determinar si hacen referencia al mismo objeto. 
   
- **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido; una situación de este tipo puede ocurrir, por ejemplo, cuando se compara un identificador de entrada a corto plazo con un identificador de entrada a largo plazo. 
+ **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido; esta situación puede ocurrir, por ejemplo, cuando se compara un identificador de entrada a corto plazo con un identificador de entrada a largo plazo. 
   
-Para obtener más información acerca de cómo crear identificadores de entrada, consulte identificadores de [entrada MAPI](mapi-entry-identifiers.md).
+Para obtener más información acerca de cómo crear identificadores de entrada, vea [Identificadores de entrada MAPI](mapi-entry-identifiers.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

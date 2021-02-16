@@ -21,10 +21,10 @@ ms.locfileid: "33437220"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Todas las propiedades MAPI se representan mediante etiquetas de propiedad. Una etiqueta de propiedad es un valor entero sin signo de 32 bits que contiene el identificador de la propiedad en los 16 bits de orden superior y el tipo de la propiedad en los 16 bits de orden bajo. Las etiquetas de propiedad de todas las propiedades definidas por MAPI se incluyen en el archivo de encabezado mapitags. h.
+Todas las propiedades MAPI se representan mediante etiquetas de propiedad. Una etiqueta de propiedad es un valor entero sin signo de 32 bits que contiene el identificador de la propiedad en el orden alto 16 bits y el tipo de la propiedad en el orden bajo 16 bits. Las etiquetas de propiedad de todas las propiedades definidas por MAPI se incluyen en el archivo de encabezado mapitags.h.
   
-Los identificadores de propiedad se usan para indicar para qué se usa una propiedad y quién es responsable de la misma. Los identificadores de propiedad se dividen en rangos mediante MAPI; donde un identificador cae en el intervalo indica su uso y propiedad. 
+Los identificadores de propiedad se usan para indicar para qué se usa una propiedad y quién es responsable de ella. Los identificadores de propiedad se dividen por MAPI en intervalos; donde un identificador se encuentra en el intervalo indica su uso y propiedad. 
   
-Los tipos de propiedad se usan para indicar el formato de los datos de la propiedad. MAPI define todos los tipos válidos. Los clientes y los proveedores de servicios que crean nuevas propiedades deben usar uno de estos tipos. Todos los tipos de propiedad se incluyen en el archivo de encabezado mapidefs. h.
+Los tipos de propiedad se usan para indicar el formato de los datos de la propiedad. MAPI define todos los tipos válidos. Los clientes y proveedores de servicios que crean nuevas propiedades deben usar uno de estos tipos. Todos los tipos de propiedad se incluyen en el archivo de encabezado mapidefs.h.
   
 

@@ -1,5 +1,5 @@
 ---
-title: Elementos de programación de MAPI
+title: Elementos de programación MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439320"
 ---
-# <a name="mapi-programming-elements"></a>Elementos de programación de MAPI
+# <a name="mapi-programming-elements"></a>Elementos de programación MAPI
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta sección contiene información general conceptual de los elementos de programación en la [referencia de MAPI](mapi-reference.md). 
+Esta sección contiene información general conceptual de los elementos de programación en la referencia [MAPI](mapi-reference.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Conceptos de MAPI](mapi-concepts.md)
 

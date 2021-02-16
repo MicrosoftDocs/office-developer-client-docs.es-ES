@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Font por su nombre desde otra fórmula, o
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Char. Font [ *i* ] donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Char.Font[  *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Font por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 
@@ -34,7 +34,7 @@ Para obtener una referencia desde un programa a la celda Font por su índice
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionCharacter** <br/> |
-| Índice de fila:  <br/> |**visRowCharacter** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowCharacter**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visCharacterFont** <br/> |
    
 

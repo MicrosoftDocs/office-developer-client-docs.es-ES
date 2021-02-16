@@ -25,36 +25,36 @@ ms.locfileid: "33436597"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a las numerosas propiedades asociadas a los usuarios de mensajería. Los objetos de usuario de mensajería implementan la interfaz **IMailUser** . **IMailUser** hereda de la interfaz [IMAPIProp: IUnknown](imapipropiunknown.md) y no tiene ningún método único propio. 
+Proporciona acceso a las muchas propiedades asociadas con los usuarios de mensajería. La **interfaz IMailUser** se implementa mediante objetos de usuario de mensajería. **IMailUser** hereda de la [interfaz IMAPIProp : IUnknown](imapipropiunknown.md) y no tiene métodos únicos propios. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuesto por:  <br/> |Objetos de usuario de mensajería  <br/> |
 |Implementado por:  <br/> |Proveedores de libretas de direcciones  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMailUser  <br/> |
 |Tipo de puntero:  <br/> |LPMAILUSER  <br/> |
-|Modelo de transacción:  <br/> |Negocian  <br/> |
+|Modelo de transacción:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 Esta interfaz no tiene ningún método único.
   
-|**Propiedades requeridas**|**Acceso**|
+|**Propiedades requeridas**|**Access**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
 |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Solo lectura  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Lectura y escritura  <br/> |
-|**** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cinco de las propiedades necesarias se conocen como las propiedades de la dirección base de los destinatarios:
+Cinco de las propiedades necesarias se conocen como propiedades de dirección base para los destinatarios:
   
 - **PR_ADDRTYPE**
     
@@ -66,11 +66,11 @@ Cinco de las propiedades necesarias se conocen como las propiedades de la direcc
     
 - **PR_SEARCH_KEY**
     
-Estas propiedades se consideran especiales porque muchos otros grupos de propiedades similares se crean a partir de este grupo base. Los otros grupos se usan para describir a un destinatario en varias funciones, como el original o el remitente delegado de un mensaje. Para obtener más información acerca de estas propiedades y cómo usarlas, consulte [tipos de direcciones MAPI](mapi-address-types.md).
+Estas propiedades se consideran especiales porque muchos otros grupos de propiedades similares se basan en este grupo base. Los demás grupos se usan para describir un destinatario en varios roles, como el remitente original o delegado de un mensaje. Para obtener más información acerca de estas propiedades y cómo usarlas, vea [Tipos de direcciones MAPI](mapi-address-types.md).
   
-Los usuarios de mensajería pueden mostrar una colección de sus propiedades admitiendo la propiedad **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** es una tabla de presentación que describe el diseño de un cuadro de diálogo de detalles o una página de propiedades con fichas que muestra información de propiedades de destinatarios. MAPI crea cuadros de diálogo de detalles cuando un cliente llama al método [IAddrBook::D etails](iaddrbook-details.md) . 
+Los usuarios de mensajería pueden mostrar una colección de sus propiedades si admiten **la PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** es una tabla para mostrar que describe el diseño de un cuadro de diálogo de detalles o una página de propiedades con fichas que muestra la información de la propiedad del destinatario. MAPI crea cuadros de diálogo de detalles cuando un cliente llama al [método IAddrBook::D etails.](iaddrbook-details.md) 
   
-Los objetos de usuario de mensajería pueden tener otras propiedades opcionales asociadas. MAPI define muchas propiedades que proporcionan información de dirección adicional acerca de un usuario de mensajería. Todas estas propiedades son cadenas de caracteres. La siguiente lista muestra las propiedades que se usan con más frecuencia:
+Los objetos de usuario de mensajería pueden tener otras propiedades opcionales asociadas. MAPI define muchas propiedades que proporcionan información de direccionamiento adicional sobre un usuario de mensajería. Todas estas propiedades son cadenas de caracteres. En la siguiente lista se muestran las propiedades más usadas:
   
 - **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) 
     
@@ -86,9 +86,9 @@ Los objetos de usuario de mensajería pueden tener otras propiedades opcionales 
     
 - **PR_POSTAL_ADDRESS** ([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) 
     
-Para obtener una lista completa de las propiedades, consulte [asignar nombres de propiedad canónicos a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md).
+Para obtener una lista completa de propiedades, vea [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

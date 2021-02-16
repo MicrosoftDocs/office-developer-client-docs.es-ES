@@ -1,5 +1,5 @@
 ---
-title: Sección MapiSvc. inf [servicios preDeterminados]
+title: Sección MapiSvc.inf [Servicios predeterminados]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435323"
 ---
-# <a name="mapisvcinf-default-services-section"></a>Sección MapiSvc. inf [servicios preDeterminados]
+# <a name="mapisvcinf-default-services-section"></a>Sección MapiSvc.inf [Servicios predeterminados]
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La sección **[default Services]** muestra todos los servicios de mensajes que están seleccionados como los servicios de mensajes predeterminados. Estos servicios de mensajes predeterminados son un subconjunto de los servicios de mensajes que se enumeran en la sección **[Services]** . Cuando un programa de configuración de perfiles crea un perfil predeterminado, los servicios de mensajes de esta sección se incluyen automáticamente. 
+La **sección [Servicios predeterminados]** enumera todos los servicios de mensajes seleccionados como servicios de mensajes predeterminados. Estos servicios de mensajes predeterminados son un subconjunto de los servicios de mensaje enumerados en la **sección [Servicios].** Cuando un programa de configuración de perfil crea un perfil predeterminado, los servicios de mensajes de esta sección se incluyen automáticamente. 
   
-Las entradas usan el mismo formato que las entradas de la sección **[Services]** , como se muestra a continuación: 
+Las entradas usan el mismo formato que las entradas de la sección **[Servicios],** como se muestra a continuación: 
   
- **[Servicios preDeterminados]**
+ **[Servicios predeterminados]**
   
- _nombre de sección de servicio de mensajes_ =  _nombre del servicio de mensajes_
+ _nombre de la sección de servicio de mensajes_  =   _nombre del servicio de mensajes_
   
-Las siguientes entradas se incluirán en la sección **[default Services]** del archivo MAPISVC. inf que se muestra en la ilustración anterior: 
+Las siguientes entradas se incluirían en la sección **[Servicios predeterminados]** para mapisvc.inf que se muestra en la ilustración anterior: 
   
 ```cpp
 [Default Services]

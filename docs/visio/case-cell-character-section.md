@@ -22,9 +22,9 @@ Determina el uso de mayúsculas y minúsculas en el texto de una forma. Las opci
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| comprendi  <br/> | Uso normal de mayúsculas y minúsculas  <br/> |**visCaseNormal** <br/> |
-| 1  <br/> | Todo en mayúsculas  <br/> |**visCaseAllCaps** <br/> |
-| segundo  <br/> | Sólo las letras iniciales en mayúsculas  <br/> |**visCaseInitialCaps** <br/> |
+| 0  <br/> | Uso normal de mayúsculas y minúsculas  <br/> |**visCaseNormal** <br/> |
+| 1   <br/> | Todo en mayúsculas  <br/> |**visCaseAllCaps** <br/> |
+| 2   <br/> | Sólo las letras iniciales en mayúsculas  <br/> |**visCaseInitialCaps** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -33,14 +33,14 @@ Para obtener una referencia a la celda Case por su nombre desde otra fórmula, o
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Char. Case [ *i* ] donde *i* = <1>, 2, 3,...  <br/> |
+| Nombre de celda:  <br/> | Char.Case[  *i*  ] donde  *i*  = <1>, 2, 3, ...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Case por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionCharacter** <br/> |
-| Índice de fila:  <br/> |**visRowCharacter** +  *i* donde *i* = 0, 1, 2,...  <br/> |
+| Índice de fila:  <br/> |**visRowCharacter**  +   *i* donde *i* = 0, 1, 2, ...  <br/> |
 | Índice de celda:  <br/> |**visCharacterCase** <br/> |
    
 

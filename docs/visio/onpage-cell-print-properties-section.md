@@ -22,22 +22,22 @@ Indica si el dibujo se imprime en un número concreto de páginas de la impresor
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |Ajustar la página de dibujo a un número definido de páginas de la impresora.  <br/> |
+|TRUE  <br/> |Ajuste la página de dibujo a un número definido de páginas de impresora.  <br/> |
 |FALSE  <br/> |No ajusta la página de dibujo a un número establecido de páginas de la impresora (predeterminado).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Si la celda OnPage se establece en TRUE, Microsoft Visio recurrirá a las celdas PagesX y PagesY para determinar el número de páginas de impresora en que encajar el dibujo. Se omiten los valores de las celdas ScaleX y ScaleY. Esto puede considerarse una opción de escala automática.
   
-Este valor corresponde a la **opción ajustar a** de la **ficha Configurar impresión** del cuadro de diálogo **Configurar página** (en la ficha **diseño** , haga clic en la flecha de **Configurar página** ). 
+Este valor corresponde  a la opción  Ajustar a de la ficha Configurar  impresión del cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en la flecha configurar **página).**  
   
-Para obtener una referencia a la celda OnPage por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda OnPage por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |OnPage  <br/> |
    
-Para obtener una referencia desde un programa a la celda OnPage por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda OnPage por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

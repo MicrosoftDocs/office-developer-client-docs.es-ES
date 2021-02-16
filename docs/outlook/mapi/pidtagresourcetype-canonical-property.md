@@ -32,7 +32,7 @@ Contiene un valor que indica el tipo de proveedor de servicios.
 |Propiedades asociadas:  <br/> |PR_RESOURCE_TYPE  <br/> |
 |Identificador:  <br/> |0x3E03  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Estado de MAPI  <br/> |
+|Área:  <br/> |Estado MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -44,11 +44,11 @@ MAPI_AB
     
 MAPI_AB_PROVIDER 
   
-> Proveedor de la libreta de direcciones
+> Proveedor de libreta de direcciones
     
 MAPI_HOOK_PROVIDER 
   
-> Proveedor de enlace de cola de impresión
+> Proveedor de enlaces de cola
     
 MAPI_PROFILE_PROVIDER 
   
@@ -56,7 +56,7 @@ MAPI_PROFILE_PROVIDER
     
 MAPI_SPOOLER 
   
-> Cola de mensajes de mensajes
+> Cola de mensajes
     
 MAPI_STORE_PROVIDER 
   
@@ -74,15 +74,15 @@ MAPI_TRANSPORT_PROVIDER
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -90,7 +90,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

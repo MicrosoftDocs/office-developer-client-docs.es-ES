@@ -29,7 +29,7 @@ Vuelve a crear un identificador de entrada a partir de su codificación ASCII.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -41,25 +41,25 @@ HRESULT HrEntryIDFromSz(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _SZ_
+ _sz_
   
-> a Puntero a la cadena ASCII a partir de la cual se va a crear un identificador de entrada. 
+> [entrada] Puntero a la cadena ASCII desde la que se va a crear un identificador de entrada. 
     
- _impreso_
+ _indeste_
   
-> contempla Puntero al tamaño, en bytes, del identificador de entrada al que apunta el parámetro _ppentry_ . 
+> [salida] Puntero al tamaño, en bytes, del identificador de entrada al que apunta el _parámetro ppentry._ 
     
  _ppentry_
   
-> contempla Puntero a un puntero a la estructura [EntryID](entryid.md) devuelta que contiene el nuevo identificador de entrada. 
+> [salida] Puntero a un puntero a la estructura [ENTRYID](entryid.md) devuelta que contiene el nuevo identificador de entrada. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> El recreo se realizó correctamente.
+> La recreación se ha realizado correctamente.
     
 MAPI_E_INVALID_ENTRYID
   
@@ -67,10 +67,10 @@ MAPI_E_INVALID_ENTRYID
     
 ## <a name="remarks"></a>Comentarios
 
-Las funciones **HrEntryIDFromSz** y [HrSzFromEntryID](hrszfromentryid.md) proporcionan conversión entre los formatos binarios y de cadena de los identificadores de entrada. 
+Las **funciones HrEntryIDFromSz** y [HrSzFromEntryID](hrszfromentryid.md) proporcionan conversión entre la cadena y los formatos binarios de los identificadores de entrada. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La función **HrEntryIDFromSz** asigna memoria para la cadena ASCII mediante la función [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+La **función HrEntryIDFromSz** asigna memoria para la cadena ASCII mediante la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Abrir todas las ShapeSheet en la misma ventana
+title: Abrir cada ShapeSheet en la misma ventana
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,9 +16,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436639"
 ---
-# <a name="open-each-shapesheet-in-the-same-window"></a>Abrir todas las ShapeSheet en la misma ventana
+# <a name="open-each-shapesheet-in-the-same-window"></a>Abrir cada ShapeSheet en la misma ventana
 
-1. Haga clic en la pestaña **archivo** , en **Opciones**y, a continuación, en **avanzadas**.
+1. Haga clic en **la pestaña** Archivo, **en Opciones** y, a continuación, en **Opciones avanzadas.**
     
 2. En **General**, active la casilla **Abrir todas las ShapeSheet en la misma ventana**.
     

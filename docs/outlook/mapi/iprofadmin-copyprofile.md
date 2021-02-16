@@ -37,31 +37,31 @@ HRESULTCopyProfile(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpszOldProfileName_
   
-> a Un puntero al nombre del perfil que se va a copiar.
+> [entrada] Puntero al nombre del perfil que se copiará.
     
  _lpszOldPassword_
   
-> a Un puntero a la contraseña del perfil que se va a copiar.
+> [entrada] Puntero a la contraseña del perfil que se copiará.
     
  _lpszNewProfileName_
   
-> a Un puntero al nuevo nombre del perfil copiado.
+> [entrada] Puntero al nuevo nombre del perfil copiado.
     
  _ulUIParam_
   
-> a Identificador de la ventana primaria de los cuadros de diálogo o ventanas que muestra este método.
+> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla cómo se copia el perfil. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se copia el perfil. Se pueden establecer las siguientes marcas:
     
 MAPI_DIALOG 
   
-> Muestra un cuadro de diálogo que solicita al usuario la contraseña correcta del perfil que se va a copiar. Si no se establece esta marca, no se muestra ningún cuadro de diálogo.
+> Muestra un cuadro de diálogo que solicita al usuario la contraseña correcta del perfil que se debe copiar. Si no se establece esta marca, no se muestra ningún cuadro de diálogo.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -71,11 +71,11 @@ S_OK
     
 MAPI_E_ACCESS_DENIED 
   
-> El nombre del nuevo perfil es el mismo que el de un perfil existente.
+> El nuevo nombre de perfil es el mismo que el de un perfil existente.
     
 MAPI_E_LOGON_FAILED 
   
-> La contraseña del perfil para copiar no es correcta y no se pudo mostrar un cuadro de diálogo al usuario para solicitar la contraseña correcta porque MAPI_DIALOG no se estableció en el parámetro _ulFlags_ . 
+> La contraseña del perfil que se va a copiar es incorrecta y no se pudo mostrar un cuadro de diálogo al usuario para solicitar la contraseña correcta porque MAPI_DIALOG no se estableció en el parámetro _ulFlags._ 
     
 MAPI_E_NOT_FOUND 
   
@@ -83,23 +83,23 @@ MAPI_E_NOT_FOUND
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** en un cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProfAdmin:: CopyProfile** hace una copia del perfil apuntado por _lpszOldProfileName_, dándole el nombre que apunta a _lpszNewProfileName_. La copia de un perfil deja la copia con la misma contraseña que la original.
+El **método IProfAdmin::CopyProfile** hace una copia del perfil al que apunta  _lpszOldProfileName_, con el nombre que apunta  _lpszNewProfileName_. Copiar un perfil deja la copia con la misma contraseña que el original.
   
-El nombre del perfil original, su contraseña y la copia pueden tener hasta 64 caracteres de longitud y pueden incluir los siguientes caracteres:
+El nombre del perfil original, su contraseña y la copia pueden tener una longitud de hasta 64 caracteres y pueden incluir los siguientes caracteres:
   
-- Todos los caracteres alfanuméricos, incluidos los caracteres de énfasis y el carácter de subrayado.
+- Todos los caracteres alfanuméricos, incluidos los caracteres de énfrica y el carácter de subrayado.
     
-- Espacios insertados, pero no espacios iniciales ni finales.
+- Espacios incrustados, pero no espacios iniciales o finales.
     
-Las contraseñas de perfil no son compatibles con todos los sistemas operativos. En los sistemas operativos que no admiten contraseñas de perfil, _lpszOldPassword_ puede ser null o un puntero a una cadena de longitud cero. 
+Las contraseñas de perfil no se admiten en todos los sistemas operativos. En sistemas operativos que no admiten contraseñas de perfil,  _lpszOldPassword_ puede ser NULL o un puntero a una cadena de longitud cero. 
   
-Si _lpszOldPassword_ se establece en null, el perfil que se va a copiar requiere una contraseña y se establece la marca MAPI_DIALOG; se muestra un cuadro de diálogo que solicita al usuario que especifique la contraseña. Si se requiere una contraseña, pero _lpszOldPassword_ está establecida en NULL y la marca MAPI_DIALOG no está establecida, **CopyProfile** devuelve MAPI_E_LOGON_FAILED. 
+Si  _lpszOldPassword_ se establece en NULL, el perfil que se va a copiar requiere una contraseña y se MAPI_DIALOG marca predeterminada; Se muestra un cuadro de diálogo que solicita al usuario que proporcione la contraseña. Si se requiere una contraseña, pero  _lpszOldPassword_ se establece en NULL y no se establece la marca MAPI_DIALOG, **CopyProfile** devuelve MAPI_E_LOGON_FAILED. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

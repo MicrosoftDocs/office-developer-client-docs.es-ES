@@ -1,12 +1,12 @@
 ---
-title: DefinirPropiedad (acción de macro) (aplicación web personalizada de Access)
+title: EstablecerPropiedad (acción de macro) (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1e97dd95-23f6-4f49-b3b9-2c7261b3a70d
-description: Puede usar la acción SetProperty para establecer una propiedad de un control en una vista.
+description: Puede usar la acción EstablecerPropiedad para establecer una propiedad para un control en una vista.
 ms.openlocfilehash: 1876be32606d66e0570c9e69206a508b8888b157
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438032"
 ---
-# <a name="setproperty-macro-action-access-custom-web-app"></a>DefinirPropiedad (acción de macro) (aplicación web personalizada de Access)
+# <a name="setproperty-macro-action-access-custom-web-app"></a>EstablecerPropiedad (acción de macro) (aplicación web personalizada de Access)
 
-Puede usar la acción **SetProperty** para establecer una propiedad de un control en una vista. 
+Puede usar la acción **EstablecerPropiedad** para establecer una propiedad para un control en una vista. 
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="setting"></a>Configuración
 
-La acción **DefinirPropiedad** tiene los argumentos enumerados en la tabla siguiente. 
+La **acción SetProperty** contiene los argumentos enumerados en la tabla siguiente. 
   
 |**Argumento de la acción**|**Descripción**|
 |:-----|:-----|
@@ -33,7 +33,7 @@ La acción **DefinirPropiedad** tiene los argumentos enumerados en la tabla sigu
    
 ## <a name="remarks"></a>Comentarios
 
-Puede usar la acción **DefinirPropiedad** para definir las siguientes propiedades de un control: 
+Puede usar la acción **EstablecerPropiedad** para establecer las siguientes propiedades de un control: 
   
 - Caption
     

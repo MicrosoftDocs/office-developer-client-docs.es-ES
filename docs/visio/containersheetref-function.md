@@ -25,14 +25,14 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-CONTAINERSHEETREF (* * *Índice* * * * * *[, categoría]* * *) 
+CONTAINERSHEETREF(** *index* ** *** [, category]* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _index_ <br/> |Obligatorio  <br/> |**Integer** <br/> |Índice basado en 1 del contenedor. Para obtener más información, vea los Comentarios.  <br/> |
-| _Categoría_ <br/> |Opcional  <br/> |**String** <br/> |Categoría del contenedor. Para obtener más información, vea los comentarios.  <br/> |
+| _index_ <br/> |Obligatorio  <br/> |**Integer** <br/> |Índice basado en 1 del contenedor. Para obtener más información, vea los comentarios.  <br/> |
+| _category_ <br/> |Opcional  <br/> |**String** <br/> |Categoría del contenedor. Para obtener más información, vea los comentarios.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -42,13 +42,13 @@ Referencia de ShapeSheet
 
 El índice de un contenedor se calcula a partir del orden Z de los contenedores, de delante hacia atrás.
   
- Las *categorías* son cadenas definidas por el usuario que puede usar para clasificar formas. Las categorías se pueden definir en la celda User.msvShapeCategories, en la ShapeSheet de una forma. Puede definir varias categorías para una forma si las separa con punto y coma. 
+ *Las*  categorías son cadenas definidas por el usuario que puede usar para clasificar las formas. Las categorías se pueden definir en la celda User.msvShapeCategories, en la ShapeSheet de una forma. Puede definir varias categorías para una forma si las separa con punto y coma. 
   
 Si la forma no es miembro de un contenedor o si no hay un contenedor que concuerde tanto con la categoría como con el número de índice especificados, CONTAINERSHEETREF devuelve #REF!.
   
 ## <a name="example"></a>Ejemplo
 
-CONTAINERSHEETREF (1)! Alto 
+CONTAINERSHEETREF(1)! Height 
   
 Devuelve el valor de la celda Height del contenedor que se encuentra más hacia delante en la página a la que pertenece la forma. 
   

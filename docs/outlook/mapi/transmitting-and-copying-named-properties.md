@@ -1,5 +1,5 @@
 ---
-title: Transmitir y copiar propiedades con nombre
+title: Transmisión y copia de propiedades con nombre
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437780"
 ---
-# <a name="transmitting-and-copying-named-properties"></a>Transmitir y copiar propiedades con nombre
+# <a name="transmitting-and-copying-named-properties"></a>Transmisión y copia de propiedades con nombre
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cuando se envía, se mueve o se copia una propiedad con nombre, el nombre permanece constante pero el identificador debe cambiar para cumplir con la asignación del objeto de destino. La única excepción a esta regla es cuando el origen y el destino tienen la misma firma de asignación, lo que hace que la reasignación sea innecesaria.
+Siempre que se envía, mueve o copia una propiedad con nombre, el nombre permanece constante, pero el identificador debe cambiar para cumplir con la asignación del objeto de destino. La única excepción a esta regla es cuando el origen y el destino tienen la misma firma de asignación, lo que hace que la asignación sea innecesaria.
   
-Es responsabilidad del proveedor de transporte reasignar los nombres de las propiedades transmitidas con nombre a identificadores adecuados que funcionan en el destino. El proveedor de transporte de envío no puede saber cuál es la asignación correcta en el destino; debe transmitir los nombres y confiar en el proveedor de transporte receptor para asignarlos a identificadores que funcionen. La implementación MAPI de TNEF controla la reasignación de las propiedades con nombre para los proveedores de transporte. Los proveedores de transporte pueden controlar la reasignación manualmente o usar la implementación TNEF. 
+Es responsabilidad del proveedor de transporte reasignar los nombres de las propiedades con nombre transmitidas a los identificadores adecuados que funcionan en el destino. El proveedor de transporte de envío no puede saber cuál es la asignación correcta en el destino; debe transmitir los nombres y confiar en el proveedor de transporte receptor para asignarlos a los identificadores que funcionan. La implementación MAPI de TNEF controla la reapping de propiedades con nombre para los proveedores de transporte. Los proveedores de transporte pueden controlar la reapping manualmente o usar la implementación de TNEF. 
   
-La reasignación similar de las propiedades con nombre debe producirse cuando se copian estas propiedades entre almacenes de mensajes. Sin embargo, como los proveedores de almacenamiento de mensajes pueden recuperar el nombre de la asignación del identificador del destino, pueden reasignar las propiedades inmediatamente y no tienen que depender del almacén de mensajes de destino. 
+Cuando estas propiedades se copian entre los almacenes de mensajes, debe producirse una nueva reapping similar de las propiedades con nombre. Sin embargo, dado que los proveedores de almacén de mensajes pueden recuperar el nombre a la asignación de identificadores del destino, pueden volver a asignar las propiedades inmediatamente y no tienen que depender del almacén de mensajes de destino. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

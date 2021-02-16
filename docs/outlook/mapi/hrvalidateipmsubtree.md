@@ -25,11 +25,11 @@ ms.locfileid: "33436576"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Agrega carpetas de mensaje interpersonal estándar (IPM) a un almacén de mensajes. 
+Agrega carpetas de mensajes interpersonales estándar (IPM) a un almacén de mensajes. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -43,23 +43,23 @@ HrValidateIPMSubtree(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpMDB_
   
-> a Puntero al objeto de almacén de mensajes al que se van a agregar las carpetas. 
+> [entrada] Puntero al objeto de almacén de mensajes al que se agregarán las carpetas. 
     
  _ulFlags_
   
-> a Máscara de la máscara usada para controlar cómo se crean las carpetas. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que se usan para controlar cómo se crean las carpetas. Se pueden establecer las siguientes marcas:
     
 MAPI_FORCE_CREATE 
   
-> Las carpetas deben comprobarse antes de su creación, incluso si las propiedades del almacén de mensajes indican que son válidas. Una aplicación cliente normalmente establece esta marca cuando un error indica que la estructura de una carpeta existente está dañada. 
+> Las carpetas deben comprobarse antes de su creación, incluso si las propiedades del almacén de mensajes indican que son válidas. Normalmente, una aplicación cliente establece esta marca cuando un error indica que se ha dañado la estructura de una carpeta existente. 
     
 MAPI_FULL_IPM_TREE 
   
-> El conjunto completo de carpetas IPM debe crearse en la carpeta raíz del almacén de mensajes. Los títulos de carpeta de la jerarquía son los siguientes:
+> El conjunto completo de carpetas IPM debe crearse en la carpeta raíz del almacén de mensajes. Los títulos de carpeta de la jerarquía son:
     
     - Vistas de carpeta
     
@@ -77,19 +77,19 @@ MAPI_FULL_IPM_TREE
     
     - Elementos enviados
     
-    donde las tres carpetas marcadas \* con son el conjunto mínimo que se ha creado, incluso cuando no se ha establecido la marca MAPI_FULL_IPM_TREE. Una aplicación cliente normalmente establece esta marca cuando el almacén de mensajes en el que se van a crear las carpetas es el almacén predeterminado.
+    donde las tres carpetas marcadas con son el conjunto mínimo creado incluso \* cuando no se MAPI_FULL_IPM_TREE la marca. Normalmente, una aplicación cliente establece esta marca cuando el almacén de mensajes en el que se van a crear las carpetas es el almacén predeterminado.
     
  _lpcValues_
   
-> [in, out] Puntero al número de estructuras [SPropValue](spropvalue.md) que hay en la matriz devuelta en el parámetro _lppProps_ . El valor del parámetro _lpcValues_ puede ser cero si _lppProps_ es NULL. 
+> [entrada, salida] Puntero al número de estructuras [SPropValue](spropvalue.md) de la matriz devuelta en el _parámetro lppProps._ El valor del  _parámetro lpcValues_ puede ser cero si  _lppProps_ es NULL. 
     
  _lppProps_
   
-> [in, out] Puntero a un puntero a una matriz de estructuras **SPropValue** que contiene los valores de propiedad de la propiedad **PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) y para las propiedades de identificador de entrada de carpeta apropiadas. Si **HrValidateIPMSubtree** crea una bandeja de entrada en el almacén de mensajes, la matriz **SPropValue** incluye un identificador de entrada de la bandeja de entrada con `PROP_TAG(PT_BINARY, PROP_ID_NULL)`una etiqueta de propiedad especial codificada como. El parámetro _lppProps_ puede ser null, que indica que la implementación de la llamada no requiere que se devuelva una matriz **SPropValue** . 
+> [entrada, salida] Puntero a un puntero a una matriz de estructuras **SPropValue** que contiene valores de propiedad para la propiedad **PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) y para las propiedades de identificador de entrada de carpeta correspondientes. Si **HrValidateIPMSubtree** crea una Bandeja de entrada en el almacén de mensajes, la matriz **SPropValue** incluye un identificador de entrada de la Bandeja de entrada con una etiqueta de propiedad especial codificada como  `PROP_TAG(PT_BINARY, PROP_ID_NULL)` . El _parámetro lppProps_ puede ser NULL, lo que indica que la implementación de llamada no requiere que se devuelva una matriz **SPropValue.** 
     
  _lppMapiError_
   
-> contempla Puntero a un puntero a una estructura [MAPIERROR](mapierror.md) que contiene información sobre la versión, el componente y el contexto de un error. El parámetro _lppMAPIError_ se establece en NULL si no se devuelve ninguna estructura **MAPIERROR** . 
+> [salida] Puntero a un puntero a una [estructura MAPIERROR](mapierror.md) que contiene información de versión, componente y contexto de un error. El _parámetro lppMAPIError_ se establece en NULL si no se devuelve **ninguna estructura MAPIERROR.** 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -97,13 +97,13 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-MAPI utiliza la función **HrValidateIPMSubtree** internamente para construir el subárbol estándar IPM en un almacén de mensajes cuando se abre por primera vez el almacén o cuando un almacén se convierte en el almacén predeterminado. Las aplicaciones cliente también pueden usar esta función para validar o reparar carpetas de mensajes estándar. 
+MAPI usa la función **HrValidateIPMSubtree** internamente para construir el subárbol IPM estándar en un almacén de mensajes cuando se abre el almacén por primera vez o cuando un almacén se establece en el almacén predeterminado. Las aplicaciones cliente también pueden usar esta función para validar o reparar carpetas de mensajes estándar. 
   
- **HrValidateIPMSubtree** siempre crea las carpetas raíz de búsqueda y subárbol IPM en la carpeta raíz del almacén y en la carpeta elementos eliminados en la carpeta del subárbol IPM. La carpeta de subárbol IPM es la raíz de la jerarquía IPM en ese almacén de mensajes. La carpeta raíz de búsqueda se puede usar como la raíz de un subárbol para las carpetas de resultados de búsqueda. 
+ **HrValidateIPMSubtree** siempre crea las carpetas Raíz de búsqueda e Subárbol IPM en la carpeta raíz del almacén y la carpeta Elementos eliminados en la carpeta Subárbol IPM. La carpeta Subárbol IPM es la raíz de la jerarquía de IPM en ese almacén de mensajes. La carpeta Raíz de búsqueda se puede usar como raíz de un subárbol para carpetas de resultados de búsqueda. 
   
-Los clientes IPM deben mostrar su vista de carpeta comenzando en la carpeta raíz del subárbol IPM y mostrando las carpetas secundarias debajo. La información de la carpeta raíz de un almacén de mensajes no debe aparecer en la interfaz de usuario de un cliente. Esta funcionalidad significa que si un cliente debe ocultar la información, la información se puede colocar en el directorio raíz del subárbol IPM, donde no es visible para el usuario. Por el contrario, las aplicaciones que no son de IPM y que requieren que los mensajes y las carpetas sean invisibles para el usuario, por ejemplo, en un almacén de mensajes basado en servidor, pueden colocarlas fuera de la jerarquía IPM. 
+Los clientes IPM deben mostrar su vista de carpeta a partir de la carpeta raíz del subárbol IPM y mostrar las carpetas secundarias debajo de ella. La información de la carpeta raíz de un almacén de mensajes no debe aparecer en la interfaz de usuario de un cliente. Esta funcionalidad significa que si un cliente debe ocultar información, la información se puede colocar en el directorio raíz del subárbol IPM, donde no es visible para el usuario. Por el contrario, las aplicaciones que no son IPM que requieren que los mensajes y carpetas sean invisibles para el usuario, por ejemplo en un almacén de mensajes basado en servidor, pueden colocarlos fuera de la jerarquía de IPM. 
   
- **HrValidateIPMSubtree** establece la propiedad **PR_VALID_FOLDER_MASK** para indicar si cada carpeta IPM que crea tiene un identificador de entrada válido. Las siguientes propiedades de identificador de entrada del almacén de mensajes se establecen en los identificadores de entrada de las carpetas correspondientes y se devuelven en el parámetro _lppProps_ junto con **PR_VALID_FOLDER_MASK**: 
+ **HrValidateIPMSubtree** establece PR_VALID_FOLDER_MASK **propiedad** para indicar si cada carpeta IPM que crea tiene un identificador de entrada válido. Las siguientes propiedades de identificador de entrada del almacén de mensajes se establecen en los identificadores de entrada de las carpetas correspondientes y se devuelven en el parámetro _lppProps_ junto con **PR_VALID_FOLDER_MASK:** 
   
  **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
   
@@ -119,7 +119,7 @@ Los clientes IPM deben mostrar su vista de carpeta comenzando en la carpeta raí
   
 > **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))
   
-> Un marcador de posición [PROP_TAG](prop_tag.md) para la bandeja de entrada IPM (PT_BINARY, PROP_ID_NULL). 
+> Marcador de [PROP_TAG](prop_tag.md) para la Bandeja de entrada IPM (PT_BINARY, PROP_ID_NULL). 
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -127,9 +127,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MstStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnValidateIPMSubtree  <br/> |MFCMAPI usa el método **HrValidateIPMSubtree** para agregar carpetas estándar a un almacén de mensajes.  <br/> |
+|MstStoreDlg.cpp  <br/> |CMsgStoreDlg::OnValidateIPMSubtree  <br/> |MFCMAPI usa el **método HrValidateIPMSubtree** para agregar carpetas estándar a un almacén de mensajes.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

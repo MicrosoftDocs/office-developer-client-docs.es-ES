@@ -19,82 +19,82 @@ ms.locfileid: "33435743"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un proveedor externo es un proveedor de libreta de direcciones que: 
+Un proveedor externo es un proveedor de libretas de direcciones que: 
   
 - Asigna identificadores de plantilla para sus destinatarios.
     
-- Admite el método [IABLogon:: OpenTemplateID](iablogon-opentemplateid.md) . 
+- Admite el [método IABLogon::OpenTemplateID.](iablogon-opentemplateid.md) 
     
-- Proporciona código para mantener destinatarios que existen en los contenedores de otros proveedores de libretas de direcciones conocidos como proveedores de host. Este código implica un objeto Property, normalmente una implementación de interfaz **IMAPIProp** , que ajusta un objeto Property desde el proveedor de host. 
+- Proporciona código para mantener los destinatarios que existen en los contenedores de otros proveedores de libretas de direcciones conocidos como proveedores de host. Este código implica un objeto de propiedad, normalmente **una implementación de interfaz IMAPIProp,** que encapsula un objeto de propiedad del proveedor de host. 
     
-Actuar como proveedor externo es un rol opcional; no todos los proveedores necesitan admitir identificadores de plantilla y el código relacionado. Implemente el proveedor como proveedor externo si desea mantener el control sobre los destinatarios que los proveedores de hosts crean mediante plantillas proporcionadas por el proveedor. 
+Actuar como proveedor externo es un rol opcional; no todos los proveedores necesitan admitir identificadores de plantilla y su código relacionado. Implemente su proveedor como un proveedor externo si desea mantener el control sobre los destinatarios que los proveedores de host crean mediante plantillas proporcionadas por el proveedor. 
   
-El formato que su proveedor usa para sus identificadores de entrada también puede usarse para sus identificadores de plantilla. Los identificadores de plantilla deben incluir la **MAPIUID** registrada del proveedor para permitir que MAPI enlace correctamente los destinatarios a los proveedores apropiados. 
+El formato que el proveedor usa para sus identificadores de entrada también se puede usar para sus identificadores de plantilla. Los identificadores de plantilla deben incluir el **MAPIUID** registrado del proveedor para permitir que MAPI enlace correctamente los destinatarios a los proveedores adecuados. 
   
-MAPI llama al método **IABLogon:: OpenTemplateID** del proveedor cuando un proveedor de host llama a [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md). El proveedor de host pasa el identificador de la plantilla del destinatario en el parámetro _lpTemplateID_ en su llamada a **IMAPISupport:: OpenTemplateID**. MAPI determina que el identificador de plantilla pertenece al proveedor al hacer coincidir el [MAPIUID](mapiuid.md) del identificador de la plantilla con el **MAPIUID** que el proveedor registró en el momento de iniciar la sesión. MAPI, a continuación, reenvía la llamada del proveedor de host a su proveedor a través del método **IABLogon:: OpenTemplateID** . 
+MAPI llama al método **IABLogon::OpenTemplateID** del proveedor cuando un proveedor de host llama a [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). El proveedor de host pasa el identificador de plantilla del destinatario en el parámetro  _lpTemplateID_ en su llamada a **IMAPISupport::OpenTemplateID**. MAPI determina que el identificador de plantilla pertenece a su proveedor al hacer coincidir [el MAPIUID](mapiuid.md) en el identificador de plantilla con el **MAPIUID** que el proveedor registró en el momento de inicio de sesión. A continuación, MAPI reenvía la llamada del proveedor de host a su proveedor a través del método **IABLogon::OpenTemplateID.** 
   
-El proveedor de host también pasa un puntero a su implementación de objeto Property para el destinatario en el parámetro _lpMAPIPropData_ , un identificador de interfaz en el parámetro _lpInterface_ que corresponde al tipo de implementación de interfaz. se pasa en _lpMAPIPropData_y un indicador opcional, FILL_ENTRY. Se espera que el proveedor devuelva en el parámetro _lppMAPIPropNew_ un puntero a una implementación de objeto Property del tipo especificado en _lpInterface_. El puntero devuelto puede estar en el objeto de propiedad ajustado implementado por el proveedor o con el objeto proporcionado por el proveedor de host en _lpMAPIPropData_. El proveedor debe devolver un puntero de objeto de propiedad ajustada cuando:
+El proveedor de host también pasa un puntero a su implementación de objeto de propiedad para el destinatario en el parámetro  _lpMAPIPropData,_ un identificador de interfaz en el parámetro  _lpInterface_ que corresponde al tipo de implementación de interfaz pasado en  _lpMAPIPropData_ y una marca opcional, FILL_ENTRY. Se espera que el proveedor devuelva en el parámetro  _lppMAPIPropNew_ un puntero a una implementación de objeto de propiedad del tipo especificado en  _lpInterface_. El puntero devuelto puede ser al objeto de propiedad ajustado implementado por el proveedor o al objeto proporcionado por el proveedor de host  _en lpMAPIPropData_. El proveedor debe devolver un puntero de objeto de propiedad ajustado cuando:
   
-- La tabla de presentación del destinatario contiene controles de cuadro de lista.
+- La tabla para mostrar del destinatario contiene controles de cuadro de lista.
     
-- La dirección de correo electrónico del destinatario debe ensamblarse a partir de los datos en varios controles de la tabla de visualización.
+- La dirección de correo electrónico del destinatario debe ensamblarse a partir de datos en varios controles de tabla para mostrar.
     
-- Los problemas de su proveedor muestran las notificaciones de tabla.
+- El proveedor emite notificaciones de tabla de visualización.
     
-La marca FILL_ENTRY indica al proveedor que el proveedor de host requiere que se actualicen todas las propiedades del destinatario. El proveedor es necesario para completar esta solicitud.
+La FILL_ENTRY indica al proveedor que el proveedor de host requiere que se actualicen todas las propiedades del destinatario. Su proveedor debe cumplir esta solicitud.
   
-Cuando un proveedor de host llama al método **OpenTemplateID** de su proveedor, el proveedor puede: 
+Cuando un proveedor de host llama al método **OpenTemplateID** del proveedor, es posible que: 
   
-- Actualizar periódicamente los datos de una entrada copiada.
+- Actualice periódicamente los datos de una entrada copiada.
     
-- Mantener una entrada copiada sincronizada con su original, por ejemplo, cuando se copia una entrada de la libreta de direcciones en la libreta personal de direcciones.
+- Mantenga una entrada copiada sincronizada con su original, por ejemplo, cuando se copia una entrada de la libreta de direcciones en la libreta de direcciones personal.
     
-- Implementar funcionalidad que no puede ser implementada por el proveedor de host, como rellenar dinámicamente cuadros de lista en la tabla de detalles de la entrada que se ha copiado de los datos en un servidor.
+- Implemente funciones que el proveedor de host no pueda implementar, como rellenar dinámicamente cuadros de lista en la tabla de detalles de la entrada copiada a partir de los datos de un servidor.
     
-- Controlar la interacción entre las propiedades de una entrada o una plantilla de instancia copiada. Por ejemplo, el cálculo de **PR_EMAIL_ADDRESS** de otras propiedades mostradas en la tabla de detalles. 
+- Controlar la interacción entre las propiedades de una entrada copiada o una plantilla con instancias. Por ejemplo, la informática **PR_EMAIL_ADDRESS** otras propiedades mostradas en la tabla de detalles. 
     
-Los dos primeros elementos son ejemplos de tareas que no requieren que su proveedor suministre un objeto de propiedad ajustada: una implementación de **IMAPIProp** basada en la implementación del proveedor de host. El proveedor simplemente puede actualizar las propiedades según sea necesario y volver, estableciendo el parámetro _lppMAPIPropNew_ para que apunte al puntero pasado por el proveedor de host en el parámetro _lpMAPIPropData_ . 
+Los dos primeros elementos son ejemplos de tareas que no requieren que el proveedor proporcione un objeto de propiedad ajustado: una implementación de **IMAPIProp** basada en la implementación del proveedor de host. El proveedor simplemente puede actualizar las propiedades según sea necesario y devolver, estableciendo el parámetro _lppMAPIPropNew_ para que apunte al puntero pasado por el proveedor de host en el parámetro _lpMAPIPropData._ 
   
-Las dos tareas siguientes requieren que el proveedor vuelva al proveedor de host, un objeto Property que envuelve el objeto del proveedor de host con funcionalidad adicional, como la capacidad de mostrar una hoja de propiedades para la entrada. Este objeto Property será un usuario de mensajería o una lista de distribución, según el tipo de objeto pasado por el proveedor de host en el parámetro _lpMAPIPropData_ y indicado por el identificador de interfaz en el parámetro _lpInterface_ . Si el parámetro _lpMAPIPropData_ apunta a un usuario de mensajería, el objeto de propiedad ajustado del proveedor debe ser una implementación de **IMailUser** . Si _lpMAPIPropData_ apunta a una lista de distribución, debe ser una implementación de **IDistList** . 
+Las dos segundas tareas requieren que el proveedor devuelva al proveedor de host un objeto de propiedad que ajuste el objeto del proveedor de host con funciones adicionales, como la capacidad de mostrar una hoja de propiedades para la entrada. Este objeto de propiedad será un usuario de mensajería o una lista de distribución, según el tipo de objeto pasado por el proveedor de host en el parámetro _lpMAPIPropData_ e indicado por el identificador de interfaz en el parámetro _lpInterface._ Si el _parámetro lpMAPIPropData_ apunta a un usuario de mensajería, el objeto de propiedad ajustada del proveedor debe ser una **implementación de IMailUser.** Si _lpMAPIPropData apunta_ a una lista de distribución, debe ser una **implementación de IDistList.** 
   
-El objeto de propiedad ajustado del proveedor intercepta las llamadas del método **IMAPIProp** para llevar a cabo la manipulación específica del contexto del destinatario del proveedor del host: el objeto que se va a ajustar. MAPI sólo tiene un requisito para los objetos de propiedad ajustada: todas las llamadas a [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) que solicitan la propiedad **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) deben pasarse al proveedor de host. La implementación de su proveedor puede usar la tabla devuelta para interceptar notificaciones de tabla de visualización o agregar sus propias notificaciones si es necesario. 
+El objeto de propiedad ajustada del proveedor intercepta las llamadas al método **IMAPIProp** para realizar una manipulación específica del contexto del destinatario del proveedor de host, el objeto que está envolviendo. MAPI solo tiene un requisito para objetos de propiedad ajustados: todas las llamadas a [IMAPIProp::OpenProperty](imapiprop-openproperty.md) que solicitan la propiedad **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) deben pasarse al proveedor de host. La implementación del proveedor puede usar la tabla devuelta para interceptar las notificaciones de la tabla para mostrar o para agregar las suyas propias si es necesario. 
   
-La siguiente lista incluye las tareas que se implementan normalmente en el objeto de propiedad ajustado implementado por proveedores externos:
+La siguiente lista incluye tareas que normalmente se implementan en el objeto de propiedad ajustado implementado por proveedores externos:
   
-- Valores de propiedad de preprocesamiento y postprocesamiento para el destinatario del host en [IMAPIProp:: GetProps](imapiprop-getprops.md).
+- Valores de propiedad de preprocesamiento y posprocesamiento para el destinatario del host [en IMAPIProp::GetProps](imapiprop-getprops.md).
     
-- Al controlar los detalles, se muestran controles de tabla, como botones y cuadros de lista, en **IMAPIProp:: OpenProperty**.
+- El control de detalles muestra controles de tabla, como botones y cuadros de lista, **en IMAPIProp::OpenProperty**.
     
-- Validar o manipular valores de propiedad para el destinatario de host en [IMAPIProp:: SetProps](imapiprop-setprops.md).
+- Validar o manipular los valores de propiedad para el destinatario del host [en IMAPIProp::SetProps](imapiprop-setprops.md).
     
-- Calcule las propiedades requeridas como **PR_EMAIL_ADDRESS** y compruebe que se hayan establecido todas las propiedades necesarias antes de guardar el destinatario del host en [IMAPIProp:: SaveChanges](imapiprop-savechanges.md).
+- Calcular las propiedades necesarias, como **PR_EMAIL_ADDRESS** y comprobar que se han establecido todas las propiedades necesarias antes de guardar el destinatario del host en [IMAPIProp::SaveChanges](imapiprop-savechanges.md).
     
-### <a name="to-implement-iablogonopentemplateid"></a>Para implementar IABLogon:: OpenTemplateID
+### <a name="to-implement-iablogonopentemplateid"></a>Para implementar IABLogon::OpenTemplateID
   
-1. Compruebe si el identificador de la plantilla que se ha pasado con el parámetro _lpTemplateID_ es válido y está en un formato reconocido por el proveedor. Si no es así, se produce un error y se devuelve MAPI_E_INVALID_ENTRYID. 
+1. Compruebe si el identificador de plantilla pasado con el parámetro  _lpTemplateID_ es válido y está en un formato que el proveedor reconoce. Si no es así, se producirá un error y se devolverá MAPI_E_INVALID_ENTRYID. 
     
-2. Cree un objeto del tipo indicado por el identificador de la plantilla, ya sea un usuario de mensajería, una lista de distribución o un destinatario de uso único. 
+2. Cree un objeto del tipo indicado por el identificador de plantilla, ya sea un usuario de mensajería, una lista de distribución o un destinatario de uso único. 
     
-3. Llame al método **IUnknown:: AddRef** en el objeto Property del proveedor de host, que es el objeto al que apunta el parámetro _lpMAPIPropData_ . 
+3. Llame al **método IUnknown::AddRef** en el objeto de propiedad del proveedor de host, que es el objeto al que apunta el parámetro _lpMAPIPropData._ 
     
-4. Si el parámetro _ulTemplateFlags_ está establecido en FILL_ENTRY: 
+4. Si el  _parámetro ulTemplateFlags_ se establece en FILL_ENTRY: 
     
    1. Si el nuevo objeto es un usuario de mensajería o una lista de distribución:
       
-      1. Recupere todas las propiedades del nuevo objeto, posiblemente llamando a su método **IMAPIProp:: GetProps** . 
+      1. Recupere todas las propiedades del nuevo objeto, posiblemente llamando a su **método IMAPIProp::GetProps.** 
           
-      2. Llame al método **IMAPIProp:: SetProps** del proveedor de host para copiar todas las propiedades recuperadas en el objeto Property del proveedor de host. 
+      2. Llame al método **IMAPIProp::SetProps** del proveedor de host para copiar todas las propiedades recuperadas en el objeto de propiedad del proveedor de host. 
       
-   2. Si el nuevo objeto es un destinatario de uso único, llame al método **IMAPIProp:: SetProps** del proveedor de host para establecer las siguientes propiedades: 
+   2. Si el nuevo objeto es un destinatario de uso único, llame al método **IMAPIProp::SetProps** del proveedor de host para establecer las propiedades siguientes: 
       
-      - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) al tipo de dirección administrado por el proveedor.
+      - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) al tipo de dirección que controla el proveedor.
         
-      - **PR\_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) al identificador de plantilla de los parámetros _lpTemplateID_ y _cbTemplateID_ . 
+      - **PR \_ TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) al identificador de plantilla de los parámetros _lpTemplateID_ y _cbTemplateID._ 
         
-      - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) a DT_MAILUSER o DT_DISTLIST, según corresponda.
+      - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) para DT_MAILUSER o DT_DISTLIST, según corresponda.
     
-5. Establezca el contenido del parámetro _lppMAPIPropNew_ para que apunte al nuevo objeto del proveedor o el objeto de la propiedad que se pasa con el parámetro _lpMAPIPropData_ , en función de si el proveedor determina que es necesario un objeto ajustado. 
+5. Establezca el contenido del parámetro  _lppMAPIPropNew_ para que apunte al nuevo objeto del proveedor o al objeto de propiedad pasado con el parámetro  _lpMAPIPropData,_ dependiendo de si el proveedor determina que un objeto ajustado es necesario. 
     
-6. Si se produce un error crítico, como un error de red o una condición de memoria insuficiente, devuelva el valor de error correspondiente. Este valor debe propagarse al cliente con la estructura [MAPIERROR](mapierror.md) adecuada, una tarea realizada por el proveedor de host. 
+6. Si se produce un error crítico, como un error de red o una condición de falta de memoria, devuelve el valor de error adecuado. Este valor debe propagarse al cliente con la estructura [MAPIERROR](mapierror.md) adecuada, una tarea realizada por el proveedor de host. 
     
 

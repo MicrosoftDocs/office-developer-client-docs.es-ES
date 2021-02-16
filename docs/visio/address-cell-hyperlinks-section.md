@@ -20,7 +20,7 @@ ms.locfileid: "33438039"
 
 Especifica una dirección URL, un nombre de archivo o una ruta UNC a la que se va a saltar.
   
-La dirección se puede especificar como ruta de acceso relativa en función de la ruta de acceso base definida para el documento en el cuadro **base** de hipervínculo de la ficha **Resumen** del cuadro de diálogo **propiedades** (haga clic en la pestaña **archivo** , haga clic en **información**, haga clic en * * propiedades * * y, a continuación, haga clic en **propiedades avanzadas**). Si el documento no tiene ruta de acceso base, la aplicación explorará basándose en la ruta de acceso del documento. Si éste no se ha guardado, el hipervínculo estará sin definir.
+Puede especificar Dirección como ruta de acceso relativa en función de la ruta de acceso  base definida para  el documento en el cuadro **base** Hipervínculo de la ficha Resumen del cuadro de diálogo Propiedades (haga clic en la pestaña Archivo, haga clic en **Información,** haga clic en ** Propiedades **y, a continuación, haga clic en Propiedades **avanzadas).**  Si el documento no tiene ruta de acceso base, la aplicación explorará basándose en la ruta de acceso del documento. Si éste no se ha guardado, el hipervínculo estará sin definir.
   
 ## <a name="remarks"></a>Comentarios
 
@@ -30,14 +30,14 @@ Para obtener una referencia a la celda Address por su índice desde un programa,
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Hipervínculo. *nombre* . Dirección en la que HYPERLINK. *nombre* es el nombre de la fila de hipervínculo  <br/> |
+|Nombre de celda:  <br/> |Hipervínculo. *nombre*  . Dirección donde Hipervínculo. *es*  el nombre de la fila de hipervínculo  <br/> |
    
-Para obtener una referencia a la celda Address por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Address por su nombre desde otra fórmula, o desde un programa, mediante la propiedad **CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionHyperlink** <br/> |
-| Índice de fila:  <br/> |**visRow1stHyperlink** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRow1stHyperlink**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visHLinkAddress** <br/> |
    
 

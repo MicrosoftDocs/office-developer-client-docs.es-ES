@@ -38,11 +38,11 @@ HRESULT CreateFolder(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFolderType_
   
-> a El tipo de carpeta que se va a crear. Se pueden establecer los siguientes indicadores:
+> [entrada] Tipo de carpeta que se creará. Se pueden establecer las siguientes marcas:
     
 FOLDER_GENERIC 
   
@@ -50,67 +50,67 @@ FOLDER_GENERIC
     
 FOLDER_SEARCH 
   
-> Debe crearse una carpeta de resultados de búsqueda.
+> Se debe crear una carpeta de resultados de búsqueda.
     
  _lpszFolderName_
   
-> a Un puntero a una cadena que contiene el nombre de la nueva carpeta. Este nombre es la base de la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de la nueva carpeta.
+> [entrada] Puntero a una cadena que contiene el nombre de la nueva carpeta. Este nombre es la base de la propiedad PR_DISPLAY_NAME **(** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de la nueva carpeta.
     
  _lpszFolderComment_
   
-> a Un puntero a una cadena que contiene un comentario asociado a la nueva carpeta. Esta cadena se convierte en el valor de la propiedad **PR_COMMENT** ([PidTagComment](pidtagcomment-canonical-property.md)) de la nueva carpeta. Si se pasa NULL, la carpeta no tiene comentario inicial.
+> [entrada] Puntero a una cadena que contiene un comentario asociado a la nueva carpeta. Esta cadena se convierte en el valor de la propiedad **PR_COMMENT** ([PidTagComment](pidtagcomment-canonical-property.md)) de la nueva carpeta. Si se pasa NULL, la carpeta no tiene ningún comentario inicial.
     
  _lpInterface_
   
-> a Un puntero al identificador de interfaz (IID) que representa la interfaz que se va a usar para obtener acceso a la nueva carpeta. Al pasar NULL, el proveedor de almacén de mensajes devuelve la interfaz de carpeta estándar, [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md). Los clientes deben pasar NULL. Otros llamadores pueden establecer el parámetro _lpInterface_ en IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer o IID_IMAPIFolder. 
+> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la nueva carpeta. Pasar NULL hace que el proveedor del almacén de mensajes devuelva la interfaz de carpeta estándar, [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Los clientes deben pasar NULL. Otros autores de llamadas pueden establecer el parámetro  _lpInterface_ en IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer o IID_IMAPIFolder. 
     
  _ulFlags_
   
-> a Una máscara de máscara de marcas que controla cómo se crea la carpeta. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se crea la carpeta. Se pueden establecer las siguientes marcas:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que **CreateFolder** vuelva correctamente, posiblemente antes de que la nueva carpeta esté completamente disponible para el cliente que realiza la llamada. Si la nueva carpeta no está disponible, realizar una llamada subsiguiente a ella puede provocar un error. 
+> Permite **que CreateFolder** vuelva correctamente, posiblemente antes de que la nueva carpeta esté totalmente disponible para el cliente que realiza la llamada. Si la nueva carpeta no está disponible, realizar una llamada posterior a ella puede provocar un error. 
     
 MAPI_UNICODE 
   
-> El nombre de la carpeta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, el nombre de la carpeta está en formato ANSI.
+> El nombre de la carpeta está en formato Unicode. Si no MAPI_UNICODE marca, el nombre de la carpeta está en formato ANSI.
     
 OPEN_IF_EXISTS 
   
-> Permite que el método tenga éxito incluso si la carpeta especificada en el parámetro _lpszFolderName_ ya existe abriendo la carpeta existente que tiene ese nombre. Tenga en cuenta que es posible que los proveedores de almacenamiento de mensajes que permiten que las carpetas relacionadas tengan el mismo nombre no puedan abrir una carpeta existente si existe más de una con el nombre proporcionado. 
+> Permite que el método se haga correctamente incluso si la carpeta especificada en el parámetro  _lpszFolderName_ ya existe abriendo la carpeta existente que tiene ese nombre. Tenga en cuenta que es posible que los proveedores del almacén de mensajes que permiten que las carpetas del mismo nivel tengan el mismo nombre no abran una carpeta existente si existe más de uno con el nombre proporcionado. 
     
  _lppFolder_
   
-> contempla Un puntero a un puntero a la carpeta que se acaba de crear.
+> [salida] Puntero a un puntero a la carpeta recién creada.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La nueva carpeta se ha creado o abierto correctamente, si se ha establecido la marca OPEN_IF_EXISTS.
+> La nueva carpeta se ha creado o abierto correctamente, si se OPEN_IF_EXISTS marca.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció la marca MAPI_UNICODE y la implementación no admite Unicode, o no se estableció MAPI_UNICODE y la implementación solo admite Unicode.
+> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 MAPI_E_COLLISION 
   
-> Ya existe una carpeta con el nombre especificado en el parámetro _lpszFolderName_ . Los nombres de carpeta deben ser únicos. 
+> Ya existe una carpeta con el nombre especificado en el _parámetro lpszFolderName._ Los nombres de carpeta deben ser únicos. 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPIFolder:: CreateFolder** crea una subcarpeta en la carpeta actual y asigna un identificador de entrada a la nueva carpeta. 
+El **método IMAPIFolder::CreateFolder** crea una subcarpeta en la carpeta actual y asigna un identificador de entrada a la nueva carpeta. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Cuando **CreateFolder** Return, tenga en cuenta que es posible que el identificador de entrada para la nueva carpeta no esté disponible. Algunos proveedores de almacenamiento de mensajes no hacen que los identificadores de entrada estén disponibles hasta que se llama al método [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) de la nueva carpeta para guardarlo de forma permanente. Esto es especialmente cierto si ha establecido la marca MAPI_DEFERRED_ERRORS. 
+Cuando **CreateFolder vuelva,** tenga en cuenta que es posible que el identificador de entrada de la nueva carpeta no esté disponible. Algunos proveedores de al almacenamiento de mensajes no hacen que los identificadores de entrada estén disponibles hasta que haya llamado al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de la nueva carpeta para guardarlo de forma permanente. Esto es especialmente cierto si ha establecido la marca MAPI_DEFERRED_ERRORS página. 
   
-Tenga en cuenta que algunos proveedores de almacenamiento de mensajes siempre señalan el parámetro _lppFolder_ a la interfaz estándar de la carpeta, independientemente del valor que se pase para el parámetro _lpInterface_ . Dado que el puntero de interfaz que se devuelve puede que no sea del tipo que espera, llame al método [IMAPIProp:: GetProps](imapiprop-getprops.md) de la nueva carpeta para recuperar la propiedad **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)). Si es necesario, convierta el puntero en un tipo más apropiado antes de realizar otras llamadas.
+Tenga en cuenta que algunos proveedores de almacenamiento de mensajes siempre apuntan el parámetro _lppFolder_ a la interfaz estándar de la carpeta, independientemente del valor que pase para el parámetro _lpInterface._ Dado que es posible que el puntero de interfaz que se devuelve no sea del tipo esperado, llame al método [IMAPIProp::GetProps](imapiprop-getprops.md) de la nueva carpeta para recuperar la propiedad **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)). Si es necesario, convierte el puntero en un tipo más apropiado antes de realizar otras llamadas.
   
-La mayoría de los proveedores de almacenamiento de mensajes requieren que el nombre de la nueva carpeta sea único con respecto a los nombres de sus carpetas relacionadas. Ser capaz de controlar el valor de error MAPI_E_COLLISION, que se devuelve si no se sigue esta regla. 
+La mayoría de los proveedores de almacenamiento de mensajes requieren que el nombre de la nueva carpeta sea único con respecto a los nombres de sus carpetas del mismo nivel. Ser capaz de controlar el MAPI_E_COLLISION de error, que se devuelve si no se sigue esta regla. 
   
-Para determinar el identificador de entrada de la carpeta recién creada, llame al método **IMAPIProp:: GetProps** de la nueva carpeta para recuperar **** su propiedad ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Para determinar el identificador de entrada de la carpeta recién creada, llame al método **IMAPIProp::GetProps** de la nueva carpeta para recuperar su propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -118,9 +118,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnCreateSubFolder  <br/> |MFCMAPI usa el método **CMsgStoreDlg:: OnCreateSubFolder** para crear nuevas carpetas en MFCMAPI.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnCreateSubFolder  <br/> |MFCMAPI usa el **método CMsgStoreDlg::OnCreateSubFolder** para crear nuevas carpetas en MFCMAPI.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

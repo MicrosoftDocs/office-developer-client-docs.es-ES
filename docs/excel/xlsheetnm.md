@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSheetNm
 keywords:
-- función xlsheetnm [Excel 2007]
+- Función xlsheetnm [excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,29 +22,29 @@ ms.locfileid: "33437416"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Devuelve el nombre de una hoja de cálculo o de una hoja de macros de su identificador de hoja interno incluido en una referencia externa, o el nombre de la hoja actual si se pasa una referencia interna.
+Devuelve el nombre de una hoja de cálculo o una hoja de macros a partir de su identificador de hoja interna contenido en una referencia externa, o el nombre de la hoja actual si se pasa una referencia interna.
   
 ```cs
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _pxExtref_ (**xltypeRef** o **xltypeSRef**)
   
 Una referencia a la hoja cuyo nombre desea.
   
-Si va a pasar una referencia externa (**xltypeRef**), solo debe contener el identificador de la hoja. Las estructuras de datos que describen las celdas de la hoja de cálculo se omiten y no es necesario proporcionarlas. Si el identificador se establece en cero, **xlSheetNm** devuelve el nombre de la hoja actual. 
+Si va a pasar una referencia externa (**xltypeRef**) solo necesita contener el identificador de la hoja. Las estructuras de datos que describen las celdas de la hoja de cálculo se omiten y no es necesario proporcionar. Si el identificador se establece en cero, **xlSheetNm** devuelve el nombre de la hoja actual. 
   
 Si va a pasar una referencia interna (**xltypeSef**), **xlSheetNm** devuelve el nombre de la hoja actual. 
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Devuelve el nombre de la hoja (**xltypeStr**) en el formulario `[Book1]Sheet1`.
+Devuelve el nombre de la hoja (**xltypeStr**) con el formato  `[Book1]Sheet1` .
   
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra el nombre de la hoja desde la que se llamó a la función. La función sólo funciona correctamente si se llama desde una hoja de macros mientras se ejecuta una macro de comando XLM. Esto se debe a que llama a **xlcAlert**, que solo pueden hacer los comandos y debe llamarse desde una hoja en lugar de un cuadro de diálogo, un menú o una barra de comandos para que **xlfCaller** devuelva una referencia. 
+En el ejemplo siguiente se muestra el nombre de la hoja desde la que se llamó a la función. La función sólo funciona correctamente si se llama desde una hoja de macros mientras se ejecuta una macro de comandos XLM. Esto se debe a que llama a **xlcAlert**, que solo pueden hacer los comandos, y debe llamarse desde una hoja en lugar de un cuadro de diálogo, menú o barra de comandos para que **xlfCaller** devuelva una referencia. 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -60,7 +60,7 @@ short WINAPI xlSheetNmExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [xlSheetId](xlsheetid.md)
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

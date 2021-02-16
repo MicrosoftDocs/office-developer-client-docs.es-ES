@@ -8,7 +8,7 @@ f1_keywords:
 - TempInt
 - TempInt12
 keywords:
-- función tempint12 [Excel 2007], TempInt [Excel 2007]
+- función tempint12 [excel 2007],Función TempInt [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,26 +23,26 @@ ms.locfileid: "33438753"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de Framework que crea un **XLOPER XLOPER**/ **** temporal que contiene un entero. 
+Función de biblioteca de marcos que crea un **XLOPER** /  **XLOPER12** temporal que contiene un entero. 
   
 ```cs
 LPXLOPER TempInt(short int i);
 LPXLOPER12 TempInt12(int i);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _k_
+ _i_
   
-Valor entero que se va a usar. Tenga en cuenta que el entero **XLOPER** es un entero de 16 bits con signo (Short int), mientras que el entero de **XLOPER12** es un entero de 32 bits firmado ([Long] int). 
+El valor entero previsto. Tenga en cuenta que el entero **XLOPER** es un entero de 16 bits firmado (int corto), mientras que el entero **XLOPER12** es un entero de 32 bits firmado ([long] int). 
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve un entero **xltypeInt** que contiene el valor que se ha pasado. 
+Devuelve un **entero xltypeInt** que contiene el valor pasado. 
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo, se usa la función **TempInt12** para pasar un argumento a **xlfGetWorkspace**.
+En este ejemplo se **usa la función TempInt12** para pasar un argumento a **xlfGetWorkspace**.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,7 +56,7 @@ short WINAPI TempIntExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -29,7 +29,7 @@ Copia un grupo de notificaciones de eventos en un único bloque de memoria.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -42,29 +42,29 @@ SCODE ScCopyNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _CNTF_
+ _cntf_
   
-> a Número de estructuras de [notificación](notification.md) en la matriz indicada por el parámetro _rgntf_ . 
+> [entrada] Recuento de [estructuras notification](notification.md) en la matriz indicada por el _parámetro rgntf._ 
     
  _rgntf_
   
-> a Puntero a una matriz de estructuras de **notificación** que define las notificaciones de eventos que se van a copiar. 
+> [entrada] Puntero a una matriz de **estructuras notification** que definen las notificaciones de eventos que se van a copiar. 
     
  _pvDst_
   
-> contempla Puntero a las notificaciones devueltas. 
+> [salida] Puntero a las notificaciones devueltas. 
     
- _impreso_
+ _indeste_
   
-> contempla Puntero opcional a una variable en la que se almacena el tamaño, en bytes, de la matriz señalada por el parámetro _rgntf_ . Si no es NULL, el parámetro _PCB_ se establece en el número de bytes almacenados en el parámetro _pvDst_ . 
+> [salida] Puntero opcional a una variable donde se almacena el tamaño, en bytes, de la matriz que apunta el parámetro _rgntf._ Si no es NULL, el parámetro _de byte_ se establece en el número de bytes almacenados en el _parámetro pvDst._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> Las notificaciones de eventos se han copiado correctamente.
+> Las notificaciones de eventos se copiaron correctamente.
     
 E_INVALIDARG
   
@@ -72,6 +72,6 @@ E_INVALIDARG
     
 ## <a name="remarks"></a>Comentarios
 
-Si se pasa NULL en el parámetro _PCB_ , no se realiza ninguna copia; Si se pasa un valor no NULL en _PCB_, la función **ScCopyNotifications** copia el tamaño de la matriz y la matriz en sí a un bloque de memoria único. Si _PCB_ no es null, se establece en el número de bytes almacenados en el parámetro _pvDst_ . El parámetro _pvDst_ debe ser lo suficientemente grande como para contener toda la matriz. 
+Si se pasa NULL en el parámetro  _deendo,_ no se realiza ninguna copia; si se pasa un valor que no es nulo en una celda  _,_ la función **ScCopyNotifications** copia el tamaño de la matriz y la propia matriz en un único bloque de memoria. Si _no_ es NULL, se establece en el número de bytes almacenados en el _parámetro pvDst._ El  _parámetro pvDst_ debe ser lo suficientemente grande como para contener toda la matriz. 
   
 

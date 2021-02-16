@@ -20,7 +20,7 @@ Restablece el enumerador al principio.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkEnum](iolkenum.md).
+Vea [IOlkEnum](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum::Reset ();
@@ -30,7 +30,7 @@ HRESULT IOlkEnum::Reset ();
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [IOlkEnum::GetCount](iolkenum-getcount.md)
 - [IOlkEnum::GetNext](iolkenum-getnext.md)

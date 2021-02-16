@@ -25,35 +25,35 @@ ms.locfileid: "33439446"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Identifica la cuenta con la que está asociado el elemento de encabezado, principalmente para implementar la funcionalidad de salida de POP en el servidor. 
+Identifica la cuenta con la que está asociado el elemento de encabezado, principalmente para implementar la funcionalidad pop Leave on Server. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas  <br/> |dispidRemoteXP  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Remote  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008F03  <br/> |
+|Long ID (LID):  <br/> |0x00008F03  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8  <br/> |
 |Área:  <br/> |Mensaje remoto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad sólo es relevante en los mensajes que tienen una clase de mensaje IPM. Modo. Microsoft Outlook mantiene una asignación de varias cuentas que se descargan a un almacén determinado en un mensaje de información asociada a una carpeta (FAI), pero también puede conservar esta información en el registro.
+Esta propiedad solo es relevante en los mensajes que tienen una clase de mensaje de IPM. Remoto. Microsoft Outlook mantiene una asignación de varias cuentas que se descargan en un almacén determinado en un mensaje de información asociada a carpetas (FAI), pero también podría mantener esta información en el Registro.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -61,7 +61,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -34,19 +34,19 @@ HRESULT SetDefaultProfile(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpszProfileName_
   
-> a Un puntero al nombre del perfil que se convertirá en el valor predeterminado o NULL. Establecer _lpszProfileName_ en NULL indica que **setdefaultprofile a** debe quitar el perfil predeterminado existente, dejando el cliente sin un valor predeterminado. 
+> [entrada] Puntero al nombre del perfil que se convertirá en el valor predeterminado o NULL. Establecer  _lpszProfileName_ en NULL indica que **SetDefaultProfile** debe quitar el perfil predeterminado existente, dejando al cliente sin un valor predeterminado. 
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla el tipo de la cadena a la que apunta _lpszProfileName_. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el tipo de la cadena a la que  _apunta lpszProfileName_. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> El nombre del perfil está en formato Unicode. Si no se establece la marca MAPI_UNICODE, el nombre del perfil está en formato ANSI.
+> El nombre del perfil está en formato Unicode. Si no MAPI_UNICODE marca de perfil, el nombre del perfil está en formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -60,13 +60,13 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IProfAdmin:: setdefaultprofile a** establece un perfil en particular como perfil predeterminado del cliente o borra el perfil predeterminado actual. El perfil predeterminado es el que se usa automáticamente siempre que el cliente inicia una sesión MAPI. **Setdefaultprofile a** también establece la propiedad **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) del nuevo perfil predeterminado en true.
+El **método IProfAdmin::SetDefaultProfile** establece un perfil determinado como perfil predeterminado del cliente o borra el perfil predeterminado actual. El perfil predeterminado es el perfil que se usa automáticamente cada vez que el cliente inicia una sesión MAPI. **SetDefaultProfile** también establece la propiedad del nuevo perfil predeterminado **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) en TRUE.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para iniciar una sesión con el perfil predeterminado, pase la marca MAPI_USE_DEFAULT a la función [MAPILogonEx](mapilogonex.md) . 
+Para iniciar una sesión con el perfil predeterminado, pase la marca MAPI_USE_DEFAULT a la [función MAPILogonEx.](mapilogonex.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

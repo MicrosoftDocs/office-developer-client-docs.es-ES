@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- API de c [Excel 2007], what's New
+- api de c [excel 2007], novedades
 localization_priority: Normal
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -20,28 +20,28 @@ ms.locfileid: "33439691"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Junto con Microsoft Excel 2013, el kit de desarrollo de software (SDK) de XLL de Microsoft Excel 2013 incluye compatibilidad con las siguientes características.
+Junto con Microsoft Excel 2013, el Kit de desarrollo de software (SDK) XLL de Microsoft Excel 2013 incluye compatibilidad con las siguientes características.
   
 - **Nuevas funciones**
     
-    El SDK de XLL de Microsoft Excel 2013 admite la devolución de llamada a todas las nuevas funciones de hoja de cálculo en Excel 2013. Para obtener más información acerca de cómo llamar a las funciones de Excel 2013, vea [llamar a Excel desde la dll o XLL](calling-into-excel-from-the-dll-or-xll.md).
+    El SDK de XLL de Microsoft Excel 2013 admite la llamada a todas las nuevas funciones de hoja de cálculo de Excel 2013. Para obtener más información acerca de cómo llamar a funciones de Excel 2013, vea Llamar a Excel desde [el DLL o XLL](calling-into-excel-from-the-dll-or-xll.md).
     
 - **Funciones asincrónicas definidas por el usuario**
     
-    Excel 2013 admite la llamada a funciones definidas por el usuario (UDF) de forma asincrónica, lo que puede mejorar el rendimiento habilitando varios cálculos para que se ejecuten al mismo tiempo. Para obtener más información acerca de las UDF asincrónicas, consulte [Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md).
+    Excel 2013 admite llamadas a funciones definidas por el usuario (UDF) de forma asincrónica, lo que puede mejorar el rendimiento al permitir que se ejecuten varios cálculos al mismo tiempo. Para obtener más información acerca de las UDF asincrónicas, vea Funciones de User-Defined [asincrónicas.](asynchronous-user-defined-functions.md)
     
 - **Conectores de clúster**
     
-    Los conectores de clúster permiten que las UDF se ejecuten en clústeres de cómputo de alto rendimiento. Para obtener más información acerca de la creación de conectores de clúster, vea [developIng Excel Cluster Connectors](developing-excel-cluster-connectors.md).
+    Los conectores de clúster permiten que las UDF se ejecuten en clústeres de cálculo de alto rendimiento. Para obtener más información acerca de la creación de conectores de clúster, vea [Desarrollar conectores de clúster de Excel.](developing-excel-cluster-connectors.md)
     
     > [!NOTE]
-    > Los complementos XLL que desea ejecutar en los clústeres de cálculo deben llamar solo a funciones seguras para clústeres. Para obtener más información sobre las funciones que puede usar, vea referencia de la [función API del SDK de XLL de Excel](excel-xll-sdk-api-function-reference.md) y [funciones seguras para clústeres](cluster-safe-functions.md). 
+    > Los complementos XLL que desea ejecutar en clústeres de cálculo solo deben llamar a funciones seguras para clústeres. Para obtener más información acerca de las funciones que puede usar, vea Referencia de funciones de API de SDK de [XLL](excel-xll-sdk-api-function-reference.md) de Excel y [Funciones seguras de clúster.](cluster-safe-functions.md) 
   
-- **Compatibilidad con 64 bits**
+- **Compatibilidad de 64 bits**
     
-    Ahora puede compilar y vincular XLL de 32 bits y de 64 bits. Para obtener más información, vea [crear XLL](creating-xlls.md).
+    Ahora puede compilar y vincular XLL de 32 bits y 64 bits. Para obtener más información, vea [Crear XLL.](creating-xlls.md)
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

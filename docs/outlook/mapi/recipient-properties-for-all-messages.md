@@ -21,18 +21,18 @@ ms.locfileid: "33439719"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Normalmente, las siguientes propiedades están presentes para todos los destinatarios del mensaje. **PR_EMAIL_ADDRESS** y **PR_SEARCH_KEY** son opcionales; todas las demás propiedades son necesarias. 
+Las siguientes propiedades suelen estar presentes para todos los destinatarios de mensajes. **PR_EMAIL_ADDRESS** y **PR_SEARCH_KEY** son opcionales; todas las demás propiedades son necesarias. 
   
-**Título de la tabla**
+**Título de tabla**
 
 |**Propiedad**|**Descripción**|
 |:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Contiene el tipo de dirección de correo electrónico del usuario de mensajería, como SMTP.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contiene el nombre para mostrar de un objeto MAPI determinado.  <br/> |
-|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Contiene un valor que se usa para asociar un icono a una fila concreta de una tabla.  <br/> |
+|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Contiene un valor usado para asociar un icono a una fila determinada de una tabla.  <br/> |
 |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Contiene la dirección de correo electrónico del usuario de mensajería.  <br/> |
-|**** Es ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Contiene un identificador de entrada MAPI que se usa para abrir y editar las propiedades de un objeto MAPI en particular.  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Contiene un identificador de entrada MAPI usado para abrir y editar propiedades de un objeto MAPI determinado.  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Contiene el tipo de un objeto.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Contiene una clave comparable binaria que identifica los objetos correlacionados para una búsqueda.  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Contiene una clave binaria comparable que identifica objetos correlacionados para una búsqueda.  <br/> |
    
 

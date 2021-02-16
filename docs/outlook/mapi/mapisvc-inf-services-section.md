@@ -1,5 +1,5 @@
 ---
-title: Sección MapiSvc. inf [servicios]
+title: Sección MapiSvc.inf [Servicios]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434784"
 ---
-# <a name="mapisvcinf-services-section"></a>Sección MapiSvc. inf [servicios]
+# <a name="mapisvcinf-services-section"></a>Sección MapiSvc.inf [Servicios]
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La sección **[Services]** muestra los servicios de mensajes que están instalados en un equipo. Las entradas de esta sección usan el siguiente formato: 
+En **la sección [Servicios]** se enumeran los servicios de mensajes instalados en un equipo. Las entradas de esta sección tienen el siguiente formato: 
   
- **Servicios**
+ **[Servicios]**
   
- _nombre de sección de servicio de mensajes_ =  _nombre del servicio de mensajes_
+ _nombre de la sección de servicio de mensajes_  =   _nombre del servicio de mensajes_
   
-El nombre de la sección de servicio de mensajes es una cadena definida por el servicio de mensajes que vincula esta entrada a una sección correspondiente del servicio en cualquier otro lugar del archivo MAPISVC. inf. El nombre del servicio de mensajes es el nombre del servicio instalado. En la siguiente sección se muestran tres servicios de mensajes: la libreta de direcciones predeterminada, mi propio servicio y el servicio de almacén de mensajes. Estos servicios son ficticios, solo con fines ilustrativos. Cada implementador del servicio de mensajes sustituiría la entrada correspondiente a su servicio de mensajes en esta sección.
+El nombre de la sección de servicio de mensajes es una cadena definida por el servicio de mensajes que vincula esta entrada a una sección correspondiente para el servicio en otro lugar de mapisvc.inf. El nombre del servicio de mensajes es el nombre del servicio instalado. En la siguiente sección se muestran tres servicios de mensajes: la libreta de direcciones predeterminada, mi propio servicio y el servicio de almacenamiento de mensajes. Estos servicios son ficticios, solo con fines ilustrativos. Cada implementador del servicio de mensajes sustituiría la entrada adecuada por su servicio de mensajes en esta sección.
   
 ```cpp
 [Services]
@@ -37,6 +37,6 @@ MS=Message Store Service
 
 ```
 
-Cada entrada de esta sección tiene una sección correspondiente de la misma donde se almacena la información del servicio de mensajes. Por ejemplo, la sección correspondiente a la libreta de direcciones predeterminada se denomina [AB].
+Cada entrada de esta sección tiene una sección propia correspondiente donde se almacena la información del servicio de mensajes. Por ejemplo, la sección correspondiente de la Libreta de direcciones predeterminada se denomina [AB].
   
 

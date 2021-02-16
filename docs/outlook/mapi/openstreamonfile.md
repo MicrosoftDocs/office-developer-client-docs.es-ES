@@ -25,11 +25,11 @@ ms.locfileid: "33439096"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Asigna e inicializa un objeto OLE **IStream** para tener acceso al contenido de un archivo. Esta función toma una cadena ANSI como nombre de archivo que incluye la ruta de acceso y la extensión de archivo, por lo tanto, se recomienda usar la versión Unicode de esta función, [OpenStreamOnFileW](openstreamonfilew.md).
+Asigna e inicializa un objeto OLE **IStream** para tener acceso al contenido de un archivo. Esta función toma una cadena ANSI como nombre de archivo, incluida la ruta de acceso y la extensión de archivo; por lo tanto, se recomienda el uso de la versión Unicode de esta función, [OpenStreamOnFileW.](openstreamonfilew.md)
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -44,31 +44,31 @@ HRESULT STDMETHODCALLTYPE OpenStreamOnFile(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpAllocateBuffer_
   
-> a Puntero a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , que se va a usar para asignar memoria. 
+> [entrada] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria. 
     
  _lpFreeBuffer_
   
-> a Puntero a la función [MAPIFreeBuffer](mapifreebuffer.md) , que se usará para liberar memoria. 
+> [entrada] Puntero a la [función MAPIFreeBuffer,](mapifreebuffer.md) que se usará para liberar memoria. 
     
  _ulFlags_
   
-> a Máscara de la máscara utilizada para controlar la creación o la apertura del archivo al que se va a tener acceso a través del objeto OLE **IStream** . Se pueden establecer los siguientes indicadores: 
+> [entrada] Máscara de bits de marcas usadas para controlar la creación o apertura del archivo al que se debe tener acceso a través del objeto **OLE IStream** . Se pueden establecer las siguientes marcas: 
     
 SOF_UNIQUEFILENAME 
   
-> Se debe crear un archivo temporal para el objeto **IStream** . Si se establece esta marca, también se deben establecer las marcas STGM_CREATE y STGM_READWRITE. 
+> Se creará un archivo temporal para el **objeto IStream.** Si se establece esta marca, también STGM_CREATE y STGM_READWRITE marca. 
     
 STGM_CREATE 
   
-> El archivo se creará incluso si ya existe uno. Si no se establece el parámetro _lpszFileName_ , se deben establecer tanto este indicador como el STGM_DELETEONRELEASE. Si se establece STGM_CREATE, también se debe establecer la marca STGM_READWRITE. 
+> El archivo se creará incluso si ya existe uno. Si no se establece el parámetro  _lpszFileName,_ se deben establecer tanto esta marca STGM_DELETEONRELEASE como el parámetro. Si STGM_CREATE se establece, también STGM_READWRITE debe establecerse la marca de STGM_READWRITE. 
     
 STGM_DELETEONRELEASE 
   
-> El archivo se eliminará cuando se libere el objeto **IStream** . Si no se establece el parámetro _lpszFileName_ , se deben establecer tanto este indicador como el STGM_CREATE. 
+> El archivo se eliminará cuando se libera el objeto **IStream.** Si no se establece el parámetro  _lpszFileName,_ se deben establecer tanto esta marca STGM_CREATE como el parámetro. 
     
 STGM_READ 
   
@@ -76,19 +76,19 @@ STGM_READ
     
 STGM_READWRITE 
   
-> El archivo se va a crear o abrir con permiso de lectura y escritura. Si no se establece esta marca, no se debe establecer tampoco la marca STGM_CREATE. 
+> El archivo se va a crear o abrir con permiso de lectura y escritura. Si no se establece esta marca, la STGM_CREATE no debe establecerse. 
     
  _lpszFileName_
   
-> a El nombre de archivo, incluida la ruta de acceso y la extensión, del archivo para el que **OpenStreamOnFile** inicializa el objeto **IStream** . Si se establece la marca SOF_UNIQUEFILENAME, _lpszFileName_ contiene la ruta de acceso al directorio en el que se va a crear un archivo temporal. Si _lpszFileName_ es null, **OpenStreamOnFile** obtiene una ruta de acceso adecuada del sistema y se deben establecer los dos marcadores STGM_CREATE y STGM_DELETEONRELEASE. 
+> [entrada] Nombre de archivo, incluida la ruta de acceso y la extensión, del archivo para el que **OpenStreamOnFile** inicializa el **objeto IStream.** Si se SOF_UNIQUEFILENAME marca,  _lpszFileName_ contiene la ruta de acceso al directorio en el que se va a crear un archivo temporal. Si  _lpszFileName_ es NULL, **OpenStreamOnFile** obtiene una ruta de acceso adecuada del sistema y se deben establecer las marcas STGM_CREATE y STGM_DELETEONRELEASE. 
     
  _lpszPrefix_
   
-> a Prefijo del nombre de archivo en el que **OpenStreamOnFile** inicializa el objeto **IStream** . Si se establece, el prefijo no debe contener más de tres caracteres. Si _lpszPrefix_ es null, se usa un prefijo de "Sof". 
+> [entrada] Prefijo del nombre de archivo en el que **OpenStreamOnFile** inicializa el **objeto IStream.** Si se establece, el prefijo no debe contener más de tres caracteres. Si  _lpszPrefix_ es NULL, se usa un prefijo de "SOF". 
     
  _lppStream_
   
-> contempla Puntero a un puntero a un objeto que expone la interfaz **IStream** . 
+> [salida] Puntero a un puntero a un objeto que expone la **interfaz IStream.** 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -98,7 +98,7 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> No se pudo tener acceso al archivo debido a que los permisos de usuario son insuficientes o a que no se pueden modificar los archivos de solo lectura. 
+> No se pudo tener acceso al archivo debido a que los permisos de usuario no son suficientes o porque no se pueden modificar los archivos de solo lectura. 
     
 MAPI_E_NOT_FOUND 
   
@@ -106,19 +106,19 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentarios
 
-La función **OpenStreamOnFile** tiene dos usos importantes, que se distinguen por la configuración de la marca SOF_UNIQUEFILENAME. Si no se establece este indicador, **OpenStreamOnFile** abre un objeto **IStream** en un archivo existente, por ejemplo, para copiar su contenido en la propiedad **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) de un dato adjunto mediante **IStream. :: CopyTo** (método). En este caso, el parámetro _lpszFileName_ especifica la ruta de acceso y el nombre del archivo. 
+La **función OpenStreamOnFile** tiene dos usos importantes, que se distinguen por la configuración de SOF_UNIQUEFILENAME marca. Cuando no se establece esta marca, **OpenStreamOnFile** abre un objeto **IStream** en un archivo existente, por ejemplo, para copiar su contenido en la propiedad **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) de un archivo adjunto mediante el método **IStream::CopyTo.** En este caso,  _el parámetro lpszFileName_ especifica la ruta de acceso y el nombre de archivo del archivo. 
   
-Cuando se establece SOF_UNIQUEFILENAME, **OpenStreamOnFile** crea un archivo temporal para contener los datos de un objeto **IStream** . Para este uso, el parámetro _lpszFileName_ puede designar opcionalmente la ruta de acceso al directorio en el que se va a crear el archivo, y el parámetro _lpszPrefix_ puede especificar opcionalmente un prefijo para el nombre de archivo. 
+Cuando SOF_UNIQUEFILENAME se establece, **OpenStreamOnFile** crea un archivo temporal para contener los datos de un **objeto IStream.** Para este uso, el parámetro  _lpszFileName_ puede designar opcionalmente la ruta de acceso al directorio donde se va a crear el archivo y el parámetro  _lpszPrefix_ puede especificar opcionalmente un prefijo para el nombre de archivo. 
   
-Cuando finaliza la aplicación cliente o el proveedor de servicios que realiza la llamada con el objeto **IStream** , debe liberarla llamando al método OLE **IStream:: Release** . 
+Cuando la aplicación cliente de llamada o el proveedor de servicios termine con el objeto **IStream,** debe liberarlo llamando al método OLE **IStream::Release.** 
   
-MAPI usa las funciones a las que apunta _lpAllocateBuffer_ y _lpFreeBuffer_ para la mayor parte de la asignación y desasignación de memoria, en particular para asignar memoria para que la usen las aplicaciones cliente al llamar a interfaces de objeto como [IMAPIProp:: GetProps](imapiprop-getprops.md) y [IMAPITable:: QueryRows](imapitable-queryrows.md). 
+MAPI usa las funciones a las que  _apuntan lpAllocateBuffer_ y  _lpFreeBuffer_ para la mayor parte de la asignación y desasignación de memoria, en particular para asignar memoria para que la usen las aplicaciones cliente al llamar a interfaces de objetos como [IMAPIProp::GetProps](imapiprop-getprops.md) e [IMAPITable::QueryRows](imapitable-queryrows.md). 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La marca SOF_UNIQUEFILENAME se usa para crear un archivo temporal con un nombre único para el sistema de mensajería. Si se establece esta marca, el parámetro _lpszFileName_ especifica la ruta de acceso del archivo temporal y el parámetro _lpszPrefix_ contiene los caracteres de prefijo del nombre de archivo. El nombre de archivo <prefix>construido es HHHH TMP, donde HHHH es un número hexadecimal. Si _lpszFileName_ es null, el archivo se creará en el directorio de archivos temporales que devuelve la función de Windows **GetTempPath**, o el directorio actual, si no se ha designado ningún directorio de archivos temporales. 
+La SOF_UNIQUEFILENAME se usa para crear un archivo temporal con un nombre único para el sistema de mensajería. Si se establece esta marca, el parámetro  _lpszFileName_ especifica la ruta de acceso para el archivo temporal y el parámetro  _lpszPrefix_ contiene los caracteres de prefijo del nombre de archivo. El nombre de archivo construido es <prefix> HHHH. TMP, donde HHHH es un número hexadecimal. Si  _lpszFileName_ es NULL, el archivo se creará en el directorio de archivos temporales que se devuelve de la función de Windows **GetTempPath** o en el directorio actual si no se ha designado ningún directorio de archivos temporales. 
   
-Si no se establece la marca SOF_UNIQUEFILENAME, se omite _lpszPrefix_ y _lpszFileName_ debe contener la ruta de acceso completa y el nombre de archivo del archivo que se va a abrir o crear. El archivo se abrirá o se creará en función de los demás indicadores establecidos en _ulFlags_. 
+Si no se SOF_UNIQUEFILENAME marca, se omite  _lpszPrefix_ y  _lpszFileName_ debe contener la ruta de acceso completa y el nombre de archivo del archivo que se va a abrir o crear. El archivo se abrirá o creará en función de las demás marcas establecidas en  _ulFlags_. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -126,9 +126,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|Archivo. cpp  <br/> |WriteAttachStreamToFile  <br/> |MFCMAPI usa el método **OpenStreamOnFile** para abrir un objeto Stream en un archivo para que se puedan escribir datos adjuntos en él.  <br/> |
+|File.cpp  <br/> |WriteAttachStreamToFile  <br/> |MFCMAPI usa el **método OpenStreamOnFile** para abrir una secuencia en un archivo para que se puedan escribir datos adjuntos en él.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPIClientShutdown
+title: IMAPIClientShutdown IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,36 +25,36 @@ ms.locfileid: "33435337"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite a un cliente MAPI realizar un apagado rápido del proceso de cliente. 
+Permite que un cliente MAPI realice un apagado rápido del proceso de cliente. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
-|Expuesto por:  <br/> |Objeto [IMAPISession](imapisessioniunknown.md)  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Expuesto por:  <br/> |[IMAPISession (objeto)](imapisessioniunknown.md)  <br/> |
 |Implementado por:  <br/> |Subsistema MAPI  <br/> |
 |Llamado por:  <br/> |Cliente MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIClientShutdown  <br/> |
 |Tipo de puntero:  <br/> |LPMAPICLIENTSHUTDOWN  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
 |[QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) <br/> |Consulta el subsistema MAPI para obtener compatibilidad con el apagado rápido que proporcionan los proveedores MAPI cargados.  <br/> |
-|[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indica la intención del cliente MAPI de continuar con el cierre.  <br/> |
-|[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |Indica la intención del cliente MAPI de salir inmediatamente del proceso de cliente.  <br/> |
+|[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indica la intención del cliente MAPI de continuar con el apagado.  <br/> |
+|[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |Indica la intención del cliente MAPI de salir del proceso de cliente inmediatamente.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El propósito del apagado rápido es permitir a un cliente MAPI y a cualquier proveedor MAPI cargado con el que el cliente MAPI haya una sesión de MAPI activa para guardar la configuración y los datos de MAPI. Esto permite al cliente MAPI desconectar todas las referencias externas y salir sin provocar pérdida de datos. Un cliente MAPI que necesite realizar un apagado rápido debe usar la interfaz **IMAPIClientShutdown** . El cliente MAPI puede obtener un puntero a esta interfaz llamando al método IUnknown:: QueryInterface en cualquier objeto [IMAPISession](imapisessioniunknown.md) . 
+El propósito del apagado rápido es permitir que un cliente MAPI y cualquier proveedor MAPI cargado con el que el cliente MAPI tenga una sesión MAPI activa guarden la configuración y los datos de MAPI. Esto permite al cliente MAPI desconectar todas las referencias externas y salir sin causar ninguna pérdida de datos. Un cliente MAPI que necesite realizar un apagado rápido debe usar la **interfaz IMAPIClientShutdown.** El cliente MAPI puede obtener un puntero a esta interfaz llamando al método IUnknown::QueryInterface en cualquier [objeto IMAPISession.](imapisessioniunknown.md) 
   
-Un cliente MAPI siempre inicia un apagado rápido mediante una llamada al método **IMAPIClientShutdown:: QueryFastShutdown** . El subsistema MAPI responde a la consulta del cliente MAPI comprobando si los proveedores MAPI cargados admiten el apagado rápido del cliente. El administrador puede usar la configuración del registro de Windows para ayudar a determinar el nivel de compatibilidad del proveedor que es necesario para que los clientes MAPI continúen con el apagado rápido. Para obtener más información, consulte [Opciones de usuario de apagado rápido](fast-shutdown-user-options.md).
+Un cliente MAPI siempre inicia un apagado rápido llamando al método **IMAPIClientShutdown::QueryFastShutdown.** El subsistema MAPI responde a la consulta del cliente MAPI comprobando si los proveedores MAPI cargados admiten el apagado rápido del cliente. El administrador puede usar la configuración del Registro de Windows para determinar el nivel de compatibilidad del proveedor necesario para que los clientes MAPI continúen con el apagado rápido. Para obtener más información, vea [Opciones de usuario de apagado rápido.](fast-shutdown-user-options.md)
   
-Para continuar con el apagado rápido, el cliente llama al método **IMAPIClientShutdown:: NotifyProcessShutdown** para indicar al subsistema MAPI la intención de cerrarse. A continuación, el cliente llama al método **IMAPIClientShutdown::D ofastshutdown** para indicar que el proceso de cliente está saliendo inmediatamente. 
+Para continuar con el apagado rápido, el cliente llama al método **IMAPIClientShutdown::NotifyProcessShutdown** para indicar al subsistema MAPI la intención de apagar. A continuación, el cliente llama al método **IMAPIClientShutdown::D oFastShutdown** para indicar que el proceso de cliente se está saliendo inmediatamente. 
   
-Para obtener más información acerca del apagado rápido, consulte [información general sobre el apagado rápido](fast-shutdown-overview.md). Para obtener información acerca de cómo realizar el apagado rápido correctamente, consulte [procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
+Para obtener más información acerca del apagado rápido, vea [Información general sobre el apagado rápido.](fast-shutdown-overview.md) Para obtener información acerca de cómo realizar el apagado rápido correctamente, consulte [Procedimientos recomendados para el apagado rápido.](best-practices-for-fast-shutdown.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

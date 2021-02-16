@@ -1,5 +1,5 @@
 ---
-title: /(Dividir) (aplicación web personalizada de Access)
+title: / (Dividir) (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435190"
 ---
-# <a name="-divide-access-custom-web-app"></a>/(Dividir) (aplicación web personalizada de Access)
+# <a name="-divide-access-custom-web-app"></a>/ (Dividir) (aplicación web personalizada de Access)
 
 Divide un número por otro.
   
@@ -22,20 +22,20 @@ Divide un número por otro.
   
 ## <a name="syntax"></a>Sintaxis
 
- **  /  *divisor* del dividendo 
+ *pago de dividendos*   /   *divisor* 
   
- *dividendos*  Es la expresión numérica que se va a dividir. Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos DateTime. 
+ *pago de dividendos*  Es la expresión numérica que se va a dividir. Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime. 
   
- *Núm_divisor*  Es la expresión numérica por la que se va a dividir el dividendo. Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos DateTime. 
+ *Divisor*  Es la expresión numérica por la que se divide el dividendo. Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime. 
   
 ## <a name="return-type"></a>Tipo de valor devuelto
 
-Devuelve el tipo de datos del argumento con la prioridad más alta. 
+Devuelve el tipo de datos del argumento con mayor prioridad. 
   
-Si un didivider de enteros se divide por un *divisor* de enteros, el resultado es un entero que tiene truncado cualquier parte fraccional del resultado. ** 
+Si un entero  *se*  divide por un  *divisor*  de enteros, el resultado es un entero que tiene cualquier parte fraccionada del resultado truncada. 
   
 ## <a name="remarks"></a>Comentarios
 
-El valor real devuelto por el operador/es el cociente de la primera expresión dividida por la segunda expresión.
+El valor real devuelto por el operador / es el cociente de la primera expresión dividida por la segunda expresión.
   
 

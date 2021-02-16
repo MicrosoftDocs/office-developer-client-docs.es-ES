@@ -25,7 +25,7 @@ ms.locfileid: "33438627"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cierra un proveedor de almacenamiento de mensajes de manera ordenada.
+Cierra un proveedor de almacén de mensajes de forma ordenada.
   
 ```cpp
 HRESULT Shutdown(
@@ -33,23 +33,23 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpulFlags_
   
-> a Reserve debe ser un puntero a cero.
+> [entrada] Reservado; debe ser un puntero a cero.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
+> La llamada se realiza correctamente y devuelve el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI llama al método **IMSProvider:: Shutdown** justo antes de liberar el objeto de proveedor de almacén de mensajes. MAPI libera todos los objetos de inicio de sesión de un proveedor antes de llamar a **Shutdown** para ese proveedor. 
+MAPI llama al **método IMSProvider::Shutdown** justo antes de liberar el objeto del proveedor del almacén de mensajes. MAPI libera todos los objetos de inicio de sesión de un proveedor antes de llamar a **Shutdown** para ese proveedor. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

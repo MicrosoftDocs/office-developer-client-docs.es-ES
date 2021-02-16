@@ -1,5 +1,5 @@
 ---
-title: Acción de macro Salirdecadaregistro (aplicación web personalizada de Access)
+title: ExitForEachRecord (acción de macro) (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438047"
 ---
-# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a>Acción de macro Salirdecadaregistro (aplicación web personalizada de Access)
+# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a>ExitForEachRecord (acción de macro) (aplicación web personalizada de Access)
 
 Utilice la acción **SalirDeCadaRegistro** para salir inmediatamente de un bloque de datos **[ParaCadaRegistro](foreachrecord-data-block-access-custom-web-app.md)**. 
   

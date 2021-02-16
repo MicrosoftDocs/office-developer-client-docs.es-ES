@@ -25,7 +25,7 @@ ms.locfileid: "33436051"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica que el sistema está inactivo, lo que permite al proveedor de transporte realizar operaciones de baja prioridad.
+Indica que el sistema está inactivo, lo que permite al proveedor de transporte realizar operaciones de prioridad baja.
   
 ```cpp
 HRESULT Idle(
@@ -33,7 +33,7 @@ HRESULT Idle(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -43,13 +43,13 @@ HRESULT Idle(
 
 S_OK 
   
-> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
+> La llamada se realiza correctamente y devuelve el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama periódicamente al método **IXPLogon:: idle** , si se le solicita, siempre que el sistema está inactivo pasando la marca XP_LOGON_SP en la llamada al método [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) que abrió la sesión actual. En ocasiones, cuando el sistema está inactivo, el proveedor de transporte puede realizar operaciones en segundo plano que no son adecuadas durante otras llamadas, o que tienen que realizarse de forma regular. 
+La cola MAPI llama periódicamente al método **IXPLogon::Idle,** si se solicita, durante las horas en las que el sistema está inactivo pasando la marca XP_LOGON_SP en la llamada al método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) que abrió la sesión actual. En ocasiones, cuando el sistema está inactivo, el proveedor de transporte puede realizar operaciones en segundo plano que no son apropiadas durante otras llamadas o que deben producirse periódicamente. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

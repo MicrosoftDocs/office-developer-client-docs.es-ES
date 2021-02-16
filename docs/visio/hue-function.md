@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251440
 localization_priority: Normal
 ms.assetid: 0f5c6097-eef5-5f58-e2ef-2c348e42dc9a
-description: Devuelve el valor del componente Hue de un color.
+description: Devuelve el valor del componente de matiz de un color.
 ms.openlocfilehash: 39fdd160f5cd792e95930a3e7c7cea3c37ed16c1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33439495"
 ---
 # <a name="hue-function"></a>Función HUE
 
-Devuelve el valor del componente Hue de un color.
+Devuelve el valor del componente de matiz de un color.
   
 ## <a name="syntax"></a>Sintaxis
 
-MATIZ (* * *expresión* * *) 
+HUE(** *expression* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -40,13 +40,13 @@ El valor obtenido es un número en el intervalo de 0 a 239, ambos incluidos. La 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-MATIZ (hoja. 4! FillForegnd
+HUE(Sheet.4! FillForegnd)
   
 Devuelve el matiz del color de relleno en primer plano de la Hoja.4.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-MATIZ (7)
+HUE(7)
   
 Devuelve 120 si el documento utiliza la paleta de colores predeterminada de Microsoft Visio, en la que el índice 7 está asignado al color cian.
   

@@ -25,11 +25,11 @@ ms.locfileid: "33435225"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca la primera aparición de una subcadena terminada en null en una cadena terminada en NULL. 
+Busca la primera aparición de una subcadena terminada en null en una cadena terminada en null. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -40,22 +40,22 @@ LPSTR SzFindCh(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpsz_
   
-> a Puntero a la cadena terminada en null en la que se va a realizar la búsqueda. El parámetro _lpsz_ no debe superar los 65536 caracteres. 
+> [entrada] Puntero a la cadena terminada en null en la que se va a buscar. El  _parámetro lpsz_ no debe superar los 65536 caracteres. 
     
  _lpszKey_
   
-> a Puntero a la subcadena terminada en null que se va a buscar. El parámetro _lpszKey_ no debe superar los 65536 caracteres. 
+> [entrada] Puntero a la subcadena terminada en null que se va a buscar. El  _parámetro lpszKey_ no debe superar los 65536 caracteres. 
     
 ## <a name="return-value"></a>Valor devuelto
 
- **SzFindSz** devuelve un puntero al primer carácter de la primera aparición de la subcadena en la cadena. Si la subcadena no aparece en ninguna parte de la cadena, si _lpszKey_ es mayor que _lpsz_o si cualquiera de los parámetros es null, se devuelve un valor null. 
+ **SzFindSz** devuelve un puntero al primer carácter de la primera aparición de la subcadena de la cadena. Si la subcadena no se produce en ningún lugar de la cadena, si  _lpszKey_ es mayor que  _lpsz_ o si cualquiera de los parámetros es NULL, se devuelve un valor NULL. 
   
 ## <a name="remarks"></a>Comentarios
 
-La función **SzFindSz** busca sólo una coincidencia exacta; es sensible a las diferencias de mayúsculas y minúsculas y diacríticos. Se admiten las búsquedas en formatos Unicode y DBCS. El límite de longitud de ambos parámetros está en caracteres, no necesariamente bytes. 
+La **función SzFindSz** solo busca una coincidencia exacta; es sensible a las diferencias entre mayúsculas y minúsculas. Se admiten búsquedas en formatos Unicode y DBCS. El límite de longitud de ambos parámetros está en caracteres, no necesariamente bytes. 
   
 

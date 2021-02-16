@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: edad1223-a55f-4e4a-8e90-3471f2f559ac
-description: 'El elemento Capabilities del esquema XML del proveedor (OSC) permite a un proveedor OSC especificar su funcionalidad. Esta funcionalidad incluye lo siguiente:'
+description: 'El elemento capabilities del esquema XML del proveedor (OSC) permite a un proveedor de OSC especificar su funcionalidad. Esta funcionalidad incluye lo siguiente:'
 ms.openlocfilehash: ff6abbd4d99eb542a11e3d64a2015fc0585fca79
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,28 +17,28 @@ ms.locfileid: "33435008"
 ---
 # <a name="xml-for-capabilities"></a>XML de capacidades
 
-El elemento **Capabilities** del esquema XML del proveedor (OSC) permite a un proveedor OSC especificar su funcionalidad. Esta funcionalidad incluye lo siguiente: 
+El **elemento** capabilities del esquema XML del proveedor (OSC) permite a un proveedor de OSC especificar su funcionalidad. Esta funcionalidad incluye lo siguiente: 
   
-- Si el proveedor admite la obtención, el almacenamiento en caché o la búsqueda dinámica de amigos y actividades desde la red social.
+- Si el proveedor admite obtener, almacenar en caché o buscar dinámicamente amigos y actividades desde la red social.
     
-- Cómo el OSC debe mostrar ciertas interfaces de inicio de sesión de usuario.
+- Cómo debe mostrar el OSC determinadas interfaces de usuario de inicio de sesión.
     
-- Si OSC debe usar la autenticación basada en formularios o configurar automáticamente la red social e iniciar sesión en el usuario en la red social.
+- Si el OSC debe usar la autenticación basada en formularios o configurar automáticamente la red social y los registros en el usuario en la red social.
     
-El esquema XML para **capacidades** es crítico porque identifica a la funcionalidad admitida por el proveedor para el OSC. Un proveedor OSC debe implementar el método [ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md) que devuelve una cadena de _resultado_ . El OSC llama a **ISocialProvider:: GetCapabilities** para obtener información sobre las funciones del proveedor OSC en la cadena de _resultado_ , que cumple con la definición del esquema XML para el elemento **Capabilities** . Esta información permite que las llamadas posteriores desde el OSC al proveedor de OSC funcionen correctamente. 
+El esquema XML de **funcionalidades** es fundamental porque identifica al OSC la funcionalidad admitida por el proveedor. Un proveedor de OSC debe implementar el [método ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) que devuelve una cadena  _de_ resultado. El OSC llama a **ISocialProvider::GetCapabilities** para obtener información sobre  las capacidades del proveedor de OSC en la cadena de resultados, que cumple con la definición de esquema XML para el elemento **capabilities.** Esta información permite que las llamadas posteriores desde el OSC al proveedor de OSC funcionen correctamente. 
   
-Para especificar las capacidades de un proveedor de OSC como un parámetro de salida del método **ISocialProvider:: GetCapabilities** , debe cumplir con el esquema XML de extensibilidad del proveedor OSC. En la siguiente figura se muestra la estructura XML **Capabilities** . 
+Para especificar las capacidades de un proveedor de OSC como parámetro de salida del método **ISocialProvider::GetCapabilities,** debe cumplir con el esquema XML de extensibilidad del proveedor de OSC. En la figura siguiente se muestra la estructura XML **de** las capacidades. 
   
-**Figura 1. \<estructura\> XML de capacidades**
+**Figura 1. \<funcionalidades \> Estructura XML**
 
 ![Estructura XML de capacidades](media/ol14oscref_Specifyingxmlforcapabilities_image1.gif)
   
-Para obtener descripciones detalladas de los elementos secundarios del elemento **Capabilities** , vea [Capabilities XML Elements](capabilities-xml-elements.md). Para obtener un ejemplo de XML de **capacidades** , vea el [ejemplo de XML de Capabilities](capabilities-xml-example.md). Para obtener una definición completa del esquema XML del proveedor de OSC, incluidos los elementos necesarios u opcionales, vea el [esquema XML del proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md).
+Para obtener descripciones detalladas de los elementos secundarios del elemento **capabilities,** vea [Capabilities XML Elements](capabilities-xml-elements.md). Para obtener un ejemplo de XML **de** funcionalidades, vea [el ejemplo XML de funcionalidades.](capabilities-xml-example.md) Para obtener una definición completa del esquema XML del proveedor de OSC, incluidos los elementos necesarios u opcionales, vea Esquema XML del proveedor de [Outlook Social Connector](outlook-social-connector-provider-xml-schema.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
-- [Ejemplo de XML de capacidades](capabilities-xml-example.md)  
-- [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md)  
+- [Ejemplo xml de funcionalidades](capabilities-xml-example.md)  
+- [Sincronizar amigos y actividades](synchronizing-friends-and-activities.md)  
 - [XML para amigos](xml-for-friends.md)  
 - [XML para actividades](xml-for-activities.md)
 - [Desarrollo de un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)

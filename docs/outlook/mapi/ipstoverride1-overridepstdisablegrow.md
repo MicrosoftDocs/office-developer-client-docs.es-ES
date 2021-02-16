@@ -25,7 +25,7 @@ ms.locfileid: "33438928"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Desbloquea un archivo de carpetas personales (. pst) para una sesión, reemplazando la Directiva PSTDisableGrow.
+Desbloquea un archivo de carpetas personales (.pst) para una sesión, reemplazando la directiva PSTDisableGrow.
   
 ```cpp
 HRESULT OverridePSTDisableGrow();
@@ -35,9 +35,9 @@ HRESULT OverridePSTDisableGrow();
 
 S_OK
   
-> La llamada a la función se realizó correctamente.
+> La llamada a la función se ha realizado correctamente.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

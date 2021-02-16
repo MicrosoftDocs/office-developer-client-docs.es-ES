@@ -37,11 +37,11 @@ En la siguiente ilustraci�n muestra c�mo estos diversos par�metros y marca
   
 **Diagrama de flujo de sesi�n de MAPI**
   
-![Diagrama de flujo de sesión MAPI] (media/amapi_47.gif "Diagrama de flujo de sesión MAPI")
+![Diagrama de flujo de sesión]MAPI de mapi session(media/amapi_47.gif "flowchart")
   
 For information about handling sessions from within a client application, see [Control de sesi�n MAPI](mapi-session-handling.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [MAPILogonEx](mapilogonex.md)  
 - [IMAPISession: IUnknown](imapisessioniunknown.md)

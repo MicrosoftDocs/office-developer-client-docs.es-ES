@@ -25,11 +25,11 @@ ms.locfileid: "33439012"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Convierte una cadena terminada en NULL de dígitos decimales en un entero sin signo. 
+Convierte una cadena terminada en null de dígitos decimales en un entero sin signo. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,11 +39,11 @@ UINT UFromSz(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpsz_
   
-> a Puntero a la cadena terminada en null que se va a convertir. El parámetro _lpsz_ no debe superar los 65536 caracteres. 
+> [entrada] Puntero a la cadena terminada en null que se va a convertir. El  _parámetro lpsz_ no debe superar los 65536 caracteres. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,8 +51,8 @@ UINT UFromSz(
   
 ## <a name="remarks"></a>Comentarios
 
-La función **UFromSz** detiene la conversión cuando alcanza el primer carácter de la cadena que no es un dígito decimal. Por ejemplo, dada la cadena "55", **UFromSz** devuelve el valor entero 55. Dada la cadena "5a5b", la función devuelve el valor entero 5. Dada la cadena "A5B5", **UFromSz** devuelve cero. 
+La **función UFromSz** deja de convertirse cuando alcanza el primer carácter de la cadena que no es un dígito decimal. Por ejemplo, dado la cadena "55", **UFromSz** devuelve el valor entero 55. Dada la cadena "5a5b", la función devuelve el valor entero 5. Dado la cadena "a5b5", **UFromSz** devuelve cero. 
   
- **UFromSz** es sensible a las diferencias diacríticas. Se admiten cadenas en los formatos Unicode y DBCS. El límite de longitud de _lpsz_ está en caracteres, no necesariamente bytes. 
+ **UFromSz es** sensible a las diferencias diacríticas. Se admiten cadenas en los formatos Unicode y DBCS. El límite de longitud  _de lpsz_ está en caracteres, no necesariamente bytes. 
   
 

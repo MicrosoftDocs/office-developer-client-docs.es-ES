@@ -23,6 +23,6 @@ Descarta los cambios realizados en el registro actual.
   
 ## <a name="remarks"></a>Comentarios
 
-La acción **UndoRecord** equivale a usar el botón **Cancelar** de la barra de acciones para descartar los cambios. 
+La **acción DeshacerRegistro** equivale a usar el botón **Cancelar** en los cambios de descarte de la barra de acciones. 
   
 

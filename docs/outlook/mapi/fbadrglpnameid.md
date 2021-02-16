@@ -25,7 +25,7 @@ ms.locfileid: "33434833"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Valida una matriz de estructuras que describen las propiedades con nombre y comprueba su asignación. 
+Valida una matriz de estructuras que describen propiedades con nombre y comprueba su asignación. 
   
 |||
 |:-----|:-----|
@@ -44,24 +44,24 @@ BOOL FBadRglpNameID(
 
  _lppNameId_
   
-> a Puntero a una matriz de estructuras [MAPINAMEID](mapinameid.md) que describen las propiedades con nombre. 
+> [entrada] Puntero a una matriz [de estructuras MAPINAMEID](mapinameid.md) que describen las propiedades con nombre. 
     
- _CNAME_
+ _cNames_
   
-> a Número de estructuras de propiedad con nombre en la matriz señalada por el parámetro _lppNameId_ . 
+> [entrada] Recuento de estructuras de propiedades con nombre en la matriz a la que apunta el parámetro _lppNameId._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> Una o varias de las estructuras de nombres de propiedad especificadas no son válidas. 
+> Una o varias de las estructuras de nombre de propiedad especificadas no son válidas. 
     
 FALSE 
   
-> Las estructuras de nombres de propiedad especificadas son válidas.
+> Todas las estructuras de nombre de propiedad especificadas son válidas.
     
 ## <a name="remarks"></a>Comentarios
 
-La función **FBadRglpNameID** se puede usar al configurar una llamada a [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) o [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md). 
+La **función FBadRglpNameID** se puede usar al configurar una llamada a [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) o [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). 
   
 

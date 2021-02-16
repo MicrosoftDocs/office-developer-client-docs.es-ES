@@ -25,24 +25,24 @@ ms.locfileid: "33438998"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes en una estructura [MTSID](mtsid.md) existente. 
+Calcula el número de bytes de una estructura [MTSID](mtsid.md) existente. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada:  <br/> |**MTSID** <br/> |
    
 ```cpp
 CbMTSID (_lpentry)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- __lpentry_
+ _ _lpentry_
   
 > Puntero a la estructura **MTSID** existente. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

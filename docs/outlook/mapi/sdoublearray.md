@@ -25,11 +25,11 @@ ms.locfileid: "33439271"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de doubles que se usa para describir una propiedad de tipo PT_MV_DOUBLE.
+Contiene una matriz de dobles que se usa para describir una propiedad de tipo PT_MV_DOUBLE.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SDoubleArray
@@ -40,21 +40,21 @@ typedef struct _SDoubleArray
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cValues**
   
-> Número de valores de la matriz a los que señala el miembro **lpdbl** . 
+> Recuento de valores de la matriz a la que apunta el **miembro lpdbl.** 
     
  **lpdbl**
   
-> Puntero a una matriz de valores de tipo Double.
+> Puntero a una matriz de valores dobles.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca de PT_MV_DOUBLE, vea [lista de tipos de propiedades](property-types.md).
+Para obtener más información acerca PT_MV_DOUBLE, vea [Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

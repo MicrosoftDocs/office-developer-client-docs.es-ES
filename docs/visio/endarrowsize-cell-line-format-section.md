@@ -20,14 +20,14 @@ ms.locfileid: "33438081"
 
 Determina el tamaño de la punta de flecha que aparece en el extremo de la línea.
   
-|**Valor**|**Size**|**Constante de automatización**|
+|**Valor**|**Tamaño**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|comprendi  <br/> |Muy pequeño  <br/> |**visArrowSizeVerySmall** <br/> |
-|1  <br/> |Pequeño  <br/> |**visArrowSizeSmall** <br/> |
-|segundo  <br/> |Mediano  <br/> |**visArrowSizeMedium** <br/> |
-|3  <br/> |Grande  <br/> |**visArrowSizeLarge** <br/> |
+|0  <br/> |Muy pequeño  <br/> |**visArrowSizeVerySmall** <br/> |
+|1   <br/> |Pequeño  <br/> |**visArrowSizeSmall** <br/> |
+|2   <br/> |Mediano  <br/> |**visArrowSizeMedium** <br/> |
+|3   <br/> |Grande  <br/> |**visArrowSizeLarge** <br/> |
 |4   <br/> |Extragrande  <br/> |**visArrowSizeVeryLarge** <br/> |
-|5   <br/> |Trama  <br/> |**visArrowSizeJumbo** <br/> |
+|5   <br/> |Gigantes  <br/> |**visArrowSizeJumbo** <br/> |
 |6   <br/> |Colossal  <br/> |**visArrowSizeColossal** <br/> |
    
 ## <a name="remarks"></a>Comentarios

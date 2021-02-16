@@ -22,19 +22,19 @@ Almacena un valor que se establece a través de una acción en la interfaz de us
   
 ## <a name="syntax"></a>Sintaxis
 
-SETATREFEXPR ([* * *expr_opt* * *]) 
+SETATREFEXPR ([ ** *expr_opt* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expr_opt_ <br/> |Opcional  <br/> |**Diferencias** <br/> |Expresión que se reemplaza por el valor o la expresión que se asigna a la celda a la que se hace referencia en la función SETATREF. Si no se indica, su valor inicial es 0 (cero).  <br/> |
+| _expr_opt_ <br/> |Opcional  <br/> |**Varía** <br/> |Expresión que se reemplaza por el valor o la expresión que se asigna a la celda a la que se hace referencia en la función SETATREF. Si no se indica, su valor inicial es 0 (cero).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 El valor de una expresión SETATREFEXPR también se puede establecer desde una función SETATREF en otra celda que haga referencia a la celda que contiene la expresión SETATREFEXPR. 
   
-No está limitado a usar la función SETATREFEXPR como un parámetro para la función SETATREF. 
+No está limitado a usar la función SETATREFEXPR como parámetro para la función SETATREF. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
@@ -50,9 +50,9 @@ User.GridX =2 pda
   
 User.GridY =2 pda
   
-PinX = INT (SETATREFEXPR ()/User.GridX + 5)\*User. GridX
+PinX =INT(SETATREFEXPR()/User.GridX + .5) \* User.GridX
   
-PinY = INT (SETATREFEXPR ()/User.GridY + 0,5)\*User. GridY
+PinY =INT(SETATREFEXPR()/User.GridY + .5) \* User.GridY
   
 ## <a name="example-3"></a>Ejemplo 3
 

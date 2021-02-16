@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cf727140-f6e7-4718-bd74-1f8feeccf70c
-description: Este método está en desuso en Outlook Social Connector 2013.
+description: Este método ha quedado en desuso en Outlook Social Connector 2013.
 ms.openlocfilehash: abad4fc2a3e3aaea8a7097ac7e6f56b0aadae299
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33437745"
 ---
 # <a name="isocialpersongetactivities"></a>ISocialPerson::GetActivities
 
-Este método está en desuso en Outlook Social Connector 2013.
+Este método ha quedado en desuso en Outlook Social Connector 2013.
   
 ```cpp
 HRESULT _stdcall GetActivities([in] DATE startTime, [out, retval] BSTR* activities);
@@ -25,11 +25,11 @@ HRESULT _stdcall GetActivities([in] DATE startTime, [out, retval] BSTR* activiti
 
 ## <a name="remarks"></a>Comentarios
 
-A partir de Outlook Social Connector 2013, el OSC admite sólo la sincronización a petición de actividades y no la sincronización híbrida o la caché de actividades. El OSC omite la configuración **cacheActivities** en el XML de capacidades y no llama a este método. Para admitir la búsqueda de actividades dinámicas, implemente el método [ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md) . Establezca **cacheActivities** como **false**, **getActivities** y **dynamicActivitiesLookupEx** como **true**, lo que pedirá al OSC que llame a **ISocialSession2:: GetActivitiesEx** en su lugar. 
+A partir de Outlook Social Connector 2013, el OSC solo admite la sincronización a petición de actividades y no la sincronización híbrida o en caché de las actividades. El OSC omite la configuración **cacheActivities** en el XML de funcionalidades y no llama a este método. Para admitir la búsqueda de actividades dinámicas, implemente [el método ISocialSession2::GetActivitiesEx.](isocialsession2-getactivitiesex.md) Establezca **cacheActivities** como **false**, **getActivities** y **dynamicActivitiesLookupEx** como **true**, lo que pedirá al OSC que llame a **ISocialSession2::GetActivitiesEx** en su lugar. 
   
-Para obtener más información sobre cómo el OSC obtiene las actividades de amigos, consulte [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md). 
+Para obtener más información sobre cómo el OSC obtiene actividades de amigos, consulta Sincronizar amigos [y actividades.](synchronizing-friends-and-activities.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

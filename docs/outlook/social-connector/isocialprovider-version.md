@@ -25,11 +25,11 @@ Devuelve una cadena que representa el número de versión del proveedor de esta 
 
 ## <a name="property-value"></a>Valor de propiedad
 
-Una cadena que contiene el número de versión del proveedor.
+Cadena que contiene el número de versión del proveedor.
   
 ## <a name="remarks"></a>Comentarios
 
-La cadena de versión debe usar _MajorVersion_. _MinorVersion_ formato (por ejemplo, 1,4730). 
+La cadena de versión debe usar  _MajorVersion_. _Formato MinorVersion_ (por ejemplo, 1,4730). 
   
 ## <a name="see-also"></a>Vea también
 

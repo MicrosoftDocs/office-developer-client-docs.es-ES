@@ -25,11 +25,11 @@ ms.locfileid: "33435183"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información sobre un problema de procesamiento de atributo o propiedad que se produjo durante la codificación o descodificación de una secuencia TNEF (Transport neutral Encapsulation Format).
+Contiene información sobre un problema de procesamiento de propiedades o atributos que se produjo durante la codificación o decodificación de una secuencia de formato de encapsulamiento neutro de transporte (TNEF).
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |TNEF. h  <br/> |
+|Archivo de encabezado:  <br/> |Tnef.h  <br/> |
    
 ```cpp
 typedef struct _STnefProblem
@@ -42,15 +42,15 @@ typedef struct _STnefProblem
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulComponent**
   
-> El tipo de procesamiento durante el cual se produjo el problema. Si el problema se produjo durante el procesamiento del mensaje, el miembro **ulComponent** se establece en cero. Si el problema se produjo durante el procesamiento de datos adjuntos, **ulComponent** se establece en el valor **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) correspondiente del adjunto.
+> Tipo de procesamiento durante el cual se produjo el problema. Si el problema se produjo durante el procesamiento de mensajes, el **miembro ulComponent** se establece en cero. Si el problema se produjo durante el procesamiento de datos adjuntos, **ulComponent** se establece igual al valor de PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) correspondiente.
     
  **ulAttribute**
   
-> Atributo asociado a la propiedad indicada por el miembro **ulPropTag** o, cuando se produce el problema de procesamiento TNEF al descodificar un bloque de encapsulación, uno de los siguientes valores: 
+> Atributo asociado a la propiedad indicada por el miembro **ulPropTag** o, cuando se produce el problema de procesamiento TNEF al decodificar un bloque de encapsulación, uno de los siguientes valores: 
     
  _attMAPIProps_
   
@@ -58,21 +58,21 @@ typedef struct _STnefProblem
     
  _attAttachment_
   
-> Nivel de datos adJuntos
+> Nivel de datos adjuntos
     
  **ulPropTag**
   
-> Etiqueta de propiedad de la propiedad que causó el problema de procesamiento TNEF, excepto cuando el problema se produce al descodificar un bloque de encapsulación, en cuyo caso **ulPropTag** se establece en cero. 
+> Etiqueta de propiedad de la propiedad que provocó el problema de procesamiento TNEF, excepto cuando el problema se produce al decodificar un bloque de encapsulación, en cuyo caso **ulPropTag** se establece en cero. 
     
- **SCODE**
+ **scode**
   
 > Valor de error que indica el problema detectado durante el procesamiento.
     
 ## <a name="remarks"></a>Comentarios
 
-Si no se genera una estructura **STnefProblem** durante el procesamiento de un atributo o una propiedad, la aplicación puede continuar bajo el supuesto de que el procesamiento de ese atributo o propiedad se ha realizado correctamente. La única excepción se produce cuando el problema surgió durante la descodificación de un bloque de encapsulación. En este caso, se detiene la descodificación del componente correspondiente al bloque y la descodificación continúa en otro componente. 
+Si no se genera una estructura **STnefProblem** durante el procesamiento de un atributo o propiedad, la aplicación puede continuar con la suposición de que el procesamiento de ese atributo o propiedad se ha hecho correctamente. La única excepción se produce cuando el problema se produjo durante la decodificación de un bloque de encapsulación. En este caso, la decodificación del componente correspondiente al bloque se detiene y la decodificación continúa en otro componente. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

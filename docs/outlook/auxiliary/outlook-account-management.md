@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 369cf384-94b6-4d41-8938-afdcbd13f132
-description: En esta sección se describe la API de administración de cuentas, que proporciona acceso a la información de cuentas y admite notificaciones de cambio de cuenta. También incluye información sobre la protección de cuentas contra correo no deseado y la administración de descargas de mensajes para cuentas POP3.
+description: En esta sección se describe la API de administración de cuentas, que proporciona acceso a la información de la cuenta y admite notificaciones de cambio de cuenta. También incluye información sobre la protección de cuentas contra correo no deseado y la administración de descargas de mensajes para cuentas POP3.
 ms.openlocfilehash: 425739639562a91586d23b41de119916886e2c4a
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33437850"
 ---
 # <a name="outlook-account-management"></a>Administración de cuentas de Outlook
 
-En esta sección se describe la API de administración de cuentas, que proporciona acceso a la información de cuentas y admite notificaciones de cambio de cuenta. También incluye información sobre la protección de cuentas contra correo no deseado y la administración de descargas de mensajes para cuentas POP3.
+En esta sección se describe la API de administración de cuentas, que proporciona acceso a la información de la cuenta y admite notificaciones de cambio de cuenta. También incluye información sobre la protección de cuentas contra correo no deseado y la administración de descargas de mensajes para cuentas POP3.
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
     

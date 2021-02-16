@@ -21,7 +21,7 @@ ms.locfileid: "33435463"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Hay dos posibles codificaciones para el contenido del mensaje: uno con MIME, el otro con uuencode. MIME es la codificación preferida. Además, MAPI define una propiedad por destinatario, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), que controla si se debe incluir la información de TNEF en un mensaje saliente. Por lo tanto, hay un total de cuatro formas de codificar el contenido del mensaje:
+Hay dos codificaciones posibles para el contenido del mensaje: una con MIME y la otra con uuencode. MIME es la codificación preferida. Además, MAPI define una propiedad por destinatario, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), que rige si la información TNEF debe incluirse o no en un mensaje saliente. Por lo tanto, hay un total de cuatro formas de codificar el contenido de los mensajes:
   
 - MIME con TNEF
     
@@ -31,14 +31,14 @@ Hay dos posibles codificaciones para el contenido del mensaje: uno con MIME, el 
     
 - uuencode sin TNEF
     
-No se ha especificado el modo de elegir MIME o uuencode para los mensajes salientes.
+No se especifica cómo elegir MIME o uuencode para los mensajes salientes.
   
-Las siguientes propiedades se excluyen de TNEF **:\*PR_SENDER_**, **PR_ATTACH_DATA_\***, **PR_BODY**. El resto de las propiedades de los mensajes transmitibles se incluyen en la secuencia TNEF.
+Las siguientes propiedades se excluyen de TNEF: **\* PR_SENDER_**, **PR_ATTACH_DATA_ \***, **PR_BODY**. Todas las demás propiedades de mensaje que se pueden transmitir se incluyen en la secuencia TNEF.
   
-Las siguientes sugerencias tienen como objetivo proporcionar una lista de parámetros que la implementación puede usar para decidir cómo:
+Las siguientes sugerencias están pensadas para proporcionar una lista de parámetros que la implementación puede decidir cómo admitir:
   
-- Si se va a codificar mediante MIME o uuencode para los mensajes salientes: Boolean.
+- Si se codifica mediante MIME o uuencode para los mensajes salientes: booleano.
     
-- Juego de caracteres que se va a usar para los mensajes salientes: String (que se copia directamente al parámetro charset) o enumeración (se traduce internamente a la cadena del juego de caracteres).
+- Juego de caracteres que se usará para los mensajes salientes: cadena (copiada directamente al parámetro charset) o enumeración (traducida internamente a cadena de conjunto de caracteres).
     
 

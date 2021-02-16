@@ -32,29 +32,29 @@ Contiene el nombre del perfil.
 |Propiedades asociadas:  <br/> |PR_PROFILE_NAME, PR_PROFILE_NAME_A, PR_PROFILE_NAME_W  <br/> |
 |Identificador:  <br/> |0x3D12  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Configuración del perfil MAPI  <br/> |
+|Área:  <br/> |Configuración de perfil MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son calculadas por proveedores de servicios. La implementación de un proveedor de la función **ServiceEntry** puede usar estas propiedades para descubrir el nombre del perfil. 
+Estos proveedores de servicios calculan estas propiedades. La implementación de un proveedor de la **función ServiceEntry** puede usar estas propiedades para detectar el nombre del perfil. 
   
-Las aplicaciones cliente pueden usar estas propiedades como una alternativa cómoda para obtener el nombre del perfil mediante el examen de la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) en la fila de la tabla de estado del subsistema MAPI.
+Las aplicaciones cliente pueden usar estas propiedades como alternativa conveniente para obtener el nombre del perfil examinando la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) en la fila de tabla de estado del subsistema MAPI.
   
-Es posible que estas propiedades no sean únicas a lo largo del tiempo, por ejemplo, cuando se elimina un perfil y posteriormente se vuelve a crear con el mismo nombre. MAPI facilita una propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) totalmente única en una sección de perfil codificada de forma rígida denominada **MUID_PROFILE_INSTANCE.**
+Es posible que estas propiedades no sean únicas a lo largo del tiempo, por ejemplo, cuando se elimina un perfil y se vuelve a crear posteriormente con el mismo nombre. MAPI proporciona una propiedad PR_SEARCH_KEY **(** [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) totalmente única en una sección de perfil codificado de forma **MUID_PROFILE_INSTANCE.**
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -62,7 +62,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

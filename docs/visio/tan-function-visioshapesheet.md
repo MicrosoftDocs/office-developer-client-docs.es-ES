@@ -22,13 +22,13 @@ Devuelve la tangente de un ángulo.
   
 ## <a name="syntax"></a>Sintaxis
 
-TAN (* * *ángulo* * *) 
+TAN(** *angle* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _respecto_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que se va a obtener la tangente.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que se va a obtener la tangente.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -36,7 +36,7 @@ Numérico
   
 ## <a name="remarks"></a>Comentarios
 
-La función TAN usa radianes a menos que especifique una unidad de medida diferente en el *ángulo* . 
+La función TAN usa radianes a menos que especifique una unidad de medida diferente en *ángulo.* 
   
 ## <a name="example"></a>Ejemplo
 

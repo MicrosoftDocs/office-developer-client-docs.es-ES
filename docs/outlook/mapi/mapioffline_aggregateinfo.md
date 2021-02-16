@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438165"
 ---
-# <a name="mapiofflineaggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
+# <a name="mapioffline_aggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
 
   
   
@@ -32,21 +32,21 @@ typedef struct
 } MAPIOFFLINE_AGGREGATEINFO;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulSize**
   
-> El tamaño de la estructura.
+> Tamaño de la estructura.
     
  **pOuterObj**
   
-> Un puntero al objeto IUnknown en el que se agrega este objeto. Esto permite que cualquier llamada QueryInterface pase a través del objeto creado.
+> Puntero al objeto IUnknown en el que se va a agregar este objeto. Esto permite que cualquier llamada QueryInterface pase al objeto creado.
     
  **pRefTrackRoot**
   
 > Debe ser NULL.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "33435421"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita la libreta de direcciones de contacto (CAB) especificada por el identificador de entrada especificado de la jerarquía de libretas de direcciones.
+Quita la libreta de direcciones de contactos (CAB) especificada por el identificador de entrada especificado de la jerarquía de la libreta de direcciones.
   
 ```cpp
 HRESULT RemoveStore(
@@ -34,14 +34,14 @@ LPENTRYID lpEntryID
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbEntryID_
   
-> a El recuento de bytes en el identificador de entrada al que apunta el parámetro _lpEntryID_ . 
+> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> a Un puntero al identificador de entrada del objeto que se va a abrir.
+> [entrada] Puntero al identificador de entrada del objeto que se debe abrir.
     
 

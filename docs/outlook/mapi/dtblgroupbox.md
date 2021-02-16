@@ -25,11 +25,11 @@ ms.locfileid: "33438396"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un control de cuadro de grupo que se utilizará en un cuadro de diálogo generado a partir de una tabla de presentación.
+Describe un control de cuadro de grupo que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Macro relacionada:  <br/> |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |
    
 ```cpp
@@ -41,7 +41,7 @@ typedef struct _DTBLGROUPBOX
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulbLpszLabel**
   
@@ -49,19 +49,19 @@ typedef struct _DTBLGROUPBOX
     
  **ulFlags**
   
-> Máscara de la máscara usada para designar el formato de la etiqueta a la que señala el miembro **ulbLpszLabel** . Se puede establecer la siguiente marca: 
+> Máscara de bits de marcas usada para designar el formato de la etiqueta a la que apunta el **miembro ulbLpszLabel.** Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si no MAPI_UNICODE marca, la etiqueta está en formato ANSI.
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLGROUPBOX** describe un control de cuadro de grupo que se usa para asociar visualmente otros controles en el cuadro de diálogo. La técnica de resaltado implica rodear los demás controles por un cuadro. 
+Una **estructura DTBLGROUPBOX** describe un control de cuadro de grupo que se usa para asociar visualmente otros controles en el cuadro de diálogo. La técnica de resaltado implica rodear los demás controles por un cuadro. 
   
-Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md).
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

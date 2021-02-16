@@ -18,7 +18,7 @@ ms.locfileid: "33436786"
 ---
 # <a name="x-cell-connection-points-section"></a>Celda X (Sección de puntos de conexión)
 
-Representa la coordenada *x* de un punto de conexión en coordenadas locales. 
+Representa la coordenada  *x*  de un punto de conexión en coordenadas locales. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -26,14 +26,14 @@ Para obtener una referencia a la celda X por su nombre desde otra fórmula, o de
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Connections. X *i* donde *i* = <1>, 2, 3...  <br/> |
+| Nombre de celda:  <br/> | Connections.X  *i*            donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda X por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionConnectionPts** <br/> |
-| Índice de fila:  <br/> |**visRowConnectionPts** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowConnectionPts**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visX** <br/> |
    
 

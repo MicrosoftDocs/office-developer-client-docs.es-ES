@@ -1,5 +1,5 @@
 ---
-title: IUnknown IProfAdmin
+title: IProfAdmin IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,28 +29,28 @@ Admite la administración de perfiles.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapix. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapix.h  <br/> |
 |Expuesto por:  <br/> |Objeto de administración de perfiles  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IProfAdmin  <br/> |
 |Tipo de puntero:  <br/> |LPPROFADMIN  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[Volvió](iprofadmin-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjo en un objeto de administración de perfiles.  <br/> |
+|[GetLastError](iprofadmin-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjo en un objeto de administración de perfiles.  <br/> |
 |[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |Proporciona acceso a la tabla de perfiles, una tabla que contiene información sobre todos los perfiles disponibles.  <br/> |
 |[CreateProfile](iprofadmin-createprofile.md) <br/> |Crea un nuevo perfil.  <br/> |
 |[DeleteProfile](iprofadmin-deleteprofile.md) <br/> |Elimina un perfil.  <br/> |
-|[ChangeProfilePassword](iprofadmin-changeprofilepassword.md) <br/> |En desuso. Cambia la contraseña de un perfil.  <br/> |
+|[ChangeProfilePassword](iprofadmin-changeprofilepassword.md) <br/> |Obsoleto. Cambia la contraseña de un perfil.  <br/> |
 |[CopyProfile](iprofadmin-copyprofile.md) <br/> |Copia un perfil.  <br/> |
-|[RenameProfile](iprofadmin-renameprofile.md) <br/> |Asigna un nombre nuevo a un perfil.  <br/> |
-|[Setdefaultprofile a](iprofadmin-setdefaultprofile.md) <br/> |Establece o borra el perfil predeterminado de un cliente.  <br/> |
+|[RenameProfile](iprofadmin-renameprofile.md) <br/> |Asigna un nuevo nombre a un perfil.  <br/> |
+|[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |Establece o borra el perfil predeterminado de un cliente.  <br/> |
 |[AdminServices](iprofadmin-adminservices.md) <br/> |Proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en los servicios de mensajes de un perfil.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

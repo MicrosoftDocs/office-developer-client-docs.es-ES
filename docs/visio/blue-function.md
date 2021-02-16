@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251402
 localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
-description: Devuelve el componente azul de un color. El valor devuelto es un número entero comprendido entre 0 y 255, ambos inclusive. La función devuelve 0 para la entrada no válida.
+description: Devuelve el componente azul de un color. El valor devuelto es un entero comprendido entre 0 y 255, ambos inclusive. La función devuelve 0 para la entrada no válida.
 ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33439040"
 ---
 # <a name="blue-function"></a>Función BLUE
 
-Devuelve el componente azul de un color. El valor devuelto es un número entero comprendido entre 0 y 255, ambos inclusive. La función devuelve 0 para la entrada no válida.
+Devuelve el componente azul de un color. El valor devuelto es un entero entre 0 y 255, ambos inclusive. La función devuelve 0 para la entrada no válida.
   
 ## <a name="syntax"></a>Sintaxis
 
-AZUL (* * *expresión* * *) 
+BLUE(** *expression* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -36,13 +36,13 @@ Entero
   
 ## <a name="example-1"></a>Ejemplo 1
 
-AZUL (hoja. 4! FillForegnd
+BLUE(Sheet.4! FillForegnd)
   
 Devuelve el componente azul del color de relleno del primer plano en la Hoja.4.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-AZUL (13)
+BLUE(13)
   
 Devuelve 128 si el documento utiliza la paleta predeterminada de colores de Visio, en la que el índice 13 está asignado al color cian.
   

@@ -1,5 +1,5 @@
 ---
-title: IUnknown IProviderAdmin
+title: IProviderAdmin IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,32 +25,32 @@ ms.locfileid: "33437535"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Trabaja con proveedores de servicios en un servicio de mensajes. 
+Funciona con proveedores de servicios en un servicio de mensajes. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuesto por:  <br/> |Objetos de administración del proveedor  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
 |Identificador de interfaz:  <br/> |IID_IProviderAdmin  <br/> |
 |Tipo de puntero:  <br/> |LPPROVIDERADMIN  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[Volvió](iprovideradmin-getlasterror.md) <br/> |Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjo en el objeto de administración del proveedor.  <br/> |
-|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Proporciona acceso a la tabla de proveedores del servicio de mensajes, una lista de los proveedores de servicios del servicio de mensajes.  <br/> |
+|[GetLastError](iprovideradmin-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjo en el objeto de administración del proveedor.  <br/> |
+|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Proporciona acceso a la tabla de proveedores del servicio de mensajes, una lista de los proveedores de servicios en el servicio de mensajes.  <br/> |
 |[CreateProvider](iprovideradmin-createprovider.md) <br/> |Agrega un proveedor de servicios al servicio de mensajes.  <br/> |
 |[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Elimina un proveedor de servicios del servicio de mensajes.  <br/> |
-|[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Abre una sección de perfil desde el perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para obtener más acceso.  <br/> |
+|[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Abre una sección de perfil del perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para obtener más acceso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Los clientes pueden obtener un puntero a una interfaz **IProviderAdmin** llamando al método [IMsgServiceAdmin:: AdminProviders](imsgserviceadmin-adminproviders.md) ; a los proveedores de servicios se les pasa un puntero **IProviderAdmin** cuando se llama a la función de punto de entrada del servicio de mensajes. 
+Los clientes pueden obtener un puntero a una **interfaz IProviderAdmin** llamando al método [IMsgServiceAdmin::AdminProviders;](imsgserviceadmin-adminproviders.md) los proveedores de servicios se pasan un **puntero IProviderAdmin** cuando se llama a la función de punto de entrada del servicio de mensajes. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAbort
 keywords:
-- función xlAbort [Excel 2007]
+- Función xlabort [excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,37 +22,37 @@ ms.locfileid: "33436660"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Cede el procesador a otras tareas del sistema y comprueba si el usuario ha presionado la **tecla ESC** para cancelar una macro. Si el usuario ha presionado la **tecla ESC** durante la actualización de un libro, también se puede detectar desde dentro de una función de hoja de cálculo llamando a esta función. 
+Produce el procesador a otras tareas del sistema y comprueba si el usuario ha presionado **ESC** para cancelar una macro. Si el usuario ha presionado **ESC** durante una actualización del libro, también se puede detectar desde dentro de una función de hoja de cálculo llamando a esta función. 
   
 ```cs
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pxRetain_ (**xltypeBool**)
   
-(Opcional). Si **es false**, esta función comprueba la condición break y borra cualquier interrupción pendiente. Esto permite al usuario continuar a pesar de la condición de interrupción. Si se omite este argumento o es **true**, la función comprueba si el usuario se ha anulado sin borrarlo.
+(Opcional). Si **es FALSE,** esta función comprueba la condición de interrupción y borra cualquier interrupción pendiente. Esto permite al usuario continuar a pesar de la condición de interrupción. Si este argumento se omite o es **TRUE,** la función comprueba si un usuario anula sin borrarlo.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Devuelve **true** (**xltypeBool**) si el usuario ha presionado la **tecla ESC**.
+Devuelve **TRUE** (**xltypeBool**) si el usuario ha presionado **ESC**.
   
 ## <a name="remarks"></a>Comentarios
 
 ### 
 
-#### <a name="frequent-calls-may-be-needed"></a>Las llamadas frecuentes pueden ser necesarias
+#### <a name="frequent-calls-may-be-needed"></a>Es posible que se necesiten llamadas frecuentes
 
-Las funciones y los comandos que pueden tardar mucho tiempo deben llamar a esta función con frecuencia para que el procesador se entregue a otras tareas del sistema.
+Las funciones y los comandos que pueden tardar mucho tiempo deben llamar a esta función con frecuencia para producir el procesador a otras tareas del sistema.
   
-#### <a name="avoid-sensitive-language"></a>Evitar el idioma confidencial
+#### <a name="avoid-sensitive-language"></a>Evitar el lenguaje confidencial
 
-Evite usar el término "anular" en la interfaz de usuario. Considere la posibilidad de usar "Cancelar", "detener", "interrumpir" o "detener" en su lugar.
+Evite usar el término "Anular" en la interfaz de usuario. Considere la posibilidad de usar "Cancelar", "Detener", "Interrumpir" o "Detener" en su lugar.
   
 ## <a name="example"></a>Ejemplo
 
-El código siguiente mueve repetidamente la celda activa en una hoja hasta que haya transcurrido un minuto o hasta que el usuario presione la **tecla ESC**. Llama a la función **xlAbort** de vez en cuando. Esto produce el procesador, con lo que se facilita la multitarea cooperativa. 
+El siguiente código mueve repetidamente la celda activa de una hoja hasta que transcurre un minuto o hasta que el usuario presiona **ESC**. Llama ocasionalmente a **la función xlAbort.** Esto produce el procesador, acelerando la multitarea cooperativa. 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   
@@ -117,7 +117,7 @@ int WINAPI fDance(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

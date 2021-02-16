@@ -36,39 +36,39 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpInterface_
   
-> a Un puntero a un identificador de interfaz (IID) para el objeto de inicio de sesión de transporte. Al pasar NULL, se devuelve la interfaz [IMAPIStatus](imapistatusimapiprop.md) . El parámetro _lpInterface_ también se puede establecer en un identificador para una interfaz para el objeto. 
+> [entrada] Puntero a un identificador de interfaz (IID) para el objeto de inicio de sesión de transporte. Si se pasa NULL, se devuelve [la interfaz IMAPIStatus.](imapistatusimapiprop.md) El  _parámetro lpInterface_ también se puede establecer en un identificador para una interfaz para el objeto. 
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se abre el objeto status. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla cómo se abre el objeto de estado. Se puede establecer la siguiente marca:
     
 MAPI_MODIFY 
   
-> Solicita el permiso de lectura y escritura. La interfaz predeterminada es de sólo lectura. 
+> Solicita permiso de lectura y escritura. La interfaz predeterminada es de solo lectura. 
     
  _lpulObjType_
   
-> contempla Un puntero al tipo del objeto abierto.
+> [salida] Puntero al tipo del objeto abierto.
     
  _lppEntry_
   
-> contempla Un puntero al puntero al objeto de estado abierto.
+> [salida] Puntero al puntero al objeto de estado abierto.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
+> La llamada se realiza correctamente y devuelve el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método **IXPLogon:: OpenStatusEntry** cuando una aplicación cliente llama a un método **OpenEntry** para el identificador de entrada en la fila de la tabla de estado del proveedor de transporte. **OpenStatusEntry** abre un objeto con la interfaz **IMAPIStatus** asociada a este inicio de sesión en el proveedor de transporte en particular. A continuación, este objeto se usa para permitir que las aplicaciones cliente llamen a métodos **IMAPIStatus** (por ejemplo, para volver a configurar la sesión de inicio de sesión mediante el método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) o para validar el estado de la sesión de inicio mediante el [ Método IMAPIStatus:: ValidateState](imapistatus-validatestate.md) ). 
+La cola MAPI llama al método **IXPLogon::OpenStatusEntry** cuando una aplicación cliente llama a un método **OpenEntry** para el identificador de entrada en la fila de tabla de estado del proveedor de transporte. **OpenStatusEntry abre** un objeto con la **interfaz IMAPIStatus** asociada a este inicio de sesión de proveedor de transporte en particular. A continuación, este objeto se usa para permitir que las aplicaciones cliente llamen a métodos **IMAPIStatus** (por ejemplo, para volver a configurar la sesión de inicio de sesión mediante el método [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) o para validar el estado de la sesión de inicio de sesión mediante el método [IMAPIStatus::ValidateState).](imapistatus-validatestate.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

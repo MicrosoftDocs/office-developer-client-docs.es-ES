@@ -21,19 +21,19 @@ ms.locfileid: "33439740"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Trabajar con una tabla MAPI es un poco como trabajar con una tabla de base de datos relacional. Un usuario puede limitar el número de filas y columnas de la vista y especificar su orden. Las filas se pueden recuperar de una en una o en grupos. Un cursor que realiza un seguimiento de la posición actual puede moverse a un lugar específico de la tabla. 
+Trabajar con una tabla MAPI es algo parecido a trabajar con una tabla de base de datos relacional. Un usuario puede limitar el número de filas y columnas en la vista y especificar su orden. Las filas se pueden recuperar de una en una o en grupos. Un cursor que realiza un seguimiento de la posición actual se puede mover a un lugar específico de la tabla. 
   
-Para trabajar con tablas, los clientes usan la interfaz de solo lectura, [IMAPITable: IUnknown](imapitableiunknown.md), mientras que los proveedores de servicios, dependiendo de si son propietarios de los datos en los que se basa la tabla, pueden usar el **IMAPITable** o [ITableData: IUnknown](itabledataiunknown.md). Las operaciones definidas en estas interfaces se pueden clasificar como operaciones que todos los usuarios de tablas realizan o pueden invocar y operaciones que no se usan tan generalizadas porque son más avanzadas. Algunas de las operaciones avanzadas son más complejas de implementar; otras no son más complejas, pero son de interés para una pequeña minoría de componentes MAPI. 
+Para trabajar con tablas, los clientes usan la interfaz de solo lectura, [IMAPITable : IUnknown](imapitableiunknown.md), mientras que los proveedores de servicios, en función de si son propietarios de los datos en los que se basa la tabla, pueden usar **IMAPITable** o [ITableData : IUnknown](itabledataiunknown.md). Las operaciones definidas en estas interfaces se pueden clasificar como operaciones que todos los usuarios de tablas pueden invocar o que no se usan tanto porque son más avanzadas. Algunas de las operaciones avanzadas son más complejas de implementar; otros ya no son más complejos, pero son de interés para una pequeña mayoría de componentes MAPI. 
   
-Las operaciones más comunes son las siguientes:
+Las operaciones más comunes son:
   
-- Operaciones de columna, que afectan a columnas únicas. Incluyen la especificación de las propiedades que se van a incluir en el conjunto de columnas y el orden en que deben incluirse.
+- Operaciones de columna, que afectan a una sola columna. Entre ellas se incluyen la especificación de las propiedades que se incluirán en el conjunto de columnas y el orden en que deben incluirse.
     
-- Operaciones de fila que afectan a filas individuales. Entre ellas se incluyen la recuperación de datos y las operaciones de mantenimiento: agregar, eliminar y modificar una fila o filas individuales.
+- Operaciones de fila, que afectan a una sola fila. Entre ellas se incluyen la recuperación de datos y las operaciones de mantenimiento: agregar, eliminar y modificar una sola fila o filas.
     
-- Operaciones globales, que afectan a toda la tabla. Entre estos se incluyen la notificación de eventos, la búsqueda y la ordenación.
+- Operaciones globales, que afectan a toda la tabla. Entre ellas se incluyen la notificación de eventos, la búsqueda y la ordenación.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

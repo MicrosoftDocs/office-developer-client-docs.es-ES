@@ -29,7 +29,7 @@ Contiene una matriz de valores de cadena que se usan para describir una propieda
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SLPSTRArray
@@ -40,21 +40,21 @@ typedef struct _SLPSTRArray
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cValues**
   
-> Número de valores de la matriz a los que señala el miembro **lppszA** . 
+> Recuento de valores en la matriz a la que apunta el **miembro lppszA.** 
     
  **lppszA**
   
-> Puntero a una matriz de cadenas de caracteres de 8 bits terminadas en NULL.
+> Puntero a una matriz de cadenas de caracteres de 8 bits terminadas en null.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca de PT_MV_STRING8, vea [lista de tipos de propiedades](property-types.md).
+Para obtener más información acerca PT_MV_STRING8, vea [Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

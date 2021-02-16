@@ -19,46 +19,46 @@ ms.locfileid: "33436373"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los clientes suelen basarse en el subsistema MAPI (la cola MAPI y los proveedores de servicios) para controlar el momento de la transmisión y la recepción de mensajes. Sin embargo, puede modificar este intervalo usando el objeto de estado de la cola MAPI o de un proveedor de transporte.
+Normalmente, los clientes dependen del subsistema MAPI (la cola MAPI y los proveedores de servicios) para controlar el tiempo de transmisión y recepción de mensajes. Sin embargo, puede modificar este intervalo mediante el objeto de estado de la cola MAPI o un proveedor de transporte.
   
-El método [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) quita todos los mensajes de una o varias colas de entrada o de salida del proveedor de transporte. Los siguientes procedimientos describen dos técnicas para enviar o recibir mensajes a petición. El primer procedimiento utiliza el objeto status del administrador de trabajos de MAPI para vaciar las colas de cada proveedor de transporte en el perfil; el segundo procedimiento vacía la cola de un proveedor de transporte único. 
+El [método IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) quita todos los mensajes de una o más colas entrantes o salientes del proveedor de transporte. Los siguientes procedimientos describen dos técnicas para enviar o recibir mensajes a petición. El primer procedimiento usa el objeto de estado de la cola MAPI para vaciar las colas de todos los proveedores de transporte del perfil; El segundo procedimiento vacía la cola de un único proveedor de transporte. 
   
 ### <a name="to-flush-all-incoming-or-outgoing-queues-in-a-single-operation"></a>Para vaciar todas las colas entrantes o salientes en una sola operación
   
-1. Llame a [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) para obtener acceso a la tabla de estado. 
+1. Llame [a IMAPISession::GetStatusTable](imapisession-getstatustable.md) para obtener acceso a la tabla de estado. 
     
-2. Llame al método [IMAPITable:: SetColumns](imapitable-setcolumns.md) de la tabla de estado para limitar la columna **** establecida como valor máximo ([PidTagEntryId](pidtagentryid-canonical-property.md)) y **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
+2. Llame al método [IMAPITable::SetColumns](imapitable-setcolumns.md) de la tabla de estado para limitar el conjunto de columnas **a PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) y **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
     
-3. Cree una restricción de propiedad con una estructura [SPropertyRestriction](spropertyrestriction.md) para que sea igual a **PR_RESOURCE_TYPE** con MAPI_SPOOLER. 
+3. Crear una restricción de propiedad mediante una [estructura SPropertyRestriction](spropertyrestriction.md) para que coincida **PR_RESOURCE_TYPE** con MAPI_SPOOLER. 
     
-4. Llame a [HrQueryAllRows](hrqueryallrows.md), pasando la estructura **SPropertyRestriction** , para recuperar la fila que representa el estado de la cola de impresión MAPI. 
+4. Llame [a HrQueryAllRows](hrqueryallrows.md), pasando la estructura **SPropertyRestriction,** para recuperar la fila que representa el estado de la cola MAPI. 
     
-5. Pase la **** columna que se va a [IMAPISession:: OpenEntry](imapisession-openentry.md) para abrir el objeto de estado del administrador de trabajos en cola MAPI. 
+5. Pase la **PR_ENTRYID** a [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir el objeto de estado de la cola MAPI. 
     
-6. Llame al método [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) del administrador de colas de MAPI, pasando la marca FLUSH_NO_UI para suprimir la interfaz de usuario y la marca FLUSH_DOWNLOAD o FLUSH_UPLOAD para vaciar las colas de salida o de entrada. 
+6. Llame al método [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) de la cola MAPI, pasando la marca FLUSH_NO_UI para suprimir la interfaz de usuario y la marca FLUSH_DOWNLOAD o FLUSH_UPLOAD para vaciar las colas entrantes o salientes. 
     
-7. Libere el objeto status y la tabla de estado, así como la estructura [SRowSet](srowset.md) que se asigna a la tabla. 
+7. Libere el objeto de estado y la tabla de estado, así como la estructura [SRowSet](srowset.md) asignada a la tabla. 
     
 ### <a name="to-flush-incoming-or-outgoing-queues-individually-by-transport-provider"></a>Para vaciar las colas entrantes o salientes individualmente por el proveedor de transporte
   
-1. Llame a [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) para obtener acceso a la tabla de estado. 
+1. Llame [a IMAPISession::GetStatusTable](imapisession-getstatustable.md) para obtener acceso a la tabla de estado. 
     
-2. Llame al método [IMAPITable:: SetColumns](imapitable-setcolumns.md) de la tabla de estado para limitar la columna **** establecida en valor y **PR_RESOURCE_TYPE**.
+2. Llame al método [IMAPITable::SetColumns](imapitable-setcolumns.md) de la tabla de estado para limitar el conjunto de columnas **PR_ENTRYID** y **PR_RESOURCE_TYPE**.
     
-3. Cree una restricción de propiedad con una estructura [SPropertyRestriction](spropertyrestriction.md) para que sea igual a **PR_RESOURCE_TYPE** con MAPI_TRANSPORT_PROVIDER. 
+3. Crear una restricción de propiedad mediante una [estructura SPropertyRestriction](spropertyrestriction.md) para que coincida **PR_RESOURCE_TYPE** con MAPI_TRANSPORT_PROVIDER. 
     
-4. Llame a [HrQueryAllRows](hrqueryallrows.md), pasando la estructura **SPropertyRestriction** , para recuperar las filas suministradas por los proveedores de transporte. 
+4. Llame [a HrQueryAllRows](hrqueryallrows.md), pasando la estructura **SPropertyRestriction,** para recuperar las filas proporcionadas por los proveedores de transporte. 
     
 5. Para cada fila devuelta desde **HrQueryAllRows**:
     
-    1. Pase la **** columna que se va a [IMAPISession:: OpenEntry](imapisession-openentry.md) para abrir el objeto de estado del proveedor de transporte. 
+    1. Pase la **PR_ENTRYID** a [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir el objeto de estado del proveedor de transporte. 
         
-    2. Compruebe que el objeto de estado de transporte admita el método **FlushQueues** comprobando que su propiedad **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) tiene establecida la marca STATUS_FLUSH_QUEUES. 
+    2. Compruebe que el objeto de estado de transporte admite el método **FlushQueues** comprobando que su propiedad **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) tiene la marca STATUS_FLUSH_QUEUES establecida. 
         
-    3. Si se admite, llame a [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md). Si no se admite, llame al método **IMAPIStatus:: FlushQueues** del administrador de la cola de MAPI, pasando el identificador de entrada del transporte en el parámetro _lpTargetTransport_ . Consulte el procedimiento anterior para obtener instrucciones sobre cómo tener acceso al objeto de estado del administrador de trabajos en cola MAPI. Establezca la marca FLUSH_DOWNLOAD para vaciar las colas de salida o la marca FLUSH_UPLOAD para vaciar las colas entrantes. 
+    3. Si se admite, llame [a IMAPIStatus::FlushQueues](imapistatus-flushqueues.md). Si no se admite, llame al método **IMAPIStatus::FlushQueues** de la cola MAPI y pase el identificador de entrada del transporte en el _parámetro lpTargetTransport._ Vea el procedimiento anterior para obtener instrucciones sobre cómo obtener acceso al objeto de estado de la cola MAPI. Establezca la FLUSH_DOWNLOAD para vaciar las colas salientes o la marca FLUSH_UPLOAD para vaciar las colas entrantes. 
         
-    4. Libere el objeto status y la tabla de estado, así como la estructura [SRowSet](srowset.md) que se asigna a la tabla. 
+    4. Libere el objeto de estado y la tabla de estado, así como la estructura [SRowSet](srowset.md) asignada a la tabla. 
     
-La cola MAPI respeta la marca FLUSH_NO_UI como la mayoría de los proveedores de transporte de LAN. Sin embargo, no todos los proveedores de transporte admiten esta marca, en especial los que usan un módem de forma explícita y el servicio de acceso remoto (RAS). RAS no se diseñó para permitir a los clientes suprimir la interfaz de usuario. Es posible configurar un cliente para que se pueda conectar sin que se requiera la interacción de un usuario, pero es difícil y requiere un conocimiento profundo de los servicios de mensajes del cliente.
+La cola MAPI respeta la marca FLUSH_NO_UI la mayoría de los proveedores de transporte LAN. Sin embargo, no todos los proveedores de transporte respetan esta marca, especialmente aquellos que usan un módem explícitamente y el Servicio de acceso remoto (RAS). RAS no se diseñó para permitir a los clientes suprimir la interfaz de usuario. Es posible configurar un cliente para que pueda conectarse sin necesidad de la interacción de un usuario, pero es difícil y requiere conocimientos amplios de los servicios de mensajes del cliente.
   
 

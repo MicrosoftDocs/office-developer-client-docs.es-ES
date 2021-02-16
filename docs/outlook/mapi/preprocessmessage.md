@@ -29,7 +29,7 @@ Define una función que preprocesa el contenido del mensaje o el formato de un m
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapispi. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapispi.h  <br/> |
 |Función definida implementada por:  <br/> |Proveedores de transporte  <br/> |
 |Función definida llamada por:  <br/> |Cola MAPI  <br/> |
    
@@ -48,67 +48,67 @@ HRESULT PreprocessMessage(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpvSession_
   
-> a Puntero a la sesión que se va a usar. 
+> [entrada] Puntero a la sesión que se va a usar. 
     
  _lpMessage_
   
-> a Puntero al mensaje que se preprocesará. 
+> [entrada] Puntero al mensaje que se va a preprocesar. 
     
  _lpAdrBook_
   
-> a Puntero a la libreta de direcciones de la que el usuario debe seleccionar los destinatarios del mensaje. 
+> [entrada] Puntero a la libreta de direcciones desde la que el usuario debe seleccionar destinatarios para el mensaje. 
     
  _lpFolder_
   
-> [in, out] Puntero a una carpeta. En la entrada, el parámetro _lpFolder_ apunta a la carpeta que contiene los mensajes que se preprocesarán. En la salida, _lpFolder_ apunta a la carpeta donde se han colocado los mensajes preprocesados. 
+> [entrada, salida] Puntero a una carpeta. En la entrada, el  _parámetro lpFolder_ apunta a la carpeta que contiene los mensajes que se deben preprocesar. En el resultado,  _lpFolder_ apunta a la carpeta donde se han colocado los mensajes preprocesados. 
     
  _lpAllocateBuffer_
   
-> a Puntero a la función [MAPIAllocateBuffer](mapiallocatebuffer.md) , que se va a usar para asignar memoria. 
+> [entrada] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria. 
     
  _lpAllocateMore_
   
-> a Puntero a la función [MAPIAllocateMore](mapiallocatemore.md) , que se usará para asignar memoria adicional donde sea necesario. 
+> [entrada] Puntero a la [función MAPIAllocateMore,](mapiallocatemore.md) que se usará para asignar memoria adicional cuando sea necesario. 
     
  _lpFreeBuffer_
   
-> a Puntero a la función [MAPIFreeBuffer](mapifreebuffer.md) , que se usará para liberar memoria. 
+> [entrada] Puntero a la [función MAPIFreeBuffer,](mapifreebuffer.md) que se usará para liberar memoria. 
     
  _lpcOutbound_
   
-> contempla Puntero al número de mensajes de la matriz señalado por el parámetro _lpppMessage_ . 
+> [salida] Puntero al número de mensajes de la matriz a los que apunta el _parámetro lpppMessage._ 
     
  _lpppMessage_
   
-> contempla Puntero a un puntero a una matriz de punteros a mensajes preprocesados o generados de otra manera. 
+> [salida] Puntero a un puntero a una matriz de punteros a mensajes preprocesados o generados de otro modo. 
     
  _lppRecipList_
   
-> contempla Puntero a una estructura [ADRLIST](adrlist.md) devuelta opcional, que enumera los destinatarios detectados como preprocesadores para los que el mensaje no se entregó. Para obtener más información sobre el contenido de esta lista, vea el método [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) . 
+> [salida] Puntero a una estructura [ADRLIST](adrlist.md) devuelta opcional, que enumera los destinatarios detectados por el preprocesador para los que el mensaje no se puede entregar. Para obtener más información acerca del contenido de esta lista, vea el método [IMAPISupport::StatusRecips.](imapisupport-statusrecips.md) 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> El contenido del mensaje se ha preprocesado correctamente.
+> El contenido del mensaje se preprocesó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Un preprocesador de mensajes de proveedor de transporte puede presentar un indicador de progreso durante el preprocesamiento de mensajes. Sin embargo, nunca debe presentar un cuadro de diálogo que requiera la interacción del usuario durante el preprocesamiento de mensajes. 
+Un preprocesador de mensajes del proveedor de transporte puede presentar un indicador de progreso durante el preprocesamiento del mensaje. Sin embargo, nunca debe presentar un cuadro de diálogo que requiera la interacción del usuario durante el preprocesamiento del mensaje. 
   
-Cuando un preprocesador agrega grandes cantidades de datos a un mensaje saliente, se deben seguir ciertos procedimientos. Este tipo de mensaje puede almacenarse en un almacén de mensajes basado en servidor, lo que hace que el preprocesador obtenga acceso a un almacén remoto, un procedimiento que requiere mucho tiempo. Para evitar tener que hacerlo, el preprocesador debe tener una opción que permite almacenar datos que ocupan una gran cantidad de espacio en un almacén de mensajes local y proporcionar una referencia al almacén local en el mensaje. 
+Cuando un preprocesador agrega grandes cantidades de datos a un mensaje saliente, deben seguirse ciertos procedimientos. Este tipo de mensaje se puede almacenar en un almacén de mensajes basado en servidor, lo que hace que el preprocesador tenga acceso a un almacén remoto, un procedimiento que requiere mucho tiempo. Para evitar tener que hacerlo, el preprocesador debe tener una opción que le permita almacenar datos que necesitan una gran cantidad de espacio en un almacén de mensajes local y proporcionar una referencia a ese almacén local en el mensaje. 
   
-El preprocesador no debe liberar ninguno de los objetos pasados originalmente a la función basada en **PreprocessMessage** . 
+El preprocesador no debe liberar ninguno de los objetos pasados originalmente a la **función basada en PreprocessMessage.** 
   
-Antes de que la cola MAPI pueda llamar a una función **PreprocessMessage** , el proveedor de transporte debe haber registrado la función en una llamada al método [IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md) . Después de llamar a una función **PreprocessMessage** , la cola de impresión no puede seguir enviando un mensaje hasta que la función devuelve. 
+Para que la cola MAPI pueda llamar a una función **PreprocessMessage,** el proveedor de transporte debe haber registrado la función en una llamada al método [IMAPISupport::RegisterPreprocessor.](imapisupport-registerpreprocessor.md) Después de llamar a **una función PreprocessMessage,** la cola no puede continuar enviando un mensaje hasta que la función vuelva. 
   
-La cola MAPI posee la tarea de enviar mensajes. Esto significa que el mensaje original nunca se coloca en una matriz de punteros de mensaje y que una llamada a los métodos **SubmitMessage** nunca es necesaria. 
+La cola MAPI es la propietaria de la tarea de enviar mensajes. Esto significa que el mensaje original nunca se coloca en una matriz de punteros de mensaje y que nunca se requiere una llamada a los métodos **SubmitMessage.** 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

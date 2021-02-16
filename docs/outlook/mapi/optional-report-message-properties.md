@@ -1,5 +1,5 @@
 ---
-title: Propiedades opcionales de los mensajes de informes
+title: Propiedades opcionales del mensaje de informe
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439509"
 ---
-# <a name="optional-report-message-properties"></a>Propiedades opcionales de los mensajes de informes
+# <a name="optional-report-message-properties"></a>Propiedades opcionales del mensaje de informe
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las siguientes propiedades aparecen a veces con mensajes de informe:
+A veces aparecen las siguientes propiedades con mensajes de informe:
   
-**Título de la tabla**
+**Título de tabla**
 
 |**Propiedad**|**Descripción**|
 |:-----|:-----|

@@ -25,11 +25,11 @@ ms.locfileid: "33439362"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un filtro para limitar la vista de una tabla a filas específicas. 
+Describe un filtro para limitar la vista de una tabla a filas concretas. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SRestriction
@@ -53,19 +53,19 @@ typedef struct _SRestriction
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
- **RT**
+ **rt**
   
 > El tipo de restricción. Los valores posibles son los siguientes: 
     
 RES_AND 
   
-> Una restricción **and** , que aplica una operación **** and bit a bit a una restricción. 
+> Una **restricción AND,** que aplica una operación **AND** bit a bit a una restricción. 
     
 RES_BITMASK 
   
-> Una restricción de máscara de máscara, que aplica una máscara de máscara a un valor de propiedad.
+> Una restricción de máscara de bits, que aplica una máscara de bits a un valor de propiedad.
     
 RES_COMMENT 
   
@@ -73,23 +73,23 @@ RES_COMMENT
     
 RES_COMPAREPROPS 
   
-> Una restricción de comparación de propiedades, que compara dos valores de propiedad.
+> Restricción de comparación de propiedades, que compara dos valores de propiedad.
     
 RES_CONTENT 
   
-> Una restricción de contenido, que busca contenido específico en un valor de propiedad.
+> Una restricción de contenido, que busca un valor de propiedad para contenido específico.
     
 RES_EXIST 
   
-> Una restricción EXISTS, que determina si se admite una propiedad.
+> Una restricción existente, que determina si se admite una propiedad.
     
 RES_NOT 
   
-> Una restricción **Not** que aplica una operación **Not** lógica a una restricción. 
+> Una **restricción NOT,** que aplica una operación **NOT** lógica a una restricción. 
     
 RES_OR 
   
-> Una restricción **or** que aplica una operación OR **** lógica a una restricción. 
+> Una **restricción OR,** que aplica una operación **lógica OR** a una restricción. 
     
 RES_PROPERTY 
   
@@ -101,11 +101,11 @@ RES_SIZE
     
 RES_SUBRESTRICTION 
   
-> Una restricción de subobjeto, que aplica una restricción a los datos adjuntos o destinatarios de un mensaje.
+> Una restricción de subelemento, que aplica una restricción a los datos adjuntos o destinatarios de un mensaje.
     
  **res**
   
-> Unión de estructuras de restricción que describen el filtro que se va a aplicar. La estructura específica que se incluye en el miembro **res** depende del valor del miembro **RT** . La asignación entre el tipo de restricción y la estructura se muestra en la siguiente tabla. 
+> Unión de estructuras de restricción que describen el filtro que se va a aplicar. La estructura específica incluida en el **miembro res** depende del valor del **miembro rt.** La asignación entre el tipo de restricción y la estructura se muestra en la tabla siguiente. 
     
 |||
 |:-----|:-----|
@@ -124,11 +124,11 @@ RES_SUBRESTRICTION
    
 ## <a name="remarks"></a>Comentarios
 
-Los clientes usan una estructura **SRestriction** para limitar el número y el tipo de filas en su vista de una tabla y para buscar mensajes específicos en una carpeta. Para imponer la limitación en una tabla, los clientes llaman a [IMAPITable:: Restrict](imapitable-restrict.md) o [IMAPITable:: FindRow](imapitable-findrow.md). Para imponer la limitación en una carpeta, los clientes llaman al método [IMAPIContainer:: SetSearchCriteria](imapicontainer-setsearchcriteria.md) de la carpeta. 
+Los clientes usan **una estructura SRestriction** para limitar el número y el tipo de filas en su vista de una tabla y para buscar mensajes específicos en una carpeta. Para imponer la limitación en una tabla, los clientes llaman a [IMAPITable::Restrict o](imapitable-restrict.md) [IMAPITable::FindRow](imapitable-findrow.md). Para imponer la limitación a una carpeta, los clientes llaman al método [IMAPIContainer::SetSearchCriteria de](imapicontainer-setsearchcriteria.md) la carpeta. 
   
-Para obtener información acerca de cómo usar restricciones con tablas, consulte [About Restrictions](about-restrictions.md). 
+Para obtener información sobre cómo usar restricciones con tablas, vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1dab102f-24af-4984-8020-a9fb06355639
-description: Puede usar la acción RequeryRecords para actualizar, ordenar y filtrar los datos de la vista activa mediante una nueva consulta del origen de la vista.
+description: Puede usar la acción RequeryRecords para actualizar, ordenar y filtrar los datos de la vista activa consultando de nuevo el origen de la vista.
 ms.openlocfilehash: 69d88401abc0de417f7dc58e275c66f2037212aa
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,30 +16,30 @@ ms.locfileid: "33439250"
 ---
 # <a name="requeryrecords-macro-action-access-custom-web-app"></a>Acción de macro RequeryRecords (aplicación web personalizada de Access)
 
-Puede usar la acción **RequeryRecords** para actualizar, ordenar y filtrar los datos de la vista activa mediante una nueva consulta del origen de la vista. 
+Puede usar la acción **RequeryRecords** para actualizar, ordenar y filtrar los datos de la vista activa consultando de nuevo el origen de la vista. 
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="setting"></a>Configuración
 
-La acción **RequeryRecords** tiene los siguientes argumentos. 
+La **acción RequeryRecords** tiene los argumentos siguientes. 
   
 |**Parámetro**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
-|**Donde =** <br/> |No  <br/> |Una cláusula WHERE de SQL que restringe los registros de la vista. De forma predeterminada, este argumento está en blanco.  <br/> |
+|**Where=** <br/> |No  <br/> |Una SQL cláusula WHERE que restringe los registros de la vista. De forma predeterminada, este argumento está en blanco.  <br/> |
 |**OrderBy** <br/> |No  <br/> |Una expresión de cadena que incluye el nombre del campo o campos en los que se van a ordenar los registros y las palabras clave ASC o DESC opcionales. De forma predeterminada, este argumento está en blanco.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Las ordenaciones o filtros aplicados por el usuario se borran cuando se llama a la acción **RequeryRecords** . 
+Cualquier ordenación o filtrado aplicado por el usuario se borra cuando se llama a la acción **RequeryRecords.** 
   
-El argumento *OrderBy* es el nombre del campo o campos en los que desea ordenar los registros. Si usa más de un nombre de campo, separe los nombres con una coma (,). 
+El  *argumento OrderBy*  es el nombre del campo o campos en los que desea ordenar los registros. Si usa más de un nombre de campo, separe los nombres con una coma (,). 
   
-Cuando se establece el argumento *OrderBy* , los registros se ordenan de forma predeterminada en orden ascendente. 
+Cuando se establece el  *argumento OrderBy,*  los registros se ordenan de forma predeterminada en orden ascendente. 
   
-Para ordenar los registros en orden descendente, escriba DESC al final de la expresión de argumento *OrderBy* . Por ejemplo, para ordenar los registros de clientes en orden descendente por nombre de contacto, establezca el argumento *OrderBy* en "ContactName DESC". 
+Para ordenar los registros en orden descendente, escriba DESC al final de la expresión del argumento *OrderBy.* Por ejemplo, para ordenar los registros de clientes en orden descendente por nombre de contacto, establezca el argumento  *OrderBy*  en "ContactName DESC". 
   
-Para ordenar los nombres por Apellido descendente y nombre ascendente, establezca el argumento *OrderBy* en "LastName DESC, FirstName ASC". 
+Para ordenar los nombres por Apellido descendente y Nombre ascendente, establezca el argumento  *OrderBy*  en "LastName DESC, FirstName ASC". 
   
 

@@ -19,7 +19,7 @@ ms.locfileid: "33438879"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La API de seguridad de datos adJuntos permite a las soluciones de Outlook descubrir si los datos adjuntos no se consideran seguros por Outlook y se bloquea su visualización e indización. Proporciona las siguientes definiciones e interfaz.
+La API de seguridad de datos adjuntos permite a las soluciones de Outlook detectar si Outlook considera que los datos adjuntos no son seguros y están bloqueados para su visualización e indización. Proporciona las siguientes definiciones e interfaz.
   
 Definiciones
   

@@ -17,7 +17,7 @@ ms.locfileid: "33436849"
 ---
 # <a name="lockthemecolors-cell-protection-section"></a>Celda LockThemeColors (Sección de protección)
 
-Impide la aplicación de los colores del tema a la forma. 
+Impide la aplicación de colores del tema a la forma. 
   
 El valor de la celda LockThemeColors corresponde a configuración de la casilla de verificación **Contra colores del tema** del cuadro de diálogo **Protección**. 
   

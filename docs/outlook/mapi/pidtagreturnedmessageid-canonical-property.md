@@ -23,7 +23,7 @@ ms.locfileid: "33435631"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si el mensaje original se devuelve con un informe no leído.
+Contiene TRUE si se devuelve el mensaje original con un informe no leído.
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ Contiene TRUE si el mensaje original se devuelve con un informe no leído.
    
 ## <a name="remarks"></a>Comentarios
 
-Un proveedor de transporte X. 400 establece esta propiedad en el informe de no leído.
+Un proveedor de transporte X.400 establece esta propiedad en el informe no leído.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -56,7 +56,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

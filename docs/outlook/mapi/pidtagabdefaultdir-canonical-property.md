@@ -25,7 +25,7 @@ ms.locfileid: "33438578"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada del contenedor de libretas de direcciones para mostrar en primer lugar. 
+Contiene el identificador de entrada del contenedor de la libreta de direcciones que se mostrará en primer lugar. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene el identificador de entrada del contenedor de libretas de direcciones p
    
 ## <a name="remarks"></a>Comentarios
 
-No utilice esta propiedad. Está reservado para su uso por parte de MAPI.
+No utilice esta propiedad. Está reservado para su uso por MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -59,7 +59,7 @@ Mapidefs. h
 
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

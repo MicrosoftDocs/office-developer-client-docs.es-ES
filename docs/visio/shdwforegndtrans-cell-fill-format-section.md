@@ -26,7 +26,7 @@ Determina el nivel de transparencia del color utilizado para el primer plano (tr
    
 ## <a name="remarks"></a>Comentarios
 
-Los valores se redondean al medio porcentaje más próximo. El valor 100% hace que sea totalmente transparente. Aunque una sombra que tiene un relleno completamente transparente aparece de la misma forma en la página de dibujo que una sombra sin relleno, interactúa con otros objetos de la página de la misma manera que si su transparencia fuera del 0%.
+Los valores se redondean al medio porcentaje más próximo. El valor 100% hace que sea totalmente transparente. Aunque una sombra que tiene un relleno totalmente transparente aparece igual en la página de dibujo que una sombra que no tiene relleno, interactúa con otros objetos de la página de la misma manera que si su transparencia fuera del 0 %.
   
 También puede usar el control deslizante del cuadro de diálogo **Sombra** para establecer este valor (en la ficha **Inicio**, en el grupo **Forma**, haga clic en **Sombra** y, a continuación, en **Opciones de sombra**). Este valor controla el valor de las transparencias de sombra de primer y segundo plano. Para establecer estos valores de forma independiente, debe escribirlos en la ventana ShapeSheet.
   

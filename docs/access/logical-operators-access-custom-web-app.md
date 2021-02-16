@@ -25,7 +25,7 @@ ms.locfileid: "33437668"
     
 - [NOT (aplicación web personalizada de Access)](not-access-custom-web-app.md)
     
-- [O (aplicación web personalizada de Access)](or-access-custom-web-app.md)
+- [OR (aplicación web personalizada de Access)](or-access-custom-web-app.md)
     
 - [IS [NOT] NULL (aplicación web personalizada de Access)](is-not-null-access-custom-web-app.md)
     

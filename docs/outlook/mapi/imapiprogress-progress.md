@@ -25,7 +25,7 @@ ms.locfileid: "33435498"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Actualiza el indicador de progreso con una presentación del progreso a medida que se realiza para completar la operación. 
+Actualiza el indicador de progreso con una presentación del progreso a medida que se realiza hacia la finalización de la operación. 
   
 ```cpp
 HRESULT Progress(
@@ -35,19 +35,19 @@ HRESULT Progress(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulValue_
   
-> a Número que indica el nivel de progreso actual (calculado a partir de los parámetros _ulCount_ y _ulTotal_ o de los parámetros _LpulMin_ y _lpulMax_ del método [método imapiprogress:: SetLimits](imapiprogress-setlimits.md) ) entre el global límite inferior y el límite superior global. 
+> [entrada] Número que indica el nivel actual de progreso (calculado a partir de los parámetros  _ulCount_ y  _ulTotal_ o de los parámetros  _lpulMin_ y  _lpulMax_ del método [IMAPIProgress::SetLimits)](imapiprogress-setlimits.md) entre el límite inferior global y el límite superior global. 
     
  _ulCount_
   
-> a Número que indica el elemento actualmente procesado en relación con el total.
+> [entrada] Número que indica el elemento procesado actualmente en relación con el total.
     
  _ulTotal_
   
-> a Número total de elementos que se van a procesar durante la operación.
+> [entrada] Número total de elementos que se procesarán durante la operación.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,17 +57,17 @@ S_OK
     
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-El parámetro _ulValue_ será igual al valor mínimo global solo al inicio de la operación y al valor máximo global solo al finalizar la operación. 
+El  _parámetro ulValue_ será igual al valor mínimo global solo al principio de la operación y al valor máximo global solo al finalizar la operación. 
   
-Use los parámetros _ulCount_ y _ulTotal_ , si están disponibles, para mostrar un mensaje opcional como "5 elementos completados de 10". Si _ulCount_ y _ulTotal_ se establecen en 0, decida si desea cambiar visualmente el indicador de progreso. Algunos proveedores de servicios establecen estos parámetros en 0 para indicar que están procesando un subobjeto cuyo progreso se supervisa en relación con un objeto primario. En esta situación, tiene sentido cambiar la presentación solo cuando el objeto primario informa del progreso. Algunos proveedores de servicios pasan 0 para estos parámetros cada vez. 
+Use los  _parámetros ulCount_ y  _ulTotal,_ si está disponible, para mostrar un mensaje opcional como "5 elementos completados de 10". Si  _ulCount_ y  _ulTotal_ se establecen en 0, decide si quieres cambiar visualmente el indicador de progreso. Algunos proveedores de servicios establecen estos parámetros en 0 para indicar que están procesando un subobjeto cuyo progreso se supervisa en relación con un objeto primario. En esta situación, tiene sentido cambiar la presentación solo cuando el objeto primario informa del progreso. Algunos proveedores de servicios pasan 0 para estos parámetros cada vez. 
   
-Para obtener más información acerca de cómo implementar el **progreso** y los otros métodos [método imapiprogress](imapiprogressiunknown.md) , consulte [implementación de un indicador de progreso](implementing-a-progress-indicator.md).
+Para obtener más información acerca de cómo implementar **Progress** y otros [métodos IMAPIProgress,](imapiprogressiunknown.md) vea [Implementar un indicador de progreso.](implementing-a-progress-indicator.md)
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-No se necesitan los tres parámetros para **método imapiprogress::P rogress** . El único parámetro necesario es _ulValue_, un número que indica el porcentaje de progreso. Si se establece la marca MAPI_TOP_LEVEL, también puede pasar un recuento de objetos y un total de objetos. Algunas implementaciones usan estos valores para mostrar una frase como "5 elementos completados de 10" con el indicador de progreso. 
+No se requieren los tres parámetros de **IMAPIProgress::P.** El único parámetro necesario es  _ulValue_, un número que indica el porcentaje de progreso. Si se MAPI_TOP_LEVEL marca, también puede pasar un recuento de objetos y un total de objetos. Algunas implementaciones usan estos valores para mostrar una frase como "5 elementos completados de 10" con el indicador de progreso. 
   
-Si va a copiar todos los mensajes en una sola carpeta, establezca _ulTotal_ en el número total de mensajes que se copian. Si va a copiar una carpeta, establezca _ulTotal_ en el número de subcarpetas de la carpeta. Si la carpeta que se va a copiar no contiene subcarpetas y sólo mensajes, establezca _ulTotal_ en 1. 
+Si va a copiar todos los mensajes en una sola carpeta, establezca  _ulTotal_ en el número total de mensajes que se van a copiar. Si va a copiar una carpeta,  _establezca ulTotal_ en el número de subcarpetas de la carpeta. Si la carpeta que se va a copiar no contiene subcarpetas y solo mensajes,  _establezca ulTotal_ en 1. 
   
 Para obtener más información sobre cómo y cuándo debe realizar llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
@@ -77,9 +77,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::P rogress  <br/> |MFCMAPI usa el método **método imapiprogress::P rogress** para actualizar la barra de estado de MFCMAPI con el porcentaje de progreso actual, calculado a partir de _uValue_ y los valores máximos y mínimos actuales.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::P progress  <br/> |MFCMAPI usa el método **IMAPIProgress::P progress** para actualizar la barra de estado MFCMAPI con el porcentaje actual de progreso, calculado a partir de  _uValue_ y los valores máximos y mínimos actuales.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

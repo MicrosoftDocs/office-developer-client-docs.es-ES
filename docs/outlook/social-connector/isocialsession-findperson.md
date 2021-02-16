@@ -17,27 +17,27 @@ ms.locfileid: "33434798"
 ---
 # <a name="isocialsessionfindperson"></a>ISocialSession::FindPerson
 
-Obtiene una cadena que representa una o varias personas que coinciden con el parámetro _userid_ . 
+Obtiene una cadena que representa una o varias personas que coinciden con el _parámetro userID._ 
   
 ```cpp
 HRESULT _stdcall FindPerson([in] BSTR userId, [out, retval] BSTR* result);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _userId_
   
-> a Un identificador de usuario de red social, una dirección SMTP o el nombre para mostrar de una persona.
+> [entrada] Identificador de usuario de red social, dirección SMTP o nombre para mostrar de una persona.
     
 _result_
   
-> contempla Una cadena XML que representa una o varias personas que coinciden con la información de identificación especificada por el parámetro _userId_ . 
+> [salida] Cadena XML que representa una o varias personas que coinciden con la información de identificación especificada por el _parámetro userId._ 
     
 ## <a name="remarks"></a>Comentarios
 
-Si una o más personas coinciden con la solicitud **FindPerson** , este método devuelve la información de esas personas en el parámetro _result_ . La cadena XML de _resultado_ debe cumplir con la definición de esquema para **amigos**, tal como se define en el esquema para la extensibilidad de proveedores de Outlook Social Connector (OSC). 
+Si una o varias personas coinciden con la **solicitud FindPerson,** este método devuelve la información de esas personas en el  _parámetro de_ resultado. La  _cadena_ XML de resultado debe cumplir con la definición de esquema para **amigos,** tal como se define en el esquema para la extensibilidad del proveedor de Outlook Social Connector (OSC). 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

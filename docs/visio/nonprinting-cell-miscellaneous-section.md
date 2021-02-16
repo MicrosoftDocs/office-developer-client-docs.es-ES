@@ -33,7 +33,7 @@ Para obtener una referencia a la celda NonPrinting por su nombre desde otra fór
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | No imprimibles  <br/> |
+| Nombre de celda:  <br/> | NonPrinting  <br/> |
    
 Para obtener una referencia a la celda NonPrinting por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

@@ -25,7 +25,7 @@ ms.locfileid: "33436079"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve los datos necesarios para volver a generar el estado expandido o contraído actual de una tabla clasificada.
+Devuelve los datos necesarios para volver a generar el estado contraído o expandido actual de una tabla categorizada.
   
 ```cpp
 HRESULT GetCollapseState(
@@ -37,63 +37,63 @@ LPBYTE FAR * lppbCollapseState
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> Reserve debe ser cero.
+> Reservado; debe ser cero.
     
  _cbInstanceKey_
   
-> a El recuento de bytes de la clave de instancia apuntado por el parámetro _lpbInstanceKey_ . 
+> [entrada] Recuento de bytes en la clave de instancia a la que apunta el _parámetro lpbInstanceKey._ 
     
  _lpbInstanceKey_
   
-> a Un puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la fila en la que se debe recompilar el estado expandido o contraído actual. El parámetro _lpbInstanceKey_ no puede ser nulo. 
+> [entrada] Puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la fila en la que se debe volver a generar el estado contraído o expandido actual. El  _parámetro lpbInstanceKey_ no puede ser NULL. 
     
  _lpcbCollapseState_
   
-> contempla Un puntero al número de estructuras señalado por el parámetro _lppbCollapseState_ . 
+> [salida] Puntero al recuento de estructuras a las que apunta el parámetro _lppbCollapseState._ 
     
  _lppbCollapseState_
   
-> contempla Un puntero a un puntero a estructuras que contienen datos que describen la vista de tabla actual.
+> [salida] Puntero a un puntero a estructuras que contienen datos que describen la vista de tabla actual.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El estado de la tabla clasificada se ha guardado correctamente.
+> El estado de la tabla categorizada se guardó correctamente.
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que impide que la operación se inicie. Debe permitirse que la operación en curso se complete o que deba detenerse.
+> Hay otra operación en curso que impide que se inicie la operación. La operación en curso debe poder completarse o debe detenerse.
     
 MAPI_E_NO_SUPPORT 
   
-> La tabla no admite la categorización y las vistas expandidas y contraídas.
+> La tabla no admite la categorización y las vistas expandida y contraida.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPITable:: GetCollapseState** funciona con el método [IMAPITable:: SetCollapseState](imapitable-setcollapsestate.md) para cambiar la vista del usuario de una tabla clasificada. **GetCollapseState** guarda los datos necesarios para que **SetCollapseState** use para volver a crear las vistas adecuadas de las categorías de una tabla clasificada. Los proveedores de servicios determinan los datos que se van a guardar. Sin embargo, la mayoría de los proveedores de servicios que implementan **GetCollapseState** guardan lo siguiente: 
+El **método IMAPITable::GetCollapseState** funciona con el método [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md) para cambiar la vista del usuario de una tabla categorizada. **GetCollapseState** guarda los datos necesarios para que **SetCollapseState** lo use para volver a generar las vistas adecuadas de las categorías de una tabla categorizada. Los proveedores de servicios determinan los datos que se deben guardar. Sin embargo, la mayoría de los proveedores de **servicios que implementan GetCollapseState** guarda lo siguiente: 
   
-- Claves de ordenación (columnas estándar y columnas de categoría).
+- Las claves de ordenación (columnas estándar y columnas de categoría).
     
-- Información sobre la fila representada por la clave de instancia.
+- Información sobre la fila que representa la clave de instancia.
     
-- Información para restaurar las categorías contraídas y expandidas de la tabla.
+- Información para restaurar las categorías contray y expandida de la tabla.
     
-Para obtener más información acerca de las tablas clasificadas por categorías, vea [ordenar y categorización](sorting-and-categorization.md).
+Para obtener más información acerca de las tablas categorizadas, vea [Ordenar y categorizar.](sorting-and-categorization.md)
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Almacene el estado actual de todos los nodos de una tabla en el parámetro _lppbCollapseState_ . 
+Almacene el estado actual de todos los nodos de una tabla en el parámetro _lppbCollapseState._ 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame siempre a **GetCollapseState** antes de llamar a **SetCollapseState**. 
+Llame siempre **a GetCollapseState antes** de llamar **a SetCollapseState**. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

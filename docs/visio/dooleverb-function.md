@@ -22,13 +22,13 @@ Ejecuta un verbo para el objeto OLE.
   
 ## <a name="syntax"></a>Sintaxis
 
-DOOLEVERB ("* * *verbo* * *") 
+DOOLEVERB(" ** *verb* ** ") 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _verbo_ <br/> |Obligatorio  <br/> |**String** <br/> |Verbo para ejecutar.  <br/> |
+| _"verb"_ <br/> |Obligatorio  <br/> |**String** <br/> |Verbo para ejecutar.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -36,7 +36,7 @@ En versiones anteriores de Visio, esta función se denominaba _DOOLEVERB. La ver
   
 ## <a name="example"></a>Ejemplo
 
-DOOLEVERB ("edición")
+DOOLEVERB("edit")
   
 Ejecuta el programa del objeto OLE y muestra el objeto vinculado o incrustado de forma que pueda modificarse.
   

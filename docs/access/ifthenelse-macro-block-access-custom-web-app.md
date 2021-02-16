@@ -1,5 +1,5 @@
 ---
-title: Si... A continuación,... Bloque de macros else (aplicación web personalizada de Access)
+title: Si... A continuación... Bloque de macros Else (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434497"
 ---
-# <a name="ifthenelse-macro-block-access-custom-web-app"></a>Si... A continuación,... Bloque de macros else (aplicación web personalizada de Access)
+# <a name="ifthenelse-macro-block-access-custom-web-app"></a>Si... A continuación... Bloque de macros Else (aplicación web personalizada de Access)
 
 Puede utilizar el bloque de macro **Si** para ejecutar condicionalmente un grupo de acciones, dependiendo del valor de una expresión. 
   

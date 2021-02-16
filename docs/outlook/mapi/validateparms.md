@@ -44,11 +44,11 @@ HRESULT ValidateParms(
 
  _eMethod_
   
-> a Especifica, por enumeración, el método que se va a validar. 
+> [entrada] Especifica, por enumeración, el método que se debe validar. 
     
  _Primero_
   
-> a Puntero al primer argumento de la pila.
+> [entrada] Puntero al primer argumento de la pila.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,11 +62,11 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Comentarios
 
-Se supone que los parámetros que se han pasado entre MAPI y los proveedores de servicios son correctos y solo se someten a la validación de depuración con la macro [CheckParms](checkparms.md) . Los proveedores deben comprobar todos los parámetros pasados por las aplicaciones cliente, pero los clientes deben suponer que los parámetros MAPI y del proveedor son correctos. Use la macro **HR_FAILED** para probar los valores devueltos. 
+Se supone que los parámetros pasados entre MAPI y los proveedores de servicios son correctos y solo se someten a la validación de depuración con la macro [CheckParms.](checkparms.md) Los proveedores deben comprobar todos los parámetros pasados por las aplicaciones cliente, pero los clientes deben suponer que los parámetros MAPI y del proveedor son correctos. Use la **macro HR_FAILED** para probar los valores devueltos. 
   
- Se llama a **ValidateParms** de forma diferente en función de si el código de llamada es C o C++. C++ pasa un parámetro implícito conocido como _this_ a cada llamada a método, que se convierte en Explicit en C y es la dirección del objeto. El primer parámetro, _eMethod_, es un enumerador creado a partir de la interfaz y el método que se va a validar e indica qué parámetros se esperan buscar en la pila. El segundo parámetro es diferente para C y C++. En C++, se llama _primero_y es el primer parámetro para el método que se va a validar. El segundo parámetro para el lenguaje C, _ppThis_, es la dirección del primer parámetro del método que siempre es un puntero de objeto. En ambos casos, el segundo parámetro proporciona la dirección del principio de la lista de parámetros del método y, en función de _eMethod_, baja la pila y valida los parámetros. 
+ **ValidateParms** se llama de forma diferente en función de si el código de llamada es C o C++. C++ pasa un parámetro  implícito conocido como esto a cada llamada de método, que se convierte en explícita en C y es la dirección del objeto. El primer parámetro,  _eMethod_, es un enumerador creado a partir de la interfaz y el método que se va a validar e indica qué parámetros esperar encontrar en la pila. El segundo parámetro es diferente para C y C++. En C++ se denomina  _First_ y es el primer parámetro del método que se va a validar. El segundo parámetro para el lenguaje C,  _ppThis_, es la dirección del primer parámetro para el método que siempre es un puntero de objeto. En ambos casos, el segundo parámetro proporciona la dirección del principio de la lista de parámetros del método y, en función de  _eMethod,_ baja la pila y valida los parámetros. 
   
-Los proveedores que implementen interfaces comunes como **IMAPITable** y **IMAPIProp** siempre deben comprobar los parámetros mediante la función **ValidateParms** para garantizar la coherencia entre todos los proveedores. Se han definido funciones de validación de parámetros adicionales para los tipos de parámetros complejos que se utilizarán en su lugar según corresponda. Consulte los temas de referencia para las siguientes funciones: 
+Los proveedores que implementan interfaces comunes como **IMAPITable** e **IMAPIProp** siempre deben comprobar los parámetros mediante la función **ValidateParms** para garantizar la coherencia en todos los proveedores. Se han definido funciones de validación de parámetros adicionales para algunos tipos de parámetros complejos que se usarán según corresponda. Consulte los temas de referencia para las siguientes funciones: 
   
 - [FBadColumnSet](fbadcolumnset.md)
     
@@ -88,9 +88,9 @@ Los proveedores que implementen interfaces comunes como **IMAPITable** y **IMAPI
     
 - [FBadSortOrderSet](fbadsortorderset.md)
     
-Los métodos heredados usan la misma validación de parámetros que la interfaz desde la que heredan. Por ejemplo, la comprobación de parámetros para **IMessage** y **IMAPIProp** debe ser la misma. 
+Los métodos heredados usan la misma validación de parámetros que la interfaz de la que heredan. Por ejemplo, la comprobación de parámetros **para IMessage** e **IMAPIProp** debe ser la misma. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

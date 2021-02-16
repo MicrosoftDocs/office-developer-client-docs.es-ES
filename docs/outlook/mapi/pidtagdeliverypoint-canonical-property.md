@@ -25,7 +25,7 @@ ms.locfileid: "33439425"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la naturaleza de la entidad funcional a través de la cual un mensaje se ha entregado o se habría entregado al destinatario. 
+Especifica la naturaleza de la entidad funcional por medio de la cual se entregó un mensaje al destinatario. 
   
 |||
 |:-----|:-----|
@@ -40,31 +40,31 @@ Esta propiedad puede tener exactamente uno de los siguientes valores:
   
 MAPI_MH_DP_ML 
   
-> Entregada a una lista de distribución, un punto de entrega que, a su vez, puede distribuir el mensaje a muchos destinatarios.
+> Entregado a una lista de distribución, un punto de entrega que a su vez puede distribuir el mensaje a muchos destinatarios.
     
 MAPI_MH_DP_MS 
   
-> Se entrega a un almacén de mensajes en lugar de a un destinatario directamente.
+> Se entrega a un almacén de mensajes en lugar de directamente a un destinatario.
     
 MAPI_MH_DP_OTHER_AU 
   
-> Entregarse a una unidad de acceso (AU) que no sea una unidad de acceso de entrega física (PDAU), como un sistema de FAX.
+> Se entrega a una unidad de acceso (AU) que no sea una unidad de acceso de entrega física (PDAU), como un sistema FAX.
     
 MAPI_MH_DP_PDAU 
   
-> Entregarse a una unidad de acceso de entrega física, como una compañía de correos humanos.
+> Entregado a una unidad de acceso de entrega física, como un operador postal humano.
     
 MAPI_MH_DP_PDS_PATRON 
   
-> Entregarse a un sistema de entrega físico, como un buzón postal convencional.
+> Se entrega a un sistema de entrega físico, como un buzón postal convencional.
     
 MAPI_MH_DP_PRIVATE_UA 
   
-> Se entrega a un agente de usuario privado (UA), como un cliente en un sistema de mensajería interno.
+> Se entrega a un agente de usuario privado (UA), como un cliente en un sistema de mensajería local.
     
 MAPI_MH_DP_PUBLIC_UA 
   
-> Entrega a un agente de usuario público o a un proveedor de servicios públicos.
+> Se entrega a un agente de usuario público o a un proveedor de servicios públicos.
     
 El valor predeterminado es MAPI_MH_DP_PRIVATE_UA, es decir, un cliente MAPI. 
   
@@ -72,15 +72,15 @@ El valor predeterminado es MAPI_MH_DP_PRIVATE_UA, es decir, un cliente MAPI.
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -88,7 +88,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

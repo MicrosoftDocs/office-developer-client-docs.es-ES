@@ -27,18 +27,18 @@ Define el nombre de un elemento de menú que aparece en un menú contextual o de
 
 Para insertar un separador en el menú situado encima de este elemento, utilice la celda BeginGroup. Para mostrar el comando en la parte inferior del menú, coloque un carácter de porcentaje (%) como prefijo del nombre.
   
-Para obtener una referencia a la celda menu por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda Menu por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** utilice: 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Actividades. *nombre* . Acciones Menudonde.  *nombre* es el nombre de la fila de acciones.  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*  . Menuwhere Actions.  *es*  el nombre de la fila Actions  <br/> |
    
 Para obtener una referencia desde un programa a la celda Menu por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionAction** <br/> |
-|Índice de fila:  <br/> |**visRowAction** +  *i* donde i = 0, 1, 2,...  <br/> |
+|Índice de fila:  <br/> |**visRowAction**  +   *i* donde i = 0, 1, 2, ...  <br/> |
 |Índice de celda:  <br/> |**visActionMenu** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33434252"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una estructura [MAPIERROR](mapierror.md) que contiene información sobre el error anterior del proveedor de la libreta de direcciones. 
+Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior del proveedor de libreta de direcciones. 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,23 +35,23 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _Valores_
+ _hResult_
   
-> a Identificador del valor de error generado en la llamada al método anterior.
+> [entrada] Identificador del valor de error generado en la llamada al método anterior.
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas de la estructura **MAPIERROR** devueltas en el parámetro _lppMAPIError_ están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI. 
+> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
     
  _lppMAPIError_
   
-> contempla Un puntero a un puntero a una estructura **MAPIERROR** que contiene información sobre la versión, el componente y el contexto del error. El parámetro _lppMAPIError_ puede establecerse en NULL si el proveedor no puede proporcionar una estructura **MAPIERROR** con la información adecuada. 
+> [salida] Puntero a un puntero a una **estructura MAPIERROR** que contiene información de versión, componente y contexto del error. El  _parámetro lppMAPIError_ se puede establecer en NULL si el proveedor no puede proporcionar una **estructura MAPIERROR** con la información adecuada. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,19 +61,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció la marca MAPI_UNICODE y el proveedor de la libreta de direcciones no admite Unicode, o no se estableció MAPI_UNICODE y el proveedor de la libreta de direcciones solo admite Unicode.
+> Se estableció MAPI_UNICODE marca y el proveedor de libreta de direcciones no admite Unicode o MAPI_UNICODE no se estableció y el proveedor de libreta de direcciones solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de la libreta de direcciones implementan el método **GetLastError** para proporcionar información sobre una llamada a un método anterior que no se ha realizado correctamente. Los autores de llamadas pueden proporcionar a sus usuarios información detallada acerca del error al incluir los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
+Los proveedores de libretas de direcciones implementan **el método GetLastError** para proporcionar información sobre una llamada de método anterior que ha fallado. Los autores de llamadas pueden proporcionar a sus usuarios información detallada sobre el error incluyendo los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar la estructura **MAPIERROR** apuntado por el parámetro _lppMAPIError_ si el proveedor de la libreta de direcciones proporciona la estructura y solo si **GetLastError** Devuelve S_OK. A veces, el proveedor de la libreta de direcciones no puede determinar qué ha sido el último error o no tiene nada más para informar sobre el error. En esta situación, el proveedor de la libreta de direcciones devuelve un puntero a NULL en _lppMAPIError_ en su lugar. 
+Puede usar la estructura **MAPIERROR** a la que apunta el parámetro  _lppMAPIError_ si el proveedor de libreta de direcciones proporciona la estructura y sólo si **GetLastError** devuelve S_OK. A veces, el proveedor de libreta de direcciones no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, el proveedor de libreta de direcciones devuelve un puntero a NULL  _en lppMAPIError_ en su lugar. 
   
-Para obtener más información sobre el método **GetLastError** , vea [errores extendidos de MAPI](mapi-extended-errors.md).
+Para obtener más información acerca **del método GetLastError,** vea [errores extendidos de MAPI.](mapi-extended-errors.md)
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPIGetSession
+title: IMAPIGetSession IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33436653"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a la sesión MAPI actual asociada con el objeto support. Los proveedores MAPI pueden consultar su objeto de compatibilidad MAPI para esta interfaz. Para obtener más información sobre los objetos de soporte, consulte [support Object Overview](support-object-overview.md).
+Proporciona acceso a la sesión MAPI actual asociada con el objeto de compatibilidad. Los proveedores MAPI pueden consultar su objeto de compatibilidad mapi para esta interfaz. Para obtener más información sobre los objetos de compatibilidad, vea [Información general sobre los objetos de soporte técnico.](support-object-overview.md)
   
 |||
 |:-----|:-----|
@@ -33,13 +33,13 @@ Proporciona acceso a la sesión MAPI actual asociada con el objeto support. Los 
 |Llamado por:  <br/> |Proveedores MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIGetSession  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
 |[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Se llama para obtener un puntero a la sesión MAPI actual.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -50,5 +50,5 @@ Proporciona acceso a la sesión MAPI actual asociada con el objeto support. Los 
 
 [Interfaces MAPI](mapi-interfaces.md)
   
-[Información general sobre el objeto support](support-object-overview.md)
+[Información general sobre los objetos de soporte técnico](support-object-overview.md)
 

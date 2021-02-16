@@ -19,25 +19,25 @@ ms.locfileid: "33436030"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En cualquier sesión en particular, un almacén de mensajes actúa como almacén de mensajes predeterminado. Un almacén de mensajes predeterminado tiene las siguientes características:
+En una sesión determinada, un almacén de mensajes actúa como almacén de mensajes predeterminado. Un almacén de mensajes predeterminado tiene las siguientes características:
   
-- La propiedad **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) se establece en true.
+- La **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) está establecida en TRUE.
     
-- La marca STATUS_DEFAULT_STORE se establece en la propiedad **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+- La STATUS_DEFAULT_STORE se establece en la **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
-- MAPI crea automáticamente el subárbol IPM y las carpetas raíz para los resultados de la búsqueda, las vistas comunes y las vistas personales cuando se abre el almacén de mensajes. Para obtener más información acerca de estas carpetas, vea [IPM SUBTREE](ipm-subtree.md) y [MAPI Special folders](mapi-special-folders.md). 
+- MAPI crea automáticamente el subárbol IPM y las carpetas raíz para resultados de búsqueda, vistas comunes y vistas personales cuando se abre el almacén de mensajes. Para obtener más información acerca de estas carpetas, [vea Subárbol IPM](ipm-subtree.md) y [Carpetas especiales MAPI.](mapi-special-folders.md) 
     
-Para recuperar el identificador de entrada para el almacén de mensajes predeterminado, debe llamar a [IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md) para abrir la tabla de almacén de mensajes y aplicar una restricción adecuada en una llamada a [HrQueryAllRows](hrqueryallrows.md). **HrQueryAllRows** devolverá un conjunto de filas con la fila que representa el almacén de mensajes predeterminado. La restricción que se pasa a **HrQueryAllRows** puede realizarse en una de las siguientes formas: 
+Para recuperar el identificador de entrada para el almacén de mensajes predeterminado, debe llamar a [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) para abrir la tabla del almacén de mensajes y aplicar una restricción adecuada en una llamada a [HrQueryAllRows](hrqueryallrows.md). **HrQueryAllRows** devolverá un conjunto de filas con la fila que representa el almacén de mensajes predeterminado. La restricción que pase a **HrQueryAllRows** puede tener uno de los siguientes formatos: 
   
-1. Una restricción **and** que usa una estructura **SAndRestriction** para combinar: 
+1. Una **restricción AND** que usa una estructura **SAndRestriction** para combinar: 
     
-   - Una restricción de EXISTS que usa una estructura **SExistRestriction** para comprobar la existencia de la propiedad **PR_DEFAULT_STORE** . 
+   - Existe una restricción que usa una **estructura SExistRestriction** para probar la existencia de la **PR_DEFAULT_STORE** propiedad. 
     
-   - Una restricción de propiedad que usa una estructura [SPropertyRestriction](spropertyrestriction.md) para comprobar el valor true en la propiedad **PR_DEFAULT_STORE** . 
+   - Restricción de propiedad que usa una [estructura SPropertyRestriction](spropertyrestriction.md) para comprobar el valor TRUE en la **PR_DEFAULT_STORE** propiedad. 
     
-2. Una restricción de máscara de subred que usa una estructura [SBitMaskRestriction](sbitmaskrestriction.md) para aplicar STATUS_DEFAULT_STORE como máscara en la propiedad **PR_RESOURCE_FLAGS** . 
+2. Restricción de máscara de bits que usa una estructura [SBitMaskRestriction](sbitmaskrestriction.md) para aplicar STATUS_DEFAULT_STORE como máscara en la **PR_RESOURCE_FLAGS** propiedad. 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [SExistRestriction](sexistrestriction.md)
 - [SAndRestriction](sandrestriction.md)

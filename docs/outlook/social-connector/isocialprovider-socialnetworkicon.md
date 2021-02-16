@@ -25,11 +25,11 @@ Devuelve una matriz de bytes que representa el icono de la red social.
 
 ## <a name="property-value"></a>Valor de propiedad
 
-Un puntero a una estructura que especifica una matriz de bytes que contiene el icono para la red social.
+Puntero a una estructura que especifica una matriz de bytes que contiene el icono de la red social.
   
 ## <a name="remarks"></a>Comentarios
 
-Los recursos de imágenes compatibles son formatos. bmp,. JPEG y. png.
+Los recursos de imagen admitidos son formatos .bmp, .jpeg y .png.
   
 ## <a name="see-also"></a>Vea también
 

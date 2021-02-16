@@ -25,7 +25,7 @@ ms.locfileid: "33435764"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de comprobación binario que permite a los destinatarios de un informe de entrega comprobar el origen del mensaje original.
+Contiene un valor de verificación binario que permite que un destinatario del informe de entrega compruebe el origen del mensaje original.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene un valor de comprobación binario que permite a los destinatarios de un
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad proporciona un medio para un tercero, como un agente de transferencia de mensajes (MTA) o un usuario de mensajería que recibe un informe de entrega, para comprobar el origen del mensaje enviado. Si está presente en un mensaje recibido, esta propiedad debe copiarse en cualquier informe de entrega generado en respuesta al mensaje.
+Esta propiedad proporciona un medio para que un tercero, como un agente de transferencia de mensajes (MTA) o un usuario de mensajería que recibe un informe de entrega, compruebe el origen del mensaje enviado. Si está presente en un mensaje recibido, esta propiedad debe copiarse en cualquier informe de entrega generado en respuesta al mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -58,7 +58,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

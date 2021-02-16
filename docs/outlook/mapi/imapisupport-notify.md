@@ -23,7 +23,7 @@ ms.locfileid: "33435939"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Envía una notificación de un evento especificado a un origen de notificaciones que se registró originalmente para la notificación a través del método [IMAPISupport:: subscribe](imapisupport-subscribe.md) . 
+Envía una notificación de un evento especificado a un origen de aviso que se registró originalmente para la notificación a través del método [IMAPISupport::Subscribe.](imapisupport-subscribe.md) 
   
 ```cpp
 HRESULT Notify(
@@ -34,29 +34,29 @@ ULONG FAR * lpulFlags
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _lpKey_
   
-> a Un puntero a la clave de notificación para el objeto de origen Advise. El parámetro _lpKey_ no puede ser nulo. 
+> [entrada] Un puntero a la clave de notificación para el objeto de origen de aviso. El  _parámetro lpKey_ no puede ser NULL. 
     
 _cNotification_
   
-> a El número de estructuras de notificación a las que apunta el parámetro _lpNotifications_ . 
+> [entrada] Recuento de estructuras de notificación a las que apunta el _parámetro lpNotifications._ 
     
 _lpNotifications_
   
-> a Un puntero a una matriz de estructuras de [notificación](notification.md) que describe las notificaciones pendientes. 
+> [entrada] Puntero a una matriz de estructuras [de notificación](notification.md) que describen las notificaciones pendientes. 
     
 _lpulFlags_
   
-> [in, out] Máscara de máscara de marcadores que controla el proceso de notificación. En la entrada, se puede establecer la siguiente marca:
+> [entrada, salida] Máscara de bits de marcas que controla el proceso de notificación. En la entrada, se puede establecer la siguiente marca:
     
   - MAPI_UNICODE 
     
-    > Las cadenas de las estructuras de notificación a las que apunta _lpNotifications_ están en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas están en formato ANSI. 
+    > Las cadenas de las estructuras de notificación a las que apunta  _lpNotifications_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
 
-    En la salida, MAPI puede establecer la siguiente marca:
+    En el resultado, MAPI puede establecer la siguiente marca:
         
   - NOTIFY_CANCELED 
     
@@ -70,25 +70,25 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISupport:: Notify** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios llaman a **Notify** para solicitar que MAPI genere una notificación para un receptor de notificaciones previamente registrado para la notificación a través del método **IMAPISupport:: subscribe** . 
+El **método IMAPISupport::Notify** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios llaman a **Notify** para solicitar que MAPI genere una notificación para un receptor de avisos que se haya registrado previamente para la notificación a través del método **IMAPISupport::Subscribe.** 
   
-**Notify** copia en la memoria las estructuras señaladas por el parámetro _lpNotifications_ y llama al m? todo [IMAPIAdviseSink:: método Notify](imapiadvisesink-onnotify.md) del receptor adecuado. Cuando **Notify** termina con la notificación, libera la memoria implicada. El autor de la llamada no necesita asignar memoria; MAPI realiza toda la asignación de memoria necesaria. 
+**Notify** copies the structures pointed to by the  _lpNotifications_ parameter into memory and calls the appropriate advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method. Cuando **OnNotify** termina con la notificación, libera la memoria implicada. El autor de la llamada no necesita asignar memoria; MAPI realiza toda la asignación de memoria necesaria. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La clave de notificación que se pasa en el parámetro _lpKey_ debe ser idéntica a la clave pasada en _LpKey_ al método **IMAPISupport:: subscribe** . Muchos proveedores usan el identificador de entrada del origen Advise como la clave, pero se pueden usar otros datos, como una ruta de acceso de archivo. MAPI usa esta clave para buscar todos los registros de notificaciones en el origen de Advise identificado. 
+La clave de notificación pasada en el _parámetro lpKey_ debe ser idéntica a la clave pasada _en lpKey_ al **método IMAPISupport::Subscribe.** Muchos proveedores usan el identificador de entrada del origen de aviso como clave, pero se pueden usar otros datos, como una ruta de acceso de archivo. MAPI usa esta clave para buscar todos los registros de notificaciones en el origen de aviso identificado. 
   
 Asegúrese de establecer el miembro **lpEntryID** de la estructura de notificación en un identificador de entrada a largo plazo. 
   
-Si establece la marca NOTIFY_SYNC en la llamada **subscribe** para cualquiera de las notificaciones pendientes, **Notify** llama a las funciones de devolución de llamada del método **IMAPIAdviseSink:: BENOTIFY** antes de devolverse. Un receptor de notificaciones se puede crear manualmente o llamando a [HrAllocAdviseSink](hrallocadvisesink.md). La función **HrAllocAdviseSink** permite al autor de la llamada especificar una función de devolución de llamada que **notifica** las llamadas como parte de la notificación. La función de devolución de llamada se ajusta al prototipo [NOTIFCALLBACK](notifcallback.md) . Las funciones de devolución de llamada implementadas por los clientes siempre devuelven S_OK; las funciones de devolución de llamada implementadas por proveedores de servicios pueden devolver CALLBACK_DISCONTINUE. 
+Si establece la marca NOTIFY_SYNC en la llamada **subscribe** para cualquiera de las notificaciones pendientes, **Notify** llama a las funciones de devolución de llamada del método **IMAPIAdviseSink::OnNotify** antes de devolver. Un receptor de avisos se puede crear manualmente o llamando a [HrAllocAdviseSink](hrallocadvisesink.md). La **función HrAllocAdviseSink** permite a su autor de la llamada especificar una función de devolución de llamada que **notifique** las llamadas como parte de la notificación. La función de devolución de llamada se ajusta al prototipo [NOTIFCALLBACK.](notifcallback.md) Las funciones de devolución de llamada implementadas por los clientes siempre devuelven S_OK; Las funciones de devolución de llamada implementadas por los proveedores de servicios pueden devolver CALLBACK_DISCONTINUE. 
   
-Si una función de devolución de llamada devuelve CALLBACK_DISCONTINUE, MAPI deja de enviar notificaciones y devuelve NOTIFY_CANCELED en el parámetro _lpulFlags_ del método **Notify** . Puede dar por hecho que el proceso está inactivo y dejar de generar notificaciones para ese proceso. Si **Notify** devuelve 0 en _lpulFlags_, el proceso sigue activo y debe seguir enviando notificaciones, según corresponda.
+Si una función de devolución de llamada devuelve CALLBACK_DISCONTINUE, MAPI deja de enviar notificaciones y devuelve NOTIFY_CANCELED en el parámetro _lpulFlags del método_ **Notify.** Puedes suponer que el proceso está inactivo y dejar de generar notificaciones para ese proceso. Si **Notify** devuelve 0  _en lpulFlags,_ el proceso sigue activo y debe continuar con el envío de notificaciones, según corresponda.
   
-Cuando use notificaciones sincrónicas, procure evitar situaciones de interbloqueo.
+Cuando use notificaciones sincrónicas, tenga cuidado de evitar situaciones de interbloqueo.
   
-Para obtener más información sobre el proceso de notificación, vea [notificación de eventos en MAPI](event-notification-in-mapi.md). 
+Para obtener más información acerca del proceso de notificación, vea [Notificación de eventos en MAPI.](event-notification-in-mapi.md) 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)  
 - [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)  

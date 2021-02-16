@@ -18,17 +18,17 @@ ms.locfileid: "33435715"
 ---
 # <a name="pnt-function"></a>Función PNT
 
-Devuelve el punto representado por las coordenadas _x_ e __ y como un valor único. 
+Devuelve el punto representado por las coordenadas  _x_ e  _y_ como un valor único. 
   
 ## <a name="syntax"></a>Sintaxis
 
-PNT (* * *x, y* * *) 
+PNT(** *x,y* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _x, y_ <br/> |Obligatorio  <br/> |**Number, Number** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
+| _x,y_ <br/> |Obligatorio  <br/> |**Number, Number** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -36,11 +36,11 @@ Point
   
 ## <a name="remarks"></a>Comentarios
 
-La conversión de coordenadas a puntos le permite cambiar la geometría de una forma sin tener que manipular las coordenadas *x* -e *y* -por separado. 
+La conversión de coordenadas en puntos permite cambiar la geometría de una forma sin tener que manipular las coordenadas  *x*  e  *y*  por separado. 
   
 ## <a name="example"></a>Ejemplo
 
-PNT (PinX, PinY) 
+PNT(PinX,PinY) 
   
 Devuelve el punto representado por las coordenadas PinX y PinY. 
   

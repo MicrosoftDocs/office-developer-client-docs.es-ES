@@ -21,14 +21,14 @@ ms.locfileid: "33436907"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El cuadro de diálogo Dirección común de MAPI se puede usar para varias tareas de direccionamiento, como la creación de una lista de destinatarios. Para mostrar este cuadro de diálogo, llame a **IAddrBook:: Address**. Según el número de parámetros que establezca y el modo en que los establezca, puede limitar la visualización a las entradas de un tipo determinado desde un determinado contenedor.
+El cuadro de diálogo de direcciones comunes MAPI se puede usar para diversas tareas de direccionamiento, como la construcción de una lista de destinatarios. Para mostrar este cuadro de diálogo, llame a **IAddrBook::Address**. Dependiendo de cuáles de los parámetros se establezcan y cómo se establezcan, puede limitar la presentación a las entradas de un tipo determinado de un contenedor determinado.
   
- **Para limitar el cuadro de diálogo de la dirección a mostrar solo las entradas de la libreta personal de direcciones (PAB)**
+ **Para limitar el cuadro de diálogo de dirección a mostrar solo las entradas de la libreta de direcciones personal (PAB)**
   
-1. Llame a [IAddrBook:: GetPAB](iaddrbook-getpab.md) para recuperar el identificador de entrada de la PAB. 
+1. Llame [a IAddrBook::GetPAB](iaddrbook-getpab.md) para recuperar el identificador de entrada del PAB. 
     
-2. Cree una restricción de propiedad que use RELOP_EQ para el miembro **RELOP** de la estructura [SPropertyRestriction](spropertyrestriction.md) y **** bien el elemento ([PidTagEntryId](pidtagentryid-canonical-property.md)) o **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) como el miembro **ulPropTag** . Si usa el **** valor, pase el identificador de entrada recuperado de **GetPAB**. Si usa **PR_AB_PROVIDER_ID**, pase el valor incluido en MSPAB. H archivo de encabezado. **PR_AB_PROVIDER_ID** es el identificador único de la PAB diseñado por MAPI. 
+2. Cree una restricción de propiedad que use RELOP_EQ para el miembro **retablo** de la estructura [SPropertyRestriction](spropertyrestriction.md) y **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) o **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) como el **miembro ulPropTag.** Si usa **PR_ENTRYID**, pase el identificador de entrada recuperado de **GetPAB**. Si usa **PR_AB_PROVIDER_ID**, pase el valor incluido en la MSPAB. Archivo de encabezado H. **PR_AB_PROVIDER_ID** es el identificador único del PAB diseñado por MAPI. 
     
-3. Llamar a [IAddrBook:: Address](iaddrbook-address.md) con el parámetro _lpHierRestriction_ que apunte a la restricción de propiedad. 
+3. Llame [a IAddrBook::Address](iaddrbook-address.md) con el parámetro  _lpHierRestriction_ que señale a la restricción de propiedad. 
     
 

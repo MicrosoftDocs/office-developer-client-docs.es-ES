@@ -25,11 +25,11 @@ ms.locfileid: "33435176"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un identificador de entrada del sistema de transporte de mensajes (MTS) X. 400. 
+Contiene un identificador de entrada del sistema de transporte de mensajes (MTS) X.400. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Macros relacionadas:  <br/> |[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md) <br/> |
    
 ```cpp
@@ -41,23 +41,23 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **cb**
   
-> Número de bytes en la matriz que describe el miembro **abEntry** . 
+> Número de bytes de la matriz descrita por el **miembro abEntry.** 
     
  **abEntry**
   
-> Matriz de bytes que contiene los datos del identificador de entrada MTS.
+> Matriz de bytes que contiene los datos del identificador de entrada mts.
     
 ## <a name="remarks"></a>Comentarios
 
-La estructura **MTSID** se usa únicamente para las asignaciones X. 400 de los identificadores de entrada MAPI. Corresponde a la estructura [FLATENTRY](flatentry.md) de MAPI. 
+La **estructura MTSID** solo se usa para asignaciones X.400 de identificadores de entrada MAPI. Corresponde a la estructura [FLATENTRY de](flatentry.md) MAPI. 
   
-Un identificador de MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de propiedad binario. Los identificadores de MTS pueden ser particularmente útiles para cancelar mensajes aplazados. 
+Un identificador MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de propiedad binaria. Los identificadores MTS pueden ser especialmente útiles para cancelar mensajes diferidos. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

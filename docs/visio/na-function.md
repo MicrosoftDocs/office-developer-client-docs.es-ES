@@ -28,7 +28,7 @@ NA( )
   
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251464
 localization_priority: Normal
 ms.assetid: 5a90cb16-7eef-8876-8e25-408787b16f58
-description: Devuelve un valor Integer comprendido entre 0 y 59 que representa el componente de minutos de fechaHora o expresión.
+description: Devuelve un entero de 0 a 59 que representa el componente de minutos de fecha y hora o expresión .
 ms.openlocfilehash: 35fe1dc8d4026dd6c829a38504d9ba82d64edda2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33436569"
 ---
 # <a name="minute-function-visioshapesheet"></a>Función MINUTE (VisioShapeSheet)
 
-Devuelve un valor Integer comprendido entre 0 y 59 que representa el componente de minutos de *fechaHora* o *expresión* . 
+Devuelve un entero entre 0 y 59 que representa el componente de minutos de  *fecha y hora*  o  *expresión*  . 
   
 ## <a name="syntax"></a>Sintaxis
 
-MINUTE (" *fecha y hora* " |  *expresión*  [, *LCID* ]) 
+MINUTE(" *datetime*  "|  *expresión*  [,  *lcid*  ]) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
+| _datetime_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
 | _expression_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
 | _lcid_ <br/> |Opcional  <br/> |**Number** <br/> |Identificador regional que se usa para evaluar información de fecha y hora que no sea local. El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
@@ -38,17 +38,17 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Se descarta el componente de fecha de _DateTime_ y de _expresión_ . 
+Se descarta el componente de  _fecha y_ hora  _y la_ expresión. 
   
-No se realiza redondeo. Si falta _fecha y hora_ o no se puede convertir en un resultado válido, la función devuelve un error. 
+No se realiza redondeo. Si  _falta fecha y_ hora o no se puede convertir en un resultado válido, la función devuelve un error. 
   
 El formato del valor devuelto corresponde al estilo de hora establecido en la configuración regional actual del sistema.
   
-La función MINUTE también acepta un único valor numérico en _expresión_ , en el que la parte decimal representa la fracción de un día a partir de la medianoche. 
+La función MINUTE también acepta un  valor numérico único para la expresión en la que la parte decimal representa la fracción de un día desde la medianoche. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-MINUTE ("7/7/1999 13:45:24")
+MINUTE("7/7/1999 13:45:24")
   
 Devuelve 45.
   
@@ -60,7 +60,7 @@ Devuelve 13.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-MINUTO (0.575)
+MINUTE(0,575)
   
 Devuelve 48.
   

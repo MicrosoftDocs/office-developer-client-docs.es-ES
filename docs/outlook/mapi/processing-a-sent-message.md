@@ -1,5 +1,5 @@
 ---
-title: Procesar un mensaje enviado
+title: Procesamiento de un mensaje enviado
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,28 +15,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434679"
 ---
-# <a name="processing-a-sent-message"></a>Procesar un mensaje enviado
+# <a name="processing-a-sent-message"></a>Procesamiento de un mensaje enviado
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los mensajes salientes, después de que se han enviado, pueden dejarse en la carpeta Bandeja de salida, moverse a una carpeta designada para contener los mensajes enviados o eliminarse. El tipo de procesamiento depende de si ha establecido o no las propiedades del almacén de mensajes:
+Los mensajes salientes, una vez enviados, se pueden dejar en la carpeta Bandeja de salida, moverse a una carpeta designada para contener mensajes enviados o eliminarse. El tipo de procesamiento depende de si se han establecido o no las propiedades del almacén de mensajes:
   
 - **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) 
     
 - **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 
     
- **PR_DELETE_AFTER_SUBMIT** es una propiedad booleana, que se establece en true si se deben eliminar los mensajes después de enviarlos y false en caso contrario. **PR_SENTMAIL_ENTRYID** es el identificador de entrada de una carpeta. Cuando se establece esta propiedad, debe mover los mensajes enviados a la carpeta representada por este identificador de entrada. Los mensajes guardados suelen tener la identidad del último almacén de mensajes o del proveedor de transporte para enviarlos. 
+ **PR_DELETE_AFTER_SUBMIT** es una propiedad booleana, establecida en TRUE si los mensajes deben eliminarse después de su envío y FALSE en caso contrario. **PR_SENTMAIL_ENTRYID** es el identificador de entrada de una carpeta. Cuando se establece esta propiedad, debe mover los mensajes enviados a la carpeta representada por este identificador de entrada. Los mensajes guardados normalmente tienen la identidad del último almacén de mensajes o proveedor de transporte para enviarlos. 
   
-Se debe establecer una de estas propiedades, o ninguna de ellas, pero no ambas. Sin embargo, si establece **PR_SENTMAIL_ENTRYID**, debe contener un identificador de entrada válido. 
+Una u otra, o ninguna de estas propiedades debe establecerse, pero no ambas. Sin embargo, si establece **PR_SENTMAIL_ENTRYID**, debe contener un identificador de entrada válido. 
   
 En la tabla siguiente se describe cómo afectan estas propiedades a lo que se hace con los mensajes enviados.
   
 |||
 |:-----|:-----|
-|Si no se establece ninguna propiedad:  <br/> |Dejar el mensaje en la carpeta desde la que se envió (normalmente la bandeja de salida).  <br/> |
-|Si se establece **PR_SENTMAIL_ENTRYID** :  <br/> |Mover el mensaje a la carpeta indicada.  <br/> |
-|Si se establece **PR_DELETE_AFTER_SUBMIT** :  <br/> |Elimine el mensaje.  <br/> |
+|Si no se establece ninguna propiedad:  <br/> |Deje el mensaje en la carpeta desde la que se envió (normalmente la Bandeja de salida).  <br/> |
+|Si **PR_SENTMAIL_ENTRYID** configuración:  <br/> |Mueva el mensaje a la carpeta indicada.  <br/> |
+|Si **PR_DELETE_AFTER_SUBMIT** configuración:  <br/> |Elimine el mensaje.  <br/> |
    
 

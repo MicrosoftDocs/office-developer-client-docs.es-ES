@@ -18,20 +18,20 @@ ms.locfileid: "33439467"
 ---
 # <a name="polylineto-row-geometry-section"></a>Fila PolylineTo (Sección de Geometría)
 
-Contiene las coordenadas *x* e y del último punto de una polilínea y una fórmula de polilínea. ** 
+Contiene  *las coordenadas x*  e  *y*  del último punto de una polilínea y una fórmula de polilínea. 
   
 Las filas PolylineTo contienen las celdas siguientes.
   
 |**Cell**|**Descripción**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordenada *x* del vértice del extremo de una polilínea.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Coordenada *y* del vértice del extremo de una polilínea.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordenada  *x*  del vértice final de una polilínea.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |*Coordenada y* del vértice final de una polilínea.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |Fórmula de polilínea.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Las líneas representadas como fila Polyline son equivalentes a las líneas representadas como una secuencia de filas lineTo, pero la fila Polyline es más eficaz. Puede cambiar una fila PolylineTo a una fila lineTo para que pueda ver fácilmente la geometría de forma. Para ello, haga clic con el botón secundario en la fila PolylineTo y, a continuación, haga clic en **expandir fila** en el menú contextual. 
+Las líneas representadas como fila Polyline son equivalentes a las líneas representadas como una secuencia de filas LineTo, pero una fila Polyline es más eficaz. Puede cambiar una fila PolylineTo a una fila LineTo para que pueda ver fácilmente la geometría de la forma. Para ello, haga clic con el botón secundario en la fila PolylineTo y, a continuación, haga clic en **Expandir fila** en el menú contextual. 
   
-Para cambiar un tipo de fila a una fila PolylineTo, haga clic con el botón secundario en la fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual. 
+Para cambiar un tipo de fila a una fila PolylineTo, haga clic con el botón secundario en la fila y, a continuación, haga clic en Cambiar tipo de fila **en** el menú contextual. 
   
 

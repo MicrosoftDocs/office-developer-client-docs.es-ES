@@ -25,7 +25,7 @@ ms.locfileid: "33436156"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela un registro de notificaciones previamente establecido para una entrada de la libreta de direcciones.
+Cancela un registro de notificación establecido anteriormente para una entrada de la libreta de direcciones.
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulConnection_
   
-> a Un número de conexión que representa el registro que se va a cancelar. El parámetro _ulConnection_ debe contener un valor devuelto por una llamada anterior al método [IAddrBook:: Advise](iaddrbook-advise.md) . 
+> [entrada] Número de conexión que representa el registro que se va a cancelar. El _parámetro ulConnection_ debe contener un valor devuelto por una llamada anterior al método [IAddrBook::Advise.](iaddrbook-advise.md) 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes llaman al método **Unadvise** para dejar de recibir notificaciones sobre los cambios realizados en una determinada entrada de la libreta de direcciones. Cuando se cancela un registro de notificación, el proveedor de la libreta de direcciones libera su puntero al receptor de notificaciones del autor de la llamada. Sin embargo, la liberación se puede producir durante la llamada a **Unadvise** o en algún momento posterior si hay otro subproceso en el proceso de llamada al método [IMAPIAdviseSink:: NotifyTo](imapiadvisesink-onnotify.md) . Cuando hay una notificación en curso, la liberación se retrasa hasta que se devuelva el método **BENOTIFY** . 
+Los clientes llaman **al método Unadvise** para dejar de recibir notificaciones sobre los cambios en una entrada de la libreta de direcciones determinada. Cuando se cancela un registro de notificación, el proveedor de libreta de direcciones libera su puntero al receptor de avisos del autor de la llamada. Sin embargo, la versión puede producirse durante la llamada **Unadvise** o en algún momento posterior, si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink::OnNotify.](imapiadvisesink-onnotify.md) Cuando una notificación está en curso, la versión se retrasa hasta que el **método OnNotify** vuelve. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -29,7 +29,7 @@ Recupera la dirección de la función de asignación de memoria MAPI predetermin
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -43,6 +43,6 @@ Ninguno.
   
 ## <a name="return-value"></a>Valor devuelto
 
-La función **MAPIGetDefaultMalloc** devuelve un puntero a la función de asignación de memoria MAPI predeterminada. 
+La **función MAPIGetDefaultMalloc** devuelve un puntero a la función de asignación de memoria MAPI predeterminada. 
   
 

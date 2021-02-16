@@ -25,7 +25,7 @@ ms.locfileid: "33439292"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En desuso. Devuelve los tipos de direcciones que pueden controlar todos los proveedores de transporte de la sesión. 
+Obsoleto. Devuelve los tipos de direcciones que pueden controlar todos los proveedores de transporte de la sesión. 
   
 ```cpp
 HRESULT EnumAdrTypes(
@@ -35,23 +35,23 @@ HRESULT EnumAdrTypes(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de direcciones de marcadores que indica el formato de los tipos de dirección devueltos. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que indica el formato de los tipos de direcciones devueltos. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Los tipos de dirección están en formato Unicode. Si no se establece la marca MAPI_UNICODE, los tipos de dirección están en formato ANSI.
+> Los tipos de dirección están en formato Unicode. Si no MAPI_UNICODE marca, los tipos de dirección están en formato ANSI.
     
  _lpcAdrTypes_
   
-> contempla Un puntero a un recuento de tipos de direcciones apuntado por el parámetro _lpppszAdrTypes_ . 
+> [salida] Puntero a un recuento de tipos de direcciones a los que apunta el parámetro _lpppszAdrTypes._ 
     
  _lpppszAdrTypes_
   
-> contempla Un puntero a una matriz de punteros a tipos de direcciones.
+> [salida] Puntero a una matriz de punteros a tipos de direcciones.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,13 +61,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISession:: EnumAdrTypes** devuelve una lista de los tipos de direcciones que pueden controlar todos los proveedores de transporte activos en la sesión. Los tipos de dirección para los proveedores de transporte que no están cargados actualmente no se incluyen en la lista. Los proveedores de transporte se registran para controlar uno o varios tipos de direcciones cuando MAPI llama a su método [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) . 
+El **método IMAPISession::EnumAdrTypes** devuelve una lista de los tipos de direcciones que pueden controlar todos los proveedores de transporte activos en la sesión. Los tipos de dirección para los proveedores de transporte que no están cargados actualmente no se incluyen en la lista. Los proveedores de transporte se registran para controlar uno o más tipos de direcciones cuando MAPI llama a su [método IXPLogon::AddressTypes.](ixplogon-addresstypes.md) 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame a [MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de cadenas señalada por el parámetro _lpppszAdrTypes_ . 
+Llame [a MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de cadenas a la que apunta el parámetro _lpppszAdrTypes._ 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

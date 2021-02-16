@@ -29,7 +29,7 @@ Convierte la parte especificada de una representación de cadena de un número h
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -41,31 +41,31 @@ SCODE ScBinFromHexBounded(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _SZ_
+ _sz_
   
-> a Puntero a la cadena terminada en null que se va a convertir. Los caracteres válidos son los caracteres hexadecimales del 0 al 9 y los caracteres en mayúsculas y minúsculas de la a a la f.
+> [entrada] Puntero a la cadena terminada en null que se va a convertir. Los caracteres válidos incluyen los caracteres hexadecimales del 0 al 9 y los caracteres en mayúsculas y minúsculas a a f.
     
  _pb_
   
-> contempla Puntero al número binario devuelto.
+> [salida] Puntero al número binario devuelto.
     
  _cb_
   
-> a Tamaño, en bytes, del parámetro _PB_ . 
+> [entrada] Tamaño, en bytes, del _parámetro pb._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> La conversión se realizó correctamente.
+> La conversión se ha realizado correctamente.
     
 MAPI_E_CALL_FAILED
   
 > Se encontraron caracteres no válidos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

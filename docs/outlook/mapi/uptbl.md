@@ -19,7 +19,7 @@ ms.locfileid: "33438116"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para cargar el contenido de una carpeta durante el estado de [carga](upload-table-state.md)de la tabla.
+Información para cargar el contenido de una carpeta durante el estado [de la tabla de carga.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -43,11 +43,11 @@ struct UPTBL
 
 _ulFlags_
   
-> a Marcas para determinar el comportamiento adecuado durante la carga.
+> [entrada] Marcas para determinar el comportamiento adecuado durante la carga.
     
   - UPT_OK
     
-    - a La carga se realizó correctamente. El cliente lo establece después de cargar el contenido de la carpeta en el servidor.
+    - [entrada] La carga se ha realizado correctamente. El cliente establece esto después de cargar el contenido de la carpeta en el servidor.
     
 _pstmReserved_
   
@@ -67,29 +67,29 @@ _uintReserved_
     
 _rgte_
   
-> contempla Estructura para contener la siguiente información para elementos normales (o no ocultos) y elementos asociados (u ocultos) en la carpeta: _rgte [0]_ es para los elementos normales y _rgte [1]_ es para los elementos asociados. 
+> [salida] Estructura que contiene la siguiente información para los elementos normales (o no ocultos) y los elementos asociados (u ocultos) de la carpeta:  _rgte[0]_ es para los elementos normales y  _rgte[1]_ es para los elementos asociados. 
     
    - el número de elementos nuevos o modificados
    - el número de elementos leídos 
-   - número de elementos eliminados
+   - el número de elementos eliminados
     
  _iEnt_
   
-> contempla Índice para realizar un seguimiento de la carga del número de cambios especificado en el _céntimo_.
+> [salida] Índice para realizar un seguimiento de la carga del número de cambios especificados por  _cEnt_.
     
-_Ciento_
+_cEnt_
   
-> contempla Número de cambios en la carpeta.
+> [salida] Número de cambios en la carpeta.
     
-_pupmovHead_
+_movHead_
   
-> contempla Cadena de estructuras [UPMOV](upmov.md) . 
+> [salida] Cadena de [estructuras UPMOV.](upmov.md) 
     
-_Preserva_
+_pReserved_
   
 > [salida] Este miembro está reservado para uso interno de Outlook y no es compatible.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

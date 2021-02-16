@@ -14,26 +14,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436779"
 ---
-# <a name="propacctuseremailaddr"></a>PROP_ACCT_USER_EMAIL_ADDR
+# <a name="prop_acct_user_email_addr"></a>PROP_ACCT_USER_EMAIL_ADDR
 
 Especifica la dirección de correo electrónico de la cuenta.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IOlkAccount](iolkaccount.md).
+Vea [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Identificador:  <br/> |0x000C  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
 |Etiqueta de propiedad:  <br/> |0x000C001F  <br/> |
-|Al  <br/> |Lectura y escritura  <br/> |
+|Acceso:  <br/> |Lectura/escritura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
- **PROP_ACCT_USER_EMAIL_ADDR** no se espera que exista en cada cuenta. Por ejemplo, una cuenta de Exchange podría tener [PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) pero no **PROP_ACCT_USER_EMAIL_ADDR**, mientras que para una cuenta SMTP/POP3, la situación se invierte.
+ **PROP_ACCT_USER_EMAIL_ADDR** se espera que exista en todas las cuentas. Por ejemplo, una cuenta [](prop_mapi_identity_entryid.md) de Exchange podría tener PROP_MAPI_IDENTITY_ENTRYID pero **no PROP_ACCT_USER_EMAIL_ADDR**, mientras que para una cuenta SMTP/POP3, la situación se invierte.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

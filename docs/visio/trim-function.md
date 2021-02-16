@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1027318
 localization_priority: Normal
 ms.assetid: 6f2d84fd-27eb-4c2f-a2e1-43d20e0c78be
-description: Quita todo el espacio del texto, excepto los espacios individuales que hay entre palabras.
+description: Quita todo el espacio del texto, excepto los espacios individuales entre palabras.
 ms.openlocfilehash: b947c9500012d0ceefe3e8044be387f7b810dda9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33435722"
 ---
 # <a name="trim-function"></a>Función TRIM
 
-Quita todo el espacio del texto, excepto los espacios individuales que hay entre palabras. 
+Quita todo el espacio del texto, excepto los espacios individuales entre palabras. 
   
 ## <a name="syntax"></a>Sintaxis
 
-TRIM (* * *Text* * *) 
+TRIM (** *text* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -32,7 +32,7 @@ TRIM (* * *Text* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 

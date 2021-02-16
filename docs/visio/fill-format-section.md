@@ -22,6 +22,6 @@ Muestra los atributos del formato de relleno actual de la forma y la sombra de l
   
 ## <a name="remarks"></a>Comentarios
 
-Puede establecer los formatos de relleno en el panel **formato de forma** (en la ficha **Inicio** , en el grupo **estilos de forma** , haga clic en rellenar y, a continuación, en opciones de **relleno**), aplicando un estilo de relleno o haciendo una entrada en una celda con el **formato de relleno** . **** SECC. 
+Puede establecer formatos de relleno en el panel Formato  de forma (en la ficha Inicio, en el grupo Estilos de forma, haga  clic en Relleno y, a continuación, haga clic en Opciones de relleno **),** aplicando un estilo de relleno o realizando una entrada en una celda de la sección Formato de relleno.   
   
 

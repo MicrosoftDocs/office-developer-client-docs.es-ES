@@ -23,17 +23,17 @@ ms.locfileid: "33437808"
   
 Esta sección contiene información general que debe revisar antes de crear sus propios proveedores de servicios MAPI.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
-[Desarrollar un proveedor de libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
+[Desarrollo de un proveedor de libreta de direcciones MAPI](developing-a-mapi-address-book-provider.md)
   
-[Desarrollar un proveedor de transporte MAPI](developing-a-mapi-transport-provider.md)
+[Desarrollo de un proveedor de transporte MAPI](developing-a-mapi-transport-provider.md)
   
 [Desarrollar un proveedor de almac�n de mensajes de MAPI](developing-a-mapi-message-store-provider.md)
   
 [Proveedores de servicios MAPI](mapi-service-providers.md)
   
-[Introducción al proveedor de servicios MAPI](mapi-service-provider-overview.md)
+[Información general sobre el proveedor de servicios MAPI](mapi-service-provider-overview.md)
 

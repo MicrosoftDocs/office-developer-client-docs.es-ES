@@ -1,5 +1,5 @@
 ---
-title: IUnknown IContabAdmin
+title: IContabAdmin IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,17 +29,17 @@ Quita las carpetas de contactos de la libreta de direcciones de Microsoft Outloo
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |cabadmin. h  <br/> |
+|Archivo de encabezado:  <br/> |cabadmin.h  <br/> |
 |Expuesto por:  <br/> ||
 |Implementado por:  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |Llamado por:  <br/> |CRM  <br/> |
 |Identificador de interfaz:  <br/> |IID_IContabAdmin  <br/> |
 |Tipo de puntero:  <br/> ||
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Quita la libreta de direcciones de contacto (CAB) especificada por el identificador de entrada especificado de la jerarquía de libretas de direcciones.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Quita la libreta de direcciones de contactos (CAB) especificada por el identificador de entrada especificado de la jerarquía de la libreta de direcciones.  <br/> |
    
 

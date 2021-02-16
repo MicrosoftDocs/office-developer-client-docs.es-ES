@@ -25,11 +25,11 @@ ms.locfileid: "33436114"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Separa el identificador de entrada compuesto de un objeto, normalmente un mensaje en un almacén de mensajes, en el identificador de entrada de ese objeto en el almacén y en el identificador de entrada de la tienda.
+Separa el identificador de entrada compuesto de un objeto, normalmente un mensaje en un almacén de mensajes, en el identificador de entrada de ese objeto en el almacén y el identificador de entrada del almacén.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
    
@@ -45,35 +45,35 @@ HrDecomposeEID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _psession_
   
-> a Puntero a la sesión que usa la aplicación cliente. 
+> [entrada] Puntero a la sesión en uso por la aplicación cliente. 
     
  _cbEID_
   
-> a Tamaño, en bytes, del identificador de entrada compuesto que se va a separar. 
+> [entrada] Tamaño, en bytes, del identificador de entrada compuesto que se va a separar. 
     
  _pEID_
   
-> a Puntero al identificador de entrada compuesto que se va a separar. 
+> [entrada] Puntero al identificador de entrada compuesto que se va a separar. 
     
- _pcbStoreEID_
+ _pbcStoreEID_
   
-> contempla Puntero al tamaño devuelto, en bytes, del identificador de entrada del almacén de mensajes que contiene el objeto. Si el parámetro _pEID_ apunta a un identificador de entrada no compuesto, el parámetro _pcbStoreEID_ apunta a un valor de cero. 
+> [salida] Puntero al tamaño devuelto, en bytes, del identificador de entrada del almacén de mensajes que contiene el objeto. Si el  _parámetro pEID_ apunta a un identificador de entrada que no es de cantidad total, el parámetro  _de la clase de_ base de datos apunta a un valor de cero. 
     
  _ppStoreEID_
   
-> contempla Puntero a un puntero al identificador de entrada devuelto del almacén de mensajes que contiene el objeto. Si el parámetro _pEID_ apunta a un identificador de entrada no compuesto, se devuelve null en el parámetro _ppStoreEID_ . 
+> [salida] Puntero a un puntero al identificador de entrada devuelto del almacén de mensajes que contiene el objeto. Si el _parámetro pEID_ apunta a un identificador de entrada no completo, se devuelve NULL en el _parámetro ppStoreEID._ 
     
- _pcbMsgEID_
+ _dimmMsgEID_
   
-> contempla Puntero al tamaño devuelto, en bytes, del identificador de entrada del objeto. Si el parámetro _pEID_ apunta a un identificador de entrada no compuesto, el parámetro _pcbMsgEID_ es igual al valor del parámetro _cbEID_ . 
+> [salida] Puntero al tamaño devuelto, en bytes, del identificador de entrada del objeto. Si el _parámetro pEID_ apunta a un identificador de entrada no completo, el parámetro _vmgEID_ es igual al valor del _parámetro cbEID._ 
     
  _ppMsgEID_
   
-> contempla Puntero a un puntero al identificador de entrada devuelto del objeto. Si el parámetro _pEID_ apunta a un identificador de entrada no compuesto, _ppMsgEID_ apunta a un puntero a una copia del identificador de entrada no compuesto. 
+> [salida] Puntero a un puntero al identificador de entrada devuelto del objeto. Si el  _parámetro pEID_ apunta a un identificador de entrada no completa,  _ppMsgEID_ apunta a un puntero a una copia del identificador de entrada no completa. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -81,10 +81,10 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Si el identificador especificado por el parámetro _pEID_ es compuesto, se divide en el identificador de entrada del objeto dentro de su almacén de mensajes y el identificador de entrada del almacén. Simplemente se copian las cadenas del identificador de entrada no compuesto. El identificador compuesto que se va a separar suele ser uno de los creados por la función [HrComposeEID](hrcomposeeid.md) . 
+Si el identificador especificado por el parámetro  _pEID_ está compuesto, se divide en el identificador de entrada del objeto dentro de su almacén de mensajes y el identificador de entrada del almacén. Las cadenas de identificador de entrada no completa simplemente se copian. El identificador compuesto que se va a separar suele ser uno creado por la función [HrComposeEID.](hrcomposeeid.md) 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La memoria que contiene el parámetro _pEID_ se publica tras la finalización correcta de esta función. La implementación de la llamada es responsable de liberar memoria para los parámetros de salida. 
+La memoria que contiene el parámetro  _pEID_ se libera una vez completada correctamente esta función. La implementación de llamada es responsable de liberar memoria para los parámetros de salida. 
   
 

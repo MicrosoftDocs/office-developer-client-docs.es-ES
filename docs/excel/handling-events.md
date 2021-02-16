@@ -20,13 +20,13 @@ ms.locfileid: "33438270"
   
 A partir de Excel 2010, los XLL pueden recibir eventos diseñados para administrar el ciclo de vida de la función asincrónica. Los eventos son los siguientes:
   
-- **CalculationEnded**: se produce cuando Excel finaliza el cálculo. Después de este evento, puede liberar los recursos asignados durante el cálculo.
+- **CalculationEnded:** se genera cuando Excel termina de calcular. Después de este evento, puede liberar recursos asignados durante el cálculo.
     
-- **CalculationCanceled**: se produce cuando el usuario interrumpe el cálculo. El XLL detiene todas las actividades asincrónicas. Inmediatamente después de este evento, se genera el evento **CalculationEnded** . 
+- **CalculationCanceled:** se genera cuando el usuario interrumpe el cálculo. El XLL detiene las actividades asincrónicas. Inmediatamente después de este evento, se genera el **evento CalculationEnded.** 
     
 Para controlar estos eventos, el XLL usa la función de la API de C [xlEventRegister](xleventregister.md). 
   
 > [!NOTE]
-> **CalculationEnded** y **CalculationCanceled** no se generan durante la actualización mediante programación. 
+> **CalculationEnded** y **CalculationCanceled** no se genera durante la actualización mediante programación. 
   
 

@@ -33,9 +33,9 @@ HRESULT SyncEnd();
 
 ## <a name="remarks"></a>Comentarios
 
-El cliente debe llamar a **IOSTX:: SyncEnd** para cada llamada a [IOSTX:: SyncBeg](iostx-syncbeg.md). La estructura de datos correspondiente retiene información para indicar si el cliente ha completado correctamente el estado actual para que Outlook pueda limpiar su estado interno.
+El cliente debe llamar **a IOSTX::SyncEnd** para cada llamada a [IOSTX::SyncBeg](iostx-syncbeg.md). La estructura de datos correspondiente contiene información para indicar si el cliente ha completado correctamente el estado actual para que Outlook pueda limpiar su estado interno.
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

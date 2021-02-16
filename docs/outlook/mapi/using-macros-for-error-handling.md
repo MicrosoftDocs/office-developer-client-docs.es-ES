@@ -21,23 +21,23 @@ ms.locfileid: "33435568"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Hay varias macros que facilitan el trabajo con valores HRESULT.
+Hay varias macros para facilitar el trabajo con valores HRESULT.
   
-Hay dos conjuntos de macros que comprueban si hay errores o correctos: HR_SUCCEEDED y HR_FAILED, y SUCCEEDED y FAILed. SUCCEEDED es el mismo que HR_SUCCEEDED y FAILed es el mismo que HR_FAILED.
+Hay dos conjuntos de macros que prueban si hay errores o éxitos: HR_SUCCEEDED y HR_FAILED y SUCCEEDED y FAILED. SUCCEEDED es el mismo que HR_SUCCEEDED y FAILED es el mismo que HR_FAILED.
   
 En este caso, use la macro **ResultFromScode** para establecer la variable HRESULT en el valor HRESULT correspondiente para S_OK. 
   
-En la tabla siguiente se describen brevemente las macros usadas con frecuencia.
+Las macros de uso frecuente se describen brevemente en la tabla siguiente.
   
 |**Macro**|**Descripción**|
 |:-----|:-----|
 |**MAKE_HRESULT** <br/> |Construye un HRESULT a partir de sus componentes.  <br/> |
-|**HR_SUCCEEDED** <br/> |Prueba un valor HRESULT para una condición de éxito o advertencia.  <br/> |
-|**HR_FAILED** <br/> |Prueba un HRESULT para una condición de error.  <br/> |
-|**HRESULT_CODE** <br/> |Extrae la parte del código de error de HRESULT.  <br/> |
-|**HRESULT_FACILITY** <br/> |Extrae la utilidad de HRESULT.  <br/> |
-|**HRESULT_SEVERITY** <br/> |Extrae el bit de gravedad de la gravedad.  <br/> |
-|**REALIZA** <br/> |Prueba un valor HRESULT para una condición de éxito o advertencia.  <br/> |
-|**ERRÓNEA** <br/> |Prueba un HRESULT para una condición de error.  <br/> |
+|**HR_SUCCEEDED** <br/> |Prueba un HRESULT en busca de una condición de advertencia o éxito.  <br/> |
+|**HR_FAILED** <br/> |Comprueba un HRESULT en busca de una condición de error.  <br/> |
+|**HRESULT_CODE** <br/> |Extrae la parte del código de error del HRESULT.  <br/> |
+|**HRESULT_FACILITY** <br/> |Extrae la instalación del HRESULT.  <br/> |
+|**HRESULT_SEVERITY** <br/> |Extrae el bit de gravedad de LA GRAVEDAD.  <br/> |
+|**SUCCEEDED** <br/> |Prueba un HRESULT en busca de una condición de advertencia o éxito.  <br/> |
+|**ERROR** <br/> |Comprueba un HRESULT en busca de una condición de error.  <br/> |
    
 

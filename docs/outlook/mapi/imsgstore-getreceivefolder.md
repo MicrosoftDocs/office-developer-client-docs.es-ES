@@ -37,53 +37,53 @@ HRESULT GetReceiveFolder(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpszMessageClass_
   
-> a Un puntero a una clase de mensaje que está asociado a una carpeta de recepción. Si el parámetro _lpszMessageClass_ está establecido en null o una cadena vacía, **GetReceiveFolder** devuelve la carpeta de recepción predeterminada para el almacén de mensajes. 
+> [entrada] Puntero a una clase de mensaje asociada a una carpeta de recepción. Si el  _parámetro lpszMessageClass_ se establece en NULL o en una cadena vacía, **GetReceiveFolder** devuelve la carpeta de recepción predeterminada para el almacén de mensajes. 
     
  _ulFlags_
   
-> a Máscara de bits de marcadores que controla el tipo de las cadenas que se han pasado y se han devuelto. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que controla el tipo de las cadenas pasadas y devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> La cadena de clase de mensaje está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la cadena de clase de mensaje está en formato ANSI.
+> La cadena de clase de mensaje está en formato Unicode. Si no MAPI_UNICODE marca, la cadena de clase de mensaje está en formato ANSI.
     
  _lpcbEntryID_
   
-> contempla Un puntero al recuento de bytes en el identificador de entrada al que apunta el parámetro _lppEntryID_ . 
+> [salida] Puntero al recuento de bytes en el identificador de entrada al que apunta el _parámetro lppEntryID._ 
     
  _lppEntryID_
   
-> contempla Un puntero a un puntero al identificador de entrada de la carpeta de recepción solicitada.
+> [salida] Puntero a un puntero al identificador de entrada de la carpeta de recepción solicitada.
     
  _lppszExplicitClass_
   
-> contempla Un puntero a un puntero a la clase de mensaje que establece explícitamente como su carpeta de recepción la carpeta a la que apunta _lppEntryID_. Esta clase de mensaje debe ser la misma que la clase en el parámetro _lpszMessageClass_ o una clase base de dicha clase. Si se pasa NULL, indica que la carpeta a la que apunta _lppEntryID_ es la carpeta de recepción predeterminada para el almacén de mensajes. 
+> [salida] Puntero a un puntero a la clase de mensaje que establece explícitamente como carpeta de recepción la carpeta a la que  _apunta lppEntryID_. Esta clase de mensaje debe ser la misma que la clase en el parámetro  _lpszMessageClass_ o una clase base de esa clase. Pasar NULL indica que la carpeta a la que apunta  _lppEntryID_ es la carpeta de recepción predeterminada para el almacén de mensajes. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La carpeta de recepción se ha devuelto correctamente.
+> La carpeta de recepción se devolvió correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgStore:: GetReceiveFolder** obtiene el identificador de entrada de una carpeta de recepción, una carpeta designada para recibir los mensajes entrantes de una clase de mensaje determinada. Los autores de llamadas pueden especificar una clase de mensaje o NULL en el parámetro _lpszMessageClass_ . Si _lpszMessageClass_ es null, **GetReceiveFolder** devuelve los siguientes valores: 
+El **método IMsgStore::GetReceiveFolder** obtiene el identificador de entrada de una carpeta de recepción, una carpeta designada para recibir mensajes entrantes de una clase de mensaje determinada. Los autores de llamadas pueden especificar una clase de mensaje o NULL en el _parámetro lpszMessageClass._ Si  _lpszMessageClass_ es NULL, **GetReceiveFolder** devuelve los siguientes valores: 
   
-- En _lppszExplicitClass_, el nombre de la primera clase base de la clase de mensaje a la que apunta _lpszMessageClass_ que hace que se establezca explícitamente una carpeta de recepción. 
+- En  _lppszExplicitClass_, el nombre de la primera clase base de la clase de mensaje a la que  _apunta lpszMessageClass_ que establece explícitamente una carpeta de recepción. 
     
-- En _lppEntryID_, el identificador de entrada de la carpeta de recepción para la clase base apuntado por el parámetro _lppszExplicitClass_ . 
+- En _lppEntryID_, el identificador de entrada de la carpeta de recepción para la clase base a la que apunta el parámetro _lppszExplicitClass._ 
     
-Por ejemplo, supongamos que la carpeta de recepción de la clase de mensaje **IPM. Note** se ha establecido en el identificador de entrada de la bandeja de entrada y se llama a **GetReceiveFolder** con el contenido de _lpszMessageClass_ establecido en **IPM. Note. Phone**. Si se trata de **IPM. Note. Phone** no tiene un conjunto de carpetas de recepción explícito, **GetReceiveFolder** devuelve el identificador de entrada de la bandeja de entrada en _lppEntryID_ e **IPM. Nota** en _lppszExplicitClass_.
+Por ejemplo, supongamos que la carpeta de recepción de la clase de mensaje **IPM. La** nota se ha establecido en el identificador de entrada de la Bandeja de entrada y se llama a **GetReceiveFolder** con el contenido de  _lpszMessageClass_ establecido en **IPM. Note.Phone**. Si **es IPM. Note.Phone** no tiene un conjunto de carpetas de recepción explícito, **GetReceiveFolder** devuelve el identificador de entrada de la Bandeja de entrada  _en lppEntryID_ e **IPM. Nota** en  _lppszExplicitClass_.
   
-Si el cliente llama a **GetReceiveFolder** para una clase de mensaje y no ha establecido una carpeta de recepción para la clase de mensaje, _lppszExplicitClass_ es una cadena de longitud cero, una cadena en formato Unicode o una cadena en formato ANSI, en función de si el el cliente estableció la marca MAPI_UNICODE en el parámetro _ulFlags_ . 
+Si el cliente llama a **GetReceiveFolder** para una clase de mensaje y no ha establecido una carpeta de recepción para esa clase de mensaje, _lppszExplicitClass_ es una cadena de longitud cero, una cadena en formato Unicode o una cadena en formato ANSI dependiendo de si el cliente establece la marca MAPI_UNICODE en el _parámetro ulFlags._ 
   
-Siempre existe una carpeta de recepción predeterminada, obtenida pasando un valor NULL en el parámetro _lpszMessageClass_ , para cada almacén de mensajes. 
+Siempre existe una carpeta de recepción predeterminada, obtenida pasando NULL en el parámetro  _lpszMessageClass,_ para cada almacén de mensajes. 
   
-Un cliente debe llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) cuando se realiza con el identificador de entrada devuelto en _lppEntryID_ para liberar la memoria que contiene el identificador de entrada. También debe llamar a **MAPIFreeBuffer** cuando se ha realizado con la cadena de clase de mensaje devuelta en _lppszExplicitClass_ para liberar la memoria que contiene esa cadena. 
+Un cliente debe llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) cuando termine con el identificador de entrada devuelto en  _lppEntryID_ para liberar la memoria que contiene ese identificador de entrada. También debe llamar a **MAPIFreeBuffer** cuando termine con la cadena de clase de mensaje devuelta en  _lppszExplicitClass_ para liberar la memoria que contiene esa cadena. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -91,9 +91,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFunctions. cpp  <br/> |GetInbox  <br/> |MFCMAPI usa el método **IMsgStore:: GetReceiveFolder** para localizar la carpeta Bandeja de entrada.  <br/> |
+|MAPIFunctions.cpp  <br/> |GetInbox  <br/> |MFCMAPI usa el **método IMsgStore::GetReceiveFolder** para buscar la carpeta Bandeja de entrada.  <br/> |
    
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

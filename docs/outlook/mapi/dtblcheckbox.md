@@ -25,11 +25,11 @@ ms.locfileid: "33436835"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información sobre una casilla de verificación que se utilizará en un cuadro de diálogo generado a partir de una tabla de presentación. 
+Contiene información acerca de una casilla de verificación que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapidefs. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Macro relacionada:  <br/> |[SizedDtblCheckBox](sizeddtblcheckbox.md) <br/> |
    
 ```cpp
@@ -42,7 +42,7 @@ typedef struct _DTBLCHECKBOX
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **ulbLpszLabel**
   
@@ -50,11 +50,11 @@ typedef struct _DTBLCHECKBOX
     
  **ulFlags**
   
-> Máscara de la máscara usada para designar el formato de la etiqueta de casilla de verificación. Se puede establecer la siguiente marca:
+> Máscara de bits de marcas usadas para designar el formato de la etiqueta de casilla. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no se establece la marca MAPI_UNICODE, la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si no MAPI_UNICODE marca, la etiqueta está en formato ANSI.
     
  **ulPRPropertyName**
   
@@ -62,17 +62,17 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Comentarios
 
-Una estructura **DTBLCHECKBOX** describe una casilla de verificación de un control que refleja uno de los dos Estados: habilitado (casilla activada) o deshabilitado (un cuadro vacío). 
+Una **estructura DTBLCHECKBOX** describe una casilla de un control que refleja uno de los dos estados: habilitado (una casilla de verificación) o deshabilitado (una casilla vacía). 
   
-El miembro **ulPRPropertyName** describe una propiedad booleana cuyo valor se manipula cambiando el estado de la casilla de verificación. Cuando la casilla aparece por primera vez, MAPI llama al método **GetProps** de la implementación de **IMAPIProp** asociada a la tabla de presentación para recuperar un conjunto de propiedades predeterminadas. Si una de las propiedades se asigna a la etiqueta de propiedad en la estructura **DTBLCHECKBOX** , el valor de esa propiedad se muestra como el valor inicial de la casilla de verificación. 
+El **miembro ulPRPropertyName** describe una propiedad booleana cuyo valor se manipula cambiando el estado de la casilla. Cuando se muestra la casilla por primera vez, MAPI llama al método **GetProps** de la implementación **IMAPIProp** asociada a la tabla para mostrar para recuperar un conjunto de propiedades predeterminadas. Si una de las propiedades se asigna a la etiqueta de propiedad en la estructura **DTBLCHECKBOX,** el valor de esa propiedad se muestra como el valor inicial de la casilla. 
   
-Los controles de casilla de verificación pueden poder modificarse. Esto permite a un usuario cambiar sus Estados. Las casillas de verificación modificables establecen la marca DT_EDITABLE en el miembro **ulCtlFlags** de su estructura [DTCTL](dtctl.md) y en su propiedad **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)). Cuando una casilla de verificación cambia su estado, MAPI llama a [IMAPIProp:: SetProps](imapiprop-setprops.md) para establecer la propiedad identificada en el miembro de etiqueta de propiedad de la estructura **DTBLCHECKBOX** en el nuevo estado. 
+Los controles de casilla pueden ser modificables. Esto permite a un usuario cambiar sus estados. Las casillas modificables establecen la marca DT_EDITABLE en el miembro **ulCtlFlags** de su estructura [DTCTL](dtctl.md) y en su propiedad **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)). Cuando una casilla cambia su estado, MAPI llama a [IMAPIProp::SetProps](imapiprop-setprops.md) para establecer la propiedad identificada en el miembro de etiqueta de propiedad de la estructura **DTBLCHECKBOX** en el nuevo estado. 
   
-Por ejemplo, un proveedor de libreta de direcciones puede incluir un control de casilla de verificación modificable en su cuadro de diálogo de configuración para ajustar la configuración de la propiedad **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) de un destinatario. Cuando el usuario selecciona la casilla de verificación, MAPI establece esta propiedad en TRUE. Cuando no se selecciona la casilla de verificación, la propiedad se establece en FALSE.
+Por ejemplo, un proveedor de libreta de direcciones puede incluir un control de casilla modificable en su cuadro de diálogo de configuración para ajustar la configuración de la propiedad **PR_SEND_RICH_INFO** ([PidTagSendRichInfo)](pidtagsendrichinfo-canonical-property.md)de un destinatario. Cuando el usuario selecciona la casilla, MAPI establece esta propiedad en TRUE. Cuando la casilla no está seleccionada, la propiedad se establece en FALSE.
   
-Para obtener información general sobre las tablas de presentación, consulte [Display tables](display-tables.md). Para obtener información acerca de cómo implementar una tabla de visualización, consulte [Implementing a display Table](display-table-implementation.md). Para obtener información acerca de los tipos de propiedades, consulte [MAPI Property Type Overview](mapi-property-type-overview.md).
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md) Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

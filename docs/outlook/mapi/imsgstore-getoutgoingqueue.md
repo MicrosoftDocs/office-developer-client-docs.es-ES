@@ -25,7 +25,7 @@ ms.locfileid: "33434154"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a la tabla cola de salida, una tabla que contiene información sobre todos los mensajes de la cola de salida del almacén de mensajes. Se llama a este m�todo s�lo por la cola MAPI.
+Proporciona acceso a la tabla de cola saliente, una tabla con información sobre todos los mensajes de la cola saliente del almacén de mensajes. Se llama a este m�todo s�lo por la cola MAPI.
   
 ```cpp
 HRESULT GetOutgoingQueue(
@@ -34,7 +34,7 @@ HRESULT GetOutgoingQueue(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -42,27 +42,27 @@ HRESULT GetOutgoingQueue(
     
  _lppTable_
   
-> contempla Un puntero a un puntero a la tabla de colas de salida.
+> [salida] Puntero a un puntero a la tabla de cola saliente.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La tabla de cola de salida se ha devuelto correctamente.
+> La tabla de cola saliente se devolvió correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMsgStore:: GetOutgoingQueue** proporciona al administrador de trabajos en cola MAPI acceso a la tabla que muestra la cola de mensajes salientes del almacén de mensajes. Normalmente, los mensajes se colocan en la tabla de colas de salida después de llamar al método [IMessage:: SubmitMessage](imessage-submitmessage.md) . Sin embargo, como el orden de envío afecta al orden de preprocesamiento y envío al proveedor de transporte, algunos mensajes que se marcaron para enviar podrían no aparecer inmediatamente en la tabla de colas de salida. 
+El **método IMsgStore::GetOutgoingQueue** proporciona a la cola MAPI acceso a la tabla que muestra la cola de mensajes salientes del almacén de mensajes. Normalmente, los mensajes se colocan en la tabla de cola saliente después de llamar al método [IMessage::SubmitMessage.](imessage-submitmessage.md) Sin embargo, dado que el orden de envío afecta al orden de preprocesamiento y envío al proveedor de transporte, es posible que algunos mensajes marcados para el envío no aparezcan inmediatamente en la tabla de cola de salida. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Para obtener una lista de las propiedades que deben incluirse como columnas en la tabla cola de salida, consulte [tablas de colas de salida](outgoing-queue-tables.md). 
+Para obtener una lista de las propiedades que deben incluirse como columnas en la tabla de cola saliente, vea [Tablas de cola salientes.](outgoing-queue-tables.md) 
   
-Debido a que la cola MAPI está diseñada para aceptar mensajes de un almacén de mensajes en orden ascendente de tiempo de envío, permita que la cola MAPI ordene la tabla cola de salida para que se ajuste a este orden o que se establezca como criterio de ordenación predeterminado.
+Dado que la cola MAPI está diseñada para aceptar mensajes de un almacén de mensajes en orden ascendente de tiempo de envío, permita que la cola MAPI ordene la tabla de cola saliente para que coincida con este orden o establecerla como el criterio de ordenación predeterminado.
   
-Debe admitir notificaciones para la tabla de colas de mensajes salientes, lo que garantiza que la cola MAPI recibirá una notificación cuando cambie el contenido de la cola. 
+Debe admitir notificaciones para la tabla de cola de mensajes salientes, lo que garantiza que se notifique a la cola MAPI cuando cambie el contenido de la cola. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

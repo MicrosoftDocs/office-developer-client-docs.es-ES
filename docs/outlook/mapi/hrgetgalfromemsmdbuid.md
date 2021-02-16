@@ -21,11 +21,11 @@ ms.locfileid: "33439110"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el identificador de entrada de la libreta de direcciones global para el servicio de Exchange identificado por _pEmsmdbUID_. El identificador de entrada devuelto debe liberarse mediante [MAPIFreeBuffer](mapifreebuffer.md).
+Devuelve el identificador de entrada de la libreta de direcciones global para el servicio de Exchange identificado por  _pEmsmdbUID_. El identificador de entrada devuelto debe liberarse [con MAPIFreeBuffer](mapifreebuffer.md).
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |abhelp. h  <br/> |
+|Archivo de encabezado:  <br/> |abhelp.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,26 +39,26 @@ HRESULT HrGetGALFromEmsmdbUID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pSess_
   
-> a La sesión iniciada en IMAPISession. No puede ser nulo.
+> [entrada] Ha iniciado sesión en IMAPISession. No puede ser NULL.
     
  _pAddrBook_
   
-> a La libreta de direcciones que se usa para abrir el identificador de entrada. No puede ser nulo.
+> [entrada] La libreta de direcciones usada para abrir el identificador de entrada. No puede ser NULL.
     
  _pEmsmdbUID_
   
-> a Un puntero a una **emsmdbUID** que identifica la GAL del servicio de Exchange que se va a recuperar. Si _pEmsmdbUID_ es null o el UID cero, esta función obtiene la GAL heredada del servicio de Exchange. 
+> [entrada] Puntero a un **emsmdbUID** que identifica la GAL del servicio de Exchange que se va a recuperar. Si  _pEmsmdbUID_ es NULL o el UID cero, esta función obtiene la GAL heredada del servicio de Exchange. 
     
- _lpcbeid_
+ _lpccvd_
   
-> contempla Un puntero al número de bytes del identificador de entrada de la lista global de direcciones.
+> [salida] Puntero al recuento de bytes del identificador de entrada de la lista global de direcciones.
     
  _lppeid_
   
-> contempla Un puntero al identificador de entrada de la lista global de direcciones. Debe liberarse con [MAPIFreeBuffer](mapifreebuffer.md).
+> [salida] Puntero al identificador de entrada de la lista global de direcciones. Esto debe liberarse con [MAPIFreeBuffer](mapifreebuffer.md).
     
 

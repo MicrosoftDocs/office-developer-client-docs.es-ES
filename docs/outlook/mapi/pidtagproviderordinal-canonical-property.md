@@ -32,27 +32,27 @@ Contiene el índice de base cero de la posición de un proveedor de servicios en
 |Propiedades asociadas:  <br/> |PR_PROVIDER_ORDINAL  <br/> |
 |Identificador:  <br/> |0x300D  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Common MAPI  <br/> |
+|Área:  <br/> |Mapi común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 MAPI calcula esta propiedad.
   
-Para obtener la tabla del proveedor, llame al método [IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md) . Ordene la tabla de proveedores en esta propiedad para mostrar el orden de transporte. 
+Obtenga la tabla del proveedor llamando al [método IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Ordene la tabla del proveedor en esta propiedad para mostrar el orden de transporte. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -60,7 +60,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

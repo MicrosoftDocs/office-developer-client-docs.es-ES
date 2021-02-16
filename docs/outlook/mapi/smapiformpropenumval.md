@@ -29,7 +29,7 @@ Asigna un valor entero enumerado a un nombre para mostrar para ese valor.
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |MAPIForm. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormPropEnumVal
@@ -40,21 +40,21 @@ typedef struct _SMAPIFormPropEnumVal
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Miembros
 
  **pszDisplayName**
   
-> Cadena que contiene el nombre para mostrar del valor especificado en el miembro **nVal** . 
+> Cadena que contiene el nombre para mostrar del valor especificado en el **miembro nVal.** 
     
  **nVal**
   
-> Un valor de enumeración para el nombre para mostrar al que apunta el miembro **pszDisplayName** . 
+> Un valor de enumeración para el nombre para mostrar al que apunta el **miembro pszDisplayName.** 
     
 ## <a name="remarks"></a>Comentarios
 
-Cuando un usuario selecciona un nombre para mostrar de un formulario, el valor de enumeración correspondiente del nombre se almacena mediante la implementación de la interfaz [IMAPIProp](imapipropiunknown.md) asociada con el formulario. 
+Cuando un usuario selecciona un nombre para mostrar de un formulario, el valor de enumeración correspondiente del nombre se almacena mediante la implementación de la interfaz [IMAPIProp](imapipropiunknown.md) asociada al formulario. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfEvaluate
 keywords:
-- función xlfevaluate [Excel 2007]
+- Función xlfevaluate [excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,17 +22,17 @@ ms.locfileid: "33439187"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Utiliza el analizador de Microsoft Excel y el evaluador de funciones para evaluar cualquier expresión que se pudiera escribir en una celda de hoja de cálculo.
+Usa el analizador de Microsoft Excel y el evaluador de funciones para evaluar cualquier expresión que se pueda especificar en una celda de hoja de cálculo.
   
 ```cs
 Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pxFormulaText (xltypeStr)_
   
-Cadena que se va a evaluar. Un signo igual inicial (=) es opcional. La cadena puede ser cualquier texto que pueda escribirse legalmente en una celda de hoja de cálculo o de hoja de macro.
+Cadena que se va a evaluar. Un signo igual inicial (=) es opcional. La cadena puede ser cualquier texto que se pueda introducir legalmente en una hoja de cálculo o una celda de hoja de macros.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
@@ -40,17 +40,17 @@ Devuelve el resultado de evaluar la cadena que puede ser cualquiera de los tipos
   
 ## <a name="remarks"></a>Comentarios
 
-La cadena solo puede contener funciones, no equivalentes de comando. Equivale a presionar **F9** en la barra de fórmulas. Si se llama a **xlfEvaluate** desde una función de hoja de cálculo XLL que se ha registrado como segura para subprocesos, la expresión solo debe contener funciones seguras para subprocesos. 
+La cadena solo puede contener funciones, no equivalentes de comandos. Equivale a presionar **F9** desde la barra de fórmulas. Si **se llama a xlfEvaluate** desde una función de hoja de cálculo XLL que se ha registrado como segura para subprocesos, la expresión solo debe contener funciones seguras para subprocesos. 
   
-El uso principal de la función **xlfEvaluate** es permitir a las DLL averiguar el valor asignado a un nombre definido que se encuentra en una hoja o un nombre oculto definido dentro del archivo dll. Tenga en cuenta que dentro de una DLL o XLL, un nombre de hoja de cálculo debe tener como mínimo un signo de exclamación (!) para asegurarse de que se interprete como externo al archivo DLL. Para obtener más información, vea [evaluar nombres y otras expresiones de fórmulas de hoja de cálculo](evaluating-names-and-other-worksheet-formula-expressions.md).
+El uso principal de la función **xlfEvaluate** es permitir que las DLL descubran el valor asignado a un nombre definido que se encuentra en una hoja o un nombre oculto definido en la DLL. Tenga en cuenta que dentro de un DLL/XLL, un nombre de hoja de cálculo debe ir precedido de al menos un signo de exclamación (!) para asegurarse de que se interpreta como externo a la DLL. Para obtener más información, vea [Evaluación de nombres y otras expresiones de fórmula](evaluating-names-and-other-worksheet-formula-expressions.md)de hoja de cálculo.
   
  **xlfEvaluate** no se puede usar para evaluar referencias a una hoja externa que no está abierta. 
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se usa **xlfEvaluate** para convertir el texto "! B38 "para el contenido de la celda B38. 
+En este ejemplo **se usa xlfEvaluate** para crear el texto "! B38" al contenido de la celda B38. 
   
- `\SAMPLES\EXAMPLE\EXAMPLE.C`. Esta función llama a una macro de comando (**xlcAlert**) y funcionará correctamente sólo cuando se llame desde una hoja de macros o como un comando de macro.
+ `\SAMPLES\EXAMPLE\EXAMPLE.C`. Esta función llama a una macro de comandos (**xlcAlert**) y sólo funcionará correctamente cuando se llame desde una hoja de macros o como un comando de macro.
   
 ```cs
 short WINAPI EvaluateExample(void)
@@ -68,7 +68,7 @@ short WINAPI EvaluateExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [Funciones esenciales y útiles XLM de API de C](essential-and-useful-c-api-xlm-functions.md)
 

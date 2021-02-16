@@ -29,7 +29,7 @@ Determina el tamaño, en bytes, de una matriz de notificaciones de eventos y val
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -41,25 +41,25 @@ SCODE ScCountNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
- _CNTF_
+ _cntf_
   
-> a Número de estructuras de [notificación](notification.md) en la matriz indicada por el parámetro _rgntf_ . 
+> [entrada] Recuento de [estructuras notification](notification.md) en la matriz indicada por el _parámetro rgntf._ 
     
  _rgntf_
   
-> a Puntero a la matriz de estructuras de **notificación** cuyo tamaño se va a determinar. 
+> [entrada] Puntero a la matriz de **estructuras notification** cuyo tamaño se va a determinar. 
     
- _impreso_
+ _indeste_
   
-> contempla Puntero opcional al tamaño, en bytes, de la matriz señalada por el parámetro _rgntf_ . Si es NULL, **ScCountNotifications** valida la matriz de notificaciones. 
+> [salida] Puntero opcional al tamaño, en bytes, de la matriz a la que apunta el _parámetro rgntf._ Si es NULL, **ScCountNotifications** valida la matriz de notificaciones. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> El reCuento se determinó correctamente.
+> El recuento se determinó correctamente.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -67,6 +67,6 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentarios
 
-Si se pasa NULL en el parámetro _PCB_ , la función **ScCountNotifications** sólo valida la matriz de notificaciones, pero no se realiza ningún recuento; Si se pasa un valor no nulo en _PCB_, **ScCountNotifications** determina el tamaño de la matriz y almacena la causa de la _PCB_. El parámetro _PCB_ debe ser lo suficientemente grande como para contener toda la matriz. 
+Si se pasa NULL en el parámetro _de botón,_ la función **ScCountNotifications** solo valida la matriz de notificaciones, pero no se realiza ningún recuento; si se pasa un valor que no es nulo en lugar de _bytes_, **ScCountNotifications** determina el tamaño de la matriz y almacena la _causa._ El  _parámetrodimensional_ debe ser lo suficientemente grande como para contener toda la matriz. 
   
 

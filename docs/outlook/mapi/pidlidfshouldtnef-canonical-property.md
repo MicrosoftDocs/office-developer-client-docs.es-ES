@@ -25,35 +25,35 @@ ms.locfileid: "33438970"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si se va a codificar un elemento con el formato de encapsulación neutro para el transporte (TNEF). 
+Indica si se codifica un elemento con el formato de encapsulación neutro para transporte (TNEF). 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidFShouldTNEF  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x000085A5  <br/> |
+|Long ID (LID):  <br/> |0x000085A5  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se establece cuando Microsoft Word está configurado como editor de correo electrónico y envía un objeto OLE que está incrustado en una secuencia de formato de texto enriquecido (RTF).
+Esta propiedad se establece cuando Microsoft Word se establece como editor de correo electrónico y envía un objeto OLE incrustado en una secuencia de formato de texto enriquecido (RTF).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]] 
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -61,7 +61,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

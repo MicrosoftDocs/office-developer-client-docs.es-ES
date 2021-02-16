@@ -18,7 +18,7 @@ ms.locfileid: "33438095"
 ---
 # <a name="resizepage-cell-page-layout-section"></a>Celda ResizePage (Sección de diseño de página)
 
-Determina si se va a agrandar la página para que incluya el dibujo después de disponer las formas mediante el cuadro de diálogo **configurar diseño** (en la ficha **diseño** , en el grupo **diseño** , haga clic en redistribuir página y, a continuación, haga clic en **** **más diseño). Opciones**).
+Determina si se va a ampliar la página para incluir  el dibujo después de  diseñar las formas mediante  el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Volver a diseñar página y, a continuación, haga clic en Más opciones de diseño **).** 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Celda SoftEdgesSize (sección Propiedades del efecto adicional)
+title: Celda SoftEdgesSize (Sección de propiedades de efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435918"
 ---
-# <a name="softedgessize-cell-additional-effect-properties-section"></a>Celda SoftEdgesSize (sección Propiedades del efecto adicional)
+# <a name="softedgessize-cell-additional-effect-properties-section"></a>Celda SoftEdgesSize (Sección de propiedades de efecto adicional)
 
-Determina el tamaño de un efecto de borde suave, en puntos de 0,00 a 100,00. Si la celda **SoftEdgesSize** tiene un valor de 0, la forma no tiene bordes suaves. 
+Determina el tamaño de un efecto de borde suave, en puntos de 0,00 a 100,00. Si la **celda SoftEdgesSize** tiene un valor de 0, la forma no tiene bordes suaves. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **SoftEdgesSize** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **SoftEdgesSize** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell,** o desde un programa mediante la propiedad **CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | SoftEdgesSize  <br/> |
    
-Para obtener una referencia desde un programa a la celda **SoftEdgesSize** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la **celda SoftEdgesSize** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

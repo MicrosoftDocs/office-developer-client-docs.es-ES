@@ -8,7 +8,7 @@ f1_keywords:
 - TempMissing
 - TempMissing12
 keywords:
-- función tempmissing [Excel 2007], TempMissing12 [Excel 2007]
+- función tempmissing [excel 2007],Función TempMissing12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,24 +23,24 @@ ms.locfileid: "33435960"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de Framework que crea un**XLOPER12** de **XLOPER**/ temporal de tipo **xltypeMissing**.
+Función de biblioteca de marcos que crea un **XLOPER** /  **XLOPER12** temporal de tipo **xltypeMissing**.
   
 ```cs
 LPXLOPER TempMissing(void);
 LPXLOPER12 TempMissing12(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 Esta función no toma ningún parámetro.
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve un puntero a un **** ****/ **XLOPER12**XLOPER de xltypeMissing.
+Devuelve un puntero a **un xltypeMissing** **XLOPER** /  **XLOPER12**.
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se usa **TempMissing12** para proporcionar tres argumentos que faltan a **xlcWorkspace** seguidos de un **valor booleano** de **false** para suprimir la presentación de las barras de desplazamiento de la hoja de cálculo. Los tres primeros argumentos corresponden a otras opciones de configuración del área de trabajo que no se ven afectadas. 
+En este ejemplo se **usa TempMissing12** para proporcionar tres argumentos que faltan a **xlcWorkspace** seguidos de **un valor** **FALSE** booleano para suprimir la presentación de las barras de desplazamiento de la hoja de cálculo. Los tres primeros argumentos corresponden a otras configuraciones de área de trabajo que no se ven afectadas. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,7 +56,7 @@ short WINAPI TempMissingExample(void)
 }
 ```
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

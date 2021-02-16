@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm840
 localization_priority: Normal
 ms.assetid: d0f91e7d-2373-cfef-e105-fb17e77c7f2d
-description: Especifica un mensaje o comentario descriptivo para la celda definida por el usuario. La aplicación encierra automáticamente el texto del mensaje entre comillas () para indicar que se trata de una cadena de texto. Si escribe un signo igual (=) y omite las comillas, puede escribir una fórmula en esta celda que evalúe la aplicación.
+description: Especifica un mensaje o comentario descriptivo para la celda definida por el usuario. La aplicación incluye automáticamente el texto del mensaje entre comillas () para indicar que se trata de una cadena de texto. Si escribe un signo igual (=) y omite las comillas, puede escribir una fórmula en esta celda que evalúe la aplicación.
 ms.openlocfilehash: 7684025e03bd3f4f68893179b1df00cc0cb535e2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -26,14 +26,14 @@ Para obtener una referencia a la celda Prompt por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Usuario.  *Nombre* . Pregunta en la que el usuario.  *Name* es el nombre de la fila  <br/> |
+| Nombre de celda:  <br/> | Usuario.  *Nombre*  . Preguntar dónde está el usuario.  *El*  nombre es el nombre de fila.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Prompt por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionUser** <br/> |
-| Índice de fila:  <br/> |**visRowUser +** *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowUser +** *i*            donde  *i*  = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visUserPrompt** <br/> |
    
 

@@ -22,7 +22,7 @@ Descodifica una cadena en base 64 y la almacena en formato binario.
   
 ## <a name="syntax"></a>Sintaxis
 
-BLOB (* * *bintext* * *) 
+BLOB (** *bintext* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
