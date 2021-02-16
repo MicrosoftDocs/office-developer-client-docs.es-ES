@@ -17,22 +17,22 @@ ms.locfileid: "34539258"
 ---
 # <a name="developing-a-provider-with-the-osc-xml-schema"></a>Desarrollar un proveedor con el esquema XML de OSC
 
-El esquema XML del proveedor de Outlook Social Connector (OSC) define el formato de una cantidad significativa de información que se pasa desde una red social a través del proveedor de OSC de la red al OSC. El esquema XML permite a un proveedor OSC especificar capacidades del proveedor, amigos y elementos de la fuente de actividades de la red social mediante los tres elementos principales, **funciones**, **amigos**y **activityFeed**, y sus hijos elemento. El proveedor OSC implementa interfaces y sus métodos en la extensibilidad del proveedor OSC, devolviendo cadenas XML como parámetros de salida que cumplen con el esquema XML del proveedor OSC. El OSC llama a estos métodos para obtener información que puede entender como definida por el esquema XML.
+El esquema XML del proveedor de Outlook Social Connector (OSC) define el formato de una cantidad significativa de información que se pasa desde una red social a través del proveedor de OSC de la red al OSC. El esquema XML permite a un proveedor de OSC especificar las capacidades del proveedor, los amigos y los elementos de fuente de actividades en la red social, mediante el uso de los tres elementos principales, **capacidades,** amigos y **activityFeed,** y sus elementos secundarios. El proveedor de OSC implementa interfaces y sus métodos en la extensibilidad del proveedor de OSC, devolviendo cadenas XML como parámetros de salida que cumplen con el esquema XML del proveedor de OSC. El OSC llama a estos métodos para obtener información que puede comprender según lo definido por el esquema XML.
   
 > [!NOTE]
-> La extensibilidad de proveedores de OSC admite la depuración de proveedores estableciendo el `DebugProviders` valor de la `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector` clave del registro en 1. Cuando se activa la depuración del proveedor, el OSC valida el XML del proveedor con respecto a la versión del esquema XML de OSC que se especifica en el atributo XML **xmlns** . Para OSC 1,1 y versiones de OSC desde Outlook Social Connector 2013, especifique el atributo **xmlns** de la siguiente manera:`xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"`
+> La extensibilidad del proveedor de OSC admite la depuración de proveedores estableciendo el `DebugProviders` valor de la clave del Registro en  `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector` 1. Al activar la depuración del proveedor, el OSC valida el XML del proveedor con la versión del esquema XML de OSC que especifique en el atributo XML **xmlns.** Para OSC 1.1 y versiones del OSC desde Outlook Social Connector 2013, especifique el atributo **xmlns** de la siguiente manera: `xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"`
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Sincronización de amigos y actividades](synchronizing-friends-and-activities.md): describe las distintas formas en que los proveedores de OSC pueden sincronizar amigos, no amigos y actividades en una red social. 
+- [Sincronización de amigos](synchronizing-friends-and-activities.md)y actividades: describe las distintas formas en que los proveedores de OSC pueden sincronizar amigos, no amigos y actividades en una red social. 
     
-- [Ejemplos de XML del proveedor OSC](osc-provider-xml-examples.md): incluye ejemplos de XML que muestran cómo especificar funcionalidades de un proveedor OSC, amigos y elementos de fuentes de actividades en una red social mediante el esquema XML OSC.
+- Ejemplos XML del proveedor de [OSC:](osc-provider-xml-examples.md)incluye ejemplos XML que muestran cómo especificar funcionalidades de un proveedor de OSC, amigos y elementos de fuente de actividades en una red social mediante el esquema XML de OSC.
     
-- [XML para capacidades](xml-for-capabilities.md): explica el método- [ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md) que utiliza el OSC para obtener información de capacidades, expresada en el XML de **capacidades** , del proveedor OSC. En esta sección también se describen los elementos XML en el esquema XML del proveedor OSC que permiten a un proveedor de OSC especificar su funcionalidad, incluido cómo autentica a los usuarios y sincroniza amigos y actividades. 
+- [XML para](xml-for-capabilities.md)funcionalidades: explica el método - [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) que el OSC usa para obtener información de capacidades, expresada en **XML** de capacidades, del proveedor de OSC. En esta sección también se describen los elementos XML del esquema XML del proveedor de OSC que permiten a un proveedor de OSC especificar su funcionalidad, incluido cómo autentica a los usuarios y sincroniza amigos y actividades. 
     
-- [XML para amigos](xml-for-friends.md): proporciona ejemplos de las API que el OSC utiliza para obtener información sobre amigos, expresada en XML de **amigos** , del proveedor de OSC. En esta sección también se describen los elementos del XML de **amigos** . 
+- [XML para amigos:](xml-for-friends.md)proporciona ejemplos de las API que el OSC usa para obtener información de amigos, expresada en **XML** de amigos, del proveedor de OSC. En esta sección también se describen los elementos del XML **de amigos.** 
     
-- [XML for Activities](xml-for-activities.md): proporciona ejemplos de las API que el OSC utiliza para obtener información de actividades, expresada en **activityFeed** XML, del proveedor de OSC. En esta sección también se describen los elementos XML en el esquema XML del proveedor OSC que permiten a un proveedor OSC especificar una fuente de actividades. Una fuente de actividades incluye la red en la que se originaron los elementos de la fuente de actividades, los detalles de cada elemento de la fuente de actividades (como el propietario, el tipo y la fecha de publicación de la actividad) y la plantilla para mostrar la actividad. 
+- [XML para actividades:](xml-for-activities.md)proporciona ejemplos de las API que el OSC usa para obtener información de actividades, expresada en **activityFeed** XML, del proveedor de OSC. En esta sección también se describen los elementos XML del esquema XML del proveedor de OSC que permiten a un proveedor de OSC especificar una fuente de actividades. Una fuente de actividades incluye la red en la que se originaron los elementos de la fuente de actividades, los detalles de cada elemento de fuente de actividades (como el propietario, el tipo y la fecha de publicación de la actividad) y la plantilla para mostrar la actividad. 
     
 ## <a name="reference"></a>Referencia
 
@@ -46,13 +46,13 @@ El esquema XML del proveedor de Outlook Social Connector (OSC) define el formato
   
 - [Secuencias de llamada típicas de OSC](osc-typical-calling-sequences.md)
   
-- [Depuración de un proveedor](debugging-a-provider.md)
+- [Depurar un proveedor](debugging-a-provider.md)
   
 - [Implementación de un proveedor](deploying-a-provider.md)
   
 - [Procedimientos recomendados para desarrollar un proveedor](best-practices-for-developing-a-provider.md)
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-- [Depuración de un proveedor](debugging-a-provider.md)
+- [Depurar un proveedor](debugging-a-provider.md)
 

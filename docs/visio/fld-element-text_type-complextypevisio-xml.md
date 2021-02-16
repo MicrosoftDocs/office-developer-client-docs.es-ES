@@ -1,5 +1,5 @@
 ---
-title: elemento FLD (complexType Text_Type) (XML de Visio)
+title: elemento fld (Text_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539617"
 ---
-# <a name="fld-element-texttype-complextype-visio-xml"></a>elemento FLD (complexType Text_Type) (XML de Visio)
+# <a name="fld-element-text_type-complextype-visio-xml"></a>elemento fld (Text_Type complexType) (XML de Visio)
 
 Indica un punto de inserción de campo de texto para el elemento **Field** correspondiente. 
   
@@ -24,8 +24,8 @@ Indica un punto de inserción de campo de texto para el elemento **Field** corre
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Página #. XML, Master #. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Indica un punto de inserción de campo de texto para el elemento **Field** corre
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,6 +52,6 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |Índice de base cero del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Índice de base cero del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

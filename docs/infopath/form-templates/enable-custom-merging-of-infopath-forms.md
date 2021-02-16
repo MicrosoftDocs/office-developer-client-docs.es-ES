@@ -72,7 +72,7 @@ Si el valor del atributo es **agg:action** "delete", los elementos de destino a 
 
 Junto con los atributos especificados en el espacio de nombres  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`, se usa el espacio de nombres  `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` para denotar un objeto XSL que implementa la interfaz **IXMLDOMDocument**. Uno de los miembros más útiles de esta interfaz es el método **get-documentElement**.
   
-### <a name="get-documentelement"></a>Get-documentElement
+### <a name="get-documentelement"></a>get-documentElement
 
 La función **target:get-documentElement** proporciona acceso al Modelo de objeto de documento del documento de destino. Se puede usar para cambiar el modo en que funciona la operación de combinación en los contenidos actuales del documento de destino. 
   
@@ -147,9 +147,9 @@ La función **target:get-documentElement** proporciona acceso al Modelo de objet
 
 6. El último paso para preparar el formulario para que admita la combinación personalizada es la actualización del elemento **importParameters** en el archivo .xsf asociado al formulario. 
 
-    Primero, busque la etiqueta  `<xsf:importParameters>` en el archivo .xsf. Para cada par de esquema/transformación XSL que ha creado para el formulario, agregue un elemento **xsf: importSource** al elemento **xsf: importParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
+    Primero, busque la etiqueta  `<xsf:importParameters>` en el archivo .xsf. Para cada par de esquema/transformación XSL que haya creado para el formulario, agregue un elemento **xsf:importSource** al elemento **xsf:importParameters:**  `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>` . 
     
-    El atributo **Name** del elemento **xsf: importSource** contiene el nombre de la plantilla de formulario que se puede encontrar en un documento XML de origen. Por lo general, puede dejarlo vacío. El atributo **Schema** contiene el nombre de un archivo de esquema que agregó a la plantilla de formulario en el paso anterior. Por último, el atributo **transform** contiene el nombre de la transformación XSL que desea usar para convertir los formularios que conforman el esquema. 
+    El **atributo** name del **elemento xsf:importSource** contiene el nombre de la plantilla de formulario que puede encontrarse en un documento XML de origen. Por lo general, puede dejarlo vacío. El **atributo** de esquema contiene el nombre de un archivo de esquema que agregó a la plantilla de formulario en el paso anterior. Por último, el atributo **transform** contiene el nombre de la transformación XSL que desea usar para convertir los formularios que conforman el esquema. 
     
     Puede usar una transformación personalizada con el evento [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) o sola. 
     

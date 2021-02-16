@@ -1,12 +1,12 @@
 ---
-title: Elemento cell (fila MoveTo) (XML de Visio)
+title: Elemento Cell (fila MoveTo) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b3b2a08f-07a0-5f1c-4910-503229927816
-description: Contiene las coordenadas x o y del primer vértice de una forma o representa las coordenadas x o y del primer vértice después de una interrupción en una ruta de acceso.
+description: Contiene las coordenadas x o y del primer vértice de una forma o representa las coordenadas x o y del primer vértice después de un salto en una ruta de acceso.
 ms.openlocfilehash: f0cbe7170bf4462b9aece211a149af396c132766
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539519"
 ---
-# <a name="cell-element-moveto-row-visio-xml"></a>Elemento cell (fila MoveTo) (XML de Visio)
+# <a name="cell-element-moveto-row-visio-xml"></a>Elemento Cell (fila MoveTo) (XML de Visio)
 
-Contiene las coordenadas x o y del primer vértice de una forma o representa las coordenadas x o y del primer vértice después de una interrupción en una ruta de acceso.
+Contiene las coordenadas x o y del primer vértice de una forma o representa las coordenadas x o y del primer vértice después de un salto en una ruta de acceso.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene las coordenadas x o y del primer vértice de una forma o representa las
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Master #. XML, página #. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Contiene las coordenadas x o y del primer vértice de una forma o representa las
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (geometría)](row-element-geometry-sectionvisio-xml.md) <br/> |[MoveTo_Type](moveto_type-complextypevisio-xml.md) <br/> |Contiene las coordenadas x o y del primer vértice de una forma o representa las coordenadas x o y del primer vértice después de una interrupción en una ruta de acceso.  <br/> |
+|[Elemento Row (Geometría)](row-element-geometry-sectionvisio-xml.md) <br/> |[MoveTo_Type](moveto_type-complextypevisio-xml.md) <br/> |Contiene las coordenadas x o y del primer vértice de una forma o representa las coordenadas x o y del primer vértice después de un salto en una ruta de acceso.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -54,19 +54,19 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd: String  <br/> |opcional  <br/> |Indica que la fórmula da como resultado un error. El valor de **E** es el valor actual (una cadena de mensaje de error); el valor del atributo **V** es el último valor válido.  <br/> |Una cadena de mensaje de error.  <br/> |
-|F  <br/> |xsd: String  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener una de las siguientes cadenas:  <br/>  ' (alguna fórmula) ' si la fórmula existe localmente  <br/>  `No Formula`Si la fórmula se ha eliminado o bloqueado localmente  <br/>  `Inh`Si la fórmula es heredada.  <br/> |Una fórmula.  <br/> |
-|N  <br/> |xsd: String  <br/> |necesario  <br/> |Representa el nombre de la celda ShapeSheet.  <br/> |Nombre de la celda ShapeSheet.  <br/> Vea la sección Comentarios a continuación.  <br/> |
-|U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
-|V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que la fórmula se evalúa como un error. El valor de **E** es el valor actual (una cadena de mensaje de error); el valor del atributo **V** es el último valor válido.  <br/> |Una cadena de mensaje de error.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener una de las siguientes cadenas:  <br/>  '(alguna fórmula)' si la fórmula existe localmente  <br/>  `No Formula` si la fórmula se elimina o bloquea localmente  <br/>  `Inh` si la fórmula se hereda.  <br/> |Una fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |necesario  <br/> |Representa el nombre de la celda ShapeSheet.  <br/> |Nombre de la celda ShapeSheet.  <br/> Vea la sección Comentarios a continuación.  <br/> |
+|U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa una unidad de medida El valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
+|V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |Valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
+El **atributo N** de este elemento **Cell** debe ser uno de un conjunto limitado de valores que corresponden a celdas ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este **elemento Cell.** 
   
-|**Value**|**Descripción**|**Más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|X  <br/> |Si la **** fila MoveTo es la primera fila de la sección, la celda **x** representa la coordenada x del primer vértice de la forma. Si la **** fila MoveTo aparece entre dos filas, la celda **x** representa la coordenada x del primer vértice después de la interrupción de la ruta de acceso.  <br/> |[Fila MoveTo (Sección de Geometría)](moveto-row-geometry-section.md) <br/> |
-|v  <br/> |Si la **** fila MoveTo es la primera fila de la sección, la celda **y** representa la coordenada Y del primer vértice de la forma. Si la **** fila MoveTo aparece entre dos filas, la celda **y** representa la coordenada Y del primer vértice después de la interrupción de la ruta de acceso.  <br/> |[Fila MoveTo (Sección de Geometría)](moveto-row-geometry-section.md) <br/> |
+|X  <br/> |Si la **fila MoveTo** es la primera fila de la sección, la celda **X** representa la coordenada x del primer vértice de una forma. Si la **fila MoveTo** aparece entre dos filas, la celda **X** representa la coordenada x del primer vértice después del salto en la ruta de acceso.  <br/> |[Fila MoveTo (Sección de Geometría)](moveto-row-geometry-section.md) <br/> |
+|v  <br/> |Si la **fila MoveTo** es la primera fila de la sección, la celda Y representa la coordenada **y** del primer vértice de una forma. Si la **fila MoveTo** aparece entre dos filas, la celda Y representa la coordenada **y** del primer vértice después del salto en la ruta de acceso.  <br/> |[Fila MoveTo (Sección de Geometría)](moveto-row-geometry-section.md) <br/> |
    
 

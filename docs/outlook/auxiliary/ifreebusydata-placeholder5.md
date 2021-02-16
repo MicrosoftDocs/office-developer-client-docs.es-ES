@@ -20,7 +20,7 @@ Este miembro es un marcador de posición y no es compatible.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulte [IFreeBusyData](ifreebusydata.md).
+Vea [IFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT Placeholder5( 
@@ -32,7 +32,7 @@ HRESULT Placeholder5(
 
 ## <a name="return-values"></a>Valores devueltos
 
-Siempre E_NOTIMPL, porque este miembro es un marcador de posición en **IFreeBusyData** y no se admite. 
+Siempre E_NOTIMPL, porque este miembro es un marcador de posición en **IFreeBusyData** y no es compatible. 
   
 ## <a name="remarks"></a>Comentarios
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento CommentList (complexType Comments_Type) (XML de Visio)
+title: Elemento CommentList (Comments_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539251"
 ---
-# <a name="commentlist-element-commentstype-complextype-visio-xml"></a>Elemento CommentList (complexType Comments_Type) (XML de Visio)
+# <a name="commentlist-element-comments_type-complextype-visio-xml"></a>Elemento CommentList (Comments_Type complexType) (XML de Visio)
 
 Especifica los comentarios de un dibujo.
   
@@ -24,8 +24,8 @@ Especifica los comentarios de un dibujo.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |comments. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |comments.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,19 +36,19 @@ Especifica los comentarios de un dibujo.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Comments](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |Especifica las propiedades que se usan para identificar los autores y los comentarios de un dibujo.  <br/> |
+|[Comments](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |Especifica las propiedades usadas para identificar los autores y los comentarios de un dibujo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[CommentEntry](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> |Especifica las propiedades que se usan para identificar un Comentario en un dibujo.  <br/> |
+|[CommentEntry](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> |Especifica las propiedades usadas para identificar un comentario en un dibujo.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

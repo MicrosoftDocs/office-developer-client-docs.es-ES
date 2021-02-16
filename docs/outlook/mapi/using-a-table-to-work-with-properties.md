@@ -21,16 +21,16 @@ ms.locfileid: "33439915"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Hay muchas propiedades disponibles tanto en los objetos que las admiten como en columnas en las tablas. Siempre que sea posible, recupere estas propiedades a través de la tabla.
+Muchas propiedades están disponibles tanto de los objetos que las admiten como de las columnas de las tablas. Siempre que sea posible, recupere estas propiedades a través de la tabla.
   
-Llame al [IMAPITable:: SetColumns](imapitable-setcolumns.md) para incluir todas las propiedades que necesita el cliente y el método [IMAPITable:: QueryRows](imapitable-queryrows.md) para recuperar todas las filas de la tabla. 
+Llame [a IMAPITable::SetColumns](imapitable-setcolumns.md) para incluir todas las propiedades que el cliente necesita e [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar todas las filas de la tabla. 
   
-Estas dos llamadas suelen ser suficientes para recuperar la información suficiente para mostrar a un usuario y son con frecuencia suficientes para cualquier procesamiento interno necesario, haciendo una llamada a **OpenEntry** para abrir el objeto innecesario. 
+Estas dos llamadas suelen ser suficientes para recuperar información suficiente para mostrar a un usuario y, con frecuencia, son suficientes para cualquier procesamiento interno necesario, por lo que se realiza una llamada a **OpenEntry** para abrir el objeto de forma innecesaria. 
   
 Solo hay dos excepciones:
   
-- Si la propiedad es de más de 255 bytes. La interfaz * * IMAPITable * * puede que no devuelva el valor completo de la propiedad, en lugar de truncarla en 255 bytes. No obstante, piense en esta desventaja. Si va a mostrar estos datos al usuario, 255 bytes pueden ser suficientes para un campo de texto, como un comentario. 
+- Si la propiedad supera los 255 bytes. Es posible que la interfaz ** IMAPITable ** no devuelva el valor completo de la propiedad, en lugar de truncarlo en 255 bytes. No obstante, piense en esta negociación. Si va a mostrar estos datos al usuario, 255 bytes pueden ser suficientes para un campo de texto, como un comentario. 
     
-- Si necesita una propiedad específica de una sola fila de una tabla. En este caso, no es necesario crear una tabla con propiedades que nunca se usarán. La mayoría de las veces, necesitará las mismas propiedades para todas las filas.
+- Si necesita una propiedad específica de una sola fila de una tabla. En este caso, no es necesario crear una tabla con propiedades que nunca se usarán. La mayoría de las veces necesitará las mismas propiedades para todas las filas.
     
 

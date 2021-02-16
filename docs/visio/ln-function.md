@@ -22,7 +22,7 @@ Devuelve el logaritmo natural (neperiano) de un número. El número debe ser pos
   
 ## <a name="syntax"></a>Sintaxis
 
-LN (* * *número* * *) 
+LN(** *number* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -36,7 +36,7 @@ Numérico
   
 ## <a name="example"></a>Ejemplo
 
-LN (42) 
+LN(42) 
   
 Devuelve 3,7377. 
   

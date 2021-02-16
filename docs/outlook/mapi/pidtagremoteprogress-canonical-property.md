@@ -32,37 +32,37 @@ Esta propiedad contiene un número que indica el estado de una transferencia rem
 |Propiedades asociadas:  <br/> |PR_REMOTE_PROGRESS  <br/> |
 |Identificador:  <br/> |0x3E0B  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Estado de MAPI  <br/> |
+|Área:  <br/> |Estado MAPI  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si no hay transferencia en curso, esta propiedad debe establecerse en 1. Si se está realizando una transferencia, debe establecerse en un valor entre 0 y 100 que indica el porcentaje de finalización de la transferencia.
+Si no hay ninguna transferencia en curso, esta propiedad debe establecerse en 1. Si una transferencia está en curso, debe establecerse en un valor de 0 a 100 que indique el porcentaje de finalización de la transferencia.
   
-El texto asociado con el código de estado numérico aparece en la propiedad **PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
+El texto asociado con el código de estado numérico aparece en **la PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
   
-Se pueden establecer los siguientes indicadores para esta propiedad:
+Se pueden establecer las siguientes marcas para esta propiedad:
   
 MSGSTATUS_REMOTE_DELETE
   
-> Se elimina la transferencia del mensaje.
+> La transferencia de mensajes se elimina.
     
 MSGSTATUS_REMOTE_DOWNLOAD
   
-> La transferencia del mensaje está en curso.
+> La transferencia de mensajes está en curso.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

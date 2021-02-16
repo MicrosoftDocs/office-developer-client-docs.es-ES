@@ -24,7 +24,7 @@ Define los parámetros sobre las condiciones meteorológicas de previsión de un
 |||
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|**Archivo de esquema** <br/> |getweatherinfo. xsd  <br/> |
+|**Archivo de esquema** <br/> |getweatherinfo.xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    
 ## <a name="definition"></a>Definición
@@ -45,7 +45,7 @@ Define los parámetros sobre las condiciones meteorológicas de previsión de un
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -55,13 +55,13 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|date  <br/> |XS: Date  <br/> |necesario  <br/> |Especifica la fecha de la previsión.  <br/> |Un valor de tipo XS: Date  <br/> |
-|cotidiano  <br/> |XS: String  <br/> |necesario  <br/> |Especifica un día para la previsión.  <br/> |Un valor de tipo XS: String  <br/> |
-|mayor  <br/> |XS: Integer  <br/> |necesario  <br/> |Especifica la temperatura más alta prevista.  <br/> |Un valor del tipo XS: Integer  <br/> |
-|baja  <br/> |XS: Integer  <br/> |necesario  <br/> |Especifica la temperatura más baja prevista.  <br/> |Un valor del tipo XS: Integer  <br/> |
-|precip  <br/> |XS: Integer  <br/> |necesario  <br/> |Especifica el porcentaje de probabilidad de precipitación.  <br/> |Un valor del tipo XS: Integer  <br/> |
-|shortday  <br/> |XS: String  <br/> |necesario  <br/> |Especifica un día en forma abreviada.  <br/> |Un valor de tipo XS: String  <br/> |
-|skycodeday  <br/> |XS: Integer  <br/> |necesario  <br/> |Especifica un código para las condiciones de previsión.  <br/> |Un valor del tipo XS: Integer  <br/> |
-|skytextday  <br/> |XS: String  <br/> |necesario  <br/> |Especifica de una a dos palabras que describen las condiciones de previsión.  <br/> |Un valor de tipo XS: String  <br/> |
+|date  <br/> |xs:date  <br/> |necesario  <br/> |Especifica la fecha de la previsión.  <br/> |Un valor del tipo xs:date  <br/> |
+|day  <br/> |xs:string  <br/> |necesario  <br/> |Especifica un día para la previsión.  <br/> |Un valor del tipo xs:string  <br/> |
+|high  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura más alta prevista.  <br/> |Un valor del tipo xs:integer  <br/> |
+|low  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura más baja prevista.  <br/> |Un valor del tipo xs:integer  <br/> |
+|precip  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica el porcentaje de probabilidad de que se puedan realizar resaltes.  <br/> |Un valor del tipo xs:integer  <br/> |
+|shortday  <br/> |xs:string  <br/> |necesario  <br/> |Especifica un día en forma abreviada.  <br/> |Un valor del tipo xs:string  <br/> |
+|skycodeday  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica un código para las condiciones previstas.  <br/> |Un valor del tipo xs:integer  <br/> |
+|skytextday  <br/> |xs:string  <br/> |necesario  <br/> |Especifica de una a dos palabras que describen las condiciones previstas.  <br/> |Un valor del tipo xs:string  <br/> |
    
 

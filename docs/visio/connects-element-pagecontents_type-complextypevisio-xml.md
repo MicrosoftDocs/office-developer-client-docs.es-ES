@@ -1,5 +1,5 @@
 ---
-title: Elemento Connects (complexType PageContents_Type) (XML de Visio)
+title: Elemento Connects (PageContents_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538714"
 ---
-# <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Elemento Connects (complexType PageContents_Type) (XML de Visio)
+# <a name="connects-element-pagecontents_type-complextype-visio-xml"></a>Elemento Connects (PageContents_Type complexType) (XML de Visio)
 
-Contiene un elemento **Connect** para cada conexión entre dos formas de un dibujo. 
+Contiene un **elemento Connect** para cada conexión entre dos formas de un dibujo. 
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene un elemento **Connect** para cada conexión entre dos formas de un dibu
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Página #. XML, Master #. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,14 +36,14 @@ Contiene un elemento **Connect** para cada conexión entre dos formas de un dibu
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica la información sobre las formas de una página maestra o de dibujo de un dibujo.  <br/> |
-|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica la información sobre las formas de una página maestra o de dibujo de un dibujo.  <br/> |
+|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica la información acerca de las formas de un patrón o página de dibujo de un dibujo.  <br/> |
+|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Especifica la información acerca de las formas de un patrón o página de dibujo de un dibujo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

@@ -1,12 +1,12 @@
 ---
-title: Elemento cell (fila lineTo) (XML de Visio)
+title: Elemento Cell (fila LineTo) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 64f2494d-2de7-6bc5-0db4-91b952bdcb5e
-description: Contiene las coordenadas x o y del vértice del extremo de un segmento de línea recta.
+description: Contiene coordenadas x o y del vértice final de un segmento de línea recta.
 ms.openlocfilehash: 4b1628549e659712a1c2e79ae0fbf53d594e18f9
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539512"
 ---
-# <a name="cell-element-lineto-row-visio-xml"></a>Elemento cell (fila lineTo) (XML de Visio)
+# <a name="cell-element-lineto-row-visio-xml"></a>Elemento Cell (fila LineTo) (XML de Visio)
 
-Contiene las coordenadas x o y del vértice del extremo de un segmento de línea recta.
+Contiene coordenadas x o y del vértice final de un segmento de línea recta.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene las coordenadas x o y del vértice del extremo de un segmento de línea
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Master #. XML, página #. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Contiene las coordenadas x o y del vértice del extremo de un segmento de línea
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (geometría)](row-element-geometry-sectionvisio-xml.md) <br/> |[LineTo_Type](lineto_type-complextypevisio-xml.md) <br/> |Contiene las coordenadas x o y del vértice del extremo de un segmento de línea recta.  <br/> |
+|[Elemento Row (Geometría)](row-element-geometry-sectionvisio-xml.md) <br/> |[LineTo_Type](lineto_type-complextypevisio-xml.md) <br/> |Contiene coordenadas x o y del vértice final de un segmento de línea recta.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -54,17 +54,17 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd: String  <br/> |opcional  <br/> |Indica que la fórmula da como resultado un error. El valor de **E** es el valor actual (una cadena de mensaje de error); el valor del atributo **V** es el último valor válido.  <br/> |Una cadena de mensaje de error.  <br/> |
-|F  <br/> |xsd: String  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener una de las siguientes cadenas:  <br/>  ' (alguna fórmula) ' si la fórmula existe localmente  <br/>  `No Formula`Si la fórmula se ha eliminado o bloqueado localmente  <br/>  `Inh`Si la fórmula es heredada.  <br/> |Una fórmula.  <br/> |
-|N  <br/> |xsd: String  <br/> |necesario  <br/> |Representa el nombre de la celda ShapeSheet.  <br/> |Nombre de la celda ShapeSheet.  <br/> Vea la sección Comentarios a continuación.  <br/> |
-|U  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida el valor predeterminado es DL.  <br/> |Unidades de la celda.  <br/> |
-|V  <br/> |xsd: String  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |El valor de la celda ShapeSheet.  <br/> |
+|E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que la fórmula se evalúa como un error. El valor de **E** es el valor actual (una cadena de mensaje de error); el valor del atributo **V** es el último valor válido.  <br/> |Una cadena de mensaje de error.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener una de las siguientes cadenas:  <br/>  '(alguna fórmula)' si la fórmula existe localmente  <br/>  `No Formula` si la fórmula se elimina o bloquea localmente  <br/>  `Inh` si la fórmula se hereda.  <br/> |Una fórmula.  <br/> |
+|N  <br/> |xsd:string  <br/> |necesario  <br/> |Representa el nombre de la celda ShapeSheet.  <br/> |Nombre de la celda ShapeSheet.  <br/> Vea la sección Comentarios a continuación.  <br/> |
+|U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa una unidad de medida El valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
+|V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |Valor de la celda ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
-El atributo **N** de este elemento de **celda** debe ser uno de un conjunto de valores limitado que corresponda a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este elemento de **celda** . 
+El **atributo N** de este elemento **Cell** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este **elemento Cell.** 
   
-|**Value**|**Descripción**|**Más información**|
+|**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordenada x del vértice del extremo de un segmento de línea recta.  <br/> |[Fila LineTo (Sección de Geometría)](lineto-row-geometry-section.md) <br/> |
 |v  <br/> |Coordenada y del vértice del extremo de un segmento de línea recta.  <br/> |[Fila LineTo (Sección de Geometría)](lineto-row-geometry-section.md) <br/> |

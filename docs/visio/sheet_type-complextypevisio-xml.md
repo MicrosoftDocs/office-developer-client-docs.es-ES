@@ -1,5 +1,5 @@
 ---
-title: ComplexType Sheet_Type (XML de Visio)
+title: Sheet_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,14 +13,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540409"
 ---
-# <a name="sheettype-complextype-visio-xml"></a>ComplexType Sheet_Type (XML de Visio)
+# <a name="sheet_type-complextype-visio-xml"></a>Sheet_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    
 ## <a name="definition"></a>Definición
@@ -66,7 +66,7 @@ ms.locfileid: "34540409"
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -80,8 +80,8 @@ Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, 
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
-|LineStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
-|TextStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
+|FillStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
+|LineStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
+|TextStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
    
 

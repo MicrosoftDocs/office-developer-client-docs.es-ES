@@ -1,5 +1,5 @@
 ---
-title: ComplexType ForeignData_Type (XML de Visio)
+title: ForeignData_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,14 +13,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539866"
 ---
-# <a name="foreigndatatype-complextype-visio-xml"></a>ComplexType ForeignData_Type (XML de Visio)
+# <a name="foreigndata_type-complextype-visio-xml"></a>ForeignData_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    
 ## <a name="definition"></a>Definición
@@ -73,27 +73,27 @@ ms.locfileid: "34539866"
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[REL](rel-element-foreigndata_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
+|[Rel](rel-element-foreigndata_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Atributos
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|CompressionLevel  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
-|CompressionType  <br/> |xsd: token  <br/> |opcional  <br/> ||Valores del tipo xsd: token.  <br/> |
-|ExtentX  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
-|Extensión  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
-|ForeignType  <br/> |xsd: token  <br/> |necesario  <br/> ||Valores del tipo xsd: token.  <br/> |
-|Absolute  <br/> |xsd: unsignedShort  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedShort.  <br/> |
-|ObjectHeight  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
-|ObjectType  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd: unsignedInt.  <br/> |
-|ObjectWidth  <br/> |xsd: Double  <br/> |opcional  <br/> ||Valores del tipo xsd: Double.  <br/> |
-|ShowAsIcon  <br/> |xsd: Boolean  <br/> |opcional  <br/> ||Valores del tipo xsd: Boolean.  <br/> |
+|CompressionLevel  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores del tipo xsd:double.  <br/> |
+|CompressionType  <br/> |xsd:token  <br/> |opcional  <br/> ||Valores del tipo xsd:token.  <br/> |
+|ExtentX  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores del tipo xsd:double.  <br/> |
+|ExtentY  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores del tipo xsd:double.  <br/> |
+|ForeignType  <br/> |xsd:token  <br/> |necesario  <br/> ||Valores del tipo xsd:token.  <br/> |
+|MappingMode  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedShort.  <br/> |
+|ObjectHeight  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores del tipo xsd:double.  <br/> |
+|ObjectType  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> ||Valores del tipo xsd:unsignedInt.  <br/> |
+|ObjectWidth  <br/> |xsd:double  <br/> |opcional  <br/> ||Valores del tipo xsd:double.  <br/> |
+|ShowAsIcon  <br/> |xsd:boolean  <br/> |opcional  <br/> ||Valores del tipo xsd:boolean.  <br/> |
    
 

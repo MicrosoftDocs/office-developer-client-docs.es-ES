@@ -1,5 +1,5 @@
 ---
-title: ComplexType Solution_Type (XML de Visio)
+title: Solution_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,14 +13,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540255"
 ---
-# <a name="solutiontype-complextype-visio-xml"></a>ComplexType Solution_Type (XML de Visio)
+# <a name="solution_type-complextype-visio-xml"></a>Solution_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Información de tipos
 
 |||
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base de extensión** <br/> |Ninguno  <br/> |
    
 ## <a name="definition"></a>Definición
@@ -42,13 +42,13 @@ ms.locfileid: "34540255"
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[REL](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
+|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Atributos
 

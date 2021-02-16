@@ -1,12 +1,12 @@
 ---
-title: Elemento ValidationProperties (complexType Validation_Type) (XML de Visio)
+title: Elemento ValidationProperties (Validation_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a51a60c9-479b-7d7b-860f-bb46fc8b4d63
-description: Encapsula las propiedades que están relacionadas con la validación del documento.
+description: Encapsula las propiedades relacionadas con la validación del documento.
 ms.openlocfilehash: 35e6f3f13eecef826fdef0d664bba35fceb0e069
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538525"
 ---
-# <a name="validationproperties-element-validationtype-complextype-visio-xml"></a>Elemento ValidationProperties (complexType Validation_Type) (XML de Visio)
+# <a name="validationproperties-element-validation_type-complextype-visio-xml"></a>Elemento ValidationProperties (Validation_Type complexType) (XML de Visio)
 
-Encapsula las propiedades que están relacionadas con la validación del documento.
+Encapsula las propiedades relacionadas con la validación del documento.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Encapsula las propiedades que están relacionadas con la validación del documen
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Validation. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Encapsula las propiedades que están relacionadas con la validación del documen
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,7 +52,7 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|LastValidated  <br/> |xsd: dateTime  <br/> |necesario  <br/> |Fecha y hora en que se validó el documento por última vez.  <br/> |Valores del tipo xsd: dateTime.  <br/> |
-|ShowIgnored  <br/> |xsd: Boolean  <br/> |necesario  <br/> |Especifica si se muestran problemas de validación omitidos en la ventana problemas.  <br/> |Valores del tipo xsd: Boolean.  <br/> |
+|LastValidated  <br/> |xsd:dateTime  <br/> |necesario  <br/> |Fecha y hora en que se validó por última vez el documento.  <br/> |Valores del tipo xsd:dateTime.  <br/> |
+|ShowIgnored  <br/> |xsd:boolean  <br/> |necesario  <br/> |Especifica si se deben mostrar problemas de validación omitido en la ventana Problemas.  <br/> |Valores del tipo xsd:boolean.  <br/> |
    
 

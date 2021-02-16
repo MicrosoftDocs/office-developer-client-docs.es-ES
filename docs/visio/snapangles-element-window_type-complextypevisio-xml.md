@@ -1,5 +1,5 @@
 ---
-title: Elemento SnapAngles (complexType Window_Type) (XML de Visio)
+title: Elemento SnapAngles (Window_Type complexType) (VISIO XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540367"
 ---
-# <a name="snapangles-element-windowtype-complextype-visio-xml"></a>Elemento SnapAngles (complexType Window_Type) (XML de Visio)
+# <a name="snapangles-element-window_type-complextype-visio-xml"></a>Elemento SnapAngles (Window_Type complexType) (VISIO XML)
 
-Contiene una colección de elementos **SnapAngle** . 
+Contiene una colección de **elementos SnapAngle.** 
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene una colección de elementos **SnapAngle** .
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Windows. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Contiene una colección de elementos **SnapAngle** .
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

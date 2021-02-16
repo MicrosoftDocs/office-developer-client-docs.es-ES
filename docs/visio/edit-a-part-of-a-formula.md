@@ -35,6 +35,6 @@ ms.locfileid: "33439831"
 | Seleccionar hasta el final  <br/> | Presione Mayús+Fin.  <br/> |
 | Seleccionar hasta el principio  <br/> | Presione Mayús+Inicio.  <br/> |
 | Reemplazar el texto seleccionado  <br/> | Escriba el texto nuevo.  <br/> |
-| Eliminar el texto seleccionado  <br/> | Presione SUPRIMIR. O bien, en la pestaña **Inicio** , haga clic en **cortar**.  <br/> |
+| Eliminar el texto seleccionado  <br/> | Presione SUPRIMIR. O bien, en **la pestaña** Inicio, haga clic **en Cortar**.  <br/> |
    
 

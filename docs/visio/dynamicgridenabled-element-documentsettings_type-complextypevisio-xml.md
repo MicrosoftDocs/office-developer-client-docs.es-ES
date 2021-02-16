@@ -1,5 +1,5 @@
 ---
-title: Elemento DynamicGridEnabled (complexType DocumentSettings_Type) (XML de Visio)
+title: Elemento DynamicGridEnabled (DocumentSettings_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540003"
 ---
-# <a name="dynamicgridenabled-element-documentsettingstype-complextype-visio-xml"></a>Elemento DynamicGridEnabled (complexType DocumentSettings_Type) (XML de Visio)
+# <a name="dynamicgridenabled-element-documentsettings_type-complextype-visio-xml"></a>Elemento DynamicGridEnabled (DocumentSettings_Type complexType) (XML de Visio)
 
 Especifica si la característica de cuadrícula dinámica está habilitada para un documento.
   
@@ -24,8 +24,8 @@ Especifica si la característica de cuadrícula dinámica está habilitada para 
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Windows. XML, Document. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |windows.xml, document.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Especifica si la característica de cuadrícula dinámica está habilitada para 
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene los elementos que especifican la configuración del documento.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene elementos que especifican la configuración del documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento FaceNames (complexType VisioDocument_Type) (XML de Visio)
+title: Elemento FaceNames (VisioDocument_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539716"
 ---
-# <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a>Elemento FaceNames (complexType VisioDocument_Type) (XML de Visio)
+# <a name="facenames-element-visiodocument_type-complextype-visio-xml"></a>Elemento FaceNames (VisioDocument_Type complexType) (XML de Visio)
 
-Contiene una colección de elementos **FaceName** . 
+Contiene una colección de **elementos FaceName.** 
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene una colección de elementos **FaceName** .
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Document. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Contiene una colección de elementos **FaceName** .
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |El elemento raíz de un documento de Microsoft Visio.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento de Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

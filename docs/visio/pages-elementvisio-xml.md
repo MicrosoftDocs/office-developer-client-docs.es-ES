@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
-description: Contiene los elementos de página del documento.
+description: Contiene los elementos Page del documento.
 ms.openlocfilehash: 09feb09e6a01187892ba2756fb1c99dd1ef2f845
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34538980"
 ---
 # <a name="pages-element-visio-xml"></a>Elemento Pages (XML de Visio)
 
-Contiene los elementos de página del documento.
+Contiene los elementos Page del documento.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene los elementos de página del documento.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Pages. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |pages.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Contiene los elementos de página del documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -46,7 +46,7 @@ Ninguno.
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contiene los elementos que definen una página en el documento.  <br/> |
+|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una página en el documento.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

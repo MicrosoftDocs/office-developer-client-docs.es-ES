@@ -23,13 +23,13 @@ Devuelve la parte derecha de una cadena de caracteres con el número de caracter
   
 ## <a name="syntax"></a>Sintaxis
 
- **Derecha** (*TextExpression*, *longitud*) 
+ **Right** (*TextExpression*, *Length*) 
   
-La función **right** contiene los siguientes argumentos. 
+La **función** Right contiene los argumentos siguientes. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Una expresión de texto.  <br/> |
-| *Length*  <br/> |Es un entero positivo que especifica cuántos caracteres de la *TextExpression* se devuelven.  <br/> |
+| *TextExpression*  <br/> |Expresión de texto.  <br/> |
+| *Length*  <br/> |Es un entero positivo que especifica cuántos caracteres de  *TextExpression*  se devuelven.  <br/> |
    
 

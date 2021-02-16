@@ -1,5 +1,5 @@
 ---
-title: IUnknown IMAPIOfflineNotify
+title: IMAPIOfflineNotify IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,10 +29,10 @@ Admite Microsoft Outlook 2010 y Microsoft Outlook 2013 para enviar devoluciones 
   
 |||
 |:-----|:-----|
-|Suministrado por:  <br/> |Client  <br/> |
+|Suministrado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIOfflineNotify  <br/> |
    
-## <a name="vtable-order"></a>Orden vtable
+## <a name="vtable-order"></a>Orden de tabla virtual
 
 |||
 |:-----|:-----|
@@ -40,9 +40,9 @@ Admite Microsoft Outlook 2010 y Microsoft Outlook 2013 para enviar devoluciones 
    
 ## <a name="remarks"></a>Comentarios
 
-El cliente debe implementar esta interfaz y pasar un puntero a ella como miembro en **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** al configurar las devoluciones de llamada mediante **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Por lo tanto, Outlook 2010 o Outlook 2013 podrán usar esta interfaz para enviar devoluciones de llamada de notificación al cliente. 
+El cliente debe implementar esta interfaz y pasarle un puntero como miembro de **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** al configurar devoluciones de llamada mediante **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Posteriormente, Outlook 2010 o Outlook 2013 podrán usar esta interfaz para enviar devoluciones de llamada de notificación al cliente. 
   
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 
 

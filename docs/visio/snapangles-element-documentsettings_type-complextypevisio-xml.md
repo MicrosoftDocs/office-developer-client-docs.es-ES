@@ -1,5 +1,5 @@
 ---
-title: Elemento SnapAngles (complexType DocumentSettings_Type) (XML de Visio)
+title: Elemento SnapAngles (DocumentSettings_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540395"
 ---
-# <a name="snapangles-element-documentsettingstype-complextype-visio-xml"></a>Elemento SnapAngles (complexType DocumentSettings_Type) (XML de Visio)
+# <a name="snapangles-element-documentsettings_type-complextype-visio-xml"></a>Elemento SnapAngles (DocumentSettings_Type complexType) (XML de Visio)
 
-Contiene una colección de elementos **SnapAngle** . 
+Contiene una colección de **elementos SnapAngle.** 
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Contiene una colección de elementos **SnapAngle** .
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Document. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Contiene una colección de elementos **SnapAngle** .
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene los elementos que especifican la configuración del documento.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contiene elementos que especifican la configuración del documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

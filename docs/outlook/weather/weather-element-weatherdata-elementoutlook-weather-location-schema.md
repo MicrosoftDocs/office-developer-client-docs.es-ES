@@ -1,5 +1,5 @@
 ---
-title: elemento Weather (elemento datos) (esquema de ubicación de tiempo de Outlook)
+title: elemento weather (elemento weatherdata) (Esquema de ubicación meteorológica de Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
-description: Especifica la ubicación en la que se va a notificar el tiempo.
+description: Especifica la ubicación en la que se debe informar sobre el tiempo.
 ms.openlocfilehash: a907fb9df02d88d317a73e409ea8738273eb2cb1
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539015"
 ---
-# <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>elemento Weather (elemento datos) (esquema de ubicación de tiempo de Outlook)
+# <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>elemento weather (elemento weatherdata) (Esquema de ubicación meteorológica de Outlook)
 
-Especifica la ubicación en la que se va a notificar el tiempo.
+Especifica la ubicación en la que se debe informar sobre el tiempo.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -25,7 +25,7 @@ Especifica la ubicación en la que se va a notificar el tiempo.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
-|**Archivo de esquema** <br/> |getweatherlocation. xsd  <br/> |
+|**Archivo de esquema** <br/> |getweatherlocation.xsd  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -37,13 +37,13 @@ Especifica la ubicación en la que se va a notificar el tiempo.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[datos](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Define el elemento Weather.  <br/> |
+|[weatherdata](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Define el elemento meteorológico.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -53,7 +53,7 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|weatherlocationcode  <br/> |XS: String  <br/> |necesario  <br/> |Especifica un código que está asociado con la ubicación para distinguir varias ubicaciones con el mismo nombre.  <br/> |Un valor de tipo XS: String  <br/> |
-|weatherlocationname  <br/> |XS: String  <br/> |necesario  <br/> |Especifica el nombre de la ubicación.  <br/> |Un valor de tipo XS: String  <br/> |
+|weatherlocationcode  <br/> |xs:string  <br/> |necesario  <br/> |Especifica un código asociado a la ubicación para distinguir varias ubicaciones con el mismo nombre.  <br/> |Un valor del tipo xs:string  <br/> |
+|weatherlocationname  <br/> |xs:string  <br/> |necesario  <br/> |Especifica el nombre de la ubicación.  <br/> |Un valor del tipo xs:string  <br/> |
    
 

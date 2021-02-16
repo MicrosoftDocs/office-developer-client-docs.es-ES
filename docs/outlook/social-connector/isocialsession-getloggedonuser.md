@@ -17,19 +17,19 @@ ms.locfileid: "33439908"
 ---
 # <a name="isocialsessiongetloggedonuser"></a>ISocialSession::GetLoggedOnUser
 
-Obtiene una interfaz [ISocialProfile](isocialprofileisocialperson.md) que representa al usuario que ha iniciado sesión. 
+Obtiene una [interfaz ISocialProfile](isocialprofileisocialperson.md) que representa al usuario que ha iniciado sesión. 
   
 ```cpp
 HRESULT _stdcall GetLoggedOnUser([out, retval] ISocialProfile** result);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
 _result_
   
-> contempla Una interfaz **ISocialProfile** . 
+> [salida] Una **interfaz ISocialProfile.** 
     
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Consulte también
 
 - [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

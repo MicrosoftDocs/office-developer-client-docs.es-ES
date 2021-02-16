@@ -1,5 +1,5 @@
 ---
-title: Celda BevelContourSize (sección Propiedades de bisel)
+title: Celda BevelContourSize (Sección de propiedades de bisel)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439964"
 ---
-# <a name="bevelcontoursize-cell-bevel-properties-section"></a>Celda BevelContourSize (sección Propiedades de bisel)
+# <a name="bevelcontoursize-cell-bevel-properties-section"></a>Celda BevelContourSize (Sección de propiedades de bisel)
 
 Determina el tamaño del contorno del bisel en puntos. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **BevelContourSize** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice: 
+Para obtener una referencia a la celda **BevelContourSize** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | BevelContourSize  <br/> |
    
-Para obtener una referencia desde un programa a la celda **BevelContourSize** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **BevelContourSize** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

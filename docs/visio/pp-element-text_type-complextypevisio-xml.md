@@ -1,12 +1,12 @@
 ---
-title: elemento PP (complexType Text_Type) (XML de Visio)
+title: Elemento pp (Text_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5444543-fcd9-91cc-e7f8-cf860caa9fcc
-description: Especifica el principio de un párrafo ejecutar propiedades. La ejecución se define hasta el final del texto o hasta la siguiente etiqueta.
+description: Especifica el principio de una ejecución de propiedades de párrafo. La ejecución se define al final del texto o hasta la siguiente etiqueta.
 ms.openlocfilehash: 695958c77f730abed03f50d6ad9c71f4de76dd63
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537741"
 ---
-# <a name="pp-element-texttype-complextype-visio-xml"></a>elemento PP (complexType Text_Type) (XML de Visio)
+# <a name="pp-element-text_type-complextype-visio-xml"></a>Elemento pp (Text_Type complexType) (XML de Visio)
 
-Especifica el principio de un párrafo ejecutar propiedades. La ejecución se define hasta el final del texto o hasta la siguiente etiqueta.
+Especifica el principio de una ejecución de propiedades de párrafo. La ejecución se define al final del texto o hasta la siguiente etiqueta.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Especifica el principio de un párrafo ejecutar propiedades. La ejecución se de
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Página #. XML, Master #. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica el principio de un párrafo ejecutar propiedades. La ejecución se de
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,6 +52,6 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd: unsignedInt  <br/> |necesario  <br/> |Índice del elemento **para** que especifica el formato que se aplica a este segmento.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Índice del elemento **Para** que especifica el formato aplicado a esta ejecución.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

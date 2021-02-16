@@ -1,5 +1,5 @@
 ---
-title: Elemento DynamicGridEnabled (complexType Window_Type) (XML de Visio)
+title: Elemento DynamicGridEnabled (Window_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539966"
 ---
-# <a name="dynamicgridenabled-element-windowtype-complextype-visio-xml"></a>Elemento DynamicGridEnabled (complexType Window_Type) (XML de Visio)
+# <a name="dynamicgridenabled-element-window_type-complextype-visio-xml"></a>Elemento DynamicGridEnabled (Window_Type complexType) (XML de Visio)
 
 Especifica si la característica de cuadrícula dinámica está habilitada para una ventana.
   
@@ -24,8 +24,8 @@ Especifica si la característica de cuadrícula dinámica está habilitada para 
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Windows. XML, Document. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |windows.xml, document.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica si la característica de cuadrícula dinámica está habilitada para 
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

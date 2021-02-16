@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251585
 localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
-description: Devuelve un punto transformado en las coordenadas primarias en el sistema de coordenadas de destino.
+description: Devuelve un punto transformado en coordenadas primarias del sistema de coordenadas de destino.
 ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33439985"
 ---
 # <a name="loctopar-function"></a>Función LOCTOPAR
 
-Devuelve un punto transformado en las coordenadas primarias en el sistema de coordenadas de destino.
+Devuelve un punto transformado en coordenadas primarias del sistema de coordenadas de destino.
   
 ## <a name="syntax"></a>Sintaxis
 
-LOCTOPAR (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *) 
+LOCTOPAR(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -34,7 +34,7 @@ LOCTOPAR (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *)
    
 ### <a name="return-value"></a>Valor devuelto
 
-Cadena
+String
   
 ## <a name="remarks"></a>Comentarios
 

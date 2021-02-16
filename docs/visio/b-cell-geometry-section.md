@@ -20,29 +20,29 @@ ms.locfileid: "34537797"
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda B según la fila en la que se encuentre.
   
-|Row|Descripción|
+|Fila|Description|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordenada *y* del punto de control de un arco.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordenada  *y*  del punto de control de un arco.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Último grosor de la spline B racional no uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Primer nodo de una spline.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordenada *y* de un punto de una línea infinita; emparejado con la coordenada *x* representada por la celda [A](a-cell-geometry-section.md) .  <br/> |
-|[Origina](ellipse-row-geometry-section.md) <br/> | Coordenada *y* de un punto de una elipse; emparejado con la coordenada *x* representada por la celda [A](a-cell-geometry-section.md) .  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordenada *y* de un punto en una línea infinita; emparejado con coordenada *x* representada por la [celda A.](a-cell-geometry-section.md)  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | *Coordenada y* de un punto de una elipse; emparejado con coordenada *x* representada por la [celda A.](a-cell-geometry-section.md)  <br/> |
    
-## <a name="remarks"></a>Observaciones
+## <a name="remarks"></a>Comentarios
 
 Para obtener una referencia a la celda B por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Geometría *i* . B *j* donde *i* y *j* = <1>, 2, 3...  <br/> |
-|| Geometría *i* . B1 (filas InfiniteLine y Ellipse)  <br/> |
+| Nombre de celda:  <br/> | Geometría  *i*  . B  *j*            donde  *i*  y  *j*  = <1>, 2, 3...  <br/> |
+|| Geometría  *i*  . B1 (filas InfiniteLine y Ellipse)  <br/> |
    
 Para obtener una referencia a la celda B por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
-| Índice de sección:  <br/> |**visSectionFirstComponent** +  *i* donde *i* = 0, 1, 2...  <br/> |
-| Índice de fila:  <br/> |**visRowVertex** +  *j* donde *j* = 0, 1, 2...  <br/> |
+| Índice de sección:  <br/> |**visSectionFirstComponent**  +   *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRowVertex**  +   *j* donde *j* = 0, 1, 2...  <br/> |
 ||**visRowVertex** (filas InfiniteLine y Ellipse)  <br/> |
 | Índice de celda:  <br/> |**visControlX** (fila EllipticalArcTo)  <br/> |
 ||**visControlY** (fila EllipticalArcTo)  <br/> |

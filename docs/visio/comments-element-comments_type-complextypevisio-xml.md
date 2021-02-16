@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f72ced69-0d49-18cd-f1e6-d0b2cb39b4c0
-description: Especifica las propiedades que se usan para identificar los autores y los comentarios de un dibujo.
+description: Especifica las propiedades usadas para identificar los autores y los comentarios de un dibujo.
 ms.openlocfilehash: 93e75e47a203ee13385085c4b5e261fd3a724d4f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539223"
 ---
-# <a name="comments-element-commentstype-complextype-visio-xml"></a>Elemento Comments (Comments_Type complexType) (XML de Visio)
+# <a name="comments-element-comments_type-complextype-visio-xml"></a>Elemento Comments (Comments_Type complexType) (XML de Visio)
 
-Especifica las propiedades que se usan para identificar los autores y los comentarios de un dibujo.
+Especifica las propiedades usadas para identificar los autores y los comentarios de un dibujo.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -24,8 +24,8 @@ Especifica las propiedades que se usan para identificar los autores y los coment
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |comments. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |comments.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,7 +36,7 @@ Especifica las propiedades que se usan para identificar los autores y los coment
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

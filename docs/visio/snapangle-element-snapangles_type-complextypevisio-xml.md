@@ -1,5 +1,5 @@
 ---
-title: Elemento SnapAngle (complexType SnapAngles_Type) (XML de Visio)
+title: Elemento SnapAngle (SnapAngles_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540458"
 ---
-# <a name="snapangle-element-snapanglestype-complextype-visio-xml"></a>Elemento SnapAngle (complexType SnapAngles_Type) (XML de Visio)
+# <a name="snapangle-element-snapangles_type-complextype-visio-xml"></a>Elemento SnapAngle (SnapAngles_Type complexType) (XML de Visio)
 
 Contiene un número de punto flotante que especifica un ángulo de ajuste en grados.
   
@@ -24,8 +24,8 @@ Contiene un número de punto flotante que especifica un ángulo de ajuste en gra
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Document. XML, Windows. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |document.xml, windows.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,14 +36,14 @@ Contiene un número de punto flotante que especifica un ángulo de ajuste en gra
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contiene una colección de elementos **SnapAngle** .  <br/> |
-|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contiene una colección de elementos **SnapAngle** .  <br/> |
+|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contiene una colección de **elementos SnapAngle.**  <br/> |
+|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contiene una colección de **elementos SnapAngle.**  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento FooterMargin (complexType HeaderFooter_Type) (XML de Visio)
+title: Elemento FooterMargin (HeaderFooter_Type complexType) (VISIO XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538665"
 ---
-# <a name="footermargin-element-headerfootertype-complextype-visio-xml"></a>Elemento FooterMargin (complexType HeaderFooter_Type) (XML de Visio)
+# <a name="footermargin-element-headerfooter_type-complextype-visio-xml"></a>Elemento FooterMargin (HeaderFooter_Type complexType) (VISIO XML)
 
 Especifica el margen del pie de página de un documento.
   
@@ -24,8 +24,8 @@ Especifica el margen del pie de página de un documento.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Document. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Especifica el margen del pie de página de un documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contiene los elementos del encabezado y pie de página de un documento.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contiene elementos para el encabezado y pie de página de un documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -52,6 +52,6 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|Unit  <br/> |xsd: String  <br/> |opcional  <br/> |Representa una unidad de medida. El valor predeterminado es.  <br/> |Valores del tipo xsd: String.  <br/> |
+|Unit  <br/> |xsd:string  <br/> |opcional  <br/> |Representa una unidad de medida. El valor predeterminado es IN.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

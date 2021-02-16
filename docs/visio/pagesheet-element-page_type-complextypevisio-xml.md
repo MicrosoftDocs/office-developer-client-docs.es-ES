@@ -1,5 +1,5 @@
 ---
-title: Elemento PageSheet (complexType Page_Type) (XML de Visio)
+title: Elemento PageSheet (Page_Type complexType) (XML de Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540626"
 ---
-# <a name="pagesheet-element-pagetype-complextype-visio-xml"></a>Elemento PageSheet (complexType Page_Type) (XML de Visio)
+# <a name="pagesheet-element-page_type-complextype-visio-xml"></a>Elemento PageSheet (Page_Type complexType) (XML de Visio)
 
 Especifica las propiedades de la página de dibujo asociada a la página de dibujo.
   
@@ -24,8 +24,8 @@ Especifica las propiedades de la página de dibujo asociada a la página de dibu
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Pages. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |pages.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -36,13 +36,13 @@ Especifica las propiedades de la página de dibujo asociada a la página de dibu
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contiene los elementos que definen una página en el documento.  <br/> |
+|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una página en el documento.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -52,9 +52,9 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos de la que se va a heredar el formato de relleno. DEBE ser el valor del atributo **ID** asociado con un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|LineStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos de la que se va a heredar el formato de línea. DEBE ser el valor del atributo **ID** asociado con un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|TextStyle  <br/> |xsd: unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos de la que se va a heredar el formato de texto. DEBE ser el valor del atributo **ID** asociado con un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd: unsignedInt.  <br/> |
-|UniqueID  <br/> |xsd: String  <br/> |opcional  <br/> |IDENTIFICADOR único del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd: String.  <br/> |
+|FillStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos de la que se heredará el formato de relleno. Debe ser el valor del atributo **ID** asociado a un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|LineStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos de la que se va a heredar el formato de línea. Debe ser el valor del atributo **ID** asociado a un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|TextStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Especifica el identificador de la hoja de estilos de la que se heredará el formato de texto. Debe ser el valor del atributo **ID** asociado a un **StyleSheet_Type** en el dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|UniqueID  <br/> |xsd:string  <br/> |opcional  <br/> |Identificador único del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

@@ -4,10 +4,10 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- automatizar InfoPath 2007, formularios [InfoPath 2007], agregar datos mediante programación, automatización [InfoPath 2007], escenarios externos
+- automatizar infopath 2007,forms [InfoPath 2007], agregar datos mediante programación,automatización [InfoPath 2007], escenarios externos
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
-description: Los miembros proporcionados por el ensamblado de interoperabilidad primario de Microsoft Office InfoPath (Microsoft. Office. Interop. InfoPath. dll) y el ensamblado de interoperabilidad XML de InfoPath (Microsoft. Office. Interop. InfoPath. Xml. dll) admiten la escritura de código administrado para automatizar InfoPath.
+description: Los miembros proporcionados por el ensamblado de interoperabilidad primario (Microsoft.Office.Interop.InfoPath.dll) de Microsoft Office InfoPath y el ensamblado de interoperabilidad XML de InfoPath (Microsoft.Office.Interop.InfoPath.Xml.dll) admiten la escritura de código administrado para automatizar InfoPath.
 ms.openlocfilehash: 79fbc56033ffce639b5007874dabf56e8e286edb
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -17,66 +17,66 @@ ms.locfileid: "34537818"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>Ejemplos y escenarios de automatización externa
 
-Los miembros proporcionados por el ensamblado de interoperabilidad primario de Microsoft Office InfoPath (Microsoft. Office. Interop. InfoPath. dll) y el ensamblado de interoperabilidad XML de InfoPath (Microsoft. Office. Interop. InfoPath. Xml. dll) admiten la escritura de código administrado para automatizar InfoPath. 
+Los miembros proporcionados por el ensamblado de interoperabilidad primario (Microsoft.Office.Interop.InfoPath.dll) de Microsoft Office InfoPath y el ensamblado de interoperabilidad XML de InfoPath (Microsoft.Office.Interop.InfoPath.Xml.dll) admiten la escritura de código administrado para automatizar InfoPath. 
   
-## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Establecimiento de referencias a los ensamblados de interoperabilidad primarios de Microsoft Office InfoPath y la interoperabilidad XML de InfoPath
+## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Establecimiento de referencias a la Microsoft Office de interoperabilidad primaria de InfoPath y los ensamblados de interoperabilidad XML de InfoPath
 
-Para escribir código administrado para automatizar InfoPath, debe establecer referencias a la interoperabilidad principal de Microsoft InfoPath y a los ensamblados de interoperabilidad XML de InfoPath. El ensamblado de interoperabilidad primario de Microsoft InfoPath proporciona compatibilidad con la interoperabilidad con el modelo de objetos COM expuesto por IPEDITOR. DLL con los miembros del espacio de nombres [Microsoft. Office. Interop. InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) . El ensamblado de interoperabilidad XML de InfoPath proporciona compatibilidad con la interoperabilidad con el modelo de objetos COM expuesto por Microsoft XML Core Services (MSXML) mediante los miembros del espacio de nombres [Microsoft. Office. Interop. InfoPath. XML](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) . 
+Para escribir código administrado para automatizar InfoPath, debe establecer referencias a la interoperabilidad principal de Microsoft InfoPath y a los ensamblados de interoperabilidad XML de InfoPath. El ensamblado de interoperabilidad principal de Microsoft InfoPath proporciona compatibilidad para la interoperabilidad con el modelo de objetos COM expuesto por IPEDITOR.DLL mediante el uso de los miembros del espacio de nombres [Microsoft.Office.Interop.InfoPath.](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) El ensamblado de interoperabilidad XML de InfoPath proporciona compatibilidad para la interoperabilidad con el modelo de objetos COM expuesto por Microsoft XML Core Services (MSXML) mediante el uso de los miembros del espacio [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) nombres. 
   
 > [!IMPORTANT]
-> Los usuarios de aplicaciones de código administrado que automatizan InfoPath deben tener InfoPath, el ensamblado de interoperabilidad primario de Microsoft Office InfoPath y el ensamblado de interoperabilidad XML de InfoPath instalado en sus equipos. La opción **compatibilidad con programación de .net** en el programa de instalación de InfoPath se establece en **Ejecutar desde mi PC** para una instalación típica de InfoPath.
+> Los usuarios de aplicaciones de código administrado que automatizan InfoPath deben tener InfoPath, el ensamblado de interoperabilidad primario de Microsoft Office InfoPath y el ensamblado de interoperabilidad XML de InfoPath instalados en sus equipos. La **opción Compatibilidad con programación de .NET** del programa de instalación de InfoPath se establece en **Ejecutar** desde Mi PC para una instalación típica de InfoPath.
 >  
-> Como resultado, siempre que esté instalado el paquete redistribuible de .NET Framework 1,1 o el kit de desarrollo de software (SDK) de .NET Framework 1,1 o posterior, estos ensamblados de interoperabilidad también se instalarán de forma predeterminada. Si estos ensamblados de interoperabilidad no están disponibles en el equipo de un usuario, debe confirmar que .NET Framework 1,1 o posterior está instalado y, a continuación, ejecutar **programas y características** desde el **Panel de control** para cambiar la configuración y establecer la capacidad de **programación de .net Admite** la opción de InfoPath para **Ejecutar desde mi PC**. 
+> Como resultado, siempre y cuando se instale .NET Framework 1.1 Redistributable o .NET Framework 1.1 Software Development Kit (SDK) o posterior, estos ensamblados de interoperabilidad también se instalarán de forma predeterminada. Si estos ensamblados de interoperabilidad no están disponibles en el equipo de un usuario, debe confirmar que  .NET Framework 1.1 o posterior está instalado y, a continuación, ejecutar Programas y características desde el Panel de **control** para cambiar la configuración y establecer la opción Compatibilidad con programación de **.NET** de InfoPath para ejecutar desde Mi **PC.** 
   
-Los procedimientos siguientes describen cómo establecer referencias a la interoperabilidad principal de Microsoft Office InfoPath y los ensamblados de interoperabilidad XML de InfoPath en un proyecto de Visual Studio.
+Los procedimientos siguientes describen cómo establecer referencias a la interoperabilidad principal de Microsoft Office InfoPath y a los ensamblados de interoperabilidad XML de InfoPath en un Visual Studio proyecto.
   
-Para establecer una referencia al ensamblado de interoperabilidad primario Microsoft. Office. Interop. InfoPath, establezca una referencia a la **biblioteca de tipos de Microsoft InfoPath 3,0** en la ficha **com** del cuadro de diálogo **Agregar referencia** . Aunque se establezca una referencia desde la ficha **com** , se establece una referencia al ensamblado de interoperabilidad primario Microsoft. Office. Interop. InfoPath. dll que está instalado en la memoria caché de ensamblados global (GAC) mediante el programa de instalación de InfoPath. 
+Para establecer una referencia al ensamblado de interoperabilidad primario Microsoft.Office.Interop.InfoPath, establezca una referencia a la  Biblioteca de tipos de **Microsoft InfoPath 3.0** en la ficha **COM** del cuadro de diálogo Agregar referencia. Aunque se establece una referencia desde la ficha **COM,** se establece una referencia al ensamblado de interoperabilidad primario de Microsoft.Office.Interop.InfoPath.dll instalado en la memoria caché global de ensamblados (GAC) mediante el programa de instalación de InfoPath. 
   
-### <a name="set-a-reference-to-the-microsoftofficeinteropinfopath-primary-interop-assembly"></a>Establecer una referencia al ensamblado de interoperabilidad primario Microsoft. Office. Interop. InfoPath
+### <a name="set-a-reference-to-the-microsoftofficeinteropinfopath-primary-interop-assembly"></a>Establecer una referencia al ensamblado de interoperabilidad primario Microsoft.Office.Interop.InfoPath
 
-1. Abra un proyecto de código administrado de Visual Studio.
+1. Abra un proyecto Visual Studio código administrado.
     
 2. En el **Explorador de soluciones**, haga clic con el botón secundario en **Referencias** y, a continuación, haga clic en **Agregar referencia**.
     
-3. En la pestaña **com** , haga doble clic en **biblioteca de tipos de Microsoft InfoPath 3,0**y, a continuación, haga clic en **Aceptar**.
+3. En la **ficha COM,** haga doble clic en Biblioteca de tipos de **Microsoft InfoPath 3.0** y, a continuación, haga clic en **Aceptar**.
     
-Para establecer una referencia al ensamblado de interoperabilidad Microsoft. Office. Interop. InfoPath. XML, vaya al archivo Microsoft. Office. Interop. InfoPath. Xml. dll que se instala de forma predeterminada en la _unidad_< >: \Archivos de programa\Microsoft Office\OFFICE14 . Aunque especifique la copia del ensamblado en el sistema de archivos local, este procedimiento establece una referencia al ensamblado Microsoft. Office. Interop. InfoPath. Xml. dll que está instalado en la memoria caché global de ensamblados (GAC) mediante el programa de instalación de InfoPath.
+Para establecer una referencia al ensamblado de interoperabilidad Microsoft.Office.Interop.InfoPath.Xml, vaya al archivo Microsoft.Office.Interop.InfoPath.Xml.dll que está instalado  de forma predeterminada en la carpeta>:\Program Files\Microsoft Office\OFFICE14 de la unidad de <. Aunque especifique la copia del ensamblado en el sistema de archivos local, este procedimiento establece una referencia al ensamblado de Microsoft.Office.Interop.InfoPath.Xml.dll instalado en la memoria caché global de ensamblados (GAC) por el programa de instalación de InfoPath.
   
-### <a name="set-a-reference-to-the-microsoftofficeinteropinfopathxml-interop-assembly"></a>Establecer una referencia al ensamblado de interoperabilidad Microsoft. Office. Interop. InfoPath. XML
+### <a name="set-a-reference-to-the-microsoftofficeinteropinfopathxml-interop-assembly"></a>Establecer una referencia al ensamblado de Microsoft.Office.Interop.InfoPath.Xml de interoperabilidad
 
-1. Abra o cree un proyecto de código administrado de Visual Studio, como una **aplicación de consola** o una aplicación de **Windows**.
+1. Abra o cree un Visual Studio de código administrado, como una **aplicación** de consola o **una aplicación de Windows.**
     
 2. En el **Explorador de soluciones**, haga clic con el botón secundario en **Referencias** y, a continuación, haga clic en **Agregar referencia**.
     
-3. En la ficha **.net** , haga clic en **examinar**, vaya a __ la carpeta < >: \Archivos de programa\Microsoft Office\OFFICE14 y, a continuación, haga clic en Microsoft. Office. Interop. InfoPath. Xml. dll.
+3. En la pestaña **.NET,** haga clic en **Examinar,** vaya _a_ la carpeta < unidad>:\Archivos de programa\Microsoft Office\OFFICE14 y, a continuación, haga clic en Microsoft.Office.Interop.InfoPath.Xml.dll.
     
 4. Haga clic en **Aceptar**.
     
-## <a name="automate-changing-the-value-of-a-field"></a>Automatizar el cambio de valor de un campo
+## <a name="automate-changing-the-value-of-a-field"></a>Automatizar el cambio del valor de un campo
 
-Supongamos que uno de los clientes del usuario de una plantilla de formulario de informe de ventas de InfoPath cambió recientemente su nombre de "compañía A" a "compañía B". Se pide a los desarrolladores que escriban código que actualice automáticamente los formularios de informes de ventas guardados desde esta plantilla de formulario para reflejar el cambio de nombre. El siguiente escenario asume un formulario que contiene un cuadro de texto enlazado a un campo denominado Nombre_cliente.
+Suponga que uno de los clientes del usuario de una plantilla de formulario de informe de ventas de InfoPath cambió recientemente su nombre de "Compañía A" a "Compañía B". Se pide a un programador que escriba código que actualizará automáticamente los formularios de informe de ventas guardados desde esta plantilla de formulario para reflejar el cambio de nombre. En el siguiente escenario se supone que un formulario contiene un cuadro de texto enlazado a un campo denominado customerName.
   
-### <a name="create-the-sample-form-template-and-form"></a>Crear el formulario y la plantilla de formulario de ejemplo
+### <a name="create-the-sample-form-template-and-form"></a>Crear la plantilla de formulario y el formulario de ejemplo
 
 1. Abra InfoPath y cree una plantilla de formulario en blanco.
     
-2. Agregue un control de **cuadro de texto** al formulario y asigne un nombre al campo enlazado al control customerName.
+2. Agregue un **control cuadro de** texto al formulario y asigne un nombre al campo enlazado al control customerName.
     
-3. En el panel de tareas **campos** , haga clic con el botón secundario en la carpeta Mis **campos** y, a continuación, haga clic en **propiedades**.
+3. En el **panel de** tareas Campos, haga clic con el botón secundario en la **carpeta myFields** y, a continuación, haga clic en **Propiedades**.
     
-4. En la pestaña **detalles** , seleccione y copie el valor que sigue al **espacio de nombres:** y, a continuación, péguelo en el Bloc de notas o en otra ubicación en la que pueda recuperarlo. Este valor será necesario más adelante para establecer el valor de la propiedad **SelectionNamespaces** en el código. 
+4. En la **pestaña Detalles,** seleccione y copie el valor siguiente Espacio de **nombres:** y, a continuación, péguelo en el Bloc de notas o en cualquier otra ubicación donde pueda recuperarlo. Necesitará este valor más adelante para establecer el valor de la **propiedad SelectionNamespaces** en el código. 
     
 5. Publique la plantilla de formulario en una carpeta denominada C:\Test y acepte el nombre predeterminado, Template1. 
     
-6. Abra la plantilla de formulario, agregue el nombre "compañía A" al cuadro de texto enlazado al campo Nombre_cliente y, a continuación, guarde el formulario como "Form1". 
+6. Abra la plantilla de formulario, agregue el nombre "Compañía A" al cuadro de texto enlazado al campo customerName y, a continuación, guarde el formulario como "Form1". 
     
-### <a name="create-a-managed-code-console-application-to-change-the-name-from-company-a-to-company-b"></a>Crear una aplicación de consola de código administrado para cambiar el nombre de ' Company A ' a ' Company B '
+### <a name="create-a-managed-code-console-application-to-change-the-name-from-company-a-to-company-b"></a>Crear una aplicación de consola de código administrado para cambiar el nombre de "Compañía A" a "Compañía B"
 
-1. Abra Visual Studio y cree una nueva aplicación de consola de Visual C# o Visual Basic denominada UpdateCustomer.
+1. Abra Visual Studio y cree una nueva aplicación de consola de Visual C# o Visual Basic llamada UpdateCustomer.
     
-2. Establezca referencias a los ensamblados de interoperabilidad primario de Microsoft Office InfoPath y de la interoperabilidad XML de InfoPath como se ha descrito anteriormente.
+2. Establecer referencias a los ensamblados de interoperabilidad XML Microsoft Office infoPath como se describió anteriormente.
     
-3. Agregue el siguiente código al archivo Program.cs o Module1. VB, asegurándose de actualizar el valor del espacio de nombres en el valor de la propiedad **SelectionNamespaces** con el valor que ha copiado al crear el formulario de ejemplo. 
+3. Agregue el siguiente código al archivo Program.cs o Module1.vb y asegúrese de actualizar el valor del espacio de nombres en el valor de la propiedad **SelectionNamespaces** con el valor que copió al crear el formulario de ejemplo. 
     
    ```cs
     using System;
@@ -188,35 +188,35 @@ Supongamos que uno de los clientes del usuario de una plantilla de formulario de
     
    ```
 
-4. Haga clic en **iniciar** depuración en el menú Depurar para compilar y ejecutar la aplicación de consola. **** 
+4. Haga **clic en Iniciar depuración** en el menú **Depuración** para compilar y ejecutar la aplicación de consola. 
     
-   La aplicación abre el formulario guardado como Form1. XML y recorre todos los elementos Nombre_cliente que contienen el valor Company a y cambia ese valor a Company B. Una vez completada la operación, se guarda una nueva copia del formulario como Form2. XML en la carpeta C:\Test. 
+   La aplicación abre el formulario guardado como Form1.xml recorre todos los elementos customerName que contienen el valor Company A y cambia ese valor a Company B. Una vez completada la operación, se guarda una nueva copia del formulario como Form2.xml en la carpeta C:\Test. 
     
-## <a name="automate-opening-a-form-and-populating-field-values"></a>Automatizar la apertura de un formulario y el relleno de los valores de los campos
+## <a name="automate-opening-a-form-and-populating-field-values"></a>Automatizar la apertura de un formulario y rellenar los valores de los campos
 
-En el siguiente ejemplo se automatiza la apertura de un formulario en blanco y se rellenan los campos nombre, apellidos y dirección del formulario. Este escenario presupone un formulario que contiene tres cuadros de texto enlazados a campos denominados FirstName, LastName y Address.
+En el siguiente ejemplo se automatiza la apertura de un formulario en blanco y la rellenar los campos de nombre, apellidos y dirección del formulario. En este escenario se supone que hay un formulario que contiene tres cuadros de texto enlazados a campos denominados FirstName, LastName y Address.
   
-### <a name="create-the-sample-form-template-and-form"></a>Crear el formulario y la plantilla de formulario de ejemplo
+### <a name="create-the-sample-form-template-and-form"></a>Crear la plantilla de formulario y el formulario de ejemplo
 
 1. Abra InfoPath y cree un formulario en blanco.
     
-2. Agregue tres controles de cuadro de texto al formulario y asigne a los campos un nombre enlazado a los controles: FirstName, LastName y Address. Agregue los demás campos que desee.
+2. Agregue tres controles de cuadro de texto al formulario y asigne un nombre a los campos enlazados a los controles: FirstName, LastName y Address. Agregue cualquier otro campo que desee.
     
-3. En el panel de tareas **campos** , haga clic con el botón secundario en la carpeta Mis **campos** y, a continuación, haga clic en **propiedades**.
+3. En el **panel de** tareas Campos, haga clic con el botón secundario en la **carpeta myFields** y, a continuación, haga clic en **Propiedades**.
     
-4. En la pestaña **detalles** , seleccione y copie el valor que sigue al **espacio de nombres:** y, a continuación, péguelo en el Bloc de notas o en otra ubicación en la que pueda recuperarlo. Este valor será necesario más adelante para establecer el valor de la propiedad **SelectionNamespaces** en el código. 
+4. En la **pestaña Detalles,** seleccione y copie el valor siguiente Espacio de **nombres:** y, a continuación, péguelo en el Bloc de notas o en cualquier otra ubicación donde pueda recuperarlo. Necesitará este valor más adelante para establecer el valor de la **propiedad SelectionNamespaces** en el código. 
     
-5. Publique la plantilla de formulario en una carpeta llamada C:\Temp y acepte el nombre predeterminado, Template1.
+5. Publique la plantilla de formulario en una carpeta denominada C:\Temp y acepte el nombre predeterminado, Template1.
     
-6. Abra la plantilla de formulario y guarde un formulario en blanco como "Form1" en C:\Temp.
+6. Abra la plantilla de formulario y guarde un formulario en blanco como "Formulario1" en C:\Temp.
     
 ### <a name="create-a-managed-code-console-application-to-open-the-form-and-populate-the-fields"></a>Crear una aplicación de consola de código administrado para abrir el formulario y rellenar los campos
 
-1. Abra Visual Studio y cree una nueva aplicación de consola de Visual C# o Visual Basic llamada AbrirFormulario.
+1. Abra Visual Studio y cree una nueva aplicación de consola de Visual C# o Visual Basic llamada OpenForm.
     
-2. Establezca referencias a los ensamblados de interoperabilidad primario de Microsoft Office InfoPath y de la interoperabilidad XML de InfoPath como se ha descrito anteriormente.
+2. Establecer referencias a los ensamblados de interoperabilidad XML Microsoft Office infoPath como se describió anteriormente.
     
-3. Agregue el siguiente código al archivo Program.cs o Module1. VB, asegurándose de actualizar el valor del espacio de nombres en el valor de la propiedad **SelectionNamespaces** con el valor que ha copiado al crear el formulario de ejemplo. 
+3. Agregue el siguiente código al archivo Program.cs o Module1.vb y asegúrese de actualizar el valor del espacio de nombres en el valor de la propiedad **SelectionNamespaces** con el valor que copió al crear el formulario de ejemplo. 
     
    ```cs
     using System;
@@ -292,11 +292,11 @@ En el siguiente ejemplo se automatiza la apertura de un formulario en blanco y s
     
    ```
 
-4. En el **** menú Depurar, haga clic en **iniciar** depuración para compilar y ejecutar la aplicación de consola. 
+4. En el **menú Depurar,** haga clic **en Iniciar depuración** para compilar y ejecutar la aplicación de consola. 
     
-   La aplicación abrirá el formulario guardado como Form1. XML y rellenará los campos FirstName, LastName y address con los valores especificados en el código y, a continuación, guarda el formulario, dejando abierto InfoPath. 
+   La aplicación abrirá el formulario guardado como Form1.xml, rellenará los campos FirstName, LastName y Address con los valores especificados en el código y, a continuación, guardará el formulario, dejando InfoPath abierto. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre el conjunto de interoperabilidad principal de InfoPath de Microsoft Office](about-the-microsoft-office-infopath-primary-interop-assembly.md)
 - [Información sobre el conjunto de interoperabilidad XML de InfoPath](about-the-infopath-xml-interop-assembly.md)

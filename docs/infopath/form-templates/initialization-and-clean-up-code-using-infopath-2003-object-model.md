@@ -81,7 +81,7 @@ Namespace Template1
 End Namespace
 ```
 
-## <a name="the-startup-method"></a>Método _Startup
+## <a name="the-_startup-method"></a>Método _Startup
 
 Además de proporcionar una ubicación para escribir el código de inicialización de los componentes adicionales, el método  `_Startup` inicializa las variables  `thisXDocument` y  `thisApplication`, que se pueden emplear en el código del formulario para obtener acceso a los miembros de las clases [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) y [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) del modelo de objetos de InfoPath. La plantilla de proyectos genera automáticamente el código necesario para inicializar las dos variables. 
   
@@ -126,9 +126,9 @@ Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
 End Sub
 ```
 
-Para obtener información sobre cómo crear un controlador de eventos, vea [Agregar un controlador de eventos mediante el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Para obtener información sobre cómo crear un controlador de eventos, vea Agregar un controlador de eventos mediante el modelo de objetos de [InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
-## <a name="the-shutdown-method"></a>Método _ShutDown
+## <a name="the-_shutdown-method"></a>Método _ShutDown
 
 El método  `_Shutdown` es el último método al que se llama cuando se cierra un formulario. Puede escribir cualquier tipo de código en este método necesario para limpiar o finalizar los componentes utilizados en el formulario. 
   
@@ -148,7 +148,7 @@ El método  `_Shutdown` es el último método al que se llama cuando se cierra u
 En el ejemplo siguiente, se muestra cómo inicializar una conexión a una base de datos de Microsoft SQL Server en el método  `_Startup` y cerrar la conexión en el método  `_Shutdown`. Para que este ejemplo funcione correctamente, primero debe establecer una referencia al ensamblado System.Data de .NET Framework, haciendo clic en la opción **Agregar referencia** del menú **Proyecto** y, después, debe seleccionar el componente System.Data.dll en la ficha **.NET**. Tenga en cuenta, además, que la directiva  `using System.Data.SqlClient` (o  `Imports System.Data.SqlClient)`) se agrega al principio del archivo de código del formulario para reducir el número de pulsaciones. 
   
 > [!NOTE]
-> [!NOTA] Puede que los usuarios de un formulario de InfoPath que contenga código que se conecte a una base de datos de SQL necesiten permisos de seguridad según la forma en que se implemente el formulario y cómo se defina la directiva de seguridad. Para obtener más información sobre seguridad, vea [el modelo de seguridad de las plantillas de formulario con código](about-the-security-model-for-form-templates-with-code.md) y [configurar las opciones de seguridad de las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md). 
+> [!NOTA] Puede que los usuarios de un formulario de InfoPath que contenga código que se conecte a una base de datos de SQL necesiten permisos de seguridad según la forma en que se implemente el formulario y cómo se defina la directiva de seguridad. Para obtener más información sobre la seguridad, vea Acerca del modelo de [seguridad](about-the-security-model-for-form-templates-with-code.md) de plantillas de formulario con código y Configuración de la seguridad de plantillas [de formulario con código.](how-to-configure-security-settings-for-form-templates-with-code.md) 
   
 ```cs
 using System;
@@ -217,9 +217,9 @@ Namespace Template1
 End Namespace
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
-[Adición de un controlador de eventos mediante el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Agregar un controlador de eventos mediante el modelo de objetos de InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

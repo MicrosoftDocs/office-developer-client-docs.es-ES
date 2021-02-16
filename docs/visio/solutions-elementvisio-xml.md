@@ -24,8 +24,8 @@ Especifica las propiedades de las soluciones almacenadas en el documento.
 |:-----|:-----|
 |**Tipo de elemento** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Archivo de esquema** <br/> |VisioSchema15. xsd  <br/> |
-|**Elementos de documento** <br/> |Solutions. XML  <br/> |
+|**Archivo de esquema** <br/> |VisioSchema15.xsd  <br/> |
+|**Elementos de documento** <br/> |solutions.xml  <br/> |
    
 ## <a name="definition"></a>Definición
 
@@ -35,7 +35,7 @@ Especifica las propiedades de las soluciones almacenadas en el documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición. 
+Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
