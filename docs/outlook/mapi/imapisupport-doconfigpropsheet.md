@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429021"
 ---
-# <a name="imapisupportdoconfigpropsheet"></a><span data-ttu-id="c0f5e-103">IMAPISupport::DoConfigPropsheet</span><span class="sxs-lookup"><span data-stu-id="c0f5e-103">IMAPISupport::DoConfigPropsheet</span></span>
+# <a name="imapisupportdoconfigpropsheet"></a><span data-ttu-id="bb7b3-103">IMAPISupport::DoConfigPropsheet</span><span class="sxs-lookup"><span data-stu-id="bb7b3-103">IMAPISupport::DoConfigPropsheet</span></span>
 
   
   
-<span data-ttu-id="c0f5e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c0f5e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bb7b3-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bb7b3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c0f5e-105">Muestra una hoja de propiedades de configuración.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-105">Displays a configuration property sheet.</span></span>
+<span data-ttu-id="bb7b3-105">Muestra una hoja de propiedades de configuración.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-105">Displays a configuration property sheet.</span></span>
   
 ```cpp
 HRESULT DoConfigPropsheet(
@@ -38,67 +38,67 @@ HRESULT DoConfigPropsheet(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c0f5e-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="c0f5e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bb7b3-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="bb7b3-106">Parameters</span></span>
 
- <span data-ttu-id="c0f5e-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="c0f5e-107">_ulUIParam_</span></span>
+ <span data-ttu-id="bb7b3-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="bb7b3-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="c0f5e-108">a Identificador de la ventana primaria de la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-108">[in] A handle to the parent window of the property sheet.</span></span>
+> <span data-ttu-id="bb7b3-108">[entrada] Identificador de la ventana primaria de la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-108">[in] A handle to the parent window of the property sheet.</span></span>
     
- <span data-ttu-id="c0f5e-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c0f5e-109">_ulFlags_</span></span>
+ <span data-ttu-id="bb7b3-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="bb7b3-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="c0f5e-110">[entrada] Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-110">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="bb7b3-110">[entrada] Reservado; debe ser cero.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-110">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="c0f5e-111">_lpszTitle_</span><span class="sxs-lookup"><span data-stu-id="c0f5e-111">_lpszTitle_</span></span>
+ <span data-ttu-id="bb7b3-111">_lpszTitle_</span><span class="sxs-lookup"><span data-stu-id="bb7b3-111">_lpszTitle_</span></span>
   
-> <span data-ttu-id="c0f5e-112">a Un puntero al título de la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-112">[in] A pointer to the title of the property sheet.</span></span>
+> <span data-ttu-id="bb7b3-112">[entrada] Puntero al título de la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-112">[in] A pointer to the title of the property sheet.</span></span>
     
- <span data-ttu-id="c0f5e-113">_lpDisplayTable_</span><span class="sxs-lookup"><span data-stu-id="c0f5e-113">_lpDisplayTable_</span></span>
+ <span data-ttu-id="bb7b3-113">_lpDisplayTable_</span><span class="sxs-lookup"><span data-stu-id="bb7b3-113">_lpDisplayTable_</span></span>
   
-> <span data-ttu-id="c0f5e-114">a Un puntero a la tabla de presentación que describe los controles que deben aparecer en la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-114">[in] A pointer to the display table that describes the controls to appear on the property sheet.</span></span>
+> <span data-ttu-id="bb7b3-114">[entrada] Puntero a la tabla para mostrar que describe los controles que aparecen en la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-114">[in] A pointer to the display table that describes the controls to appear on the property sheet.</span></span>
     
- <span data-ttu-id="c0f5e-115">_lpConfigData_</span><span class="sxs-lookup"><span data-stu-id="c0f5e-115">_lpConfigData_</span></span>
+ <span data-ttu-id="bb7b3-115">_lpConfigData_</span><span class="sxs-lookup"><span data-stu-id="bb7b3-115">_lpConfigData_</span></span>
   
-> <span data-ttu-id="c0f5e-116">a Un puntero a la implementación de [IMAPIProp](imapipropiunknown.md) que se va a usar para obtener acceso a las propiedades de configuración que se mostrarán en la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-116">[in] A pointer to the [IMAPIProp](imapipropiunknown.md) implementation to be used for accessing the configuration properties to be displayed on the property sheet.</span></span> 
+> <span data-ttu-id="bb7b3-116">[entrada] Puntero a la [implementación IMAPIProp](imapipropiunknown.md) que se usará para obtener acceso a las propiedades de configuración que se mostrarán en la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-116">[in] A pointer to the [IMAPIProp](imapipropiunknown.md) implementation to be used for accessing the configuration properties to be displayed on the property sheet.</span></span> 
     
- <span data-ttu-id="c0f5e-117">_ulTopPage_</span><span class="sxs-lookup"><span data-stu-id="c0f5e-117">_ulTopPage_</span></span>
+ <span data-ttu-id="bb7b3-117">_ulTopPage_</span><span class="sxs-lookup"><span data-stu-id="bb7b3-117">_ulTopPage_</span></span>
   
-> <span data-ttu-id="c0f5e-118">a Índice de base cero de la página superior predeterminada de la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-118">[in] A zero-based index to the default top page of the property sheet.</span></span>
+> <span data-ttu-id="bb7b3-118">[entrada] Índice de base cero en la página superior predeterminada de la hoja de propiedades.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-118">[in] A zero-based index to the default top page of the property sheet.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c0f5e-119">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="c0f5e-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bb7b3-119">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="bb7b3-119">Return value</span></span>
 
-<span data-ttu-id="c0f5e-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="c0f5e-120">S_OK</span></span> 
+<span data-ttu-id="bb7b3-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="bb7b3-120">S_OK</span></span> 
   
-> <span data-ttu-id="c0f5e-121">Se muestra la hoja de propiedades de configuración.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-121">The configuration property sheet was displayed.</span></span>
+> <span data-ttu-id="bb7b3-121">Se ha mostrado la hoja de propiedades de configuración.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-121">The configuration property sheet was displayed.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="c0f5e-122">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c0f5e-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bb7b3-122">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bb7b3-122">Remarks</span></span>
 
-<span data-ttu-id="c0f5e-123">El método **IMAPISupport::D oconfigpropsheet** se implementa para todos los objetos de compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-123">The **IMAPISupport::DoConfigPropsheet** method is implemented for all support objects.</span></span> <span data-ttu-id="c0f5e-124">**DoConfigPropSheet** proporciona una interfaz de usuario estándar para mostrar las propiedades de los proveedores de servicios y los servicios de mensajes.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-124">**DoConfigPropSheet** provides a standard user interface for displaying the properties of service providers and message services.</span></span> <span data-ttu-id="c0f5e-125">Debe usar este cuadro de diálogo estándar para todas las pantallas de propiedades de configuración para que los usuarios se beneficien de una interfaz de Windows coherente.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-125">You should use this standard dialog box for all configuration property displays so that users benefit from a consistent Windows interface.</span></span> 
+<span data-ttu-id="bb7b3-123">El **método IMAPISupport::D oConfigPropsheet** se implementa para todos los objetos de compatibilidad.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-123">The **IMAPISupport::DoConfigPropsheet** method is implemented for all support objects.</span></span> <span data-ttu-id="bb7b3-124">**DoConfigPropSheet proporciona** una interfaz de usuario estándar para mostrar las propiedades de los proveedores de servicios y los servicios de mensajes.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-124">**DoConfigPropSheet** provides a standard user interface for displaying the properties of service providers and message services.</span></span> <span data-ttu-id="bb7b3-125">Debes usar este cuadro de diálogo estándar para todas las pantallas de propiedades de configuración para que los usuarios se beneficien de una interfaz de Windows coherente.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-125">You should use this standard dialog box for all configuration property displays so that users benefit from a consistent Windows interface.</span></span> 
   
-<span data-ttu-id="c0f5e-126">Los proveedores de servicios llaman a **DoConfigPropSheet** como parte de su implementación del método [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) o desde un botón usado para mostrar detalles sobre las propiedades.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-126">Service providers call **DoConfigPropSheet** as part of their implementation of the [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) method or from a button used to display details on properties.</span></span> <span data-ttu-id="c0f5e-127">Los servicios de mensajes llaman a **DoConfigPropSheet** desde su función de punto de entrada del servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-127">Message services call **DoConfigPropSheet** from their message service entry point function.</span></span> 
+<span data-ttu-id="bb7b3-126">Los proveedores de servicios llaman a **DoConfigPropSheet** como parte de su implementación del método [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) o desde un botón usado para mostrar detalles sobre las propiedades.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-126">Service providers call **DoConfigPropSheet** as part of their implementation of the [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) method or from a button used to display details on properties.</span></span> <span data-ttu-id="bb7b3-127">Los servicios de mensajes **llaman a DoConfigPropSheet desde** su función de punto de entrada del servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-127">Message services call **DoConfigPropSheet** from their message service entry point function.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="c0f5e-128">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="c0f5e-128">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="bb7b3-128">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="bb7b3-128">Notes to callers</span></span>
 
-<span data-ttu-id="c0f5e-129">Puede crear la tabla de presentación a la que señala el parámetro _lpDisplayTable_ llamando a la función [BuildDisplayTable](builddisplaytable.md) o con código personalizado.</span><span class="sxs-lookup"><span data-stu-id="c0f5e-129">You can create the display table pointed to by the  _lpDisplayTable_ parameter by calling the [BuildDisplayTable](builddisplaytable.md) function or with custom code.</span></span> 
+<span data-ttu-id="bb7b3-129">Puede crear la tabla para mostrar a la que apunta el parámetro  _lpDisplayTable_ llamando a la [función BuildDisplayTable](builddisplaytable.md) o con código personalizado.</span><span class="sxs-lookup"><span data-stu-id="bb7b3-129">You can create the display table pointed to by the  _lpDisplayTable_ parameter by calling the [BuildDisplayTable](builddisplaytable.md) function or with custom code.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c0f5e-130">Ver también</span><span class="sxs-lookup"><span data-stu-id="c0f5e-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bb7b3-130">Consulte también</span><span class="sxs-lookup"><span data-stu-id="bb7b3-130">See also</span></span>
 
 
 
-[<span data-ttu-id="c0f5e-131">BuildDisplayTable</span><span class="sxs-lookup"><span data-stu-id="c0f5e-131">BuildDisplayTable</span></span>](builddisplaytable.md)
+[<span data-ttu-id="bb7b3-131">BuildDisplayTable</span><span class="sxs-lookup"><span data-stu-id="bb7b3-131">BuildDisplayTable</span></span>](builddisplaytable.md)
   
-[<span data-ttu-id="c0f5e-132">CreateIProp</span><span class="sxs-lookup"><span data-stu-id="c0f5e-132">CreateIProp</span></span>](createiprop.md)
+[<span data-ttu-id="bb7b3-132">CreateIProp</span><span class="sxs-lookup"><span data-stu-id="bb7b3-132">CreateIProp</span></span>](createiprop.md)
   
-[<span data-ttu-id="c0f5e-133">IABProvider::Logon</span><span class="sxs-lookup"><span data-stu-id="c0f5e-133">IABProvider::Logon</span></span>](iabprovider-logon.md)
+[<span data-ttu-id="bb7b3-133">IABProvider::Logon</span><span class="sxs-lookup"><span data-stu-id="bb7b3-133">IABProvider::Logon</span></span>](iabprovider-logon.md)
   
-[<span data-ttu-id="c0f5e-134">IMAPIProp : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c0f5e-134">IMAPIProp : IUnknown</span></span>](imapipropiunknown.md)
+[<span data-ttu-id="bb7b3-134">IMAPIProp : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bb7b3-134">IMAPIProp : IUnknown</span></span>](imapipropiunknown.md)
   
-[<span data-ttu-id="c0f5e-135">IMAPIStatus::SettingsDialog</span><span class="sxs-lookup"><span data-stu-id="c0f5e-135">IMAPIStatus::SettingsDialog</span></span>](imapistatus-settingsdialog.md)
+[<span data-ttu-id="bb7b3-135">IMAPIStatus::SettingsDialog</span><span class="sxs-lookup"><span data-stu-id="bb7b3-135">IMAPIStatus::SettingsDialog</span></span>](imapistatus-settingsdialog.md)
   
-[<span data-ttu-id="c0f5e-136">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c0f5e-136">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
+[<span data-ttu-id="bb7b3-136">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bb7b3-136">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
   
-[<span data-ttu-id="c0f5e-137">IMSProvider::Logon</span><span class="sxs-lookup"><span data-stu-id="c0f5e-137">IMSProvider::Logon</span></span>](imsprovider-logon.md)
+[<span data-ttu-id="bb7b3-137">IMSProvider::Logon</span><span class="sxs-lookup"><span data-stu-id="bb7b3-137">IMSProvider::Logon</span></span>](imsprovider-logon.md)
   
-[<span data-ttu-id="c0f5e-138">IXPProvider::TransportLogon</span><span class="sxs-lookup"><span data-stu-id="c0f5e-138">IXPProvider::TransportLogon</span></span>](ixpprovider-transportlogon.md)
+[<span data-ttu-id="bb7b3-138">IXPProvider::TransportLogon</span><span class="sxs-lookup"><span data-stu-id="bb7b3-138">IXPProvider::TransportLogon</span></span>](ixpprovider-transportlogon.md)
   
-[<span data-ttu-id="c0f5e-139">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="c0f5e-139">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="bb7b3-139">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="bb7b3-139">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

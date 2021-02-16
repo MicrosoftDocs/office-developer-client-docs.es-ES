@@ -14,27 +14,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431844"
 ---
-# <a name="propacctsentitemseid"></a><span data-ttu-id="5b363-103">PROP_ACCT_SENTITEMS_EID</span><span class="sxs-lookup"><span data-stu-id="5b363-103">PROP_ACCT_SENTITEMS_EID</span></span>
+# <a name="prop_acct_sentitems_eid"></a><span data-ttu-id="94039-103">PROP_ACCT_SENTITEMS_EID</span><span class="sxs-lookup"><span data-stu-id="94039-103">PROP_ACCT_SENTITEMS_EID</span></span>
 
-<span data-ttu-id="5b363-104">Representa el identificador de entrada de la carpeta predeterminada para los elementos enviados para la cuenta.</span><span class="sxs-lookup"><span data-stu-id="5b363-104">Represents the Entry ID of the default folder for sent items for the account.</span></span> 
+<span data-ttu-id="94039-104">Representa el identificador de entrada de la carpeta predeterminada para los elementos enviados para la cuenta.</span><span class="sxs-lookup"><span data-stu-id="94039-104">Represents the Entry ID of the default folder for sent items for the account.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="5b363-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="5b363-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="94039-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="94039-105">Quick info</span></span>
 
-<span data-ttu-id="5b363-106">Consulte [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="5b363-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="94039-106">Vea [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="94039-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5b363-107">Identificador:</span><span class="sxs-lookup"><span data-stu-id="5b363-107">Identifier:</span></span>  <br/> |<span data-ttu-id="5b363-108">0x0020</span><span class="sxs-lookup"><span data-stu-id="5b363-108">0x0020</span></span>  <br/> |
-|<span data-ttu-id="5b363-109">Tipo de propiedad:</span><span class="sxs-lookup"><span data-stu-id="5b363-109">Property type:</span></span>  <br/> |<span data-ttu-id="5b363-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="5b363-110">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="5b363-111">Etiqueta de propiedad:</span><span class="sxs-lookup"><span data-stu-id="5b363-111">Property tag:</span></span>  <br/> |<span data-ttu-id="5b363-112">0x00200102</span><span class="sxs-lookup"><span data-stu-id="5b363-112">0x00200102</span></span>  <br/> |
-|<span data-ttu-id="5b363-113">Al</span><span class="sxs-lookup"><span data-stu-id="5b363-113">Access:</span></span>  <br/> |<span data-ttu-id="5b363-114">Solo lectura</span><span class="sxs-lookup"><span data-stu-id="5b363-114">Read-only</span></span>  <br/> |
+|<span data-ttu-id="94039-107">Identificador:</span><span class="sxs-lookup"><span data-stu-id="94039-107">Identifier:</span></span>  <br/> |<span data-ttu-id="94039-108">0x0020</span><span class="sxs-lookup"><span data-stu-id="94039-108">0x0020</span></span>  <br/> |
+|<span data-ttu-id="94039-109">Tipo de propiedad:</span><span class="sxs-lookup"><span data-stu-id="94039-109">Property type:</span></span>  <br/> |<span data-ttu-id="94039-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="94039-110">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="94039-111">Etiqueta de propiedad:</span><span class="sxs-lookup"><span data-stu-id="94039-111">Property tag:</span></span>  <br/> |<span data-ttu-id="94039-112">0x00200102</span><span class="sxs-lookup"><span data-stu-id="94039-112">0x00200102</span></span>  <br/> |
+|<span data-ttu-id="94039-113">Acceso:</span><span class="sxs-lookup"><span data-stu-id="94039-113">Access:</span></span>  <br/> |<span data-ttu-id="94039-114">Solo lectura</span><span class="sxs-lookup"><span data-stu-id="94039-114">Read-only</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5b363-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5b363-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="94039-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="94039-115">Remarks</span></span>
 
-<span data-ttu-id="5b363-116">Obtenga esta propiedad mediante [IOlkAccount:: GetProp](iolkaccount-getprop.md).</span><span class="sxs-lookup"><span data-stu-id="5b363-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span>
+<span data-ttu-id="94039-116">Obtenga esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md).</span><span class="sxs-lookup"><span data-stu-id="94039-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span>
   
-<span data-ttu-id="5b363-117">La carpeta predeterminada para los elementos enviados es **elementos enviados**.</span><span class="sxs-lookup"><span data-stu-id="5b363-117">The default folder for sent items is **Sent Items**.</span></span>
+<span data-ttu-id="94039-117">La carpeta predeterminada para los elementos enviados es **Elementos enviados**.</span><span class="sxs-lookup"><span data-stu-id="94039-117">The default folder for sent items is **Sent Items**.</span></span>
   
-<span data-ttu-id="5b363-118">Esta propiedad es de sólo lectura para cuentas POP3 e IMAP.</span><span class="sxs-lookup"><span data-stu-id="5b363-118">This property is read-only for POP3 and IMAP accounts.</span></span> <span data-ttu-id="5b363-119">Si se intenta establecer esta propiedad para estos tipos de cuentas, devuelve **E_ACCT_NOT_FOUND**.</span><span class="sxs-lookup"><span data-stu-id="5b363-119">Attempting to set this property for these types of accounts returns **E_ACCT_NOT_FOUND**.</span></span> 
+<span data-ttu-id="94039-118">Esta propiedad es de solo lectura para cuentas POP3 e IMAP.</span><span class="sxs-lookup"><span data-stu-id="94039-118">This property is read-only for POP3 and IMAP accounts.</span></span> <span data-ttu-id="94039-119">Al intentar establecer esta propiedad para estos tipos de cuentas se **devuelve E_ACCT_NOT_FOUND**.</span><span class="sxs-lookup"><span data-stu-id="94039-119">Attempting to set this property for these types of accounts returns **E_ACCT_NOT_FOUND**.</span></span> 
   
 

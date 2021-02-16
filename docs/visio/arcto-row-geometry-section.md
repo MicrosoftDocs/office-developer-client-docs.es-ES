@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82253229
 localization_priority: Normal
 ms.assetid: 612b605d-a703-b08f-2e8e-7bc1624b5370
-description: Contiene las coordenadas x e y y la curvatura de un arco circular.
+description: Contiene las coordenadas x - e y y y el arco de un arco circular.
 ms.openlocfilehash: 222edea250be794adc964345384f2c08a7798f2f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,22 +16,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430045"
 ---
-# <a name="arcto-row-geometry-section"></a><span data-ttu-id="7b027-103">Fila ArcTo (Sección de geometría)</span><span class="sxs-lookup"><span data-stu-id="7b027-103">ArcTo Row (Geometry Section)</span></span>
+# <a name="arcto-row-geometry-section"></a><span data-ttu-id="b4d3f-103">Fila ArcTo (Sección de geometría)</span><span class="sxs-lookup"><span data-stu-id="b4d3f-103">ArcTo Row (Geometry Section)</span></span>
 
-<span data-ttu-id="7b027-104">Contiene las coordenadas *x* e \*\* y y la curvatura de un arco circular.</span><span class="sxs-lookup"><span data-stu-id="7b027-104">Contains the  *x*  - and  *y*  -coordinates and bow of a circular arc.</span></span> 
+<span data-ttu-id="b4d3f-104">Contiene las  *coordenadas x*  - e  *y*  y y el arco de un arco circular.</span><span class="sxs-lookup"><span data-stu-id="b4d3f-104">Contains the  *x*  - and  *y*  -coordinates and bow of a circular arc.</span></span> 
   
-<span data-ttu-id="7b027-105">Las filas ArcTo contienen las celdas siguientes.</span><span class="sxs-lookup"><span data-stu-id="7b027-105">An ArcTo row contains the following cells.</span></span>
+<span data-ttu-id="b4d3f-105">Las filas ArcTo contienen las celdas siguientes.</span><span class="sxs-lookup"><span data-stu-id="b4d3f-105">An ArcTo row contains the following cells.</span></span>
   
-|<span data-ttu-id="7b027-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="7b027-106">**Cell**</span></span>|<span data-ttu-id="7b027-107">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7b027-107">**Description**</span></span>|
+|<span data-ttu-id="b4d3f-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="b4d3f-106">**Cell**</span></span>|<span data-ttu-id="b4d3f-107">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="b4d3f-107">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7b027-108">X</span><span class="sxs-lookup"><span data-stu-id="7b027-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="7b027-109">Coordenada *x* del vértice del extremo de un arco.</span><span class="sxs-lookup"><span data-stu-id="7b027-109">The  *x*  -coordinate of the ending vertex of an arc.</span></span>  <br/> |
-|[<span data-ttu-id="7b027-110">Y</span><span class="sxs-lookup"><span data-stu-id="7b027-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="7b027-111">Coordenada *y* del vértice del extremo de un arco.</span><span class="sxs-lookup"><span data-stu-id="7b027-111">The  *y*  -coordinate of the ending vertex of an arc.</span></span>  <br/> |
-|[<span data-ttu-id="7b027-112">A</span><span class="sxs-lookup"><span data-stu-id="7b027-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="7b027-113">Distancia desde el punto medio del arco hasta el punto medio de su cuerda.</span><span class="sxs-lookup"><span data-stu-id="7b027-113">The distance from the arc's midpoint to the midpoint of its chord.</span></span>  <br/> |
+|[<span data-ttu-id="b4d3f-108">X</span><span class="sxs-lookup"><span data-stu-id="b4d3f-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="b4d3f-109">Coordenada  *x*  del vértice final de un arco.</span><span class="sxs-lookup"><span data-stu-id="b4d3f-109">The  *x*  -coordinate of the ending vertex of an arc.</span></span>  <br/> |
+|[<span data-ttu-id="b4d3f-110">Y</span><span class="sxs-lookup"><span data-stu-id="b4d3f-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="b4d3f-111">*Coordenada y* del vértice final de un arco.</span><span class="sxs-lookup"><span data-stu-id="b4d3f-111">The  *y*  -coordinate of the ending vertex of an arc.</span></span>  <br/> |
+|[<span data-ttu-id="b4d3f-112">A</span><span class="sxs-lookup"><span data-stu-id="b4d3f-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="b4d3f-113">Distancia desde el punto medio del arco hasta el punto medio de su cuerda.</span><span class="sxs-lookup"><span data-stu-id="b4d3f-113">The distance from the arc's midpoint to the midpoint of its chord.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7b027-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7b027-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b4d3f-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b4d3f-114">Remarks</span></span>
 
-<span data-ttu-id="7b027-p101">Los arcos que dibuja Visio son elípticos, incluso si se basan en un círculo. De forma predeterminada, los arcos dibujados se representan mediante una fila EllipticalArcTo en la ventana ShapeSheet. Para mostrar una fila ArcTo en una ventana ShapeSheet, tiene que dibujar un arco y, a continuación, cambiar el tipo de fila EllipticalArcTo por el tipo ArcTo; en efecto, está cambiando un arco elíptico por un arco circular.</span><span class="sxs-lookup"><span data-stu-id="7b027-p101">Arcs drawn in Visio are elliptical arcs, even if they are based on a circle. By default, drawn arcs are represented by an EllipticalArcTo row in a ShapeSheet window. To show an ArcTo row in a ShapeSheet window, you must draw an arc, and then change the EllipticalArcTo row type to an ArcTo row type; in effect you are changing an elliptical arc to a circular arc.</span></span>
+<span data-ttu-id="b4d3f-p101">Los arcos que dibuja Visio son elípticos, incluso si se basan en un círculo. De forma predeterminada, los arcos dibujados se representan mediante una fila EllipticalArcTo en la ventana ShapeSheet. Para mostrar una fila ArcTo en una ventana ShapeSheet, tiene que dibujar un arco y, a continuación, cambiar el tipo de fila EllipticalArcTo por el tipo ArcTo; en efecto, está cambiando un arco elíptico por un arco circular.</span><span class="sxs-lookup"><span data-stu-id="b4d3f-p101">Arcs drawn in Visio are elliptical arcs, even if they are based on a circle. By default, drawn arcs are represented by an EllipticalArcTo row in a ShapeSheet window. To show an ArcTo row in a ShapeSheet window, you must draw an arc, and then change the EllipticalArcTo row type to an ArcTo row type; in effect you are changing an elliptical arc to a circular arc.</span></span>
   
-<span data-ttu-id="7b027-118">Para cambiar un tipo de fila, haga clic con el botón secundario en una fila y, a continuación, haga clic en **Cambiar tipo de fila** en el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="7b027-118">To change a row type, right-click a row, and then click **Change Row Type** on the shortcut menu.</span></span> 
+<span data-ttu-id="b4d3f-118">Para cambiar un tipo de fila, haga clic con el botón secundario en una fila y, a continuación, haga clic en Cambiar tipo de fila **en** el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="b4d3f-118">To change a row type, right-click a row, and then click **Change Row Type** on the shortcut menu.</span></span> 
   
 

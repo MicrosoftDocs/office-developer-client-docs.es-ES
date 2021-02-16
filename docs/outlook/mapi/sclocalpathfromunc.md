@@ -19,19 +19,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432236"
 ---
-# <a name="sclocalpathfromunc"></a><span data-ttu-id="cd8c2-103">ScLocalPathFromUNC</span><span class="sxs-lookup"><span data-stu-id="cd8c2-103">ScLocalPathFromUNC</span></span>
+# <a name="sclocalpathfromunc"></a><span data-ttu-id="73856-103">ScLocalPathFromUNC</span><span class="sxs-lookup"><span data-stu-id="73856-103">ScLocalPathFromUNC</span></span>
 
   
   
-<span data-ttu-id="cd8c2-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cd8c2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="73856-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="73856-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cd8c2-105">Busca una ruta de acceso local equivalente a la ruta de acceso UNC (Convención de nomenclatura universal) dada.</span><span class="sxs-lookup"><span data-stu-id="cd8c2-105">Locates a local path counterpart to the given universal naming convention (UNC) path.</span></span> 
+<span data-ttu-id="73856-105">Busca un equivalente de ruta de acceso local a la ruta de acceso UNC (convención de nomenclatura universal) especificada.</span><span class="sxs-lookup"><span data-stu-id="73856-105">Locates a local path counterpart to the given universal naming convention (UNC) path.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cd8c2-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="cd8c2-106">Header file:</span></span>  <br/> |<span data-ttu-id="cd8c2-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="cd8c2-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="cd8c2-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="cd8c2-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="cd8c2-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="cd8c2-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="cd8c2-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="cd8c2-110">Called by:</span></span>  <br/> |<span data-ttu-id="cd8c2-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="cd8c2-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="73856-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="73856-106">Header file:</span></span>  <br/> |<span data-ttu-id="73856-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="73856-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="73856-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="73856-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="73856-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="73856-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="73856-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="73856-110">Called by:</span></span>  <br/> |<span data-ttu-id="73856-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="73856-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE ScLocalPathFromUNC(
@@ -41,41 +41,41 @@ SCODE ScLocalPathFromUNC(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="cd8c2-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="cd8c2-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="73856-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="73856-112">Parameters</span></span>
 
- <span data-ttu-id="cd8c2-113">_szUNC_</span><span class="sxs-lookup"><span data-stu-id="cd8c2-113">_szUNC_</span></span>
+ <span data-ttu-id="73856-113">_szUNC_</span><span class="sxs-lookup"><span data-stu-id="73856-113">_szUNC_</span></span>
   
-> <span data-ttu-id="cd8c2-114">a Una ruta de acceso con \\el formato [ _servidor_]\[ _RecursoCompartido_]\[ _ruta_] de un archivo o directorio.</span><span class="sxs-lookup"><span data-stu-id="cd8c2-114">[in] A path in the format \\[ _server_]\[ _share_]\[ _path_] of a file or directory.</span></span>
+> <span data-ttu-id="73856-114">[entrada] Una ruta de acceso con el \\ formato [ _servidor_] \[ _compartir_] \[ _ruta_ de acceso] de un archivo o directorio.</span><span class="sxs-lookup"><span data-stu-id="73856-114">[in] A path in the format \\[ _server_]\[ _share_]\[ _path_] of a file or directory.</span></span>
     
- <span data-ttu-id="cd8c2-115">_szLocal_</span><span class="sxs-lookup"><span data-stu-id="cd8c2-115">_szLocal_</span></span>
+ <span data-ttu-id="73856-115">_szLocal_</span><span class="sxs-lookup"><span data-stu-id="73856-115">_szLocal_</span></span>
   
-> <span data-ttu-id="cd8c2-116">contempla Una ruta de acceso con el formato [ _unidad:_]\[ _ruta de acceso_] del mismo archivo o directorio que para el parámetro _szUNC_ .</span><span class="sxs-lookup"><span data-stu-id="cd8c2-116">[out] A path in the format [ _drive:_]\[ _path_] of the same file or directory as for the  _szUNC_ parameter.</span></span> 
+> <span data-ttu-id="73856-116">[salida] Una ruta de acceso con el formato [ _unidad:_] ruta de acceso] del mismo archivo \[ o directorio que para el _parámetro szUNC._</span><span class="sxs-lookup"><span data-stu-id="73856-116">[out] A path in the format [ _drive:_]\[ _path_] of the same file or directory as for the  _szUNC_ parameter.</span></span> 
     
- <span data-ttu-id="cd8c2-117">_cchLocal_</span><span class="sxs-lookup"><span data-stu-id="cd8c2-117">_cchLocal_</span></span>
+ <span data-ttu-id="73856-117">_cchLocal_</span><span class="sxs-lookup"><span data-stu-id="73856-117">_cchLocal_</span></span>
   
-> <span data-ttu-id="cd8c2-118">a Tamaño del búfer para la cadena de salida.</span><span class="sxs-lookup"><span data-stu-id="cd8c2-118">[in] Size of the buffer for the output string.</span></span>
+> <span data-ttu-id="73856-118">[entrada] Tamaño del búfer de la cadena de salida.</span><span class="sxs-lookup"><span data-stu-id="73856-118">[in] Size of the buffer for the output string.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="cd8c2-119">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="cd8c2-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="73856-119">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="73856-119">Return value</span></span>
 
-<span data-ttu-id="cd8c2-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="cd8c2-120">S_OK</span></span>
+<span data-ttu-id="73856-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="73856-120">S_OK</span></span>
   
-> <span data-ttu-id="cd8c2-121">Una ruta de acceso local se encontró correctamente.</span><span class="sxs-lookup"><span data-stu-id="cd8c2-121">A local path was successfully located.</span></span>
+> <span data-ttu-id="73856-121">Se ha localizado correctamente una ruta de acceso local.</span><span class="sxs-lookup"><span data-stu-id="73856-121">A local path was successfully located.</span></span>
     
-<span data-ttu-id="cd8c2-122">MAPI_E_TOO_BIG</span><span class="sxs-lookup"><span data-stu-id="cd8c2-122">MAPI_E_TOO_BIG</span></span>
+<span data-ttu-id="73856-122">MAPI_E_TOO_BIG</span><span class="sxs-lookup"><span data-stu-id="73856-122">MAPI_E_TOO_BIG</span></span>
   
->  <span data-ttu-id="cd8c2-123">_szLocal_ no era lo suficientemente grande como para contener el resultado.</span><span class="sxs-lookup"><span data-stu-id="cd8c2-123">_szLocal_ was not large enough to hold the result.</span></span> 
+>  <span data-ttu-id="73856-123">_szLocal_ no era lo suficientemente grande como para contener el resultado.</span><span class="sxs-lookup"><span data-stu-id="73856-123">_szLocal_ was not large enough to hold the result.</span></span> 
     
-<span data-ttu-id="cd8c2-124">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="cd8c2-124">S_FALSE</span></span>
+<span data-ttu-id="73856-124">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="73856-124">S_FALSE</span></span>
   
-> <span data-ttu-id="cd8c2-125">La cadena UNC ya era una ruta de acceso local.</span><span class="sxs-lookup"><span data-stu-id="cd8c2-125">The UNC string was already a local path.</span></span>
+> <span data-ttu-id="73856-125">La cadena UNC ya era una ruta de acceso local.</span><span class="sxs-lookup"><span data-stu-id="73856-125">The UNC string was already a local path.</span></span>
     
-<span data-ttu-id="cd8c2-126">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="cd8c2-126">MAPI_E_NOT_FOUND</span></span>
+<span data-ttu-id="73856-126">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="73856-126">MAPI_E_NOT_FOUND</span></span>
   
-> <span data-ttu-id="cd8c2-127">No se encontró una ruta de acceso local.</span><span class="sxs-lookup"><span data-stu-id="cd8c2-127">A local path was not found.</span></span>
+> <span data-ttu-id="73856-127">No se encontró una ruta de acceso local.</span><span class="sxs-lookup"><span data-stu-id="73856-127">A local path was not found.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="cd8c2-128">Ver también</span><span class="sxs-lookup"><span data-stu-id="cd8c2-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="73856-128">Consulte también</span><span class="sxs-lookup"><span data-stu-id="73856-128">See also</span></span>
 
 
 
-[<span data-ttu-id="cd8c2-129">ScUNCFromLocalPath</span><span class="sxs-lookup"><span data-stu-id="cd8c2-129">ScUNCFromLocalPath</span></span>](scuncfromlocalpath.md)
+[<span data-ttu-id="73856-129">ScUNCFromLocalPath</span><span class="sxs-lookup"><span data-stu-id="73856-129">ScUNCFromLocalPath</span></span>](scuncfromlocalpath.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Celda VariationColorIndex (sección Propiedades de tema)
+title: Celda VariationColorIndex (Sección de propiedades del tema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,24 +14,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431774"
 ---
-# <a name="variationcolorindex-cell-theme-properties-section"></a><span data-ttu-id="d1eac-103">Celda VariationColorIndex (sección Propiedades de tema)</span><span class="sxs-lookup"><span data-stu-id="d1eac-103">VariationColorIndex Cell (Theme Properties Section)</span></span>
+# <a name="variationcolorindex-cell-theme-properties-section"></a><span data-ttu-id="47bfc-103">Celda VariationColorIndex (Sección de propiedades del tema)</span><span class="sxs-lookup"><span data-stu-id="47bfc-103">VariationColorIndex Cell (Theme Properties Section)</span></span>
 
-<span data-ttu-id="d1eac-104">Determina el índice de color de la variación del tema activo en la página, como un entero.</span><span class="sxs-lookup"><span data-stu-id="d1eac-104">Determines the color index of the active theme variation on the page, as an integer.</span></span>
+<span data-ttu-id="47bfc-104">Determina el índice de color de la variación del tema activo en la página, como un entero.</span><span class="sxs-lookup"><span data-stu-id="47bfc-104">Determines the color index of the active theme variation on the page, as an integer.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d1eac-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d1eac-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="47bfc-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="47bfc-105">Remarks</span></span>
 
-<span data-ttu-id="d1eac-106">Para obtener una referencia a la celda **VariationColorIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** , o desde un programa mediante la propiedad **CellsU** , utilice:</span><span class="sxs-lookup"><span data-stu-id="d1eac-106">To get a reference to the **VariationColorIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="47bfc-106">Para obtener una referencia a la celda **VariationColorIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice:</span><span class="sxs-lookup"><span data-stu-id="47bfc-106">To get a reference to the **VariationColorIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d1eac-107">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="d1eac-107">Cell name:</span></span>  <br/> | <span data-ttu-id="d1eac-108">VariationColorIndex</span><span class="sxs-lookup"><span data-stu-id="d1eac-108">VariationColorIndex</span></span>  <br/> |
+| <span data-ttu-id="47bfc-107">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="47bfc-107">Cell name:</span></span>  <br/> | <span data-ttu-id="47bfc-108">VariationColorIndex</span><span class="sxs-lookup"><span data-stu-id="47bfc-108">VariationColorIndex</span></span>  <br/> |
    
-<span data-ttu-id="d1eac-109">Para obtener una referencia desde un programa a la celda **VariationColorIndex** por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="d1eac-109">To get a reference to the **VariationColorIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="47bfc-109">Para obtener una referencia desde un programa a **la celda VariationColorIndex** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="47bfc-109">To get a reference to the **VariationColorIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d1eac-110">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="d1eac-110">Section index:</span></span>  <br/> |<span data-ttu-id="d1eac-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="d1eac-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="d1eac-112">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="d1eac-112">Row index:</span></span>  <br/> |<span data-ttu-id="d1eac-113">**visRowThemeProperties**</span><span class="sxs-lookup"><span data-stu-id="d1eac-113">**visRowThemeProperties**</span></span> <br/> |
-| <span data-ttu-id="d1eac-114">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="d1eac-114">Cell index:</span></span>  <br/> |<span data-ttu-id="d1eac-115">**visVariationColorIndex**</span><span class="sxs-lookup"><span data-stu-id="d1eac-115">**visVariationColorIndex**</span></span> <br/> |
+| <span data-ttu-id="47bfc-110">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="47bfc-110">Section index:</span></span>  <br/> |<span data-ttu-id="47bfc-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="47bfc-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="47bfc-112">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="47bfc-112">Row index:</span></span>  <br/> |<span data-ttu-id="47bfc-113">**visRowThemeProperties**</span><span class="sxs-lookup"><span data-stu-id="47bfc-113">**visRowThemeProperties**</span></span> <br/> |
+| <span data-ttu-id="47bfc-114">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="47bfc-114">Cell index:</span></span>  <br/> |<span data-ttu-id="47bfc-115">**visVariationColorIndex**</span><span class="sxs-lookup"><span data-stu-id="47bfc-115">**visVariationColorIndex**</span></span> <br/> |
    
 

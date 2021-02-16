@@ -14,29 +14,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431837"
 ---
-# <a name="working-with-dlls"></a><span data-ttu-id="97176-103">Trabajar con DLL</span><span class="sxs-lookup"><span data-stu-id="97176-103">Working with DLLs</span></span>
+# <a name="working-with-dlls"></a><span data-ttu-id="ad9b3-103">Trabajar con DLL</span><span class="sxs-lookup"><span data-stu-id="ad9b3-103">Working with DLLs</span></span>
 
- <span data-ttu-id="97176-104">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="97176-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="ad9b3-104">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="ad9b3-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="97176-105">En esta sección se incluye información sobre cómo crear y llamar a archivos DLL que funcionan con Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="97176-105">This section includes information about creating and calling DLLs that work with Microsoft Excel.</span></span>
+<span data-ttu-id="ad9b3-105">En esta sección se incluye información sobre cómo crear y llamar a archivos DLL que funcionan con Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="ad9b3-105">This section includes information about creating and calling DLLs that work with Microsoft Excel.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="97176-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="97176-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ad9b3-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="ad9b3-106">In this section</span></span>
 
-[<span data-ttu-id="97176-107">Desarrollar DLL</span><span class="sxs-lookup"><span data-stu-id="97176-107">Developing DLLs</span></span>](developing-dlls.md)
+[<span data-ttu-id="ad9b3-107">Desarrollar DLL</span><span class="sxs-lookup"><span data-stu-id="ad9b3-107">Developing DLLs</span></span>](developing-dlls.md)
   
-> <span data-ttu-id="97176-108">Describe las ventajas de usar archivos dll y cómo crearlos.</span><span class="sxs-lookup"><span data-stu-id="97176-108">Describes the benefits of using DLLs and how to create them.</span></span>
+> <span data-ttu-id="ad9b3-108">Describe las ventajas de usar archivos DLL y cómo crearlos.</span><span class="sxs-lookup"><span data-stu-id="ad9b3-108">Describes the benefits of using DLLs and how to create them.</span></span>
     
-[<span data-ttu-id="97176-109">Obtener acceso a las DLL en Excel</span><span class="sxs-lookup"><span data-stu-id="97176-109">Access DLLs in Excel</span></span>](how-to-access-dlls-in-excel.md)
+[<span data-ttu-id="ad9b3-109">Obtener acceso a las DLL en Excel</span><span class="sxs-lookup"><span data-stu-id="ad9b3-109">Access DLLs in Excel</span></span>](how-to-access-dlls-in-excel.md)
   
-> <span data-ttu-id="97176-110">Describe cómo llamar a funciones y comandos DLL a través de un módulo de código de Visual Basic para aplicaciones (VBA), directamente desde una hoja de cálculo o desde la interfaz de usuario de Excel.</span><span class="sxs-lookup"><span data-stu-id="97176-110">Describes how to call DLL functions and commands through a Visual Basic for Applications (VBA) code module, directly from a worksheet, or from the Excel user interface.</span></span> 
+> <span data-ttu-id="ad9b3-110">Describe cómo llamar a comandos y funciones DLL a través de un módulo de código Visual Basic para Aplicaciones (VBA), directamente desde una hoja de cálculo o desde la interfaz de usuario de Excel.</span><span class="sxs-lookup"><span data-stu-id="ad9b3-110">Describes how to call DLL functions and commands through a Visual Basic for Applications (VBA) code module, directly from a worksheet, or from the Excel user interface.</span></span> 
     
-[<span data-ttu-id="97176-111">Llamar a funciones definidas por el usuario desde dll</span><span class="sxs-lookup"><span data-stu-id="97176-111">Calling User-Defined Functions from DLLs</span></span>](calling-user-defined-functions-from-dlls.md)
+[<span data-ttu-id="ad9b3-111">Llamar User-Defined funciones desde DLL</span><span class="sxs-lookup"><span data-stu-id="ad9b3-111">Calling User-Defined Functions from DLLs</span></span>](calling-user-defined-functions-from-dlls.md)
   
-> <span data-ttu-id="97176-112">Describe cómo habilitar dll para llamar a funciones definidas por el usuario.</span><span class="sxs-lookup"><span data-stu-id="97176-112">Describes how to enable DLLs to call user-defined functions.</span></span>
+> <span data-ttu-id="ad9b3-112">Describe cómo habilitar dll para llamar a funciones definidas por el usuario.</span><span class="sxs-lookup"><span data-stu-id="ad9b3-112">Describes how to enable DLLs to call user-defined functions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="97176-113">Ver también</span><span class="sxs-lookup"><span data-stu-id="97176-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ad9b3-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ad9b3-113">See also</span></span>
 
 
 
-[<span data-ttu-id="97176-114">Desarrollar archivos XLL de Excel</span><span class="sxs-lookup"><span data-stu-id="97176-114">Developing Excel XLLs</span></span>](developing-excel-xlls.md)
+[<span data-ttu-id="ad9b3-114">Desarrollar archivos XLL de Excel</span><span class="sxs-lookup"><span data-stu-id="ad9b3-114">Developing Excel XLLs</span></span>](developing-excel-xlls.md)
 

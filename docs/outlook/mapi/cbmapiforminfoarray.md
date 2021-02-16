@@ -19,35 +19,35 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430507"
 ---
-# <a name="cbmapiforminfoarray"></a><span data-ttu-id="0c790-103">CbMAPIFormInfoArray</span><span class="sxs-lookup"><span data-stu-id="0c790-103">CbMAPIFormInfoArray</span></span>
+# <a name="cbmapiforminfoarray"></a><span data-ttu-id="5f77e-103">CbMAPIFormInfoArray</span><span class="sxs-lookup"><span data-stu-id="5f77e-103">CbMAPIFormInfoArray</span></span>
 
   
   
-<span data-ttu-id="0c790-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0c790-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5f77e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5f77e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0c790-105">Calcula el número de bytes de una estructura [SMAPIFormInfoArray](smapiforminfoarray.md) existente que contiene un número especificado de objetos de información de formulario.</span><span class="sxs-lookup"><span data-stu-id="0c790-105">Computes the number of bytes in an existing [SMAPIFormInfoArray](smapiforminfoarray.md) structure that contains a specified number of form information objects.</span></span> 
+<span data-ttu-id="5f77e-105">Calcula el número de bytes de una estructura [SMAPIFormInfoArray](smapiforminfoarray.md) existente que contiene un número especificado de objetos de información de formulario.</span><span class="sxs-lookup"><span data-stu-id="5f77e-105">Computes the number of bytes in an existing [SMAPIFormInfoArray](smapiforminfoarray.md) structure that contains a specified number of form information objects.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0c790-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="0c790-106">Header file:</span></span>  <br/> |<span data-ttu-id="0c790-107">MAPIForm. h</span><span class="sxs-lookup"><span data-stu-id="0c790-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="0c790-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="0c790-108">Related structure:</span></span>  <br/> |<span data-ttu-id="0c790-109">**SMAPIFormInfoArray**</span><span class="sxs-lookup"><span data-stu-id="0c790-109">**SMAPIFormInfoArray**</span></span> <br/> |
+|<span data-ttu-id="5f77e-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="5f77e-106">Header file:</span></span>  <br/> |<span data-ttu-id="5f77e-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="5f77e-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="5f77e-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="5f77e-108">Related structure:</span></span>  <br/> |<span data-ttu-id="5f77e-109">**SMAPIFormInfoArray**</span><span class="sxs-lookup"><span data-stu-id="5f77e-109">**SMAPIFormInfoArray**</span></span> <br/> |
    
 ```cpp
 CbMAPIFormInfoArray (_c)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0c790-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="0c790-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5f77e-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="5f77e-110">Parameters</span></span>
 
- <span data-ttu-id="0c790-111">__c_</span><span class="sxs-lookup"><span data-stu-id="0c790-111">__c_</span></span>
+ <span data-ttu-id="5f77e-111">_ _c_</span><span class="sxs-lookup"><span data-stu-id="5f77e-111">_ _c_</span></span>
   
-> <span data-ttu-id="0c790-112">Número de objetos de información de formulario en la estructura **SMAPIFormInfoArray** existente.</span><span class="sxs-lookup"><span data-stu-id="0c790-112">Count of form information objects in the existing **SMAPIFormInfoArray** structure.</span></span> 
+> <span data-ttu-id="5f77e-112">Recuento de objetos de información de formulario en la **estructura SMAPIFormInfoArray** existente.</span><span class="sxs-lookup"><span data-stu-id="5f77e-112">Count of form information objects in the existing **SMAPIFormInfoArray** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="0c790-113">Ver también</span><span class="sxs-lookup"><span data-stu-id="0c790-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5f77e-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="5f77e-113">See also</span></span>
 
 
 
-[<span data-ttu-id="0c790-114">SMAPIFormInfoArray</span><span class="sxs-lookup"><span data-stu-id="0c790-114">SMAPIFormInfoArray</span></span>](smapiforminfoarray.md)
+[<span data-ttu-id="5f77e-114">SMAPIFormInfoArray</span><span class="sxs-lookup"><span data-stu-id="5f77e-114">SMAPIFormInfoArray</span></span>](smapiforminfoarray.md)
 
 
-[<span data-ttu-id="0c790-115">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="0c790-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="5f77e-115">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="5f77e-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 
