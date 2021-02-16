@@ -7,7 +7,7 @@ ms.date: 11/16/2019
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- plantillas de formulario [InfoPath 2007], plantillas de formulario de código administrado [InfoPath 2007], referencia [InfoPath 2007], código administrado [InfoPath 2007], InfoPath 2007, referencia
+- form templates [infopath 2007],managed code form templates [InfoPath 2007],reference [InfoPath 2007],managed code [InfoPath 2007],InfoPath 2007, reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
@@ -19,18 +19,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/02/2020
 ms.locfileid: "43102943"
 ---
-# <a name="infopath-developer-reference-for-form-templates"></a><span data-ttu-id="85f6f-105">Referencia para desarrolladores sobre plantillas de formulario de InfoPath</span><span class="sxs-lookup"><span data-stu-id="85f6f-105">InfoPath developer reference for form templates</span></span>
+# <a name="infopath-developer-reference-for-form-templates"></a><span data-ttu-id="96762-105">Referencia para desarrolladores sobre plantillas de formulario de InfoPath</span><span class="sxs-lookup"><span data-stu-id="96762-105">InfoPath developer reference for form templates</span></span>
 
-<span data-ttu-id="85f6f-p102">Esta es la referencia del programador de InfoPath 2013 sobre plantillas de formulario. En esta documentación encontrará descripciones, tareas de programación e información de referencia sobre la biblioteca de clases que le servirán para crear plantillas de formulario de InfoPath que contengan lógica empresarial escrita en Visual Basic o Visual C#.</span><span class="sxs-lookup"><span data-stu-id="85f6f-p102">Welcome to the InfoPath 2013 developer reference for form templates. This documentation provides overviews, programming tasks, and class library reference information that is designed to help you build InfoPath form templates that contain business logic written in Visual Basic or Visual C#.</span></span>
+<span data-ttu-id="96762-p102">Esta es la referencia del programador de InfoPath 2013 sobre plantillas de formulario. En esta documentación encontrará descripciones, tareas de programación e información de referencia sobre la biblioteca de clases que le servirán para crear plantillas de formulario de InfoPath que contengan lógica empresarial escrita en Visual Basic o Visual C#.</span><span class="sxs-lookup"><span data-stu-id="96762-p102">Welcome to the InfoPath 2013 developer reference for form templates. This documentation provides overviews, programming tasks, and class library reference information that is designed to help you build InfoPath form templates that contain business logic written in Visual Basic or Visual C#.</span></span>
   
-<span data-ttu-id="85f6f-108">Fecha de publicación de esta referencia: octubre de 2012</span><span class="sxs-lookup"><span data-stu-id="85f6f-108">Publish date of this reference: October 2012</span></span>
+<span data-ttu-id="96762-108">Fecha de publicación de esta referencia: octubre de 2012</span><span class="sxs-lookup"><span data-stu-id="96762-108">Publish date of this reference: October 2012</span></span>
   
-## <a name="related-links"></a><span data-ttu-id="85f6f-109">Vínculos relacionados</span><span class="sxs-lookup"><span data-stu-id="85f6f-109">Related links</span></span>
+## <a name="related-links"></a><span data-ttu-id="96762-109">Vínculos relacionados</span><span class="sxs-lookup"><span data-stu-id="96762-109">Related links</span></span>
 
-[<span data-ttu-id="85f6f-110">Centro para desarrolladores de Microsoft Office: docs</span><span class="sxs-lookup"><span data-stu-id="85f6f-110">Microsoft Office Developer Center: Docs</span></span>](https://developer.microsoft.com/en-us/office/docs)
+[<span data-ttu-id="96762-110">Microsoft Office Developer Center: Docs</span><span class="sxs-lookup"><span data-stu-id="96762-110">Microsoft Office Developer Center: Docs</span></span>](https://developer.microsoft.com/en-us/office/docs)
   
 
-[<span data-ttu-id="85f6f-111">Accesibilidad de Microsoft</span><span class="sxs-lookup"><span data-stu-id="85f6f-111">Microsoft Accessibility</span></span>](https://www.microsoft.com/en-us/accessibility/)
+[<span data-ttu-id="96762-111">Accesibilidad de Microsoft</span><span class="sxs-lookup"><span data-stu-id="96762-111">Microsoft Accessibility</span></span>](https://www.microsoft.com/en-us/accessibility/)
 
   
 

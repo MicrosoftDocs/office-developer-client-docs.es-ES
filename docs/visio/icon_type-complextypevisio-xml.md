@@ -1,5 +1,5 @@
 ---
-title: ComplexType Icon_Type (XML de Visio)
+title: Icon_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541487"
 ---
-# <a name="icontype-complextype-visio-xml"></a><span data-ttu-id="00013-102">ComplexType Icon_Type (XML de Visio)</span><span class="sxs-lookup"><span data-stu-id="00013-102">Icon_Type complexType (Visio XML)</span></span>
+# <a name="icon_type-complextype-visio-xml"></a><span data-ttu-id="d2cc5-102">Icon_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="d2cc5-102">Icon_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="00013-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="00013-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="d2cc5-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="d2cc5-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="00013-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="00013-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="00013-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="00013-105">**Schema file**</span></span> <br/> |<span data-ttu-id="00013-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="00013-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="00013-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="00013-107">**Extension base**</span></span> <br/> |<span data-ttu-id="00013-108">xsd: base64Binary</span><span class="sxs-lookup"><span data-stu-id="00013-108">xsd:base64Binary</span></span>  <br/> |
+|<span data-ttu-id="d2cc5-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="d2cc5-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="d2cc5-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="d2cc5-105">**Schema file**</span></span> <br/> |<span data-ttu-id="d2cc5-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="d2cc5-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="d2cc5-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="d2cc5-107">**Extension base**</span></span> <br/> |<span data-ttu-id="d2cc5-108">xsd:base64Binary</span><span class="sxs-lookup"><span data-stu-id="d2cc5-108">xsd:base64Binary</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="00013-109">Definición</span><span class="sxs-lookup"><span data-stu-id="00013-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="d2cc5-109">Definición</span><span class="sxs-lookup"><span data-stu-id="d2cc5-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="Icon_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34541487"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="00013-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="00013-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="d2cc5-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="d2cc5-110">Elements and attributes</span></span>
 
-<span data-ttu-id="00013-111">Si el esquema define requisitos específicos, como **Sequence**, **minOccurs**, **maxOccurs**y **Choice**, consulte la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="00013-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="d2cc5-111">Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="d2cc5-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="00013-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="00013-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="d2cc5-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="d2cc5-112">Child elements</span></span>
 
-<span data-ttu-id="00013-113">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="00013-113">None.</span></span>
+<span data-ttu-id="d2cc5-113">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="d2cc5-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="00013-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="00013-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="d2cc5-114">Atributos</span><span class="sxs-lookup"><span data-stu-id="d2cc5-114">Attributes</span></span>
 
-<span data-ttu-id="00013-115">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="00013-115">None.</span></span>
+<span data-ttu-id="d2cc5-115">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="d2cc5-115">None.</span></span>
   
 

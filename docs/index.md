@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Índice
 manager: lindalu
 ms.date: 02/04/2020
 ms.audience: Developer
@@ -11,4 +11,4 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/02/2020
 ms.locfileid: "43102929"
 ---
-# <a name="welcome-to-officedocs-dev-client-docs"></a><span data-ttu-id="b248e-102">¡ Bienvenido a officedocs-dev-Client-docs!</span><span class="sxs-lookup"><span data-stu-id="b248e-102">Welcome to officedocs-dev-client-docs!</span></span>
+# <a name="welcome-to-officedocs-dev-client-docs"></a><span data-ttu-id="42d1c-102">¡Bienvenido a officedocs-dev-client-docs!</span><span class="sxs-lookup"><span data-stu-id="42d1c-102">Welcome to officedocs-dev-client-docs!</span></span>
