@@ -19,9 +19,9 @@ ms.locfileid: "32330180"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La implementación de los métodos [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx), [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)e [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) en C++ es bastante sencilla. Después de una validación estándar de los parámetros que se pasan, una implementación de **QueryInterface** comprueba el identificador de la interfaz solicitada con la lista de interfaces admitidas. Si el identificador solicitado se encuentra entre los admitidos, se llama a **AddRef** y se devuelve el puntero **this** . Si el identificador solicitado no se encuentra en la lista compatible, el puntero de salida se establece en NULL y se devuelve el valor MAPI_E_INTERFACE_NOT_SUPPORTED. 
+Implementar los métodos [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx), [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)e [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de la interfaz [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) en C++ es bastante sencillo. Después de una validación estándar de los parámetros que se pasan, una implementación de **QueryInterface** comprueba el identificador de la interfaz solicitada con la lista de interfaces admitidas. Si el identificador solicitado está entre los admitidos, se llama a **AddRef** y se **devuelve** este puntero. Si el identificador solicitado no está en la lista admitida, el puntero de salida se establece en NULL y se devuelve MAPI_E_INTERFACE_NOT_SUPPORTED valor. 
   
-En el siguiente ejemplo de código se muestra cómo se puede implementar **QueryInterface** en C++ para un objeto de estado, un objeto que es una subclase de la interfaz [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) . **IMAPIStatus** hereda de **IUnknown** a [IMAPIProp: IUnknown](imapipropiunknown.md). Por lo tanto, si el autor de la llamada solicita alguna de estas interfaces, puede devolverse el puntero **this** , ya que las interfaces están relacionadas con la herencia. 
+En el siguiente ejemplo de código se muestra cómo implementar **QueryInterface** en C++ para un objeto de estado, un objeto que es una subclase de la [interfaz IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) **IMAPIStatus** hereda de **IUnknown** a [través de IMAPIProp : IUnknown](imapipropiunknown.md). Por lo tanto, si el autor de  la llamada solicita cualquiera de estas interfaces, este puntero puede devolverse porque las interfaces están relacionadas a través de la herencia. 
   
 ```cpp
 HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
@@ -44,7 +44,7 @@ HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
 
 ```
 
-En el ejemplo de código siguiente se muestra cómo implementar los métodos **AddRef** y **Release** para el `CMyMAPIObject` objeto. Dado que la implementación de **AddRef** y **Release** es sencilla, muchos proveedores de servicios deciden implementarlos en línea. Las llamadas a las funciones de Win32 **InterlockedIncrement** y **InterlockedDecrement** garantizan la seguridad de subprocesos. El destructor libera la memoria del objeto, que se llama cuando el método **Release** elimina el objeto. 
+En el siguiente ejemplo de código se muestra cómo implementar los **métodos AddRef** y **Release** para el  `CMyMAPIObject` objeto. Dado que la **implementación de AddRef** y **Release** es sencilla, muchos proveedores de servicios eligen implementarlas en línea. Las llamadas a las funciones Win32 **InterlockedIncrement** e **InterlockedDecrement** garantizan la seguridad de los subprocesos. El destructor libera la memoria del objeto, que se llama cuando el **método Release** elimina el objeto. 
   
 ```cpp
 ULONG CMyMAPIObject::AddRef()
@@ -65,7 +65,7 @@ ULONG CMyMAPIObject::Release()
  
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Implementación de objetos MAPI](implementing-mapi-objects.md)
 - [Implementación de la interfaz IUnknown](implementing-the-iunknown-interface.md)

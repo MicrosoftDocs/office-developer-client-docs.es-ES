@@ -33,11 +33,11 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpulFlags_
   
-> a Reserve debe ser un puntero a cero.
+> [entrada] Reservado; debe ser un puntero a cero.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,13 +47,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacenamiento de mensajes implementan el método **IMSLogon:: Logoff** para cerrar de forma forzada un proveedor de almacén de mensajes. Se llama a **IMSLogon:: Logoff** en las siguientes situaciones: 
+Los proveedores de al almacenamiento de mensajes implementan el método **IMSLogon::Logoff** para cerrar por la fuerza un proveedor de almacén de mensajes. **Se llama a IMSLogon::Logoff** en las siguientes situaciones: 
   
-- Mientras MAPI está cerrando la sesión de un cliente después de una llamada al método [IMAPISession:: Logoff](imapisession-logoff.md) . 
+- Mientras MAPI cierra la sesión de un cliente después de una llamada al método [IMAPISession::Logoff.](imapisession-logoff.md) 
     
-- Mientras MAPI está cerrando la sesión en un proveedor de almacenamiento de mensajes. En este caso, se llama a **IMSLogon:: Logoff** como parte del procesamiento de MAPI del método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del objeto de soporte que crea el proveedor de almacén de mensajes mientras está procesando un [IMsgStore:: StoreLogoff](imsgstore-storelogoff.md) o **IUnknown:: **Llamada al método release en un objeto de almacén de mensajes. 
+- Mientras MAPI está registrando un proveedor de almacenamiento de mensajes. En este caso, se llama a **IMSLogon::Logoff** como parte del procesamiento de MAPI del método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del objeto de soporte técnico que crea el proveedor del almacén de mensajes mientras procesa una llamada al método [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) o **IUnknown::Release** en un objeto de almacén de mensajes. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

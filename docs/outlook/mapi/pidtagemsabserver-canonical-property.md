@@ -25,7 +25,7 @@ ms.locfileid: "32335802"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la ruta de acceso de un contenedor de libreta de direcciones en un escenario sin conexión o el nombre de dominio completo del servidor de catálogo global en el que reside el contenedor de libretas de direcciones en un escenario en línea.
+Especifica la ruta de acceso de un contenedor de libreta de direcciones en un escenario sin conexión o el nombre de dominio completo del servidor de catálogo global donde reside el contenedor de la libreta de direcciones en un escenario en línea.
   
 ## 
 
@@ -38,27 +38,27 @@ Especifica la ruta de acceso de un contenedor de libreta de direcciones en un es
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad tiene el tipo de propiedad restablecido en **PT_UNICODE** cuando se compila con el `UNICODE` símbolo en una plataforma Unicode y **PT_STRING8** cuando no se compila con el `UNICODE` símbolo. 
+Esta propiedad tiene el tipo de propiedad restablecido a **PT_UNICODE** cuando se compila con el símbolo en una plataforma Unicode y a PT_STRING8 cuando no se compila con `UNICODE` el  `UNICODE` símbolo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjuntos de propiedades.
+> Proporciona definiciones de conjunto de propiedades.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

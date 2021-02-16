@@ -35,49 +35,49 @@ HRESULT OpenTaggedBody(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpMessage_
   
-> a Un puntero al mensaje con el que está asociada la secuencia. No es necesario que este mensaje sea el mismo mensaje que se pasa en la llamada a la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) . 
+> [entrada] Puntero al mensaje al que está asociada la secuencia. No es necesario que este mensaje sea el mismo que se pasa en la llamada a la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx.](opentnefstreamex.md) 
     
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se abre la interfaz de la secuencia. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se abre la interfaz de secuencia. Se pueden establecer las siguientes marcas:
     
 MAPI_CREATE 
   
-> Si una propiedad no existe en el mensaje actual, se debe crear. Si la propiedad existe, los datos actuales de la propiedad deben reemplazarse por los datos de la secuencia formato de encapsulación neutro para el transporte (TNEF). Cuando una implementación establece la marca MAPI_CREATE, también debe establecer la marca MAPI_MODIFY.
+> Si una propiedad no existe en el mensaje actual, debe crearse. Si la propiedad existe, los datos actuales de la propiedad deben reemplazarse por los datos de la secuencia Transport-Neutral de formato de encapsulamiento (TNEF). Cuando una implementación establece la MAPI_CREATE, también debe establecer la MAPI_MODIFY personalizada.
     
 MAPI_MODIFY 
   
-> Solicita el permiso de lectura y escritura. La interfaz predeterminada es de sólo lectura. MAPI_MODIFY debe establecerse siempre que se establezca MAPI_CREATE.
+> Solicita permiso de lectura y escritura. La interfaz predeterminada es de solo lectura. MAPI_MODIFY se debe establecer siempre que MAPI_CREATE se establezca.
     
  _lppStream_
   
-> contempla Un puntero a un puntero a un objeto Stream que contiene el texto de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) del mensaje encapsulado pasado y que admite la interfaz [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
+> [salida] Puntero a un puntero a un objeto de secuencia que contiene el texto de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) del mensaje encapsulado pasado y que admite la interfaz [IStream.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La llamada se ha realizado correctamente y ha devuelto el valor o los valores esperados.
+> La llamada se realiza correctamente y devuelve el valor o los valores esperados.
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de transporte, los proveedores de almacenamiento de mensajes y las puertas de enlace llaman al método **ITnef:: OpenTaggedBody** para abrir una interfaz de secuencia en el texto de un mensaje encapsulado (es decir, en un objeto TNEF). 
+Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace llaman al método **ITnef::OpenTaggedBody** para abrir una interfaz de secuencia en el texto de un mensaje encapsulado (es decir, en un objeto TNEF). 
   
 Como parte de su procesamiento, **OpenTaggedBody** inserta o analiza etiquetas de datos adjuntos que indican la posición de los datos adjuntos u objetos OLE en el texto del mensaje. Las etiquetas de datos adjuntos tienen el siguiente formato: 
   
- **[[** _nombre del archivo adjunto_ **:** _n_ **en** _el nombre del contenedor de datos adjuntos_ **]]**
+ **[[** _attachment name_ **:** _n_ **in** attachment container _name_ **]]**
   
- _nombre de datos_ adjuntos describe el objeto Attachment;  _n_ es un número que identifica los datos adjuntos que forman parte de una secuencia, incrementando desde el valor pasado en el parámetro _lpKey_ de la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) ; y el _nombre del contenedor de datos_ adjuntos describe el componente físico en el que reside el objeto Attachment. 
+ _el nombre de los_ datos adjuntos describe el objeto attachment;  _n_ es un número que identifica los datos adjuntos que forman parte de una secuencia, incrementándose a partir del valor pasado en el parámetro  _lpKey_ de la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx;](opentnefstreamex.md) y  _el nombre del contenedor de_ datos adjuntos describe el componente físico donde reside el objeto de datos adjuntos. 
   
- **OpenTaggedBody** lee el texto del mensaje e inserta una etiqueta de datos adjuntos donde un objeto Attachment aparecía originalmente en el texto. No se cambia el texto del mensaje original. 
+ **OpenTaggedBody** lee el texto del mensaje e inserta una etiqueta de datos adjuntos siempre que un objeto de datos adjuntos aparecía originalmente en el texto. No se cambia el texto original del mensaje. 
   
-Cuando un mensaje que tiene etiquetas se pasa a una secuencia, se quitan las etiquetas y los objetos de datos adjuntos se reubican en la posición de las etiquetas en la secuencia.
+Cuando se pasa un mensaje con etiquetas a una secuencia, las etiquetas se quitan y los objetos adjuntos se reubican en la posición de las etiquetas en la secuencia.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -85,7 +85,7 @@ Cuando un mensaje que tiene etiquetas se pasa a una secuencia, se quitan las eti
   
 [OpenTnefStreamEx](opentnefstreamex.md)
   
-[Propiedad canónica PidTagBody](pidtagbody-canonical-property.md)
+[PidTagBody (propiedad canónica)](pidtagbody-canonical-property.md)
   
 [ITnef : IUnknown](itnefiunknown.md)
 

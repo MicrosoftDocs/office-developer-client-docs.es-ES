@@ -25,7 +25,7 @@ ms.locfileid: "32329487"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Registra un visor de formularios para notificaciones sobre eventos que afectan al formulario.
+Registra un visor de formulario para notificaciones sobre eventos que afectan al formulario.
   
 ```cpp
 HRESULT Advise(
@@ -34,41 +34,41 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _pAdvise_
   
-> a Un puntero a un objeto receptor de vista notificar para recibir las notificaciones posteriores. 
+> [entrada] Un puntero a un objeto receptor de aviso de vista para recibir las notificaciones posteriores. 
     
  _pulConnection_
   
-> contempla Un puntero a un valor distinto de cero que representa un registro de notificación correcto.
+> [salida] Puntero a un valor distinto de cero que representa un registro de notificación correcto.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El registro se realizó correctamente.
+> El registro se ha realizado correctamente.
     
 E_OUTOFMEMORY 
   
-> El registro no se ha realizado correctamente debido a memoria insuficiente.
+> El registro no se ha hecho correctamente debido a la memoria insuficiente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIForm:: Advise** de un formulario para registrar la notificación cuando se producen cambios en el formulario. 
+Los visores de formularios llaman al método **IMAPIForm::Advise** de un formulario para registrarse para recibir notificaciones cuando se producen cambios en el formulario. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-ConServe una copia del puntero View aconsejar Sink pasada en el parámetro _pAdvise_ para que pueda usarla para llamar al método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) adecuado cuando se produzca un evento. Llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del receptor de vista para reconocer el puntero hasta que se cancele el registro de la notificación. Establezca el contenido del parámetro _pulConnection_ en un número distinto de cero. 
+Mantenga una copia del puntero receptor de aviso de vista pasado en el parámetro  _pAdvise_ para que pueda usarlo para llamar al método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) adecuado cuando se produzca un evento. Llama al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del receptor del aviso de vista para conservar el puntero hasta que se cancele el registro de notificaciones. Establezca el contenido del  _parámetro pulConnection_ en un número distinto de cero. 
   
-Muchos formularios implementan un objeto auxiliar para controlar el registro y las notificaciones posteriores de eventos. 
+Muchos formularios implementan un objeto auxiliar para controlar el registro y la notificación subsiguiente de eventos. 
   
-Para obtener más información sobre el proceso de notificación en general, vea [notificación de eventos en MAPI](event-notification-in-mapi.md). 
+Para obtener más información sobre el proceso de notificación en general, vea [Notificación de eventos en MAPI](event-notification-in-mapi.md). 
   
-Para obtener más información acerca de las notificaciones y los formularios, consulte [enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md).
+Para obtener más información acerca de las notificaciones y los [formularios, vea Enviar y recibir notificaciones de formularios.](sending-and-receiving-form-notifications.md)
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -81,5 +81,5 @@ Para obtener más información acerca de las notificaciones y los formularios, c
 
 [Notificación de eventos en MAPI](event-notification-in-mapi.md)
   
-[Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md)
+[Enviar y recibir notificaciones de formularios](sending-and-receiving-form-notifications.md)
 

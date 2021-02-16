@@ -36,26 +36,26 @@ Indica el estado de respuesta devuelto por el asistente.
    
 ## <a name="remarks"></a>Comentarios
 
-Si no se establece este valor, debe considerarse respNone. De lo contrario, debe ser uno de los siguientes:
+Si no se establece este valor, se debe suponer que es respNone. De lo contrario, debe ser uno de los siguientes:
   
-|**Estado de respuesta**|**Value**|**Descripción**|
+|**Estado de la respuesta**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
-|respNone  <br/> |0x00000000  <br/> |No se requiere respuesta para este objeto. Este es el caso de objetos de cita y objetos de respuesta a la reunión.  <br/> |
-|respTentative  <br/> |0x00000002  <br/> |Este valor en el objeto de reunión del asistente indica que el asistente aceptó provisionalmente el objeto convocatoria de reunión.  <br/> |
-|respAccepted  <br/> |0x00000003  <br/> |Este valor en el objeto de reunión del asistente indica que el asistente ha aceptado el objeto convocatoria de reunión.  <br/> |
-|respDeclined  <br/> |0x00000004  <br/> |Este valor en el objeto de reunión del asistente indica que el asistente ha rechazado el objeto de convocatoria de reunión.  <br/> |
+|respNone  <br/> |0x00000000  <br/> |No se requiere respuesta para este objeto. Este es el caso de objetos de cita y objetos de respuesta de reunión.  <br/> |
+|respTentative  <br/> |0x00000002  <br/> |Este valor en el objeto de reunión del asistente indica que el asistente ha aceptado provisionalmente el objeto de solicitud de reunión.  <br/> |
+|respAccepted  <br/> |0x00000003  <br/> |Este valor en el objeto de reunión del asistente indica que el asistente ha aceptado el objeto de solicitud de reunión.  <br/> |
+|respDeclined  <br/> |0x00000004  <br/> |Este valor en el objeto de reunión del asistente indica que el asistente ha rechazado el objeto de solicitud de reunión.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -63,15 +63,15 @@ Si no se establece este valor, debe considerarse respNone. De lo contrario, debe
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -79,7 +79,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

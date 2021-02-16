@@ -19,9 +19,9 @@ ms.locfileid: "32332833"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los objetos de notificación de aviso (objetos que admiten la interfaz [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) ) son objetos MAPI que las aplicaciones cliente implementan para procesar notificaciones. **IMAPIAdviseSink** hereda directamente de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) y solo contiene un método, subnotify. **** Por lo tanto, para implementar un objeto de receptor de notificaciones, un cliente crea código para los tres métodos en **IUnknown** y [Notify](imapiadvisesink-onnotify.md).
+Los objetos receptores de aviso ( objetos que admiten [la interfaz IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) ) son objetos MAPI que las aplicaciones cliente implementan para procesar notificaciones. **IMAPIAdviseSink** hereda directamente de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) y contiene solo un método, **OnNotify**. Por lo tanto, para implementar un objeto receptor de aviso, un cliente crea código para los tres métodos en **IUnknown** y [onNotify](imapiadvisesink-onnotify.md).
   
-El archivo de encabezado Mapidefs. h define una implementación de la interfaz **IMAPIAdviseSink** mediante **DECLARE_MAPI_INTERFACE**, de la siguiente manera:
+El archivo de encabezado Mapidefs.h define una implementación de interfaz **IMAPIAdviseSink** mediante DECLARE_MAPI_INTERFACE **,** como se indica a continuación:
   
 ```cpp
 #define      INTERFACE  IMAPIAdviseSink
@@ -34,9 +34,9 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
  
 ```
 
-Los clientes que implementan los objetos del receptor de notificaciones pueden definir sus interfaces en sus objetos manualmente o con las macros **MAPI_IUNKNOWN_METHODS** y **MAPI_IMAPIADVISESINK_METHODS** . Los implementadores de objetos deben usar las macros de interfaz siempre que sea posible para garantizar la coherencia entre los objetos y ahorrar tiempo y esfuerzo. 
+Los clientes que implementan objetos receptores de aviso pueden definir sus interfaces en sus objetos manualmente o con las macros **MAPI_IUNKNOWN_METHODS** y **MAPI_IMAPIADVISESINK_METHODS** personalizadas. Los implementadores de objetos deben usar las macros de interfaz siempre que sea posible para garantizar la coherencia entre objetos y ahorrar tiempo y esfuerzo. 
   
-La implementación de los métodos [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) y [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) es relativamente sencilla porque normalmente solo se necesitan unas pocas líneas de código. Por lo tanto, los clientes y los proveedores de servicios que implementan objetos pueden realizar sus implementaciones **AddRef** y **Release** en línea. El código siguiente muestra cómo definir un objeto receptor de notificaciones de C++ con implementaciones en línea de **AddRef** y **Release**.
+La implementación de [los métodos IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) [e IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) es relativamente sencilla porque normalmente solo se necesitan unas pocas líneas de código. Por lo tanto, los clientes y proveedores de servicios que implementan objetos pueden establecer sus **implementaciones AddRef** y **Release** en línea. El siguiente código muestra cómo definir un objeto receptor de aviso de C++ con implementaciones en línea de **AddRef** y **Release**.
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink
@@ -75,13 +75,13 @@ private :
  
 ```
 
-En C, el objeto de notificación de aviso está compuesto por los siguientes elementos:
+En C, el objeto receptor de avisos se compone de los siguientes elementos:
   
-- Un puntero a una vtable que contiene punteros a las implementaciones de cada uno de los métodos en **IUnknown** y **IMAPIAdviseSink**.
+- Puntero a una tabla virtual que contiene punteros a implementaciones de cada uno de los métodos de **IUnknown** e **IMAPIAdviseSink**.
     
 - Miembros de datos.
     
-En el ejemplo de código siguiente se muestra cómo definir un objeto de receptor de notificaciones en C y construir su vtable. 
+En el siguiente ejemplo de código se muestra cómo definir un objeto receptor de avisos en C y construir su tabla virtual. 
   
 ```cpp
 // Object definition.
@@ -103,7 +103,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-Después de declarar un objeto en C, debe inicializarlo estableciendo el puntero vtable en la dirección de la vtable construida, como se muestra en el código siguiente:
+Después de declarar un objeto en C, debe inicializar el puntero de tabla virtual en la dirección de la tabla virtual construida, como se muestra en el siguiente código:
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;

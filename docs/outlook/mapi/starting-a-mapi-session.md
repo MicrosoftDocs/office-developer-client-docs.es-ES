@@ -21,17 +21,17 @@ ms.locfileid: "32336347"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Aunque hay una cantidad significativa de trabajo durante el inicio de la sesión, las tareas necesarias son mínimas. Gran parte de este trabajo se realiza en el procesamiento de MAPI de las llamadas de [MAPIInitialize](mapiinitialize.md) y [MAPILogonEx](mapilogonex.md) . Estas dos funciones aceptan marcas como parámetros de entrada para controlar aspectos de la sesión, como el control de notificaciones y la interfaz de usuario. Es importante comprender las consecuencias de establecer cada una de estas marcas al llamar a **MAPIInitialize** para inicializar las bibliotecas MAPI y **MAPILogonEx** para iniciar sesión en el subsistema MAPI. 
+Aunque hay una cantidad significativa de trabajo realizado durante el inicio de la sesión, las tareas necesarias son mínimas. Gran parte de este trabajo se realiza en el procesamiento MAPI de las llamadas [MAPIInitialize](mapiinitialize.md) y [MAPILogonEx.](mapilogonex.md) Ambas funciones aceptan marcas como parámetros de entrada para controlar aspectos de la sesión, como el control de notificaciones y la interfaz de usuario. Es importante comprender las consecuencias de establecer cada una de estas marcas al llamar a **MAPIInitialize** para inicializar las bibliotecas MAPI y **MAPILogonEx** para iniciar sesión en el subsistema MAPI. 
   
  **Para iniciar una sesión MAPI**
   
-1. Llame a **MAPIInitialize** para inicializar el conjunto estándar de bibliotecas MAPI. 
+1. Llame **a MAPIInitialize** para inicializar el conjunto estándar de bibliotecas MAPI. 
     
 2. Si necesita usar las bibliotecas OLE, llame a la función OLE [OleInitialize](https://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
     
-3. Si necesita usar la biblioteca de utilidades MAPI, llame a [ScInitMapiUtil](scinitmapiutil.md).
+3. Si necesita usar la biblioteca de utilidades MAPI, llame [a ScInitMapiUtil](scinitmapiutil.md).
     
-4. Llame a **MAPILogonEx** con un perfil válido para iniciar sesión en el subsistema MAPI. **MAPILogonEx** comprueba la configuración de cada uno de los proveedores de servicios en los servicios de mensajes incluidos en el perfil, solicitando al usuario información adicional si es necesario y es posible. Cuando se completa **MAPILogonEx** , los proveedores de servicios configurados están listos para el servicio. 
+4. Llame **a MAPILogonEx** con un perfil válido para iniciar sesión en el subsistema MAPI. **MAPILogonEx** comprueba la configuración de cada uno de los proveedores de servicios en los servicios de mensajes incluidos en el perfil, solicitando al usuario información adicional si es necesario y es posible. Cuando **MAPILogonEx finaliza,** los proveedores de servicios configurados están listos para el servicio. 
     
 ## <a name="in-this-section"></a>En esta sección
 
@@ -41,14 +41,14 @@ Aunque hay una cantidad significativa de trabajo durante el inicio de la sesión
     
 [Inicializar OLE para MAPI](initializing-ole-for-mapi.md)
   
-> Describe las llamadas que se realizan para inicializar OLE para su uso con MAPI.
+> Describe las llamadas que se deben realizar para inicializar OLE para su uso con MAPI.
     
-[Inicializar las herramientas MAPI](initializing-the-mapi-utilities.md)
+[Inicialización de las utilidades MAPI](initializing-the-mapi-utilities.md)
   
-> Describe cómo inicializar las herramientas MAPI.
+> Describe cómo inicializar utilidades MAPI.
     
 [Iniciar sesión en MAPI](logging-on-to-mapi.md)
   
-> Describe cómo las aplicaciones cliente inician sesión en el subsistema MAPI.
+> Describe cómo las aplicaciones cliente inician sesión en el subs system MAPI.
     
 

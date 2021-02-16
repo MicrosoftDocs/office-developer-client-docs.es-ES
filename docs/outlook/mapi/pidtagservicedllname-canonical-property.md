@@ -25,7 +25,7 @@ ms.locfileid: "32330068"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre de archivo del archivo DLL que contiene la función de punto de entrada del proveedor de servicios de mensajes para llamar para la configuración.
+Contiene el nombre de archivo de la DLL que contiene la función de punto de entrada del proveedor de servicios de mensajes para llamar a la configuración.
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contiene el nombre de archivo del archivo DLL que contiene la función de punto 
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando el nombre de la función de punto de entrada aparece en el método **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)), indica que existe el punto de entrada.
+Cuando el nombre de la función de punto de entrada aparece en el **método PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)), indica que el punto de entrada existe.
   
-MAPI utiliza una Convención de nomenclatura de archivos DLL. Anexa la cadena 32 al nombre de la DLL base para identificar la versión que se ejecuta en las plataformas de 32 bits. Por ejemplo, cuando el nombre MAPI. DLL, MAPI crea el nombre MAPI32. DLL para representar la versión de 32 bits correspondiente del archivo DLL.
+MAPI usa una convención de nomenclatura de archivos DLL. Anexa la cadena 32 al nombre de dll base para identificar la versión que se ejecuta en plataformas de 32 bits. Por ejemplo, cuando se especifica el nombre MAPI.DLL, MAPI construye el nombre MAPI32.DLL para representar la versión de 32 bits correspondiente de la DLL.
   
-Estas propiedades deben especificar el nombre base. MAPI anexa la cadena 32 según corresponda. La inclusión de la cadena 32 como parte de estas propiedades da como resultado un error.
+Estas propiedades deben especificar el nombre base. MAPI anexa la cadena 32 según corresponda. La inclusión de la cadena 32 como parte de estas propiedades produce un error.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

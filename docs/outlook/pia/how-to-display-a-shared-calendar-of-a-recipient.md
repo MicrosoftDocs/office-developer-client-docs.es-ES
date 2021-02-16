@@ -30,7 +30,7 @@ En el siguiente ejemplo de código, DisplayManagerCalendar abre y muestra la car
 
 > [!NOTE]
 > Al crear un objeto **Recipient** utilizando el método **CreateRecipient** del objeto **Namespace** o el método [Add(String)](https://msdn.microsoft.com/library/bb612668(v=office.15)) de la colección **Recipients**, debe proporcionar un nombre del destinatario. Luego, el **Recipient** se resuelve con este nombre. Un nombre del destinatario puede tomar cualquiera de los siguientes formatos:
-> - Nombre
+> - Nombre para mostrar
 > - Alias
 > - Dirección del protocolo simple de transferencia de correo (SMTP)
 

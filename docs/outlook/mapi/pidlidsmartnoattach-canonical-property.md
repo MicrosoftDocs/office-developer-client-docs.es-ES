@@ -25,13 +25,13 @@ ms.locfileid: "32331321"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa si los datos adjuntos de un mensaje se consideran ocultos.
+Indica si los datos adjuntos de un mensaje se consideran ocultos.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSmartNoAttach  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008514  <br/> |
+|Long ID (LID):  <br/> |0x00008514  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
@@ -39,15 +39,15 @@ Representa si los datos adjuntos de un mensaje se consideran ocultos.
 
 Esta propiedad es TRUE si los datos adjuntos del mensaje se consideran ocultos.
   
-Indica si el objeto de mensaje no tiene datos adjuntos visibles para el usuario final. Es posible que esta propiedad esté establecida como unset; Si es así, se asume un valor predeterminado de FALSE.
+Indica si el objeto de mensaje no tiene datos adjuntos visibles para el usuario final. Esta propiedad puede estar sin conjunto; si es así, se supone un valor predeterminado de FALSE.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definición de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -55,11 +55,11 @@ Indica si el objeto de mensaje no tiene datos adjuntos visibles para el usuario 
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -67,7 +67,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

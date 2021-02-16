@@ -15,37 +15,37 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32338468"
 ---
-# <a name="mnlslstrlenw"></a>MNLS_lstrlenW
+# <a name="mnls_lstrlenw"></a>MNLS_lstrlenW
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina la longitud de la cadena Unicode especificada, excluyendo el carácter null de terminación.
+Determina la longitud de la cadena Unicode especificada, excluyendo el carácter nulo de terminación.
   
 > [!TIP]
-> Considere la posibilidad de usar [StringCchLength](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx) en su lugar. 
+> Considere la posibilidad [de usar StringCchLength en](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx) su lugar. 
   
 ```cpp
 int MNLS_lstrlen(
   LPCWSTR lpsz);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpsz_
   
-> a Cadena Unicode terminada en null que se va a comprobar.
+> [entrada] Cadena Unicode terminada en null que se va a comprobar.
     
 ## <a name="return-value"></a>Valor devuelto
 
-La función devuelve un número entero con la longitud de la cadena. Se trata de un recuento de caracteres de la cadena, excluido el carácter null de terminación. Si _lpsz_ es null, la función devuelve cero. 
+La función devuelve un entero con la longitud de la cadena. Es un recuento de caracteres de la cadena, excepto el carácter nulo de terminación. Si  _lpsz_ es NULL, la función devuelve cero. 
   
 ## <a name="remarks"></a>Comentarios
 
-Esta función ajusta la función **lstrlen** . Para obtener más información, vea [lstrlen](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx).
+Esta función ajusta la **función lstrlen.** Para obtener más información, [vea lstrlen](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

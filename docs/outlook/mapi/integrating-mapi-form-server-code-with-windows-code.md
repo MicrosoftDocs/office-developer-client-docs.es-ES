@@ -21,33 +21,33 @@ ms.locfileid: "32332182"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Recuerde que el servidor de formularios es una aplicación Win32. Por lo tanto, hay algunas tareas relacionadas con la carga del servidor de formularios en la memoria y la salida limpia. Como todas las aplicaciones para Windows, el punto de entrada del servidor de formularios es la función **WinMain** . Esta función es el punto adecuado para realizar las siguientes tareas: 
+Recuerde que el servidor de formulario es una aplicación win32. Como tal, hay algunas tareas relacionadas con la carga del servidor de formularios en la memoria y la salida limpia. Al igual que todas las aplicaciones de Windows, el punto de entrada del servidor de formulario es la **función WinMain.** Esta función es el lugar adecuado para realizar las siguientes tareas: 
   
 - Crear y registrar una clase de ventana para que el servidor de formularios pueda interactuar con otros componentes OLE.
     
 - Crear y registrar una clase o clases de ventana para las interfaces de usuario de los objetos de formulario.
     
-- Llamar a la función [MAPIInitialize](mapiinitialize.md) . **MAPIInitialize** también controla la inicialización OLE necesaria. Esto debe realizarse una vez por instancia del servidor de formularios. 
+- Llamar a [la función MAPIInitialize.](mapiinitialize.md) **MAPIInitialize también** controla la inicialización OLE necesaria. Esto debe hacerse una vez por instancia del servidor de formulario. 
     
-- Registrar un átomo global con una representación de cadena del identificador de clase (CLSID) del servidor de formulario. Este átomo debería existir mientras dure el servidor de formularios.
+- Registrar un atom global con una representación de cadena del identificador de clase (CLSID) del servidor de formulario. Este atom debe existir durante la duración del servidor de formulario.
     
-- Llamar a la función OLE [CoRegisterClassObject](https://msdn.microsoft.com/library/ms693407.aspx) para registrar el generador de clases del servidor de formularios con OLE. 
+- Llamar a la función OLE [CoRegisterClassObject para](https://msdn.microsoft.com/library/ms693407.aspx) registrar la fábrica de clases del servidor de formulario con OLE. 
     
-- Crear una ventana principal para recibir mensajes. Es probable que esta ventana no necesite ser visible porque el usuario va a interactuar con las ventanas específicas asociadas con los objetos de formulario individuales. Sin embargo, durante el desarrollo, la ventana principal puede ser un punto útil para depurar el resultado o el control del servidor de formularios.
+- Crear una ventana principal para recibir mensajes. Es probable que esta ventana no tenga que estar visible porque el usuario interactuará con las ventanas específicas asociadas con objetos de formulario individuales. Sin embargo, durante el desarrollo, la ventana principal puede ser un lugar conveniente para depurar los resultados o el control del servidor de formularios.
     
-- Crear un bucle de mensajes que se ejecute durante el período de duración del servidor de formularios, convirtiendo y distribuyendo mensajes de Windows en objetos de formulario activos.
+- Creación de un bucle de mensajes que se ejecuta durante el ciclo de vida del servidor de formularios, traduciendo y distribuyendo mensajes de Windows a objetos de formulario activos.
     
-Cuando se cierre el servidor de formularios, debe realizar las tareas siguientes:
+Cuando el servidor de formulario se cierra, debe realizar las siguientes tareas:
   
-- Llame a la función OLE [CoRevokeClassObject](https://msdn.microsoft.com/library/ms688650%28VS.85%29.aspx) para revocar el registro OLE de la clase de mensaje. 
+- Llame a la función OLE [CoRevokeClassObject para](https://msdn.microsoft.com/library/ms688650%28VS.85%29.aspx) revocar el registro OLE de la clase de mensaje. 
     
-- Llame a **MAPIUninitialize** para cerrar correctamente la conexión del servidor de formularios con MAPI. 
+- Llame **a MAPIUninitialize** para cerrar correctamente la conexión del servidor de formulario a MAPI. 
     
-- Elimine el átomo global que contiene la representación de cadena del identificador de clase.
+- Elimine el atom global que contiene la representación de cadena del identificador de clase.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
-[Escribir código de servidor de formulario](writing-form-server-code.md)
+[Escritura de código de servidor de formulario](writing-form-server-code.md)
 

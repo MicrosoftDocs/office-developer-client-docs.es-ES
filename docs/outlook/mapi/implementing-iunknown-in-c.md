@@ -19,15 +19,15 @@ ms.locfileid: "32346777"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las implementaciones del método [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) en C son muy similares a las implementaciones de C++. Hay dos pasos básicos para la implementación: 
+Las implementaciones del [método IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) en C son muy similares a las implementaciones de C++. Hay dos pasos básicos para la implementación: 
   
-1. Validando parámetros.
+1. Validación de parámetros.
     
-2. Comprobando el identificador de la interfaz solicitada con la lista de interfaces admitidas por el objeto y devolviendo el valor E_NO_INTERFACE o un puntero de interfaz válido. Si se devuelve un puntero de interfaz, la implementación también debe llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para incrementar el recuento de referencia. 
+2. Comprobar el identificador de la interfaz solicitada con la lista de interfaces admitidas por el objeto y devolver el valor E_NO_INTERFACE o un puntero de interfaz válido. Si se devuelve un puntero de interfaz, la implementación también debe llamar al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para incrementar el recuento de referencias. 
     
-La diferencia principal entre una implementación de **QueryInterface** en C y C++ es el primer parámetro adicional de la versión de c. Dado que el puntero de objeto se agrega a la lista de parámetros, una implementación de C de **QueryInterface** debe tener más validación de parámetros que una implementación de C++. La lógica para comprobar el identificador de la interfaz, aumentar el recuento de referencia y devolver un puntero de objeto debe ser idéntica en ambos idiomas. 
+La principal diferencia entre una implementación de **QueryInterface** en C y C++ es el primer parámetro adicional de la versión C. Dado que el puntero de objeto se agrega a la lista de parámetros, una implementación de C de **QueryInterface** debe tener más validación de parámetros que una implementación de C++. La lógica para comprobar el identificador de interfaz, incrementar el recuento de referencias y devolver un puntero de objeto debe ser idéntica en ambos idiomas. 
   
-En el siguiente ejemplo de código se muestra cómo implementar **QueryInterface** en C para un objeto status. 
+En el siguiente ejemplo de código se muestra cómo implementar **QueryInterface** en C para un objeto de estado. 
   
 ```cpp
 STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
@@ -64,9 +64,9 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
 
 ```
 
-Mientras que la implementación del método **AddRef** en C es similar a una implementación de c++, una implementación de C del método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) puede ser más elaborada que una versión de c++. Esto se debe a que gran parte de la funcionalidad que implica liberar un objeto puede incorporarse en el constructor y el destructor de C++, y C no tiene este mecanismo. Toda esta funcionalidad debe incluirse en el método **Release** . Además, debido al parámetro adicional y a su vtable explícito, se necesita más validación. 
+Mientras que la implementación del **método AddRef** en C es similar a una implementación de C++, una implementación de C del método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) puede ser más compleja que una versión de C++. Esto se debe a que gran parte de la funcionalidad necesaria para liberar un objeto se puede incorporar al constructor y destructor de C++, y C no tiene dicho mecanismo. Toda esta funcionalidad debe incluirse en el **método Release.** Además, debido al parámetro adicional y a su tabla virtual explícita, se requiere más validación. 
   
-La siguiente llamada al método **AddRef** ilustra una implementación típica de C para un objeto status. 
+La siguiente **llamada al método AddRef** ilustra una implementación típica de C para un objeto de estado. 
   
 ```cpp
 STDMETHODIMP_(ULONG) STATUS_AddRef(LPMYSTATUSOBJ lpMyObj)
@@ -90,13 +90,13 @@ STDMETHODIMP_(ULONG) STATUS_AddRef(LPMYSTATUSOBJ lpMyObj)
 
 ```
 
-En el siguiente ejemplo de código se muestra una implementación típica de la **versión de lanzamiento** para un objeto de estado de C. Si el recuento de referencia es 0 después de que se haya disminuido, una implementación de objeto de estado de C debe realizar las tareas siguientes: 
+En el siguiente ejemplo de código se muestra una implementación típica de **Release** para un objeto de estado C. Si el recuento de referencias es 0 después de que se disminuye, una implementación de objeto de estado C debe realizar las siguientes tareas: 
   
-- Liberar cualquier puntero mantenido en objetos. 
+- Libera los punteros que se mantienen en los objetos. 
     
-- Establezca la tabla vtable en NULL, facilitando la depuración en caso de que el usuario de un objeto que se ha puesto en el **mercado** haya continuado intentando usar el objeto. 
+- Establezca la tabla virtual en NULL, facilitando la depuración en caso de que el usuario de un objeto llamado **Release** continúe intentando usar el objeto. 
     
-- Llame a **MAPIFreeBuffer** para liberar el objeto. 
+- Llama **a MAPIFreeBuffer** para liberar el objeto. 
     
 ```cpp
 STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
@@ -130,7 +130,7 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Implementación de objetos MAPI](implementing-mapi-objects.md)
 - [Implementación de la interfaz IUnknown](implementing-the-iunknown-interface.md)

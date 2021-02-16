@@ -25,39 +25,39 @@ ms.locfileid: "32332042"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el EntryID original de la dirección de fax particular del contacto.
+Especifica el EntryID original de la dirección de fax principal del contacto.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidFax2OriginalEntryID  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x000080C5  <br/> |
+|Long ID (LID):  <br/> |0x000080C5  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Contact  <br/> |
+|Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad, si está presente, debe especificar la EntryId de uso único que corresponda a esta dirección de fax.
+Esta propiedad, si está presente, debe especificar el EntryId único que corresponde a esta dirección de fax.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definición de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten para contactos y listas de distribución personales.
+> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

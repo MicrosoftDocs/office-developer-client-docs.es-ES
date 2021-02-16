@@ -25,7 +25,7 @@ ms.locfileid: "32335707"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela el envío de notificaciones previamente configurado con una llamada al método [IMAPISession:: Advise](imapisession-advise.md) . 
+Cancela el envío de notificaciones previamente configuradas con una llamada al método [IMAPISession::Advise.](imapisession-advise.md) 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulConnection_
   
-> a Un número de conexión asociado con un registro de notificación activo. El valor de _ulConnection_ debe haber sido devuelto por una llamada anterior a **IMAPISession:: Advise**.
+> [entrada] Un número de conexión asociado a un registro de notificación activo. El valor de  _ulConnection_ debe haber sido devuelto por una llamada anterior a **IMAPISession::Advise**.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,11 +47,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IMAPISession:: Unadvise** cancela un registro para la notificación. No **aconseja** liberar su puntero al receptor de notificaciones del autor de la llamada, que recibió en la llamada de **aviso** utilizada para el registro. 
+El **método IMAPISession::Unadvise** cancela un registro para la notificación. **Unadvise** libera su puntero al receptor de avisos del autor de la llamada, que recibió en la llamada **advise** usada para el registro. 
   
-Generalmente, **Unadvise** llama al método [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del receptor de notificaciones durante **** la llamada a Unadvise. Sin embargo, si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink:: NotifyTo](imapiadvisesink-onnotify.md) del receptor de notificación, la llamada de **liberación** se retrasa hasta que se devuelva el método **BENOTIFY** . 
+Por lo general, **Unadvise llama** al método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del receptor de avisos durante la **llamada Unadvise.** Sin embargo, si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del receptor de aviso, la llamada **Release** se retrasa hasta que el método **OnNotify** devuelve. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

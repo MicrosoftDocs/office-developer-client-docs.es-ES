@@ -25,7 +25,7 @@ ms.locfileid: "32342554"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la firma de asignación de las propiedades con nombre de un objeto MAPI en particular. 
+Contiene la firma de asignación para las propiedades con nombre de un objeto MAPI determinado. 
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contiene la firma de asignación de las propiedades con nombre de un objeto MAPI
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los objetos que tienen propiedades con nombre expongan esta propiedad. Una aplicación cliente debe comprobar la propiedad **PR_MAPPING_SIGNATURE** de ambos objetos cuando se copian propiedades con nombre de un objeto a otro. El uso de esta propiedad puede minimizar la conversión entre los nombres y los identificadores de las propiedades que se han copiado. 
+Se recomienda que los objetos con propiedades con nombre exponen esta propiedad. Una aplicación cliente debe comprobar la **PR_MAPPING_SIGNATURE** propiedad de ambos objetos al copiar propiedades con nombre de un objeto a otro. El uso de esta propiedad puede minimizar la traducción entre los nombres e identificadores de las propiedades copiadas. 
   
-Si esta propiedad no existe para un objeto MAPI determinado, el objeto tiene su propia asignación única de nombres e identificadores. En este caso, el cliente debe llamar al método [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) en el objeto de origen y, a continuación, al método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) en el objeto de destino. 
+Si esta propiedad no existe para un objeto MAPI determinado, el objeto tiene su propia asignación única de nombres e identificadores. En este caso, el cliente debe llamar al método [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) en el objeto de origen y, a continuación, al método [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) en el objeto de destino. 
   
-Cuando dos objetos tienen el mismo valor **PR_MAPPING_SIGNATURE** , no es necesario que el cliente traduzca el nombre Identifier e Identifier a Name. El cliente simplemente puede llamar al método [IMAPIProp:: GetProps](imapiprop-getprops.md) en el origen y, a continuación, al método [IMAPIProp:: SetProps](imapiprop-setprops.md) en el destino. Esto es conveniente para los clientes que realizan copias personalizadas de propiedades con nombre y para proveedores que implementan los métodos [IMAPIProp:: CopyTo](imapiprop-copyto.md) y [IMAPIProp:: CopyProps](imapiprop-copyprops.md) . 
+Cuando dos objetos tienen el mismo **PR_MAPPING_SIGNATURE** valor, el cliente no necesita traducir el nombre al identificador y al nombre. El cliente simplemente puede llamar al método [IMAPIProp::GetProps](imapiprop-getprops.md) en el origen y, a continuación, al método [IMAPIProp::SetProps](imapiprop-setprops.md) en el destino. Esto es conveniente para los clientes que realizan copias personalizadas de propiedades con nombre y para los proveedores que implementan los métodos [IMAPIProp::CopyTo](imapiprop-copyto.md) e [IMAPIProp::CopyProps.](imapiprop-copyprops.md) 
   
-Para obtener más información acerca de las propiedades con nombre y la asignación de nombres e identificadores, consulte [MAPI con nombre de propiedades](mapi-named-properties.md). 
+Para obtener más información sobre las propiedades con nombre y la asignación de nombres e identificadores, vea [MAPI Named Properties](mapi-named-properties.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de las listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -77,7 +77,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

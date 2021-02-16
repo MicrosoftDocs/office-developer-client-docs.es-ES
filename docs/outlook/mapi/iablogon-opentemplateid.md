@@ -25,7 +25,7 @@ ms.locfileid: "32334751"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Abre una entrada de destinatario que tiene datos que residen en un proveedor de la libreta de direcciones de host.
+Abre una entrada de destinatario que tiene datos que residen en un proveedor de libreta de direcciones host.
   
 ```cpp
 HRESULT OpenTemplateID(
@@ -39,93 +39,93 @@ HRESULT OpenTemplateID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _cbTemplateID_
   
-> a El recuento de bytes en el identificador de plantilla al que apunta el parámetro _lpTemplateID_ . 
+> [entrada] Recuento de bytes en el identificador de plantilla al que apunta el _parámetro lpTemplateID._ 
     
  _lpTemplateID_
   
-> a Un puntero al identificador de la plantilla o a la propiedad **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de la entrada del destinatario que se va a abrir.
+> [entrada] Puntero al identificador de plantilla o PR_TEMPLATEID **(** [PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de la entrada de destinatario que se va a abrir.
     
  _ulTemplateFlags_
   
-> a Máscara de la máscara usada para indicar cómo abrir la entrada representada por el identificador de la plantilla. Se puede establecer la siguiente marca:
+> [entrada] Máscara de bits de marcas que se usa para indicar cómo abrir la entrada representada por el identificador de plantilla. Se puede establecer la siguiente marca:
     
 FILL_ENTRY 
   
-> El proveedor de host está creando una nueva entrada en su contenedor en función de la entrada representada por el identificador de la plantilla. El método **IABLogon:: OpenTemplateID** debe realizar la inicialización específica de la entrada del proveedor de host mediante la implementación de [IMAPIProp: IUnknown](imapipropiunknown.md) en el parámetro _lpMAPIPropData_ o devolver un **IMAPIProp personalizado **implementación de la interfaz en el parámetro _lppMAPIPropNew_ . 
+> El proveedor de host está creando una nueva entrada en su contenedor en función de la entrada representada por el identificador de plantilla. El método **IABLogon::OpenTemplateID** debe realizar una inicialización específica de la entrada del proveedor de host mediante la implementación [IMAPIProp : IUnknown](imapipropiunknown.md) en el parámetro _lpMAPIPropData_ o devolver una implementación de interfaz **IMAPIProp** personalizada en el parámetro _lppMAPIPropNew._ 
     
  _lpMAPIPropData_
   
-> a Un puntero al objeto Property del proveedor de host e implementación de una interfaz derivada de **IMAPIProp**.
+> [entrada] Puntero al objeto de propiedad del proveedor de host e implementación de una interfaz derivada de **IMAPIProp**.
     
  _lpInterface_
   
-> a Un puntero al identificador de interfaz (IID) que representa el tipo de puntero de interfaz que se va a devolver en el parámetro _lppMAPIPropNew_ . Al pasar **null** , se devuelve la interfaz de usuario de mensajería estándar, [IMailUser: IMAPIProp](imailuserimapiprop.md).
+> [entrada] Puntero al identificador de interfaz (IID) que representa el tipo de puntero de interfaz que se devolverá en el parámetro _lppMAPIPropNew._ Pasar **null** devuelve la interfaz de usuario de mensajería estándar, [IMailUser : IMAPIProp](imailuserimapiprop.md).
     
  _lppMAPIPropNew_
   
-> contempla Un puntero al objeto de propiedad enlazado y una implementación de una interfaz derivada de **IMAPIProp**.
+> [salida] Puntero al objeto de propiedad enlazada y una implementación de una interfaz derivada de **IMAPIProp**.
     
  _lpMAPIPropSibling_
   
-> contempla Reserve debe ser **null**.
+> [salida] Reservado; debe ser **null**.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El código adecuado se ha enlazado correctamente a los datos relacionados en el proveedor de host.
+> El código adecuado se ha enlazado correctamente a datos relacionados en el proveedor de host.
     
 MAPI_E_NO_SUPPORT 
   
-> El objeto no admite identificadores de plantilla.
+> El objeto no admite los IDs de plantilla.
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> El proveedor de libreta de direcciones no reconoce el identificador de plantilla pasado en el parámetro _lpTemplateID_ . 
+> El proveedor de libreta de direcciones no reconoce el identificador de plantilla pasado en el parámetro _lpTemplateID._ 
     
 ## <a name="remarks"></a>Comentarios
 
-El método **IABLogon:: OpenTemplateID** solo se implementa por los proveedores de la libreta de direcciones que necesitan mantener el control sobre las copias de sus entradas que se encuentran en los contenedores de los proveedores de host. Los proveedores que implementan **OpenTemplateID** se conocen como proveedores de la libreta de direcciones externa. Los proveedores de host llaman a [IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md) para crear una entrada copiada o abrir la entrada copiada y MAPI pasa la llamada a **IABLogon:: OpenTemplateID**. **IABLogon:: OpenTemplateID** abre la entrada y enlaza el código que la controla a los datos en el proveedor de host. 
+El **método IABLogon::OpenTemplateID** solo lo implementan los proveedores de libretas de direcciones que necesitan mantener el control sobre las copias de sus entradas que se encuentran en los contenedores de los proveedores de host. Los proveedores que implementan **OpenTemplateID** se conocen como proveedores de libretas de direcciones externos. Los proveedores de host llaman a [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) para crear una entrada copiada o abrir la entrada copiada, y MAPI pasa la llamada a **IABLogon::OpenTemplateID**. **IABLogon::OpenTemplateID** abre la entrada y enlaza el código que la controla a los datos del proveedor de host. 
   
-En lugar de usar un identificador de entrada, **IABLogon:: OpenTemplateID** usa otra propiedad, el identificador de plantilla de la entrada, **PR_TEMPLATEID**. Los identificadores de plantilla deben ser compatibles con las entradas cuyo código deba enlazarse a los datos de un proveedor de host.
+En lugar de usar un identificador de entrada, **IABLogon::OpenTemplateID** usa otra propiedad, el identificador de plantilla de la **entrada, PR_TEMPLATEID**. Los identificadores de plantilla deben ser compatibles con las entradas cuyo código debe enlazarse a datos de un proveedor de host.
   
-Algunos ejemplos de Cuándo un proveedor de libreta de direcciones debe implementar **IABLogon:: OpenTemplateID** son los siguientes: 
+A continuación se muestran algunos ejemplos de cuándo un proveedor de libreta de direcciones debe implementar **IABLogon::OpenTemplateID:** 
   
-- Para actualizar periódicamente los datos de una entrada copiada de modo que permanezca sincronizada con el original.
+- Para actualizar periódicamente los datos de una entrada copiada de modo que permanezcan sincronizados con el original.
     
-- Para implementar la funcionalidad que el proveedor de host no puede implementar, como llenar de forma dinámica una lista que aparece en la tabla de detalles de la entrada a partir de los datos de un servidor.
+- Para implementar funciones que el proveedor de host no puede implementar, como rellenar dinámicamente una lista que aparece en la tabla de detalles de la entrada a partir de los datos de un servidor.
     
-- Para controlar la interacción entre las propiedades de la entrada del proveedor de host y la entrada original, como calcular el **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) a partir de los valores de los controles de edición en la visualización de detalles que contienen diferentes componentes de la dirección.
+- Para controlar la interacción entre las propiedades de la entrada del proveedor de host y la entrada original, como calcular **el PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) a partir de los valores de los controles de edición en la presentación de detalles que contienen diferentes componentes de la dirección.
     
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Cuando un proveedor de host copia o crea una entrada de su proveedor y proporciona una implementación de objeto Property a través de **IABLogon:: OpenTemplateID**, controla la mayoría de las llamadas para mantener la entrada. Sin embargo, dado que es el proveedor de host el que puede reenviar las llamadas a usted, el proveedor de hosts puede interceptar cualquier llamada y realizar un procesamiento personalizado antes de reenviar la llamada.
+Cuando un proveedor de host copia o crea una entrada de su proveedor y proporciona una implementación de objeto de propiedad a través de **IABLogon::OpenTemplateID**, controla la mayoría de las llamadas para mantener la entrada. Sin embargo, dado que es el proveedor de host el que le reenvía estas llamadas, el proveedor de host puede interceptar cualquier llamada y realizar un procesamiento personalizado antes de reenviar la llamada.
   
-Debe usar las siguientes instrucciones en las implementaciones de objetos de propiedad:
+Debe usar las siguientes directrices en las implementaciones de objetos de propiedad:
   
-- Cuando se llama a [IMAPIProp:: GetProps](imapiprop-getprops.md) , determine si la solicitud es para una propiedad calculada y, si es así, controle. Transfiera todas las solicitudes de propiedades no calculadas al proveedor de host. 
+- Cuando se llama a [IMAPIProp::GetProps,](imapiprop-getprops.md) determine si la solicitud es para una propiedad calculada y, si es así, controlarla. Transferir todas las solicitudes de propiedades no comedida al proveedor de host. 
     
-- Cuando se llama a [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) para abrir cualquier tabla excepto la tabla de visualización de detalles, administre la solicitud. La mayoría de las tablas no se pueden copiar con precisión en el proveedor de host. Debe generar la implementación de **IMAPITable** para estas tablas solicitadas. La tabla de detalles **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) propiedad debe copiarse en el proveedor de host. Esto permite a este proveedor generar la tabla de forma local. Es posible que desee incluir la implementación de la tabla de visualización para generar notificaciones de tabla de visualización. 
+- Cuando [se llama a IMAPIProp::OpenProperty](imapiprop-openproperty.md) para abrir cualquier tabla excepto la tabla para mostrar detalles, controle la solicitud. La mayoría de las tablas no se pueden copiar con precisión en el proveedor de host. Debe generar la implementación **de IMAPITable** para estas tablas solicitadas. La tabla de **detalles PR_DETAILS_TABLE** propiedad ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) debe copiarse en el proveedor de host. Esto permite a este proveedor generar la tabla localmente. Es posible que quieras encapsular la implementación de la tabla para mostrar para generar notificaciones de tabla para mostrar. 
     
-- Cuando se llama a [IMAPIProp:: SetProps](imapiprop-setprops.md) , el proveedor de host puede validar los datos antes de permitir que establezca las propiedades. Puede comprobar que se han establecido o calculado todas las propiedades necesarias. Si se detecta un error, devuelva el valor de error adecuado y, si es posible, una explicación adicional a [IMAPIProp:: GetLastError](imapiprop-getlasterror.md).
+- Cuando [se llama a IMAPIProp::SetProps,](imapiprop-setprops.md) el proveedor de host puede validar los datos antes de permitirle establecer las propiedades. Puede comprobar que se han establecido o calculado todas las propiedades necesarias. Si se detecta un error, devuelva el valor de error adecuado y, si puede, cualquier explicación adicional a través de [IMAPIProp::GetLastError](imapiprop-getlasterror.md).
     
-- Cuando se llama a [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) , es posible que el proveedor de host desee realizar el procesamiento antes de guardar la entrada. Debe guardar todos los datos que se vean afectados por las propiedades modificadas, como una nueva dirección, en la entrada del proveedor de host. 
+- Cuando [se llama a IMAPIProp::SaveChanges,](imapiprop-savechanges.md) es posible que el proveedor de host desee realizar el procesamiento antes de guardar la entrada. Debe guardar los datos que se ven afectados por las propiedades modificadas, como una dirección nueva, en la entrada del proveedor de host. 
     
-En general, haga que la implementación de la entrada que pasa al proveedor de host intercepte todos los métodos para realizar una manipulación específica del contexto de las propiedades relevantes. Si la marca FILL_ENTRY se pasa en el parámetro _ulTemplateFlags_ , establezca todas las propiedades de la entrada. 
+En general, haga que la implementación de la entrada que pase de vuelta al proveedor de host intercepte todos los métodos para realizar una manipulación específica del contexto de las propiedades relevantes. Si la FILL_ENTRY se pasa en el  _parámetro ulTemplateFlags,_ establezca todas las propiedades de la entrada. 
   
-Si devuelve un nuevo objeto Property en el parámetro _lppMAPIPropNew_ , llame al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del objeto Property del proveedor de host para mantener una referencia. Todas las llamadas a través del objeto enlazado que la implementación de **IMAPIProp** devueltos en _lppMAPIPropNew_ deben enrutarse a su método correspondiente en el objeto de la propiedad host después de que se trate con el objeto enlazado. 
+Si devuelve un nuevo objeto de propiedad en el parámetro  _lppMAPIPropNew,_ llame al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del objeto de propiedad del proveedor de host para mantener una referencia. Todas las llamadas a través del objeto enlazado que la implementación **IMAPIProp** devolvió en  _lppMAPIPropNew_ se deben enrutar a su método correspondiente en el objeto de propiedad host después de que el objeto enlazado las trata. 
   
-Los identificadores de propiedad de las propiedades con nombre que se pasan a través del objeto de propiedad enlazado están en el espacio de nombres del identificador del proveedor. La implementación del método [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md) debe determinar los nombres de las propiedades para que pueda realizar cualquier tarea específica de la plantilla. De forma similar, las propiedades que el proveedor pasa al proveedor de host también deben estar en el espacio de nombres. Por ejemplo, si establece una propiedad con nombre en **OpenTemplateID**, debe usar uno de sus identificadores para el nombre, creando si es necesario, llamando al método [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+Los identificadores de propiedad de las propiedades con nombre que se pasan a través del objeto de propiedad enlazada se encuentran en el espacio de nombres de identificador del proveedor. La implementación del método [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) debe determinar los nombres de las propiedades para que pueda realizar cualquier tarea específica de la plantilla. Del mismo modo, las propiedades que el proveedor pasa al proveedor de host también deben estar en el espacio de nombres. Por ejemplo, si establece una propiedad con nombre en **OpenTemplateID,** debe usar uno de los identificadores para el nombre; para crearla, si es necesario, llama al método [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) 
   
-Si no reconoce el identificador de entrada que se ha pasado en _lpTemplateID_, devuelva MAPI_E_UNKNOWN_ENTRYID.
+Si no reconoce el identificador de entrada pasado  _en lpTemplateID,_ devuelva MAPI_E_UNKNOWN_ENTRYID.
   
-Para obtener más información acerca de cómo trabajar con identificadores de plantillas de la libreta de direcciones, consulte [actuar como un proveedor de libreta de direcciones externa](acting-as-a-foreign-address-book-provider.md).
+Para obtener más información acerca de cómo trabajar con identificadores de plantilla de libreta de direcciones, vea Actuar como proveedor externo de [libretas de direcciones.](acting-as-a-foreign-address-book-provider.md)
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

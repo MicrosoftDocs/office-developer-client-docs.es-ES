@@ -25,24 +25,24 @@ ms.locfileid: "32342507"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor que indica el remitente del mensaje que ha emitido la confidencialidad de un mensaje.
+Contiene un valor que indica la opinión del remitente del mensaje sobre la sensibilidad de un mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_SENSITIVITY  <br/> |
 |Identificador:  <br/> |0x0036  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los objetos de mensaje expongan esta propiedad.
+Se recomienda que los objetos de mensaje exponán esta propiedad.
   
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
 SENSITIVITY_NONE 
   
-> El mensaje no tiene una sensibilidad especial.
+> El mensaje no tiene confidencialidad especial.
     
 SENSITIVITY_PERSONAL 
   
@@ -54,15 +54,15 @@ SENSITIVITY_PRIVATE
     
 SENSITIVITY_COMPANY_CONFIDENTIAL 
   
-> El mensaje se designa confidencial de la empresa.
+> El mensaje se designa como confidencial de la empresa.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -70,15 +70,15 @@ SENSITIVITY_COMPANY_CONFIDENTIAL
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -86,7 +86,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

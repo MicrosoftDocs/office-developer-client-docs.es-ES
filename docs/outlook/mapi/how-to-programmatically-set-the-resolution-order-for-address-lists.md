@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-description: 'Última modificación: 06 de julio de 2012'
+description: 'Last modified: July 06, 2012'
 ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,15 +17,15 @@ ms.locfileid: "32345965"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Este tema contiene un ejemplo de código en C++ que establece mediante programación el orden de las listas de direcciones por las que se resuelven los destinatarios de los mensajes de correo electrónico y los asistentes en las convocatorias de reunión.
+Este tema contiene un ejemplo de código en C++ que establece mediante programación el orden de las listas de direcciones mediante el cual se resuelven los destinatarios de los mensajes de correo electrónico y los asistentes en las solicitudes de reunión.
   
-En MAPI, cada perfil puede admitir varias listas de direcciones y cada lista de direcciones reside en su propio contenedor. MAPI admite el método **[SetSearchPath](https://support.microsoft.com/kb/292590)** en la interfaz que permite establecer una nueva ruta de búsqueda en el perfil que se usa para la resolución de nombres. Para usar el método **IAddrBook:: SetSearchPath** , debe definir el orden de resolución deseado en una matriz de **[SRowSet](srowset.md)** que contiene los contenedores de las libretas de direcciones relevantes en el orden deseado y, a continuación, especificar la matriz como *lpSearchPath*  parámetro. La primera propiedad de cada entrada de la matriz **SRowSet** debe ser la **[](pidtagentryid-canonical-property.md)** propiedad de la libreta de direcciones correspondiente. 
+En MAPI, cada perfil puede admitir varias listas de direcciones y cada lista de direcciones reside en su propio contenedor. MAPI admite el **[método SetSearchPath en](https://support.microsoft.com/kb/292590)** la interfaz que permite establecer una nueva ruta de búsqueda en el perfil que se usa para la resolución de nombres. Para usar el método **IAddrBook::SetSearchPath,** debe definir el orden de resolución deseado en una matriz **[SRowSet](srowset.md)** que contiene los contenedores de las libretas de direcciones relevantes en el orden deseado y, a continuación, especificar la matriz como parámetro *lpSearchPath.* La primera propiedad de cada entrada de la **matriz SRowSet** debe ser **[PR_ENTRYID](pidtagentryid-canonical-property.md)** propiedad de la libreta de direcciones correspondiente. 
   
-El ejemplo de código establece el orden de resolución en los pasos siguientes:
+El ejemplo de código establece el orden de resolución en los siguientes pasos:
   
-1. `numANR` Se inicializa en el número de contenedores que deben coincidir y especifica los nombres y el orden de resolución de las listas de `ANROrder` direcciones deseadas en una matriz. 
+1. Inicializa el número de contenedores que deben coincidir y especifica los nombres y el orden de resolución de las listas de direcciones  `numANR` deseadas en una  `ANROrder` matriz. 
     
-2. Inicializa MAPI mediante la función **MAPIInitialize** . 
+2. Inicializa MAPI mediante la **función MAPIInitialize.** 
     
 3.  Inicia sesión en MAPI y permite al usuario elegir un perfil. 
     
@@ -35,23 +35,23 @@ El ejemplo de código establece el orden de resolución en los pasos siguientes:
     
 6. Abre el contenedor de la libreta de direcciones raíz.
     
-7. Abre la tabla de jerarquías del contenedor de libreta de direcciones raíz.
+7. Abre la tabla de jerarquía del contenedor de la libreta de direcciones raíz.
     
-8. Obtiene la lista de contenedores de libretas de direcciones de la jerarquía.
+8. Obtiene la lista de contenedores de libreta de direcciones de la jerarquía.
     
-9. Busca los identificadores de entrada de las listas de direcciones que `ANROrder` se desean mediante la comparación de los nombres de las listas de direcciones deseadas con los nombres existentes en la jerarquía de la libreta de direcciones. 
+9. Busca los identificadores de entrada de las listas de direcciones deseadas comparando los nombres de las listas de direcciones deseadas con los nombres existentes en la jerarquía de la  `ANROrder` libreta de direcciones. 
     
-10. Establece los identificadores de entrada adecuados **** en la matriz `pNewRows`SRowSet,.
+10. Establece los identificadores de entrada adecuados en la **matriz SRowSet,**  `pNewRows` .
     
-11. Llama y pasa `pNewRows` como el parámetro *lpSearchPath* a **IAddrBook:: SetSearchPath** para establecer la ruta de búsqueda. 
+11. Llama y pasa  `pNewRows` como parámetro  *lpSearchPath*  a **IAddrBook::SetSearchPath** para establecer la ruta de búsqueda. 
     
-12. Limpia los punteros y los búferes internos.
+12. Limpia los búferes y punteros internos.
     
 13. Cierra la sesión de MAPI.
     
 14. Uninitalizes MAPI.
     
-Este ejemplo de código usa listas de direcciones que están disponibles en la instalación predeterminada de Microsoft Office Outlook: **todos los contactos**, **todos los grupos**y los **contactos**. Debe ejecutar el ejemplo después de iniciar Outlook y de que se esté ejecutando en un perfil inicializado. El ejemplo funciona bien con los nombres que están en un idioma (por ejemplo, todos los nombres están en inglés). No está diseñada para funcionar en implementaciones multilingües, por ejemplo, la carpeta **contactos** localizada para un usuario que ejecuta una compilación de Outlook que no está en inglés. 
+Este ejemplo de código usa listas de direcciones que están disponibles en la instalación predeterminada de Microsoft Office Outlook: **Todos** los contactos **,** Todos los grupos y **Contactos**. Debe ejecutar el ejemplo después de que Outlook se inicie y se ejecute en un perfil inicializado. El ejemplo funciona bien con nombres que están en un idioma (por ejemplo, todos los nombres están en inglés). No está diseñado para funcionar en implementaciones multilingües, por ejemplo, la carpeta Contactos localizada para un usuario que ejecuta una compilación de Outlook que no está en inglés.  
   
 ```cpp
 #include "stdafx.h" 
@@ -264,7 +264,7 @@ STDMETHODIMP CopySBinary(
 
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Acerca de cómo establecer el orden de resolución para las listas de direcciones en Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "32338615"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un valor que se interpreta como una combinación de máscara de máscara que especifica el estado de la regla.
+Valor que se interpreta como una combinación de máscara de bits de marcas que especifican el estado de la regla.
   
 |||
 |:-----|:-----|
@@ -38,73 +38,73 @@ Un valor que se interpreta como una combinación de máscara de máscara que esp
 
 En la tabla siguiente se definen los valores posibles de esta propiedad.
   
-EN (ST_ENABLED, máscara de la letra 0x00000001)
+EN (ST_ENABLED, máscara de bits 0x00000001)
   
 > La regla está habilitada para la ejecución. Si no se establece esta marca, el servidor debe omitir esta regla al evaluar las reglas.
     
-ER (ST_ERROR, máscara de la letra 0x00000002)
+ER (ST_ERROR, máscara de bits 0x00000002)
   
 > El servidor ha encontrado un error al procesar la regla.
     
-DE (ST_ONLY_WHEN_OOF, máscara de 0x00000004)
+OF (ST_ONLY_WHEN_OOF, máscara de bits 0x00000004)
   
-> La regla solo se ejecuta cuando el usuario establece el estado fuera de la oficina (OOF) en el buzón. Esta marca no debe establecerse en una regla de carpeta pública.
+> La regla solo se ejecuta cuando el usuario establece el estado fuera de la oficina (OOF) en el buzón. Esta marca no debe establecerse en una regla de carpetas públicas.
     
-HI (ST_KEEP_OOF_HIST, máscara de 0x00000008)
+HI (ST_KEEP_OOF_HIST, máscara de bits 0x00000008)
   
-> Esta marca no debe establecerse en una regla de carpeta pública.
+> Esta marca no debe establecerse en una regla de carpetas públicas.
     
-El (ST_EXIT_LEVEL, máscara de la máscara 0x00000010)
+EL (ST_EXIT_LEVEL, máscara de bits 0x00000010)
   
-> La evaluación de la regla finalizará después de ejecutar esta regla, excepto para la evaluación de las reglas de fuera de la oficina.
+> La evaluación de reglas finalizará después de ejecutar esta regla, excepto para la evaluación de reglas fuera de la oficina.
     
-SCL (ST_SKIP_IF_SCL_IS_SAFE, máscara de máscara 0x00000020)
+SCL (ST_SKIP_IF_SCL_IS_SAFE, máscara de bits 0x00000020)
   
 > Se puede omitir la evaluación de esta regla.
     
-PE (ST_RULE_PARSE_ERROR, máscara de 0x00000040)
+PE (ST_RULE_PARSE_ERROR, máscara de bits 0x00000040)
   
-> El servidor detectó un error al analizar los datos de la regla proporcionada por el cliente.
+> El servidor ha encontrado un error al analizar los datos de regla proporcionados por el cliente.
     
 X
   
-> No se usa con este protocolo. El cliente no debe modificar este bit.
+> No se usa en este protocolo. El cliente no debe modificar este bit.
     
-Tenga en cuenta la interacción entre ST_ONLY_WHEN_OOF y las marcas ST_EXIT_LEVEL: 
+Ten en cuenta la interacción entre ST_ONLY_WHEN_OOF y ST_EXIT_LEVEL marcas: 
   
-Cuando el estado "fuera de la oficina" está establecido en el buzón y una condición de regla se evalúa como TRUE, 
+Cuando el estado "Fuera de la oficina" se establece en el buzón y una condición de regla se evalúa como TRUE, 
   
-Y
+Y:
   
-- La regla tiene establecida la marca ST_EXIT_LEVEL y no tiene establecida la marca ST_ONLY_WHEN_OOF. A continuación, el servidor no debe evaluar las reglas subsiguientes que no tienen establecida ninguna marca ST_ONLY_WHEN_OOF y debe evaluar las reglas posteriores que tienen establecida la marca ST_ONLY_WHEN_OOF.
+- La regla tiene la marca ST_EXIT_LEVEL y no tiene ST_ONLY_WHEN_OOF marca establecida. A continuación, el servidor no debe evaluar las reglas posteriores que no tengan una marca ST_ONLY_WHEN_OOF establecida y debe evaluar las reglas posteriores que tengan ST_ONLY_WHEN_OOF marca establecida.
     
-O
+O BIEN:
   
-- La regla tiene establecidos los dos indicadores ST_EXIT_LEVEL y ST_ONLY_WHEN_OOF. A continuación, el servidor no debe evaluar ninguna regla posterior.
+- La regla tiene las marcas de ST_EXIT_LEVEL y ST_ONLY_WHEN_OOF establecidas. A continuación, el servidor no debe evaluar ninguna regla posterior.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OJORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula los mensajes de correo electrónico entrantes en un servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -112,7 +112,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

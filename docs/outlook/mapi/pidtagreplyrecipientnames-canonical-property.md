@@ -25,7 +25,7 @@ ms.locfileid: "32355177"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de nombres para mostrar para los destinatarios que recibirán una respuesta.
+Contiene una lista de nombres para mostrar para los destinatarios que van a obtener una respuesta.
   
 |||
 |:-----|:-----|
@@ -38,21 +38,21 @@ Contiene una lista de nombres para mostrar para los destinatarios que recibirán
 
 Estas propiedades contienen los nombres para mostrar separados por punto y coma.
   
-Cuando esta propiedad no está presente, se envía una respuesta solo al usuario identificado por la propiedad **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Cuando se define **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) y estas propiedades, la respuesta se envía a todos los destinatarios identificados por estas dos propiedades. Un proveedor de transporte usa estas propiedades para invalidar la lógica de respuesta habitual.
+Cuando esta propiedad no está presente, solo se envía una respuesta al usuario identificado por la propiedad **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Cuando **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) y estas propiedades se definen, la respuesta se envía a todos los destinatarios identificados por estas dos propiedades. Un proveedor de transporte usa estas propiedades para invalidar la lógica de respuesta habitual.
   
-Si se establece **PR_REPLY_RECIPIENT_ENTRIES** o estas propiedades, también se debe establecer la otra propiedad. Estas propiedades deben contener el mismo número de destinatarios y deben incluirlas en el mismo orden. Si no se observan estos requisitos, se pueden producir resultados impredecibles. 
+Si se **PR_REPLY_RECIPIENT_ENTRIES** o estas propiedades, también se debe establecer la otra propiedad. Estas propiedades deben contener el mismo número de destinatarios y deben contenerlas en el mismo orden. Si no se cumplen estos requisitos, se pueden producir resultados impredecibles. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten en los mensajes de correo electrónico.
+> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -60,15 +60,15 @@ Si se establece **PR_REPLY_RECIPIENT_ENTRIES** o estas propiedades, también se 
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

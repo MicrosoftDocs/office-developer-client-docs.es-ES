@@ -25,7 +25,7 @@ ms.locfileid: "32339357"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de transmisión de marcas que indican detalles sobre el envío de un mensaje.
+Contiene una máscara de bits de marcas que indica detalles sobre el envío de un mensaje.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contiene una máscara de transmisión de marcas que indican detalles sobre el en
    
 ## <a name="remarks"></a>Comentarios
 
-Se pueden configurar uno o varios de los siguientes indicadores para la máscara de **PR_SUBMIT_FLAGS** : 
+Se pueden establecer una o varias de las siguientes marcas para la **máscara PR_SUBMIT_FLAGS** bits: 
   
 SUBMITFLAG_LOCKED 
   
-> La cola MAPI tiene bloqueado el mensaje en ese momento. 
+> Actualmente, la cola MAPI tiene el mensaje bloqueado. 
     
 SUBMITFLAG_PREPROCESS 
   
-> El mensaje necesita preprocesamiento. Cuando la cola MAPI ha terminado de procesar el mensaje, debe llamar al método [IMessage:: SubmitMessage](imessage-submitmessage.md) . El proveedor de almacén de mensajes reconoce que la cola de impresión, en lugar de la aplicación cliente, ha llamado a **SubmitMessage**, borra la marca y sigue el envío del mensaje.
+> El mensaje necesita preprocesamiento. Cuando la cola MAPI termine de preprocesar este mensaje, debe llamar al [método IMessage::SubmitMessage.](imessage-submitmessage.md) El proveedor del almacén de mensajes reconoce que la cola, en lugar de la aplicación cliente, ha llamado **SubmitMessage**, borra la marca y continúa el envío de mensajes.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
@@ -60,15 +60,15 @@ SUBMITFLAG_PREPROCESS
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -79,7 +79,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

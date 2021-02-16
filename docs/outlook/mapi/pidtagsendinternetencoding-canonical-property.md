@@ -25,7 +25,7 @@ ms.locfileid: "32342675"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de código de las preferencias de codificación. 
+Contiene una máscara de bits de preferencias de codificación. 
   
 |||
 |:-----|:-----|
@@ -36,49 +36,49 @@ Contiene una máscara de código de las preferencias de codificación.
    
 ## <a name="remarks"></a>Comentarios
 
-Establezca esta propiedad para indicar las opciones de codificación utilizadas. 
+Establezca esta propiedad para indicar las opciones de codificación usadas. 
   
-Esta propiedad contiene los siguientes indicadores:
+Esta propiedad contiene las siguientes marcas:
   
 BODY_ENCODING_HTML 
   
-> Codifique el texto del mensaje en HTML. Esta marca se omite a menos que se establezca la marca ENCODING_MIME. 
+> Codifica el texto del mensaje en HTML. Esta marca se omite a menos que ENCODING_MIME esté establecida. 
     
 BODY_ENCODING_TEXT_AND_HTML 
   
-> Codifique el texto del mensaje usando Text y HTML como alternativas multipropósito de Multipurpose Internet Mail Extensions (MIME). Esta marca se omite a menos que se establezca la marca ENCODING_MIME. 
+> Codificar el texto del mensaje con texto y HTML como alternativas multipart extensions multipropósito al correo de Internet (MIME). Esta marca se omite a menos que ENCODING_MIME esté establecida. 
     
 ENCODING_MIME 
   
-> Codifique el mensaje con MIME. Si no se establece esta marca, MAPI codifica el texto del mensaje como texto sin formato y los datos adjuntos en UUENCODE. 
+> Codifica el mensaje con MIME. Si no se establece esta marca, MAPI codifica el texto del mensaje en texto sin formato y los datos adjuntos en UUENCODE. 
     
 ENCODING_PREFERENCE 
   
-> Use el resto de las marcas de esta máscara de la máscara para determinar la codificación. Si no se establece esta marca, MAPI deja el sistema de mensajería para tomar decisiones de codificación. 
+> Use las otras marcas de esta máscara de bits para determinar la codificación. Si no se establece esta marca, MAPI la deja en el sistema de mensajería para tomar decisiones de codificación. 
     
 MAC_ATTACH_ENCODING_APPLEDOUBLE 
   
-> Codificar datos adjuntos Macintosh en el modo doble de Apple. Esta marca se omite a menos que se establezca la marca ENCODING_MIME. 
+> Codificar datos adjuntos de Macintosh en modo doble de Apple. Esta marca se omite a menos que ENCODING_MIME esté establecida. 
     
 MAC_ATTACH_ENCODING_APPLESINGLE 
   
-> Codificar datos adjuntos Macintosh en el modo Single de Apple. Esta marca se omite a menos que se establezca la marca ENCODING_MIME. 
+> Codificar datos adjuntos de Macintosh en modo único de Apple. Esta marca se omite a menos que ENCODING_MIME esté establecida. 
     
 MAC_ATTACH_ENCODING_UUENCODE 
   
-> Codificar datos adjuntos Macintosh en UUENCODE. Si se establece la marca ENCODING_MIME, se omite esta marca y se usa la codificación BinHex en su lugar. 
+> Codificar datos adjuntos de Macintosh en UUENCODE. Si se ENCODING_MIME marca predeterminada, esta marca se omite y se usa la codificación BinHex en su lugar. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de las listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -90,19 +90,19 @@ MAC_ATTACH_ENCODING_UUENCODE
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -110,7 +110,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

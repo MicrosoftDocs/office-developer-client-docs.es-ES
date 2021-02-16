@@ -36,23 +36,23 @@ Contiene el identificador de entrada de la carpeta que contiene una carpeta o un
    
 ## <a name="remarks"></a>Comentarios
 
-Los almacenes de mensajes calculan esta propiedad para todas las carpetas y los mensajes.
+Esta propiedad se calcula mediante almacenes de mensajes para todas las carpetas y mensajes.
   
-Para una carpeta raíz del almacén de mensajes, esta propiedad contiene el identificador de entrada propio de la carpeta.
+Para una carpeta raíz del almacén de mensajes, esta propiedad contiene el identificador de entrada de la carpeta.
   
- **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) y esta propiedad no están relacionadas entre sí. Pertenecen a contextos completamente diferentes.
+ **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) y esta propiedad no están relacionadas entre sí. Pertenecen a contextos totalmente diferentes.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCDATA]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
-> Define las estructuras de datos básicas que se usan en las operaciones remotas.
+> Define las estructuras de datos básicas que se usan en operaciones remotas.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -64,27 +64,27 @@ Para una carpeta raíz del almacén de mensajes, esta propiedad contiene el iden
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Habilita el control de las listas de permitidos y bloqueados y la determinación de los mensajes de correo electrónico no deseado.
+> Permite el control de listas de permitidos o bloqueados y la determinación de mensajes de correo no deseado.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones para crear y ubicar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
     
 [[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
   
-> Especifica el método de entrega de datos de la libreta de direcciones sin conexión del servidor al cliente.
+> Especifica el método para entregar datos de libreta de direcciones sin conexión (OAB) de servidor a cliente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -95,7 +95,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

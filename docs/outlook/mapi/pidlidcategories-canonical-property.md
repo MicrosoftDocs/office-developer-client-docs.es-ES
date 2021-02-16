@@ -25,29 +25,29 @@ ms.locfileid: "32344978"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica una lista de categorías de un elemento.
+Especifica una lista de categorías para un elemento.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidCategories  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00002328  <br/> |
+|Long ID (LID):  <br/> |0x00002328  <br/> |
 |Tipo de datos:  <br/> |PT_MV_UNICODE  <br/> |
 |Área:  <br/> |Común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para generar un campo de encabezado Keywords, los clientes deben establecer el valor de esta propiedad en los valores deseados. Esta propiedad tiene varias cadenas; cada categoría debe asignarse a una sola palabra clave.
+Para generar un campo de encabezado de palabras clave, los clientes deben establecer el valor de esta propiedad en los valores deseados. Esta propiedad tiene varias cadenas; cada categoría debe asignarse a una sola palabra clave.
   
-Los escritores de extensiones multipropósito de correo Internet (MIME) deben copiar cada subvalor de esta propiedad en una palabra clave independiente en el campo de encabezado Keywords, con una coma (U + 002C) y un espacio (U + 0020) separando cada palabra clave. Los escritores de MIME pueden anular esta propiedad en lugar de copiarla al campo de encabezado Keywords para evitar conflictos entre distintos conjuntos de categorías en distintas organizaciones.
+Los escritores multipropósito a extensiones de correo de Internet (MIME) deben copiar cada subínclave de esta propiedad en una palabra clave independiente en el campo de encabezado Palabras clave, con una coma (U+002C) y un espacio (U+0020) que separe cada palabra clave. Los escritores mime pueden colocar esta propiedad en lugar de copiarla en el campo de encabezado de palabras clave, para evitar conflictos entre distintos conjuntos de categorías en diferentes organizaciones.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definición de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
@@ -55,11 +55,11 @@ Los escritores de extensiones multipropósito de correo Internet (MIME) deben co
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -67,7 +67,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

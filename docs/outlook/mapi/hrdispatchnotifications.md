@@ -25,11 +25,11 @@ ms.locfileid: "32348100"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Obliga a la distribución de todas las notificaciones en cola. 
+Fuerza el envío de todas las notificaciones en cola. 
   
 |||
 |:-----|:-----|
-|Archivo de encabezado:  <br/> |Mapiutil. h  <br/> |
+|Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y proveedores de servicios  <br/> |
    
@@ -39,7 +39,7 @@ HRESULT HrDispatchNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
@@ -53,7 +53,7 @@ S_OK
     
 MAPI_E_USER_CANCEL
   
-> Se ha recibido WM_QUIT, WM_QUERYENDSESSION o WM_ENDSESSION.
+> WM_QUIT, WM_QUERYENDSESSION o WM_ENDSESSION se recibió.
     
 MAPI_E_NOT_INITIALIZED
   
@@ -61,10 +61,10 @@ MAPI_E_NOT_INITIALIZED
     
 ## <a name="remarks"></a>Comentarios
 
-La función **HrDispatchNotifications** hace que MAPI Envíe todas las notificaciones que están actualmente en cola en el motor de notificación MAPI sin tener que esperar a que se envíe el mensaje. Esto puede tener un efecto ventajoso en el uso de la memoria. Para obtener más información, consulte [forzar una notificación](forcing-a-notification.md). 
+La **función HrDispatchNotifications** hace que MAPI envíe todas las notificaciones que están actualmente en cola en el motor de notificaciones MAPI sin tener que esperar a que se envíe un mensaje. Esto puede tener un efecto beneficioso en el uso de la memoria. Para obtener más información, [vea Forzar una notificación.](forcing-a-notification.md) 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Algunas aplicaciones esperan un mensaje de notificación en un bucle de tiempo de espera mediante las funciones de Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) y [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx) . En todas las plataformas, excepto en las más rápidas, estas aplicaciones podrían experimentar un rendimiento deficiente o incluso un bloqueo de las notificaciones. El uso de **HrDispatchNotifications** no solo reduce el código, sino que mejora el rendimiento. 
+Algunas aplicaciones esperan un mensaje de notificación en un bucle de tiempo de espera mediante las funciones Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) y [DispatchMessage.](https://msdn.microsoft.com/library/ms644934.aspx) En todas las plataformas menos las más rápidas, estas aplicaciones pueden experimentar un rendimiento deficiente o incluso bloquear las notificaciones. El **uso de HrDispatchNotifications** no solo reduce el código, sino que mejora el rendimiento. 
   
 

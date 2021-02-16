@@ -25,7 +25,7 @@ ms.locfileid: "32331874"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el número de mensajes no leídos de una carpeta, como calcula el almacén de mensajes. 
+Contiene el número de mensajes no leídos de una carpeta, calculado por el almacén de mensajes. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contiene el número de mensajes no leídos de una carpeta, como calcula el almac
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad calculada por el almacén de mensajes se utiliza para dos propósitos diferentes, aunque relacionados. En un objeto Folder de MAPI, contiene el número de mensajes que hay en una carpeta. En una fila de encabezado de las tablas MAPI por categorías, contiene el número de mensajes no asociados sin leer en la categoría correspondiente a esa fila de encabezado.
+Esta propiedad calculada por el almacén de mensajes se usa para dos propósitos diferentes, aunque relacionados. En un objeto de carpeta MAPI, contiene el número de mensajes de una carpeta. En una fila de título en tablas MAPI categorizadas, contiene el número de mensajes no asociados no leídos en la categoría correspondiente a esa fila de título.
   
-Esta propiedad contiene el número de mensajes de la tabla contenido de la carpeta para los que la marca MSGFLAG_READ no se establece en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). La propiedad **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) contiene el número total de mensajes para la carpeta. **PR_CONTENT_COUNT** y esta propiedad son de solo lectura para los clientes. 
+Esta propiedad contiene el número de mensajes de la tabla de contenido de la carpeta para los que no se establece la marca MSGFLAG_READ en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). La **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) contiene el recuento total de mensajes de la carpeta. Las **PR_CONTENT_COUNT** y esta propiedad son de solo lectura para los clientes. 
   
-Algunas aplicaciones cliente muestran la fila de encabezado de una categoría de forma diferente según el valor de esta propiedad. Por ejemplo, un cliente puede mostrar una categoría que incluya los mensajes no leídos en negrita. Esta propiedad no se puede usar como categoría y un intento de hacerlo da como resultado el valor MAPI_E_INVALID_PARAMETER que se devuelve desde el método [IMAPITable:: SortTable](imapitable-sorttable.md) . 
+Algunas aplicaciones cliente muestran la fila de título de una categoría de forma diferente según el valor de esta propiedad. Por ejemplo, un cliente puede mostrar una categoría que incluya mensajes no leídos en negrita. Esta propiedad no se puede usar como categoría y si se intenta hacerlo, se devuelve el valor MAPI_E_INVALID_PARAMETER del método [IMAPITable::SortTable.](imapitable-sorttable.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Microsoft Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Microsoft Exchange Server protocolo relacionados.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -56,19 +56,19 @@ Algunas aplicaciones cliente muestran la fila de encabezado de una categoría de
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Incluye operaciones admitidas para los objetos de la tabla principal.
+> Incluye operaciones permitidas para los objetos de tabla principales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

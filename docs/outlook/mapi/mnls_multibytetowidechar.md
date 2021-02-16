@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32338244"
 ---
-# <a name="mnlsmultibytetowidechar"></a>MNLS_MultiByteToWideChar
+# <a name="mnls_multibytetowidechar"></a>MNLS_MultiByteToWideChar
 
   
   
@@ -33,23 +33,23 @@ int MNLS_MultiByteToWideChar(
   int cchWideChar);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _uCodePage_
   
-> a Página de códigos que se debe usar para realizar la conversión.
+> [entrada] Página de códigos que se usará para realizar la conversión.
     
  _dwFlags_
   
-> a Marcas que indican el tipo de conversión.
+> [entrada] Marcas que indican el tipo de conversión.
     
  _lpMultiByteStr_
   
-> a Puntero a la cadena de caracteres que se va a convertir.
+> [entrada] Puntero a la cadena de caracteres que se convertirá.
     
  _cchMultiByte_
   
-> a Tamaño, en bytes, de la cadena indicada por el parámetro _lpMultiByteStr_ . 
+> [entrada] Tamaño, en bytes, de la cadena indicada por el _parámetro lpMultiByteStr._ 
     
  _lpWideCharStr_
   
@@ -57,14 +57,14 @@ int MNLS_MultiByteToWideChar(
     
  _cchWideChar_
   
-> a Tamaño, en caracteres, del búfer indicado por _lpWideCharStr_.
+> [entrada] Tamaño, en caracteres, del búfer indicado por  _lpWideCharStr_.
     
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve el número de caracteres escritos en el búfer indicado por _lpWideCharStr_ si se realiza correctamente. 
+Devuelve el número de caracteres escritos en el búfer indicado por  _lpWideCharStr_ si se realiza correctamente. 
   
 ## <a name="remarks"></a>Comentarios
 
-Esta función ajusta la función **MultiByteToWideChar** . Para obtener más información, vea [MultiByteToWideChar](https://msdn.microsoft.com/library/dd319072%28VS.85%29.aspx).
+Esta función encapsula la **función MultiByteToWideChar.** Para obtener más información, [vea MultiByteToWideChar](https://msdn.microsoft.com/library/dd319072%28VS.85%29.aspx).
   
 

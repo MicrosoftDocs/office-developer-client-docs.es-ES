@@ -25,44 +25,44 @@ ms.locfileid: "32341233"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor de sensibilidad asignado por el remitente de la primera versión de un mensaje que es, es decir, el mensaje antes de reenviarlo o responder a él.
+Contiene el valor de confidencialidad asignado por el remitente de la primera versión de un mensaje, es decir, el mensaje antes de reenviarlo o responderlo.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_ORIGINAL_SENSITIVITY  <br/> |
 |Identificador:  <br/> |0x002E  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Una aplicación cliente debe establecer esta propiedad en el mismo valor que la propiedad **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) cuando se envía el mensaje por primera vez. No se debe cambiar nunca posteriormente.
+Una aplicación cliente debe establecer esta propiedad en el mismo valor que la propiedad **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) cuando se envía el mensaje por primera vez. Nunca se debe cambiar posteriormente.
   
-El proveedor de transporte usa esta propiedad para proteger la sensibilidad en las entradas copiadas. Permite, por ejemplo, bloquear la modificación del texto del mensaje original hacia delante o responder a un mensaje que originalmente se marcó como **SENSITIVITY_PRIVATE**.
+El proveedor de transporte usa esta propiedad para proteger la confidencialidad de las entradas copiadas. Le permite, por ejemplo, bloquear la modificación del texto del mensaje original al reenviar o responder a un mensaje que se marcó originalmente **como SENSITIVITY_PRIVATE**.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -70,7 +70,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

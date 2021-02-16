@@ -41,13 +41,13 @@ Un usuario puede especificar un servicio de datos de tiempo diferente para la ba
     
 2. El servicio web permite Outlook anexar los siguientes parámetros a la dirección URL base, para solicitar un código de ubicación: 
     
-   - outputview = Search: este parámetro indica que la solicitud es una búsqueda de ubicación.
+   - outputview=search: este parámetro indica que la solicitud es una búsqueda de ubicación.
     
-   - weasearchstr = _City_: este parámetro indica la ubicación, la _ciudad_, para la que el usuario desea una previsión meteorológica (por ejemplo, Londres).
+   - weasearchstr= _city:_ este parámetro indica la  _ubicación,_ la ciudad, para la que el usuario desea una previsión meteorológica (por ejemplo, Londres).
     
-   - Culture = _LCID_: este parámetro indica la referencia cultural de la versión de Office instalada para el usuario en ese equipo. El valor de LCID se define en [etiquetas de [RFC4646] para identificar los idiomas](https://www.ietf.org/rfc/rfc4646.txt)
+   - culture= _LCID:_ este parámetro indica la referencia cultural de la versión de Office instalada para el usuario en ese equipo. El valor de LCID se define en [etiquetas de [RFC4646] para identificar los idiomas](https://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = Outlook: este parámetro indica que Outlook es la aplicación cliente que solicita el servicio.
+   - src=outlook: este parámetro indica que Outlook es la aplicación cliente que solicita el servicio.
     
    Estos parámetros permiten Outlook para tomar la ubicación que el usuario está interesado en y busque el código de ubicación asociada según la compatibilidad con el servicio de información meteorológica. El servicio web debe responder a Outlook con un código de ubicación en XML que sigue a la [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md). La figura 2 se resume la solicitud de servicio web y la respuesta para un código de ubicación.
     
@@ -57,13 +57,13 @@ Un usuario puede especificar un servicio de datos de tiempo diferente para la ba
   
 3. El servicio web también permite Outlook anexar los siguientes parámetros, para solicitar información de previsión para un código de ubicación:
     
-   - wealocations = _código_: el _código_ en este parámetro es un código de ubicación que Outlook obtiene del paso 2 y que se asigna a la ubicación en la que está interesado el usuario. 
+   - wealocations= _code:_ _code_ in this parameter is a location code that Outlook obtains from Step 2, and that maps to the location that the user is interested in. 
     
-   - weadegreetype = _degreetype_: este parámetro especifica si se van a usar unidades métricas o medidas de Imperial para la temperatura. Especificar c de métrica, f para imperial para  _degreetype_. Este parámetro es opcional y no siempre se encuentra en la solicitud de servicio web.
+   - weadegreetype= _degreetype_: Este parámetro especifica si se deben usar unidades métricas o imperiales de medida para la temperatura. Especificar c de métrica, f para imperial para  _degreetype_. Este parámetro es opcional y no siempre se encuentra en la solicitud de servicio web.
     
-   - Culture = _LCID_: este parámetro indica la referencia cultural de la versión de Office instalada para el usuario en ese equipo. El valor de LCID se define en [etiquetas de [RFC4646] para identificar los idiomas](https://www.ietf.org/rfc/rfc4646.txt)
+   - culture= _LCID:_ este parámetro indica la referencia cultural de la versión de Office instalada para el usuario en ese equipo. El valor de LCID se define en [etiquetas de [RFC4646] para identificar los idiomas](https://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = Outlook: este parámetro indica que Outlook es la aplicación cliente que solicita el servicio.
+   - src=outlook: este parámetro indica que Outlook es la aplicación cliente que solicita el servicio.
     
    Estos parámetros permiten Outlook tomar el código de ubicación devuelto del paso 2 y solicitan el servicio de información meteorológica para la previsión. El servicio web debe responder a Outlook con los datos de tiempo correspondiente en XML que sigue a la [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md). La figura 3 se resume la solicitud de servicio web y la respuesta para los datos de tiempo dado un código de ubicación.
     
@@ -80,7 +80,7 @@ En la siguiente tabla describe la clave **WeatherServiceUrl**.
   
 |||
 |:-----|:-----|
-|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Clave** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Nombre del valor** <br/> |**WeatherServiceUrl** <br/> |
 |**Tipo de valor** <br/> |REG_SZ  <br/> |
 |**Valor predeterminado** <br/> |EMPTY_STRING  <br/> |
@@ -99,10 +99,10 @@ Tenga en cuenta que un administrador también puede usar Directiva de grupo para
   
 |||
 |:-----|:-----|
-|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Clave** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Nombre del valor** <br/> |**DisableWeather** <br/> |
-|**Tipo de valor** <br/> |DWORD  <br/> |
-|**Valor predeterminado** <br/> |comprendi  <br/> |
+|**Tipo de valor** <br/> |REG_DWORD  <br/> |
+|**Valor predeterminado** <br/> |0  <br/> |
 |**Descripción** <br/> |Un valor de 0 permite la barra de meteorología; cualquier otro valor, deshabilita la barra de meteorología.  <br/> |
    
 Si se ha deshabilitado la característica de barra de meteorología mediante la directiva de grupo, la ficha **calendario** no incluye la casilla de verificación **Mostrar el tiempo en el calendario**. Póngase en contacto con el administrador para volver a activar la característica. 
@@ -119,8 +119,8 @@ Un administrador también puede usar la directiva de grupo para deshabilitar tod
 |:-----|:-----|
 |**Clave** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**Nombre del valor** <br/> |**UseOnlineContent** <br/> |
-|**Tipo de valor** <br/> |DWORD  <br/> |
-|**Valor predeterminado** <br/> |segundo  <br/> |
+|**Tipo de valor** <br/> |REG_DWORD  <br/> |
+|**Valor predeterminado** <br/> |2   <br/> |
 |**Descripción** <br/> |El valor 2 habilita la barra de meteorología; cualquier otro valor, deshabilita la barra de meteorología.  <br/> |
    
 Si se ha deshabilitado la característica de barra de meteorología mediante la directiva de grupo, la ficha **calendario** no incluye la casilla de verificación **Mostrar el tiempo en el calendario**. Póngase en contacto con el administrador para volver a activar la característica. 
@@ -130,7 +130,7 @@ Si se ha deshabilitado la característica de barra de meteorología mediante la 
 
 En esta sección se muestra un ejemplo de un servicio meteorológico de Contoso que sigue el protocolo anterior para comunicarse con Outlook. Para cualquier ubicación que el usuario selecciona, Outlook obtiene primero un código de ubicación para la ubicación de meteorología de Contoso, a continuación, usar ese código de ubicación, llama al servicio de tiempo de Contoso para obtener los datos de tiempo.
   
-### <a name="base-url"></a>dirección URL base
+### <a name="base-url"></a>Base URL
 
 Tiempo de Contoso proporciona la siguiente dirección URL base para su servicio de información meteorológica:
   
@@ -213,7 +213,7 @@ Aunque Outlook usa MSN el tiempo de forma predeterminada, si un usuario ha perso
 
 La barra de meteorología en el calendario de Outlook usa MSN el tiempo de forma predeterminada para proporcionar la previsión meteorológica para una ubicación especificada. Los usuarios pueden ver fácilmente información meteorológica para las ubicaciones que les interesen. Servicios de datos de tiempo de terceros también pueden integrarse con la barra de meteorología admiten la Outlook esquema XML de ubicación de tiempo y Outlook esquema de XML de información meteorológica y siguiendo un protocolo de servicio web sencillos con Outlook.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md)   
 - [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md)

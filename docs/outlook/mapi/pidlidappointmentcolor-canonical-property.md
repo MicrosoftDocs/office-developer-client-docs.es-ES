@@ -25,21 +25,21 @@ ms.locfileid: "32345440"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el color que se va a usar al mostrar el calendario.
+Especifica el color que se debe usar al mostrar el calendario.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidApptColor  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008214  <br/> |
+|Long ID (LID):  <br/> |0x00008214  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Calendar  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad especifica el color que se va a usar al mostrar el calendario. Un cliente o un servidor debe establecer este valor para mantener la compatibilidad con los clientes más antiguos. En su lugar, puede mostrar el calendario en función del valor de **** la propiedad Keywords ([PidNameKeywords](pidnamekeywords-canonical-property.md)) tal como se especifica en [[ms-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Cuando se establece, el valor debe ser uno de los siguientes.
+Esta propiedad especifica el color que se va a usar al mostrar el calendario. Un cliente o servidor debe establecer este valor para la compatibilidad con versiones anteriores con clientes antiguos. En su lugar, puede mostrar el calendario en función del valor de la propiedad **Keywords** ([PidNameKeywords](pidnamekeywords-canonical-property.md)) tal como se especifica en [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Cuando se establece, el valor debe ser uno de los siguientes.
   
-|**Value**|**Color**|
+|**Valor**|**Color**|
 |:-----|:-----|
 |0x00000000  <br/> |Ninguno  <br/> |
 |0x00000001  <br/> |Rojo  <br/> |
@@ -55,23 +55,23 @@ Esta propiedad especifica el color que se va a usar al mostrar el calendario. Un
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -79,7 +79,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

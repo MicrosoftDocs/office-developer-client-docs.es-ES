@@ -25,7 +25,7 @@ ms.locfileid: "32335213"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve la ruta de acceso al archivo Mapi32. dll privado.
+Devuelve la ruta de acceso a la Mapi32.dll.
   
 ```cpp
 BOOL FGetComponentPath(
@@ -37,27 +37,27 @@ BOOL FGetComponentPath(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _szComponent_
   
-> a La clave de MSIComponentID REG que se describe en la [configuración del registro de código auxiliar de Mapi32. dll](https://msdn.microsoft.com/library/dd162409.aspx).
+> [entrada] La clave de registro MSIComponentID descrita en [Mapi32.dll configuración del Registro de códigos auxiliares.](https://msdn.microsoft.com/library/dd162409.aspx)
     
  _szQualifier_
   
-> a La subclave MSIApplicationLCID o MSIOfficeLCID que se describe en [elegir una versión específica de MAPI que se va a cargar](how-to-choose-a-specific-version-of-mapi-to-load.md). Los llamadores pueden pasar **null** si no hay ningún calificador. 
+> [entrada] La subclave MSIApplicationLCID o MSIOfficeLCID descrita en [Elegir una versión específica de MAPI para cargar.](how-to-choose-a-specific-version-of-mapi-to-load.md) Los autores de llamadas pueden **pasar null** si no hay ningún calificador. 
     
  _szDllPath_
   
-> a La ruta de acceso al privado Mapi32. dll, que tiene la funcionalidad completa de MAPI (las mismas exportaciones que el archivo Mapi32. dll).
+> [entrada] La ruta de acceso a la Mapi32.dll privada, que tiene funcionalidad MAPI completa (las mismas exportaciones que el Mapi32.dll).
     
  _cchBufferSize_
   
-> a El tamaño de _szDllPath_, en caracteres.
+> [entrada] El tamaño de  _szDllPath_, en caracteres.
     
  _fInstall_
   
-> a Indica a MAPI que instale el componente Mapi32. dll privado si no está presente.
+> [entrada] Indica a MAPI que instale el componente Mapi32.dll privado si no está presente.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -71,14 +71,14 @@ BOOL FGetComponentPath(
     
 ## <a name="remarks"></a>Comentarios
 
-Use la función **FGetComponentPath** cuando necesite obtener la ruta de acceso al archivo Mapi32. dll privado. 
+Usa la **función FGetComponentPath** cuando necesites obtener la ruta de acceso a la ruta de acceso Mapi32.dll. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
 [Elegir una versión específica de MAPI para cargar](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Configuración del registro de código auxiliar de Mapi32. dll](https://msdn.microsoft.com/library/dd162409.aspx)
+[Mapi32.dll del Registro de códigos auxiliares](https://msdn.microsoft.com/library/dd162409.aspx)
 

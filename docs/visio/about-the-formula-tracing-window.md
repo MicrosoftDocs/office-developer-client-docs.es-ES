@@ -20,36 +20,36 @@ ms.locfileid: "32345335"
 
 La ventana **Rastreo de fórmulas** se ha diseñado para ofrecer a los programadores de formas información sobre las interdependencias entre celdas, tanto las dependientes (celdas que dependen de otra celda determinada) como las precedentes (celdas de las cuales depende una celda determinada). 
   
-Las celdas de ShapeSheet de Microsoft Visio contienen valores y fórmulas. Las fórmulas, a su vez, tienen referencias a otras celdas, lo que le permite calcular un valor en una celda basándose en el valor de otra celda. Sin embargo, al crear o mantener formas complejas, puede resultar difícil identificar todas estas interdependencias, dado que una fórmula puede hacer referencia a cualquier celda del dibujo, sea una celda de la misma ShapeSheet o de otro objeto del dibujo (por ejemplo, una página, un estilo, un patrón u otra forma). 
+Las celdas de ShapeSheet de Microsoft Visio contienen valores y fórmulas. A su vez, las fórmulas pueden tener referencias a otras celdas, lo que le da la capacidad de calcular un valor en una celda basándose en el valor de otra celda. Sin embargo, al crear o mantener formas complejas, puede resultar difícil identificar todas estas interdependencias, dado que una fórmula puede hacer referencia a cualquier celda del dibujo, sea una celda de la misma ShapeSheet o de otro objeto del dibujo (por ejemplo, una página, un estilo, un patrón u otra forma). 
   
-La **** ventana Rastreo de fórmulas proporciona información que le ayudará a comprender las consecuencias de los cambios que realice en las celdas. 
+La **ventana Seguimiento de** fórmulas proporciona información que le ayudará a comprender las implicaciones de los cambios realizados en las celdas. 
   
-## <a name="displaying-the-formula-tracing-window"></a>Mostrar la ventana Rastreo de fórmulas
+## <a name="displaying-the-formula-tracing-window"></a>Mostrar la ventana Seguimiento de fórmulas
 
-Para ver la **** ventana Rastreo de fórmulas, con la ventana ShapeSheet activa, en **herramientas de ShapeSheet** en la ficha * * Diseño * *, en el grupo **seguimiento** de fórmulas, haga clic en **Mostrar ventana**. La **** ventana Rastreo de fórmulas aparece acoplada de forma predeterminada a la ventana ShapeSheet, pero es una ventana anclada que puede acoplarse, flotar o fusionarse con otras ventanas de ShapeSheet disponibles, por ejemplo, la ventana **Explorador de estilos** . 
+Para ver la ventana **Seguimiento** de fórmulas, con la ventana ShapeSheet activa, en Herramientas de **ShapeSheet** en la ficha ** Diseño **, en el grupo Seguimiento de **fórmulas,** haga clic en **Mostrar ventana**. La  ventana Seguimiento de fórmulas aparece acoplada en la ventana ShapeSheet de forma predeterminada, pero es una ventana anclada que  se puede acoplar, flotar o combinar con otras ventanas ShapeSheet ancladas disponibles, por ejemplo, la ventana Explorador de estilos. 
   
 ## <a name="tracing-dependent-cells"></a>Rastreo de celdas dependientes
 
 Para ver una lista de las celdas dependientes de una celda determinada, seleccione dicha celda en la ventana ShapeSheet. En este ejemplo, está seleccionada la celda Width. 
   
-![La celda width está seleccionada](media/ShapeSheetDependents_UI_01_ZA01039814.gif)
+![La celda Width está seleccionada](media/ShapeSheetDependents_UI_01_ZA01039814.gif)
   
-Para ver las celdas dependientes, en el grupo **seguimiento**de fórmulas, haga clic en **rastrear**dependientes.
+Para ver sus celdas dependientes, en el grupo **Seguimiento de** fórmulas, haga clic en **Seguimiento dependientes**.
   
 Aparecerá una lista de todas las celdas que dependan de Width en la ventana **Rastreo de fórmulas**. Puede explorar cualquiera de ellas haciendo doble clic en la ventana **Rastreo de fórmulas**. 
   
-![Todas las celdas con una dependencia en la celda width aparecen en la ventana Rastreo de fórmulas.](media/ShapeSheetDependents_UI_02_ZA01039815.gif)
+![Todas las celdas con una dependencia en la celda Width aparecen en la ventana Seguimiento de fórmulas](media/ShapeSheetDependents_UI_02_ZA01039815.gif)
   
-## <a name="tracing-precendent-cells"></a>Seguimiento de celdas de precendent
+## <a name="tracing-precendent-cells"></a>Seguimiento de celdas precendentes
 
 Para ver una lista de las celdas de las cuales depende una celda determinada, seleccione primero dicha celda en la ventana ShapeSheet. En este ejemplo, está seleccionada la celda Geometry1.X2. 
   
-![La celda Geometry1. x2 está seleccionada](media/ShapeSheetPrecedents_UI_01_ZA01039817.gif)
+![La celda Geometry1.X2 está seleccionada](media/ShapeSheetPrecedents_UI_01_ZA01039817.gif)
   
-Para ver sus celdas precedentes, en el grupo **seguimiento**de fórmulas, haga clic en **Rastrear precedentes**.
+Para ver las celdas precedentes, en el grupo **Seguimiento de** fórmulas, haga clic en **Seguir precedentes**.
   
-Aparece una lista de todas las celdas de las que depende la celda Geometry1. x2 en la **** ventana Rastreo de fórmulas. Puede explorar cualquiera de ellas haciendo doble clic en la ventana **Rastreo de fórmulas**. 
+En la ventana Seguimiento de fórmulas aparece una lista de  todas las celdas de las que depende la celda Geometry1.X2. Puede explorar cualquiera de ellas haciendo doble clic en la ventana **Rastreo de fórmulas**. 
   
-![Todas las celdas en las que depende la celda Geometry1. x2 aparecen en la ventana Rastreo de fórmulas](media/ShapeSheetPrecedents_UI_02_ZA01039818.gif)
+![Todas las celdas de las que depende la celda Geometry1.X2 aparecen en la ventana Seguimiento de fórmulas](media/ShapeSheetPrecedents_UI_02_ZA01039818.gif)
   
 

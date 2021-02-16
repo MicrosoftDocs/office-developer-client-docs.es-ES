@@ -17,15 +17,15 @@ ms.locfileid: "32339294"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para implementar un complemento de estado sin conexión, debe implementar la conexión, la inicialización y otras funciones de configuración. En este tema, estas funciones de conexión, inicialización y configuración se muestran mediante ejemplos de código del complemento de estado sin conexión de ejemplo. El complemento estado sin conexión de muestra es un complemento COM que agrega un menú **Estado sin conexión** a Outlook y usa la API de estado sin conexión. Mediante el menú **estado sin conexión** , puede habilitar o deshabilitar la supervisión de estado, comprobar el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento estado sin conexión de muestra, vea [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
+Para implementar un complemento de estado sin conexión, debe implementar la conexión, la inicialización y otras funciones de configuración. En este tema, estas funciones de conexión, inicialización y configuración se muestran mediante ejemplos de código del complemento de estado sin conexión de ejemplo. El complemento estado sin conexión de muestra es un complemento COM que agrega un menú **Estado sin conexión** a Outlook y usa la API de estado sin conexión. A través del **menú Estado sin** conexión, puede habilitar o deshabilitar la supervisión de estado, comprobar el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento estado sin conexión de muestra, vea [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
   
-Después de configurar un complemento de estado sin conexión, debe implementar funciones para supervisar y modificar los cambios de estado de conexión. Para obtener más información, vea [supervisar los cambios de estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
+Después de configurar un complemento de estado sin conexión, debe implementar funciones para supervisar y modificar los cambios de estado de conexión. Para obtener más información, vea [Supervisión de cambios de estado de conexión mediante un complemento de estado sin conexión.](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
   
-## <a name="on-connection-routine"></a>En la rutina de conexión
+## <a name="on-connection-routine"></a>Rutina de conexión
 
-Se llama al **[método IDTExtensibility2. OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** cada vez que se carga un complemento. Es el punto de entrada para el complemento, por lo que el código que se coloca en `OnConnection` la función se llamará cuando se inicie el complemento. En el siguiente ejemplo, la `OnConnection` función llama a `HrInitAddin` la función. 
+Se **[llama al método IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** cada vez que se carga un complemento. Es el punto de entrada del complemento, por lo que se llamará al código que ponga en la función  `OnConnection` cuando se inicie el complemento. En el siguiente ejemplo, la  `OnConnection` función llama a la  `HrInitAddin` función. 
   
-### <a name="cmyaddinonconnection-example"></a>Ejemplo de ejemplo cmyaddin:: OnConnection ()
+### <a name="cmyaddinonconnection-example"></a>Ejemplo de CMyAddin::OnConnection()
 
 ```cpp
 STDMETHODIMP CMyAddin::OnConnection( 
@@ -46,9 +46,9 @@ STDMETHODIMP CMyAddin::OnConnection(
 
 ## <a name="initialize-add-in-routine"></a>Inicializar rutina de complemento
 
-La `HrInitAddin` función llama a `LoadLibraries`las `HrCacheProfileName`funciones, `HrAddMenuItems` y para finalizar la configuración del complemento de estado sin conexión. 
+La función llama a , y a las funciones para terminar de configurar el complemento de  `HrInitAddin` estado sin  `LoadLibraries`  `HrCacheProfileName`  `HrAddMenuItems` conexión. 
   
-### <a name="cmyaddinhrinitaddin-example"></a>Ejemplo de ejemplo cmyaddin:: HrInitAddin ()
+### <a name="cmyaddinhrinitaddin-example"></a>Ejemplo de CMyAddin::HrInitAddin()
 
 ```cpp
 HRESULT CMyAddin::HrInitAddin() 
@@ -63,11 +63,11 @@ HRESULT CMyAddin::HrInitAddin()
 }
 ```
 
-## <a name="load-libraries-routine"></a>Rutina de carga de bibliotecas
+## <a name="load-libraries-routine"></a>Rutina de bibliotecas de carga
 
-La `LoadLibraries` función carga los archivos de biblioteca de vínculos dinámicos (dll) que necesita el complemento. 
+La función carga los archivos de biblioteca de  `LoadLibraries` vínculos dinámicos (DLL) que necesita el complemento. 
   
-### <a name="loadlibraries-example"></a>Ejemplo de LoadLibraries ()
+### <a name="loadlibraries-example"></a>Ejemplo de LoadLibraries()
 
 ```cpp
 void LoadLibraries() 
@@ -166,11 +166,11 @@ void LoadLibraries()
 }
 ```
 
-## <a name="cache-profile-name-routine"></a>Rutina de nombre de Perfil de caché
+## <a name="cache-profile-name-routine"></a>Rutina de nombre de perfil de caché
 
-La `HrCacheProfileName` función llama a la función **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** para abrir una sección de perfil para la sesión actual y, a continuación, establece el perfil para los controladores de botón. 
+La función llama a la  `HrCacheProfileName` **[función IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** para abrir una sección de perfil para la sesión actual y, a continuación, establece el perfil de los controladores de botones. 
   
-### <a name="cmyaddinhrcacheprofilename-example"></a>Ejemplo de ejemplo cmyaddin:: HrCacheProfileName ()
+### <a name="cmyaddinhrcacheprofilename-example"></a>Ejemplo de CMyAddin::HrCacheProfileName()
 
 ```cpp
 HRESULT CMyAddin::HrCacheProfileName() 
@@ -212,11 +212,11 @@ HRESULT CMyAddin::HrCacheProfileName()
 }
 ```
 
-## <a name="add-menu-items-routine"></a>Agregar rutina de elementos de menú
+## <a name="add-menu-items-routine"></a>Rutina Agregar elementos de menú
 
-La `HrAddMenuItems` función define las opciones de menú que aparecen en el menú **estado sin conexión** que se crea cuando se carga el complemento en Outlook y, a continuación `DispEventAdvise` , llama a cada elemento de menú. 
+La función define las opciones de menú que aparecen en el menú Estado sin conexión que se crea cuando el complemento se carga en Outlook y, a continuación, llama a cada `HrAddMenuItems` elemento de  `DispEventAdvise` menú. 
   
-### <a name="cmyaddinhraddmenuitems-example"></a>Ejemplo de ejemplo cmyaddin:: HrAddMenuItems ()
+### <a name="cmyaddinhraddmenuitems-example"></a>Ejemplo de CMyAddin::HrAddMenuItems()
 
 ```cpp
 HRESULT CMyAddin::HrAddMenuItems() 
@@ -293,5 +293,5 @@ HRESULT CMyAddin::HrAddMenuItems()
 - [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md)
 - [Información sobre el complemento de estado sin conexión de muestra](about-the-sample-offline-state-add-in.md)
 - [Supervisar los cambios de estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [Desconexión de un complemento de estado sin conexión](disconnecting-an-offline-state-add-in.md)
+- [Desconectar un complemento de estado sin conexión](disconnecting-an-offline-state-add-in.md)
 

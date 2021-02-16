@@ -19,7 +19,7 @@ ms.locfileid: "32339189"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para cargar los elementos que se han movido. Esta información se usa durante el estado de [carga de eliminación](upload-delete-status-state.md) y carga de la [tabla](upload-table-state.md).
+Información para cargar elementos que se han movido. Esta información se usa durante el estado [de eliminación de carga](upload-delete-status-state.md) y el estado de la tabla de [carga.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -43,21 +43,21 @@ struct UPMOV
 
 _ulFlags_
   
-> a Marcas para determinar el comportamiento adecuado durante la carga.
+> [entrada] Marcas para determinar el comportamiento adecuado durante la carga.
     
   - UPV_ERROR
     
-    - a Problema al abrir la carpeta del servidor.
+    - [entrada] Problema al abrir la carpeta del servidor.
     
   - UPV_DIRTY
     
-    - a El estado de carga ha cambiado. El cliente lo usa para realizar un seguimiento del cambio en el estado del almacén local.
+    - [entrada] El estado de carga ha cambiado. El cliente lo usa para realizar un seguimiento del cambio de estado del almacén local.
     
   - UPV_COMMIT
     
-    - a Estado de carga de confirmación.
+    - [entrada] Confirmar el estado de carga.
     
-_Preserva_
+_pReserved_
   
 >  [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
@@ -67,36 +67,36 @@ _pstmReserved_
     
 _pszName_
   
->  contempla Nombre de la carpeta de destino. 
+>  [salida] Nombre de la carpeta de destino. 
     
   > [!NOTE]
-  > Este miembro no es compatible con uniCODE. 
+  > Este miembro no admite UNICODE. 
   
 _feid_
   
->  contempla IDENTIFICADOR de entrada de la carpeta de destino. 
+>  [salida] Identificador de entrada de la carpeta de destino. 
     
 _pfld_
   
->  a Puntero a la carpeta del servidor. 
+>  [entrada] Puntero a la carpeta del servidor. 
     
 _pxicc_
   
->  a Puntero a la interfaz de contenido **IExchangeImportContentsChanges** que admite la carga de cambios de contenido al usar la sincronización de cambio incremental (ICS). Para obtener más información acerca de **IExchangeImportContentsChanges** e ICS, consulte [criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [entrada] Puntero a la **interfaz de contenido IExchangeImportContentsChanges** que admite la carga de cambios de contenido al usar la sincronización de cambios incrementales (ICS). Para obtener más información **sobre IExchangeImportContentsChanges** e ICS, consulte [Criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _dwReserved_
   
 >  [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
-_pupmovNext_
+_movNext_
   
->  contempla Siguiente contexto de movimiento. 
+>  [salida] Siguiente contexto de movimiento. 
     
 _cEntMov_
   
->  a Número de elementos movidos aquí. 
+>  [entrada] Número de elementos movidos aquí. 
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

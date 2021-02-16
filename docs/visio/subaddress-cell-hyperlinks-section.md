@@ -22,22 +22,22 @@ Especifica una ubicación del documento de destino con la que se establece el v�
   
 ## <a name="remarks"></a>Comentarios
 
-Por ejemplo, si la celda address es "Drawing1. vsdx", la celda subAddress puede especificar un nombre de página como "Page-3". Si la celda address es el archivo de Microsoft Excel "Samples. xlsx", el valor de esta celda puede ser una hoja de cálculo o un rango de una hoja de cálculo, como "funciones de hoja de cálculo" o "Hoja1! A1: D10 ". Si la celda address es "https://www.microsoft.com/office/", el valor de esta celda puede ser un anclaje con nombre dentro del documento, como "soluciones".
+Por ejemplo, si la celda Address es "Drawing1.vsdx", la celda SubAddress puede especificar un nombre de página como "Page-3". Si la celda Address es el archivo de Microsoft Excel "Samples.xlsx", el valor de esta celda puede ser una hoja de cálculo o un rango dentro de una hoja de cálculo, como "Funciones de hoja de cálculo" o "Hoja1. A1:D10". Si la celda Address es " ", el valor de esta celda puede ser un delimitador con nombre dentro del https://www.microsoft.com/office/ documento, como "soluciones".
   
-También puede establecer el valor de esta celda en el cuadro de diálogo ** Hipervínculos** (en el grupo **Vínculos** en la ficha **Insertar**, haga clic en **Hipervínculo**).
+También puede establecer el valor de esta celda en el cuadro de diálogo **Hipervínculos** (en el grupo **Vínculos** en la ficha **Insertar**, haga clic en **Hipervínculo**).
   
 Para obtener una referencia a la celda SubAddress por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Hipervínculo.  *nombre* . Subdirección donde HYPERLINK *. nombre* es el nombre de la fila  <br/> |
+| Nombre de celda:  <br/> | Hipervínculo.  *nombre*  . SubDirección donde  *Hyperlink .name*  es el nombre de fila  <br/> |
    
-Para obtener una referencia desde un **** programa a la celda SubAddress por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la **celda SubAddress** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|
 | Índice de sección:  <br/> |**visSectionHyperlink** <br/> |
-| Índice de fila:  <br/> |**visRow1stHyperlink** +  *i* donde *i* = 0, 1, 2...  <br/> |
+| Índice de fila:  <br/> |**visRow1stHyperlink**  +   *i* donde *i* = 0, 1, 2...  <br/> |
 | Índice de celda:  <br/> |**visHLinkSubAddress** <br/> |
    
 

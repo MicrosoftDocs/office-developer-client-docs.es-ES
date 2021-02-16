@@ -25,39 +25,39 @@ ms.locfileid: "32350858"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el momento en el que un aviso cambia de pendiente a vencido.
+Especifica el momento en que un aviso pasa de pendiente a vencido.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidReminderNextTime  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008560  <br/> |
+|Long ID (LID):  <br/> |0x00008560  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Recordatorio  <br/> |
+|Área:  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se debe establecer si la propiedad **dispidReminderSet** ([PIDLIDREMINDERSET](pidlidreminderset-canonical-property.md)) es true. Los clientes deben establecer el valor en la hora universal coordinada (UTC).
+Esta propiedad debe establecerse si la propiedad **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) es TRUE. Los clientes deben establecer el valor en hora universal coordinada (UTC).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Especifica las propiedades y el modelo de interacción para el correo electrónico y otros recordatorios de objetos.
+> Especifica las propiedades y el modelo de interacción para el correo electrónico y otros avisos de objetos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -65,7 +65,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

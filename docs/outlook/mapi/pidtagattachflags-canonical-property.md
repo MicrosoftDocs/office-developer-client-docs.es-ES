@@ -25,7 +25,7 @@ ms.locfileid: "32339336"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de máscara de marcas para los datos adjuntos. 
+Contiene una máscara de bits de marcas para datos adjuntos. 
   
 |||
 |:-----|:-----|
@@ -38,21 +38,21 @@ Contiene una máscara de máscara de marcas para los datos adjuntos.
 
 Esta propiedad se usa para la compatibilidad con MHTML. 
   
-Se pueden configurar uno o varios de los siguientes indicadores para la máscara de **PR_ATTACH_FLAGS** : 
+Se pueden establecer una o varias de las siguientes marcas para la **máscara PR_ATTACH_FLAGS** bits: 
   
 ATT_INVISIBLE_IN_HTML 
   
-> Indica que estos datos adjuntos no están disponibles para las aplicaciones de representación HTML y deben omitirse en el procesamiento de extensiones multipropósito de correo Internet (MIME). 
+> Indica que estos datos adjuntos no están disponibles para las aplicaciones de representación HTML y deben omitirse en el procesamiento de extensiones multipropósito de correo de Internet (MIME). 
     
 ATT_INVISIBLE_IN_RTF 
   
-> Indica que estos datos adjuntos no están disponibles para la representación de aplicaciones en formato de texto enriquecido (RTF) y que MAPI debe omitirlos.
+> Indica que estos datos adjuntos no están disponibles para las aplicaciones que se representa en formato de texto enriquecido (RTF) y deben omitirse mediante MAPI.
     
-Si la propiedad **PR_ATTACH_FLAGS** es cero o está ausente, todas las aplicaciones deben procesar los datos adjuntos. 
+Si la **PR_ATTACH_FLAGS** es cero o no está presente, todas las aplicaciones procesarán los datos adjuntos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -60,15 +60,15 @@ Si la propiedad **PR_ATTACH_FLAGS** es cero o está ausente, todas las aplicacio
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -76,7 +76,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

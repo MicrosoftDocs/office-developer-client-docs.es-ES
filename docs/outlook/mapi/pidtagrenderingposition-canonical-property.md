@@ -32,25 +32,25 @@ Contiene un desplazamiento, en caracteres, que se usa para representar datos adj
 |Propiedades asociadas:  <br/> |PR_RENDERING_POSITION  <br/> |
 |Identificador:  <br/> |0x370B  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Datos adjuntos MAPI  <br/> |
+|Área:  <br/> |Datos adjuntos mapi  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando el desplazamiento proporcionado es-1 (0xFFFFFFFF), los datos adjuntos no se representan mediante esta propiedad. Todos los valores que no sean-1 indican la posición dentro de la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) en la que se van a representar los datos adjuntos.
+Cuando el desplazamiento proporcionado es -1 (0xFFFFFFFF), los datos adjuntos no se representan mediante esta propiedad. Todos los valores distintos de -1 indican la posición dentro de **la propiedad PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) en la que se representarán los datos adjuntos.
   
- **Nota:** El carácter que indica esta propiedad en **PR_BODY** se ha reemplazado por los datos adjuntos. Normalmente este carácter es un espacio, aunque también se puede usar un carácter de marcador de posición especial. 
+ **Nota** El carácter indicado por esta propiedad en **PR_BODY** se reemplaza por los datos adjuntos. Normalmente, este carácter es un espacio, aunque también se puede usar un carácter de marcador de posición especial. 
   
-Esta propiedad se expresa en caracteres. En algunos juegos de caracteres no equivale a los bytes. Las aplicaciones Unicode pueden calcular la posición basándose en caracteres de dos bytes. Las aplicaciones del juego de caracteres de doble byte (DBCS) deben analizar el texto hasta el valor de esta propiedad, porque su representación de caracteres varía entre uno y dos bytes por carácter.
+Esta propiedad se expresa en caracteres. En algunos juegos de caracteres, esto no equivale a bytes. Las aplicaciones Unicode pueden calcular la posición en función de caracteres de dos bytes. Double-Byte de juego de caracteres (DBCS) deben examinar el texto hasta este valor de propiedad, ya que su representación de caracteres varía entre uno y dos bytes por carácter.
   
-Esta propiedad no debe usarse con texto con formato de texto enriquecido (RTF). La posición de representación se indica en RTF mediante una secuencia de escape denominada marcador de posición de datos adjuntos del objeto. Esta secuencia consta de la cadena `\objattph` seguida de un único carácter, normalmente un espacio, que se reemplazará por la representación de datos adjuntos. 
+Esta propiedad no debe usarse con texto en formato de texto enriquecido (RTF). La posición de representación se indica en RTF mediante una secuencia de escape denominada marcador de posición de datos adjuntos del objeto. Esta secuencia consta de la cadena seguida de un solo carácter, normalmente un espacio, que se reemplazará por la  `\objattph` representación de datos adjuntos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -58,15 +58,15 @@ Esta propiedad no debe usarse con texto con formato de texto enriquecido (RTF). 
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -74,7 +74,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

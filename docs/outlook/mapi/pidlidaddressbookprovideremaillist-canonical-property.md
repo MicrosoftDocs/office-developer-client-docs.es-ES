@@ -25,48 +25,48 @@ ms.locfileid: "32348485"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica qué propiedades de la dirección electrónica se establecen en el contacto. 
+Especifica qué propiedades de dirección electrónica se establecen en el contacto. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidABPEmailList  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008028  <br/> |
+|Long ID (LID):  <br/> |0x00008028  <br/> |
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
-|Área:  <br/> |Contact  <br/> |
+|Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cada valor PT_LONG de esta propiedad debe ser único en la propiedad y debe establecerse en uno de los valores de la tabla siguiente. Si se establece esta propiedad, también se debe establecer la propiedad **dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)). Estas dos propiedades deben mantenerse sincronizadas entre sí. Por ejemplo, si uno de los valores de **dispidABPEmailList** es "0x00000000", **dispidABPArrayType** debe tener establecido el bit "0x00000001". 
+Cada PT_LONG valor de esta propiedad debe ser único en la propiedad y debe establecerse en uno de los valores de la tabla siguiente. Si se establece esta propiedad, también debe establecerse la propiedad **dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)). Estas dos propiedades deben mantenerse sincronizadas entre sí. Por ejemplo, si uno de los valores de **dispidABPEmailList** es "0x00000000", **dispidABPArrayType** debe tener el bit "0x00000001" establecido. 
   
-|**Value**|**Descripción**|
+|**Valor**|**Descripción**|
 |:-----|:-----|
 |0x00000000  <br/> |Email1 se define para el contacto.  <br/> |
 |0x00000001  <br/> |Email2 se define para el contacto.  <br/> |
 |0x00000002  <br/> |Email3 se define para el contacto.  <br/> |
-|0x00000003  <br/> |El fax comercial se define para el contacto.  <br/> |
-|0x00000004  <br/> |El fax particular se define para el contacto.  <br/> |
-|0x00000005  <br/> |Se ha definido el fax principal para el contacto.  <br/> |
+|0x00000003  <br/> |El fax de empresa se define para el contacto.  <br/> |
+|0x00000004  <br/> |El fax principal se define para el contacto.  <br/> |
+|0x00000005  <br/> |El fax principal se define para el contacto.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten para contactos y listas de distribución personales.
+> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -74,7 +74,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -36,65 +36,65 @@ HRESULT DoVerb(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _iVerb_
   
-> a Número asociado a uno de los verbos del formulario.
+> [entrada] Número asociado a uno de los verbos del formulario.
     
  _lpViewContext_
   
-> a Un puntero a un objeto de contexto de vista. El parámetro _lpViewContext_ puede ser **null**.
+> [entrada] Puntero a un objeto de contexto de vista. El _parámetro lpViewContext_ puede ser **nulo.**
     
  _hwndParent_
   
-> a Un controlador para la ventana primaria de los cuadros de diálogo o ventanas que este método muestra. El parámetro _hwndParent_ debe ser **null** si el cuadro de diálogo o ventana no es modal. 
+> [entrada] Identificador de la ventana principal de cualquier cuadro de diálogo o ventana que muestra este método. El  _parámetro hwndParent_ debe ser **nulo** si el cuadro de diálogo o la ventana no es modal. 
     
  _lprcPosRect_
   
-> a Un puntero a una estructura [Rect](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) de Win32 que contiene el tamaño y la posición de la ventana del formulario. 
+> [entrada] Puntero a una estructura [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) de Win32 que contiene el tamaño y la posición de la ventana del formulario. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El verbo se ha invocado correctamente.
+> El verbo se invocó correctamente.
     
 OLEOBJ_S_CANNOT_DOVERB_NOW 
   
-> El verbo representado por el parámetro _iVerb_ es válido, pero el formulario no puede realizar las operaciones actualmente asociadas. 
+> El verbo representado por el  _parámetro iVerb_ es válido, pero el formulario no puede realizar las operaciones asociadas actualmente con él. 
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIForm::D overb** para solicitar que el formulario realice las tareas que asocia con cada verbo que admita el formulario. 
+Los visores de formularios llaman al método **IMAPIForm::D oVerb** para solicitar que el formulario realice las tareas que asocia con cada verbo compatible con el formulario. 
   
-Cada uno de los verbos admitidos se identifica mediante un valor numérico, pasado a **doverb** en el parámetro _iVerb_ . Las implementaciones típicas de **doverb** contienen una instrucción **Switch** que comprueba los valores que son válidos para el parámetro _iVerb_ del formulario. 
+Cada uno de los verbos admitidos se identifica mediante un valor numérico, que se pasa a **DoVerb** en el _parámetro iVerb._ Las implementaciones típicas de **DoVerb** contienen una instrucción **switch** que prueba los valores que son válidos para el parámetro  _iVerb_ para el formulario. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si el visor de formularios especifica un contexto de vista en el parámetro _lpViewContext_ , úselo en la implementación **doverb** en lugar del contexto de vista pasado en una llamada anterior al método [IMAPIForm:: SetViewContext](imapiform-setviewcontext.md) . Realice los cambios necesarios en las estructuras de datos internos y no guarde el contexto de la vista. 
+Si el visor del formulario especifica un contexto de vista en el parámetro _lpViewContext,_ úselo en la implementación de **DoVerb** en lugar del contexto de vista pasado en una llamada anterior al método [IMAPIForm::SetViewContext.](imapiform-setviewcontext.md) Realice los cambios necesarios en las estructuras de datos internas y no guarde el contexto de vista. 
   
-Realice las siguientes tareas en su implementación de **doverb** : 
+Realice las siguientes tareas en la **implementación de DoVerb:** 
   
-- Ejecute el código que sea necesario para el verbo concreto asociado con el parámetro _iVerb_ . 
+- Ejecute el código que sea necesario para el verbo concreto asociado con el _parámetro iVerb._ 
     
-- Si es necesario, restaure el contexto de la vista original.
+- Si es necesario, restaure el contexto de vista original.
     
-- Si se ha pasado un número de verbo desconocido, devuelva MAPI_E_NO_SUPPORT. De lo contrario, devuelva un resultado basado en el éxito o error del cualquier verbo que se haya ejecutado.
+- Si se pasó un número de verbo desconocido, MAPI_E_NO_SUPPORT. De lo contrario, devuelve un resultado basado en el éxito o fracaso de cualquier verbo que se haya ejecutado.
     
-- Cierre el formulario. Siempre es su responsabilidad cerrar el formulario después de que se complete una llamada a **doverb** . 
+- Cierre el formulario. Siempre es su responsabilidad cerrar el formulario una vez completada una llamada a **DoVerb.** 
     
-Algunos verbos, como Print, deben ser modales con respecto a la llamada a **doverb** , es decir, la operación indicada debe finalizar antes de que se devuelva la llamada a **doverb** . 
+Algunos verbos, como Print, deben ser modales con respecto a la llamada **a DoVerb;** es decir, la operación indicada debe finalizar antes de que se devuelva la llamada **a DoVerb.** 
   
-Para obtener la estructura **Rect** que utiliza la ventana de un formulario, llame a la función [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
+Para obtener la **estructura RECT** usada por la ventana de un formulario, llame a la [función GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
   
-No guarde el identificador en el parámetro _hwndParent_ porque, aunque normalmente sigue siendo válido hasta la finalización de **doverb**, puede destruirse inmediatamente después de la devolución de la llamada.
+No guarde el controlador en el parámetro  _hwndParent_ porque, aunque normalmente sigue siendo válido hasta la finalización de **DoVerb,** se puede destruir inmediatamente después de la devolución de la llamada.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede hacer que los verbos no modales actúen como verbos modales apuntando _lpViewContext_ a una implementación de contexto de vista que devuelve la marca VCSTATUS_MODAL desde su método [IMAPIViewContext:: GetViewStatus](imapiviewcontext-getviewstatus.md) . 
+Puedes hacer que los verbos no modales actúen como verbos modales si apuntas _lpViewContext_ a una implementación de contexto de vista que devuelve la marca VCSTATUS_MODAL de su método [IMAPIViewContext::GetViewStatus.](imapiviewcontext-getviewstatus.md) 
   
-Para obtener más información acerca de los verbos en MAPI, vea [verbos de formulario](form-verbs.md). Para obtener más información acerca de cómo se administran los verbos en OLE, vea [OLE y transferencia de datos](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).
+Para obtener más información acerca de los verbos en MAPI, vea [Verbos de formulario](form-verbs.md). Para obtener más información acerca de cómo se controlan los verbos en OLE, vea [OLE y transferencia de datos](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -102,9 +102,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: CallDoVerb  <br/> |MFCMAPI usa el método **IMAPIForm::D overb** para invocar un verbo en un formulario.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CallDoVerb  <br/> |MFCMAPI usa el **método IMAPIForm::D oVerb** para invocar un verbo en un formulario.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

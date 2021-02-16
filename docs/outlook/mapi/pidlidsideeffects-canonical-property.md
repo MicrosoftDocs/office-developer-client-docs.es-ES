@@ -25,41 +25,41 @@ ms.locfileid: "32331300"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Controla la forma en que el cliente administra un objeto de mensaje cuando actúa en la entrada del usuario final.
+Controla el modo en que el cliente controla un objeto de mensaje al actuar en la entrada del usuario final.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSideEffects  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008510  <br/> |
+|Long ID (LID):  <br/> |0x00008510  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Debe establecerse en un valor de bit a bit o cero o más de los siguientes marcadores.
+Debe establecerse en un bit a bit o en cero o más de las siguientes marcas.
   
-|**Name**|**Value**|**Descripción**|
+|**Name**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
-|seOpenToDelete  <br/> |0x0001  <br/> |Al eliminar se requiere un procesamiento adicional en el objeto de mensaje.  <br/> |
+|seOpenToDelete  <br/> |0x0001  <br/> |Se requiere procesamiento adicional en el objeto de mensaje al eliminar.  <br/> |
 |seNoFrame  <br/> |0x0008  <br/> |No hay ninguna interfaz de usuario asociada con el objeto de mensaje.  <br/> |
-|seCoerceToInbox  <br/> |0x0010  <br/> |Se requiere un procesamiento adicional en el objeto Message al mover o copiar a un objeto Folder con una propiedad **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) de "ipf. Note ".  <br/> |
-|seOpenTocopy  <br/> |0x0020  <br/> |Se requiere un procesamiento adicional en el objeto de mensaje al copiar en otra carpeta.  <br/> |
-|seOpenToMove  <br/> |0x0040  <br/> |Se requiere un procesamiento adicional en el objeto de mensaje cuando se mueve a otra carpeta.  <br/> |
-|seOpenForCtxMenu  <br/> |0x0100  <br/> |Se requiere un procesamiento adicional en el objeto Message al mostrar verbos al usuario final.  <br/> |
-|seCannotUndoDelete  <br/> |0x0400  <br/> |No se puede deshacer la operación de eliminación; no se debe establecer a menos que se establezca "seOpenToDelete".  <br/> |
+|seCoerceToInbox  <br/> |0x0010  <br/> |Se requiere procesamiento adicional en el objeto de mensaje al mover o copiar a un objeto de carpeta con una propiedad **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) de "IPF. Nota".  <br/> |
+|seOpenTocopy  <br/> |0x0020  <br/> |Se requiere procesamiento adicional en el objeto de mensaje al copiar en otra carpeta.  <br/> |
+|seOpenToMove  <br/> |0x0040  <br/> |Se requiere procesamiento adicional en el objeto de mensaje cuando se mueve a otra carpeta.  <br/> |
+|seOpenForCtxMenu  <br/> |0x0100  <br/> |Se requiere procesamiento adicional en el objeto de mensaje al mostrar verbos al usuario final.  <br/> |
+|seCannotUndoDelete  <br/> |0x0400  <br/> |No se puede deshacer la operación de eliminación, no se debe establecer a menos que se establezca "seOpenToDelete".  <br/> |
 |seCannotUndoCopy  <br/> |0x0800  <br/> |No se puede deshacer la operación de copia, no se debe establecer a menos que se establezca "seOpenTocopy".  <br/> |
 |seCannotUndoMove  <br/> |0x1000  <br/> |No se puede deshacer la operación de movimiento, no se debe establecer a menos que se establezca "seOpenToMove".  <br/> |
 |seHasScript  <br/> |0x2000  <br/> |El objeto de mensaje contiene un script de usuario final.  <br/> |
-|seOpenToPermDelete  <br/> |0x4000  <br/> |Se requiere un procesamiento adicional para eliminar de forma permanente el objeto de mensaje.  <br/> |
+|seOpenToPermDelete  <br/> |0x4000  <br/> |Se requiere un procesamiento adicional para eliminar permanentemente el objeto de mensaje.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definición de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -67,15 +67,15 @@ Debe establecerse en un valor de bit a bit o cero o más de los siguientes marca
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -83,7 +83,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -21,18 +21,18 @@ ms.locfileid: "32335748"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El estado normal es donde el objeto Form pasa la mayor parte del tiempo, esperando a las aplicaciones cliente iniciar una acción, como guardar los cambios o cerrar el formulario. En la tabla siguiente se describen las transiciones permitidas desde el estado normal.
+El estado Normal es donde el objeto de formulario pasa la mayor parte del tiempo, esperando a que las aplicaciones cliente inicien una acción como guardar los cambios o cerrar el formulario. En la tabla siguiente se describen las transiciones permitidas desde el estado Normal.
   
-|**Método IPersistMessage**|**Action**|**Nuevo estado**|
+|**Método IPersistMessage**|**Acción**|**Nuevo estado**|
 |:-----|:-----|:-----|
-|[IPersistMessage:: Save](ipersistmessage-save.md) (_pMessage = =_ null, _fSameAsLoad = =_ true)  <br/> O bien,  <br/> **IPersistMessage:: Save** (_pMessage! =_ null, _fSameAsLoad = =_ false)  <br/> |Guardar de forma recursiva todos los objetos OLE incrustados que se han modificado. Vuelva a guardar los datos del mensaje en el objeto de mensaje. Almacene la marca _fSameAsLoad_ para su uso posterior en el estado noscribble. [](noscribble-state.md)  <br/> |NoScribble  <br/> |
-|**IPersistMessage:: Save** (_pMessage! =_ null, _fSameAsLoad = =_ true)  <br/> |Esto es lo mismo que el caso anterior, excepto que esta llamada a **Save** se usa en situaciones de memoria baja y no debe producir errores por falta de memoria.  <br/> |NoScribble  <br/> |
-|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Invoque de forma recursiva el método **HandsOffMessage** en mensajes incrustados o el método OLE [IPersistStorage:: HANDSOFFSTORAGE](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) en objetos OLE incrustados. Libere el objeto de mensaje y todos los mensajes u objetos incrustados.  <br/> |[HandsOffFromNormal](handsofffromnormal-state.md) <br/> |
-|[IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md), [IPersistMessage:: InitNew](ipersistmessage-initnew.md) o [IPersistMessage:: Load](ipersistmessage-load.md) <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devolver el último error.  <br/> |Normal  <br/> |
-|Otros [IPersistMessage:](ipersistmessageiunknown.md) métodos o métodos IUnknown de otras interfaces  <br/> |Implemente como se describe en la documentación de la interfaz [IPersistMessage: IUnknown](ipersistmessageiunknown.md) .  <br/> |Normal  <br/> |
+|[IPersistMessage::Save](ipersistmessage-save.md)(_pMessage ==_ NULL,  _fSameAsLoad ==_ TRUE)  <br/> O bien,  <br/> **IPersistMessage::Save**(_pMessage !=_ NULL,  _fSameAsLoad ==_ FALSE)  <br/> |Guarde de forma recursiva todos los objetos OLE incrustados que se hayan modificado. Vuelva a guardar los datos del mensaje en el objeto de mensaje. Almacena la _marca fSameAsLoad para_ su uso posterior en el [estado NoScribble.](noscribble-state.md)  <br/> |NoScribble  <br/> |
+|**IPersistMessage::Save**(_pMessage !=_ NULL,  _fSameAsLoad ==_ TRUE)  <br/> |Esto es lo mismo que en el caso anterior, excepto que esta llamada **a Save** se usa en situaciones de poca memoria y no debe producirse un error por falta de memoria.  <br/> |NoScribble  <br/> |
+|[IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Invocar de forma recursiva el **método HandsOffMessage** en mensajes incrustados o el método OLE [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) en objetos OLE incrustados. Libere el objeto de mensaje y los mensajes u objetos incrustados.  <br/> |[HandsOffFromNormal](handsofffromnormal-state.md) <br/> |
+|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md), [IPersistMessage::InitNew](ipersistmessage-initnew.md) o [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |Normal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devuelve el último error.  <br/> |Normal  <br/> |
+|Otros [métodos de IPersistMessage : IUnknown](ipersistmessageiunknown.md) o de otras interfaces  <br/> |Implementar como se describe en la documentación para [la interfaz IPersistMessage : IUnknown.](ipersistmessageiunknown.md)  <br/> |Normal  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

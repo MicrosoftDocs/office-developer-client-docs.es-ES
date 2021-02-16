@@ -25,7 +25,7 @@ ms.locfileid: "32331860"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre para mostrar del destinatario en un formulario seguro que no se puede cambiar.
+Contiene el nombre para mostrar de un destinatario en un formulario seguro que no se puede cambiar.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contiene el nombre para mostrar del destinatario en un formulario seguro que no 
    
 ## <a name="remarks"></a>Comentarios
 
-Todos los proveedores de libreta de direcciones deben implementar estas propiedades. Contienen la versión del nombre para mostrar del destinatario que se transmite con el mensaje. Para la mayoría de los proveedores de libreta de direcciones, estas propiedades tienen el mismo valor que la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Los proveedores que no tienen un nombre para mostrar seguro devuelven PT_ERROR y MAPI cambian el nombre para mostrar agregando comillas alrededor del nombre.
+Todas las libretas de direcciones deben implementar estas propiedades. Contienen la versión del nombre para mostrar del destinatario que se transmite con el mensaje. Para la mayoría de los proveedores de libretas de direcciones, estas propiedades tienen el mismo valor que **la propiedad PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Los proveedores que no tienen un nombre para mostrar seguro devuelven PT_ERROR MAPI cambia el nombre para mostrar agregando comillas alrededor del nombre.
   
-Una aplicación cliente puede usar esta propiedad para impedir la alteración o la "imitación" de las entradas. Un ejemplo de suplantación es la transmisión de John Doe como Juan (un chico).
+Una aplicación cliente puede usar esta propiedad para evitar la alteración o "suplantación" de entradas. Un ejemplo de suplantación de nombre es la transmisión de John Doe como John (What a Guy) Doe.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de las listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> Controla las comunicaciones de un cliente con un servidor de interfaz del proveedor de servicios de nombres (NSPI).
+> Controla las comunicaciones de un cliente con un servidor de interfaz de proveedor de servicios de nombres (NSPI).
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo de transferencias de datos entre un cliente y un servidor.
+> Controla el orden y el flujo de las transferencias de datos entre un cliente y un servidor.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
@@ -66,15 +66,15 @@ Una aplicación cliente puede usar esta propiedad para impedir la alteración o 
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -82,7 +82,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

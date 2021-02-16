@@ -25,46 +25,46 @@ ms.locfileid: "32355611"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre para mostrar original de una entrada copiada de una libreta de direcciones en una libreta personal de direcciones o en otra libreta de direcciones de escritura.
+Contiene el nombre para mostrar original de una entrada copiada de una libreta de direcciones a una libreta de direcciones personal u otra libreta de direcciones grabable.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_ORIGINAL_DISPLAY_NAME, PR_ORIGINAL_DISPLAY_NAME_A, PR_ORIGINAL_DISPLAY_NAME_W  <br/> |
 |Identificador:  <br/> |0x3A13  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Mensajes generales  <br/> |
+|Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades contienen información sobre el origen inicial de una entrada que se ha copiado.
+Estas propiedades contienen información sobre el origen original de una entrada copiada.
   
 Para un informe no leído, estas propiedades contienen una copia del nombre para mostrar del destinatario del mensaje original para el que se genera el informe. Cuando el destinatario original forma parte de una lista de distribución, el nombre para mostrar de la lista de distribución se conserva para el informe.
   
-Una aplicación cliente puede usar estas propiedades para impedir la alteración o "imitación" de las entradas, ya que proporciona una copia no modificada del nombre para mostrar que se va a comparar.
+Una aplicación cliente puede usar estas propiedades para evitar la alteración o "suplantación" de entradas, al dar una copia sin modificar del nombre para mostrar para comparar.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de las listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -75,7 +75,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -36,11 +36,11 @@ Contiene la fecha y la hora en que el remitente del mensaje envió un mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-El proveedor de almacén establece **PR_CLIENT_SUBMIT_TIME** en el momento en que la aplicación cliente llamó a [IMessage:: SubmitMessage](imessage-submitmessage.md). 
+El proveedor del **almacén PR_CLIENT_SUBMIT_TIME** la hora en que la aplicación cliente llamó [a IMessage::SubmitMessage](imessage-submitmessage.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
@@ -48,15 +48,15 @@ El proveedor de almacén establece **PR_CLIENT_SUBMIT_TIME** en el momento en qu
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -64,7 +64,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

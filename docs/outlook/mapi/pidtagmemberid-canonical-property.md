@@ -25,7 +25,7 @@ ms.locfileid: "32342640"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de un miembro de tabla que tiene los derechos descritos en una carpeta o buzón de correo de Microsoft Exchange Server.
+Contiene el identificador de un miembro de tabla que tiene los derechos descritos en una carpeta Microsoft Exchange Server buzón de correo.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Contiene el identificador de un miembro de tabla que tiene los derechos descrito
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad devuelve un identificador único para la tabla. Un identificador de usuario de directorio está asociado a cada identificador de miembro y es proporcionado por esta propiedad. Esta propiedad se usa en la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) para recuperar el identificador de entrada de directorio de un miembro con derechos explícitos en una carpeta. 
+Esta propiedad devuelve un identificador único para la tabla. Un identificador de usuario de directorio está asociado a cada identificador de miembro y lo proporciona esta propiedad. La interfaz de [IExchangeModifyTable](iexchangemodifytableiunknown.md) usa esta propiedad para recuperar el identificador de entrada de directorio de un miembro con derechos explícitos en una carpeta. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Controla la recuperación de listas de permisos de carpetas que se almacenan en el servidor.
+> Controla la recuperación de listas de permisos de carpeta almacenadas en el servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -71,7 +71,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

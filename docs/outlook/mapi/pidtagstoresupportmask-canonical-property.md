@@ -25,7 +25,7 @@ ms.locfileid: "32340975"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de máscara de marcadores que consultan las aplicaciones cliente para determinar las características de un almacén de mensajes. 
+Contiene una máscara de bits de marcas que las aplicaciones cliente consultan para determinar las características de un almacén de mensajes. 
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contiene una máscara de máscara de marcadores que consultan las aplicaciones c
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad revela las capacidades de un almacén de mensajes a las aplicaciones cliente que tienen previsto enviar un mensaje. Las marcas pueden admitir decisiones de un cliente u otro almacén, por ejemplo, si se envía **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) o solo **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Un cliente nunca debe establecer **PR_STORE_SUPPORT_MASK**; un intento de establecer esta marca devuelve MAPI_E_COMPUTED. 
+Esta propiedad divulga las capacidades de un almacén de mensajes a las aplicaciones cliente que planean enviarle un mensaje. Las marcas pueden admitir decisiones tomadas por un cliente u otro almacén, como enviar **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) o solo **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Un cliente nunca debe establecer **PR_STORE_SUPPORT_MASK**; Un intento de establecer esta marca devuelve MAPI_E_COMPUTED. 
   
-Se pueden configurar uno o varios de los siguientes indicadores para la máscara de **PR_STORE_SUPPORT_MASK** : 
+Se pueden establecer una o varias de las siguientes marcas para la **máscara PR_STORE_SUPPORT_MASK** bits: 
   
 STORE_ANSI_OK
   
@@ -50,23 +50,23 @@ STORE_ATTACH_OK
     
 STORE_CATEGORIZE_OK 
   
-> (1024, 0x00000400) El almacén de mensajes admite vistas por categorías de tablas. 
+> (1024, 0x00000400) El almacén de mensajes admite vistas de tablas categorizadas. 
     
 STORE_CREATE_OK 
   
-> (16, 0x00000010) El almacén de mensajes admite la creación de nuevos mensajes. 
+> (16, 0x00000010) El almacén de mensajes admite la creación de mensajes nuevos. 
     
 STORE_ENTRYID_UNIQUE 
   
-> (1, 0x00000001) Los identificadores de entrada de los objetos en el almacén de mensajes son únicos, es decir, nunca se reutiliza durante la vida de la tienda. 
+> (1, 0x00000001) Los identificadores de entrada de los objetos del almacén de mensajes son únicos, es decir, nunca se reutilizan durante la vida útil del almacén. 
     
 STORE_HTML_OK 
   
-> (65536, 0x00010000) El almacén de mensajes admite mensajes HTML, almacenados en la propiedad **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)). Si el entorno de desarrollo usa un MAPIDEFS. H que no incluye STORE_HTML_OK, use el valor 0x00010000 en su lugar. 
+> (65536, 0x00010000) El almacén de mensajes admite mensajes HTML, almacenados en **la PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)). Si el entorno de desarrollo usa un MAPIDEFS. En el archivo H que no STORE_HTML_OK, use el valor 0x00010000 su lugar. 
     
 STORE_ITEMPROC
   
-> (2097152, 0x00200000) En un almacén de archivos PST ajustado, indica que cuando llega un mensaje nuevo a la tienda, el almacén realiza reglas y procesamiento de filtros de correo no deseado en el mensaje por separado. El almacén llama a [IMAPISupport:: Notify](imapisupport-notify.md), estableciendo **fnevNewMail** en la estructura de [notificación](notification.md) que se pasa como parámetro y, a continuación, pasa los detalles del mensaje nuevo al cliente de escucha. Posteriormente, cuando el cliente en escucha recibe la notificación, no procesa las reglas en el mensaje. 
+> (2097152, 0x00200000) En un almacén pst ajustado, indica que cuando llega un nuevo mensaje al almacén, el almacén realiza reglas y procesamiento de filtro de correo no deseado en el mensaje por separado. El almacén llama a [IMAPISupport::Notify](imapisupport-notify.md), configura **fnevNewMail** en la estructura [de](notification.md) notificación que se pasa como parámetro y, a continuación, pasa los detalles del nuevo mensaje al cliente de escucha. Posteriormente, cuando el cliente en escucha recibe la notificación, no procesa las reglas en el mensaje. 
     
 STORE_LOCALSTORE
   
@@ -78,7 +78,7 @@ STORE_MODIFY_OK
     
 STORE_MV_PROPS_OK 
   
-> (512, 0x00000200) El almacén de mensajes admite propiedades multivalor, garantiza la estabilidad del orden de los valores en una propiedad con varios valores a lo largo de una operación de guardar y admite la creación de instancias de propiedades multivalor en tablas. 
+> (512, 0x00000200) El almacén de mensajes admite propiedades multivalor, garantiza la estabilidad del orden de los valores en una propiedad multivalor durante una operación de guardado y admite la creación de instancias de propiedades multivalor en tablas. 
     
 STORE_NOTIFY_OK 
   
@@ -86,15 +86,15 @@ STORE_NOTIFY_OK
     
 STORE_OLE_OK 
   
-> (64, 0x00000040) El almacén de mensajes admite datos adjuntos OLE. Se puede tener acceso a los datos OLE a través de una interfaz **IStorage** , como la que está disponible a través de la propiedad **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). 
+> (64, 0x00000040) El almacén de mensajes admite datos adjuntos OLE. Se puede tener acceso a los datos OLE a través de una interfaz **IStorage,** como la disponible a través de la propiedad **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). 
     
 STORE_PUBLIC_FOLDERS 
   
-> (16384, 0x00004000) Las carpetas de este almacén son públicas (multiusuario), no privadas (posiblemente varias instancias pero no multiusuario). 
+> (16384, 0x00004000) Las carpetas de este almacén son públicas (de varios usuarios), no privadas (posiblemente de varias instancias, pero no de varios usuarios). 
     
 STORE_PUSHER_OK
   
-> (8388608, 0x00800000) El controlador de protocolo MAPI no rastreará el almacén, y el almacén es responsable de enviar los cambios a través de notificaciones al indizador para que tengan mensajes indizados.
+> (8388608, 0x00800000) El controlador de protocolo MAPI no rastreará el almacén y el almacén es responsable de enviar cualquier cambio a través de notificaciones al indizador para que los mensajes se indicen.
     
 STORE_READONLY 
   
@@ -106,11 +106,11 @@ STORE_RESTRICTION_OK
     
 STORE_RTF_OK 
   
-> (2048, 0x00000800) El almacén de mensajes admite mensajes con formato de texto enriquecido (RTF), normalmente comprimidos, y el propio almacén mantiene sincronizados **PR_BODY** y **PR_RTF_COMPRESSED** . 
+> (2048, 0x00000800) El almacén de mensajes admite mensajes con formato de texto enriquecido (RTF), normalmente comprimidos, y el propio almacén mantiene **PR_BODY** y **PR_RTF_COMPRESSED** sincronizados. 
     
 STORE_RULES_OK
   
-> (268435456, 0x10000000) Indica que las reglas se deben almacenar en este almacén PST incluso si no es el almacén predeterminado. Cuando se usa **STORE_RULES_OK** junto con **NON_EMS_XP_SAVE**, las reglas se pueden ejecutar en almacenes de archivos PST que no son predeterminados.
+> (268435456, 0x10000000) Indica que las reglas deben almacenarse en este almacén de PST aunque no sea el almacén predeterminado. Cuando **STORE_RULES_OK** se usa junto con **NON_EMS_XP_SAVE,** las reglas pueden ejecutarse en almacenes ajustados de PST no predeterminados.
     
 STORE_SEARCH_OK 
   
@@ -122,41 +122,41 @@ STORE_SORT_OK
     
 STORE_SUBMIT_OK 
   
-> (128, 0x00000080) El almacén de mensajes permite marcar un mensaje para su envío. 
+> (128, 0x00000080) El almacén de mensajes admite marcar un mensaje para su envío. 
     
 STORE_UNCOMPRESSED_RTF 
   
-> (32768, 0x00008000) El almacén de mensajes admite el almacenamiento de mensajes RTF en un formulario descomprimido. Una secuencia RTF sin comprimir se identifica por el valor **dwMagicUncompressedRTF** en el encabezado de la secuencia. El valor **dwMagicUncompressedRTF** se define en RTFLIB. H del archivo. 
+> (32768, 0x00008000) El almacén de mensajes admite el almacenamiento de mensajes RTF sin comprimir. Una secuencia RTF sin comprimir se identifica mediante el valor **dwMagicUncompressedRTF** en el encabezado de secuencia. El **valor dwMagicUncompressedRTF** se define en RTFLIB. Archivo H. 
     
 STORE_UNICODE_OK
   
-> (262144, 0x00040000) Indica que el almacén de mensajes admite el almacenamiento Unicode. Un cliente puede buscar la presencia de la marca para decidir si desea solicitar o guardar información Unicode en el almacén. 
+> (262144, 0x00040000) Indica que el almacén de mensajes admite almacenamiento Unicode. Un cliente puede buscar la presencia de la marca para decidir si desea solicitar o guardar información Unicode en el almacén. 
     
-Siempre se puede almacenar una versión RTF de un mensaje, incluso si el almacén de mensajes no es compatible con RTF. Si el bit STORE_RTF_OK no se establece para un almacén en particular, un cliente que mantenga versiones RTF debe llamar a la función [RTFSync](rtfsync.md) para mantener las versiones **PR_BODY** y **PR_RTF_COMPRESSED** sincronizadas para el contenido de texto. RTF siempre se almacena en **PR_RTF_COMPRESSED**, independientemente de si realmente está comprimido o no. 
+Siempre se puede almacenar una versión RTF de un mensaje, incluso si el almacén de mensajes no es compatible con RTF. Si el bit STORE_RTF_OK no se establece para un almacén determinado, un cliente que mantiene versiones RTF debe llamar a la función [RTFSync](rtfsync.md) para mantener sincronizadas las versiones **PR_BODY** y **PR_RTF_COMPRESSED** para el contenido de texto. RTF siempre se almacena **en PR_RTF_COMPRESSED**, independientemente de si realmente está comprimido o no. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXMSG]](https://msdn.microsoft.com/library/b046868c-9fbf-41ae-9ffb-8de2bd4eec82%28Office.15%29.aspx)
   
-> Describe el formato de los mensajes usados para enviar información relacionada con carpetas de uso compartido en el cliente.
+> Describe el formato de los mensajes usados para enviar información relacionada con el uso compartido de carpetas en el cliente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -164,7 +164,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

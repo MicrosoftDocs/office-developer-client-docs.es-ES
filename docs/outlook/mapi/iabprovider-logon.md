@@ -40,51 +40,51 @@ HRESULT Logon(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _lpMAPISup_
   
-> a Un puntero al objeto de compatibilidad del proveedor de libreta de direcciones.
+> [entrada] Puntero al objeto de compatibilidad del proveedor de libreta de direcciones.
     
  _ulUIParam_
   
-> a Identificador de la ventana primaria para el cuadro de diálogo de inicio de sesión que muestra el método de **Inicio de sesión** , si se permite. El parámetro _ulUIParam_ contiene el valor del parámetro del mismo nombre pasado a MAPI en la llamada anterior a la función [MAPILogonEx](mapilogonex.md) . 
+> [entrada] Identificador de la ventana principal del cuadro de diálogo de inicio de sesión que muestra el método **de** inicio de sesión, si se permite. El _parámetro ulUIParam_ contiene el valor del parámetro del mismo nombre pasado a MAPI en la llamada anterior a la [función MAPILogonEx.](mapilogonex.md) 
     
  _lpszProfileName_
   
-> a Un puntero al nombre del perfil de sesión.
+> [entrada] Puntero al nombre del perfil de sesión.
     
  _ulFlags_
   
-> a Una máscara de máscara de marcadores que controla cómo se realiza el inicio de sesión. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se realiza el inicio de sesión. Se pueden establecer las siguientes marcas:
     
 AB_NO_DIALOG 
   
-> El proveedor no debe mostrar un cuadro de diálogo durante el inicio de sesión. Si no se establece esta marca, el proveedor puede mostrar un cuadro de diálogo para pedir al usuario que falta información de configuración.
+> El proveedor no debe mostrar un cuadro de diálogo durante el inicio de sesión. Si no se establece esta marca, el proveedor puede mostrar un cuadro de diálogo para solicitar al usuario la información de configuración que falta.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite que el **Inicio de sesión** vuelva correctamente, probablemente antes de que finalice el proceso de inicio de sesión. 
+> Permite **que el inicio** de sesión vuelva correctamente, posiblemente antes de que finalice el proceso de inicio de sesión. 
     
 MAPI_UNICODE 
   
-> Todas las cadenas deben estar en formato Unicode. Si no se establece la marca MAPI_UNICODE, las cadenas deben estar en formato ANSI.
+> Todas las cadenas deben estar en formato Unicode. Si no MAPI_UNICODE marca, las cadenas deben estar en formato ANSI.
     
  _lpulcbSecurity_
   
-> [in, out] Un puntero al tamaño, en bytes, de la estructura de credenciales de seguridad apuntado por el parámetro _lppbSecurity_ . En la entrada, el valor debe ser distinto de cero; en la salida, el valor debe ser cero. En ambos casos, los punteros deben ser válidos. 
+> [entrada, salida] Puntero al tamaño, en bytes, de la estructura de credenciales de seguridad a la que apunta el _parámetro lppbSecurity._ En la entrada, el valor debe ser distinto de cero; en la salida, el valor debe ser cero. En ambos casos, los punteros deben ser válidos. 
     
  _lppbSecurity_
   
-> [in, out] Un puntero a un puntero a credenciales de seguridad. En la entrada, el valor debe ser distinto de cero; en la salida, el valor debe ser cero. En ambos casos, el puntero debe ser válido.
+> [entrada, salida] Puntero a un puntero a credenciales de seguridad. En la entrada, el valor debe ser distinto de cero; en la salida, el valor debe ser cero. En ambos casos, el puntero debe ser válido.
     
  _lppMAPIError_
   
-> contempla Un puntero a un puntero a una estructura [MAPIERROR](mapierror.md) . El parámetro _lppMAPIError_ puede establecerse en NULL si no hay ninguna estructura **MAPIERROR** para devolver. 
+> [salida] Puntero a un puntero a una [estructura MAPIERROR.](mapierror.md) El  _parámetro lppMAPIError_ se puede establecer en NULL si no hay ninguna **estructura MAPIERROR** que devolver. 
     
  _lppABLogon_
   
-> contempla Un puntero a un puntero al objeto de inicio de sesión del proveedor.
+> [salida] Puntero a un puntero al objeto de inicio de sesión del proveedor.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -94,11 +94,11 @@ S_OK
     
 MAPI_E_FAILONEPROVIDER 
   
-> El proveedor no puede iniciar sesión, pero MAPI puede seguir iniciando sesión en los demás proveedores del servicio de mensajes al que pertenece el proveedor. 
+> El proveedor no puede iniciar sesión, pero MAPI puede continuar iniciando sesión en los demás proveedores en el servicio de mensajes al que pertenece el proveedor. 
     
 MAPI_E_UNCONFIGURED 
   
-> El proveedor no tiene suficiente información para completar el inicio de sesión. MAPI llama a la función de entrada del servicio de mensajes del proveedor.
+> El proveedor no tiene información suficiente para completar el inicio de sesión. MAPI llama a la función de entrada del servicio de mensajes del proveedor.
     
 MAPI_E_UNKNOWN_CPID 
   
@@ -106,39 +106,39 @@ MAPI_E_UNKNOWN_CPID
     
 MAPI_E_UNKNOWN_LCID 
   
-> El servidor no está configurado para admitir la información de la configuración regional del cliente.
+> El servidor no está configurado para admitir la información de configuración regional del cliente.
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el botón **Cancelar** del cuadro de diálogo de inicio de sesión. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar del cuadro de diálogo de inicio de sesión. 
     
 ## <a name="remarks"></a>Comentarios
 
-Las conexiones se establecen con cada proveedor de la libreta de direcciones en el perfil de sesión cuando un cliente llama al método [IMAPISession:: OpenAddressBook](imapisession-openaddressbook.md) . A continuación, **OpenAddressBook** llama al método de **Inicio de sesión** de cada proveedor. 
+Las conexiones se establecen con cada proveedor de libreta de direcciones en el perfil de sesión cuando un cliente llama al método [IMAPISession::OpenAddressBook.](imapisession-openaddressbook.md) **A continuación, OpenAddressBook** llama al método de inicio de **sesión de cada** proveedor. 
   
-El nombre de perfil señalado por el parámetro _lpszProfileName_ se muestra en el juego de caracteres del cliente del usuario como indica la presencia o ausencia del indicador MAPI_UNICODE en el parámetro _ulFlags_ . 
+El nombre de perfil al que apunta el parámetro _lpszProfileName_ se muestra en el juego de caracteres del cliente del usuario, como se indica mediante la presencia o ausencia de la marca MAPI_UNICODE en el parámetro _ulFlags._ 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-En la implementación del método **Logon** , llame al método [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) para registrar un identificador único o una estructura [MAPIUID](mapiuid.md) . Cada uno de los objetos tendrá un identificador de entrada que incluye este **MAPIUID**. MAPI usa **MAPIUID** para hacer coincidir un objeto con su proveedor. Por ejemplo, cuando un cliente llama al método [IMAPISession:: OpenEntry](imapisession-openentry.md) para abrir un usuario de mensajería, **OpenEntry** examina la parte **MAPIUID** del identificador de entrada que se ha pasado y lo hace coincidir con un **MAPIUID** registrado por un proveedor de la libreta de direcciones. 
+En la implementación del método **Logon,** llame al método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) para registrar un identificador único o estructura [MAPIUID.](mapiuid.md) Cada uno de los objetos tendrá un identificador de entrada que incluye este **MAPIUID**. MAPI usa **MAPIUID para** hacer coincidir un objeto con su proveedor. Por ejemplo, cuando un cliente llama al método [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir un usuario de mensajería, **OpenEntry** examina la parte **MAPIUID** del identificador de entrada que se pasó y la encuentra con **un MAPIUID** registrado por un proveedor de libreta de direcciones. 
   
-Si un cliente inicia sesión en el proveedor más de una vez, es posible que desee registrar una **MAPIUID** diferente para cada inicio de sesión. El registro de estructuras **MAPIUID** únicas permite a MAPI enrutar correctamente las solicitudes a la instancia del proveedor adecuada. Sin embargo, es posible que quiera que cada objeto de inicio de sesión comparta un **MAPIUID**. En este caso, debe ser capaz de controlar el enrutamiento personalmente en lugar de confiar en MAPI. Para obtener más información acerca de cómo crear una **MAPIUID**, consulte [Registrating Service Provider Unique Identifiers](registering-service-provider-unique-identifiers.md).
+Si un cliente inicia sesión en su proveedor más de una vez, es posible que desee registrar un **MAPIUID diferente** para cada inicio de sesión. El registro de estructuras **MAPIUID** únicas permite a MAPI enrutar correctamente las solicitudes a la instancia de proveedor adecuada. Sin embargo, es posible que desee que cada objeto de inicio de sesión comparta un **MAPIUID**. En este caso, debe poder controlar el enrutamiento usted mismo en lugar de depender de MAPI. Para obtener más información acerca de cómo crear **un MAPIUID,** vea [Registrar identificadores únicos](registering-service-provider-unique-identifiers.md)del proveedor de servicios.
   
-El objeto de compatibilidad que MAPI pasa a su método de **Inicio de sesión** en el parámetro _lpMAPISup_ proporciona acceso a muchos de los métodos incluidos en la interfaz [IMAPISupport: IUnknown](imapisupportiunknown.md) . MAPI crea un objeto de soporte que se personaliza para el tipo de proveedor. Por ejemplo, si necesita iniciar sesión en un sistema de mensajería o servicio de directorio subyacente al establecer la conexión, puede llamar al método [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) para recuperar las credenciales de seguridad para este inicio de sesión en particular. 
+El objeto de compatibilidad que MAPI pasa al método **Logon** en el parámetro _lpMAPISup_ proporciona acceso a muchos de los métodos incluidos en la interfaz [IMAPISupport : IUnknown.](imapisupportiunknown.md) MAPI crea un objeto de compatibilidad personalizado para el tipo de proveedor. Por ejemplo, si necesita iniciar sesión en un sistema de mensajería subyacente o un servicio de directorio al establecer la conexión, puede llamar al método [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) para recuperar credenciales de seguridad para esta sesión de inicio de sesión en particular. 
   
-Si el **Inicio de sesión** es correcto, asegúrese de llamar al método [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del objeto support para incrementar su recuento de referencia. Esto permite que su proveedor conserve el puntero de objeto de soporte para el resto de la sesión. Si no llama a este método **AddRef** , MAPI descargará el proveedor. 
+Si **el** inicio de sesión se realiza correctamente, asegúrese de llamar al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del objeto de compatibilidad para incrementar el recuento de referencias. Esto permite al proveedor mantener el puntero del objeto de compatibilidad durante el resto de la sesión. Si no llama a este **método AddRef,** MAPI descargará el proveedor. 
   
-Puede incluir el nombre de perfil que se ha pasado en el parámetro _lpszProfileName_ en cuadros de diálogo de error, pantallas de inicio de sesión u otras interfaces de usuario. Para usar el nombre del perfil, cópielo en el almacén que ha asignado. 
+Puede incluir el nombre de perfil pasado en el parámetro  _lpszProfileName_ en cuadros de diálogo de error, pantallas de inicio de sesión u otras interfaces de usuario. Para usar el nombre del perfil, cópielo en el almacenamiento que haya asignado. 
   
-Cree un objeto de inicio de sesión y devuelva un puntero al mismo en el parámetro _lppABLogon_ . MAPI usa este objeto de inicio de sesión para realizar llamadas a los métodos en la implementación de [IABLogon](iablogoniunknown.md) . 
+Cree un objeto de inicio de sesión y devuelva un puntero a él en el _parámetro lppABLogon._ MAPI usa este objeto de inicio de sesión para realizar llamadas a los métodos de la [implementación de IABLogon.](iablogoniunknown.md) 
   
-Si necesita una contraseña durante el inicio de sesión, muestre un cuadro de diálogo de inicio de sesión sólo si no se ha establecido la marca AB_NO_DIALOG. Si el usuario cancela el proceso de inicio de sesión, normalmente haciendo clic en el botón **Cancelar** del cuadro de diálogo, se devuelve MAPI_E_USER_CANCEL desde el **Inicio de sesión**.
+Si necesita una contraseña durante el inicio de sesión, muestre un cuadro de diálogo de inicio de sesión solo si no AB_NO_DIALOG marca de inicio de sesión. Si el usuario cancela el proceso de  inicio de sesión, normalmente haciendo clic en el botón Cancelar del cuadro de diálogo, devuelva MAPI_E_USER_CANCEL de **inicio de sesión.**
   
-Normalmente, cuando un proveedor de libretas de direcciones no puede iniciar sesión, MAPI deshabilita el servicio de mensajes al que pertenece el proveedor, es decir, MAPI no intentará establecer conexiones para ninguno de los demás proveedores que pertenezcan al servicio para el resto de la sesión dura. Sin embargo, si el proveedor no puede establecer una conexión y no desea deshabilitar todo el servicio, devuelva MAPI_E_FAILONEPROVIDER o MAPI_E_UNCONFIGURED. MAPI no deshabilitará el servicio de mensajes al que pertenece el proveedor. 
+Normalmente, cuando un proveedor de libreta de direcciones no puede iniciar sesión, MAPI deshabilita el servicio de mensajes al que pertenece el proveedor con errores, es decir, MAPI no intentará establecer conexiones para ninguno de los otros proveedores que pertenecen al servicio durante el resto de la duración de la sesión. Sin embargo, si el proveedor no puede establecer una conexión y no desea deshabilitar todo el servicio, devuelva MAPI_E_FAILONEPROVIDER o MAPI_E_UNCONFIGURED. MAPI no deshabilitará el servicio de mensajes al que pertenece el proveedor. 
   
-Devuelve MAPI_E_FAILONEPROVIDER si se produce un error que no es lo suficientemente grave como para evitar que los otros proveedores del servicio de mensajes establezcan conexiones. Devuelve MAPI_E_UNCONFIGURED si falta la información de configuración necesaria del perfil y no se puede mostrar un cuadro de diálogo para preguntarle al usuario. MAPI responderá llamando a la función de punto de entrada del servicio de mensajes de su proveedor con MSG_SERVICE_CONFIGURE set como el parámetro _ulContext_ para dar al servicio una oportunidad de configurarse a sí mismo, ya sea mediante programación o mediante una hoja de propiedades. Cuando la función de punto de entrada del servicio de mensajes haya finalizado, MAPI reintentará el inicio de sesión. 
+Devuelve MAPI_E_FAILONEPROVIDER si se produce un error que no es lo suficientemente grave como para impedir que los demás proveedores del servicio de mensajes establezcan conexiones. Devuelve MAPI_E_UNCONFIGURED si falta la información de configuración necesaria en el perfil y no se puede mostrar un cuadro de diálogo para preguntar al usuario. MAPI responderá llamando a la función de punto de entrada del servicio de mensajes del proveedor con MSG_SERVICE_CONFIGURE establecido como parámetro  _ulContext_ para dar al servicio la oportunidad de configurarse, ya sea mediante programación o mediante una hoja de propiedades. Una vez finalizada la función de punto de entrada del servicio de mensajes, MAPI vuelve a iniciar sesión. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

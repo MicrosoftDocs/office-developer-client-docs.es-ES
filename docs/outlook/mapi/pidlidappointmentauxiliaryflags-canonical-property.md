@@ -31,13 +31,13 @@ Especifica un campo de bits que describe el estado auxiliar del objeto.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidApptAuxFlags  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x00008207  <br/> |
+|Long ID (LID):  <br/> |0x00008207  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Meetings  <br/> |
+|Área:  <br/> |Reuniones  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad no es obligatoria. A continuación se muestran las marcas individuales que se pueden establecer.
+Esta propiedad no es necesaria. A continuación se muestran las marcas individuales que se pueden establecer.
   
 C (auxApptFlagCopied, 0x00000001)
   
@@ -45,31 +45,31 @@ C (auxApptFlagCopied, 0x00000001)
     
 R (auxApptFlagForceMtgResponse, 0x00000002)
   
-> Esta marca en una convocatoria de reunión indica que el cliente o el servidor debe enviar una respuesta de reunión de vuelta al organizador cuando se elige una respuesta.
+> Esta marca en una solicitud de reunión indica que el cliente o servidor debe enviar una respuesta de reunión al organizador cuando se elige una respuesta.
     
 F (auxApptFlagForwarded, 0x00000004)
   
-> Esta marca en una convocatoria de reunión indica que se reenvió (incluso si el organizador lo reenvió), en lugar de ser una invitación del organizador.
+> Esta marca en una convocatoria de reunión indica que se reenvía (incluido que el organizador la reenvía), en lugar de ser una invitación del organizador.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de la cita, la convocatoria de reunión y los mensajes de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -77,7 +77,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

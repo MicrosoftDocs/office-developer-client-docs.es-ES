@@ -25,31 +25,31 @@ ms.locfileid: "32345279"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina el criterio de ordenación de los objetos en una lista de tareas pendientes consolidada.
+Determina el criterio de ordenación de los objetos de una lista de tareas tareas consolidadas.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidToDoOrdinalDate  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|IDENTIFICADOR largo (LID):  <br/> |0x000085A0  <br/> |
+|Long ID (LID):  <br/> |0x000085A0  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Tarea  <br/> |
+|Área:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando se marca un objeto, esta propiedad se debe establecer en la hora actual en la hora universal coordinada (UTC). 
+Cuando se marca un objeto, esta propiedad debe establecerse en la hora actual en hora universal coordinada (UTC). 
   
-Si el cliente permite a un usuario reordenar las tareas dentro de la lista de tareas consolidadas mediante el arrastre o con otros mecanismos, puede usar cualquier algoritmo adecuado para determinar el nuevo valor de esta propiedad de modo que la tarea aparezca en el punto correcto cuando se use esta propiedad como Sor campo de nota.
+Si el cliente permite a un usuario reordenar las tareas dentro de la lista de tareas consolidadas mediante arrastrar u otros mecanismos, puede usar cualquier algoritmo adecuado para determinar el nuevo valor de esta propiedad para que la tarea aparezca en el lugar correcto cuando esta propiedad se usa como campo de ordenación.
   
-Cuando se usa esta propiedad para ordenar objetos y el orden resulta en un empate, la propiedad **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) se usa como un disyuntor.
+Cuando esta propiedad se usa para ordenar objetos y la ordenación da como resultado una empate, la propiedad **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) se usa como separador de empates.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
@@ -57,11 +57,11 @@ Cuando se usa esta propiedad para ordenar objetos y el orden resulta en un empat
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -72,7 +72,7 @@ Mapidefs. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

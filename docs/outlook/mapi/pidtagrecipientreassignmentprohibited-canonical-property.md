@@ -23,7 +23,7 @@ ms.locfileid: "32341114"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si se prohíbe agregar destinatarios adicionales, cuando se reenvía el mensaje, para el mensaje de correo electrónico.
+Especifica si la adición de destinatarios adicionales, al reenviar el mensaje, está prohibida para el mensaje de correo electrónico.
   
 |||
 |:-----|:-----|
@@ -34,31 +34,31 @@ Especifica si se prohíbe agregar destinatarios adicionales, cuando se reenvía 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se establece en función del valor de **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) del mensaje de correo electrónico. Si **PR_SENSITIVITY** se establece en "0x00000000" (normal) o "0x00000003" (confidencial), esta propiedad debe establecerse en "0x00" o no existir, lo que significa que se pueden agregar destinatarios adicionales o distintos al mensaje de correo electrónico. Si el **PR_SENSITIVITY** del objeto de correo electrónico se establece en "0x00000001" (personal) o "0x00000002" (privado), esta propiedad se debe establecer "0x01" para evitar que se agreguen destinatarios adicionales o distintos de este correo electrónico a través del reenvío. 
+Esta propiedad se establece en función del valor de PR_SENSITIVITY **del** mensaje de correo electrónico ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)). Si **PR_SENSITIVITY** se establece en "0x00000000" (normal) o "0x00000003" (confidencial), esta propiedad debe establecerse en "0x00" o no significa que se permita agregar destinatarios adicionales o diferentes al mensaje de correo electrónico. Si el PR_SENSITIVITY  del objeto de correo electrónico se establece en "0x00000001" (personal) o "0x00000002" (privado), esta propiedad debe establecerse en "0x01" para evitar que se agreguen destinatarios adicionales o diferentes de este correo electrónico mediante el reenvío. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se admiten en los mensajes de correo electrónico.
+> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
-> Contiene definiciones de propiedades que se enumeran como propiedades asociadas.
+> Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -66,7 +66,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

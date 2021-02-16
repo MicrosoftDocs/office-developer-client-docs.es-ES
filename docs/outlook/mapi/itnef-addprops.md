@@ -36,47 +36,47 @@ HRESULT AddProps(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Parámetros
 
  _ulFlags_
   
-> a Máscara de máscara de marcadores que controla cómo se incluyen o excluyen las propiedades de la encapsulación. Se pueden establecer los siguientes indicadores:
+> [entrada] Máscara de bits de marcas que controla cómo se incluyen o excluyen las propiedades de la encapsulación. Se pueden establecer las siguientes marcas:
     
 TNEF_PROP_ATTACHMENTS_ONLY 
   
-> Codifica solo las propiedades del parámetro _lpPropList_ que forman parte de los datos adjuntos del mensaje. 
+> Codifica solo las propiedades del parámetro  _lpPropList_ que forman parte de los datos adjuntos del mensaje. 
     
 TNEF_PROP_CONTAINED 
   
-> Codifica solo las propiedades de los datos adjuntos especificados por el parámetro _ulElemID_ . Si el parámetro _lpvData_ no es null, los datos a los que se apunta se escriben en la encapsulación de los datos adjuntos en el archivo indicado por la propiedad **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
+> Codifica solo las propiedades de los datos adjuntos especificados por _el parámetro ulElemID._ Si el parámetro  _lpvData_ no es NULL, los datos a los que apunta se escriben en la encapsulación de los datos adjuntos en el archivo indicado por la propiedad **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Codifica solo las propiedades desde el mensaje o datos adjuntos especificados por el parámetro _ulElemID_ . Si se establece esta marca, el valor de _lpvData_ debe ser un puntero [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
+> Codifica solo las propiedades del mensaje o datos adjuntos especificados por el _parámetro ulElemID._ Si se establece esta marca, el valor de _lpvData_ debe ser un [puntero IStream.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) 
     
 TNEF_PROP_EXCLUDE 
   
-> Codifica todas las propiedades no especificadas en el parámetro _lpPropList_ . 
+> Codifica todas las propiedades no especificadas en el _parámetro lpPropList._ 
     
 TNEF_PROP_INCLUDE 
   
-> Codifica todas las propiedades especificadas en _lpPropList_. 
+> Codifica todas las propiedades especificadas en  _lpPropList_. 
     
 TNEF_PROP_MESSAGE_ONLY 
   
-> Codifica sólo las propiedades especificadas en _lpPropList_ que forman parte del propio mensaje. 
+> Codifica solo las propiedades especificadas en  _lpPropList_ que forman parte del propio mensaje. 
     
  _ulElemID_
   
-> a Propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de datos adjuntos, que contiene un número que identifica de forma única los datos adjuntos en su mensaje primario. El parámetro _ulElemID_ se usa cuando se solicita un tratamiento especial para los datos adjuntos. El parámetro _ulElemID_ debe ser 0 a menos que se establezca el marcador TNEF_PROP_CONTAINED o TNEF_PROP_CONTAINED_TNEF en el parámetro _ulFlags_ . 
+> [entrada] La propiedad **de** PR_ATTACH_NUM datos adjuntos ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), que contiene un número que identifica de forma exclusiva los datos adjuntos en su mensaje primario. El  _parámetro ulElemID_ se usa cuando se solicita un tratamiento especial para los datos adjuntos. El _parámetro ulElemID_ debe ser 0 a menos que la TNEF_PROP_CONTAINED o TNEF_PROP_CONTAINED_TNEF esté establecida en el _parámetro ulFlags._ 
     
  _lpvData_
   
-> a Un puntero a datos de datos adjuntos que se usan para reemplazar los datos de los datos adjuntos especificados en _ulElemID_. El parámetro _lpvData_ debe ser nulo a menos que se establezca TNEF_PROP_CONTAINED o TNEF_PROP_CONTAINED_TNEF en _ulFlags_.
+> [entrada] Puntero a los datos adjuntos que se usa para reemplazar los datos adjuntos especificados en  _ulElemID_. El  _parámetro lpvData_ debe ser NULL a menos TNEF_PROP_CONTAINED o TNEF_PROP_CONTAINED_TNEF esté establecido en  _ulFlags_.
     
  _lpPropList_
   
-> a Puntero a la lista de propiedades que se van a incluir o excluir de la encapsulación.
+> [entrada] Puntero a la lista de propiedades que se incluirán o excluirán de la encapsulación.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -86,11 +86,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de transporte, los proveedores de almacenamiento de mensajes y las puertas de enlace llaman al método **ITnef:: AddProps** para enumerar las propiedades que se van a incluir o excluir del procesamiento de formato de encapsulación neutro para el transporte (TNEF) de un mensaje o datos adjuntos. Mediante llamadas sucesivas, el proveedor o la puerta de enlace pueden especificar una lista de propiedades para agregar y codificar o excluir de la codificación. Los proveedores y las puertas de enlace también pueden usar **AddProps** para proporcionar información sobre los datos adjuntos de tratamiento especial que se deben dar. 
+Los proveedores de transporte, los proveedores de almacenamiento de mensajes y las puertas de enlace llaman al método **ITnef::AddProps** para enumerar las propiedades que se incluirán o excluirán del procesamiento del formato de encapsulación de Transport-Neutral (TNEF) de un mensaje o datos adjuntos. Mediante el uso de llamadas sucesivas, el proveedor o la puerta de enlace puede especificar una lista de propiedades para agregar y codificar o excluir de la codificación. Los proveedores y puertas de enlace también **pueden usar AddProps** para proporcionar información sobre los datos adjuntos de control especiales que deben proporcionarse. 
   
- **AddProps** solo se admite para los objetos TNEF que se abren con la marca TNEF_ENCODE para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx](opentnefstreamex.md) . 
+ **AddProps solo** es compatible con objetos TNEF que se abren con la marca TNEF_ENCODE para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx.](opentnefstreamex.md) 
   
-Tenga en cuenta que no se produce ninguna codificación TNEF real para **AddProps** hasta que se llama al método [ITnef:: Finish](itnef-finish.md) . Esta funcionalidad significa que los punteros pasados a **AddProps** deben seguir siendo válidos hasta que se realice la llamada a **Finish** . En ese momento, se pueden liberar o liberar todos los objetos y datos que se pasan con llamadas de **AddProps** . 
+Tenga en cuenta que no se produce ninguna codificación TNEF real para **AddProps** hasta que se llama al método [ITnef::Finish.](itnef-finish.md) Esta funcionalidad significa que los punteros **pasados a AddProps** deben permanecer válidos hasta después de realizar **la** llamada a Finish. En ese momento, todos los objetos y datos pasados con **llamadas a AddProps** pueden liberarse o liberarse. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -98,9 +98,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|Archivo. cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa el método **ITnef:: AddProps** para copiar las propiedades de un mensaje en una secuencia TNEF.  <br/> |
+|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa el **método ITnef::AddProps** para copiar propiedades de un mensaje a una secuencia TNEF.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 

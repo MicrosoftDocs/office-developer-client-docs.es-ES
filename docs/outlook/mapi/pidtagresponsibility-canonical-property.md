@@ -25,7 +25,7 @@ ms.locfileid: "32330124"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si algún proveedor de transporte ya ha aceptado la responsabilidad para entregar el mensaje a este destinatario y FALSE si la cola MAPI considera que este proveedor de transporte debe aceptar responsabilidad.
+Contiene TRUE si algún proveedor de transporte ya ha aceptado la responsabilidad de entregar el mensaje a este destinatario y FALSE si la cola MAPI considera que este proveedor de transporte debe aceptar la responsabilidad.
   
 |||
 |:-----|:-----|
@@ -36,35 +36,35 @@ Contiene TRUE si algún proveedor de transporte ya ha aceptado la responsabilida
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando la cola MAPI presenta un mensaje saliente a un proveedor de transporte, a través de [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md), establece esta propiedad en false para todos los destinatarios para los que la cola MAPI considera que el proveedor de transporte es responsable y true para todos otros destinatarios. El proveedor de transporte debería intentar controlar todos los destinatarios con **PR_RESPONSIBILITY** establecido en false. Después de enviar correctamente, o de haber fallado de forma concluyente, a un destinatario, el proveedor de transporte debe establecer esta propiedad en TRUE en el mensaje de origen para indicar que ha aceptado la responsabilidad para ese destinatario. 
+Cuando la cola MAPI presenta un mensaje saliente a un proveedor de transporte, a través de [IXPLogon::SubmitMessage](ixplogon-submitmessage.md), establece esta propiedad en FALSE para todos los destinatarios de los que la cola MAPI considera responsable al proveedor de transporte y TRUE para todos los demás destinatarios. El proveedor de transporte debe intentar controlar todos los destinatarios con **PR_RESPONSIBILITY** establecido en FALSE. Después de enviar correctamente o no enviar de forma concluyente a un destinatario, el proveedor de transporte debe establecer esta propiedad en TRUE en el mensaje de origen para indicar que ha aceptado la responsabilidad de ese destinatario. 
   
-Si después de examinar un destinatario, un proveedor de transporte decide que no puede o no debe controlarlo, el proveedor de transporte debe dejar **PR_RESPONSIBILITY** establecido en false. La cola MAPI buscará otro proveedor de transporte que pueda administrar a ese destinatario. La cola MAPI finalmente crea un informe de no entrega para todos los destinatarios para los que ningún proveedor de transporte acepta la responsabilidad. 
+Si, después de examinar un destinatario, un proveedor de transporte decide que no  puede o no debe controlarlo, el proveedor de transporte debe dejar PR_RESPONSIBILITY establecido en FALSE. A continuación, la cola MAPI buscará otro proveedor de transporte que pueda controlar ese destinatario. En última instancia, la cola MAPI crea un informe de no entrega para los destinatarios para los que ningún proveedor de transporte acepta responsabilidades. 
   
-Si el proveedor de transporte intenta y no puede entregar el mensaje, debe llamar al método [IMAPISupport:: StatusRecips](imapisupport-statusrecips.md) para indicar a MAPI las razones del error, de modo que MAPI pueda generar un informe de no entrega. 
+Si el proveedor de transporte intenta entregar el mensaje y no lo consigue, debe llamar al método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) para indicar a MAPI las razones del error, de modo que MAPI pueda generar un informe de no entrega. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
-### <a name="protocol-specifications"></a>Especificaciones de protocolo
+### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona referencias a especificaciones del Protocolo de Exchange Server relacionadas.
+> Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo de transferencias de datos entre un cliente y un servidor.
+> Controla el orden y el flujo de las transferencias de datos entre un cliente y un servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
-Mapidefs. h
+Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-Mapitags. h
+Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
 
@@ -75,7 +75,7 @@ Mapitags. h
   
 [Propiedades canónicas de MAPI](mapi-canonical-properties.md)
   
-[Asignar nombres de propiedad canónica a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Asignar nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
+[Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 
