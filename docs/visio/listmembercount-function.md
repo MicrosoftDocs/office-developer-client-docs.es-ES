@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8d2276ac-f9fa-946c-aabf-45a5c6f8e1d0
 description: Devuelve el número de las formas miembro en la forma de contenedor de lista.
-ms.openlocfilehash: ce1f7ab87abab6de9f5c88c05575a14ae93c45e7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 21357b2e1bd960c0b30cb73b7c2c5f5323cb172e
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414294"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061261"
 ---
 # <a name="listmembercount-function"></a>Función LISTMEMBERCOUNT
 
@@ -33,6 +33,6 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Si la forma no es un contenedor de lista, la función LISTMEMBERCOUNT devuelve -1.
+Si la forma no es un contenedor de lista, la función LISTMEMBERCOUNT devuelve 0.
   
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
 description: Una variable de este tipo de datos contiene un valor binario.
-ms.openlocfilehash: 3dcaaf73a04ddc608e68ca7bd1f801d0a5d99bb6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8299230a30b65ef8fb7856dc74618dd15ae218ac
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408127"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061338"
 ---
 # <a name="acct_bin"></a>ACCT_BIN
 
@@ -22,7 +22,7 @@ Una variable de este tipo de datos contiene un valor binario.
 
 ```cpp
 typedef struct { 
-    DWORDcb; 
+    DWORD cb; 
     BYTE * pb; 
 } ACCT_BIN; 
 
@@ -32,10 +32,10 @@ typedef struct {
 
 _cb_
   
-> Número de bytes a los _que apunta pb._ 
+> Número de bytes a los  _que pb_ apunta. 
     
 _pb_
   
-> Puntero a la información binaria.
+> Puntero a información binaria.
     
 
