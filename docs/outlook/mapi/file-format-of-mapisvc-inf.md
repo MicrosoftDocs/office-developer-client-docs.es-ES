@@ -8,12 +8,12 @@ api_type:
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 'Última modificación: 23 de julio de 2011'
 localization_priority: Priority
-ms.openlocfilehash: 934bb491c0521b1d76d5400aac4728fbd34ba625
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8b7c02f2ac39875021cd183bbb1657514912fe8d
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334877"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061345"
 ---
 # <a name="file-format-of-mapisvcinf"></a>Formato de archivo de MapiSvc.inf
 
@@ -39,7 +39,7 @@ La ilustración siguiente muestra la organización de un archivo MapiSvc.inf tí
   
 **Organización de archivos MapiSvc.inf**
   
-![Organización de archivos MapiSvc.inf](media/amapi_30.gif "Organización de archivos MapiSvc.inf")
+![Organización de archivos MapiSvc.inf](media/amapi_30.gif "Organización del archivo MapiSvc.inf")
   
 MAPI proporciona una versión de la estructura del archivo MapiSvc.inf que contiene las entradas de subsistema MAPI. El implementador de servicios de cada mensaje agrega entradas adecuadas para el servicio y para los proveedores de servicios que pertenecen al mismo. Algunas entradas son necesarias, otras son opcionales. Por ejemplo, MAPI requiere que especifique el nombre y la ruta de cada uno de los proveedores de servicios en el servicio de mensajes. Sin esta información, no se puede cargarlos.
   
@@ -49,4 +49,7 @@ Si el servicio de mensajes es un servicio de proveedor único, almacene toda la 
   
 Almacene únicamente los datos de configuración públicos en el archivo MapiSvc.inf. Información privada o que requiere protección adicional, como contraseñas u otras credenciales, no debe incluirse en el archivo. En su lugar, opte por no almacenar del todo información de este tipo o guárdela en el perfil como propiedades seguras. Propiedades seguras tienen características de protección integradas como cifrado.
   
+## <a name="reference"></a>Referencia
+
+Para obtener más información sobre cómo solucionar errores si MAPI bloquea un DLL del proveedor, vea [Cómo permitir que MAPI cargue los DLL del proveedor no registrados](https://support.microsoft.com/topic/how-to-allow-mapi-to-load-unregistered-provider-dlls-18d9a1cd-d3d7-fa10-473e-5dfd62d38b0d).
 
