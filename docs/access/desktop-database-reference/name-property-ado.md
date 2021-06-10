@@ -35,5 +35,5 @@ En un objeto **Field**, **Name** suele ser de sólo lectura. Sin embargo, en los
 
 En los objetos **Parameter** que aún no se han anexado a la colección [Parameters](parameters-collection-ado.md), la propiedad **Name** es de lectura y escritura. En los objetos **Parameter** anexados y en el resto de los objetos, la propiedad **Name** es de sólo lectura. En una colección, los nombres no tienen que ser exclusivos.
 
-Es posible recuperar la propiedad **Name** de un objeto mediante un número ordinal, tras lo cual se puede hacer referencia al objeto directamente por su nombre. Por ejemplo, si rstMain.Properties(20). Name produce updatability , puede hacer referencia posteriormente a esta propiedad como rendimientos Updatability , puede hacer referencia posteriormente a esta propiedad como rstMain.Properties("Updatability") .
+Es posible recuperar la propiedad **Name** de un objeto mediante un número ordinal, tras lo cual se puede hacer referencia al objeto directamente por su nombre. Por ejemplo, si rstMain.Properties(20). Name produce Updatability , puede hacer referencia posteriormente a esta propiedad como rendimientos Updatability , puede hacer referencia posteriormente a esta propiedad como rstMain.Properties("Updatability") .
 

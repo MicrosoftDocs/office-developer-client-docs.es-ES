@@ -33,5 +33,5 @@ En un objeto **Stream**, si no se ha especificado el modo de acceso, se hereda d
 
 Esta propiedad es de lectura y escritura mientras el objeto está cerrado y de sólo lectura mientras está abierto.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto Connection del lado cliente, la propiedad **Mode** solo se puede establecer en **adModeUnknown**.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto Connection del lado cliente, la **propiedad Mode** solo se puede establecer en **adModeUnknown**.
 

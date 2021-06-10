@@ -1,5 +1,5 @@
 ---
-title: OpenSchema (método, ADO)
+title: Método OpenSchema (ADO)
 TOCTitle: OpenSchema method (ADO)
 ms:assetid: 57771163-a14e-207a-2942-849acb79a9a1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288339"
 ---
-# <a name="openschema-method-ado"></a>OpenSchema (método, ADO)
+# <a name="openschema-method-ado"></a>Método OpenSchema (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Obtiene información del esquema de base de datos del proveedor.
 
 ## <a name="syntax"></a>Sintaxis
 
-**Set***recordset*  =  *connection*. OpenSchema (* QueryType*, *Criteria*, *SchemaID*)
+**Set***recordset*  =  *conexión*. OpenSchema (* QueryType*, *Criteria*, *SchemaID*)
 
 ## <a name="return-values"></a>Valores devueltos
 

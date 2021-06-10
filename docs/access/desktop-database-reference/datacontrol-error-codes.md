@@ -82,14 +82,14 @@ En la tabla siguiente se enumeran los códigos de error del objeto [RDS.DataCont
 <td><p>4112<br />
 -2146824170<br />
 0x800A1016</p></td>
-<td><p>Esta página tiene acceso a datos en otro dominio. ¿Desea continuar? Para evitar este mensaje en Internet Explorer, puede agregar un <strong></strong> sitio web seguro a la zona sitios de confianza en la pestaña Seguridad del cuadro de diálogo Opciones de <strong>Internet.</strong></p></td>
+<td><p>Esta página tiene acceso a datos en otro dominio. ¿Desea continuar? Para evitar este mensaje en Internet Explorer, puede agregar un <strong></strong> sitio web seguro a la zona de sitios de confianza en la pestaña Seguridad del cuadro de diálogo Opciones de <strong>Internet.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_InvalidADCClientVersion</strong></p></td>
 <td><p>4106<br />
 -2146824176<br />
 0x800A1010</p></td>
-<td><p>Versión de cliente rds no válida: el cliente es más reciente que el servidor.</p></td>
+<td><p>Versión de cliente RDS no válida: el cliente es más reciente que el servidor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_INVALIDARG</strong></p></td>

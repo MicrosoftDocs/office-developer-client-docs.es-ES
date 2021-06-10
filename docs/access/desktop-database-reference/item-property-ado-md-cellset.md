@@ -22,7 +22,7 @@ Recupera una celda de un conjunto de celdas utilizando sus coordenadas.
 
 ## <a name="syntax"></a>Sintaxis
 
-Establecer *conjunto de*  =  *celdas .* Item (*Positions*)
+Establecer *conjunto de*  =  *celdas*. Item (*Positions*)
 
 ## <a name="parameters"></a>Parámetros
 

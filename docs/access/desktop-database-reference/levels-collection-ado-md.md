@@ -1,5 +1,5 @@
 ---
-title: Levels (colección) (ADO MD)
+title: Colección Levels (ADO MD)
 TOCTitle: Levels collection (ADO MD)
 ms:assetid: 120900ee-72e5-c973-2e8e-8f0a1b50f39f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248892(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290124"
 ---
-# <a name="levels-collection-ado-md"></a>Levels (colección) (ADO MD)
+# <a name="levels-collection-ado-md"></a>Colección Levels (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

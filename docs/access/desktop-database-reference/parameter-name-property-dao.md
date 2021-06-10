@@ -19,11 +19,11 @@ ms.locfileid: "32288101"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve el nombre del objeto especificado. **String** de solo lectura.
+Devuelve el nombre del objeto especificado. Sólo lectura de la **cadena**.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . Nombre
 
-*expresión* Variable que representa un objeto **Parameter.**
+*expresión* Variable que representa un **objeto Parameter.**
 

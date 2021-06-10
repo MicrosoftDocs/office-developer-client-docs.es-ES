@@ -1,5 +1,5 @@
 ---
-title: LockType (propiedad, ADO)
+title: Propiedad LockType (ADO)
 TOCTitle: LockType property (ADO)
 ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289846"
 ---
-# <a name="locktype-property-ado"></a>LockType (propiedad, ADO)
+# <a name="locktype-property-ado"></a>Propiedad LockType (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -35,5 +35,5 @@ No se admite el valor **adLockPessimistic** cuando la propiedad [CursorLocation]
 
 La propiedad **LockType** es de lectura y escritura cuando el objeto **Recordset** está cerrado y de sólo lectura cuando está abierto.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto Recordset del lado cliente, la propiedad **LockType** sólo se puede establecer en **adLockBatchOptimistic**.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto Recordset del lado cliente, la **propiedad LockType** solo se puede establecer en **adLockBatchOptimistic**.
 

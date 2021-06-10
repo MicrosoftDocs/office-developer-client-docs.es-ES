@@ -1,5 +1,5 @@
 ---
-title: Indexes (colección, ADOX)
+title: Colección Indexes (ADOX)
 TOCTitle: Indexes collection (ADOX)
 ms:assetid: ab04bdd1-7c4a-44cb-dfc6-add3a52f502f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249793(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291583"
 ---
-# <a name="indexes-collection-adox"></a>Indexes (colección) (ADOX)
+# <a name="indexes-collection-adox"></a>Colección Indexes (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

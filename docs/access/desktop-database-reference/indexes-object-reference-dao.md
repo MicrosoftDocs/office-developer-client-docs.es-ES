@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291514"
 ---
-# <a name="indexes-object-reference-dao"></a>Referencia de objeto indexes (DAO)
+# <a name="indexes-object-reference-dao"></a>Referencia de objeto Indexes (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 - [Colección Indexes (DAO)](indexes-collection-dao.md)
-- [Miembros indexes (DAO)](indexes-members-dao.md)
-- [Propiedades indexes (DAO)](indexes-properties-dao.md)
+- [Miembros de índices (DAO)](indexes-members-dao.md)
+- [Propiedades de índices (DAO)](indexes-properties-dao.md)
 - [Métodos Indexes (DAO)](indexes-methods-dao.md)
 

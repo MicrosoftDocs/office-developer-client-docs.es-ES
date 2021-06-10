@@ -1,5 +1,5 @@
 ---
-title: CubeDefs (colección) (ADO MD)
+title: Colección CubeDefs (ADO MD)
 TOCTitle: CubeDefs collection (ADO MD)
 ms:assetid: 31adca99-7c4f-7393-4bab-bcb38bcfc2ac
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249090(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295271"
 ---
-# <a name="cubedefs-collection-ado-md"></a>CubeDefs (colección) (ADO MD)
+# <a name="cubedefs-collection-ado-md"></a>Colección CubeDefs (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

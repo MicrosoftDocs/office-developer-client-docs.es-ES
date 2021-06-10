@@ -33,7 +33,7 @@ SHAPE {SELECT * FROM customer}
  RELATE cust_id TO PARAMETER 0) 
 ```
 
-Las tablas primarias y secundarias tienen un nombre de columna en común, id. \_ cust *.* El *comando secundario* tiene un marcador de posición "?", al que hace referencia la cláusula RELATE (es decir, "...PARAMETER 0").
+Las tablas primarias y secundarias tienen un nombre de columna en común, cust \_ id *.* El *comando secundario* tiene un marcador de posición "?", al que hace referencia la cláusula RELATE (es decir, "...PARAMETER 0").
 
 > [!NOTE]
 > [!NOTA] La cláusula PARAMETER pertenece sólo a la sintaxis del comando Shape. No está asociada al objeto [Parameter](parameter-object-ado.md) de ADO ni a la colección [Parameters](parameters-collection-ado.md).
@@ -44,9 +44,9 @@ Cuando se ejecuta el comando parametrizado Shape, ocurre lo siguiente:
 
 2.  Una columna de capítulo se anexa al **conjunto de registros** principal.
 
-3.  Cuando se tiene acceso a la columna  de capítulo de una fila primaria, el comando secundario se ejecuta con el valor del identificador customer.cust como valor \_ del parámetro.
+3.  Cuando se tiene acceso a la columna de capítulo de una fila primaria, el comando *secundario* se ejecuta con el valor del identificador customer.cust como valor \_ del parámetro.
 
-4.  Todas las filas del conjunto de filas del proveedor de datos creadas en el paso 3 se usan para rellenar el **conjunto de registros** secundario. En este ejemplo, se trata de todas las filas de la tabla Pedidos en las que el identificador de cust es igual al valor del \_ identificador customer.cust. \_ De forma predeterminada, el **conjunto de registros** secundario se almacenará en caché en el cliente hasta que se liberen todas las referencias al **conjunto de registros** principal. Para cambiar este comportamiento, establezca la propiedad dinámica Cache Child [](ado-dynamic-property-index.md)**Rows** del **conjunto** de registros en **False**.
+4.  Todas las filas del conjunto de filas del proveedor de datos creadas en el paso 3 se usan para rellenar el **conjunto de registros** secundario. En este ejemplo, se trata de todas las filas de la tabla Orders en las que el identificador de cust es igual al \_ valor de customer.cust \_ id. De forma predeterminada, el **conjunto de registros** secundario se almacenará en caché en el cliente hasta que se liberen todas las referencias al **conjunto de registros** principal. Para cambiar este comportamiento, establezca la propiedad **dinámica Recordset** [](ado-dynamic-property-index.md)**Cache Child Rows** en **False**.
 
 5.  Una referencia a las filas secundarias recuperadas (es decir, el capítulo del **conjunto de registros** secundario) se coloca en la columna de capítulo de la fila activa del **conjunto de registros** principal.
 
@@ -69,11 +69,11 @@ Rst1.MovePrevious ' RstChild now holds cached rs, saving round trip.
 
 En una consulta con dos o más parámetros, sólo se utiliza un secundario almacenado en caché si todos los valores de parámetros coinciden con los valores en caché.
 
-## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Comandos parametrizados y relaciones complejas de elementos secundarios primarios
+## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Comandos parametrizados y relaciones secundarias primarias complejas
 
-Además de utilizar comandos parametrizados para mejorar el rendimiento de una jerarquía de tipo combinación equivalente, los comandos parametrizados pueden servir para admitir relaciones principal-secundario más complejas. Por ejemplo, considere una base de datos de Little League con dos tablas: una que consta de los equipos (identificador de equipo, nombre del equipo) y otra de juegos (fecha, equipo local, equipo \_ \_ \_ \_ visitante).
+Además de utilizar comandos parametrizados para mejorar el rendimiento de una jerarquía de tipo combinación equivalente, los comandos parametrizados pueden servir para admitir relaciones principal-secundario más complejas. Por ejemplo, considere una base de datos de Little League con dos tablas: una formada por los equipos (identificador de equipo, nombre del equipo) y otra de juegos (fecha, equipo local, equipo \_ \_ \_ \_ visitante).
 
-Utilizando una jerarquía no parametrizada, no hay forma de relacionar las tablas de equipos y encuentros de forma tal que el **conjunto de registros** secundario para cada equipo contenga su programación completa. Puede crear capítulos que contengan la programación de encuentros en casa o la de encuentros fuera de casa, pero no ambas. Esto se debe a que la cláusula RELATE limita a relaciones principal-secundario de la forma (pc1=cc1) AND (pc2=pc2). Por lo tanto, si el comando incluyese "RELACIONAR id. de equipo con equipo principal, id. de equipo a equipo visitante", solo se obtienen los juegos en los que un equipo \_ estaba jugando a sí \_ \_ \_ mismo. Lo que quiere es "(team \_ id=home \_ team) OR (team \_ id=visiting team)", pero el proveedor de formas no admite \_ la cláusula OR.
+Utilizando una jerarquía no parametrizada, no hay forma de relacionar las tablas de equipos y encuentros de forma tal que el **conjunto de registros** secundario para cada equipo contenga su programación completa. Puede crear capítulos que contengan la programación de encuentros en casa o la de encuentros fuera de casa, pero no ambas. Esto se debe a que la cláusula RELATE limita a relaciones principal-secundario de la forma (pc1=cc1) AND (pc2=pc2). Por lo tanto, si el comando incluye "RELATE team \_ id TO home \_ team, team id TO visiting \_ team", solo se obtienen juegos en los que un equipo se \_ estaba jugando a sí mismo. Lo que quiere es "(team \_ id=home \_ team) OR (team \_ id=visiting team)", pero el proveedor shape no admite \_ la cláusula OR.
 
 Para obtener el resultado deseado, puede utilizar un comando parametrizado. Por ejemplo:
 

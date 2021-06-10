@@ -22,7 +22,7 @@ ms.locfileid: "32291820"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve un valor que indica si un objeto **[Index](index-object-dao.md)** representa una clave externa en una tabla (sólo áreas de trabajo de Microsoft Access). .
+Devuelve un valor que indica si un objeto **[Index](index-object-dao.md)** representa una clave externa en una tabla (solo en áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 

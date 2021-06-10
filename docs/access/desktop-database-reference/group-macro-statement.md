@@ -21,7 +21,7 @@ ms.locfileid: "32292114"
 
 La **instrucción Group** permite especificar un bloque de acciones dentro de una macro que puede expandir o contraer.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **Grupo** utiliza los siguientes argumentos.
 

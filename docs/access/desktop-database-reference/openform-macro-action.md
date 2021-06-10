@@ -20,7 +20,7 @@ ms.locfileid: "32288374"
 
 Puede usar la acción **AbrirFormulario** para abrir un formulario en la vista Formulario, Diseño, Vista preliminar u Hoja de datos. Puede seleccionar los modos de entrada de datos y ventana para el formulario y restringir los registros que se muestra en él.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **AbrirFormulario** incluye estos argumentos.
 
@@ -63,11 +63,11 @@ La acción **AbrirFormulario** incluye estos argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Modo de ventana</strong></p></td>
-<td><p>Modo de ventana en el que se abre el formulario. Haga clic en <strong>Normal</strong> (el formulario se abre en el modo establecido por sus propiedades), <strong>Oculto</strong> (el formulario se oculta), <strong>Icono</strong> (el formulario se abre minimizado como una pequeña barra de título en la parte inferior de la pantalla) o <strong>Diálogo</strong> (las propiedades <strong>Modal</strong> y <strong>Emergente</strong> del formulario se establecen en <strong>Sí</strong>). El valor predeterminado es <strong>Normal</strong>.  </p><p><strong>NOTA:</strong>Algunas opciones <STRONG>de configuración de</STRONG> argumentos del Modo de ventana no se aplican al usar documentos con fichas. Para cambiar a ventanas superpuestas:</p>
+<td><p>Modo de ventana en el que se abre el formulario. Haga clic en <strong>Normal</strong> (el formulario se abre en el modo establecido por sus propiedades), <strong>Oculto</strong> (el formulario se oculta), <strong>Icono</strong> (el formulario se abre minimizado como una pequeña barra de título en la parte inferior de la pantalla) o <strong>Diálogo</strong> (las propiedades <strong>Modal</strong> y <strong>Emergente</strong> del formulario se establecen en <strong>Sí</strong>). El valor predeterminado es <strong>Normal</strong>.  </p><p><strong>NOTA:</strong>Algunas <STRONG>opciones de configuración</STRONG> de argumentos del Modo de ventana no se aplican al usar documentos con pestañas. Para cambiar a ventanas superpuestas:</p>
 <ol>
-<li><p>Haga clic en la pestaña Archivo y, a continuación, haga clic <strong>en Opciones.</strong></p></li>
+<li><p>Haga clic en la pestaña Archivo y, a continuación, en <strong>Opciones.</strong></p></li>
 <li><p>En el cuadro de diálogo <strong>Opciones de Access</strong>, haga clic en <strong>Base de datos actual</strong>.</p></li>
-<li><p>En la sección <strong>Opciones de la</strong>aplicación, en Opciones de ventana de <strong>documento</strong>, haga clic <strong>en Superpuesta de Windows</strong>.</p></li>
+<li><p>En la <strong>sección Opciones de aplicación,</strong>en <strong>Opciones de ventana documento,</strong>haga clic <strong>en Superponer Windows</strong>.</p></li>
 <li><p>Haga clic en <strong>Aceptar</strong> y, a continuación, cierre y vuelva a abrir la base de datos.</p></li>
 </ol></td>
 </tr>
@@ -150,7 +150,7 @@ La siguiente macro abre la lista de productos en la esquina inferior derecha del
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
+<th><p>Condición</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
 <th><p>Comentario</p></th>
@@ -166,7 +166,7 @@ La siguiente macro abre la lista de productos en la esquina inferior derecha del
 <tr class="even">
 <td><p>IsNull([SupplierID])</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Sonido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Seleccionar un proveedor</p></td>
+<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Pitido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</p></td>
 <td><p>Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -184,13 +184,13 @@ La siguiente macro abre la lista de productos en la esquina inferior derecha del
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: Vista de <strong>lista de productos</strong>: Nombre del filtro de <strong>hoja</strong>de datos : <strong>Condición</strong>Where : [IdDeDe Proveedor] = [Formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nombre del</strong>formulario : Vista lista <strong>de productos</strong>: <strong>DatasheetFilter Name</strong>: Where <strong>Condition</strong>: [SupplierID] = [Forms]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo De solo lecturaWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>MoveAndSizeWindow</strong></p></td>
-<td><p><strong>Derecha</strong>: 0,7799 &quot; <strong>Abajo</strong>: 1,8&quot;</p></td>
+<td><p><strong>Right</strong>: 0.7799 &quot; <strong>Down</strong>: 1.8&quot;</p></td>
 <td><p>Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</p></td>
 </tr>
 </tbody>

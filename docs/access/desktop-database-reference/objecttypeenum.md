@@ -38,12 +38,12 @@ Especifica el tipo de objeto de base de datos para que el que se establecerán p
 <tbody>
 <tr class="odd">
 <td><p><strong>adPermObjColumn</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>El objeto es una columna.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPermObjDatabase</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>El objeto es una base de datos.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +58,7 @@ Especifica el tipo de objeto de base de datos para que el que se establecerán p
 </tr>
 <tr class="odd">
 <td><p><strong>adPermObjTable</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>El objeto es una tabla.</p></td>
 </tr>
 <tr class="even">

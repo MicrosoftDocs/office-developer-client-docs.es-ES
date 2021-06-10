@@ -74,10 +74,10 @@ Cuando se llama a este proveedor de servicios, se agregan las siguientes propied
 <td><p>Indica el modo DataFactory. Una cadena que especifica la versión deseada del objeto <a href="datafactory-object-rdsserver.md">DataFactory</a> del servidor. Establezca esta propiedad antes de establecer una conexión para solicitar una versión concreta del objeto <strong>DataFactory</strong>. Si la versión solicitada no está disponible, se intentará utilizar la versión anterior. Si no hay una versión anterior, se producirá un error. Si <strong>DFMode</strong> es inferior a la versión disponible, se producirá un error. Después de haber establecido la conexión, esta propiedad es de solo lectura. Puede ser uno de los siguientes valores de cadena válidos:</p>
 <p></p>
 <ul>
-<li><p>&quot;25— &quot; Versión 2.5 (predeterminado)</p></li>
-<li><p>&quot;21— &quot; Versión 2.1</p></li>
-<li><p>&quot;20— &quot; Versión 2.0</p></li>
-<li><p>&quot;15— &quot; Versión 1.5</p></li>
+<li><p>&quot;25: &quot; versión 2.5 (valor predeterminado)</p></li>
+<li><p>&quot;21: &quot; versión 2.1</p></li>
+<li><p>&quot;20: &quot; versión 2.0</p></li>
+<li><p>&quot;15: &quot; versión 1.5</p></li>
 </ul>
 <p></p></td>
 </tr>

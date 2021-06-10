@@ -22,12 +22,12 @@ ms.locfileid: "32288886"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Si Access está configurado para usar ventanas superpuestas en lugar de documentos con fichas, puede usar la acción **MinimizarVentana** para reducir la ventana activa a una pequeña barra de título en la parte inferior de la ventana de Access.
+Si Access está configurado para usar ventanas superpuestas en lugar de documentos con pestañas, puedes usar la acción **MinimizarVentana** para reducir la ventana activa a una pequeña barra de título en la parte inferior de la ventana de Access.
 
 > [!NOTE]
 > [!NOTA] Esta acción no puede aplicarse a las ventanas de código en el Editor de Visual Basic. Para obtener información sobre cómo afectar a las ventanas de código, vea el tema de la propiedad **WindowState**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **MinimizarVentana** no tiene argumentos.
 

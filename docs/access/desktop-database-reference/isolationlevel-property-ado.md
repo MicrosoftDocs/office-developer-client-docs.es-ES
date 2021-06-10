@@ -31,7 +31,7 @@ Use la propiedad **IsolationLevel** para establecer el nivel de aislamiento de u
 
 La propiedad **IsolationLevel** es de lectura y escritura.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto Connection del lado cliente, la propiedad **IsolationLevel** sólo se puede establecer en **adXactUnspecified**.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto Connection del lado cliente, la **propiedad IsolationLevel** solo se puede establecer en **adXactUnspecified**.
 
 Puesto que los usuarios están trabajando con objetos **Recordset** desconectados en una memoria caché del cliente, puede haber problemas de multiusuario. Por ejemplo, cuando dos usuarios diferentes intenten actualizar el mismo registro, el Servicio de datos remoto sólo permitirá que "gane" el usuario que actualice el registro en primer lugar. La solicitud de actualización del segundo usuario dará lugar a un error.
 

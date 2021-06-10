@@ -1,5 +1,5 @@
 ---
-title: Propiedades HelpContext y HelpFile (ADO)
+title: Propiedades HelpContext, HelpFile (ADO)
 TOCTitle: HelpContext, HelpFile properties (ADO)
 ms:assetid: 8a79f994-f17c-2983-0593-095801be762e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249608(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291995"
 ---
-# <a name="helpcontext-helpfile-properties-ado"></a>Propiedades HelpContext y HelpFile (ADO)
+# <a name="helpcontext-helpfile-properties-ado"></a>Propiedades HelpContext, HelpFile (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

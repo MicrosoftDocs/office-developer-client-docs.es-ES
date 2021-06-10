@@ -118,7 +118,7 @@ La colección **Properties** contiene propiedades proporcionadas por el proveedo
 <td><p>GUID del miembro.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombrede miembro</p></td>
+<td><p>MemberName</p></td>
 <td><p>Nombre del miembro.</p></td>
 </tr>
 <tr class="even">

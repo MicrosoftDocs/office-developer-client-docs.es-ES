@@ -67,11 +67,11 @@ Sincroniza dos réplicas (sólo áreas de trabajo de Microsoft Access).
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice **Synchronize** para intercambiar datos y cambios de diseño entre dos bases de datos. Los cambios de diseño siempre se ejecutan primero. Ambas bases de datos deben estar en el mismo nivel de diseño antes de que puedan intercambiar datos. Por ejemplo, un intercambio de tipo **dbRepExportChanges** puede provocar cambios de diseño en una réplica aunque los cambios de datos fluyan solo desde la base de datos a DbPathName.
+Utilice **Synchronize** para intercambiar datos y cambios de diseño entre dos bases de datos. Los cambios de diseño siempre se ejecutan primero. Ambas bases de datos deben estar en el mismo nivel de diseño antes de que puedan intercambiar datos. Por ejemplo, un intercambio de tipo **dbRepExportChanges** puede provocar cambios de diseño en una réplica aunque los cambios de datos fluyan solo de la base de datos a DbPathName.
 
 La réplica identificada en DbPathName debe formar parte del mismo conjunto de réplicas. Si ambas réplicas tienen el mismo valor de la propiedad **ReplicaID** o son Diseños principales para dos conjuntos de réplicas distintos, la sincronización produce un error.
 
-Al sincronizar dos réplicas a través de Internet, debe utilizar la constante **dbRepSyncInternet**. En este caso, se especifica una dirección url (Localizador uniforme de recursos) para el argumento DbPathName en lugar de especificar una ruta de acceso de red de área local.
+Al sincronizar dos réplicas a través de Internet, debe utilizar la constante **dbRepSyncInternet**. En este caso, debe especificar una dirección URL (Localizador uniforme de recursos) para el argumento DbPathName en lugar de especificar una ruta de acceso de red de área local.
 
 
 > [!NOTE]

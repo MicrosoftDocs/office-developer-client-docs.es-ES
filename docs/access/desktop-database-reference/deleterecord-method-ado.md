@@ -35,9 +35,9 @@ Elimina la entidad representada por un objeto [Record](record-object-ado.md).
 
 Puede que las operaciones que se realicen en el objeto representado por este objeto **Record** generen un error después de finalizar este método. Tras llamar a **DeleteRecord**, el objeto **Record** debe estar cerrado porque el comportamiento del objeto **Record** puede volverse impredecible, dependiendo del momento en que el proveedor actualice el objeto **Record** con el origen de datos.
 
-Si este objeto **Record** se obtuvo de un objeto [Recordset](recordset-object-ado.md), los resultados de esta operación no se reflejarán inmediatamente en el objeto **Recordset**. Actualice el **conjunto de** registros cerrando y abriendo de nuevo, o ejecutando los métodos **Recordset** [Requery](requery-method-ado.md)o [Update](update-method-ado.md) y [Resync.](resync-method-ado.md)
+Si este objeto **Record** se obtuvo de un objeto [Recordset](recordset-object-ado.md), los resultados de esta operación no se reflejarán inmediatamente en el objeto **Recordset**. Actualice el **objeto Recordset** cerrando y abriendo de nuevo, o ejecutando los métodos **Recordset** [Requery](requery-method-ado.md)o [Update](update-method-ado.md) y [Resync.](resync-method-ado.md)
 
 > [!NOTE]
-> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas.](absolute-and-relative-urls.md)
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
 
 

@@ -21,7 +21,7 @@ ms.locfileid: "32295159"
 
 La sección **Userlist** forma parte de la sección **Connect** con el mismo parámetro *identifier* de la sección.
 
-Esta sección puede contener una entrada de acceso de   usuario *,* que especifica los derechos de acceso para el usuario especificado y reemplaza la entrada de acceso predeterminada en la sección **de conexión** correspondiente.
+Esta sección puede contener *una* entrada de acceso de usuario , que  especifica los derechos de acceso para el usuario especificado y invalida la entrada de acceso predeterminada *en* la sección **de conexión** correspondiente.
 
 ## <a name="syntax"></a>Sintaxis
 

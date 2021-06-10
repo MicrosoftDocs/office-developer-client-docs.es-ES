@@ -22,18 +22,18 @@ Mueve a otra ubicación la entidad representada por un objeto [Record](record-ob
 
 ## <a name="syntax"></a>Sintaxis
 
-*Record*. MoveRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)
+*Grabar*. MoveRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)
 
 ## <a name="parameters"></a>Parámetros
 
 |Parámetro|Descripción|
 |:--------|:----------|
 |*Source* |Es opcional. Valor de tipo **String** con una dirección URL que identifica el objeto **Record** que se va a mover. Si se omite *Source* o se especifica una cadena vacía, se mueve el objeto representado por este objeto **Record**. Por ejemplo, si el objeto **Record** representa un archivo, el contenido del archivo se mueve hacia la ubicación especificada por *Destination*.|
-|*Destination* |Es opcional. Valor de tipo **String** con la dirección URL que especifica la ubicación a la que se va a mover *Source*.|
+|*Destino* |Es opcional. Valor de tipo **String** con la dirección URL que especifica la ubicación a la que se va a mover *Source*.|
 |*UserName* |Es opcional. Valor de tipo **String** con el identificador de usuario que, en caso de que sea necesario, autoriza el acceso a *Destination*.|
-|*Password* |Opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, comprueba *UserName*.|
+|*Password* |Es opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, comprueba *UserName*.|
 |*Options* |Es opcional. Valor de [MoveRecordOptionsEnum](moverecordoptionsenum.md), cuyo valor predeterminado es **adMoveUnspecified**. Especifica el comportamiento de este método.|
-|*Async* |Es opcional. Un **valor** booleano que, cuando **es True**, especifica que esta operación debe ser asincrónica.|
+|*Async* |Es opcional. Valor **booleano** que, cuando **true**, especifica que esta operación debe ser asincrónica.|
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -53,6 +53,6 @@ Algunos atributos del objeto **Record**, como la propiedad [ParentURL](parenturl
 Si este objeto **Record** se ha obtenido de un objeto [Recordset](recordset-object-ado.md), la nueva ubicación del archivo o directorio que se ha movido no se reflejará inmediatamente en el objeto **Recordset**. Actualice el objeto **Recordset** cerrando y abriéndolo de nuevo.
 
 > [!NOTE]
-> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas.](absolute-and-relative-urls.md)
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
 
 

@@ -41,7 +41,7 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Crea un nuevo objeto <strong><a href="property-object-dao.md">Property</a></strong> definido por el usuario (sólo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Crea un nuevo objeto <strong><a href="property-object-dao.md">Property</a></strong> definido por el usuario (solo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></p></td>
@@ -49,11 +49,11 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></p></td>
-<td><p>Crea un nuevo <strong><a href="relation-object-dao.md">objeto Relation</a></strong> (solo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Crea un nuevo objeto <strong><a href="relation-object-dao.md">Relation</a></strong> (solo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></p></td>
-<td><p>Crea un nuevo objeto <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (solo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Crea un nuevo objeto <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (solo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-execute-method-dao.md">Execute</a></strong></p></td>
@@ -102,7 +102,7 @@ Un objeto Database representa una base de datos abierta.
 <td><p>Devuelve un valor que especifica la secuencia del criterio de ordenación en texto para comparación u ordenación de la cadena (sólo para áreas de trabajo de Microsoft Access). <strong>Long</strong> de solo lectura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-connect-property-dao.md">Connect</a></strong></p></td>
+<td><p><strong><a href="database-connect-property-dao.md">Conectar</a></strong></p></td>
 <td><p>Establece o devuelve un valor que proporciona información acerca del origen de una base de datos abierta. <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
@@ -111,7 +111,7 @@ Un objeto Database representa una base de datos abierta.
 <p>Devuelve el objeto <strong><a href="connection-object-dao.md">Connection</a></strong> que corresponde a la base de datos (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-containers-property-dao.md">Containers</a></strong></p></td>
+<td><p><strong><a href="database-containers-property-dao.md">Contenedores</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Containers</strong> que representa todos los objetos <strong>Container</strong> de la base de datos especificada. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -120,11 +120,11 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto especificado. <strong>String</strong> de solo lectura.</p></td>
+<td><p>Devuelve el nombre del objeto especificado. Sólo lectura de la <strong>cadena</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-querydefs-property-dao.md">QueryDefs</a></strong></p></td>
@@ -160,7 +160,7 @@ Un objeto Database representa una base de datos abierta.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Booleano</strong> de solo lectura.</p></td>
+<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-version-property-dao.md">Versión</a></strong></p></td>

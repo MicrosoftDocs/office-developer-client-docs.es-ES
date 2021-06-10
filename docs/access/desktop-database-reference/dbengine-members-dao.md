@@ -1,5 +1,5 @@
 ---
-title: Miembros DBEngine (DAO)
+title: Miembros de DBEngine (DAO)
 TOCTitle: DBEngine Members
 ms:assetid: 740b6a85-585f-0e1d-710b-84ba24825325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294284"
 ---
-# <a name="dbengine-members-dao"></a>Miembros DBEngine (DAO)
+# <a name="dbengine-members-dao"></a>Miembros de DBEngine (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -45,11 +45,11 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></p></td>
-<td><p>Copia y compacta una base de datos cerrada, y permite cambiar su versión, el orden de intercalación y el cifrado. (Solo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Copia y compacta una base de datos cerrada, y permite cambiar su versión, el orden de intercalación y el cifrado (solo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
-<td><p>Crea un nuevo objeto <strong><a href="database-object-dao.md">Database</a></strong>, guarda la base de datos en el disco y devuelve un objeto <strong>Database</strong> abierto (sólo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Crea un nuevo objeto <strong><a href="database-object-dao.md">Database</a></strong>, guarda la base de datos en disco y devuelve un objeto <strong>Database</strong> abierto (solo áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-createworkspace-method-dao.md">CreateWorkspace</a></strong></p></td>
@@ -61,7 +61,7 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores workspaceTypeEnum.</a></strong></p>
+<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores WorkspaceTypeEnum.</a></strong></p>
 <td><p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 <p>Abre un objeto <strong><a href="connection-object-dao.md">Connection</a></strong> en un origen de datos ODBC (sólo áreas de trabajo de ODBCDirect).</p></td>
 </tr>
@@ -125,7 +125,7 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-version-property-dao.md">Versión</a></strong></p></td>
@@ -133,7 +133,7 @@ El objeto DBEngine es el objeto de nivel superior en el modelo de objetos DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Workspaces</strong> que contiene todos los objetos <strong>Workspace</strong> activos que no están ocultos. Solo lectura.</p></td>
+<td><p>Devuelve una colección <strong>Workspaces</strong> que contiene todos los objetos <strong>Workspace</strong> activos que no están ocultos. Es de solo lectura</p></td>
 </tr>
 </tbody>
 </table>

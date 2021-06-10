@@ -43,12 +43,12 @@ Especifica si un objeto está abierto o cerrado, conectando con un origen de dat
 </tr>
 <tr class="even">
 <td><p><strong>adStateOpen</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indica que el objeto está abierto.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStateConnecting</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica que el objeto se está conectando.</p></td>
 </tr>
 <tr class="even">

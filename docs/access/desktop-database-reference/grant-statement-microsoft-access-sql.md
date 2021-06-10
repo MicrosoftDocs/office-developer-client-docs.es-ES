@@ -26,9 +26,9 @@ Concede privilegios específicos a un usuario o grupo existente.
 
 ## <a name="syntax"></a>Sintaxis
 
-GRANT {*privilegio* \[ , *privilegio*, ... \] } Tabla ON{TABLE *|* Object *(objeto)*|
+GRANT {*privilege* \[ , *privilege*, ... \] } Tabla *ON{TABLE* | Object *(objeto)*|
 
-Contenedor *CONTENEDOR* } TO {*nombreDeAutorización* \[ , *nombreDeAutorización*, ... \] }
+Contenedor *CONTENEDOR* } TO {*authorizationname* \[ , *authorizationname*, ... \] }
 
 La instrucción GRANT consta de los siguientes elementos:
 
@@ -46,7 +46,7 @@ La instrucción GRANT consta de los siguientes elementos:
 <tbody>
 <tr class="odd">
 <td><p><em>privilegio</em></p></td>
-<td><p>Privilegio o privilegios que se van a conceder. Los privilegios se especifican mediante las siguientes palabras clave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA y UPDATEOWNER.</p></td>
+<td><p>Privilegio o privilegios que se van a conceder. Los privilegios se especifican con las siguientes palabras clave: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA y UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>tablename</em></p></td>

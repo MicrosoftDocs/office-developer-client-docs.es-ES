@@ -1,5 +1,5 @@
 ---
-title: Index (propiedad, ADO)
+title: Propiedad Index (ADO)
 TOCTitle: Index property (ADO)
 ms:assetid: 4cc00521-dcb4-19b2-2174-6e0e9bd42e62
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249241(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291709"
 ---
-# <a name="index-property-ado"></a>Index (propiedad, ADO)
+# <a name="index-property-ado"></a>Propiedad Index (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -43,7 +43,7 @@ Si se puede establecer el índice, la posición actual de la fila puede cambiar.
 
 Si es posible establecer el índice y la propiedad [LockType](locktype-property-ado.md) es **adLockPessimistic** o **adLockOptimistic**, se realiza una operación implícita [UpdateBatch](updatebatch-method-ado.md). Eso libera al grupo actual y a los afectados. Se liberan todos los filtros existentes y la posición actual de la fila se cambia por la primera fila del reordenado objeto **Recordset**.
 
-La propiedad **Index** se usa junto con el método [Seek](seek-method-ado.md). Si el proveedor subyacente no es compatible con la propiedad **Index** ni con el método **Seek**, considere la posibilidad de usar el método [Find](find-method-ado.md) en su lugar. Determinar si el **objeto Recordset** admite índices con el [método Supports](supports-method-ado.md)**(adIndex).**
+La propiedad **Index** se usa junto con el método [Seek](seek-method-ado.md). Si el proveedor subyacente no es compatible con la propiedad **Index** ni con el método **Seek**, considere la posibilidad de usar el método [Find](find-method-ado.md) en su lugar. Determine si el **objeto Recordset** admite índices con el [método Supports](supports-method-ado.md)**(adIndex).**
 
 La propiedad integrada **Index** no está relacionada con la propiedad dinámica [Optimize](optimize-property-dynamic-ado.md), aunque ambas tienen que ver con los índices.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Método Write: ActiveX Data Objects (ADO)'
+title: 'Método Write: ActiveX data objects (ADO)'
 TOCTitle: Write method (ADO)
 ms:assetid: cabe4581-409f-7f05-bd59-d495bfb2c6fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)

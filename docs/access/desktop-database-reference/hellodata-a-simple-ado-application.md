@@ -28,7 +28,7 @@ La aplicación realiza consultas en la base de datos de ejemplo Neptuno que se i
 
 2.  Cree cuatro botones de comando en la parte superior del formulario, estableciendo las propiedades **Name** y **Caption** en los valores que se muestran en la tabla que figura más abajo.
 
-3.  Debajo de los botones, agregue un **control cuadrícula de datos de Microsoft** (Msdatgrd.ocx). El archivo Msdatgrd.ocx viene con Visual Basic y se encuentra en el directorio \\ \\ system32 o \\ winnt \\ system32 de Windows. Para agregar el control cuadrícula de datos al panel de cuadro de herramientas de Visual Basic, seleccione **Componentes** en el menú **Proyecto**. A continuación, compruebe el cuadro situado junto a "Microsoft DataGrid Control 6.0 (SP3) (OLEDB)" y haga clic en **Aceptar**. Para agregar el control al proyecto, arrastre el control cuadrícula de datos desde el cuadro de herramientas hasta el formulario de Visual Basic.
+3.  Debajo de los botones, agregue un **control cuadrícula de datos de Microsoft** (Msdatgrd.ocx). El archivo Msdatgrd.ocx viene con Visual Basic y se encuentra en el directorio \\ de windows \\ system32 \\ o winnt \\ system32. Para agregar el control cuadrícula de datos al panel de cuadro de herramientas de Visual Basic, seleccione **Componentes** en el menú **Proyecto**. A continuación, compruebe el cuadro situado junto a "Microsoft DataGrid Control 6.0 (SP3) (OLEDB)" y haga clic en **Aceptar**. Para agregar el control al proyecto, arrastre el control cuadrícula de datos desde el cuadro de herramientas hasta el formulario de Visual Basic.
 
 4.  Cree un control **cuadro de texto** en el formulario debajo de la cuadrícula y establezca sus propiedades tal como se muestra en la tabla. El formulario debe tener un aspecto similar a la ilustración siguiente cuando haya finalizado.
 
@@ -37,7 +37,7 @@ La aplicación realiza consultas en la base de datos de ejemplo Neptuno que se i
 > [!NOTE]
 > [!NOTA] En el ejemplo siguiente y en toda la Guía, se utiliza el identificador de usuario "MyId" con la contraseña "123aBc" para autenticación en el servidor. Debe sustituir estos valores con credenciales de inicio de sesión válidas para su servidor. Sustituya también el valor "MyServer" por el nombre del servidor.
 
-Para obtener una descripción detallada del código, vea [Detalles de HelloData](hellodata-details.md).
+Para obtener una descripción detallada del código, vea [HelloData Details](hellodata-details.md).
 
 <table>
 <colgroup>

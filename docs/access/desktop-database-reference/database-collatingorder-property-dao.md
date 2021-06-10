@@ -116,7 +116,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 <td><p>Sueco o finés Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortEsish</strong></p></td>
+<td><p><strong>dbSortPolish</strong></p></td>
 <td><p>Polaco</p></td>
 </tr>
 <tr class="even">
@@ -147,7 +147,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 </table>
 
 
-El valor de la propiedad **CollatingOrder** corresponde al argumento de configuración regional del método **CreateDatabase** cuando se creó la base de datos o al método **CompactDatabase** cuando la base de datos se compactó más recientemente.
+El valor de la propiedad **CollatingOrder** corresponde al argumento de configuración regional del método **CreateDatabase** cuando se creó la base de datos o al método **CompactDatabase** cuando se compacta la base de datos más recientemente.
 
 Compruebe el valor de la propiedad **CollatingOrder** de un objeto **Database** o **Field** para determinar el método de comparación de cadenas para la base de datos o campo. Puede establecer la propiedad **CollatingOrder** de un objeto **Field** nuevo no anexado si desea que el valor del objeto **Field** sea diferente del valor del objeto **Database** que lo contiene.
 

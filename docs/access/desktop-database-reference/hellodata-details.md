@@ -27,9 +27,9 @@ GetData coloca una cadena de conexión válida en una variable de nivel de módu
 
 Asigne un controlador de errores mediante una instrucción **OnError** de Visual Basic. Para obtener más información acerca del tratamiento de errores en ADO, vea [Capítulo 6: Tratamiento de errores](chapter-6-error-handling.md). Se crea un nuevo objeto **Connection** y la propiedad **CursorLocation** se establece en **adUseClient**, dado que el ejemplo de HelloData crea un objeto *Recordset desconectado*. Eso significa que una vez que se han recuperado los datos del origen de datos, se rompe la conexión física con el origen de datos, aunque se puede seguir trabajando con los datos almacenados en caché de forma local en el objeto **Recordset**.
 
-Una vez establecida la conexión, asigne una cadena SQL a una variable (sSQL). A continuación, cree una instancia de un **nuevo objeto Recordset,** m \_ oRecordset1 . En la siguiente línea de código, abra **el conjunto de** registros sobre la conexión **existente**, pasando . En la siguiente línea de código, abra el conjunto de registros **sobre** la conexión **existente,** pasando sSQL como el origen del conjunto de **registros**. Ayude a ADO a tomar la determinación de que la cadena SQL que se acaba de pasar como origen del objeto **Recordset** es una definición textual de un comando al pasar **adCmdText** en el argumento al método **Open** del objeto **Recordset**. Esta línea también establece las propiedades **LockType** y **CursorType** asociadas al objeto **Recordset**.
+Una vez establecida la conexión, asigne una cadena SQL a una variable (sSQL). A continuación, cree una instancia de **un nuevo objeto Recordset,** m \_ oRecordset1 . En la siguiente línea de código, abra **el objeto Recordset** sobre la conexión **existente**, pasando . En la siguiente línea de código, abra **el objeto Recordset** sobre la conexión **existente**, pasando sSQL como origen del **objeto Recordset**. Ayude a ADO a tomar la determinación de que la cadena SQL que se acaba de pasar como origen del objeto **Recordset** es una definición textual de un comando al pasar **adCmdText** en el argumento al método **Open** del objeto **Recordset**. Esta línea también establece las propiedades **LockType** y **CursorType** asociadas al objeto **Recordset**.
 
-La siguiente línea de código establece la propiedad **MarshalOptions** en **adMarshalModifiedOnly**. **MarshalOptions** indica qué registros se deben calcular como referencias en el nivel intermedio (o servidor web). Para obtener más información acerca del cálculo de referencias, vea la documentación sobre COM. Cuando se **usa adMarshalModifiedOnly** con un cursor del lado cliente ([CursorLocation](cursorlocation-property-ado.md)  =  **adUseClient**), solo los registros que se han modificado en el cliente se escriben de nuevo en el nivel intermedio. El establecimiento de **MarshalOptions** en **adMarshalModifiedOnly** puede mejorar el rendimiento, dado que se calculan las referencias de menos filas.
+La siguiente línea de código establece la propiedad **MarshalOptions** en **adMarshalModifiedOnly**. **MarshalOptions** indica qué registros se deben serializar en el nivel intermedio (o servidor web). Para obtener más información acerca del cálculo de referencias, vea la documentación sobre COM. Al usar **adMarshalModifiedOnly** con un cursor del lado cliente ([CursorLocation](cursorlocation-property-ado.md)  =  **adUseClient**), solo los registros que se han modificado en el cliente se escriben de nuevo en el nivel intermedio. El establecimiento de **MarshalOptions** en **adMarshalModifiedOnly** puede mejorar el rendimiento, dado que se calculan las referencias de menos filas.
 
 A continuación, desconecte el objeto **Recordset** al establecer su propiedad **ActiveConnection** en **Nothing**. Para obtener más información, vea [Desconectar y volver a conectar el objeto Recordset](disconnecting-and-reconnecting-the-recordset.md) en el capítulo 5: Actualizar y almacenar datos.
 
@@ -61,7 +61,7 @@ Los cambios no se realizarán en el origen de datos hasta que no se haga clic en
 
 ## <a name="updatedata"></a>UpdateData
 
-En primer lugar, UpdateData quita el filtro aplicado al objeto **Recordset**. El código quita y restablece como **DataSource** del datagrid enlazado de Microsoft en el formulario para que el conjunto de registros sin filtrar **aparezca** en la cuadrícula.
+En primer lugar, UpdateData quita el filtro aplicado al objeto **Recordset**. El código quita y restablece como **DataSource** para el DataGrid enlazado de Microsoft en el formulario para que el objeto **Recordset** sin filtrar aparezca en la cuadrícula.
 
 A continuación, el código comprueba si es posible volver a desplazarse por el objeto **Recordset** mediante el método **Supports** con el argumento **adMovePrevious**.
 
@@ -69,13 +69,13 @@ La rutina se desplaza al primer registro mediante el método **MoveFirst** y mue
 
 Después, se crea un nuevo objeto **Connection** que se utiliza para restablecer una conexión con el origen de datos. Se vuelve a conectar el objeto **Recordset** con el origen de datos al establecer el nuevo objeto **Connection** como **ActiveConnection** del objeto **Recordset**. Para enviar las actualizaciones al servidor, el código llama al método **UpdateBatch** del objeto **Recordset**.
 
-Si la actualización por lotes se realiza correctamente, se establece una variable de marca de nivel de módulo en True. Eso le recordará más tarde que debe limpiar todos los cambios realizados en la base de datos.
+Si la actualización por lotes se realiza correctamente, una variable de marca de nivel de módulo, , se establece en True. Eso le recordará más tarde que debe limpiar todos los cambios realizados en la base de datos.
 
 Finalmente, el código se desplaza al primer registro del objeto **Recordset** y muestra los valores originales y actuales. Éstos son los mismos después de la llamada al método **UpdateBatch**.
 
 Para obtener información más detallada acerca de la actualización de datos, incluido qué hacer cuando los datos del servidor cambian mientras el objeto **Recordset** está desconectado, vea el [Capítulo 5: Actualizar y almacenar datos.](chapter-5-updating-and-persisting-data.md).
 
-## <a name="form_unload"></a>Descarga de \_ formulario
+## <a name="form_unload"></a>Descarga de \_ formularios
 
-La \_ subrutina Descargar formulario es importante por varias razones. En primer lugar, dado que se trata de una aplicación de ejemplo, Descarga de formulario limpia los cambios realizados en la base de datos antes de \_ que la aplicación salga. En segundo lugar, el código muestra cómo se puede ejecutar un comando directamente desde un objeto **Connection** abierto mediante el método **Execute**. Por último, muestra un ejemplo de ejecución de una consulta que no devuelve filas (una consulta UPDATE) realizada en el origen de datos.
+La \_ subrutina Descargar formulario es importante por varios motivos. En primer lugar, dado que se trata de una aplicación de ejemplo, Descarga de formulario limpia los cambios realizados en la base de datos antes de \_ que salga la aplicación. En segundo lugar, el código muestra cómo se puede ejecutar un comando directamente desde un objeto **Connection** abierto mediante el método **Execute**. Por último, muestra un ejemplo de ejecución de una consulta que no devuelve filas (una consulta UPDATE) realizada en el origen de datos.
 

@@ -1,5 +1,5 @@
 ---
-title: NativeError (propiedad, ADO)
+title: Propiedad NativeError (ADO)
 TOCTitle: NativeError property (ADO)
 ms:assetid: 9f4d4064-5ee7-20f8-fd54-2cb2eae64d7b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249731(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288613"
 ---
-# <a name="nativeerror-property-ado"></a>NativeError (propiedad, ADO)
+# <a name="nativeerror-property-ado"></a>Propiedad NativeError (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

@@ -93,7 +93,7 @@ El proveedor reconoce una cadena de texto de comando de cuatro partes en la sigu
 <td><p>Indica el objeto <strong>ADsPath</strong> desde el que se inicia la búsqueda (es decir, la raíz de la búsqueda).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filtro</em></p></td>
+<td><p><em>Filter</em></p></td>
 <td><p>Indica el filtro de búsqueda en el formato RFC 1960.</p></td>
 </tr>
 <tr class="odd">
@@ -103,8 +103,8 @@ El proveedor reconoce una cadena de texto de comando de cuatro partes en la sigu
 <tr class="even">
 <td><p><em>Scope</em></p></td>
 <td><p>Opcional. Un valor de tipo <strong>String</strong> que especifica el ámbito de la búsqueda. Puede ser uno de los siguientes: Base: buscar solo el objeto base (raíz de la búsqueda).<br />
-OneLevel: buscar solo un nivel.<br />
-Subárbol: busque en todo el subárbol.</p></td>
+OneLevel: busque solo un nivel.<br />
+Subárbol: busque todo el subárbol.</p></td>
 </tr>
 </tbody>
 </table>
@@ -129,7 +129,7 @@ El proveedor no acepta llamadas a procedimientos almacenados o nombres de tabla 
 
 ## <a name="recordset-behavior"></a>Comportamiento del objeto Recordset
 
-En las tablas siguientes se enumeran las características disponibles en un objeto [Recordset](recordset-object-ado.md) abierto con este proveedor. Solo está disponible el tipo de cursor estático (**adOpenStatic**).
+En las tablas siguientes se enumeran las características disponibles en un objeto [Recordset](recordset-object-ado.md) abierto con este proveedor. Solo está disponible el tipo de cursor Estático (**adOpenStatic**).
 
 Para obtener información más detallada acerca del comportamiento del objeto **Recordset** para la configuración del proveedor, ejecute el método [Supports](supports-method-ado.md) y enumere la colección [Properties](properties-collection-ado.md) del objeto **Recordset** para determinar si las propiedades dinámicas específicas del proveedor están presentes.
 
@@ -188,7 +188,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
@@ -220,7 +220,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">Estado</a></p></td>
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="even">

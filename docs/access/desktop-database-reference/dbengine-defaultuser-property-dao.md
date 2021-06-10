@@ -33,7 +33,7 @@ Establece el nombre de usuario utilizado para crear el objeto **Workspace** pred
 
 ## <a name="remarks"></a>Comentarios
 
-El valor de **DefaultUser** es un tipo de datos String. Puede tener de 1 a 20 caracteres en áreas de trabajo de Microsoft Access y puede incluir caracteres alfabéticos, caracteres acentuados, números, espacios y símbolos excepto: " (comillas), / (barra diagonal \\ inversa), (barra diagonal \[ \] inversa), (corchetes), : (dos puntos), | (barra vertical), \< (signo menor que), \> (mayor que signo), + (signo más), = (signo igual), ; (punto y coma), , ( coma), ? (signo de \* interrogación), (asterisco), espacios iniciales y caracteres de control (ASCII 00 a ASCII 31).
+El valor de **DefaultUser** es un tipo de datos String. Puede tener entre 1 y 20 caracteres en áreas de trabajo de Microsoft Access y puede incluir caracteres alfabéticos, caracteres acentuados, números, espacios y símbolos excepto: " (comillas), / (barra diagonal hacia \\ delante), (barras diagonal inversa), \[ \] (corchetes), : (dos puntos), | (pipe), \< (menor que sign), \> (mayor que sign), + (signo más), = (signo igual), ; (punto y coma), , ( coma), ? (signo de \* interrogación), (asterisco), espacios iniciales y caracteres de control (ASCII 00 a ASCII 31).
 
 
 > [!NOTE]

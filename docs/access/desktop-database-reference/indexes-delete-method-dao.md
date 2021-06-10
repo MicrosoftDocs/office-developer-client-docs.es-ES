@@ -24,9 +24,9 @@ Elimina el objeto **Index** especificado de la colección **Indexes**.
 
 *expresión* . Delete(***Name***)
 
-*expresión* Variable que representa un objeto **Indexes.**
+*expresión* Variable que representa un **objeto Indexes.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

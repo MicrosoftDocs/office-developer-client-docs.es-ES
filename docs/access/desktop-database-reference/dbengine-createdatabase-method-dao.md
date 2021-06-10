@@ -22,7 +22,7 @@ ms.locfileid: "32294368"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de datos en el disco y devuelve un objeto **Database** abierto (sólo áreas de trabajo de Microsoft Access). .
+Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de datos en disco y devuelve un objeto **Database** abierto (solo áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -79,7 +79,7 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 
 ## <a name="remarks"></a>Comentarios
 
-Puede usar una de las siguientes constantes para el argumento de configuración regional para especificar la propiedad **[CollatingOrder](database-collatingorder-property-dao.md)** del texto para comparaciones de cadenas.
+Puede usar una de las siguientes constantes para el argumento de configuración regional para especificar la **[propiedad CollatingOrder](database-collatingorder-property-dao.md)** del texto para las comparaciones de cadenas.
 
 <table>
 <colgroup>

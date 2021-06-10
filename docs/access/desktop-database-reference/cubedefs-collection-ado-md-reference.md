@@ -18,6 +18,6 @@ ms.locfileid: "32295278"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [CubeDefs (colección) (ADO MD)](cubedefs-collection-ado-md.md)
+- [Colección CubeDefs (ADO MD)](cubedefs-collection-ado-md.md)
 - [Propiedades, métodos y eventos de la colección CubeDefs (ADO MD)](cubedefs-collection-properties-methods-and-events-ado-md.md)
 

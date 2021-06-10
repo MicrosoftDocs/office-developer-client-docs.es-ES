@@ -75,5 +75,5 @@ Una cadena de conexión de reemplazo tiene el siguiente formato:
 </table>
 
 
-Si desea permitir cualquier conexión (en efecto, deshabilitar el comportamiento predeterminado  del controlador), establezca la entrada de  acceso en la sección predeterminada de conexión en y elimine o comente cualquier otra sección de identificador *de* conexión.
+Si desea permitir cualquier conexión (en efecto, deshabilitar el comportamiento predeterminado  del controlador), establezca la entrada de  acceso de la sección predeterminada de conexión en y elimine o comente cualquier otra sección de identificador *de* conexión.
 

@@ -23,4 +23,4 @@ La posición actual del cursor en el **conjunto de registros** delinea la posici
 Esta sección incluye los siguientes temas:
 
 - [Recuento de filas](counting-rows.md)
-- [Los límites de un conjunto de registros](the-limits-of-a-recordset.md)
+- [Los límites de un objeto Recordset](the-limits-of-a-recordset.md)

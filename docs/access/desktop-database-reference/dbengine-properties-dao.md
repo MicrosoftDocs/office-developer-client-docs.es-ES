@@ -1,5 +1,5 @@
 ---
-title: Propiedades DBEngine (DAO)
+title: Propiedades dbengine (DAO)
 TOCTitle: Properties
 ms:assetid: 0aca1067-759b-41f4-9c17-affc7315a625
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123648(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294235"
 ---
-# <a name="dbengine-properties-dao"></a>Propiedades DBEngine (DAO)
+# <a name="dbengine-properties-dao"></a>Propiedades dbengine (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ ms.locfileid: "32294235"
 - [Propiedad DBEngine.DefaultType (DAO)](dbengine-defaulttype-property-dao.md)
 - [Propiedad DBEngine.DefaultUser (DAO)](dbengine-defaultuser-property-dao.md)
 - [Propiedad DBEngine.Errors (DAO)](dbengine-errors-property-dao.md)
-- [DBEngine.IniPath (DAO)](dbengine-inipath-property-dao.md)
+- [DBEngine.Inipath (DAO)](dbengine-inipath-property-dao.md)
 - [Propiedad DBEngine.LoginTimeout (DAO)](dbengine-logintimeout-property-dao.md)
 - [Propiedad DBEngine.Properties (DAO)](dbengine-properties-property-dao.md)
 - [Propiedad DBEngine.Version (DAO)](dbengine-version-property-dao.md)

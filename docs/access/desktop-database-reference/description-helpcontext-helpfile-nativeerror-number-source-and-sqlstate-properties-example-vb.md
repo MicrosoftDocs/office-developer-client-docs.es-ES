@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de las propiedades Description, HelpContext y HelpFile (VB)
+title: Ejemplo de las propiedades Description, HelpContext, HelpFile (VB)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)
 ms:assetid: 3c129aec-cd69-5822-4dad-ebef226538e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15)

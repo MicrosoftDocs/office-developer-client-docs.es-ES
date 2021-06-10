@@ -23,7 +23,7 @@ ms.locfileid: "32302432"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **Databases** que representa las bases de datos abiertas del objeto **Workspace** especificado. Solo lectura.
+Devuelve una colección **Databases** que representa las bases de datos abiertas del objeto **Workspace** especificado. Es de solo lectura
 
 ## <a name="syntax"></a>Sintaxis
 

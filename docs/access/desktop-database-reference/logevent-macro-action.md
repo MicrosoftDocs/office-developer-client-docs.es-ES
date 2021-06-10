@@ -23,7 +23,7 @@ La acción **RegistrarEvento** escribe información en la tabla de sistema **USy
 > [!NOTE]
 > La acción **RegistrarEvento** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **RegistrarEvento** utiliza los siguientes argumentos.
 

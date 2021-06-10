@@ -27,7 +27,7 @@ Establece o devuelve un valor de tipo [MarshalOptionsEnum](marshaloptionsenum.md
 
 ## <a name="remarks"></a>Comentarios
 
-Cuando se usa un conjunto de registros del lado cliente [,](recordset-object-ado.md)los registros que se han modificado en el cliente se escriben de nuevo en el nivel intermedio o servidor web a través de una técnica denominada cálculo de referencias, el proceso de empaquetado y envío de parámetros de método de interfaz a través de límites de subprocesos o procesos. Establecer la **propiedad MarshalOptions** puede mejorar el rendimiento cuando se serializan los datos remotos modificados para actualizar de nuevo al nivel intermedio o al servidor web.
+Cuando se usa un objeto [Recordset](recordset-object-ado.md)del lado cliente, los registros que se han modificado en el cliente se escriben de nuevo en el nivel intermedio o servidor web mediante una técnica denominada cálculo de referencias, el proceso de empaquetado y envío de parámetros del método de interfaz a través de los límites de subprocesos o procesos. Establecer la **propiedad MarshalOptions** puede mejorar el rendimiento cuando se serializan los datos remotos modificados para actualizar de nuevo al servidor web o al nivel intermedio.
 
-**Uso del servicio de datos remotos** Esta propiedad sólo se usa en un conjunto de registros del **lado cliente**.
+**Uso del servicio de datos remotos** Esta propiedad solo se usa en un objeto Recordset del lado **cliente.**
 

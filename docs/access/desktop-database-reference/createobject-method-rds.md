@@ -38,19 +38,19 @@ El Servicio de datos remotos (RDS) admite los protocolos siguientes: HTTP, HTTPS
 <tbody>
 <tr class="odd">
 <td><p>HTTP</p></td>
-<td><p>Establecer<em>el objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
+<td><p>Establecer<em>objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS</p></td>
-<td><p>Establecer<em>el objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
+<td><p>Establecer<em>objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>https://awebsrvr</em> &quot; )</p></td>
 </tr>
 <tr class="odd">
 <td><p>DCOM</p></td>
-<td><p>Establecer<em>el objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>computername</em> &quot; )</p></td>
+<td><p>Establecer<em>objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; <em>computername</em> &quot; )</p></td>
 </tr>
 <tr class="even">
-<td><p>Dentro del proceso</p></td>
-<td><p>Establecer<em>el objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; &quot; )</p></td>
+<td><p>En proceso</p></td>
+<td><p>Establecer<em>objeto</em>  =  <em>DataSpace</em>. CreateObject( &quot; <em>ProgId</em> &quot; , &quot; &quot; )</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ El Servicio de datos remotos (RDS) admite los protocolos siguientes: HTTP, HTTPS
 |*Objeto* |Variable de objeto que da como resultado un objeto que es el tipo especificado en *ProgID*.|
 |*DataSpace* |Variable de objeto que representa un objeto [RDS.DataSpace](dataspace-object-rds.md) utilizado para crear una instancia del objeto nuevo.|
 |*ProgID* |Valor de tipo **String** que contiene el identificador de programación que especifica un objeto de negocio de servidor que implementa las reglas de negocios de la aplicación.|
-|*awebsrvr* o *computername* |Valor de tipo **String** que representa una dirección URL que identifica el servidor web de Internet Information Services (IIS) donde se crea una instancia del objeto de negocio del servidor.|
+|*awebsrvr* o *computername* |Valor **string** que representa una dirección URL que identifica el servidor web Internet Information Services (IIS) donde se crea una instancia del objeto de negocio del servidor.|
 
 ## <a name="remarks"></a>Comentarios
 

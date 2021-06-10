@@ -24,7 +24,7 @@ ms.locfileid: "32288514"
 
 Microsoft Access SQL admite el uso de la sintaxis definida por ODBC para funciones escalares. 
 
-Por ejemplo, la consulta devolvería todas las filas en las que el valor absoluto del cambio en el precio de un valor bursátil fuera `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` superior a cinco.
+Por ejemplo, la consulta devolvería todas las filas donde el valor absoluto del cambio en el precio de `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` una acción era mayor que cinco.
 
 Se admite un subconjunto de las funciones escalares definidas por ODBC. En la siguiente tabla, se enumeran las funciones admitidas.
 
@@ -46,7 +46,7 @@ Para obtener una descripción de los argumentos y una explicación completa de l
 </tr>
 <tr class="even">
 <td><p>CHAR</p></td>
-<td><p>LOCATE</p></td>
+<td><p>LOCALIZAR</p></td>
 <td><p>SPACE</p></td>
 </tr>
 <tr class="odd">
@@ -88,8 +88,8 @@ Para obtener una descripción de los argumentos y una explicación completa de l
 <td><p>SQRT</p></td>
 </tr>
 <tr class="odd">
-<td><p>CEILING</p></td>
-<td><p>ENERGÍA</p></td>
+<td><p>TECHO</p></td>
+<td><p>POWER</p></td>
 <td><p>TAN</p></td>
 </tr>
 <tr class="even">
@@ -106,7 +106,7 @@ Para obtener una descripción de los argumentos y una explicación completa de l
 </table>
 
 
-## <a name="time--date-functions"></a>Funciones Time & Date
+## <a name="time--date-functions"></a>Funciones de fecha & tiempo
 
 <table>
 <colgroup>
@@ -126,7 +126,7 @@ Para obtener una descripción de los argumentos y una explicación completa de l
 <td><p>SEMANA</p></td>
 </tr>
 <tr class="odd">
-<td><p>NOW</p></td>
+<td><p>AHORA</p></td>
 <td><p>HOUR</p></td>
 <td><p>QUARTER</p></td>
 </tr>

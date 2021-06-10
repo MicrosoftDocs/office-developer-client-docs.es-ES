@@ -20,7 +20,7 @@ ms.locfileid: "32289159"
 
 Puede usar la acción **CuadroDeMensajes** para mostrar un cuadro de mensaje que contenga una advertencia o un mensaje informativo. Por ejemplo, puede usar la acción **CuadroDeMensajes** con macros de validación. Cuando un control o un registro produce un error en una condición de validación de la macro, un cuadro de mensaje puede mostrar un mensaje de error y proporcionar instrucciones sobre el tipo de datos que se debe introducir.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **CuadroDeMensajes** tiene los siguientes argumentos.
 
@@ -50,7 +50,7 @@ La acción **CuadroDeMensajes** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Título</strong></p></td>
-<td><p>El texto que se muestra en la barra de título del cuadro de mensaje. Por ejemplo, puede hacer que la barra de título muestre la validación &quot; de id. de &quot; cliente. Si deja este argumento en blanco, &quot; se muestra Microsoft &quot; Access.</p></td>
+<td><p>El texto que se muestra en la barra de título del cuadro de mensaje. Por ejemplo, puede hacer que la barra de título muestre &quot; Validación de id. de cliente &quot; . Si deja este argumento en blanco, &quot; se muestra Microsoft &quot; Access.</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,7 +64,7 @@ En el siguiente ejemplo se muestra un cuadro de mensaje con formato con un mensa
 
 Escriba la siguiente cadena en el argumento **Mensaje**:
 
-**El botón \! @This botón no es work.@Try otro.**
+**El botón \! @This no se work.@Try otro.**
 
 No puede ejecutar la acción **CuadroDeMensajes** en un módulo Visual Basic para aplicaciones (VBA). En su lugar, use la función **CuadroMsj**.
 
@@ -83,7 +83,7 @@ La siguiente macro abre Lista de productos en la esquina inferior derecha del fo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
+<th><p>Condición</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
 <th><p>Comentario</p></th>
@@ -99,7 +99,7 @@ La siguiente macro abre Lista de productos en la esquina inferior derecha del fo
 <tr class="even">
 <td><p>IsNull([SupplierID])</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Sonido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Seleccionar un proveedor</p></td>
+<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Pitido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</p></td>
 <td><p>Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -117,13 +117,13 @@ La siguiente macro abre Lista de productos en la esquina inferior derecha del fo
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: Vista de lista <strong>de productos</strong>: Nombre del filtro <strong>de hoja</strong>de datos : <strong>Condición</strong>Where : [IdDe Proveedor] = [Formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo Read OnlyWindow</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nombre del</strong>formulario : Vista lista <strong>de productos</strong>: <strong>DatasheetFilter Name</strong>: Where <strong>Condition</strong>: [SupplierID] = [Forms]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo De solo lecturaWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>MoveAndSizeWindow</strong></p></td>
-<td><p><strong>Derecha</strong>: 0,7799 &quot; <strong>abajo</strong>: 1,8&quot;</p></td>
+<td><p><strong>Right</strong>: 0.7799 &quot; <strong>Down</strong>: 1.8&quot;</p></td>
 <td><p>Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</p></td>
 </tr>
 </tbody>
@@ -143,7 +143,7 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
+<th><p>Condición</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
 <th><p>Comentario</p></th>
@@ -157,9 +157,9 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 <td><p>Si PaísRegión es <strong>Null</strong>, el código postal no se podrá validar.</p></td>
 </tr>
 <tr class="even">
-<td><p>[CountryRegion] In ( &quot; France , Italia , España ) And &quot; &quot; &quot; &quot; &quot; Len([PostalCode]) &lt; &gt; 5</p></td>
+<td><p>[CountryRegion] In ( &quot; France , Italy , Spain ) and &quot; &quot; &quot; &quot; &quot; Len([PostalCode]) &lt; &gt; 5</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: el código postal debe ser de 5 caracteres. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código postal</p></td>
+<td><p><strong>Mensaje</strong>: el código postal debe ser de 5 caracteres. <strong>Pitido</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código postal</p></td>
 <td><p>Si el código postal no tiene 5 caracteres, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -175,9 +175,9 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>[CountryRegion] In ( &quot; Australia , Singapur ) And &quot; &quot; &quot; Len([PostalCode]) &lt; &gt; 4</p></td>
+<td><p>[CountryRegion] In ( &quot; Australia , Singapore ) And &quot; &quot; &quot; Len([PostalCode]) &lt; &gt; 4</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: el código postal debe ser de 4 caracteres. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código postal</p></td>
+<td><p><strong>Mensaje</strong>: el código postal debe ser de 4 caracteres. <strong>Pitido</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código postal</p></td>
 <td><p>Si el código postal no tiene 4 caracteres, mostrar un mensaje.</p></td>
 </tr>
 <tr class="even">
@@ -193,7 +193,7 @@ La siguiente macro de validación comprueba los códigos postales introducidos e
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([CountryRegion] = &quot; Canadá &quot; ) y ([PostalCode] No como &quot; [A-Z][0-9][A-Z] [0-9][A-Z][0-9] &quot; )</p></td>
+<td><p>([CountryRegion] = &quot; Canada &quot; ) And ([PostalCode] Not Like &quot; [A-Z][0-9][A-Z] [0-9][A-Z][0-9] &quot; )</p></td>
 <td><p><strong>MessageBox</strong></p></td>
 <td><p><strong>Mensaje</strong>: El código postal no es válido. Ejemplo de código canadiense: H1J 1C3 <strong>Beep</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Postal Code Error</p></td>
 <td><p>Si el código postal no es correcto para Canadá, mostrar un mensaje. (Ejemplo de código canadiense: H1J 1C3)</p></td>

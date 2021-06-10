@@ -1,5 +1,5 @@
 ---
-title: Open (método, ADO MD)
+title: Método Open (ADO MD)
 TOCTitle: Open method (ADO MD)
 ms:assetid: 12395ff6-fe07-325a-2b69-007aa0b11ee6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248894(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288402"
 ---
-# <a name="open-method-ado-md"></a>Open (método, ADO MD)
+# <a name="open-method-ado-md"></a>Método Open (ADO MD)
 
 **Se aplica a:** Access 2013, Office 2013
 

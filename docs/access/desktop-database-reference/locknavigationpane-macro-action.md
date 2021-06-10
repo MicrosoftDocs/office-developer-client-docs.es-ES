@@ -25,7 +25,7 @@ ms.locfileid: "32289874"
 
 Puede usar la acción **BloquearPanelDeExploración** para impedir que los usuarios eliminen objetos de base de datos que se muestran en el Panel de navegación.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **BloquearPanelDeExploración** tiene el siguiente argumento.
 

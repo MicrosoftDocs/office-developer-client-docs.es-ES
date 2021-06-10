@@ -20,7 +20,7 @@ ms.locfileid: "32295047"
 
 La sección de datos define los datos del conjunto de filas junto con el resto de actualizaciones, inserciones o eliminaciones pendientes. La sección de datos puede contener cero o varias filas. Puede contener únicamente datos de un conjunto de filas en el que la fila está definida por el esquema. Además, como se indicó previamente, se pueden omitir las columnas que no contengan datos. Si se utiliza un atributo o un subelemento en la sección de datos y este diseño no se ha definido en la sección de esquema, se omite silenciosamente.
 
-## <a name="string"></a>String
+## <a name="string"></a>Cadena
 
 Los caracteres reservados en XML incluidos en datos de texto se deben reemplazar por entidades de carácter apropiadas. Por ejemplo, en el nombre de empresa "Joe's Garage", el carácter de comilla simple se debe reemplazar por una entidad. La fila real tendría este aspecto:
 
@@ -36,7 +36,7 @@ Los datos binarios tienen codificación bin.hex (es decir, un byte se asigna a d
 
 ## <a name="datetime"></a>DateTime
 
-El formato VARIANT VT \_ DATE no es compatible directamente con XML-Data tipos de datos. El formato correcto para las fechas con componente de fecha y de hora es aaaa-mm-dd **T** hh:mm:ss.
+El formato DATE \_ VT variant no es compatible directamente con los XML-Data de datos. El formato correcto para las fechas con componente de fecha y de hora es aaaa-mm-dd **T** hh:mm:ss.
 
 Para obtener más información acerca de los formatos de fecha especificados por XML, vea [W3C XMLData Note](https://www.w3.org/TR/1998/NOTE-XML-data-0105/).
 

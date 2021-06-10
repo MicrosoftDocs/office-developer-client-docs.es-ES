@@ -1,5 +1,5 @@
 ---
-title: MaxRecords (propiedad, ADO)
+title: Propiedad MaxRecords (ADO)
 TOCTitle: MaxRecords property (ADO)
 ms:assetid: 424b2d41-073a-3fbe-30aa-99fac94f9a81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249195(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289724"
 ---
-# <a name="maxrecords-property-ado"></a>MaxRecords (propiedad, ADO)
+# <a name="maxrecords-property-ado"></a>Propiedad MaxRecords (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

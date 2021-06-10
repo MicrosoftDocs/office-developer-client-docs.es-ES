@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de método Append de Keys, propiedades Key Type y RelatedColumn (VB)
+title: Ejemplo de las propiedades Keys Append (método, Key Type, RelatedColumn) (VB)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
 ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
@@ -14,12 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290634"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a>Ejemplo de las propiedades Método Append de Keys, Tipo de clave, RelatedColumn, RelatedTable y UpdateRule (VB)
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a>Ejemplo de las propiedades Método Append, Tipo de clave, RelatedColumn, RelatedTable y UpdateRule (VB)
 
 
 **Se aplica a:** Access 2013, Office 2013
 
-El código siguiente muestra cómo crear una clave externa nueva. Supone que existen dos tablas (**Clientes** y **Pedidos**).
+El código siguiente muestra cómo crear una clave externa nueva.
+Supone que existen dos tablas (**Clientes** y **Pedidos**).
 
 ```vb 
  

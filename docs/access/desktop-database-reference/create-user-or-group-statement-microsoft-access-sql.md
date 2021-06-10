@@ -24,11 +24,11 @@ Crea uno o varios usuarios o grupos nuevos.
 
 ### <a name="create-a-user"></a>Crear un usuario
 
-CREATE USER *password* *pid* \[ , *user* *password pid*, ...\]
+CREATE USER *user* *password pid* , \[ *user* *password pid*, ...\]
 
 ### <a name="create-a-group"></a>Crear un grupo
 
-CREATE GROUP *group* *pid,* \[ *group* *pid*, ...\]
+CREATE GROUP *group* *pid* \[ , *group* *pid*, ...\]
 
 La instrucción CREATE USER o GROUP consta de los siguientes elementos:
 
@@ -45,7 +45,7 @@ La instrucción CREATE USER o GROUP consta de los siguientes elementos:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>user</em></p></td>
+<td><p><em>usuario</em></p></td>
 <td><p>Nombre de un usuario que se agregará al archivo de información de grupo de trabajo.</p></td>
 </tr>
 <tr class="even">

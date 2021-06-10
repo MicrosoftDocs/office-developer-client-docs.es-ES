@@ -45,7 +45,7 @@ La acción **AbrirProcedimientoAlmacenado** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre del procedimiento</strong></p></td>
-<td><p>Nombre del procedimiento almacenado que se va a abrir. El <strong>cuadro Nombre del procedimiento</strong> de la sección Argumentos de acción del panel Generador de macros muestra todos los procedimientos <strong>almacenados</strong> en la base de datos actual. Éste es un argumento requerido. Si ejecuta una macro que contiene la acción <strong>AbrirProcedimientoAlmacenado</strong> en una base de datos de biblioteca, Microsoft Access primero busca el procedimiento almacenado con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
+<td><p>Nombre del procedimiento almacenado que se va a abrir. El <strong>cuadro Nombre del procedimiento</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todos los procedimientos almacenados en la base de datos actual. Éste es un argumento requerido. Si ejecuta una macro que contiene la acción <strong>AbrirProcedimientoAlmacenado</strong> en una base de datos de biblioteca, Microsoft Access primero busca el procedimiento almacenado con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos activa.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

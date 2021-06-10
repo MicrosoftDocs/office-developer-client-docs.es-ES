@@ -26,8 +26,8 @@ ms.locfileid: "32292058"
 
 ## <a name="methods"></a>Métodos
 
-- [Método Append (Grupos)](append-method-adox-groups.md)
-- [Método Delete (colecciones)](delete-method-adox-collections.md)
+- [Método Append (Groups)](append-method-adox-groups.md)
+- [Método Delete (Colecciones)](delete-method-adox-collections.md)
 - [Refresh (método)](refresh-method-ado.md)
 
 ## <a name="events"></a>Eventos

@@ -106,7 +106,7 @@ Como alternativa al establecimiento de un **DSN**, puede especificar el controla
 
 También puede especificar un nombre de cuenta de usuario (**UID=**) y la contraseña para esa cuenta (**PWD=**) en los parámetros específicos de ODBC o en los parámetros estándar *user* y *password* definidos por ADO.
 
-Aunque una **definición de DSN** ya   especifica una base de datos, puede especificar un parámetro de base de datos además de un **DSN** para conectarse a una base de datos diferente. Es una buena idea incluir siempre el *parámetro* *de base de* datos cuando se usa un **DSN**. Eso garantizará la conexión a la base de datos adecuada en caso de que otro usuario haya modificado el parámetro desde la última vez que se comprobó la definición **DSN**.
+Aunque una **definición de DSN** ya  especifica una base de datos, puede especificar un parámetro *de* base de datos además de **un DSN** para conectarse a una base de datos diferente. Es una buena idea incluir siempre *el* parámetro *database* cuando se usa un **DSN**. Eso garantizará la conexión a la base de datos adecuada en caso de que otro usuario haya modificado el parámetro desde la última vez que se comprobó la definición **DSN**.
 
 ## <a name="provider-specific-connection-properties"></a>Propiedades Connection específicas del proveedor
 
@@ -135,7 +135,7 @@ El Proveedor OLE DB para ODBC agrega varias propiedades a la colección [Propert
 <td><p>Indica si el usuario tiene permiso para ejecutar instrucciones SELECT en las tablas de la base de datos.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Instrucciones activas<br />
+<td><p>Instrucciones Active<br />
 (KAGPROP_ACTIVESTATEMENTS)</p></td>
 <td><p>Indica el número de controladores que puede admitir un controlador ODBC en una conexión.</p></td>
 </tr>
@@ -145,7 +145,7 @@ El Proveedor OLE DB para ODBC agrega varias propiedades a la colección [Propert
 <td><p>Indica el nombre de archivo del controlador ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Driver ODBC Version<br />
+<td><p>Versión ODBC del controlador<br />
 (KAGPROP_DRIVERODBCVER)</p></td>
 <td><p>Indica la versión de ODBC que admite este controlador.</p></td>
 </tr>
@@ -155,32 +155,32 @@ El Proveedor OLE DB para ODBC agrega varias propiedades a la colección [Propert
 <td><p>Indica cómo trata el controlador a un archivo de un origen de datos, como una tabla o como un catálogo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Like Escape Clause<br />
+<td><p>Cláusula Like Escape<br />
 (KAGPROP_LIKEESCAPECLAUSE)</p></td>
 <td><p>Indica si el controlador admite la definición y el uso de un carácter de escape para el carácter de porcentaje (%) y de un carácter de subrayado (_) en el predicado LIKE de una cláusula WHERE.</p></td>
 </tr>
 <tr class="even">
-<td><p>Max Columns in Group By<br />
+<td><p>Columnas máximas en grupo por<br />
 (KAGPROP_MAXCOLUMNSINGROUPBY)</p></td>
 <td><p>Indica el número máximo de columnas que se puede enumerar en la cláusula GROUP BY de una instrucción SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Max Columns in Index<br />
+<td><p>Columnas máximas en índice<br />
 (KAGPROP_MAXCOLUMNSININDEX)</p></td>
 <td><p>Indica el número máximo de columnas que puede ser incluido en un índice.</p></td>
 </tr>
 <tr class="even">
-<td><p>Max Columns in Order By<br />
+<td><p>Columnas máximas en orden por<br />
 (KAGPROP_MAXCOLUMNSINORDERBY)</p></td>
 <td><p>Indica el número máximo de columnas que se puede enumerar en la cláusula ORDER BY de una instrucción SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Max Columns in Select<br />
+<td><p>Columnas máximas en Seleccionar<br />
 (KAGPROP_MAXCOLUMNSINSELECT)</p></td>
 <td><p>Indica el número máximo de columnas que se puede enumerar en la parte SELECT de una instrucción SELECT.</p></td>
 </tr>
 <tr class="even">
-<td><p>Columnas máximas de la tabla<br />
+<td><p>Columnas máximas en tabla<br />
 (KAGPROP_MAXCOLUMNSINTABLE)</p></td>
 <td><p>Indica el número máximo de columnas permitido en una tabla.</p></td>
 </tr>
@@ -190,7 +190,7 @@ El Proveedor OLE DB para ODBC agrega varias propiedades a la colección [Propert
 <td><p>Indica las funciones numéricas admitidas por el controlador ODBC. Para obtener una lista de los nombres de las funciones y los valores asociados utilizados en esta máscara de bits, vea el Apéndice E: Funciones escalares en la documentación de ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Capacidades de unión externa<br />
+<td><p>Funcionalidades de unión externa<br />
 (KAGPROP_OJCAPABILITY)</p></td>
 <td><p>Indica los tipos de combinaciones externas admitidos por el proveedor.</p></td>
 </tr>
@@ -220,12 +220,12 @@ El Proveedor OLE DB para ODBC agrega varias propiedades a la colección [Propert
 <td><p>Indica las funciones del sistema admitidas por el controlador ODBC. Para obtener una lista de los nombres de las funciones y los valores asociados utilizados en esta máscara de bits, vea el Apéndice E: Funciones escalares en la documentación de ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Funciones time/date<br />
+<td><p>Funciones de fecha y hora<br />
 (KAGPROP_TIMEDATEFUNCTIONS)</p></td>
 <td><p>Indica las funciones de fecha y hora admitidas por el controlador ODBC. Para obtener una lista de los nombres de las funciones y los valores asociados utilizados en esta máscara de bits, vea el Apéndice E: Funciones escalares en la documentación de ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SQL gramática<br />
+<td><p>SQL Compatibilidad con gramática<br />
 (KAGPROP_ODBCSQLCONFORMANCE)</p></td>
 <td><p>Indica la gramática SQL admitida por el controlador ODBC.</p></td>
 </tr>
@@ -260,7 +260,7 @@ El Proveedor OLE DB para ODBC agrega varias propiedades a la colección **Proper
 <td><p>Indica el método utilizado para minimizar los problemas potenciales causados por el intento de dos usuarios de obtener acceso a los mismos datos del origen de datos de forma simultánea.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Accesibilidad de BLOB en Forward-Only cursor<br />
+<td><p>Accesibilidad blob en Forward-Only cursor<br />
 (KAGPROP_BLOBSONFOCURSOR)</p></td>
 <td><p>Indica si es posible obtener acceso a <strong>campos</strong> BLOB cuando se utiliza un cursor de sólo avance.</p></td>
 </tr>
@@ -285,7 +285,7 @@ El Proveedor OLE DB para ODBC agrega varias propiedades a la colección **Proper
 <td><p>Indica el tipo de cursor usado por el objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Generar un conjunto de filas que se puede calcular como referencias<br />
+<td><p>Generar un conjunto de filas que se puede serializar<br />
 (KAGPROP_MARSHALLABLE)</p></td>
 <td><p>Indica que el controlador ODBC genera un conjunto de registros que se puede ordenar.</p></td>
 </tr>
@@ -301,7 +301,7 @@ ODBC proporciona una sintaxis específica para llamar a los procedimientos almac
 
 `"{ [ ? = ] call procedure [ ( ? [, ? [ ,  ]] ) ] }"`
 
-Cada **?** hace referencia a un objeto de la colección [Parameters](parameters-collection-ado.md). El primer **?** references **Parameters**(0), the next **?** parámetros **de** referencias (1), y así sucesivamente.
+Cada **?** hace referencia a un objeto de la colección [Parameters](parameters-collection-ado.md). El primer **?** hace referencia a **Parameters**(0), el siguiente **?** a **Parameters**(1) y así sucesivamente.
 
 Las referencias del parámetro son opcionales y dependen de la estructura del procedimiento almacenado. Si desea llamar a un procedimiento almacenado que no define parámetros, la cadena tendrá este aspecto:
 
@@ -409,7 +409,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>lectura y escritura</p></td>
 <td><p>lectura y escritura</p></td>
 <td><p>lectura y escritura</p></td>
@@ -465,7 +465,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">Estado</a></p></td>
 <td><p>solo lectura</p></td>
 <td><p>solo lectura</p></td>
 <td><p>solo lectura</p></td>
@@ -1444,7 +1444,7 @@ Las propiedades siguientes se agregan a la colección **Properties** del objeto 
 </table>
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-Para obtener más información sobre la implementación específica y la información funcional sobre el proveedor microsoft OLE DB para ODBC, consulte la Guía del programador de [OLE DB](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) o visite el Centro para desarrolladores de [plataformas de datos.](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)
+Para obtener más información sobre la implementación específica y la información funcional sobre el proveedor microsoft OLE DB para ODBC, consulte la Guía del programador de [OLE DB](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) o visite el Centro de [desarrolladores](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)de plataforma de datos .
 

@@ -1,5 +1,5 @@
 ---
-title: Métodos Index (DAO)
+title: Métodos index (DAO)
 TOCTitle: Methods
 ms:assetid: 740d56e1-e789-41f0-b2dd-a39b81b68907
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161014(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291792"
 ---
-# <a name="index-methods-dao"></a>Métodos Index (DAO)
+# <a name="index-methods-dao"></a>Métodos index (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

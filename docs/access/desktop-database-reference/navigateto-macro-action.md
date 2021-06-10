@@ -24,7 +24,7 @@ ms.locfileid: "32288605"
 
 Puede usar la acción **DesplazarseA** para controlar la presentación de los objetos de la base de datos en el panel de navegación. Por ejemplo, puede cambiar la manera en que los objetos de la base de datos se organizan en categorías o puede filtrar los objetos de modo que solo se muestren determinados objetos.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **DesplazarseA** tiene los siguientes argumentos.
 
@@ -46,7 +46,7 @@ La acción **DesplazarseA** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Agrupar</strong></p></td>
-<td><p>Opcional. El argumento <strong>Grupo</strong> limita los objetos que van a aparecer en el panel de navegación. Si deja en blanco el argumento <strong>Grupo,</strong> el panel de navegación mostrará todos los objetos de base de datos, categorizados por los criterios especificados en el <strong>argumento Categoría.</strong> La siguiente tabla incluye ejemplos de argumentos <strong>Grupo</strong> válidos para los diversos argumentos <strong>Categoría</strong>.</p></td>
+<td><p>Opcional. El argumento <strong>Grupo</strong> limita los objetos que van a aparecer en el panel de navegación. Si deja el argumento <strong>Group</strong> en blanco, el panel de navegación muestra todos los objetos de base de datos, categorizados por los criterios especificados en el <strong>argumento Category.</strong> La siguiente tabla incluye ejemplos de argumentos <strong>Grupo</strong> válidos para los diversos argumentos <strong>Categoría</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -54,7 +54,7 @@ La acción **DesplazarseA** tiene los siguientes argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
-- Esta acción es similar a seleccionar categorías y grupos en la barra de título del panel de navegación.
+- Esta acción es similar a seleccionar categorías y grupos de la barra de título del panel de navegación.
 
 - Los argumentos **Grupo** válidos dependen del argumento **Categoría** que se utilice. Si especifica un argumento **Grupo** no válido, aparecerá un mensaje de error.La tabla siguiente contiene ejemplo de argumentos **Grupo** válidos para cada argumento **Categoría**.
     

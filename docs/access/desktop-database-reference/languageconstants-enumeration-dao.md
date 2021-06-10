@@ -103,7 +103,7 @@ Especifica un criterio de ordenación para la creación de una base de datos.
 <tr class="even">
 <td><p>dbLangNordic</p></td>
 <td><p>&quot;; LANGID=0x041D; CP=1252; COUNTRY=0&quot;</p></td>
-<td><p>Nórdicos</p></td>
+<td><p>Nórdico</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangNorwDan</p></td>

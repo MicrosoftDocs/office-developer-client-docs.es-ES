@@ -1,5 +1,5 @@
 ---
-title: CubeDef (objeto, ADO MD)
+title: Objeto CubeDef (ADO MD)
 TOCTitle: CubeDef object (ADO MD)
 ms:assetid: 199235b7-3d98-f655-27bc-94f66e994e06
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248941(v=office.15)

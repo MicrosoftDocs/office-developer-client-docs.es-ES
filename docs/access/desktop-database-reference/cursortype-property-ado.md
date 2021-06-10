@@ -49,7 +49,7 @@ En el gráfico siguiente se muestra la funcionalidad (identificada mediante las 
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>none</p></td>
+<td><p>ninguno</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenKeyset</strong></p></td>
@@ -72,5 +72,5 @@ En el gráfico siguiente se muestra la funcionalidad (identificada mediante las 
 
 La propiedad **CursorType** es de lectura y escritura cuando el objeto **Recordset** está cerrado, y es de sólo lectura cuando está abierto.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto Recordset del lado cliente, la **propiedad CursorType** sólo se puede establecer en **adOpenStatic**.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto Recordset del lado cliente, la **propiedad CursorType** solo se puede establecer en **adOpenStatic**.
 

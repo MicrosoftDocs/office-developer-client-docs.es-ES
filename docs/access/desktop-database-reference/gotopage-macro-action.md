@@ -24,7 +24,7 @@ ms.locfileid: "32292163"
 
 Puede usar la acción **IrAPágina** para mover el enfoque del formulario activo al primer control de una página especificada. Puede usar esta acción si ha creado un formulario con saltos de página que contenga grupos de información relacionada. Por ejemplo, podría tener un formulario Empleados con información personal en una página, información de la oficina en otra e información de las ventas en una tercera. Puede usar la acción **IrAPágina** para moverse a la página deseada. También puede presentar varias páginas de información en un único formulario mediante controles de pestaña.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **IrAPágina** tiene los siguientes argumentos.
 

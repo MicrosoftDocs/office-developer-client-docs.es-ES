@@ -23,7 +23,7 @@ Un **bloque de datos ForEachRecord** repite un conjunto de instrucciones para ca
 > [!NOTE]
 > El bloque de datos **ParaCadaRegistro** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **ParaCadaRegistro** utiliza los siguientes argumentos.
 
@@ -44,17 +44,17 @@ La acción **ParaCadaRegistro** utiliza los siguientes argumentos.
 <tr class="odd">
 <td><p><strong>In</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Una cadena que identifica el dominio de los registros en los que se operará. El <em>argumento In</em> puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL lista.</p><p><strong>NOTA:</strong>El dominio especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.</p></td>
+<td><p>Una cadena que identifica el dominio de los registros en los que se operará. El <em>argumento In</em> puede contener el nombre de la tabla, una consulta select o una instrucción SQL.</p><p><strong>NOTA:</strong>el dominio especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Where Condition</strong></p></td>
 <td><p>No</p></td>
-<td><p>Expresión de cadena usada para restringir el rango de datos en el que se ejecuta el bloque de datos <strong>ForEachRecord.</strong> Por ejemplo, los criterios a menudo equivalen a la cláusula WHERE en una expresión SQL, sin la palabra WHERE. Si se omiten criterios, el bloque de datos <strong>ForEachRecord</strong> opera en todo el dominio especificado por el <em>argumento In.</em> Cualquier campo que se incluya en los criterios debe ser también un campo del argumento <em>En</em>.</p></td>
+<td><p>Expresión de cadena usada para restringir el intervalo de datos en el que se realiza el bloque de datos <strong>ForEachRecord.</strong> Por ejemplo, los criterios a menudo equivalen a la cláusula WHERE en una expresión SQL, sin la palabra WHERE. Si se omite criteria, el bloque de datos <strong>ForEachRecord</strong> funciona en todo el dominio especificado por el <em>argumento In.</em> Cualquier campo que se incluya en los criterios debe ser también un campo del argumento <em>En</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Alias</strong></p></td>
 <td><p>No</p></td>
-<td><p>Cadena que proporciona un nombre alternativo para el dominio especificado por el <em>argumento In.</em> A menudo se usa para acortar el nombre de la tabla para referencias posteriores para evitar posibles referencias ambiguas. Si <em>no</em> se especifica Alias, el nombre de la tabla o consulta se usará como alias.</p></td>
+<td><p>Cadena que proporciona un nombre alternativo para el dominio especificado por el <em>argumento In.</em> A menudo se usa para acortar el nombre de tabla de las referencias posteriores para evitar posibles referencias ambiguas. Si no se especifica <em>Alias,</em> se usará el nombre de la tabla o consulta como alias.</p></td>
 </tr>
 </tbody>
 </table>

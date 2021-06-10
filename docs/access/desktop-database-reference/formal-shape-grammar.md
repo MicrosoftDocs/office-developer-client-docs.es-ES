@@ -49,15 +49,15 @@ Todos los demás términos son literales.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;comando shape&gt;</p></td>
+<td><p>&lt;shape-command&gt;</p></td>
 <td><p>SHAPE [ &lt; table-exp &gt; [[AS] &lt; alias &gt; ]][ &lt; shape-action &gt; ]</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;table-exp&gt;</p></td>
 <td><p>{ &lt; provider-command-text &gt; } |<br />
-( &lt; comando shape ) &gt; |<br />
-TABLE &lt; entrecomillado de nombre&gt; |<br />
-&lt;entrecomillado-nombre&gt;</p></td>
+( &lt; shape-command &gt; ) |<br />
+TABLE &lt; quoted-name&gt; |<br />
+&lt;quoted-name&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;shape-action&gt;</p></td>
@@ -70,7 +70,7 @@ TABLE &lt; entrecomillado de nombre&gt; |<br />
 </tr>
 <tr class="odd">
 <td><p>&lt;aliased-field&gt;</p></td>
-<td><p>&lt;field-exp &gt; [[AS] &lt; alias &gt; ]</p></td>
+<td><p>&lt;alias field-exp &gt; [[AS] &lt; &gt; ]</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;field-exp&gt;</p></td>
@@ -95,14 +95,14 @@ TABLE &lt; entrecomillado de nombre&gt; |<br />
 <tr class="even">
 <td><p>&lt;child-ref&gt;</p></td>
 <td><p>&lt;field-name&gt; |</p>
-<p>PARAMETER &lt; param-ref&gt;</p></td>
+<p>PARÁMETRO &lt; param-ref&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;param-ref&gt;</p></td>
 <td><p>&lt;número&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;lista de campos&gt;</p></td>
+<td><p>&lt;field-list&gt;</p></td>
 <td><p>&lt;field-name &gt; [, &lt; field-name &gt; ]</p></td>
 </tr>
 <tr class="odd">
@@ -125,25 +125,25 @@ TABLE &lt; entrecomillado de nombre&gt; |<br />
 </tr>
 <tr class="even">
 <td><p>&lt;alias&gt;</p></td>
-<td><p>&lt;entrecomillado-nombre&gt;</p></td>
+<td><p>&lt;quoted-name&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;field-name&gt;</p></td>
-<td><p>&lt;alias entrecomillado &gt; [[AS] &lt; &gt; ]</p></td>
+<td><p>&lt;alias quoted-name &gt; [[AS] &lt; &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;entrecomillado-nombre&gt;</p></td>
+<td><p>&lt;quoted-name&gt;</p></td>
 <td><p>&quot;&lt;string&gt;&quot; |</p>
-<p>' &lt; string &gt; ' |</p>
+<p>Cadena &lt; &gt; ' ' |</p>
 <p>[ &lt; string &gt; ] |</p>
-<p>&lt;name&gt;</p></td>
+<p>&lt;nombre&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;nombre completo&gt;</p></td>
 <td><p>alias[.alias...]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;name&gt;</p></td>
+<td><p>&lt;nombre&gt;</p></td>
 <td><p>alpha [ alpha | digit | _ | # | : | ...]</p></td>
 </tr>
 <tr class="odd">
@@ -152,7 +152,7 @@ TABLE &lt; entrecomillado de nombre&gt; |<br />
 </tr>
 <tr class="even">
 <td><p>&lt;new-exp&gt;</p></td>
-<td><p>NUEVO &lt; tipo de campo &gt; [( número &lt; &gt; [, número &lt; &gt; ])]</p></td>
+<td><p>NUEVO &lt; tipo de campo &gt; [( number &lt; &gt; [, number &lt; &gt; ])]</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;tipo de campo&gt;</p></td>

@@ -19,7 +19,7 @@ ms.locfileid: "32294767"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **Recordsets** que contiene todos los conjuntos de registros abiertos en la base de datos especificada. Solo lectura.
+Devuelve una colección **Recordsets** que contiene todos los conjuntos de registros abiertos en la base de datos especificada. Es de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 

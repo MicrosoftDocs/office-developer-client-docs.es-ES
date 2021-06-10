@@ -64,7 +64,7 @@ La cadena consta de estas palabras clave:
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>
-<td><p>Especifica el nombre de usuario. Si no se especifica esta palabra clave, la cadena admin &quot; se usa de forma &quot; predeterminada.</p></td>
+<td><p>Especifica el nombre de usuario. Si no se especifica esta palabra clave, la cadena, &quot; admin , se usa de forma &quot; predeterminada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Password</strong></p></td>
@@ -108,7 +108,7 @@ En la tabla siguiente se enumeran estas propiedades con el nombre de propiedad d
 <td><p>Indica si se debe crear una base de datos del sistema al crear un nuevo origen de datos.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB:Database Locking Mode<br />
+<td><p>Jet OLEDB:Modo de bloqueo de base de datos<br />
 (DBPROP_JETOLEDB_DATABASELOCKMODE)</p></td>
 <td><p>Indica el modo de bloqueo de esta base de datos. El primer usuario que la abre determina el modo que se utilizará mientras la base de datos esté abierta.</p></td>
 </tr>
@@ -178,12 +178,12 @@ En la tabla siguiente se enumeran estas propiedades con el nombre de propiedad d
 <td><p>Indica el número máximo de bloqueos que puede colocar Jet en una base de datos. El valor predeterminado es 9500.</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB:New Database Password<br />
+<td><p>Jet OLEDB:Nueva contraseña de base de datos<br />
 (DBPROP_JETOLEDB_NEWDATABASEPASSWORD)</p></td>
-<td><p>Indica la nueva contraseña que se debe establecer para esta base de datos. La contraseña antigua se almacena en <strong>Jet OLEDB:Database Password</strong>.</p></td>
+<td><p>Indica la nueva contraseña que se debe establecer para esta base de datos. La contraseña antigua se almacena en <strong>Jet OLEDB:Database Password</strong>.  </p></td>
 </tr>
 <tr class="odd">
-<td><p>Tiempo de espera del comando Jet OLEDB:ODBC<br />
+<td><p>Jet OLEDB:ODBC Command Time Out<br />
 (DBPROP_JETOLEDB_ODBCCOMMANDTIMEOUT)</p></td>
 <td><p>Indica el número de milisegundos que transcurren antes de que una consulta remota ODBC de Jet supere el tiempo de espera.</p></td>
 </tr>
@@ -273,7 +273,7 @@ El proveedor de Jet también admite varias propiedades **Recordset** y **Command
 <td><p>Indica si los resultados de una consulta permiten actualizaciones incoherentes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB:Locking Granularity<br />
+<td><p>Jet OLEDB:Granularity de bloqueo<br />
 (DBPROP_JETOLEDB_LOCKGRANULARITY)</p></td>
 <td><p>Indica si se abre una tabla mediante bloqueo de fila.</p></td>
 </tr>
@@ -293,7 +293,7 @@ El proveedor de Jet también admite varias propiedades **Recordset** y **Command
 <td><p>Indica si las consultas que no devuelven un objeto <strong>Recordset</strong> se pasan inalteradas al origen de datos.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB:Pass Through Query Connect String<br />
+<td><p>Jet OLEDB:Pass Through Query Conectar String<br />
 (DBPROP_JETOLEDB_ODBCPASSTHROUGHCONNECTSTRING)</p></td>
 <td><p>Indica la cadena de conexión de Jet utilizada para conectarse a un almacén de datos remoto. Este valor se omite a menos que <strong>Jet OLEDB:ODBC Pass-Through Statement</strong> sea True.  </p></td>
 </tr>
@@ -1183,7 +1183,7 @@ Las propiedades siguientes se agregan a la colección **Properties** del objeto 
 </table>
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 Para obtener detalles de implementación específicos e información sobre el funcionamiento del proveedor OLE DB para Microsoft Jet, consulte la documentación del Proveedor OLE DB para Microsoft Jet en el SDK de MDAC.
 

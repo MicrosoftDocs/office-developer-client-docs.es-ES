@@ -24,7 +24,7 @@ Devuelve un objeto [Recordset](recordset-object-ado.md) cuyas filas representan 
 
 ## <a name="syntax"></a>Sintaxis
 
-**Establecer registro** *de conjunto de*  =  *registros*. GetChildren
+**Establecer** *registro de conjunto de*  =  *registros*. GetChildren
 
 ## <a name="return-value"></a>Valor devuelto
 

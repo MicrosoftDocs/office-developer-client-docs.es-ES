@@ -1,5 +1,5 @@
 ---
-title: Objetos de base de datos (referencia de base de datos de escritorio de Access)
+title: Objetos database (referencia de base de datos de escritorio de Access)
 TOCTitle: Database objects
 ms:assetid: 7356a454-238a-4c16-b33c-d0c9385cfc9c
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161006(v=office.15)

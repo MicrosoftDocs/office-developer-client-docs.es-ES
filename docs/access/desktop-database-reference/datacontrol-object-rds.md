@@ -18,7 +18,7 @@ ms.locfileid: "32294522"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Enlaza un conjunto [](recordset-object-ado.md) de registros de consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos del conjunto de registros en una página web. 
+Enlaza un objeto [Recordset](recordset-object-ado.md) de consulta de datos a uno o varios controles (por  ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos recordset en una página web.
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -81,7 +81,7 @@ Use un objeto **RDS.DataControl** para vincular los resultados de una consulta �
 
 Use objetos **RDS.DataControl** diferentes para vincular los resultados de varias consultas a controles visuales diferentes. Por ejemplo, suponga que utiliza una consulta para obtener información sobre un cliente y otra consulta para obtener información sobre los productos que el cliente ha comprado. Además, desea que los resultados de la primera consulta se muestren en tres cuadros de texto y una casilla de verificación, y que los resultados de la segunda consulta se muestren en un control de cuadrícula. Si utiliza el objeto de negocio predeterminado (**RDSServer.DataFactory**), tiene que realizar lo siguiente:
 
-  - Agregue dos **RDS. Objetos DataControl** de la página web.
+  - Agregue dos **RDS. DataControl objetos** a la página web.
 
   - Escribir dos consultas, una para cada propiedad **SQL** de los dos objetos **RDS.DataControl**. Un objeto **RDS.DataControl** contendrá una consulta SQL solicitando información del cliente, y el otro contendrá una consulta solicitando una lista de los productos que el cliente ha comprado.
 
@@ -89,11 +89,11 @@ Use objetos **RDS.DataControl** diferentes para vincular los resultados de varia
 
 No hay ninguna restricción de recuento en el número de **RDS. Objetos DataControl** que se pueden insertar a través de etiquetas OBJECT en una sola página web.
 
-Al definir **rds. Objeto DataControl** en una página web, use valores **de alto** y ancho distintos de cero, como 1 (para evitar la inclusión de espacio adicional). 
+Al definir el **RDS. Objeto DataControl** en una página web, use valores **distintos** de cero Height y **Width,** como 1 (para evitar la inclusión de espacio adicional).
 
 Los componentes del cliente de servicio de datos remotos ya están incluidos como parte de Internet Explorer 4.0; por lo tanto, no es necesario incluir un parámetro CODEBASE en la etiqueta del objeto **RDS.DataControl**.
 
-Con Internet Explorer 4.0 o posterior, puedes enlazar a datos mediante controles HTML y controles ActiveX solo si están marcados como controles de modelo de departamentos.
+Con Internet Explorer 4.0 o posterior, puede enlazar a datos mediante controles HTML y controles ActiveX solo si están marcados como controles de modelo de apartamento.
 
-**Usuarios de Microsoft Visual Basic** The **RDS. DataControl** solo se usa en aplicaciones basadas en web. Una aplicación de cliente de Visual Basic no lo necesita.
+**Usuarios Visual Basic Microsoft** The **RDS. DataControl** solo se usa en aplicaciones basadas en web. Una aplicación de cliente de Visual Basic no lo necesita.
 

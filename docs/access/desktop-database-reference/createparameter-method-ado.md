@@ -26,7 +26,7 @@ Crea un nuevo objeto [Parameter](parameter-object-ado.md) con las propiedades es
 
 ## <a name="syntax"></a>Sintaxis
 
-**Establecer comando** *de*  =  *parámetro*. CreateParameter (*Name*, *Type*, *Direction*, *Size*, *Value*)
+**Establecer** *comando de*  =  *parámetro*. CreateParameter (*Name*, *Type*, *Direction*, *Size*, *Value*)
 
 ## <a name="return-value"></a>Valor devuelto
 

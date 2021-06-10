@@ -114,7 +114,7 @@ Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Paramete
 </tr>
 <tr class="even">
 <td><p><strong>adError</strong></p></td>
-<td><p>10  </p></td>
+<td><p>10</p></td>
 <td><p>Indica un código de error de 32 bits (DBTYPE_ERROR).</p></td>
 </tr>
 <tr class="odd">
@@ -130,18 +130,18 @@ Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Paramete
 <tr class="odd">
 <td><p><strong>adIDispatch</strong></p></td>
 <td><p>9 </p></td>
-<td><p>Indica un puntero a una interfaz <strong>IDispatch</strong> sobre un objeto COM (DBTYPE_IDISPATCH).</p><p><strong>NOTA:</strong>Este tipo de datos no es compatible actualmente con ADO. Su uso puede provocar resultados impredecibles.</p>
+<td><p>Indica un puntero a una interfaz <strong>IDispatch</strong> sobre un objeto COM (DBTYPE_IDISPATCH).</p><p><strong>NOTA:</strong>Este tipo de datos actualmente no es compatible con ADO. Su uso puede provocar resultados impredecibles.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indica un entero de cuatro bytes con signo (DBTYPE_I4).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adIUnknown</strong></p></td>
-<td><p>13 </p></td>
-<td><p>Indica un puntero a una interfaz <strong>IUnknown</strong> sobre un objeto COM (DBTYPE_IUNKNOWN).</p><p><strong>NOTA:</strong>Este tipo de datos no es compatible actualmente con ADO. Su uso puede provocar resultados impredecibles.
+<td><p>13</p></td>
+<td><p>Indica un puntero a una interfaz <strong>IUnknown</strong> sobre un objeto COM (DBTYPE_IUNKNOWN).</p><p><strong>NOTA:</strong>Este tipo de datos actualmente no es compatible con ADO. Su uso puede provocar resultados impredecibles.
 </p></td>
 </tr>
 <tr class="even">
@@ -176,7 +176,7 @@ Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Paramete
 </tr>
 <tr class="even">
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica un entero de dos bytes con signo (DBTYPE_I2).</p></td>
 </tr>
 <tr class="odd">
@@ -222,7 +222,7 @@ Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Paramete
 <tr class="odd">
 <td><p><strong>adVariant</strong></p></td>
 <td><p>12 </p></td>
-<td><p>Indica un <strong>Variant</strong> de automatización (DBTYPE_VARIANT).</p><p><strong>NOTA:</strong>Este tipo de datos no es compatible actualmente con ADO. Su uso puede provocar resultados impredecibles.</p></td>
+<td><p>Indica un <strong>Variant</strong> de automatización (DBTYPE_VARIANT).</p><p><strong>NOTA:</strong>Este tipo de datos actualmente no es compatible con ADO. Su uso puede provocar resultados impredecibles.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adVarNumeric</strong></p></td>
@@ -243,7 +243,7 @@ Especifica el tipo de datos de un objeto [Field](field-object-ado.md), [Paramete
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

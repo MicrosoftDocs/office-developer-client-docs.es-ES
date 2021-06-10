@@ -52,7 +52,7 @@ Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.
 <td><p><em>Name</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Workspace</strong>. Vea la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más información sobre los nombres de <strong>área de</strong> trabajo válidos.</p></td>
+<td><p><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Workspace</strong>. Vea el tema relativo a la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener información detallada sobre los nombres de <strong>Workspace</strong> válidos.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>UserName</em></p></td>
@@ -64,7 +64,7 @@ Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.
 <td><p><em>Password</em></p></td>
 <td><p>Obligatorio</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Cadena <strong>que</strong> contiene la contraseña del nuevo objeto <strong>Workspace.</strong> La contraseña puede tener hasta 20 caracteres y puede incluir cualquier carácter excepto el carácter ASCII 0 (null).</p>
+<td><p>Una <strong>cadena</strong> que contiene la contraseña del nuevo <strong>objeto Workspace.</strong> La contraseña puede tener hasta 20 caracteres de longitud y puede incluir cualquier carácter excepto el carácter ASCII 0 (null).</p>
 <p><strong>NOTA:</strong>Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos. En las contraseñas no seguras estos elementos no se combinan. Contraseña segura: Y6dh!et5. Contraseña no segura: Casa27. Use una contraseña segura que pueda recordar para no tener que anotarla.</p>
 </td>
 </tr>
@@ -72,7 +72,7 @@ Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.
 <td><p><em>UseType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores workspaceTypeEnum.</a></strong></p>
+<td><p>Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores WorkspaceTypeEnum.</a></strong></p>
 <p><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</p>
 </td>
 </tr>

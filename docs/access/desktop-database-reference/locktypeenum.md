@@ -41,17 +41,17 @@ Especifica el tipo de bloqueo colocado en los registros durante su modificación
 </tr>
 <tr class="even">
 <td><p><strong>adLockOptimistic</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indica un bloqueo optimista, registro por registro. El proveedor usa el bloqueo optimista para bloquear registros sólo al llamar al método <a href="update-method-ado.md">Update</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adLockPessimistic</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica un bloqueo pesimista, registro por registro. El proveedor realiza las acciones necesarias para garantizar la modificación correcta de los registros, normalmente bloqueando los registros en el origen de datos inmediatamente después de la modificación.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLockReadOnly</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indica registros de sólo lectura. No es posible alterar los datos.</p></td>
 </tr>
 <tr class="odd">
@@ -78,7 +78,7 @@ Paquete: **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.LockType.BATTIMISTIC</p></td>
+<td><p>AdoEnums.LockType.BATCHOPTIMISTIC</p></td>
 </tr>
 <tr class="even">
 <td><p>AdoEnums.LockType.OPTIMISTIC</p></td>

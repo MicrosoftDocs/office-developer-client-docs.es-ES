@@ -28,7 +28,7 @@ Establece o devuelve un valor que indica si un objeto **Index** representa un í
 
 *expresión* . Agrupado
 
-*expresión* Expresión que devuelve un **objeto Index** .
+*expresión* Expresión que devuelve un **objeto Index.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -40,6 +40,6 @@ La propiedad **Clustered** es de lectura y escritura para un objeto **Index** nu
 
 > [!NOTE]
 > - Las bases de datos del motor de base de datos de Microsoft Access omiten la propiedad **Clustered**, ya que el motor de base de datos de Microsoft Access no admite índices agrupados.
-> - Para los orígenes de datos ODBC, la **propiedad Clustered** siempre devuelve **False**; no detecta si el origen de datos ODBC tiene o no un índice agrupado.
+> - Para orígenes de datos ODBC, la **propiedad Clustered** siempre devuelve **False**; no detecta si el origen de datos ODBC tiene o no un índice agrupado.
 
 

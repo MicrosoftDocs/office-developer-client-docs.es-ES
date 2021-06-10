@@ -25,7 +25,7 @@ Actualiza los objetos en la colección especificada para que reflejen el esquema
 
 *expresión* . Actualizar
 
-*expresión* Variable que representa un objeto **Indexes.**
+*expresión* Variable que representa un **objeto Indexes.**
 
 ## <a name="remarks"></a>Comentarios
 

@@ -1,5 +1,5 @@
 ---
-title: Objeto Hierarchy (referencia de ADO MD)
+title: Objeto Hierarchy (referencia ADO MD)
 TOCTitle: Hierarchy object (ADO MD)
 ms:assetid: 0c849ee3-4b3f-4bfa-87e9-c9466881aca1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248848(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291967"
 ---
-# <a name="hierarchy-object-ado-md-reference"></a>Objeto Hierarchy (referencia de ADO MD)
+# <a name="hierarchy-object-ado-md-reference"></a>Objeto Hierarchy (referencia ADO MD)
 
 **Se aplica a:** Access 2013, Office 2013
 

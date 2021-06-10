@@ -25,8 +25,8 @@ ms.locfileid: "32291562"
 
 ## <a name="methods"></a>Métodos
 
-- [Método Append (índices)](append-method-adox-indexes.md)
-- [Método Delete (colecciones)](delete-method-adox-collections.md)
+- [Método Append (Indexes)](append-method-adox-indexes.md)
+- [Método Delete (Colecciones)](delete-method-adox-collections.md)
 - [Refresh (método)](refresh-method-ado.md)
 
 ## <a name="events"></a>Eventos

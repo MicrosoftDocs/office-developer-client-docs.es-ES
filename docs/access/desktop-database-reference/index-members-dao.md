@@ -71,11 +71,11 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-fields-property-dao.md">Fields</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Lectura y escritura.</p></td>
+<td><p>Devuelve una colección <strong>Fields</strong> que representa a todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Lectura y escritura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-foreign-property-dao.md">Externo</a></strong></p></td>
-<td><p>Devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">Index</a></strong> representa una clave externa en una tabla (sólo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Devuelve un valor que indica si un objeto <strong><a href="index-object-dao.md">Index</a></strong> representa una clave externa en una tabla (solo en áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-ignorenulls-property-dao.md">IgnoreNulls</a></strong></p></td>
@@ -91,7 +91,7 @@ El objeto Index especifica el orden de los registros a los que se tiene acceso d
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-required-property-dao.md">Obligatorio</a></strong></p></td>

@@ -61,7 +61,7 @@ La acción **ImportarExportarDatos** utiliza los siguientes argumentos.
 <li><p>Select a table in the <strong>Link Tables</strong> dialog box, and click <strong>OK</strong>.</p></li>
 </ol>
 <p>Abra la tabla recién vinculada en la vista Diseño y examine las propiedades de la tabla; para ello, haga clic en <strong>Hoja de propiedades</strong>, en la ficha <strong>Diseño</strong>, <strong>Herramientas</strong>. El texto de la propiedad <strong>Descripción</strong> es la cadena de conexión para esta tabla.  </p>
-<p>Para obtener más información acerca de las cadenas de conexión ODBC, vea el archivo de Ayuda u otra documentación para el controlador ODBC de este tipo de base de datos ODBC.</p></td>
+<p>Para obtener más información acerca de las cadenas de conexión ODBC, vea el archivo de ayuda u otra documentación para el controlador ODBC de este tipo de base de datos ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de objeto</strong></p></td>

@@ -42,12 +42,12 @@ Especifica la versión del formato de datos para una base de datos compactada.
 </tr>
 <tr class="even">
 <td><p>dbEncrypt</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Cifra la base de datos</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbVersion10</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Motor de base de datos de Microsoft Jet versión 1.0</p></td>
 </tr>
 <tr class="even">

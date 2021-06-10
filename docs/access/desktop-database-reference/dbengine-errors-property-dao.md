@@ -23,7 +23,7 @@ ms.locfileid: "32294319"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **Errors** que contiene todos los objetos **Error** almacenados para el objeto especificado. Solo lectura.
+Devuelve una colección **Errors** que contiene todos los objetos **Error** almacenados para el objeto especificado. Es de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 

@@ -24,9 +24,9 @@ Agrega un nuevo objeto **Index** a la colección **Indexes**.
 
 *expression* .Append(***Object***)
 
-*expresión* Variable que representa un objeto **Indexes.**
+*expresión* Variable que representa un **objeto Indexes.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

@@ -33,9 +33,9 @@ Si se ha establecido la propiedad dinámica **Tabla única** y el **conjunto de 
 
 El método **Delete** toma un argumento opcional que permite especificar a qué registros afecta la operación **Delete**. Los únicos valores válidos para este argumento son las constantes enumeradas **AffectEnum** de ADO siguientes:
 
-  - **adAffectCurrent** Afecta sólo al registro actual.
+  - **adAffectCurrent** Solo afecta al registro actual.
 
-  - **adAffectGroup** Afecta solo a los registros que satisfacen el valor de **la propiedad Filter** actual. The **Filter** property must be set to a **FilterGroupEnum** value or an array of **Bookmarks** to use this option.
+  - **adAffectGroup** Solo afecta a los registros que satisfacen el valor **de la propiedad Filter** actual. The **Filter** property must be set to a **FilterGroupEnum** value or an array of **Bookmarks** to use this option.
 
 El código siguiente muestra un ejemplo de especificación de **adAffectGroup** cuando se llama al método **Delete**. En este ejemplo, se agregan algunos registros al **conjunto de registros** de ejemplo y se actualiza la base de datos. Después, se filtra el **conjunto de registros** utilizando la constante enumerada de filtro **adFilterAffectedRecords**, que sólo deja visibles los registros recién agregados en el **conjunto de registros**. Por último, llama al método **Delete** y especifica que se deben eliminar todos los registros que satisfagan la configuración activa de la propiedad **Filter** (los nuevos registros).
 

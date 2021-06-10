@@ -25,7 +25,7 @@ No admitido en este objeto.
 
 *expresión* . Actualizar
 
-*expresión* Variable que representa un objeto **Databases** .
+*expresión* Variable que representa un **objeto Databases.**
 
 ## <a name="remarks"></a>Comentarios
 

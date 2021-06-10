@@ -50,7 +50,7 @@ ADO admite directamente cinco argumentos en una cadena de conexión. ADO pasa ot
 </tr>
 <tr class="odd">
 <td><p><em>Remote Server</em></p></td>
-<td><p>Especifica el nombre de la ruta de acceso del servidor que se utilizará al abrir una conexión de cliente. (Sólo con el Servicio de datos remotos, RDS.)</p></td>
+<td><p>Especifica el nombre de la ruta de acceso del servidor que se utilizará al abrir una conexión de cliente (sólo con el Servicio de datos remotos, RDS).</p></td>
 </tr>
 </tbody>
 </table>

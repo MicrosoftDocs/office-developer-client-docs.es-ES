@@ -1,5 +1,5 @@
 ---
-title: NumericScale (propiedad, ADO)
+title: Propiedad NumericScale (ADO)
 TOCTitle: NumericScale property (ADO)
 ms:assetid: 51b232d2-5bfd-521c-f4e9-65655ecc7c70
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249263(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288556"
 ---
-# <a name="numericscale-property-ado"></a>NumericScale (propiedad, ADO)
+# <a name="numericscale-property-ado"></a>Propiedad NumericScale (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

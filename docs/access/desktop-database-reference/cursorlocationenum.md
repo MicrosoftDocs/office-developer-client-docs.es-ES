@@ -38,24 +38,24 @@ Especifica la ubicación del servicio de cursores.
 <tbody>
 <tr class="odd">
 <td><p><strong>adUseClient</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Usa cursores de cliente proporcionados por una biblioteca de cursores local. Los servicios de cursores locales suelen ofrecer muchas características que los cursores suministrados por controlador no facilitan, así que el uso de esta opción puede proporcionar una ventaja con respecto a las características que habilitará. Para mantener la compatibilidad con versiones anteriores, también se admite el sinónimo <strong>adUseClientBatch</strong>.</p></td>
+<td><p>3</p></td>
+<td><p>Usa cursores del lado cliente proporcionados por una biblioteca de cursores local. Los servicios de cursores locales suelen ofrecer muchas características que los cursores suministrados por controlador no facilitan, así que el uso de esta opción puede proporcionar una ventaja con respecto a las características que habilitará. Para mantener la compatibilidad con versiones anteriores, también se admite el sinónimo <strong>adUseClientBatch</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adUseNone</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>No utiliza servicios de cursor (esta constante está obsoleta y aparece sólo para mantener la compatibilidad con versiones anteriores).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adUseServer</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Éste es el valor predeterminado. Usa cursores suministrados por controlador o por proveedor de datos. Estos cursores a veces son muy flexibles y permiten una sensibilidad adicional a los cambios realizados por otros en el origen de datos. Sin embargo, algunas características del Servicio de <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">cursores</a> de Microsoft para OLE DB (como objetos <a href="recordset-object-ado.md">Recordset</a> desasociados) no se pueden simular con cursores de servidor y estas características no estarán disponibles con esta configuración.</p></td>
+<td><p>2</p></td>
+<td><p>Éste es el valor predeterminado. Usa cursores suministrados por controlador o por proveedor de datos. Estos cursores a veces son muy flexibles y permiten una sensibilidad adicional a los cambios realizados por otros en el origen de datos. Sin embargo, algunas características del Servicio de <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">cursores</a> de Microsoft para OLE DB (como objetos <a href="recordset-object-ado.md">Recordset</a> desasociados) no se pueden simular con cursores del lado servidor y estas características no estarán disponibles con esta configuración.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

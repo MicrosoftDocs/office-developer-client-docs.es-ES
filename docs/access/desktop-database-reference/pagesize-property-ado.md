@@ -27,7 +27,7 @@ Establece o devuelve un valor de tipo **Long** que indica cuántos registros hay
 
 ## <a name="remarks"></a>Comentarios
 
-Use la propiedad **PageSize** para determinar cuántos registros componen una página lógica de datos. El establecimiento de un tamaño de página permite utilizar la propiedad [AbsolutePage](absolutepage-property-ado.md) para moverse al primer registro de una página determinada. Esto resulta útil en escenarios de servidor web cuando se desea permitir que el usuario se desatrase de los datos, viendo un determinado número de registros a la vez.
+Use la propiedad **PageSize** para determinar cuántos registros componen una página lógica de datos. El establecimiento de un tamaño de página permite utilizar la propiedad [AbsolutePage](absolutepage-property-ado.md) para moverse al primer registro de una página determinada. Esto resulta útil en escenarios de servidor web cuando se desea permitir que el usuario pueda paginar los datos y ver un número determinado de registros a la vez.
 
 Esta propiedad se puede establecer en cualquier momento y su valor se utilizará para calcular la ubicación del primer registro de una página determinada.
 

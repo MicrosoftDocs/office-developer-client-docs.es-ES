@@ -32,7 +32,7 @@ Se desplaza al primer, último, siguiente o anterior registro de un objeto [Reco
 
 ## <a name="remarks"></a>Comentarios
 
-Puede usar los **métodos Move** con **RDS. Objeto DataControl** para navegar por los registros de datos de los controles enlazados a datos de una página web. 
+Puede usar los métodos **Move** con **RDS. Objeto DataControl** para navegar por los registros de datos de los controles enlazados a datos de una página web. 
 
 Por ejemplo, supongamos que muestra un objeto **Recordset** en una cuadrícula enlazando a un objeto **RDS.DataControl**. A continuación, podrá incluir los botones Primero, Último, Siguiente y Anterior, en los que los usuarios pueden hacer clic para moverse hacia el registro primero, último, siguiente o anterior del objeto **Recordset** mostrado. Para ello, debe llamar a los métodos **MoveFirst**, **MoveLast**, **MoveNext** y **MovePrevious** del objeto **RDS.DataControl** en los procedimientos onClick de los botones Primero, Último, Siguiente y Anterior, respectivamente. En el [Ejemplo de la Libreta de direcciones](address-book-navigation-buttons.md) se muestra cómo hacerlo.
 

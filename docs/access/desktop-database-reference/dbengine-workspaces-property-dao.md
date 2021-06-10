@@ -23,7 +23,7 @@ ms.locfileid: "32294186"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **Workspaces** que contiene todos los objetos **Workspace** activos que no están ocultos. Solo lectura.
+Devuelve una colección **Workspaces** que contiene todos los objetos **Workspace** activos que no están ocultos. Es de solo lectura
 
 ## <a name="syntax"></a>Sintaxis
 

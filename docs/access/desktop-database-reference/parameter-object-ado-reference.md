@@ -19,5 +19,5 @@ ms.locfileid: "32288108"
 **Se aplica a:** Access 2013, Office 2013
 
 - [Objeto Parameter (ADO)](parameter-object-ado.md)
-- [Propiedades, métodos y eventos de parámetros (ADO)](parameter-properties-methods-and-events-ado.md)
+- [Propiedades, métodos y eventos de parámetro (ADO)](parameter-properties-methods-and-events-ado.md)
 

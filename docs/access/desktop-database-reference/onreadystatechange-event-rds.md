@@ -1,5 +1,5 @@
 ---
-title: Evento onReadyStateChange (RDS)
+title: evento onReadyStateChange (RDS)
 TOCTitle: onReadyStateChange event (RDS)
 ms:assetid: 88102ee5-cca9-8ccb-5aca-55cda71abc4d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249593(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288493"
 ---
-# <a name="onreadystatechange-event-rds"></a>Evento onReadyStateChange (RDS)
+# <a name="onreadystatechange-event-rds"></a>evento onReadyStateChange (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 

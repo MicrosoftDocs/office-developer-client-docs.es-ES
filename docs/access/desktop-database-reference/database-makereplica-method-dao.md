@@ -76,7 +76,7 @@ Una réplica parcial recién creada tendrá todas las propiedades **[ReplicaFilt
 
 ## <a name="example"></a>Ejemplo
 
-Esta función utiliza el método **MakeReplica** para crear una réplica adicional de un diseño principal existente. El argumento intOptions puede ser una combinación de las constantes **dbRepMakeReadOnly** y **dbRepMakePartial,** o puede ser 0. Por ejemplo, para crear una réplica parcial de solo lectura, debe pasar el valor **dbRepMakeReadOnly**  +  **dbRepMakePartial como** el valor de intOptions.
+Esta función utiliza el método **MakeReplica** para crear una réplica adicional de un diseño principal existente. El argumento intOptions puede ser una combinación de las constantes **dbRepMakeReadOnly** y **dbRepMakePartial**, o puede ser 0. Por ejemplo, para crear una réplica parcial de solo lectura, debe pasar el valor **dbRepMakeReadOnly**  +  **dbRepMakePartial** como el valor de intOptions.
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

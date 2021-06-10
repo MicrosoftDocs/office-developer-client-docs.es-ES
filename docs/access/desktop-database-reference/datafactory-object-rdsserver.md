@@ -27,7 +27,7 @@ El objeto **RDSServer.DataFactory** se ha diseñado como objeto de automatizaci�
 
 Si utiliza un método que está disponible en los objetos **RDSServer.DataFactory** y [RDS.DataControl](datacontrol-object-rds.md), el servicio de datos remotos utiliza la versión de **RDS.DataControl** de forma predeterminada. En este caso, se supone un escenario de programación básico, en el que el objeto **RDSServer.DataFactory** actúa como objeto de negocio de servidor genérico.
 
-Si desea que la aplicación web controle el procesamiento del lado servidor específico de la tarea, puede reemplazar **RDSServer.DataFactory** por un objeto de negocio personalizado.
+Si desea que la aplicación web controle el procesamiento del lado servidor específico de la tarea, puede reemplazar **RDSServer.DataFactory** con un objeto de negocio personalizado.
 
 Puede crear objetos de negocio de servidor que llamen a los métodos **RDSServer.DataFactory**, como [Query](query-method-rds.md) y [CreateRecordset](createrecordset-method-rds.md). Esto es muy útil si desea agregar funcionalidad a los objetos de negocio y aprovechar las ventajas de las tecnologías de servicios de datos remotos existentes.
 

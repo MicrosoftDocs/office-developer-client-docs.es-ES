@@ -1,5 +1,5 @@
 ---
-title: Optimizar la propiedad dinámica (ADO)
+title: Propiedad dinámica Optimize (ADO)
 TOCTitle: Optimize dynamic property (ADO)
 ms:assetid: 2253b052-2d8a-f6f0-f8b8-f56e79d243de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288255"
 ---
-# <a name="optimize-dynamic-property-ado"></a>Optimizar la propiedad dinámica (ADO)
+# <a name="optimize-dynamic-property-ado"></a>Propiedad dinámica Optimize (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

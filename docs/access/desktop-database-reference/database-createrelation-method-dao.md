@@ -22,7 +22,7 @@ ms.locfileid: "32294956"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Crea un nuevo **[objeto Relation](relation-object-dao.md)** (solo áreas de trabajo de Microsoft Access). .
+Crea un nuevo objeto **[Relation](relation-object-dao.md)** (solo áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -52,7 +52,7 @@ Crea un nuevo **[objeto Relation](relation-object-dao.md)** (solo áreas de trab
 <td><p><em>Name</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa inequívocamente el nuevo objeto <strong>Relation</strong>. Vea la <strong><a href="connection-name-property-dao.md">propiedad Name</a></strong> para obtener más información sobre los nombres <strong>relation</strong> válidos.</p></td>
+<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que designa inequívocamente el nuevo objeto <strong>Relation</strong>. Vea el tema relativo a la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener información sobre los nombres de <strong>Relation</strong> válidos.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Table</em></p></td>
@@ -88,7 +88,7 @@ Si omite uno o varios de los argumentos opcionales cuando utiliza el método **C
 
 Antes de utilizar el método **[Append](fields-append-method-dao.md)** en un objeto **Relation**, debe agregar los objetos **[Field](field-object-dao.md)** correspondientes para definir las tablas principal y externa de la relación.
 
-Si name hace referencia a un objeto que ya es miembro de la colección o si los nombres de objeto **Field** proporcionados en la colección **Fields** subordinada no son válidos, se produce un error en tiempo de ejecución cuando se usa el método **Append.**
+Si name hace referencia a un objeto que ya es miembro de la colección o si los nombres de objeto **Field** proporcionados en la colección **Fields** subordinada no son válidos, se produce un error en tiempo de ejecución al usar el **método Append.**
 
 No se puede establecer ni mantener una relación entre una tabla replicada y una tabla local.
 

@@ -22,12 +22,12 @@ ms.locfileid: "32295124"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Si la aplicación no funciona correctamente con la funcionalidad predeterminada del motor de base de datos de Microsoft Access, es posible que tenga que cambiar la configuración en el Registro de Microsoft Windows para que se adapte a sus necesidades. El Registro de Windows también se puede utilizar para ajustar el funcionamiento del controlador ODBD e ISAM instalable.
+Si la aplicación no puede funcionar correctamente con la funcionalidad predeterminada del motor de base de datos de Microsoft Access, es posible que tenga que cambiar la configuración del Registro de Microsoft Windows para que se adapte a sus necesidades. El Registro de Windows también se puede utilizar para ajustar el funcionamiento del controlador ODBD e ISAM instalable.
 
 Puede personalizar la configuración del Registro de Windows de cuatro formas distintas:
 
 - [Usar Regedit.exe para sobrescribir la configuración predeterminada](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
 - [Crear una parte en el árbol del Registro de la aplicación para administrar la configuración](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
 - [Uso del método SetOption de DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
-- [Uso de las propiedades connection en el proveedor de Microsoft OLE DB para Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
+- [Uso de las propiedades Connection en el proveedor de Microsoft OLE DB para Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
 

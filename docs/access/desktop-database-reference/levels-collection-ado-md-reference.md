@@ -18,6 +18,6 @@ ms.locfileid: "32290060"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Levels (colección) (ADO MD)](levels-collection-ado-md.md)
+- [Colección Levels (ADO MD)](levels-collection-ado-md.md)
 - [Propiedades, métodos y eventos de la colección Levels (ADO MD)](levels-collection-properties-methods-and-events-ado-md.md)
 

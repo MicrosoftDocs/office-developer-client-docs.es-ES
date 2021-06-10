@@ -33,7 +33,7 @@ Establece o devuelve información sobre la clave del Registro de Windows que con
 
 ## <a name="remarks"></a>Comentarios
 
-Puede configurar el motor de base de datos de Microsoft Access con el Registro de Windows. Puede utilizar el Registro para configurar opciones, tales como los archivos DLL de un archivo ISAM instalable.
+Puede configurar el motor de base de datos de Microsoft Access con el Windows registro. Puede utilizar el Registro para configurar opciones, tales como los archivos DLL de un archivo ISAM instalable.
 
 Para que esta opción funcione, debe establecer la propiedad **IniPath** antes de que su aplicación llame a cualquier otro código DAO. El ámbito de esta configuración está limitado a la aplicación y no se puede cambiar sin reiniciar ésta.
 

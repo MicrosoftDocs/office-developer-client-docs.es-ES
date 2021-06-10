@@ -45,14 +45,14 @@ Devuelve al servidor todas las filas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMarshalModifiedOnly</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Devuelve al servidor sólo las filas modificadas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

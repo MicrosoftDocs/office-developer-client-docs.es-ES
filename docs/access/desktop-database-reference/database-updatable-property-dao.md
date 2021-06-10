@@ -19,7 +19,7 @@ ms.locfileid: "32294669"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. **Booleano** de solo lectura.
+Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. **Boolean** de sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 

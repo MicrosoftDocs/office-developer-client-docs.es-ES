@@ -19,9 +19,9 @@ ms.locfileid: "32292030"
 
 **Se aplica a:** Access 2013, Office 2013
 
-In COM, most operations return an HRESULT return code that indicates whether a function completed successfully. La directiva de importación genera código contenedor alrededor de cada propiedad o \# método "sin procesar" y comprueba el HRESULT devuelto. Si el HRESULT indica un error, el código contenedor genera un error COM llamando a \_ com issue errorex() con el código de retorno \_ \_ HRESULT como argumento. Los objetos de error COM se pueden capturar en un **bloque try-catch.** (Por razones de eficiencia, captura una referencia a un objeto \_ \_ de error com).
+In COM, most operations return an HRESULT return code that indicates whether a function completed successfully. La directiva import genera código contenedor alrededor de cada método o propiedad \# "sin procesar" y comprueba el HRESULT devuelto. Si el HRESULT indica un error, el código contenedor genera un error COM llamando a \_ \_ com issue errorex() con el código devuelto \_ HRESULT como argumento. Los objetos de error COM se pueden capturar en **un bloque try-catch.** (Por razones de eficiencia, captura una referencia a un \_ objeto \_ de error com).
 
 Recuerde que se trata de errores de ADO: son el resultado de los errores de operaciones de ADO. Los errores devueltos por el proveedor subyacente aparecen como objetos **Error** de la colección **Errors** del objeto **Connection**.
 
-La directiva de importación solo crea rutinas de control de errores \# para métodos y propiedades declarados en el archivo .dll de ADO. No obstante, puede sacar partido de este mismo mecanismo de control de errores escribiendo su propia macro o función en línea de comprobación de errores. Vea ejemplos en el tema Extensiones de Visual C++.
+La directiva import solo crea rutinas de control de errores \# para métodos y propiedades declarados en el .dll ADO. No obstante, puede sacar partido de este mismo mecanismo de control de errores escribiendo su propia macro o función en línea de comprobación de errores. Vea ejemplos en el tema Extensiones de Visual C++.
 

@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de parámetro (DAO)
+title: Referencia de objeto parameter (DAO)
 TOCTitle: Parameter Object
 ms:assetid: 16595539-df52-49b2-9e4b-83f05dbb9304
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123825(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288066"
 ---
-# <a name="parameter-object-reference-dao"></a>Referencia de objeto de parámetro (DAO)
+# <a name="parameter-object-reference-dao"></a>Referencia de objeto parameter (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 - [Objeto Parameter (DAO)](parameter-object-dao.md)
-- [Miembros de parámetro (DAO)](parameter-members-dao.md)
+- [Miembros del parámetro (DAO)](parameter-members-dao.md)
 - [Propiedades de parámetro (DAO)](parameter-properties-dao.md)
 

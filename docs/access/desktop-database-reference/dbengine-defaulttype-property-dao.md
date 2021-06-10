@@ -39,5 +39,5 @@ La configuración o el valor devuelto puede ser una de las constantes **[Workspa
 > [!NOTE]
 > No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
-El valor se puede invalidar para un **único** área de trabajo estableciendo el argumento de tipo en el **[método CreateWorkspace](dbengine-createworkspace-method-dao.md)** .
+La configuración se puede invalidar para un único **workspace** estableciendo el argumento type en el **[método CreateWorkspace.](dbengine-createworkspace-method-dao.md)**
 

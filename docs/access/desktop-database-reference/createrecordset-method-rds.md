@@ -22,7 +22,7 @@ Crea un objeto [Recordset](recordset-object-ado.md) vacío y desconectado.
 
 ## <a name="syntax"></a>Sintaxis
 
-*.* CreateRecordset(*ColumnInfos*)
+*objeto*. CreateRecordset(*ColumnInfos*)
 
 ## <a name="parameters"></a>Parámetros
 
@@ -31,9 +31,9 @@ Crea un objeto [Recordset](recordset-object-ado.md) vacío y desconectado.
 |*Objeto* |Variable de objeto que representa un objeto [RDSServer.DataFactory](datafactory-object-rdsserver.md) o [RDS.DataControl](datacontrol-object-rds.md).|
 |*ColumnsInfos* |Matriz de atributos **Variant** que define cada columna del objeto **Recordset** creado. Cada definición de columna contiene una matriz de cuatro atributos necesarios y un atributo opcional. A continuación, el conjunto de matrices de columnas se agrupa en una matriz, que define el **Recordset**. Para obtener una lista de atributos, consulte la tabla siguiente.|
 
-### <a name="variant-array-attributes"></a>Atributos de matriz variant
+### <a name="variant-array-attributes"></a>Atributos de matriz Variant
 
-|Atributo|Description|
+|Atributo|Descripción|
 |:--------|:----------|
 |Name |Nombre del encabezado de columna.|
 |Tipo |Entero del tipo de datos.|
@@ -68,7 +68,7 @@ Para algunos de los tipos de datos de longitud variable, puede que el tipo se co
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Length</p></th>
+<th><p>Longitud</p></th>
 <th><p>Constante</p></th>
 <th><p>Número</p></th>
 <th><p>Sustitución</p></th>
@@ -84,13 +84,13 @@ Para algunos de los tipos de datos de longitud variable, puede que el tipo se co
 <tr class="even">
 <td><p>Decimal</p></td>
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -162,7 +162,7 @@ Para algunos de los tipos de datos de longitud variable, puede que el tipo se co
 <tr class="odd">
 <td><p>Decimal</p></td>
 <td><p><strong>adError</strong></p></td>
-<td><p>10  </p></td>
+<td><p>10</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">

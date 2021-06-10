@@ -19,7 +19,7 @@ ms.locfileid: "32288921"
 
 **Se aplica a:** Access 2013, Office 2013
 
-El proveedor de Microsoft OLE DB para Microsoft Indexing Service proporciona acceso de solo lectura mediante programación al sistema de archivos y a los datos web indizados por Microsoft Indexing Service. Las aplicaciones ADO pueden emitir consultas SQL para recuperar contenido e información sobre las propiedades de los archivos.
+Microsoft OLE DB Provider for Microsoft Indexing Service proporciona acceso de solo lectura mediante programación al sistema de archivos y a los datos web indizados por el Servicio de indización de Microsoft. Las aplicaciones ADO pueden emitir consultas SQL para recuperar contenido e información sobre las propiedades de los archivos.
 
 El proveedor es de subprocesamiento libre y está habilitado para Unicode.
 
@@ -83,7 +83,7 @@ El proveedor no acepta llamadas a procedimientos almacenados o nombres de tabla 
 
 ## <a name="recordset-behavior"></a>Comportamiento de Recordset
 
-En las tablas siguientes se enumeran las características disponibles en un objeto **Recordset** abierto con este proveedor. Solo está disponible el tipo de cursor estático (**adOpenStatic**).
+En las tablas siguientes se enumeran las características disponibles en un objeto **Recordset** abierto con este proveedor. Solo está disponible el tipo de cursor Estático (**adOpenStatic**).
 
 Para obtener información más detallada acerca del comportamiento del objeto **Recordset** para la configuración del proveedor, ejecute el método [Supports](supports-method-ado.md) y enumere la colección [Properties](properties-collection-ado.md) del objeto **Recordset** para determinar si las propiedades dinámicas específicas del proveedor están presentes.
 
@@ -142,7 +142,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="even">
@@ -174,7 +174,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 <td><p>lectura y escritura</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">Estado</a></p></td>
 <td><p>solo lectura</p></td>
 </tr>
 <tr class="even">
@@ -185,7 +185,7 @@ Disponibilidad de las propiedades estándar del objeto **Recordset** de ADO:
 </table>
 
 
-\*Los marcadores deben estar habilitados en el proveedor para que esta característica exista en el conjunto de **registros**.
+\*Los marcadores deben estar habilitados en el proveedor para que esta característica exista en el **objeto Recordset**.
 
 Disponibilidad de métodos estándar **Recordset** ADO:
 

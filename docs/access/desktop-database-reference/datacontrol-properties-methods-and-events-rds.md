@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos (RDS) de DataControl
+title: Propiedades, métodos y eventos DataControl (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: 93590783-2102-534c-6639-212ae9d63fe0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294505"
 ---
-# <a name="datacontrol-properties-methods-and-events-rds"></a>Propiedades, métodos y eventos (RDS) de DataControl
+# <a name="datacontrol-properties-methods-and-events-rds"></a>Propiedades, métodos y eventos DataControl (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
 ## <a name="properties"></a>Propiedades
 
-- [Propiedad Connect (RDS)](connect-property-rds.md)
+- [Conectar (RDS)](connect-property-rds.md)
 - [Propiedad ExecuteOptions (RDS)](executeoptions-property-rds.md)
 - [Propiedad FetchOptions (RDS)](fetchoptions-property-rds.md)
 - [Propiedad FilterColumn (RDS)](filtercolumn-property-rds.md)
@@ -33,7 +33,7 @@ ms.locfileid: "32294505"
 - [Propiedad Server (RDS)](server-property-rds.md)
 - [Propiedad SortColumn (RDS)](sortcolumn-property-rds.md)
 - [Propiedad SortDirection (RDS)](sortdirection-property-rds.md)
-- [SQL propiedad (RDS)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado)
+- [SQL (RDS)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado)
 - [Propiedad URL (RDS)](url-property-rds.md)
 
 

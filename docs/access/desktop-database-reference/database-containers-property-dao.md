@@ -23,7 +23,7 @@ ms.locfileid: "32294970"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **Containers** que representa todos los objetos **Container** de la base de datos especificada. Solo lectura.
+Devuelve una colección **Containers** que representa todos los objetos **Container** de la base de datos especificada. Sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 

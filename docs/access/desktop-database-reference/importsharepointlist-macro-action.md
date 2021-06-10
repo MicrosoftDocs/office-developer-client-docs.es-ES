@@ -47,8 +47,8 @@ La acción **ImportarListaDeSharePoint** tiene los siguientes argumentos.
 <td><p><strong>Tipo de transferencia</strong></p></td>
 <td><p>Seleccione el tipo de transferencia.</p>
 <ul>
-<li><p>Seleccione <strong>Importar</strong> para copiar los datos de SharePoint Foundation en una tabla de Microsoft Access. Las actualizaciones de los datos en Access no afectan a los datos de SharePoint Foundation. Del mismo modo, las actualizaciones de los datos en SharePoint Foundation no afectan a los datos de Access.</p></li>
-<li><p>Seleccione <strong>Vínculo</strong> para crear una tabla vinculada en Access que vincule a los datos de SharePoint Foundation. Las actualizaciones de los datos de Access se reflejan en SharePoint Foundation. Del mismo modo, las actualizaciones de los datos en SharePoint Foundation se reflejan en Access.</p></li>
+<li><p>Seleccione <strong>Importar</strong> para copiar los datos SharePoint Foundation en una tabla de Microsoft Access. Las actualizaciones de los datos de Access no afectan a los datos de SharePoint Foundation. Del mismo modo, las actualizaciones de los datos de SharePoint Foundation no afectan a los datos de Access.</p></li>
+<li><p>Seleccione <strong>Vínculo</strong> para crear una tabla vinculada en Access que vincule a los datos de SharePoint Foundation. Las actualizaciones de los datos de Access se reflejan en SharePoint Foundation. Del mismo modo, las actualizaciones de los datos de SharePoint Foundation se reflejan en Access.</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -98,5 +98,5 @@ La acción **ImportarListaDeSharePoint** tiene los siguientes argumentos.
         
      `https://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D`
         
-  Antes de poder usar los GUID de la dirección como argumentos en esta acción de macro, debe reemplazar cada cadena **%7B** por el **carácter {,** reemplazar cada **cadena %2D** por el carácter y reemplazar cada **-** cadena **%7D** por el **carácter }.** No incluya el carácter **&** (y comercial) que sigue a la cadena **%7D** en el identificador GUID de la lista.
+  Para poder usar los GUID de la dirección como argumentos en esta acción de macro, debe reemplazar cada cadena **%7B** por **el carácter {,** reemplazar cada **cadena %2D** por el carácter y reemplazar cada cadena **-** **%7D** por el **carácter }.** No incluya el carácter **&** (y comercial) que sigue a la cadena **%7D** en el identificador GUID de la lista.
 

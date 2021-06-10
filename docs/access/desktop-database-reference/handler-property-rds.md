@@ -29,7 +29,7 @@ Indica el nombre de un programa de personalización del servidor (controlador) q
 |Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Valor de tipo **String** que contiene el nombre del controlador y cualquier parámetro, todo separado por comas (por ejemplo, "handlerName,parm1,parm2,...,parm *N*" ).|
+|*String* |Valor **string** que contiene el nombre del controlador y los parámetros, todos separados por comas (por ejemplo, "handlerName,parm1,parm2,...,parm *N*" ).|
 
 ## <a name="remarks"></a>Comentarios
 

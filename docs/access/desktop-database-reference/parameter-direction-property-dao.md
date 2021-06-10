@@ -28,7 +28,7 @@ ms.locfileid: "32288094"
 
 *expresión* . Dirección
 
-*expresión* Variable que representa un objeto **Parameter.**
+*expresión* Variable que representa un **objeto Parameter.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -38,7 +38,7 @@ Use la propiedad **Direction** para determinar si el parámetro es un parámetro
 
 Por ejemplo, el siguiente procedimiento devuelve un valor de un procedimiento almacenado denominado "obtener \_ empleados":
 
-{? = llamar a los \_ empleados de obtener}
+{? = llamar a obtener \_ empleados}
 
 Esta llamada produce un parámetro: el valor devuelto. Debe establecer la dirección de este parámetro en **dbParamOutput** o **dbParamReturnValue** antes de ejecutar **[QueryDef](querydef-object-dao.md)**.
 

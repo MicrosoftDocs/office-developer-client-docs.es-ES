@@ -45,7 +45,7 @@ La acción **AbrirFunción** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre de función</strong></p></td>
-<td><p>Nombre de la función definida por el usuario que se va a abrir. El cuadro <strong>Nombre de función</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las funciones definidas por el usuario de la base de datos activa. Este argumento es obligatorio. Si ejecuta una macro <strong></strong> que contiene la acción Función en una base de datos de biblioteca, Microsoft Access busca primero la función con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos actual.</p></td>
+<td><p>Nombre de la función definida por el usuario que se va a abrir. El cuadro <strong>Nombre de función</strong> en la sección <strong>Argumentos de acción</strong> del panel Generador de macros muestra todas las funciones definidas por el usuario de la base de datos activa. Este es un argumento obligatorio. Si ejecuta una macro que contiene la acción <strong>Function</strong> en una base de datos de biblioteca, Microsoft Access primero busca la función con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

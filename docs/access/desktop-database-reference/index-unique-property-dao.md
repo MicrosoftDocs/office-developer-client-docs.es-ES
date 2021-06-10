@@ -43,7 +43,7 @@ Si las propiedades **Unique** y **[Primary](index-primary-property-dao.md)** de 
 > - Los registros recuperados de tablas sin índices se devuelven sin seguir una secuencia concreta.
 > - La propiedad **[Attributes](field-attributes-property-dao.md)** de cada objeto **[Field](field-object-dao.md)** del objeto **Index** determina el orden de los registros y, por lo tanto, determina las técnicas de acceso que se utilizan para ese objeto **Index**.
 > - Un índice único ayuda a optimizar la búsqueda de registros.
-> - Los índices no afectan al orden físico de una tabla base; sólo afecta a la forma en que el objeto **[Recordset](recordset-object-dao.md)** de tipo tabla tiene acceso a los registros cuando se elige un índice determinado o cuando el motor de base de datos de Microsoft Access crea objetos **Recordset.**
+> - Los índices no afectan al orden físico de una tabla base; Los índices solo afectan a la forma en que el objeto **[Recordset](recordset-object-dao.md)** de tipo tabla tiene acceso a los registros cuando se elige un índice determinado o cuando el motor de base de datos de Microsoft Access crea **objetos Recordset.**
 
 ## <a name="example"></a>Ejemplo
 
