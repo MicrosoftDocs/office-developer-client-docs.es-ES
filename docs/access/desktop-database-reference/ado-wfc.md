@@ -64,7 +64,7 @@ ADO para Windows Foundation Classes (ADO/WFC) se basa en el modelo de eventos de
     
     El único argumento es una referencia a la clase (**this**) y al método deseados dentro de la clase (**onConnectComplete**).
 
-3.  Agregue su controlador de eventos a una lista de controladores designados para procesar un tipo determinado de evento. Utilice el método con un nombre como **addOn***EventName*(*controlador*).
+3.  Agregue su controlador de eventos a una lista de controladores designados para procesar un tipo determinado de evento. Use el método con un nombre como **addOn***EventName*(*handler*).
 
 4.  ADO/WFC implementa internamente todos los controladores de eventos de ADO. Por tanto, un evento causado por una operación **Connection** o **Recordset** es interceptado por un controlador de eventos de ADO/WFC. El controlador de eventos de ADO/WFC pasa parámetros **ConnectionEvent** de ADO en una instancia de la clase **ConnectionEvent** de ADO/WFC, o parámetros **RecordsetEvent** de ADO en una instancia de la clase **RecordsetEvent** de ADO/WFC. Estas clases de ADO/WFC consolidan los parámetros de eventos de ADO; es decir, que cada clase de ADO/WFC contiene un elemento de datos para cada parámetro único en todos los métodos **ConnectionEvent** o **RecordsetEvent** de ADO.
 
@@ -79,5 +79,5 @@ ADO para Windows Foundation Classes (ADO/WFC) se basa en el modelo de eventos de
 
 6.  Vuelva desde el controlador de eventos al controlador de ADO/WFC correspondiente al evento de ADO. ADO/WFC copia elementos de datos de eventos de ADO/WFC pertinentes de nuevo en los parámetros de eventos de ADO y, a continuación, vuelve el controlador de eventos de ADO.
 
-7.  Cuando haya finalizado el procesamiento, quite su controlador de la lista de controladores de eventos de ADO/WFC. Utilice el método con un nombre como **removeOn***EventName*(*controlador*).
+7.  Cuando haya finalizado el procesamiento, quite su controlador de la lista de controladores de eventos de ADO/WFC. Use el método con un nombre como **removeOn***EventName*(*handler*).
 

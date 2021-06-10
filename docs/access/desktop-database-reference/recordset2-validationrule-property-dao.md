@@ -25,7 +25,7 @@ Establece o devuelve un valor que valida los datos en un campo mientras se modif
 
 *expresión* . ValidationRule
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -68,5 +68,5 @@ La propiedad **ValidationRule** de un objeto **Recordset** o **TableDef** puede 
 Para un objeto **Recordset** tipo Table, la propiedad **ValidationRule** hereda el valor de la propiedad **ValidationRule** del objeto **TableDef** que usa para crear un objeto **Recordset** tipo Table.
 
 > [!NOTE]
-> Si establece la propiedad en una cadena concatenada con un valor que no es entero, y los parámetros del sistema especifican un valor no estadounidense. carácter decimal como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intente validar los datos. Esto se produce porque durante la concatenación, el número se convertirá en una cadena usando el carácter decimal predeterminado del sistema y Microsoft Access SQL solo acepta caracteres decimales con el formato estándar de Estados Unidos.</P>
+> Si establece la propiedad en una cadena concatenada con un valor que no es entero, y los parámetros del sistema especifican un valor que no es estadounidense. carácter decimal como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intente validar los datos. Esto se produce porque durante la concatenación, el número se convertirá en una cadena usando el carácter decimal predeterminado del sistema y Microsoft Access SQL solo acepta caracteres decimales con el formato estándar de Estados Unidos.</P>
 

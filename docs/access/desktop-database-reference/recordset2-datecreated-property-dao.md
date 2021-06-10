@@ -25,7 +25,7 @@ Devuelve la fecha y la hora en la que se creó una tabla base (sólo para áreas
 
 *expresión* . DateCreated
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

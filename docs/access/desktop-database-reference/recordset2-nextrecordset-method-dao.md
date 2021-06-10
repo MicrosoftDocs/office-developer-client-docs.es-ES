@@ -27,7 +27,7 @@ ms.locfileid: "32307241"
 
 *expresión* . NextRecordset
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="return-value"></a>Valor devuelto
 
@@ -35,7 +35,7 @@ Booleano
 
 ## <a name="remarks"></a>Comentarios
 
-En un área de trabajo  de ODBCDirect, puede abrir un conjunto de registros que contenga más de una consulta de selección en el argumento de origen de **OpenRecordset** o la propiedad **[SQL](querydef-sql-property-dao.md)** de un objeto **[QueryDef](querydef-object-dao.md)** de consulta de selección, como en el ejemplo siguiente.
+En un área de trabajo de ODBCDirect, puede abrir un objeto Recordset que contenga más de una consulta select en el argumento de origen de **OpenRecordset** o la propiedad **[SQL](querydef-sql-property-dao.md)** de un objeto **QueryDef** de consulta select, como en el ejemplo siguiente. **[](querydef-object-dao.md)**
 
 ```sql
     SELECT LastName, FirstName FROM Authors 

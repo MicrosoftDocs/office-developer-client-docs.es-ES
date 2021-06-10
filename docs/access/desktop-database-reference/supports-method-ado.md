@@ -22,7 +22,7 @@ Determina si el objeto [Recordset](recordset-object-ado.md) especificado admite 
 
 ## <a name="syntax"></a>Sintaxis
 
-*boolean*  =  *recordset*. Supports (*CursorOptions*)
+*boolean*  =  *recordset*. Admite (*CursorOptions*)
 
 ## <a name="return-value"></a>Valor devuelto
 

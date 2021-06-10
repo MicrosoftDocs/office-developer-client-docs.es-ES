@@ -42,7 +42,7 @@ La propiedad **RecordsetType** usa los siguientes valores en una base de datos d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Setting</p></th>
+<th><p>Configuración</p></th>
 <th><p>Tipo de conjunto de registros</p></th>
 <th><p>Descripción</p></th>
 </tr>
@@ -51,15 +51,15 @@ La propiedad **RecordsetType** usa los siguientes valores en una base de datos d
 <tr class="odd">
 <td><p>0</p></td>
 <td><p>Dynaset</p></td>
-<td><p>(Valor predeterminado) Puede modificar controles dependientes basados en una única tabla o en tablas con una relación uno a uno. Para los controles enlazados a campos basados en tablas con una relación uno a varios, no puede editar datos del campo de combinación en el lado uno de la relación a menos que se habilite la actualización en cascada entre las &quot; &quot; tablas.</p></td>
+<td><p>(Valor predeterminado) Puede modificar controles dependientes basados en una única tabla o en tablas con una relación uno a uno. Para los controles enlazados a campos basados en tablas con una relación de uno a varios, no puede editar los datos del campo de combinación en un lado de la relación a menos que se habilite la actualización en cascada entre las &quot; &quot; tablas.</p></td>
 </tr>
 <tr class="even">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Dynaset (Actualizaciones no coherentes)</p></td>
 <td><p>Se pueden editar todas las tablas y los controles vinculados a sus campos.</p></td>
 </tr>
 <tr class="odd">
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Instantánea</p></td>
 <td><p>No se puede editar las tablas o sus controles dependientes.</p></td>
 </tr>
@@ -79,14 +79,14 @@ La propiedad **RecordsetType** usa los siguientes valores en un proyecto de Micr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Setting</p></th>
+<th><p>Configuración</p></th>
 <th><p>Tipo de conjunto de registros</p></th>
 <th><p>Descripción</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Instantánea</p></td>
 <td><p>No se puede editar las tablas o sus controles dependientes.</p></td>
 </tr>
@@ -103,7 +103,7 @@ La propiedad **RecordsetType** usa los siguientes valores en un proyecto de Micr
 
 Puede crear formularios basados en varias tablas base con campos vinculados a los controles del formulario. Según el valor de la propiedad **RecordsetType**, podrá limitar qué control dependiente se puede editar.
 
-Además del control de edición proporcionado por **RecordsetType**, cada control de un formulario tiene una propiedad **Locked** que se puede establecer para especificar si se pueden editar el control y sus datos subyacentes. Si la propiedad **Locked** se establece en Yes, no se podrán editar los datos.
+Además del control de edición proporcionado por **RecordsetType**, cada control de un formulario tiene una **propiedad Locked** que puede establecer para especificar si el control y sus datos subyacentes se pueden editar. Si la propiedad **Locked** se establece en Yes, no se podrán editar los datos.
 
 ## <a name="example"></a>Ejemplo
 

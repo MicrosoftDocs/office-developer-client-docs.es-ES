@@ -22,13 +22,13 @@ Especifica el tipo de esquema **Recordset** recuperado por el método [OpenSchem
 
 ## <a name="remarks"></a>Comentarios
 
-Se puede encontrar información adicional acerca de la función y las columnas que se devuelven para cada constante de ADO en los temas del Apéndice B de la *Referencia para programadores de OLE DB*. El nombre de cada tema aparece entre paréntesis en la sección Descripción de la tabla siguiente.
+Se puede encontrar información adicional acerca de la función y las columnas que se devuelven para cada constante de ADO en los temas del Apéndice B de la *Referencia para programadores de OLE DB*. El nombre de cada tema se muestra entre paréntesis en la sección Descripción de la tabla siguiente.
 
-Se puede encontrar información adicional acerca de la función y las columnas que se devuelven para cada constante ADO MD en los temas del Capítulo 23 de la documentación de *OLE DB para OLAP*. El nombre de cada tema aparece entre paréntesis y se marca con un asterisco ( ) en la columna Descripción \* de la tabla siguiente.
+Se puede encontrar información adicional acerca de la función y las columnas que se devuelven para cada constante ADO MD en los temas del Capítulo 23 de la documentación de *OLE DB para OLAP*. El nombre de cada tema se muestra entre paréntesis y se marca con un asterisco ( ) en la columna \* Descripción de la tabla siguiente.
 
-Convierta los tipos de datos de columnas de la documentación de OLE DB a tipo de datos ADO consultando la columna Descripción del tema [DataTypeEnum](datatypeenum.md) de ADO. Por ejemplo, un tipo de datos OLE DB **de DBTYPE \_ WSTR** equivale a un tipo de datos ADO **de adWChar**.
+Convierta los tipos de datos de columnas de la documentación de OLE DB a tipo de datos ADO consultando la columna Descripción del tema [DataTypeEnum](datatypeenum.md) de ADO. Por ejemplo, un tipo de datos OLE DB de **DBTYPE \_ WSTR** equivale a un tipo de datos ADO de **adWChar**.
 
-ADO genera resultados con el aspecto del esquema para las constantes **adSchemaDBInfoKeywords** y **adSchemaDBInfoLiterals**. ADO crea un conjunto de registros y, **a** continuación, rellena cada fila con los valores devueltos respectivamente por los métodos **IDBInfo::GetKeywords** e **IDBInfo::GetLiteralInfo.** Puede encontrar información adicional acerca de estos métodos en la sección IDBInfo de la referencia del programador *de OLE DB*.
+ADO genera resultados con el aspecto del esquema para las constantes **adSchemaDBInfoKeywords** y **adSchemaDBInfoLiterals**. ADO crea un **objeto Recordset** y, a continuación, rellena cada fila con los valores devueltos respectivamente por los métodos **IDBInfo::GetKeywords** y **IDBInfo::GetLiteralInfo.** Encontrará información adicional sobre estos métodos en la sección IDBInfo de la Referencia del *programador de OLE DB*.
 
 <br/>
 
@@ -58,13 +58,13 @@ CONSTRAINT_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaCatalogs</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Devuelve los atributos físicos asociados con catálogos accesibles del sistema de administración de bases de datos (DBMS). (Conjunto de filas CATALOGS)</p></td>
 <td><p>CATALOG_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaCharacterSets</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Devuelve los conjuntos de caracteres definidos en el catálogo a los que puede tener acceso un usuario determinado. (Conjunto de filas CHARACTER_SETS)</p></td>
 <td><p>CHARACTER_SET_CATALOG<br />
 CHARACTER_SET_SCHEMA<br />
@@ -80,7 +80,7 @@ CONSTRAINT_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaCollations</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Devuelve las intercalaciones de caracteres definidas en el catálogo a las que puede tener acceso un usuario determinado. (Conjunto de filas COLLATIONS)</p></td>
 <td><p>COLLATION_CATALOG<br />
 COLLATION_SCHEMA<br />
@@ -88,7 +88,7 @@ COLLATION_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaColumnPrivileges</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Devuelve los privilegios sobre columnas de tablas que se definen en el catálogo y que están disponibles para (o los concede) un usuario determinado. (Conjunto de filas COLUMN_PRIVILEGES)</p></td>
 <td><p>TABLE_CATALOG<br />
 TABLE_SCHEMA<br />
@@ -339,7 +339,7 @@ TABLE_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaTableConstraints</strong></p></td>
-<td><p>10  </p></td>
+<td><p>10</p></td>
 <td><p>Devuelve las restricciones de tabla definidas en el catálogo que pertenecen a un usuario determinado. (Conjunto de filas TABLE_CONSTRAINTS)</p></td>
 <td><p>CONSTRAINT_CATALOG<br />
 CONSTRAINT_SCHEMA<br />
@@ -385,7 +385,7 @@ TRANSLATION_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaUsagePrivileges</strong></p></td>
-<td><p>15 </p></td>
+<td><p>15</p></td>
 <td><p>Devuelve los privilegios de uso sobre objetos definidos en el catálogo que están disponibles para (o los concede) un usuario determinado. (Conjunto de filas USAGE_PRIVILEGES)</p></td>
 <td><p>OBJECT_CATALOG<br />
 OBJECT_SCHEMA<br />

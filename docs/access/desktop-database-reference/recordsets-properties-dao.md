@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309314"
 ---
-# <a name="recordsets-properties-dao"></a>Propiedades de conjuntos de registros (DAO)
+# <a name="recordsets-properties-dao"></a>Propiedades recordsets (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

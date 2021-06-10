@@ -1,5 +1,5 @@
 ---
-title: ActiveConnection (propiedad, ADO)
+title: Propiedad ActiveConnection (ADO)
 TOCTitle: ActiveConnection property (ADO)
 ms:assetid: 5501b2d7-b62c-5fff-1edd-2b7efb3f8c4a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249281(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282533"
 ---
-# <a name="activeconnection-property-ado"></a>ActiveConnection (propiedad, ADO)
+# <a name="activeconnection-property-ado"></a>Propiedad ActiveConnection (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -54,7 +54,7 @@ Si se usa el argumento *ActiveConnection* del método [Open](open-method-ado-rec
 
 Si se establece la propiedad **Source** del objeto **Recordset** en una variable del objeto **Command**, la propiedad **ActiveConnection** del objeto **Recordset** hereda el valor de la propiedad **ActiveConnection** del objeto **Command**.
 
-Uso del servicio de datos **remotos:** cuando se usa en un objeto Recordset del lado cliente, esta propiedad sólo se puede establecer en una cadena de conexión o (en Microsoft Visual Basic o Visual Basic, Scripting Edition) en *Nothing*.
+**Uso del** servicio de datos remotos: cuando se usa en un objeto Recordset del lado cliente, esta propiedad solo se puede establecer en una cadena de conexión o (en Microsoft Visual Basic o Visual Basic, Scripting Edition) en *Nothing*.
 
 ### <a name="record"></a>Record
 
@@ -63,7 +63,7 @@ Esta propiedad es de lectura y escritura cuando el objeto **Record** está cerra
 Se crea implícitamente un objeto **Connection** cuando se abre el objeto **Record** desde una dirección URL. Abra el objeto **Record** con un objeto **Connection** existente abierto asignando el objeto **Connection** a esta propiedad o utilizando el objeto **Connection** como parámetro en la llamada al método [Open](open-method-ado-record.md). Si el objeto **Record** se abre desde un **objeto Record** o  [Recordset](recordset-object-ado.md)existente, se asocia automáticamente al objeto Connection de ese objeto **Record** o **Recordset.**
 
 > [!NOTE]
-> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas.](absolute-and-relative-urls.md)
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
 
 
 

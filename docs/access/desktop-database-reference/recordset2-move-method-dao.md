@@ -24,9 +24,9 @@ Mueve la posición del registro actual de un objeto **[Recordset](recordset-obje
 
 *expresión* .Move(***Columnas***, ***StartBookmark***)
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

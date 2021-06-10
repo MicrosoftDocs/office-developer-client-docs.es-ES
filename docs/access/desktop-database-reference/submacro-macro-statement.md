@@ -18,9 +18,9 @@ ms.locfileid: "32308473"
 
 **Se aplica a:** Access 2013, Office 2013
 
-La **instrucción Submacro** define una macro independiente en la ventana del Diseñador de macros.
+La **instrucción Submacro** define una macro independiente en la ventana diseñador de macros.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **Submacro** utiliza los siguientes argumentos.
 
@@ -49,7 +49,7 @@ La acción **Submacro** utiliza los siguientes argumentos.
 
 ## <a name="example"></a>Ejemplo
 
-En la siguiente macro se muestra el uso de la acción **AlOcurrirError**. En este ejemplo, la acción **AlOcurrirError** especifica que Access ejecute una macro de tratamiento de errores personalizada denominada ErrorHandler cuando se produzca un error. Cuando se produce un error, se llama al submacro CatchErrors. Si el número de error es 2102, se muestra un mensaje específico y se detiene la ejecución de la macro. De lo contrario, se muestra un mensaje que describe el error y se pausa la macro para que pueda realizar una solución de problemas adicional. Esta macro mostrará un cuadro de mensaje referente al objeto **ErrorDeMacro** para mostrar información sobre el error.
+En la siguiente macro se muestra el uso de la acción **AlOcurrirError**. En este ejemplo, la acción **AlOcurrirError** especifica que Access ejecute una macro de tratamiento de errores personalizada denominada ErrorHandler cuando se produzca un error. Cuando se produce un error, se llama al submacro CatchErrors. Si el número de error es 2102, se muestra un mensaje específico y se detiene la ejecución de macros. De lo contrario, se muestra un mensaje que describe el error y la macro se pausa para que pueda realizar una solución de problemas adicional. Esta macro mostrará un cuadro de mensaje referente al objeto **ErrorDeMacro** para mostrar información sobre el error.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

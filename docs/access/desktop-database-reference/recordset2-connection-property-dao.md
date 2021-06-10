@@ -25,5 +25,5 @@ Devuelve el objeto **[Connection](connection-object-dao.md)** que corresponde a 
 
 *expresión* . Conexión
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 

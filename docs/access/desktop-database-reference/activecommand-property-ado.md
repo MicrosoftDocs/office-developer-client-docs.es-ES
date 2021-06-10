@@ -1,5 +1,5 @@
 ---
-title: ActiveCommand (propiedad, ADO)
+title: Propiedad ActiveCommand (ADO)
 TOCTitle: ActiveCommand property (ADO)
 ms:assetid: 41c19008-cbf7-ade9-b4ab-e908a16784ac
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249190(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281932"
 ---
-# <a name="activecommand-property-ado"></a>ActiveCommand (propiedad, ADO)
+# <a name="activecommand-property-ado"></a>Propiedad ActiveCommand (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ Devuelve un valor de tipo **Variant** que contiene un objeto **Command**. El val
 
 La propiedad **ActiveCommand** es de sólo lectura.
 
-Si no **se usó** un objeto Command para crear el **objeto Recordset actual,** se **devuelve una referencia** de objeto Null.
+Si no **se usó** un objeto Command para crear el **objeto Recordset actual,** se devuelve una referencia de objeto **Null.**
 
 Use esta propiedad para buscar el objeto **Command** asociado cuando solo dispone del objeto **Recordset** resultante.
 

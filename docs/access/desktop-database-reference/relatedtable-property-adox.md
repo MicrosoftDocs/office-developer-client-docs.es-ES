@@ -1,5 +1,5 @@
 ---
-title: RelatedTable (propiedad, ADOX)
+title: Propiedad RelatedTable (ADOX)
 TOCTitle: RelatedTable property (ADOX)
 ms:assetid: e9e7fedb-d280-6018-2cbf-e7be6136a00c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250185(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309154"
 ---
-# <a name="relatedtable-property-adox"></a>RelatedTable (propiedad, ADOX)
+# <a name="relatedtable-property-adox"></a>Propiedad RelatedTable (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

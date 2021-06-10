@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Batpropiedad chCollisionCount (DAO)
+title: Recordset2.BatchCollisionCount (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 997dfbb3-673c-8813-f51b-ab8d95093c4f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197961(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307486"
 ---
-# <a name="recordset2batchcollisioncount-property-dao"></a>Recordset2.Batpropiedad chCollisionCount (DAO)
+# <a name="recordset2batchcollisioncount-property-dao"></a>Recordset2.BatchCollisionCount (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32307486"
 
 *expresión* . BatchCollisionCount
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

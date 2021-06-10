@@ -18,25 +18,25 @@ ms.locfileid: "32308501"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Puede usar la acción **DetenerMacro** para detener la macro que se está ejecutando actualmente.
+Puede usar la acción **StopMacro** para detener la macro que se está ejecutando actualmente.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
-La **acción DetenerMacro** no tiene argumentos.
+La **acción StopMacro** no tiene argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
-Normalmente, esta acción se usa cuando una condición hace que sea necesario detener la macro. Puede usar una expresión condicional en la fila de acción de la macro que contiene esta acción. Cuando la expresión se evalúa como **True** (–1), Microsoft Access detiene la macro.
+Normalmente, esta acción se usa cuando una condición hace necesario detener la macro. Puede usar una expresión condicional en la fila de acción de la macro que contiene esta acción. Cuando la expresión se evalúa como **True** (–1), Microsoft Access detiene la macro.
 
-Por ejemplo, puede crear una macro que abra un formulario que muestre los totales del orden diario de la fecha especificada en un cuadro de diálogo personalizado. Puede usar una expresión condicional para asegurarse de que el control **Fecha** de pedido del cuadro de diálogo contiene una fecha válida. Si no lo hace, la acción **CuadroDe** Mensaje puede mostrar un mensaje de error y la acción **DetenerMacro** puede detener la macro.
+Por ejemplo, puede crear una macro que abra un formulario que muestre los totales de pedidos diarios de la fecha especificada en un cuadro de diálogo personalizado. Puede usar una expresión condicional para asegurarse de que el control **Fecha** de pedido del cuadro de diálogo contiene una fecha válida. Si no lo hace, la acción **Cuadro de** mensajes puede mostrar un mensaje de error y la **acción StopMacro** puede detener la macro.
 
-Si la macro ha usado las acciones **Eco** o **SetWarnings** para desactivar el eco o la visualización de mensajes del sistema, la acción **DetenerMacro** las vuelve a activar automáticamente.
+Si la macro ha usado las acciones **Eco** o **SetWarnings** para desactivar el eco o la presentación de mensajes del sistema, la acción **StopMacro** los vuelve a activar automáticamente.
 
 Esta acción no está disponible en un módulo de Visual Basic para Aplicaciones (VBA).
 
 ## <a name="example"></a>Ejemplo
 
-En la siguiente macro se muestra el uso de la acción **AlOcurrirError**. En este ejemplo, la acción **AlOcurrirError** especifica que Access ejecute una macro de tratamiento de errores personalizada denominada ErrorHandler cuando se produzca un error. Cuando se produce un error, se llama al submacro CatchErrors. Si el número de error es 2102, se muestra un mensaje específico y se detiene la ejecución de la macro. De lo contrario, se muestra un mensaje que describe el error y se pausa la macro para que pueda realizar una solución de problemas adicional. Esta macro mostrará un cuadro de mensaje referente al objeto **ErrorDeMacro** para mostrar información sobre el error.
+En la siguiente macro se muestra el uso de la acción **AlOcurrirError**. En este ejemplo, la acción **AlOcurrirError** especifica que Access ejecute una macro de tratamiento de errores personalizada denominada ErrorHandler cuando se produzca un error. Cuando se produce un error, se llama al submacro CatchErrors. Si el número de error es 2102, se muestra un mensaje específico y se detiene la ejecución de macros. De lo contrario, se muestra un mensaje que describe el error y la macro se pausa para que pueda realizar una solución de problemas adicional. Esta macro mostrará un cuadro de mensaje referente al objeto **ErrorDeMacro** para mostrar información sobre el error.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

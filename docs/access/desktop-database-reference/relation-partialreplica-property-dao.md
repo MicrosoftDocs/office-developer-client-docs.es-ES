@@ -28,7 +28,7 @@ Establece o devuelve un valor en un objeto **Relation** que indica si esa relaci
 
 *expresión* . PartialReplica
 
-*expresión* Expresión que devuelve un **objeto Relation** .
+*expresión* Expresión que devuelve un **objeto Relation.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -38,7 +38,7 @@ Esta propiedad le permite replicar datos desde una réplica completa a una répl
 
 Para replicar todos los pedidos desde la región de California, debe indicar que la relación entre las tablas Pedidos y Clientes se activará durante la replicación. Una vez que haya creado una réplica parcial, los siguientes pasos la rellenarán con todos los pedidos realizados desde la región de California:
 
-1.  Establezca la **propiedad ReplicaFilter** en el **objeto TableDef** customers en "Region = 'CA'".
+1.  Establezca la **propiedad ReplicaFilter** en el objeto **Customers TableDef** en "Region = 'CA'".
 
 2.  Establezca el valor de la propiedad **PartialReplica** en **True** en el objeto **Relation** que corresponde a la relación entre Pedidos y Clientes.
 

@@ -43,7 +43,7 @@ Especifica el tipo de objeto [Record](record-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adCollectionRecord</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indica un registro <em>colección</em> (que contiene nodos secundarios).</p></td>
 </tr>
 <tr class="odd">
@@ -53,14 +53,14 @@ Especifica el tipo de objeto [Record](record-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adStructDoc</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica un tipo especial de registro <em>colección</em> que representa documentos estructurados COM.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

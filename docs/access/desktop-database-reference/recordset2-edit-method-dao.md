@@ -28,7 +28,7 @@ Copia el registro actual de un objeto **[Recordset](recordset-object-dao.md)** a
 
 *expression* .Edit
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

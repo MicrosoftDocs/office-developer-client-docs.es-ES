@@ -26,11 +26,11 @@ Los objetos de negocio pueden ser archivos ejecutables (.exe) o bibliotecas de v
 
 
 > [!NOTE]
-> Cuando los objetos de negocio del nivel intermedio se implementan como componentes de Servicios de componentes (con **GetObjectContext**, **SetComplete** y **SetAbort),** pueden usar objetos de contexto de Servicios de componentes (o MTS, si usa Windows NT) para mantener su estado en varias llamadas de cliente. Este escenario es posible con DCOM, que normalmente está implementado entre clientes y servidores de confianza (una intranet). 
+> Cuando los objetos empresariales del nivel intermedio se implementan como componentes de Servicios de componentes (con **GetObjectContext**, **SetComplete** y **SetAbort),** pueden usar objetos de contexto de Servicios de componentes (o MTS, si usa Windows NT) para mantener su estado en varias llamadas de cliente. Este escenario es posible con DCOM, que normalmente está implementado entre clientes y servidores de confianza (una intranet). 
 >
 > En este caso, el objeto [RDS.DataSpace](dataspace-object-rds.md) y el método [CreateObject](createobject-method-rds.md) del cliente se reemplazan con el objeto de contexto de transacción y el método **CreateInstance** (proporcionado por la interfaz **ITransactionContext**), implementados por Servicios de componentes.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Ejecución de objetos de negocio en servicios de componentes (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
+- [Ejecución de objetos profesionales en servicios de componentes (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)

@@ -23,9 +23,9 @@ Devuelve el número de objetos de la colección especificada. **Integer** de só
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Count
+*expresión* . Recuento
 
-*expresión* Variable que representa un objeto **Recordsets.**
+*expresión* Variable que representa un **objeto Recordsets.**
 
 ## <a name="remarks"></a>Comentarios
 

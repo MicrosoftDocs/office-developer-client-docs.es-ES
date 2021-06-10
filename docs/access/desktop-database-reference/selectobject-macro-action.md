@@ -24,7 +24,7 @@ ms.locfileid: "32308732"
 
 Puede usar la acción **SeleccionarObjeto** para seleccionar un determinado objeto de base de datos.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **SeleccionarObjeto** utiliza los siguientes argumentos.
 
@@ -46,7 +46,7 @@ La acción **SeleccionarObjeto** utiliza los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Nombre del objeto</strong></p></td>
-<td><p>Nombre del objeto que se va a seleccionar. El cuadro <strong>Nombre del objeto</strong> muestra todos los objetos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong> que existen en la base de datos. Este argumento es obligatorio, a menos que el argumento En panel de navegación se haya establecido en <strong>Sí</strong>.</p><p><strong>NOTA:</strong>Los nombres de objeto de <STRONG></STRONG> los objetos <STRONG>Vista</STRONG>de <STRONG></STRONG> <STRONG>servidor,</STRONG>Diagrama o Procedimiento almacenado no se muestran en el cuadro Nombre de objeto de un proyecto de Access (.adp).</p></td>
+<td><p>Nombre del objeto que se va a seleccionar. El cuadro <strong>Nombre del objeto</strong> muestra todos los objetos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong> que existen en la base de datos. Este argumento es obligatorio, a menos que el argumento En panel de navegación se haya establecido en <strong>Sí</strong>.</p><p><strong>NOTA:</strong>Los nombres de objeto de <STRONG></STRONG> los objetos <STRONG>Vista</STRONG>de <STRONG></STRONG> <STRONG>servidor,</STRONG>Diagrama o Procedimiento almacenado no se muestran en el cuadro Nombre del objeto de un proyecto de Access (.adp).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En panel de navegación</strong></p></td>

@@ -29,7 +29,7 @@ Devuelve un objeto **[QueryDef](querydef-object-dao.md)** que es una copia del o
 
 *expresión* . CopyQueryDef
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="return-value"></a>Valor devuelto
 

@@ -1,5 +1,5 @@
 ---
-title: Size (propiedad, ADO)
+title: Propiedad Size (ADO)
 TOCTitle: Size property (ADO)
 ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306933"
 ---
-# <a name="size-property-ado"></a>Size (propiedad, ADO)
+# <a name="size-property-ado"></a>Propiedad Size (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

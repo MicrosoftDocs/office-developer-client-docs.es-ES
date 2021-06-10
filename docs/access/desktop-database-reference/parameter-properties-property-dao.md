@@ -19,11 +19,11 @@ ms.locfileid: "32288017"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. Solo lectura.
+Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. Sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . Propiedades
 
-*expresión* Variable que representa un objeto **Parameter.**
+*expresión* Variable que representa un **objeto Parameter.**
 

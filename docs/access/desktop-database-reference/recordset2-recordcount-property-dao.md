@@ -28,7 +28,7 @@ Devuelve el número de registros a los que se tuvo acceso en un objeto **[Record
 
 *expresión* . RecordCount
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

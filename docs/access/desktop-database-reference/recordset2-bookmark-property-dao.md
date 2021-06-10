@@ -25,11 +25,11 @@ Establece o devuelve un marcador que identifica únicamente al registro actual e
 
 *expression* .Bookmark
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
-Para un **objeto Recordset** basado completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es True y puede usar la propiedad **Bookmark** con ese conjunto de registros. Sin embargo, puede que otros productos de la base de datos no admitan marcadores. Por ejemplo, no puede utilizar marcadores en ningún objeto **Recordset2** basado en una tabla de Paradox vinculada que no contenga una clave principal.
+Para un **objeto Recordset** basado completamente en tablas del motor de base de datos de Microsoft Access, el valor de la propiedad **Bookmarkable** es True y puede usar la **propiedad Bookmark** con ese conjunto de registros. Sin embargo, puede que otros productos de la base de datos no admitan marcadores. Por ejemplo, no puede utilizar marcadores en ningún objeto **Recordset2** basado en una tabla de Paradox vinculada que no contenga una clave principal.
 
 Cuando cree o abra un objeto **Recordset**, cada uno de sus registros del objeto ya tiene un marcador único. Puede guardar el marcador para el registro actual mediante la asignación del valor de la propiedad **Bookmark** a una variable. Para volver rápidamente a ese registro en cualquier momento después de moverse a un registro distinto, establezca la propiedad **Bookmark** de los objetos **Recordset** en el valor de dicha variable.
 

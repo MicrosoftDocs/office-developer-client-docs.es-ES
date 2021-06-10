@@ -1,5 +1,5 @@
 ---
-title: Objeto Position (referencia de ADO MD)
+title: Objeto Position (referencia ADO MD)
 TOCTitle: Position object (ADO MD)
 ms:assetid: fbe77a91-766e-4cdb-ac2e-dcd30b0c1c82
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250290(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287562"
 ---
-# <a name="position-object-ado-md-reference"></a>Objeto Position (referencia de ADO MD)
+# <a name="position-object-ado-md-reference"></a>Objeto Position (referencia ADO MD)
 
 **Se aplica a:** Access 2013, Office 2013
 

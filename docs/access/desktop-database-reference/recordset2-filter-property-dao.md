@@ -29,7 +29,7 @@ Establece o devuelve un valor que determina los registros incluidos en un objeto
 
 *expression* .Filter
 
-*expresión* Expresión que devuelve un objeto **Recordset2.**
+*expresión* Expresión que devuelve un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

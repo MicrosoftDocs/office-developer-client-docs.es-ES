@@ -51,9 +51,9 @@ Para crear un nuevo objeto **Relation**, utilice el método **CreateRelation**. 
 
 **Relations**(0)
 
-**Relations**("nombre")
+**Relaciones**("nombre")
 
- \! Relaciones \[ name\]
+ \! Relaciones \[ nombre\]
 
 ## <a name="example"></a>Ejemplo
 
@@ -118,7 +118,7 @@ En este ejemplo se muestra cómo un objeto **Relation** existente puede controla
 
 <br/>
 
-En este ejemplo se utiliza el método **CreateRelation** para crear una **Relation** entre el objeto **TableDef** de empleados y un nuevo objeto **TableDef** denominado Departments (departamentos). También muestra cómo crear  una nueva relación  también creará los índices necesarios en la tabla externa (el índice DepartmentsEmployees en la tabla Employees).
+En este ejemplo se utiliza el método **CreateRelation** para crear una **Relation** entre el objeto **TableDef** de empleados y un nuevo objeto **TableDef** denominado Departments (departamentos). También muestra cómo crear una nueva **relation**  también creará los índices necesarios en la tabla externa (el índice DepartmentsEmployees en la tabla Employees).
 
 ```vb
     Sub CreateRelationX() 

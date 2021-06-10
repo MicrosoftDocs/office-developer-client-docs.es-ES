@@ -18,13 +18,13 @@ ms.locfileid: "32283355"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En la sección [Creación de instancias de eventos de ADO por lenguaje](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) de Visual C++, se ofrece una descripción general de cómo crear instancias del modelo de eventos de ADO. A continuación se muestra un ejemplo específico de creación de instancias del modelo de eventos en el entorno creado por la **\# directiva de** importación.
+En la sección [Creación de instancias de eventos de ADO por lenguaje](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) de Visual C++, se ofrece una descripción general de cómo crear instancias del modelo de eventos de ADO. A continuación se muestra un ejemplo específico de creación de instancias del modelo de eventos en el entorno creado por la **\# directiva import.**
 
-La descripción general utiliza **adoint.h** como referencia para firmas de método. Sin embargo, algunos detalles de la descripción general cambian ligeramente como resultado del uso de la **\# directiva de** importación:
+La descripción general utiliza **adoint.h** como referencia para firmas de método. Sin embargo, algunos detalles de la descripción general cambian ligeramente como resultado del uso de la **\# directiva import:**
 
-- La **\# directiva de** importación resuelve **los modificadores y los** tipos de datos de la firma del método y las definiciones de tipos en sus formularios fundamentales.
+- La **\# directiva import** resuelve los tipos de datos y modificadores de la firma de método y **typedef** en sus formularios fundamentales.
 
-- Todos los métodos virtuales puros que deben sobrescribirse llevan el prefijo "**raw \_**".
+- Los métodos virtuales puros que deben sobrescribirse tienen el prefijo "**raw \_**".
 
 Parte del código simplemente refleja el estilo de codificación.
 
@@ -34,13 +34,13 @@ Parte del código simplemente refleja el estilo de codificación.
 
 - Quizá desee codificar implementaciones más robustas de QueryInterface, AddRef y Release.
 
-- La **\_ \_ directiva uuidof()** se usa ampliamente para obtener los IDs de interfaz.
+- La **\_ \_ directiva uuidof()** se usa extensamente para obtener los IDs de interfaz.
 
 Por último, el ejemplo contiene parte de código funcional.
 
 - El ejemplo está escrito como una aplicación de consola.
 
-- Debe insertar su propio código bajo el comentario "// Hacer algo de trabajo".
+- Debe insertar su propio código en el comentario "// Hacer algo de trabajo".
 
 - El comportamiento predeterminado de todos los controladores de eventos es no hacer nada y cancelar posteriores notificaciones. Por tanto, si se requiere, deberá insertar el código apropiado para su aplicación y permitir las notificaciones.
 

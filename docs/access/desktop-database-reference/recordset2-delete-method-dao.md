@@ -25,5 +25,5 @@ No admitido en este objeto.
 
 *expresión* . Eliminar
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 

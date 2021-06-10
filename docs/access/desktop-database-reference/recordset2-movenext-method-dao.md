@@ -25,7 +25,7 @@ Se desplaza al siguiente registro de un objeto **Recordset** especificado y conv
 
 *expression* .MoveNext
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

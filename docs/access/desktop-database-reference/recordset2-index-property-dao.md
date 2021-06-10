@@ -24,7 +24,7 @@ Establece o devuelve un valor que indica el nombre del objeto actual **[Index](i
 
 *expression* .Index
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

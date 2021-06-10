@@ -42,17 +42,17 @@ Se utiliza con la propiedad **RecordStatus** para indicar el estado de actualiza
 </tr>
 <tr class="even">
 <td><p>dbRecordDeleted</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>El registro se ha eliminado, pero permanece todavía en la base de datos.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbRecordModified</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>El registro se ha modificado y no se ha actualizado en la base de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbRecordNew</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>El registro se ha insertado con el método <strong>AddNew</strong>, pero no se ha insertado todavía en la base de datos.</p></td>
 </tr>
 <tr class="odd">

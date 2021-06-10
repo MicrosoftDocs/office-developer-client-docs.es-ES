@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281904"
 ---
-# <a name="adcprop_asyncthreadpriority_enum"></a>ENUMERACIÓN \_ ADCPROP ASYNCTHREADPRIORITY \_
+# <a name="adcprop_asyncthreadpriority_enum"></a>ADCPROP \_ ASYNCTHREADPRIORITY \_ ENUM
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -45,7 +45,7 @@ Use estas constantes con la propiedad dinámica "**Background Thread Priority**"
 </tr>
 <tr class="even">
 <td><p><strong>adPriorityBelowNormal</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Establece las prioridades comprendidas entre la normal y la más baja.</p></td>
 </tr>
 <tr class="odd">
@@ -55,12 +55,12 @@ Use estas constantes con la propiedad dinámica "**Background Thread Priority**"
 </tr>
 <tr class="even">
 <td><p><strong>AdPriorityLowest</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Establece la prioridad en el nivel más bajo posible.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityNormal</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Establece la prioridad como normal.</p></td>
 </tr>
 </tbody>

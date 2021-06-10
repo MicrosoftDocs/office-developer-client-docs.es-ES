@@ -24,9 +24,9 @@ Se desplaza al último registro de un objeto **Recordset** especificado y convie
 
 *expresión* . MoveLast(***Options***)
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

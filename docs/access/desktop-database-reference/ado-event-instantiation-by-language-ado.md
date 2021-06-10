@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283369"
 ---
-# <a name="ado-event-instantiation-by-language-ado"></a>Creación de instancias de eventos de ADO por lenguaje (ADO)
+# <a name="ado-event-instantiation-by-language-ado"></a>Creación de instancias de eventos de ADO por idioma (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

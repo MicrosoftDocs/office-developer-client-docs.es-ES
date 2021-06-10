@@ -1,5 +1,5 @@
 ---
-title: AbsolutePosition (propiedad, ADO)
+title: Propiedad AbsolutePosition (ADO)
 TOCTitle: AbsolutePosition property (ADO)
 ms:assetid: 500be001-9fa1-177b-f19d-acf003a0cdc2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249259(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281980"
 ---
-# <a name="absoluteposition-property-ado"></a>AbsolutePosition (propiedad, ADO)
+# <a name="absoluteposition-property-ado"></a>Propiedad AbsolutePosition (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -34,10 +34,10 @@ Use la propiedad **AbsolutePosition** para desplazarse a un registro basándose 
 
 Al igual que la propiedad [AbsolutePage](absolutepage-property-ado.md), **AbsolutePosition** se basa en 1 y es igual a 1 cuando el registro actual es el primer registro del objeto **Recordset**. Se puede obtener el número total de registros del objeto **Recordset** mediante la propiedad [RecordCount](recordcount-property-ado.md).
 
-Cuando se establece la propiedad **AbsolutePosition,** incluso si se trata de un registro de la memoria caché actual, ADO vuelve a cargar la memoria caché con un nuevo grupo de registros empezando por el registro especificado. La propiedad [CacheSize](cachesize-property-ado.md) determina el tamaño de este grupo.
+Al establecer la propiedad **AbsolutePosition,** incluso si se encuentra en un registro de la memoria caché actual, ADO vuelve a cargar la memoria caché con un nuevo grupo de registros a partir del registro especificado. La propiedad [CacheSize](cachesize-property-ado.md) determina el tamaño de este grupo.
 
 
 > [!NOTE]
-> [!NOTA] No es aconsejable usar la propiedad **AbsolutePosition** como número de registro suplente. La posición de un registro determinado cambia cuando se elimina un registro anterior. Tampoco hay ninguna garantía de que un registro determinado tendrá el mismo **Valor** absoluto si se vuelve a consultar o volver a abrir el objeto **Recordset.** Los marcadores siguen siendo la forma recomendada de conservar y volver a una posición determinada, y son la única forma de colocar en todos los tipos de objetos **Recordset.**
+> [!NOTA] No es aconsejable usar la propiedad **AbsolutePosition** como número de registro suplente. La posición de un registro determinado cambia cuando se elimina un registro anterior. Tampoco hay ninguna garantía de que un registro determinado tendrá la misma **AbsolutePosition** si el objeto **Recordset** se vuelve a consultar o se vuelve a abrir. Los marcadores siguen siendo la forma recomendada de conservar y volver a una posición determinada, y son la única forma de colocarse en todos los tipos de **objetos Recordset.**
 
 

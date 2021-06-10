@@ -28,7 +28,7 @@ Actualiza los objetos de una colección para reflejar los objetos disponibles y 
 
 El método **Refresh** realiza diferentes tareas según la colección desde la que se llame al método.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 Si se usa el método **Refresh** en la colección [Parameters](command-object-ado.md) de un objeto [Command](parameters-collection-ado.md), se recupera la información de parámetros del proveedor para el procedimiento almacenado o la consulta parametrizada especificada en el objeto **Command**. La colección estará vacía para los proveedores que no admitan llamadas a procedimientos almacenados o consultas parametrizadas.
 

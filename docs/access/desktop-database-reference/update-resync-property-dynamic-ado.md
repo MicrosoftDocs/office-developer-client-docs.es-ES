@@ -1,5 +1,5 @@
 ---
-title: Update Resync dynamic property (ADO)
+title: Actualizar propiedad dinámica Resync (ADO)
 TOCTitle: Update Resync dynamic property (ADO)
 ms:assetid: 0af9cfd2-8042-65c9-cec6-77d2e7a88ad9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248842(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308347"
 ---
-# <a name="update-resync-dynamic-property-ado"></a>Update Resync dynamic property (ADO)
+# <a name="update-resync-dynamic-property-ado"></a>Actualizar propiedad dinámica Resync (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -27,7 +27,7 @@ Establece o devuelve uno o varios de los valores [de ADCPROP \_ UPDATERESYNC \_ 
 
 ## <a name="remarks"></a>Comentarios
 
-Los valores de ADCPROP UPDATERESYNC ENUM pueden combinarse, excepto \_ para adResyncAll que ya representa la combinación del resto \_ de los valores.
+Los valores de ADCPROP UPDATERESYNC ENUM pueden combinarse, excepto \_ adResyncAll que ya representa la combinación del resto \_ de los valores.
 
 La constante **adResyncConflicts** almacena los valores de resincronización como valores subyacentes, aunque no reemplaza los cambios pendientes.
 

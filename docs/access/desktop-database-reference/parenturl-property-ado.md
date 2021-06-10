@@ -35,9 +35,9 @@ Imagine que "second" es una carpeta incluida en "first". Abra el objeto **Record
     record.Open "second"
 ```
 
-Ahora, el valor de la **propiedad ParentURL** es **parentURL** propiedad es https://first " " , lo mismo que **ActiveConnection**.
+Ahora, el valor de la **propiedad ParentURL** es **la propiedad ParentURL** es " https://first " , igual que **ActiveConnection**.
 
-El origen también puede ser una dirección URL absoluta como, por ejemplo, " https://first/second " . La **propiedad ParentURL** es, a continuación, https://first " " , el nivel anterior . La **propiedad ParentURL** es, a continuación, https://first " " , el nivel superior a "second".
+El origen también puede ser una dirección URL absoluta, como " https://first/second " . La **propiedad ParentURL** es, a continuación, " https://first " , el nivel anterior . La **propiedad ParentURL** es, a continuación, " https://first " , el nivel por encima de "second" .
 
 Esta propiedad puede ser un valor nulo si:
 

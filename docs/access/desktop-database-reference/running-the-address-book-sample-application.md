@@ -26,5 +26,5 @@ Para ejecutar la aplicación Libreta de direcciones, siga este procedimiento.
 
 2.  En Microsoft Internet Explorer 4.0 o posterior, escriba la siguiente dirección: **https://***webserver***/RDS/AddressBook/AddrBook.asp** donde *webserver* es el nombre del servidor web donde están instalados los componentes del servidor RDS.
 
-3.  A continuación, puede probar varios escenarios en la aplicación de ejemplo libreta de direcciones, como la búsqueda de una persona basada en su nombre de correo electrónico, la lista de todas las personas con el título "Administrador de programas" o la edición de registros existentes. Haga clic en **Buscar** para rellenar la cuadrícula de datos con todos los nombres disponibles.
+3.  A continuación, puede probar varios escenarios en la aplicación de ejemplo libreta de direcciones, como buscar una persona en función de su nombre de correo electrónico, enumerar todas las personas con el título "Administrador de programas" o editar registros existentes. Haga clic en **Buscar** para rellenar la cuadrícula de datos con todos los nombres disponibles.
 

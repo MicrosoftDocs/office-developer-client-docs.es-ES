@@ -22,7 +22,7 @@ Recupera información acerca de un objeto **Stream**.
 
 ## <a name="syntax"></a>Sintaxis
 
-Secuencia *larga.* Stat(*StatStg*, *StatFlag*)
+Secuencia *larga*. Stat(*StatStg*, *StatFlag*)
 
 ## <a name="return-value"></a>Valor devuelto
 

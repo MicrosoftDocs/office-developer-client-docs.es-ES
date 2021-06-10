@@ -25,11 +25,11 @@ Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de s
 
 *expresión* . Transacciones
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
-En un área de trabajo de Microsoft Access, también puede usar la propiedad **Transactions** con objetos **Recordset** de tipo Dynaset o de tabla. Los objetos Recordset de tipo instantánea y de **[sólo](recordset-object-dao.md)** avance siempre devuelven **False**.
+En un área de trabajo de Microsoft Access, también puede usar la propiedad **Transactions** con objetos **Recordset** de tipo Dynaset o de tabla. Los objetos Recordset de tipo **[snapshot](recordset-object-dao.md)** y forward-only siempre **devuelven False**.
 
 Si un objeto **Recordset** de tipo Dynaset o Table se basa en una tabla de motor de base de datos de Microsoft Access, la propiedad **Transactions** será **True** y se pueden usar las transacciones. Puede ser que otros motores de bases de datos no admitan transacciones. Por ejemplo, no se pueden usar transacciones en un objeto **Recordset** de tipo Dynaset basado en una tabla de Paradox.
 

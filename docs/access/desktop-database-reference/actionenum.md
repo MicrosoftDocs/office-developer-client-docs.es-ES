@@ -36,12 +36,12 @@ Especifica el tipo de acción que se debe realizar cuando se llama a [SetPermiss
 <tbody>
 <tr class="odd">
 <td><p><strong>adAccessDeny</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Se denegarán los permisos especificados al grupo o al usuario.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAccessGrant</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>El grupo o el usuario tendrá al menos los permisos solicitados.</p></td>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ Especifica el tipo de acción que se debe realizar cuando se llama a [SetPermiss
 </tr>
 <tr class="even">
 <td><p><strong>adAccessSet</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>El grupo o el usuario tendrá exactamente los permisos solicitados.</p></td>
 </tr>
 </tbody>

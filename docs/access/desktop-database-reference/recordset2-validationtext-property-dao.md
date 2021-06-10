@@ -25,5 +25,5 @@ Establece o devuelve un valor que especifica el texto del mensaje que su aplicac
 
 *expresión* . ValidationText
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 

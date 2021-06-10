@@ -23,7 +23,7 @@ ms.locfileid: "32309369"
 
 *expresión* . RecordStatus
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

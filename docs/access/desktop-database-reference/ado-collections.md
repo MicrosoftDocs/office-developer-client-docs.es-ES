@@ -1,5 +1,5 @@
 ---
-title: ActiveX de objetos de datos (ADO)
+title: ActiveX Colecciones de objetos de datos (ADO)
 TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32281711"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información acerca de los objetos, vea [objetos de ADO](ado-objects-and-interfaces.md) o un tema de objeto específico.
+Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto [Error](error-object-ado.md) puede estar contenido en una colección [Errors](errors-collection-ado.md). Para obtener más información acerca de los objetos, vea [objetos ADO](ado-objects-and-interfaces.md) o un tema de objeto específico.
 
 <br/>
 
@@ -45,7 +45,7 @@ Cada colección puede contener su objeto correspondiente. Por ejemplo, un objeto
 <td><p>Contiene todos los objetos <strong>Parameter</strong> de un objeto <strong>Command</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="properties-collection-ado.md">Properties</a></p></td>
+<td><p><a href="properties-collection-ado.md">Propiedades</a></p></td>
 <td><p>Contiene todos los objetos <strong>Property</strong> para una instancia específica de un objeto.</p></td>
 </tr>
 </tbody>

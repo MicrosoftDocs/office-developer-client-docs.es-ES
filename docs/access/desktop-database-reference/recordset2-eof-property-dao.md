@@ -29,7 +29,7 @@ Devuelve un valor que indica si la posición actual del registro se encuentra de
 
 *expression* .EOF
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

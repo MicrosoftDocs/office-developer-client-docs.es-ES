@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de las propiedades ActiveConnection, CommandText y CommandTimeout (VC++)
+title: Ejemplo de propiedades ActiveConnection, CommandText y CommandTimeout (VC++)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
 ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15)

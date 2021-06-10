@@ -92,7 +92,7 @@ En la tabla siguiente, se describen los parámetros específicos del objeto **RD
 <td><p>Si usa HTTP, el valor es el nombre del equipo servidor precedido por https:// .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-property-rds.md">CONNECT</a></p></td>
+<td><p><a href="connect-property-rds.md">CONECTAR</a></p></td>
 <td><p>Proporciona la información de conexión necesaria para que el objeto <strong>RDS.DataControl</strong> se conecte al servidor SQL Server.</p></td>
 </tr>
 <tr class="odd">

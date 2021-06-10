@@ -33,7 +33,7 @@ Las siguientes propiedades dinámicas son de interés especial, y también apare
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propiedad dinámica</th>
+<th>Dynamic (propiedad)</th>
 <th>Descripción</th>
 </tr>
 <tr class="odd">

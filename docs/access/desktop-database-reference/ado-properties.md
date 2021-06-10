@@ -1,5 +1,5 @@
 ---
-title: ActiveX data objects (ADO)
+title: ActiveX Propiedades de objetos de datos (ADO)
 TOCTitle: ADO properties
 ms:assetid: 04f08f22-6327-c603-229e-d06a9f1c0d83
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
@@ -139,7 +139,7 @@ ms.locfileid: "32283236"
 <td><p>Indica si la posición actual se encuentra al final de la secuencia.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filtro</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>Indica un filtro para datos en un objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -279,7 +279,7 @@ ms.locfileid: "32283236"
 <td><p>Indica el estado SQL de un objeto <strong>Error</strong> especificado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">Estado</a></p></td>
 <td><p>Indica, para todos los objetos aplicables, si el estado del objeto es abierto o cerrado. Indica, para todos los objetos aplicables que ejecutan un método asincrónico, si el estado actual del objeto está en conexión, ejecución o recuperación</p></td>
 </tr>
 <tr class="even">

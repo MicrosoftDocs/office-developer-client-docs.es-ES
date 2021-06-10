@@ -1,5 +1,5 @@
 ---
-title: Miembros parameters (DAO)
+title: Miembros de parámetros (DAO)
 TOCTitle: Parameters Members
 ms:assetid: 28a361e4-f57d-b44f-a839-29037a47621d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192005(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287856"
 ---
-# <a name="parameters-members-dao"></a>Miembros parameters (DAO)
+# <a name="parameters-members-dao"></a>Miembros de parámetros (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013

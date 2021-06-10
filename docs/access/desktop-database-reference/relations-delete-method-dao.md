@@ -24,9 +24,9 @@ Elimina el objeto **Relation** especificado de la colección **Relations**.
 
 *expresión* . Delete(***Name***)
 
-*expresión* Variable que representa un objeto **Relations** .
+*expresión* Variable que representa un **objeto Relations.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

@@ -60,7 +60,7 @@ Ninguno.
 
 ## <a name="remarks"></a>Comentarios
 
-Dado un objeto **Rowset** de OLE DB (pRowset ), la construcción de un objeto **Recordset** de ADO (), la construcción de un objeto **Recordset** de ADO (adoRs) equivale a las tres operaciones básicas siguientes:
+Dado un objeto **de** conjunto de filas OLE DB (pRowset), la construcción de un objeto **Recordset** de ADO (), la construcción de un objeto **Recordset** de ADO (adoRs) equivale a las tres operaciones básicas siguientes:
 
 1. Cree un objeto **Recordset** de ADO:
     
@@ -76,14 +76,14 @@ Dado un objeto **Rowset** de OLE DB (pRowset ), la construcción de un objeto **
          (void**)&adoRsConstruct);
    ```
 
-3. Llame al método de propiedad IADORecordsetConstruction::p ut Rowset para establecer el objeto Rowset de OLE DB en el objeto \_ Recordset de ADO:
+3. Llame al método de la propiedad IADORecordsetConstruction::p ut Rowset para establecer el objeto Rowset OLE DB en el objeto \_ Recordset de ADO:
 
    ```vb     
     IUnknown *pUnk=NULL;
     pRowset->QueryInterface(IID_IUnknown, (void**)&pUnk);
     adoRsConstruct->put_Rowset(pUnk);
    ```
-El objeto resultante ahora representa el objeto **Recordset** de ADO construido a partir del objeto **Rowset de** OLE DB.
+El objeto resultante ahora representa el objeto **Recordset** de ADO construido a partir del objeto de conjunto **de filas** OLE DB.
 
 También se puede crear un objeto **Recordset** de ADO a partir de un objeto **Chapter** o **RowPosition** de OLE DB.
 

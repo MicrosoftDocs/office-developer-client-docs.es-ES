@@ -1,5 +1,5 @@
 ---
-title: Métodos Relations (DAO)
+title: Métodos de relaciones (DAO)
 TOCTitle: Methods
 ms:assetid: 4581d01e-afa5-438b-847b-58ef8c8e7772
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124596(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306940"
 ---
-# <a name="relations-methods-dao"></a>Métodos Relations (DAO)
+# <a name="relations-methods-dao"></a>Métodos de relaciones (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

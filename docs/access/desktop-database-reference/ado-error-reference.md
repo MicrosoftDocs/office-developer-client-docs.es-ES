@@ -141,7 +141,7 @@ La constante **ErrorValueEnum** describe los valores de error en ADO. Para consu
 </tr>
 <tr class="even">
 <td><p><strong>3711</strong></p></td>
-<td><p><strong>adErrStengExecuting</strong></p></td>
+<td><p><strong>adErrStillExecuting</strong></p></td>
 <td><p>No se puede realizar la operación mientras se ejecuta asincrónicamente.</p></td>
 </tr>
 <tr class="odd">
@@ -151,7 +151,7 @@ La constante **ErrorValueEnum** describe los valores de error en ADO. Para consu
 </tr>
 <tr class="even">
 <td><p><strong>3713</strong></p></td>
-<td><p><strong>adErrStengConnecting</strong></p></td>
+<td><p><strong>adErrStillConnecting</strong></p></td>
 <td><p>No se puede realizar la operación mientras se conecta asincrónicamente.</p></td>
 </tr>
 <tr class="odd">

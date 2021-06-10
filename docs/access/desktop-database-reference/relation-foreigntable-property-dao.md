@@ -23,13 +23,13 @@ ms.locfileid: "32307050"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Establece o devuelve el nombre de la tabla externa en una relación (solo áreas de trabajo de Microsoft Access). .
+Establece o devuelve el nombre de la tabla externa en una relación (solo en áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . ForeignTable
 
-*expresión* Variable que representa un **objeto Relation** .
+*expresión* Variable que representa un **objeto Relation.**
 
 ## <a name="remarks"></a>Comentarios
 

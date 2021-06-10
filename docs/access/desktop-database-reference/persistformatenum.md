@@ -43,24 +43,24 @@ Especifica el formato en el que se guardará un objeto [Recordset](recordset-obj
 </tr>
 <tr class="even">
 <td><p><strong>adPersistADO</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indica que se utilizará el lenguaje de marcado extensible (XML) propio de ADO. Este valor es el mismo que adPersistXML y se incluye para mantener la compatibilidad con versiones anteriores.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPersistXML</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indica formato de lenguaje XML.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPersistProviderSpecific</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica que el proveedor guardará el objeto <strong>Recordset</strong> mediante su propio formato.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

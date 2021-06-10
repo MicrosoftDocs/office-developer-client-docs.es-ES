@@ -25,7 +25,7 @@ Establece o devuelve un valor que indica una o varias características del objet
 
 *expression* .Attributes
 
-*expresión* Variable que representa un **objeto Relation** .
+*expresión* Variable que representa un **objeto Relation.**
 
 ## <a name="remarks"></a>Comentarios
 

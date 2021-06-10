@@ -29,7 +29,7 @@ Devuelve un valor que indica el estado de edición para el registro actual.
 
 *expresión* . EditMode
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

@@ -1,5 +1,5 @@
 ---
-title: Contenedores Java de clase de ADO
+title: Contenedores Java clase de ADO
 TOCTitle: ADO Java class wrappers
 ms:assetid: de50faf0-80f3-f295-3d9e-3f70f86c3ede
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250126(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283320"
 ---
-# <a name="ado-java-class-wrappers"></a>Contenedores Java de clase de ADO
+# <a name="ado-java-class-wrappers"></a>Contenedores Java clase de ADO
 
 
 **Se aplica a:** Access 2013, Office 2013

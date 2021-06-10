@@ -1,5 +1,5 @@
 ---
-title: RowPosition (propiedad, ADO)
+title: Propiedad RowPosition (ADO)
 TOCTitle: RowPosition property (ADO)
 ms:assetid: b87f14b0-136b-0564-3e12-f9d5ecc4f7c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249887(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306863"
 ---
-# <a name="rowposition-property-ado"></a>RowPosition (propiedad, ADO)
+# <a name="rowposition-property-ado"></a>Propiedad RowPosition (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
-Obtiene o establece un objeto **RowPosition** de OLE DB desde o en un objeto **ADORecordsetConstruction**. Cuando se usa **put \_ RowPosition** para establecer el objeto **RowPosition** , el objeto **Recordset** resultante usa el objeto **RowPosition** para determinar la fila actual.
+Obtiene o establece un objeto **RowPosition** de OLE DB desde o en un objeto **ADORecordsetConstruction**. Cuando se usa **put \_ RowPosition** para establecer el **objeto RowPosition,** el objeto **Recordset** resultante usa el **objeto RowPosition** para determinar la fila actual.
 
 Lectura y escritura.
 

@@ -27,7 +27,7 @@ ms.locfileid: "32307493"
 
 *expresión* . BatchCollisions
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

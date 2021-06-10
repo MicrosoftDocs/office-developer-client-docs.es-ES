@@ -27,7 +27,7 @@ Devuelve un valor que indica si un objeto **[Recordset](recordset-object-dao.md)
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Se puede reiniciar
+*expresión* . Reiniciable
 
 *expression* Variable que representa un objeto **Recordset**.
 

@@ -29,7 +29,7 @@ Establece o devuelve el número de registros recuperados de un origen de datos O
 
 *expresión* . CacheSize
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

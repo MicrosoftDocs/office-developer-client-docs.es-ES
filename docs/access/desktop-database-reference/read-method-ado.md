@@ -1,5 +1,5 @@
 ---
-title: 'Método Read: ActiveX data objects (ADO)'
+title: 'Read (método): ActiveX data objects (ADO)'
 TOCTitle: Read method (ADO)
 ms:assetid: 91c3ad34-f891-5be0-1fc1-c5c8a2ff07a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)
@@ -22,7 +22,7 @@ Lee un número especificado de bytes de un objeto [Stream](stream-object-ado.md)
 
 ## <a name="syntax"></a>Sintaxis
 
-*Variant*  =  *Stream*. Read (*NumBytes* )
+*Variant*  =  *Stream*. Lectura (*NumBytes* )
 
 ## <a name="parameters"></a>Parámetros
 

@@ -33,11 +33,11 @@ Utilice los ejemplos de código siguientes para obtener información sobre cómo
 
 ## <a name="properties"></a>Propiedades
 
-- [Ejemplo de las propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
-- [Ejemplo de las propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
+- [Ejemplo de propiedades AbsolutePage, PageCount y PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
+- [Ejemplo de propiedades AbsolutePosition y CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
 - [Ejemplo de la propiedad ActiveCommand](activecommand-property-example-jscript.md)
 - [Ejemplo de las propiedades ActiveConnection, CommandText, CommandTimeout, CommandType, Size y Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
 - [Ejemplo de las propiedades ActualSize y DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
 - [Ejemplo de la propiedad CacheSize](cachesize-property-example-jscript.md)
-- [Ejemplo de las propiedades Filter y RecordCount](filter-and-recordcount-properties-example-jscript.md)
+- [Ejemplo de propiedades Filter y RecordCount](filter-and-recordcount-properties-example-jscript.md)
 

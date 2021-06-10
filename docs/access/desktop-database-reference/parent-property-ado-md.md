@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287793"
 ---
-# <a name="parent-property-ado-md"></a>Propiedad parent (ADO MD)
+# <a name="parent-property-ado-md"></a>Propiedad Parent (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

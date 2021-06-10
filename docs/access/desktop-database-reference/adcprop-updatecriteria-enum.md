@@ -40,7 +40,7 @@ Use estas constantes con la propiedad dinámica "**Update Criteria**" del objeto
 <tbody>
 <tr class="odd">
 <td><p><strong>adCriteriaAllCols</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Detecta conflictos si se ha cambiado cualquier columna de la fila del origen de datos.</p></td>
 </tr>
 <tr class="even">
@@ -50,12 +50,12 @@ Use estas constantes con la propiedad dinámica "**Update Criteria**" del objeto
 </tr>
 <tr class="odd">
 <td><p><strong>adCriteriaTimeStamp</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Detecta conflictos si la marca de tiempo de la fila del origen de datos ha cambiado; es decir, se ha tenido acceso a la fila después de obtenerse el objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCriteriaUpdCols</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Detecta conflictos si se han cambiado columnas de la fila del origen de datos correspondientes a campos actualizados del objeto <strong>Recordset</strong>.</p></td>
 </tr>
 </tbody>

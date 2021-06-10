@@ -1,5 +1,5 @@
 ---
-title: ActiveX API de objetos de datos de datos (ADO)
+title: ActiveX Referencia de api de objetos de datos (ADO)
 TOCTitle: ADO API reference
 ms:assetid: 0fd6aff8-dbff-50c7-649f-2d9c31aedb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248867(v=office.15)
@@ -22,7 +22,7 @@ Esta sección de la documentación de ActiveX Data Objects (ADO) contiene temas 
 
 Si desea obtener más información, busque un tema específico en el índice o consulte los temas siguientes:
 
-- [Objetos de ADO](ado-objects-and-interfaces.md)
+- [Objetos ADO](ado-objects-and-interfaces.md)
 - [Colecciones de ADO](ado-collections.md)
 - [Propiedades de ADO](ado-properties.md)
 - [Propiedades dinámicas de ADO](ado-dynamic-properties.md)

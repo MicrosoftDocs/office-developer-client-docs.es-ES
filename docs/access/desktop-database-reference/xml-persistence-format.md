@@ -66,7 +66,7 @@ El esquema muestra las declaraciones de espacio de nombres, las secciones de esq
 
 Las definiciones de esquema cumplen la especificación XML-Data y se pueden validar totalmente (aunque la validación no funcionará en Internet Explorer 5). Puede ver esta especificación en [Notas sobre W3C XMLData](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data es actualmente el único formato de esquema admitido para persistencia de **conjuntos de registros**.
 
-La sección de datos tiene tres filas que contienen información sobre compañías de envío. Para un conjunto de filas vacío, la sección de datos puede estar vacía, pero las `<rs:data>` etiquetas deben estar presentes. Sin datos, podría escribir la etiqueta de forma abreviada `<rs:data>` simplemente. Cualquier etiqueta con el prefijo "rs" indica que se encuentra en el espacio de nombres definido por urn:schemas-microsoft-com:rowset. La definición completa de este esquema se muestra en el apéndice de este documento.
+La sección de datos tiene tres filas que contienen información sobre compañías de envío. Para un conjunto de filas vacío, la sección de datos puede estar vacía, pero las `<rs:data>` etiquetas deben estar presentes. Sin datos, podría escribir la etiqueta de forma abreviada como simplemente `<rs:data>` . Cualquier etiqueta con el prefijo "rs" indica que se encuentra en el espacio de nombres definido por urn:schemas-microsoft-com:rowset. La definición completa de este esquema se muestra en el apéndice de este documento.
 
 ## <a name="xml-persistence-format"></a>Formato de persistencia XML
 
@@ -116,5 +116,5 @@ El esquema muestra las declaraciones de espacio de nombres, las secciones de esq
 
 Las definiciones de esquema cumplen la especificación XML-Data y se pueden validar totalmente (aunque la validación no funcionará en Internet Explorer 5). Puede ver esta especificación en [Notas sobre W3C XMLData](https://www.w3.org/TR/1998/NOTE-XML-data-0105/). XML-Data es actualmente el único formato de esquema admitido para persistencia de **conjuntos de registros**.
 
-La sección de datos tiene tres filas que contienen información sobre compañías de envío. Para un conjunto de filas vacío, la sección de datos puede estar vacía, pero las `<rs:data>` etiquetas deben estar presentes. Sin datos, podría escribir la etiqueta de forma abreviada `<rs:data>` simplemente. Cualquier etiqueta con el prefijo "rs" indica que se encuentra en el espacio de nombres definido por urn:schemas-microsoft-com:rowset. La definición completa de este esquema se muestra en el apéndice de este documento.
+La sección de datos tiene tres filas que contienen información sobre compañías de envío. Para un conjunto de filas vacío, la sección de datos puede estar vacía, pero las `<rs:data>` etiquetas deben estar presentes. Sin datos, podría escribir la etiqueta de forma abreviada como simplemente `<rs:data>` . Cualquier etiqueta con el prefijo "rs" indica que se encuentra en el espacio de nombres definido por urn:schemas-microsoft-com:rowset. La definición completa de este esquema se muestra en el apéndice de este documento.
 

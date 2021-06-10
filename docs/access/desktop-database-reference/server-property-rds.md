@@ -29,7 +29,7 @@ Es posible establecer la propiedad **Server** durante el diseño en las etiqueta
 |HTTP|`<PARAM NAME="Server" VALUE="https://awebsrvr:port">`|
 |HTTPS|`<PARAM NAME="Server" VALUE="https://awebsrvr:port">`|
 |DCOM|`<PARAM NAME="Server" VALUE="computername">`|
-|Dentro del proceso|`<PARAM NAME="Server" VALUE="">`|
+|En proceso|`<PARAM NAME="Server" VALUE="">`|
 
 
 |Protocolo|Sintaxis en tiempo de ejecución|
@@ -37,7 +37,7 @@ Es posible establecer la propiedad **Server** durante el diseño en las etiqueta
 |HTTP|`DataControl.Server="https://awebsrvr:port"`|
 |HTTPS|`DataControl.Server="https://awebsrvr:port"`|
 |DCOM|`DataControl.Server="computername"`|
-|Dentro del proceso|`DataControl.Server=""`|
+|En proceso|`DataControl.Server=""`|
 
 
 ## <a name="parameters"></a>Parámetros

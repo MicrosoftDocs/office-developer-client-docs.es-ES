@@ -1,5 +1,5 @@
 ---
-title: Sort (propiedad, ADO)
+title: Propiedad Sort (ADO)
 TOCTitle: Sort property (ADO)
 ms:assetid: f2a39b7f-8b96-cd1a-8248-71f8b867454a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308641"
 ---
-# <a name="sort-property-ado"></a>Sort (propiedad, ADO)
+# <a name="sort-property-ado"></a>Propiedad Sort (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -33,7 +33,7 @@ La operación de ordenación es eficaz debido a que los datos no se reorganizan 
 
 Si se establece la propiedad **Sort** en una cadena vacía, se restablecerá el orden original de todas las filas y se eliminarán los índices temporales. Los índices existentes no se eliminarán.
 
-Suponga que **Recordset** contiene tres campos denominados *firstName*, *middleInitial* y *lastName*. Establezca la propiedad **Sort** en la cadena "lastName DESC, firstName  ASC", que ordenará el conjunto de registros por apellidos en orden descendente y, a continuación, por nombre en orden ascendente. La inicial media se omite.
+Suponga que **Recordset** contiene tres campos denominados *firstName*, *middleInitial* y *lastName*. Establezca la propiedad **Sort** en la cadena "lastName DESC, firstName ASC", que ordenará el **objeto Recordset** por apellido en orden descendente y, a continuación, por su nombre en orden ascendente. La inicial media se omite.
 
 Ningún campo puede denominarse "ASC" ni "DESC", ya que esos nombres entran en conflicto con las palabras clave **ASC** y **DESC**. En los campos con nombres en conflicto, utilice un alias mediante la palabra clave **AS** de la consulta que devuelve el objeto **Recordset**.
 

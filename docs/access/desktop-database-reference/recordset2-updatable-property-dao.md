@@ -19,17 +19,17 @@ ms.locfileid: "32309327"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. **Booleano** de solo lectura.
+Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. **Boolean** de sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . Actualizable
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
-Los objetos Recordset de tipo instantánea y de sólo avance siempre devuelven **False**.
+Los objetos Recordset de tipo snapshot y forward-only siempre **devuelven False**.
 
 Muchos tipos de objetos pueden contener campos que no se pueden actualizar. Por ejemplo, puede crear un objeto **Recordset** de tipo Dynaset en el que sólo se pueden modificar algunos campos. Estos campos pueden ser fijos o contener datos que se incrementen automáticamente, o el Dynaset puede resultar de una consulta que combina tablas actualizables y no actualizables.
 

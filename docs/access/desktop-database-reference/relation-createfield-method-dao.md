@@ -24,9 +24,9 @@ Crea un nuevo objeto **[Field](field-object-dao.md)** (solo para áreas de traba
 
 *expresión* . CreateField(***Name***, ***Type***, ***Size***)
 
-*expresión* Variable que representa un **objeto Relation** .
+*expresión* Variable que representa un **objeto Relation.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -74,9 +74,9 @@ Field
 
 Puede usar el método **CreateField** para crear un nuevo campo, así como para especificar el nombre, el tipo de datos y el tamaño del campo. Si omite una o más partes opcionales al usar **CreateField**, puede usar una instrucción de asignación adecuada para configurar o restablecer la propiedad correspondiente antes de anexar el nuevo objeto a la colección. Tras anexar el nuevo objeto, puede modificar algunas, pero no todas, las configuraciones de la propiedad. Consulte los temas de propiedades individuales para obtener más detalles.
 
-Los argumentos de tipo y tamaño sólo se aplican a **objetos Field** en un **objeto TableDef** . Estos argumentos se omiten cuando se asocia un campo **Field** con un objeto **Index** o **Relation**.
+Los argumentos type y size solo se aplican a **objetos Field** de un **objeto TableDef.** Estos argumentos se omiten cuando se asocia un campo **Field** con un objeto **Index** o **Relation**.
 
-Si el nombre hace referencia a un objeto que ya es miembro de la colección, se produce un error en tiempo de ejecución cuando se usa el **[método Append.](fields-append-method-dao.md)**
+Si name hace referencia a un objeto que ya es miembro de la colección, se produce un error en tiempo de ejecución cuando se usa el **[método Append.](fields-append-method-dao.md)**
 
 Para eliminar un objeto **Field** de una colección **Fields**, use el método **[Delete](fields-delete-method-dao.md)** de una colección. No puede eliminar un objeto **Field** de una colección **Fields** de un objeto **TableDef** después de crear un índice que hace referencia al campo.
 

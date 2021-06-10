@@ -23,7 +23,7 @@ La **acción SetReturnVar** crea una variable de devolución y la establece en u
 > [!NOTE]
 > La **acción SetReturnVar** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La **acción SetReturnVar** tiene los argumentos siguientes.
 
@@ -57,19 +57,19 @@ La **acción SetReturnVar** tiene los argumentos siguientes.
 
 ## <a name="remarks"></a>Comentarios
 
-La **acción SetReturnVar** se usa para crear un **ReturnVar**, que es una variable que pueden usar las macros que llaman a una macro de datos mediante la acción **RunDataMacro.**
+La **acción SetReturnVar** se usa para crear **un objeto ReturnVar**, que es una variable que pueden usar las macros que llaman a una macro de datos mediante la acción **RunDataMacro.**
 
-Una vez que la acción **SetReturnVar** crea un **ReturnVar,** la macro que llama puede usarla en una expresión. Por ejemplo, si creó un **ReturnVar** denominado **UpdateSuccess**, podría usar la variable mediante la siguiente sintaxis:
+Una vez que la acción **SetReturnVar** crea un **Objeto ReturnVar,** la macro que llama puede usarla en una expresión. Por ejemplo, si creó un **ReturnVar** denominado **UpdateSuccess**, podría usar la variable mediante la sintaxis siguiente:
 
 ```vb
     =[ReturnVars]![UpdateSuccess]
 ```
 
-La **acción SetReturnVar** sólo se puede usar en macros de datos con nombre. No está disponible en macros de datos adjuntas a un evento de macro de datos.
+La **acción SetReturnVar** solo se puede usar en macros de datos con nombre. No está disponible en macros de datos adjuntas a un evento de macro de datos.
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo usar la acción SetReturnVar para devolver un valor de una macro de datos con nombre. Se devuelve un ReturnVar denominado **CurrentServiceRequest** a la macro o subrutina Visual Basic para Aplicaciones (VBA) que llamó a la macro de datos con nombre.
+En el ejemplo siguiente se muestra cómo usar la acción SetReturnVar para devolver un valor de una macro de datos con nombre. Se devuelve una clase ReturnVar denominada **CurrentServiceRequest** a la subrutina Visual Basic para Aplicaciones (VBA) que llamó a la macro de datos con nombre.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

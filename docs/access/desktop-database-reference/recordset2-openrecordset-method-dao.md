@@ -24,9 +24,9 @@ Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la co
 
 *expression* .OpenRecordset(***Type***, ***Options***)
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

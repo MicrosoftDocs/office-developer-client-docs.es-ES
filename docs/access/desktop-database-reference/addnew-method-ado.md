@@ -1,5 +1,5 @@
 ---
-title: AddNew (método, ADO)
+title: Método AddNew (ADO)
 TOCTitle: AddNew method (ADO)
 ms:assetid: bae09be0-5707-4f38-9c74-0acd0f29dbac
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282516"
 ---
-# <a name="addnew-method-ado"></a>AddNew (método, ADO)
+# <a name="addnew-method-ado"></a>Método AddNew (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

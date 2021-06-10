@@ -24,9 +24,9 @@ Busca el primer registro de un objeto **Recordset** de tipo conjunto de registro
 
 *expression* .FindFirst(***Criteria***)
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -118,7 +118,7 @@ rstEmployees.FindFirst "HireDate > #" _
 Si criteria está compuesto por una cadena concatenada con un valor de tipo no entero y los parámetros del sistema especifican un carácter decimal que no es de EE.UU. como una coma (por ejemplo, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), se produce un error cuando intenta llamar al método. Esto se produce porque durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado de su sistema y Microsoft Access SQL sólo acepta caracteres decimales con el formato estándar de Estados Unidos.
 
 > [!NOTE]
-> - Para obtener un mejor rendimiento, los criterios *** deben tener el formato *"* valor de campo " donde campo es un campo indizado en la tabla base subyacente, o " prefijo LIKE de campo " donde campo es un campo indizado en la tabla base subyacente y prefijo es una cadena de búsqueda de prefijo  =  (por ejemplo, "ART*").     
+> - Para obtener el mejor rendimiento, los criterios *** deben tener el formato "*valor* de campo " donde field es un campo indizado en la tabla base subyacente, o " field LIKE prefix " donde field es un campo indizado en la tabla base subyacente y el prefijo es una cadena de búsqueda de prefijo  =  (por ejemplo, "ART*").     
 > - En general, con tipos de búsquedas equivalentes, el método **Seek** proporciona mejor rendimiento que los métodos **Find**, siempre que no necesite más que los objetos **Recordset** de tipo tabla por sí solos.
 
 

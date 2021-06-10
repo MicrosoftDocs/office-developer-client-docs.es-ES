@@ -25,7 +25,7 @@ No admitido en este objeto.
 
 *expresión* . Actualizar
 
-*expresión* Variable que representa un objeto **Recordsets.**
+*expresión* Variable que representa un **objeto Recordsets.**
 
 ## <a name="remarks"></a>Comentarios
 

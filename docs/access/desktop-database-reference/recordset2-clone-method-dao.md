@@ -24,7 +24,7 @@ Crea un objeto **[Recordset](recordset-object-dao.md)** duplicado que hace refer
 
 *expression* .Clone
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="return-value"></a>Valor devuelto
 

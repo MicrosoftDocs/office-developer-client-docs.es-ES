@@ -1,5 +1,5 @@
 ---
-title: Objetos de ADO MD (referencia de base de datos de escritorio de Access)
+title: Objetos ADO MD (referencia de base de datos de escritorio de Access)
 TOCTitle: ADO MD objects
 ms:assetid: 13501e44-70b6-1036-a8b7-c276f187e4f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
@@ -56,7 +56,7 @@ ms.locfileid: "32283299"
 </tr>
 <tr class="odd">
 <td><p><a href="hierarchy-object-ado-md.md">Hierarchy</a></p></td>
-<td><p>Representa un modo en que los miembros de una dimensión se pueden agregar o &quot; agrupar. &quot; Una dimensión se puede agregar a lo largo de una o más jerarquías.</p></td>
+<td><p>Representa una forma en la que los miembros de una dimensión se pueden agregar o &quot; enrollar. &quot; Una dimensión se puede agregar a lo largo de una o más jerarquías.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="level-object-ado-md.md">Level</a></p></td>

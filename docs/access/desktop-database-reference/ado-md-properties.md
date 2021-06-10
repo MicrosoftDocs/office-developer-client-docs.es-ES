@@ -1,5 +1,5 @@
 ---
-title: ActiveX data objects (ADO) MD properties
+title: ActiveX Propiedades de MD de objetos de datos (ADO)
 TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
@@ -115,7 +115,7 @@ ms.locfileid: "32283292"
 <td><p>Indica el origen de los datos del conjunto de celdas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado-md.md">State</a></p></td>
+<td><p><a href="state-property-ado-md.md">Estado</a></p></td>
 <td><p>Indica el estado actual del conjunto de celdas.</p></td>
 </tr>
 <tr class="odd">

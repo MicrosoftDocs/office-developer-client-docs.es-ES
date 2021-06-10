@@ -42,7 +42,7 @@ Se utiliza con la propiedad **Attributes** para determinar los atributos de un o
 </tr>
 <tr class="even">
 <td><p>dbRelationDontEnforce</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Relación no exigida (sin integridad referencial).</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +62,7 @@ Se utiliza con la propiedad **Attributes** para determinar los atributos de un o
 </tr>
 <tr class="even">
 <td><p>dbRelationUnique</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Relación uno a uno.</p></td>
 </tr>
 <tr class="odd">

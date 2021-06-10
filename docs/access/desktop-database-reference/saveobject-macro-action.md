@@ -63,14 +63,14 @@ Dejar el argumento **Tipo de objeto** en blanco y escribir un nombre nuevo en el
 
 > [!NOTE]
 > No puede utilizar la acción **GuardarObjeto** para guardar cualquiera de los siguientes con un nombre nuevo:
-> - Un formulario en la vista Formulario o la vista Hoja de datos
-> - Un informe en la vista previa de impresión
+> - Un formulario en la vista Formulario o en la vista Hoja de datos
+> - Un informe en vista previa de impresión
 > - Un módulo
-> - Una vista de servidor en la vista Hoja de datos o vista preliminar
+> - Vista de servidor en vista Hoja de datos o Vista previa de impresión
 > - Una página de acceso a datos en la vista Página
 > - Una tabla en la vista Hoja de datos o vista previa de impresión
 > - Una consulta en la vista Hoja de datos o vista previa de impresión
-> - Procedimiento almacenado en la vista Hoja de datos o vista preliminar
+> - Procedimiento almacenado en la vista Hoja de datos o vista previa de impresión
 
 La acción **GuardarObjeto**, si se lleva a cabo en una macro que se ejecuta en la base de datos activa o en una base de datos de biblioteca, siempre guarda el objeto especificado en la base de datos en la que se creó el objeto.
 

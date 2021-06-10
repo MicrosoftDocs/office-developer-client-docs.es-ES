@@ -1,5 +1,5 @@
 ---
-title: Position (propiedad, ADO)
+title: Propiedad Position (ADO)
 TOCTitle: Position property (ADO)
 ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287527"
 ---
-# <a name="position-property-ado"></a>Position (propiedad, ADO)
+# <a name="position-property-ado"></a>Propiedad Position (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

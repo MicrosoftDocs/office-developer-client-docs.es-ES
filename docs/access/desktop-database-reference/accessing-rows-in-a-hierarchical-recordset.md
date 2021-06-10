@@ -29,7 +29,7 @@ En el ejemplo siguiente, se muestran los pasos necesarios para obtener acceso a 
 4. El bucle interno muestra cuatro campos de cada fila en el objeto **Recordset** anexado.
 
 > [!NOTE] 
-> La [propiedad StayInSync](stayinsync-property-ado.md) se establece en FALSE a modo de ilustración, por lo que puede ver el cambio de capítulo explícitamente en cada iteración del bucle externo. Sin embargo, el ejemplo será más eficiente si la asignación en el paso 3 se traslada antes de la primera línea del paso 2, para que la asignación sólo se realice una vez. Establezca la **propiedad StayInSync** en TRUE, de modo que *rstTitleAuthor* cambie implícita y automáticamente al capítulo correspondiente siempre que *rst* se mueva a una nueva fila.
+> La [propiedad StayInSync](stayinsync-property-ado.md) se establece en FALSE para fines ilustrativos, por lo que puede ver el cambio de capítulo explícitamente en cada iteración del bucle externo. Sin embargo, el ejemplo será más eficiente si la asignación en el paso 3 se traslada antes de la primera línea del paso 2, para que la asignación sólo se realice una vez. Establezca la **propiedad StayInSync** en TRUE, de modo que *rstTitleAuthor* cambie implícita y automáticamente al capítulo correspondiente siempre que *rst* se mueva a una nueva fila.
 
 **Ejemplo**
 

@@ -24,7 +24,7 @@ Crea un nuevo registro para un objeto **Recordset2** actualizable.
 
 *expression* .AddNew
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

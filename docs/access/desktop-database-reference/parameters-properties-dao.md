@@ -1,5 +1,5 @@
 ---
-title: Propiedades de parámetros (DAO)
+title: Propiedades parameters (DAO)
 TOCTitle: Properties
 ms:assetid: 5ab55b3c-f745-40a7-a31b-ebd46aadbb70
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124957(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287800"
 ---
-# <a name="parameters-properties-dao"></a>Propiedades de parámetros (DAO)
+# <a name="parameters-properties-dao"></a>Propiedades parameters (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

@@ -173,7 +173,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-bof-property-dao.md">BOF</a></strong></p></td>
-<td><p>Devuelve un valor que indica si la posición del registro actual está delante del primer registro en un objeto <strong>Recordset</strong>. <strong>Booleano</strong> de solo lectura.</p></td>
+<td><p>Devuelve un valor que indica si la posición del registro actual está delante del primer registro en un objeto <strong>Recordset</strong>. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong></p></td>
@@ -209,7 +209,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-fields-property-dao.md">Fields</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></p></td>
@@ -225,7 +225,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Devuelve la fecha y la hora del último cambio realizado en una tabla base. <strong>Variant</strong> de solo lectura.</p></td>
+<td><p>Devuelve la fecha y la hora del último cambio realizado en una tabla base. <strong>Variant</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-lockedits-property-dao.md">LockEdits</a></strong></p></td>
@@ -233,7 +233,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto especificado. <strong>String</strong> de solo lectura.</p></td>
+<td><p>Devuelve el nombre del objeto especificado. Sólo lectura de la <strong>cadena</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-nomatch-property-dao.md">NoMatch</a></strong></p></td>
@@ -249,7 +249,7 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-recordcount-property-dao.md">RecordCount</a></strong></p></td>
@@ -278,12 +278,12 @@ Un objeto Recordset2 representa los registros de una tabla base o los registros 
 <td><p>Devuelve un valor que indica si un objeto admite transacciones. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-type-property-dao.md">Type</a></strong></p></td>
+<td><p><strong><a href="recordset2-type-property-dao.md">Tipo</a></strong></p></td>
 <td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Booleano</strong> de solo lectura.</p></td>
+<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></p></td>

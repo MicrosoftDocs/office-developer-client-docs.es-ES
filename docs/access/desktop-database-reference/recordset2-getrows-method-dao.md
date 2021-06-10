@@ -24,9 +24,9 @@ Recupera varias filas de un objeto **[Recordset](recordset-object-dao.md)**.
 
 *expression* .GetRows(***NumRows***)
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -78,7 +78,7 @@ Si solicitan más filas que las que están disponibles, **GetRows** devuelve só
 
 `numReturned = UBound(varA,2) + 1`
 
-Debe usar "+ 1" porque la primera fila devuelta está en el elemento de la matriz 0. El número de filas que puede recuperar está limitado por la cantidad de memoria disponible. No debe utilizar **GetRows** para recuperar toda una tabla en una matriz si es grande.
+Debe utilizar "+ 1" porque la primera fila devuelta está en el elemento 0 de la matriz. El número de filas que puede recuperar está limitado por la cantidad de memoria disponible. No debe utilizar **GetRows** para recuperar toda una tabla en una matriz si es grande.
 
 Como **GetRows** devuelve todos los campos de **Recordset** a la matriz, incluidos los campos Memo y Long Binary, es posible que desee usar una consulta que limite los campos devueltos.
 

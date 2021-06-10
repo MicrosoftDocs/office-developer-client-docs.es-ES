@@ -19,7 +19,7 @@ ms.locfileid: "32309321"
 **Se aplica a:** Access 2013, Office 2013
 
 - [Colección Recordsets (DAO)](recordsets-collection-dao.md)
-- [Miembros recordsets (DAO)](recordsets-members-dao.md)
+- [Miembros de recordsets (DAO)](recordsets-members-dao.md)
 - [Propiedades recordsets (DAO)](recordsets-properties-dao.md)
 - [Métodos Recordsets (DAO)](recordsets-methods-dao.md)
 

@@ -28,7 +28,7 @@ Establece o devuelve el número de registro relativo del registro actual de un o
 
 *expression* .AbsolutePosition
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -36,13 +36,13 @@ Puede usar la propiedad **AbsolutePosition** para colocar el puntero del registr
 
 Como el valor de la propiedad **AbsolutePosition** se basa en cero (es decir, un valor de 0 hace referencia al primer registro en el objeto **Recordset2**), no puede establecerlo en un valor mayor o igual al número de registros rellenados; si lo hace se producirá un error capturable. Puede determinar el número de registros rellenados en el objeto **Recordset2** comprobando el valor de la propiedad **RecordCount**. El valor máximo permitido para la propiedad **AbsolutePosition** es el valor de la propiedad **RecordCount** menos 1.
 
-Si no hay ningún registro actual, como cuando no hay registros en el objeto **Recordset2,** **AbsolutePosition** devuelve -1. Si el registro actual se elimina, el valor de la propiedad **AbsolutePosition** no se define y se producirá un error capturable si se le hace referencia. Los registros nuevos se agregan al final de la secuencia.
+Si no hay ningún registro actual, como cuando no hay registros en el **objeto Recordset2,** **AbsolutePosition** devuelve –1. Si el registro actual se elimina, el valor de la propiedad **AbsolutePosition** no se define y se producirá un error capturable si se le hace referencia. Los registros nuevos se agregan al final de la secuencia.
 
 No debería usar esta propiedad como un número de registro suplente. Los marcadores son todavía el método recomendado para retener cierta posición y volver a ella, y son la única manera de colocar el registro actual a través de todos los tipos de objetos **Recordset2**. En particular, la posición de un registro cambia cuando se eliminan uno o más registros anteriores. Además, no se tiene la certeza de que un registro tenga exactamente la misma posición si el objeto **Recordset2** se vuelve a crear porque no se garantiza el orden de los registros individuales en un objeto **Recordset** a no ser que se cree con una instrucción SQL mediante el uso de una cláusula ORDER BY.
 
 > [!NOTE]
 > - Al establecer la propiedad **AbsolutePosition** en un valor mayor que cero en un objeto **Recordset2** recién abierto pero sin rellenar, se provoca un error capturable. Primero, rellene el objeto **Recordset2** mediante el método **MoveLast**.
-> - La propiedad **AbsolutePosition** no está disponible en objetos **Recordset2** de tipo de sólo avance ni en objetos **Recordset2** abiertos desde consultas de paso a través en bases de datos ODBC conectadas por el motor de base de datos de Microsoft Access.
+> - La **propiedad AbsolutePosition** no está disponible en objetos **Recordset2** de solo avance ni en objetos **Recordset2** abiertos desde consultas de paso a través en bases de datos ODBC conectadas al motor de base de datos de Microsoft Access.
 
 ## <a name="example"></a>Ejemplo
 

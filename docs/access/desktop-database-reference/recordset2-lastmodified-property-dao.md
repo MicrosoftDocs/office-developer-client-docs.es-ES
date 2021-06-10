@@ -25,7 +25,7 @@ Devuelve Bookmark que indica el último registro agregado o modificado.
 
 *expresión* . LastModified
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

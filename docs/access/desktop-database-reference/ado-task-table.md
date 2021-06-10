@@ -1,5 +1,5 @@
 ---
-title: ActiveX tabla de tareas de objetos de datos de datos (ADO)
+title: ActiveX Tabla de tareas Objetos de datos (ADO)
 TOCTitle: ADO task table
 ms:assetid: 39671d86-72ac-a7b0-53d2-7a17429b15ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)

@@ -18,7 +18,7 @@ ms.locfileid: "32283222"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En la siguiente tabla se enumeran los productos, herramientas y tecnologías de Microsoft que se deban tratar en la guía del programador *de ADO.* Además, siempre que es posible, proporciona vínculos a temas importantes de la guía.
+En la tabla siguiente se enumeran los productos, herramientas y tecnologías de Microsoft que se debate en la guía del programador *de ADO.* Además, siempre que es posible, proporciona vínculos a temas importantes de la guía.
 
 <table>
 <colgroup>
@@ -58,7 +58,7 @@ En la siguiente tabla se enumeran los productos, herramientas y tecnologías de 
 </tr>
 <tr class="odd">
 <td><p>Internet Information Services</p></td>
-<td><p><a href="chapter-10-records-and-streams.md">Capítulo 10: Objetos Record y Stream</a><br/><br/><a href="streams-and-persistence.md">Secuencias y persistencia</a><br/><br/><a href="using-ado-for-internet-publishing.md">Utilizar ADO para publicaciones en Internet</a><br/><br/><a href="solutions-for-remote-data-access.md">Soluciones para el acceso remoto a datos</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configurar servidores virtuales en IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Especificar subprocesos por procesador en IIS</a><br/><br/><a href="securing-rds-applications.md">Proteger aplicaciones RDS</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Error del servidor internet: acceso denegado&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">OLE DB Provider for Internet Publishing</a><br/><br/><a href="internet-information-services-error-codes.md">Códigos de error de Internet Information Services</a><br/><br/></p></td>
+<td><p><a href="chapter-10-records-and-streams.md">Capítulo 10: Objetos Record y Stream</a><br/><br/><a href="streams-and-persistence.md">Secuencias y persistencia</a><br/><br/><a href="using-ado-for-internet-publishing.md">Utilizar ADO para publicaciones en Internet</a><br/><br/><a href="solutions-for-remote-data-access.md">Soluciones para el acceso remoto a datos</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configurar servidores virtuales en IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Especificar subprocesos por procesador en IIS</a><br/><br/><a href="securing-rds-applications.md">Proteger aplicaciones RDS</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Error de Internet Server: acceso denegado&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">OLE DB Provider for Internet Publishing</a><br/><br/><a href="internet-information-services-error-codes.md">Códigos de error de Internet Information Services</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>JScript</p></td>

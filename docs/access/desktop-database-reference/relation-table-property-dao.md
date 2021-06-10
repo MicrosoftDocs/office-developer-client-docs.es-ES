@@ -29,7 +29,7 @@ Indica el nombre de la tabla principal de un objeto **[Relation](relation-object
 
 *expresión* . Tabla
 
-*expresión* Variable que representa un **objeto Relation** .
+*expresión* Variable que representa un **objeto Relation.**
 
 ## <a name="remarks"></a>Comentarios
 

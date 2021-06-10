@@ -29,7 +29,7 @@ Devuelve el nombre de una tabla de conflictos que contiene los registros de base
 
 *expresión* . ConflictTable
 
-*expresión* Expresión que devuelve un **objeto TableDef** .
+*expresión* Expresión que devuelve un **objeto TableDef.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -41,5 +41,5 @@ Los conflictos se producen en el nivel de registro, no entre campos. Por ejemplo
 
 El mecanismo de sincronización controla los conflictos de registros mediante la creación de tablas de conflictos, que contienen la información que se habría incluido en la tabla si el cambio hubiera tenido éxito. Puede examinar estas tablas de conflictos fila por fila para realizar las correcciones correspondientes.
 
-Todas las tablas en conflicto se denominan conflictos de tabla, donde la tabla es el nombre original de la tabla, truncada a la longitud máxima del nombre \_ de tabla.
+Todas las tablas de conflicto se denominan conflicto de tabla, donde table es el nombre original de la tabla, truncada a la longitud máxima \_ del nombre de tabla.
 

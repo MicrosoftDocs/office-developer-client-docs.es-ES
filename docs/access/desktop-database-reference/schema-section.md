@@ -148,7 +148,7 @@ En los ejemplos siguientes, se muestra con más detalle cómo incluir informaci�
 <s:AttributeType name="title_id" dt:type="int"/> 
 ```
 
-El segundo ejemplo muestra un uso sutil del atributo **rs:fixedlength**. Una columna cuyo atributo **rs:fixedlength** se establece en el valor true (verdadero) significa que los datos deben tener la longitud definida en el esquema. En este caso, un valor legal para el identificador de título es \_ "123456", al igual que "123 ". Sin embargo, "123" no sería válido, ya que su longitud es 3, no 6. Vea la Guía del programador de OLE DB para obtener una descripción más completa de la propiedad **fixedlength**.
+El segundo ejemplo muestra un uso sutil del atributo **rs:fixedlength**. Una columna cuyo atributo **rs:fixedlength** se establece en el valor true (verdadero) significa que los datos deben tener la longitud definida en el esquema. En este caso, un valor legal para el identificador de título \_ es "123456", al igual que "123 ." Sin embargo, "123" no sería válido, ya que su longitud es 3, no 6. Vea la Guía del programador de OLE DB para obtener una descripción más completa de la propiedad **fixedlength**.
 
 ## <a name="handling-nulls"></a>Tratamiento de valores nulos
 
@@ -164,14 +164,14 @@ Los valores nulos (null) los controla el atributo **rs:maybenull**. Si se establ
 </s:AttributeType> 
 ```
 
-La definición permite que CompanyName sea nulo, pero ShipperID no puede contener ningún valor nulo. Si la sección de datos contenía la siguiente fila, el proveedor de persistencia establecería el estado de los datos de la columna CompanyName en la constante de estado DBSTATUS S ISNULL de OLE \_ \_ DB:
+La definición permite que CompanyName sea nulo, pero ShipperID no puede contener ningún valor nulo. Si la sección de datos contenía la fila siguiente, el proveedor de persistencia establecería el estado de los datos de la columna CompanyName en la constante de estado DE OLE DB DBSTATUS \_ S \_ ISNULL:
 
 ```xml 
  
 <z:row ShipperID="1"/> 
 ```
 
-Si la fila estaba completamente vacía, como se muestra a continuación, el proveedor de persistencia devolvería un estado OLE DBSTATUS E UNAVAILABLE para \_ \_ ShipperID y DBSTATUS \_ S \_ ISNULL para CompanyName.
+Si la fila estaba completamente vacía, como se muestra a continuación, el proveedor de persistencia devolvería un estado OLE DB de DBSTATUS \_ E \_ UNAVAILABLE para ShipperID y DBSTATUS \_ S \_ ISNULL para CompanyName.
 
 ```xml 
  

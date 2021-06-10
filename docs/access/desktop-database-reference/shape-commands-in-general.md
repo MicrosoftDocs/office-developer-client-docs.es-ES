@@ -72,7 +72,7 @@ Para obtener información sobre cómo desplazarse por un objeto **Recordset** je
 
 Para obtener información precisa sobre los comandos Shape sintácticamente correctos, vea [Gramática formal del comando Shape](formal-shape-grammar.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Emisión de comandos al proveedor de datos subyacente](issuing-commands-to-the-underlying-data-provider.md)
 

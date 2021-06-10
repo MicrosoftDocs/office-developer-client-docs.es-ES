@@ -23,13 +23,13 @@ ms.locfileid: "32307311"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve la fecha y la hora del último cambio realizado en una tabla base. **Variant** de solo lectura.
+Devuelve la fecha y la hora del último cambio realizado en una tabla base. **Variant** de sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . LastUpdated
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

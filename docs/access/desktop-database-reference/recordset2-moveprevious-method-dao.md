@@ -25,7 +25,7 @@ Se desplaza al registro anterior de un objeto **Recordset** especificado y convi
 
 *expresión* . MovePrevious
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

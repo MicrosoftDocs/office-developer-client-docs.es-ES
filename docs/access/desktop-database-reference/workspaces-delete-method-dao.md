@@ -24,9 +24,9 @@ Elimina el objeto **Workspace** especificado de la colección **Workspaces**.
 
 *expresión* . Delete(***Name***)
 
-*expresión* Variable que representa un objeto **Workspaces** .
+*expresión* Variable que representa un **objeto Workspaces.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

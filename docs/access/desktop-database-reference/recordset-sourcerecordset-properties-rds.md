@@ -1,5 +1,5 @@
 ---
-title: Propiedades Recordset y SourceRecordset (RDS)
+title: Propiedades Recordset, SourceRecordset (RDS)
 TOCTitle: Recordset, SourceRecordset properties (RDS)
 ms:assetid: 5f4bb72d-ddfa-41c0-c353-b3a6632b4a91
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249345(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307591"
 ---
-# <a name="recordset-sourcerecordset-properties-rds"></a>Propiedades Recordset y SourceRecordset (RDS)
+# <a name="recordset-sourcerecordset-properties-rds"></a>Propiedades Recordset, SourceRecordset (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 

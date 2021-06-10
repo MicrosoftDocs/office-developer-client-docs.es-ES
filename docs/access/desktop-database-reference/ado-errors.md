@@ -1,5 +1,5 @@
 ---
-title: ActiveX de objetos de datos de datos (ADO)
+title: ActiveX Errores de objetos de datos (ADO)
 TOCTitle: ADO errors
 ms:assetid: 02fcf563-ce2d-9ef7-b8ae-2795f667335a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32283383"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Los errores de ADO se notifican a su programa como errores en tiempo de ejecución. Puede usar el mecanismo de interceptación de errores de su lenguaje de programación para interceptarlos y controlarlos. Por ejemplo, en Visual Basic, use la instrucción **On Error**. En Visual J++, use un bloque **try-catch**. En Visual C++, depende del método que esté usando para obtener acceso a las bibliotecas ADO. Con \# la importación, use un **bloque try-catch.** De lo contrario, los programadores de C++ tienen que recuperar explícitamente el objeto de error llamando a **GetErrorInfo**. El siguiente procedimiento Sub de Visual Basic muestra cómo interceptar un error en ADO:
+Los errores de ADO se notifican a su programa como errores en tiempo de ejecución. Puede usar el mecanismo de interceptación de errores de su lenguaje de programación para interceptarlos y controlarlos. Por ejemplo, en Visual Basic, use la instrucción **On Error**. En Visual J++, use un bloque **try-catch**. En Visual C++, depende del método que esté usando para obtener acceso a las bibliotecas ADO. Con \# import, use un **bloque try-catch.** De lo contrario, los programadores de C++ tienen que recuperar explícitamente el objeto de error llamando a **GetErrorInfo**. El siguiente procedimiento Sub de Visual Basic muestra cómo interceptar un error en ADO:
 
 ```vb 
  
@@ -77,7 +77,7 @@ End Sub
 ' EndErrorHandlingVB01 
 ```
 
-Este **procedimiento de evento \_ De** carga de formulario crea intencionalmente un error al intentar abrir el mismo objeto **Connection** dos veces. La segunda vez que se llama al método **Open**, se activa el controlador de errores. En este caso, el error es de tipo **adErrObjectOpen**, de modo que el controlador de errores muestra el siguiente mensaje antes de reanudar la ejecución del programa:
+Este **procedimiento de evento De \_ carga** de formulario crea intencionadamente un error al intentar abrir el mismo **objeto Connection** dos veces. La segunda vez que se llama al método **Open**, se activa el controlador de errores. En este caso, el error es de tipo **adErrObjectOpen**, de modo que el controlador de errores muestra el siguiente mensaje antes de reanudar la ejecución del programa:
 
 ```vb 
 Error #3705: Operation is not allowed when the object is open. 

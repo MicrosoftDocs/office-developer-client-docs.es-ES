@@ -22,7 +22,7 @@ Escribe una cadena de texto especificada en un objeto [Stream](stream-object-ado
 
 ## <a name="syntax"></a>Sintaxis
 
-*Stream*. Datos de *WriteText*, *Opciones*
+*Stream*. Datos *de* WriteText , *Opciones*
 
 ## <a name="parameters"></a>Parámetros
 

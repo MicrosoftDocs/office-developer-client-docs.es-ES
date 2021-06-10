@@ -32,7 +32,7 @@ En estos temas, se muestran ejemplos de código para ayudarle a comprender cómo
 - [Ejemplo de los métodos GetPermissions y SetPermissions (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
 - [Ejemplo de los métodos ChangePassword y Append de Users y Groups (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
 - [Ejemplo del método Append de Indexes (VC++)](indexes-append-method-example-vc.md)
-- [Ejemplo de método Append de Keys, propiedades Type, RelatedColumn, RelatedTable y UpdateRule de Keys (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Ejemplo de las propiedades Keys Append , Key Type, RelatedColumn, RelatedTable y UpdateRule (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
 ## <a name="properties"></a>Propiedades
 
@@ -45,8 +45,8 @@ En estos temas, se muestran ejemplos de código para ayudarle a comprender cómo
 - [Ejemplo de la propiedad DefinedSize (VC++)](definedsize-property-example-vc.md)
 - [Ejemplo de la propiedad DeleteRule (VC++)](deleterule-property-example-vc.md)
 - [Ejemplo de la propiedad IndexNulls (VC++)](indexnulls-property-example-vc.md)
-- [Ejemplo de las propiedades Key Type, RelatedColumn, RelatedTable y UpdateRule, y el método Append de Keys (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
-- [Ejemplo de propiedad Name, métodos Append de Columns y Tables (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
+- [Ejemplo del método Key Type, RelatedColumn, RelatedTable, UpdateRule, Keys Append (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Ejemplo de propiedad Name, Columns y Tables Append (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
 - [Ejemplo de propiedades NumericScale y Precision (VC++)](numericscale-and-precision-properties-example-vc.md)
 - [Ejemplo de la propiedad ParentCatalog (VC++)](parentcatalog-property-example-vc.md)
 - [Ejemplo de las propiedades PrimaryKey y Unique (VC++)](primarykey-and-unique-properties-example-vc.md)

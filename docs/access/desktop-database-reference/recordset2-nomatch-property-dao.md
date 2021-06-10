@@ -24,7 +24,7 @@ Indica si se ha encontrado un registro determinado utilizando el método **[Seek
 
 *expression* .NoMatch
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

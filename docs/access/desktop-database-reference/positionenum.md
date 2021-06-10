@@ -55,7 +55,7 @@ Especifica la posición actual del puntero de registro dentro de un objeto [Reco
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

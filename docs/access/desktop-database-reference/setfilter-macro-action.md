@@ -24,7 +24,7 @@ ms.locfileid: "32308697"
 
 Puede utilizar la acción **EstablecerFiltro** para aplicar un filtro a los registros de la hoja de datos, formulario, informe o tabla que esté activo.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **EstablecerFiltro** utiliza los siguientes argumentos.
 

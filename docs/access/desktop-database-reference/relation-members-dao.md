@@ -1,5 +1,5 @@
 ---
-title: Miembros relation (DAO)
+title: Miembros de relación (DAO)
 TOCTitle: Relation Members
 ms:assetid: 9ee36e7d-3825-1de8-65fb-64bbcada847c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307040"
 ---
-# <a name="relation-members-dao"></a>Miembros relation (DAO)
+# <a name="relation-members-dao"></a>Miembros de relación (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -63,11 +63,11 @@ Un objeto Relation representa una relación entre campos de tablas o consultas (
 </tr>
 <tr class="even">
 <td><p><strong><a href="relation-fields-property-dao.md">Fields</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="relation-foreigntable-property-dao.md">ForeignTable</a></strong></p></td>
-<td><p>Establece o devuelve el nombre de la tabla externa en una relación (solo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Establece o devuelve el nombre de la tabla externa en una relación (solo en áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="relation-name-property-dao.md">Name</a></strong></p></td>
@@ -79,7 +79,7 @@ Un objeto Relation representa una relación entre campos de tablas o consultas (
 </tr>
 <tr class="even">
 <td><p><strong><a href="relation-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="relation-table-property-dao.md">Tabla</a></strong></p></td>

@@ -25,7 +25,7 @@ Devuelve o establece el nombre del objeto especificado. **String** de lectura y 
 
 *expresión* . Nombre
 
-*expresión* Variable que representa un **objeto Relation** .
+*expresión* Variable que representa un **objeto Relation.**
 
 ## <a name="remarks"></a>Comentarios
 

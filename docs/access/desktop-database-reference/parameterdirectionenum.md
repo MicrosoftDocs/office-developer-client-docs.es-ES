@@ -37,17 +37,17 @@ Especifica si el objeto [Parameter](parameter-object-ado.md) representa un pará
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamInput</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Valor predeterminado. Indica que el parámetro representa un parámetro de entrada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adParamInputOutput</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indica que el parámetro representa un parámetro de entrada y de salida.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adParamOutput</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica que el parámetro representa un parámetro de salida.</p></td>
 </tr>
 <tr class="even">

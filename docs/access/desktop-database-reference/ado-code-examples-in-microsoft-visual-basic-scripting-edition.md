@@ -31,5 +31,5 @@ Utilice los siguientes ejemplos de código para aprender a utilizar los métodos
 - [Ejemplo de los métodos Execute, Requery y Clear](execute-requery-and-clear-methods-example-vbscript.md)
 - [Ejemplo del método Move](move-method-example-vbscript.md)
 - [Ejemplo de los métodos MoveFirst, MoveLast, MoveNext y MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
-- [Ejemplo de los métodos Open y Close](open-and-close-methods-example-vbscript.md)
+- [Ejemplo de métodos Open y Close](open-and-close-methods-example-vbscript.md)
 

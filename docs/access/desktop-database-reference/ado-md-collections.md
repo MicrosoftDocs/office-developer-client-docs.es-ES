@@ -1,5 +1,5 @@
 ---
-title: ActiveX de objetos de datos de datos (ADO) MD
+title: ActiveX Colecciones MD de objetos de datos (ADO)
 TOCTitle: ADO MD collections
 ms:assetid: dc7df649-80bb-b517-f084-2bfa780fb2f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250115(v=office.15)

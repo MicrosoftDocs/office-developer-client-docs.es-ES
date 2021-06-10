@@ -37,7 +37,7 @@ Se utiliza con el método **Synchronize** para determinar el tipo de sincronizac
 <tbody>
 <tr class="odd">
 <td><p>dbRepExportChanges</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Envía cambios de la base de datos actual a la base de datos de destino.</p></td>
 </tr>
 <tr class="even">
@@ -47,7 +47,7 @@ Se utiliza con el método **Synchronize** para determinar el tipo de sincronizac
 </tr>
 <tr class="odd">
 <td><p>dbRepImportChanges</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Recibe cambios de la base de datos de destino.</p></td>
 </tr>
 <tr class="even">

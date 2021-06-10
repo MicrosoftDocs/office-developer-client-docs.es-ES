@@ -1,5 +1,5 @@
 ---
-title: ActiveX data objects (ADO)
+title: ActiveX Métodos de objetos de datos (ADO)
 TOCTitle: ADO methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
@@ -113,7 +113,7 @@ ms.locfileid: "32283285"
 <td><p>Ejecuta la consulta especificada, la instrucción SQL, el procedimiento almacenado o el texto específico del proveedor.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Buscar</a></p></td>
+<td><p><a href="find-method-ado.md">Find</a></p></td>
 <td><p>Busca en un objeto <strong>Recordset</strong> la fila que cumple los criterios especificados.</p></td>
 </tr>
 <tr class="even">

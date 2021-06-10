@@ -65,5 +65,5 @@ La acción **EjecutarImportaciónExportaciónGuardada** tiene el siguiente argum
 
 - La sección **Vea también** incluye vínculos a más información sobre cómo guardar y ejecutar las especificaciones de importación y exportación.
 
-- Si la especificación de importación  o exportación guardada que elija para el argumento Nombre de exportación de importación guardado se elimina después de crear la macro, Access muestra el siguiente mensaje de error cuando se ejecuta la macro: la especificación con el índice especificado no **existe. Especifique un índice diferente. '*****nombre de especificación*****'.**
+- Si la especificación de importación o exportación guardada que elija para el argumento **Nombre** de exportación de importación guardado se elimina después de crear la macro, Access muestra el siguiente mensaje de error cuando se ejecuta la macro: la especificación con el índice especificado no **existe. Especifique un índice diferente. '*****nombre de especificación*****'.**
 

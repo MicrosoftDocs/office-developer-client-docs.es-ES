@@ -110,4 +110,4 @@ Esta sección incluye los siguientes temas:
 
 - [Conservación de conjuntos de registros filtrados y jerárquicos](persisting-filtered-and-hierarchical-recordsets.md)
 
-- [Conservación de registros en formato XML (ADO)](persisting-records-in-xml-format.md)
+- [Registros persistentes en formato XML (ADO)](persisting-records-in-xml-format.md)

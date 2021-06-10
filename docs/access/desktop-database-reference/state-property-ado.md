@@ -1,5 +1,5 @@
 ---
-title: State (propiedad, ADO)
+title: Propiedad State (ADO)
 TOCTitle: State property (ADO)
 ms:assetid: ade0a50c-e2d8-23ac-4ea9-b012fedcd5db
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249819(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308536"
 ---
-# <a name="state-property-ado"></a>State (propiedad, ADO)
+# <a name="state-property-ado"></a>Propiedad State (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

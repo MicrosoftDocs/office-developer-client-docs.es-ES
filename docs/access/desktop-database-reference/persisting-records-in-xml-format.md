@@ -55,7 +55,7 @@ rs.Open "titles.sav",,,,adCmdFile
 rs2.open s 
 ```
 
-ADO siempre conserva el objeto **Recordset** completo. Si solo desea conservar un subconjunto de filas del objeto **Recordset**, use el método **Filter** para reducir el número de filas o cambie la cláusula de selección. Sin embargo, debe abrir un objeto **Recordset** con un cursor de cliente (**CursorLocation**  =  **adUseClient**) para usar el método **Filter** para guardar un subconjunto de filas. Por ejemplo, para recuperar títulos que empiecen por la letra "b", puede aplicar un filtro a un objeto **Recordset** abierto:
+ADO siempre conserva el objeto **Recordset** completo. Si solo desea conservar un subconjunto de filas del objeto **Recordset**, use el método **Filter** para reducir el número de filas o cambie la cláusula de selección. Sin embargo, debe abrir un **objeto Recordset** con un cursor del lado cliente (**CursorLocation**  =  **adUseClient**) para usar el **método Filter** para guardar un subconjunto de filas. Por ejemplo, para recuperar títulos que empiecen por la letra "b", puede aplicar un filtro a un objeto **Recordset** abierto:
 
 ```vb 
  
@@ -71,7 +71,7 @@ Esta sección incluye los siguientes temas:
 
 - [Espacios de nombres](namespaces.md)
 
-- [Sección de esquema](schema-section.md)
+- [Sección esquema](schema-section.md)
 
 - [Sección de datos](data-section.md)
 

@@ -19,5 +19,5 @@ ms.locfileid: "32284528"
 **Se aplica a:** Access 2013, Office 2013
 
 - [Objeto Recordset (ADO)](recordset-object-ado.md)
-- [Propiedades, métodos y eventos (ADO) de Recordset](recordset-properties-methods-and-events-ado.md)
+- [Propiedades, métodos y eventos recordset (ADO)](recordset-properties-methods-and-events-ado.md)
 

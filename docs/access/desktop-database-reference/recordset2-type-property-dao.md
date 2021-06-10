@@ -29,7 +29,7 @@ Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de
 
 *expression* .Type
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 

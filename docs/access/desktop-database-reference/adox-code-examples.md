@@ -1,5 +1,5 @@
 ---
-title: Ejemplos de código de ADOX (referencia de base de datos de escritorio de Access)
+title: Ejemplos de código ADOX (referencia de base de datos de escritorio de Access)
 TOCTitle: ADOX code examples
 ms:assetid: 706689e7-8b34-59eb-533b-65fb73f1eb5f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249443(v=office.15)

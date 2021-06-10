@@ -19,11 +19,11 @@ ms.locfileid: "32307095"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado. Solo lectura.
+Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado. Sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . Campos
 
-*expresión* Variable que representa un **objeto Relation** .
+*expresión* Variable que representa un **objeto Relation.**
 

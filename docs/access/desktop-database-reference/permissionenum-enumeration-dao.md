@@ -37,7 +37,7 @@ Se utiliza con la propiedad **Permissions** para especificar el tipo de permisos
 <tbody>
 <tr class="odd">
 <td><p>dbSecCreate</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>El usuario puede crear documentos nuevos (no es válido para objetos Document).</p></td>
 </tr>
 <tr class="even">
@@ -47,7 +47,7 @@ Se utiliza con la propiedad **Permissions** para especificar el tipo de permisos
 </tr>
 <tr class="odd">
 <td><p>dbSecDBCreate</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>El usuario puede crear nuevas bases de datos. Esta opción sólo es válida en el contenedor de bases de datos en el archivo de información del grupo de trabajo (Systen.mdw). Esta constante no es válida para objetos Document.</p></td>
 </tr>
 <tr class="even">
@@ -57,7 +57,7 @@ Se utiliza con la propiedad **Permissions** para especificar el tipo de permisos
 </tr>
 <tr class="odd">
 <td><p>dbSecDBOpen</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>El usuario puede abrir la base de datos.</p></td>
 </tr>
 <tr class="even">

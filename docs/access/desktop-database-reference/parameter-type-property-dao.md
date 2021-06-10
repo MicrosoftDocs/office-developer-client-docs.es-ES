@@ -19,13 +19,13 @@ ms.locfileid: "32288024"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Valor **Entero** de lectura y escritura.
+Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. **Integer** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expression* .Type
 
-*expresión* Variable que representa un objeto **Parameter.**
+*expresión* Variable que representa un **objeto Parameter.**
 
 ## <a name="remarks"></a>Comentarios
 

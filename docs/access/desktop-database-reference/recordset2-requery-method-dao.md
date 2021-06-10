@@ -28,9 +28,9 @@ Actualiza los datos en un objeto **[Recordset](recordset-object-dao.md)** al vol
 
 *expression* .Requery(***NewQueryDef***)
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ Actualiza los datos en un objeto **[Recordset](recordset-object-dao.md)** al vol
 
 ## <a name="remarks"></a>Comentarios
 
-Use este método para asegurarse de que un **Recordset** contiene los datos más recientes. Este método rellena el objeto **Recordset** usando los parámetros de consulta actuales o (en un área de trabajo de Microsoft Access) los nuevos parámetros proporcionados por el argumento newquerydef.
+Use este método para asegurarse de que un objeto **Recordset** contiene los datos más recientes. Este método rellena el objeto **Recordset** usando los parámetros de consulta actuales o (en un área de trabajo de Microsoft Access) los nuevos parámetros proporcionados por el argumento newquerydef.
 
 Si no especifica un argumento newquerydef, **Recordset** se rellena basándose en la misma definición de consulta y parámetros que se usaron originalmente para llenar **Recordset**. Cualquier cambio en los datos subyacentes se reflejará durante este nuevo relleno. Si no usó **QueryDef** para crear **Recordset**, **Recordset** se vuelve a crear desde cero.
 

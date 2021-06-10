@@ -1,5 +1,5 @@
 ---
-title: 'Método Seek: ActiveX Data Objects (ADO)'
+title: 'Método Seek: ActiveX data objects (ADO)'
 TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)

@@ -25,7 +25,7 @@ Cierra un **Recordset** abierto.
 
 *expression* .Close
 
-*expresión* Variable que representa un objeto **Recordset2.**
+*expresión* Variable que representa un **objeto Recordset2.**
 
 ## <a name="remarks"></a>Comentarios
 
