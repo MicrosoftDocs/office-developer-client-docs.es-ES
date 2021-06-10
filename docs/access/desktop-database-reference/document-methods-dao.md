@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293801"
 ---
-# <a name="document-methods-dao"></a>Métodos document (DAO)
+# <a name="document-methods-dao"></a>Métodos Document (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013

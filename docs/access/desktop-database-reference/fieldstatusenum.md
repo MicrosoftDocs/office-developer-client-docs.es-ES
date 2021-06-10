@@ -60,7 +60,7 @@ Los valores **adFieldPending\*** indican la operación que provocó el estado, y
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldCantConvertValue</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica que el campo no se puede recuperar ni almacenar sin pérdida de datos.</p></td>
 </tr>
 <tr class="even">
@@ -75,7 +75,7 @@ Los valores **adFieldPending\*** indican la operación que provocó el estado, y
 </tr>
 <tr class="even">
 <td><p><strong>adFieldDefault</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Indica que se utilizó el valor predeterminado del campo al establecer los datos.</p></td>
 </tr>
 <tr class="odd">
@@ -85,12 +85,12 @@ Los valores **adFieldPending\*** indican la operación que provocó el estado, y
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIgnore</strong></p></td>
-<td><p>15 </p></td>
+<td><p>15</p></td>
 <td><p>Indica que se omitió este campo al establecer los valores de los datos en el origen. El proveedor no estableció ningún valor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIntegrityViolation</strong></p></td>
-<td><p>10  </p></td>
+<td><p>10</p></td>
 <td><p>Indica que no se puede modificar el campo porque es una entidad calculada o derivada.</p></td>
 </tr>
 <tr class="even">
@@ -100,7 +100,7 @@ Los valores **adFieldPending\*** indican la operación que provocó el estado, y
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIsNull</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indica que el proveedor devolvió un valor VARIANT de tipo VT_NULL y que el campo no está vacío.</p></td>
 </tr>
 <tr class="even">
@@ -192,7 +192,7 @@ Los valores **adFieldPending\*** indican la operación que provocó el estado, y
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

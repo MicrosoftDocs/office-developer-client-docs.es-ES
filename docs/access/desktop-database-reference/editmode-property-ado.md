@@ -1,5 +1,5 @@
 ---
-title: EditMode (propiedad, ADO)
+title: Propiedad EditMode (ADO)
 TOCTitle: EditMode property (ADO)
 ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293612"
 ---
-# <a name="editmode-property-ado"></a>EditMode (propiedad, ADO)
+# <a name="editmode-property-ado"></a>Propiedad EditMode (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -31,7 +31,7 @@ ADO mantiene un búfer de modificación asociado al registro actual. Esta propie
 
 Vea el método [AddNew](addnew-method-ado.md) para obtener una descripción más detallada de la propiedad **EditMode** en condiciones de modificación diferentes.
 
-Cuando una llamada a [Delete](delete-method-ado-recordset.md) no elimina correctamente el registro o los registros del origen [](recordset-object-ado.md) de datos (debido a infracciones de integridad referencial, por ejemplo), el conjunto de registros permanecerá en modo de edición (**EditMode**  =  **adEditInProgress**). Eso significa que es necesario llamar a **CancelUpdate** antes de quitar el registro actual (con [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) o [Close](close-method-ado.md), por ejemplo).
+Cuando una llamada a [Delete](delete-method-ado-recordset.md) no elimina correctamente el registro o los registros del origen de datos (debido a infracciones de integridad referencial, por ejemplo), [recordset](recordset-object-ado.md) permanecerá en modo de edición (**EditMode**  =  **adEditInProgress**). Eso significa que es necesario llamar a **CancelUpdate** antes de quitar el registro actual (con [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md) o [Close](close-method-ado.md), por ejemplo).
 
 
 > [!NOTE]

@@ -24,7 +24,7 @@ Puede utilizar el bloque de datos **EditarRegistro** para cambiar los valores co
 > El bloque de datos **EditarRegistro** solo está disponible en macros de datos.
 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 El bloque de datos **EditarRegistro** tiene los siguientes argumentos.
 

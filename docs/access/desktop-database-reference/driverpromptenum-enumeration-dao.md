@@ -42,17 +42,17 @@ Especifica si se ha de preguntar al usuario para establecer una conexión y cuá
 </tr>
 <tr class="even">
 <td><p>dbDriverCompleteRequired</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>(Valor predeterminado) Se comporta como <strong>dbDriverComplete</strong>, con la excepción de que el controlador deshabilita los controles correspondientes a la información no necesaria para realizar la conexión.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbDriverNoPrompt</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>El administrador de controladores utiliza la cadena de conexión proporcionada al establecer conexión. Si no se proporciona información suficiente, se devuelve un error interceptable.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbDriverPrompt</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>El administrador de controladores muestra el cuadro de diálogo <strong>Orígenes de datos ODBC</strong>. La cadena de conexión utilizada para establecer la conexión se crea a partir del nombre del origen de datos (DSN) seleccionado y cumplimentado por el usuario a través de los cuadros de diálogo.</p></td>
 </tr>
 </tbody>

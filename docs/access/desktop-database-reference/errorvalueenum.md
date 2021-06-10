@@ -26,10 +26,10 @@ Se muestran tres formas del número de error:
 
 - Decimal negativo: la traducción decimal del número de error completo.
 
-- Hexadecimal: la representación hexadecimal del número de error completo. El código de servicio de Windows se encuentra en el cuarto dígito. El código de instalación de los números de error de ADO es *A*. Por ejemplo: 0x800 ***A*** 0E7B.
+- Hexadecimal: la representación hexadecimal del número de error completo. El código de servicio de Windows se encuentra en el cuarto dígito. El código de servicio para números de error ADO es *A*. Por ejemplo: 0x800 ***A*** 0E7B.
 
 > [!NOTE]
-> Los errores OLE DB se pueden pasar a una aplicación ADO. Éstos, normalmente, se pueden identificar por un código de servicio de Windows de *4* dígitos. Por ejemplo, 0x800_ **4** _.... Para obtener más información acerca de estos números, vea el capítulo 16 de la referencia del programador *de OLE DB.*
+> Los errores OLE DB se pueden pasar a una aplicación ADO. Éstos, normalmente, se pueden identificar por un código de servicio de Windows de *4* dígitos. Por ejemplo, 0x800_ **4** _.... Para obtener más información acerca de estos números, vea el capítulo 16 de la Referencia del *programador de OLE DB.*
 
 <br/>
 
@@ -80,7 +80,7 @@ Se muestran tres formas del número de error:
 <td><p>3724<br />
 -2146824564<br />
 0x800A0E8C</p></td>
-<td><p>El valor de los datos no se puede convertir por motivos distintos a un desajuste entre signos o a un desbordamiento de datos. Por ejemplo, la conversión habría truncado los datos.</p></td>
+<td><p>El valor de los datos no se puede convertir por motivos distintos a un desajuste entre signos o a un desbordamiento de datos. Por ejemplo, puede que la conversión haya truncado datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrCantCreate</strong></p></td>
@@ -150,7 +150,7 @@ Se muestran tres formas del número de error:
 <td><p>3749<br />
 -2146824539<br />
 0x800A0EA5</p></td>
-<td><p>Error en la actualización de campos. Para obtener más información, examine la propiedad <strong>Status</strong> de cada objeto de campo.</p></td>
+<td><p>La actualización de campos no se realizó correctamente. Para obtener más información, examine la propiedad <strong>Status</strong> de cada objeto de campo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrIllegalOperation</strong></p></td>
@@ -192,7 +192,7 @@ Se muestran tres formas del número de error:
 <td><p>3708<br />
 -2146824580<br />
 0x800A0E7C</p></td>
-<td><p>El objeto <strong>Parameter</strong> no se ha definido correctamente. Se proporcionó información incoherente o incompleta.</p></td>
+<td><p>El objeto <strong>Parameter</strong> no se ha definido correctamente. Se proporcionó información incoherente o incompleta.  </p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrInvalidTransaction</strong></p></td>
@@ -220,7 +220,7 @@ Se muestran tres formas del número de error:
 <td><p>3021<br />
 -2146825267<br />
 0x800A0BCD</p></td>
-<td><p><strong>BOF</strong> o <strong>EOF</strong> es True, o bien el registro actual se ha eliminado. La operación solicitada requiere un registro actual.</p></td>
+<td><p><strong>BOF</strong> o <strong>EOF</strong> es True o se ha eliminado el registro actual. La operación solicitada requiere un registro actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrNotExecuting</strong></p></td>
@@ -283,7 +283,7 @@ Se muestran tres formas del número de error:
 <td><p>3734<br />
 -2146824554<br />
 0x800A0E96</p></td>
-<td><p>No se puede realizar operación. El proveedor no puede obtener suficiente espacio de almacenamiento.</p></td>
+<td><p>No se puede realizar la operación. El proveedor no puede obtener suficiente espacio de almacenamiento.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adErrPermissionDenied</strong></p></td>
@@ -318,7 +318,7 @@ Se muestran tres formas del número de error:
 <td><p>3731<br />
 -2146824557<br />
 0x800A0E93</p></td>
-<td><p>No se puede realizar una operación de copia. El objeto mencionado en la dirección URL de destino ya existe. Especifique <strong>adCopyOverwrite</strong> para reemplazar el objeto.</p></td>
+<td><p>No se puede realizar la operación de copia. El objeto denominado por la dirección URL de destino ya existe. Especifique <strong>adCopyOverwrite</strong> para reemplazar el objeto.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrResourceLocked</strong></p></td>
@@ -349,14 +349,14 @@ Se muestran tres formas del número de error:
 <td><p>La conversión produjo un error porque el valor de los datos tenía signo y el tipo de datos de campo utilizado por el proveedor no tenía signo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrStengConnecting</strong></p></td>
+<td><p><strong>adErrStillConnecting</strong></p></td>
 <td><p>3713<br />
 -2146824575<br />
 0x800A0E81</p></td>
 <td><p>No se puede realizar la operación mientras se conecta asincrónicamente.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrStjerExecuting</strong></p></td>
+<td><p><strong>adErrStillExecuting</strong></p></td>
 <td><p>3711<br />
 -2146824577<br />
 0x800A0E7F</p></td>
@@ -402,7 +402,7 @@ Se muestran tres formas del número de error:
 <td><p>3733<br />
 -2146824555<br />
 0x800A0E95</p></td>
-<td><p>El proveedor no puede encontrar el dispositivo de almacenamiento que indica la dirección URL. Asegúrese de que la dirección URL está escrita correctamente.</p></td>
+<td><p>El proveedor no puede encontrar el dispositivo de almacenamiento indicado por la dirección URL. Asegúrese de que la dirección URL está escrita correctamente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adErrWriteFile</strong></p></td>

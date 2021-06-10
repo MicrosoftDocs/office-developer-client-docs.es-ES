@@ -29,7 +29,7 @@ Indica el valor mediante el que se van a filtrar registros.
 |Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Valor de tipo **String** que representa un valor de datos con el que se filtran los registros (por ejemplo, "Programmer" o 125 ).|
+|*String* |Valor **string** que representa un valor de datos con el que filtrar registros (por ejemplo, "Programador" o 125 ).|
 
 ## <a name="remarks"></a>Comentarios
 

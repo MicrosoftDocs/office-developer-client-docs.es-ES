@@ -30,7 +30,7 @@ Devuelve un valor numérico que especifica un error.
 
 *expresión* . Número
 
-*expresión* Variable que representa un objeto **Error.**
+*expresión* Variable que representa un **objeto Error.**
 
 ## <a name="remarks"></a>Comentarios
 

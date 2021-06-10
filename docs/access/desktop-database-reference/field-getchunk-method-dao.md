@@ -30,7 +30,7 @@ Devuelve todo o parte del contenido de un objeto **Memo** o **Long Binary** **[F
 
 *expression* Variable que representa un objeto **Field**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -74,10 +74,10 @@ Los bytes devueltos por **GetChunk** se asignan a una variable. Utilice **GetChu
 
 Si el desplazamiento es 0, **GetChunk** comienza a copiar desde el primer byte del campo.
 
-Si el número de bytes es mayor que el número de bytes del campo, **GetChunk** devuelve el número real de bytes restantes en el campo.
+Si numbytes es mayor que el número de bytes del campo, **GetChunk** devuelve el número real de bytes restantes en el campo.
 
 > [!NOTE]
-> Use un **campo Memo** para texto y coloque datos binarios solo en **campos binarios** largos. De lo contrario, se provocarán resultados no deseados.
+> [!NOTA] Utilice un campo **Memo** para el texto y coloque los datos binarios únicamente en campos **Long Binary** ya que, de lo contrario, se pueden obtener resultados no deseados.
 
 ## <a name="example"></a>Ejemplo
 

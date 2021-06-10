@@ -43,17 +43,17 @@ Especifica el estado actual de la ejecución de un evento.
 </tr>
 <tr class="even">
 <td><p><strong>adStatusCantDeny</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indica que la operación no puede solicitar la cancelación de la operación pendiente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStatusErrorsOccurred</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica que la operación que provocó el evento no funcionó correctamente debido a uno o varios errores.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStatusOK</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indica que la operación que provocó el evento se realizó correctamente.</p></td>
 </tr>
 <tr class="odd">
@@ -65,7 +65,7 @@ Especifica el estado actual de la ejecución de un evento.
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

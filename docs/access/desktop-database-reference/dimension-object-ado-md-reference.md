@@ -1,5 +1,5 @@
 ---
-title: Objeto Dimension (referencia de ADO MD)
+title: Objeto Dimension (referencia ADO MD)
 TOCTitle: Dimension object (ADO MD)
 ms:assetid: b48c853b-4e51-4c1f-a88d-283f1f727fd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249866(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293906"
 ---
-# <a name="dimension-object-ado-md-reference"></a>Objeto Dimension (referencia de ADO MD)
+# <a name="dimension-object-ado-md-reference"></a>Objeto Dimension (referencia ADO MD)
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Dimension (objeto, ADO MD)](dimension-object-ado-md.md)
-- [Propiedades, métodos y eventos de dimensión (ADO MD)](dimension-properties-methods-and-events-ado-md.md)
+- [Objeto Dimension (ADO MD)](dimension-object-ado-md.md)
+- [Propiedades, métodos y eventos dimension (ADO MD)](dimension-properties-methods-and-events-ado-md.md)
 

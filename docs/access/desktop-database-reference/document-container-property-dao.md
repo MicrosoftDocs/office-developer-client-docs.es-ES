@@ -23,13 +23,13 @@ ms.locfileid: "32293829"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve el nombre del objeto **[Contenedor](container-object-dao.md)** al que pertenece un **objeto Document** (sólo áreas de trabajo de Microsoft Access). .
+Devuelve el nombre del objeto **[Container](container-object-dao.md)** al que pertenece un objeto **Document** (solo en áreas de trabajo de Microsoft Access).
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . Contenedor
 
-*expresión* Variable que representa un objeto **Document** .
+*expresión* Variable que representa un **objeto Document.**
 
 ## <a name="example"></a>Ejemplo
 

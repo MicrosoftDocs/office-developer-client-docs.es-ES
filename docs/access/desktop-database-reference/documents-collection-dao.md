@@ -29,9 +29,9 @@ Para hacer referencia a un objeto **Document** en una colección mediante su nú
 
   - **Documents**(0)
 
-  - **Documentos**("*nombre*")
+  - **Documents**("*name*")
 
-  -  \! Documentos \[ *name*\]
+  -  \! Documentos \[ *nombre*\]
 
 ## <a name="example"></a>Ejemplo
 

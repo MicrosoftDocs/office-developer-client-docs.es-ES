@@ -20,7 +20,7 @@ ms.locfileid: "32293542"
 
 - [Enumeración CollatingOrderEnum (DAO)](collatingorderenum-enumeration-dao.md)
 - [Enumeración CommitTransOptionsEnum (DAO)](committransoptionsenum-enumeration-dao.md)
-- [CursorDriverEnum (enumeración) (DAO)](cursordriverenum-enumeration-dao.md)
+- [Enumeración CursorDriverEnum (DAO)](cursordriverenum-enumeration-dao.md)
 - [Enumeración DatabaseTypeEnum (DAO)](databasetypeenum-enumeration-dao.md)
 - [Enumeración DataTypeEnum (DAO)](datatypeenum-enumeration-dao.md)
 - [Enumeración DriverPromptEnum (DAO)](driverpromptenum-enumeration-dao.md)

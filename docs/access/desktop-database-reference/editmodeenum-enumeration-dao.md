@@ -37,12 +37,12 @@ Indica el estado de edición del registro actual.
 <tbody>
 <tr class="odd">
 <td><p>dbEditAdd</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Método <strong>AddNew</strong> invocado.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbEditInProgress</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Método <strong>Edit</strong> invocado.</p></td>
 </tr>
 <tr class="odd">

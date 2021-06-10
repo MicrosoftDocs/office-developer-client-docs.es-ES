@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos (ADO) de campo
+title: Propiedades de campo, métodos y eventos (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 41169853-7c6b-500e-df6b-cf7083a930a9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249186(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293052"
 ---
-# <a name="field-properties-methods-and-events-ado"></a>Propiedades, métodos y eventos (ADO) de campo
+# <a name="field-properties-methods-and-events-ado"></a>Propiedades de campo, métodos y eventos (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

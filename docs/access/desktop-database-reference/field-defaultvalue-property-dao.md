@@ -34,7 +34,7 @@ La configuración o el valor devuelto es un tipo de datos **String** que puede c
 
 
 > [!NOTE]
-> [!NOTA] También puede establecer la propiedad **DefaultValue** de un objeto **Field** en un objeto [TableDef](tabledef-object-dao.md) en un valor especial denominado "GenUniqueID( )". Esto provoca que se asigne un número aleatorio a este campo siempre que se agregue o se cree un nuevo registro, de ese modo se asigna cada registro a un identificador único. La propiedad [Type](field-type-property-dao.md) del campo debe ser **Long**.
+> [!NOTA] También puede establecer la propiedad **DefaultValue** de un objeto **Field** en un objeto [TableDef](tabledef-object-dao.md) en un valor especial denominado "GenUniqueID( )". Con este valor se asigna un número aleatorio a este campo cuando se agrega o crea un registro nuevo, con lo que cada registro recibe un identificador único. La propiedad [Type](field-type-property-dao.md) del campo debe ser de tipo **Long**.
 
 
 La disponibilidad de la propiedad **DefaultValue** depende del objeto que contiene la colección **Fields**, como se muestra en la siguiente tabla.

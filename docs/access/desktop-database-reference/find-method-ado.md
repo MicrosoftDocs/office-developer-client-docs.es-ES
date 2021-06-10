@@ -22,7 +22,7 @@ Busca en un objeto [Recordset](recordset-object-ado.md) la fila que cumpla los c
 
 ## <a name="syntax"></a>Sintaxis
 
-Find (*Criteria*, *SkipRows*, *SearchDirection*, *Start*)
+Buscar (*Criteria*, *SkipRows*, *SearchDirection*, *Start*)
 
 ## <a name="parameters"></a>Parámetros
 
@@ -37,9 +37,9 @@ Find (*Criteria*, *SkipRows*, *SearchDirection*, *Start*)
 
 Se puede especificar únicamente el nombre de una sola columna en *Criteria*. Este método no admite búsquedas en varias columnas.
 
-El operador de comparación de *Criteria* puede ser **\>** " (mayor que), **\<** " (menor que), "=" (igual), " \> =" (mayor o igual), " \< =" (menor o igual que), " " (no es igual) o \< \> "like" (coincidencia de patrones).
+El operador de comparación de *Criteria* puede ser " **\>** " (mayor que), **\<** " (menor que), "=" (igual), " \> =" (mayor o igual), " \< =" (menor o igual), " \< \> " (no igual) o "like" (coincidencia de patrones).
 
-El valor especificado en *Criteria* puede ser una cadena, un número de punto flotante o una fecha. Los valores de cadena se delimitan con comillas simples o marcas " " (signo de \# número) (por ejemplo, "state = 'WA'" o "state = \# \# WA"). Los valores de fecha se delimitan con marcas " " (signo de \# número) (por ejemplo, "fecha de inicio \_ \> \# 22/7/97 ") y pueden contener horas, minutos y segundos para indicar marcas de tiempo, pero no deben contener milisegundos o se producirán \# errores.
+El valor especificado en *Criteria* puede ser una cadena, un número de punto flotante o una fecha. Los valores de cadena se delimitan con comillas simples o marcas " " (signo de \# número) (por ejemplo, "state = 'WA'" o "state = \# \# WA"). Los valores de fecha se delimitan con marcas " " (signo de \# número) (por ejemplo, "fecha de inicio \_ \> \# 7/22/97 ") y pueden contener horas, minutos y segundos para indicar marcas de tiempo, pero no deben contener milisegundos ni se producirán \# errores.
 
 Si el operador de comparación es "like", el valor de cadena puede contener un asterisco (\*) para que se busque una o varias apariciones de cualquier carácter o subcadena. Por ejemplo, "state like 'M\*'" encuentra Maine y Massachusetts. También se pueden utilizar asteriscos inicial y final para buscar una subcadena incluida en los valores. Por ejemplo, "state like '\*as\*' encuentra Alaska, Arkansas y Massachusetts.
 

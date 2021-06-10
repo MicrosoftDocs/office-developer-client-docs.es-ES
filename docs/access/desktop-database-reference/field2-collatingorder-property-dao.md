@@ -116,7 +116,7 @@ El valor que se devuelve es una constante o valor **Long** que puede ser uno de 
 <td><p>Sueco o finés Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortEsish</strong></p></td>
+<td><p><strong>dbSortPolish</strong></p></td>
 <td><p>Polaco</p></td>
 </tr>
 <tr class="even">
@@ -190,7 +190,7 @@ La disponibilidad de la propiedad **CollatingOrder** depende del objeto que cont
 </table>
 
 
-El valor de la propiedad **CollatingOrder** corresponde al argumento de configuración regional del método **CreateDatabase** cuando se creó la base de datos o al método **CompactDatabase** cuando la base de datos se compactó más recientemente.
+El valor de la propiedad **CollatingOrder** corresponde al argumento de configuración regional del método **CreateDatabase** cuando se creó la base de datos o al método **CompactDatabase** cuando se compacta la base de datos más recientemente.
 
 Los valores de las propiedades **CollatingOrder** y **Attributes** de un objeto **Field2** en una colección **Fields** de un objeto **Index** determinan la secuencia y dirección del criterio de ordenación en un índice. Sin embargo, no se puede establecer una ordenación para un índice individual, sólo se puede establecer para una tabla completa.
 

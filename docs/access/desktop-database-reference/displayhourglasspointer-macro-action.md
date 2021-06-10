@@ -25,7 +25,7 @@ ms.locfileid: "32293836"
 
 Puede usar la acción **MostrarCursorDeRelojDeArena** para cambiar el puntero del mouse por la imagen de un reloj de arena (u otro icono que se elija) mientras se ejecuta una macro. Esta acción puede proporcionar una indicación visual de que la macro está ejecutándose. Resulta especialmente útil cuando una acción de macro o la propia macro tarda mucho tiempo en ejecutarse.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **MostrarCursorDeRelojDeArena** tiene el siguiente argumento.
 
@@ -51,7 +51,7 @@ La acción **MostrarCursorDeRelojDeArena** tiene el siguiente argumento.
 
 ## <a name="remarks"></a>Comentarios
 
-Esta acción se suele usar si se ha desactivado el eco mediante la acción **Eco**. Cuando el eco está desactivado, Access suspende las actualizaciones de pantalla hasta que finaliza la macro.
+Esta acción se suele usar si se ha desactivado el eco mediante la acción **Eco**. Cuando el eco está desactivado, Access suspende las actualizaciones de pantalla hasta que finalice la macro.
 
 Access restablece automáticamente el argumento **Reloj de arena activo** en **No** cuando la macro deja de ejecutarse.
 

@@ -48,5 +48,5 @@ Para crear un objeto **Recordset** jerárquico, debe especificar el Servicio de 
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-Una vez **que se** ha diseñado el conjunto de registros, se puede rellenar, manipular o conservar en un archivo.
+Una vez que se ha fabricado el objeto **Recordset,** se puede rellenar, manipular o conservar en un archivo.
 

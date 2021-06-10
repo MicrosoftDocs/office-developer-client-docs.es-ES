@@ -36,7 +36,7 @@ Una colección Fields contiene todos los objetos Field almacenados de un objeto 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="fields-append-method-dao.md">Append</a></strong></p></td>
+<td><p><strong><a href="fields-append-method-dao.md">Anexar</a></strong></p></td>
 <td><p>Agrega un nuevo <strong><a href="field-object-dao.md">Field</a></strong> a la colección <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="even">

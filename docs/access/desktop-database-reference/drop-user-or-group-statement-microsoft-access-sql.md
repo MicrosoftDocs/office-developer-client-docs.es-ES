@@ -26,9 +26,9 @@ Elimina uno o varios *usuarios* o grupos existentes *o* quita uno o más usuario
 
 DROP USER *user* \[ , *user*, ... \] \[ Grupo *FROM*\]
 
-### <a name="delete-one-or-more-groups"></a>Eliminar uno o más grupos
+### <a name="delete-one-or-more-groups"></a>Eliminar uno o varios grupos
 
-DROP GROUP *group,* \[ *group*, ...\]
+Grupo DE *DROP,* \[ *grupo*, ...\]
 
 La instrucción DROP USER o GROUP consta de los siguientes elementos:
 
@@ -45,7 +45,7 @@ La instrucción DROP USER o GROUP consta de los siguientes elementos:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>user</em></p></td>
+<td><p><em>usuario</em></p></td>
 <td><p>Nombre de un usuario que se va a eliminar del archivo de información de grupo de trabajo.</p></td>
 </tr>
 <tr class="even">
@@ -58,7 +58,7 @@ La instrucción DROP USER o GROUP consta de los siguientes elementos:
 
 ## <a name="remarks"></a>Comentarios
 
-Si se usa la palabra clave FROM en  la instrucción DROP USER,  cada uno de los usuarios enumerados en la instrucción se quitará del grupo especificado después de la palabra clave FROM. Sin embargo, *los propios* usuarios no se eliminarán.
+Si la palabra clave FROM se usa en  la instrucción DROP USER,  cada uno de los usuarios enumerados en la instrucción se quitará del grupo especificado después de la palabra clave FROM. Sin embargo, *los propios* usuarios no se eliminarán.
 
-La instrucción DROP GROUP eliminará el *grupo* o los grupos especificados. Los *usuarios* que son miembros de los grupos no se verán afectados, pero ya no serán miembros de los grupos *eliminados.*
+La instrucción DROP GROUP eliminará el *grupo* o los grupos especificados. Los *usuarios* que son miembros del grupo *(s)* no se verán afectados, pero ya no serán miembros de los grupos *eliminados.*
 

@@ -21,5 +21,5 @@ ms.locfileid: "32293773"
 - [Objeto Document (DAO)](document-object-dao.md)
 - [Miembros del documento (DAO)](document-members-dao.md)
 - [Propiedades del documento (DAO)](document-properties-dao.md)
-- [Métodos document (DAO)](document-methods-dao.md)
+- [Métodos Document (DAO)](document-methods-dao.md)
 

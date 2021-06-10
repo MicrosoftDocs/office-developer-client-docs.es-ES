@@ -19,7 +19,7 @@ ms.locfileid: "32293374"
 **Se aplica a:** Access 2013, Office 2013
 
 - [Colección Errors (DAO)](errors-collection-dao.md)
-- [Miembros Errors (DAO)](errors-members-dao.md)
+- [Miembros de errores (DAO)](errors-members-dao.md)
 - [Propiedades errors (DAO)](errors-properties-dao.md)
 - [Métodos Errors (DAO)](errors-methods-dao.md)
 

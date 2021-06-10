@@ -28,7 +28,7 @@ EndOfRecordset *fMoreData*, *adStatus*, *pRecordset*
 
 |Parámetro|Descripción|
 |:--------|:----------|
-|*fMoreData* |Valor **VARIANT \_ BOOL** que, si se establece en VARIANT TRUE, indica que se han agregado más filas \_ al conjunto de **registros**.|
+|*fMoreData* |Valor **VARIANT \_ BOOL** que, si se establece en VARIANT TRUE, indica que se han agregado más filas \_ al objeto **Recordset**.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Al llamar a **EndOfRecordset**, este parámetro se establece en **adStatusOK** si la operación que provocó el evento se realizó correctamente. Se establece en **adStatusCantDeny** si este evento no puede solicitar la cancelación de la operación que provocó este evento.<br/><br/>Antes de que **EndOfRecordset** vuelva, establezca este parámetro en **adStatusUnwantedEvent** para evitar notificaciones posteriores.|
 |*pRecordset* | Objeto **Recordset**. El objeto **Recordset** para el que se produjo este evento.|
 
@@ -36,5 +36,5 @@ EndOfRecordset *fMoreData*, *adStatus*, *pRecordset*
 
 Un evento **EndOfRecordset** puede ocurrir si se produce un error en la operación [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md).
 
-El controlador del evento recibe una llamada cuando se realiza un intento de avanzar más allá del final del objeto **Recordset**, quizá debido a una llamada a **MoveNext**. Sin embargo, mientras ocurre este evento, todavía se podrían recuperar más registros de una base de datos y agregarlos al final del objeto **Recordset**. En ese caso, establezca *fMoreData* en VARIANT \_ TRUE y devuelva desde **EndOfRecordset**. A continuación, llame de nuevo a **MoveNext** para obtener acceso a los registros recién recuperados.
+El controlador del evento recibe una llamada cuando se realiza un intento de avanzar más allá del final del objeto **Recordset**, quizá debido a una llamada a **MoveNext**. Sin embargo, mientras ocurre este evento, todavía se podrían recuperar más registros de una base de datos y agregarlos al final del objeto **Recordset**. En ese caso, establezca *fMoreData* en VARIANT \_ TRUE y devuelva de **EndOfRecordset**. A continuación, llame de nuevo a **MoveNext** para obtener acceso a los registros recién recuperados.
 

@@ -54,7 +54,7 @@ El valor especifica características del campo representado por el objeto **Fiel
 </tr>
 <tr class="even">
 <td><p><strong>dbDescending</strong></p></td>
-<td><p>El campo se ordena en orden descendente (de Z a A o de 100 a 0); esta opción sólo se aplica a un objeto <strong>Field2</strong> de una colección <strong>Fields</strong> de un objeto <strong>Index</strong>. Si omite esta constante, el campo se ordena en orden ascendente (de A a Z o de 0 a 100). Este es el valor predeterminado para campos <strong>Index</strong> y <strong>TableDef</strong> (sólo áreas de trabajo de Microsoft Access).</p></td>
+<td><p>El campo se ordena en orden descendente (de Z a A o de 100 a 0); esta opción sólo se aplica a un objeto <strong>Field2</strong> de una colección <strong>Fields</strong> de un objeto <strong>Index</strong>. Si se omite esta constante, el campo se ordena en orden ascendente (de A a Z o de 0 a 100). Éste es el valor predeterminado para los campos <strong>Index</strong> y <strong>TableDef</strong> (sólo áreas de trabajo de Microsoft Access)..</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFixedField</strong></p></td>

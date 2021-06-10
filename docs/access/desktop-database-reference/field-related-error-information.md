@@ -37,7 +37,7 @@ Si un error está relacionado directamente con un campo (por ejemplo, si faltan 
 <tbody>
 <tr class="odd">
 <td><p><strong>adFieldCantConvertValue</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica que el campo no se puede recuperar ni almacenar sin pérdida de datos.</p></td>
 </tr>
 <tr class="even">
@@ -47,22 +47,22 @@ Si un error está relacionado directamente con un campo (por ejemplo, si faltan 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDefault</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Indica que se utilizó el valor predeterminado del campo al configurar datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIgnore</strong></p></td>
-<td><p>15 </p></td>
+<td><p>15</p></td>
 <td><p>Indica que este campo se omitió cuando se establecieron valores de datos en el origen. El proveedor no estableció ningún valor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIntegrityViolation</strong></p></td>
-<td><p>10  </p></td>
+<td><p>10</p></td>
 <td><p>Indica que el campo no se puede modificar porque es una entidad calculada o derivada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIsNull</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indica que el proveedor devolvió un valor nulo.</p></td>
 </tr>
 <tr class="odd">

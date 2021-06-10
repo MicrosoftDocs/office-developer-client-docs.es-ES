@@ -25,5 +25,5 @@ Devuelve la fecha y la hora en que se creó un objeto. **Variant** de sólo lect
 
 *expresión* . DateCreated
 
-*expresión* Variable que representa un objeto **Document.**
+*expresión* Variable que representa un **objeto Document.**
 

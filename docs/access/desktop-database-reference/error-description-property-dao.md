@@ -30,7 +30,7 @@ Devuelve una cadena descriptiva asociada con un error. Ésta es la propiedad pre
 
 *expresión* . Descripción
 
-*expresión* Variable que representa un objeto **Error.**
+*expresión* Variable que representa un **objeto Error.**
 
 ## <a name="remarks"></a>Comentarios
 

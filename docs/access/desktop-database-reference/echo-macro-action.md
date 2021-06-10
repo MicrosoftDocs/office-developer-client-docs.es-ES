@@ -20,7 +20,7 @@ ms.locfileid: "32293626"
 
 Puede usar la acción **Eco** para especificar si se activa el eco. Por ejemplo, puede usar esta acción para ocultar o mostrar los resultados de una macro mientras se ejecuta.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 > [!NOTE]
 > Esta acción no se permitirá si la base de datos no es de confianza.
@@ -45,13 +45,13 @@ La acción **Eco** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Texto de la barra de estado</strong></p></td>
-<td><p>El texto para mostrar en la barra de estado cuando el eco está desactivado. Por ejemplo, cuando el eco está desactivado, la barra de estado puede mostrar &quot; La macro se está ejecutando.&quot;</p></td>
+<td><p>El texto para mostrar en la barra de estado cuando el eco está desactivado. Por ejemplo, cuando eco está desactivado, la barra de estado puede mostrar &quot; La macro se está ejecutando.&quot;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Cuando se ejecuta una macro, la actualización de pantallas a menudo muestra información que no es esencial para el funcionamiento de la macro. Al configurar el argumento **Eco activo** en **No**, la macro se ejecuta sin actualizar la pantalla. Cuando la macro termina, Access activa automáticamente el eco y vuelve a dibujar la pantalla. La configuración **No** para el argumento **Eco activo** no afecta a la funcionalidad de la macro o a sus resultados.
+Cuando se ejecuta una macro, la actualización de pantalla a menudo muestra información que no es esencial para el funcionamiento de la macro. Al configurar el argumento **Eco activo** en **No**, la macro se ejecuta sin actualizar la pantalla. Cuando la macro termina, Access activa automáticamente el eco y vuelve a dibujar la pantalla. La configuración **No** para el argumento **Eco activo** no afecta a la funcionalidad de la macro o a sus resultados.
 
 La acción **Eco** no suprime la visualización de los cuadros de diálogo modales, como mensajes de error o formularios emergentes, como hojas de propiedades. Puede usar los cuadros de diálogo y los formularios emergentes para recopilar o mostrar información, incluso si el eco está desactivado. Para suprimir todos los cuadros de diálogo o de mensaje, excepto los cuadros de mensaje de error y los cuadros de diálogo que necesitan que el usuario introduzca información, use la acción **EstablecerAdvertencias**.
 
@@ -123,7 +123,7 @@ La siguiente macro abre el formulario Lista de productos en la esquina inferior 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
+<th><p>Condición</p></th>
 <th><p>Acción</p></th>
 <th><p>Argumentos: Configuración</p></th>
 <th><p>Comentario</p></th>
@@ -139,7 +139,7 @@ La siguiente macro abre el formulario Lista de productos en la esquina inferior 
 <tr class="even">
 <td><p>IsNull([Id. de proveedor])</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Sonido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Seleccionar un proveedor</p></td>
+<td><p><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo. <strong>Pitido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</p></td>
 <td><p>Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</p></td>
 </tr>
 <tr class="odd">
@@ -157,13 +157,13 @@ La siguiente macro abre el formulario Lista de productos en la esquina inferior 
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: Vista de lista <strong>de productos</strong>: Nombre del filtro <strong>de hoja</strong>de datos : <strong>Condición</strong>Where : [Id. de proveedor] = [Formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nombre del</strong>formulario : Vista de lista <strong>de productos</strong>: <strong>DatasheetFilter Name</strong>: Where <strong>Condition</strong>: [Id. de proveedor] = [Formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo De solo lecturaWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>MoveAndSizeWindow</strong></p></td>
-<td><p><strong>Derecha</strong>: 0,7799 &quot; <strong>Abajo</strong>: 1,8&quot;</p></td>
+<td><p><strong>Right</strong>: 0.7799 &quot; <strong>Down</strong>: 1.8&quot;</p></td>
 <td><p>Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</p></td>
 </tr>
 </tbody>

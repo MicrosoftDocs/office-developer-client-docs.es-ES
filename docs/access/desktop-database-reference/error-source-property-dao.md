@@ -28,21 +28,21 @@ Devuelve el nombre del objeto o de la aplicación que generó originalmente el e
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Source
+*expresión* . Origen
 
-*expresión* Variable que representa un objeto **Error.**
+*expresión* Variable que representa un **objeto Error.**
 
 ## <a name="remarks"></a>Comentarios
 
 El valor de la propiedad **Source** suele ser el identificador de programa o el nombre de clase del objeto. Use la propiedad **Source** para proporcionar a los usuarios información cuando el código no puede controlar un error generado en un objeto en otra aplicación.
 
-Por ejemplo, si tiene acceso a Microsoft Excel y genera un error "División por cero", Microsoft Excel establece **Error.Number** en el código de Microsoft Excel para ese error y establece la propiedad **Source** en Excel.Application. Observe que si el error se genera en otro objeto invocado por Microsoft Excel, este intercepta el error y sigue estableciendo **Error.Number** en el código de Microsoft Excel. Sin embargo, las otras propiedades del objeto **Error** (incluida la propiedad **Source**) conservarán los valores establecidos por el objeto que generó el error. La propiedad **Source** siempre contiene el nombre del objeto que generó originalmente el error.
+Por ejemplo, si tiene acceso a Microsoft Excel y genera un error de "División por cero", Microsoft Excel establece **Error.Number** en el código Microsoft Excel para dicho error y establece la **propiedad Source** en Excel. Aplicación. Observe que si el error se genera en otro objeto invocado por Microsoft Excel, este intercepta el error y sigue estableciendo **Error.Number** en el código de Microsoft Excel. Sin embargo, las otras propiedades del objeto **Error** (incluida la propiedad **Source**) conservarán los valores establecidos por el objeto que generó el error. La propiedad **Source** siempre contiene el nombre del objeto que generó originalmente el error.
 
 Basándose en toda la documentación del error, puede escribir código que controlará el error apropiadamente. Si el controlador de errores no actúa correctamente, puede usar la información del objeto **[Error](error-object-dao.md)** para describir el error al usuario, utilizando la propiedad **Source** y las demás propiedades de **Error** con el fin de proporcionar al usuario información sobre qué objeto generó originalmente el error, la descripción del mismo, etc.
 
 
 > [!NOTE]
-> [!NOTA] La construcción **On Error Resume Next** puede ser preferible a **On Error GoTo** cuando se tratan errores generados durante el acceso a otros objetos. La comprobación de la propiedad del objeto **Error** después de cada interacción con un objeto elimina la ambigüedad sobre cuál fue el objeto al que obtuvo acceso el código cuando se produjo el error. De este modo, puede saber con seguridad qué objeto colocó el código de error en **Error.Number** y qué objeto generó originalmente el error (**Error.Source**).
+> La construcción **On Error Resume Next** puede ser preferible a **On Error GoTo** cuando se tratan errores generados durante el acceso a otros objetos. La comprobación de la propiedad del objeto **Error** después de cada interacción con un objeto elimina la ambigüedad sobre cuál fue el objeto al que obtuvo acceso el código cuando se produjo el error. De este modo, puede saber con seguridad qué objeto colocó el código de error en **Error.Number** y qué objeto generó originalmente el error (**Error.Source**).
 
 ## <a name="example"></a>Ejemplo
 

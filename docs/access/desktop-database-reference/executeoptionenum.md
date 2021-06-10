@@ -49,7 +49,8 @@ Especifica la forma en que un proveedor debe ejecutar un comando.
 <tr class="odd">
 <td><p><strong>adAsyncFetchNonBlocking</strong></p></td>
 <td><p>0x40</p></td>
-<td><p>Indica que el subproceso principal no se bloquea en una operación de recuperación de datos. Si la fila solicitada no se ha recuperado, la fila actual se moverá automáticamente al final del archivo.</p><p>Si abre un <a href="recordset-object-ado.md">Recordset</a> de un <a href="stream-object-ado.md">Stream</a> que contiene un objeto <strong>Recordset</strong> almacenado persistentemente, <strong>adAsyncFetchNonBlocking</strong> no tendrá un efecto (la operación será sincrónica y bloqueante). <strong>adAsynchFetchNonBlocking</strong> no tiene efecto cuando la opción <a href="commandtypeenum.md">adCmdTableDirect</a> se usa para abrir el objeto <strong>Recordset</strong>.</p></td>
+<td><p>Indica que el subproceso principal no se bloquea en una operación de recuperación de datos. Si la fila solicitada no se ha recuperado, la fila actual se moverá automáticamente al final del archivo.
+</p><p>Si abre un <a href="recordset-object-ado.md">Recordset</a> de un <a href="stream-object-ado.md">Stream</a> que contiene un objeto <strong>Recordset</strong> almacenado persistentemente, <strong>adAsyncFetchNonBlocking</strong> no tendrá un efecto (la operación será sincrónica y bloqueante). <strong>adAsynchFetchNonBlocking</strong> no tiene efecto cuando la opción <a href="commandtypeenum.md">adCmdTableDirect</a> se usa para abrir el objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adExecuteNoRecords</strong></p></td>
@@ -76,7 +77,7 @@ Especifica la forma en que un proveedor debe ejecutar un comando.
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

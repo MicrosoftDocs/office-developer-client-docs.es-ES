@@ -59,7 +59,7 @@ Un objeto Document incluye información sobre una instancia de un objeto. El obj
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="document-container-property-dao.md">Contenedor</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto <strong><a href="container-object-dao.md">Contenedor</a></strong> al que pertenece un <strong>objeto Document</strong> (sólo áreas de trabajo de Microsoft Access). .</p></td>
+<td><p>Devuelve el nombre del objeto <strong><a href="container-object-dao.md">Container</a></strong> al que pertenece un objeto <strong>Document</strong> (solo en áreas de trabajo de Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-datecreated-property-dao.md">DateCreated</a></strong></p></td>
@@ -71,11 +71,11 @@ Un objeto Document incluye información sobre una instancia de un objeto. El obj
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto especificado. <strong>String</strong> de solo lectura.</p></td>
+<td><p>Devuelve el nombre del objeto especificado. Sólo lectura de la <strong>cadena</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="document-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 </tbody>
 </table>

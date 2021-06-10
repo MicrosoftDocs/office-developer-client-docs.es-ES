@@ -1,5 +1,5 @@
 ---
-title: FilterAxis (propiedad, ADO MD)
+title: Propiedad FilterAxis (ADO MD)
 TOCTitle: FilterAxis property (ADO MD)
 ms:assetid: 36720d77-4b16-1d17-6d80-d35265f4a8ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249124(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292457"
 ---
-# <a name="filteraxis-property-ado-md"></a>FilterAxis (propiedad, ADO MD)
+# <a name="filteraxis-property-ado-md"></a>Propiedad FilterAxis (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de error (ADO)
+title: Referencia del objeto Error (ADO)
 TOCTitle: Error object (ADO)
 ms:assetid: 19c9300f-2005-4732-a62c-c95ac512eb43
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248942(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293493"
 ---
-# <a name="error-object-ado-reference"></a>Referencia de objeto de error (ADO)
+# <a name="error-object-ado-reference"></a>Referencia del objeto Error (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

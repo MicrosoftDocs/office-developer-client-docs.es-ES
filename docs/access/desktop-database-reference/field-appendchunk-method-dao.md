@@ -26,7 +26,7 @@ Agrega datos de una expresión de cadena a un objeto **[Field](field-object-dao.
 
 *expression* Variable que representa un objeto **Field**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

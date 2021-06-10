@@ -1,5 +1,5 @@
 ---
-title: Métodos de ADOX (referencia de base de datos de escritorio de Access)
+title: Métodos ADOX (referencia de base de datos de escritorio de Access)
 TOCTitle: ADOX methods
 ms:assetid: 1a2eed52-2b09-e528-2cdc-134df3c9441f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)

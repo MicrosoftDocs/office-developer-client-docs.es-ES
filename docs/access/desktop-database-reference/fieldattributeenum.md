@@ -121,7 +121,7 @@ Especifica uno o más atributos de un objeto [Field](field-object-ado.md).
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

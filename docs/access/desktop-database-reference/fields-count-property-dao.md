@@ -23,7 +23,7 @@ Devuelve el número de objetos de la colección especificada. **Integer** de só
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Count
+*expresión* . Recuento
 
 *expression* Variable que representa un objeto **Fields**.
 

@@ -43,7 +43,7 @@ Establece o devuelve uno de los valores siguientes.
 </tr>
 <tr class="even">
 <td><p><strong>adcExecAsync</strong></p></td>
-<td><p>Éste es el valor predeterminado. Ejecuta la siguiente actualización del objeto <strong>Recordset</strong> de forma asincrónica.</p></td>
+<td><p>Predeterminada. Ejecuta la siguiente actualización del objeto <strong>Recordset</strong> de forma asincrónica.</p></td>
 </tr>
 </tbody>
 </table>

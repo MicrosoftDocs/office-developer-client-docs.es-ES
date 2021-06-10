@@ -43,12 +43,12 @@ Especifica el estado de edición de un registro.
 </tr>
 <tr class="even">
 <td><p><strong>adEditInProgress</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indica que los datos del registro actual se han modificado, pero no se han guardado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adEditAdd</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica que se ha realizado una llamada al método <a href="addnew-method-ado.md">AddNew</a>, y que el registro actual en el búfer de copia es un registro nuevo que no se ha guardado en la base de datos.</p></td>
 </tr>
 <tr class="even">

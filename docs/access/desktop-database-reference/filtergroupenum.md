@@ -38,7 +38,7 @@ Especifica el grupo de registros que se van a filtrar desde un objeto [Recordset
 <tbody>
 <tr class="odd">
 <td><p><strong>adFilterAffectedRecords</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Filtra de modo que sólo se vean los registros afectados por la última llamada a <a href="delete-method-ado-recordset.md">Delete</a>, <a href="resync-method-ado.md">Resync</a>, <a href="updatebatch-method-ado.md">UpdateBatch</a> o <a href="cancelbatch-method-ado.md">CancelBatch</a>.</p></td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@ Especifica el grupo de registros que se van a filtrar desde un objeto [Recordset
 </tr>
 <tr class="odd">
 <td><p><strong>adFilterFetchedRecords</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Filtra de modo que sólo se vean los registros almacenados en la memoria caché actual, es decir, el resultado de la última llamada para recuperar registros de la base de datos.</p></td>
 </tr>
 <tr class="even">
@@ -58,7 +58,7 @@ Especifica el grupo de registros que se van a filtrar desde un objeto [Recordset
 </tr>
 <tr class="odd">
 <td><p><strong>adFilterPendingRecords</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Filtra de modo que sólo se vean los registros que han cambiado pero que aún no se han enviado al servidor. Aplicable sólo para el modo de actualización por lotes.</p></td>
 </tr>
 </tbody>

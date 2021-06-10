@@ -38,7 +38,7 @@ Especifica el motivo que ocasionó un evento.
 <tbody>
 <tr class="odd">
 <td><p><strong>adRsnAddNew</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Una operación agregó un registro nuevo.</p></td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@ Especifica el motivo que ocasionó un evento.
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnDelete</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Una operación eliminó un registro.</p></td>
 </tr>
 <tr class="even">
@@ -58,7 +58,7 @@ Especifica el motivo que ocasionó un evento.
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMove</strong></p></td>
-<td><p>10  </p></td>
+<td><p>10</p></td>
 <td><p>Una operación movió el puntero de registro dentro del objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -68,12 +68,12 @@ Especifica el motivo que ocasionó un evento.
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMoveLast</strong></p></td>
-<td><p>15 </p></td>
+<td><p>15</p></td>
 <td><p>Una operación movió el puntero de registro al último registro del objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnMoveNext</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Una operación movió el puntero de registro al siguiente registro del objeto <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -108,7 +108,7 @@ Especifica el motivo que ocasionó un evento.
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnUpdate</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Una operación actualizó un registro existente.</p></td>
 </tr>
 </tbody>

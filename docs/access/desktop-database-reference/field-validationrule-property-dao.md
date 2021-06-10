@@ -25,7 +25,7 @@ Establece o devuelve un valor que valida los datos en un campo mientras se modif
 
 *expresión* . ValidationRule
 
-*expresión* Expresión que devuelve un **objeto Field** .
+*expresión* Expresión que devuelve un **objeto Field.**
 
 ## <a name="remarks"></a>Comentarios
 
@@ -77,6 +77,6 @@ La expresión de cadena especificada por la propiedad **ValidationRule** de un o
 
 
 > [!NOTE]
-> Si establece la propiedad en una cadena concatenada con un valor que no es entero, y los parámetros del sistema especifican un valor no estadounidense. carácter decimal como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intente validar cualquier dato. Esto se debe a que durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado del sistema y el motor SQL de base de datos Microsoft Access sólo acepta el carácter decimal estándar de Estados Unidos.
+> Si establece la propiedad en una cadena concatenada con un valor que no es entero, y los parámetros del sistema especifican un valor que no es estadounidense. carácter decimal como una coma (por ejemplo, strRule = "PRICE &gt; " &amp; lngPrice y lngPrice = 125,50), se producirá un error cuando el código intente validar los datos. Esto se debe a que durante la concatenación, el número se convertirá en una cadena utilizando el carácter decimal predeterminado del sistema y el motor SQL de base de datos Microsoft Access sólo acepta el carácter decimal estándar de Estados Unidos.
 
 

@@ -25,7 +25,7 @@ Devuelve la fecha y la hora del último cambio realizado en un objeto. **Variant
 
 *expresión* . LastUpdated
 
-*expresión* Variable que representa un objeto **Document.**
+*expresión* Variable que representa un **objeto Document.**
 
 ## <a name="remarks"></a>Comentarios
 

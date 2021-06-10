@@ -29,7 +29,7 @@ Indica el operador de evaluación que se utilizará en el valor de filtro.
 |Parámetro|Descripción|
 |:--------|:----------|
 |*DataControl* |Variable de objeto que representa un objeto [RDS.DataControl](datacontrol-object-rds.md).|
-|*String* |Un valor de tipo **String** que especifica el operador de evaluación de [FilterValue](filtervalue-property-rds.md) a los registros. Puede ser cualquiera de los siguientes: \< , \< =, \> = , \> =, = o \< \> .|
+|*String* |Un valor de tipo **String** que especifica el operador de evaluación de [FilterValue](filtervalue-property-rds.md) a los registros. Puede ser cualquiera de los siguientes: \< , \< =, \> , \> =, =, o \< \> .|
 
 ## <a name="remarks"></a>Comentarios
 

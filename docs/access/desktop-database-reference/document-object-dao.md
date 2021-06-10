@@ -75,9 +75,9 @@ Dado que un objeto **Document** corresponde a un objeto existente, no se pueden 
 
 - **Documents**(0)
 
-- **Documentos**("*nombre*")
+- **Documents**("*name*")
 
--  \! Documentos \[ *name*\]
+-  \! Documentos \[ *nombre*\]
 
 ## <a name="example"></a>Ejemplo
 

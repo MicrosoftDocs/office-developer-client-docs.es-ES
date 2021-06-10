@@ -1,5 +1,5 @@
 ---
-title: Colecciones de ADOX (referencia de base de datos de escritorio de Access)
+title: Colecciones ADOX (referencia de base de datos de escritorio de Access)
 TOCTitle: ADOX collections
 ms:assetid: bff37fcc-3099-a4a7-b01f-8de1467bf96b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)

@@ -53,7 +53,7 @@ La acción **EnviarPorCorreoObjetoDeBaseDeDatos** utiliza los siguientes argumen
 </tr>
 <tr class="odd">
 <td><p><strong>Formato de resultados</strong></p></td>
-<td><p>El tipo de formato que desea usar para el objeto incluido. La lista de formatos entre los que puede seleccionar cambiará en función de lo que seleccione para el argumento <strong>Tipo de</strong> objeto. Los formatos disponibles pueden incluir libros de <strong>Excel 97 - Excel 2003 (*.xls),</strong>libros binarios de <strong>Excel (*.xlsb),</strong>libros de <strong>Excel (*.xlsx),</strong> <strong>HTML (*.htm, *.html)</strong>, libros de <strong>Microsoft Excel 5.0/95 (*.xls),</strong>formato <strong>PDF</strong>, fomat de texto enriquecido <strong>(*.rtf),</strong>archivos de <strong>texto (*.txt)</strong>o formato <strong>XPS (*.xps).</strong> en el <strong>cuadro Formato de</strong> salida. Los módulos solo se pueden enviar en formato de texto. Las páginas de acceso a datos solo se pueden enviar en formato HTML. Si deja este argumento en blanco, Access le preguntará por el formato de los resultados.</p></td>
+<td><p>El tipo de formato que desea usar para el objeto incluido. La lista de formatos que puede seleccionar cambiará en función de lo que seleccione para el argumento <strong>Tipo de</strong> objeto. Los formatos disponibles pueden incluir <strong>Excel 97 - libro de Excel 2003 (*.xls),</strong>libro binario <strong>de Excel (*.xlsb),</strong>libro de <strong>Excel (*.xlsx)</strong>, <strong>HTML (*.htm, *.html)</strong>, <strong>Microsoft Excel Libro 5.0/95 (*.xls),</strong> <strong>Formato PDF</strong>, Fomat de texto enriquecido <strong>(*.rtf),</strong>Archivos de texto <strong>(*.txt)</strong>o <strong>Formato XPS (*.xps).</strong> en el <strong>cuadro Formato de</strong> salida. Los módulos solo se pueden enviar en formato de texto. Las páginas de acceso a datos solo se pueden enviar en formato HTML. Si deja este argumento en blanco, Access le preguntará por el formato de los resultados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Para</strong></p></td>
@@ -61,11 +61,11 @@ La acción **EnviarPorCorreoObjetoDeBaseDeDatos** utiliza los siguientes argumen
 </tr>
 <tr class="odd">
 <td><p><strong>CC</strong></p></td>
-<td><p>Destinatarios del mensaje cuyos nombres desea colocar en la línea <strong>CC</strong> (copia &quot; &quot; carbonít) del mensaje de correo. Si deja en blanco este argumento, la línea <strong>CC</strong> del mensaje de correo queda en blanco.</p></td>
+<td><p>Destinatarios del mensaje cuyos nombres desea colocar en la línea <strong>Cc</strong> ( &quot; copia de carbono ) del mensaje de &quot; correo. Si deja en blanco este argumento, la línea <strong>CC</strong> del mensaje de correo queda en blanco.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Bcc</strong></p></td>
-<td><p>Destinatarios del mensaje cuyos nombres desea colocar en la línea <strong>CCO</strong> (copia &quot; &quot; oculta) del mensaje de correo. Si deja en blanco este argumento, la línea <strong>CCO</strong> del mensaje de correo queda en blanco.</p></td>
+<td><p>Destinatarios del mensaje cuyos nombres desea colocar en la línea <strong>CCO</strong> ( copia a ciegas &quot; ) del mensaje de &quot; correo. Si deja en blanco este argumento, la línea <strong>CCO</strong> del mensaje de correo queda en blanco.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Asunto</strong></p></td>
@@ -111,7 +111,7 @@ Para ejecutar la acción **EnviarPorCorreoObjetoDeBaseDeDatos** en un módulo de
 
 ### <a name="about-the-contributor"></a>Sobre el colaborador
 
-**Vínculo proporcionado por** Luke Chung, [FMS, Inc.,](https://www.fmsinc.com/)fundador y presidente de FMS, Inc., un proveedor líder de soluciones de bases de datos personalizadas y herramientas para desarrolladores.
+**Vínculo proporcionado por** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), el fundador y presidente de FMS, Inc., un proveedor líder de soluciones de base de datos personalizadas y herramientas para desarrolladores.
 
 - [Características y límites del uso del método EnviarObjeto para enviar correos](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 

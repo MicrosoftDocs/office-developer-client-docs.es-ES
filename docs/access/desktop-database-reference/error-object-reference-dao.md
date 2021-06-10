@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de error (DAO)
+title: Referencia de objeto error (DAO)
 TOCTitle: Error Object
 ms:assetid: 96cff172-964e-49bf-b83c-d56226a4d81a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125405(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293472"
 ---
-# <a name="error-object-reference-dao"></a>Referencia de objeto de error (DAO)
+# <a name="error-object-reference-dao"></a>Referencia de objeto error (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

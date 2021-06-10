@@ -52,7 +52,9 @@ Cuando se llama a la rutina del controlador de eventos, el parámetro *Status* s
 <tbody>
 <tr class="odd">
 <td><p><strong>adStatusOK</strong></p></td>
-<td><p>Se pasa tanto a los eventos Will como a los eventos Complete. Este valor significa que la operación que ha causado el evento ha finalizado correctamente.</p></td>
+<td><p>Se pasa tanto a los eventos Will como a los eventos Complete.
+
+Este valor significa que la operación que ha causado el evento ha finalizado correctamente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStatusErrorsOccurred</strong></p></td>
@@ -60,7 +62,11 @@ Cuando se llama a la rutina del controlador de eventos, el parámetro *Status* s
 </tr>
 <tr class="odd">
 <td><p><strong>adStatusCantDeny</strong></p></td>
-<td><p>Se pasa sólo a los eventos Will. Este valor significa que la operación no puede ser cancelada por el evento Will. Es preciso que se lleve a cabo.</p></td>
+<td><p>Se pasa sólo a los eventos Will.
+
+Este valor significa que la operación no puede ser cancelada por el evento Will.
+
+Es preciso que se lleve a cabo.</p></td>
 </tr>
 </tbody>
 </table>
