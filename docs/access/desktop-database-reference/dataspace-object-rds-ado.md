@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294459"
 ---
-# <a name="dataspace-rds-ado"></a><span data-ttu-id="3efb3-102">DataSpace (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="3efb3-102">DataSpace (RDS) (ADO)</span></span>
+# <a name="dataspace-rds-ado"></a><span data-ttu-id="dfb65-102">DataSpace (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="dfb65-102">DataSpace (RDS) (ADO)</span></span>
 
-<span data-ttu-id="3efb3-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3efb3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dfb65-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dfb65-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3efb3-104">Objeto DataSpace (RDS)</span><span class="sxs-lookup"><span data-stu-id="3efb3-104">DataSpace object (RDS)</span></span>](dataspace-object-rds.md)
-- [<span data-ttu-id="3efb3-105">Propiedades, métodos y eventos (RDS) de DataSpace</span><span class="sxs-lookup"><span data-stu-id="3efb3-105">DataSpace properties, methods, and events (RDS)</span></span>](dataspace-properties-methods-and-events-rds.md)
+- [<span data-ttu-id="dfb65-104">Objeto DataSpace (RDS)</span><span class="sxs-lookup"><span data-stu-id="dfb65-104">DataSpace object (RDS)</span></span>](dataspace-object-rds.md)
+- [<span data-ttu-id="dfb65-105">Propiedades, métodos y eventos de DataSpace (RDS)</span><span class="sxs-lookup"><span data-stu-id="dfb65-105">DataSpace properties, methods, and events (RDS)</span></span>](dataspace-properties-methods-and-events-rds.md)
 

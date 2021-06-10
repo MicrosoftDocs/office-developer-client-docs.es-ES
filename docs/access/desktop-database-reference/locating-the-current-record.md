@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289881"
 ---
-# <a name="locating-the-current-record"></a><span data-ttu-id="34a1b-102">Localización del registro actual</span><span class="sxs-lookup"><span data-stu-id="34a1b-102">Locating the current record</span></span>
+# <a name="locating-the-current-record"></a><span data-ttu-id="ed9f5-102">Localización del registro actual</span><span class="sxs-lookup"><span data-stu-id="ed9f5-102">Locating the current record</span></span>
 
-<span data-ttu-id="34a1b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="34a1b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ed9f5-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed9f5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="34a1b-p101">La posición actual del cursor en el **conjunto de registros** delinea la posición del registro activo. Suponiendo que el comando emitido devuelve resultados, el cursor se coloca automáticamente en el primer registro cuando se llama al método **Open** del **conjunto de registros**. Así, con el **conjunto de registros** de ejemplo, el cursor estaría en el primer registro: "Uncle Bob's Organic Dried Pears".</span><span class="sxs-lookup"><span data-stu-id="34a1b-p101">The current position of the cursor in the **Recordset** delineates the current record position. Assuming that the command issued returns results, the cursor is automatically placed at the first record when the **Recordset** **Open** method is called. So, with the sample **Recordset**, the cursor would be on the first record, "Uncle Bob's Organic Dried Pears."</span></span>
+<span data-ttu-id="ed9f5-p101">La posición actual del cursor en el **conjunto de registros** delinea la posición del registro activo. Suponiendo que el comando emitido devuelve resultados, el cursor se coloca automáticamente en el primer registro cuando se llama al método **Open** del **conjunto de registros**. Así, con el **conjunto de registros** de ejemplo, el cursor estaría en el primer registro: "Uncle Bob's Organic Dried Pears".</span><span class="sxs-lookup"><span data-stu-id="ed9f5-p101">The current position of the cursor in the **Recordset** delineates the current record position. Assuming that the command issued returns results, the cursor is automatically placed at the first record when the **Recordset** **Open** method is called. So, with the sample **Recordset**, the cursor would be on the first record, "Uncle Bob's Organic Dried Pears."</span></span>
 
-<span data-ttu-id="34a1b-107">Esta sección incluye los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="34a1b-107">This section includes the following topics:</span></span>
+<span data-ttu-id="ed9f5-107">Esta sección incluye los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="ed9f5-107">This section includes the following topics:</span></span>
 
-- [<span data-ttu-id="34a1b-108">Recuento de filas</span><span class="sxs-lookup"><span data-stu-id="34a1b-108">Counting rows</span></span>](counting-rows.md)
-- [<span data-ttu-id="34a1b-109">Los límites de un conjunto de registros</span><span class="sxs-lookup"><span data-stu-id="34a1b-109">The limits of a Recordset</span></span>](the-limits-of-a-recordset.md)
+- [<span data-ttu-id="ed9f5-108">Recuento de filas</span><span class="sxs-lookup"><span data-stu-id="ed9f5-108">Counting rows</span></span>](counting-rows.md)
+- [<span data-ttu-id="ed9f5-109">Los límites de un objeto Recordset</span><span class="sxs-lookup"><span data-stu-id="ed9f5-109">The limits of a Recordset</span></span>](the-limits-of-a-recordset.md)

@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295292"
 ---
-# <a name="cursor-and-lock-characteristics"></a><span data-ttu-id="3edab-102">Características de cursores y bloqueos</span><span class="sxs-lookup"><span data-stu-id="3edab-102">Cursor and lock characteristics</span></span>
+# <a name="cursor-and-lock-characteristics"></a><span data-ttu-id="f941f-102">Características de cursores y bloqueos</span><span class="sxs-lookup"><span data-stu-id="f941f-102">Cursor and lock characteristics</span></span>
 
-<span data-ttu-id="3edab-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3edab-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f941f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f941f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3edab-104">Aunque las características de un cursor dependen de la funcionalidades del proveedor, las ventajas y desventajas siguientes generalmente son de aplicación para los diversos tipos de cursores y bloqueos.</span><span class="sxs-lookup"><span data-stu-id="3edab-104">While the characteristics of a cursor depend upon capabilities of the provider, the following advantages and disadvantages generally apply to the various types of cursors and locks.</span></span>
+<span data-ttu-id="f941f-104">Aunque las características de un cursor dependen de la funcionalidades del proveedor, las ventajas y desventajas siguientes generalmente son de aplicación para los diversos tipos de cursores y bloqueos.</span><span class="sxs-lookup"><span data-stu-id="f941f-104">While the characteristics of a cursor depend upon capabilities of the provider, the following advantages and disadvantages generally apply to the various types of cursors and locks.</span></span>
 
 <table>
 <colgroup>
@@ -28,121 +28,121 @@ ms.locfileid: "32295292"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3edab-105">Tipo de cursor o bloqueo</span><span class="sxs-lookup"><span data-stu-id="3edab-105">Cursor or lock type</span></span></p></th>
-<th><p><span data-ttu-id="3edab-106">Ventajas</span><span class="sxs-lookup"><span data-stu-id="3edab-106">Advantages</span></span></p></th>
-<th><p><span data-ttu-id="3edab-107">Desventajas</span><span class="sxs-lookup"><span data-stu-id="3edab-107">Disadvantages</span></span></p></th>
+<th><p><span data-ttu-id="f941f-105">Tipo de cursor o bloqueo</span><span class="sxs-lookup"><span data-stu-id="f941f-105">Cursor or lock type</span></span></p></th>
+<th><p><span data-ttu-id="f941f-106">Ventajas</span><span class="sxs-lookup"><span data-stu-id="f941f-106">Advantages</span></span></p></th>
+<th><p><span data-ttu-id="f941f-107">Desventajas</span><span class="sxs-lookup"><span data-stu-id="f941f-107">Disadvantages</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3edab-108"><strong>adOpenForwardOnly</strong></span><span class="sxs-lookup"><span data-stu-id="3edab-108"><strong>adOpenForwardOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="f941f-108"><strong>adOpenForwardOnly</strong></span><span class="sxs-lookup"><span data-stu-id="f941f-108"><strong>adOpenForwardOnly</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-109">Pocos requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="3edab-109">Low resource requirements</span></span></p></li>
+<li><p><span data-ttu-id="f941f-109">Pocos requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="f941f-109">Low resource requirements</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-110">No se puede efectuar un desplazamiento hacia atrás</span><span class="sxs-lookup"><span data-stu-id="3edab-110">Cannot scroll backward</span></span></p></li>
-<li><p><span data-ttu-id="3edab-111">No hay coincidencia de datos</span><span class="sxs-lookup"><span data-stu-id="3edab-111">No data concurrency</span></span></p></li>
+<li><p><span data-ttu-id="f941f-110">No se puede efectuar un desplazamiento hacia atrás</span><span class="sxs-lookup"><span data-stu-id="f941f-110">Cannot scroll backward</span></span></p></li>
+<li><p><span data-ttu-id="f941f-111">No hay coincidencia de datos</span><span class="sxs-lookup"><span data-stu-id="f941f-111">No data concurrency</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3edab-112"><strong>adOpenStatic</strong></span><span class="sxs-lookup"><span data-stu-id="3edab-112"><strong>adOpenStatic</strong></span></span></p></td>
+<td><p><span data-ttu-id="f941f-112"><strong>adOpenStatic</strong></span><span class="sxs-lookup"><span data-stu-id="f941f-112"><strong>adOpenStatic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-113">Desplazable</span><span class="sxs-lookup"><span data-stu-id="3edab-113">Scrollable</span></span></p></li>
+<li><p><span data-ttu-id="f941f-113">Desplazable</span><span class="sxs-lookup"><span data-stu-id="f941f-113">Scrollable</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-114">No hay coincidencia de datos</span><span class="sxs-lookup"><span data-stu-id="3edab-114">No data concurrency</span></span></p></li>
+<li><p><span data-ttu-id="f941f-114">No hay coincidencia de datos</span><span class="sxs-lookup"><span data-stu-id="f941f-114">No data concurrency</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3edab-115"><strong>adOpenKeyset</strong></span><span class="sxs-lookup"><span data-stu-id="3edab-115"><strong>adOpenKeyset</strong></span></span></p></td>
+<td><p><span data-ttu-id="f941f-115"><strong>adOpenKeyset</strong></span><span class="sxs-lookup"><span data-stu-id="f941f-115"><strong>adOpenKeyset</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-116">Hay alguna coincidencia de datos</span><span class="sxs-lookup"><span data-stu-id="3edab-116">Some data concurrency</span></span></p></li>
-<li><p><span data-ttu-id="3edab-117">Desplazable</span><span class="sxs-lookup"><span data-stu-id="3edab-117">Scrollable</span></span></p></li>
+<li><p><span data-ttu-id="f941f-116">Hay alguna coincidencia de datos</span><span class="sxs-lookup"><span data-stu-id="f941f-116">Some data concurrency</span></span></p></li>
+<li><p><span data-ttu-id="f941f-117">Desplazable</span><span class="sxs-lookup"><span data-stu-id="f941f-117">Scrollable</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-118">Más requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="3edab-118">Higher resource requirements</span></span></p></li>
-<li><p><span data-ttu-id="3edab-119">No disponible en escenario de desconexión</span><span class="sxs-lookup"><span data-stu-id="3edab-119">Not available in disconnected scenario</span></span></p></li>
+<li><p><span data-ttu-id="f941f-118">Más requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="f941f-118">Higher resource requirements</span></span></p></li>
+<li><p><span data-ttu-id="f941f-119">No disponible en escenario de desconexión</span><span class="sxs-lookup"><span data-stu-id="f941f-119">Not available in disconnected scenario</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3edab-120"><strong>adOpenDynamic</strong></span><span class="sxs-lookup"><span data-stu-id="3edab-120"><strong>adOpenDynamic</strong></span></span></p></td>
+<td><p><span data-ttu-id="f941f-120"><strong>adOpenDynamic</strong></span><span class="sxs-lookup"><span data-stu-id="f941f-120"><strong>adOpenDynamic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-121">Elevada coincidencia de datos</span><span class="sxs-lookup"><span data-stu-id="3edab-121">High data concurrency</span></span></p></li>
-<li><p><span data-ttu-id="3edab-122">Desplazable</span><span class="sxs-lookup"><span data-stu-id="3edab-122">Scrollable</span></span></p></li>
+<li><p><span data-ttu-id="f941f-121">Elevada coincidencia de datos</span><span class="sxs-lookup"><span data-stu-id="f941f-121">High data concurrency</span></span></p></li>
+<li><p><span data-ttu-id="f941f-122">Desplazable</span><span class="sxs-lookup"><span data-stu-id="f941f-122">Scrollable</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-123">Requisitos de recursos máximos</span><span class="sxs-lookup"><span data-stu-id="3edab-123">Highest resource requirements</span></span></p></li>
-<li><p><span data-ttu-id="3edab-124">No disponible en escenario de desconexión</span><span class="sxs-lookup"><span data-stu-id="3edab-124">Not available in disconnected scenario</span></span></p></li>
+<li><p><span data-ttu-id="f941f-123">Requisitos de recursos máximos</span><span class="sxs-lookup"><span data-stu-id="f941f-123">Highest resource requirements</span></span></p></li>
+<li><p><span data-ttu-id="f941f-124">No disponible en escenario de desconexión</span><span class="sxs-lookup"><span data-stu-id="f941f-124">Not available in disconnected scenario</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3edab-125"><strong>adLockReadOnly</strong></span><span class="sxs-lookup"><span data-stu-id="3edab-125"><strong>adLockReadOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="f941f-125"><strong>adLockReadOnly</strong></span><span class="sxs-lookup"><span data-stu-id="f941f-125"><strong>adLockReadOnly</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-126">Pocos requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="3edab-126">Low resource requirements</span></span></p></li>
-<li><p><span data-ttu-id="3edab-127">Altamente escalable</span><span class="sxs-lookup"><span data-stu-id="3edab-127">Highly scalable</span></span></p></li>
+<li><p><span data-ttu-id="f941f-126">Pocos requisitos de recursos</span><span class="sxs-lookup"><span data-stu-id="f941f-126">Low resource requirements</span></span></p></li>
+<li><p><span data-ttu-id="f941f-127">Altamente escalable</span><span class="sxs-lookup"><span data-stu-id="f941f-127">Highly scalable</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-128">Datos no actualizables a través de cursor</span><span class="sxs-lookup"><span data-stu-id="3edab-128">Data not updatable through cursor</span></span></p></li>
+<li><p><span data-ttu-id="f941f-128">Datos no actualizables a través de cursor</span><span class="sxs-lookup"><span data-stu-id="f941f-128">Data not updatable through cursor</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3edab-129"><strong>adLockBatchOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="3edab-129"><strong>adLockBatchOptimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="f941f-129"><strong>adLockBatchOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="f941f-129"><strong>adLockBatchOptimistic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-130">Actualizaciones por lotes</span><span class="sxs-lookup"><span data-stu-id="3edab-130">Batch updates</span></span></p></li>
-<li><p><span data-ttu-id="3edab-131">Permite escenarios de desconexión</span><span class="sxs-lookup"><span data-stu-id="3edab-131">Allows disconnected scenarios</span></span></p></li>
-<li><p><span data-ttu-id="3edab-132">Otros usuarios pueden tener acceso a datos</span><span class="sxs-lookup"><span data-stu-id="3edab-132">Other users able to access data</span></span></p></li>
+<li><p><span data-ttu-id="f941f-130">Actualizaciones por lotes</span><span class="sxs-lookup"><span data-stu-id="f941f-130">Batch updates</span></span></p></li>
+<li><p><span data-ttu-id="f941f-131">Permite escenarios de desconexión</span><span class="sxs-lookup"><span data-stu-id="f941f-131">Allows disconnected scenarios</span></span></p></li>
+<li><p><span data-ttu-id="f941f-132">Otros usuarios pueden tener acceso a datos</span><span class="sxs-lookup"><span data-stu-id="f941f-132">Other users able to access data</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-133">Varios usuarios pueden cambiar los datos simultáneamente</span><span class="sxs-lookup"><span data-stu-id="3edab-133">Data can be changed by multiple users at once</span></span></p></li>
+<li><p><span data-ttu-id="f941f-133">Varios usuarios pueden cambiar los datos simultáneamente</span><span class="sxs-lookup"><span data-stu-id="f941f-133">Data can be changed by multiple users at once</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3edab-134"><strong>adLockPessimistic</strong></span><span class="sxs-lookup"><span data-stu-id="3edab-134"><strong>adLockPessimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="f941f-134"><strong>adLockPessimistic</strong></span><span class="sxs-lookup"><span data-stu-id="f941f-134"><strong>adLockPessimistic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-135">Otros usuarios no pueden cambiar los datos mientras están bloqueados</span><span class="sxs-lookup"><span data-stu-id="3edab-135">Data cannot be changed by other users while locked</span></span></p></li>
+<li><p><span data-ttu-id="f941f-135">Otros usuarios no pueden cambiar los datos mientras están bloqueados</span><span class="sxs-lookup"><span data-stu-id="f941f-135">Data cannot be changed by other users while locked</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-136">Impide a otros usuarios el acceso a los datos mientras están bloqueados</span><span class="sxs-lookup"><span data-stu-id="3edab-136">Prevents other users from accessing data while locked</span></span></p></li>
+<li><p><span data-ttu-id="f941f-136">Impide a otros usuarios el acceso a los datos mientras están bloqueados</span><span class="sxs-lookup"><span data-stu-id="f941f-136">Prevents other users from accessing data while locked</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3edab-137"><strong>adLockOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="3edab-137"><strong>adLockOptimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="f941f-137"><strong>adLockOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="f941f-137"><strong>adLockOptimistic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-138">Otros usuarios pueden tener acceso a datos</span><span class="sxs-lookup"><span data-stu-id="3edab-138">Other users able to access data</span></span></p></li>
+<li><p><span data-ttu-id="f941f-138">Otros usuarios pueden tener acceso a datos</span><span class="sxs-lookup"><span data-stu-id="f941f-138">Other users able to access data</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="3edab-139">Varios usuarios pueden cambiar los datos simultáneamente</span><span class="sxs-lookup"><span data-stu-id="3edab-139">Data can be changed by multiple users at once</span></span></p></li>
+<li><p><span data-ttu-id="f941f-139">Varios usuarios pueden cambiar los datos simultáneamente</span><span class="sxs-lookup"><span data-stu-id="f941f-139">Data can be changed by multiple users at once</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>

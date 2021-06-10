@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de grupo (ADOX)
+title: Propiedades de grupo, métodos y eventos (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c1597b02-a9db-662e-3842-3444c63406cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249939(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292107"
 ---
-# <a name="group-properties-methods-and-events-adox"></a><span data-ttu-id="c2448-102">Propiedades, métodos y eventos de grupo (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c2448-102">Group properties, methods, and events (ADOX)</span></span>
+# <a name="group-properties-methods-and-events-adox"></a><span data-ttu-id="1ab27-102">Propiedades de grupo, métodos y eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="1ab27-102">Group properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="c2448-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2448-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1ab27-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ab27-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="c2448-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="c2448-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="1ab27-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="1ab27-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="c2448-105">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="c2448-105">Name property</span></span>](name-property-adox.md)
-- [<span data-ttu-id="c2448-106">Properties (colección)</span><span class="sxs-lookup"><span data-stu-id="c2448-106">Properties collection</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="c2448-107">Users (colección)</span><span class="sxs-lookup"><span data-stu-id="c2448-107">Users collection</span></span>](users-collection-adox.md)
+- [<span data-ttu-id="1ab27-105">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="1ab27-105">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="1ab27-106">Properties (colección)</span><span class="sxs-lookup"><span data-stu-id="1ab27-106">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="1ab27-107">Users (colección)</span><span class="sxs-lookup"><span data-stu-id="1ab27-107">Users collection</span></span>](users-collection-adox.md)
 
-## <a name="methods"></a><span data-ttu-id="c2448-108">Métodos</span><span class="sxs-lookup"><span data-stu-id="c2448-108">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="1ab27-108">Métodos</span><span class="sxs-lookup"><span data-stu-id="1ab27-108">Methods</span></span>
 
-- [<span data-ttu-id="c2448-109">GetPermissions (método)</span><span class="sxs-lookup"><span data-stu-id="c2448-109">GetPermissions method</span></span>](getpermissions-method-adox.md)
-- [<span data-ttu-id="c2448-110">SetPermissions (método)</span><span class="sxs-lookup"><span data-stu-id="c2448-110">SetPermissions method</span></span>](setpermissions-method-adox.md)
+- [<span data-ttu-id="1ab27-109">GetPermissions (método)</span><span class="sxs-lookup"><span data-stu-id="1ab27-109">GetPermissions method</span></span>](getpermissions-method-adox.md)
+- [<span data-ttu-id="1ab27-110">SetPermissions (método)</span><span class="sxs-lookup"><span data-stu-id="1ab27-110">SetPermissions method</span></span>](setpermissions-method-adox.md)
 
-## <a name="events"></a><span data-ttu-id="c2448-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="c2448-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="1ab27-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="1ab27-111">Events</span></span>
 
-<span data-ttu-id="c2448-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="c2448-112">None.</span></span>
+<span data-ttu-id="1ab27-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="1ab27-112">None.</span></span>
 

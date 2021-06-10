@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289738"
 ---
-# <a name="marshaloptions-property-example-vj"></a><span data-ttu-id="278fa-102">Ejemplo de la propiedad MarshalOptions (VJ++)</span><span class="sxs-lookup"><span data-stu-id="278fa-102">MarshalOptions property example (VJ++)</span></span>
+# <a name="marshaloptions-property-example-vj"></a><span data-ttu-id="0d9dd-102">Ejemplo de la propiedad MarshalOptions (VJ++)</span><span class="sxs-lookup"><span data-stu-id="0d9dd-102">MarshalOptions property example (VJ++)</span></span>
 
 
-<span data-ttu-id="278fa-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="278fa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0d9dd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0d9dd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="278fa-104">En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.</span><span class="sxs-lookup"><span data-stu-id="278fa-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="0d9dd-104">En este ejemplo se utiliza la propiedad [MarshalOptions](marshaloptions-property-ado.md) para especificar las filas que se van a volver a enviar al servidor: todas las filas o sólo las modificadas.</span><span class="sxs-lookup"><span data-stu-id="0d9dd-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```java 
  

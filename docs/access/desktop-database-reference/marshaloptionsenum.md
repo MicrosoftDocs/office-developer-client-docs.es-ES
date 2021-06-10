@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289731"
 ---
-# <a name="marshaloptionsenum"></a><span data-ttu-id="232c2-102">MarshalOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="232c2-102">MarshalOptionsEnum</span></span>
+# <a name="marshaloptionsenum"></a><span data-ttu-id="97108-102">MarshalOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="97108-102">MarshalOptionsEnum</span></span>
 
-<span data-ttu-id="232c2-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="232c2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="97108-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="97108-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="232c2-104">Especifica qué registros se deben devolver al servidor.</span><span class="sxs-lookup"><span data-stu-id="232c2-104">Specifies which records should be returned to the server.</span></span>
+<span data-ttu-id="97108-104">Especifica qué registros se deben devolver al servidor.</span><span class="sxs-lookup"><span data-stu-id="97108-104">Specifies which records should be returned to the server.</span></span>
 
 <br/>
 
@@ -30,31 +30,31 @@ ms.locfileid: "32289731"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="232c2-105">Constante</span><span class="sxs-lookup"><span data-stu-id="232c2-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="232c2-106">Valor</span><span class="sxs-lookup"><span data-stu-id="232c2-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="232c2-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="232c2-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="97108-105">Constante</span><span class="sxs-lookup"><span data-stu-id="97108-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="97108-106">Valor</span><span class="sxs-lookup"><span data-stu-id="97108-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="97108-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="97108-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="232c2-108"><strong>adMarshalAll</strong></span><span class="sxs-lookup"><span data-stu-id="232c2-108"><strong>adMarshalAll</strong></span></span></p></td>
-<td><p><span data-ttu-id="232c2-109">0</span><span class="sxs-lookup"><span data-stu-id="232c2-109">0</span></span></p></td>
-<td><p><span data-ttu-id="232c2-p101">Valor predeterminado. 
+<td><p><span data-ttu-id="97108-108"><strong>adMarshalAll</strong></span><span class="sxs-lookup"><span data-stu-id="97108-108"><strong>adMarshalAll</strong></span></span></p></td>
+<td><p><span data-ttu-id="97108-109">0</span><span class="sxs-lookup"><span data-stu-id="97108-109">0</span></span></p></td>
+<td><p><span data-ttu-id="97108-p101">Valor predeterminado. 
 
-Devuelve al servidor todas las filas.</span><span class="sxs-lookup"><span data-stu-id="232c2-p101">Default. Returns all rows to the server.</span></span></p></td>
+Devuelve al servidor todas las filas.</span><span class="sxs-lookup"><span data-stu-id="97108-p101">Default. Returns all rows to the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="232c2-112"><strong>adMarshalModifiedOnly</strong></span><span class="sxs-lookup"><span data-stu-id="232c2-112"><strong>adMarshalModifiedOnly</strong></span></span></p></td>
-<td><p><span data-ttu-id="232c2-113">1 </span><span class="sxs-lookup"><span data-stu-id="232c2-113">1</span></span></p></td>
-<td><p><span data-ttu-id="232c2-114">Devuelve al servidor sólo las filas modificadas.</span><span class="sxs-lookup"><span data-stu-id="232c2-114">Returns only modified rows to the server.</span></span></p></td>
+<td><p><span data-ttu-id="97108-112"><strong>adMarshalModifiedOnly</strong></span><span class="sxs-lookup"><span data-stu-id="97108-112"><strong>adMarshalModifiedOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="97108-113">1</span><span class="sxs-lookup"><span data-stu-id="97108-113">1</span></span></p></td>
+<td><p><span data-ttu-id="97108-114">Devuelve al servidor sólo las filas modificadas.</span><span class="sxs-lookup"><span data-stu-id="97108-114">Returns only modified rows to the server.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="232c2-115">Equivalente de ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="232c2-115">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="97108-115">Equivalente a ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="97108-115">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="232c2-116">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="232c2-116">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="97108-116">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="97108-116">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -62,15 +62,15 @@ Devuelve al servidor todas las filas.</span><span class="sxs-lookup"><span data-
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="232c2-117">Constante</span><span class="sxs-lookup"><span data-stu-id="232c2-117">Constant</span></span></p></th>
+<th><p><span data-ttu-id="97108-117">Constante</span><span class="sxs-lookup"><span data-stu-id="97108-117">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="232c2-118">AdoEnums.MarshalOptions.ALL</span><span class="sxs-lookup"><span data-stu-id="232c2-118">AdoEnums.MarshalOptions.ALL</span></span></p></td>
+<td><p><span data-ttu-id="97108-118">AdoEnums.MarshalOptions.ALL</span><span class="sxs-lookup"><span data-stu-id="97108-118">AdoEnums.MarshalOptions.ALL</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="232c2-119">AdoEnums.MarshalOptions.MODIFIEDONLY</span><span class="sxs-lookup"><span data-stu-id="232c2-119">AdoEnums.MarshalOptions.MODIFIEDONLY</span></span></p></td>
+<td><p><span data-ttu-id="97108-119">AdoEnums.MarshalOptions.MODIFIEDONLY</span><span class="sxs-lookup"><span data-stu-id="97108-119">AdoEnums.MarshalOptions.MODIFIEDONLY</span></span></p></td>
 </tr>
 </tbody>
 </table>

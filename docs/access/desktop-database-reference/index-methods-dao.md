@@ -1,5 +1,5 @@
 ---
-title: Métodos Index (DAO)
+title: Métodos index (DAO)
 TOCTitle: Methods
 ms:assetid: 740d56e1-e789-41f0-b2dd-a39b81b68907
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161014(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291792"
 ---
-# <a name="index-methods-dao"></a><span data-ttu-id="56904-102">Métodos Index (DAO)</span><span class="sxs-lookup"><span data-stu-id="56904-102">Index methods (DAO)</span></span>
+# <a name="index-methods-dao"></a><span data-ttu-id="1c59f-102">Métodos index (DAO)</span><span class="sxs-lookup"><span data-stu-id="1c59f-102">Index methods (DAO)</span></span>
 
-<span data-ttu-id="56904-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="56904-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1c59f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c59f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="56904-104">Método Index.CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="56904-104">Index.CreateField method (DAO)</span></span>](index-createfield-method-dao.md)
-- [<span data-ttu-id="56904-105">Método Index.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="56904-105">Index.CreateProperty method (DAO)</span></span>](index-createproperty-method-dao.md)
+- [<span data-ttu-id="1c59f-104">Método Index.CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="1c59f-104">Index.CreateField method (DAO)</span></span>](index-createfield-method-dao.md)
+- [<span data-ttu-id="1c59f-105">Método Index.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="1c59f-105">Index.CreateProperty method (DAO)</span></span>](index-createproperty-method-dao.md)
 

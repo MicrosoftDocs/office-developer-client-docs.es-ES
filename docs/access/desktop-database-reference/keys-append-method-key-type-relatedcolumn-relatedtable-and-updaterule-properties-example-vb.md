@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de método Append de Keys, propiedades Key Type y RelatedColumn (VB)
+title: Ejemplo de las propiedades Keys Append (método, Key Type, RelatedColumn) (VB)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
 ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
@@ -14,12 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290634"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="0bc87-102">Ejemplo de las propiedades Método Append de Keys, Tipo de clave, RelatedColumn, RelatedTable y UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="0bc87-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="a1172-102">Ejemplo de las propiedades Método Append, Tipo de clave, RelatedColumn, RelatedTable y UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="a1172-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
 
 
-<span data-ttu-id="0bc87-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0bc87-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a1172-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1172-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0bc87-104">El código siguiente muestra cómo crear una clave externa nueva.</span><span class="sxs-lookup"><span data-stu-id="0bc87-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="0bc87-105">Supone que existen dos tablas (**Clientes** y **Pedidos**).</span><span class="sxs-lookup"><span data-stu-id="0bc87-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
+<span data-ttu-id="a1172-p101">El código siguiente muestra cómo crear una clave externa nueva.
+Supone que existen dos tablas (**Clientes** y **Pedidos**).</span><span class="sxs-lookup"><span data-stu-id="a1172-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (**Customers** and **Orders**) exist.</span></span>
 
 ```vb 
  

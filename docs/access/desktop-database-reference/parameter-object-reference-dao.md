@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de parámetro (DAO)
+title: Referencia de objeto parameter (DAO)
 TOCTitle: Parameter Object
 ms:assetid: 16595539-df52-49b2-9e4b-83f05dbb9304
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123825(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288066"
 ---
-# <a name="parameter-object-reference-dao"></a><span data-ttu-id="f36d7-102">Referencia de objeto de parámetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="f36d7-102">Parameter object reference (DAO)</span></span>
+# <a name="parameter-object-reference-dao"></a><span data-ttu-id="02515-102">Referencia de objeto parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="02515-102">Parameter object reference (DAO)</span></span>
 
-<span data-ttu-id="f36d7-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f36d7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="02515-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="02515-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f36d7-104">Objeto Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="f36d7-104">Parameter object (DAO)</span></span>](parameter-object-dao.md)
-- [<span data-ttu-id="f36d7-105">Miembros de parámetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="f36d7-105">Parameter members (DAO)</span></span>](parameter-members-dao.md)
-- [<span data-ttu-id="f36d7-106">Propiedades de parámetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="f36d7-106">Parameter properties (DAO)</span></span>](parameter-properties-dao.md)
+- [<span data-ttu-id="02515-104">Objeto Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="02515-104">Parameter object (DAO)</span></span>](parameter-object-dao.md)
+- [<span data-ttu-id="02515-105">Miembros del parámetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="02515-105">Parameter members (DAO)</span></span>](parameter-members-dao.md)
+- [<span data-ttu-id="02515-106">Propiedades de parámetro (DAO)</span><span class="sxs-lookup"><span data-stu-id="02515-106">Parameter properties (DAO)</span></span>](parameter-properties-dao.md)
 

@@ -14,15 +14,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289159"
 ---
-# <a name="messagebox-macro-action"></a><span data-ttu-id="8a1f7-102">CuadroDeMensajes (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="8a1f7-102">MessageBox macro action</span></span>
+# <a name="messagebox-macro-action"></a><span data-ttu-id="b8e14-102">CuadroDeMensajes (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="b8e14-102">MessageBox macro action</span></span>
 
-<span data-ttu-id="8a1f7-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a1f7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b8e14-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8e14-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8a1f7-p101">Puede usar la acción **CuadroDeMensajes** para mostrar un cuadro de mensaje que contenga una advertencia o un mensaje informativo. Por ejemplo, puede usar la acción **CuadroDeMensajes** con macros de validación. Cuando un control o un registro produce un error en una condición de validación de la macro, un cuadro de mensaje puede mostrar un mensaje de error y proporcionar instrucciones sobre el tipo de datos que se debe introducir.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-p101">You can use the **MessageBox** action to display a message box containing a warning or an informational message. For example, you can use the **MessageBox** action with validation macros. When a control or record fails a validation condition in the macro, a message box can display an error message and provide instructions about the kind of data that should be entered.</span></span>
+<span data-ttu-id="b8e14-p101">Puede usar la acción **CuadroDeMensajes** para mostrar un cuadro de mensaje que contenga una advertencia o un mensaje informativo. Por ejemplo, puede usar la acción **CuadroDeMensajes** con macros de validación. Cuando un control o un registro produce un error en una condición de validación de la macro, un cuadro de mensaje puede mostrar un mensaje de error y proporcionar instrucciones sobre el tipo de datos que se debe introducir.</span><span class="sxs-lookup"><span data-stu-id="b8e14-p101">You can use the **MessageBox** action to display a message box containing a warning or an informational message. For example, you can use the **MessageBox** action with validation macros. When a control or record fails a validation condition in the macro, a message box can display an error message and provide instructions about the kind of data that should be entered.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="8a1f7-107">Setting</span><span class="sxs-lookup"><span data-stu-id="8a1f7-107">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="b8e14-107">Configuración</span><span class="sxs-lookup"><span data-stu-id="b8e14-107">Setting</span></span>
 
-<span data-ttu-id="8a1f7-108">La acción **CuadroDeMensajes** tiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-108">The **MessageBox** action has the following arguments.</span></span>
+<span data-ttu-id="b8e14-108">La acción **CuadroDeMensajes** tiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="b8e14-108">The **MessageBox** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -31,48 +31,48 @@ ms.locfileid: "32289159"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8a1f7-109">Argumento de acción</span><span class="sxs-lookup"><span data-stu-id="8a1f7-109">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="8a1f7-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="8a1f7-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-109">Argumento de acción</span><span class="sxs-lookup"><span data-stu-id="b8e14-109">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="b8e14-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8a1f7-111"><strong>Mensaje</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-111"><strong>Message</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-p102">El texto del mensaje de texto. Introduzca el texto del mensaje en el cuadro <strong>Mensaje</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Puede escribir hasta 255 caracteres o introducir una expresión (precedida de un signo de igual).  </span><span class="sxs-lookup"><span data-stu-id="8a1f7-p102">The text in the message box. Enter the message text in the <strong>Message</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. You can type up to 255 characters or enter an expression (preceded by an equal sign).</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-111"><strong>Mensaje</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-111"><strong>Message</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-p102">El texto del mensaje de texto. Introduzca el texto del mensaje en el cuadro <strong>Mensaje</strong> de la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Puede escribir hasta 255 caracteres o introducir una expresión (precedida de un signo de igual).  </span><span class="sxs-lookup"><span data-stu-id="b8e14-p102">The text in the message box. Enter the message text in the <strong>Message</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. You can type up to 255 characters or enter an expression (preceded by an equal sign).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a1f7-115"><strong>Sonido</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-115"><strong>Beep</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-p103">Especifica si el altavoz del equipo emite un sonido al mostrar el mensaje. Haga clic en <strong>Sí</strong> (emitir el sonido) o <strong>No</strong> (no emitir el sonido). El valor predeterminado es <strong>Sí</strong>.  </span><span class="sxs-lookup"><span data-stu-id="8a1f7-p103">Specifies whether your computer's speaker sounds a beep tone when the message displays. Click <strong>Yes</strong> (sound the beep tone) or <strong>No</strong> (don't sound the beep tone). The default is <strong>Yes</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-115"><strong>Sonido</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-115"><strong>Beep</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-p103">Especifica si el altavoz del equipo emite un sonido al mostrar el mensaje. Haga clic en <strong>Sí</strong> (emitir el sonido) o <strong>No</strong> (no emitir el sonido). El valor predeterminado es <strong>Sí</strong>.  </span><span class="sxs-lookup"><span data-stu-id="b8e14-p103">Specifies whether your computer's speaker sounds a beep tone when the message displays. Click <strong>Yes</strong> (sound the beep tone) or <strong>No</strong> (don't sound the beep tone). The default is <strong>Yes</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8a1f7-119"><strong>Tipo</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-119"><strong>Type</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-p104">El tipo de cuadro de mensaje. Cada tipo tiene un icono distinto. Haga clic en <strong>Ninguno</strong>, <strong>Crítico</strong>, <strong>¿Advertencia?</strong>, <strong>Advertencia</strong> o <strong>Información</strong>. El valor predeterminado es <strong>Ninguno</strong>.  </span><span class="sxs-lookup"><span data-stu-id="8a1f7-p104">The type of message box. Each type has a different icon. Click <strong>None</strong>, <strong>Critical</strong>, <strong>Warning?</strong>, <strong>Warning!</strong>, or <strong>Information</strong>. The default is <strong>None</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-119"><strong>Tipo</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-119"><strong>Type</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-p104">El tipo de cuadro de mensaje. Cada tipo tiene un icono distinto. Haga clic en <strong>Ninguno</strong>, <strong>Crítico</strong>, <strong>¿Advertencia?</strong>, <strong>Advertencia</strong> o <strong>Información</strong>. El valor predeterminado es <strong>Ninguno</strong>.  </span><span class="sxs-lookup"><span data-stu-id="b8e14-p104">The type of message box. Each type has a different icon. Click <strong>None</strong>, <strong>Critical</strong>, <strong>Warning?</strong>, <strong>Warning!</strong>, or <strong>Information</strong>. The default is <strong>None</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a1f7-124"><strong>Título</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-124"><strong>Title</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-125">El texto que se muestra en la barra de título del cuadro de mensaje.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-125">The text displayed in the message box title bar.</span></span> <span data-ttu-id="8a1f7-126">Por ejemplo, puede hacer que la barra de título muestre la validación &quot; de id. de &quot; cliente.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-126">For example, you can have the title bar display &quot;Customer ID Validation&quot;.</span></span> <span data-ttu-id="8a1f7-127">Si deja este argumento en blanco, &quot; se muestra Microsoft &quot; Access.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-127">If you leave this argument blank, &quot;Microsoft Access&quot; is displayed.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-124"><strong>Título</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-124"><strong>Title</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-125">El texto que se muestra en la barra de título del cuadro de mensaje.</span><span class="sxs-lookup"><span data-stu-id="b8e14-125">The text displayed in the message box title bar.</span></span> <span data-ttu-id="b8e14-126">Por ejemplo, puede hacer que la barra de título muestre &quot; Validación de id. de cliente &quot; .</span><span class="sxs-lookup"><span data-stu-id="b8e14-126">For example, you can have the title bar display &quot;Customer ID Validation&quot;.</span></span> <span data-ttu-id="b8e14-127">Si deja este argumento en blanco, &quot; se muestra Microsoft &quot; Access.</span><span class="sxs-lookup"><span data-stu-id="b8e14-127">If you leave this argument blank, &quot;Microsoft Access&quot; is displayed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="8a1f7-128">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8a1f7-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b8e14-128">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b8e14-128">Remarks</span></span>
 
-<span data-ttu-id="8a1f7-p106">Puede usar la acción **CuadroDeMensajes** para crear un mensaje de error con formato parecido a los mensajes de error integrados que muestra Microsoft Access. La acción **CuadroDeMensajes** permite proporcionar un mensaje en tres secciones para el argumento Mensaje. Las secciones se separan mediante el carácter "@".</span><span class="sxs-lookup"><span data-stu-id="8a1f7-p106">You can use the **MessageBox** action to create a formatted error message similar to built-in error messages displayed by Microsoft Access. The **MessageBox** action permits you to supply a message in three sections for the Message argument. You separate the sections with the "@" character.</span></span>
+<span data-ttu-id="b8e14-p106">Puede usar la acción **CuadroDeMensajes** para crear un mensaje de error con formato parecido a los mensajes de error integrados que muestra Microsoft Access. La acción **CuadroDeMensajes** permite proporcionar un mensaje en tres secciones para el argumento Mensaje. Las secciones se separan mediante el carácter "@".</span><span class="sxs-lookup"><span data-stu-id="b8e14-p106">You can use the **MessageBox** action to create a formatted error message similar to built-in error messages displayed by Microsoft Access. The **MessageBox** action permits you to supply a message in three sections for the Message argument. You separate the sections with the "@" character.</span></span>
 
-<span data-ttu-id="8a1f7-p107">En el siguiente ejemplo se muestra un cuadro de mensaje con formato con un mensaje con secciones. La primera sección del texto del mensaje se muestra como encabezado en negrita. La segunda sección se muestra como texto normal bajo el encabezado. La tercera sección se muestra como texto normal bajo la segunda sección, con una línea en blanco entre ellas.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-p107">The following example displays a formatted message box with a sectioned message. The first section of text in the message is displayed as a bold heading. The second section is displayed as plain text beneath that heading. The third section is displayed as plain text beneath the second section, with a blank line between them.</span></span>
+<span data-ttu-id="b8e14-p107">En el siguiente ejemplo se muestra un cuadro de mensaje con formato con un mensaje con secciones. La primera sección del texto del mensaje se muestra como encabezado en negrita. La segunda sección se muestra como texto normal bajo el encabezado. La tercera sección se muestra como texto normal bajo la segunda sección, con una línea en blanco entre ellas.</span><span class="sxs-lookup"><span data-stu-id="b8e14-p107">The following example displays a formatted message box with a sectioned message. The first section of text in the message is displayed as a bold heading. The second section is displayed as plain text beneath that heading. The third section is displayed as plain text beneath the second section, with a blank line between them.</span></span>
 
-<span data-ttu-id="8a1f7-136">Escriba la siguiente cadena en el argumento **Mensaje**:</span><span class="sxs-lookup"><span data-stu-id="8a1f7-136">Type the following string in the **Message** argument:</span></span>
+<span data-ttu-id="b8e14-136">Escriba la siguiente cadena en el argumento **Mensaje**:</span><span class="sxs-lookup"><span data-stu-id="b8e14-136">Type the following string in the **Message** argument:</span></span>
 
-<span data-ttu-id="8a1f7-137">**El botón \! @This botón no es work.@Try otro.**</span><span class="sxs-lookup"><span data-stu-id="8a1f7-137">**Wrong button\!@This button doesn't work.@Try another.**</span></span>
+<span data-ttu-id="b8e14-137">**El botón \! @This no se work.@Try otro.**</span><span class="sxs-lookup"><span data-stu-id="b8e14-137">**Wrong button\!@This button doesn't work.@Try another.**</span></span>
 
-<span data-ttu-id="8a1f7-138">No puede ejecutar la acción **CuadroDeMensajes** en un módulo Visual Basic para aplicaciones (VBA).</span><span class="sxs-lookup"><span data-stu-id="8a1f7-138">You can't run the **MessageBox** action in a Visual Basic for Applications (VBA) module.</span></span> <span data-ttu-id="8a1f7-139">En su lugar, use la función **CuadroMsj**.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-139">Use the **MsgBox** function instead.</span></span>
+<span data-ttu-id="b8e14-p108">No puede ejecutar la acción **CuadroDeMensajes** en un módulo Visual Basic para aplicaciones (VBA). En su lugar, use la función **CuadroMsj**.</span><span class="sxs-lookup"><span data-stu-id="b8e14-p108">You can't run the **MessageBox** action in a Visual Basic for Applications (VBA) module. Use the **MsgBox** function instead.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="8a1f7-140">Ejemplos</span><span class="sxs-lookup"><span data-stu-id="8a1f7-140">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="b8e14-140">Ejemplos</span><span class="sxs-lookup"><span data-stu-id="b8e14-140">Examples</span></span>
 
-<span data-ttu-id="8a1f7-141">**Sincronizar formularios con una macro**</span><span class="sxs-lookup"><span data-stu-id="8a1f7-141">**Synchronize forms by using a macro**</span></span>
+<span data-ttu-id="b8e14-141">**Sincronizar formularios con una macro**</span><span class="sxs-lookup"><span data-stu-id="b8e14-141">**Synchronize forms by using a macro**</span></span>
 
-<span data-ttu-id="8a1f7-p109">La siguiente macro abre Lista de productos en la esquina inferior derecha del formulario Proveedores y muestra los productos del proveedor actual. Muestra el uso de las acciones **Eco**, **CuadroDeMensajes**, **IrAControl**, **DetenerMacro**, **AbrirFormulario** y **MoverYCambiarTamañoDeVentana**. También muestra el uso de una expresión condicional con las acciones **CuadroDeMensajes**, **IrAControl** y **DetenerMacro**. Esta macro se debe adjuntar al botón Revisar productos del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-p109">The following macro opens a Product List form in the lower-right corner of the Suppliers form, displaying the current supplier's products. It shows the use of the **Echo**, **MessageBox**, **GoToControl**, **StopMacro**, **OpenForm**, and **MoveAndSizeWindow** actions. It also shows the use of a conditional expression with the **MessageBox**, **GoToControl**, and **StopMacro** actions. This macro should be attached to the Review Products button on the Suppliers form.</span></span>
+<span data-ttu-id="b8e14-p109">La siguiente macro abre Lista de productos en la esquina inferior derecha del formulario Proveedores y muestra los productos del proveedor actual. Muestra el uso de las acciones **Eco**, **CuadroDeMensajes**, **IrAControl**, **DetenerMacro**, **AbrirFormulario** y **MoverYCambiarTamañoDeVentana**. También muestra el uso de una expresión condicional con las acciones **CuadroDeMensajes**, **IrAControl** y **DetenerMacro**. Esta macro se debe adjuntar al botón Revisar productos del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="b8e14-p109">The following macro opens a Product List form in the lower-right corner of the Suppliers form, displaying the current supplier's products. It shows the use of the **Echo**, **MessageBox**, **GoToControl**, **StopMacro**, **OpenForm**, and **MoveAndSizeWindow** actions. It also shows the use of a conditional expression with the **MessageBox**, **GoToControl**, and **StopMacro** actions. This macro should be attached to the Review Products button on the Suppliers form.</span></span>
 
 <table>
 <colgroup>
@@ -83,56 +83,56 @@ ms.locfileid: "32289159"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8a1f7-146">Condition</span><span class="sxs-lookup"><span data-stu-id="8a1f7-146">Condition</span></span></p></th>
-<th><p><span data-ttu-id="8a1f7-147">Acción</span><span class="sxs-lookup"><span data-stu-id="8a1f7-147">Action</span></span></p></th>
-<th><p><span data-ttu-id="8a1f7-148">Argumentos: Configuración</span><span class="sxs-lookup"><span data-stu-id="8a1f7-148">Arguments: Setting</span></span></p></th>
-<th><p><span data-ttu-id="8a1f7-149">Comentario</span><span class="sxs-lookup"><span data-stu-id="8a1f7-149">Comment</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-146">Condición</span><span class="sxs-lookup"><span data-stu-id="b8e14-146">Condition</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-147">Acción</span><span class="sxs-lookup"><span data-stu-id="b8e14-147">Action</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-148">Argumentos: Configuración</span><span class="sxs-lookup"><span data-stu-id="b8e14-148">Arguments: Setting</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-149">Comentario</span><span class="sxs-lookup"><span data-stu-id="b8e14-149">Comment</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-150"><strong>Echo</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-150"><strong>Echo</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-151"><strong>Eco activo</strong>: <strong>No</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-151"><strong>Echo On</strong>: <strong>No</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-152">Detener la actualización de la pantalla mientras se ejecuta la macro.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-152">Stop screen updating while the macro is running.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-150"><strong>Echo</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-150"><strong>Echo</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-151"><strong>Eco activo</strong>: <strong>No</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-151"><strong>Echo On</strong>: <strong>No</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-152">Detener la actualización de la pantalla mientras se ejecuta la macro.</span><span class="sxs-lookup"><span data-stu-id="b8e14-152">Stop screen updating while the macro is running.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a1f7-153">IsNull([SupplierID])</span><span class="sxs-lookup"><span data-stu-id="8a1f7-153">IsNull([SupplierID])</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-154"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-154"><strong>MessageBox</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-155"><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-155"><strong>Message</strong>: Move to the supplier record whose products you want to see, then click the Review Products button again.</span></span> <span data-ttu-id="8a1f7-156"><strong>Sonido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Seleccionar un proveedor</span><span class="sxs-lookup"><span data-stu-id="8a1f7-156"><strong>Beep</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-157">Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-157">If there is no current supplier on the Suppliers form, display a message.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-153">IsNull([SupplierID])</span><span class="sxs-lookup"><span data-stu-id="b8e14-153">IsNull([SupplierID])</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-154"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-154"><strong>MessageBox</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-155"><strong>Mensaje</strong>: Mueva al registro de proveedores los productos que quiera ver y haga clic en el botón Revisar productos de nuevo.</span><span class="sxs-lookup"><span data-stu-id="b8e14-155"><strong>Message</strong>: Move to the supplier record whose products you want to see, then click the Review Products button again.</span></span> <span data-ttu-id="b8e14-156"><strong>Pitido</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</span><span class="sxs-lookup"><span data-stu-id="b8e14-156"><strong>Beep</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: Select a Supplier</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-157">Si no hay ningún proveedor actual en el formulario Proveedores, mostrar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="b8e14-157">If there is no current supplier on the Suppliers form, display a message.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8a1f7-158">...</span><span class="sxs-lookup"><span data-stu-id="8a1f7-158">...</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-159"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-159"><strong>GoToControl</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-160"><strong>Nombre del control</strong>: NombreDeEmpresa</span><span class="sxs-lookup"><span data-stu-id="8a1f7-160"><strong>Control Name</strong>: CompanyName</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-161">Mover el foco al control NombreDeEmpresa.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-161">Move focus to the CompanyName control.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-158">...</span><span class="sxs-lookup"><span data-stu-id="b8e14-158">...</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-159"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-159"><strong>GoToControl</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-160"><strong>Nombre del control</strong>: NombreDeEmpresa</span><span class="sxs-lookup"><span data-stu-id="b8e14-160"><strong>Control Name</strong>: CompanyName</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-161">Mover el foco al control NombreDeEmpresa.</span><span class="sxs-lookup"><span data-stu-id="b8e14-161">Move focus to the CompanyName control.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a1f7-162">...</span><span class="sxs-lookup"><span data-stu-id="8a1f7-162">...</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-163"><strong>StopMacro</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-163"><strong>StopMacro</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-162">...</span><span class="sxs-lookup"><span data-stu-id="b8e14-162">...</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-163"><strong>StopMacro</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-163"><strong>StopMacro</strong></span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-164">Detener la macro.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-164">Stop the macro.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-164">Detener la macro.</span><span class="sxs-lookup"><span data-stu-id="b8e14-164">Stop the macro.</span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-165"><strong>OpenForm</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-165"><strong>OpenForm</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-166"><strong>Nombre del formulario</strong>: Vista de lista <strong>de productos</strong>: Nombre del filtro <strong>de hoja</strong>de datos : <strong>Condición</strong>Where : [IdDe Proveedor] = [Formularios]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo Read OnlyWindow</strong>: <strong>Normal</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-166"><strong>Form Name</strong>: Product List <strong>View</strong>: <strong>DatasheetFilter Name</strong>: <strong>Where Condition</strong>: [SupplierID] = [Forms]![Suppliers]![SupplierID] <strong>Data Mode</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-167">Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-167">Open the Product List form and show the current supplier's products.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-165"><strong>OpenForm</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-165"><strong>OpenForm</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-166"><strong>Nombre del</strong>formulario : Vista lista <strong>de productos</strong>: <strong>DatasheetFilter Name</strong>: Where <strong>Condition</strong>: [SupplierID] = [Forms]! [Proveedores]! [SupplierID] <strong>Modo de datos</strong>: <strong>Modo De solo lecturaWindow</strong>: <strong>Normal</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-166"><strong>Form Name</strong>: Product List <strong>View</strong>: <strong>DatasheetFilter Name</strong>: <strong>Where Condition</strong>: [SupplierID] = [Forms]![Suppliers]![SupplierID] <strong>Data Mode</strong>: <strong>Read OnlyWindow Mode</strong>: <strong>Normal</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-167">Abrir el formulario Lista de productos y mostrar los productos del proveedor actual.</span><span class="sxs-lookup"><span data-stu-id="b8e14-167">Open the Product List form and show the current supplier's products.</span></span></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-168"><strong>MoveAndSizeWindow</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-168"><strong>MoveAndSizeWindow</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-169"><strong>Derecha</strong>: 0,7799 &quot; <strong>abajo</strong>: 1,8&quot;</span><span class="sxs-lookup"><span data-stu-id="8a1f7-169"><strong>Right</strong>: 0.7799&quot; <strong>Down</strong>: 1.8&quot;</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-170">Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-170">Position the Product List form in the lower right of the Suppliers form.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-168"><strong>MoveAndSizeWindow</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-168"><strong>MoveAndSizeWindow</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-169"><strong>Right</strong>: 0.7799 &quot; <strong>Down</strong>: 1.8&quot;</span><span class="sxs-lookup"><span data-stu-id="b8e14-169"><strong>Right</strong>: 0.7799&quot; <strong>Down</strong>: 1.8&quot;</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-170">Coloque el formulario Lista de productos en la esquina inferior derecha del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="b8e14-170">Position the Product List form in the lower right of the Suppliers form.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="8a1f7-171">**Validar los datos con una macro**</span><span class="sxs-lookup"><span data-stu-id="8a1f7-171">**Validate data by using a macro**</span></span>
+<span data-ttu-id="b8e14-171">**Validar los datos con una macro**</span><span class="sxs-lookup"><span data-stu-id="b8e14-171">**Validate data by using a macro**</span></span>
 
-<span data-ttu-id="8a1f7-p111">La siguiente macro de validación comprueba los códigos postales introducidos en el formulario Proveedores. Muestra el uso de las acciones **DetenerMacro**, **CuadroDeMensajes**, **CancelarEvento** e **IrAControl**. Una expresión condicional comprueba el país o región, y el código postal introducidos en un registro del formulario. Si el código postal no tiene el formato correcto para el país o región, la macro muestra un cuadro de mensaje y cancela el guardado del registro. Luego, devuelve el control CódigoPostal, donde puede corregir el error. Esta macro se debe adjuntar a la propiedad **BeforeUpdate** del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-p111">The following validation macro checks the postal codes entered in a Suppliers form. It shows the use of the **StopMacro**, **MessageBox**, **CancelEvent**, and **GoToControl** actions. A conditional expression checks the country/region and postal code entered in a record on the form. If the postal code isn't in the right format for the country/region, the macro displays a message box and cancels saving the record. It then returns you to the PostalCode control, where you can correct the error. This macro should be attached to the **BeforeUpdate** property of the Suppliers form.</span></span>
+<span data-ttu-id="b8e14-p111">La siguiente macro de validación comprueba los códigos postales introducidos en el formulario Proveedores. Muestra el uso de las acciones **DetenerMacro**, **CuadroDeMensajes**, **CancelarEvento** e **IrAControl**. Una expresión condicional comprueba el país o región, y el código postal introducidos en un registro del formulario. Si el código postal no tiene el formato correcto para el país o región, la macro muestra un cuadro de mensaje y cancela el guardado del registro. Luego, devuelve el control CódigoPostal, donde puede corregir el error. Esta macro se debe adjuntar a la propiedad **BeforeUpdate** del formulario Proveedores.</span><span class="sxs-lookup"><span data-stu-id="b8e14-p111">The following validation macro checks the postal codes entered in a Suppliers form. It shows the use of the **StopMacro**, **MessageBox**, **CancelEvent**, and **GoToControl** actions. A conditional expression checks the country/region and postal code entered in a record on the form. If the postal code isn't in the right format for the country/region, the macro displays a message box and cancels saving the record. It then returns you to the PostalCode control, where you can correct the error. This macro should be attached to the **BeforeUpdate** property of the Suppliers form.</span></span>
 
 <table>
 <colgroup>
@@ -143,66 +143,66 @@ ms.locfileid: "32289159"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8a1f7-178">Condition</span><span class="sxs-lookup"><span data-stu-id="8a1f7-178">Condition</span></span></p></th>
-<th><p><span data-ttu-id="8a1f7-179">Acción</span><span class="sxs-lookup"><span data-stu-id="8a1f7-179">Action</span></span></p></th>
-<th><p><span data-ttu-id="8a1f7-180">Argumentos: Configuración</span><span class="sxs-lookup"><span data-stu-id="8a1f7-180">Arguments: Setting</span></span></p></th>
-<th><p><span data-ttu-id="8a1f7-181">Comentario</span><span class="sxs-lookup"><span data-stu-id="8a1f7-181">Comment</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-178">Condición</span><span class="sxs-lookup"><span data-stu-id="b8e14-178">Condition</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-179">Acción</span><span class="sxs-lookup"><span data-stu-id="b8e14-179">Action</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-180">Argumentos: Configuración</span><span class="sxs-lookup"><span data-stu-id="b8e14-180">Arguments: Setting</span></span></p></th>
+<th><p><span data-ttu-id="b8e14-181">Comentario</span><span class="sxs-lookup"><span data-stu-id="b8e14-181">Comment</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8a1f7-182">IsNull([CountryRegion])</span><span class="sxs-lookup"><span data-stu-id="8a1f7-182">IsNull([CountryRegion])</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-183"><strong>StopMacro</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-183"><strong>StopMacro</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-182">IsNull([CountryRegion])</span><span class="sxs-lookup"><span data-stu-id="b8e14-182">IsNull([CountryRegion])</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-183"><strong>StopMacro</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-183"><strong>StopMacro</strong></span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-184">Si PaísRegión es <strong>Null</strong>, el código postal no se podrá validar.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-184">If CountryRegion is <strong>Null</strong>, the postal code can't be validated.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-184">Si PaísRegión es <strong>Null</strong>, el código postal no se podrá validar.</span><span class="sxs-lookup"><span data-stu-id="b8e14-184">If CountryRegion is <strong>Null</strong>, the postal code can't be validated.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a1f7-185">[CountryRegion] In ( &quot; France , Italia , España ) And &quot; &quot; &quot; &quot; &quot; Len([PostalCode]) &lt; &gt; 5</span><span class="sxs-lookup"><span data-stu-id="8a1f7-185">[CountryRegion] In (&quot;France&quot;,&quot;Italy&quot;,&quot;Spain&quot;) And Len([PostalCode]) &lt;&gt; 5</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-186"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-186"><strong>MessageBox</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-187"><strong>Mensaje</strong>: el código postal debe ser de 5 caracteres.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-187"><strong>Message</strong>: The postal code must be 5 characters.</span></span> <span data-ttu-id="8a1f7-188"><strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código postal</span><span class="sxs-lookup"><span data-stu-id="8a1f7-188"><strong>Beep</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Postal Code Error</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-189">Si el código postal no tiene 5 caracteres, mostrar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-189">If the postal code isn't 5 characters, display a message.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-185">[CountryRegion] In ( &quot; France , Italy , Spain ) and &quot; &quot; &quot; &quot; &quot; Len([PostalCode]) &lt; &gt; 5</span><span class="sxs-lookup"><span data-stu-id="b8e14-185">[CountryRegion] In (&quot;France&quot;,&quot;Italy&quot;,&quot;Spain&quot;) And Len([PostalCode]) &lt;&gt; 5</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-186"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-186"><strong>MessageBox</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-187"><strong>Mensaje</strong>: el código postal debe ser de 5 caracteres.</span><span class="sxs-lookup"><span data-stu-id="b8e14-187"><strong>Message</strong>: The postal code must be 5 characters.</span></span> <span data-ttu-id="b8e14-188"><strong>Pitido</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código postal</span><span class="sxs-lookup"><span data-stu-id="b8e14-188"><strong>Beep</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Postal Code Error</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-189">Si el código postal no tiene 5 caracteres, mostrar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="b8e14-189">If the postal code isn't 5 characters, display a message.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8a1f7-190">...</span><span class="sxs-lookup"><span data-stu-id="8a1f7-190">...</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-191"><strong>CancelEvent</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-191"><strong>CancelEvent</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-190">...</span><span class="sxs-lookup"><span data-stu-id="b8e14-190">...</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-191"><strong>CancelEvent</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-191"><strong>CancelEvent</strong></span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-192">Cancelar el evento.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-192">Cancel the event.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-192">Cancelar el evento.</span><span class="sxs-lookup"><span data-stu-id="b8e14-192">Cancel the event.</span></span></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-193"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-193"><strong>GoToControl</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-194"><strong>Nombre del control</strong>: CódigoPostal</span><span class="sxs-lookup"><span data-stu-id="8a1f7-194"><strong>Control Name</strong>: PostalCode</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-193"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-193"><strong>GoToControl</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-194"><strong>Nombre del control</strong>: CódigoPostal</span><span class="sxs-lookup"><span data-stu-id="b8e14-194"><strong>Control Name</strong>: PostalCode</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8a1f7-195">[CountryRegion] In ( &quot; Australia , Singapur ) And &quot; &quot; &quot; Len([PostalCode]) &lt; &gt; 4</span><span class="sxs-lookup"><span data-stu-id="8a1f7-195">[CountryRegion] In (&quot;Australia&quot;,&quot;Singapore&quot;) And Len([PostalCode]) &lt;&gt; 4</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-196"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-196"><strong>MessageBox</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-197"><strong>Mensaje</strong>: el código postal debe ser de 4 caracteres.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-197"><strong>Message</strong>: The postal code must be 4 characters.</span></span> <span data-ttu-id="8a1f7-198"><strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código postal</span><span class="sxs-lookup"><span data-stu-id="8a1f7-198"><strong>Beep</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Postal Code Error</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-199">Si el código postal no tiene 4 caracteres, mostrar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-199">If the postal code isn't 4 characters, display a message.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-195">[CountryRegion] In ( &quot; Australia , Singapore ) And &quot; &quot; &quot; Len([PostalCode]) &lt; &gt; 4</span><span class="sxs-lookup"><span data-stu-id="b8e14-195">[CountryRegion] In (&quot;Australia&quot;,&quot;Singapore&quot;) And Len([PostalCode]) &lt;&gt; 4</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-196"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-196"><strong>MessageBox</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-197"><strong>Mensaje</strong>: el código postal debe ser de 4 caracteres.</span><span class="sxs-lookup"><span data-stu-id="b8e14-197"><strong>Message</strong>: The postal code must be 4 characters.</span></span> <span data-ttu-id="b8e14-198"><strong>Pitido</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Error de código postal</span><span class="sxs-lookup"><span data-stu-id="b8e14-198"><strong>Beep</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Postal Code Error</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-199">Si el código postal no tiene 4 caracteres, mostrar un mensaje.</span><span class="sxs-lookup"><span data-stu-id="b8e14-199">If the postal code isn't 4 characters, display a message.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a1f7-200">...</span><span class="sxs-lookup"><span data-stu-id="8a1f7-200">...</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-201"><strong>CancelEvent</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-201"><strong>CancelEvent</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-200">...</span><span class="sxs-lookup"><span data-stu-id="b8e14-200">...</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-201"><strong>CancelEvent</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-201"><strong>CancelEvent</strong></span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-202">Cancelar el evento.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-202">Cancel the event.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-202">Cancelar el evento.</span><span class="sxs-lookup"><span data-stu-id="b8e14-202">Cancel the event.</span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-203"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-203"><strong>GoToControl</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-204"><strong>Nombre del control</strong>: CódigoPostal</span><span class="sxs-lookup"><span data-stu-id="8a1f7-204"><strong>Control Name</strong>: PostalCode</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-203"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-203"><strong>GoToControl</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-204"><strong>Nombre del control</strong>: CódigoPostal</span><span class="sxs-lookup"><span data-stu-id="b8e14-204"><strong>Control Name</strong>: PostalCode</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a1f7-205">([CountryRegion] = &quot; Canadá &quot; ) y ([PostalCode] No como &quot; [A-Z][0-9][A-Z] [0-9][A-Z][0-9] &quot; )</span><span class="sxs-lookup"><span data-stu-id="8a1f7-205">([CountryRegion] = &quot;Canada&quot;) And ([PostalCode] Not Like&quot;[A-Z][0-9][A-Z] [0-9][A-Z][0-9]&quot;)</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-206"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-206"><strong>MessageBox</strong></span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-207"><strong>Mensaje</strong>: El código postal no es válido.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-207"><strong>Message</strong>: The postal code is not valid.</span></span> <span data-ttu-id="8a1f7-208">Ejemplo de código canadiense: H1J 1C3 <strong>Beep</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Postal Code Error</span><span class="sxs-lookup"><span data-stu-id="8a1f7-208">Example of Canadian code: H1J 1C3 <strong>Beep</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Postal Code Error</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-p115">Si el código postal no es correcto para Canadá, mostrar un mensaje. (Ejemplo de código canadiense: H1J 1C3)</span><span class="sxs-lookup"><span data-stu-id="8a1f7-p115">If the postal code isn't correct for Canada, display a message. (Example of Canadian code: H1J 1C3)</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-205">([CountryRegion] = &quot; Canada &quot; ) And ([PostalCode] Not Like &quot; [A-Z][0-9][A-Z] [0-9][A-Z][0-9] &quot; )</span><span class="sxs-lookup"><span data-stu-id="b8e14-205">([CountryRegion] = &quot;Canada&quot;) And ([PostalCode] Not Like&quot;[A-Z][0-9][A-Z] [0-9][A-Z][0-9]&quot;)</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-206"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-206"><strong>MessageBox</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-207"><strong>Mensaje</strong>: El código postal no es válido.</span><span class="sxs-lookup"><span data-stu-id="b8e14-207"><strong>Message</strong>: The postal code is not valid.</span></span> <span data-ttu-id="b8e14-208">Ejemplo de código canadiense: H1J 1C3 <strong>Beep</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Postal Code Error</span><span class="sxs-lookup"><span data-stu-id="b8e14-208">Example of Canadian code: H1J 1C3 <strong>Beep</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: Postal Code Error</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-p115">Si el código postal no es correcto para Canadá, mostrar un mensaje. (Ejemplo de código canadiense: H1J 1C3)</span><span class="sxs-lookup"><span data-stu-id="b8e14-p115">If the postal code isn't correct for Canada, display a message. (Example of Canadian code: H1J 1C3)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8a1f7-211">...</span><span class="sxs-lookup"><span data-stu-id="8a1f7-211">...</span></span></p></td>
-<td><p><span data-ttu-id="8a1f7-212"><strong>CancelEvent</strong></span><span class="sxs-lookup"><span data-stu-id="8a1f7-212"><strong>CancelEvent</strong></span></span></p></td>
+<td><p><span data-ttu-id="b8e14-211">...</span><span class="sxs-lookup"><span data-stu-id="b8e14-211">...</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-212"><strong>CancelEvent</strong></span><span class="sxs-lookup"><span data-stu-id="b8e14-212"><strong>CancelEvent</strong></span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="8a1f7-213">Cancelar el evento.</span><span class="sxs-lookup"><span data-stu-id="8a1f7-213">Cancel the event.</span></span></p></td>
+<td><p><span data-ttu-id="b8e14-213">Cancelar el evento.</span><span class="sxs-lookup"><span data-stu-id="b8e14-213">Cancel the event.</span></span></p></td>
 </tr>
 </tbody>
 </table>

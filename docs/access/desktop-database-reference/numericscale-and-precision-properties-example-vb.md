@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288549"
 ---
-# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="69e79-102">Ejemplo de propiedades NumericScale y Precision (VB)</span><span class="sxs-lookup"><span data-stu-id="69e79-102">NumericScale and Precision properties example (VB)</span></span>
+# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="7c4d9-102">Ejemplo de propiedades NumericScale y Precision (VB)</span><span class="sxs-lookup"><span data-stu-id="7c4d9-102">NumericScale and Precision properties example (VB)</span></span>
 
 
-<span data-ttu-id="69e79-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69e79-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7c4d9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c4d9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="69e79-p101">En este ejemplo, se muestran las propiedades [NumericScale](numericscale-property-adox.md) y [Precision](precision-property-adox.md) del objeto [Column](column-object-adox.md). Este código muestra su valor para la tabla **Detalles del pedido** de la base de datos *Neptuno*.</span><span class="sxs-lookup"><span data-stu-id="69e79-p101">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object. This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
+<span data-ttu-id="7c4d9-p101">En este ejemplo, se muestran las propiedades [NumericScale](numericscale-property-adox.md) y [Precision](precision-property-adox.md) del objeto [Column](column-object-adox.md). Este código muestra su valor para la tabla **Detalles del pedido** de la base de datos *Neptuno*.</span><span class="sxs-lookup"><span data-stu-id="7c4d9-p101">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object. This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
 
 ```vb 
  

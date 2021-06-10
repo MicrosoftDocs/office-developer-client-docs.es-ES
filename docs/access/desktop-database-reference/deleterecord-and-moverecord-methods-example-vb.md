@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294025"
 ---
-# <a name="deleterecord-and-moverecord-methods-example-vb"></a><span data-ttu-id="2c31e-102">Ejemplo de los métodos DeleteRecord y MoveRecord (VB)</span><span class="sxs-lookup"><span data-stu-id="2c31e-102">DeleteRecord and MoveRecord methods example (VB)</span></span>
+# <a name="deleterecord-and-moverecord-methods-example-vb"></a><span data-ttu-id="6284d-102">Ejemplo de los métodos DeleteRecord y MoveRecord (VB)</span><span class="sxs-lookup"><span data-stu-id="6284d-102">DeleteRecord and MoveRecord methods example (VB)</span></span>
 
 
-<span data-ttu-id="2c31e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c31e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6284d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6284d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2c31e-104">En este ejemplo se muestra cómo copiar, mover, editar y eliminar el contenido de un archivo de texto publicado en una carpeta web.</span><span class="sxs-lookup"><span data-stu-id="2c31e-104">This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a web folder.</span></span> <span data-ttu-id="2c31e-105">Se utilizan también estos métodos y propiedades: [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) y [Flush](flush-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="2c31e-105">Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
+<span data-ttu-id="6284d-104">En este ejemplo se muestra cómo copiar, mover, editar y eliminar el contenido de un archivo de texto publicado en una carpeta web.</span><span class="sxs-lookup"><span data-stu-id="6284d-104">This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a web folder.</span></span> <span data-ttu-id="6284d-105">Se utilizan también estos métodos y propiedades: [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md) y [Flush](flush-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6284d-105">Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
 
 ```vb 
  

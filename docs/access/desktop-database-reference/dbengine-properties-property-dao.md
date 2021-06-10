@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294242"
 ---
-# <a name="dbengineproperties-property-dao"></a><span data-ttu-id="76843-102">Propiedad DBEngine.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="76843-102">DBEngine.Properties property (DAO)</span></span>
+# <a name="dbengineproperties-property-dao"></a><span data-ttu-id="1c981-102">Propiedad DBEngine.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="1c981-102">DBEngine.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="76843-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76843-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1c981-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c981-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="76843-104">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="76843-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="76843-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="76843-105">Read-only.</span></span>
+<span data-ttu-id="1c981-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="1c981-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="76843-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="76843-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1c981-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1c981-106">Syntax</span></span>
 
-<span data-ttu-id="76843-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="76843-107">*expression* .Properties</span></span>
+<span data-ttu-id="1c981-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="1c981-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="76843-108">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="76843-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="1c981-108">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="1c981-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 

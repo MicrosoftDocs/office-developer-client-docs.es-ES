@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294767"
 ---
-# <a name="databaserecordsets-property-dao"></a><span data-ttu-id="a38c9-102">Propiedad Database.Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="a38c9-102">Database.Recordsets property (DAO)</span></span>
+# <a name="databaserecordsets-property-dao"></a><span data-ttu-id="07e28-102">Propiedad Database.Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="07e28-102">Database.Recordsets property (DAO)</span></span>
 
 
-<span data-ttu-id="a38c9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a38c9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="07e28-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="07e28-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a38c9-104">Devuelve una colección **Recordsets** que contiene todos los conjuntos de registros abiertos en la base de datos especificada.</span><span class="sxs-lookup"><span data-stu-id="a38c9-104">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified database.</span></span> <span data-ttu-id="a38c9-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="a38c9-105">Read-only.</span></span>
+<span data-ttu-id="07e28-p101">Devuelve una colección **Recordsets** que contiene todos los conjuntos de registros abiertos en la base de datos especificada. Es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="07e28-p101">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified database. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a38c9-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a38c9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="07e28-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="07e28-106">Syntax</span></span>
 
-<span data-ttu-id="a38c9-107">*expresión* . Conjuntos de registros</span><span class="sxs-lookup"><span data-stu-id="a38c9-107">*expression* .Recordsets</span></span>
+<span data-ttu-id="07e28-107">*expresión* . Conjuntos de registros</span><span class="sxs-lookup"><span data-stu-id="07e28-107">*expression* .Recordsets</span></span>
 
-<span data-ttu-id="a38c9-108">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="a38c9-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="07e28-108">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="07e28-108">*expression* A variable that represents a **Database** object.</span></span>
 

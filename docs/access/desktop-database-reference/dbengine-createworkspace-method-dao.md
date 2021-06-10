@@ -18,19 +18,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294354"
 ---
-# <a name="dbenginecreateworkspace-method-dao"></a><span data-ttu-id="04092-102">Método DBEngine.CreateWorkspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="04092-102">DBEngine.CreateWorkspace method (DAO)</span></span>
+# <a name="dbenginecreateworkspace-method-dao"></a><span data-ttu-id="2cc61-102">Método DBEngine.CreateWorkspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="2cc61-102">DBEngine.CreateWorkspace method (DAO)</span></span>
 
-<span data-ttu-id="04092-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="04092-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2cc61-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2cc61-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="04092-104">Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="04092-104">Creates a new **[Workspace](workspace-object-dao.md)** object.</span></span>
+<span data-ttu-id="2cc61-104">Crea un nuevo objeto **[Workspace](workspace-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="2cc61-104">Creates a new **[Workspace](workspace-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="04092-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="04092-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2cc61-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="2cc61-105">Syntax</span></span>
 
-<span data-ttu-id="04092-106">*expresión* . CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)</span><span class="sxs-lookup"><span data-stu-id="04092-106">*expression* .CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)</span></span>
+<span data-ttu-id="2cc61-106">*expresión* . CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)</span><span class="sxs-lookup"><span data-stu-id="2cc61-106">*expression* .CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)</span></span>
 
-<span data-ttu-id="04092-107">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="04092-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="2cc61-107">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="2cc61-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="04092-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="04092-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2cc61-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="2cc61-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,62 +41,62 @@ ms.locfileid: "32294354"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="04092-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="04092-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="04092-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="04092-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="04092-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="04092-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="04092-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="04092-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="2cc61-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="2cc61-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="2cc61-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="2cc61-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="2cc61-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="2cc61-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="2cc61-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="2cc61-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="04092-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="04092-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="04092-114">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="04092-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="04092-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="04092-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="04092-116"><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Workspace</strong>.</span><span class="sxs-lookup"><span data-stu-id="04092-116">A <strong>String</strong> that uniquely names the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="04092-117">Vea la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener más información sobre los nombres de <strong>área de</strong> trabajo válidos.</span><span class="sxs-lookup"><span data-stu-id="04092-117">See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Workspace</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="2cc61-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="2cc61-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="2cc61-114">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="2cc61-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="2cc61-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="2cc61-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="2cc61-p101"><strong>String</strong> que identifica inequívocamente el nuevo objeto <strong>Workspace</strong>. Vea el tema relativo a la propiedad <strong><a href="connection-name-property-dao.md">Name</a></strong> para obtener información detallada sobre los nombres de <strong>Workspace</strong> válidos.</span><span class="sxs-lookup"><span data-stu-id="2cc61-p101">A <strong>String</strong> that uniquely names the new <strong>Workspace</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Workspace</strong> names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="04092-118"><em>UserName</em></span><span class="sxs-lookup"><span data-stu-id="04092-118"><em>UserName</em></span></span></p></td>
-<td><p><span data-ttu-id="04092-119">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="04092-119">Required</span></span></p></td>
-<td><p><span data-ttu-id="04092-120"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="04092-120"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="04092-121"><strong>String</strong> que identifica el propietario del nuevo objeto <strong>Workspace</strong>.</span><span class="sxs-lookup"><span data-stu-id="04092-121">A <strong>String</strong> that identifies the owner of the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="04092-122">Vea el tema relativo a la propiedad <strong>UserName</strong> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="04092-122">See the <strong>UserName</strong> property for more information.</span></span></p></td>
+<td><p><span data-ttu-id="2cc61-118"><em>UserName</em></span><span class="sxs-lookup"><span data-stu-id="2cc61-118"><em>UserName</em></span></span></p></td>
+<td><p><span data-ttu-id="2cc61-119">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="2cc61-119">Required</span></span></p></td>
+<td><p><span data-ttu-id="2cc61-120"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="2cc61-120"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="2cc61-p102"><strong>String</strong> que identifica el propietario del nuevo objeto <strong>Workspace</strong>. Vea el tema relativo a la propiedad <strong>UserName</strong> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="2cc61-p102">A <strong>String</strong> that identifies the owner of the new <strong>Workspace</strong> object. See the <strong>UserName</strong> property for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="04092-123"><em>Password</em></span><span class="sxs-lookup"><span data-stu-id="04092-123"><em>Password</em></span></span></p></td>
-<td><p><span data-ttu-id="04092-124">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="04092-124">Required</span></span></p></td>
-<td><p><span data-ttu-id="04092-125"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="04092-125"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="04092-126">Cadena <strong>que</strong> contiene la contraseña del nuevo objeto <strong>Workspace.</strong></span><span class="sxs-lookup"><span data-stu-id="04092-126">A <strong>String</strong> containing the password for the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="04092-127">La contraseña puede tener hasta 20 caracteres y puede incluir cualquier carácter excepto el carácter ASCII 0 (null).</span><span class="sxs-lookup"><span data-stu-id="04092-127">The password can be up to 20 characters long and can include any characters except ASCII character 0 (null).</span></span></p>
-<p><span data-ttu-id="04092-128"><strong>NOTA:</strong>Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos.</span><span class="sxs-lookup"><span data-stu-id="04092-128"><strong>NOTE</strong>: Use strong passwords that combine upper- and lowercase letters, numbers, and symbols.</span></span> <span data-ttu-id="04092-129">En las contraseñas no seguras estos elementos no se combinan.</span><span class="sxs-lookup"><span data-stu-id="04092-129">Weak passwords don't mix these elements.</span></span> <span data-ttu-id="04092-130">Contraseña segura: Y6dh!et5.</span><span class="sxs-lookup"><span data-stu-id="04092-130">Strong password: Y6dh!et5.</span></span> <span data-ttu-id="04092-131">Contraseña no segura: Casa27.</span><span class="sxs-lookup"><span data-stu-id="04092-131">Weak password: House27.</span></span> <span data-ttu-id="04092-132">Use una contraseña segura que pueda recordar para no tener que anotarla.</span><span class="sxs-lookup"><span data-stu-id="04092-132">Use a strong password that you can remember so that you don't have to write it down.</span></span></p>
+<td><p><span data-ttu-id="2cc61-123"><em>Password</em></span><span class="sxs-lookup"><span data-stu-id="2cc61-123"><em>Password</em></span></span></p></td>
+<td><p><span data-ttu-id="2cc61-124">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="2cc61-124">Required</span></span></p></td>
+<td><p><span data-ttu-id="2cc61-125"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="2cc61-125"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="2cc61-126">Una <strong>cadena</strong> que contiene la contraseña del nuevo <strong>objeto Workspace.</strong></span><span class="sxs-lookup"><span data-stu-id="2cc61-126">A <strong>String</strong> containing the password for the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="2cc61-127">La contraseña puede tener hasta 20 caracteres de longitud y puede incluir cualquier carácter excepto el carácter ASCII 0 (null).</span><span class="sxs-lookup"><span data-stu-id="2cc61-127">The password can be up to 20 characters long and can include any characters except ASCII character 0 (null).</span></span></p>
+<p><span data-ttu-id="2cc61-128"><strong>NOTA:</strong>Use contraseñas seguras que combinen letras mayúsculas y minúsculas, números y símbolos.</span><span class="sxs-lookup"><span data-stu-id="2cc61-128"><strong>NOTE</strong>: Use strong passwords that combine upper- and lowercase letters, numbers, and symbols.</span></span> <span data-ttu-id="2cc61-129">En las contraseñas no seguras estos elementos no se combinan.</span><span class="sxs-lookup"><span data-stu-id="2cc61-129">Weak passwords don't mix these elements.</span></span> <span data-ttu-id="2cc61-130">Contraseña segura: Y6dh!et5.</span><span class="sxs-lookup"><span data-stu-id="2cc61-130">Strong password: Y6dh!et5.</span></span> <span data-ttu-id="2cc61-131">Contraseña no segura: Casa27.</span><span class="sxs-lookup"><span data-stu-id="2cc61-131">Weak password: House27.</span></span> <span data-ttu-id="2cc61-132">Use una contraseña segura que pueda recordar para no tener que anotarla.</span><span class="sxs-lookup"><span data-stu-id="2cc61-132">Use a strong password that you can remember so that you don't have to write it down.</span></span></p>
 </td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="04092-133"><em>UseType</em></span><span class="sxs-lookup"><span data-stu-id="04092-133"><em>UseType</em></span></span></p></td>
-<td><p><span data-ttu-id="04092-134">Opcional</span><span class="sxs-lookup"><span data-stu-id="04092-134">Optional</span></span></p></td>
-<td><p><span data-ttu-id="04092-135"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="04092-135"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="04092-136">Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores workspaceTypeEnum.</a></strong></span><span class="sxs-lookup"><span data-stu-id="04092-136">One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</span></span></p>
-<p><span data-ttu-id="04092-137"><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="04092-137"><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="04092-138">Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="04092-138">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></p>
+<td><p><span data-ttu-id="2cc61-133"><em>UseType</em></span><span class="sxs-lookup"><span data-stu-id="2cc61-133"><em>UseType</em></span></span></p></td>
+<td><p><span data-ttu-id="2cc61-134">Opcional</span><span class="sxs-lookup"><span data-stu-id="2cc61-134">Optional</span></span></p></td>
+<td><p><span data-ttu-id="2cc61-135"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="2cc61-135"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="2cc61-136">Uno de los <strong><a href="workspacetypeenum-enumeration-dao.md">valores WorkspaceTypeEnum.</a></strong></span><span class="sxs-lookup"><span data-stu-id="2cc61-136">One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</span></span></p>
+<p><span data-ttu-id="2cc61-137"><strong>NOTA</strong>: las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="2cc61-137"><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="2cc61-138">Use ADO si desea obtener acceso a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="2cc61-138">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="04092-139">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="04092-139">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2cc61-139">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="2cc61-139">Return value</span></span>
 
-<span data-ttu-id="04092-140">Workspace</span><span class="sxs-lookup"><span data-stu-id="04092-140">Workspace</span></span>
+<span data-ttu-id="2cc61-140">Workspace</span><span class="sxs-lookup"><span data-stu-id="2cc61-140">Workspace</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="04092-141">Comentarios</span><span class="sxs-lookup"><span data-stu-id="04092-141">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2cc61-141">Comentarios</span><span class="sxs-lookup"><span data-stu-id="2cc61-141">Remarks</span></span>
 
-<span data-ttu-id="04092-142">Una vez utilizado el método **CreateWorkspace** para crear un nuevo objeto **Workspace**, se inicia una sesión **Workspace** y puede hacer referencia al objeto **Workspace** en la aplicación.</span><span class="sxs-lookup"><span data-stu-id="04092-142">Once you use the **CreateWorkspace** method to create a new **Workspace** object, a **Workspace** session is started, and you can refer to the **Workspace** object in your application.</span></span>
+<span data-ttu-id="2cc61-142">Una vez utilizado el método **CreateWorkspace** para crear un nuevo objeto **Workspace**, se inicia una sesión **Workspace** y puede hacer referencia al objeto **Workspace** en la aplicación.</span><span class="sxs-lookup"><span data-stu-id="2cc61-142">Once you use the **CreateWorkspace** method to create a new **Workspace** object, a **Workspace** session is started, and you can refer to the **Workspace** object in your application.</span></span>
 
-<span data-ttu-id="04092-p106">Los objetos **Workspace** no son permanentes y no se pueden guardar en disco. Una vez creado un objeto **Workspace**, no puede modificar ninguno de los valores de sus propiedades, excepto en el caso de la propiedad **Name**, que puede modificar antes de agregar el objeto **Workspace** a la colección **[Workspaces](workspaces-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="04092-p106">**Workspace** objects aren't permanent, and you can't save them to disk. Once you create a **Workspace** object, you can't alter any of its property settings, except for the **Name** property, which you can modify before appending the **Workspace** object to the **[Workspaces](workspaces-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="2cc61-p106">Los objetos **Workspace** no son permanentes y no se pueden guardar en disco. Una vez creado un objeto **Workspace**, no puede modificar ninguno de los valores de sus propiedades, excepto en el caso de la propiedad **Name**, que puede modificar antes de agregar el objeto **Workspace** a la colección **[Workspaces](workspaces-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="2cc61-p106">**Workspace** objects aren't permanent, and you can't save them to disk. Once you create a **Workspace** object, you can't alter any of its property settings, except for the **Name** property, which you can modify before appending the **Workspace** object to the **[Workspaces](workspaces-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="04092-p107">No tiene que agregar el nuevo objeto **Workspace** a una colección para poder utilizarlo. Sólo debe agregar un objeto **Workspace** recién creado si necesita hacer referencia a él a través de la colección **Workspaces**.</span><span class="sxs-lookup"><span data-stu-id="04092-p107">You don't have to append the new **Workspace** object to a collection before you can use it. You append a newly created **Workspace** object only if you need to refer to it through the **Workspaces** collection.</span></span>
+<span data-ttu-id="2cc61-p107">No tiene que agregar el nuevo objeto **Workspace** a una colección para poder utilizarlo. Sólo debe agregar un objeto **Workspace** recién creado si necesita hacer referencia a él a través de la colección **Workspaces**.</span><span class="sxs-lookup"><span data-stu-id="2cc61-p107">You don't have to append the new **Workspace** object to a collection before you can use it. You append a newly created **Workspace** object only if you need to refer to it through the **Workspaces** collection.</span></span>
 
-<span data-ttu-id="04092-147">Para quitar un objeto **Workspace** de la colección **Workspaces**, cierre todas las bases de datos y conexiones abiertas y, a continuación, utilice el método **[Close](connection-close-method-dao.md)** en el objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="04092-147">To remove a **Workspace** object from the **Workspaces** collection, close all open databases and connections and then use the **[Close](connection-close-method-dao.md)** method on the **Workspace** object.</span></span>
+<span data-ttu-id="2cc61-147">Para quitar un objeto **Workspace** de la colección **Workspaces**, cierre todas las bases de datos y conexiones abiertas y, a continuación, utilice el método **[Close](connection-close-method-dao.md)** en el objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="2cc61-147">To remove a **Workspace** object from the **Workspaces** collection, close all open databases and connections and then use the **[Close](connection-close-method-dao.md)** method on the **Workspace** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="04092-148">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="04092-148">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2cc61-148">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="2cc61-148">Example</span></span>
 
-<span data-ttu-id="04092-p108">En este ejemplo se utiliza el método **CreateWorkspace** para crear un área de trabajo de Microsoft Access. A continuación, se muestran las propiedades del área de trabajo.</span><span class="sxs-lookup"><span data-stu-id="04092-p108">This example uses the **CreateWorkspace** method to createMicrosoft Access workspace. It then lists the properties of the workspace.</span></span>
+<span data-ttu-id="2cc61-p108">En este ejemplo se utiliza el método **CreateWorkspace** para crear un área de trabajo de Microsoft Access. A continuación, se muestran las propiedades del área de trabajo.</span><span class="sxs-lookup"><span data-stu-id="2cc61-p108">This example uses the **CreateWorkspace** method to createMicrosoft Access workspace. It then lists the properties of the workspace.</span></span>
 
 ```vb 
 Sub CreateWorkspaceX() 

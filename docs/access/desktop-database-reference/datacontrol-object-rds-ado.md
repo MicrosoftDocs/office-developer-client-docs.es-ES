@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294529"
 ---
-# <a name="datacontrol-rds-ado"></a><span data-ttu-id="9dbf9-102">DataControl (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="9dbf9-102">DataControl (RDS) (ADO)</span></span>
+# <a name="datacontrol-rds-ado"></a><span data-ttu-id="ec07f-102">DataControl (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="ec07f-102">DataControl (RDS) (ADO)</span></span>
 
-<span data-ttu-id="9dbf9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9dbf9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ec07f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec07f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9dbf9-104">Objeto DataControl (RDS)</span><span class="sxs-lookup"><span data-stu-id="9dbf9-104">DataControl object (RDS)</span></span>](datacontrol-object-rds.md)
-- [<span data-ttu-id="9dbf9-105">Propiedades, métodos y eventos (RDS) de DataControl</span><span class="sxs-lookup"><span data-stu-id="9dbf9-105">DataControl properties, methods, and events (RDS)</span></span>](datacontrol-properties-methods-and-events-rds.md)
+- [<span data-ttu-id="ec07f-104">Objeto DataControl (RDS)</span><span class="sxs-lookup"><span data-stu-id="ec07f-104">DataControl object (RDS)</span></span>](datacontrol-object-rds.md)
+- [<span data-ttu-id="ec07f-105">Propiedades, métodos y eventos DataControl (RDS)</span><span class="sxs-lookup"><span data-stu-id="ec07f-105">DataControl properties, methods, and events (RDS)</span></span>](datacontrol-properties-methods-and-events-rds.md)
 

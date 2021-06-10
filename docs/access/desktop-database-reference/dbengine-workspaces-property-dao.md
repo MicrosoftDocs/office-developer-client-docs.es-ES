@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294186"
 ---
-# <a name="dbengineworkspaces-property-dao"></a><span data-ttu-id="0a4fb-102">Propiedad DBEngine.Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="0a4fb-102">DBEngine.Workspaces property (DAO)</span></span>
+# <a name="dbengineworkspaces-property-dao"></a><span data-ttu-id="5adaa-102">Propiedad DBEngine.Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="5adaa-102">DBEngine.Workspaces property (DAO)</span></span>
 
 
-<span data-ttu-id="0a4fb-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a4fb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5adaa-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5adaa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0a4fb-104">Devuelve una colección **Workspaces** que contiene todos los objetos **Workspace** activos que no están ocultos.</span><span class="sxs-lookup"><span data-stu-id="0a4fb-104">Returns a **Workspaces** collection that contains all of the active, unhidden **Workspace** objects.</span></span> <span data-ttu-id="0a4fb-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="0a4fb-105">Read-only.</span></span>
+<span data-ttu-id="5adaa-p101">Devuelve una colección **Workspaces** que contiene todos los objetos **Workspace** activos que no están ocultos. Es de solo lectura</span><span class="sxs-lookup"><span data-stu-id="5adaa-p101">Returns a **Workspaces** collection that contains all of the active, unhidden **Workspace** objects. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0a4fb-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0a4fb-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5adaa-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5adaa-106">Syntax</span></span>
 
-<span data-ttu-id="0a4fb-107">*expresión* . Áreas de trabajo</span><span class="sxs-lookup"><span data-stu-id="0a4fb-107">*expression* .Workspaces</span></span>
+<span data-ttu-id="5adaa-107">*expresión* . Áreas de trabajo</span><span class="sxs-lookup"><span data-stu-id="5adaa-107">*expression* .Workspaces</span></span>
 
-<span data-ttu-id="0a4fb-108">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="0a4fb-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="5adaa-108">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="5adaa-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 

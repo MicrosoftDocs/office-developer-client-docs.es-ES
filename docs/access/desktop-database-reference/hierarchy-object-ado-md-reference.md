@@ -1,5 +1,5 @@
 ---
-title: Objeto Hierarchy (referencia de ADO MD)
+title: Objeto Hierarchy (referencia ADO MD)
 TOCTitle: Hierarchy object (ADO MD)
 ms:assetid: 0c849ee3-4b3f-4bfa-87e9-c9466881aca1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248848(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291967"
 ---
-# <a name="hierarchy-object-ado-md-reference"></a><span data-ttu-id="cdc7b-102">Objeto Hierarchy (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="cdc7b-102">Hierarchy object (ADO MD reference)</span></span>
+# <a name="hierarchy-object-ado-md-reference"></a><span data-ttu-id="dc8ce-102">Objeto Hierarchy (referencia ADO MD)</span><span class="sxs-lookup"><span data-stu-id="dc8ce-102">Hierarchy object (ADO MD reference)</span></span>
 
-<span data-ttu-id="cdc7b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cdc7b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dc8ce-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc8ce-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="cdc7b-104">Objeto Hierarchy (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="cdc7b-104">Hierarchy object (ADO MD)</span></span>](hierarchy-object-ado-md.md)
-- [<span data-ttu-id="cdc7b-105">Propiedades, métodos y eventos de jerarquía (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="cdc7b-105">Hierarchy properties, methods, and events (ADO MD)</span></span>](hierarchy-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="dc8ce-104">Objeto Hierarchy (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="dc8ce-104">Hierarchy object (ADO MD)</span></span>](hierarchy-object-ado-md.md)
+- [<span data-ttu-id="dc8ce-105">Propiedades, métodos y eventos de jerarquía (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="dc8ce-105">Hierarchy properties, methods, and events (ADO MD)</span></span>](hierarchy-properties-methods-and-events-ado-md.md)
 

@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288858"
 ---
-# <a name="move-method-example-vb"></a><span data-ttu-id="5bb56-102">Ejemplo del método Move (VB)</span><span class="sxs-lookup"><span data-stu-id="5bb56-102">Move method example (VB)</span></span>
+# <a name="move-method-example-vb"></a><span data-ttu-id="fd263-102">Ejemplo del método Move (VB)</span><span class="sxs-lookup"><span data-stu-id="fd263-102">Move method example (VB)</span></span>
 
 
-<span data-ttu-id="5bb56-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5bb56-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fd263-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fd263-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5bb56-104">En este ejemplo se usa el método [Move](move-method-ado.md) para ubicar el puntero de registros en función de los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="5bb56-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="fd263-104">En este ejemplo se usa el método [Move](move-method-ado.md) para ubicar el puntero de registros en función de los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="fd263-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```vb 
  

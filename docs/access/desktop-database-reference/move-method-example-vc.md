@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288823"
 ---
-# <a name="move-method-example-vc"></a><span data-ttu-id="288e1-102">Ejemplo del método Move (VC++)</span><span class="sxs-lookup"><span data-stu-id="288e1-102">Move method example (VC++)</span></span>
+# <a name="move-method-example-vc"></a><span data-ttu-id="9bd25-102">Ejemplo del método Move (VC++)</span><span class="sxs-lookup"><span data-stu-id="9bd25-102">Move method example (VC++)</span></span>
 
-<span data-ttu-id="288e1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="288e1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9bd25-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9bd25-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="288e1-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registro, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="288e1-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="9bd25-104">En este ejemplo se utiliza el método [Move](move-method-ado.md) para ubicar el puntero de registro, basándose en los datos proporcionados por el usuario.</span><span class="sxs-lookup"><span data-stu-id="9bd25-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```cpp 
  
@@ -257,7 +257,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="288e1-105">**MoveX.h**</span><span class="sxs-lookup"><span data-stu-id="288e1-105">**MoveX.h**</span></span>
+<span data-ttu-id="9bd25-105">**MoveX.h**</span><span class="sxs-lookup"><span data-stu-id="9bd25-105">**MoveX.h**</span></span>
 
 ```cpp
 // BeginMoveH 

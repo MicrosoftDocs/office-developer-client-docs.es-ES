@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294998"
 ---
-# <a name="databaseconnection-property-dao"></a><span data-ttu-id="90819-102">Propiedad Database.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="90819-102">Database.Connection property (DAO)</span></span>
+# <a name="databaseconnection-property-dao"></a><span data-ttu-id="a4527-102">Propiedad Database.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="a4527-102">Database.Connection property (DAO)</span></span>
 
 
-<span data-ttu-id="90819-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="90819-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a4527-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4527-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="90819-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="90819-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a4527-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a4527-104">Syntax</span></span>
 
-<span data-ttu-id="90819-105">*expresión* . Conexión</span><span class="sxs-lookup"><span data-stu-id="90819-105">*expression* .Connection</span></span>
+<span data-ttu-id="a4527-105">*expresión* . Conexión</span><span class="sxs-lookup"><span data-stu-id="a4527-105">*expression* .Connection</span></span>
 
-<span data-ttu-id="90819-106">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="90819-106">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="a4527-106">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="a4527-106">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="90819-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="90819-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a4527-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a4527-107">Remarks</span></span>
 
-<span data-ttu-id="90819-p101">Use la propiedad **Connection** para obtener una referencia a un objeto **Connection** que corresponda al objeto **Database**. En DAO, un objeto **Connection** y su objeto **Database** correspondiente son simplemente dos referencias diferentes de variable de objeto al mismo objeto. La propiedad **[Database](connection-database-property-dao.md)** de un objeto **Connection** y la propiedad **Connection** de un objeto **Database** facilitan el cambio de conexión a un origen de datos ODBC mediante el motor de base de datos de Microsoft Access para utilizar ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="90819-p101">Use the **Connection** property to obtain a reference to a **Connection** object that corresponds to the **Database**. In DAO, a **Connection** object and its corresponding **Database** object are simply two different object variable references to the same object. The **[Database](connection-database-property-dao.md)** property of a **Connection** object and the **Connection** property of a **Database** object make it easier to change connections to an ODBC data source through the Microsoft Access database engine to use ODBCDirect.</span></span>
+<span data-ttu-id="a4527-p101">Use la propiedad **Connection** para obtener una referencia a un objeto **Connection** que corresponda al objeto **Database**. En DAO, un objeto **Connection** y su objeto **Database** correspondiente son simplemente dos referencias diferentes de variable de objeto al mismo objeto. La propiedad **[Database](connection-database-property-dao.md)** de un objeto **Connection** y la propiedad **Connection** de un objeto **Database** facilitan el cambio de conexión a un origen de datos ODBC mediante el motor de base de datos de Microsoft Access para utilizar ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="a4527-p101">Use the **Connection** property to obtain a reference to a **Connection** object that corresponds to the **Database**. In DAO, a **Connection** object and its corresponding **Database** object are simply two different object variable references to the same object. The **[Database](connection-database-property-dao.md)** property of a **Connection** object and the **Connection** property of a **Database** object make it easier to change connections to an ODBC data source through the Microsoft Access database engine to use ODBCDirect.</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Objeto CubeDef (referencia de ADO MD)
+title: Objeto CubeDef (referencia ADO MD)
 TOCTitle: CubeDef object (ADO MD)
 ms:assetid: 81513e39-a1b3-4af7-ba59-0446fafe51f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249552(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295334"
 ---
-# <a name="cubedef-object-ado-md-reference"></a><span data-ttu-id="81947-102">Objeto CubeDef (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="81947-102">CubeDef object (ADO MD reference)</span></span>
+# <a name="cubedef-object-ado-md-reference"></a><span data-ttu-id="2c657-102">Objeto CubeDef (referencia ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2c657-102">CubeDef object (ADO MD reference)</span></span>
 
-<span data-ttu-id="81947-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="81947-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2c657-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c657-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="81947-104">CubeDef (objeto, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="81947-104">CubeDef object (ADO MD)</span></span>](cubedef-object-ado-md.md)
-- [<span data-ttu-id="81947-105">Propiedades, métodos y eventos CubeDef (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="81947-105">CubeDef properties, methods, and events (ADO MD)</span></span>](cubedef-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="2c657-104">Objeto CubeDef (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2c657-104">CubeDef object (ADO MD)</span></span>](cubedef-object-ado-md.md)
+- [<span data-ttu-id="2c657-105">Propiedades, métodos y eventos CubeDef (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2c657-105">CubeDef properties, methods, and events (ADO MD)</span></span>](cubedef-properties-methods-and-events-ado-md.md)
 

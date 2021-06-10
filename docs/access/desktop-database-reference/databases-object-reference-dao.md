@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de bases de datos (DAO)
+title: Referencia de objeto databases (DAO)
 TOCTitle: Databases Object
 ms:assetid: e9728dde-303c-44fd-ba8c-0e5773cfd0e7
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125983(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294606"
 ---
-# <a name="databases-object-reference-dao"></a><span data-ttu-id="2e7be-102">Referencia de objeto de bases de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="2e7be-102">Databases object reference (DAO)</span></span>
+# <a name="databases-object-reference-dao"></a><span data-ttu-id="cbc78-102">Referencia de objeto databases (DAO)</span><span class="sxs-lookup"><span data-stu-id="cbc78-102">Databases object reference (DAO)</span></span>
 
-<span data-ttu-id="2e7be-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e7be-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cbc78-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cbc78-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="2e7be-104">Colección Databases (DAO)</span><span class="sxs-lookup"><span data-stu-id="2e7be-104">Databases collection (DAO)</span></span>](databases-collection-dao.md)
-- [<span data-ttu-id="2e7be-105">Miembros de bases de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="2e7be-105">Databases members (DAO)</span></span>](databases-members-dao.md)
-- [<span data-ttu-id="2e7be-106">Propiedades de bases de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="2e7be-106">Databases properties (DAO)</span></span>](databases-properties-dao.md)
-- [<span data-ttu-id="2e7be-107">Métodos de bases de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="2e7be-107">Databases methods (DAO)</span></span>](databases-methods-dao.md)
+- [<span data-ttu-id="cbc78-104">Colección Databases (DAO)</span><span class="sxs-lookup"><span data-stu-id="cbc78-104">Databases collection (DAO)</span></span>](databases-collection-dao.md)
+- [<span data-ttu-id="cbc78-105">Miembros de bases de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="cbc78-105">Databases members (DAO)</span></span>](databases-members-dao.md)
+- [<span data-ttu-id="cbc78-106">Propiedades de bases de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="cbc78-106">Databases properties (DAO)</span></span>](databases-properties-dao.md)
+- [<span data-ttu-id="cbc78-107">Métodos de bases de datos (DAO)</span><span class="sxs-lookup"><span data-stu-id="cbc78-107">Databases methods (DAO)</span></span>](databases-methods-dao.md)
 

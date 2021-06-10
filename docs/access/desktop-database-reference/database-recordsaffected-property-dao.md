@@ -14,22 +14,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294746"
 ---
-# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="b28c5-102">Propiedad Database.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="b28c5-102">Database.RecordsAffected property (DAO)</span></span>
+# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="61d96-102">Propiedad Database.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d96-102">Database.RecordsAffected property (DAO)</span></span>
 
 
-<span data-ttu-id="b28c5-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b28c5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="61d96-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="61d96-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b28c5-104">Devuelve el número de registros afectados por el último método **[Execute](connection-execute-method-dao.md)** invocado.</span><span class="sxs-lookup"><span data-stu-id="b28c5-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="61d96-104">Devuelve el número de registros afectados por el último método **[Execute](connection-execute-method-dao.md)** invocado.</span><span class="sxs-lookup"><span data-stu-id="61d96-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b28c5-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b28c5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="61d96-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="61d96-105">Syntax</span></span>
 
-<span data-ttu-id="b28c5-106">*expresión* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="b28c5-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="61d96-106">*expresión* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="61d96-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="b28c5-107">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="b28c5-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="61d96-107">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="61d96-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b28c5-108">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="b28c5-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="61d96-108">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="61d96-108">Example</span></span>
 
-<span data-ttu-id="b28c5-p101">En este ejemplo, se usa la propiedad **RecordsAffected** con consultas de acciones ejecutadas desde un objeto **Database** y desde un objeto **QueryDef**. La función RecordsAffectedOutput es necesaria para que se ejecute este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="b28c5-p101">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="61d96-p101">En este ejemplo, se usa la propiedad **RecordsAffected** con consultas de acciones ejecutadas desde un objeto **Database** y desde un objeto **QueryDef**. La función RecordsAffectedOutput es necesaria para que se ejecute este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="61d96-p101">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub RecordsAffectedX() 

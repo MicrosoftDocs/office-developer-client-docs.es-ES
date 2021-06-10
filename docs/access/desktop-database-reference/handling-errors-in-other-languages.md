@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292037"
 ---
-# <a name="handling-errors-in-other-languages"></a><span data-ttu-id="691f2-102">Control de errores en otros lenguajes</span><span class="sxs-lookup"><span data-stu-id="691f2-102">Handling errors in other languages</span></span>
+# <a name="handling-errors-in-other-languages"></a><span data-ttu-id="9b9b1-102">Control de errores en otros lenguajes</span><span class="sxs-lookup"><span data-stu-id="9b9b1-102">Handling errors in other languages</span></span>
 
-<span data-ttu-id="691f2-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="691f2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9b9b1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b9b1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="691f2-p101">Hasta ahora, en este capítulo se ha hablado de los errores desde el punto de vista de Microsoft Visual Basic. En el resto de esta sección, se ofrece información general sobre el tratamiento de errores en lenguajes distintos de Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="691f2-p101">So far, this chapter has discussed errors from a Microsoft Visual Basic point of view. The remainder of this section will give you an overview of error handling in languages other than Visual Basic.</span></span>
+<span data-ttu-id="9b9b1-p101">Hasta ahora, en este capítulo se ha hablado de los errores desde el punto de vista de Microsoft Visual Basic. En el resto de esta sección, se ofrece información general sobre el tratamiento de errores en lenguajes distintos de Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="9b9b1-p101">So far, this chapter has discussed errors from a Microsoft Visual Basic point of view. The remainder of this section will give you an overview of error handling in languages other than Visual Basic.</span></span>
 
-- [<span data-ttu-id="691f2-106">Control de errores en JScript</span><span class="sxs-lookup"><span data-stu-id="691f2-106">Handling errors in JScript</span></span>](handling-errors-in-jscript.md)
-- [<span data-ttu-id="691f2-107">Control de errores en VBScript</span><span class="sxs-lookup"><span data-stu-id="691f2-107">Handling errors in VBScript</span></span>](handling-errors-in-vbscript.md)
-- [<span data-ttu-id="691f2-108">Control de errores en Visual C++</span><span class="sxs-lookup"><span data-stu-id="691f2-108">Handling errors in Visual C++</span></span>](handling-errors-in-visual-c.md)
+- [<span data-ttu-id="9b9b1-106">Control de errores en JScript</span><span class="sxs-lookup"><span data-stu-id="9b9b1-106">Handling errors in JScript</span></span>](handling-errors-in-jscript.md)
+- [<span data-ttu-id="9b9b1-107">Control de errores en VBScript</span><span class="sxs-lookup"><span data-stu-id="9b9b1-107">Handling errors in VBScript</span></span>](handling-errors-in-vbscript.md)
+- [<span data-ttu-id="9b9b1-108">Control de errores en Visual C++</span><span class="sxs-lookup"><span data-stu-id="9b9b1-108">Handling errors in Visual C++</span></span>](handling-errors-in-visual-c.md)
 

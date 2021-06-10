@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291508"
 ---
-# <a name="indexes-methods-dao"></a><span data-ttu-id="bee3a-102">Métodos Indexes (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee3a-102">Indexes methods (DAO)</span></span>
+# <a name="indexes-methods-dao"></a><span data-ttu-id="cc933-102">Métodos Indexes (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc933-102">Indexes methods (DAO)</span></span>
 
-<span data-ttu-id="bee3a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bee3a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cc933-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc933-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="bee3a-104">Método Indexes.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee3a-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
-- [<span data-ttu-id="bee3a-105">Método Indexes.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee3a-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
-- [<span data-ttu-id="bee3a-106">Método Indexes.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee3a-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
+- [<span data-ttu-id="cc933-104">Método Indexes.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc933-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
+- [<span data-ttu-id="cc933-105">Método Indexes.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc933-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
+- [<span data-ttu-id="cc933-106">Método Indexes.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc933-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
 

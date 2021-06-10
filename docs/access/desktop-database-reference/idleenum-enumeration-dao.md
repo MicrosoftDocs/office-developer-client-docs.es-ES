@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291904"
 ---
-# <a name="idleenum-enumeration-dao"></a><span data-ttu-id="ad74c-102">Enumeración IdleEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad74c-102">IdleEnum enumeration (DAO)</span></span>
+# <a name="idleenum-enumeration-dao"></a><span data-ttu-id="05be0-102">Enumeración IdleEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="05be0-102">IdleEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="ad74c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad74c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="05be0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="05be0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ad74c-104">Por determinar</span><span class="sxs-lookup"><span data-stu-id="ad74c-104">TBD</span></span>
+<span data-ttu-id="05be0-104">Por determinar</span><span class="sxs-lookup"><span data-stu-id="05be0-104">TBD</span></span>
 

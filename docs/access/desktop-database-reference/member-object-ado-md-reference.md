@@ -1,5 +1,5 @@
 ---
-title: Objeto Member (referencia de ADO MD)
+title: Objeto Member (referencia ADO MD)
 TOCTitle: Member object (ADO MD)
 ms:assetid: 933be014-9cb2-416a-8290-6dece686fc41
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249650(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289703"
 ---
-# <a name="member-object-ado-md-reference"></a><span data-ttu-id="62f81-102">Objeto Member (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="62f81-102">Member object (ADO MD reference)</span></span>
+# <a name="member-object-ado-md-reference"></a><span data-ttu-id="161d5-102">Objeto Member (referencia ADO MD)</span><span class="sxs-lookup"><span data-stu-id="161d5-102">Member object (ADO MD reference)</span></span>
 
-<span data-ttu-id="62f81-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62f81-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="161d5-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="161d5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="62f81-104">Objeto Member (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="62f81-104">Member object (ADO MD)</span></span>](member-object-ado-md.md)
-- [<span data-ttu-id="62f81-105">Propiedades, métodos y eventos de miembros (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="62f81-105">Member properties, methods, and events (ADO MD)</span></span>](member-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="161d5-104">Objeto Member (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="161d5-104">Member object (ADO MD)</span></span>](member-object-ado-md.md)
+- [<span data-ttu-id="161d5-105">Propiedades, métodos y eventos miembros (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="161d5-105">Member properties, methods, and events (ADO MD)</span></span>](member-properties-methods-and-events-ado-md.md)
 

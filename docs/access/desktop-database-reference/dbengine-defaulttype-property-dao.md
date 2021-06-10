@@ -18,26 +18,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294382"
 ---
-# <a name="dbenginedefaulttype-property-dao"></a><span data-ttu-id="686c3-102">Propiedad DBEngine.DefaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="686c3-102">DBEngine.DefaultType property (DAO)</span></span>
+# <a name="dbenginedefaulttype-property-dao"></a><span data-ttu-id="d321b-102">Propiedad DBEngine.DefaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="d321b-102">DBEngine.DefaultType property (DAO)</span></span>
 
 
-<span data-ttu-id="686c3-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="686c3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d321b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d321b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="686c3-104">Establece o devuelve un valor que indica qué tipo de área de trabajo se utilizará en el siguiente objeto **[Workspace](workspace-object-dao.md)** que se cree.</span><span class="sxs-lookup"><span data-stu-id="686c3-104">Sets or returns a value that indicates what type of workspace will be used by the next **[Workspace](workspace-object-dao.md)** object created.</span></span>
+<span data-ttu-id="d321b-104">Establece o devuelve un valor que indica qué tipo de área de trabajo se utilizará en el siguiente objeto **[Workspace](workspace-object-dao.md)** que se cree.</span><span class="sxs-lookup"><span data-stu-id="d321b-104">Sets or returns a value that indicates what type of workspace will be used by the next **[Workspace](workspace-object-dao.md)** object created.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="686c3-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="686c3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d321b-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="d321b-105">Syntax</span></span>
 
-<span data-ttu-id="686c3-106">*expresión* . DefaultType</span><span class="sxs-lookup"><span data-stu-id="686c3-106">*expression* .DefaultType</span></span>
+<span data-ttu-id="d321b-106">*expresión* . DefaultType</span><span class="sxs-lookup"><span data-stu-id="d321b-106">*expression* .DefaultType</span></span>
 
-<span data-ttu-id="686c3-107">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="686c3-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="d321b-107">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="d321b-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="686c3-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="686c3-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d321b-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d321b-108">Remarks</span></span>
 
-<span data-ttu-id="686c3-109">La configuración o el valor devuelto puede ser una de las constantes **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="686c3-109">The setting or return value can be one of the of the **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)** constants.</span></span>
+<span data-ttu-id="d321b-109">La configuración o el valor devuelto puede ser una de las constantes **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="d321b-109">The setting or return value can be one of the of the **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)** constants.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="686c3-p101">No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="686c3-p101">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+> <span data-ttu-id="d321b-p101">No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="d321b-p101">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
-<span data-ttu-id="686c3-112">El valor se puede invalidar para un **único** área de trabajo estableciendo el argumento de tipo en el **[método CreateWorkspace](dbengine-createworkspace-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="686c3-112">The setting can be overridden for a single **Workspace** by setting the type argument to the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method.</span></span>
+<span data-ttu-id="d321b-112">La configuración se puede invalidar para un único **workspace** estableciendo el argumento type en el **[método CreateWorkspace.](dbengine-createworkspace-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="d321b-112">The setting can be overridden for a single **Workspace** by setting the type argument to the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method.</span></span>
 

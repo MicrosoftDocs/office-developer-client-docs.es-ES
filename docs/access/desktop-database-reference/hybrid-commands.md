@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291911"
 ---
-# <a name="hybrid-commands"></a><span data-ttu-id="a2497-102">Comandos híbridos</span><span class="sxs-lookup"><span data-stu-id="a2497-102">Hybrid commands</span></span>
+# <a name="hybrid-commands"></a><span data-ttu-id="1cd69-102">Comandos híbridos</span><span class="sxs-lookup"><span data-stu-id="1cd69-102">Hybrid commands</span></span>
 
 
-<span data-ttu-id="a2497-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2497-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1cd69-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1cd69-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2497-p101">Los comandos híbridos son comandos parcialmente parametrizados. Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="a2497-p101">Hybrid commands are partially parameterized commands. For example:</span></span>
+<span data-ttu-id="1cd69-p101">Los comandos híbridos son comandos parcialmente parametrizados. Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="1cd69-p101">Hybrid commands are partially parameterized commands. For example:</span></span>
 
 ```vb 
  
@@ -29,5 +29,5 @@ SHAPE {select * from plants}
  PlantRegion TO CustomerRegion ) 
 ```
 
-<span data-ttu-id="a2497-106">El comportamiento de caché para un comando híbrido es el mismo que el de los comandos parametrizados normales.</span><span class="sxs-lookup"><span data-stu-id="a2497-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
+<span data-ttu-id="1cd69-106">El comportamiento de caché para un comando híbrido es el mismo que el de los comandos parametrizados normales.</span><span class="sxs-lookup"><span data-stu-id="1cd69-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
 

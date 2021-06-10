@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de grupo (ADOX)
+title: Referencia del objeto Group (ADOX)
 TOCTitle: Group object (ADOX)
 ms:assetid: 7b616ef3-e2ca-4457-8644-b4b282c17c4f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249511(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292100"
 ---
-# <a name="group-object-adox-reference"></a><span data-ttu-id="2c5cc-102">Referencia de objeto de grupo (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2c5cc-102">Group object (ADOX) reference</span></span>
+# <a name="group-object-adox-reference"></a><span data-ttu-id="f5360-102">Referencia del objeto Group (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5360-102">Group object (ADOX) reference</span></span>
 
-<span data-ttu-id="2c5cc-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c5cc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f5360-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5360-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="2c5cc-104">Objeto Group (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2c5cc-104">Group object (ADOX)</span></span>](group-object-adox.md)
-- [<span data-ttu-id="2c5cc-105">Propiedades, métodos y eventos de grupo (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2c5cc-105">Group properties, methods, and events (ADOX)</span></span>](group-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="f5360-104">Objeto Group (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5360-104">Group object (ADOX)</span></span>](group-object-adox.md)
+- [<span data-ttu-id="f5360-105">Propiedades de grupo, métodos y eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5360-105">Group properties, methods, and events (ADOX)</span></span>](group-properties-methods-and-events-adox.md)
 

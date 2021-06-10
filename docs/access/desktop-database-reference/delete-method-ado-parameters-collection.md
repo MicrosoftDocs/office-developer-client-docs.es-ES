@@ -14,23 +14,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294095"
 ---
-# <a name="delete-method-ado-parameters-collection"></a><span data-ttu-id="6f526-102">Método Delete (colección Parameters de ADO)</span><span class="sxs-lookup"><span data-stu-id="6f526-102">Delete method (ADO Parameters Collection)</span></span>
+# <a name="delete-method-ado-parameters-collection"></a><span data-ttu-id="c20f0-102">Método Delete (colección Parameters de ADO)</span><span class="sxs-lookup"><span data-stu-id="c20f0-102">Delete method (ADO Parameters Collection)</span></span>
 
-<span data-ttu-id="6f526-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f526-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c20f0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c20f0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6f526-104">Elimina un objeto de la colección [Parameters](parameters-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6f526-104">Deletes an object from the [Parameters](parameters-collection-ado.md) collection.</span></span>
+<span data-ttu-id="c20f0-104">Elimina un objeto de la colección [Parameters](parameters-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c20f0-104">Deletes an object from the [Parameters](parameters-collection-ado.md) collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6f526-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="6f526-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c20f0-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c20f0-105">Syntax</span></span>
 
-<span data-ttu-id="6f526-106">*Parámetros*. Eliminar *índice*</span><span class="sxs-lookup"><span data-stu-id="6f526-106">*Parameters*.Delete *Index*</span></span>
+<span data-ttu-id="c20f0-106">*Parámetros*. Eliminar *índice*</span><span class="sxs-lookup"><span data-stu-id="c20f0-106">*Parameters*.Delete *Index*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="6f526-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="6f526-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c20f0-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="c20f0-107">Parameters</span></span>
 
-|<span data-ttu-id="6f526-108">Parámetro</span><span class="sxs-lookup"><span data-stu-id="6f526-108">Parameter</span></span>|<span data-ttu-id="6f526-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="6f526-109">Description</span></span>|
+|<span data-ttu-id="c20f0-108">Parámetro</span><span class="sxs-lookup"><span data-stu-id="c20f0-108">Parameter</span></span>|<span data-ttu-id="c20f0-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="c20f0-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="6f526-110">*Index*</span><span class="sxs-lookup"><span data-stu-id="6f526-110">*Index*</span></span> |<span data-ttu-id="6f526-111">Valor de tipo **String** que contiene el nombre del objeto que se va a eliminar, o bien, la posición ordinal (índice) del objeto en la colección.</span><span class="sxs-lookup"><span data-stu-id="6f526-111">A **String** value that contains the name of the object you want to delete, or the objects ordinal position (index) in the collection.</span></span>|
+|<span data-ttu-id="c20f0-110">*Index*</span><span class="sxs-lookup"><span data-stu-id="c20f0-110">*Index*</span></span> |<span data-ttu-id="c20f0-111">Valor de tipo **String** que contiene el nombre del objeto que se va a eliminar, o bien, la posición ordinal (índice) del objeto en la colección.</span><span class="sxs-lookup"><span data-stu-id="c20f0-111">A **String** value that contains the name of the object you want to delete, or the objects ordinal position (index) in the collection.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="6f526-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6f526-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c20f0-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c20f0-112">Remarks</span></span>
 
-<span data-ttu-id="6f526-p101">El uso del método **Delete** en una colección permite quitar uno de los objetos de la colección. Este método está disponible solo en la colección **Parameters** de un objeto [Command](command-object-ado.md). Debe usar la propiedad [Name](name-property-ado.md) del objeto [Parameter](parameter-object-ado.md) o su índice de colección al llamar al método **Delete**; una variable de objeto no es un argumento válido.</span><span class="sxs-lookup"><span data-stu-id="6f526-p101">Using the **Delete** method on a collection lets you remove one of the objects in the collection. This method is available only on the **Parameters** collection of a [Command](command-object-ado.md) object. You must use the [Parameter](parameter-object-ado.md) object's [Name](name-property-ado.md) property or its collection index when calling the **Delete** method — an object variable is not a valid argument.</span></span>
+<span data-ttu-id="c20f0-p101">El uso del método **Delete** en una colección permite quitar uno de los objetos de la colección. Este método está disponible solo en la colección **Parameters** de un objeto [Command](command-object-ado.md). Debe usar la propiedad [Name](name-property-ado.md) del objeto [Parameter](parameter-object-ado.md) o su índice de colección al llamar al método **Delete**; una variable de objeto no es un argumento válido.</span><span class="sxs-lookup"><span data-stu-id="c20f0-p101">Using the **Delete** method on a collection lets you remove one of the objects in the collection. This method is available only on the **Parameters** collection of a [Command](command-object-ado.md) object. You must use the [Parameter](parameter-object-ado.md) object's [Name](name-property-ado.md) property or its collection index when calling the **Delete** method — an object variable is not a valid argument.</span></span>
 

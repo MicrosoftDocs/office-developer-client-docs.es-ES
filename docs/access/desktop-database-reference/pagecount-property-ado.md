@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288122"
 ---
-# <a name="pagecount-property-ado"></a><span data-ttu-id="7a672-102">Propiedad PageCount (ADO)</span><span class="sxs-lookup"><span data-stu-id="7a672-102">PageCount property (ADO)</span></span>
+# <a name="pagecount-property-ado"></a><span data-ttu-id="3ebf5-102">Propiedad PageCount (ADO)</span><span class="sxs-lookup"><span data-stu-id="3ebf5-102">PageCount property (ADO)</span></span>
 
 
-<span data-ttu-id="7a672-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a672-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3ebf5-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3ebf5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7a672-104">Indica cuántas páginas de datos contiene el objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="7a672-104">Indicates how many pages of data the [Recordset](recordset-object-ado.md) object contains.</span></span>
+<span data-ttu-id="3ebf5-104">Indica cuántas páginas de datos contiene el objeto [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="3ebf5-104">Indicates how many pages of data the [Recordset](recordset-object-ado.md) object contains.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="7a672-105">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7a672-105">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3ebf5-105">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3ebf5-105">Return value</span></span>
 
-<span data-ttu-id="7a672-106">Devuelve un valor de tipo **Long** que indica el número de páginas del objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="7a672-106">Returns a **Long** value that indicates the number of pages in the **Recordset**.</span></span>
+<span data-ttu-id="3ebf5-106">Devuelve un valor de tipo **Long** que indica el número de páginas del objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="3ebf5-106">Returns a **Long** value that indicates the number of pages in the **Recordset**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7a672-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7a672-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3ebf5-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3ebf5-107">Remarks</span></span>
 
-<span data-ttu-id="7a672-p101">Utilice la propiedad **NúmeroDePáginas (PageCount)** para determinar cuántas páginas de datos hay en el objeto **Recordset**. Las *páginas* son grupos de registros cuyo tamaño es igual al valor de la propiedad [PageSize](pagesize-property-ado.md). Aunque la última página esté incompleta debido a que existan menos registros que el valor **PageSize**, cuenta como una página adicional en el valor **NúmeroDePáginas (PageCount)**. Si el objeto **Recordset** no admite esta propiedad, el valor será -1 para indicar que **NúmeroDePáginas (PageCount)** es indeterminable.</span><span class="sxs-lookup"><span data-stu-id="7a672-p101">Use the **PageCount** property to determine how many pages of data are in the **Recordset** object. *Pages* are groups of records whose size equals the [PageSize](pagesize-property-ado.md) property setting. Even if the last page is incomplete because there are fewer records than the **PageSize** value, it counts as an additional page in the **PageCount** value. If the **Recordset** object does not support this property, the value will be -1 to indicate that the **PageCount** is indeterminable.</span></span>
+<span data-ttu-id="3ebf5-p101">Utilice la propiedad **NúmeroDePáginas (PageCount)** para determinar cuántas páginas de datos hay en el objeto **Recordset**. Las *páginas* son grupos de registros cuyo tamaño es igual al valor de la propiedad [PageSize](pagesize-property-ado.md). Aunque la última página esté incompleta debido a que existan menos registros que el valor **PageSize**, cuenta como una página adicional en el valor **NúmeroDePáginas (PageCount)**. Si el objeto **Recordset** no admite esta propiedad, el valor será -1 para indicar que **NúmeroDePáginas (PageCount)** es indeterminable.</span><span class="sxs-lookup"><span data-stu-id="3ebf5-p101">Use the **PageCount** property to determine how many pages of data are in the **Recordset** object. *Pages* are groups of records whose size equals the [PageSize](pagesize-property-ado.md) property setting. Even if the last page is incomplete because there are fewer records than the **PageSize** value, it counts as an additional page in the **PageCount** value. If the **Recordset** object does not support this property, the value will be -1 to indicate that the **PageCount** is indeterminable.</span></span>
 
-<span data-ttu-id="7a672-112">Vea las propiedades **PageSize** y [AbsolutePage](absolutepage-property-ado.md) para obtener más información acerca de la funcionalidad de las páginas.</span><span class="sxs-lookup"><span data-stu-id="7a672-112">See the **PageSize** and [AbsolutePage](absolutepage-property-ado.md) properties for more on page functionality.</span></span>
+<span data-ttu-id="3ebf5-112">Vea las propiedades **PageSize** y [AbsolutePage](absolutepage-property-ado.md) para obtener más información acerca de la funcionalidad de las páginas.</span><span class="sxs-lookup"><span data-stu-id="3ebf5-112">See the **PageSize** and [AbsolutePage](absolutepage-property-ado.md) properties for more on page functionality.</span></span>
 

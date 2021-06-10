@@ -14,26 +14,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288654"
 ---
-# <a name="name-property-adox"></a><span data-ttu-id="cb158-102">Propiedad Name (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cb158-102">Name property (ADOX)</span></span>
+# <a name="name-property-adox"></a><span data-ttu-id="42c83-102">Propiedad Name (ADOX)</span><span class="sxs-lookup"><span data-stu-id="42c83-102">Name property (ADOX)</span></span>
 
-<span data-ttu-id="cb158-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb158-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="42c83-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="42c83-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cb158-104">Indica el nombre del objeto.</span><span class="sxs-lookup"><span data-stu-id="cb158-104">Indicates the name of the object.</span></span>
+<span data-ttu-id="42c83-104">Indica el nombre del objeto.</span><span class="sxs-lookup"><span data-stu-id="42c83-104">Indicates the name of the object.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="cb158-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="cb158-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="42c83-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="42c83-105">Settings and return values</span></span>
 
-<span data-ttu-id="cb158-106">Establece o devuelve un valor de tipo **String**.</span><span class="sxs-lookup"><span data-stu-id="cb158-106">Sets or returns a **String** value.</span></span>
+<span data-ttu-id="42c83-106">Establece o devuelve un valor de tipo **String**.</span><span class="sxs-lookup"><span data-stu-id="42c83-106">Sets or returns a **String** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="cb158-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="cb158-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="42c83-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="42c83-107">Remarks</span></span>
 
-<span data-ttu-id="cb158-108">Los nombres no tienen por qué ser únicos dentro de una colección.</span><span class="sxs-lookup"><span data-stu-id="cb158-108">Names do not have to be unique within a collection.</span></span>
+<span data-ttu-id="42c83-108">Los nombres no tienen por qué ser únicos dentro de una colección.</span><span class="sxs-lookup"><span data-stu-id="42c83-108">Names do not have to be unique within a collection.</span></span>
 
-<span data-ttu-id="cb158-p101">La propiedad **Name** es de lectura y escritura en objetos [Column](column-object-adox.md), [Group](group-object-adox.md), [Key](key-object-adox.md), [Index](index-object-adox.md), [Table](table-object-adox.md) y [User](user-object-adox.md). La propiedad **Name** es de sólo lectura en objetos [Catalog](catalog-object-adox.md), [Procedure](procedure-object-adox.md) y [View](view-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="cb158-p101">The **Name** property is read/write on [Column](column-object-adox.md), [Group](group-object-adox.md), [Key](key-object-adox.md), [Index](index-object-adox.md), [Table](table-object-adox.md), and [User](user-object-adox.md) objects. The **Name** property is read-only on [Catalog](catalog-object-adox.md), [Procedure](procedure-object-adox.md), and [View](view-object-adox.md) objects.</span></span>
+<span data-ttu-id="42c83-p101">La propiedad **Name** es de lectura y escritura en objetos [Column](column-object-adox.md), [Group](group-object-adox.md), [Key](key-object-adox.md), [Index](index-object-adox.md), [Table](table-object-adox.md) y [User](user-object-adox.md). La propiedad **Name** es de sólo lectura en objetos [Catalog](catalog-object-adox.md), [Procedure](procedure-object-adox.md) y [View](view-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="42c83-p101">The **Name** property is read/write on [Column](column-object-adox.md), [Group](group-object-adox.md), [Key](key-object-adox.md), [Index](index-object-adox.md), [Table](table-object-adox.md), and [User](user-object-adox.md) objects. The **Name** property is read-only on [Catalog](catalog-object-adox.md), [Procedure](procedure-object-adox.md), and [View](view-object-adox.md) objects.</span></span>
 
-<span data-ttu-id="cb158-111">Para objetos de lectura y escritura (objetos **Column**, **Group**, **Key**, **Index**, **Table** y **User**), el valor predeterminado es una cadena vacía ("").</span><span class="sxs-lookup"><span data-stu-id="cb158-111">For read/write objects (**Column**, **Group**, **Key**, **Index**, **Table** and **User** objects), the default value is an empty string ("").</span></span>
+<span data-ttu-id="42c83-111">Para objetos de lectura y escritura (objetos **Column**, **Group**, **Key**, **Index**, **Table** y **User**), el valor predeterminado es una cadena vacía ("").</span><span class="sxs-lookup"><span data-stu-id="42c83-111">For read/write objects (**Column**, **Group**, **Key**, **Index**, **Table** and **User** objects), the default value is an empty string ("").</span></span>
 
 > [!NOTE]
-> - <span data-ttu-id="cb158-112">Para claves, esta propiedad es de sólo lectura en objetos **Key** ya anexados a una colección.</span><span class="sxs-lookup"><span data-stu-id="cb158-112">For keys, this property is read-only on **Key** objects already appended to a collection.</span></span>
-> - <span data-ttu-id="cb158-113">[!NOTA] Para tablas, esta propiedad es de sólo lectura en objetos **Table** ya anexados a una colección.</span><span class="sxs-lookup"><span data-stu-id="cb158-113">For tables, this property is read-only for **Table** objects already appended to a collection.</span></span>
+> - <span data-ttu-id="42c83-112">Para claves, esta propiedad es de sólo lectura en objetos **Key** ya anexados a una colección.</span><span class="sxs-lookup"><span data-stu-id="42c83-112">For keys, this property is read-only on **Key** objects already appended to a collection.</span></span>
+> - <span data-ttu-id="42c83-113">[!NOTA] Para tablas, esta propiedad es de sólo lectura en objetos **Table** ya anexados a una colección.</span><span class="sxs-lookup"><span data-stu-id="42c83-113">For tables, this property is read-only for **Table** objects already appended to a collection.</span></span>
 
 

@@ -14,22 +14,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295026"
 ---
-# <a name="databaseclose-method-dao"></a><span data-ttu-id="93835-102">Método Database.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="93835-102">Database.Close method (DAO)</span></span>
+# <a name="databaseclose-method-dao"></a><span data-ttu-id="cfc36-102">Método Database.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="cfc36-102">Database.Close method (DAO)</span></span>
 
 
-<span data-ttu-id="93835-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="93835-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cfc36-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cfc36-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="93835-104">Cierra un objeto **Database** abierto.</span><span class="sxs-lookup"><span data-stu-id="93835-104">Closes an open **Database**.</span></span>
+<span data-ttu-id="cfc36-104">Cierra un objeto **Database** abierto.</span><span class="sxs-lookup"><span data-stu-id="cfc36-104">Closes an open **Database**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="93835-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="93835-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cfc36-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="cfc36-105">Syntax</span></span>
 
-<span data-ttu-id="93835-106">*expression* .Close</span><span class="sxs-lookup"><span data-stu-id="93835-106">*expression* .Close</span></span>
+<span data-ttu-id="cfc36-106">*expression* .Close</span><span class="sxs-lookup"><span data-stu-id="cfc36-106">*expression* .Close</span></span>
 
-<span data-ttu-id="93835-107">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="93835-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="cfc36-107">*expression* Variable que representa un objeto **Database**.</span><span class="sxs-lookup"><span data-stu-id="cfc36-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="93835-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="93835-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cfc36-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="cfc36-108">Remarks</span></span>
 
-<span data-ttu-id="93835-109">Si el objeto **Database** ya está cerrado cuando utiliza **Close**, se produce un error en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="93835-109">If the **Database** object is already closed when you use **Close**, a run-time error occurs.</span></span>
+<span data-ttu-id="cfc36-109">Si el objeto **Database** ya está cerrado cuando utiliza **Close**, se produce un error en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="cfc36-109">If the **Database** object is already closed when you use **Close**, a run-time error occurs.</span></span>
 
-<span data-ttu-id="93835-110">Una alternativa al método **Close** es establecer el valor de una variable de objeto en **Nothing** (Set dbsTemp = Nothing).</span><span class="sxs-lookup"><span data-stu-id="93835-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
+<span data-ttu-id="cfc36-110">Una alternativa al método **Close** es establecer el valor de una variable de objeto en **Nothing** (Set dbsTemp = Nothing).</span><span class="sxs-lookup"><span data-stu-id="cfc36-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
 

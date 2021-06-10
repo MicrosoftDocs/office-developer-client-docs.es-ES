@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288444"
 ---
-# <a name="open-and-close-methods-example-vb"></a><span data-ttu-id="4c253-102">Ejemplo de los métodos Open y Close (VB)</span><span class="sxs-lookup"><span data-stu-id="4c253-102">Open and Close methods example (VB)</span></span>
+# <a name="open-and-close-methods-example-vb"></a><span data-ttu-id="548b4-102">Ejemplo de los métodos Open y Close (VB)</span><span class="sxs-lookup"><span data-stu-id="548b4-102">Open and Close methods example (VB)</span></span>
 
 
-<span data-ttu-id="4c253-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c253-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="548b4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="548b4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4c253-104">En este ejemplo se usan los métodos **Open** y [Close](close-method-ado.md) en objetos [Recordset](recordset-object-ado.md) y [Connection](connection-object-ado.md) que se han abierto.</span><span class="sxs-lookup"><span data-stu-id="4c253-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
+<span data-ttu-id="548b4-104">En este ejemplo se usan los métodos **Open** y [Close](close-method-ado.md) en objetos [Recordset](recordset-object-ado.md) y [Connection](connection-object-ado.md) que se han abierto.</span><span class="sxs-lookup"><span data-stu-id="548b4-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
 
 ```vb 
  

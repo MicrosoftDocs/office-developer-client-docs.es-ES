@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294319"
 ---
-# <a name="dbengineerrors-property-dao"></a><span data-ttu-id="cfe8b-102">Propiedad DBEngine.Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="cfe8b-102">DBEngine.Errors property (DAO)</span></span>
+# <a name="dbengineerrors-property-dao"></a><span data-ttu-id="25f0a-102">Propiedad DBEngine.Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="25f0a-102">DBEngine.Errors property (DAO)</span></span>
 
 
-<span data-ttu-id="cfe8b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cfe8b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="25f0a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25f0a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cfe8b-104">Devuelve una colección **Errors** que contiene todos los objetos **Error** almacenados para el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="cfe8b-104">Returns an **Errors** collection that contains all of the stored **Error** objects for the specified object.</span></span> <span data-ttu-id="cfe8b-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="cfe8b-105">Read-only.</span></span>
+<span data-ttu-id="25f0a-p101">Devuelve una colección **Errors** que contiene todos los objetos **Error** almacenados para el objeto especificado. Es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="25f0a-p101">Returns an **Errors** collection that contains all of the stored **Error** objects for the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cfe8b-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="cfe8b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="25f0a-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="25f0a-106">Syntax</span></span>
 
-<span data-ttu-id="cfe8b-107">*expresión* . Errores</span><span class="sxs-lookup"><span data-stu-id="cfe8b-107">*expression* .Errors</span></span>
+<span data-ttu-id="25f0a-107">*expresión* . Errores</span><span class="sxs-lookup"><span data-stu-id="25f0a-107">*expression* .Errors</span></span>
 
-<span data-ttu-id="cfe8b-108">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="cfe8b-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="25f0a-108">*expression* Variable que representa un objeto **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="25f0a-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 

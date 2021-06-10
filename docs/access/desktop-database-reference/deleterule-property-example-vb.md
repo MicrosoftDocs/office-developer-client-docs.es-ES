@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293976"
 ---
-# <a name="deleterule-property-example-vb"></a><span data-ttu-id="b1197-102">Ejemplo de la propiedad DeleteRule (VB)</span><span class="sxs-lookup"><span data-stu-id="b1197-102">DeleteRule property example (VB)</span></span>
+# <a name="deleterule-property-example-vb"></a><span data-ttu-id="67d50-102">Ejemplo de la propiedad DeleteRule (VB)</span><span class="sxs-lookup"><span data-stu-id="67d50-102">DeleteRule property example (VB)</span></span>
 
 
-<span data-ttu-id="b1197-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1197-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="67d50-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="67d50-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b1197-p101">En este ejemplo, se muestra la propiedad [DeleteRule](deleterule-property-adox.md) de un objeto [Key](key-object-adox.md). El código anexa una nueva [tabla](table-object-adox.md) y luego define una nueva clave principal, estableciendo **DeleteRule** en **adRICascade**.</span><span class="sxs-lookup"><span data-stu-id="b1197-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
+<span data-ttu-id="67d50-p101">En este ejemplo, se muestra la propiedad [DeleteRule](deleterule-property-adox.md) de un objeto [Key](key-object-adox.md). El código anexa una nueva [tabla](table-object-adox.md) y luego define una nueva clave principal, estableciendo **DeleteRule** en **adRICascade**.</span><span class="sxs-lookup"><span data-stu-id="67d50-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Propiedades, métodos y eventos de índice (ADOX)
+title: Propiedades de índice, métodos y eventos (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 392ac7eb-a7ab-d016-ed7b-4054c6f9dacc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249139(v=office.15)
@@ -14,27 +14,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291716"
 ---
-# <a name="index-properties-methods-and-events-adox"></a><span data-ttu-id="e8837-102">Propiedades, métodos y eventos de índice (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e8837-102">Index properties, methods, and events (ADOX)</span></span>
+# <a name="index-properties-methods-and-events-adox"></a><span data-ttu-id="1f0a4-102">Propiedades de índice, métodos y eventos (ADOX)</span><span class="sxs-lookup"><span data-stu-id="1f0a4-102">Index properties, methods, and events (ADOX)</span></span>
 
 
-<span data-ttu-id="e8837-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8837-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1f0a4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1f0a4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="e8837-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="e8837-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="1f0a4-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="1f0a4-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="e8837-105">Clustered (propiedad)</span><span class="sxs-lookup"><span data-stu-id="e8837-105">Clustered property</span></span>](clustered-property-adox.md)
-- [<span data-ttu-id="e8837-106">Columns (colección)</span><span class="sxs-lookup"><span data-stu-id="e8837-106">Columns collection</span></span>](columns-collection-adox.md)
-- [<span data-ttu-id="e8837-107">IndexNulls (propiedad)</span><span class="sxs-lookup"><span data-stu-id="e8837-107">IndexNulls property</span></span>](indexnulls-property-adox.md)
-- [<span data-ttu-id="e8837-108">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="e8837-108">Name property</span></span>](name-property-adox.md)
-- [<span data-ttu-id="e8837-109">PrimaryKey (propiedad)</span><span class="sxs-lookup"><span data-stu-id="e8837-109">PrimaryKey property</span></span>](primarykey-property-adox.md)
-- [<span data-ttu-id="e8837-110">Properties (colección)</span><span class="sxs-lookup"><span data-stu-id="e8837-110">Properties collection</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="e8837-111">Unique (propiedad)</span><span class="sxs-lookup"><span data-stu-id="e8837-111">Unique property</span></span>](unique-property-adox.md)
+- [<span data-ttu-id="1f0a4-105">Clustered (propiedad)</span><span class="sxs-lookup"><span data-stu-id="1f0a4-105">Clustered property</span></span>](clustered-property-adox.md)
+- [<span data-ttu-id="1f0a4-106">Columns (colección)</span><span class="sxs-lookup"><span data-stu-id="1f0a4-106">Columns collection</span></span>](columns-collection-adox.md)
+- [<span data-ttu-id="1f0a4-107">IndexNulls (propiedad)</span><span class="sxs-lookup"><span data-stu-id="1f0a4-107">IndexNulls property</span></span>](indexnulls-property-adox.md)
+- [<span data-ttu-id="1f0a4-108">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="1f0a4-108">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="1f0a4-109">PrimaryKey (propiedad)</span><span class="sxs-lookup"><span data-stu-id="1f0a4-109">PrimaryKey property</span></span>](primarykey-property-adox.md)
+- [<span data-ttu-id="1f0a4-110">Properties (colección)</span><span class="sxs-lookup"><span data-stu-id="1f0a4-110">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="1f0a4-111">Unique (propiedad)</span><span class="sxs-lookup"><span data-stu-id="1f0a4-111">Unique property</span></span>](unique-property-adox.md)
 
 
-## <a name="methods"></a><span data-ttu-id="e8837-112">Métodos</span><span class="sxs-lookup"><span data-stu-id="e8837-112">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="1f0a4-112">Métodos</span><span class="sxs-lookup"><span data-stu-id="1f0a4-112">Methods</span></span>
 
-<span data-ttu-id="e8837-113">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="e8837-113">None.</span></span>
+<span data-ttu-id="1f0a4-113">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="1f0a4-113">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="e8837-114">Eventos</span><span class="sxs-lookup"><span data-stu-id="e8837-114">Events</span></span>
+## <a name="events"></a><span data-ttu-id="1f0a4-114">Eventos</span><span class="sxs-lookup"><span data-stu-id="1f0a4-114">Events</span></span>
 
-<span data-ttu-id="e8837-115">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="e8837-115">None.</span></span>
+<span data-ttu-id="1f0a4-115">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="1f0a4-115">None.</span></span>
 

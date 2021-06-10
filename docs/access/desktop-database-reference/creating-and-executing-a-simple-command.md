@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295320"
 ---
-# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="d490d-102">Crear y ejecutar un comando sencillo</span><span class="sxs-lookup"><span data-stu-id="d490d-102">Creating and executing a simple command</span></span>
+# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="7d550-102">Crear y ejecutar un comando sencillo</span><span class="sxs-lookup"><span data-stu-id="7d550-102">Creating and executing a simple command</span></span>
 
 
-<span data-ttu-id="d490d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d490d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7d550-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d550-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d490d-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span><span class="sxs-lookup"><span data-stu-id="d490d-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
+<span data-ttu-id="7d550-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span><span class="sxs-lookup"><span data-stu-id="7d550-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
 
 ```vb 
  
@@ -79,11 +79,11 @@ ErrHandler:
 'EndBasicCmd 
 ```
 
-<span data-ttu-id="d490d-106">El comando que se va a ejecutar se especifica con la propiedad **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="d490d-106">The command to be executed is specified with the **CommandText** property.</span></span>
+<span data-ttu-id="7d550-106">El comando que se va a ejecutar se especifica con la propiedad **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="7d550-106">The command to be executed is specified with the **CommandText** property.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="d490d-107">Varios ejemplos de esta sección llaman a una función de utilidad, **GetNewConnection**, para establecer una conexión con el proveedor de datos.</span><span class="sxs-lookup"><span data-stu-id="d490d-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="d490d-108">Para evitar la redundancia, solo se muestra una vez:</span><span class="sxs-lookup"><span data-stu-id="d490d-108">To avoid redundancy, it is listed only once:</span></span>
+> <span data-ttu-id="7d550-107">Varios ejemplos de esta sección llaman a una función de utilidad, **GetNewConnection**, para establecer una conexión con el proveedor de datos.</span><span class="sxs-lookup"><span data-stu-id="7d550-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="7d550-108">Para evitar la redundancia, solo aparece una vez:</span><span class="sxs-lookup"><span data-stu-id="7d550-108">To avoid redundancy, it is listed only once:</span></span>
 
 ```vb 
  

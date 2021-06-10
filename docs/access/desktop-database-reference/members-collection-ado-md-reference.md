@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289391"
 ---
-# <a name="members-collection-ado-md-reference"></a><span data-ttu-id="48381-102">Colección Members (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="48381-102">Members collection (ADO MD reference)</span></span>
+# <a name="members-collection-ado-md-reference"></a><span data-ttu-id="a3a3c-102">Colección Members (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a3a3c-102">Members collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="48381-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48381-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a3a3c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3a3c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="48381-104">Colección Members (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="48381-104">Members collection (ADO MD)</span></span>](members-collection-ado-md.md)
-- [<span data-ttu-id="48381-105">Propiedades, métodos y eventos de la colección Members (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="48381-105">Members collection properties, methods, and events (ADO MD)</span></span>](members-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="a3a3c-104">Colección Members (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a3a3c-104">Members collection (ADO MD)</span></span>](members-collection-ado-md.md)
+- [<span data-ttu-id="a3a3c-105">Propiedades, métodos y eventos de la colección Members (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a3a3c-105">Members collection properties, methods, and events (ADO MD)</span></span>](members-collection-properties-methods-and-events-ado-md.md)
 
