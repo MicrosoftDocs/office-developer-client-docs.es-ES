@@ -23,7 +23,7 @@ La acción **ProvocarError** produce una excepción que se puede controlar media
 > [!NOTE]
 > [!NOTA] La acción **ProvocarError** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **ProvocarError** utiliza los siguientes argumentos.
 
@@ -63,7 +63,7 @@ Si no hay ninguna instrucción **AlOcurrirError** activa que esté controlando l
 
 Para ver la tabla **USysApplicationLog**, siga estos pasos:
 
-1.  Haga clic en **el menú** Archivo y, a continuación, haga clic en **Opciones.**
+1.  Haga clic en **el menú** Archivo y, a continuación, en **Opciones.**
 
 2.  En el cuadro de diálogo **Opciones de Access**, haga clic en la pestaña **Base de datos actual**.
 
@@ -75,7 +75,7 @@ Para ver la tabla **USysApplicationLog**, siga estos pasos:
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo usar la acción ProvocarError para cancelar el evento de macro de datos Cambio previo. Cuando se actualiza el campo AssignedTo, se usa un bloque de datos LookupRecord para determinar si el técnico asignado está asignado actualmente a una solicitud de servicio abierta. Si esto es así, se cancela el evento Cambio previo y no se actualiza el registro.
+En el ejemplo siguiente se muestra cómo usar la acción RaiseError para cancelar el evento de macro de datos Before Change. Cuando se actualiza el campo AssignedTo, se usa un bloque de datos LookupRecord para determinar si el técnico asignado está asignado actualmente a una solicitud de servicio abierta. Si esto es true, se cancela el evento Before Change y no se actualiza el registro.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

@@ -1,5 +1,5 @@
 ---
-title: Métodos rds (referencia de base de datos de escritorio de Access)
+title: Métodos RDS (referencia de base de datos de escritorio de Access)
 TOCTitle: RDS methods
 ms:assetid: 7f4e2a28-cf6b-4621-5352-ed983a3c7450
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)

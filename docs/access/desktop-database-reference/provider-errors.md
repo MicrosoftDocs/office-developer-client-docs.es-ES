@@ -1,5 +1,5 @@
 ---
-title: Errores del proveedor (referencia de base de datos de escritorio de Access)
+title: Errores de proveedor (referencia de base de datos de escritorio de Access)
 TOCTitle: Provider errors
 ms:assetid: 9c39d450-6e67-b2fd-aeb5-849e6b65fd54
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
@@ -78,11 +78,11 @@ Examinando un objeto **Error**, se puede determinar qué error se produjo y, lo 
 <tbody>
 <tr class="odd">
 <td><p><strong>Descripción</strong></p></td>
-<td><p>Descripción del texto del error que se produjo.</p></td>
+<td><p>Una descripción de texto del error que se produjo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>HelpContext, HelpFile</strong></p></td>
-<td><p>Hace referencia al tema de ayuda y al archivo de ayuda que contienen una descripción del error que se ha producido.</p></td>
+<td><p>Hace referencia al tema de ayuda y al archivo de ayuda que contienen una descripción del error que se produjo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NativeError</strong></p></td>
@@ -90,7 +90,7 @@ Examinando un objeto **Error**, se puede determinar qué error se produjo y, lo 
 </tr>
 <tr class="even">
 <td><p><strong>Number</strong></p></td>
-<td><p>Entero largo que representa el número (enumerado en <strong>ErrorValueEnum)</strong>del error que se produjo.</p></td>
+<td><p>Entero largo que representa el número (enumerado en <strong>errorValueEnum</strong>) del error que se produjo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Source</strong></p></td>
@@ -98,7 +98,7 @@ Examinando un objeto **Error**, se puede determinar qué error se produjo y, lo 
 </tr>
 <tr class="even">
 <td><p><strong>SQLState</strong></p></td>
-<td><p>Código de error de cinco caracteres que devuelve el proveedor durante el proceso de una SQL de búsqueda.</p></td>
+<td><p>Código de error de cinco caracteres que el proveedor devuelve durante el proceso de una instrucción SQL.</p></td>
 </tr>
 </tbody>
 </table>
@@ -110,5 +110,5 @@ El objeto **Error** de ADO es bastante similar al objeto **Err** estándar de Vi
 
 El objeto **Error** también se utiliza cuando se producen errores relacionados con un evento. Para determinar si un error se produjo en el proceso que desencadenó un evento de ADO, revise el objeto **Error** pasado como un parámetro de evento.
 
-Si la operación que provoca un evento se concluye correctamente, el parámetro *adStatus* del controlador de eventos se establecerá en *adStatusOK*. Por otro lado, si la operación que ha generado el evento no se ha realizado correctamente, el parámetro *adStatus* se establece en *adStatusErrorsOccurred*. En ese caso, *el parámetro pError* contendrá un **objeto Error** que describe el error.
+Si la operación que provoca un evento se concluye correctamente, el parámetro *adStatus* del controlador de eventos se establecerá en *adStatusOK*. Por otro lado, si la operación que ha generado el evento no se ha realizado correctamente, el parámetro *adStatus* se establece en *adStatusErrorsOccurred*. En ese caso, el *parámetro pError* contendrá un **objeto Error** que describe el error.
 

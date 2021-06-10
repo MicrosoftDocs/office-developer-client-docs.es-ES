@@ -55,14 +55,14 @@ Para hacer referencia a un objeto **Property** integrado de una colección por s
 
 - *object***. Propiedades**("* nombre*")
 
-- *object***. Nombre de** \! \[* propiedades*\]
+- *object***. Nombre de** \! \[* las propiedades*\]
 
 Para una propiedad integrada, también se puede usar la siguiente sintaxis:
 
-- *.* *name*
+- *objeto*. *nombre*
 
 > [!NOTE]
-> Para una propiedad definida por el usuario, debe usar el objeto *completo***. Sintaxis** de propiedades ("* nombre*").
+> Para una propiedad definida por el usuario, debe usar el objeto *completo***. Sintaxis Properties**("* name*").
 
 Con los mismos formatos de sintaxis, también se puede hacer referencia a la propiedad **Value** de un objeto **Property**. El contexto de la referencia determinará si se está haciendo referencia al objeto **Property** en sí o a la propiedad **Value** del objeto **Property**.
 

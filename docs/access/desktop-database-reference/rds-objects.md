@@ -32,7 +32,7 @@ ms.locfileid: "32300885"
 </tr>
 <tr class="odd">
 <td><p><a href="datacontrol-object-rds.md">DataControl (RDS)</a></p></td>
-<td><p>Enlaza un conjunto <strong></strong> de registros de consulta de datos a uno o varios controles (por ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos del conjunto de registros en una página web. <strong></strong></p></td>
+<td><p>Enlaza un objeto <strong>Recordset</strong> de consulta de datos a uno o varios controles (por <strong></strong> ejemplo, un cuadro de texto, un control de cuadrícula o un cuadro combinado) para mostrar los datos recordset en una página web.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></p></td>

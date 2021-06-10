@@ -24,7 +24,7 @@ Si el objeto **Record** se abre desde un objeto **Recordset**, la colección **F
 
 El proveedor puede insertar campos adicionales que sirven de características complementarias del objeto **Record**. Como resultado, un objeto **Record** puede tener campos únicos no incluidos en el objeto **Recordset** como conjunto o cualquier objeto **Record** derivado de otra fila del objeto **Recordset**.
 
-Por ejemplo, todas las filas de un **conjunto** de registros derivados de un origen de datos de correo electrónico pueden tener columnas como De, Para y Asunto. Un objeto **Record** derivado de ese objeto **Recordset** tendrá los mismos campos. Sin embargo, el objeto **Record** también puede tener otros campos únicos para el mensaje concreto representado por ese **Record**, como Datos adjuntos y CC (Con copia).
+Por ejemplo, todas las filas de un **objeto Recordset** derivado de un origen de datos de correo electrónico pueden tener columnas como From, To y Subject. Un objeto **Record** derivado de ese objeto **Recordset** tendrá los mismos campos. Sin embargo, el objeto **Record** también puede tener otros campos únicos para el mensaje concreto representado por ese **Record**, como Datos adjuntos y CC (Con copia).
 
 Si bien el objeto **Record** y la actual fila del objeto **Recordset** tienen los mismos campos, son diferentes porque los objetos **Record** y **Recordset** tienen métodos y propiedades distintos.
 
@@ -108,12 +108,12 @@ Esta propiedad se puede modificar, incluso si el recurso se ha abierto sólo par
 <tr class="even">
 <td><p>RESOURCE_CONTENTTYPE</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indica el uso probable del documento; por ejemplo, un expediente de abogado. Esto puede corresponder a la plantilla de Office usada para crear el documento.&quot;&quot;</p></td>
+<td><p>Indica el uso probable del documento; por ejemplo, un expediente de abogado. Esto puede corresponder a la plantilla Office que se usa para crear el documento.&quot;&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>RESOURCE_CONTENTCLASS</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>Indica el tipo MIME del documento, que indica el formato como &quot; &quot; texto/html.'</p></td>
+<td><p>Indica el tipo MIME del documento, que indica el formato como &quot; texto/html &quot; .'</p></td>
 </tr>
 <tr class="even">
 <td><p>RESOURCE_CONTENTLANGUAGE</p></td>

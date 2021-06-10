@@ -25,7 +25,7 @@ No admitido en este objeto.
 
 *expresión* . Actualizar
 
-*expresión* Variable que representa un **objeto QueryDefs** .
+*expresión* Variable que representa un **objeto QueryDefs.**
 
 ## <a name="remarks"></a>Comentarios
 

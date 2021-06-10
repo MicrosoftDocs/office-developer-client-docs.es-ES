@@ -1,5 +1,5 @@
 ---
-title: Miembros properties (DAO)
+title: Miembros de propiedades (DAO)
 TOCTitle: Properties Members
 ms:assetid: 04cd45ae-3a1e-6090-534d-de10363744c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844853(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301263"
 ---
-# <a name="properties-members-dao"></a>Miembros properties (DAO)
+# <a name="properties-members-dao"></a>Miembros de propiedades (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -36,7 +36,7 @@ Una colección Properties contiene todos los **[objetos Property](property-objec
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="properties-append-method-dao.md">Append</a></strong></p></td>
+<td><p><strong><a href="properties-append-method-dao.md">Anexar</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>Property</strong> a la colección <strong>Properties</strong>.</p></td>
 </tr>
 <tr class="even">

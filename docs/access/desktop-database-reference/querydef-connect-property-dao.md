@@ -1,5 +1,5 @@
 ---
-title: Propiedad QueryDef.Connect (DAO)
+title: QueryDef. Conectar (DAO)
 TOCTitle: Connect Property
 ms:assetid: 14f19205-e92e-acc6-5677-b6d88772d5da
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301088"
 ---
-# <a name="querydefconnect-property-dao"></a>Propiedad QueryDef.Connect (DAO)
+# <a name="querydefconnect-property-dao"></a>QueryDef. Conectar (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -32,7 +32,7 @@ El valor de la propiedad **Connect** es un valor de tipo **String** formado por 
 
 Para realizar una consulta SQL de paso a través en una tabla vinculada a su archivo de base de datos de Microsoft Access, primero debe establecer la propiedad **Connect** de la base de datos de la tabla vinculada en una cadena de conexión ODBC válida.
 
-La ruta de acceso que se muestra en la siguiente tabla es la ruta completa del directorio que contiene los archivos de base de datos y debe ir precedida del identificador DATABASE=. En algunos casos (como en Microsoft Excel y en la base de datos del motor de bases de datos de Microsoft Access), debe incluir un nombre de archivo específico en el argumento rutaDeAccesso de la base de datos.
+La ruta de acceso que se muestra en la siguiente tabla es la ruta completa del directorio que contiene los archivos de base de datos y debe ir precedida del identificador DATABASE=. En algunos casos (por ejemplo, con bases de datos de Microsoft Excel y del motor de base de datos de Microsoft Access), debe incluir un nombre de archivo específico en el argumento de ruta de acceso de la base de datos.
 
 En la siguiente tabla se muestran los tipos de base de datos posibles así como sus especificadores de base de datos y rutas de acceso correspondientes para el valor de la propiedad **Connect**.
 

@@ -19,7 +19,7 @@ ms.locfileid: "32300990"
 **Se aplica a:** Access 2013, Office 2013
 
 - [Propiedad QueryDef.CacheSize (DAO)](querydef-cachesize-property-dao.md)
-- [Propiedad QueryDef.Connect (DAO)](querydef-connect-property-dao.md)
+- [QueryDef. Conectar (DAO)](querydef-connect-property-dao.md)
 - [Propiedad QueryDef.DateCreated (DAO)](querydef-datecreated-property-dao.md)
 - [Propiedad QueryDef.Fields (DAO)](querydef-fields-property-dao.md)
 - [Propiedad QueryDef.LastUpdated (DAO)](querydef-lastupdated-property-dao.md)

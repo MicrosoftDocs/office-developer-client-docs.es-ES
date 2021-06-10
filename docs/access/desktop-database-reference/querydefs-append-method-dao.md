@@ -24,9 +24,9 @@ Agrega un nuevo objeto **QueryDef** a la colección **QueryDefs**.
 
 *expression* .Append(***Object***)
 
-*expresión* Variable que representa un **objeto QueryDefs** .
+*expresión* Variable que representa un **objeto QueryDefs.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

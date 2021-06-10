@@ -69,7 +69,7 @@ Especifica si se debe abrir un **Record** existente o crear un **Record** nuevo 
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

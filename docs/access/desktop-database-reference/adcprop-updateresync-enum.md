@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280442"
 ---
-# <a name="adcprop_updateresync_enum"></a>ENUMERACIÓN \_ ADCPROP UPDATERESYNC \_
+# <a name="adcprop_updateresync_enum"></a>ADCPROP \_ UPDATERESYNC \_ ENUM
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -38,17 +38,17 @@ Especifica si al método [UpdateBatch](updatebatch-method-ado.md) le sigue una o
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAll</strong></p></td>
-<td><p>15 </p></td>
+<td><p>15</p></td>
 <td><p>Llama a <strong> Resync</strong> con el valor combinado del resto de los miembros ADCPROP_UPDATERESYNC_ENUM.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncAutoIncrement</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Valor predeterminado. Intenta recuperar el nuevo valor de identidad de las columnas que se incrementan automáticamente o que genera el origen de datos, como los campos de autonumeración de Microsoft Jet o las columnas de identidad de Microsoft SQL Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adResyncConflicts</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Llama a <strong>Resync</strong> para todas las filas en las que la operación de actualización o eliminación generó un error debido a un conflicto de concurrencia.</p></td>
 </tr>
 <tr class="even">

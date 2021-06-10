@@ -31,14 +31,15 @@ Define un nombre y parámetros opcionales para una consulta.
 
 ## <a name="syntax"></a>Sintaxis
 
-PROCEDURE *name* \[ *param1 datatype*, \[ *param2 datatype* \[ , ...\]\]
+Nombre *procedure* \[ *param1 datatype*, \[ *param2 datatype* \[ , ...\]\]
 
 La cláusula PROCEDURE consta de los siguientes elementos:
 
 |Parte |Descripción |
 |:----|:-----------|
-|*name* |Un nombre para el procedimiento. Debe seguir las convenciones de nomenclatura estándar.|
-|*párametro1*, *párametro2* |Uno o varios nombres de campo o parámetros. Por ejemplo:<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Para obtener más información acerca de los parámetros, vea [parámetros](parameters-declaration-microsoft-access-sql.md).|
+|*name* |Nombre del procedimiento. Debe seguir las convenciones de nomenclatura estándar.|
+|*párametro1*, *párametro2* |Uno o varios nombres de campo o parámetros. Por ejemplo:
+<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Para obtener más información acerca de los parámetros, vea [parámetros](parameters-declaration-microsoft-access-sql.md).|
 |*tipo_datos* | Uno de los principales [tipos de datos de Microsoft Access SQL](sql-data-types.md) o sus sinónimos. |
 
 

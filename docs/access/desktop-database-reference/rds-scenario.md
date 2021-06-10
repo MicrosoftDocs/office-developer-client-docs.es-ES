@@ -20,7 +20,7 @@ ms.locfileid: "32300829"
 
 - [Botones de comando de la Libreta de direcciones](address-book-command-buttons.md)
 - [Objeto de enlace de datos de la Libreta de direcciones](address-book-data-binding-object.md)
-- [Botones de navegación de la Libreta de direcciones](address-book-navigation-buttons.md)
+- [Botones de navegación de la libreta de direcciones](address-book-navigation-buttons.md)
 - [Ejecución de la aplicación de ejemplo de libreta de direcciones](running-the-address-book-sample-application.md)
 - [Requisitos del sistema para la aplicación Libreta de direcciones](system-requirements-for-the-address-book-application.md)
 

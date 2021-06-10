@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de procedimiento (ADOX)
+title: Referencia del objeto Procedure (ADOX)
 TOCTitle: Procedure object (ADOX)
 ms:assetid: 79805348-61b7-4d3f-a076-c12db788ba97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249500(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301389"
 ---
-# <a name="procedure-object-adox-reference"></a>Referencia de objeto de procedimiento (ADOX)
+# <a name="procedure-object-adox-reference"></a>Referencia del objeto Procedure (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 
 - [Objeto Procedure (ADOX)](procedure-object-adox.md)
-- [Propiedades, métodos y eventos de procedimiento (ADOX)](procedure-properties-methods-and-events-adox.md)
+- [Propiedades de procedimiento, métodos y eventos (ADOX)](procedure-properties-methods-and-events-adox.md)
 

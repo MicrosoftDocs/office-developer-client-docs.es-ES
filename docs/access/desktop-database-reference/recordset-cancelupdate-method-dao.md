@@ -52,7 +52,7 @@ Cancela todas las actualizaciones pendientes para un objeto **[Recordset](record
 <td><p><em>UpdateType</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Se establece en uno de los <strong><a href="updatetypeenum-enumeration-dao.md">valores de UpdateTypeEnum.</a></strong></p><p><strong>NOTA:</strong>Los <EM>valores dbUpdateRegular</EM> y <EM>dbUpdateBatch</EM> solo son válidos si la actualización por lotes está habilitada.</p>
+<td><p>Se establece en uno de los <strong><a href="updatetypeenum-enumeration-dao.md">valores UpdateTypeEnum.</a></strong></p><p><strong>NOTA</strong>: Los <EM>valores dbUpdateRegular</EM> y <EM>dbUpdateBatch</EM> solo son válidos si la actualización por lotes está habilitada.</p>
 </td>
 </tr>
 </tbody>

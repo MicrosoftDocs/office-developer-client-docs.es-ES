@@ -19,7 +19,7 @@ ms.locfileid: "32300948"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Read-only **entero**.
+Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Integer de solo **lectura.**
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -45,7 +45,7 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 <tbody>
 <tr class="odd">
 <td><p><strong>dbQAction</strong></p></td>
-<td><p>Action</p></td>
+<td><p>Acción</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQAppend</strong></p></td>
@@ -57,7 +57,7 @@ Para un objeto **QueryDef**, los valores o valores enteros posibles se muestran 
 </tr>
 <tr class="even">
 <td><p><strong>dbQCrosstab</strong></p></td>
-<td><p>Tabla de referencias cruzadas</p></td>
+<td><p>Crosstab</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQDDL</strong></p></td>

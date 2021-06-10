@@ -18,7 +18,7 @@ ms.locfileid: "32280304"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo, un objeto **Table** puede estar contenido en una colección [Tables](tables-collection-adox.md). Para obtener más información, vea [colecciones de ADOX](adox-collections.md) o un tema de colección específico.
+Cada objeto puede estar contenido en su colección correspondiente. Por ejemplo, un objeto **Table** puede estar contenido en una colección [Tables](tables-collection-adox.md). Para obtener más información, vea [Colecciones ADOX](adox-collections.md) o un tema de colección específico.
 
 <br/>
 

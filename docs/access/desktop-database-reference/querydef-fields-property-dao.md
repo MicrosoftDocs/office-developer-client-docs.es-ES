@@ -19,7 +19,7 @@ ms.locfileid: "32301067"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **[Fields](fields-collection-dao.md)** que representa todos los objetos **[Field](field-object-dao.md)** almacenados para el objeto especificado. Solo lectura.
+Devuelve una colección **[Fields](fields-collection-dao.md)** que representa todos los objetos **[Field](field-object-dao.md)** almacenados para el objeto especificado. Es de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 

@@ -22,13 +22,13 @@ ms.locfileid: "32301172"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Establece o devuelve el valor de un objeto. **Variante** de lectura y escritura.
+Establece o devuelve el valor de un objeto. **Variant** de lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . Valor
 
-*expresión* Variable que representa un objeto **Property** .
+*expresión* Variable que representa un **objeto Property.**
 
 ## <a name="remarks"></a>Comentarios
 

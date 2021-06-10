@@ -1,5 +1,5 @@
 ---
-title: Properties (colección, ADO)
+title: Colección Properties (ADO)
 TOCTitle: Properties collection (ADO)
 ms:assetid: 4d662790-1252-c930-e6f9-edf6a38636af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249245(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301298"
 ---
-# <a name="properties-collection-ado"></a>Properties (colección, ADO)
+# <a name="properties-collection-ado"></a>Colección Properties (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

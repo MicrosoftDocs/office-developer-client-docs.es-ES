@@ -23,7 +23,7 @@ ms.locfileid: "32300997"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **[Parameters](parameters-collection-dao.md)** que contiene todos los objetos **[Parameter](parameter-object-dao.md)** del objeto **QueryDef** especificado. Solo lectura.
+Devuelve una colección **[Parameters](parameters-collection-dao.md)** que contiene todos los objetos **[Parameter](parameter-object-dao.md)** del objeto **QueryDef** especificado. Es de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 

@@ -24,9 +24,9 @@ Agrega un nuevo objeto **Property** a la colección **Properties**.
 
 *expression* .Append(***Object***)
 
-*expresión* Variable que representa un objeto **Properties** .
+*expresión* Variable que representa un **objeto Properties.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

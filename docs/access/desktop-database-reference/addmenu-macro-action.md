@@ -33,7 +33,7 @@ Puede usar la acción **AgregarMenú** para crear:
 
 - Un menú contextual global. El menú contextual global reemplaza el menú contextual integrado para los campos en las hojas de datos de tabla y consulta, los formularios y los informes, excepto donde se agregó un menú contextual personalizado para un formulario, un informe o un control.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **AgregarMenú** tiene los siguientes argumentos.
 
@@ -51,12 +51,14 @@ La acción **AgregarMenú** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nombre del menú</strong></p></td>
-<td><p>El nombre del menú, por ejemplo, &quot; Comandos de informe o Herramientas &quot; &quot; &quot; . Para crear una tecla de acceso para que pueda usar el teclado para elegir el menú, escriba una y comercial ( ) antes de la letra que desea que <strong>&amp;</strong> sea la tecla de acceso. Esta letra se subrayará en el nombre del menú en la ficha <strong>Complementos</strong>.</p></td>
+<td><p>El nombre del menú, por ejemplo, &quot; Comandos de informe o Herramientas &quot; &quot; &quot; . Para crear una tecla de acceso para que pueda usar el teclado para elegir el menú, escriba una yand ( ) antes de la letra que desea que sea <strong>&amp;</strong> la clave de acceso. Esta letra se subrayará en el nombre del menú en la ficha <strong>Complementos</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre de macro de menú</strong></p></td>
-<td><p>El nombre del grupo de macros que contiene las macros para los comandos del menú. Es un argumento obligatorio.</p>
-<p><strong>NOTA:</strong>Si ejecuta una macro <strong></strong> que contiene la acción AgregarMenú en una base de datos de biblioteca, Microsoft Office Access 2007 solo busca el grupo de macros con este nombre en la base de datos actual.</p></td>
+<td><p>El nombre del grupo de macros que contiene las macros para los comandos del menú. Es un argumento obligatorio. 
+
+</p>
+<p><strong>NOTA:</strong>Si ejecuta una macro que contiene la acción <strong>AgregarMenú</strong> en una base de datos de biblioteca, Microsoft Office Access 2007 busca el grupo de macros con este nombre solo en la base de datos actual.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Texto de la barra de estado</strong></p></td>

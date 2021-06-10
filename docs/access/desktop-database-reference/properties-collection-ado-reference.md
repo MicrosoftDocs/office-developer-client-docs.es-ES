@@ -18,6 +18,6 @@ ms.locfileid: "32301319"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Properties (colección, ADO)](properties-collection-ado.md)
+- [Colección Properties (ADO)](properties-collection-ado.md)
 - [Propiedades, métodos y eventos de la colección Properties](properties-collection-properties-methods-and-events.md)
 

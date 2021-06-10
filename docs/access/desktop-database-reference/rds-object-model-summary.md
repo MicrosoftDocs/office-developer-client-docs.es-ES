@@ -37,7 +37,9 @@ ms.locfileid: "32300878"
 </tr>
 <tr class="even">
 <td><p><a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a></p></td>
-<td><p>Este objeto representa el programa de servidor predeterminado. Ejecuta el comportamiento predeterminado de recuperación y actualización de datos de RDS.</p></td>
+<td><p>Este objeto representa el programa de servidor predeterminado.
+
+Ejecuta el comportamiento predeterminado de recuperación y actualización de datos de RDS.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="datacontrol-object-rds.md">RDS. DataControl</a></p></td>

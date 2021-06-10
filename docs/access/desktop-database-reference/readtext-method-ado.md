@@ -1,5 +1,5 @@
 ---
-title: ReadText (método, ADO)
+title: Método ReadText (ADO)
 TOCTitle: ReadText method (ADO)
 ms:assetid: 08f5bac4-dccd-696c-09a7-e1ba0cb38d79
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300801"
 ---
-# <a name="readtext-method-ado"></a>ReadText (método, ADO)
+# <a name="readtext-method-ado"></a>Método ReadText (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

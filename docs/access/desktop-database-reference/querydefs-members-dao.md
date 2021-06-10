@@ -36,7 +36,7 @@ Una colección QueryDefs contiene todos los objetos QueryDef de un objeto de Bas
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydefs-append-method-dao.md">Append</a></strong></p></td>
+<td><p><strong><a href="querydefs-append-method-dao.md">Anexar</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>QueryDef</strong> a la colección <strong>QueryDefs</strong>.</p></td>
 </tr>
 <tr class="even">

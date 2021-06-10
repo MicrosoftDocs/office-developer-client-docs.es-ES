@@ -18,7 +18,7 @@ ms.locfileid: "32300899"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Esta sección de la documentación ActiveX Data Objects (ADO) contiene temas para cada objeto, propiedad, método y evento de RDS. Para obtener más información, busque un tema específico en el índice o vea los temas siguientes:
+Esta sección de la documentación ActiveX objetos de datos (ADO) contiene temas para cada objeto, propiedad, método y evento rds. Para obtener más información, busque un tema específico en el índice o vea los temas siguientes:
 
 - [Objetos de RDS](rds-objects.md)
 - [Propiedades de RDS](rds-properties.md)

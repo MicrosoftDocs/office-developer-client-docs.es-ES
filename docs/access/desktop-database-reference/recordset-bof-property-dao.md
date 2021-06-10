@@ -19,7 +19,7 @@ ms.locfileid: "32300591"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve un valor que indica si la posición del registro actual está delante del primer registro en un objeto **Recordset**. **Booleano** de solo lectura.
+Devuelve un valor que indica si la posición del registro actual está delante del primer registro en un objeto **Recordset**. **Boolean** de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 

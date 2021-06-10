@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301326"
 ---
-# <a name="prompt-dynamic-property-ado"></a>Prompt dynamic property (ADO)
+# <a name="prompt-dynamic-property-ado"></a>Propiedad dinámica Prompt (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

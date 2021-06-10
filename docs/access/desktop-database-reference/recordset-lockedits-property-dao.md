@@ -52,7 +52,7 @@ La configuración o el valor devuelto indica el tipo de bloqueo, como se especif
 </tr>
 <tr class="even">
 <td><p>Falso</p></td>
-<td><p>Está activado un bloqueo optimista para la edición. La página que contiene el registro no se bloquea hasta que se ejecuta el método Update .</p></td>
+<td><p>Está activado un bloqueo optimista para la edición. La página que contiene el registro no se bloquea hasta que se ejecuta el método Update.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ Si establece la propiedad **LockEdits** en **False** y después utiliza el méto
 Cuando trabaje con un motor de base de datos Microsoft Access conectado a orígenes de datos ODBC, la propiedad **LockEdits** estará siempre establecida en **False** o en bloqueo optimista. El motor de base de datos Microsoft Access no tiene control sobre los mecanismos de bloqueo utilizados en servidores de bases de datos externos.
 
 > [!NOTE]
-> Puede preestablecer el valor de **LockEdits** cuando abra por primera vez el conjunto de registros estableciendo el argumento lockedits del método  **[OpenRecordset.](connection-openrecordset-method-dao.md)** Al establecer el argumento LockEdits en **dbPessimistic** se establecerá la propiedad **LockEdits** en **True** y al establecer LockEdits en cualquier otro valor se establecerá la propiedad **LockEdits** en **False**.
+> Puede preestablecer el valor **de LockEdits** cuando abra por primera vez **el objeto Recordset** estableciendo el argumento lockedits del método **[OpenRecordset.](connection-openrecordset-method-dao.md)** Al establecer el argumento LockEdits en **dbPessimistic** se establecerá la propiedad **LockEdits** en **True** y al establecer LockEdits en cualquier otro valor se establecerá la propiedad **LockEdits** en **False**.
 
 ## <a name="example"></a>Ejemplo
 

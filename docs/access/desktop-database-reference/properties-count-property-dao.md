@@ -27,14 +27,14 @@ Puede usar la propiedad **Count** para determinar el número de elementos de una
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Count
+*expresión* . Recuento
 
-*expresión* Variable que representa un objeto **Properties** .
+*expresión* Variable que representa un **objeto Properties.**
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Properties (colección)](properties-collection-dao.md)
 - [Propiedades (miembros)](properties-members-dao.md)
 - [Objeto Properties (VBA de Access)](https://docs.microsoft.com/office/vba/api/Access.Properties)
-- [Miembros properties (VBA de Access)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
+- [Miembros de propiedades (VBA de Access)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
 

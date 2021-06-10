@@ -23,7 +23,7 @@ ms.locfileid: "32300502"
 
 **Se aplica a:** Access 2013, Office 2013 
 
-Devuelve un marcador que indica el registro agregado o modificado más recientemente.
+Devuelve un marcador que indica el registro más reciente agregado o modificado.
 
 ## <a name="syntax"></a>Sintaxis
 

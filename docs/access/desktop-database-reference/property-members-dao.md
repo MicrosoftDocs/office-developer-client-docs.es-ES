@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301214"
 ---
-# <a name="property-members-dao"></a>Miembros de propiedad (DAO)
+# <a name="property-members-dao"></a>Miembros de la propiedad (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -45,11 +45,11 @@ Un objeto Property representa una característica integrada o definida por el us
 </tr>
 <tr class="odd">
 <td><p><strong><a href="property-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="property-type-property-dao.md">Tipo</a></strong></p></td>
-<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Valor <strong>Entero</strong> de lectura y escritura.</p></td>
+<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="property-value-property-dao.md">Valor</a></strong></p></td>

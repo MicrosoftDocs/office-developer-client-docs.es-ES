@@ -48,13 +48,13 @@ Rellena parcial o totalmente una memoria caché local de un objeto **Recordset**
 <td><p><em>Rows</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica el número de filas que se van a almacenar en caché. Si omite este argumento, el valor viene determinado por el valor de la propiedad <strong><a href="recordset-cachesize-property-dao.md">CacheSize.</a></strong></p></td>
+<td><p><strong>Variant</strong> (subtipo <strong>Integer</strong>) que especifica el número de filas que se van a almacenar en caché. Si omite este argumento, el valor se determina mediante el valor de la propiedad <strong><a href="recordset-cachesize-property-dao.md">CacheSize</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>StartBookmark</em></p></td>
 <td><p>Opcional</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que especifica un marcador. La caché se rellena empezando por el registro indicado por este marcador. Si omite este argumento, la memoria caché se rellena a partir del registro indicado por la <strong><a href="recordset-cachestart-property-dao.md">propiedad CacheStart.</a></strong></p></td>
+<td><p><strong>Variant</strong> (subtipo <strong>String</strong>) que especifica un marcador. La caché se rellena empezando por el registro indicado por este marcador. Si omite este argumento, la caché se rellena empezando por el registro indicado por la propiedad <strong><a href="recordset-cachestart-property-dao.md">CacheStart</a></strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -68,7 +68,7 @@ En vez de esperar a que se llene la caché con los registros según se vayan rec
 
 Cualquier origen de datos ODBC conectado al motor de base de datos de Microsoft Access al que obtenga acceso con objetos **Recordset** puede tener una memoria caché local. Para crear la memoria caché, abra un objeto **Recordset** desde el origen de datos remoto y, a continuación, establezca las propiedades **CacheSize** y **CacheStart** del objeto **Recordset**.
 
-Si las filas y startbookmark crean un rango de registros que está parcial o totalmente fuera del intervalo de registros especificado por las propiedades **CacheSize** y **CacheStart,** la parte del conjunto de registros fuera de este intervalo se omite y no se cargará en la memoria caché.
+Si las filas y startbookmark crean un intervalo de registros que está parcial o totalmente fuera del intervalo de registros especificado por las propiedades **CacheSize** y **CacheStart,** la parte del conjunto de registros fuera de este intervalo se omite y no se cargará en la memoria caché.
 
 Si **FillCache** solicita más registros que el número restante en el origen de datos remoto, el motor de base de datos de Microsoft Access recupera sólo los registros restantes y no se producen errores.
 

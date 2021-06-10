@@ -31,11 +31,11 @@ Establece o devuelve un valor que indica la ubicación aproximada del registro a
 Para indicar o cambiar la ubicación aproximada del registro actual en un objeto **Recordset**, puede comprobar o establecer la propiedad **PercentPosition**. Al trabajar con un objeto **Recordset** de tipo Dynaset o Snapshot abierto directamente desde una tabla base, primero rellene el objeto **Recordset** moviendo el último registro antes de establecer o comprobar la propiedad **PercentPosition**. Si usa la propiedad **PercentPosition** antes de rellenar completamente el objeto **Recordset**, el número de movimientos será relativo al número de registros a los que se tuvo acceso como indica el valor de la propiedad **[RecordCount](recordset-recordcount-property-dao.md)**. Puede moverse hasta el último registro usando el método **[MoveLast](recordset-movelast-method-dao.md)**.
 
 > [!NOTE]
-> No se recomienda usar la propiedad **PercentPosition** para mover el registro actual a un registro específico de un objeto **Recordset.** La **[propiedad Bookmark](recordset-bookmark-property-dao.md)** es más adecuada para esta tarea.
+> No se recomienda usar **la propiedad PercentPosition** para mover el registro actual a un registro específico de un **objeto Recordset.** La **[propiedad Bookmark](recordset-bookmark-property-dao.md)** es más adecuada para esta tarea.
 
 Una vez que establezca la propiedad **PercentPosition** en un valor, el registro en la ubicación aproximada correspondiente a ese valor se convierte en el actual y la propiedad **PercentPosition** se restablece con el valor que refleja la ubicación aproximada del registro actual. Por ejemplo, si su objeto **Recordset** contiene solo cinco registros y establece el valor de su propiedad **PercentPosition** en 77, el valor devuelto desde la propiedad **PercentPosition** puede que sea 80 y no 77.
 
-La **propiedad PercentPosition** se aplica a todos los tipos de objetos **Recordset,** excepto a los objetos **Recordset** de tipo de sólo avance o a los objetos **Recordset** abiertos desde consultas de paso a través en bases de datos remotas.
+La **propiedad PercentPosition** se aplica a todos los tipos de objetos **Recordset,** excepto los objetos **Recordset** de solo avance o los objetos **Recordset** abiertos desde consultas de paso a través de bases de datos remotas.
 
 Puede usar la propiedad **PercentPosition** con una barra de desplazamiento en un formulario o en un cuadro de texto para indicar la ubicación del registro actual en un objeto **Recordset**.
 
