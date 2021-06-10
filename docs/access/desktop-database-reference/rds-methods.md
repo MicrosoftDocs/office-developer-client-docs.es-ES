@@ -1,5 +1,5 @@
 ---
-title: Métodos rds (referencia de base de datos de escritorio de Access)
+title: Métodos RDS (referencia de base de datos de escritorio de Access)
 TOCTitle: RDS methods
 ms:assetid: 7f4e2a28-cf6b-4621-5352-ed983a3c7450
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300892"
 ---
-# <a name="rds-methods"></a><span data-ttu-id="5aef6-102">Métodos de RDS</span><span class="sxs-lookup"><span data-stu-id="5aef6-102">RDS methods</span></span>
+# <a name="rds-methods"></a><span data-ttu-id="fd0ec-102">Métodos de RDS</span><span class="sxs-lookup"><span data-stu-id="fd0ec-102">RDS methods</span></span>
 
-<span data-ttu-id="5aef6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5aef6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fd0ec-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fd0ec-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -27,48 +27,48 @@ ms.locfileid: "32300892"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="5aef6-104">Método</span><span class="sxs-lookup"><span data-stu-id="5aef6-104">Method</span></span></th>
-<th><span data-ttu-id="5aef6-105">Descripción</span><span class="sxs-lookup"><span data-stu-id="5aef6-105">Description</span></span></th>
+<th><span data-ttu-id="fd0ec-104">Método</span><span class="sxs-lookup"><span data-stu-id="fd0ec-104">Method</span></span></th>
+<th><span data-ttu-id="fd0ec-105">Descripción</span><span class="sxs-lookup"><span data-stu-id="fd0ec-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5aef6-106"><a href="cancel-method-rds.md">Cancel</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-106"><a href="cancel-method-rds.md">Cancel</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-107">Cancela la ejecución de una llamada de método asincrónico pendiente.</span><span class="sxs-lookup"><span data-stu-id="5aef6-107">Cancels execution of a pending, asynchronous method call.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-106"><a href="cancel-method-rds.md">Cancel</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-106"><a href="cancel-method-rds.md">Cancel</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-107">Cancela la ejecución de una llamada de método asincrónico pendiente.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-107">Cancels execution of a pending, asynchronous method call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5aef6-108"><a href="cancelupdate-method-rds.md">CancelUpdate</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-108"><a href="cancelupdate-method-rds.md">CancelUpdate</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-109">Cancela los cambios realizados en la fila actual o nueva de un objeto <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="5aef6-109">Cancels any changes made to the current or new row of a <strong>Recordset</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-108"><a href="cancelupdate-method-rds.md">CancelUpdate</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-108"><a href="cancelupdate-method-rds.md">CancelUpdate</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-109">Cancela los cambios realizados en la fila actual o nueva de un objeto <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-109">Cancels any changes made to the current or new row of a <strong>Recordset</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5aef6-110"><a href="converttostring-method-rds.md">ConvertToString</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-110"><a href="converttostring-method-rds.md">ConvertToString</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-111">Convierte un objeto <strong>Recordset</strong> en una cadena MIME que representa los datos del conjunto de registros.</span><span class="sxs-lookup"><span data-stu-id="5aef6-111">Converts a <strong>Recordset</strong> to a MIME string that represents the recordset data.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-110"><a href="converttostring-method-rds.md">ConvertToString</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-110"><a href="converttostring-method-rds.md">ConvertToString</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-111">Convierte un objeto <strong>Recordset</strong> en una cadena MIME que representa los datos del conjunto de registros.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-111">Converts a <strong>Recordset</strong> to a MIME string that represents the recordset data.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5aef6-112"><a href="createobject-method-rds.md">CreateObject</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-112"><a href="createobject-method-rds.md">CreateObject</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-113">Crea el proxy para el objeto de negocio de destino y devuelve un puntero al mismo.</span><span class="sxs-lookup"><span data-stu-id="5aef6-113">Creates the proxy for the target business object and returns a pointer to it.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-112"><a href="createobject-method-rds.md">CreateObject</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-112"><a href="createobject-method-rds.md">CreateObject</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-113">Crea el proxy para el objeto de negocio de destino y devuelve un puntero al mismo.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-113">Creates the proxy for the target business object and returns a pointer to it.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5aef6-114"><a href="createrecordset-method-rds.md">CreateRecordset</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-114"><a href="createrecordset-method-rds.md">CreateRecordset</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-115">Crea un objeto <strong>Recordset</strong> vacío y desconectado.</span><span class="sxs-lookup"><span data-stu-id="5aef6-115">Creates an empty, disconnected <strong>Recordset</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-114"><a href="createrecordset-method-rds.md">CreateRecordset</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-114"><a href="createrecordset-method-rds.md">CreateRecordset</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-115">Crea un objeto <strong>Recordset</strong> vacío y desconectado.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-115">Creates an empty, disconnected <strong>Recordset</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5aef6-116"><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, MoveLast, MoveNext, MovePrevious</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-116"><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, MoveLast, MoveNext, MovePrevious</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-117">Se desplaza al primer, último, siguiente o anterior registro de un objeto <strong>Recordset</strong> especificado.</span><span class="sxs-lookup"><span data-stu-id="5aef6-117">Moves to the first, last, next, or previous record in a specified <strong>Recordset</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-116"><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, MoveLast, MoveNext, MovePrevious</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-116"><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, MoveLast, MoveNext, MovePrevious</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-117">Se desplaza al primer, último, siguiente o anterior registro de un objeto <strong>Recordset</strong> especificado.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-117">Moves to the first, last, next, or previous record in a specified <strong>Recordset</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5aef6-118"><a href="query-method-rds.md">Query</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-118"><a href="query-method-rds.md">Query</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-119">Utiliza una cadena de consulta SQL válida para devolver un objeto <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="5aef6-119">Uses a valid SQL query string to return a <strong>Recordset</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-118"><a href="query-method-rds.md">Query</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-118"><a href="query-method-rds.md">Query</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-119">Utiliza una cadena de consulta SQL válida para devolver un objeto <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-119">Uses a valid SQL query string to return a <strong>Recordset</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5aef6-120"><a href="refresh-method-rds.md">Refresh</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-120"><a href="refresh-method-rds.md">Refresh</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-121">Vuelve a consultar el origen de datos especificado en la propiedad <strong>Connect</strong> y actualiza los resultados de consulta.</span><span class="sxs-lookup"><span data-stu-id="5aef6-121">Requeries the data source specified in the <strong>Connect</strong> property and updates the query results.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-120"><a href="refresh-method-rds.md">Refresh</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-120"><a href="refresh-method-rds.md">Refresh</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-121">Vuelve a consultar el origen de datos especificado en la propiedad <strong>Connect</strong> y actualiza los resultados de consulta.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-121">Requeries the data source specified in the <strong>Connect</strong> property and updates the query results.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5aef6-122"><a href="reset-method-rds.md">Reset</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-122"><a href="reset-method-rds.md">Reset</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-123">Ejecuta la ordenación o el filtrado en un objeto <strong>Recordset</strong> de cliente, basándose en las propiedades de ordenación y filtrado especificadas.</span><span class="sxs-lookup"><span data-stu-id="5aef6-123">Executes the sort or filter on a client-side <strong>Recordset</strong>, based on the specified sort and filter properties.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-122"><a href="reset-method-rds.md">Reset</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-122"><a href="reset-method-rds.md">Reset</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-123">Ejecuta la ordenación o el filtrado en un objeto <strong>Recordset</strong> de cliente, basándose en las propiedades de ordenación y filtrado especificadas.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-123">Executes the sort or filter on a client-side <strong>Recordset</strong>, based on the specified sort and filter properties.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5aef6-124"><a href="submitchanges-method-rds.md">SubmitChanges</a></span><span class="sxs-lookup"><span data-stu-id="5aef6-124"><a href="submitchanges-method-rds.md">SubmitChanges</a></span></span></p></td>
-<td><p><span data-ttu-id="5aef6-125">Envía los cambios pendientes del objeto <strong> Recordset</strong> almacenado en caché local y actualizable al origen de datos especificado en la propiedad <strong>Connect</strong>.</span><span class="sxs-lookup"><span data-stu-id="5aef6-125">Submits pending changes of the locally cached and updatable <strong>Recordset</strong> to the data source specified in the <strong>Connect</strong> property.</span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-124"><a href="submitchanges-method-rds.md">SubmitChanges</a></span><span class="sxs-lookup"><span data-stu-id="fd0ec-124"><a href="submitchanges-method-rds.md">SubmitChanges</a></span></span></p></td>
+<td><p><span data-ttu-id="fd0ec-125">Envía los cambios pendientes del objeto <strong> Recordset</strong> almacenado en caché local y actualizable al origen de datos especificado en la propiedad <strong>Connect</strong>.</span><span class="sxs-lookup"><span data-stu-id="fd0ec-125">Submits pending changes of the locally cached and updatable <strong>Recordset</strong> to the data source specified in the <strong>Connect</strong> property.</span></span></p></td>
 </tr>
 </tbody>
 </table>

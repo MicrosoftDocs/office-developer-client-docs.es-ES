@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301340"
 ---
-# <a name="procedures-refresh-method-example-vb"></a><span data-ttu-id="99c1c-102">Ejemplo del método Refresh de Procedures (VB)</span><span class="sxs-lookup"><span data-stu-id="99c1c-102">Procedures Refresh method example (VB)</span></span>
+# <a name="procedures-refresh-method-example-vb"></a><span data-ttu-id="db2e5-102">Ejemplo del método Refresh de Procedures (VB)</span><span class="sxs-lookup"><span data-stu-id="db2e5-102">Procedures Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="99c1c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="99c1c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="db2e5-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="db2e5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="99c1c-p101">El código siguiente muestra cómo actualizar la colección [Procedures](procedures-collection-adox.md) de un [catálogo](catalog-object-adox.md). Esto es necesario para poder tener acceso a objetos [Procedure](procedure-object-adox.md) del **catálogo**.</span><span class="sxs-lookup"><span data-stu-id="99c1c-p101">The following code shows how to refresh the [Procedures](procedures-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [Procedure](procedure-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="db2e5-p101">El código siguiente muestra cómo actualizar la colección [Procedures](procedures-collection-adox.md) de un [catálogo](catalog-object-adox.md). Esto es necesario para poder tener acceso a objetos [Procedure](procedure-object-adox.md) del **catálogo**.</span><span class="sxs-lookup"><span data-stu-id="db2e5-p101">The following code shows how to refresh the [Procedures](procedures-collection-adox.md) collection of a [Catalog](catalog-object-adox.md). This is required before [Procedure](procedure-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

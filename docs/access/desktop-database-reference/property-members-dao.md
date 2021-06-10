@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301214"
 ---
-# <a name="property-members-dao"></a><span data-ttu-id="8a5ec-102">Miembros de propiedad (DAO)</span><span class="sxs-lookup"><span data-stu-id="8a5ec-102">Property members (DAO)</span></span>
+# <a name="property-members-dao"></a><span data-ttu-id="bf1c3-102">Miembros de la propiedad (DAO)</span><span class="sxs-lookup"><span data-stu-id="bf1c3-102">Property members (DAO)</span></span>
 
 
-<span data-ttu-id="8a5ec-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a5ec-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bf1c3-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bf1c3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8a5ec-104">Un objeto Property representa una característica integrada o definida por el usuario de un objeto DAO.</span><span class="sxs-lookup"><span data-stu-id="8a5ec-104">A Property object represents a built-in or user-defined characteristic of a DAO object.</span></span>
+<span data-ttu-id="bf1c3-104">Un objeto Property representa una característica integrada o definida por el usuario de un objeto DAO.</span><span class="sxs-lookup"><span data-stu-id="bf1c3-104">A Property object represents a built-in or user-defined characteristic of a DAO object.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="8a5ec-105">Propiedades</span><span class="sxs-lookup"><span data-stu-id="8a5ec-105">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="bf1c3-105">Propiedades</span><span class="sxs-lookup"><span data-stu-id="bf1c3-105">Properties</span></span>
 
 <table>
 <colgroup>
@@ -30,30 +30,30 @@ ms.locfileid: "32301214"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8a5ec-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="8a5ec-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="8a5ec-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="8a5ec-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="bf1c3-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="bf1c3-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="bf1c3-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="bf1c3-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8a5ec-108"><strong><a href="property-inherited-property-dao.md">Heredado</a></strong></span><span class="sxs-lookup"><span data-stu-id="8a5ec-108"><strong><a href="property-inherited-property-dao.md">Inherited</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="8a5ec-109">Devuelve un valor que indica si se hereda un objeto <strong><a href="property-object-dao.md">Property</a></strong> desde un objeto base.</span><span class="sxs-lookup"><span data-stu-id="8a5ec-109">Returns a value that indicates whether a <strong><a href="property-object-dao.md">Property</a></strong> object is inherited from an underlying object.</span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-108"><strong><a href="property-inherited-property-dao.md">Heredado</a></strong></span><span class="sxs-lookup"><span data-stu-id="bf1c3-108"><strong><a href="property-inherited-property-dao.md">Inherited</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-109">Devuelve un valor que indica si se hereda un objeto <strong><a href="property-object-dao.md">Property</a></strong> desde un objeto base.</span><span class="sxs-lookup"><span data-stu-id="bf1c3-109">Returns a value that indicates whether a <strong><a href="property-object-dao.md">Property</a></strong> object is inherited from an underlying object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a5ec-110"><strong><a href="property-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="8a5ec-110"><strong><a href="property-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="8a5ec-p101">Devuelve o establece el nombre del objeto especificado. <strong>String</strong> de lectura y escritura si el objeto no se anexó a una colección. <strong>String</strong> de solo lectura si el objeto se anexó a una colección.</span><span class="sxs-lookup"><span data-stu-id="8a5ec-p101">Returns or sets the name of the specified object. Read/write <strong>String</strong> if the object has not been appended to a collection. Read-only <strong>String</strong> if the object has been appended to a collection.</span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-110"><strong><a href="property-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="bf1c3-110"><strong><a href="property-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-p101">Devuelve o establece el nombre del objeto especificado. <strong>String</strong> de lectura y escritura si el objeto no se anexó a una colección. <strong>String</strong> de solo lectura si el objeto se anexó a una colección.</span><span class="sxs-lookup"><span data-stu-id="bf1c3-p101">Returns or sets the name of the specified object. Read/write <strong>String</strong> if the object has not been appended to a collection. Read-only <strong>String</strong> if the object has been appended to a collection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8a5ec-114"><strong><a href="property-properties-property-dao.md">Properties</a></strong></span><span class="sxs-lookup"><span data-stu-id="8a5ec-114"><strong><a href="property-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="8a5ec-115">Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="8a5ec-115">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object.</span></span> <span data-ttu-id="8a5ec-116">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8a5ec-116">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-114"><strong><a href="property-properties-property-dao.md">Properties</a></strong></span><span class="sxs-lookup"><span data-stu-id="bf1c3-114"><strong><a href="property-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-p102">Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="bf1c3-p102">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a5ec-117"><strong><a href="property-type-property-dao.md">Tipo</a></strong></span><span class="sxs-lookup"><span data-stu-id="8a5ec-117"><strong><a href="property-type-property-dao.md">Type</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="8a5ec-118">Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto.</span><span class="sxs-lookup"><span data-stu-id="8a5ec-118">Sets or returns a value that indicates the operational type or data type of an object.</span></span> <span data-ttu-id="8a5ec-119">Valor <strong>Entero</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="8a5ec-119">Read/write <strong>Integer</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-117"><strong><a href="property-type-property-dao.md">Tipo</a></strong></span><span class="sxs-lookup"><span data-stu-id="bf1c3-117"><strong><a href="property-type-property-dao.md">Type</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-p103">Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. <strong>Integer</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="bf1c3-p103">Sets or returns a value that indicates the operational type or data type of an object. Read/write <strong>Integer</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8a5ec-120"><strong><a href="property-value-property-dao.md">Valor</a></strong></span><span class="sxs-lookup"><span data-stu-id="8a5ec-120"><strong><a href="property-value-property-dao.md">Value</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="8a5ec-121">Establece o devuelve el valor de un objeto.</span><span class="sxs-lookup"><span data-stu-id="8a5ec-121">Sets or returns the value of an object.</span></span> <span data-ttu-id="8a5ec-122"><strong>Variant</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="8a5ec-122">Read/write <strong>Variant</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-120"><strong><a href="property-value-property-dao.md">Valor</a></strong></span><span class="sxs-lookup"><span data-stu-id="bf1c3-120"><strong><a href="property-value-property-dao.md">Value</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="bf1c3-p104">Establece o devuelve el valor de un objeto. <strong>Variant</strong> de lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="bf1c3-p104">Sets or returns the value of an object. Read/write <strong>Variant</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

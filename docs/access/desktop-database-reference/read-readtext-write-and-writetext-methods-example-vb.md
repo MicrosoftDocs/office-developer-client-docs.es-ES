@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301018"
 ---
-# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="dbfe9-102">Ejemplo de los métodos Read, ReadText, Write y WriteText (VB)</span><span class="sxs-lookup"><span data-stu-id="dbfe9-102">Read, ReadText, Write, and WriteText methods example (VB)</span></span>
+# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="ecfdd-102">Ejemplo de los métodos Read, ReadText, Write y WriteText (VB)</span><span class="sxs-lookup"><span data-stu-id="ecfdd-102">Read, ReadText, Write, and WriteText methods example (VB)</span></span>
 
 
-<span data-ttu-id="dbfe9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dbfe9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ecfdd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ecfdd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dbfe9-p101">En este ejemplo se muestra cómo leer el contenido de un cuadro de texto en un objeto [Stream](stream-object-ado.md) de texto y en un objeto **Stream** binario. Los demás métodos y propiedades que se muestran son [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md) y [SetEOS](seteos-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="dbfe9-p101">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**. Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
+<span data-ttu-id="ecfdd-p101">En este ejemplo se muestra cómo leer el contenido de un cuadro de texto en un objeto [Stream](stream-object-ado.md) de texto y en un objeto **Stream** binario. Los demás métodos y propiedades que se muestran son [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md) y [SetEOS](seteos-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="ecfdd-p101">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**. Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
 
 ```vb 
  

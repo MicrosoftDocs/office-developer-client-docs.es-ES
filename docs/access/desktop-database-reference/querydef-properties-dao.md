@@ -14,26 +14,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300990"
 ---
-# <a name="querydef-properties-dao"></a><span data-ttu-id="a9821-102">Propiedades QueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-102">QueryDef properties (DAO)</span></span>
+# <a name="querydef-properties-dao"></a><span data-ttu-id="e0ed9-102">Propiedades QueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-102">QueryDef properties (DAO)</span></span>
 
-<span data-ttu-id="a9821-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9821-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e0ed9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0ed9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a9821-104">Propiedad QueryDef.CacheSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-104">QueryDef.CacheSize property (DAO)</span></span>](querydef-cachesize-property-dao.md)
-- [<span data-ttu-id="a9821-105">Propiedad QueryDef.Connect (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-105">QueryDef.Connect property (DAO)</span></span>](querydef-connect-property-dao.md)
-- [<span data-ttu-id="a9821-106">Propiedad QueryDef.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-106">QueryDef.DateCreated property (DAO)</span></span>](querydef-datecreated-property-dao.md)
-- [<span data-ttu-id="a9821-107">Propiedad QueryDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-107">QueryDef.Fields property (DAO)</span></span>](querydef-fields-property-dao.md)
-- [<span data-ttu-id="a9821-108">Propiedad QueryDef.LastUpdated (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-108">QueryDef.LastUpdated property (DAO)</span></span>](querydef-lastupdated-property-dao.md)
-- [<span data-ttu-id="a9821-109">Propiedad QueryDef.MaxRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-109">QueryDef.MaxRecords property (DAO)</span></span>](querydef-maxrecords-property-dao.md)
-- [<span data-ttu-id="a9821-110">QueryDef.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-110">QueryDef.Name property (DAO)</span></span>](querydef-name-property-dao.md)
-- [<span data-ttu-id="a9821-111">Propiedad QueryDef.ODBCTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-111">QueryDef.ODBCTimeout property (DAO)</span></span>](querydef-odbctimeout-property-dao.md)
-- [<span data-ttu-id="a9821-112">Propiedad QueryDef.Parameters (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-112">QueryDef.Parameters property (DAO)</span></span>](querydef-parameters-property-dao.md)
-- [<span data-ttu-id="a9821-113">Propiedad QueryDef.Prepare (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-113">QueryDef.Prepare property (DAO)</span></span>](querydef-prepare-property-dao.md)
-- [<span data-ttu-id="a9821-114">Propiedad QueryDef.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-114">QueryDef.Properties property (DAO)</span></span>](querydef-properties-property-dao.md)
-- [<span data-ttu-id="a9821-115">Propiedad QueryDef.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-115">QueryDef.RecordsAffected property (DAO)</span></span>](querydef-recordsaffected-property-dao.md)
-- [<span data-ttu-id="a9821-116">Propiedad QueryDef.ReturnsRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-116">QueryDef.ReturnsRecords property (DAO)</span></span>](querydef-returnsrecords-property-dao.md)
-- [<span data-ttu-id="a9821-117">Propiedad QueryDef.SQL (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-117">QueryDef.SQL property (DAO)</span></span>](querydef-sql-property-dao.md)
-- [<span data-ttu-id="a9821-118">Propiedad QueryDef.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-118">QueryDef.StillExecuting property (DAO)</span></span>](querydef-stillexecuting-property-dao.md)
-- [<span data-ttu-id="a9821-119">Propiedad QueryDef.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-119">QueryDef.Type property (DAO)</span></span>](querydef-type-property-dao.md)
-- [<span data-ttu-id="a9821-120">Propiedad QueryDef.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9821-120">QueryDef.Updatable property (DAO)</span></span>](querydef-updatable-property-dao.md)
+- [<span data-ttu-id="e0ed9-104">Propiedad QueryDef.CacheSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-104">QueryDef.CacheSize property (DAO)</span></span>](querydef-cachesize-property-dao.md)
+- [<span data-ttu-id="e0ed9-105">QueryDef. Conectar (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-105">QueryDef.Connect property (DAO)</span></span>](querydef-connect-property-dao.md)
+- [<span data-ttu-id="e0ed9-106">Propiedad QueryDef.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-106">QueryDef.DateCreated property (DAO)</span></span>](querydef-datecreated-property-dao.md)
+- [<span data-ttu-id="e0ed9-107">Propiedad QueryDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-107">QueryDef.Fields property (DAO)</span></span>](querydef-fields-property-dao.md)
+- [<span data-ttu-id="e0ed9-108">Propiedad QueryDef.LastUpdated (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-108">QueryDef.LastUpdated property (DAO)</span></span>](querydef-lastupdated-property-dao.md)
+- [<span data-ttu-id="e0ed9-109">Propiedad QueryDef.MaxRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-109">QueryDef.MaxRecords property (DAO)</span></span>](querydef-maxrecords-property-dao.md)
+- [<span data-ttu-id="e0ed9-110">QueryDef.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-110">QueryDef.Name property (DAO)</span></span>](querydef-name-property-dao.md)
+- [<span data-ttu-id="e0ed9-111">Propiedad QueryDef.ODBCTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-111">QueryDef.ODBCTimeout property (DAO)</span></span>](querydef-odbctimeout-property-dao.md)
+- [<span data-ttu-id="e0ed9-112">Propiedad QueryDef.Parameters (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-112">QueryDef.Parameters property (DAO)</span></span>](querydef-parameters-property-dao.md)
+- [<span data-ttu-id="e0ed9-113">Propiedad QueryDef.Prepare (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-113">QueryDef.Prepare property (DAO)</span></span>](querydef-prepare-property-dao.md)
+- [<span data-ttu-id="e0ed9-114">Propiedad QueryDef.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-114">QueryDef.Properties property (DAO)</span></span>](querydef-properties-property-dao.md)
+- [<span data-ttu-id="e0ed9-115">Propiedad QueryDef.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-115">QueryDef.RecordsAffected property (DAO)</span></span>](querydef-recordsaffected-property-dao.md)
+- [<span data-ttu-id="e0ed9-116">Propiedad QueryDef.ReturnsRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-116">QueryDef.ReturnsRecords property (DAO)</span></span>](querydef-returnsrecords-property-dao.md)
+- [<span data-ttu-id="e0ed9-117">Propiedad QueryDef.SQL (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-117">QueryDef.SQL property (DAO)</span></span>](querydef-sql-property-dao.md)
+- [<span data-ttu-id="e0ed9-118">Propiedad QueryDef.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-118">QueryDef.StillExecuting property (DAO)</span></span>](querydef-stillexecuting-property-dao.md)
+- [<span data-ttu-id="e0ed9-119">Propiedad QueryDef.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-119">QueryDef.Type property (DAO)</span></span>](querydef-type-property-dao.md)
+- [<span data-ttu-id="e0ed9-120">Propiedad QueryDef.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0ed9-120">QueryDef.Updatable property (DAO)</span></span>](querydef-updatable-property-dao.md)
 
 

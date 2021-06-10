@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300549"
 ---
-# <a name="recordsetdelete-method-dao"></a><span data-ttu-id="da5ac-102">Método Recordset.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="da5ac-102">Recordset.Delete method (DAO)</span></span>
+# <a name="recordsetdelete-method-dao"></a><span data-ttu-id="769dd-102">Método Recordset.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="769dd-102">Recordset.Delete method (DAO)</span></span>
 
 
-<span data-ttu-id="da5ac-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="da5ac-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="769dd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="769dd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="da5ac-104">No admitido en este objeto.</span><span class="sxs-lookup"><span data-stu-id="da5ac-104">Not supported for this object.</span></span>
+<span data-ttu-id="769dd-104">No admitido en este objeto.</span><span class="sxs-lookup"><span data-stu-id="769dd-104">Not supported for this object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="da5ac-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="da5ac-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="769dd-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="769dd-105">Syntax</span></span>
 
-<span data-ttu-id="da5ac-106">*expresión* . Eliminar</span><span class="sxs-lookup"><span data-stu-id="da5ac-106">*expression* .Delete</span></span>
+<span data-ttu-id="769dd-106">*expresión* . Eliminar</span><span class="sxs-lookup"><span data-stu-id="769dd-106">*expression* .Delete</span></span>
 
-<span data-ttu-id="da5ac-107">*expression* Variable que representa un objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="da5ac-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="769dd-107">*expression* Variable que representa un objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="769dd-107">*expression* A variable that represents a **Recordset** object.</span></span>
 

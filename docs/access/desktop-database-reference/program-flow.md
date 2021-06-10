@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301291"
 ---
-# <a name="program-flow"></a><span data-ttu-id="26d61-102">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="26d61-102">Program flow</span></span>
+# <a name="program-flow"></a><span data-ttu-id="d555b-102">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="d555b-102">Program flow</span></span>
 
-<span data-ttu-id="26d61-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="26d61-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d555b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d555b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="26d61-104">If...Then...Else (bloque de macro)</span><span class="sxs-lookup"><span data-stu-id="26d61-104">If...Then...Else macro block</span></span>](if-then-else-macro-block.md)
-- [<span data-ttu-id="26d61-105">Comentario (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="26d61-105">Comment macro statement</span></span>](comment-macro-statement.md)
-- [<span data-ttu-id="26d61-106">Grupo (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="26d61-106">Group macro statement</span></span>](group-macro-statement.md)
-- [<span data-ttu-id="26d61-107">Submacro (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="26d61-107">Submacro macro statement</span></span>](submacro-macro-statement.md)
+- [<span data-ttu-id="d555b-104">If...Then...Else (bloque de macro)</span><span class="sxs-lookup"><span data-stu-id="d555b-104">If...Then...Else macro block</span></span>](if-then-else-macro-block.md)
+- [<span data-ttu-id="d555b-105">Comentario (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="d555b-105">Comment macro statement</span></span>](comment-macro-statement.md)
+- [<span data-ttu-id="d555b-106">Grupo (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="d555b-106">Group macro statement</span></span>](group-macro-statement.md)
+- [<span data-ttu-id="d555b-107">Submacro (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="d555b-107">Submacro macro statement</span></span>](submacro-macro-statement.md)
 

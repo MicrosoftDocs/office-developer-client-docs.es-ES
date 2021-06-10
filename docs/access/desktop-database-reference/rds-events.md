@@ -1,5 +1,5 @@
 ---
-title: Eventos de RDS (referencia de base de datos de escritorio de Access)
+title: Eventos RDS (referencia de base de datos de escritorio de Access)
 TOCTitle: RDS events
 ms:assetid: cf125916-d50d-9fb4-fecc-95675129d8c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250028(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301032"
 ---
-# <a name="rds-events"></a><span data-ttu-id="cc681-102">Eventos de RDS</span><span class="sxs-lookup"><span data-stu-id="cc681-102">RDS events</span></span>
+# <a name="rds-events"></a><span data-ttu-id="5a4df-102">Eventos de RDS</span><span class="sxs-lookup"><span data-stu-id="5a4df-102">RDS events</span></span>
 
-<span data-ttu-id="cc681-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc681-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5a4df-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5a4df-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -27,16 +27,16 @@ ms.locfileid: "32301032"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="cc681-104">Evento</span><span class="sxs-lookup"><span data-stu-id="cc681-104">Event</span></span></th>
-<th><span data-ttu-id="cc681-105">Descripción</span><span class="sxs-lookup"><span data-stu-id="cc681-105">Description</span></span></th>
+<th><span data-ttu-id="5a4df-104">Evento</span><span class="sxs-lookup"><span data-stu-id="5a4df-104">Event</span></span></th>
+<th><span data-ttu-id="5a4df-105">Descripción</span><span class="sxs-lookup"><span data-stu-id="5a4df-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cc681-106"><a href="onerror-event-rds.md">onError</a></span><span class="sxs-lookup"><span data-stu-id="cc681-106"><a href="onerror-event-rds.md">onError</a></span></span></p></td>
-<td><p><span data-ttu-id="cc681-107">Se llama siempre que se produce un error durante una operación.</span><span class="sxs-lookup"><span data-stu-id="cc681-107">Called whenever an error occurs during an operation.</span></span></p></td>
+<td><p><span data-ttu-id="5a4df-106"><a href="onerror-event-rds.md">onError</a></span><span class="sxs-lookup"><span data-stu-id="5a4df-106"><a href="onerror-event-rds.md">onError</a></span></span></p></td>
+<td><p><span data-ttu-id="5a4df-107">Se llama siempre que se produce un error durante una operación.</span><span class="sxs-lookup"><span data-stu-id="5a4df-107">Called whenever an error occurs during an operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cc681-108"><a href="onreadystatechange-event-rds.md">onReadyStateChange</a></span><span class="sxs-lookup"><span data-stu-id="cc681-108"><a href="onreadystatechange-event-rds.md">onReadyStateChange</a></span></span></p></td>
-<td><p><span data-ttu-id="cc681-109">Se llama cuando cambia el valor de la propiedad <strong>ReadyState</strong>.</span><span class="sxs-lookup"><span data-stu-id="cc681-109">Called whenever the value of the <strong>ReadyState</strong> property changes.</span></span></p></td>
+<td><p><span data-ttu-id="5a4df-108"><a href="onreadystatechange-event-rds.md">onReadyStateChange</a></span><span class="sxs-lookup"><span data-stu-id="5a4df-108"><a href="onreadystatechange-event-rds.md">onReadyStateChange</a></span></span></p></td>
+<td><p><span data-ttu-id="5a4df-109">Se llama cuando cambia el valor de la propiedad <strong>ReadyState</strong>.</span><span class="sxs-lookup"><span data-stu-id="5a4df-109">Called whenever the value of the <strong>ReadyState</strong> property changes.</span></span></p></td>
 </tr>
 </tbody>
 </table>

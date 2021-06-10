@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300514"
 ---
-# <a name="recordsetfields-property-dao"></a><span data-ttu-id="fe065-102">Propiedad Recordset.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="fe065-102">Recordset.Fields property (DAO)</span></span>
+# <a name="recordsetfields-property-dao"></a><span data-ttu-id="00e4c-102">Propiedad Recordset.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="00e4c-102">Recordset.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="fe065-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe065-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="00e4c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="00e4c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fe065-104">Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="fe065-104">Returns a **Fields** collection that represents all stored **Field** objects for the specified object.</span></span> <span data-ttu-id="fe065-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="fe065-105">Read-only.</span></span>
+<span data-ttu-id="00e4c-p101">Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="00e4c-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fe065-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="fe065-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="00e4c-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="00e4c-106">Syntax</span></span>
 
-<span data-ttu-id="fe065-107">*expresión* . Campos</span><span class="sxs-lookup"><span data-stu-id="fe065-107">*expression* .Fields</span></span>
+<span data-ttu-id="00e4c-107">*expresión* . Campos</span><span class="sxs-lookup"><span data-stu-id="00e4c-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="fe065-108">*expression* Variable que representa un objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="fe065-108">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="00e4c-108">*expression* Variable que representa un objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="00e4c-108">*expression* A variable that represents a **Recordset** object.</span></span>
 
