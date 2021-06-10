@@ -1,5 +1,5 @@
 ---
-title: 'Row (propiedad): ActiveX data objects (ADO)'
+title: 'Propiedad Row: ActiveX data objects (ADO)'
 TOCTitle: Row property (ADO)
 ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
@@ -14,30 +14,30 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306485"
 ---
-# <a name="row-property-ado"></a><span data-ttu-id="25f1b-102">Row (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="25f1b-102">Row property (ADO)</span></span>
+# <a name="row-property-ado"></a><span data-ttu-id="c12c8-102">Propiedad Row (ADO)</span><span class="sxs-lookup"><span data-stu-id="c12c8-102">Row property (ADO)</span></span>
 
-<span data-ttu-id="25f1b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25f1b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c12c8-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c12c8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="25f1b-104">Obtiene o establece un objeto **Row** de OLE DB desde o en un objeto **ADORecordConstruction**.</span><span class="sxs-lookup"><span data-stu-id="25f1b-104">Gets or sets an OLE DB **Row** object from/on an **ADORecordConstruction** object.</span></span> <span data-ttu-id="25f1b-105">Cuando se usa **put \_ Row** para establecer un **objeto Row,** una fila se convierte en un objeto **Record** de ADO.</span><span class="sxs-lookup"><span data-stu-id="25f1b-105">When you use **put\_Row** to set a **Row** object, a row is turned into an ADO **Record** object.</span></span> <span data-ttu-id="25f1b-106">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="25f1b-106">Read/write.</span></span>
+<span data-ttu-id="c12c8-104">Obtiene o establece un objeto **Row** de OLE DB desde o en un objeto **ADORecordConstruction**.</span><span class="sxs-lookup"><span data-stu-id="c12c8-104">Gets or sets an OLE DB **Row** object from/on an **ADORecordConstruction** object.</span></span> <span data-ttu-id="c12c8-105">Cuando se usa **put \_ Row** para establecer un **objeto Row,** una fila se convierte en un objeto **Record** de ADO.</span><span class="sxs-lookup"><span data-stu-id="c12c8-105">When you use **put\_Row** to set a **Row** object, a row is turned into an ADO **Record** object.</span></span> <span data-ttu-id="c12c8-106">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="c12c8-106">Read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="25f1b-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="25f1b-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c12c8-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c12c8-107">Syntax</span></span>
 
-<span data-ttu-id="25f1b-108">HRESULT get \_ Row( \[ out, retval \] IUnknown \* \* ppRow);</span><span class="sxs-lookup"><span data-stu-id="25f1b-108">HRESULT get\_Row(\[out, retval\] IUnknown\*\* ppRow);</span></span>
+<span data-ttu-id="c12c8-108">HRESULT get \_ Row( \[ out, retval \] IUnknown \* \* ppRow);</span><span class="sxs-lookup"><span data-stu-id="c12c8-108">HRESULT get\_Row(\[out, retval\] IUnknown\*\* ppRow);</span></span>
 
-<span data-ttu-id="25f1b-109">HRESULT put \_ Row( \[ in \] IUnknown \* pRow);</span><span class="sxs-lookup"><span data-stu-id="25f1b-109">HRESULT put\_Row(\[in\] IUnknown\* pRow);</span></span>
+<span data-ttu-id="c12c8-109">HRESULT put \_ Row( \[ in \] IUnknown \* pRow);</span><span class="sxs-lookup"><span data-stu-id="c12c8-109">HRESULT put\_Row(\[in\] IUnknown\* pRow);</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="25f1b-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="25f1b-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c12c8-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="c12c8-110">Parameters</span></span>
 
-|<span data-ttu-id="25f1b-111">Parámetro</span><span class="sxs-lookup"><span data-stu-id="25f1b-111">Parameter</span></span>|<span data-ttu-id="25f1b-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="25f1b-112">Description</span></span>|
+|<span data-ttu-id="c12c8-111">Parámetro</span><span class="sxs-lookup"><span data-stu-id="c12c8-111">Parameter</span></span>|<span data-ttu-id="c12c8-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="c12c8-112">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="25f1b-113">*ppRow*</span><span class="sxs-lookup"><span data-stu-id="25f1b-113">*ppRow*</span></span> |<span data-ttu-id="25f1b-114">Puntero a un objeto **Row** de OLE DB.</span><span class="sxs-lookup"><span data-stu-id="25f1b-114">Pointer to an OLE DB **Row** object.</span></span>|
-|<span data-ttu-id="25f1b-115">*PRow*</span><span class="sxs-lookup"><span data-stu-id="25f1b-115">*PRow*</span></span> |<span data-ttu-id="25f1b-116">Un objeto **Row** de OLE DB.</span><span class="sxs-lookup"><span data-stu-id="25f1b-116">An OLE DB **Row** object.</span></span>|
+|<span data-ttu-id="c12c8-113">*ppRow*</span><span class="sxs-lookup"><span data-stu-id="c12c8-113">*ppRow*</span></span> |<span data-ttu-id="c12c8-114">Puntero a un objeto **Row** de OLE DB.</span><span class="sxs-lookup"><span data-stu-id="c12c8-114">Pointer to an OLE DB **Row** object.</span></span>|
+|<span data-ttu-id="c12c8-115">*PRow*</span><span class="sxs-lookup"><span data-stu-id="c12c8-115">*PRow*</span></span> |<span data-ttu-id="c12c8-116">Un objeto **Row** de OLE DB.</span><span class="sxs-lookup"><span data-stu-id="c12c8-116">An OLE DB **Row** object.</span></span>|
 
-## <a name="return-values"></a><span data-ttu-id="25f1b-117">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="25f1b-117">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="c12c8-117">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="c12c8-117">Return values</span></span>
 
-<span data-ttu-id="25f1b-118">Este método de propiedad devuelve los valores HRESULT estándar, incluidos S \_ OK y E \_ FAIL.</span><span class="sxs-lookup"><span data-stu-id="25f1b-118">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
+<span data-ttu-id="c12c8-118">Este método de propiedad devuelve los valores HRESULT estándar, incluidos S \_ OK y E \_ FAIL.</span><span class="sxs-lookup"><span data-stu-id="c12c8-118">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
 
-## <a name="applies-to"></a><span data-ttu-id="25f1b-119">Se aplica a</span><span class="sxs-lookup"><span data-stu-id="25f1b-119">Applies to</span></span>
+## <a name="applies-to"></a><span data-ttu-id="c12c8-119">Se aplica a</span><span class="sxs-lookup"><span data-stu-id="c12c8-119">Applies to</span></span>
 
-[<span data-ttu-id="25f1b-120">ADORecordConstruction</span><span class="sxs-lookup"><span data-stu-id="25f1b-120">ADORecordConstruction</span></span>](adorecordconstruction-interface-ado.md)
+[<span data-ttu-id="c12c8-120">ADORecordConstruction</span><span class="sxs-lookup"><span data-stu-id="c12c8-120">ADORecordConstruction</span></span>](adorecordconstruction-interface-ado.md)
 

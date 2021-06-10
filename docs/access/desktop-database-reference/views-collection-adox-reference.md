@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306065"
 ---
-# <a name="views-collection-adox-reference"></a><span data-ttu-id="d860a-102">Referencia de la colección Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d860a-102">Views collection (ADOX) reference</span></span>
+# <a name="views-collection-adox-reference"></a><span data-ttu-id="eff80-102">Referencia de la colección Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="eff80-102">Views collection (ADOX) reference</span></span>
 
-<span data-ttu-id="d860a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d860a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="eff80-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eff80-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d860a-104">Colección Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d860a-104">Views collection (ADOX)</span></span>](views-collection-adox.md)
-- [<span data-ttu-id="d860a-105">Propiedades, métodos y eventos de la colección Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d860a-105">Views collection properties, methods, and events (ADOX)</span></span>](views-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="eff80-104">Colección Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="eff80-104">Views collection (ADOX)</span></span>](views-collection-adox.md)
+- [<span data-ttu-id="eff80-105">Propiedades, métodos y eventos de la colección Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="eff80-105">Views collection properties, methods, and events (ADOX)</span></span>](views-collection-properties-methods-and-events-adox.md)
 

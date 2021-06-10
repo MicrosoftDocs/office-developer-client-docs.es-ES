@@ -14,36 +14,36 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302599"
 ---
-# <a name="xml-recordset-persistence-scenario"></a><span data-ttu-id="743a1-102">Escenario de persistencia del conjunto de registros XML</span><span class="sxs-lookup"><span data-stu-id="743a1-102">XML Recordset persistence scenario</span></span>
+# <a name="xml-recordset-persistence-scenario"></a><span data-ttu-id="a0adc-102">Escenario de persistencia del conjunto de registros XML</span><span class="sxs-lookup"><span data-stu-id="a0adc-102">XML Recordset persistence scenario</span></span>
 
-<span data-ttu-id="743a1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="743a1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a0adc-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0adc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="743a1-104">En este escenario, creará una aplicación de páginas ASP que guarda el contenido de un objeto **Recordset** directamente en el objeto **Response** de ASP.</span><span class="sxs-lookup"><span data-stu-id="743a1-104">In this scenario, you will create an Active Server Pages (ASP) application that saves the contents of a **Recordset** object directly to the ASP **Response** object.</span></span>
+<span data-ttu-id="a0adc-104">En este escenario, creará una aplicación de páginas ASP que guarda el contenido de un objeto **Recordset** directamente en el objeto **Response** de ASP.</span><span class="sxs-lookup"><span data-stu-id="a0adc-104">In this scenario, you will create an Active Server Pages (ASP) application that saves the contents of a **Recordset** object directly to the ASP **Response** object.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="743a1-105">Este escenario requiere que el servidor tenga instalado Internet Information Server 5.0 (IIS) o una versión posterior.</span><span class="sxs-lookup"><span data-stu-id="743a1-105">This scenario requires that your server have Internet Information Server 5.0 (IIS) or later installed.</span></span>
+> <span data-ttu-id="a0adc-105">Este escenario requiere que el servidor tenga instalado Internet Information Server 5.0 (IIS) o una versión posterior.</span><span class="sxs-lookup"><span data-stu-id="a0adc-105">This scenario requires that your server have Internet Information Server 5.0 (IIS) or later installed.</span></span>
 
-<span data-ttu-id="743a1-106">El objeto **Recordset** devuelto se muestra en Internet Explorer mediante un [RDS.DataControl](datacontrol-object-rds.md).</span><span class="sxs-lookup"><span data-stu-id="743a1-106">The returned **Recordset** is displayed in Internet Explorer using an [RDS.DataControl](datacontrol-object-rds.md).</span></span>
+<span data-ttu-id="a0adc-106">El objeto **Recordset** devuelto se muestra en Internet Explorer mediante un [RDS.DataControl](datacontrol-object-rds.md).</span><span class="sxs-lookup"><span data-stu-id="a0adc-106">The returned **Recordset** is displayed in Internet Explorer using an [RDS.DataControl](datacontrol-object-rds.md).</span></span>
 
-<span data-ttu-id="743a1-107">Para crear el escenario, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="743a1-107">The following steps are necessary to create this scenario:</span></span>
+<span data-ttu-id="a0adc-107">Para crear el escenario, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="a0adc-107">The following steps are necessary to create this scenario:</span></span>
 
-1.  <span data-ttu-id="743a1-108">Configurar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="743a1-108">Set up the application.</span></span>
-2.  <span data-ttu-id="743a1-109">Obtener los datos.</span><span class="sxs-lookup"><span data-stu-id="743a1-109">Get the data.</span></span>
-3.  <span data-ttu-id="743a1-110">Enviar los datos.</span><span class="sxs-lookup"><span data-stu-id="743a1-110">Send the data.</span></span>
-4.  <span data-ttu-id="743a1-111">Recibir y mostrar los datos.</span><span class="sxs-lookup"><span data-stu-id="743a1-111">Receive and display the data.</span></span>
+1.  <span data-ttu-id="a0adc-108">Configurar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="a0adc-108">Set up the application.</span></span>
+2.  <span data-ttu-id="a0adc-109">Obtener los datos.</span><span class="sxs-lookup"><span data-stu-id="a0adc-109">Get the data.</span></span>
+3.  <span data-ttu-id="a0adc-110">Enviar los datos.</span><span class="sxs-lookup"><span data-stu-id="a0adc-110">Send the data.</span></span>
+4.  <span data-ttu-id="a0adc-111">Recibir y mostrar los datos.</span><span class="sxs-lookup"><span data-stu-id="a0adc-111">Receive and display the data.</span></span>
 
-## <a name="step-1-set-up-the-application"></a><span data-ttu-id="743a1-112">Paso 1: Configurar la aplicación</span><span class="sxs-lookup"><span data-stu-id="743a1-112">Step 1: Set up the application</span></span>
+## <a name="step-1-set-up-the-application"></a><span data-ttu-id="a0adc-112">Paso 1: Configurar la aplicación</span><span class="sxs-lookup"><span data-stu-id="a0adc-112">Step 1: Set up the application</span></span>
 
-1. <span data-ttu-id="743a1-113">Cree un directorio virtual de IIS denominado **XMLPersist con** permisos de script.</span><span class="sxs-lookup"><span data-stu-id="743a1-113">Create an IIS virtual directory named **XMLPersist** with script permissions.</span></span> 
+1. <span data-ttu-id="a0adc-113">Cree un directorio virtual de IIS denominado **XMLPersist con** permisos de script.</span><span class="sxs-lookup"><span data-stu-id="a0adc-113">Create an IIS virtual directory named **XMLPersist** with script permissions.</span></span> 
 
-2. <span data-ttu-id="743a1-114">Cree dos nuevos archivos de texto en la carpeta a la que apunta el directorio virtual, uno denominado **XMLResponse.asp** y el otro denominado **Default.htm**.</span><span class="sxs-lookup"><span data-stu-id="743a1-114">Create two new text files in the folder to which the virtual directory points, one named **XMLResponse.asp**, and the other named **Default.htm**.</span></span>
+2. <span data-ttu-id="a0adc-114">Cree dos nuevos archivos de texto en la carpeta a la que apunta el directorio virtual, uno denominado **XMLResponse.asp** y el otro denominado **Default.htm**.</span><span class="sxs-lookup"><span data-stu-id="a0adc-114">Create two new text files in the folder to which the virtual directory points, one named **XMLResponse.asp**, and the other named **Default.htm**.</span></span>
 
 
-## <a name="step-2-get-the-data"></a><span data-ttu-id="743a1-115">Paso 2: Obtener los datos</span><span class="sxs-lookup"><span data-stu-id="743a1-115">Step 2: Get the data</span></span>
+## <a name="step-2-get-the-data"></a><span data-ttu-id="a0adc-115">Paso 2: Obtener los datos</span><span class="sxs-lookup"><span data-stu-id="a0adc-115">Step 2: Get the data</span></span>
 
-<span data-ttu-id="743a1-116">En este paso, escribirá el código para abrir un objeto **Recordset** de ADO y prepararlo para su envío al cliente.</span><span class="sxs-lookup"><span data-stu-id="743a1-116">In this step, you will write the code to open an ADO **Recordset** and prepare to send it to the client.</span></span> 
+<span data-ttu-id="a0adc-116">En este paso, escribirá el código para abrir un objeto **Recordset** de ADO y prepararlo para su envío al cliente.</span><span class="sxs-lookup"><span data-stu-id="a0adc-116">In this step, you will write the code to open an ADO **Recordset** and prepare to send it to the client.</span></span> 
 
-1. <span data-ttu-id="743a1-117">Abra el archivo XMLResponse.asp con un editor de texto, tal como el Bloc de notas de Windows, e inserte el código siguiente:</span><span class="sxs-lookup"><span data-stu-id="743a1-117">Open the file XMLResponse.asp with a text editor, such as Windows Notepad, and insert the following code:</span></span>
+1. <span data-ttu-id="a0adc-117">Abra el archivo XMLResponse.asp con un editor de texto, tal como el Bloc de notas de Windows, e inserte el código siguiente:</span><span class="sxs-lookup"><span data-stu-id="a0adc-117">Open the file XMLResponse.asp with a text editor, such as Windows Notepad, and insert the following code:</span></span>
 
    ```vb 
         
@@ -68,15 +68,15 @@ ms.locfileid: "32302599"
         adoRec.Open strSQL, adoCon, adOpenStatic, adLockOptimistic, adCmdText 
    ```
 
-2. <span data-ttu-id="743a1-118">Asegúrese de cambiar el valor del parámetro Data Source en strCon por el nombre de su Microsoft SQL Server equipo.</span><span class="sxs-lookup"><span data-stu-id="743a1-118">Be sure to change the value of the Data Source parameter in strCon to the name of your Microsoft SQL Server computer.</span></span>
+2. <span data-ttu-id="a0adc-118">Asegúrese de cambiar el valor del parámetro Data Source en strCon por el nombre del Microsoft SQL Server equipo.</span><span class="sxs-lookup"><span data-stu-id="a0adc-118">Be sure to change the value of the Data Source parameter in strCon to the name of your Microsoft SQL Server computer.</span></span>
 
-3. <span data-ttu-id="743a1-119">Mantenga el archivo abierto y vaya al paso siguiente.</span><span class="sxs-lookup"><span data-stu-id="743a1-119">Keep the file open and go on to the next step.</span></span>
+3. <span data-ttu-id="a0adc-119">Mantenga el archivo abierto y vaya al paso siguiente.</span><span class="sxs-lookup"><span data-stu-id="a0adc-119">Keep the file open and go on to the next step.</span></span>
 
-## <a name="step-3-send-the-data"></a><span data-ttu-id="743a1-120">Paso 3: Enviar los datos</span><span class="sxs-lookup"><span data-stu-id="743a1-120">Step 3: Send the data</span></span>
+## <a name="step-3-send-the-data"></a><span data-ttu-id="a0adc-120">Paso 3: Enviar los datos</span><span class="sxs-lookup"><span data-stu-id="a0adc-120">Step 3: Send the data</span></span>
 
-<span data-ttu-id="743a1-121">Ahora que ya tiene un **Recordset**, deberá enviarlo al cliente guardándolo como XML en el objeto **Response**.</span><span class="sxs-lookup"><span data-stu-id="743a1-121">Now that you have a **Recordset**, you need to send it to the client by saving it as XML to the ASP **Response** object.</span></span> 
+<span data-ttu-id="a0adc-121">Ahora que ya tiene un **Recordset**, deberá enviarlo al cliente guardándolo como XML en el objeto **Response**.</span><span class="sxs-lookup"><span data-stu-id="a0adc-121">Now that you have a **Recordset**, you need to send it to the client by saving it as XML to the ASP **Response** object.</span></span> 
 
-1. <span data-ttu-id="743a1-122">Agregue el código siguiente al final de XMLResponse.asp:</span><span class="sxs-lookup"><span data-stu-id="743a1-122">Add the following code to the bottom of XMLResponse.asp:</span></span>
+1. <span data-ttu-id="a0adc-122">Agregue el código siguiente al final de XMLResponse.asp:</span><span class="sxs-lookup"><span data-stu-id="a0adc-122">Add the following code to the bottom of XMLResponse.asp:</span></span>
 
    ```vb 
     
@@ -92,15 +92,15 @@ ms.locfileid: "32302599"
     %> 
    ```
 
-   <span data-ttu-id="743a1-123">Tenga en cuenta que el **objeto Response** de ASP se especifica como el destino del método Save del **conjunto** [de](save-method-ado.md) registros.</span><span class="sxs-lookup"><span data-stu-id="743a1-123">Notice that the ASP **Response** object is specified as the destination for the **Recordset** [Save](save-method-ado.md) method.</span></span> <span data-ttu-id="743a1-124">El destino del método **Save** puede ser cualquier objeto que admita la interfaz **IStream**, tal como un objeto ADO [Stream](stream-object-ado.md) o un nombre de archivo que incluya la ruta de acceso completa donde se va a guardar el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="743a1-124">The destination of the **Save** method can be any object that supports the **IStream** interface, such as an ADO [Stream](stream-object-ado.md) object, or a file name that includes the complete path to which the **Recordset** is to be saved.</span></span>
+   <span data-ttu-id="a0adc-123">Observe que el objeto **Response** de ASP se especifica como el destino del **método Recordset** [Save.](save-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="a0adc-123">Notice that the ASP **Response** object is specified as the destination for the **Recordset** [Save](save-method-ado.md) method.</span></span> <span data-ttu-id="a0adc-124">El destino del método **Save** puede ser cualquier objeto que admita la interfaz **IStream**, tal como un objeto ADO [Stream](stream-object-ado.md) o un nombre de archivo que incluya la ruta de acceso completa donde se va a guardar el objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="a0adc-124">The destination of the **Save** method can be any object that supports the **IStream** interface, such as an ADO [Stream](stream-object-ado.md) object, or a file name that includes the complete path to which the **Recordset** is to be saved.</span></span>
 
-2. <span data-ttu-id="743a1-125">Antes de ir al paso siguiente, guarde y cierre XMLResponse.asp.</span><span class="sxs-lookup"><span data-stu-id="743a1-125">Save and close XMLResponse.asp before going to the next step.</span></span> <span data-ttu-id="743a1-126">Copie también el archivo adovbs.inc de la carpeta Ado del sistema de archivos comunes de archivos de programa en la misma carpeta donde tiene el archivo \\ \\ \\ \\ XMLResponse.asp.</span><span class="sxs-lookup"><span data-stu-id="743a1-126">Also copy the adovbs.inc file from C:\\Program Files\\Common Files\\System\\Ado folder to the same folder where you have the XMLResponse.asp file.</span></span>
+2. <span data-ttu-id="a0adc-125">Antes de ir al paso siguiente, guarde y cierre XMLResponse.asp.</span><span class="sxs-lookup"><span data-stu-id="a0adc-125">Save and close XMLResponse.asp before going to the next step.</span></span> <span data-ttu-id="a0adc-126">Copie también el archivo adovbs.inc de la carpeta Ado del sistema de archivos comunes C: Archivos de programa en la misma carpeta donde tiene el archivo \\ \\ \\ \\ XMLResponse.asp.</span><span class="sxs-lookup"><span data-stu-id="a0adc-126">Also copy the adovbs.inc file from C:\\Program Files\\Common Files\\System\\Ado folder to the same folder where you have the XMLResponse.asp file.</span></span>
 
-## <a name="step-4-receive-and-display-the-data"></a><span data-ttu-id="743a1-127">Paso 4: Recibir y mostrar los datos</span><span class="sxs-lookup"><span data-stu-id="743a1-127">Step 4: Receive and display the data</span></span>
+## <a name="step-4-receive-and-display-the-data"></a><span data-ttu-id="a0adc-127">Paso 4: Recibir y mostrar los datos</span><span class="sxs-lookup"><span data-stu-id="a0adc-127">Step 4: Receive and display the data</span></span>
 
-<span data-ttu-id="743a1-128">En este paso, creará un archivo HTML con un [RDS incrustado. Objeto DataControl](datacontrol-object-rds.md) que apunta al archivo XMLResponse.asp para obtener el **objeto Recordset**.</span><span class="sxs-lookup"><span data-stu-id="743a1-128">In this step, you will create an HTML file with an embedded [RDS.DataControl](datacontrol-object-rds.md) object that points at the XMLResponse.asp file to get the **Recordset**.</span></span> 
+<span data-ttu-id="a0adc-128">En este paso, creará un archivo HTML con un [RDS incrustado. Objeto DataControl](datacontrol-object-rds.md) que apunta al archivo XMLResponse.asp para obtener el **objeto Recordset**.</span><span class="sxs-lookup"><span data-stu-id="a0adc-128">In this step, you will create an HTML file with an embedded [RDS.DataControl](datacontrol-object-rds.md) object that points at the XMLResponse.asp file to get the **Recordset**.</span></span> 
 
-1. <span data-ttu-id="743a1-129">Abre default.htm con un editor de texto, como el Bloc de notas de Windows, y agrega el siguiente código.</span><span class="sxs-lookup"><span data-stu-id="743a1-129">Open default.htm with a text editor, such as Windows Notepad, and add the following code.</span></span> <span data-ttu-id="743a1-130">Sustituya "sqlserver" en la dirección URL por el nombre de su equipo servidor.</span><span class="sxs-lookup"><span data-stu-id="743a1-130">Replace "sqlserver" in the URL with the name of your server computer.</span></span>
+1. <span data-ttu-id="a0adc-129">Abra default.htm con un editor de texto, como Windows Bloc de notas, y agregue el siguiente código.</span><span class="sxs-lookup"><span data-stu-id="a0adc-129">Open default.htm with a text editor, such as Windows Notepad, and add the following code.</span></span> <span data-ttu-id="a0adc-130">Sustituya "sqlserver" en la dirección URL por el nombre de su equipo servidor.</span><span class="sxs-lookup"><span data-stu-id="a0adc-130">Replace "sqlserver" in the URL with the name of your server computer.</span></span>
 
    ```html 
     
@@ -123,11 +123,11 @@ ms.locfileid: "32302599"
     </HTML> 
    ```
 
-2. <span data-ttu-id="743a1-131">Cierre el archivo default.htm y guárdelo en la misma carpeta donde guardó XMLResponse.asp.</span><span class="sxs-lookup"><span data-stu-id="743a1-131">Close the default.htm file and save it to the same folder where you saved XMLResponse.asp.</span></span> 
+2. <span data-ttu-id="a0adc-131">Cierre el archivo default.htm y guárdelo en la misma carpeta donde guardó XMLResponse.asp.</span><span class="sxs-lookup"><span data-stu-id="a0adc-131">Close the default.htm file and save it to the same folder where you saved XMLResponse.asp.</span></span> 
 
-3. <span data-ttu-id="743a1-132">Con Internet Explorer 4.0 o posterior, abra la dirección URL `https://<sqlserver>/XMLPersist/default.htm` y observe los resultados.</span><span class="sxs-lookup"><span data-stu-id="743a1-132">Using Internet Explorer 4.0 or later, open the URL `https://<sqlserver>/XMLPersist/default.htm` and observe the results.</span></span> <span data-ttu-id="743a1-133">Los datos se muestran en una tabla DHTML enlazada.</span><span class="sxs-lookup"><span data-stu-id="743a1-133">The data is displayed in a bound DHTML table.</span></span> 
+3. <span data-ttu-id="a0adc-132">Con Internet Explorer 4.0 o posterior, abra la dirección URL `https://<sqlserver>/XMLPersist/default.htm` y observe los resultados.</span><span class="sxs-lookup"><span data-stu-id="a0adc-132">Using Internet Explorer 4.0 or later, open the URL `https://<sqlserver>/XMLPersist/default.htm` and observe the results.</span></span> <span data-ttu-id="a0adc-133">Los datos se muestran en una tabla DHTML enlazada.</span><span class="sxs-lookup"><span data-stu-id="a0adc-133">The data is displayed in a bound DHTML table.</span></span> 
 
-4. <span data-ttu-id="743a1-134">Ahora abra la dirección URL `https://<sqlserver>/XMLPersist/XMLResponse.asp` y observe los resultados.</span><span class="sxs-lookup"><span data-stu-id="743a1-134">Now open the URL `https://<sqlserver>/XMLPersist/XMLResponse.asp` and observe the results.</span></span> <span data-ttu-id="743a1-135">Aparecerá el XML.</span><span class="sxs-lookup"><span data-stu-id="743a1-135">The XML is displayed.</span></span>
+4. <span data-ttu-id="a0adc-134">Ahora abra la dirección URL `https://<sqlserver>/XMLPersist/XMLResponse.asp` y observe los resultados.</span><span class="sxs-lookup"><span data-stu-id="a0adc-134">Now open the URL `https://<sqlserver>/XMLPersist/XMLResponse.asp` and observe the results.</span></span> <span data-ttu-id="a0adc-135">Aparecerá el XML.</span><span class="sxs-lookup"><span data-stu-id="a0adc-135">The XML is displayed.</span></span>
 
 
 

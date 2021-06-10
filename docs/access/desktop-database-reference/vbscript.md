@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312099"
 ---
-# <a name="vbscript"></a><span data-ttu-id="a74de-102">VBScript</span><span class="sxs-lookup"><span data-stu-id="a74de-102">VBScript</span></span>
+# <a name="vbscript"></a><span data-ttu-id="27945-102">VBScript</span><span class="sxs-lookup"><span data-stu-id="27945-102">VBScript</span></span>
 
 
-<span data-ttu-id="a74de-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a74de-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="27945-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="27945-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a74de-104">Microsoft Visual Basic Scripting Edition no admite eventos de ADO.</span><span class="sxs-lookup"><span data-stu-id="a74de-104">Microsoft Visual Basic Scripting Edition does not support ADO events.</span></span>
+<span data-ttu-id="27945-104">Microsoft Visual Basic Scripting Edition no admite eventos de ADO.</span><span class="sxs-lookup"><span data-stu-id="27945-104">Microsoft Visual Basic Scripting Edition does not support ADO events.</span></span>
 

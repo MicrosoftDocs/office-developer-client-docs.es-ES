@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306387"
 ---
-# <a name="tables-collection-adox-reference"></a><span data-ttu-id="a4d29-102">Referencia de la colección Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a4d29-102">Tables collection (ADOX) reference</span></span>
+# <a name="tables-collection-adox-reference"></a><span data-ttu-id="86836-102">Referencia de la colección Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="86836-102">Tables collection (ADOX) reference</span></span>
 
-<span data-ttu-id="a4d29-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4d29-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="86836-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="86836-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a4d29-104">Colección Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a4d29-104">Tables collection (ADOX)</span></span>](tables-collection-adox.md)
-- [<span data-ttu-id="a4d29-105">Propiedades, métodos y eventos de la colección Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a4d29-105">Tables collection properties, methods, and events (ADOX)</span></span>](tables-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="86836-104">Colección Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="86836-104">Tables collection (ADOX)</span></span>](tables-collection-adox.md)
+- [<span data-ttu-id="86836-105">Propiedades, métodos y eventos de la colección Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="86836-105">Tables collection properties, methods, and events (ADOX)</span></span>](tables-collection-properties-methods-and-events-adox.md)
 

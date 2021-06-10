@@ -14,15 +14,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305883"
 ---
-# <a name="workspace-methods-dao"></a><span data-ttu-id="49045-102">Métodos workspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="49045-102">Workspace methods (DAO)</span></span>
+# <a name="workspace-methods-dao"></a><span data-ttu-id="953a1-102">Métodos Workspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="953a1-102">Workspace methods (DAO)</span></span>
 
-<span data-ttu-id="49045-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="49045-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="953a1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="953a1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="49045-104">Método Workspace.BeginTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="49045-104">Workspace.BeginTrans method (DAO)</span></span>](workspace-begintrans-method-dao.md)
-- [<span data-ttu-id="49045-105">Método Workspace.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="49045-105">Workspace.Close method (DAO)</span></span>](workspace-close-method-dao.md)
-- [<span data-ttu-id="49045-106">Método Workspace.CommitTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="49045-106">Workspace.CommitTrans method (DAO)</span></span>](workspace-committrans-method-dao.md)
-- [<span data-ttu-id="49045-107">Método Workspace.CreateDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="49045-107">Workspace.CreateDatabase method (DAO)</span></span>](workspace-createdatabase-method-dao.md)
-- [<span data-ttu-id="49045-108">Método Workspace.OpenConnection (DAO)</span><span class="sxs-lookup"><span data-stu-id="49045-108">Workspace.OpenConnection method (DAO)</span></span>](workspace-openconnection-method-dao.md)
-- [<span data-ttu-id="49045-109">Método Workspace.OpenDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="49045-109">Workspace.OpenDatabase method (DAO)</span></span>](workspace-opendatabase-method-dao.md)
-- [<span data-ttu-id="49045-110">Método Workspace.Rollback (DAO)</span><span class="sxs-lookup"><span data-stu-id="49045-110">Workspace.Rollback method (DAO)</span></span>](workspace-rollback-method-dao.md)
+- [<span data-ttu-id="953a1-104">Método Workspace.BeginTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="953a1-104">Workspace.BeginTrans method (DAO)</span></span>](workspace-begintrans-method-dao.md)
+- [<span data-ttu-id="953a1-105">Método Workspace.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="953a1-105">Workspace.Close method (DAO)</span></span>](workspace-close-method-dao.md)
+- [<span data-ttu-id="953a1-106">Método Workspace.CommitTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="953a1-106">Workspace.CommitTrans method (DAO)</span></span>](workspace-committrans-method-dao.md)
+- [<span data-ttu-id="953a1-107">Método Workspace.CreateDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="953a1-107">Workspace.CreateDatabase method (DAO)</span></span>](workspace-createdatabase-method-dao.md)
+- [<span data-ttu-id="953a1-108">Método Workspace.OpenConnection (DAO)</span><span class="sxs-lookup"><span data-stu-id="953a1-108">Workspace.OpenConnection method (DAO)</span></span>](workspace-openconnection-method-dao.md)
+- [<span data-ttu-id="953a1-109">Método Workspace.OpenDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="953a1-109">Workspace.OpenDatabase method (DAO)</span></span>](workspace-opendatabase-method-dao.md)
+- [<span data-ttu-id="953a1-110">Método Workspace.Rollback (DAO)</span><span class="sxs-lookup"><span data-stu-id="953a1-110">Workspace.Rollback method (DAO)</span></span>](workspace-rollback-method-dao.md)
 

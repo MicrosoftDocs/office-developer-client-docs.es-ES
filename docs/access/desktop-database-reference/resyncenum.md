@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306548"
 ---
-# <a name="resyncenum"></a><span data-ttu-id="cc16d-102">ResyncEnum</span><span class="sxs-lookup"><span data-stu-id="cc16d-102">ResyncEnum</span></span>
+# <a name="resyncenum"></a><span data-ttu-id="cdafb-102">ResyncEnum</span><span class="sxs-lookup"><span data-stu-id="cdafb-102">ResyncEnum</span></span>
 
-<span data-ttu-id="cc16d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc16d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cdafb-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cdafb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cc16d-104">Especifica si los valores subyacentes se sobrescriben al realizar una llamada a [Resync](resync-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="cc16d-104">Specifies whether underlying values are overwritten by a call to [Resync](resync-method-ado.md).</span></span>
+<span data-ttu-id="cdafb-104">Especifica si los valores subyacentes se sobrescriben al realizar una llamada a [Resync](resync-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="cdafb-104">Specifies whether underlying values are overwritten by a call to [Resync](resync-method-ado.md).</span></span>
 
 <br/>
 
@@ -30,29 +30,29 @@ ms.locfileid: "32306548"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="cc16d-105">Constante</span><span class="sxs-lookup"><span data-stu-id="cc16d-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="cc16d-106">Valor</span><span class="sxs-lookup"><span data-stu-id="cc16d-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="cc16d-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="cc16d-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="cdafb-105">Constante</span><span class="sxs-lookup"><span data-stu-id="cdafb-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="cdafb-106">Valor</span><span class="sxs-lookup"><span data-stu-id="cdafb-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="cdafb-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="cdafb-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cc16d-108"><strong>adResyncAllValues</strong></span><span class="sxs-lookup"><span data-stu-id="cc16d-108"><strong>adResyncAllValues</strong></span></span></p></td>
-<td><p><span data-ttu-id="cc16d-109">2 </span><span class="sxs-lookup"><span data-stu-id="cc16d-109">2</span></span></p></td>
-<td><p><span data-ttu-id="cc16d-p101">Valor predeterminado. Sobrescribe datos y se cancelan las actualizaciones pendientes.</span><span class="sxs-lookup"><span data-stu-id="cc16d-p101">Default. Overwrites data, and pending updates are canceled.</span></span></p></td>
+<td><p><span data-ttu-id="cdafb-108"><strong>adResyncAllValues</strong></span><span class="sxs-lookup"><span data-stu-id="cdafb-108"><strong>adResyncAllValues</strong></span></span></p></td>
+<td><p><span data-ttu-id="cdafb-109">2</span><span class="sxs-lookup"><span data-stu-id="cdafb-109">2</span></span></p></td>
+<td><p><span data-ttu-id="cdafb-p101">Valor predeterminado. Sobrescribe datos y se cancelan las actualizaciones pendientes.</span><span class="sxs-lookup"><span data-stu-id="cdafb-p101">Default. Overwrites data, and pending updates are canceled.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cc16d-112"><strong>adResyncUnderlyingValues</strong></span><span class="sxs-lookup"><span data-stu-id="cc16d-112"><strong>adResyncUnderlyingValues</strong></span></span></p></td>
-<td><p><span data-ttu-id="cc16d-113">1 </span><span class="sxs-lookup"><span data-stu-id="cc16d-113">1</span></span></p></td>
-<td><p><span data-ttu-id="cc16d-114">No sobrescribe datos y no se cancelan las actualizaciones pendientes.</span><span class="sxs-lookup"><span data-stu-id="cc16d-114">Does not overwrite data, and pending updates are not canceled.</span></span></p></td>
+<td><p><span data-ttu-id="cdafb-112"><strong>adResyncUnderlyingValues</strong></span><span class="sxs-lookup"><span data-stu-id="cdafb-112"><strong>adResyncUnderlyingValues</strong></span></span></p></td>
+<td><p><span data-ttu-id="cdafb-113">1</span><span class="sxs-lookup"><span data-stu-id="cdafb-113">1</span></span></p></td>
+<td><p><span data-ttu-id="cdafb-114">No sobrescribe datos y no se cancelan las actualizaciones pendientes.</span><span class="sxs-lookup"><span data-stu-id="cdafb-114">Does not overwrite data, and pending updates are not canceled.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="cc16d-115">Equivalente de ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="cc16d-115">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="cdafb-115">Equivalente a ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="cdafb-115">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="cc16d-116">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="cc16d-116">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="cdafb-116">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="cdafb-116">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -60,15 +60,15 @@ ms.locfileid: "32306548"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="cc16d-117">Constante</span><span class="sxs-lookup"><span data-stu-id="cc16d-117">Constant</span></span></p></th>
+<th><p><span data-ttu-id="cdafb-117">Constante</span><span class="sxs-lookup"><span data-stu-id="cdafb-117">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cc16d-118">AdoEnums.Resync.ALLVALUES</span><span class="sxs-lookup"><span data-stu-id="cc16d-118">AdoEnums.Resync.ALLVALUES</span></span></p></td>
+<td><p><span data-ttu-id="cdafb-118">AdoEnums.Resync.ALLVALUES</span><span class="sxs-lookup"><span data-stu-id="cdafb-118">AdoEnums.Resync.ALLVALUES</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cc16d-119">AdoEnums.Resync.UNDERLYINGVALUES</span><span class="sxs-lookup"><span data-stu-id="cc16d-119">AdoEnums.Resync.UNDERLYINGVALUES</span></span></p></td>
+<td><p><span data-ttu-id="cdafb-119">AdoEnums.Resync.UNDERLYINGVALUES</span><span class="sxs-lookup"><span data-stu-id="cdafb-119">AdoEnums.Resync.UNDERLYINGVALUES</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302495"
 ---
-# <a name="workspacesappend-method-dao"></a><span data-ttu-id="e2290-102">Método Workspaces.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="e2290-102">Workspaces.Append method (DAO)</span></span>
+# <a name="workspacesappend-method-dao"></a><span data-ttu-id="aa137-102">Método Workspaces.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="aa137-102">Workspaces.Append method (DAO)</span></span>
 
-<span data-ttu-id="e2290-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e2290-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="aa137-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aa137-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e2290-104">Agrega un nuevo objeto **Workspace** a la colección **Workspaces**.</span><span class="sxs-lookup"><span data-stu-id="e2290-104">Adds a new **Workspace** to the **Workspaces** collection.</span></span>
+<span data-ttu-id="aa137-104">Agrega un nuevo objeto **Workspace** a la colección **Workspaces**.</span><span class="sxs-lookup"><span data-stu-id="aa137-104">Adds a new **Workspace** to the **Workspaces** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e2290-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e2290-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="aa137-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="aa137-105">Syntax</span></span>
 
-<span data-ttu-id="e2290-106">*expression* .Append(***Object***)</span><span class="sxs-lookup"><span data-stu-id="e2290-106">*expression* .Append(***Object***)</span></span>
+<span data-ttu-id="aa137-106">*expression* .Append(***Object***)</span><span class="sxs-lookup"><span data-stu-id="aa137-106">*expression* .Append(***Object***)</span></span>
 
-<span data-ttu-id="e2290-107">*expresión* Variable que representa un objeto **Workspaces** .</span><span class="sxs-lookup"><span data-stu-id="e2290-107">*expression* A variable that represents a **Workspaces** object.</span></span>
+<span data-ttu-id="aa137-107">*expresión* Variable que representa un **objeto Workspaces.**</span><span class="sxs-lookup"><span data-stu-id="aa137-107">*expression* A variable that represents a **Workspaces** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="e2290-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="e2290-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="aa137-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="aa137-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,28 +37,28 @@ ms.locfileid: "32302495"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e2290-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="e2290-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="e2290-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="e2290-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="e2290-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="e2290-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="e2290-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="e2290-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="aa137-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="aa137-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="aa137-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="aa137-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="aa137-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="aa137-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="aa137-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="aa137-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e2290-113"><em>Objeto</em></span><span class="sxs-lookup"><span data-stu-id="e2290-113"><em>Object</em></span></span></p></td>
-<td><p><span data-ttu-id="e2290-114">Necesario</span><span class="sxs-lookup"><span data-stu-id="e2290-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="e2290-115"><strong>Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="e2290-115"><strong>Object</strong></span></span></p></td>
-<td><p><span data-ttu-id="e2290-116">Variable de objeto que representa el campo que se va a anexar a la colección.</span><span class="sxs-lookup"><span data-stu-id="e2290-116">An object variable that represents the field being appended to the collection.</span></span></p></td>
+<td><p><span data-ttu-id="aa137-113"><em>Objeto</em></span><span class="sxs-lookup"><span data-stu-id="aa137-113"><em>Object</em></span></span></p></td>
+<td><p><span data-ttu-id="aa137-114">Necesario</span><span class="sxs-lookup"><span data-stu-id="aa137-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="aa137-115"><strong>Objeto</strong></span><span class="sxs-lookup"><span data-stu-id="aa137-115"><strong>Object</strong></span></span></p></td>
+<td><p><span data-ttu-id="aa137-116">Variable de objeto que representa el campo que se va a anexar a la colección.</span><span class="sxs-lookup"><span data-stu-id="aa137-116">An object variable that represents the field being appended to the collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="e2290-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e2290-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aa137-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="aa137-117">Remarks</span></span>
 
-<span data-ttu-id="e2290-118">El objeto anexado se convierte en un objeto persistente, almacenado en un disco, hasta que lo elimine mediante el método **Delete**.</span><span class="sxs-lookup"><span data-stu-id="e2290-118">The appended object becomes a persistent object, stored on disk, until you delete it by using the **Delete** method.</span></span>
+<span data-ttu-id="aa137-118">El objeto anexado se convierte en un objeto persistente, almacenado en un disco, hasta que lo elimine mediante el método **Delete**.</span><span class="sxs-lookup"><span data-stu-id="aa137-118">The appended object becomes a persistent object, stored on disk, until you delete it by using the **Delete** method.</span></span>
 
-<span data-ttu-id="e2290-119">La agregación de un nuevo objeto se produce de inmediato pero debe utilizar el método **Refresh** en cualquier otra colección que pueda verse afectada por los cambios en la estructura de base de datos.</span><span class="sxs-lookup"><span data-stu-id="e2290-119">The addition of a new object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
+<span data-ttu-id="aa137-119">La agregación de un nuevo objeto se produce de inmediato pero debe utilizar el método **Refresh** en cualquier otra colección que pueda verse afectada por los cambios en la estructura de base de datos.</span><span class="sxs-lookup"><span data-stu-id="aa137-119">The addition of a new object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
 
-<span data-ttu-id="e2290-120">Si el objeto que está anexando está incompleto (como cuando no ha anexado ningún objeto **Field** a una colección **Fields** de un objeto **Index** antes de anexarlo a una colección **Indexes**) o si las propiedades establecidas en uno o varios objetos subordinados son incorrectas, el uso del método **Append** provoca un error.</span><span class="sxs-lookup"><span data-stu-id="e2290-120">If the object you're appending isn't complete (such as when you haven't appended any **Field** objects to a **Fields** collection of an **Index** object before it's appended to an **Indexes** collection) or if the properties set in one or more subordinate objects are incorrect, using the **Append** method causes an error.</span></span> <span data-ttu-id="e2290-121">Por ejemplo, si no ha especificado un campo e intenta anexar el objeto **Field** a la colección **Fields** en un objeto **TableDef**, el uso del método **Append** desencadena un error en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="e2290-121">For example, if you haven’t specified a field type and then try to append the **Field** object to the **Fields** collection in a **TableDef** object, using the **Append** method triggers a run-time error.</span></span>
+<span data-ttu-id="aa137-120">Si el objeto que está anexando está incompleto (como cuando no ha anexado ningún objeto **Field** a una colección **Fields** de un objeto **Index** antes de anexarlo a una colección **Indexes**) o si las propiedades establecidas en uno o varios objetos subordinados son incorrectas, el uso del método **Append** provoca un error.</span><span class="sxs-lookup"><span data-stu-id="aa137-120">If the object you're appending isn't complete (such as when you haven't appended any **Field** objects to a **Fields** collection of an **Index** object before it's appended to an **Indexes** collection) or if the properties set in one or more subordinate objects are incorrect, using the **Append** method causes an error.</span></span> <span data-ttu-id="aa137-121">Por ejemplo, si no ha especificado un campo e intenta anexar el objeto **Field** a la colección **Fields** en un objeto **TableDef**, el uso del método **Append** desencadena un error en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="aa137-121">For example, if you haven’t specified a field type and then try to append the **Field** object to the **Fields** collection in a **TableDef** object, using the **Append** method triggers a run-time error.</span></span>
 

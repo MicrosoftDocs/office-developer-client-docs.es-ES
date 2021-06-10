@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303223"
 ---
-# <a name="querydefproperties-property-dao"></a><span data-ttu-id="f369a-102">Propiedad QueryDef.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="f369a-102">QueryDef.Properties property (DAO)</span></span>
+# <a name="querydefproperties-property-dao"></a><span data-ttu-id="14c26-102">Propiedad QueryDef.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="14c26-102">QueryDef.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="f369a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f369a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="14c26-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="14c26-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f369a-104">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="f369a-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="f369a-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="f369a-105">Read-only.</span></span>
+<span data-ttu-id="14c26-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="14c26-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f369a-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f369a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="14c26-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="14c26-106">Syntax</span></span>
 
-<span data-ttu-id="f369a-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="f369a-107">*expression* .Properties</span></span>
+<span data-ttu-id="14c26-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="14c26-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="f369a-108">*expression* Variable que representa un objeto **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="f369a-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="14c26-108">*expression* Variable que representa un objeto **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="14c26-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 

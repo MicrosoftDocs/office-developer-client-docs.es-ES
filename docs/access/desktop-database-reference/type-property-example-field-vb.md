@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306303"
 ---
-# <a name="type-property-example-field-vb"></a><span data-ttu-id="8f08f-102">Ejemplo de la propiedad Type (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="8f08f-102">Type property example (Field) (VB)</span></span>
+# <a name="type-property-example-field-vb"></a><span data-ttu-id="8a374-102">Ejemplo de la propiedad Type (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="8a374-102">Type property example (Field) (VB)</span></span>
 
 
-<span data-ttu-id="8f08f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8f08f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8a374-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a374-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8f08f-104">En este ejemplo se muestra la propiedad [Type](type-property-ado.md) al mostrar el nombre de la constante que corresponde al valor de la propiedad [Type](type-property-ado.md) de todos los objetos [Field](field-object-ado.md) de la tabla ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="8f08f-104">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the [Type](type-property-ado.md) property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="8f08f-105">Para que este procedimiento se ejecute se necesita la función FieldType.</span><span class="sxs-lookup"><span data-stu-id="8f08f-105">The FieldType function is required for this procedure to run.</span></span>
+<span data-ttu-id="8a374-p101">En este ejemplo se muestra la propiedad [Type](type-property-ado.md) al mostrar el nombre de la constante que corresponde al valor de la propiedad [Type](type-property-ado.md) de todos los objetos [Field](field-object-ado.md) de la tabla ***Employees***. Para que este procedimiento se ejecute se necesita la función FieldType.</span><span class="sxs-lookup"><span data-stu-id="8a374-p101">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the [Type](type-property-ado.md) property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.</span></span>
 
 ```vb 
  

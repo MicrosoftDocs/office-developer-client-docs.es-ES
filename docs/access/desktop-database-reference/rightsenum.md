@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306492"
 ---
-# <a name="rightsenum"></a><span data-ttu-id="506ad-102">RightsEnum</span><span class="sxs-lookup"><span data-stu-id="506ad-102">RightsEnum</span></span>
+# <a name="rightsenum"></a><span data-ttu-id="68f57-102">RightsEnum</span><span class="sxs-lookup"><span data-stu-id="68f57-102">RightsEnum</span></span>
 
-<span data-ttu-id="506ad-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="506ad-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="68f57-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="68f57-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="506ad-104">Especifica los derechos o los permisos para un grupo o un usuario en un objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-104">Specifies the rights or permissions for a group or user on an object.</span></span>
+<span data-ttu-id="68f57-104">Especifica los derechos o los permisos para un grupo o un usuario en un objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-104">Specifies the rights or permissions for a group or user on an object.</span></span>
 
 <br/>
 
@@ -30,122 +30,124 @@ ms.locfileid: "32306492"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="506ad-105">Constante</span><span class="sxs-lookup"><span data-stu-id="506ad-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="506ad-106">Valor</span><span class="sxs-lookup"><span data-stu-id="506ad-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="506ad-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="506ad-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="68f57-105">Constante</span><span class="sxs-lookup"><span data-stu-id="68f57-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="68f57-106">Valor</span><span class="sxs-lookup"><span data-stu-id="68f57-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="68f57-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="68f57-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="506ad-108"><strong>adRightCreate</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-108"><strong>adRightCreate</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-109">16384</span><span class="sxs-lookup"><span data-stu-id="506ad-109">16384</span></span><br />
-<span data-ttu-id="506ad-110">( &amp; H4000)</span><span class="sxs-lookup"><span data-stu-id="506ad-110">(&amp;H4000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-111">El usuario o el grupo tiene permiso para crear objetos nuevos de este tipo.</span><span class="sxs-lookup"><span data-stu-id="506ad-111">The user or group has permission to create new objects of this type.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-108"><strong>adRightCreate</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-108"><strong>adRightCreate</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-109">16384</span><span class="sxs-lookup"><span data-stu-id="68f57-109">16384</span></span><br />
+<span data-ttu-id="68f57-110">( &amp; H4000)</span><span class="sxs-lookup"><span data-stu-id="68f57-110">(&amp;H4000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-111">El usuario o el grupo tiene permiso para crear objetos nuevos de este tipo.</span><span class="sxs-lookup"><span data-stu-id="68f57-111">The user or group has permission to create new objects of this type.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="506ad-112"><strong>adRightDelete</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-112"><strong>adRightDelete</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-113">65536</span><span class="sxs-lookup"><span data-stu-id="506ad-113">65536</span></span><br />
-<span data-ttu-id="506ad-114">( &amp; H10000)</span><span class="sxs-lookup"><span data-stu-id="506ad-114">(&amp;H10000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-p101">El usuario o el grupo tienen permiso para eliminar datos de un objeto.
-Para objetos tal como <strong>Tables</strong>, el usuario tiene permiso para eliminar valores de datos de los registros.</span><span class="sxs-lookup"><span data-stu-id="506ad-p101">The user or group has permission to delete data from an object. For objects such as <strong>Tables</strong>, the user has permission to delete data values from records.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-112"><strong>adRightDelete</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-112"><strong>adRightDelete</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-113">65536</span><span class="sxs-lookup"><span data-stu-id="68f57-113">65536</span></span><br />
+<span data-ttu-id="68f57-114">( &amp; H10000)</span><span class="sxs-lookup"><span data-stu-id="68f57-114">(&amp;H10000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-p101">El usuario o el grupo tienen permiso para eliminar datos de un objeto.
+Para objetos tal como <strong>Tables</strong>, el usuario tiene permiso para eliminar valores de datos de los registros.</span><span class="sxs-lookup"><span data-stu-id="68f57-p101">The user or group has permission to delete data from an object. For objects such as <strong>Tables</strong>, the user has permission to delete data values from records.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="506ad-117"><strong>adRightDrop</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-117"><strong>adRightDrop</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-118">256</span><span class="sxs-lookup"><span data-stu-id="506ad-118">256</span></span><br />
-<span data-ttu-id="506ad-119">( &amp; H100)</span><span class="sxs-lookup"><span data-stu-id="506ad-119">(&amp;H100)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-p102">El usuario o el grupo tiene permiso para quitar objetos del catálogo.
-Por ejemplo, <strong>Tables</strong> se puede eliminar mediante un comando SQL DROP TABLE.</span><span class="sxs-lookup"><span data-stu-id="506ad-p102">The user or group has permission to remove objects from the catalog. For example, <strong>Tables</strong> can be deleted by a DROP TABLE SQL command.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-117"><strong>adRightDrop</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-117"><strong>adRightDrop</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-118">256</span><span class="sxs-lookup"><span data-stu-id="68f57-118">256</span></span><br />
+<span data-ttu-id="68f57-119">( &amp; H100)</span><span class="sxs-lookup"><span data-stu-id="68f57-119">(&amp;H100)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-p102">El usuario o el grupo tiene permiso para quitar objetos del catálogo.
+Por ejemplo, <strong>Tables</strong> se puede eliminar mediante un comando SQL DROP TABLE.</span><span class="sxs-lookup"><span data-stu-id="68f57-p102">The user or group has permission to remove objects from the catalog. For example, <strong>Tables</strong> can be deleted by a DROP TABLE SQL command.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="506ad-122"><strong>adRightExclusive</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-122"><strong>adRightExclusive</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-123">512</span><span class="sxs-lookup"><span data-stu-id="506ad-123">512</span></span><br />
-<span data-ttu-id="506ad-124">( &amp; H200)</span><span class="sxs-lookup"><span data-stu-id="506ad-124">(&amp;H200)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-125">El usuario o el grupo tiene permiso de acceso exclusivo al objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-125">The user or group has permission to access the object exclusively.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-122"><strong>adRightExclusive</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-122"><strong>adRightExclusive</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-123">512</span><span class="sxs-lookup"><span data-stu-id="68f57-123">512</span></span><br />
+<span data-ttu-id="68f57-124">( &amp; H200)</span><span class="sxs-lookup"><span data-stu-id="68f57-124">(&amp;H200)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-125">El usuario o el grupo tiene permiso de acceso exclusivo al objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-125">The user or group has permission to access the object exclusively.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="506ad-126"><strong>adRightExecute</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-126"><strong>adRightExecute</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-127">536870912</span><span class="sxs-lookup"><span data-stu-id="506ad-127">536870912</span></span><br />
-<span data-ttu-id="506ad-128">( &amp; H20000000)</span><span class="sxs-lookup"><span data-stu-id="506ad-128">(&amp;H20000000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-129">El usuario o el grupo tiene permiso para ejecutar el objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-129">The user or group has permission to execute the object.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-126"><strong>adRightExecute</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-126"><strong>adRightExecute</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-127">536870912</span><span class="sxs-lookup"><span data-stu-id="68f57-127">536870912</span></span><br />
+<span data-ttu-id="68f57-128">( &amp; H20000000)</span><span class="sxs-lookup"><span data-stu-id="68f57-128">(&amp;H20000000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-129">El usuario o el grupo tiene permiso para ejecutar el objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-129">The user or group has permission to execute the object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="506ad-130"><strong>adRightFull</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-130"><strong>adRightFull</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-131">268435456</span><span class="sxs-lookup"><span data-stu-id="506ad-131">268435456</span></span><br />
-<span data-ttu-id="506ad-132">( &amp; H10000000)</span><span class="sxs-lookup"><span data-stu-id="506ad-132">(&amp;H10000000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-133">El usuario o el grupo tiene todos los permisos en el objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-133">The user or group has all permissions on the object.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-130"><strong>adRightFull</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-130"><strong>adRightFull</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-131">268435456</span><span class="sxs-lookup"><span data-stu-id="68f57-131">268435456</span></span><br />
+<span data-ttu-id="68f57-132">( &amp; H10000000)</span><span class="sxs-lookup"><span data-stu-id="68f57-132">(&amp;H10000000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-133">El usuario o el grupo tiene todos los permisos en el objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-133">The user or group has all permissions on the object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="506ad-134"><strong>adRightInsert</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-134"><strong>adRightInsert</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-135">32768</span><span class="sxs-lookup"><span data-stu-id="506ad-135">32768</span></span><br />
-<span data-ttu-id="506ad-136">( &amp; H8000)</span><span class="sxs-lookup"><span data-stu-id="506ad-136">(&amp;H8000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-p103">El usuario o el grupo tiene permiso para insertar el objeto.
-Para objetos tales como <strong>Tables</strong>, el usuario tiene permiso para insertar datos en la tabla.</span><span class="sxs-lookup"><span data-stu-id="506ad-p103">The user or group has permission to insert the object. For objects such as <strong>Tables</strong>, the user has permission to insert data into the table.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-134"><strong>adRightInsert</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-134"><strong>adRightInsert</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-135">32768</span><span class="sxs-lookup"><span data-stu-id="68f57-135">32768</span></span><br />
+<span data-ttu-id="68f57-136">( &amp; H8000)</span><span class="sxs-lookup"><span data-stu-id="68f57-136">(&amp;H8000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-p103">El usuario o el grupo tiene permiso para insertar el objeto.
+Para objetos tales como <strong>Tables</strong>, el usuario tiene permiso para insertar datos en la tabla.</span><span class="sxs-lookup"><span data-stu-id="68f57-p103">The user or group has permission to insert the object. For objects such as <strong>Tables</strong>, the user has permission to insert data into the table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="506ad-139"><strong>adRightMaximumAllowed</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-139"><strong>adRightMaximumAllowed</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-140">33554432 ( &amp; H2000000)</span><span class="sxs-lookup"><span data-stu-id="506ad-140">33554432 (&amp;H2000000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-141">El usuario o el grupo tiene el número máximo de permisos que concede el proveedor.</span><span class="sxs-lookup"><span data-stu-id="506ad-141">The user or group has the maximum number of permissions allowed by the provider.</span></span> <span data-ttu-id="506ad-142">Los permisos específicos dependen del proveedor.</span><span class="sxs-lookup"><span data-stu-id="506ad-142">Specific permissions are provider-dependent.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-139"><strong>adRightMaximumAllowed</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-139"><strong>adRightMaximumAllowed</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-140">33554432 ( &amp; H2000000)</span><span class="sxs-lookup"><span data-stu-id="68f57-140">33554432 (&amp;H2000000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-p104">El usuario o el grupo tiene el número máximo de permisos que concede el proveedor.
+
+Los permisos específicos dependen del proveedor.</span><span class="sxs-lookup"><span data-stu-id="68f57-p104">The user or group has the maximum number of permissions allowed by the provider. Specific permissions are provider-dependent.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="506ad-143"><strong>adRightNone</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-143"><strong>adRightNone</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-144">0</span><span class="sxs-lookup"><span data-stu-id="506ad-144">0</span></span></p></td>
-<td><p><span data-ttu-id="506ad-145">El usuario o el grupo no tiene ningún permiso para el objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-145">The user or group has no permissions for the object.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-143"><strong>adRightNone</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-143"><strong>adRightNone</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-144">0</span><span class="sxs-lookup"><span data-stu-id="68f57-144">0</span></span></p></td>
+<td><p><span data-ttu-id="68f57-145">El usuario o el grupo no tiene ningún permiso para el objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-145">The user or group has no permissions for the object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="506ad-146"><strong>adRightRead</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-146"><strong>adRightRead</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-147">-2147483648</span><span class="sxs-lookup"><span data-stu-id="506ad-147">-2147483648</span></span><br />
-<span data-ttu-id="506ad-148">( &amp; H80000000)</span><span class="sxs-lookup"><span data-stu-id="506ad-148">(&amp;H80000000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-p105">El usuario o el grupo tiene permiso para leer el objeto.
-Para objetos tales como <a href="table-object-adox.md">Tables</a>, el usuario tiene permiso para leer los datos de la tabla.</span><span class="sxs-lookup"><span data-stu-id="506ad-p105">The user or group has permission to read the object. For objects such as <a href="table-object-adox.md">Tables</a>, the user has permission to read the data in the table.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-146"><strong>adRightRead</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-146"><strong>adRightRead</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-147">-2147483648</span><span class="sxs-lookup"><span data-stu-id="68f57-147">-2147483648</span></span><br />
+<span data-ttu-id="68f57-148">( &amp; H80000000)</span><span class="sxs-lookup"><span data-stu-id="68f57-148">(&amp;H80000000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-p105">El usuario o el grupo tiene permiso para leer el objeto.
+Para objetos tales como <a href="table-object-adox.md">Tables</a>, el usuario tiene permiso para leer los datos de la tabla.</span><span class="sxs-lookup"><span data-stu-id="68f57-p105">The user or group has permission to read the object. For objects such as <a href="table-object-adox.md">Tables</a>, the user has permission to read the data in the table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="506ad-151"><strong>adRightReadDesign</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-151"><strong>adRightReadDesign</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-152">1024</span><span class="sxs-lookup"><span data-stu-id="506ad-152">1024</span></span><br />
-<span data-ttu-id="506ad-153">( &amp; H400)</span><span class="sxs-lookup"><span data-stu-id="506ad-153">(&amp;H400)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-154">El usuario o el grupo tiene permiso para leer el diseño para el objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-154">The user or group has permission to read the design for the object.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-151"><strong>adRightReadDesign</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-151"><strong>adRightReadDesign</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-152">1024</span><span class="sxs-lookup"><span data-stu-id="68f57-152">1024</span></span><br />
+<span data-ttu-id="68f57-153">( &amp; H400)</span><span class="sxs-lookup"><span data-stu-id="68f57-153">(&amp;H400)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-154">El usuario o el grupo tiene permiso para leer el diseño para el objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-154">The user or group has permission to read the design for the object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="506ad-155"><strong>adRightReadPermissions</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-155"><strong>adRightReadPermissions</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-156">131072</span><span class="sxs-lookup"><span data-stu-id="506ad-156">131072</span></span><br />
-<span data-ttu-id="506ad-157">( &amp; H20000)</span><span class="sxs-lookup"><span data-stu-id="506ad-157">(&amp;H20000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-158">El usuario o el grupo puede ver, pero no cambiar, los permisos específicos para un objeto del catálogo.</span><span class="sxs-lookup"><span data-stu-id="506ad-158">The user or group can view, but not change, the specific permissions for an object in the catalog.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-155"><strong>adRightReadPermissions</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-155"><strong>adRightReadPermissions</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-156">131072</span><span class="sxs-lookup"><span data-stu-id="68f57-156">131072</span></span><br />
+<span data-ttu-id="68f57-157">( &amp; H20000)</span><span class="sxs-lookup"><span data-stu-id="68f57-157">(&amp;H20000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-158">El usuario o el grupo puede ver, pero no cambiar, los permisos específicos para un objeto del catálogo.</span><span class="sxs-lookup"><span data-stu-id="68f57-158">The user or group can view, but not change, the specific permissions for an object in the catalog.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="506ad-159"><strong>adRightReference</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-159"><strong>adRightReference</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-160">8192</span><span class="sxs-lookup"><span data-stu-id="506ad-160">8192</span></span><br />
-<span data-ttu-id="506ad-161">( &amp; H2000)</span><span class="sxs-lookup"><span data-stu-id="506ad-161">(&amp;H2000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-162">El usuario o el grupo tiene permiso para hacer referencia al objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-162">The user or group has permission to reference the object.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-159"><strong>adRightReference</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-159"><strong>adRightReference</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-160">8192</span><span class="sxs-lookup"><span data-stu-id="68f57-160">8192</span></span><br />
+<span data-ttu-id="68f57-161">( &amp; H2000)</span><span class="sxs-lookup"><span data-stu-id="68f57-161">(&amp;H2000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-162">El usuario o el grupo tiene permiso para hacer referencia al objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-162">The user or group has permission to reference the object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="506ad-163"><strong>adRightUpdate</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-163"><strong>adRightUpdate</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-164">1073741824</span><span class="sxs-lookup"><span data-stu-id="506ad-164">1073741824</span></span><br />
-<span data-ttu-id="506ad-165">( &amp; H40000000)</span><span class="sxs-lookup"><span data-stu-id="506ad-165">(&amp;H40000000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-p106">El usuario o el grupo tiene permiso para actualizar el objeto.
-Para objetos tales como <strong>Tables</strong>, el usuario tiene permiso para actualizar los datos de la tabla.</span><span class="sxs-lookup"><span data-stu-id="506ad-p106">The user or group has permission to update the object. For objects such as <strong>Tables</strong>, the user has permission to update the data in the table.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-163"><strong>adRightUpdate</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-163"><strong>adRightUpdate</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-164">1073741824</span><span class="sxs-lookup"><span data-stu-id="68f57-164">1073741824</span></span><br />
+<span data-ttu-id="68f57-165">( &amp; H40000000)</span><span class="sxs-lookup"><span data-stu-id="68f57-165">(&amp;H40000000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-p106">El usuario o el grupo tiene permiso para actualizar el objeto.
+Para objetos tales como <strong>Tables</strong>, el usuario tiene permiso para actualizar los datos de la tabla.</span><span class="sxs-lookup"><span data-stu-id="68f57-p106">The user or group has permission to update the object. For objects such as <strong>Tables</strong>, the user has permission to update the data in the table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="506ad-168"><strong>adRightWithGrant</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-168"><strong>adRightWithGrant</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-169">4096</span><span class="sxs-lookup"><span data-stu-id="506ad-169">4096</span></span><br />
-<span data-ttu-id="506ad-170">( &amp; H1000)</span><span class="sxs-lookup"><span data-stu-id="506ad-170">(&amp;H1000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-171">El usuario o el grupo tiene permiso para conceder permisos para el objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-171">The user or group has permission to grant permissions on the object.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-168"><strong>adRightWithGrant</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-168"><strong>adRightWithGrant</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-169">4096</span><span class="sxs-lookup"><span data-stu-id="68f57-169">4096</span></span><br />
+<span data-ttu-id="68f57-170">( &amp; H1000)</span><span class="sxs-lookup"><span data-stu-id="68f57-170">(&amp;H1000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-171">El usuario o el grupo tiene permiso para conceder permisos para el objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-171">The user or group has permission to grant permissions on the object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="506ad-172"><strong>adRightWriteDesign</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-172"><strong>adRightWriteDesign</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-173">2048</span><span class="sxs-lookup"><span data-stu-id="506ad-173">2048</span></span><br />
-<span data-ttu-id="506ad-174">( &amp; H800)</span><span class="sxs-lookup"><span data-stu-id="506ad-174">(&amp;H800)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-175">El usuario o el grupo tiene permiso para modificar el diseño para el objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-175">The user or group has permission to modify the design for the object.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-172"><strong>adRightWriteDesign</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-172"><strong>adRightWriteDesign</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-173">2048</span><span class="sxs-lookup"><span data-stu-id="68f57-173">2048</span></span><br />
+<span data-ttu-id="68f57-174">( &amp; H800)</span><span class="sxs-lookup"><span data-stu-id="68f57-174">(&amp;H800)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-175">El usuario o el grupo tiene permiso para modificar el diseño para el objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-175">The user or group has permission to modify the design for the object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="506ad-176"><strong>adRightWriteOwner</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-176"><strong>adRightWriteOwner</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-177">524288</span><span class="sxs-lookup"><span data-stu-id="506ad-177">524288</span></span><br />
-<span data-ttu-id="506ad-178">( &amp; H80000)</span><span class="sxs-lookup"><span data-stu-id="506ad-178">(&amp;H80000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-179">El usuario o el grupo tiene permiso para modificar el propietario del objeto.</span><span class="sxs-lookup"><span data-stu-id="506ad-179">The user or group has permission to modify the owner of the object.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-176"><strong>adRightWriteOwner</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-176"><strong>adRightWriteOwner</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-177">524288</span><span class="sxs-lookup"><span data-stu-id="68f57-177">524288</span></span><br />
+<span data-ttu-id="68f57-178">( &amp; H80000)</span><span class="sxs-lookup"><span data-stu-id="68f57-178">(&amp;H80000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-179">El usuario o el grupo tiene permiso para modificar el propietario del objeto.</span><span class="sxs-lookup"><span data-stu-id="68f57-179">The user or group has permission to modify the owner of the object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="506ad-180"><strong>adRightWritePermissions</strong></span><span class="sxs-lookup"><span data-stu-id="506ad-180"><strong>adRightWritePermissions</strong></span></span></p></td>
-<td><p><span data-ttu-id="506ad-181">262144</span><span class="sxs-lookup"><span data-stu-id="506ad-181">262144</span></span><br />
-<span data-ttu-id="506ad-182">( &amp; H40000)</span><span class="sxs-lookup"><span data-stu-id="506ad-182">(&amp;H40000)</span></span></p></td>
-<td><p><span data-ttu-id="506ad-183">El usuario o el grupo puede modificar los permisos específicos para un objeto del catálogo.</span><span class="sxs-lookup"><span data-stu-id="506ad-183">The user or group can modify the specific permissions for an object in the catalog.</span></span></p></td>
+<td><p><span data-ttu-id="68f57-180"><strong>adRightWritePermissions</strong></span><span class="sxs-lookup"><span data-stu-id="68f57-180"><strong>adRightWritePermissions</strong></span></span></p></td>
+<td><p><span data-ttu-id="68f57-181">262144</span><span class="sxs-lookup"><span data-stu-id="68f57-181">262144</span></span><br />
+<span data-ttu-id="68f57-182">( &amp; H40000)</span><span class="sxs-lookup"><span data-stu-id="68f57-182">(&amp;H40000)</span></span></p></td>
+<td><p><span data-ttu-id="68f57-183">El usuario o el grupo puede modificar los permisos específicos para un objeto del catálogo.</span><span class="sxs-lookup"><span data-stu-id="68f57-183">The user or group can modify the specific permissions for an object in the catalog.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303006"
 ---
-# <a name="property-object-reference-dao"></a><span data-ttu-id="367ac-102">Referencia de objeto de propiedad (DAO)</span><span class="sxs-lookup"><span data-stu-id="367ac-102">Property object reference (DAO)</span></span>
+# <a name="property-object-reference-dao"></a><span data-ttu-id="6bb08-102">Referencia de objeto de propiedad (DAO)</span><span class="sxs-lookup"><span data-stu-id="6bb08-102">Property object reference (DAO)</span></span>
 
-<span data-ttu-id="367ac-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="367ac-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6bb08-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6bb08-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="367ac-104">Objeto Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="367ac-104">Property object (DAO)</span></span>](property-object-dao.md)
-- [<span data-ttu-id="367ac-105">Miembros de la propiedad (DAO)</span><span class="sxs-lookup"><span data-stu-id="367ac-105">Property members (DAO)</span></span>](property-members-dao.md)
-- [<span data-ttu-id="367ac-106">Propiedades de propiedad (DAO)</span><span class="sxs-lookup"><span data-stu-id="367ac-106">Property properties (DAO)</span></span>](property-properties-dao.md)
+- [<span data-ttu-id="6bb08-104">Objeto Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="6bb08-104">Property object (DAO)</span></span>](property-object-dao.md)
+- [<span data-ttu-id="6bb08-105">Miembros de la propiedad (DAO)</span><span class="sxs-lookup"><span data-stu-id="6bb08-105">Property members (DAO)</span></span>](property-members-dao.md)
+- [<span data-ttu-id="6bb08-106">Propiedades de propiedad (DAO)</span><span class="sxs-lookup"><span data-stu-id="6bb08-106">Property properties (DAO)</span></span>](property-properties-dao.md)
 

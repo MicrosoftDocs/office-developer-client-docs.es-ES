@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302530"
 ---
-# <a name="window-management"></a><span data-ttu-id="64504-102">Administración de ventanas</span><span class="sxs-lookup"><span data-stu-id="64504-102">Window management</span></span>
+# <a name="window-management"></a><span data-ttu-id="6e993-102">Administración de ventanas</span><span class="sxs-lookup"><span data-stu-id="6e993-102">Window management</span></span>
 
-<span data-ttu-id="64504-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="64504-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6e993-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6e993-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="64504-104">CerrarVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="64504-104">CloseWindow macro action</span></span>](closewindow-macro-action.md)
-- [<span data-ttu-id="64504-105">MaximizarVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="64504-105">MaximizeWindow macro action</span></span>](maximizewindow-macro-action.md)
-- [<span data-ttu-id="64504-106">MinimizarVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="64504-106">MinimizeWindow macro action</span></span>](minimizewindow-macro-action.md)
-- [<span data-ttu-id="64504-107">MoverYCambiarTamañoDeVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="64504-107">MoveAndSizeWindow macro action</span></span>](moveandsizewindow-macro-action.md)
-- [<span data-ttu-id="64504-108">RestaurarVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="64504-108">RestoreWindow macro action</span></span>](restorewindow-macro-action.md)
+- [<span data-ttu-id="6e993-104">CerrarVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="6e993-104">CloseWindow macro action</span></span>](closewindow-macro-action.md)
+- [<span data-ttu-id="6e993-105">MaximizarVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="6e993-105">MaximizeWindow macro action</span></span>](maximizewindow-macro-action.md)
+- [<span data-ttu-id="6e993-106">MinimizarVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="6e993-106">MinimizeWindow macro action</span></span>](minimizewindow-macro-action.md)
+- [<span data-ttu-id="6e993-107">MoverYCambiarTamañoDeVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="6e993-107">MoveAndSizeWindow macro action</span></span>](moveandsizewindow-macro-action.md)
+- [<span data-ttu-id="6e993-108">RestaurarVentana (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="6e993-108">RestoreWindow macro action</span></span>](restorewindow-macro-action.md)
 
 

@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305918"
 ---
-# <a name="workspaceconnections-property-dao"></a><span data-ttu-id="e4745-102">Propiedad Workspace.Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="e4745-102">Workspace.Connections property (DAO)</span></span>
+# <a name="workspaceconnections-property-dao"></a><span data-ttu-id="7a463-102">Propiedad Workspace.Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="7a463-102">Workspace.Connections property (DAO)</span></span>
 
 
-<span data-ttu-id="e4745-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4745-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7a463-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a463-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e4745-104">Devuelve una colección **Connections** que representa las conexiones actuales del objeto **Workspace** especificado.</span><span class="sxs-lookup"><span data-stu-id="e4745-104">Returns a **Connections** collection that represents the current connections in the specified **Workspace**.</span></span> <span data-ttu-id="e4745-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e4745-105">Read-only.</span></span>
+<span data-ttu-id="7a463-p101">Devuelve una colección **Connections** que representa las conexiones actuales del objeto **Workspace** especificado. Es de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7a463-p101">Returns a **Connections** collection that represents the current connections in the specified **Workspace**. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e4745-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e4745-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7a463-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7a463-106">Syntax</span></span>
 
-<span data-ttu-id="e4745-107">*expresión* . Conexiones</span><span class="sxs-lookup"><span data-stu-id="e4745-107">*expression* .Connections</span></span>
+<span data-ttu-id="7a463-107">*expresión* . Conexiones</span><span class="sxs-lookup"><span data-stu-id="7a463-107">*expression* .Connections</span></span>
 
-<span data-ttu-id="e4745-108">*expression* Variable que representa un objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="e4745-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="7a463-108">*expression* Variable que representa un objeto **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="7a463-108">*expression* A variable that represents a **Workspace** object.</span></span>
 

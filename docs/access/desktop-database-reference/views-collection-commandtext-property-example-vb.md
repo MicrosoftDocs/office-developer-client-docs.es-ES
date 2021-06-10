@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de colección Views, propiedad CommandText (VB)
+title: Ejemplo de la propiedad Views Collection, CommandText (VB)
 TOCTitle: Views Collection, CommandText property example (VB)
 ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302782"
 ---
-# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="91436-102">Ejemplo de la propiedad CommandText, colección Views (VB)</span><span class="sxs-lookup"><span data-stu-id="91436-102">Views collection, CommandText property example (VB)</span></span>
+# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="65238-102">Ejemplo de la propiedad CommandText, colección Views (VB)</span><span class="sxs-lookup"><span data-stu-id="65238-102">Views collection, CommandText property example (VB)</span></span>
 
 
-<span data-ttu-id="91436-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="91436-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="65238-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="65238-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="91436-104">El código siguiente muestra cómo utilizar la propiedad [Comando](command-property-adox.md) para actualizar el texto de una vista.</span><span class="sxs-lookup"><span data-stu-id="91436-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
+<span data-ttu-id="65238-104">El código siguiente muestra cómo utilizar la propiedad [Comando](command-property-adox.md) para actualizar el texto de una vista.</span><span class="sxs-lookup"><span data-stu-id="65238-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
 
 ```vb 
  
