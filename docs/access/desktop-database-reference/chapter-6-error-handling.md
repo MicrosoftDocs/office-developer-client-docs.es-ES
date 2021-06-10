@@ -44,4 +44,4 @@ En las secciones siguientes, se describe cada uno de estos métodos de notificac
 - [Información de errores relacionados con campos](field-related-error-information.md)
 - [Información de errores relacionados con conjuntos de registros](recordset-related-error-information.md)
 - [Anticipación de errores](anticipating-errors.md)
-- [Control de errores en otros idiomas (ADO)](handling-errors-in-other-languages.md)
+- [Controlar errores en otros idiomas (ADO)](handling-errors-in-other-languages.md)

@@ -24,7 +24,7 @@ Al evento **ConnectComplete** se le llama después de que un conexión se *inici
 
 ConnectComplete *pError*, *adStatus*, *pConnection*
 
-Disconnect *adStatus*, *pConnection*
+Desconectar *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Parámetros
 

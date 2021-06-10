@@ -37,7 +37,7 @@ Representa un campo multivalor.
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></p></td>
-<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</p></td>
 </tr>
 </tbody>
 </table>

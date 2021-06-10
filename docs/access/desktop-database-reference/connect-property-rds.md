@@ -1,5 +1,5 @@
 ---
-title: Propiedad Connect (RDS)
+title: Conectar (RDS)
 TOCTitle: Connect property (RDS)
 ms:assetid: 11aa3284-18e9-6d2d-761b-c25090370b77
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248890(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295985"
 ---
-# <a name="connect-property-rds"></a>Propiedad Connect (RDS)
+# <a name="connect-property-rds"></a>Conectar (RDS)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -24,9 +24,9 @@ La propiedad **Connect** se puede establecer en tiempo de diseño en las etiquet
 
 ## <a name="syntax"></a>Sintaxis
 
-Tiempo de diseño: \< PARAM NAME="Connect" VALUE="ConnectionString"\>
+Tiempo de diseño: \< PARAM NAME="Conectar" VALUE="ConnectionString"\>
 
-Tiempo de ejecución: DataControl.Connect = "ConnectionString"
+Tiempo de ejecución: DataControl. Conectar = "ConnectionString"
 
 ## <a name="parameters"></a>Parámetros
 

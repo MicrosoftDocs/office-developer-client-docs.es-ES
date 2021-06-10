@@ -76,5 +76,5 @@ En este capítulo, se tratan los temas siguientes:
 - [Edición de registros existentes](editing-existing-records.md)
 - [Determinación de lo que es compatible](determining-what-is-supported.md)
 - [Eliminación de registros utilizando el método Delete](deleting-records-using-the-delete-method.md)
-- [Alternativas: uso de SQL instrucciones](alternatives-using-sql-statements.md)
-- [Adición de registros (ADO)](adding-records.md)
+- [Alternativas: usar SQL instrucciones](alternatives-using-sql-statements.md)
+- [Agregar registros (ADO)](adding-records.md)

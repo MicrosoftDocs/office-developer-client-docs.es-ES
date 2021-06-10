@@ -1,5 +1,5 @@
 ---
-title: Attributes (propiedad, ADOX)
+title: Propiedad Attributes (ADOX)
 TOCTitle: Attributes property (ADOX)
 ms:assetid: d5227b10-4a9b-5a57-d5ab-bbdd3e89aa95
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250072(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296951"
 ---
-# <a name="attributes-property-adox"></a>Attributes (propiedad, ADOX)
+# <a name="attributes-property-adox"></a>Propiedad Attributes (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

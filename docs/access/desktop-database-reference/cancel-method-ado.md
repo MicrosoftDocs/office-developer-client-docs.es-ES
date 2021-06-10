@@ -1,5 +1,5 @@
 ---
-title: Cancel (método, ADO)
+title: Método Cancel (ADO)
 TOCTitle: Cancel method (ADO)
 ms:assetid: 747edc04-a5cc-3631-2d0b-82e7e41a76b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249476(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296678"
 ---
-# <a name="cancel-method-ado"></a>Cancel (método, ADO)
+# <a name="cancel-method-ado"></a>Método Cancel (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -26,7 +26,7 @@ Cancela la ejecución de una llamada de método asincrónico pendiente.
 
 ## <a name="syntax"></a>Sintaxis
 
-*.* Cancelar
+*objeto*. Cancelar
 
 ## <a name="remarks"></a>Comentarios
 
@@ -64,7 +64,7 @@ Si el <em>objeto</em> es</p></th>
 <td><p><a href="open-method-ado-recordset.md">Open</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="stream-object-ado.md">Secuencia</a></p></td>
+<td><p><a href="stream-object-ado.md">Stream</a></p></td>
 <td><p><a href="open-method-ado-stream.md">Open</a></p></td>
 </tr>
 </tbody>

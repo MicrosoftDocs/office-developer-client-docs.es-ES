@@ -41,11 +41,11 @@ Un objeto Container agrupa juntos tipos similares de objetos Document.
 </tr>
 <tr class="even">
 <td><p><strong><a href="container-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Devuelve el nombre del objeto especificado. <strong>String</strong> de solo lectura.</p></td>
+<td><p>Devuelve el nombre del objeto especificado. Sólo lectura de la <strong>cadena</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="container-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 </tbody>
 </table>

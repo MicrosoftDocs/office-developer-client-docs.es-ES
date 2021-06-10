@@ -1,5 +1,5 @@
 ---
-title: ComplexType (objeto) (DAO)
+title: Objeto ComplexType (DAO)
 TOCTitle: ComplexType Object
 ms:assetid: fc9bdebe-e432-e530-6b1f-8680b9dfe870
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837211(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296041"
 ---
-# <a name="complextype-object-dao"></a>ComplexType (objeto) (DAO)
+# <a name="complextype-object-dao"></a>Objeto ComplexType (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

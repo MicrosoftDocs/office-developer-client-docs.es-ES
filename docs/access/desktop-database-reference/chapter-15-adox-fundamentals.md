@@ -26,7 +26,7 @@ Para utilizar ADOX con su herramienta de desarrollo, debe establecer una referen
 
 El Proveedor OLE DB de Microsoft para el motor de base de datos Microsoft Jet es totalmente compatible con ADOX. Es posible que algunas características de ADOX no sean compatibles, dependiendo de cuál sea su proveedor de datos. Para obtener más información acerca de las características compatibles con el Proveedor OLE DB de Microsoft para ODBC, el Proveedor OLE DB de Microsoft para Oracle o el Proveedor OLE DB de Microsoft para SQL Server, vea el archivo Léame de MDAC.
 
-En este documento se supone un conocimiento práctico del lenguaje de programación de Microsoft Visual Basic y un conocimiento general de ADO. Para obtener más información acerca de ADO, vea la guía del programador [de ADO.](ado-programmer-s-guide.md)
+Este documento supone un conocimiento práctico del lenguaje de programación Visual Basic Microsoft y un conocimiento general de ADO. Para obtener más información acerca de ADO, consulte la guía del [programador de ADO](ado-programmer-s-guide.md).
 
 En este capítulo se trata el siguiente tema:
 

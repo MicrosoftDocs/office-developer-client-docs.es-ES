@@ -1,5 +1,5 @@
 ---
-title: Propiedades BOF y EOF (ADO)
+title: Propiedades BOF, EOF (ADO)
 TOCTitle: BOF, EOF properties (ADO)
 ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296790"
 ---
-# <a name="bof-eof-properties-ado"></a>Propiedades BOF y EOF (ADO)
+# <a name="bof-eof-properties-ado"></a>Propiedades BOF, EOF (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

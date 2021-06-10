@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto connection (DAO)
+title: Referencia del objeto Connection (DAO)
 TOCTitle: Connection Object
 ms:assetid: f3041b87-8217-49b8-bee8-1998aa3ec3b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180067(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295873"
 ---
-# <a name="connection-object-reference-dao"></a>Referencia de objeto connection (DAO)
+# <a name="connection-object-reference-dao"></a>Referencia del objeto Connection (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

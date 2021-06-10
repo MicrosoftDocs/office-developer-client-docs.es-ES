@@ -21,5 +21,5 @@ ms.locfileid: "32295565"
 - [Colección Containers (DAO)](containers-collection-dao.md)
 - [Miembros de contenedores (DAO)](containers-members-dao.md)
 - [Propiedades de contenedores (DAO)](containers-properties-dao.md)
-- [Métodos de contenedores (DAO)](containers-methods-dao.md)
+- [Métodos containers (DAO)](containers-methods-dao.md)
 

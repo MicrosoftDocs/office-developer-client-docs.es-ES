@@ -27,7 +27,7 @@ Establece o devuelve un valor de tipo **String**.
 
 ## <a name="remarks"></a>Comentarios
 
-Utilice la **propiedad ConnectionString** para especificar un origen de datos pasando  una cadena de conexión detallada que contenga una serie de argumento *=* instrucciones de valor separadas por punto y coma.
+Use la **propiedad ConnectionString** para especificar un origen de datos pasando una cadena de conexión detallada que contenga una serie de instrucciones *argument* *= value* separadas por punto y coma.
 
 ADO admite cinco argumentos para la propiedad **ConnectionString**; todos los demás argumentos pasan directamente al proveedor sin que ADO los procese. Los argumentos admitidos por ADO son:
 
@@ -53,11 +53,11 @@ ADO admite cinco argumentos para la propiedad **ConnectionString**; todos los de
 </tr>
 <tr class="odd">
 <td><p><em>Remote Provider=</em></p></td>
-<td><p>Especifica el nombre de un proveedor que se debe usar al abrir una conexión del lado cliente. (Sólo con el Servicio de datos remotos, RDS.)</p></td>
+<td><p>Especifica el nombre del proveedor que se va a usar cuando se abre una conexión de cliente (sólo con el Servicio de datos remotos, RDS).</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Remote Server=</em></p></td>
-<td><p>Especifica el nombre de la ruta de acceso del servidor que se utilizará al abrir una conexión de cliente. (Sólo con el Servicio de datos remotos, RDS.)</p></td>
+<td><p>Especifica el nombre de la ruta de acceso del servidor que se utilizará al abrir una conexión de cliente (sólo con el Servicio de datos remotos, RDS).</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>URL=</em></p></td>
@@ -77,5 +77,5 @@ La propiedad **ConnectionString** es de lectura y escritura cuando está cerrada
 
 Se omiten los duplicados de un argumento en la propiedad **ConnectionString**. Se utiliza la última instancia de los argumentos.
 
-**Uso del servicio de datos remotos** Cuando se usa en un objeto **Connection** del lado cliente, la propiedad **ConnectionString** solo puede incluir los parámetros *proveedor* remoto y *servidor* remoto.
+**Uso del servicio de datos remotos** Cuando se usa en un objeto **Connection** del lado cliente, la **propiedad ConnectionString** solo puede incluir los parámetros *Proveedor* remoto y *Servidor* remoto.
 

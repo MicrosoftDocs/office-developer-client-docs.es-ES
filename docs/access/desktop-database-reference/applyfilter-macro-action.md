@@ -27,7 +27,7 @@ Puede usar la acción **AplicarFiltro** para aplicar un filtro, una consulta o u
 > [!NOTE]
 > [!NOTA] Puede usar esta acción para aplicar una cláusula WHERE de SQL cuando aplique un filtro de servidor. Un filtro de servidor no se puede aplicar a una fuente de registros de un procedimiento almacenado.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **AplicarFiltro** tiene los siguientes argumentos.
 
@@ -45,19 +45,19 @@ La acción **AplicarFiltro** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p>Nombre del filtro</p></td>
-<td><p>El nombre de un filtro o una consulta que restringe u ordena los registros de una tabla, un formulario o un informe. Puede escribir el nombre de una consulta existente o un filtro que se guardó como una consulta en el cuadro <strong>Nombre del filtro</strong> de la sección <strong>Argumentos de acciones</strong> del panel <strong>Generador de macros</strong>.  </p><p><strong>NOTA:</strong>Cuando se usa esta acción para aplicar un filtro de servidor, el argumento Nombre de filtro debe estar en blanco.</p></td>
+<td><p>El nombre de un filtro o una consulta que restringe u ordena los registros de una tabla, un formulario o un informe. Puede escribir el nombre de una consulta existente o un filtro que se guardó como una consulta en el cuadro <strong>Nombre del filtro</strong> de la sección <strong>Argumentos de acciones</strong> del panel <strong>Generador de macros</strong>.  </p><p><strong>NOTA:</strong>Cuando se usa esta acción para aplicar un filtro de servidor, el argumento Filter Name debe estar en blanco.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condición WHERE</p></td>
 <td><p>Una cláusula WHERE válida de SQL (sin la palabra WHERE) o una expresión que restringe los registros de la tabla, el formulario o el informe.</p>
-<p><b>NOTA:</b>en una expresión de argumento Where Condition, el lado izquierdo de la expresión normalmente contiene un nombre de campo de la tabla o consulta subyacente para el formulario o informe. The right side of the expression typically contains the criteria you want to apply to this field to restrict or sort the records. Por ejemplo, los criterios pueden ser el nombre de un control en otro formulario que contenga el valor con el que desea que coincidan los registros en el primer formulario. El nombre del control debe ser completo, por ejemplo:</p>
+<p><b>NOTA</b>: En una expresión de argumento Where Condition, el lado izquierdo de la expresión normalmente contiene un nombre de campo de la tabla o consulta subyacente para el formulario o informe. The right side of the expression typically contains the criteria you want to apply to this field to restrict or sort the records. Por ejemplo, los criterios pueden ser el nombre de un control en otro formulario que contenga el valor con el que desea que coincidan los registros en el primer formulario. El nombre del control debe ser completo, por ejemplo:</p>
 <p><strong>Forms</strong>! <em>formname</em>! <em>controlname</em> Los nombres de campo deben estar entre comillas dobles y los literales de cadena deben estar entre comillas simples. La longitud máxima del argumento Where Condition es de 255 caracteres. If you need to enter a longer SQL WHERE clause, use the <strong>ApplyFilter</strong> method of the <strong>DoCmd</strong> object in a Visual Basic for Applications (VBA) module. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Puede usar el argumento Filter Name si ya ha definido un filtro que proporciona los datos adecuados. El argumento WhereCondition puede usarlo para especificar directamente los criterios de restricción. Si usa ambos argumentos, Microsoft Office Access 2007 aplica la cláusula WHERE a los resultados del filtro. Debe usar uno o ambos argumentos.
+> Puede usar el argumento Nombre de filtro si ya ha definido un filtro que proporciona los datos adecuados. El argumento WhereCondition puede usarlo para especificar directamente los criterios de restricción. Si usa ambos argumentos, Microsoft Office Access 2007 aplica la cláusula WHERE a los resultados del filtro. Debe usar uno o ambos argumentos.
 
 ## <a name="remarks"></a>Comentarios
 

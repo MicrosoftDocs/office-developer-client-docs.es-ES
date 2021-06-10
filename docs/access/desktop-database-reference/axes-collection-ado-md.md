@@ -1,5 +1,5 @@
 ---
-title: Axes (colección) (ADO MD)
+title: Colección Axes (ADO MD)
 TOCTitle: Axes collection (ADO MD)
 ms:assetid: 7c719197-45f1-a5b9-665d-25cb693b1eb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296937"
 ---
-# <a name="axes-collection-ado-md"></a>Axes (colección) (ADO MD)
+# <a name="axes-collection-ado-md"></a>Colección Axes (ADO MD)
 
 
 **Se aplica a:** Access 2013, Office 2013

@@ -45,7 +45,9 @@ La acción **CopiarObjeto** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Base de datos de destino</strong></p></td>
-<td><p>Ruta de acceso y nombre de archivo válidos para la base de datos de destino. Escriba la ruta de acceso y el nombre de archivo en el cuadro <strong>Base de datos de destino</strong>, en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Deje este argumento en blanco si desea seleccionar la base de datos actual.</p><p><strong>NOTA:</strong>este argumento solo está disponible en el entorno de base de datos de Access. Cuando se usa esta acción en un entorno de proyecto de Access (.adp), el argumento Base de datos de destino debe estar en blanco.</p>
+<td><p>Ruta de acceso y nombre de archivo válidos para la base de datos de destino. Escriba la ruta de acceso y el nombre de archivo en el cuadro <strong>Base de datos de destino</strong>, en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Deje este argumento en blanco si desea seleccionar la base de datos actual. 
+
+</p><p><strong>NOTA:</strong>Este argumento solo está disponible en el entorno de base de datos de Access. Cuando se usa esta acción en un entorno de proyecto de Access (.adp), el argumento Base de datos de destino debe estar en blanco.</p>
 <p>Si se ejecuta una macro que contiene la acción <strong>CopiarObjeto</strong> en una base de datos de biblioteca y se deja este argumento en blanco, Microsoft Office Access 2007 copiará el objeto a la base de datos de biblioteca.</p></td>
 </tr>
 <tr class="even">

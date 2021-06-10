@@ -1,5 +1,5 @@
 ---
-title: Append (método, ADO)
+title: Método Append (ADO)
 TOCTitle: Append method (ADO)
 ms:assetid: cca133af-2b95-877d-0488-0d99631623f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250014(v=office.15)

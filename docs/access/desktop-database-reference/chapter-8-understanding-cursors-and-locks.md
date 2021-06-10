@@ -25,7 +25,7 @@ Numerosas funcionalidades del objeto **Recordset** de ADO están determinadas po
 En este capítulo, se tratan los temas siguientes:
 
 - [¿Qué es un cursor?](what-is-a-cursor.md)
-- [La importancia de la ubicación del cursor](the-significance-of-cursor-location.md)
+- [Importancia de la ubicación del cursor](the-significance-of-cursor-location.md)
 - [El servicio de cursores de Microsoft para OLE DB](the-microsoft-cursor-service-for-ole-db.md)
 - [Utilizar CacheSize](using-cachesize.md)
 - [Características de cursores y bloqueos](cursor-and-lock-characteristics.md)

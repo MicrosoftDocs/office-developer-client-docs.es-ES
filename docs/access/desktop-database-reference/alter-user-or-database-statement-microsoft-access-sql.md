@@ -41,7 +41,7 @@ La instrucción ALTER USER o DATABASE consta de los siguientes elementos:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>user</em></p></td>
+<td><p><em>usuario</em></p></td>
 <td><p>Nombre de un usuario que se agregará al archivo de información de grupo de trabajo.</p></td>
 </tr>
 <tr class="even">

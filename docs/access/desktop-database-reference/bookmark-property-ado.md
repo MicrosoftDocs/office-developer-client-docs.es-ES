@@ -1,5 +1,5 @@
 ---
-title: Bookmark (propiedad, ADO)
+title: Propiedad Bookmark (ADO)
 TOCTitle: Bookmark property (ADO)
 ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296797"
 ---
-# <a name="bookmark-property-ado"></a>Bookmark (propiedad, ADO)
+# <a name="bookmark-property-ado"></a>Propiedad Bookmark (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

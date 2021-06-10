@@ -1,5 +1,5 @@
 ---
-title: Count (propiedad, ADO)
+title: Propiedad Count (ADO)
 TOCTitle: Count property (ADO)
 ms:assetid: b59f9581-ffd1-471d-44fa-3c1bb812e140
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295474"
 ---
-# <a name="count-property-ado"></a>Count (propiedad, ADO)
+# <a name="count-property-ado"></a>Propiedad Count (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

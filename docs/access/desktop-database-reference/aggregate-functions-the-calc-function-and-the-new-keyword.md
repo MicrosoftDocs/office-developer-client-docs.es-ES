@@ -61,7 +61,8 @@ Un alias de capítulo puede ser completo y constar del nombre de columna de cada
 </tr>
 <tr class="odd">
 <td><p>ANY(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
-<td><p>Un valor de la columna especificada. ANY sólo tiene un valor predecible si el valor de la columna es el mismo para todas las filas del capítulo.</p><p><strong>NOTA:</strong>si la columna no contiene el mismo valor para todas las filas del capítulo, el comando SHAPE devuelve arbitrariamente uno de los valores para que sea el valor de la función ANY.</p></td>
+<td><p>Un valor de la columna especificada. ANY sólo tiene un valor predecible si el valor de la columna es el mismo para todas las filas del capítulo.
+</p><p><strong>NOTA</strong>: Si la columna no contiene el mismo valor para todas las filas del capítulo, el comando SHAPE devuelve arbitrariamente uno de los valores para ser el valor de la función ANY.</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +103,7 @@ Un alias de capítulo puede ser completo y constar del nombre de columna de cada
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NUEVO <em>tipo de campo</em> [( error<em>de</em>precisión  |  <em></em>  |  <em>de</em>  |  <em>escala de ancho</em> [, error <em>de</em>  |  <em>escala</em>])]</p></td>
+<td><p>NUEVO <em>tipo de campo</em> [( error<em>de</em>precisión  |  <em>de escala</em>  |  <em>de</em>  |  <em>ancho</em> [, error <em>de</em>  |  <em>escala</em>])]</p></td>
 <td><p>Agrega una columna vacía del tipo especificado al <strong>conjunto de registros</strong>.</p></td>
 </tr>
 </tbody>

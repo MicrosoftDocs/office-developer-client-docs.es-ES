@@ -22,7 +22,7 @@ Agrega un nuevo objeto [Key](key-object-adox.md) a la colección [Keys](keys-col
 
 ## <a name="syntax"></a>Sintaxis
 
-*Teclas*. Append *Key* \[ ,*KeyType* \] \[ ,*Column* \] \[ ,*RelatedTable* \] \[ ,*RelatedColumn*\]
+*Claves*. Append *Key* \[ ,*KeyType* \] \[ ,*Column* \] \[ ,*RelatedTable* \] \[ ,*RelatedColumn*\]
 
 ## <a name="parameters"></a>Parámetros
 

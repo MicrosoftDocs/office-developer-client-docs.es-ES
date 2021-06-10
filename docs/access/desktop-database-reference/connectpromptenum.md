@@ -38,17 +38,17 @@ Especifica si se debe mostrar un cuadro de diálogo para solicitar los parámetr
 <tbody>
 <tr class="odd">
 <td><p><strong>adPromptAlways</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Solicita información siempre.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPromptComplete</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Solicita más información si se necesita.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPromptCompleteRequired</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Solicita más información si se necesita, pero no se admiten parámetros opcionales.</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +60,7 @@ Especifica si se debe mostrar un cuadro de diálogo para solicitar los parámetr
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

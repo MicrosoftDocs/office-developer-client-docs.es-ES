@@ -27,5 +27,5 @@ Esta sección contiene una serie de temas que se pueden leer en un orden prescri
 - [Resumen del modelo de objetos de RDS](rds-object-model-summary.md)
 - [Escenario de RDS](rds-scenario.md)
 
-Esta sección también contiene el tutorial de [RDS](chapter-12-rds-tutorial.md) que muestra cómo obtener acceso a un origen de datos y actualizarlo, así como una serie de temas sobre el uso de [RDS,](chapter-13-rds-usage-and-security.md)en los que se tratan temas de RDS más avanzados.
+Esta sección también contiene el tutorial de [RDS](chapter-12-rds-tutorial.md) que muestra cómo obtener acceso y actualizar un origen de datos, y una serie de temas sobre el uso de [RDS](chapter-13-rds-usage-and-security.md), que trata temas de RDS más avanzados.
 

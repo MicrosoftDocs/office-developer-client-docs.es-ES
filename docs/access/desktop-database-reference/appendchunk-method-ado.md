@@ -1,5 +1,5 @@
 ---
-title: AppendChunk (método, ADO)
+title: Método AppendChunk (ADO)
 TOCTitle: AppendChunk method (ADO)
 ms:assetid: 3fa931a3-2cd7-a3b0-a750-40e18bc9937e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297028"
 ---
-# <a name="appendchunk-method-ado"></a>AppendChunk (método, ADO)
+# <a name="appendchunk-method-ado"></a>Método AppendChunk (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Anexa datos a un objeto [Field](field-object-ado.md) de texto o de datos binario
 
 ## <a name="syntax"></a>Sintaxis
 
-*.* Datos *appendChunk*
+*objeto.* Datos *AppendChunk*
 
 ## <a name="parameters"></a>Parámetros
 
@@ -46,7 +46,7 @@ Si no hay un registro actual cuando llama a **AppendChunk** en un objeto **Field
 > [!NOTE]
 > [!NOTA] El método **AppendChunk** no se ejecuta en los objetos **Field** de un objeto [Record](record-object-ado.md). No realiza ninguna operación y producirá un error de tiempo de ejecución.
 
-### <a name="parameters"></a>Parámetros
+### <a name="parameters"></a>Parameters
 
 Si el valor del bit **adParamLong** en la propiedad **Attributes** de un objeto **Parameter** está establecido en true, puede utilizar el método **AppendChunk** para ese parámetro.
 

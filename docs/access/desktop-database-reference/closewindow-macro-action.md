@@ -23,9 +23,9 @@ ms.locfileid: "32296293"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Puede usar la acción **CerrarVentana** para cerrar una ficha de documento de Access especificada o la ficha de documento activo si no se especifica ninguna.
+Puede usar la acción **CloseWindow** para cerrar una pestaña de documento de Access especificada o la ficha documento activo si no se especifica ninguna.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **CerrarVentana** tiene los siguientes argumentos.
 
@@ -43,7 +43,9 @@ La acción **CerrarVentana** tiene los siguientes argumentos.
 <tbody>
 <tr class="odd">
 <td><p><strong>Tipo de objeto</strong></p></td>
-<td><p>Tipo de objeto cuya ficha de documentos se desea cerrar. Haga clic en <strong>Tabla</strong>, <strong>Consulta</strong>, <strong>Formulario</strong>, <strong>Informe</strong>, <strong>Macro</strong>, <strong>Módulo</strong>, <strong>Página de acceso a datos</strong>, <strong>Vista de servidor</strong>, <strong>Diagrama</strong>, <strong>Procedimiento almacenado</strong> o <strong>Función</strong> en el cuadro <strong>Tipo de objeto</strong>, en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Para seleccionar la ficha de documentos activa, deje este argumento en blanco.</p>
+<td><p>Tipo de objeto cuya ficha de documentos se desea cerrar. Haga clic en <strong>Tabla</strong>, <strong>Consulta</strong>, <strong>Formulario</strong>, <strong>Informe</strong>, <strong>Macro</strong>, <strong>Módulo</strong>, <strong>Página de acceso a datos</strong>, <strong>Vista de servidor</strong>, <strong>Diagrama</strong>, <strong>Procedimiento almacenado</strong> o <strong>Función</strong> en el cuadro <strong>Tipo de objeto</strong>, en la sección <strong>Argumentos de acción</strong> del panel Generador de macros. Para seleccionar la ficha de documentos activa, deje este argumento en blanco. 
+
+</p>
 
 > [!NOTE]
 > Si desea cerrar un módulo en el Editor de Visual Basic, debe usar **Módulo** en el argumento **Tipo de objeto**.

@@ -23,9 +23,9 @@ Devuelve el número de objetos **[Connection](connection-object-dao.md)** de la 
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Count
+*expresión* . Recuento
 
-*expresión* Variable que representa un objeto **Connections.**
+*expresión* Variable que representa un **objeto Connections.**
 
 ## <a name="remarks"></a>Comentarios
 

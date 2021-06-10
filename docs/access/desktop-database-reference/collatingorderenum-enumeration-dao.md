@@ -126,7 +126,7 @@ Especifica la secuencia del criterio de ordenación de texto para la ordenación
 <td><p>Criterio de ordenación en sueco y finlandés con Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortEsish</p></td>
+<td><p>dbSortPolish</p></td>
 <td><p>1045</p></td>
 <td><p>Criterio de ordenación en polaco</p></td>
 </tr>

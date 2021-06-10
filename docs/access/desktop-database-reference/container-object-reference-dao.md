@@ -18,7 +18,7 @@ ms.locfileid: "32295628"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Objeto contenedor (DAO)](container-object-dao.md)
+- [Objeto Container (DAO)](container-object-dao.md)
 - [Miembros del contenedor (DAO)](container-members-dao.md)
 - [Propiedades de contenedor (DAO)](container-properties-dao.md)
 

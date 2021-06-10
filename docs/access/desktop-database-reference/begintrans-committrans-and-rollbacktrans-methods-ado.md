@@ -28,13 +28,13 @@ Estos métodos de transacción administran el procesamiento de las transacciones
 
 ## <a name="syntax"></a>Sintaxis
 
-*level*  =  *.* BeginTrans()
+*nivel*  =  *objeto*. BeginTrans()
 
-*.* BeginTrans
+*objeto*. BeginTrans
 
-*.* CommitTrans
+*objeto*. CommitTrans
 
-*.* RollbackTrans
+*objeto*. RollbackTrans
 
 ## <a name="return-value"></a>Valor devuelto
 

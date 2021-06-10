@@ -18,7 +18,7 @@ ms.locfileid: "32296398"
 
 **Se aplica a:** Access 2013, Office 2013
  
-Obtiene o establece un objeto **Chapter** de OLE DB de/en un objeto **ADORecordsetConstruction**. Cuando se usa **put \_ Chapter** para establecer el **objeto Chapter,** se convierte un subconjunto de filas en un objeto **Recordset** de ADO. De este modo, se establece el capítulo actual del objeto **Rowset**. Lectura y escritura.
+Obtiene o establece un objeto **Chapter** de OLE DB de/en un objeto **ADORecordsetConstruction**. Cuando se usa **put \_ Chapter** para establecer el **objeto Chapter,** un subconjunto de filas se convierte en un objeto **Recordset** de ADO. De este modo, se establece el capítulo actual del objeto **Rowset**. Lectura y escritura.
 
 ## <a name="syntax"></a>Sintaxis
 

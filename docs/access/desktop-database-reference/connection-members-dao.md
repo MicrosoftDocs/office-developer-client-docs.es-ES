@@ -74,7 +74,7 @@ ms.locfileid: "32295908"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="connection-connect-property-dao.md">Connect</a></strong></p></td>
+<td><p><strong><a href="connection-connect-property-dao.md">Conectar</a></strong></p></td>
 <td><p>Establece o devuelve un valor que proporciona información acerca del origen de una conexión abierta. <strong>String</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
@@ -111,7 +111,7 @@ ms.locfileid: "32295908"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de solo lectura.</p></td>
+<td><p>Devuelve un valor que indica si puede cambiar un objeto DAO. <strong>Boolean</strong> de solo lectura.</p></td>
 </tr>
 </tbody>
 </table>

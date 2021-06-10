@@ -38,8 +38,8 @@ Especifica a qué registros afecta una operación.
 <tbody>
 <tr class="odd">
 <td><p><strong>adAffectAll</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Si no existe ninguna propiedad <a href="filter-property-ado.md">Filter</a> aplicada al objeto <strong>Recordset</strong>, afecta a todos los registros. Si la <strong>propiedad Filter</strong> se establece en un criterio de cadena (como Author='Smith'), la operación afecta a los registros &quot; &quot; visibles del capítulo actual. Si la <strong>propiedad Filter</strong> se establece en un miembro de <a href="filtergroupenum.md">FilterGroupEnum</a> o una matriz de marcadores, la operación afectará a todas las filas del conjunto de <strong>registros</strong>.</p><p><strong>NOTA:</strong>adAffectAll está oculto en el explorador Visual Basic objetos.</p>
+<td><p>3</p></td>
+<td><p>Si no existe ninguna propiedad <a href="filter-property-ado.md">Filter</a> aplicada al objeto <strong>Recordset</strong>, afecta a todos los registros. Si la <strong>propiedad Filter</strong> se establece en un criterio de cadena (como Author='Smith'), la operación afecta a los registros &quot; &quot; visibles del capítulo actual. Si la <strong>propiedad Filter</strong> se establece en un miembro de <a href="filtergroupenum.md">FilterGroupEnum</a> o una matriz de marcadores, la operación afectará a todas las filas del <strong>objeto Recordset</strong>.</p><p><strong>NOTA:</strong>adAffectAll está oculto en el Visual Basic de objetos.</p>
 </td>
 </tr>
 <tr class="even">
@@ -49,12 +49,12 @@ Especifica a qué registros afecta una operación.
 </tr>
 <tr class="odd">
 <td><p><strong>adAffectCurrent</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Afecta sólo al registro actual.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAffectGroup</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Afecta únicamente a los registros que cumplen el valor actual de la propiedad <a href="filter-property-ado.md">Filter</a>. Para usar esta opción, debe establecer la propiedad <strong>Filter</strong> en un valor <strong>FilterGroupEnum</strong> o en una matriz de <strong>marcadores</strong>.</p></td>
 </tr>
 </tbody>

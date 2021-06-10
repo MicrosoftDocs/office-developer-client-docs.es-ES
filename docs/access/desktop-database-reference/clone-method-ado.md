@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296349"
 ---
-# <a name="clone-method-ado"></a>Clone (método, ADO)
+# <a name="clone-method-ado"></a>Método Clone (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -52,7 +52,7 @@ Sólo se puede duplicar un objeto **Recordset** que admite marcadores. Los valor
 
 Algunos de los eventos de **Recordset** también se desencadenan en todos los duplicados de **Recordset**. Sin embargo, dado que el registro actual puede diferir entre clonada **conjuntos de registros**, los eventos no sea válidos para el duplicado.
 
-Por ejemplo, si cambia un valor de un campo, se producirá un evento [WillChangeField](willchangefield-and-fieldchangecomplete-events-ado.md) en el **objeto Recordset** modificado y en todos los duplicados. El parámetro *Fields* del evento **WillChangeField** de un conjunto de registros clonado **(donde** no se realizó el cambio) simplemente hará referencia a los campos del registro actual del clon, que puede ser un registro diferente del registro actual del conjunto de registros **original** donde se produjo el cambio.
+Por ejemplo, si cambia un valor de un campo, se producirá un evento [WillChangeField](willchangefield-and-fieldchangecomplete-events-ado.md) en el **objeto Recordset** modificado y en todos los duplicados. El parámetro *Fields* del evento **WillChangeField** de un **objeto Recordset** clonado (donde no se realizó el cambio) se referirá simplemente a los campos del registro actual del clon, que puede ser un registro diferente al registro actual del objeto **Recordset** original donde se produjo el cambio.
 
 La siguiente tabla recoge una lista completa de todos los eventos de **conjunto de registros** y se indica si son válidas y desencadenadas para cualquier generados mediante el método **Clone** los duplicados de recordset.
 

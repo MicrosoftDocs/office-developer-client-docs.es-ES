@@ -22,16 +22,16 @@ Copia una entidad representada por un objeto **Record** en otra ubicación.
 
 ## <a name="syntax"></a>Sintaxis
 
-*Record*. CopyRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)
+*Grabar*. CopyRecord (*Source*, *Destination*, *UserName*, *Password*, *Options*, *Async*)
 
 ## <a name="parameters"></a>Parámetros
 
 |Parámetro|Descripción|
 |:--------|:----------|
 |*Source* |Es opcional. Valor de tipo **String** con la dirección URL que especifica la entidad que se va a copiar (por ejemplo, un archivo o directorio). Si se omite *Source* o especifica una cadena vacía, se copiará el archivo o directorio representado por el actual objeto [Record](record-object-ado.md).|
-|*Destination* |Es opcional. Valor de tipo **String** con la dirección URL que especifica la ubicación en la que se va a copiar *Source*.|
+|*Destino* |Es opcional. Valor de tipo **String** con la dirección URL que especifica la ubicación en la que se va a copiar *Source*.|
 |*UserName* |Es opcional. Valor de tipo **String** con el identificador de usuario que, en caso de que sea necesario, autoriza el acceso a *Destination*.|
-|*Password* |Opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, comprueba *UserName*.|
+|*Password* |Es opcional. Valor de tipo **String** con la contraseña que, en caso de que sea necesario, comprueba *UserName*.|
 |*Options* |Es opcional. Valor de [CopyRecordOptionsEnum](copyrecordoptionsenum.md) que tiene **adCopyUnspecified** como valor predeterminado. Especifica el comportamiento de este método.|
 |*Async* |Es opcional. Valor de tipo **Boolean** que, cuando es **True**, especifica que esta operación debe ser asincrónica.|
 
@@ -52,6 +52,6 @@ Este método genera un error si *Destination* identifica una entidad existente (
 
 
 > [!NOTE]
-> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas.](absolute-and-relative-urls.md)
+> [!NOTA] Las direcciones URL que utilizan el esquema http llamarán automáticamente a [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). Para obtener más información, vea [Direcciones URL absolutas y relativas](absolute-and-relative-urls.md).
 
 

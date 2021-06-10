@@ -19,7 +19,7 @@ ms.locfileid: "32295572"
 **Se aplica a:** Access 2013, Office 2013
 
 > [!NOTE]
-> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Una colección Connections contiene los objetos Connection actuales de un objeto Workspace (sólo áreas de trabajo de ODBCDirect).
+> [!NOTA] Las áreas de trabajo de ODBCDirect no se admiten en Microsoft Access 2013. Utilice ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access. Una colección Connections contiene los objetos Connection actuales de un objeto Workspace (solo áreas de trabajo ODBCDirect).
 
 ## <a name="methods"></a>Métodos
 

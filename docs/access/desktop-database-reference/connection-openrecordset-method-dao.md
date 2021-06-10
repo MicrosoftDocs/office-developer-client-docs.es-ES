@@ -26,7 +26,7 @@ Crea un nuevo objeto **[Recordset](recordset-object-dao.md)** y lo anexa a la co
 
 *expression* Variable que representa un objeto **Connection**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

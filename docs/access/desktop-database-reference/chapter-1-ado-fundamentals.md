@@ -24,5 +24,5 @@ En este capítulo, se tratan los temas siguientes:
 
 - [Qué se puede hacer con ADO](what-you-can-do-with-ado.md)
 - [Errores](errors.md)
-- [HelloData: una aplicación ADO simple (ADO)](hellodata-a-simple-ado-application.md)
+- [HelloData: una aplicación de ADO simple (ADO)](hellodata-a-simple-ado-application.md)
 - [Proveedores OLE DB (ADO)](ole-db-providers.md)

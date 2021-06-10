@@ -24,7 +24,7 @@ ms.locfileid: "32296776"
 
 Puede utilizar la acción **Explorar** para desplazarse entre objetos en su lugar. También puede cambiar el objeto de origen de un control de subformulario especificando el argumento Ruta de acceso al control de subformulario. Utilice la acción **Explorar** para desplazarse de formulario1 a formulario2 sin abrir una ventana nueva.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **Explorar** tiene el siguiente argumento.
 
@@ -80,7 +80,7 @@ En este ejemplo, el formulario principal es el formulario de nivel superior en l
 
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se muestra cómo usar la acción Examinar para abrir un informe en un control de subformulario o dentro de un control de navegación.
+En el ejemplo siguiente se muestra cómo usar la acción BrowseTo para abrir un informe en un control de subformulario o dentro de un control de navegación.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

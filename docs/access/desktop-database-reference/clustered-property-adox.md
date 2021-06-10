@@ -1,5 +1,5 @@
 ---
-title: Propiedad Clustered (ADOX)
+title: Propiedad agrupada (ADOX)
 TOCTitle: Clustered property (ADOX)
 ms:assetid: 60e82234-a21c-eec8-edbd-b9a339529e97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249354(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296286"
 ---
-# <a name="clustered-property-adox"></a>Propiedad Clustered (ADOX)
+# <a name="clustered-property-adox"></a>Propiedad agrupada (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013

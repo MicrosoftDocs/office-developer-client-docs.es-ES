@@ -1,5 +1,5 @@
 ---
-title: Attributes (propiedad, ADO)
+title: Propiedad Attributes (ADO)
 TOCTitle: Attributes property (ADO)
 ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249242(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296986"
 ---
-# <a name="attributes-property-ado"></a>Attributes (propiedad, ADO)
+# <a name="attributes-property-ado"></a>Propiedad Attributes (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

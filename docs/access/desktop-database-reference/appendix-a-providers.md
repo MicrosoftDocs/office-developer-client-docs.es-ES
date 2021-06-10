@@ -104,5 +104,5 @@ Para obtener más información acerca de los proveedores, vea la documentación 
 
 ## <a name="provider-commands"></a>Comandos de proveedor
 
-Para cada proveedor que se muestra aquí, si las aplicaciones permiten a los usuarios escribir instrucciones SQL como comandos del proveedor, siempre debe validar la entrada del usuario y estar atento a posibles ataques de hackers mediante una instrucción SQL potencialmente peligrosa, como, como parte de la entrada del usuario.
+Para cada proveedor que se muestra aquí, si las aplicaciones permiten a los usuarios escribir instrucciones SQL como comandos del proveedor, siempre debe validar la entrada del usuario y estar atento a posibles ataques de piratas informáticos mediante una instrucción SQL potencialmente peligrosa, como, como parte de la entrada del usuario.
 

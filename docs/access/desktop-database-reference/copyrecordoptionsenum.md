@@ -42,12 +42,12 @@ Especifica el comportamiento del método [CopyRecord](copyrecord-method-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adCopyNonRecursive</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Copia el directorio actual, pero ninguno de sus subdirectorios, en el destino. La operación de copia no es recursiva.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCopyOverWrite</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Sobrescribe el archivo o el directorio si el <em>Destino</em> apunta a un archivo o directorio existentes.</p></td>
 </tr>
 <tr class="even">

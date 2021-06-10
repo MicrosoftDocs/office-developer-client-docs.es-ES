@@ -26,7 +26,7 @@ Ejecuta una consulta de acciones o ejecuta una instrucción SQL en el objeto esp
 
 *expression* Variable que representa un objeto **Connection**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

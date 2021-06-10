@@ -35,13 +35,13 @@ Puede tener acceso a un valor del registro que se va a eliminar mediante la sigu
 
 `[Old].[Field Name]`
 
-Por ejemplo, para tener acceso al valor del campo QuantityInStock del registro que se va a eliminar, use la sintaxis siguiente:
+Por ejemplo, para obtener acceso al valor del campo QuantityInStock del registro que se va a eliminar, use la sintaxis siguiente:
 
 `[Old].[QuantityInStock]`
 
 Cuando finaliza el evento **Eliminación previa**, se eliminan permanentemente los valores contenidos en el registro que hay que eliminar.
 
-Puede cancelar el evento **Eliminación previa** mediante la acción **ProvocarError**. Cuando se genera un error, se descartan los cambios contenidos en el **evento Eliminación** previa.
+Puede cancelar el evento **Eliminación previa** mediante la acción **ProvocarError**. Cuando se genera un error, se descartan los cambios contenidos en el **evento Eliminar** antes.
 
 La siguiente tabla enumera los comandos de macro que pueden utilizarse en el evento **Eliminación previa**.
 
@@ -71,7 +71,7 @@ La siguiente tabla enumera los comandos de macro que pueden utilizarse en el eve
 </tr>
 <tr class="even">
 <td><p>Bloque de datos</p></td>
-<td><p><a href="lookuprecord-data-block.md">BuscarRegistro (acción de macro)</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Acción de macro LookupRecord</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Acción de datos</p></td>
@@ -101,5 +101,5 @@ Para crear una macro de datos que capture el evento **Eliminación previa**, uti
 
 1.  Abra la tabla en la que desee capturar el evento **Eliminación previa**.
 
-2.  En la **pestaña** Tabla, en el grupo **Eventos** previos, seleccione **Eliminar antes.**
+2.  En la **ficha Tabla,** en el grupo **Eventos anteriores,** seleccione **Antes de eliminar**.
 

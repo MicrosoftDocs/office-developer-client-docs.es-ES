@@ -21,7 +21,7 @@ ms.locfileid: "32296300"
 
 La acción **CerrarBaseDeDatos** puede usarse para cerrar la actual base de datos.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **CerrarBaseDeDatos** no tiene ningún argumento.
 
@@ -29,7 +29,7 @@ La acción **CerrarBaseDeDatos** no tiene ningún argumento.
 
   - Access no ejecuta ninguna acción que siga a la acción **CerrarBaseDeDatos** de una macro.
 
-  - Esta acción tiene el mismo efecto que hacer clic en **la** pestaña Archivo y, a continuación, en Cerrar base **de datos**. Si hay objetos abiertos que no se guardaron cuando ejecuta la acción **CerrarBaseDeDatos**, los cuadros de diálogo que aparecen son los mismos que los que se muestran al hacer clic en **Cerrar base de datos**.
+  - Esta acción tiene el mismo efecto que hacer clic en la **pestaña** Archivo y, a continuación, hacer clic **en Cerrar base de datos**. Si hay objetos abiertos que no se guardaron cuando ejecuta la acción **CerrarBaseDeDatos**, los cuadros de diálogo que aparecen son los mismos que los que se muestran al hacer clic en **Cerrar base de datos**.
 
   - Para ejecutar la acción **CerrarBaseDeDatos** en un módulo de Visual Basic para Aplicaciones (VBA), use el método **CloseDatabase** del objeto **DoCmd**.
 

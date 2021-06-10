@@ -69,11 +69,11 @@ Cuando se llama a un método en el *proxy* cliente, el programa real en el servi
 
 Si no utilizo [RDSServer.DataFactory](datafactory-object-rdsserver.md) en este tutorial, la forma más cómoda de realizar este paso sería utilizar el objeto [RDS.DataControl](datacontrol-object-rds.md). El objeto **RDS.DataControl** combina el paso anterior de crear un proxy con este paso que emite la consulta.
 
-1. Establezca **rds. Propiedad De servidor** [del](server-property-rds.md) objeto DataControl para identificar dónde se debe crear una instancia del programa de servidor.
+1. Establezca **rds. Propiedad Server del** [objeto](server-property-rds.md) DataControl para identificar dónde se debe crear una instancia del programa de servidor.
 
-2. Establezca la [propiedad Connect](connect-property-rds.md) para especificar la cadena de conexión para tener acceso al origen de datos.
+2. Establezca la [Conectar](connect-property-rds.md) para especificar la cadena de conexión para obtener acceso al origen de datos.
 
-3. Establezca la [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) propiedad para especificar el texto del comando de consulta. 
+3. Establezca la [propiedad SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) para especificar el texto del comando de consulta. 
 
 4. Emita [el método Refresh](refresh-method-rds.md) para que el programa de servidor se conecte al origen de datos, recupere las filas especificadas por la consulta y devuelva un objeto **Recordset** al cliente.
 
@@ -118,7 +118,7 @@ Sub RDSTutorial2B()
 ... 
 ```
 
-## <a name="step-3-server-obtains-a-recordset"></a>Paso 3: El servidor obtiene un conjunto de registros 
+## <a name="step-3-server-obtains-a-recordset"></a>Paso 3: El servidor obtiene un objeto Recordset 
 
 El programa servidor usa el texto del comando y la cadena de conexión para solicitar al origen de datos las filas deseadas. Normalmente, se utiliza ADO para recuperar este objeto **Recordset**, aunque también se podrían usar otras interfaces de acceso a datos de Microsoft, tales como OLE DB.
 
@@ -152,7 +152,7 @@ Sub RDSTutorial4()
 ... 
 ```
 
-## <a name="step-5-datacontrol-is-made-usable"></a>Paso 5: DataControl se puede obtener 
+## <a name="step-5-datacontrol-is-made-usable"></a>Paso 5: DataControl se puede hacer uso 
 
 El objeto **Recordset** devuelto está disponible para su uso. Puede examinarlo, navegar por él o editarlo como lo haría con cualquier otro objeto **Recordset**. Las operaciones que se pueden realizar con **Recordset** dependen del entorno disponible. Visual Basic y Visual C++ poseen controles visuales que pueden usar un objeto **Recordset** directa o indirectamente con la ayuda de un control de datos.
 
@@ -179,7 +179,7 @@ Sub RDSTutorial5()
 
 Si se modifica el objeto **Recordset**, cualquier cambio (es decir, filas que se agregan, modifican o eliminan) se puede enviar de nuevo al servidor.
 
-The default behavior of RDS can be invoked implicitly with ADO objects and the Microsoft OLE DB Remoting Provider. Las consultas pueden devolver **conjuntos de registros** y los conjuntos de registros **editados** pueden actualizar el origen de datos. Este tutorial no usa RDS con objetos ADO, pero, en caso de hacerlo, sería del siguiente modo:
+The default behavior of RDS can be invoked implicitly with ADO objects and the Microsoft OLE DB Remoting Provider. Las consultas pueden devolver **conjuntos de registros** y los conjuntos **de** registros editados pueden actualizar el origen de datos. Este tutorial no usa RDS con objetos ADO, pero, en caso de hacerlo, sería del siguiente modo:
 
 ```vb 
  
@@ -262,7 +262,7 @@ Por ejemplo, el objeto **RDS.DataControl** se crearía del siguiente modo:
 
 ### <a name="step-1-specify-a-server-program"></a>Paso 1: Especificar un programa de servidor
 
-VBScript puede detectar el nombre del servidor web de IIS en el que se está ejecutando mediante el acceso al método **Request.ServerVariables** de VBScript disponible para páginas Active Server:
+VBScript puede detectar el nombre del servidor web iis en el que se está ejecutando accediendo al método **Request.ServerVariables** de VBScript disponible para páginas Active Server:
 
 ```vb 
  
@@ -300,7 +300,7 @@ Sub RDSTutorial2A()
 ... 
 ```
 
-Vaya al paso siguiente.
+Vaya al siguiente paso.
 
 ### <a name="step-4-server-returns-the-recordset"></a>Paso 4: El servidor devuelve el conjunto de registros
 
@@ -309,7 +309,7 @@ Vaya al paso siguiente.
 Set RS = DF1.Query("DSN=Pubs;", "SELECT * FROM Authors") 
 ```
 
-### <a name="step-5-datacontrol-is-made-usable-by-visual-controls"></a>Paso 5: Los controles visuales pueden usar DataControl
+### <a name="step-5-datacontrol-is-made-usable-by-visual-controls"></a>Paso 5: DataControl se puede usar mediante controles visuales
 
 ```vb
  
@@ -356,7 +356,7 @@ End Sub
 </HTML> 
 ```
 
-## <a name="appendix-b-rds-tutorial-visual-j"></a>Apéndice B: Tutorial de RDS (Visual J++)
+## <a name="appendix-b-rds-tutorial-visual-j"></a>Apéndice B: tutorial de RDS (Visual J++)
 
 ADO/WFC no sigue completamente el modelo de objetos RDS, ya que no implementa el objeto [RDS.DataControl](datacontrol-object-rds.md). ADO/WFC sólo implementa la clase de la parte cliente, [RDS.DataSpace](dataspace-object-rds.md).
 

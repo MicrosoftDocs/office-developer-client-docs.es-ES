@@ -23,7 +23,7 @@ ms.locfileid: "32296524"
 - [ActiveConnection (propiedad)](activeconnection-property-ado-md.md)
 - [Colección Axes](axes-collection-ado-md.md)
 - [FilterAxis (propiedad)](filteraxis-property-ado-md.md)
-- [Propiedad Item (conjunto de celdas)](item-property-ado-md-cellset.md)
+- [Propiedad Item (Cellset)](item-property-ado-md-cellset.md)
 - [Properties (colección)](properties-collection-ado.md)
 - [Source (propiedad)](source-property-ado-md.md)
 - [State (propiedad)](state-property-ado-md.md)

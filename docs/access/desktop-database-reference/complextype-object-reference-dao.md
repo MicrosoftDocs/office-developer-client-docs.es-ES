@@ -18,7 +18,7 @@ ms.locfileid: "32296027"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [ComplexType (objeto) (DAO)](complextype-object-dao.md)
+- [Objeto ComplexType (DAO)](complextype-object-dao.md)
 - [Miembros complexType (DAO)](complextype-members-dao.md)
 - [Propiedades ComplexType (DAO)](complextype-properties-dao.md)
 

@@ -32,7 +32,7 @@ Vea los temas siguientes para obtener más información sobre la forma de datos:
 - [Acceso a las filas en conjuntos de registros jerárquicos](accessing-rows-in-a-hierarchical-recordset.md)
 - [Gramática de las formas formales](formal-shape-grammar.md)
 - [Funciones de Visual Basic para Aplicaciones](visual-basic-for-applications-functions.md)
-- [Cláusula Append de Shape (ADO)](shape-append-clause.md)
+- [Cláusula Shape Append (ADO)](shape-append-clause.md)
 - [Forma de datos (ADO)](data-shaping.md)
 - [Comandos Shape en general (ADO)](shape-commands-in-general.md)
 

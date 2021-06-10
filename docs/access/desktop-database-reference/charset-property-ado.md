@@ -1,5 +1,5 @@
 ---
-title: Charset (propiedad, ADO)
+title: Propiedad Charset (ADO)
 TOCTitle: Charset property (ADO)
 ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296391"
 ---
-# <a name="charset-property-ado"></a>Charset (propiedad, ADO)
+# <a name="charset-property-ado"></a>Propiedad Charset (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -23,7 +23,7 @@ Indica el juego de caracteres al que debe convertirse el contenido de un objeto 
 
 ## <a name="settings-and-return-values"></a>Configuración y valores devueltos
 
-Establece o devuelve un valor de tipo **String** que especifica el juego de caracteres al que se va a convertir el contenido del objeto **Stream**. El valor predeterminado es "Unicode". Los valores permitidos son cadenas típicas que se pasan a través de la interfaz como cadenas de juegos de caracteres de Internet (por ejemplo, "iso-8859-1", "Windows-1252", etc.). Para obtener una lista de las cadenas de juego de caracteres conocidas por un sistema, vea las subclaves de HKEY CLASSES ROOT MIME Database Charset en el Registro \_ \_ de \\ \\ \\ Windows.
+Establece o devuelve un valor de tipo **String** que especifica el juego de caracteres al que se va a convertir el contenido del objeto **Stream**. El valor predeterminado es "Unicode". Los valores permitidos son cadenas típicas que se pasan a través de la interfaz como cadenas de juegos de caracteres de Internet (por ejemplo, "iso-8859-1", "Windows-1252", etc.). Para obtener una lista de las cadenas de juego de caracteres conocidas por un sistema, vea las subclaves de HKEY CLASSES ROOT MIME Database Charset en el registro de Windows \_ \_ \\ \\ \\ caracteres.
 
 ## <a name="remarks"></a>Comentarios
 

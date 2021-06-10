@@ -19,7 +19,7 @@ ms.locfileid: "32295453"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En este ejemplo se muestra la propiedad [Count](count-property-ado.md) con dos colecciones en la base de datos ***Employees***. La propiedad obtiene el número de objetos de cada colección y establece el límite superior de los bucles que enumeran estas colecciones. Otra forma de enumerar estas colecciones sin usar la **propiedad Count** sería usar instrucciones.
+En este ejemplo se muestra la propiedad [Count](count-property-ado.md) con dos colecciones en la base de datos ***Employees***. La propiedad obtiene el número de objetos de cada colección y establece el límite superior de los bucles que enumeran estas colecciones. Otra forma de enumerar estas colecciones sin usar **la propiedad Count** sería usar instrucciones.
 
 ```cpp 
  

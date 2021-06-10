@@ -1,5 +1,5 @@
 ---
-title: Cellset (objeto, ADO MD)
+title: Objeto Cellset (ADO MD)
 TOCTitle: Cellset object (ADO MD)
 ms:assetid: 28d4b3b9-f907-9ec0-00e1-9666c887cdf0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249047(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296517"
 ---
-# <a name="cellset-object-ado-md"></a>Cellset (objeto, ADO MD)
+# <a name="cellset-object-ado-md"></a>Objeto Cellset (ADO MD)
 
 **Se aplica a:** Access 2013, Office 2013
 

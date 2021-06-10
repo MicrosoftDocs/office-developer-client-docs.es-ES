@@ -105,10 +105,10 @@ Name = UnitPrice</p></th>
 </table>
 
 
-En la siguiente sección se explica cómo ubicar la posición actual del cursor en este conjunto de registros de **ejemplo.**
+En la siguiente sección se explica cómo localizar la posición actual del cursor en este conjunto de **registros de ejemplo.**
 
 En este capítulo, se tratan los temas siguientes:
 
-- [Ubicación del registro actual (ADO)](locating-the-current-record.md)
+- [Localización del registro actual (ADO)](locating-the-current-record.md)
 - [Navegar por los datos (ADO)](navigating-through-the-data.md)
 - [Descripción de la estructura del conjunto de registros (ADO)](understanding-recordset-structure.md)

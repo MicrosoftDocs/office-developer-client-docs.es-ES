@@ -31,15 +31,15 @@ Una tabla de Microsoft Access puede contener hasta 32 índices. Las tablas muy c
 
 ## <a name="the-limittolist-property-of-combo-boxes"></a>La propiedad LimitToList de cuadros combinados
 
-En Microsoft Access 2002 o posterior, los cuadros combinados aceptan valores **Null** cuando la propiedad **LimitToList** está establecida en **True** (–1), independientemente de si la lista contiene o no valores **Null.** En la versión 2.0, un cuadro combinado que tuviera la propiedad **LimitToList** establecida en **True** no aceptaría un valor **Null** a menos que la lista contuviera un valor **Null**. Si se desea evitar que los usuarios indiquen un valor **Null** mediante un cuadro combinado, establezca la propiedad **Required** del campo de la tabla en **Yes**.
+En Microsoft Access 2002 o posterior, los cuadros combinados aceptan valores **Null** cuando la propiedad **LimitToList** se establece en **True** (–1), independientemente de si la lista contiene **valores Null.** En la versión 2.0, un cuadro combinado que tuviera la propiedad **LimitToList** establecida en **True** no aceptaría un valor **Null** a menos que la lista contuviera un valor **Null**. Si se desea evitar que los usuarios indiquen un valor **Null** mediante un cuadro combinado, establezca la propiedad **Required** del campo de la tabla en **Yes**.
 
-## <a name="menus-and-in-place-activation-of-ole-objects"></a>Menús y activación en contexto de objetos OLE
+## <a name="menus-and-in-place-activation-of-ole-objects"></a>Menús y activación local de objetos OLE
 
-Para que tenga a su disposición funciones adicionales al activar objetos OLE, es posible que algunos comandos de menú se hayan movido a un menú que no se ha reemplazado al activar un servidor OLE.
+Para que la funcionalidad adicional esté disponible al activar objetos OLE en su lugar, es posible que algunos comandos de menú se hayan movido a un menú que no se ha reemplazado al activar un servidor OLE.
 
 Las macros de la aplicación convertida que utilicen una acción EjecutarElementoMenú para ejecutar un comando de menú de la versión 2.0 al activar un servidor OLE, no se verán afectadas por los cambios. Los comandos de la versión 2.0 han sido relacionados con sus equivalentes de versiones posteriores de Microsoft Access.
 
-## <a name="referencing-a-control-on-a-read-only-form"></a>Hacer referencia a un control en un formulario de solo lectura
+## <a name="referencing-a-control-on-a-read-only-form"></a>Referencia a un control en un formulario de solo lectura
 
 En Microsoft Access 2002 o posterior, no es posible utilizar una expresión para hacer referencia al valor de un control en un formulario de sólo lectura que sea dependiente de un origen de registro en blanco. En las versiones anteriores, la expresión devolvería un valor **Null**. Antes de hacer referencia a un control en un formulario que sea de sólo lectura, debe asegurarse de que el origen del registro del formulario contiene registros.
 
@@ -47,7 +47,7 @@ En Microsoft Access 2002 o posterior, no es posible utilizar una expresión para
 
 Si se indica **3/3** en un campo de tipo Fecha en una hoja de datos de un formulario o una tabla, el año actual se agrega automáticamente en Microsoft Access 2002 o posterior. Sin embargo, si se indica **3/3/** en el mismo campo, Microsoft Access devolverá un mensaje de error. Debe omitir el último delimitador de la fecha de forma que Microsoft Access pueda traducir la fecha al formato adecuado.
 
-## <a name="buttons-created-with-the-command-button-wizard"></a>Botones creados con el Asistente para botones de comando
+## <a name="buttons-created-with-the-command-button-wizard"></a>Botones creados con el Asistente para botón de comando
 
 Si utilizó el Asistente para botones de comando en las versiones 2.0 o 7.0 de Microsoft Access para generar código que llama a otra aplicación, debe eliminar el botón y volver a crearlo usando el Asistente para botones de comando en Microsoft Access 2002 o posterior.
 
@@ -63,7 +63,7 @@ Para resolver este problema, reduzca el ancho de columna, el espacio entre colum
 
 ## <a name="cant-use-the-format-property-to-distinguish-null-values-and-zero-length-strings"></a>No se puede usar la propiedad Format para distinguir valores Null y cadenas de longitud cero
 
-En la versión 1. *x* y 2.0, puede usar la propiedad **Format** de un control para mostrar diferentes valores para valores **Null** y cadenas de longitud cero (" "). En Microsoft Access 2002 o posterior, para distinguir entre los valores **Null** y las cadenas de longitud cero en un control de un formulario, establezca la propiedad **ControlSource** del control en una expresión que compruebe el caso del valor **Null**. Por ejemplo, para mostrar "Null" o "ZLS" en un control, establezca su propiedad **ControlSource** en la siguiente expresión:
+En la versión 1. *x* y 2.0, puede usar la propiedad **Format** de un control para mostrar valores diferentes para valores **Null** y cadenas de longitud cero (" "). En Microsoft Access 2002 o posterior, para distinguir entre los valores **Null** y las cadenas de longitud cero en un control de un formulario, establezca la propiedad **ControlSource** del control en una expresión que compruebe el caso del valor **Null**. Por ejemplo, para mostrar "Null" o "ZLS" en un control, establezca su propiedad **ControlSource** en la siguiente expresión:
 
 `=IIf(IsNull([MyControl]), "Null", Format([MyControl], "@;ZLS"))`
 

@@ -1,5 +1,5 @@
 ---
-title: ChangePassword (método, ADOX)
+title: Método ChangePassword (ADOX)
 TOCTitle: ChangePassword method (ADOX)
 ms:assetid: 999826a5-3e6b-b6da-b8f6-d61b9a50ceca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249690(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296531"
 ---
-# <a name="changepassword-method-adox"></a>ChangePassword (método, ADOX)
+# <a name="changepassword-method-adox"></a>Método ChangePassword (ADOX)
 
 **Se aplica a:** Access 2013, Office 2013
 

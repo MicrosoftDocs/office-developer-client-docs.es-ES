@@ -26,7 +26,7 @@ ms.locfileid: "32295971"
 
 ## <a name="remarks"></a>Comentarios
 
-Use el **método Cancel** para finalizar la ejecución de una llamada asincrónica al método **Execute** o **OpenConnection** (es decir, el método se invocó con la opción dbRunAsync). **Cancel** devolverá un error en tiempo de ejecución si dbRunAsync no se usó en el método que está intentando finalizar.
+Use el **método Cancel** para finalizar la ejecución de una llamada asincrónica al método **Execute** o **OpenConnection** (es decir, el método se invocó con la opción dbRunAsync). **Cancel** devolverá un error en tiempo de ejecución si dbRunAsync no se usó en el método que estás intentando finalizar.
 
 Se producirá un error si, después de una llamada al método **Cancel**, intenta hacer referencia al objeto que debería haber sido creado por una llamada a **OpenConnection** asincrónica (es decir, el objeto **Connection** desde el que llamó al método **Cancel**).
 

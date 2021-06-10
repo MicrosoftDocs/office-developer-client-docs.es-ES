@@ -43,19 +43,19 @@ Especifica un marcador que indica dónde debe comenzar la operación.
 </tr>
 <tr class="even">
 <td><p><strong>adBookmarkFirst</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Comienza en el primer registro.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adBookmarkLast</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Comienza en el último registro.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

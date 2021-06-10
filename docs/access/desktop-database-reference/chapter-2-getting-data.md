@@ -39,4 +39,4 @@ En este capítulo, se tratan los temas siguientes:
 - [Crear una conexión](making-a-connection.md)
 - [Uso de la referencia de objeto de conexión (ADO)](using-the-connection-object-access.md)
 - [Uso de la referencia de objeto de comando (ADO)](using-the-command-object-access.md)
-- [Adición de datos a un conjunto de registros (ADO)](adding-data-to-a-recordset.md)
+- [Adición de datos a un objeto Recordset (ADO)](adding-data-to-a-recordset.md)

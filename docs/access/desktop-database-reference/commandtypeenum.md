@@ -43,12 +43,12 @@ Especifica cómo se debe interpretar un argumento de comando.
 </tr>
 <tr class="even">
 <td><p><strong>adCmdText</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Evalúa <a href="commandtext-property-ado.md">CommandText</a> como definición de texto de una llamada a un comando o procedimiento almacenado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdTable</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Evalúa <strong>CommandText</strong> como nombre de tabla cuyas columnas se devuelven todas mediante una consulta SQL generada internamente.</p></td>
 </tr>
 <tr class="even">

@@ -38,12 +38,12 @@ Especifica la posición relativa de dos registros representados por sus marcador
 <tbody>
 <tr class="odd">
 <td><p><strong>adCompareEqual</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indica que los marcadores son iguales.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCompareGreaterThan</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica que el primer marcador está después del segundo.</p></td>
 </tr>
 <tr class="odd">
@@ -58,14 +58,14 @@ Especifica la posición relativa de dos registros representados por sus marcador
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareNotEqual</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indica que los marcadores no son iguales y no están ordenados.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

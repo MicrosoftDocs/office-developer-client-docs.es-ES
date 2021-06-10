@@ -30,7 +30,7 @@ Crea un nuevo objeto **[QueryDef](querydef-object-dao.md)**.
 
 *expression* Variable que representa un objeto **Connection**.
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

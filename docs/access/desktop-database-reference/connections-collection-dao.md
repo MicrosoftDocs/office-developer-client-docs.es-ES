@@ -1,5 +1,5 @@
 ---
-title: Connections (colección) (DAO)
+title: Colección Connections (DAO)
 TOCTitle: Connections collection
 ms:assetid: 65d073be-a84b-e3f2-cb43-b87ffa60e497
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295789"
 ---
-# <a name="connections-collection-dao"></a>Connections (colección) (DAO)
+# <a name="connections-collection-dao"></a>Colección Connections (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 > [!NOTE]
 > No se admiten áreas de trabajo de ODBCDirect en Microsoft Access 2013. Use ADO si quiere acceder a orígenes de datos externos sin usar el motor de base de datos de Microsoft Access.
 
-Una **colección Connections** contiene los objetos **Connection** actuales de un objeto **Workspace** . (Sólo áreas de trabajo de ODBCDirect).
+Una colección **Connections** contiene los objetos **Connection** actuales de un objeto **Workspace** (sólo las áreas de trabajo de ODBCDirect).
 
 ## <a name="remarks"></a>Comentarios
 
@@ -35,7 +35,7 @@ El valor de la propiedad **Name** de un objeto **Connection** es una cadena que 
 
 - **Connections**("*name*")
 
-- **Conexiones** \! \[ *name*\]
+- **Conexiones** \! \[ *nombre*\]
 
 
 > [!NOTE]

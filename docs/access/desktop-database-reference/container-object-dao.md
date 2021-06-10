@@ -1,5 +1,5 @@
 ---
-title: Objeto contenedor (DAO)
+title: Objeto Container (DAO)
 TOCTitle: Container Object
 ms:assetid: 22e487cd-e966-fe68-fff3-c680b460cbeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295635"
 ---
-# <a name="container-object-dao"></a>Objeto contenedor (DAO)
+# <a name="container-object-dao"></a>Objeto Container (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 
@@ -74,7 +74,7 @@ Para hacer referencia a un objeto **Container** en una colecci√≥n mediante su n√
 
 - **Contenedores**("*nombre*")
 
-- **Contenedores** \! \[ *name*\]
+- **Contenedores** \! \[ *nombre*\]
 
 ## <a name="example"></a>Ejemplo
 

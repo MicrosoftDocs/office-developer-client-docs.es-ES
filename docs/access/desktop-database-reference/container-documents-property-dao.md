@@ -23,11 +23,11 @@ ms.locfileid: "32295663"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **Documents** que contiene todos los documentos almacenados en el objeto especificado. Solo lectura.
+Devuelve una colección **Documents** que contiene todos los documentos almacenados en el objeto especificado. Sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
 *expresión* . Documentos
 
-*expresión* Variable que representa un objeto **Container.**
+*expresión* Variable que representa un **objeto Container.**
 

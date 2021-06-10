@@ -38,18 +38,18 @@ Especifica los permisos disponibles para modificar datos en un objeto [Connectio
 <tbody>
 <tr class="odd">
 <td><p><strong>adModeRead</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indica permisos de sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeReadWrite</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indica permisos de lectura y escritura.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeRecursive</strong></p></td>
 <td><p>0x400000</p></td>
-<td><p>Se usa junto con los demás valores <em>*de ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>o <strong>adModeShareDenyRead</strong>) para propagar restricciones de uso compartido a todos los sub registros del registro actual <strong>.</strong> No se aplica si el <strong>Record</strong> no contiene ningún otro registro anidado.</p><p>Se genera un error en tiempo de ejecución si se utiliza sólo con <strong>adModeShareDenyNone</strong>. Sin embargo, se puede usar con <strong>adModeShareDenyNone</strong> cuando se combina con otros valores. Por ejemplo, puede usar &quot; <strong>adModeRead</strong> o <strong>adModeShareDenyNone</strong> o <strong>adModeRecursive</strong> &quot; .</p></td>
+<td><p>Se usa junto con los otros valores <em>*de ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>o <strong>adModeShareDenyRead</strong>) para propagar restricciones de uso compartido a todos los sub registros del registro <strong>actual</strong>. No se aplica si el <strong>Record</strong> no contiene ningún otro registro anidado.</p><p>Se genera un error en tiempo de ejecución si se utiliza sólo con <strong>adModeShareDenyNone</strong>. Sin embargo, se puede usar con <strong>adModeShareDenyNone</strong> cuando se combina con otros valores. Por ejemplo, puedes usar &quot; <strong>adModeRead</strong> o <strong>adModeShareDenyNone</strong> o <strong>adModeRecursive</strong> &quot; .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
@@ -78,7 +78,7 @@ Especifica los permisos disponibles para modificar datos en un objeto [Connectio
 </tr>
 <tr class="odd">
 <td><p><strong>adModeWrite</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indica permisos de sólo escritura.</p></td>
 </tr>
 </tbody>

@@ -57,4 +57,4 @@ En este capítulo, se tratan los temas siguientes:
 - [Flujos y persistencia](streams-and-persistence.md)
 - [Registros y campos proporcionados por el proveedor](records-and-provider-supplied-fields.md)
 - [Direcciones URL relativas y absolutas](absolute-and-relative-urls.md)
-- [Uso de ADO para la publicación en Internet (ADO)](using-ado-for-internet-publishing.md)
+- [Uso de ADO para publicación en Internet (ADO)](using-ado-for-internet-publishing.md)

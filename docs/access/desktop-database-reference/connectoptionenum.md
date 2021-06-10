@@ -50,7 +50,7 @@ Especifica si el método [Open](open-method-ado-connection.md) de un objeto [Con
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

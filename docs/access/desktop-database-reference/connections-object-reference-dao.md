@@ -18,8 +18,8 @@ ms.locfileid: "32295754"
 
 **Se aplica a:** Access 2013, Office 2013
 
-- [Connections (colección) (DAO)](connections-collection-dao.md)
-- [Connections (miembros) (DAO)](connections-members-dao.md)
+- [Colección Connections (DAO)](connections-collection-dao.md)
+- [Miembros de Connections (DAO)](connections-members-dao.md)
 - [Propiedades Connections (DAO)](connections-properties-dao.md)
 - [Métodos Connections (DAO)](connections-methods-dao.md)
 

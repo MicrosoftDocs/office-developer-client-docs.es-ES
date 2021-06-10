@@ -26,13 +26,13 @@ ms.locfileid: "32296377"
 
 Puede usar la acción **BorrarErrorDeMacro** para borrar la información acerca de un error que está almacenado en el objeto **ErrorDeMacro**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **BorrarErrorDeMacro** no tiene argumentos.
 
 ## <a name="remarks"></a>Comentarios
 
-- Cuando se produce un error en una macro, se almacena información sobre el error en el objeto **ErrorDeMacro**. Si no ha usado la acción **[AlocurrirError](onerror-macro-action.md)** para suprimir mensajes de error, la macro se detiene y la información de error se muestra en un mensaje de error estándar. Sin embargo, si  ha usado la acción AlocurrirError para suprimir mensajes de error, es posible que desee usar la información almacenada en el objeto **MacroError** en una condición o en un mensaje de error personalizado.
+- Cuando se produce un error en una macro, se almacena información sobre el error en el objeto **ErrorDeMacro**. Si no ha usado la acción **[OnError](onerror-macro-action.md)** para suprimir mensajes de error, la macro se detiene y la información de error se muestra en un mensaje de error estándar. Sin embargo, si ha usado la acción **OnError** para suprimir mensajes de error, es posible que desee usar la información almacenada en el **objeto MacroError** en una condición o en un mensaje de error personalizado.
     
   Una vez controlado un error, la información almacenada en el objeto **ErrorDeMacro** ya no está actualizada, por lo que se recomienda borrar el objeto mediante la acción **BorrarErrorDeMacro**. De este modo, se restablece en 0 el número de error almacenado en el objeto **ErrorDeMacro** y se borra cualquier otra información sobre el error que esté almacenada en el objeto, como la descripción del error, el nombre de la macro, el nombre de la acción, la condición y los argumentos. Esto permite volver a examinar más adelante el objeto **ErrorDeMacro** para comprobar si se ha producido otro error.
 
@@ -54,8 +54,8 @@ En la siguiente macro se usa la acción **AlOcurrirError** con el argumento **Si
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Action</p></th>
+<th><p>Condición</p></th>
+<th><p>Acción</p></th>
 <th><p>Argumentos</p></th>
 </tr>
 </thead>
@@ -68,7 +68,7 @@ En la siguiente macro se usa la acción **AlOcurrirError** con el argumento **Si
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nombre del formulario</strong>: Vista<strong>CategoryForm</strong>: <strong>Modo FormWindow</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nombre del formulario</strong>: CategoryForm<strong>View</strong>: <strong>FormWindow Mode</strong>: <strong>Normal</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -78,7 +78,7 @@ En la siguiente macro se usa la acción **AlOcurrirError** con el argumento **Si
 <tr class="even">
 <td><p>[MacroError]. [Número] &lt; &gt; 0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: = &quot; Error # &quot; &amp; [ErrorDeMacro].[ Number] &amp; &quot; on &quot; &amp; [MacroError].[ Acción &amp; &quot; ActionName]. &quot; <strong>Sonido</strong>: <strong>YesType</strong>: Información</p></td>
+<td><p><strong>Mensaje</strong>: = &quot; Error # &quot; &amp; [MacroError].[ Number] &amp; &quot; en &quot; &amp; [MacroError].[ ActionName] &amp; &quot; action. &quot; <strong>Beep</strong>: <strong>YesType</strong>: Information</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
