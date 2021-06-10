@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307668"
 ---
-# <a name="recordsetdatecreated-property-dao"></a><span data-ttu-id="04022-102">Propiedad Recordset.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="04022-102">Recordset.DateCreated property (DAO)</span></span>
+# <a name="recordsetdatecreated-property-dao"></a><span data-ttu-id="3d681-102">Propiedad Recordset.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="3d681-102">Recordset.DateCreated property (DAO)</span></span>
 
 
-<span data-ttu-id="04022-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="04022-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3d681-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3d681-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="04022-104">Devuelve la fecha y la hora en la que se creó una tabla base (sólo para áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="04022-104">Returns the date and time a base table was created (Microsoft Access workspaces only).</span></span> <span data-ttu-id="04022-105">**Variant** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="04022-105">Read-only **Variant**.</span></span>
+<span data-ttu-id="3d681-p101">Devuelve la fecha y la hora en la que se creó una tabla base (sólo para áreas de trabajo de Microsoft Access). **Variant** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3d681-p101">Returns the date and time a base table was created (Microsoft Access workspaces only). Read-only **Variant**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="04022-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="04022-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3d681-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3d681-106">Syntax</span></span>
 
-<span data-ttu-id="04022-107">*expresión* . DateCreated</span><span class="sxs-lookup"><span data-stu-id="04022-107">*expression* .DateCreated</span></span>
+<span data-ttu-id="3d681-107">*expresión* . DateCreated</span><span class="sxs-lookup"><span data-stu-id="3d681-107">*expression* .DateCreated</span></span>
 
-<span data-ttu-id="04022-108">*expression* Variable que representa un objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="04022-108">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="3d681-108">*expression* Variable que representa un objeto **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="3d681-108">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="04022-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="04022-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3d681-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3d681-109">Remarks</span></span>
 
-<span data-ttu-id="04022-110">Los valores de fecha y hora se derivan del equipo en el que se creó la tabla base o se realizó la última actualización.</span><span class="sxs-lookup"><span data-stu-id="04022-110">The date and time settings are derived from the computer on which the base table was created or last updated.</span></span>
+<span data-ttu-id="3d681-110">Los valores de fecha y hora se derivan del equipo en el que se creó la tabla base o se realizó la última actualización.</span><span class="sxs-lookup"><span data-stu-id="3d681-110">The date and time settings are derived from the computer on which the base table was created or last updated.</span></span>
 

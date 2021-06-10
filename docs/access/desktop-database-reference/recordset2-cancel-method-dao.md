@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307416"
 ---
-# <a name="recordset2cancel-method-dao"></a><span data-ttu-id="65579-102">Método Recordset2.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="65579-102">Recordset2.Cancel method (DAO)</span></span>
+# <a name="recordset2cancel-method-dao"></a><span data-ttu-id="6e9a7-102">Método Recordset2.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="6e9a7-102">Recordset2.Cancel method (DAO)</span></span>
 
 
-<span data-ttu-id="65579-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="65579-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6e9a7-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6e9a7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="65579-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="65579-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6e9a7-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="6e9a7-104">Syntax</span></span>
 
-<span data-ttu-id="65579-105">*expresión* . Cancelar</span><span class="sxs-lookup"><span data-stu-id="65579-105">*expression* .Cancel</span></span>
+<span data-ttu-id="6e9a7-105">*expresión* . Cancelar</span><span class="sxs-lookup"><span data-stu-id="6e9a7-105">*expression* .Cancel</span></span>
 
-<span data-ttu-id="65579-106">*expresión* Expresión que devuelve un objeto **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="65579-106">*expression* An expression that returns a **Recordset2** object.</span></span>
+<span data-ttu-id="6e9a7-106">*expresión* Expresión que devuelve un **objeto Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="6e9a7-106">*expression* An expression that returns a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="65579-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="65579-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6e9a7-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6e9a7-107">Remarks</span></span>
 
-<span data-ttu-id="65579-108">Use el **método Cancel** para finalizar la ejecución de una llamada asincrónica al método **Execute** o **OpenConnection** (es decir, el método se invocó con la opción dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="65579-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="65579-109">**Cancel** devolverá un error en tiempo de ejecución si dbRunAsync no se usó en el método que está intentando finalizar.</span><span class="sxs-lookup"><span data-stu-id="65579-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
+<span data-ttu-id="6e9a7-108">Use el **método Cancel** para finalizar la ejecución de una llamada asincrónica al método **Execute** o **OpenConnection** (es decir, el método se invocó con la opción dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="6e9a7-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="6e9a7-109">**Cancel** devolverá un error en tiempo de ejecución si dbRunAsync no se usó en el método que estás intentando finalizar.</span><span class="sxs-lookup"><span data-stu-id="6e9a7-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
 

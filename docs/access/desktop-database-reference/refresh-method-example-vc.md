@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309251"
 ---
-# <a name="refresh-method-example-vc"></a><span data-ttu-id="38b39-102">Ejemplo del método Refresh (VC++)</span><span class="sxs-lookup"><span data-stu-id="38b39-102">Refresh method example (VC++)</span></span>
+# <a name="refresh-method-example-vc"></a><span data-ttu-id="64f01-102">Ejemplo del método Refresh (VC++)</span><span class="sxs-lookup"><span data-stu-id="64f01-102">Refresh method example (VC++)</span></span>
 
 
-<span data-ttu-id="38b39-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38b39-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="64f01-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="64f01-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="38b39-104">En este ejemplo se muestra cómo utilizar el método [Refresh](refresh-method-ado.md) para actualizar la colección [Parameters](parameters-collection-ado.md) de un objeto [Command](command-object-ado.md) de un procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="38b39-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="64f01-104">En este ejemplo se muestra cómo utilizar el método [Refresh](refresh-method-ado.md) para actualizar la colección [Parameters](parameters-collection-ado.md) de un objeto [Command](command-object-ado.md) de un procedimiento almacenado.</span><span class="sxs-lookup"><span data-stu-id="64f01-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
 
 ```cpp 
  
@@ -239,7 +239,7 @@ void PrintComError(_com_error &e)
 // EndRefreshCpp 
 ```
 
-<span data-ttu-id="38b39-105">**RefreshX.h**</span><span class="sxs-lookup"><span data-stu-id="38b39-105">**RefreshX.h**</span></span>
+<span data-ttu-id="64f01-105">**RefreshX.h**</span><span class="sxs-lookup"><span data-stu-id="64f01-105">**RefreshX.h**</span></span>
 
 ```cpp 
  

@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307095"
 ---
-# <a name="relationfields-property-dao"></a><span data-ttu-id="596e1-102">Propiedad Relation.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="596e1-102">Relation.Fields property (DAO)</span></span>
+# <a name="relationfields-property-dao"></a><span data-ttu-id="295ee-102">Propiedad Relation.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="295ee-102">Relation.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="596e1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="596e1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="295ee-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="295ee-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="596e1-104">Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="596e1-104">Returns a **Fields** collection that represents all stored **Field** objects for the specified object.</span></span> <span data-ttu-id="596e1-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="596e1-105">Read-only.</span></span>
+<span data-ttu-id="295ee-p101">Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="295ee-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="596e1-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="596e1-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="295ee-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="295ee-106">Syntax</span></span>
 
-<span data-ttu-id="596e1-107">*expresión* . Campos</span><span class="sxs-lookup"><span data-stu-id="596e1-107">*expression* .Fields</span></span>
+<span data-ttu-id="295ee-107">*expresión* . Campos</span><span class="sxs-lookup"><span data-stu-id="295ee-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="596e1-108">*expresión* Variable que representa un **objeto Relation** .</span><span class="sxs-lookup"><span data-stu-id="596e1-108">*expression* A variable that represents a **Relation** object.</span></span>
+<span data-ttu-id="295ee-108">*expresión* Variable que representa un **objeto Relation.**</span><span class="sxs-lookup"><span data-stu-id="295ee-108">*expression* A variable that represents a **Relation** object.</span></span>
 

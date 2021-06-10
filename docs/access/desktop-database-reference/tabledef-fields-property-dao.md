@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308403"
 ---
-# <a name="tabledeffields-property-dao"></a><span data-ttu-id="0724a-102">Propiedad TableDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="0724a-102">TableDef.Fields property (DAO)</span></span>
+# <a name="tabledeffields-property-dao"></a><span data-ttu-id="d8a09-102">Propiedad TableDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="d8a09-102">TableDef.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="0724a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0724a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d8a09-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8a09-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0724a-104">Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="0724a-104">Returns a **Fields** collection that represents all stored **Field** objects for the specified object.</span></span> <span data-ttu-id="0724a-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="0724a-105">Read-only.</span></span>
+<span data-ttu-id="d8a09-p101">Devuelve una colección **Fields** que representa todos los objetos **Field** almacenados para el objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="d8a09-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0724a-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0724a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d8a09-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="d8a09-106">Syntax</span></span>
 
-<span data-ttu-id="0724a-107">*expresión* . Campos</span><span class="sxs-lookup"><span data-stu-id="0724a-107">*expression* .Fields</span></span>
+<span data-ttu-id="d8a09-107">*expresión* . Campos</span><span class="sxs-lookup"><span data-stu-id="d8a09-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="0724a-108">*expression* Variable que representa un objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="0724a-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="d8a09-108">*expression* Variable que representa un objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="d8a09-108">*expression* A variable that represents a **TableDef** object.</span></span>
 

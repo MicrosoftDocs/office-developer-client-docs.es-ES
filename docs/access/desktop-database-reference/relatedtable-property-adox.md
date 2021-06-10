@@ -1,5 +1,5 @@
 ---
-title: RelatedTable (propiedad, ADOX)
+title: Propiedad RelatedTable (ADOX)
 TOCTitle: RelatedTable property (ADOX)
 ms:assetid: e9e7fedb-d280-6018-2cbf-e7be6136a00c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250185(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309154"
 ---
-# <a name="relatedtable-property-adox"></a><span data-ttu-id="8c914-102">RelatedTable (propiedad, ADOX)</span><span class="sxs-lookup"><span data-stu-id="8c914-102">RelatedTable property (ADOX)</span></span>
+# <a name="relatedtable-property-adox"></a><span data-ttu-id="f4602-102">Propiedad RelatedTable (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f4602-102">RelatedTable property (ADOX)</span></span>
 
 
-<span data-ttu-id="8c914-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c914-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f4602-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f4602-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8c914-104">Indica el nombre de la tabla relacionada.</span><span class="sxs-lookup"><span data-stu-id="8c914-104">Indicates the name of the related table.</span></span>
+<span data-ttu-id="f4602-104">Indica el nombre de la tabla relacionada.</span><span class="sxs-lookup"><span data-stu-id="f4602-104">Indicates the name of the related table.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="8c914-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="8c914-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="f4602-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="f4602-105">Settings and return values</span></span>
 
-<span data-ttu-id="8c914-106">Establece y devuelve un valor **String**.</span><span class="sxs-lookup"><span data-stu-id="8c914-106">Sets and returns a **String** value.</span></span>
+<span data-ttu-id="f4602-106">Establece y devuelve un valor **String**.</span><span class="sxs-lookup"><span data-stu-id="f4602-106">Sets and returns a **String** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8c914-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8c914-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f4602-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f4602-107">Remarks</span></span>
 
-<span data-ttu-id="8c914-108">El valor predeterminado es una cadena vacía ("").</span><span class="sxs-lookup"><span data-stu-id="8c914-108">The default value is an empty string ("").</span></span>
+<span data-ttu-id="f4602-108">El valor predeterminado es una cadena vacía ("").</span><span class="sxs-lookup"><span data-stu-id="f4602-108">The default value is an empty string ("").</span></span>
 
-<span data-ttu-id="8c914-109">Si la clave es una externa, **RelatedTable** es el nombre de la tabla que contiene la clave.</span><span class="sxs-lookup"><span data-stu-id="8c914-109">If the key is a foreign key, then **RelatedTable** is the name of the table that contains the key.</span></span>
+<span data-ttu-id="f4602-109">Si la clave es una externa, **RelatedTable** es el nombre de la tabla que contiene la clave.</span><span class="sxs-lookup"><span data-stu-id="f4602-109">If the key is a foreign key, then **RelatedTable** is the name of the table that contains the key.</span></span>
 

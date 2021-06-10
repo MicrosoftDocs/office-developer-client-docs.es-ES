@@ -14,29 +14,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287741"
 ---
-# <a name="parentrow-property-ado"></a><span data-ttu-id="8f9dd-102">ParentRow (propiedad, ADO)</span><span class="sxs-lookup"><span data-stu-id="8f9dd-102">ParentRow property (ADO)</span></span>
+# <a name="parentrow-property-ado"></a><span data-ttu-id="d96c8-102">Propiedad ParentRow (ADO)</span><span class="sxs-lookup"><span data-stu-id="d96c8-102">ParentRow property (ADO)</span></span>
 
-<span data-ttu-id="8f9dd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8f9dd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d96c8-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d96c8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8f9dd-104">Establece el contenedor de un objeto **Row** de OLE DB en un objeto **ADORecordConstruction**, de modo que la página origen de la fila se convierta en un objeto **Record** de ADO.</span><span class="sxs-lookup"><span data-stu-id="8f9dd-104">Sets the container of an OLE DB **Row** object on an **ADORecordConstruction** object, so that the parent of the row is turned into an ADO **Record** object.</span></span>
+<span data-ttu-id="d96c8-104">Establece el contenedor de un objeto **Row** de OLE DB en un objeto **ADORecordConstruction**, de modo que la página origen de la fila se convierta en un objeto **Record** de ADO.</span><span class="sxs-lookup"><span data-stu-id="d96c8-104">Sets the container of an OLE DB **Row** object on an **ADORecordConstruction** object, so that the parent of the row is turned into an ADO **Record** object.</span></span>
 
-<span data-ttu-id="8f9dd-105">Sólo escritura.</span><span class="sxs-lookup"><span data-stu-id="8f9dd-105">Write-only.</span></span>
+<span data-ttu-id="d96c8-105">Sólo escritura.</span><span class="sxs-lookup"><span data-stu-id="d96c8-105">Write-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8f9dd-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8f9dd-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d96c8-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="d96c8-106">Syntax</span></span>
 
-<span data-ttu-id="8f9dd-107">HRESULT put \_ ParentRow( \[ in \] IUnknown \* pParent);</span><span class="sxs-lookup"><span data-stu-id="8f9dd-107">HRESULT put\_ParentRow(\[in\] IUnknown\* pParent);</span></span>
+<span data-ttu-id="d96c8-107">HRESULT put \_ ParentRow( \[ in \] IUnknown \* pParent);</span><span class="sxs-lookup"><span data-stu-id="d96c8-107">HRESULT put\_ParentRow(\[in\] IUnknown\* pParent);</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="8f9dd-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="8f9dd-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d96c8-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="d96c8-108">Parameters</span></span>
 
-|<span data-ttu-id="8f9dd-109">Parámetro</span><span class="sxs-lookup"><span data-stu-id="8f9dd-109">Parameter</span></span>|<span data-ttu-id="8f9dd-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="8f9dd-110">Description</span></span>|
+|<span data-ttu-id="d96c8-109">Parámetro</span><span class="sxs-lookup"><span data-stu-id="d96c8-109">Parameter</span></span>|<span data-ttu-id="d96c8-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="d96c8-110">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="8f9dd-111">*pParent*</span><span class="sxs-lookup"><span data-stu-id="8f9dd-111">*pParent*</span></span> |<span data-ttu-id="8f9dd-112">Contenedor de una fila.</span><span class="sxs-lookup"><span data-stu-id="8f9dd-112">A container of a row.</span></span>|
+|<span data-ttu-id="d96c8-111">*pParent*</span><span class="sxs-lookup"><span data-stu-id="d96c8-111">*pParent*</span></span> |<span data-ttu-id="d96c8-112">Contenedor de una fila.</span><span class="sxs-lookup"><span data-stu-id="d96c8-112">A container of a row.</span></span>|
 
-## <a name="return-values"></a><span data-ttu-id="8f9dd-113">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="8f9dd-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d96c8-113">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="d96c8-113">Return values</span></span>
 
-<span data-ttu-id="8f9dd-114">Este método de propiedad devuelve los valores HRESULT estándar, incluidos S \_ OK y E \_ FAIL.</span><span class="sxs-lookup"><span data-stu-id="8f9dd-114">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
+<span data-ttu-id="d96c8-114">Este método de propiedad devuelve los valores HRESULT estándar, incluidos S \_ OK y E \_ FAIL.</span><span class="sxs-lookup"><span data-stu-id="d96c8-114">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
 
-## <a name="applies-to"></a><span data-ttu-id="8f9dd-115">Se aplica a</span><span class="sxs-lookup"><span data-stu-id="8f9dd-115">Applies to</span></span>
+## <a name="applies-to"></a><span data-ttu-id="d96c8-115">Se aplica a</span><span class="sxs-lookup"><span data-stu-id="d96c8-115">Applies to</span></span>
 
-[<span data-ttu-id="8f9dd-116">ADORecordConstruction</span><span class="sxs-lookup"><span data-stu-id="8f9dd-116">ADORecordConstruction</span></span>](adorecordconstruction-interface-ado.md)
+[<span data-ttu-id="d96c8-116">ADORecordConstruction</span><span class="sxs-lookup"><span data-stu-id="d96c8-116">ADORecordConstruction</span></span>](adorecordconstruction-interface-ado.md)
 

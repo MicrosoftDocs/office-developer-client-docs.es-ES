@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308410"
 ---
-# <a name="tabledef-methods-dao"></a><span data-ttu-id="eee69-102">Métodos TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="eee69-102">TableDef methods (DAO)</span></span>
+# <a name="tabledef-methods-dao"></a><span data-ttu-id="50373-102">Métodos TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="50373-102">TableDef methods (DAO)</span></span>
 
-<span data-ttu-id="eee69-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eee69-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="50373-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50373-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="eee69-104">Método TableDef.CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="eee69-104">TableDef.CreateField method (DAO)</span></span>](tabledef-createfield-method-dao.md)
-- [<span data-ttu-id="eee69-105">Método TableDef.CreateIndex (DAO)</span><span class="sxs-lookup"><span data-stu-id="eee69-105">TableDef.CreateIndex method (DAO)</span></span>](tabledef-createindex-method-dao.md)
-- [<span data-ttu-id="eee69-106">Método TableDef.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="eee69-106">TableDef.CreateProperty method (DAO)</span></span>](tabledef-createproperty-method-dao.md)
-- [<span data-ttu-id="eee69-107">Método TableDef.OpenRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="eee69-107">TableDef.OpenRecordset method (DAO)</span></span>](tabledef-openrecordset-method-dao.md)
-- [<span data-ttu-id="eee69-108">Método TableDef.RefreshLink (DAO)</span><span class="sxs-lookup"><span data-stu-id="eee69-108">TableDef.RefreshLink method (DAO)</span></span>](tabledef-refreshlink-method-dao.md)
+- [<span data-ttu-id="50373-104">Método TableDef.CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="50373-104">TableDef.CreateField method (DAO)</span></span>](tabledef-createfield-method-dao.md)
+- [<span data-ttu-id="50373-105">Método TableDef.CreateIndex (DAO)</span><span class="sxs-lookup"><span data-stu-id="50373-105">TableDef.CreateIndex method (DAO)</span></span>](tabledef-createindex-method-dao.md)
+- [<span data-ttu-id="50373-106">Método TableDef.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="50373-106">TableDef.CreateProperty method (DAO)</span></span>](tabledef-createproperty-method-dao.md)
+- [<span data-ttu-id="50373-107">Método TableDef.OpenRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="50373-107">TableDef.OpenRecordset method (DAO)</span></span>](tabledef-openrecordset-method-dao.md)
+- [<span data-ttu-id="50373-108">Método TableDef.RefreshLink (DAO)</span><span class="sxs-lookup"><span data-stu-id="50373-108">TableDef.RefreshLink method (DAO)</span></span>](tabledef-refreshlink-method-dao.md)
 

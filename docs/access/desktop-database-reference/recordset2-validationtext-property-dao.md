@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309047"
 ---
-# <a name="recordset2validationtext-property-dao"></a><span data-ttu-id="887bf-102">Propiedad Recordset2.ValidationText (DAO)</span><span class="sxs-lookup"><span data-stu-id="887bf-102">Recordset2.ValidationText property (DAO)</span></span>
+# <a name="recordset2validationtext-property-dao"></a><span data-ttu-id="c4ca9-102">Propiedad Recordset2.ValidationText (DAO)</span><span class="sxs-lookup"><span data-stu-id="c4ca9-102">Recordset2.ValidationText property (DAO)</span></span>
 
 
-<span data-ttu-id="887bf-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="887bf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c4ca9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4ca9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="887bf-p101">Establece o devuelve un valor que especifica el texto del mensaje que su aplicación muestra si el valor de un objeto **Field** no satisface la regla de validación especificada por el valor de la propiedad **ValidationRule** (sólo para áreas de trabajo de Microsoft Access). **String** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="887bf-p101">Sets or returns a value that specifies the text of the message that your application displays if the value of a **Field** object doesn't satisfy the validation rule specified by the **ValidationRule** property setting (Microsoft Access workspaces only). Read-only **String**.</span></span>
+<span data-ttu-id="c4ca9-p101">Establece o devuelve un valor que especifica el texto del mensaje que su aplicación muestra si el valor de un objeto **Field** no satisface la regla de validación especificada por el valor de la propiedad **ValidationRule** (sólo para áreas de trabajo de Microsoft Access). **String** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="c4ca9-p101">Sets or returns a value that specifies the text of the message that your application displays if the value of a **Field** object doesn't satisfy the validation rule specified by the **ValidationRule** property setting (Microsoft Access workspaces only). Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="887bf-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="887bf-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c4ca9-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c4ca9-106">Syntax</span></span>
 
-<span data-ttu-id="887bf-107">*expresión* . ValidationText</span><span class="sxs-lookup"><span data-stu-id="887bf-107">*expression* .ValidationText</span></span>
+<span data-ttu-id="c4ca9-107">*expresión* . ValidationText</span><span class="sxs-lookup"><span data-stu-id="c4ca9-107">*expression* .ValidationText</span></span>
 
-<span data-ttu-id="887bf-108">*expresión* Variable que representa un objeto **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="887bf-108">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="c4ca9-108">*expresión* Variable que representa un **objeto Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="c4ca9-108">*expression* A variable that represents a **Recordset2** object.</span></span>
 

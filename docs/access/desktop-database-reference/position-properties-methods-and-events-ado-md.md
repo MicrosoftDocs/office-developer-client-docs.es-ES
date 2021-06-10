@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287555"
 ---
-# <a name="position-properties-methods-and-events-ado-md"></a><span data-ttu-id="5d50e-102">Propiedades de posición, métodos y eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="5d50e-102">Position properties, methods, and events (ADO MD)</span></span>
+# <a name="position-properties-methods-and-events-ado-md"></a><span data-ttu-id="c4b53-102">Propiedades de posición, métodos y eventos (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="c4b53-102">Position properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="5d50e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d50e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c4b53-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4b53-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="5d50e-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="5d50e-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="c4b53-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="c4b53-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="5d50e-105">Members (colección)</span><span class="sxs-lookup"><span data-stu-id="5d50e-105">Members collection</span></span>](members-collection-ado-md.md)
-- [<span data-ttu-id="5d50e-106">Propiedad Ordinal (Position)</span><span class="sxs-lookup"><span data-stu-id="5d50e-106">Ordinal property (Position)</span></span>](ordinal-property-ado-md-position.md)
+- [<span data-ttu-id="c4b53-105">Members (colección)</span><span class="sxs-lookup"><span data-stu-id="c4b53-105">Members collection</span></span>](members-collection-ado-md.md)
+- [<span data-ttu-id="c4b53-106">Propiedad Ordinal (Position)</span><span class="sxs-lookup"><span data-stu-id="c4b53-106">Ordinal property (Position)</span></span>](ordinal-property-ado-md-position.md)
 
-## <a name="methods"></a><span data-ttu-id="5d50e-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="5d50e-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="c4b53-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="c4b53-107">Methods</span></span>
 
-<span data-ttu-id="5d50e-108">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="5d50e-108">None.</span></span>
+<span data-ttu-id="c4b53-108">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="c4b53-108">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="5d50e-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="5d50e-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="c4b53-109">Eventos</span><span class="sxs-lookup"><span data-stu-id="c4b53-109">Events</span></span>
 
-<span data-ttu-id="5d50e-110">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="5d50e-110">None.</span></span>
+<span data-ttu-id="c4b53-110">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="c4b53-110">None.</span></span>
 

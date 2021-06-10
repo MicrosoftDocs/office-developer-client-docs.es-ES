@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287961"
 ---
-# <a name="parameters-collection-ado-reference"></a><span data-ttu-id="c2cac-102">Referencia de la colección Parameters (ADO)</span><span class="sxs-lookup"><span data-stu-id="c2cac-102">Parameters collection (ADO) reference</span></span>
+# <a name="parameters-collection-ado-reference"></a><span data-ttu-id="e0945-102">Referencia de la colección Parameters (ADO)</span><span class="sxs-lookup"><span data-stu-id="e0945-102">Parameters collection (ADO) reference</span></span>
 
-<span data-ttu-id="c2cac-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2cac-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e0945-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0945-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c2cac-104">Colección Parameters (ADO)</span><span class="sxs-lookup"><span data-stu-id="c2cac-104">Parameters collection (ADO)</span></span>](parameters-collection-ado.md)
-- [<span data-ttu-id="c2cac-105">Propiedades, métodos y eventos de la colección Parameters</span><span class="sxs-lookup"><span data-stu-id="c2cac-105">Parameters collection properties, methods, and events</span></span>](parameters-collection-properties-methods-and-events.md)
+- [<span data-ttu-id="e0945-104">Colección Parameters (ADO)</span><span class="sxs-lookup"><span data-stu-id="e0945-104">Parameters collection (ADO)</span></span>](parameters-collection-ado.md)
+- [<span data-ttu-id="e0945-105">Propiedades, métodos y eventos de la colección Parameters</span><span class="sxs-lookup"><span data-stu-id="e0945-105">Parameters collection properties, methods, and events</span></span>](parameters-collection-properties-methods-and-events.md)
 

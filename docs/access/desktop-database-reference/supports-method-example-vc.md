@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308459"
 ---
-# <a name="supports-method-example-vc"></a><span data-ttu-id="2c178-102">Ejemplo del método Supports (VC++)</span><span class="sxs-lookup"><span data-stu-id="2c178-102">Supports method example (VC++)</span></span>
+# <a name="supports-method-example-vc"></a><span data-ttu-id="433d2-102">Ejemplo del método Supports (VC++)</span><span class="sxs-lookup"><span data-stu-id="433d2-102">Supports method example (VC++)</span></span>
 
 
-<span data-ttu-id="2c178-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c178-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="433d2-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="433d2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2c178-p101">En este ejemplo se utiliza el método [Supports](supports-method-ado.md) para mostrar las opciones que admite un conjunto de registros que se ha abierto con diferentes tipos de cursor. Se requiere la función DisplaySupport para que este ejemplo pueda ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="2c178-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport function is required for this example to run.</span></span>
+<span data-ttu-id="433d2-p101">En este ejemplo se utiliza el método [Supports](supports-method-ado.md) para mostrar las opciones que admite un conjunto de registros que se ha abierto con diferentes tipos de cursor. Se requiere la función DisplaySupport para que este ejemplo pueda ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="433d2-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport function is required for this example to run.</span></span>
 
 ```cpp 
  

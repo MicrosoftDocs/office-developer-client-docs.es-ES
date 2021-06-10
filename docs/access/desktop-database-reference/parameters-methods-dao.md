@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287863"
 ---
-# <a name="parameters-methods-dao"></a><span data-ttu-id="cdca4-102">Métodos Parameters (DAO)</span><span class="sxs-lookup"><span data-stu-id="cdca4-102">Parameters methods (DAO)</span></span>
+# <a name="parameters-methods-dao"></a><span data-ttu-id="78684-102">Métodos Parameters (DAO)</span><span class="sxs-lookup"><span data-stu-id="78684-102">Parameters methods (DAO)</span></span>
 
-<span data-ttu-id="cdca4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cdca4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="78684-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="78684-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="cdca4-104">Método Parameters.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="cdca4-104">Parameters.Refresh method (DAO)</span></span>](parameters-refresh-method-dao.md)
+- [<span data-ttu-id="78684-104">Método Parameters.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="78684-104">Parameters.Refresh method (DAO)</span></span>](parameters-refresh-method-dao.md)
 

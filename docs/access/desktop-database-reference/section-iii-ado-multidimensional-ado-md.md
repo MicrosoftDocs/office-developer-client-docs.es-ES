@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308788"
 ---
-# <a name="section-iii-ado-multidimensional-ado-md"></a><span data-ttu-id="251dc-102">Sección III: ADO (multidimensional) (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="251dc-102">Section III: ADO (multidimensional) (ADO MD)</span></span>
+# <a name="section-iii-ado-multidimensional-ado-md"></a><span data-ttu-id="7d206-102">Sección III: ADO (multidimensional) (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="7d206-102">Section III: ADO (multidimensional) (ADO MD)</span></span>
 
-<span data-ttu-id="251dc-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="251dc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7d206-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d206-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="251dc-104">Esta sección contiene el capítulo siguiente:</span><span class="sxs-lookup"><span data-stu-id="251dc-104">This section contains the following chapter:</span></span>
+<span data-ttu-id="7d206-104">Esta sección contiene el capítulo siguiente:</span><span class="sxs-lookup"><span data-stu-id="7d206-104">This section contains the following chapter:</span></span>
 
-- [<span data-ttu-id="251dc-105">Capítulo 14: Conceptos básicos de ADO MD</span><span class="sxs-lookup"><span data-stu-id="251dc-105">Chapter 14: ADO MD fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
+- [<span data-ttu-id="7d206-105">Capítulo 14: Conceptos básicos de ADO MD</span><span class="sxs-lookup"><span data-stu-id="7d206-105">Chapter 14: ADO MD fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
 

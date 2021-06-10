@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308775"
 ---
-# <a name="section-iv-ado-extensions-for-data-definition-language-and-security-adox"></a><span data-ttu-id="5b12e-102">Sección IV: Extensiones de ADO para lenguaje de definición de datos y seguridad (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5b12e-102">Section IV: ADO extensions for data definition language and security (ADOX)</span></span>
+# <a name="section-iv-ado-extensions-for-data-definition-language-and-security-adox"></a><span data-ttu-id="b9bdb-102">Sección IV: Extensiones de ADO para lenguaje de definición de datos y seguridad (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b9bdb-102">Section IV: ADO extensions for data definition language and security (ADOX)</span></span>
 
-<span data-ttu-id="5b12e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5b12e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9bdb-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9bdb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5b12e-104">Esta sección contiene el capítulo siguiente:</span><span class="sxs-lookup"><span data-stu-id="5b12e-104">This section contains the following chapter:</span></span>
+<span data-ttu-id="b9bdb-104">Esta sección contiene el capítulo siguiente:</span><span class="sxs-lookup"><span data-stu-id="b9bdb-104">This section contains the following chapter:</span></span>
 
-- [<span data-ttu-id="5b12e-105">Capítulo 15: Conceptos básicos de ADOX</span><span class="sxs-lookup"><span data-stu-id="5b12e-105">Chapter 15: ADOX fundamentals</span></span>](chapter-15-adox-fundamentals.md)
+- [<span data-ttu-id="b9bdb-105">Capítulo 15: Conceptos básicos de ADOX</span><span class="sxs-lookup"><span data-stu-id="b9bdb-105">Chapter 15: ADOX fundamentals</span></span>](chapter-15-adox-fundamentals.md)
 

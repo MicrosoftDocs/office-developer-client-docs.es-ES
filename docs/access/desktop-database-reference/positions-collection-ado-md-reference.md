@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287520"
 ---
-# <a name="positions-collection-ado-md-reference"></a><span data-ttu-id="47fc0-102">Colección Positions (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="47fc0-102">Positions collection (ADO MD reference)</span></span>
+# <a name="positions-collection-ado-md-reference"></a><span data-ttu-id="ec696-102">Colección Positions (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ec696-102">Positions collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="47fc0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="47fc0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ec696-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec696-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="47fc0-104">Colección Positions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="47fc0-104">Positions collection (ADO MD)</span></span>](positions-collection-ado-md.md)
-- [<span data-ttu-id="47fc0-105">Propiedades, métodos y eventos de la colección Positions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="47fc0-105">Positions collection properties, methods, and events (ADO MD)</span></span>](positions-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="ec696-104">Colección Positions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ec696-104">Positions collection (ADO MD)</span></span>](positions-collection-ado-md.md)
+- [<span data-ttu-id="ec696-105">Propiedades, métodos y eventos de la colección Positions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ec696-105">Positions collection properties, methods, and events (ADO MD)</span></span>](positions-collection-properties-methods-and-events-ado-md.md)
 

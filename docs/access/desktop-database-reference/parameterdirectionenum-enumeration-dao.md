@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287995"
 ---
-# <a name="parameterdirectionenum-enumeration-dao"></a><span data-ttu-id="66228-102">Enumeración ParameterDirectionEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="66228-102">ParameterDirectionEnum enumeration (DAO)</span></span>
+# <a name="parameterdirectionenum-enumeration-dao"></a><span data-ttu-id="eceda-102">Enumeración ParameterDirectionEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="eceda-102">ParameterDirectionEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="66228-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="66228-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="eceda-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eceda-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="66228-104">Se utiliza con la propiedad **Direction** para especificar el tipo de un objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="66228-104">Used with the **Direction** property to specify the type for a **Parameter** object.</span></span>
+<span data-ttu-id="eceda-104">Se utiliza con la propiedad **Direction** para especificar el tipo de un objeto **Parameter**.</span><span class="sxs-lookup"><span data-stu-id="eceda-104">Used with the **Direction** property to specify the type for a **Parameter** object.</span></span>
 
 <table>
 <colgroup>
@@ -29,31 +29,31 @@ ms.locfileid: "32287995"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="66228-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="66228-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="66228-106">Valor</span><span class="sxs-lookup"><span data-stu-id="66228-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="66228-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="66228-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="eceda-105">Nombre</span><span class="sxs-lookup"><span data-stu-id="eceda-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="eceda-106">Valor</span><span class="sxs-lookup"><span data-stu-id="eceda-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="eceda-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="eceda-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="66228-108">dbParamInput</span><span class="sxs-lookup"><span data-stu-id="66228-108">dbParamInput</span></span></p></td>
-<td><p><span data-ttu-id="66228-109">1 </span><span class="sxs-lookup"><span data-stu-id="66228-109">1</span></span></p></td>
-<td><p><span data-ttu-id="66228-110">(Valor predeterminado) Pasa información al procedimiento.</span><span class="sxs-lookup"><span data-stu-id="66228-110">(Default) Passes information to the procedure.</span></span></p></td>
+<td><p><span data-ttu-id="eceda-108">dbParamInput</span><span class="sxs-lookup"><span data-stu-id="eceda-108">dbParamInput</span></span></p></td>
+<td><p><span data-ttu-id="eceda-109">1</span><span class="sxs-lookup"><span data-stu-id="eceda-109">1</span></span></p></td>
+<td><p><span data-ttu-id="eceda-110">(Valor predeterminado) Pasa información al procedimiento.</span><span class="sxs-lookup"><span data-stu-id="eceda-110">(Default) Passes information to the procedure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="66228-111">dbParamInputOutput</span><span class="sxs-lookup"><span data-stu-id="66228-111">dbParamInputOutput</span></span></p></td>
-<td><p><span data-ttu-id="66228-112">3 </span><span class="sxs-lookup"><span data-stu-id="66228-112">3</span></span></p></td>
-<td><p><span data-ttu-id="66228-113">Pasa información al procedimiento y desde el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="66228-113">Passes information both to and from the procedure.</span></span></p></td>
+<td><p><span data-ttu-id="eceda-111">dbParamInputOutput</span><span class="sxs-lookup"><span data-stu-id="eceda-111">dbParamInputOutput</span></span></p></td>
+<td><p><span data-ttu-id="eceda-112">3</span><span class="sxs-lookup"><span data-stu-id="eceda-112">3</span></span></p></td>
+<td><p><span data-ttu-id="eceda-113">Pasa información al procedimiento y desde el procedimiento.</span><span class="sxs-lookup"><span data-stu-id="eceda-113">Passes information both to and from the procedure.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="66228-114">dbParamOutput</span><span class="sxs-lookup"><span data-stu-id="66228-114">dbParamOutput</span></span></p></td>
-<td><p><span data-ttu-id="66228-115">2 </span><span class="sxs-lookup"><span data-stu-id="66228-115">2</span></span></p></td>
-<td><p><span data-ttu-id="66228-116">Devuelve información desde el procedimiento como parámetro de salida en SQL.</span><span class="sxs-lookup"><span data-stu-id="66228-116">Returns information from the procedure as an output parameter in SQL.</span></span></p></td>
+<td><p><span data-ttu-id="eceda-114">dbParamOutput</span><span class="sxs-lookup"><span data-stu-id="eceda-114">dbParamOutput</span></span></p></td>
+<td><p><span data-ttu-id="eceda-115">2</span><span class="sxs-lookup"><span data-stu-id="eceda-115">2</span></span></p></td>
+<td><p><span data-ttu-id="eceda-116">Devuelve información desde el procedimiento como parámetro de salida en SQL.</span><span class="sxs-lookup"><span data-stu-id="eceda-116">Returns information from the procedure as an output parameter in SQL.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="66228-117">dbParamReturnValue</span><span class="sxs-lookup"><span data-stu-id="66228-117">dbParamReturnValue</span></span></p></td>
-<td><p><span data-ttu-id="66228-118">4 </span><span class="sxs-lookup"><span data-stu-id="66228-118">4</span></span></p></td>
-<td><p><span data-ttu-id="66228-119">Pasa el valor devuelto desde un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="66228-119">Passes the return value from a procedure.</span></span></p></td>
+<td><p><span data-ttu-id="eceda-117">dbParamReturnValue</span><span class="sxs-lookup"><span data-stu-id="eceda-117">dbParamReturnValue</span></span></p></td>
+<td><p><span data-ttu-id="eceda-118">4 </span><span class="sxs-lookup"><span data-stu-id="eceda-118">4</span></span></p></td>
+<td><p><span data-ttu-id="eceda-119">Pasa el valor devuelto desde un procedimiento.</span><span class="sxs-lookup"><span data-stu-id="eceda-119">Passes the return value from a procedure.</span></span></p></td>
 </tr>
 </tbody>
 </table>

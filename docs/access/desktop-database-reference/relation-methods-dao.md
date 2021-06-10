@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307031"
 ---
-# <a name="relation-methods-dao"></a><span data-ttu-id="092b4-102">Métodos Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="092b4-102">Relation methods (DAO)</span></span>
+# <a name="relation-methods-dao"></a><span data-ttu-id="0dbe4-102">Métodos Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="0dbe4-102">Relation methods (DAO)</span></span>
 
-<span data-ttu-id="092b4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="092b4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0dbe4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0dbe4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="092b4-104">Método Relation.CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="092b4-104">Relation.CreateField method (DAO)</span></span>](relation-createfield-method-dao.md)
+- [<span data-ttu-id="0dbe4-104">Método Relation.CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="0dbe4-104">Relation.CreateField method (DAO)</span></span>](relation-createfield-method-dao.md)
 
