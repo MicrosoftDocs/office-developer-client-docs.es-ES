@@ -14,25 +14,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292555"
 ---
-# <a name="fields-collection-properties-methods-and-events"></a><span data-ttu-id="318fc-102">Propiedades, métodos y eventos de la colección Fields</span><span class="sxs-lookup"><span data-stu-id="318fc-102">Fields collection properties, methods, and events</span></span>
+# <a name="fields-collection-properties-methods-and-events"></a><span data-ttu-id="d375d-102">Propiedades, métodos y eventos de la colección Fields</span><span class="sxs-lookup"><span data-stu-id="d375d-102">Fields collection properties, methods, and events</span></span>
 
-<span data-ttu-id="318fc-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="318fc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d375d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d375d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="318fc-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="318fc-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="d375d-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="d375d-104">Properties</span></span>
 
-- [<span data-ttu-id="318fc-105">Propiedad Count</span><span class="sxs-lookup"><span data-stu-id="318fc-105">Count property</span></span>](count-property-ado.md)
-- [<span data-ttu-id="318fc-106">Item (propiedad)</span><span class="sxs-lookup"><span data-stu-id="318fc-106">Item property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="d375d-105">Propiedad Count</span><span class="sxs-lookup"><span data-stu-id="d375d-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="d375d-106">Item (propiedad)</span><span class="sxs-lookup"><span data-stu-id="d375d-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="318fc-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="318fc-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="d375d-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="d375d-107">Methods</span></span>
 
-- [<span data-ttu-id="318fc-108">Append (método)</span><span class="sxs-lookup"><span data-stu-id="318fc-108">Append method</span></span>](append-method-ado.md)
-- [<span data-ttu-id="318fc-109">CancelUpdate (método)</span><span class="sxs-lookup"><span data-stu-id="318fc-109">CancelUpdate method</span></span>](cancelupdate-method-ado.md)
-- [<span data-ttu-id="318fc-110">Método Delete (colección Fields de ADO)</span><span class="sxs-lookup"><span data-stu-id="318fc-110">Delete method (ADO Fields Collection)</span></span>](delete-method-ado-fields-collection.md)
-- [<span data-ttu-id="318fc-111">Refresh (método)</span><span class="sxs-lookup"><span data-stu-id="318fc-111">Refresh method</span></span>](refresh-method-ado.md)
-- [<span data-ttu-id="318fc-112">Resync (método)</span><span class="sxs-lookup"><span data-stu-id="318fc-112">Resync method</span></span>](resync-method-ado.md)
-- [<span data-ttu-id="318fc-113">Update (método)</span><span class="sxs-lookup"><span data-stu-id="318fc-113">Update method</span></span>](update-method-ado.md)
+- [<span data-ttu-id="d375d-108">Append (método)</span><span class="sxs-lookup"><span data-stu-id="d375d-108">Append method</span></span>](append-method-ado.md)
+- [<span data-ttu-id="d375d-109">CancelUpdate (método)</span><span class="sxs-lookup"><span data-stu-id="d375d-109">CancelUpdate method</span></span>](cancelupdate-method-ado.md)
+- [<span data-ttu-id="d375d-110">Método Delete (colección Fields de ADO)</span><span class="sxs-lookup"><span data-stu-id="d375d-110">Delete method (ADO Fields Collection)</span></span>](delete-method-ado-fields-collection.md)
+- [<span data-ttu-id="d375d-111">Refresh (método)</span><span class="sxs-lookup"><span data-stu-id="d375d-111">Refresh method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="d375d-112">Resync (método)</span><span class="sxs-lookup"><span data-stu-id="d375d-112">Resync method</span></span>](resync-method-ado.md)
+- [<span data-ttu-id="d375d-113">Update (método)</span><span class="sxs-lookup"><span data-stu-id="d375d-113">Update method</span></span>](update-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="318fc-114">Eventos</span><span class="sxs-lookup"><span data-stu-id="318fc-114">Events</span></span>
+## <a name="events"></a><span data-ttu-id="d375d-114">Eventos</span><span class="sxs-lookup"><span data-stu-id="d375d-114">Events</span></span>
 
-<span data-ttu-id="318fc-115">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="318fc-115">None.</span></span>
+<span data-ttu-id="d375d-115">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="d375d-115">None.</span></span>
 

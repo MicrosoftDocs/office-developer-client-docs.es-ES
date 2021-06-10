@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293087"
 ---
-# <a name="field-methods-dao"></a><span data-ttu-id="f7a9a-102">Métodos de Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a9a-102">Field methods (DAO)</span></span>
+# <a name="field-methods-dao"></a><span data-ttu-id="30af0-102">Métodos de Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="30af0-102">Field methods (DAO)</span></span>
 
-<span data-ttu-id="f7a9a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7a9a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="30af0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="30af0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f7a9a-104">Método Field.AppendChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a9a-104">Field.AppendChunk method (DAO)</span></span>](field-appendchunk-method-dao.md)
-- [<span data-ttu-id="f7a9a-105">Método Field.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a9a-105">Field.CreateProperty method (DAO)</span></span>](field-createproperty-method-dao.md)
-- [<span data-ttu-id="f7a9a-106">Método Field.GetChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a9a-106">Field.GetChunk method (DAO)</span></span>](field-getchunk-method-dao.md)
+- [<span data-ttu-id="30af0-104">Método Field.AppendChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="30af0-104">Field.AppendChunk method (DAO)</span></span>](field-appendchunk-method-dao.md)
+- [<span data-ttu-id="30af0-105">Método Field.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="30af0-105">Field.CreateProperty method (DAO)</span></span>](field-createproperty-method-dao.md)
+- [<span data-ttu-id="30af0-106">Método Field.GetChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="30af0-106">Field.GetChunk method (DAO)</span></span>](field-getchunk-method-dao.md)
 

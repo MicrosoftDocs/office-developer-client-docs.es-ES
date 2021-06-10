@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de error (DAO)
+title: Referencia de objeto error (DAO)
 TOCTitle: Error Object
 ms:assetid: 96cff172-964e-49bf-b83c-d56226a4d81a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125405(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293472"
 ---
-# <a name="error-object-reference-dao"></a><span data-ttu-id="53ddf-102">Referencia de objeto de error (DAO)</span><span class="sxs-lookup"><span data-stu-id="53ddf-102">Error object reference (DAO)</span></span>
+# <a name="error-object-reference-dao"></a><span data-ttu-id="2c1ea-102">Referencia de objeto error (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c1ea-102">Error object reference (DAO)</span></span>
 
-<span data-ttu-id="53ddf-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="53ddf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2c1ea-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c1ea-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="53ddf-104">Objeto Error (DAO)</span><span class="sxs-lookup"><span data-stu-id="53ddf-104">Error object (DAO)</span></span>](error-object-dao.md)
-- [<span data-ttu-id="53ddf-105">Miembros de error (DAO)</span><span class="sxs-lookup"><span data-stu-id="53ddf-105">Error members (DAO)</span></span>](error-members-dao.md)
-- [<span data-ttu-id="53ddf-106">Propiedades de error (DAO)</span><span class="sxs-lookup"><span data-stu-id="53ddf-106">Error properties (DAO)</span></span>](error-properties-dao.md)
+- [<span data-ttu-id="2c1ea-104">Objeto Error (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c1ea-104">Error object (DAO)</span></span>](error-object-dao.md)
+- [<span data-ttu-id="2c1ea-105">Miembros de error (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c1ea-105">Error members (DAO)</span></span>](error-members-dao.md)
+- [<span data-ttu-id="2c1ea-106">Propiedades de error (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c1ea-106">Error properties (DAO)</span></span>](error-properties-dao.md)
 

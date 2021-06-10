@@ -1,5 +1,5 @@
 ---
-title: Referencia de colección Errors (ADO)
+title: Referencia de la colección Errors (ADO)
 TOCTitle: Errors collection (ADO)
 ms:assetid: 08400de5-8113-4f53-a6ae-62010372f276
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248823(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293437"
 ---
-# <a name="errors-collection-ado-reference"></a><span data-ttu-id="a676a-102">Referencia de colección Errors (ADO)</span><span class="sxs-lookup"><span data-stu-id="a676a-102">Errors collection (ADO) reference</span></span>
+# <a name="errors-collection-ado-reference"></a><span data-ttu-id="08d6f-102">Referencia de la colección Errors (ADO)</span><span class="sxs-lookup"><span data-stu-id="08d6f-102">Errors collection (ADO) reference</span></span>
 
-<span data-ttu-id="a676a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a676a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="08d6f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="08d6f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a676a-104">Errors (colección, ADO)</span><span class="sxs-lookup"><span data-stu-id="a676a-104">Errors collection (ADO)</span></span>](errors-collection-ado.md)
-- [<span data-ttu-id="a676a-105">Propiedades, métodos y eventos de la colección Errors</span><span class="sxs-lookup"><span data-stu-id="a676a-105">Errors collection properties, methods, and events</span></span>](errors-collection-properties-methods-and-events.md)
+- [<span data-ttu-id="08d6f-104">Colección Errors (ADO)</span><span class="sxs-lookup"><span data-stu-id="08d6f-104">Errors collection (ADO)</span></span>](errors-collection-ado.md)
+- [<span data-ttu-id="08d6f-105">Propiedades, métodos y eventos de la colección Errors</span><span class="sxs-lookup"><span data-stu-id="08d6f-105">Errors collection properties, methods, and events</span></span>](errors-collection-properties-methods-and-events.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Referencia del objeto Documents (DAO)
+title: Referencia de objeto Documents (DAO)
 TOCTitle: Documents Object
 ms:assetid: 62d40d09-9083-4ddd-b08d-12e45092d029
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142217(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293717"
 ---
-# <a name="documents-object-reference-dao"></a><span data-ttu-id="943f0-102">Referencia del objeto Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="943f0-102">Documents object reference (DAO)</span></span>
+# <a name="documents-object-reference-dao"></a><span data-ttu-id="33fa9-102">Referencia de objeto Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="33fa9-102">Documents object reference (DAO)</span></span>
 
-<span data-ttu-id="943f0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="943f0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="33fa9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="33fa9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="943f0-104">Colección Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="943f0-104">Documents collection (DAO)</span></span>](documents-collection-dao.md)
-- [<span data-ttu-id="943f0-105">Miembros de Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="943f0-105">Documents members (DAO)</span></span>](documents-members-dao.md)
-- [<span data-ttu-id="943f0-106">Propiedades de documentos (DAO)</span><span class="sxs-lookup"><span data-stu-id="943f0-106">Documents properties (DAO)</span></span>](documents-properties-dao.md)
-- [<span data-ttu-id="943f0-107">Métodos Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="943f0-107">Documents methods (DAO)</span></span>](documents-methods-dao.md)
+- [<span data-ttu-id="33fa9-104">Colección Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="33fa9-104">Documents collection (DAO)</span></span>](documents-collection-dao.md)
+- [<span data-ttu-id="33fa9-105">Miembros de documentos (DAO)</span><span class="sxs-lookup"><span data-stu-id="33fa9-105">Documents members (DAO)</span></span>](documents-members-dao.md)
+- [<span data-ttu-id="33fa9-106">Propiedades documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="33fa9-106">Documents properties (DAO)</span></span>](documents-properties-dao.md)
+- [<span data-ttu-id="33fa9-107">Métodos Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="33fa9-107">Documents methods (DAO)</span></span>](documents-methods-dao.md)
 

@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292387"
 ---
-# <a name="find-method-example-vb"></a><span data-ttu-id="5ea8b-102">Ejemplo del método Find (VB)</span><span class="sxs-lookup"><span data-stu-id="5ea8b-102">Find method example (VB)</span></span>
+# <a name="find-method-example-vb"></a><span data-ttu-id="b2392-102">Ejemplo del método Find (VB)</span><span class="sxs-lookup"><span data-stu-id="b2392-102">Find method example (VB)</span></span>
 
 
-<span data-ttu-id="5ea8b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5ea8b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b2392-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b2392-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5ea8b-104">En este ejemplo se usa el método [Find](find-method-ado.md) del objeto [Recordset](recordset-object-ado.md) para localizar y contar el número de nombres de empresa en la base de datos ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="5ea8b-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="5ea8b-105">The example assumes the underlying provider does not support similar functionality.</span><span class="sxs-lookup"><span data-stu-id="5ea8b-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="b2392-p101">En este ejemplo se usa el método [Find](find-method-ado.md) del objeto [Recordset](recordset-object-ado.md) para localizar y contar el número de nombres de empresa en la base de datos ***Pubs***. En el ejemplo, se supone que el proveedor subyacente no admite una funcionalidad similar.</span><span class="sxs-lookup"><span data-stu-id="b2392-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database. The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```vb 
  

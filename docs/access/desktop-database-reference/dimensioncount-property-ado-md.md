@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293885"
 ---
-# <a name="dimensioncount-property-ado-md"></a><span data-ttu-id="01717-102">Propiedad DimensionCount (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="01717-102">DimensionCount property (ADO MD)</span></span>
+# <a name="dimensioncount-property-ado-md"></a><span data-ttu-id="f72fe-102">Propiedad DimensionCount (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f72fe-102">DimensionCount property (ADO MD)</span></span>
 
 
-<span data-ttu-id="01717-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="01717-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f72fe-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f72fe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="01717-104">Indica el número de dimensiones de un eje.</span><span class="sxs-lookup"><span data-stu-id="01717-104">Indicates the number of dimensions on an axis.</span></span>
+<span data-ttu-id="f72fe-104">Indica el número de dimensiones de un eje.</span><span class="sxs-lookup"><span data-stu-id="f72fe-104">Indicates the number of dimensions on an axis.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="01717-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="01717-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f72fe-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="f72fe-105">Return values</span></span>
 
-<span data-ttu-id="01717-106">Devuelve un entero **Long** y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="01717-106">Returns a **Long** integer, and is read-only.</span></span>
+<span data-ttu-id="f72fe-106">Devuelve un entero **Long** y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="f72fe-106">Returns a **Long** integer, and is read-only.</span></span>
 

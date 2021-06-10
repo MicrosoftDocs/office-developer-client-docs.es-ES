@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto de error (ADO)
+title: Referencia del objeto Error (ADO)
 TOCTitle: Error object (ADO)
 ms:assetid: 19c9300f-2005-4732-a62c-c95ac512eb43
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248942(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293493"
 ---
-# <a name="error-object-ado-reference"></a><span data-ttu-id="e203f-102">Referencia de objeto de error (ADO)</span><span class="sxs-lookup"><span data-stu-id="e203f-102">Error object (ADO) reference</span></span>
+# <a name="error-object-ado-reference"></a><span data-ttu-id="8262e-102">Referencia del objeto Error (ADO)</span><span class="sxs-lookup"><span data-stu-id="8262e-102">Error object (ADO) reference</span></span>
 
-<span data-ttu-id="e203f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e203f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8262e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8262e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e203f-104">Objeto Error (ADO)</span><span class="sxs-lookup"><span data-stu-id="e203f-104">Error object (ADO)</span></span>](error-object-ado.md)
-- [<span data-ttu-id="e203f-105">Propiedades, métodos y eventos de error (ADO)</span><span class="sxs-lookup"><span data-stu-id="e203f-105">Error properties, methods, and events (ADO)</span></span>](error-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="8262e-104">Objeto Error (ADO)</span><span class="sxs-lookup"><span data-stu-id="8262e-104">Error object (ADO)</span></span>](error-object-ado.md)
+- [<span data-ttu-id="8262e-105">Propiedades, métodos y eventos de error (ADO)</span><span class="sxs-lookup"><span data-stu-id="8262e-105">Error properties, methods, and events (ADO)</span></span>](error-properties-methods-and-events-ado.md)
 

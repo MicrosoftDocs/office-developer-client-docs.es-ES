@@ -1,5 +1,5 @@
 ---
-title: Miembros de Documents (DAO)
+title: Miembros de documentos (DAO)
 TOCTitle: Documents Members
 ms:assetid: 8d5ac520-28b5-744d-6e60-219ca48575c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197354(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293738"
 ---
-# <a name="documents-members-dao"></a><span data-ttu-id="de607-102">Miembros de Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="de607-102">Documents members (DAO)</span></span>
+# <a name="documents-members-dao"></a><span data-ttu-id="462bd-102">Miembros de documentos (DAO)</span><span class="sxs-lookup"><span data-stu-id="462bd-102">Documents members (DAO)</span></span>
 
 
-<span data-ttu-id="de607-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de607-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="462bd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="462bd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="de607-104">Una colección Documents contiene todos los objetos Document de un tipo de objeto específico (sólo bases de datos del motor de base de datos de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="de607-104">A Documents collection contains all of the Document objects for a specific type of object (Microsoft Access database engine databases only).</span></span>
+<span data-ttu-id="462bd-104">Una colección Documents contiene todos los objetos Document de un tipo de objeto específico (sólo bases de datos del motor de base de datos de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="462bd-104">A Documents collection contains all of the Document objects for a specific type of object (Microsoft Access database engine databases only).</span></span>
 
-## <a name="methods"></a><span data-ttu-id="de607-105">Métodos</span><span class="sxs-lookup"><span data-stu-id="de607-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="462bd-105">Métodos</span><span class="sxs-lookup"><span data-stu-id="462bd-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -30,20 +30,20 @@ ms.locfileid: "32293738"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="de607-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="de607-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="de607-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="de607-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="462bd-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="462bd-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="462bd-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="462bd-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="de607-108"><strong><a href="documents-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="de607-108"><strong><a href="documents-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="de607-109">Actualiza los objetos en la colección especificada para que reflejen el esquema actual de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="de607-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
+<td><p><span data-ttu-id="462bd-108"><strong><a href="documents-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="462bd-108"><strong><a href="documents-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="462bd-109">Actualiza los objetos en la colección especificada para que reflejen el esquema actual de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="462bd-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="de607-110">Propiedades</span><span class="sxs-lookup"><span data-stu-id="de607-110">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="462bd-110">Propiedades</span><span class="sxs-lookup"><span data-stu-id="462bd-110">Properties</span></span>
 
 <table>
 <colgroup>
@@ -52,14 +52,14 @@ ms.locfileid: "32293738"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="de607-111">Nombre</span><span class="sxs-lookup"><span data-stu-id="de607-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="de607-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="de607-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="462bd-111">Nombre</span><span class="sxs-lookup"><span data-stu-id="462bd-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="462bd-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="462bd-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="de607-113"><strong><a href="documents-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="de607-113"><strong><a href="documents-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="de607-114">Devuelve el número de objetos de la colección especificada.</span><span class="sxs-lookup"><span data-stu-id="de607-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="de607-115">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="de607-115">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="462bd-113"><strong><a href="documents-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="462bd-113"><strong><a href="documents-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="462bd-p101">Devuelve el número de objetos de la colección especificada. Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="462bd-p101">Returns the number of objects in the specified collection. Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

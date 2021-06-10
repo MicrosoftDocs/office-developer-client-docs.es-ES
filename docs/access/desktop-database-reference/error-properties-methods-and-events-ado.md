@@ -14,24 +14,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293458"
 ---
-# <a name="error-properties-methods-and-events-ado"></a><span data-ttu-id="d2c60-102">Propiedades, métodos y eventos de error (ADO)</span><span class="sxs-lookup"><span data-stu-id="d2c60-102">Error properties, methods, and events (ADO)</span></span>
+# <a name="error-properties-methods-and-events-ado"></a><span data-ttu-id="7e6af-102">Propiedades, métodos y eventos de error (ADO)</span><span class="sxs-lookup"><span data-stu-id="7e6af-102">Error properties, methods, and events (ADO)</span></span>
 
-<span data-ttu-id="d2c60-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2c60-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7e6af-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e6af-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="d2c60-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="d2c60-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="7e6af-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="7e6af-104">Properties</span></span>
 
-- [<span data-ttu-id="d2c60-105">Description (propiedad)</span><span class="sxs-lookup"><span data-stu-id="d2c60-105">Description property</span></span>](description-property-ado.md)
-- [<span data-ttu-id="d2c60-106">HelpContext y HelpFile (propiedades)</span><span class="sxs-lookup"><span data-stu-id="d2c60-106">HelpContext, HelpFile properties</span></span>](helpcontext-helpfile-properties-ado.md)
-- [<span data-ttu-id="d2c60-107">NativeError (propiedad)</span><span class="sxs-lookup"><span data-stu-id="d2c60-107">NativeError property</span></span>](nativeerror-property-ado.md)
-- [<span data-ttu-id="d2c60-108">Number (propiedad)</span><span class="sxs-lookup"><span data-stu-id="d2c60-108">Number property</span></span>](number-property-ado.md)
-- [<span data-ttu-id="d2c60-109">Source (propiedad, Error de ADO)</span><span class="sxs-lookup"><span data-stu-id="d2c60-109">Source property (ADO Error)</span></span>](source-property-ado-error.md)
-- [<span data-ttu-id="d2c60-110">SQLState (propiedad)</span><span class="sxs-lookup"><span data-stu-id="d2c60-110">SQLState property</span></span>](sqlstate-property-ado.md)
+- [<span data-ttu-id="7e6af-105">Description (propiedad)</span><span class="sxs-lookup"><span data-stu-id="7e6af-105">Description property</span></span>](description-property-ado.md)
+- [<span data-ttu-id="7e6af-106">HelpContext y HelpFile (propiedades)</span><span class="sxs-lookup"><span data-stu-id="7e6af-106">HelpContext, HelpFile properties</span></span>](helpcontext-helpfile-properties-ado.md)
+- [<span data-ttu-id="7e6af-107">NativeError (propiedad)</span><span class="sxs-lookup"><span data-stu-id="7e6af-107">NativeError property</span></span>](nativeerror-property-ado.md)
+- [<span data-ttu-id="7e6af-108">Number (propiedad)</span><span class="sxs-lookup"><span data-stu-id="7e6af-108">Number property</span></span>](number-property-ado.md)
+- [<span data-ttu-id="7e6af-109">Source (propiedad, Error de ADO)</span><span class="sxs-lookup"><span data-stu-id="7e6af-109">Source property (ADO Error)</span></span>](source-property-ado-error.md)
+- [<span data-ttu-id="7e6af-110">SQLState (propiedad)</span><span class="sxs-lookup"><span data-stu-id="7e6af-110">SQLState property</span></span>](sqlstate-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="d2c60-111">Métodos</span><span class="sxs-lookup"><span data-stu-id="d2c60-111">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="7e6af-111">Métodos</span><span class="sxs-lookup"><span data-stu-id="7e6af-111">Methods</span></span>
 
-<span data-ttu-id="d2c60-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="d2c60-112">None.</span></span>
+<span data-ttu-id="7e6af-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="7e6af-112">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="d2c60-113">Eventos</span><span class="sxs-lookup"><span data-stu-id="d2c60-113">Events</span></span>
+## <a name="events"></a><span data-ttu-id="7e6af-113">Eventos</span><span class="sxs-lookup"><span data-stu-id="7e6af-113">Events</span></span>
 
-<span data-ttu-id="d2c60-114">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="d2c60-114">None.</span></span>
+<span data-ttu-id="7e6af-114">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="7e6af-114">None.</span></span>
 

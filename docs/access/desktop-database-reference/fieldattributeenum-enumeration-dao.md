@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292639"
 ---
-# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="16375-102">Enumeración FieldAttributeEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="16375-102">FieldAttributeEnum enumeration (DAO)</span></span>
+# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="3a688-102">Enumeración FieldAttributeEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="3a688-102">FieldAttributeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="16375-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16375-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3a688-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3a688-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="16375-104">Por determinar</span><span class="sxs-lookup"><span data-stu-id="16375-104">TBD</span></span>
+<span data-ttu-id="3a688-104">Por determinar</span><span class="sxs-lookup"><span data-stu-id="3a688-104">TBD</span></span>
 

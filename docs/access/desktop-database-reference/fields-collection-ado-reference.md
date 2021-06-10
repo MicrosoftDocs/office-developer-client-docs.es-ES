@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292569"
 ---
-# <a name="fields-collection-ado-reference"></a><span data-ttu-id="6eb53-102">Referencia de colección Fields (ADO)</span><span class="sxs-lookup"><span data-stu-id="6eb53-102">Fields collection (ADO) reference</span></span>
+# <a name="fields-collection-ado-reference"></a><span data-ttu-id="12bce-102">Referencia de la colección Fields (ADO)</span><span class="sxs-lookup"><span data-stu-id="12bce-102">Fields collection (ADO) reference</span></span>
 
-<span data-ttu-id="6eb53-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6eb53-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="12bce-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12bce-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6eb53-104">Fields (colección, ADO)</span><span class="sxs-lookup"><span data-stu-id="6eb53-104">Fields collection (ADO)</span></span>](fields-collection-ado.md)
-- [<span data-ttu-id="6eb53-105">Propiedades, métodos y eventos de la colección Fields</span><span class="sxs-lookup"><span data-stu-id="6eb53-105">Fields collection properties, methods, and events</span></span>](fields-collection-properties-methods-and-events.md)
+- [<span data-ttu-id="12bce-104">Colección Fields (ADO)</span><span class="sxs-lookup"><span data-stu-id="12bce-104">Fields collection (ADO)</span></span>](fields-collection-ado.md)
+- [<span data-ttu-id="12bce-105">Propiedades, métodos y eventos de la colección Fields</span><span class="sxs-lookup"><span data-stu-id="12bce-105">Fields collection properties, methods, and events</span></span>](fields-collection-properties-methods-and-events.md)
 

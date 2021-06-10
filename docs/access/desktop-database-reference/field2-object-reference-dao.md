@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292737"
 ---
-# <a name="field2-object-reference-dao"></a><span data-ttu-id="334b9-102">Referencia de objeto Field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="334b9-102">Field2 object reference (DAO)</span></span>
+# <a name="field2-object-reference-dao"></a><span data-ttu-id="460b4-102">Referencia de objeto Field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="460b4-102">Field2 object reference (DAO)</span></span>
 
-<span data-ttu-id="334b9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="334b9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="460b4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="460b4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="334b9-104">Miembros de Field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="334b9-104">Field2 members (DAO)</span></span>](field2-members-dao.md)
-- [<span data-ttu-id="334b9-105">Métodos Field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="334b9-105">Field2 methods (DAO)</span></span>](field2-methods-dao.md)
-- [<span data-ttu-id="334b9-106">Objeto Field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="334b9-106">Field2 object (DAO)</span></span>](field2-object-dao.md)
-- [<span data-ttu-id="334b9-107">Propiedades field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="334b9-107">Field2 properties (DAO)</span></span>](field2-properties-dao.md)
+- [<span data-ttu-id="460b4-104">Miembros de Field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="460b4-104">Field2 members (DAO)</span></span>](field2-members-dao.md)
+- [<span data-ttu-id="460b4-105">Métodos Field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="460b4-105">Field2 methods (DAO)</span></span>](field2-methods-dao.md)
+- [<span data-ttu-id="460b4-106">Objeto Field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="460b4-106">Field2 object (DAO)</span></span>](field2-object-dao.md)
+- [<span data-ttu-id="460b4-107">Propiedades field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="460b4-107">Field2 properties (DAO)</span></span>](field2-properties-dao.md)
 
 

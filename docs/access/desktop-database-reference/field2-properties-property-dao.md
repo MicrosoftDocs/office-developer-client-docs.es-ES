@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292702"
 ---
-# <a name="field2properties-property-dao"></a><span data-ttu-id="a575d-102">Propiedad Field2.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="a575d-102">Field2.Properties property (DAO)</span></span>
+# <a name="field2properties-property-dao"></a><span data-ttu-id="f780f-102">Propiedad Field2.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="f780f-102">Field2.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="a575d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a575d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f780f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f780f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a575d-104">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="a575d-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="a575d-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="a575d-105">Read-only.</span></span>
+<span data-ttu-id="f780f-p101">Devuelve la colección **[Properties](properties-collection-dao.md)** de un objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="f780f-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a575d-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a575d-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f780f-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f780f-106">Syntax</span></span>
 
-<span data-ttu-id="a575d-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="a575d-107">*expression* .Properties</span></span>
+<span data-ttu-id="f780f-107">*expresión* . Propiedades</span><span class="sxs-lookup"><span data-stu-id="f780f-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="a575d-108">*expression* Variable que representa un objeto **Field2**.</span><span class="sxs-lookup"><span data-stu-id="a575d-108">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="f780f-108">*expression* Variable que representa un objeto **Field2**.</span><span class="sxs-lookup"><span data-stu-id="f780f-108">*expression* A variable that represents a **Field2** object.</span></span>
 
