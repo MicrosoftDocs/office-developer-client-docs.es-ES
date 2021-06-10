@@ -23,7 +23,7 @@ ms.locfileid: "32314346"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **Indexes** que contiene todos los objetos **Index** almacenados para la tabla especificada. Solo lectura.
+Devuelve una colección **Indexes** que contiene todos los objetos **Index** almacenados para la tabla especificada. Sólo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 

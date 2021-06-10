@@ -48,7 +48,7 @@ Los encabezados de sección constan de los siguientes elementos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>connect</strong></p></td>
+<td><p><strong>conectar</strong></p></td>
 <td><p>Cadena literal que modifica una cadena de conexión.</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +60,7 @@ Los encabezados de sección constan de los siguientes elementos.
 <td><p>Cadena literal que modifica los derechos de acceso de un usuario específico.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>logs</strong></p></td>
+<td><p><strong>registros</strong></p></td>
 <td><p>Cadena literal que especifica un archivo de registro donde se registran los errores operativos.</p></td>
 </tr>
 <tr class="odd">
@@ -86,7 +86,7 @@ Los encabezados de sección constan de los siguientes elementos.
 
 Se utiliza una sección concreta en las circunstancias siguientes:
 
-  - Se **usa** una sección connect si la parte del valor de la palabra clave de cadena de conexión del cliente, "**Data Source=***value",* coincide con un identificador **de** sección connect *.*
+  - Se **usa** una sección connect si la parte de valor de la palabra clave de cadena connect del cliente, "**Data Source=***value",* coincide con un identificador **de** sección connect *.*
 
   - Se utiliza una sección **sql** si la cadena de comandos del cliente contiene una cadena que coincide con un identificador de la sección **sql**.
 

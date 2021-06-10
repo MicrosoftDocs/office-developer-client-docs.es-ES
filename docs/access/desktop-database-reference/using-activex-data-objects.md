@@ -29,13 +29,13 @@ Microsoft Access proporciona tres modelos de objetos para usar en la creación, 
 
 ADO contiene los objetos necesarios para crear, mantener y eliminar registros en un origen de datos dado.
 
-## <a name="microsoft-ado-ext-for-ddl-and-security-adox"></a>Microsoft ADO ext. para DDL y seguridad (ADOX)
+## <a name="microsoft-ado-ext-for-ddl-and-security-adox"></a>Ext de Microsoft ADO para DDL y seguridad (ADOX)
 
-ADOX proporciona los objetos del lenguaje de definición de datos (DDL) necesarios para crear una nueva base de datos y sus objetos contenidos, además de los objetos necesarios para administrar la seguridad.
+ADOX proporciona los objetos de lenguaje de definición de datos (DDL) necesarios para crear una nueva base de datos y sus objetos contenidos, además de los objetos necesarios para administrar la seguridad.
 
-### <a name="microsoft-jet-and-replication-objects-25-library-jro"></a>Biblioteca de Microsoft Jet y Replication Objects 2.5 (JRO)
+### <a name="microsoft-jet-and-replication-objects-25-library-jro"></a>Biblioteca de Objetos de replicación y Microsoft Jet 2.5 (JRO)
 
-Dado que los objetos de ADO se diseñaron para funcionar con muchas bases de datos además de bases de datos de Microsoft Jet, la funcionalidad específica de Jet se desglosa en la biblioteca JRO.
+Dado que los objetos ADO se diseñaron para funcionar con muchas bases de datos además de las bases de datos de Microsoft Jet, la funcionalidad específica de Jet se descompuesto en la biblioteca JRO.
 
 En la tabla siguiente se muestran la funcionalidad que proporcionan los distintos modelos de objetos comparados con DAO.
 
@@ -73,7 +73,7 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Compatibilidad con ANSI92 SQL.***</p></td>
+<td><p>Admite ansi92 SQL.***</p></td>
 <td><p></p></td>
 <td><p>X</p></td>
 <td><p>X</p></td>
@@ -87,7 +87,7 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Cree una nueva base de datos.</p></td>
+<td><p>Crear nueva base de datos.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X*</p></td>
@@ -122,7 +122,7 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Editar vistas o consultas SQL almacenadas y básicas.</p></td>
+<td><p>Edite las consultas o vistas SQL almacenadas y básicas.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X*</p></td>
@@ -150,7 +150,7 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p>X4</p></td>
 </tr>
 <tr class="even">
-<td><p>Actualice la memoria caché.</p></td>
+<td><p>Actualizar caché.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
@@ -178,7 +178,7 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 <td><p>X3</p></td>
 </tr>
 <tr class="even">
-<td><p>Edite las propiedades de la base de datos.</p></td>
+<td><p>Editar propiedades de base de datos.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p></p></td>
@@ -206,7 +206,7 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 
 \*\* Sólo disponible cuando se trabaja con proyectos de Access.
 
-\*\*\* Aunque el motor de base de datos de Access admite algunos SQL ANSI 92, aún no es totalmente compatible con ANSI92.
+\*\*\*Aunque el motor de base de datos de Access admite algunos SQL ANSI 92, aún no es totalmente compatible con ANSI92.
 
 1 Usa el **objeto Connection** para hacer referencia a la base de datos.
 
@@ -218,6 +218,6 @@ En la tabla siguiente se muestran la funcionalidad que proporcionan los distinto
 
 
 > [!NOTE]
-> A diferencia de DAO, los objetos ADO y ADOX pueden realizar las acciones marcadas en bases de datos distintas de Jet siempre que el proveedor de dichas bases de datos admita esa acción.
+> A diferencia de DAO, los objetos ADO y ADOX pueden realizar las acciones marcadas en bases de datos distintas de Jet siempre que el proveedor de esas bases de datos admita esa acción.
 
 

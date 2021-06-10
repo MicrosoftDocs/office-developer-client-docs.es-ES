@@ -91,7 +91,7 @@ If oRs.BOF And oRs.EOF Then
 End If 
 ```
 
-Si se abre un objeto **Recordset** que no contiene ningún registro, las propiedades **BOF** y **EOF** se establecen en **True** y el valor de la propiedad **RecordCount** del objeto **Recordset** dependerá del tipo de cursor. Se devolverá -1 para cursores dinámicos (**CursorType**  =  **adOpenDynamic**) y se devolverá 0 para otros cursores.
+Si se abre un objeto **Recordset** que no contiene ningún registro, las propiedades **BOF** y **EOF** se establecen en **True** y el valor de la propiedad **RecordCount** del objeto **Recordset** dependerá del tipo de cursor. -1 se devolverá para cursores dinámicos (**CursorType**  =  **adOpenDynamic**) y 0 se devolverá para otros cursores.
 
 Si se abre un objeto **Recordset** que contiene al menos un registro, el primer registro es el activo y las propiedades **BOF** y **EOF** son **False**.
 

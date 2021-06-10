@@ -43,7 +43,7 @@ Si se llama al método [CancelUpdate](cancelupdate-method-rds.md) después de ll
 
 Sólo se envían los registros cambiados para su modificación. Los cambios se realizan todos correctamente, o bien, todos juntos generan un error.
 
-Sólo puede usar **SubmitChanges** con el *objeto* **RDSServer.DataFactory** predeterminado. Los objetos de negocio personalizados no pueden utilizar este método.
+Solo puede usar **SubmitChanges** con el *objeto* **RDSServer.DataFactory** predeterminado. Los objetos de negocio personalizados no pueden utilizar este método.
 
 Si se ha definido la propiedad **URL**, **SubmitChanges** enviará los cambios a la ubicación especificada por la dirección URL.
 

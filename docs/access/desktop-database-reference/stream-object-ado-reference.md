@@ -1,5 +1,5 @@
 ---
-title: Referencia de objeto stream (ADO)
+title: Referencia del objeto Stream (ADO)
 TOCTitle: Stream object (ADO)
 ms:assetid: 4574095e-06d3-4c2f-86e0-2a7cf1247395
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249214(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314458"
 ---
-# <a name="stream-object-ado-reference"></a>Referencia de objeto stream (ADO)
+# <a name="stream-object-ado-reference"></a>Referencia del objeto Stream (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 
 - [Objeto Stream (ADO)](stream-object-ado.md)
-- [Propiedades, métodos y eventos de Stream (ADO)](stream-properties-methods-and-events-ado.md)
+- [Propiedades de secuencia, métodos y eventos (ADO)](stream-properties-methods-and-events-ado.md)
 

@@ -18,7 +18,7 @@ ms.locfileid: "32314059"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Los objetos Record y [Stream](stream-object-ado.md) de [ADO](record-object-ado.md) se pueden usar con el proveedor microsoft OLE DB para internet Publishing (proveedor de publicación en Internet) para obtener acceso y manipular recursos, como carpetas web o archivos a los que sirve Microsoft FrontPage. Con ADO, puede especificar que el origen de un **Record**, de un **Stream** o de un [Recordset](recordset-object-ado.md) sea una dirección URL. Después, puede cargar, descargar, mover, copiar y eliminar recursos, o manipular directamente las propiedades de los recursos.
+Los objetos Record y [Stream](stream-object-ado.md) de [ADO](record-object-ado.md) se pueden usar con el proveedor microsoft OLE DB para Internet Publishing (proveedor de publicación de Internet) para obtener acceso y manipular recursos, como carpetas web o archivos que sirve Microsoft FrontPage. Con ADO, puede especificar que el origen de un **Record**, de un **Stream** o de un [Recordset](recordset-object-ado.md) sea una dirección URL. Después, puede cargar, descargar, mover, copiar y eliminar recursos, o manipular directamente las propiedades de los recursos.
 
 Para obtener un ejemplo de código que utiliza **Records** y **Streams** con el Proveedor de publicación en Internet, vea el [Escenario de Internet Publishing](internet-publishing-scenario.md).
 

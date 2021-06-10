@@ -23,7 +23,7 @@ Si está utilizando un origen de datos ODBC, puede utilizar la opción de agrupa
 
 Para habilitar el agrupamiento de conexiones, consulte la documentación de Internet Information Services.
 
-Tenga en cuenta que habilitar el grupo de conexiones puede someter al servidor web a otras restricciones, como se indica en la Microsoft Internet Information Services web.
+Tenga en cuenta que la habilitación de la agrupación de conexiones puede someter el servidor web a otras restricciones, como se indica en la Microsoft Internet Information Services web.
 
 Para garantizar que el agrupamiento de conexiones sea estable y proporcione mejoras de rendimiento adicionales, deberá configurar Microsoft SQL Server de modo que utilice la biblioteca de red de Sockets TCP/IP.
 
@@ -65,11 +65,11 @@ En el equipo de SQL Server, utilice el programa de configuración de SQL Server 
 
 ## <a name="configuring-the-web-server-to-use-tcpip-sockets"></a>Configuración del servidor web para usar sockets TCP/IP
 
-Existen dos opciones para configurar el servidor web para usar sockets TCP/IP. Lo que haga dependerá de si se tiene acceso a todos los servidores SQL desde el servidor web o solo se puede obtener acceso a un SQL Server específico desde el servidor web.
+Existen dos opciones para configurar el servidor web para que use sockets TCP/IP. Lo que haga depende de si se tiene acceso a todos los servidores SQL desde el servidor web o solo se tiene acceso a SQL Server específico desde el servidor web.
 
-Si se SQL acceso a todos los servidores desde el servidor web, debe ejecutar la utilidad de configuración de cliente SQL Server en el equipo servidor web. Los siguientes pasos cambian la biblioteca de red predeterminada para todas las conexiones SQL Server realizadas desde este servidor web de IIS para usar la biblioteca de red de sockets TCP/IP.
+Si se tiene SQL todos los servidores desde el servidor web, debe ejecutar la utilidad de configuración SQL Server cliente en el equipo del servidor web. Los pasos siguientes cambian la biblioteca de red predeterminada para todas las SQL Server realizadas desde este servidor web iis para usar la biblioteca de red de sockets TCP/IP.
 
-**Para configurar el servidor web (todos los SQL web)**
+**Para configurar el servidor web (todos SQL servidores)**
 
 **En Microsoft SQL Server 6.5:**
 
@@ -91,7 +91,7 @@ Si se SQL acceso a todos los servidores desde el servidor web, debe ejecutar la 
 
 4.  Haga clic en **Aceptar** para guardar los cambios y salir de la utilidad.
 
-Si se tiene SQL Server acceso a un usuario específico desde un servidor web, debe ejecutar la utilidad de configuración de cliente de SQL Server en el equipo servidor web. Para cambiar la biblioteca de red para una conexión de SQL Server específica, configure el software cliente de SQL Server en el equipo servidor web de la siguiente manera.
+Si se tiene SQL Server un servidor web, debe ejecutar la utilidad de configuración de cliente SQL Server en el equipo del servidor web. Para cambiar la biblioteca de red para una conexión SQL Server, configure el software SQL Server cliente en el equipo servidor web de la siguiente manera.
 
 **Para configurar el servidor web (un servidor SQL Server)**
 

@@ -31,7 +31,7 @@ En función de la propiedad **Attributes** del objeto [Connection](attributes-pr
 
 ## <a name="transaction-isolation-level"></a>Nivel de aislamiento de transacciones
 
-Use la propiedad **IsolationLevel** para establecer el nivel de aislamiento de una transacción en un objeto **Connection**. La configuración no se aplica hasta la siguiente vez que se llame al método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si el nivel de aislamiento solicitado no está disponible, el proveedor puede devolver el siguiente mayor valor de aislamiento. Consulte la propiedad **IsolationLevel** en la referencia del programador de ADO para obtener más información sobre los valores válidos.
+Use la propiedad **IsolationLevel** para establecer el nivel de aislamiento de una transacción en un objeto **Connection**. La configuración no se aplica hasta la siguiente vez que se llame al método [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si el nivel de aislamiento solicitado no está disponible, el proveedor puede devolver el siguiente mayor valor de aislamiento. Consulte la **propiedad IsolationLevel** en la referencia del programador de ADO para obtener más información sobre los valores válidos.
 
 ## <a name="nested-transactions"></a>Transacciones anidadas
 

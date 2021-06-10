@@ -24,9 +24,9 @@ Elimina el objeto **TableDef** especificado de la colección **TableDefs**.
 
 *expresión* . Delete(***Name***)
 
-*expresión* Variable que representa un **objeto TableDefs** .
+*expresión* Variable que representa un **objeto TableDefs.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

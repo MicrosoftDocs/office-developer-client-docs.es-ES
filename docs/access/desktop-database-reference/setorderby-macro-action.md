@@ -25,7 +25,7 @@ ms.locfileid: "32314612"
 
 Puede utilizar la acción **ConfigurarOrdenarPor** para especificar cómo desea ordenar los registros en un formulario, informe, tabla o resultado de consulta.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **ConfigurarOrdenarPor** utiliza los siguientes argumentos.
 

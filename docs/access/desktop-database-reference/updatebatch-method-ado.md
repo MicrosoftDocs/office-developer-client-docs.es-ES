@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313579"
 ---
-# <a name="updatebatch-method-ado"></a>UpdateBatch (método, ADO)
+# <a name="updatebatch-method-ado"></a>Método UpdateBatch (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

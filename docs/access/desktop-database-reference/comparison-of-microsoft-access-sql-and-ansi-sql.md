@@ -18,7 +18,7 @@ ms.locfileid: "34870860"
 
 **Se aplica a:** Access 2013, Office 2013
 
-En términos generales, SQL en el motor de base de datos de Microsoft Access es compatible con ANSI-89 nivel 1. Sin embargo, algunas características SQL ansi no se implementan en Microsoft Access SQL. Por su parte, Microsoft Access SQL incluye palabras reservadas y características no admitidas en ANSI SQL.
+En términos generales, SQL en el motor de base de datos de Microsoft Access es compatible con ANSI-89 nivel 1. Sin embargo, algunas características SQL ANSI no se implementan en Microsoft Access SQL. Por su parte, Microsoft Access SQL incluye palabras reservadas y características no admitidas en ANSI SQL.
 
 ## <a name="major-differences"></a>Diferencias principales
 
@@ -74,7 +74,7 @@ Microsoft Access SQL ofrece las siguientes características mejoradas:
 
 - Declaración [PARAMETERS](parameters-declaration-microsoft-access-sql.md) para definir consultas de parámetros.
 
-## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Las SQL ansi no son compatibles con Microsoft Access SQL
+## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Características SQL ANSI no admitidas en Microsoft Access SQL
 
 Microsoft Access SQL no admite las siguientes características de ANSI SQL:
 

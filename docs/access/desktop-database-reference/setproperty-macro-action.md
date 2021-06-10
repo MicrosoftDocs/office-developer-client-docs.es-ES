@@ -24,7 +24,7 @@ ms.locfileid: "32314577"
 
 Puede usar la acción **DefinirPropiedad** para definir una propiedad de un control ubicado en un formulario o informe.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **DefinirPropiedad** tiene los siguientes argumentos.
 

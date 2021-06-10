@@ -38,12 +38,12 @@ Especifica si un archivo se debe crear o sobrescribir al guardar desde un objeto
 <tbody>
 <tr class="odd">
 <td><p><strong>adSaveCreateNotExist</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Valor predeterminado. Crea un archivo nuevo si el archivo especificado por el parámetro <em>FileName</em> aún no existe.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSaveCreateOverWrite</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Si el archivo especificado por el parámetro <em>FileName</em> ya existe, se sobrescribe el archivo con los datos del objeto <strong>Stream</strong> actualmente abierto.</p></td>
 </tr>
 </tbody>

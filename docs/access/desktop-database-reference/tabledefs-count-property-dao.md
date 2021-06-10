@@ -23,9 +23,9 @@ Devuelve el número de objetos de la colección especificada. Solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . Count
+*expresión* . Recuento
 
-*expresión* Variable que representa un **objeto TableDefs** .
+*expresión* Variable que representa un **objeto TableDefs.**
 
 ## <a name="remarks"></a>Comentarios
 

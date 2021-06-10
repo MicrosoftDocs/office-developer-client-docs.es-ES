@@ -27,7 +27,7 @@ Para obtener información sobre el uso de ADO con Visual C++, vea las secciones 
 - [Ejemplo de extensiones de Visual C++](visual-c-extensions-example.md)
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ADO para el índice de sintaxis de Visual C++ para COM](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
-- [ADO para el índice de sintaxis de Visual C++ con \# import](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)
+- [Índice de sintaxis de ADO para Visual C++ con \# importación](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)

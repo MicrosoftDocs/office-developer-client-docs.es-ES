@@ -39,7 +39,7 @@ Los requisitos de software del equipo cliente para ejecutar esta aplicación web
 
 Para utilizar este ejemplo, deberá tener:
 
-  - Un servidor de base Microsoft SQL Server de datos operativo, versión 6.5 o posterior.
+  - Un servidor de base de datos Microsoft SQL Server versión 6.5 o posterior.
 
   - Privilegios para crear la base de datos y rellenarla con los datos de ejemplo.
 

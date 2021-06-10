@@ -50,7 +50,7 @@ Especifica si se debe leer toda la secuencia o sólo la línea siguiente de un o
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

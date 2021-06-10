@@ -37,7 +37,7 @@ Especifica opciones para abrir un objeto [Stream](stream-object-ado.md). Los val
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenStreamAsync</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Abre el objeto <strong>Stream</strong> en modo asincrónico.</p></td>
 </tr>
 <tr class="even">
@@ -54,7 +54,7 @@ Especifica opciones para abrir un objeto [Stream](stream-object-ado.md). Los val
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Estas constantes no tienen equivalentes ADO/WFC.
 

@@ -25,7 +25,7 @@ ms.locfileid: "32314629"
 
 Puede usar la acción **DefinirCategoríasMostradas** para especificar las categorías que se van a mostrar bajo **Desplazarse a la categoría** en la barra de título del panel de navegación. Por ejemplo, si desea impedir que los usuarios puedan cambiar el panel de navegación de modo que muestre los objetos ordenados por **Fecha de creación**, puede usar esta acción para ocultar esa opción en la lista desplegable de la barra de título.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **DefinirCategoríasMostradas** tiene los siguientes argumentos.
 

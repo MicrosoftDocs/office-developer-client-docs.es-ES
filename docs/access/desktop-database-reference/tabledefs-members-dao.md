@@ -1,5 +1,5 @@
 ---
-title: Miembros tableDefs (DAO)
+title: Miembros de TableDefs (DAO)
 TOCTitle: TableDefs Members
 ms:assetid: 7a365303-1e7d-0c01-67ed-defcc76577d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196175(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314087"
 ---
-# <a name="tabledefs-members-dao"></a>Miembros TableDefs (DAO)
+# <a name="tabledefs-members-dao"></a>Miembros de TableDefs (DAO)
 
 
 **Se aplica a:** Access 2013, Office 2013
@@ -36,7 +36,7 @@ Una colección TableDefs contiene todos los objetos TableDef almacenados en una 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-append-method-dao.md">Append</a></strong></p></td>
+<td><p><strong><a href="tabledefs-append-method-dao.md">Anexar</a></strong></p></td>
 <td><p>Agrega un nuevo objeto <strong>TableDef</strong> a la colección <strong>TableDefs</strong>.</p></td>
 </tr>
 <tr class="even">

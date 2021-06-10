@@ -1,5 +1,5 @@
 ---
-title: Reejeque (referencia de base de datos de escritorio de Access)
+title: Rehace (referencia de base de datos de escritorio de Access)
 TOCTitle: Reshaping
 ms:assetid: 89c6a0d6-3bf4-36ae-26ec-d4e60f920490
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)
@@ -36,9 +36,9 @@ rs2.Open "SHAPE {select * from Employees} " & _
 . . . 
 ```
 
-La segunda función es habilitar el acceso sin capítulos a objetos **Recordset** secundarios existentes, mediante la sintaxis `"SHAPE <recordset reshape name>"` .
+La segunda función es habilitar el acceso no capítulo a objetos **Recordset** secundarios existentes, mediante la sintaxis `"SHAPE <recordset reshape name>"` .
 
 > [!NOTE]
-> No se pueden anexar columnas a un objeto **Recordset** existente, crear nuevas formas para un objeto **Recordset** parametrizado o los objetos **Recordset** de cualquier cláusula COMPUTE intermedia, ni realizar operaciones de agregado en cualquier objeto **Recordset** descendiente del objeto **Recordset** que se está creando con nuevas formas. Tanto **el conjunto** de registros que se va a cambiar de forma como el nuevo comando Shape deben usar el mismo objeto **[Connection.](connection-object-ado.md)
+> No se pueden anexar columnas a un objeto **Recordset** existente, crear nuevas formas para un objeto **Recordset** parametrizado o los objetos **Recordset** de cualquier cláusula COMPUTE intermedia, ni realizar operaciones de agregado en cualquier objeto **Recordset** descendiente del objeto **Recordset** que se está creando con nuevas formas. El **objeto Recordset** que se va a cambiar de forma y el nuevo comando shape deben usar el mismo objeto **[Connection.](connection-object-ado.md)
 
 

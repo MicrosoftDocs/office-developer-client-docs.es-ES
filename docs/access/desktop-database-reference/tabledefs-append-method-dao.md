@@ -24,9 +24,9 @@ Agrega un nuevo objeto **TableDef** a la colección **TableDefs**.
 
 *expression* .Append(***Object***)
 
-*expresión* Variable que representa un **objeto TableDefs** .
+*expresión* Variable que representa un **objeto TableDefs.**
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

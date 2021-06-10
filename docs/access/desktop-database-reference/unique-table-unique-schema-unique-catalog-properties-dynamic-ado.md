@@ -1,5 +1,5 @@
 ---
-title: Propiedades dinámicas Unique Table, Unique Schema y Unique Catalog (ADO)
+title: Propiedades dinámicas Unique Table, Unique Schema, Unique Catalog (ADO)
 TOCTitle: Unique Table, Unique Schema, Unique Catalog dynamic properties (ADO)
 ms:assetid: e6374782-755b-322b-21de-6d6a386dcd98
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313751"
 ---
-# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>Propiedades dinámicas Unique Table, Unique Schema y Unique Catalog (ADO)
+# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>Propiedades dinámicas Unique Table, Unique Schema, Unique Catalog (ADO)
 
 
 **Se aplica a:** Access 2013, Office 2013

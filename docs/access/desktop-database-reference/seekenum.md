@@ -38,12 +38,12 @@ Especifica el tipo de búsqueda ([Seek](seek-method-ado.md)) que se debe ejecuta
 <tbody>
 <tr class="odd">
 <td><p>adSeekFirstEQ</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Busca la primera clave igual a <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="even">
 <td><p>adSeekLastEQ</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Busca la última clave igual a <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="odd">
@@ -70,7 +70,7 @@ Especifica el tipo de búsqueda ([Seek](seek-method-ado.md)) que se debe ejecuta
 </table>
 
 
-### <a name="adowfc-equivalent"></a>Equivalente de ADO/WFC
+### <a name="adowfc-equivalent"></a>Equivalente a ADO/WFC
 
 Paquete: **com.ms.wfc.data**
 

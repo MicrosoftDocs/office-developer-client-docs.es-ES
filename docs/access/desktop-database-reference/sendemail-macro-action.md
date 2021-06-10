@@ -18,12 +18,12 @@ ms.locfileid: "32314654"
 
 **Se aplica a:** Access 2013, Office 2013
 
-La **acción EnviarEmail** envía un mensaje de correo electrónico.
+La **acción SendEmail** envía un mensaje de correo electrónico.
 
 > [!NOTE]
 > La acción **EnviarCorreoElectrónico** solo está disponible en macros de datos.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **EnviarCorreoElectrónico** utiliza los siguientes argumentos.
 
@@ -42,19 +42,19 @@ La acción **EnviarCorreoElectrónico** utiliza los siguientes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Para</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Los destinatarios del mensaje cuyos nombres desea colocar en la <strong>línea Para</strong> del mensaje. Separe los nombres de destinatario que especifique en este argumento (y en los argumentos <em>CC</em> y <em>CCO)</em> con un punto y coma (;).</p></td>
+<td><p>Los destinatarios del mensaje cuyos nombres desea colocar en la <strong>línea Para</strong> del mensaje. Separe los nombres de destinatario que especifique en este argumento (y en los <em>argumentos Cc</em> y <em>CCO)</em> con un punto y coma (;).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Cc</strong></p></td>
 <td><p>No</p></td>
-<td><p>Destinatarios del mensaje cuyos nombres desea colocar en la línea CC (copia &quot; &quot; de carbón) del mensaje.</p></td>
+<td><p>Los destinatarios del mensaje cuyos nombres desea colocar en la línea Cc ( &quot; copia de carbono ) del &quot; mensaje.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Bcc</strong></p></td>
 <td><p>No</p></td>
-<td><p>Destinatarios del mensaje cuyos nombres desea colocar en la línea CCO (copia &quot; &quot; oculta) del mensaje.</p></td>
+<td><p>Destinatarios del mensaje cuyos nombres desea colocar en la línea CCO ( copia oculta de carbono &quot; &quot; ) del mensaje.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Asunto</strong></p></td>
@@ -62,7 +62,7 @@ La acción **EnviarCorreoElectrónico** utiliza los siguientes argumentos.
 <td><p>Asunto del mensaje. Este texto aparece en la línea <strong>Asunto</strong> del mensaje.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Cuerpo</strong></p></td>
+<td><p><strong>Body</strong></p></td>
 <td><p>No</p></td>
 <td><p>El texto que desea incluir en el cuerpo principal del mensaje de correo. Si deja en blanco este argumento, no se incluirá ningún texto adicional en el mensaje.</p></td>
 </tr>

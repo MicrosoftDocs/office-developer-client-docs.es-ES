@@ -25,7 +25,7 @@ ms.locfileid: "32314647"
 
 Puede usar la acción **EncontrarRegistro** para buscar un registro específico en una tabla, una consulta, un formulario o un informe.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **EncontrarRegistro** tiene los siguientes argumentos.
 
@@ -88,9 +88,9 @@ La acción **EncontrarRegistro** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Condición WHERE</strong></p></td>
-<td><p>Escriba los criterios para la búsqueda con la misma sintaxis SQL cláusula WHERE, solo sin la palabra &quot; WHERE &quot; . Por ejemplo,</p>
+<td><p>Escriba los criterios para la búsqueda con la misma sintaxis que una SQL cláusula WHERE, solo sin la palabra &quot; WHERE &quot; . Por ejemplo,</p>
 <p>`Description = "Beverages"`</p>
-<p>Para crear un criterio que incluya un valor de un cuadro de texto en un formulario, cree una expresión que concatene la primera parte del criterio con el nombre del cuadro de texto que contenga el valor que desee buscar. Por ejemplo, el siguiente criterio buscará en el campo denominado Descripción el valor del cuadro de texto denominado txtDescripción del formulario denominado frmCategorías. Tenga en cuenta el signo igual ( ) al principio de la expresión y el uso de comillas simples ( ' ) a ambos lados de la referencia <strong>=</strong> del cuadro de texto:<strong></strong></p>
+<p>Para crear un criterio que incluya un valor de un cuadro de texto en un formulario, cree una expresión que concatene la primera parte del criterio con el nombre del cuadro de texto que contenga el valor que desee buscar. Por ejemplo, el siguiente criterio buscará en el campo denominado Descripción el valor del cuadro de texto denominado txtDescripción del formulario denominado frmCategorías. Tenga en cuenta el signo igual ( ) al principio de la expresión y el uso de comillas simples ( ' ) a cada lado de la referencia <strong>=</strong> del cuadro de texto:<strong></strong></p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
 </tr>
 </tbody>
@@ -134,7 +134,7 @@ En la siguiente macro se abre primero la tabla Categorías mediante la acción *
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Action</p></th>
+<th><p>Acción</p></th>
 <th><p>Argumentos</p></th>
 </tr>
 </thead>
