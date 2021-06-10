@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314563"
 ---
-# <a name="skipline-method-ado"></a><span data-ttu-id="a038f-102">Método SkipLine (ADO)</span><span class="sxs-lookup"><span data-stu-id="a038f-102">SkipLine method (ADO)</span></span>
+# <a name="skipline-method-ado"></a><span data-ttu-id="bd307-102">Método SkipLine (ADO)</span><span class="sxs-lookup"><span data-stu-id="bd307-102">SkipLine method (ADO)</span></span>
 
 
-<span data-ttu-id="a038f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a038f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bd307-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bd307-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a038f-104">Omite una línea completa al leer una secuencia de texto.</span><span class="sxs-lookup"><span data-stu-id="a038f-104">Skips one entire line when reading a text stream.</span></span>
+<span data-ttu-id="bd307-104">Omite una línea completa al leer una secuencia de texto.</span><span class="sxs-lookup"><span data-stu-id="bd307-104">Skips one entire line when reading a text stream.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a038f-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a038f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bd307-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="bd307-105">Syntax</span></span>
 
-<span data-ttu-id="a038f-106">*Stream*. SkipLine</span><span class="sxs-lookup"><span data-stu-id="a038f-106">*Stream*.SkipLine</span></span>
+<span data-ttu-id="bd307-106">*Stream*. SkipLine</span><span class="sxs-lookup"><span data-stu-id="bd307-106">*Stream*.SkipLine</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a038f-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a038f-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd307-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bd307-107">Remarks</span></span>
 
-<span data-ttu-id="a038f-p101">Se omiten todos los caracteres hasta el siguiente separador de línea, incluido éste. De manera predeterminada, el valor de [LineSeparator](lineseparator-property-ado.md) es **adCRLF**. Si se intenta omitir caracteres situados más allá de [EOS](eos-property-ado.md), la posición actual se mantendrá simplemente en **EOS**.</span><span class="sxs-lookup"><span data-stu-id="a038f-p101">All characters up to, and including the next line separator, are skipped. By default, the [LineSeparator](lineseparator-property-ado.md) is **adCRLF**. If you attempt to skip past [EOS](eos-property-ado.md), the current position will simply remain at **EOS**.</span></span>
+<span data-ttu-id="bd307-p101">Se omiten todos los caracteres hasta el siguiente separador de línea, incluido éste. De manera predeterminada, el valor de [LineSeparator](lineseparator-property-ado.md) es **adCRLF**. Si se intenta omitir caracteres situados más allá de [EOS](eos-property-ado.md), la posición actual se mantendrá simplemente en **EOS**.</span><span class="sxs-lookup"><span data-stu-id="bd307-p101">All characters up to, and including the next line separator, are skipped. By default, the [LineSeparator](lineseparator-property-ado.md) is **adCRLF**. If you attempt to skip past [EOS](eos-property-ado.md), the current position will simply remain at **EOS**.</span></span>
 
-<span data-ttu-id="a038f-111">El método **SkipLine** se utiliza con secuencias de texto (el valor de [Type](type-property-ado-stream.md) es **adTypeText**).</span><span class="sxs-lookup"><span data-stu-id="a038f-111">The **SkipLine** method is used with text streams ([Type](type-property-ado-stream.md) is **adTypeText**).</span></span>
+<span data-ttu-id="bd307-111">El método **SkipLine** se utiliza con secuencias de texto (el valor de [Type](type-property-ado-stream.md) es **adTypeText**).</span><span class="sxs-lookup"><span data-stu-id="bd307-111">The **SkipLine** method is used with text streams ([Type](type-property-ado-stream.md) is **adTypeText**).</span></span>
 

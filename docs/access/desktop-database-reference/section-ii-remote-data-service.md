@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314675"
 ---
-# <a name="section-ii-remote-data-service"></a><span data-ttu-id="7361f-102">Sección II: Servicio de datos remotos</span><span class="sxs-lookup"><span data-stu-id="7361f-102">Section II: Remote Data Service</span></span>
+# <a name="section-ii-remote-data-service"></a><span data-ttu-id="690c6-102">Sección II: Servicio de datos remotos</span><span class="sxs-lookup"><span data-stu-id="690c6-102">Section II: Remote Data Service</span></span>
 
-<span data-ttu-id="7361f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7361f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="690c6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="690c6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7361f-104">Esta sección contiene los capítulos siguientes:</span><span class="sxs-lookup"><span data-stu-id="7361f-104">This section contains the following chapters:</span></span>
+<span data-ttu-id="690c6-104">Esta sección contiene los capítulos siguientes:</span><span class="sxs-lookup"><span data-stu-id="690c6-104">This section contains the following chapters:</span></span>
 
-- [<span data-ttu-id="7361f-105">Capítulo 11: Conceptos básicos de RDS</span><span class="sxs-lookup"><span data-stu-id="7361f-105">Chapter 11: RDS fundamentals</span></span>](chapter-11-rds-fundamentals.md)
-- [<span data-ttu-id="7361f-106">Capítulo 12: tutorial de RDS</span><span class="sxs-lookup"><span data-stu-id="7361f-106">Chapter 12: RDS tutorial</span></span>](chapter-12-rds-tutorial.md)
-- [<span data-ttu-id="7361f-107">Capítulo 13: uso y seguridad de RDS</span><span class="sxs-lookup"><span data-stu-id="7361f-107">Chapter 13: RDS usage and security</span></span>](chapter-13-rds-usage-and-security.md)
+- [<span data-ttu-id="690c6-105">Capítulo 11: Conceptos básicos de RDS</span><span class="sxs-lookup"><span data-stu-id="690c6-105">Chapter 11: RDS fundamentals</span></span>](chapter-11-rds-fundamentals.md)
+- [<span data-ttu-id="690c6-106">Capítulo 12: tutorial de RDS</span><span class="sxs-lookup"><span data-stu-id="690c6-106">Chapter 12: RDS tutorial</span></span>](chapter-12-rds-tutorial.md)
+- [<span data-ttu-id="690c6-107">Capítulo 13: uso y seguridad de RDS</span><span class="sxs-lookup"><span data-stu-id="690c6-107">Chapter 13: RDS usage and security</span></span>](chapter-13-rds-usage-and-security.md)
 

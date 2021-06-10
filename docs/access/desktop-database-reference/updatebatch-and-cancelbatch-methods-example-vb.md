@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313604"
 ---
-# <a name="updatebatch-and-cancelbatch-methods-example-vb"></a><span data-ttu-id="7444f-102">Ejemplo de los métodos UpdateBatch y CancelBatch (VB)</span><span class="sxs-lookup"><span data-stu-id="7444f-102">UpdateBatch and CancelBatch methods example (VB)</span></span>
+# <a name="updatebatch-and-cancelbatch-methods-example-vb"></a><span data-ttu-id="f20be-102">Ejemplo de los métodos UpdateBatch y CancelBatch (VB)</span><span class="sxs-lookup"><span data-stu-id="f20be-102">UpdateBatch and CancelBatch methods example (VB)</span></span>
 
 
-<span data-ttu-id="7444f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7444f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f20be-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f20be-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7444f-104">En este ejemplo se muestra el método [UpdateBatch](updatebatch-method-ado.md) en combinación con el método [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="7444f-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
+<span data-ttu-id="f20be-104">En este ejemplo se muestra el método [UpdateBatch](updatebatch-method-ado.md) en combinación con el método [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="f20be-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
 
 ```vb 
  

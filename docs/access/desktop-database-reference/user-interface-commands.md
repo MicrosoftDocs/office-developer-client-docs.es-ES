@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313156"
 ---
-# <a name="user-interface-commands"></a><span data-ttu-id="3a998-102">Comandos de la interfaz de usuario</span><span class="sxs-lookup"><span data-stu-id="3a998-102">User interface commands</span></span>
+# <a name="user-interface-commands"></a><span data-ttu-id="095ff-102">Comandos de la interfaz de usuario</span><span class="sxs-lookup"><span data-stu-id="095ff-102">User interface commands</span></span>
 
-<span data-ttu-id="3a998-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3a998-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="095ff-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="095ff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3a998-104">AgregarMenú (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3a998-104">AddMenu macro action</span></span>](addmenu-macro-action.md)
-- [<span data-ttu-id="3a998-105">Explorar (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3a998-105">BrowseTo macro action</span></span>](browseto-macro-action.md)
-- [<span data-ttu-id="3a998-106">BloquearPanelDeExploración (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3a998-106">LockNavigationPane macro action</span></span>](locknavigationpane-macro-action.md)
-- [<span data-ttu-id="3a998-107">CuadroDeMensajes (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3a998-107">MessageBox macro action</span></span>](messagebox-macro-action.md)
-- [<span data-ttu-id="3a998-108">DesplazarseA (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3a998-108">NavigateTo macro action</span></span>](navigateto-macro-action.md)
-- [<span data-ttu-id="3a998-109">DefinirCategoríasMostradas (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3a998-109">SetDisplayedCategories macro action</span></span>](setdisplayedcategories-macro-action.md)
-- [<span data-ttu-id="3a998-110">EstablecerElementoDelMenú (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3a998-110">SetMenuItem macro action</span></span>](setmenuitem-macro-action.md)
-- [<span data-ttu-id="3a998-111">MostrarBarraDeHerramientas (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="3a998-111">ShowToolbar macro action</span></span>](showtoolbar-macro-action.md)
+- [<span data-ttu-id="095ff-104">AgregarMenú (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="095ff-104">AddMenu macro action</span></span>](addmenu-macro-action.md)
+- [<span data-ttu-id="095ff-105">Explorar (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="095ff-105">BrowseTo macro action</span></span>](browseto-macro-action.md)
+- [<span data-ttu-id="095ff-106">BloquearPanelDeExploración (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="095ff-106">LockNavigationPane macro action</span></span>](locknavigationpane-macro-action.md)
+- [<span data-ttu-id="095ff-107">CuadroDeMensajes (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="095ff-107">MessageBox macro action</span></span>](messagebox-macro-action.md)
+- [<span data-ttu-id="095ff-108">DesplazarseA (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="095ff-108">NavigateTo macro action</span></span>](navigateto-macro-action.md)
+- [<span data-ttu-id="095ff-109">DefinirCategoríasMostradas (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="095ff-109">SetDisplayedCategories macro action</span></span>](setdisplayedcategories-macro-action.md)
+- [<span data-ttu-id="095ff-110">EstablecerElementoDelMenú (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="095ff-110">SetMenuItem macro action</span></span>](setmenuitem-macro-action.md)
+- [<span data-ttu-id="095ff-111">MostrarBarraDeHerramientas (acción de macro)</span><span class="sxs-lookup"><span data-stu-id="095ff-111">ShowToolbar macro action</span></span>](showtoolbar-macro-action.md)
 

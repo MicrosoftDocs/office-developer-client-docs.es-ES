@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314542"
 ---
-# <a name="tabledefdatecreated-property-dao"></a><span data-ttu-id="c963d-102">Propiedad TableDef.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="c963d-102">TableDef.DateCreated property (DAO)</span></span>
+# <a name="tabledefdatecreated-property-dao"></a><span data-ttu-id="039db-102">Propiedad TableDef.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="039db-102">TableDef.DateCreated property (DAO)</span></span>
 
 
-<span data-ttu-id="c963d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c963d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="039db-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="039db-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c963d-104">Devuelve la fecha y la hora en la que se creó un objeto (sólo para áreas de trabajo de Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="c963d-104">Returns the date and time that an object was created (Microsoft Access workspaces only).</span></span> <span data-ttu-id="c963d-105">**Variant** de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="c963d-105">Read-only **Variant**.</span></span>
+<span data-ttu-id="039db-p101">Devuelve la fecha y la hora en la que se creó un objeto (sólo para áreas de trabajo de Microsoft Access). **Variant** de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="039db-p101">Returns the date and time that an object was created (Microsoft Access workspaces only). Read-only **Variant**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c963d-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c963d-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="039db-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="039db-106">Syntax</span></span>
 
-<span data-ttu-id="c963d-107">*expresión* . DateCreated</span><span class="sxs-lookup"><span data-stu-id="c963d-107">*expression* .DateCreated</span></span>
+<span data-ttu-id="039db-107">*expresión* . DateCreated</span><span class="sxs-lookup"><span data-stu-id="039db-107">*expression* .DateCreated</span></span>
 
-<span data-ttu-id="c963d-108">*expression* Variable que representa un objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="c963d-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="039db-108">*expression* Variable que representa un objeto **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="039db-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c963d-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c963d-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="039db-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="039db-109">Remarks</span></span>
 
-<span data-ttu-id="c963d-p102">**DateCreated** y **LastUpdated** devuelven la fecha y la hora en la que un objeto se creó o se actualizó por última vez. En un entorno multiusuario, los usuarios deben obtener estos valores directamente desde el servidor de archivos para evitar discrepancias con los valores de las propiedades DateCreated y LastUpdated.</span><span class="sxs-lookup"><span data-stu-id="c963d-p102">**DateCreated** and **LastUpdated** return the date and time that the object was created or last updated. In a multiuser environment, users should get these settings directly from the file server to avoid discrepancies in the DateCreated and LastUpdated property settings.</span></span>
+<span data-ttu-id="039db-p102">**DateCreated** y **LastUpdated** devuelven la fecha y la hora en la que un objeto se creó o se actualizó por última vez. En un entorno multiusuario, los usuarios deben obtener estos valores directamente desde el servidor de archivos para evitar discrepancias con los valores de las propiedades DateCreated y LastUpdated.</span><span class="sxs-lookup"><span data-stu-id="039db-p102">**DateCreated** and **LastUpdated** return the date and time that the object was created or last updated. In a multiuser environment, users should get these settings directly from the file server to avoid discrepancies in the DateCreated and LastUpdated property settings.</span></span>
 

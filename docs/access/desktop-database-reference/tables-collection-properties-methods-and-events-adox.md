@@ -14,22 +14,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314066"
 ---
-# <a name="tables-collection-properties-methods-and-events-adox"></a><span data-ttu-id="c8d18-102">Propiedades, métodos y eventos de la colección Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c8d18-102">Tables collection properties, methods, and events (ADOX)</span></span>
+# <a name="tables-collection-properties-methods-and-events-adox"></a><span data-ttu-id="bc516-102">Propiedades, métodos y eventos de la colección Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="bc516-102">Tables collection properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="c8d18-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8d18-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bc516-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc516-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="c8d18-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="c8d18-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="bc516-104">Propiedades</span><span class="sxs-lookup"><span data-stu-id="bc516-104">Properties</span></span>
 
-- [<span data-ttu-id="c8d18-105">Propiedad Count</span><span class="sxs-lookup"><span data-stu-id="c8d18-105">Count property</span></span>](count-property-ado.md)
-- [<span data-ttu-id="c8d18-106">Item (propiedad)</span><span class="sxs-lookup"><span data-stu-id="c8d18-106">Item property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="bc516-105">Propiedad Count</span><span class="sxs-lookup"><span data-stu-id="bc516-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="bc516-106">Item (propiedad)</span><span class="sxs-lookup"><span data-stu-id="bc516-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="c8d18-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="c8d18-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="bc516-107">Métodos</span><span class="sxs-lookup"><span data-stu-id="bc516-107">Methods</span></span>
 
-- [<span data-ttu-id="c8d18-108">Método Append (tablas)</span><span class="sxs-lookup"><span data-stu-id="c8d18-108">Append method (Tables)</span></span>](append-method-adox-tables.md)
-- [<span data-ttu-id="c8d18-109">Método Delete (colecciones)</span><span class="sxs-lookup"><span data-stu-id="c8d18-109">Delete method (Collections)</span></span>](delete-method-adox-collections.md)
-- [<span data-ttu-id="c8d18-110">Refresh (método)</span><span class="sxs-lookup"><span data-stu-id="c8d18-110">Refresh method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="bc516-108">Método Append (Tablas)</span><span class="sxs-lookup"><span data-stu-id="bc516-108">Append method (Tables)</span></span>](append-method-adox-tables.md)
+- [<span data-ttu-id="bc516-109">Método Delete (Colecciones)</span><span class="sxs-lookup"><span data-stu-id="bc516-109">Delete method (Collections)</span></span>](delete-method-adox-collections.md)
+- [<span data-ttu-id="bc516-110">Refresh (método)</span><span class="sxs-lookup"><span data-stu-id="bc516-110">Refresh method</span></span>](refresh-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="c8d18-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="c8d18-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="bc516-111">Eventos</span><span class="sxs-lookup"><span data-stu-id="bc516-111">Events</span></span>
 
-<span data-ttu-id="c8d18-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="c8d18-112">None.</span></span>
+<span data-ttu-id="bc516-112">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="bc516-112">None.</span></span>
 

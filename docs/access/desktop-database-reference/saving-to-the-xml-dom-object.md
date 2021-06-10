@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314731"
 ---
-# <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="2d843-102">Almacenamiento en el objeto XML DOM</span><span class="sxs-lookup"><span data-stu-id="2d843-102">Saving to the XML DOM object</span></span>
+# <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="e499b-102">Almacenamiento en el objeto XML DOM</span><span class="sxs-lookup"><span data-stu-id="e499b-102">Saving to the XML DOM object</span></span>
 
-<span data-ttu-id="2d843-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d843-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e499b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e499b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="2d843-104">Guardar en el objeto XML DOM</span><span class="sxs-lookup"><span data-stu-id="2d843-104">Saving to the XML DOM Object</span></span>
+## <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="e499b-104">Guardar en el objeto XML DOM</span><span class="sxs-lookup"><span data-stu-id="e499b-104">Saving to the XML DOM Object</span></span>
 
-<span data-ttu-id="2d843-105">Un **conjunto de registros** se puede guardar en formato XML en una instancia de un objeto DOM de MSXML, como se muestra en el código siguiente de Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="2d843-105">You can save a **Recordset** in XML format to an instance of an MSXML DOM object, as shown in the following Visual Basic code:</span></span>
+<span data-ttu-id="e499b-105">Un **conjunto de registros** se puede guardar en formato XML en una instancia de un objeto DOM de MSXML, como se muestra en el código siguiente de Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="e499b-105">You can save a **Recordset** in XML format to an instance of an MSXML DOM object, as shown in the following Visual Basic code:</span></span>
 
 ```vb 
  

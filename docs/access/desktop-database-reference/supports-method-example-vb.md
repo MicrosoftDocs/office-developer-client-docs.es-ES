@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314472"
 ---
-# <a name="supports-method-example-vb"></a><span data-ttu-id="25df5-102">Ejemplo del método Supports (VB)</span><span class="sxs-lookup"><span data-stu-id="25df5-102">Supports method example (VB)</span></span>
+# <a name="supports-method-example-vb"></a><span data-ttu-id="de9f8-102">Ejemplo del método Supports (VB)</span><span class="sxs-lookup"><span data-stu-id="de9f8-102">Supports method example (VB)</span></span>
 
 
-<span data-ttu-id="25df5-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25df5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="de9f8-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de9f8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="25df5-p101">En este ejemplo se utiliza el método [Supports](supports-method-ado.md) para mostrar las opciones que admite un conjunto de registros que se ha abierto con diferentes tipos de cursor. Se requiere el procedimiento DisplaySupport para que este procedimiento pueda ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="25df5-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="de9f8-p101">En este ejemplo se utiliza el método [Supports](supports-method-ado.md) para mostrar las opciones que admite un conjunto de registros que se ha abierto con diferentes tipos de cursor. Se requiere el procedimiento DisplaySupport para que este procedimiento pueda ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="de9f8-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport procedure is required for this procedure to run.</span></span>
 
 ```vb 
  

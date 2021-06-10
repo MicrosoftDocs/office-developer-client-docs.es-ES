@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313989"
 ---
-# <a name="type-property-ado-md"></a><span data-ttu-id="afac9-102">Propiedad Type (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="afac9-102">Type property (ADO MD)</span></span>
+# <a name="type-property-ado-md"></a><span data-ttu-id="26fa8-102">Propiedad Type (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="26fa8-102">Type property (ADO MD)</span></span>
 
 
-<span data-ttu-id="afac9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="afac9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="26fa8-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="26fa8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="afac9-104">Indica el tipo de elemento activo.</span><span class="sxs-lookup"><span data-stu-id="afac9-104">Indicates the type of the current member.</span></span>
+<span data-ttu-id="26fa8-104">Indica el tipo de elemento activo.</span><span class="sxs-lookup"><span data-stu-id="26fa8-104">Indicates the type of the current member.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="afac9-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="afac9-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="26fa8-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="26fa8-105">Return values</span></span>
 
-<span data-ttu-id="afac9-106">Devuelve un valor [MemberTypeEnum](membertypeenum.md) y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="afac9-106">Returns a [MemberTypeEnum](membertypeenum.md) value and is read-only.</span></span>
+<span data-ttu-id="26fa8-106">Devuelve un valor [MemberTypeEnum](membertypeenum.md) y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="26fa8-106">Returns a [MemberTypeEnum](membertypeenum.md) value and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="afac9-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="afac9-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="26fa8-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="26fa8-107">Remarks</span></span>
 
-<span data-ttu-id="afac9-p101">Esta propiedad sólo es compatible con objetos [Member](member-object-ado-md.md) pertenecientes a un objeto [Level](level-object-ado-md.md). Si se hace referencia a esta propiedad desde objetos **Member** pertenecientes a un objeto [Position](position-object-ado-md.md), se produce un error.</span><span class="sxs-lookup"><span data-stu-id="afac9-p101">This property is supported only on [Member](member-object-ado-md.md) objects belonging to a [Level](level-object-ado-md.md) object. An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
+<span data-ttu-id="26fa8-p101">Esta propiedad sólo es compatible con objetos [Member](member-object-ado-md.md) pertenecientes a un objeto [Level](level-object-ado-md.md). Si se hace referencia a esta propiedad desde objetos **Member** pertenecientes a un objeto [Position](position-object-ado-md.md), se produce un error.</span><span class="sxs-lookup"><span data-stu-id="26fa8-p101">This property is supported only on [Member](member-object-ado-md.md) objects belonging to a [Level](level-object-ado-md.md) object. An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
 

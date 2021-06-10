@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314738"
 ---
-# <a name="ribbon"></a><span data-ttu-id="954b7-102">Cinta de opciones</span><span class="sxs-lookup"><span data-stu-id="954b7-102">Ribbon</span></span>
+# <a name="ribbon"></a><span data-ttu-id="a26c8-102">Cinta de opciones</span><span class="sxs-lookup"><span data-stu-id="a26c8-102">Ribbon</span></span>
 
-<span data-ttu-id="954b7-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="954b7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a26c8-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a26c8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="954b7-104">Aplicar una cinta de opciones personalizada a un formulario o informe</span><span class="sxs-lookup"><span data-stu-id="954b7-104">Apply a custom ribbon to a form or report</span></span>](how-to-apply-a-custom-ribbon-to-a-form-or-report.md)
-- [<span data-ttu-id="954b7-105">Aplicar una cinta de opciones personalizada al iniciar Access</span><span class="sxs-lookup"><span data-stu-id="954b7-105">Apply a custom ribbon when starting Access</span></span>](how-to-apply-a-custom-ribbon-when-starting-access.md)
-- [<span data-ttu-id="954b7-106">Ocultar la cinta de opciones al iniciar Access</span><span class="sxs-lookup"><span data-stu-id="954b7-106">Hide the ribbon when Access starts</span></span>](how-to-hide-the-ribbon-when-access-starts.md)
+- [<span data-ttu-id="a26c8-104">Aplicar una cinta de opciones personalizada a un formulario o informe</span><span class="sxs-lookup"><span data-stu-id="a26c8-104">Apply a custom ribbon to a form or report</span></span>](how-to-apply-a-custom-ribbon-to-a-form-or-report.md)
+- [<span data-ttu-id="a26c8-105">Aplicar una cinta de opciones personalizada al iniciar Access</span><span class="sxs-lookup"><span data-stu-id="a26c8-105">Apply a custom ribbon when starting Access</span></span>](how-to-apply-a-custom-ribbon-when-starting-access.md)
+- [<span data-ttu-id="a26c8-106">Ocultar la cinta de opciones al iniciar Access</span><span class="sxs-lookup"><span data-stu-id="a26c8-106">Hide the ribbon when Access starts</span></span>](how-to-hide-the-ribbon-when-access-starts.md)
 

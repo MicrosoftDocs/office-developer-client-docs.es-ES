@@ -19,25 +19,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312743"
 ---
-# <a name="use-activex-data-objects"></a><span data-ttu-id="95325-103">Usar objetos de datos de ActiveX</span><span class="sxs-lookup"><span data-stu-id="95325-103">Use ActiveX Data Objects</span></span>
+# <a name="use-activex-data-objects"></a><span data-ttu-id="77967-103">Usar objetos de datos de ActiveX</span><span class="sxs-lookup"><span data-stu-id="77967-103">Use ActiveX Data Objects</span></span>
 
-<span data-ttu-id="95325-104">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="95325-104">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="77967-104">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="77967-104">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="95325-105">Microsoft Access proporciona tres modelos de objetos para usar en la creación, el mantenimiento y la administración de las bases de datos de Access y sus datos relacionados mediante Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="95325-105">Microsoft Access provides three object models to use in the creation, maintaining, and managing of your Access databases and their related data by using Visual Basic.</span></span>
+<span data-ttu-id="77967-105">Microsoft Access proporciona tres modelos de objetos para usar en la creación, el mantenimiento y la administración de las bases de datos de Access y sus datos relacionados mediante Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="77967-105">Microsoft Access provides three object models to use in the creation, maintaining, and managing of your Access databases and their related data by using Visual Basic.</span></span>
 
-## <a name="microsoft-activex-data-objects-ado"></a><span data-ttu-id="95325-106">Objetos de datos ActiveX de Microsoft (Microsoft ActiveX Data Objects, ADO)</span><span class="sxs-lookup"><span data-stu-id="95325-106">Microsoft ActiveX Data Objects (ADO)</span></span>
+## <a name="microsoft-activex-data-objects-ado"></a><span data-ttu-id="77967-106">Objetos de datos ActiveX de Microsoft (Microsoft ActiveX Data Objects, ADO)</span><span class="sxs-lookup"><span data-stu-id="77967-106">Microsoft ActiveX Data Objects (ADO)</span></span>
 
-<span data-ttu-id="95325-107">ADO contiene los objetos necesarios para crear, mantener y eliminar registros en un origen de datos dado.</span><span class="sxs-lookup"><span data-stu-id="95325-107">ADO contains the objects needed to create, maintain, and delete records in a given datasource.</span></span>
+<span data-ttu-id="77967-107">ADO contiene los objetos necesarios para crear, mantener y eliminar registros en un origen de datos dado.</span><span class="sxs-lookup"><span data-stu-id="77967-107">ADO contains the objects needed to create, maintain, and delete records in a given datasource.</span></span>
 
-## <a name="microsoft-ado-ext-for-ddl-and-security-adox"></a><span data-ttu-id="95325-108">Microsoft ADO ext. para DDL y seguridad (ADOX)</span><span class="sxs-lookup"><span data-stu-id="95325-108">Microsoft ADO ext. for DDL and security (ADOX)</span></span>
+## <a name="microsoft-ado-ext-for-ddl-and-security-adox"></a><span data-ttu-id="77967-108">Ext de Microsoft ADO para DDL y seguridad (ADOX)</span><span class="sxs-lookup"><span data-stu-id="77967-108">Microsoft ADO ext. for DDL and security (ADOX)</span></span>
 
-<span data-ttu-id="95325-109">ADOX proporciona los objetos del lenguaje de definición de datos (DDL) necesarios para crear una nueva base de datos y sus objetos contenidos, además de los objetos necesarios para administrar la seguridad.</span><span class="sxs-lookup"><span data-stu-id="95325-109">ADOX provides the Data Definition Language (DDL) objects needed to create a new database and its contained objects in addition to the objects needed to manage security.</span></span>
+<span data-ttu-id="77967-109">ADOX proporciona los objetos de lenguaje de definición de datos (DDL) necesarios para crear una nueva base de datos y sus objetos contenidos, además de los objetos necesarios para administrar la seguridad.</span><span class="sxs-lookup"><span data-stu-id="77967-109">ADOX provides the Data Definition Language (DDL) objects needed to create a new database and its contained objects in addition to the objects needed to manage security.</span></span>
 
-### <a name="microsoft-jet-and-replication-objects-25-library-jro"></a><span data-ttu-id="95325-110">Biblioteca de Microsoft Jet y Replication Objects 2.5 (JRO)</span><span class="sxs-lookup"><span data-stu-id="95325-110">Microsoft Jet and Replication Objects 2.5 library (JRO)</span></span>
+### <a name="microsoft-jet-and-replication-objects-25-library-jro"></a><span data-ttu-id="77967-110">Biblioteca de Objetos de replicación y Microsoft Jet 2.5 (JRO)</span><span class="sxs-lookup"><span data-stu-id="77967-110">Microsoft Jet and Replication Objects 2.5 library (JRO)</span></span>
 
-<span data-ttu-id="95325-111">Dado que los objetos de ADO se diseñaron para funcionar con muchas bases de datos además de bases de datos de Microsoft Jet, la funcionalidad específica de Jet se desglosa en la biblioteca JRO.</span><span class="sxs-lookup"><span data-stu-id="95325-111">Because ADO objects were designed to work with many databases in addition to Microsoft Jet databases, functionality specific to Jet was broken out into the JRO library.</span></span>
+<span data-ttu-id="77967-111">Dado que los objetos ADO se diseñaron para funcionar con muchas bases de datos además de las bases de datos de Microsoft Jet, la funcionalidad específica de Jet se descompuesto en la biblioteca JRO.</span><span class="sxs-lookup"><span data-stu-id="77967-111">Because ADO objects were designed to work with many databases in addition to Microsoft Jet databases, functionality specific to Jet was broken out into the JRO library.</span></span>
 
-<span data-ttu-id="95325-112">En la tabla siguiente se muestran la funcionalidad que proporcionan los distintos modelos de objetos comparados con DAO.</span><span class="sxs-lookup"><span data-stu-id="95325-112">The following table lists the functionality provided by each compared to DAO.</span></span>
+<span data-ttu-id="77967-112">En la tabla siguiente se muestran la funcionalidad que proporcionan los distintos modelos de objetos comparados con DAO.</span><span class="sxs-lookup"><span data-stu-id="77967-112">The following table lists the functionality provided by each compared to DAO.</span></span>
 
 <table>
 <colgroup>
@@ -49,151 +49,151 @@ ms.locfileid: "32312743"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="95325-113">Funcionalidad</span><span class="sxs-lookup"><span data-stu-id="95325-113">Functionality</span></span></p></th>
-<th><p><span data-ttu-id="95325-114">DAO</span><span class="sxs-lookup"><span data-stu-id="95325-114">DAO</span></span></p></th>
-<th><p><span data-ttu-id="95325-115">ADO1</span><span class="sxs-lookup"><span data-stu-id="95325-115">ADO1</span></span></p></th>
-<th><p><span data-ttu-id="95325-116">ADOX2</span><span class="sxs-lookup"><span data-stu-id="95325-116">ADOX2</span></span></p></th>
-<th><p><span data-ttu-id="95325-117">JRO</span><span class="sxs-lookup"><span data-stu-id="95325-117">JRO</span></span><br />
-<span data-ttu-id="95325-118">(SOLO MDB)</span><span class="sxs-lookup"><span data-stu-id="95325-118">(MDBs only)</span></span></p></th>
+<th><p><span data-ttu-id="77967-113">Funcionalidad</span><span class="sxs-lookup"><span data-stu-id="77967-113">Functionality</span></span></p></th>
+<th><p><span data-ttu-id="77967-114">DAO</span><span class="sxs-lookup"><span data-stu-id="77967-114">DAO</span></span></p></th>
+<th><p><span data-ttu-id="77967-115">ADO1</span><span class="sxs-lookup"><span data-stu-id="77967-115">ADO1</span></span></p></th>
+<th><p><span data-ttu-id="77967-116">ADOX2</span><span class="sxs-lookup"><span data-stu-id="77967-116">ADOX2</span></span></p></th>
+<th><p><span data-ttu-id="77967-117">JRO</span><span class="sxs-lookup"><span data-stu-id="77967-117">JRO</span></span><br />
+<span data-ttu-id="77967-118">(SOLO MDB)</span><span class="sxs-lookup"><span data-stu-id="77967-118">(MDBs only)</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="95325-119">Crear conjuntos de registros.</span><span class="sxs-lookup"><span data-stu-id="95325-119">Create Recordsets.</span></span></p></td>
-<td><p><span data-ttu-id="95325-120">X</span><span class="sxs-lookup"><span data-stu-id="95325-120">X</span></span></p></td>
-<td><p><span data-ttu-id="95325-121">X</span><span class="sxs-lookup"><span data-stu-id="95325-121">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-119">Crear conjuntos de registros.</span><span class="sxs-lookup"><span data-stu-id="77967-119">Create Recordsets.</span></span></p></td>
+<td><p><span data-ttu-id="77967-120">X</span><span class="sxs-lookup"><span data-stu-id="77967-120">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-121">X</span><span class="sxs-lookup"><span data-stu-id="77967-121">X</span></span></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="95325-122">Editar propiedades de inicio.</span><span class="sxs-lookup"><span data-stu-id="95325-122">Edit Startup properties.</span></span></p></td>
-<td><p><span data-ttu-id="95325-123">X</span><span class="sxs-lookup"><span data-stu-id="95325-123">X</span></span></p></td>
-<td><p><span data-ttu-id="95325-124">X\*\*</span><span class="sxs-lookup"><span data-stu-id="95325-124">X\*\*</span></span></p></td>
+<td><p><span data-ttu-id="77967-122">Editar propiedades de inicio.</span><span class="sxs-lookup"><span data-stu-id="77967-122">Edit Startup properties.</span></span></p></td>
+<td><p><span data-ttu-id="77967-123">X</span><span class="sxs-lookup"><span data-stu-id="77967-123">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-124">X\*\*</span><span class="sxs-lookup"><span data-stu-id="77967-124">X\*\*</span></span></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="95325-125">Compatibilidad con ANSI92 SQL.\*\*\*</span><span class="sxs-lookup"><span data-stu-id="95325-125">Support ANSI92 SQL.\*\*\*</span></span></p></td>
+<td><p><span data-ttu-id="77967-125">Admite ansi92 SQL.\*\*\*</span><span class="sxs-lookup"><span data-stu-id="77967-125">Support ANSI92 SQL.\*\*\*</span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="95325-126">X</span><span class="sxs-lookup"><span data-stu-id="95325-126">X</span></span></p></td>
-<td><p><span data-ttu-id="95325-127">X</span><span class="sxs-lookup"><span data-stu-id="95325-127">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-126">X</span><span class="sxs-lookup"><span data-stu-id="77967-126">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-127">X</span><span class="sxs-lookup"><span data-stu-id="77967-127">X</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="95325-128">Crear tablas.</span><span class="sxs-lookup"><span data-stu-id="95325-128">Create tables.</span></span></p></td>
-<td><p><span data-ttu-id="95325-129">X</span><span class="sxs-lookup"><span data-stu-id="95325-129">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-128">Crear tablas.</span><span class="sxs-lookup"><span data-stu-id="77967-128">Create tables.</span></span></p></td>
+<td><p><span data-ttu-id="77967-129">X</span><span class="sxs-lookup"><span data-stu-id="77967-129">X</span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="95325-130">X</span><span class="sxs-lookup"><span data-stu-id="95325-130">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-130">X</span><span class="sxs-lookup"><span data-stu-id="77967-130">X</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="95325-131">Cree una nueva base de datos.</span><span class="sxs-lookup"><span data-stu-id="95325-131">Create new database.</span></span></p></td>
-<td><p><span data-ttu-id="95325-132">X</span><span class="sxs-lookup"><span data-stu-id="95325-132">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-131">Crear nueva base de datos.</span><span class="sxs-lookup"><span data-stu-id="77967-131">Create new database.</span></span></p></td>
+<td><p><span data-ttu-id="77967-132">X</span><span class="sxs-lookup"><span data-stu-id="77967-132">X</span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="95325-133">X\*</span><span class="sxs-lookup"><span data-stu-id="95325-133">X\*</span></span></p></td>
+<td><p><span data-ttu-id="77967-133">X\*</span><span class="sxs-lookup"><span data-stu-id="77967-133">X\*</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="95325-134">Edite las propiedades de tabla existentes.</span><span class="sxs-lookup"><span data-stu-id="95325-134">Edit existing table properties.</span></span></p></td>
-<td><p><span data-ttu-id="95325-135">X</span><span class="sxs-lookup"><span data-stu-id="95325-135">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-134">Edite las propiedades de tabla existentes.</span><span class="sxs-lookup"><span data-stu-id="77967-134">Edit existing table properties.</span></span></p></td>
+<td><p><span data-ttu-id="77967-135">X</span><span class="sxs-lookup"><span data-stu-id="77967-135">X</span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="95325-136">X</span><span class="sxs-lookup"><span data-stu-id="95325-136">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-136">X</span><span class="sxs-lookup"><span data-stu-id="77967-136">X</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="95325-137">Crear relaciones de tabla.</span><span class="sxs-lookup"><span data-stu-id="95325-137">Create table relationships.</span></span></p></td>
-<td><p><span data-ttu-id="95325-138">X</span><span class="sxs-lookup"><span data-stu-id="95325-138">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-137">Crear relaciones de tabla.</span><span class="sxs-lookup"><span data-stu-id="77967-137">Create table relationships.</span></span></p></td>
+<td><p><span data-ttu-id="77967-138">X</span><span class="sxs-lookup"><span data-stu-id="77967-138">X</span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="95325-139">X\*</span><span class="sxs-lookup"><span data-stu-id="95325-139">X\*</span></span></p></td>
+<td><p><span data-ttu-id="77967-139">X\*</span><span class="sxs-lookup"><span data-stu-id="77967-139">X\*</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="95325-140">Editar la configuración de seguridad.</span><span class="sxs-lookup"><span data-stu-id="95325-140">Edit security settings.</span></span></p></td>
-<td><p><span data-ttu-id="95325-141">X</span><span class="sxs-lookup"><span data-stu-id="95325-141">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-140">Editar la configuración de seguridad.</span><span class="sxs-lookup"><span data-stu-id="77967-140">Edit security settings.</span></span></p></td>
+<td><p><span data-ttu-id="77967-141">X</span><span class="sxs-lookup"><span data-stu-id="77967-141">X</span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="95325-142">X\*</span><span class="sxs-lookup"><span data-stu-id="95325-142">X\*</span></span></p></td>
+<td><p><span data-ttu-id="77967-142">X\*</span><span class="sxs-lookup"><span data-stu-id="77967-142">X\*</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="95325-143">Compatibilidad con el atributo Compression para los datos de columna.</span><span class="sxs-lookup"><span data-stu-id="95325-143">Support for Compression attribute for column data.</span></span></p></td>
+<td><p><span data-ttu-id="77967-143">Compatibilidad con el atributo Compression para los datos de columna.</span><span class="sxs-lookup"><span data-stu-id="77967-143">Support for Compression attribute for column data.</span></span></p></td>
 <td><p></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="95325-144">X</span><span class="sxs-lookup"><span data-stu-id="95325-144">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-144">X</span><span class="sxs-lookup"><span data-stu-id="77967-144">X</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="95325-145">Editar vistas o consultas SQL almacenadas y básicas.</span><span class="sxs-lookup"><span data-stu-id="95325-145">Edit stored, basic SQL queries or views.</span></span></p></td>
-<td><p><span data-ttu-id="95325-146">X</span><span class="sxs-lookup"><span data-stu-id="95325-146">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-145">Edite las consultas o vistas SQL almacenadas y básicas.</span><span class="sxs-lookup"><span data-stu-id="77967-145">Edit stored, basic SQL queries or views.</span></span></p></td>
+<td><p><span data-ttu-id="77967-146">X</span><span class="sxs-lookup"><span data-stu-id="77967-146">X</span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="95325-147">X\*</span><span class="sxs-lookup"><span data-stu-id="95325-147">X\*</span></span></p></td>
+<td><p><span data-ttu-id="77967-147">X\*</span><span class="sxs-lookup"><span data-stu-id="77967-147">X\*</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="95325-148">Crear consultas permanentes que son accesibles sólo mediante código.</span><span class="sxs-lookup"><span data-stu-id="95325-148">Create permanent queries that are accessible only through code.</span></span></p></td>
+<td><p><span data-ttu-id="77967-148">Crear consultas permanentes que son accesibles sólo mediante código.</span><span class="sxs-lookup"><span data-stu-id="77967-148">Create permanent queries that are accessible only through code.</span></span></p></td>
 <td><p></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="95325-149">X\*</span><span class="sxs-lookup"><span data-stu-id="95325-149">X\*</span></span></p></td>
+<td><p><span data-ttu-id="77967-149">X\*</span><span class="sxs-lookup"><span data-stu-id="77967-149">X\*</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="95325-150">Crear consultas accesibles por medio de la interfaz de usuario y código del contenedor de base de datos</span><span class="sxs-lookup"><span data-stu-id="95325-150">Create queries accessible through database container/UI and code.</span></span></p></td>
-<td><p><span data-ttu-id="95325-151">X</span><span class="sxs-lookup"><span data-stu-id="95325-151">X</span></span></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="95325-152">Base de datos compacta/codificada.</span><span class="sxs-lookup"><span data-stu-id="95325-152">Compact/encode database.</span></span></p></td>
-<td><p><span data-ttu-id="95325-153">X</span><span class="sxs-lookup"><span data-stu-id="95325-153">X</span></span></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p><span data-ttu-id="95325-154">X4</span><span class="sxs-lookup"><span data-stu-id="95325-154">X4</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="95325-155">Actualice la memoria caché.</span><span class="sxs-lookup"><span data-stu-id="95325-155">Refresh cache.</span></span></p></td>
-<td><p><span data-ttu-id="95325-156">X</span><span class="sxs-lookup"><span data-stu-id="95325-156">X</span></span></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p><span data-ttu-id="95325-157">X</span><span class="sxs-lookup"><span data-stu-id="95325-157">X</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="95325-158">Hacer replicable la base de datos.</span><span class="sxs-lookup"><span data-stu-id="95325-158">Make database replicable.</span></span></p></td>
-<td><p><span data-ttu-id="95325-159">X</span><span class="sxs-lookup"><span data-stu-id="95325-159">X</span></span></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p><span data-ttu-id="95325-160">X3</span><span class="sxs-lookup"><span data-stu-id="95325-160">X3</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="95325-161">Crear réplicas de base de datos.</span><span class="sxs-lookup"><span data-stu-id="95325-161">Make database replicas.</span></span></p></td>
-<td><p><span data-ttu-id="95325-162">X</span><span class="sxs-lookup"><span data-stu-id="95325-162">X</span></span></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p><span data-ttu-id="95325-163">X3</span><span class="sxs-lookup"><span data-stu-id="95325-163">X3</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="95325-164">Sincronizar réplicas.</span><span class="sxs-lookup"><span data-stu-id="95325-164">Synchronize replicas.</span></span></p></td>
-<td><p><span data-ttu-id="95325-165">X</span><span class="sxs-lookup"><span data-stu-id="95325-165">X</span></span></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p><span data-ttu-id="95325-166">X3</span><span class="sxs-lookup"><span data-stu-id="95325-166">X3</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="95325-167">Edite las propiedades de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="95325-167">Edit database properties.</span></span></p></td>
-<td><p><span data-ttu-id="95325-168">X</span><span class="sxs-lookup"><span data-stu-id="95325-168">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-150">Crear consultas accesibles por medio de la interfaz de usuario y código del contenedor de base de datos</span><span class="sxs-lookup"><span data-stu-id="77967-150">Create queries accessible through database container/UI and code.</span></span></p></td>
+<td><p><span data-ttu-id="77967-151">X</span><span class="sxs-lookup"><span data-stu-id="77967-151">X</span></span></p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="95325-169">Crear propiedades de base de datos personalizadas.</span><span class="sxs-lookup"><span data-stu-id="95325-169">Create custom database properties.</span></span></p></td>
-<td><p><span data-ttu-id="95325-170">X</span><span class="sxs-lookup"><span data-stu-id="95325-170">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-152">Base de datos compacta/codificada.</span><span class="sxs-lookup"><span data-stu-id="77967-152">Compact/encode database.</span></span></p></td>
+<td><p><span data-ttu-id="77967-153">X</span><span class="sxs-lookup"><span data-stu-id="77967-153">X</span></span></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><span data-ttu-id="77967-154">X4</span><span class="sxs-lookup"><span data-stu-id="77967-154">X4</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="77967-155">Actualizar caché.</span><span class="sxs-lookup"><span data-stu-id="77967-155">Refresh cache.</span></span></p></td>
+<td><p><span data-ttu-id="77967-156">X</span><span class="sxs-lookup"><span data-stu-id="77967-156">X</span></span></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><span data-ttu-id="77967-157">X</span><span class="sxs-lookup"><span data-stu-id="77967-157">X</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="77967-158">Hacer replicable la base de datos.</span><span class="sxs-lookup"><span data-stu-id="77967-158">Make database replicable.</span></span></p></td>
+<td><p><span data-ttu-id="77967-159">X</span><span class="sxs-lookup"><span data-stu-id="77967-159">X</span></span></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><span data-ttu-id="77967-160">X3</span><span class="sxs-lookup"><span data-stu-id="77967-160">X3</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="77967-161">Crear réplicas de base de datos.</span><span class="sxs-lookup"><span data-stu-id="77967-161">Make database replicas.</span></span></p></td>
+<td><p><span data-ttu-id="77967-162">X</span><span class="sxs-lookup"><span data-stu-id="77967-162">X</span></span></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><span data-ttu-id="77967-163">X3</span><span class="sxs-lookup"><span data-stu-id="77967-163">X3</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="77967-164">Sincronizar réplicas.</span><span class="sxs-lookup"><span data-stu-id="77967-164">Synchronize replicas.</span></span></p></td>
+<td><p><span data-ttu-id="77967-165">X</span><span class="sxs-lookup"><span data-stu-id="77967-165">X</span></span></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><span data-ttu-id="77967-166">X3</span><span class="sxs-lookup"><span data-stu-id="77967-166">X3</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="77967-167">Editar propiedades de base de datos.</span><span class="sxs-lookup"><span data-stu-id="77967-167">Edit database properties.</span></span></p></td>
+<td><p><span data-ttu-id="77967-168">X</span><span class="sxs-lookup"><span data-stu-id="77967-168">X</span></span></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="77967-169">Crear propiedades de base de datos personalizadas.</span><span class="sxs-lookup"><span data-stu-id="77967-169">Create custom database properties.</span></span></p></td>
+<td><p><span data-ttu-id="77967-170">X</span><span class="sxs-lookup"><span data-stu-id="77967-170">X</span></span></p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="95325-171">Editar propiedades de columna de tabla.</span><span class="sxs-lookup"><span data-stu-id="95325-171">Edit table column properties.</span></span></p></td>
-<td><p><span data-ttu-id="95325-172">X</span><span class="sxs-lookup"><span data-stu-id="95325-172">X</span></span></p></td>
+<td><p><span data-ttu-id="77967-171">Editar propiedades de columna de tabla.</span><span class="sxs-lookup"><span data-stu-id="77967-171">Edit table column properties.</span></span></p></td>
+<td><p><span data-ttu-id="77967-172">X</span><span class="sxs-lookup"><span data-stu-id="77967-172">X</span></span></p></td>
 <td><p></p></td>
 <td><p></p></td>
 <td><p></p></td>
@@ -202,22 +202,22 @@ ms.locfileid: "32312743"
 </table>
 
 
-<span data-ttu-id="95325-p101">\* Sólo disponible cuando se trabaja con bases de datos Microsoft Access. Las versiones futuras del proveedor SQL pueden proporcionar estas funciones en proyectos de Microsoft Access (.adp).</span><span class="sxs-lookup"><span data-stu-id="95325-p101">\* Only available when working with Microsoft Access databases. Future versions of the SQL Provider may provide this functionality in Microsoft Access projects (.adp).</span></span>
+<span data-ttu-id="77967-p101">\* Sólo disponible cuando se trabaja con bases de datos Microsoft Access. Las versiones futuras del proveedor SQL pueden proporcionar estas funciones en proyectos de Microsoft Access (.adp).</span><span class="sxs-lookup"><span data-stu-id="77967-p101">\* Only available when working with Microsoft Access databases. Future versions of the SQL Provider may provide this functionality in Microsoft Access projects (.adp).</span></span>
 
-<span data-ttu-id="95325-175">\*\* Sólo disponible cuando se trabaja con proyectos de Access.</span><span class="sxs-lookup"><span data-stu-id="95325-175">\*\* Only available when working with Access projects.</span></span>
+<span data-ttu-id="77967-175">\*\* Sólo disponible cuando se trabaja con proyectos de Access.</span><span class="sxs-lookup"><span data-stu-id="77967-175">\*\* Only available when working with Access projects.</span></span>
 
-<span data-ttu-id="95325-176">\*\*\* Aunque el motor de base de datos de Access admite algunos SQL ANSI 92, aún no es totalmente compatible con ANSI92.</span><span class="sxs-lookup"><span data-stu-id="95325-176">\*\*\* Although the Access database engine does support some ANSI 92 SQL, it is not yet fully ANSI92-compliant.</span></span>
+<span data-ttu-id="77967-176">\*\*\*Aunque el motor de base de datos de Access admite algunos SQL ANSI 92, aún no es totalmente compatible con ANSI92.</span><span class="sxs-lookup"><span data-stu-id="77967-176">\*\*\* Although the Access database engine does support some ANSI 92 SQL, it is not yet fully ANSI92-compliant.</span></span>
 
-<span data-ttu-id="95325-177">1 Usa el **objeto Connection** para hacer referencia a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="95325-177">1 Uses **Connection** object to reference database.</span></span>
+<span data-ttu-id="77967-177">1 Usa el **objeto Connection** para hacer referencia a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="77967-177">1 Uses **Connection** object to reference database.</span></span>
 
-<span data-ttu-id="95325-178">2 Usa el **objeto Catalog** para hacer referencia a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="95325-178">2 Uses **Catalog** object to reference database.</span></span>
+<span data-ttu-id="77967-178">2 Usa el **objeto Catalog** para hacer referencia a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="77967-178">2 Uses **Catalog** object to reference database.</span></span>
 
-<span data-ttu-id="95325-179">3 Usa el **objeto Replica** para hacer referencia a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="95325-179">3 Uses **Replica** object to reference database.</span></span>
+<span data-ttu-id="77967-179">3 Usa el **objeto Replica** para hacer referencia a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="77967-179">3 Uses **Replica** object to reference database.</span></span>
 
-<span data-ttu-id="95325-180">4 Usa el **objeto JetEngine** para hacer referencia a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="95325-180">4 Uses **JetEngine** object to reference database.</span></span>
+<span data-ttu-id="77967-180">4 Usa el **objeto JetEngine** para hacer referencia a la base de datos.</span><span class="sxs-lookup"><span data-stu-id="77967-180">4 Uses **JetEngine** object to reference database.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="95325-181">A diferencia de DAO, los objetos ADO y ADOX pueden realizar las acciones marcadas en bases de datos distintas de Jet siempre que el proveedor de dichas bases de datos admita esa acción.</span><span class="sxs-lookup"><span data-stu-id="95325-181">Unlike DAO, ADO and ADOX objects can perform the marked actions in databases other than Jet as long as the provider for those databases supports that action.</span></span>
+> <span data-ttu-id="77967-181">A diferencia de DAO, los objetos ADO y ADOX pueden realizar las acciones marcadas en bases de datos distintas de Jet siempre que el proveedor de esas bases de datos admita esa acción.</span><span class="sxs-lookup"><span data-stu-id="77967-181">Unlike DAO, ADO and ADOX objects can perform the marked actions in databases other than Jet as long as the provider for those databases supports that action.</span></span>
 
 

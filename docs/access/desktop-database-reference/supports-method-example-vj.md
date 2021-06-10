@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314864"
 ---
-# <a name="supports-method-example-vj"></a><span data-ttu-id="d41bd-102">Ejemplo del método Supports (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d41bd-102">Supports method example (VJ++)</span></span>
+# <a name="supports-method-example-vj"></a><span data-ttu-id="4236c-102">Ejemplo del método Supports (VJ++)</span><span class="sxs-lookup"><span data-stu-id="4236c-102">Supports method example (VJ++)</span></span>
 
 
-<span data-ttu-id="d41bd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d41bd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4236c-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4236c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d41bd-p101">En este ejemplo se utiliza el método [Supports](supports-method-ado.md) para mostrar las opciones que admite un conjunto de registros que se ha abierto con diferentes tipos de cursor. Se requiere la función DisplaySupport para que este ejemplo pueda ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="d41bd-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport function is required for this example to run.</span></span>
+<span data-ttu-id="4236c-p101">En este ejemplo se utiliza el método [Supports](supports-method-ado.md) para mostrar las opciones que admite un conjunto de registros que se ha abierto con diferentes tipos de cursor. Se requiere la función DisplaySupport para que este ejemplo pueda ejecutarse.</span><span class="sxs-lookup"><span data-stu-id="4236c-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport function is required for this example to run.</span></span>
 
 ```java 
  

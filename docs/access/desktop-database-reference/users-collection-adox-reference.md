@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312953"
 ---
-# <a name="users-collection-adox-reference"></a><span data-ttu-id="8b2dd-102">Referencia de la colección Users (ADOX)</span><span class="sxs-lookup"><span data-stu-id="8b2dd-102">Users collection (ADOX) reference</span></span>
+# <a name="users-collection-adox-reference"></a><span data-ttu-id="6a852-102">Referencia de la colección Users (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6a852-102">Users collection (ADOX) reference</span></span>
 
-<span data-ttu-id="8b2dd-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b2dd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6a852-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a852-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="8b2dd-104">Colección Users (ADOX)</span><span class="sxs-lookup"><span data-stu-id="8b2dd-104">Users collection (ADOX)</span></span>](users-collection-adox.md)
-- [<span data-ttu-id="8b2dd-105">Propiedades, métodos y eventos de la colección Users (ADOX)</span><span class="sxs-lookup"><span data-stu-id="8b2dd-105">Users collection properties, methods, and events (ADOX)</span></span>](users-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="6a852-104">Colección Users (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6a852-104">Users collection (ADOX)</span></span>](users-collection-adox.md)
+- [<span data-ttu-id="6a852-105">Propiedades, métodos y eventos de la colección Users (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6a852-105">Users collection properties, methods, and events (ADOX)</span></span>](users-collection-properties-methods-and-events-adox.md)
 

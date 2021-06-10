@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313996"
 ---
-# <a name="tabledefsdelete-method-dao"></a><span data-ttu-id="aefc0-102">Método TableDefs.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="aefc0-102">TableDefs.Delete method (DAO)</span></span>
+# <a name="tabledefsdelete-method-dao"></a><span data-ttu-id="a2eb0-102">Método TableDefs.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="a2eb0-102">TableDefs.Delete method (DAO)</span></span>
 
-<span data-ttu-id="aefc0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aefc0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a2eb0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2eb0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aefc0-104">Elimina el objeto **TableDef** especificado de la colección **TableDefs**.</span><span class="sxs-lookup"><span data-stu-id="aefc0-104">Deletes the specified **TableDef** object from the **TableDefs** collection.</span></span>
+<span data-ttu-id="a2eb0-104">Elimina el objeto **TableDef** especificado de la colección **TableDefs**.</span><span class="sxs-lookup"><span data-stu-id="a2eb0-104">Deletes the specified **TableDef** object from the **TableDefs** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="aefc0-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="aefc0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a2eb0-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a2eb0-105">Syntax</span></span>
 
-<span data-ttu-id="aefc0-106">*expresión* . Delete(***Name***)</span><span class="sxs-lookup"><span data-stu-id="aefc0-106">*expression* .Delete(***Name***)</span></span>
+<span data-ttu-id="a2eb0-106">*expresión* . Delete(***Name***)</span><span class="sxs-lookup"><span data-stu-id="a2eb0-106">*expression* .Delete(***Name***)</span></span>
 
-<span data-ttu-id="aefc0-107">*expresión* Variable que representa un **objeto TableDefs** .</span><span class="sxs-lookup"><span data-stu-id="aefc0-107">*expression* A variable that represents a **TableDefs** object.</span></span>
+<span data-ttu-id="a2eb0-107">*expresión* Variable que representa un **objeto TableDefs.**</span><span class="sxs-lookup"><span data-stu-id="a2eb0-107">*expression* A variable that represents a **TableDefs** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="aefc0-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="aefc0-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a2eb0-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="a2eb0-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,24 +37,24 @@ ms.locfileid: "32313996"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="aefc0-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="aefc0-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="aefc0-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="aefc0-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="aefc0-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="aefc0-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="aefc0-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="aefc0-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="a2eb0-109">Nombre</span><span class="sxs-lookup"><span data-stu-id="a2eb0-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="a2eb0-110">Obligatorio/opcional</span><span class="sxs-lookup"><span data-stu-id="a2eb0-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="a2eb0-111">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="a2eb0-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="a2eb0-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="a2eb0-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aefc0-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="aefc0-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="aefc0-114">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="aefc0-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="aefc0-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="aefc0-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="aefc0-116">Nombre de TableDef que se debe eliminar.</span><span class="sxs-lookup"><span data-stu-id="aefc0-116">The name of the TableDef to delete.</span></span></p></td>
+<td><p><span data-ttu-id="a2eb0-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="a2eb0-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="a2eb0-114">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="a2eb0-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="a2eb0-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="a2eb0-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="a2eb0-116">Nombre de TableDef que se debe eliminar.</span><span class="sxs-lookup"><span data-stu-id="a2eb0-116">The name of the TableDef to delete.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="aefc0-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="aefc0-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a2eb0-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a2eb0-117">Remarks</span></span>
 
-<span data-ttu-id="aefc0-118">El método Delete está admitido sólo cuando el objeto **TableDef** es nuevo y no se ha anexado a la base de datos o si la propiedad **Updatable** de **TableDef** está establecida en **True**.</span><span class="sxs-lookup"><span data-stu-id="aefc0-118">The Delete method is supported only when the **TableDef** object is new and hasn’t been appended to the database, or when the **Updatable** property of the **TableDef** is set to **True**.</span></span>
+<span data-ttu-id="a2eb0-118">El método Delete está admitido sólo cuando el objeto **TableDef** es nuevo y no se ha anexado a la base de datos o si la propiedad **Updatable** de **TableDef** está establecida en **True**.</span><span class="sxs-lookup"><span data-stu-id="a2eb0-118">The Delete method is supported only when the **TableDef** object is new and hasn’t been appended to the database, or when the **Updatable** property of the **TableDef** is set to **True**.</span></span>
 
