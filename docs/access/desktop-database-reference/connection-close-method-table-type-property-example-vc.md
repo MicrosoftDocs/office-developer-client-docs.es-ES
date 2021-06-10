@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295957"
 ---
-# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="99077-102">Ejemplo de la propiedad Type de Table, método Close de Connection (VC++)</span><span class="sxs-lookup"><span data-stu-id="99077-102">Connection Close method, Table Type property example (VC++)</span></span>
+# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="bbf89-102">Ejemplo de la propiedad Type de Table, método Close de Connection (VC++)</span><span class="sxs-lookup"><span data-stu-id="bbf89-102">Connection Close method, Table Type property example (VC++)</span></span>
 
 
-<span data-ttu-id="99077-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="99077-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bbf89-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bbf89-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="99077-p101">Si se establece la propiedad [ActiveConnection](activeconnection-property-adox.md) en **Nothing**, se debiera "cerrar" el catálogo. Las colecciones asociadas estarán vacías. Todo objeto que se hubiese creado a partir de objetos de esquema en el catálogo quedará huérfano. Las propiedades para esos objetos que estén en caché seguirán estando disponibles, pero se producirá un error al intentar leer propiedades que requieran una llamada al proveedor.</span><span class="sxs-lookup"><span data-stu-id="99077-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
+<span data-ttu-id="bbf89-p101">Si se establece la propiedad [ActiveConnection](activeconnection-property-adox.md) en **Nothing**, se debiera "cerrar" el catálogo. Las colecciones asociadas estarán vacías. Todo objeto que se hubiese creado a partir de objetos de esquema en el catálogo quedará huérfano. Las propiedades para esos objetos que estén en caché seguirán estando disponibles, pero se producirá un error al intentar leer propiedades que requieran una llamada al proveedor.</span><span class="sxs-lookup"><span data-stu-id="bbf89-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
 
 ```cpp 
  

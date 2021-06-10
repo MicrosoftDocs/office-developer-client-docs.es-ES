@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296993"
 ---
-# <a name="attributes-and-name-properties-example-vc"></a><span data-ttu-id="fbcf9-102">Ejemplo de las propiedades Attributes y Name (VC++)</span><span class="sxs-lookup"><span data-stu-id="fbcf9-102">Attributes and Name properties example (VC++)</span></span>
+# <a name="attributes-and-name-properties-example-vc"></a><span data-ttu-id="f32be-102">Ejemplo de las propiedades Attributes y Name (VC++)</span><span class="sxs-lookup"><span data-stu-id="f32be-102">Attributes and Name properties example (VC++)</span></span>
 
 
-<span data-ttu-id="fbcf9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fbcf9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f32be-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f32be-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fbcf9-p101">En este ejemplo se muestra el valor de la propiedad [Attributes](attributes-property-ado.md) de los objetos [Connection](connection-object-ado.md), [Field](field-object-ado.md) y [Property](property-object-ado.md). Se utiliza la propiedad [Name](name-property-ado.md) para mostrar el nombre de cada objeto **Field** y **Property**.</span><span class="sxs-lookup"><span data-stu-id="fbcf9-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
+<span data-ttu-id="f32be-p101">En este ejemplo se muestra el valor de la propiedad [Attributes](attributes-property-ado.md) de los objetos [Connection](connection-object-ado.md), [Field](field-object-ado.md) y [Property](property-object-ado.md). Se utiliza la propiedad [Name](name-property-ado.md) para mostrar el nombre de cada objeto **Field** y **Property**.</span><span class="sxs-lookup"><span data-stu-id="f32be-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
 
 ```cpp 
  
@@ -212,7 +212,7 @@ VOID PrintComError(_com_error &e)
 // EndAttributesCpp 
 ```
 
-<span data-ttu-id="fbcf9-106">**AttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="fbcf9-106">**AttributesX.h**</span></span>
+<span data-ttu-id="f32be-106">**AttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="f32be-106">**AttributesX.h**</span></span>
 
 ```cpp 
  

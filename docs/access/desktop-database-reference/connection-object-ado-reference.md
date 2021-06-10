@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295901"
 ---
-# <a name="connection-object-ado-reference"></a><span data-ttu-id="9c45f-102">Referencia del objeto Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="9c45f-102">Connection object (ADO) reference</span></span>
+# <a name="connection-object-ado-reference"></a><span data-ttu-id="f35e1-102">Referencia del objeto Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="f35e1-102">Connection object (ADO) reference</span></span>
 
-<span data-ttu-id="9c45f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c45f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f35e1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f35e1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9c45f-104">Objeto Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="9c45f-104">Connection object (ADO)</span></span>](connection-object-ado.md)
-- [<span data-ttu-id="9c45f-105">Propiedades, métodos y eventos de conexión (ADO)</span><span class="sxs-lookup"><span data-stu-id="9c45f-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="f35e1-104">Objeto Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="f35e1-104">Connection object (ADO)</span></span>](connection-object-ado.md)
+- [<span data-ttu-id="f35e1-105">Propiedades, métodos y eventos de conexión (ADO)</span><span class="sxs-lookup"><span data-stu-id="f35e1-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
 

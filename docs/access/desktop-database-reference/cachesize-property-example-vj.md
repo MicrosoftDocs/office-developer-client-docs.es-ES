@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296699"
 ---
-# <a name="cachesize-property-example-vj"></a><span data-ttu-id="7be86-102">Ejemplo de la propiedad CacheSize (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7be86-102">CacheSize property example (VJ++)</span></span>
+# <a name="cachesize-property-example-vj"></a><span data-ttu-id="71055-102">Ejemplo de la propiedad CacheSize (VJ++)</span><span class="sxs-lookup"><span data-stu-id="71055-102">CacheSize property example (VJ++)</span></span>
 
 
-<span data-ttu-id="7be86-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7be86-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="71055-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="71055-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7be86-104">En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) para mostrar la diferencia en términos de rendimiento entre una operación realizada con una memoria caché de 30 registros y una operación realizada sin caché.</span><span class="sxs-lookup"><span data-stu-id="7be86-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="71055-104">En este ejemplo se utiliza la propiedad [CacheSize](cachesize-property-ado.md) para mostrar la diferencia en términos de rendimiento entre una operación realizada con una memoria caché de 30 registros y una operación realizada sin caché.</span><span class="sxs-lookup"><span data-stu-id="71055-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```java 
  

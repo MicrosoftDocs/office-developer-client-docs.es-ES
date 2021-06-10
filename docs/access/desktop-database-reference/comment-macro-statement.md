@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296111"
 ---
-# <a name="comment-macro-statement"></a><span data-ttu-id="041e7-102">Comentario (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="041e7-102">Comment macro statement</span></span>
+# <a name="comment-macro-statement"></a><span data-ttu-id="c6d13-102">Comentario (instrucción de macro)</span><span class="sxs-lookup"><span data-stu-id="c6d13-102">Comment macro statement</span></span>
 
 
-<span data-ttu-id="041e7-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="041e7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c6d13-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c6d13-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="041e7-104">La instrucción **Comentario** puede utilizarse para proporcionar comentarios explicativos en una macro.</span><span class="sxs-lookup"><span data-stu-id="041e7-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
+<span data-ttu-id="c6d13-104">La instrucción **Comentario** puede utilizarse para proporcionar comentarios explicativos en una macro.</span><span class="sxs-lookup"><span data-stu-id="c6d13-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="041e7-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="041e7-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c6d13-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c6d13-105">Remarks</span></span>
 
-<span data-ttu-id="041e7-p101">Un **Comentario** puede tener hasta 1000 caracteres de longitud. Sin embargo, de forma predeterminada, se muestra solo la primera línea del comentario.</span><span class="sxs-lookup"><span data-stu-id="041e7-p101">A **Comment** may be up to 1000 characters in length. However, by default, only the first line of the comment is displayed.</span></span>
+<span data-ttu-id="c6d13-p101">Un **Comentario** puede tener hasta 1000 caracteres de longitud. Sin embargo, de forma predeterminada, se muestra solo la primera línea del comentario.</span><span class="sxs-lookup"><span data-stu-id="c6d13-p101">A **Comment** may be up to 1000 characters in length. However, by default, only the first line of the comment is displayed.</span></span>
 

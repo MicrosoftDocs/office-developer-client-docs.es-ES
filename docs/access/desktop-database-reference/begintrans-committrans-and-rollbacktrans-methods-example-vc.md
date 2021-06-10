@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296839"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a><span data-ttu-id="60bec-102">Ejemplo de los métodos BeginTrans, CommitTrans y RollbackTrans (VC++)</span><span class="sxs-lookup"><span data-stu-id="60bec-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)</span></span>
+# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a><span data-ttu-id="82363-102">Ejemplo de los métodos BeginTrans, CommitTrans y RollbackTrans (VC++)</span><span class="sxs-lookup"><span data-stu-id="82363-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)</span></span>
 
 
-<span data-ttu-id="60bec-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="60bec-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="82363-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="82363-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="60bec-104">En este ejemplo se cambia el tipo de libro de todos los libros de psicología que figuran en la tabla ***Titles*** de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="60bec-104">This example changes the book type of all psychology books in the ***Titles*** table of the database.</span></span> <span data-ttu-id="60bec-105">Tras iniciar el método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) una transacción que aísla todos los cambios realizados en la tabla ***Titles***, el método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) guarda los cambios.</span><span class="sxs-lookup"><span data-stu-id="60bec-105">After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes.</span></span> <span data-ttu-id="60bec-106">Puede utilizar el método [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) para deshacer los cambios guardados mediante el método [Update](update-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="60bec-106">You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
+<span data-ttu-id="82363-p101">En este ejemplo se cambia el tipo de libro de todos los libros de psicología que figuran en la tabla ***Titles*** de la base de datos. Tras iniciar el método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) una transacción que aísla todos los cambios realizados en la tabla ***Titles***, el método [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) guarda los cambios. Puede utilizar el método [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) para deshacer los cambios guardados mediante el método [Update](update-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="82363-p101">This example changes the book type of all psychology books in the ***Titles*** table of the database. After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes. You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
 
 ```cpp 
  
@@ -277,7 +277,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBeginTransCpp 
 ```
 
-<span data-ttu-id="60bec-107">**BeginTransX.h**</span><span class="sxs-lookup"><span data-stu-id="60bec-107">**BeginTransX.h**</span></span>
+<span data-ttu-id="82363-107">**BeginTransX.h**</span><span class="sxs-lookup"><span data-stu-id="82363-107">**BeginTransX.h**</span></span>
 
 ```cpp 
  

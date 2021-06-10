@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295782"
 ---
-# <a name="connectiontransactions-property-dao"></a><span data-ttu-id="9157e-102">Propiedad Connection.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="9157e-102">Connection.Transactions property (DAO)</span></span>
+# <a name="connectiontransactions-property-dao"></a><span data-ttu-id="4caf3-102">Propiedad Connection.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="4caf3-102">Connection.Transactions property (DAO)</span></span>
 
 
-<span data-ttu-id="9157e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9157e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4caf3-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4caf3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9157e-104">Devuelve un valor que indica si un objeto admite transacciones.</span><span class="sxs-lookup"><span data-stu-id="9157e-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="9157e-105">**Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="9157e-105">Read-only **Boolean**.</span></span>
+<span data-ttu-id="4caf3-p101">Devuelve un valor que indica si un objeto admite transacciones. **Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="4caf3-p101">Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9157e-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="9157e-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4caf3-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="4caf3-106">Syntax</span></span>
 
-<span data-ttu-id="9157e-107">*expresión* . Transacciones</span><span class="sxs-lookup"><span data-stu-id="9157e-107">*expression* .Transactions</span></span>
+<span data-ttu-id="4caf3-107">*expresión* . Transacciones</span><span class="sxs-lookup"><span data-stu-id="4caf3-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="9157e-108">*expression* Variable que representa un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="9157e-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="4caf3-108">*expression* Variable que representa un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="4caf3-108">*expression* A variable that represents a **Connection** object.</span></span>
 

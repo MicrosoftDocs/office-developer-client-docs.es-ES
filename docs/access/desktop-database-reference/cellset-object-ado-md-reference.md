@@ -1,5 +1,5 @@
 ---
-title: Objeto Cellset (referencia de ADO MD)
+title: Objeto Cellset (referencia ADO MD)
 TOCTitle: Cellset object (ADO MD)
 ms:assetid: 0118476d-8cb6-49ca-80ac-5ace7987c878
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248780(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296538"
 ---
-# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="37636-102">Objeto Cellset (referencia de ADO MD)</span><span class="sxs-lookup"><span data-stu-id="37636-102">Cellset object (ADO MD reference)</span></span>
+# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="86b07-102">Objeto Cellset (referencia ADO MD)</span><span class="sxs-lookup"><span data-stu-id="86b07-102">Cellset object (ADO MD reference)</span></span>
 
-<span data-ttu-id="37636-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="37636-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="86b07-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="86b07-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="37636-104">Cellset (objeto, ADO MD)</span><span class="sxs-lookup"><span data-stu-id="37636-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
-- [<span data-ttu-id="37636-105">Propiedades, métodos y eventos del conjunto de celdas (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="37636-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="86b07-104">Objeto Cellset (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="86b07-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
+- [<span data-ttu-id="86b07-105">Propiedades, métodos y eventos del conjunto de celdas (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="86b07-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
 

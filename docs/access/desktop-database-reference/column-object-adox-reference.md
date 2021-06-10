@@ -14,10 +14,10 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296258"
 ---
-# <a name="column-object-adox-reference"></a><span data-ttu-id="79407-102">Referencia del objeto Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="79407-102">Column object (ADOX) reference</span></span>
+# <a name="column-object-adox-reference"></a><span data-ttu-id="5517f-102">Referencia del objeto Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5517f-102">Column object (ADOX) reference</span></span>
 
-<span data-ttu-id="79407-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79407-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5517f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5517f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="79407-104">Objeto Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="79407-104">Column object (ADOX)</span></span>](column-object-adox.md)
-- [<span data-ttu-id="79407-105">Propiedades, métodos y eventos de columna (ADOX)</span><span class="sxs-lookup"><span data-stu-id="79407-105">Column properties, methods, and events (ADOX)</span></span>](column-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="5517f-104">Objeto Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5517f-104">Column object (ADOX)</span></span>](column-object-adox.md)
+- [<span data-ttu-id="5517f-105">Propiedades, métodos y eventos de columna (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5517f-105">Column properties, methods, and events (ADOX)</span></span>](column-properties-methods-and-events-adox.md)
 

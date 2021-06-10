@@ -14,16 +14,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295817"
 ---
-# <a name="connectionrecordsaffected-property-dao"></a><span data-ttu-id="7a597-102">Propiedad Connection.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="7a597-102">Connection.RecordsAffected property (DAO)</span></span>
+# <a name="connectionrecordsaffected-property-dao"></a><span data-ttu-id="8301a-102">Propiedad Connection.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="8301a-102">Connection.RecordsAffected property (DAO)</span></span>
 
 
-<span data-ttu-id="7a597-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a597-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8301a-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8301a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7a597-104">Devuelve el número de registros afectados por el último método **[Execute](connection-execute-method-dao.md)** invocado.</span><span class="sxs-lookup"><span data-stu-id="7a597-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="8301a-104">Devuelve el número de registros afectados por el último método **[Execute](connection-execute-method-dao.md)** invocado.</span><span class="sxs-lookup"><span data-stu-id="8301a-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7a597-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7a597-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8301a-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8301a-105">Syntax</span></span>
 
-<span data-ttu-id="7a597-106">*expresión* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="7a597-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="8301a-106">*expresión* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="8301a-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="7a597-107">*expression* Variable que representa un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="7a597-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="8301a-107">*expression* Variable que representa un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="8301a-107">*expression* A variable that represents a **Connection** object.</span></span>
 

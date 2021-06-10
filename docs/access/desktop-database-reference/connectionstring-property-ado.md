@@ -14,22 +14,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295712"
 ---
-# <a name="connectionstring-property-ado"></a><span data-ttu-id="b9829-102">Propiedad ConnectionString (ADO)</span><span class="sxs-lookup"><span data-stu-id="b9829-102">ConnectionString property (ADO)</span></span>
+# <a name="connectionstring-property-ado"></a><span data-ttu-id="ed503-102">Propiedad ConnectionString (ADO)</span><span class="sxs-lookup"><span data-stu-id="ed503-102">ConnectionString property (ADO)</span></span>
 
 
-<span data-ttu-id="b9829-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9829-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ed503-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed503-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b9829-104">Indica la información utilizada para establecer una conexión con un origen de datos.</span><span class="sxs-lookup"><span data-stu-id="b9829-104">Indicates the information used to establish a connection to a data source.</span></span>
+<span data-ttu-id="ed503-104">Indica la información utilizada para establecer una conexión con un origen de datos.</span><span class="sxs-lookup"><span data-stu-id="ed503-104">Indicates the information used to establish a connection to a data source.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="b9829-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="b9829-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="ed503-105">Configuración y valores devueltos</span><span class="sxs-lookup"><span data-stu-id="ed503-105">Settings and return values</span></span>
 
-<span data-ttu-id="b9829-106">Establece o devuelve un valor de tipo **String**.</span><span class="sxs-lookup"><span data-stu-id="b9829-106">Sets or returns a **String** value.</span></span>
+<span data-ttu-id="ed503-106">Establece o devuelve un valor de tipo **String**.</span><span class="sxs-lookup"><span data-stu-id="ed503-106">Sets or returns a **String** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b9829-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b9829-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ed503-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ed503-107">Remarks</span></span>
 
-<span data-ttu-id="b9829-108">Utilice la **propiedad ConnectionString** para especificar un origen de datos pasando  una cadena de conexión detallada que contenga una serie de argumento *=* instrucciones de valor separadas por punto y coma.</span><span class="sxs-lookup"><span data-stu-id="b9829-108">Use the **ConnectionString** property to specify a data source by passing a detailed connection string containing a series of *argument* *= value* statements separated by semicolons.</span></span>
+<span data-ttu-id="ed503-108">Use la **propiedad ConnectionString** para especificar un origen de datos pasando una cadena de conexión detallada que contenga una serie de instrucciones *argument* *= value* separadas por punto y coma.</span><span class="sxs-lookup"><span data-stu-id="ed503-108">Use the **ConnectionString** property to specify a data source by passing a detailed connection string containing a series of *argument* *= value* statements separated by semicolons.</span></span>
 
-<span data-ttu-id="b9829-p101">ADO admite cinco argumentos para la propiedad **ConnectionString**; todos los demás argumentos pasan directamente al proveedor sin que ADO los procese. Los argumentos admitidos por ADO son:</span><span class="sxs-lookup"><span data-stu-id="b9829-p101">ADO supports five arguments for the **ConnectionString** property; any other arguments pass directly to the provider without any processing by ADO. The arguments ADO supports are as follows.</span></span>
+<span data-ttu-id="ed503-p101">ADO admite cinco argumentos para la propiedad **ConnectionString**; todos los demás argumentos pasan directamente al proveedor sin que ADO los procese. Los argumentos admitidos por ADO son:</span><span class="sxs-lookup"><span data-stu-id="ed503-p101">ADO supports five arguments for the **ConnectionString** property; any other arguments pass directly to the provider without any processing by ADO. The arguments ADO supports are as follows.</span></span>
 
 <table>
 <colgroup>
@@ -38,44 +38,44 @@ ms.locfileid: "32295712"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b9829-111">Argumento</span><span class="sxs-lookup"><span data-stu-id="b9829-111">Argument</span></span></p></th>
-<th><p><span data-ttu-id="b9829-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="b9829-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="ed503-111">Argumento</span><span class="sxs-lookup"><span data-stu-id="ed503-111">Argument</span></span></p></th>
+<th><p><span data-ttu-id="ed503-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="ed503-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b9829-113"><em>Provider=</em></span><span class="sxs-lookup"><span data-stu-id="b9829-113"><em>Provider=</em></span></span></p></td>
-<td><p><span data-ttu-id="b9829-114">Especifica el nombre del proveedor que se va a usar en la conexión.</span><span class="sxs-lookup"><span data-stu-id="b9829-114">Specifies the name of a provider to use for the connection.</span></span></p></td>
+<td><p><span data-ttu-id="ed503-113"><em>Provider=</em></span><span class="sxs-lookup"><span data-stu-id="ed503-113"><em>Provider=</em></span></span></p></td>
+<td><p><span data-ttu-id="ed503-114">Especifica el nombre del proveedor que se va a usar en la conexión.</span><span class="sxs-lookup"><span data-stu-id="ed503-114">Specifies the name of a provider to use for the connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b9829-115"><em>File Name=</em></span><span class="sxs-lookup"><span data-stu-id="b9829-115"><em>File Name=</em></span></span></p></td>
-<td><p><span data-ttu-id="b9829-116">Especifica el nombre de un archivo específico del proveedor (por ejemplo, un objeto de origen de datos almacenado de manera persistente) que contiene información de conexión predefinida.</span><span class="sxs-lookup"><span data-stu-id="b9829-116">Specifies the name of a provider-specific file (for example, a persisted data source object) containing preset connection information.</span></span></p></td>
+<td><p><span data-ttu-id="ed503-115"><em>File Name=</em></span><span class="sxs-lookup"><span data-stu-id="ed503-115"><em>File Name=</em></span></span></p></td>
+<td><p><span data-ttu-id="ed503-116">Especifica el nombre de un archivo específico del proveedor (por ejemplo, un objeto de origen de datos almacenado de manera persistente) que contiene información de conexión predefinida.</span><span class="sxs-lookup"><span data-stu-id="ed503-116">Specifies the name of a provider-specific file (for example, a persisted data source object) containing preset connection information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b9829-117"><em>Remote Provider=</em></span><span class="sxs-lookup"><span data-stu-id="b9829-117"><em>Remote Provider=</em></span></span></p></td>
-<td><p><span data-ttu-id="b9829-118">Especifica el nombre de un proveedor que se debe usar al abrir una conexión del lado cliente.</span><span class="sxs-lookup"><span data-stu-id="b9829-118">Specifies the name of a provider to use when opening a client-side connection.</span></span> <span data-ttu-id="b9829-119">(Sólo con el Servicio de datos remotos, RDS.)</span><span class="sxs-lookup"><span data-stu-id="b9829-119">(Remote Data Service only.)</span></span></p></td>
+<td><p><span data-ttu-id="ed503-117"><em>Remote Provider=</em></span><span class="sxs-lookup"><span data-stu-id="ed503-117"><em>Remote Provider=</em></span></span></p></td>
+<td><p><span data-ttu-id="ed503-p102">Especifica el nombre del proveedor que se va a usar cuando se abre una conexión de cliente (sólo con el Servicio de datos remotos, RDS).</span><span class="sxs-lookup"><span data-stu-id="ed503-p102">Specifies the name of a provider to use when opening a client-side connection. (Remote Data Service only.)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b9829-120"><em>Remote Server=</em></span><span class="sxs-lookup"><span data-stu-id="b9829-120"><em>Remote Server=</em></span></span></p></td>
-<td><p><span data-ttu-id="b9829-121">Especifica el nombre de la ruta de acceso del servidor que se utilizará al abrir una conexión de cliente.</span><span class="sxs-lookup"><span data-stu-id="b9829-121">Specifies the path name of the server to use when opening a client-side connection.</span></span> <span data-ttu-id="b9829-122">(Sólo con el Servicio de datos remotos, RDS.)</span><span class="sxs-lookup"><span data-stu-id="b9829-122">(Remote Data Service only.)</span></span></p></td>
+<td><p><span data-ttu-id="ed503-120"><em>Remote Server=</em></span><span class="sxs-lookup"><span data-stu-id="ed503-120"><em>Remote Server=</em></span></span></p></td>
+<td><p><span data-ttu-id="ed503-p103">Especifica el nombre de la ruta de acceso del servidor que se utilizará al abrir una conexión de cliente (sólo con el Servicio de datos remotos, RDS).</span><span class="sxs-lookup"><span data-stu-id="ed503-p103">Specifies the path name of the server to use when opening a client-side connection. (Remote Data Service only.)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b9829-123"><em>URL=</em></span><span class="sxs-lookup"><span data-stu-id="b9829-123"><em>URL=</em></span></span></p></td>
-<td><p><span data-ttu-id="b9829-124">Especifica la cadena de conexión como una dirección URL absoluta que identifica un recurso, como un archivo o un directorio.</span><span class="sxs-lookup"><span data-stu-id="b9829-124">Specifies the connection string as an absolute URL identifying a resource, such as a file or directory.</span></span></p></td>
+<td><p><span data-ttu-id="ed503-123"><em>URL=</em></span><span class="sxs-lookup"><span data-stu-id="ed503-123"><em>URL=</em></span></span></p></td>
+<td><p><span data-ttu-id="ed503-124">Especifica la cadena de conexión como una dirección URL absoluta que identifica un recurso, como un archivo o un directorio.</span><span class="sxs-lookup"><span data-stu-id="ed503-124">Specifies the connection string as an absolute URL identifying a resource, such as a file or directory.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="b9829-125">Después de que se establezca el valor de la propiedad **ConnectionString** y se abra el objeto [Connection](connection-object-ado.md), puede que el proveedor modifique el contenido de la propiedad, por ejemplo, mediante la asignación de los nombres de argumento definidos por ADO a sus propios equivalentes.</span><span class="sxs-lookup"><span data-stu-id="b9829-125">After you set the **ConnectionString** property and open the [Connection](connection-object-ado.md) object, the provider may alter the contents of the property, for example, by mapping the ADO-defined argument names to their provider equivalents.</span></span>
+<span data-ttu-id="ed503-125">Después de que se establezca el valor de la propiedad **ConnectionString** y se abra el objeto [Connection](connection-object-ado.md), puede que el proveedor modifique el contenido de la propiedad, por ejemplo, mediante la asignación de los nombres de argumento definidos por ADO a sus propios equivalentes.</span><span class="sxs-lookup"><span data-stu-id="ed503-125">After you set the **ConnectionString** property and open the [Connection](connection-object-ado.md) object, the provider may alter the contents of the property, for example, by mapping the ADO-defined argument names to their provider equivalents.</span></span>
 
-<span data-ttu-id="b9829-126">La propiedad **ConnectionString** hereda automáticamente el valor usado para el argumento *ConnectionString* del método [Open](open-method-ado-connection.md), por lo que se puede invalidar la actual propiedad **ConnectionString** durante la llamada al método **Open**.</span><span class="sxs-lookup"><span data-stu-id="b9829-126">The **ConnectionString** property automatically inherits the value used for the *ConnectionString* argument of the [Open](open-method-ado-connection.md) method, so you can override the current **ConnectionString** property during the **Open** method call.</span></span>
+<span data-ttu-id="ed503-126">La propiedad **ConnectionString** hereda automáticamente el valor usado para el argumento *ConnectionString* del método [Open](open-method-ado-connection.md), por lo que se puede invalidar la actual propiedad **ConnectionString** durante la llamada al método **Open**.</span><span class="sxs-lookup"><span data-stu-id="ed503-126">The **ConnectionString** property automatically inherits the value used for the *ConnectionString* argument of the [Open](open-method-ado-connection.md) method, so you can override the current **ConnectionString** property during the **Open** method call.</span></span>
 
-<span data-ttu-id="b9829-127">Dado que el argumento *File Name* hace que ADO cargue el proveedor asociado, no se puede pasar tanto el argumento *Provider* como el argumento *File Name*.</span><span class="sxs-lookup"><span data-stu-id="b9829-127">Because the *File Name* argument causes ADO to load the associated provider, you cannot pass both the *Provider* and *File Name* arguments.</span></span>
+<span data-ttu-id="ed503-127">Dado que el argumento *File Name* hace que ADO cargue el proveedor asociado, no se puede pasar tanto el argumento *Provider* como el argumento *File Name*.</span><span class="sxs-lookup"><span data-stu-id="ed503-127">Because the *File Name* argument causes ADO to load the associated provider, you cannot pass both the *Provider* and *File Name* arguments.</span></span>
 
-<span data-ttu-id="b9829-128">La propiedad **ConnectionString** es de lectura y escritura cuando está cerrada la conexión, y es de sólo lectura cuando la conexión está abierta.</span><span class="sxs-lookup"><span data-stu-id="b9829-128">The **ConnectionString** property is read/write when the connection is closed and read-only when it is open.</span></span>
+<span data-ttu-id="ed503-128">La propiedad **ConnectionString** es de lectura y escritura cuando está cerrada la conexión, y es de sólo lectura cuando la conexión está abierta.</span><span class="sxs-lookup"><span data-stu-id="ed503-128">The **ConnectionString** property is read/write when the connection is closed and read-only when it is open.</span></span>
 
-<span data-ttu-id="b9829-p104">Se omiten los duplicados de un argumento en la propiedad **ConnectionString**. Se utiliza la última instancia de los argumentos.</span><span class="sxs-lookup"><span data-stu-id="b9829-p104">Duplicates of an argument in the **ConnectionString** property are ignored. The last instance of any argument is used.</span></span>
+<span data-ttu-id="ed503-p104">Se omiten los duplicados de un argumento en la propiedad **ConnectionString**. Se utiliza la última instancia de los argumentos.</span><span class="sxs-lookup"><span data-stu-id="ed503-p104">Duplicates of an argument in the **ConnectionString** property are ignored. The last instance of any argument is used.</span></span>
 
-<span data-ttu-id="b9829-131">**Uso del servicio de datos remotos** Cuando se usa en un objeto **Connection** del lado cliente, la propiedad **ConnectionString** solo puede incluir los parámetros *proveedor* remoto y *servidor* remoto.</span><span class="sxs-lookup"><span data-stu-id="b9829-131">**Remote Data Service Usage** When used on a client-side **Connection** object, the **ConnectionString** property can include only the *Remote Provider* and *Remote Server* parameters.</span></span>
+<span data-ttu-id="ed503-131">**Uso del servicio de datos remotos** Cuando se usa en un objeto **Connection** del lado cliente, la **propiedad ConnectionString** solo puede incluir los parámetros *Proveedor* remoto y *Servidor* remoto.</span><span class="sxs-lookup"><span data-stu-id="ed503-131">**Remote Data Service Usage** When used on a client-side **Connection** object, the **ConnectionString** property can include only the *Remote Provider* and *Remote Server* parameters.</span></span>
 

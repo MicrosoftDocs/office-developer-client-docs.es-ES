@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296783"
 ---
-# <a name="bookmarkenum"></a><span data-ttu-id="b890e-102">BookmarkEnum</span><span class="sxs-lookup"><span data-stu-id="b890e-102">BookmarkEnum</span></span>
+# <a name="bookmarkenum"></a><span data-ttu-id="86b9b-102">BookmarkEnum</span><span class="sxs-lookup"><span data-stu-id="86b9b-102">BookmarkEnum</span></span>
 
-<span data-ttu-id="b890e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b890e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="86b9b-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="86b9b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b890e-104">Especifica un marcador que indica dónde debe comenzar la operación.</span><span class="sxs-lookup"><span data-stu-id="b890e-104">Specifies a bookmark indicating where the operation should begin.</span></span>
+<span data-ttu-id="86b9b-104">Especifica un marcador que indica dónde debe comenzar la operación.</span><span class="sxs-lookup"><span data-stu-id="86b9b-104">Specifies a bookmark indicating where the operation should begin.</span></span>
 
 <br/>
 
@@ -30,34 +30,34 @@ ms.locfileid: "32296783"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b890e-105">Constante</span><span class="sxs-lookup"><span data-stu-id="b890e-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="b890e-106">Valor</span><span class="sxs-lookup"><span data-stu-id="b890e-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="b890e-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="b890e-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="86b9b-105">Constante</span><span class="sxs-lookup"><span data-stu-id="86b9b-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="86b9b-106">Valor</span><span class="sxs-lookup"><span data-stu-id="86b9b-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="86b9b-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="86b9b-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b890e-108"><strong>adBookmarkCurrent</strong></span><span class="sxs-lookup"><span data-stu-id="b890e-108"><strong>adBookmarkCurrent</strong></span></span></p></td>
-<td><p><span data-ttu-id="b890e-109">0</span><span class="sxs-lookup"><span data-stu-id="b890e-109">0</span></span></p></td>
-<td><p><span data-ttu-id="b890e-110">Comienza en el registro actual.</span><span class="sxs-lookup"><span data-stu-id="b890e-110">Starts at the current record.</span></span></p></td>
+<td><p><span data-ttu-id="86b9b-108"><strong>adBookmarkCurrent</strong></span><span class="sxs-lookup"><span data-stu-id="86b9b-108"><strong>adBookmarkCurrent</strong></span></span></p></td>
+<td><p><span data-ttu-id="86b9b-109">0</span><span class="sxs-lookup"><span data-stu-id="86b9b-109">0</span></span></p></td>
+<td><p><span data-ttu-id="86b9b-110">Comienza en el registro actual.</span><span class="sxs-lookup"><span data-stu-id="86b9b-110">Starts at the current record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b890e-111"><strong>adBookmarkFirst</strong></span><span class="sxs-lookup"><span data-stu-id="b890e-111"><strong>adBookmarkFirst</strong></span></span></p></td>
-<td><p><span data-ttu-id="b890e-112">1 </span><span class="sxs-lookup"><span data-stu-id="b890e-112">1</span></span></p></td>
-<td><p><span data-ttu-id="b890e-113">Comienza en el primer registro.</span><span class="sxs-lookup"><span data-stu-id="b890e-113">Starts at the first record.</span></span></p></td>
+<td><p><span data-ttu-id="86b9b-111"><strong>adBookmarkFirst</strong></span><span class="sxs-lookup"><span data-stu-id="86b9b-111"><strong>adBookmarkFirst</strong></span></span></p></td>
+<td><p><span data-ttu-id="86b9b-112">1</span><span class="sxs-lookup"><span data-stu-id="86b9b-112">1</span></span></p></td>
+<td><p><span data-ttu-id="86b9b-113">Comienza en el primer registro.</span><span class="sxs-lookup"><span data-stu-id="86b9b-113">Starts at the first record.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b890e-114"><strong>adBookmarkLast</strong></span><span class="sxs-lookup"><span data-stu-id="b890e-114"><strong>adBookmarkLast</strong></span></span></p></td>
-<td><p><span data-ttu-id="b890e-115">2 </span><span class="sxs-lookup"><span data-stu-id="b890e-115">2</span></span></p></td>
-<td><p><span data-ttu-id="b890e-116">Comienza en el último registro.</span><span class="sxs-lookup"><span data-stu-id="b890e-116">Starts at the last record.</span></span></p></td>
+<td><p><span data-ttu-id="86b9b-114"><strong>adBookmarkLast</strong></span><span class="sxs-lookup"><span data-stu-id="86b9b-114"><strong>adBookmarkLast</strong></span></span></p></td>
+<td><p><span data-ttu-id="86b9b-115">2</span><span class="sxs-lookup"><span data-stu-id="86b9b-115">2</span></span></p></td>
+<td><p><span data-ttu-id="86b9b-116">Comienza en el último registro.</span><span class="sxs-lookup"><span data-stu-id="86b9b-116">Starts at the last record.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="b890e-117">Equivalente de ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="b890e-117">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="86b9b-117">Equivalente a ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="86b9b-117">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="b890e-118">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="b890e-118">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="86b9b-118">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="86b9b-118">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -65,18 +65,18 @@ ms.locfileid: "32296783"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b890e-119">Constante</span><span class="sxs-lookup"><span data-stu-id="b890e-119">Constant</span></span></p></th>
+<th><p><span data-ttu-id="86b9b-119">Constante</span><span class="sxs-lookup"><span data-stu-id="86b9b-119">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b890e-120">AdoEnums.Bookmark.CURRENT</span><span class="sxs-lookup"><span data-stu-id="b890e-120">AdoEnums.Bookmark.CURRENT</span></span></p></td>
+<td><p><span data-ttu-id="86b9b-120">AdoEnums.Bookmark.CURRENT</span><span class="sxs-lookup"><span data-stu-id="86b9b-120">AdoEnums.Bookmark.CURRENT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b890e-121">AdoEnums.Bookmark.FIRST</span><span class="sxs-lookup"><span data-stu-id="b890e-121">AdoEnums.Bookmark.FIRST</span></span></p></td>
+<td><p><span data-ttu-id="86b9b-121">AdoEnums.Bookmark.FIRST</span><span class="sxs-lookup"><span data-stu-id="86b9b-121">AdoEnums.Bookmark.FIRST</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b890e-122">AdoEnums.Bookmark.LAST</span><span class="sxs-lookup"><span data-stu-id="b890e-122">AdoEnums.Bookmark.LAST</span></span></p></td>
+<td><p><span data-ttu-id="86b9b-122">AdoEnums.Bookmark.LAST</span><span class="sxs-lookup"><span data-stu-id="86b9b-122">AdoEnums.Bookmark.LAST</span></span></p></td>
 </tr>
 </tbody>
 </table>

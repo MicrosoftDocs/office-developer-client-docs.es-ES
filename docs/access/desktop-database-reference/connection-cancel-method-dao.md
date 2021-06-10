@@ -14,25 +14,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295971"
 ---
-# <a name="connectioncancel-method-dao"></a><span data-ttu-id="b42bf-102">Método Connection.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="b42bf-102">Connection.Cancel method (DAO)</span></span>
+# <a name="connectioncancel-method-dao"></a><span data-ttu-id="86c0f-102">Método Connection.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="86c0f-102">Connection.Cancel method (DAO)</span></span>
 
-<span data-ttu-id="b42bf-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b42bf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="86c0f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="86c0f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b42bf-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b42bf-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="86c0f-104">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="86c0f-104">Syntax</span></span>
 
-<span data-ttu-id="b42bf-105">*expresión* . Cancelar</span><span class="sxs-lookup"><span data-stu-id="b42bf-105">*expression* .Cancel</span></span>
+<span data-ttu-id="86c0f-105">*expresión* . Cancelar</span><span class="sxs-lookup"><span data-stu-id="86c0f-105">*expression* .Cancel</span></span>
 
-<span data-ttu-id="b42bf-106">*expression* Variable que representa un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="b42bf-106">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="86c0f-106">*expression* Variable que representa un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="86c0f-106">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b42bf-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b42bf-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="86c0f-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="86c0f-107">Remarks</span></span>
 
-<span data-ttu-id="b42bf-108">Use el **método Cancel** para finalizar la ejecución de una llamada asincrónica al método **Execute** o **OpenConnection** (es decir, el método se invocó con la opción dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="b42bf-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="b42bf-109">**Cancel** devolverá un error en tiempo de ejecución si dbRunAsync no se usó en el método que está intentando finalizar.</span><span class="sxs-lookup"><span data-stu-id="b42bf-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
+<span data-ttu-id="86c0f-108">Use el **método Cancel** para finalizar la ejecución de una llamada asincrónica al método **Execute** o **OpenConnection** (es decir, el método se invocó con la opción dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="86c0f-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="86c0f-109">**Cancel** devolverá un error en tiempo de ejecución si dbRunAsync no se usó en el método que estás intentando finalizar.</span><span class="sxs-lookup"><span data-stu-id="86c0f-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
 
-<span data-ttu-id="b42bf-110">Se producirá un error si, después de una llamada al método **Cancel**, intenta hacer referencia al objeto que debería haber sido creado por una llamada a **OpenConnection** asincrónica (es decir, el objeto **Connection** desde el que llamó al método **Cancel**).</span><span class="sxs-lookup"><span data-stu-id="b42bf-110">An error will occur if, following a **Cancel** method call, you try to reference the object that would have been created by an asynchronous **OpenConnection** call (that is, the **Connection** object from which you called the **Cancel** method).</span></span>
+<span data-ttu-id="86c0f-110">Se producirá un error si, después de una llamada al método **Cancel**, intenta hacer referencia al objeto que debería haber sido creado por una llamada a **OpenConnection** asincrónica (es decir, el objeto **Connection** desde el que llamó al método **Cancel**).</span><span class="sxs-lookup"><span data-stu-id="86c0f-110">An error will occur if, following a **Cancel** method call, you try to reference the object that would have been created by an asynchronous **OpenConnection** call (that is, the **Connection** object from which you called the **Cancel** method).</span></span>
 
-## <a name="example"></a><span data-ttu-id="b42bf-111">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="b42bf-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="86c0f-111">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="86c0f-111">Example</span></span>
 
-<span data-ttu-id="b42bf-112">En este ejemplo se utilizan la propiedad **StillExecuting** y el método **Cancel** para abrir de forma asincrónica un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="b42bf-112">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
+<span data-ttu-id="86c0f-112">En este ejemplo se utilizan la propiedad **StillExecuting** y el método **Cancel** para abrir de forma asincrónica un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="86c0f-112">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
 
 ```vb
     Sub CancelConnectionX() 

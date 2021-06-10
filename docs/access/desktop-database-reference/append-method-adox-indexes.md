@@ -14,29 +14,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297098"
 ---
-# <a name="append-method-adox-indexes"></a><span data-ttu-id="00f1d-102">Append (método, Indexes de ADOX)</span><span class="sxs-lookup"><span data-stu-id="00f1d-102">Append method (ADOX Indexes)</span></span>
+# <a name="append-method-adox-indexes"></a><span data-ttu-id="631dc-102">Append (método, Indexes de ADOX)</span><span class="sxs-lookup"><span data-stu-id="631dc-102">Append method (ADOX Indexes)</span></span>
 
 
-<span data-ttu-id="00f1d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="00f1d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="631dc-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="631dc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-<span data-ttu-id="00f1d-104">Agrega un nuevo objeto [Index](index-object-adox.md) a la colección [Indexes](indexes-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="00f1d-104">Adds a new [Index](index-object-adox.md) object to the [Indexes](indexes-collection-adox.md) collection.</span></span>
+<span data-ttu-id="631dc-104">Agrega un nuevo objeto [Index](index-object-adox.md) a la colección [Indexes](indexes-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="631dc-104">Adds a new [Index](index-object-adox.md) object to the [Indexes](indexes-collection-adox.md) collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="00f1d-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="00f1d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="631dc-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="631dc-105">Syntax</span></span>
 
-<span data-ttu-id="00f1d-106">*Índices*. Append *Index* \[ ,*Columns*\]</span><span class="sxs-lookup"><span data-stu-id="00f1d-106">*Indexes*.Append *Index* \[,*Columns*\]</span></span>
+<span data-ttu-id="631dc-106">*Índices*. Append *Index* \[ ,*Columns*\]</span><span class="sxs-lookup"><span data-stu-id="631dc-106">*Indexes*.Append *Index* \[,*Columns*\]</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="00f1d-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="00f1d-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="631dc-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="631dc-107">Parameters</span></span>
 
-|<span data-ttu-id="00f1d-108">Parámetro</span><span class="sxs-lookup"><span data-stu-id="00f1d-108">Parameter</span></span>|<span data-ttu-id="00f1d-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="00f1d-109">Description</span></span>|
+|<span data-ttu-id="631dc-108">Parámetro</span><span class="sxs-lookup"><span data-stu-id="631dc-108">Parameter</span></span>|<span data-ttu-id="631dc-109">Descripción</span><span class="sxs-lookup"><span data-stu-id="631dc-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="00f1d-110">*Index*</span><span class="sxs-lookup"><span data-stu-id="00f1d-110">*Index*</span></span> |<span data-ttu-id="00f1d-111">El objeto **Index** que se anexará o el nombre del índice que se creará y anexará.</span><span class="sxs-lookup"><span data-stu-id="00f1d-111">The **Index** object to append or the name of the index to create and append.</span></span>|
-|<span data-ttu-id="00f1d-112">*Columns*</span><span class="sxs-lookup"><span data-stu-id="00f1d-112">*Columns*</span></span> |<span data-ttu-id="00f1d-p101">Opcional. Un valor **Variant** que especifica los nombres de las columnas que se van a indizar. El parámetro *Columns* corresponde a los valores de la propiedad [Name](name-property-adox.md) de los objetos [Column](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="00f1d-p101">Optional. A **Variant** value that specifies the name(s) of the column(s) to be indexed. The *Columns* parameter corresponds to the value(s) of the [Name](name-property-adox.md) property of a [Column](column-object-adox.md) object or objects.</span></span>|
+|<span data-ttu-id="631dc-110">*Index*</span><span class="sxs-lookup"><span data-stu-id="631dc-110">*Index*</span></span> |<span data-ttu-id="631dc-111">El objeto **Index** que se anexará o el nombre del índice que se creará y anexará.</span><span class="sxs-lookup"><span data-stu-id="631dc-111">The **Index** object to append or the name of the index to create and append.</span></span>|
+|<span data-ttu-id="631dc-112">*Columns*</span><span class="sxs-lookup"><span data-stu-id="631dc-112">*Columns*</span></span> |<span data-ttu-id="631dc-p101">Opcional. Un valor **Variant** que especifica los nombres de las columnas que se van a indizar. El parámetro *Columns* corresponde a los valores de la propiedad [Name](name-property-adox.md) de los objetos [Column](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="631dc-p101">Optional. A **Variant** value that specifies the name(s) of the column(s) to be indexed. The *Columns* parameter corresponds to the value(s) of the [Name](name-property-adox.md) property of a [Column](column-object-adox.md) object or objects.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="00f1d-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="00f1d-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="631dc-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="631dc-116">Remarks</span></span>
 
-<span data-ttu-id="00f1d-117">El parámetro *Columns* puede tomar el nombre de una columna, o bien, de una matriz de nombres de columna.</span><span class="sxs-lookup"><span data-stu-id="00f1d-117">The *Columns* parameter can take either the name of a column or an array of column names.</span></span>
+<span data-ttu-id="631dc-117">El parámetro *Columns* puede tomar el nombre de una columna, o bien, de una matriz de nombres de columna.</span><span class="sxs-lookup"><span data-stu-id="631dc-117">The *Columns* parameter can take either the name of a column or an array of column names.</span></span>
 
-<span data-ttu-id="00f1d-118">Si el proveedor no admite la creación de índices, se producirá un error.</span><span class="sxs-lookup"><span data-stu-id="00f1d-118">An error will occur if the provider does not support creating indexes.</span></span>
+<span data-ttu-id="631dc-118">Si el proveedor no admite la creación de índices, se producirá un error.</span><span class="sxs-lookup"><span data-stu-id="631dc-118">An error will occur if the provider does not support creating indexes.</span></span>
 

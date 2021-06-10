@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296013"
 ---
-# <a name="complextype-properties-dao"></a><span data-ttu-id="0eff6-102">Propiedades ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="0eff6-102">ComplexType properties (DAO)</span></span>
+# <a name="complextype-properties-dao"></a><span data-ttu-id="4fa00-102">Propiedades ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="4fa00-102">ComplexType properties (DAO)</span></span>
 
-<span data-ttu-id="0eff6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0eff6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4fa00-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4fa00-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="0eff6-104">Propiedad ComplexType.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="0eff6-104">ComplexType.Fields property (DAO)</span></span>](complextype-fields-property-dao.md)
+- [<span data-ttu-id="4fa00-104">Propiedad ComplexType.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="4fa00-104">ComplexType.Fields property (DAO)</span></span>](complextype-fields-property-dao.md)
 

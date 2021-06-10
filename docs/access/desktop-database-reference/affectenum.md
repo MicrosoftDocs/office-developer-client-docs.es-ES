@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297203"
 ---
-# <a name="affectenum"></a><span data-ttu-id="51686-102">AffectEnum</span><span class="sxs-lookup"><span data-stu-id="51686-102">AffectEnum</span></span>
+# <a name="affectenum"></a><span data-ttu-id="f047f-102">AffectEnum</span><span class="sxs-lookup"><span data-stu-id="f047f-102">AffectEnum</span></span>
 
-<span data-ttu-id="51686-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51686-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f047f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f047f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="51686-104">Especifica a qué registros afecta una operación.</span><span class="sxs-lookup"><span data-stu-id="51686-104">Specifies which records are affected by an operation.</span></span>
+<span data-ttu-id="f047f-104">Especifica a qué registros afecta una operación.</span><span class="sxs-lookup"><span data-stu-id="f047f-104">Specifies which records are affected by an operation.</span></span>
 
 <br/>
 
@@ -30,40 +30,40 @@ ms.locfileid: "32297203"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="51686-105">Constante</span><span class="sxs-lookup"><span data-stu-id="51686-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="51686-106">Valor</span><span class="sxs-lookup"><span data-stu-id="51686-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="51686-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="51686-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="f047f-105">Constante</span><span class="sxs-lookup"><span data-stu-id="f047f-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="f047f-106">Valor</span><span class="sxs-lookup"><span data-stu-id="f047f-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="f047f-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="f047f-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="51686-108"><strong>adAffectAll</strong></span><span class="sxs-lookup"><span data-stu-id="51686-108"><strong>adAffectAll</strong></span></span></p></td>
-<td><p><span data-ttu-id="51686-109">3 </span><span class="sxs-lookup"><span data-stu-id="51686-109">3</span></span></p></td>
-<td><p><span data-ttu-id="51686-110">Si no existe ninguna propiedad <a href="filter-property-ado.md">Filter</a> aplicada al objeto <strong>Recordset</strong>, afecta a todos los registros.</span><span class="sxs-lookup"><span data-stu-id="51686-110">If there is not a <a href="filter-property-ado.md">Filter</a> applied to the <strong>Recordset</strong>, affects all records.</span></span> <span data-ttu-id="51686-111">Si la <strong>propiedad Filter</strong> se establece en un criterio de cadena (como Author='Smith'), la operación afecta a los registros &quot; &quot; visibles del capítulo actual.</span><span class="sxs-lookup"><span data-stu-id="51686-111">If the <strong>Filter</strong> property is set to a string criteria (such as &quot;Author='Smith'&quot;), the operation affects visible records in the current chapter.</span></span> <span data-ttu-id="51686-112">Si la <strong>propiedad Filter</strong> se establece en un miembro de <a href="filtergroupenum.md">FilterGroupEnum</a> o una matriz de marcadores, la operación afectará a todas las filas del conjunto de <strong>registros</strong>.</span><span class="sxs-lookup"><span data-stu-id="51686-112">If the <strong>Filter</strong> property is set to a member of the <a href="filtergroupenum.md">FilterGroupEnum</a> or an array of Bookmarks, the operation will affect all rows of the <strong>Recordset</strong>.</span></span></p><p><span data-ttu-id="51686-113"><strong>NOTA:</strong>adAffectAll está oculto en el explorador Visual Basic objetos.</span><span class="sxs-lookup"><span data-stu-id="51686-113"><strong>NOTE</strong>: adAffectAll is hidden in the Visual Basic Object Browser.</span></span></p>
+<td><p><span data-ttu-id="f047f-108"><strong>adAffectAll</strong></span><span class="sxs-lookup"><span data-stu-id="f047f-108"><strong>adAffectAll</strong></span></span></p></td>
+<td><p><span data-ttu-id="f047f-109">3</span><span class="sxs-lookup"><span data-stu-id="f047f-109">3</span></span></p></td>
+<td><p><span data-ttu-id="f047f-110">Si no existe ninguna propiedad <a href="filter-property-ado.md">Filter</a> aplicada al objeto <strong>Recordset</strong>, afecta a todos los registros.</span><span class="sxs-lookup"><span data-stu-id="f047f-110">If there is not a <a href="filter-property-ado.md">Filter</a> applied to the <strong>Recordset</strong>, affects all records.</span></span> <span data-ttu-id="f047f-111">Si la <strong>propiedad Filter</strong> se establece en un criterio de cadena (como Author='Smith'), la operación afecta a los registros &quot; &quot; visibles del capítulo actual.</span><span class="sxs-lookup"><span data-stu-id="f047f-111">If the <strong>Filter</strong> property is set to a string criteria (such as &quot;Author='Smith'&quot;), the operation affects visible records in the current chapter.</span></span> <span data-ttu-id="f047f-112">Si la <strong>propiedad Filter</strong> se establece en un miembro de <a href="filtergroupenum.md">FilterGroupEnum</a> o una matriz de marcadores, la operación afectará a todas las filas del <strong>objeto Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="f047f-112">If the <strong>Filter</strong> property is set to a member of the <a href="filtergroupenum.md">FilterGroupEnum</a> or an array of Bookmarks, the operation will affect all rows of the <strong>Recordset</strong>.</span></span></p><p><span data-ttu-id="f047f-113"><strong>NOTA:</strong>adAffectAll está oculto en el Visual Basic de objetos.</span><span class="sxs-lookup"><span data-stu-id="f047f-113"><strong>NOTE</strong>: adAffectAll is hidden in the Visual Basic Object Browser.</span></span></p>
 </td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51686-114"><strong>adAffectAllChapters</strong></span><span class="sxs-lookup"><span data-stu-id="51686-114"><strong>adAffectAllChapters</strong></span></span></p></td>
-<td><p><span data-ttu-id="51686-115">4 </span><span class="sxs-lookup"><span data-stu-id="51686-115">4</span></span></p></td>
-<td><p><span data-ttu-id="51686-116">Afecta a todos los registros de todos los capítulos secundarios del <strong>Recordset</strong>, incluidos aquellos no visibles a través de ningún <strong>Filtro</strong> aplicado actualmente.</span><span class="sxs-lookup"><span data-stu-id="51686-116">Affects all records in all sibling chapters of the <strong>Recordset</strong>, including those not visible via any <strong>Filter</strong> that is currently applied.</span></span></p></td>
+<td><p><span data-ttu-id="f047f-114"><strong>adAffectAllChapters</strong></span><span class="sxs-lookup"><span data-stu-id="f047f-114"><strong>adAffectAllChapters</strong></span></span></p></td>
+<td><p><span data-ttu-id="f047f-115">4 </span><span class="sxs-lookup"><span data-stu-id="f047f-115">4</span></span></p></td>
+<td><p><span data-ttu-id="f047f-116">Afecta a todos los registros de todos los capítulos secundarios del <strong>Recordset</strong>, incluidos aquellos no visibles a través de ningún <strong>Filtro</strong> aplicado actualmente.</span><span class="sxs-lookup"><span data-stu-id="f047f-116">Affects all records in all sibling chapters of the <strong>Recordset</strong>, including those not visible via any <strong>Filter</strong> that is currently applied.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="51686-117"><strong>adAffectCurrent</strong></span><span class="sxs-lookup"><span data-stu-id="51686-117"><strong>adAffectCurrent</strong></span></span></p></td>
-<td><p><span data-ttu-id="51686-118">1 </span><span class="sxs-lookup"><span data-stu-id="51686-118">1</span></span></p></td>
-<td><p><span data-ttu-id="51686-119">Afecta sólo al registro actual.</span><span class="sxs-lookup"><span data-stu-id="51686-119">Affects only the current record.</span></span></p></td>
+<td><p><span data-ttu-id="f047f-117"><strong>adAffectCurrent</strong></span><span class="sxs-lookup"><span data-stu-id="f047f-117"><strong>adAffectCurrent</strong></span></span></p></td>
+<td><p><span data-ttu-id="f047f-118">1</span><span class="sxs-lookup"><span data-stu-id="f047f-118">1</span></span></p></td>
+<td><p><span data-ttu-id="f047f-119">Afecta sólo al registro actual.</span><span class="sxs-lookup"><span data-stu-id="f047f-119">Affects only the current record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51686-120"><strong>adAffectGroup</strong></span><span class="sxs-lookup"><span data-stu-id="51686-120"><strong>adAffectGroup</strong></span></span></p></td>
-<td><p><span data-ttu-id="51686-121">2 </span><span class="sxs-lookup"><span data-stu-id="51686-121">2</span></span></p></td>
-<td><p><span data-ttu-id="51686-p102">Afecta únicamente a los registros que cumplen el valor actual de la propiedad <a href="filter-property-ado.md">Filter</a>. Para usar esta opción, debe establecer la propiedad <strong>Filter</strong> en un valor <strong>FilterGroupEnum</strong> o en una matriz de <strong>marcadores</strong>.</span><span class="sxs-lookup"><span data-stu-id="51686-p102">Affects only records that satisfy the current <a href="filter-property-ado.md">Filter</a> property setting. You must set the <strong>Filter</strong> property to a <strong>FilterGroupEnum</strong> value or an array of <strong>Bookmarks</strong> to use this option.</span></span></p></td>
+<td><p><span data-ttu-id="f047f-120"><strong>adAffectGroup</strong></span><span class="sxs-lookup"><span data-stu-id="f047f-120"><strong>adAffectGroup</strong></span></span></p></td>
+<td><p><span data-ttu-id="f047f-121">2</span><span class="sxs-lookup"><span data-stu-id="f047f-121">2</span></span></p></td>
+<td><p><span data-ttu-id="f047f-p102">Afecta únicamente a los registros que cumplen el valor actual de la propiedad <a href="filter-property-ado.md">Filter</a>. Para usar esta opción, debe establecer la propiedad <strong>Filter</strong> en un valor <strong>FilterGroupEnum</strong> o en una matriz de <strong>marcadores</strong>.</span><span class="sxs-lookup"><span data-stu-id="f047f-p102">Affects only records that satisfy the current <a href="filter-property-ado.md">Filter</a> property setting. You must set the <strong>Filter</strong> property to a <strong>FilterGroupEnum</strong> value or an array of <strong>Bookmarks</strong> to use this option.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="51686-124">Equivalente a ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="51686-124">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="f047f-124">Equivalente a ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="f047f-124">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="51686-125">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="51686-125">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="f047f-125">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="f047f-125">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -71,21 +71,21 @@ ms.locfileid: "32297203"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="51686-126">Constante</span><span class="sxs-lookup"><span data-stu-id="51686-126">Constant</span></span></p></th>
+<th><p><span data-ttu-id="f047f-126">Constante</span><span class="sxs-lookup"><span data-stu-id="f047f-126">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="51686-127">AdoEnums.Affect.ALL</span><span class="sxs-lookup"><span data-stu-id="51686-127">AdoEnums.Affect.ALL</span></span></p></td>
+<td><p><span data-ttu-id="f047f-127">AdoEnums.Affect.ALL</span><span class="sxs-lookup"><span data-stu-id="f047f-127">AdoEnums.Affect.ALL</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51686-128">AdoEnums.Affect.ALLCHAPTERS</span><span class="sxs-lookup"><span data-stu-id="51686-128">AdoEnums.Affect.ALLCHAPTERS</span></span></p></td>
+<td><p><span data-ttu-id="f047f-128">AdoEnums.Affect.ALLCHAPTERS</span><span class="sxs-lookup"><span data-stu-id="f047f-128">AdoEnums.Affect.ALLCHAPTERS</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="51686-129">AdoEnums.Affect.CURRENT</span><span class="sxs-lookup"><span data-stu-id="51686-129">AdoEnums.Affect.CURRENT</span></span></p></td>
+<td><p><span data-ttu-id="f047f-129">AdoEnums.Affect.CURRENT</span><span class="sxs-lookup"><span data-stu-id="f047f-129">AdoEnums.Affect.CURRENT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="51686-130">AdoEnums.Affect.GROUP</span><span class="sxs-lookup"><span data-stu-id="51686-130">AdoEnums.Affect.GROUP</span></span></p></td>
+<td><p><span data-ttu-id="f047f-130">AdoEnums.Affect.GROUP</span><span class="sxs-lookup"><span data-stu-id="f047f-130">AdoEnums.Affect.GROUP</span></span></p></td>
 </tr>
 </tbody>
 </table>

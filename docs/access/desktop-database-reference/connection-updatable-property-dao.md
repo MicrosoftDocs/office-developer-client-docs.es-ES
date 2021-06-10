@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295803"
 ---
-# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="e55b0-102">Propiedad Connection.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="e55b0-102">Connection.Updatable property (DAO)</span></span>
+# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="23206-102">Propiedad Connection.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="23206-102">Connection.Updatable property (DAO)</span></span>
 
 
-<span data-ttu-id="e55b0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e55b0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="23206-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23206-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e55b0-104">Devuelve un valor que indica si puede cambiar un objeto DAO.</span><span class="sxs-lookup"><span data-stu-id="e55b0-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="e55b0-105">**Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e55b0-105">Read-only **Boolean**.Read-only.</span></span>
+<span data-ttu-id="23206-p101">Devuelve un valor que indica si puede cambiar un objeto DAO. **Boolean** de solo lectura.</span><span class="sxs-lookup"><span data-stu-id="23206-p101">Returns a value that indicates whether you can change a DAO object. Read-only **Boolean**.Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e55b0-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e55b0-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="23206-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="23206-106">Syntax</span></span>
 
-<span data-ttu-id="e55b0-107">*expresión* . Actualizable</span><span class="sxs-lookup"><span data-stu-id="e55b0-107">*expression* .Updatable</span></span>
+<span data-ttu-id="23206-107">*expresión* . Actualizable</span><span class="sxs-lookup"><span data-stu-id="23206-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="e55b0-108">*expresión* Expresión que devuelve un **objeto Connection.**</span><span class="sxs-lookup"><span data-stu-id="e55b0-108">*expression* An expression that returns a **Connection** object.</span></span>
+<span data-ttu-id="23206-108">*expresión* Expresión que devuelve un **objeto Connection.**</span><span class="sxs-lookup"><span data-stu-id="23206-108">*expression* An expression that returns a **Connection** object.</span></span>
 

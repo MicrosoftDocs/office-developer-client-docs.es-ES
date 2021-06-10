@@ -14,27 +14,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296167"
 ---
-# <a name="command-object-overview"></a><span data-ttu-id="574b3-102">Información general sobre el objeto Command</span><span class="sxs-lookup"><span data-stu-id="574b3-102">Command object overview</span></span>
+# <a name="command-object-overview"></a><span data-ttu-id="312fc-102">Información general sobre el objeto Command</span><span class="sxs-lookup"><span data-stu-id="312fc-102">Command object overview</span></span>
 
-<span data-ttu-id="574b3-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="574b3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="312fc-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="312fc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="574b3-104">Con las colecciones, los métodos y las propiedades de un objeto **Command**, puede hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="574b3-104">With the collections, methods, and properties of a **Command** object, you can do the following:</span></span>
+<span data-ttu-id="312fc-104">Con las colecciones, los métodos y las propiedades de un objeto **Command**, puede hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="312fc-104">With the collections, methods, and properties of a **Command** object, you can do the following:</span></span>
 
-  - <span data-ttu-id="574b3-105">Definir el texto ejecutable del comando (por ejemplo, una instrucción SQL o un procedimiento almacenado) utilizando la propiedad **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="574b3-105">Define the executable text of the command (for example, a SQL statement or a stored procedure) by using the **CommandText** property.</span></span>
+  - <span data-ttu-id="312fc-105">Definir el texto ejecutable del comando (por ejemplo, una instrucción SQL o un procedimiento almacenado) utilizando la propiedad **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="312fc-105">Define the executable text of the command (for example, a SQL statement or a stored procedure) by using the **CommandText** property.</span></span>
 
-  - <span data-ttu-id="574b3-106">Definir consultas parametrizadas o argumentos de procedimientos almacenados utilizando objetos **Parameter** y la colección **Parameters**.</span><span class="sxs-lookup"><span data-stu-id="574b3-106">Define parameterized queries or stored procedure arguments by using **Parameter** objects and the **Parameters** collection.</span></span>
+  - <span data-ttu-id="312fc-106">Definir consultas parametrizadas o argumentos de procedimientos almacenados utilizando objetos **Parameter** y la colección **Parameters**.</span><span class="sxs-lookup"><span data-stu-id="312fc-106">Define parameterized queries or stored procedure arguments by using **Parameter** objects and the **Parameters** collection.</span></span>
 
-  - <span data-ttu-id="574b3-107">Ejecutar un comando y devolver un objeto **Recordset**, si procede, usando el método **Execute**.</span><span class="sxs-lookup"><span data-stu-id="574b3-107">Execute a command and return a **Recordset** object, if appropriate, by using the **Execute** method.</span></span>
+  - <span data-ttu-id="312fc-107">Ejecutar un comando y devolver un objeto **Recordset**, si procede, usando el método **Execute**.</span><span class="sxs-lookup"><span data-stu-id="312fc-107">Execute a command and return a **Recordset** object, if appropriate, by using the **Execute** method.</span></span>
 
-  - <span data-ttu-id="574b3-108">Especificar el tipo de comando mediante la propiedad **CommandType** antes de la ejecución para optimizar el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="574b3-108">Specify the type of command by using the **CommandType** property prior to execution to optimize performance.</span></span>
+  - <span data-ttu-id="312fc-108">Especificar el tipo de comando mediante la propiedad **CommandType** antes de la ejecución para optimizar el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="312fc-108">Specify the type of command by using the **CommandType** property prior to execution to optimize performance.</span></span>
 
-  - <span data-ttu-id="574b3-109">Controlar si el proveedor guarda una versión preparada (o compilada) del comando antes de la ejecución mediante la propiedad **Prepared**.</span><span class="sxs-lookup"><span data-stu-id="574b3-109">Control whether the provider saves a prepared (or compiled) version of the command prior to execution by using the **Prepared** property.</span></span>
+  - <span data-ttu-id="312fc-109">Controlar si el proveedor guarda una versión preparada (o compilada) del comando antes de la ejecución mediante la propiedad **Prepared**.</span><span class="sxs-lookup"><span data-stu-id="312fc-109">Control whether the provider saves a prepared (or compiled) version of the command prior to execution by using the **Prepared** property.</span></span>
 
-  - <span data-ttu-id="574b3-110">Establecer el número de segundos que esperará un proveedor para la ejecución de un comando mediante la propiedad **CommandTimeout**.</span><span class="sxs-lookup"><span data-stu-id="574b3-110">Set the number of seconds that a provider will wait for a command to execute by using the **CommandTimeout** property.</span></span>
+  - <span data-ttu-id="312fc-110">Establecer el número de segundos que esperará un proveedor para la ejecución de un comando mediante la propiedad **CommandTimeout**.</span><span class="sxs-lookup"><span data-stu-id="312fc-110">Set the number of seconds that a provider will wait for a command to execute by using the **CommandTimeout** property.</span></span>
 
-  - <span data-ttu-id="574b3-111">Asociar una conexión abierta con un objeto **Command** estableciendo su propiedad **ActiveConnection**.</span><span class="sxs-lookup"><span data-stu-id="574b3-111">Associate an open connection with a **Command** object by setting its **ActiveConnection** property.</span></span>
+  - <span data-ttu-id="312fc-111">Asociar una conexión abierta con un objeto **Command** estableciendo su propiedad **ActiveConnection**.</span><span class="sxs-lookup"><span data-stu-id="312fc-111">Associate an open connection with a **Command** object by setting its **ActiveConnection** property.</span></span>
 
-  - <span data-ttu-id="574b3-112">Establecer la propiedad **Name** para identificar el objeto **Command** como un método en el objeto **Connection** asociado.</span><span class="sxs-lookup"><span data-stu-id="574b3-112">Set the **Name** property to identify the **Command** object as a method on the associated **Connection** object.</span></span>
+  - <span data-ttu-id="312fc-112">Establecer la propiedad **Name** para identificar el objeto **Command** como un método en el objeto **Connection** asociado.</span><span class="sxs-lookup"><span data-stu-id="312fc-112">Set the **Name** property to identify the **Command** object as a method on the associated **Connection** object.</span></span>
 
-  - <span data-ttu-id="574b3-113">Pasar un objeto **Command** a la propiedad **Source** de un **conjunto de registros** para obtener datos.</span><span class="sxs-lookup"><span data-stu-id="574b3-113">Pass a **Command** object to the **Source** property of a **Recordset** in order to obtain data.</span></span>
+  - <span data-ttu-id="312fc-113">Pasar un objeto **Command** a la propiedad **Source** de un **conjunto de registros** para obtener datos.</span><span class="sxs-lookup"><span data-stu-id="312fc-113">Pass a **Command** object to the **Source** property of a **Recordset** in order to obtain data.</span></span>
 

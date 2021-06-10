@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296615"
 ---
-# <a name="caption-property-ado-md"></a><span data-ttu-id="4d84d-102">Propiedad Caption (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4d84d-102">Caption property (ADO MD)</span></span>
+# <a name="caption-property-ado-md"></a><span data-ttu-id="20f10-102">Propiedad Caption (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="20f10-102">Caption property (ADO MD)</span></span>
 
 
-<span data-ttu-id="4d84d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d84d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="20f10-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20f10-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4d84d-104">Indica el texto de título que se utilizará para mostrar un objeto [Level](level-object-ado-md.md) o [Member](member-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="4d84d-104">Indicates the text caption to use when displaying a [Level](level-object-ado-md.md) or [Member](member-object-ado-md.md) object.</span></span>
+<span data-ttu-id="20f10-104">Indica el texto de título que se utilizará para mostrar un objeto [Level](level-object-ado-md.md) o [Member](member-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="20f10-104">Indicates the text caption to use when displaying a [Level](level-object-ado-md.md) or [Member](member-object-ado-md.md) object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="4d84d-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="4d84d-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="20f10-105">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="20f10-105">Return values</span></span>
 
-<span data-ttu-id="4d84d-106">Devuelve un valor **String** y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="4d84d-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="20f10-106">Devuelve un valor **String** y es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="20f10-106">Returns a **String** and is read-only.</span></span>
 

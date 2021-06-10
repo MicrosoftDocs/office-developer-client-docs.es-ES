@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295719"
 ---
-# <a name="connectionsrefresh-method-dao"></a><span data-ttu-id="98c41-102">Método Connections.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="98c41-102">Connections.Refresh method (DAO)</span></span>
+# <a name="connectionsrefresh-method-dao"></a><span data-ttu-id="66da1-102">Método Connections.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="66da1-102">Connections.Refresh method (DAO)</span></span>
 
 
-<span data-ttu-id="98c41-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="98c41-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="66da1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="66da1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="98c41-104">No está admitido para la colección **[Connections](connections-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="98c41-104">Not supported for the **[Connections](connections-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="66da1-104">No está admitido para la colección **[Connections](connections-collection-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="66da1-104">Not supported for the **[Connections](connections-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="98c41-105">No puede usar el método **Refresh** con colecciones que no son persistentes, como **Connections**, **Databases**, **Recordsets**, **Workspaces** o la colección **QueryDefs** de un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="98c41-105">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
+<span data-ttu-id="66da1-105">No puede usar el método **Refresh** con colecciones que no son persistentes, como **Connections**, **Databases**, **Recordsets**, **Workspaces** o la colección **QueryDefs** de un objeto **Connection**.</span><span class="sxs-lookup"><span data-stu-id="66da1-105">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
 

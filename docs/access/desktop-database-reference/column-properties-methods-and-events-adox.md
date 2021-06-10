@@ -14,29 +14,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296244"
 ---
-# <a name="column-properties-methods-and-events-adox"></a><span data-ttu-id="3df9d-102">Propiedades, métodos y eventos de columna (ADOX)</span><span class="sxs-lookup"><span data-stu-id="3df9d-102">Column properties, methods, and events (ADOX)</span></span>
+# <a name="column-properties-methods-and-events-adox"></a><span data-ttu-id="8ec5f-102">Propiedades, métodos y eventos de columna (ADOX)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-102">Column properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="3df9d-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3df9d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8ec5f-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8ec5f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-## <a name="propertiescollections"></a><span data-ttu-id="3df9d-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="3df9d-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="8ec5f-104">Propiedades y colecciones</span><span class="sxs-lookup"><span data-stu-id="8ec5f-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="3df9d-105">Attributes (propiedad)</span><span class="sxs-lookup"><span data-stu-id="3df9d-105">Attributes property</span></span>](attributes-property-adox.md)
-- [<span data-ttu-id="3df9d-106">DefinedSize (propiedad)</span><span class="sxs-lookup"><span data-stu-id="3df9d-106">DefinedSize property</span></span>](definedsize-property-adox.md)
-- [<span data-ttu-id="3df9d-107">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="3df9d-107">Name property</span></span>](name-property-adox.md)
-- [<span data-ttu-id="3df9d-108">NumericScale (propiedad)</span><span class="sxs-lookup"><span data-stu-id="3df9d-108">NumericScale property</span></span>](numericscale-property-adox.md)
-- [<span data-ttu-id="3df9d-109">ParentCatalog (propiedad)</span><span class="sxs-lookup"><span data-stu-id="3df9d-109">ParentCatalog property</span></span>](parentcatalog-property-adox.md)
-- [<span data-ttu-id="3df9d-110">Precision (propiedad)</span><span class="sxs-lookup"><span data-stu-id="3df9d-110">Precision property</span></span>](precision-property-adox.md)
-- [<span data-ttu-id="3df9d-111">Properties (colección)</span><span class="sxs-lookup"><span data-stu-id="3df9d-111">Properties collection</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="3df9d-112">RelatedColumn (propiedad)</span><span class="sxs-lookup"><span data-stu-id="3df9d-112">RelatedColumn property</span></span>](relatedcolumn-property-adox.md)
-- [<span data-ttu-id="3df9d-113">SortOrder (propiedad)</span><span class="sxs-lookup"><span data-stu-id="3df9d-113">SortOrder property</span></span>](sortorder-property-adox.md)
-- [<span data-ttu-id="3df9d-114">Propiedad Type (Column)</span><span class="sxs-lookup"><span data-stu-id="3df9d-114">Type property (Column)</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
+- [<span data-ttu-id="8ec5f-105">Attributes (propiedad)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-105">Attributes property</span></span>](attributes-property-adox.md)
+- [<span data-ttu-id="8ec5f-106">DefinedSize (propiedad)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-106">DefinedSize property</span></span>](definedsize-property-adox.md)
+- [<span data-ttu-id="8ec5f-107">Name (propiedad)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-107">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="8ec5f-108">NumericScale (propiedad)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-108">NumericScale property</span></span>](numericscale-property-adox.md)
+- [<span data-ttu-id="8ec5f-109">ParentCatalog (propiedad)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-109">ParentCatalog property</span></span>](parentcatalog-property-adox.md)
+- [<span data-ttu-id="8ec5f-110">Precision (propiedad)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-110">Precision property</span></span>](precision-property-adox.md)
+- [<span data-ttu-id="8ec5f-111">Properties (colección)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-111">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="8ec5f-112">RelatedColumn (propiedad)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-112">RelatedColumn property</span></span>](relatedcolumn-property-adox.md)
+- [<span data-ttu-id="8ec5f-113">SortOrder (propiedad)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-113">SortOrder property</span></span>](sortorder-property-adox.md)
+- [<span data-ttu-id="8ec5f-114">Propiedad Type (Column)</span><span class="sxs-lookup"><span data-stu-id="8ec5f-114">Type property (Column)</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
 
-## <a name="methods"></a><span data-ttu-id="3df9d-115">Métodos</span><span class="sxs-lookup"><span data-stu-id="3df9d-115">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="8ec5f-115">Métodos</span><span class="sxs-lookup"><span data-stu-id="8ec5f-115">Methods</span></span>
 
-<span data-ttu-id="3df9d-116">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="3df9d-116">None.</span></span>
+<span data-ttu-id="8ec5f-116">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="8ec5f-116">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="3df9d-117">Eventos</span><span class="sxs-lookup"><span data-stu-id="3df9d-117">Events</span></span>
+## <a name="events"></a><span data-ttu-id="8ec5f-117">Eventos</span><span class="sxs-lookup"><span data-stu-id="8ec5f-117">Events</span></span>
 
-<span data-ttu-id="3df9d-118">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="3df9d-118">None.</span></span>
+<span data-ttu-id="8ec5f-118">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="8ec5f-118">None.</span></span>
 

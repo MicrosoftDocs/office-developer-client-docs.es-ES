@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296811"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="7cf20-102">Ejemplo de las propiedades BOF, EOF y Bookmark (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7cf20-102">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="190c4-102">Ejemplo de las propiedades BOF, EOF y Bookmark (VJ++)</span><span class="sxs-lookup"><span data-stu-id="190c4-102">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="7cf20-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7cf20-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="190c4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="190c4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7cf20-p101">En este ejemplo se usan las propiedades [BOF](bof-eof-properties-ado.md) y [EOF](bof-eof-properties-ado.md) para mostrar un mensaje si un usuario intenta moverse hasta un punto situado más allá del primer registro o del último registro de un objeto [Recordset](recordset-object-ado.md). Se usa la propiedad [Bookmark](bookmark-property-ado.md) para que el usuario pueda marcar un registro de un objeto **Recordset** y volver al mismo más adelante.</span><span class="sxs-lookup"><span data-stu-id="7cf20-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="190c4-p101">En este ejemplo se usan las propiedades [BOF](bof-eof-properties-ado.md) y [EOF](bof-eof-properties-ado.md) para mostrar un mensaje si un usuario intenta moverse hasta un punto situado más allá del primer registro o del último registro de un objeto [Recordset](recordset-object-ado.md). Se usa la propiedad [Bookmark](bookmark-property-ado.md) para que el usuario pueda marcar un registro de un objeto **Recordset** y volver al mismo más adelante.</span><span class="sxs-lookup"><span data-stu-id="190c4-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```java 
  

@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295684"
 ---
-# <a name="connectoptionenum"></a><span data-ttu-id="73da9-102">ConnectOptionEnum</span><span class="sxs-lookup"><span data-stu-id="73da9-102">ConnectOptionEnum</span></span>
+# <a name="connectoptionenum"></a><span data-ttu-id="32f34-102">ConnectOptionEnum</span><span class="sxs-lookup"><span data-stu-id="32f34-102">ConnectOptionEnum</span></span>
 
-<span data-ttu-id="73da9-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73da9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="32f34-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="32f34-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="73da9-104">Especifica si el método [Open](open-method-ado-connection.md) de un objeto [Connection](connection-object-ado.md) debe volver después (sincrónicamente) o antes (asincrónicamente) de que la conexión se establezca.</span><span class="sxs-lookup"><span data-stu-id="73da9-104">Specifies whether the [Open](open-method-ado-connection.md) method of a [Connection](connection-object-ado.md) object should return after (synchronously) or before (asynchronously) the connection is established.</span></span>
+<span data-ttu-id="32f34-104">Especifica si el método [Open](open-method-ado-connection.md) de un objeto [Connection](connection-object-ado.md) debe volver después (sincrónicamente) o antes (asincrónicamente) de que la conexión se establezca.</span><span class="sxs-lookup"><span data-stu-id="32f34-104">Specifies whether the [Open](open-method-ado-connection.md) method of a [Connection](connection-object-ado.md) object should return after (synchronously) or before (asynchronously) the connection is established.</span></span>
 
 <br/>
 
@@ -30,29 +30,29 @@ ms.locfileid: "32295684"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="73da9-105">Constante</span><span class="sxs-lookup"><span data-stu-id="73da9-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="73da9-106">Valor</span><span class="sxs-lookup"><span data-stu-id="73da9-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="73da9-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="73da9-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="32f34-105">Constante</span><span class="sxs-lookup"><span data-stu-id="32f34-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="32f34-106">Valor</span><span class="sxs-lookup"><span data-stu-id="32f34-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="32f34-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="32f34-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="73da9-108"><strong>adAsyncConnect</strong></span><span class="sxs-lookup"><span data-stu-id="73da9-108"><strong>adAsyncConnect</strong></span></span></p></td>
-<td><p><span data-ttu-id="73da9-109">16 </span><span class="sxs-lookup"><span data-stu-id="73da9-109">16</span></span></p></td>
-<td><p><span data-ttu-id="73da9-p101">Abre la conexión asincrónicamente. El evento <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> se puede utilizar para determinar en qué momento está disponible la conexión.</span><span class="sxs-lookup"><span data-stu-id="73da9-p101">Opens the connection asynchronously. The <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> event may be used to determine when the connection is available.</span></span></p></td>
+<td><p><span data-ttu-id="32f34-108"><strong>adAsyncConnect</strong></span><span class="sxs-lookup"><span data-stu-id="32f34-108"><strong>adAsyncConnect</strong></span></span></p></td>
+<td><p><span data-ttu-id="32f34-109">16 </span><span class="sxs-lookup"><span data-stu-id="32f34-109">16</span></span></p></td>
+<td><p><span data-ttu-id="32f34-p101">Abre la conexión asincrónicamente. El evento <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> se puede utilizar para determinar en qué momento está disponible la conexión.</span><span class="sxs-lookup"><span data-stu-id="32f34-p101">Opens the connection asynchronously. The <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> event may be used to determine when the connection is available.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="73da9-112"><strong>adConnectUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="73da9-112"><strong>adConnectUnspecified</strong></span></span></p></td>
-<td><p><span data-ttu-id="73da9-113">-1</span><span class="sxs-lookup"><span data-stu-id="73da9-113">-1</span></span></p></td>
-<td><p><span data-ttu-id="73da9-p102">Valor predeterminado. Abre la conexión sincrónicamente.</span><span class="sxs-lookup"><span data-stu-id="73da9-p102">Default. Opens the connection synchronously.</span></span></p></td>
+<td><p><span data-ttu-id="32f34-112"><strong>adConnectUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="32f34-112"><strong>adConnectUnspecified</strong></span></span></p></td>
+<td><p><span data-ttu-id="32f34-113">-1</span><span class="sxs-lookup"><span data-stu-id="32f34-113">-1</span></span></p></td>
+<td><p><span data-ttu-id="32f34-p102">Valor predeterminado. Abre la conexión sincrónicamente.</span><span class="sxs-lookup"><span data-stu-id="32f34-p102">Default. Opens the connection synchronously.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="73da9-116">Equivalente de ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="73da9-116">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="32f34-116">Equivalente a ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="32f34-116">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="73da9-117">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="73da9-117">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="32f34-117">Paquete: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="32f34-117">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -60,15 +60,15 @@ ms.locfileid: "32295684"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="73da9-118">Constante</span><span class="sxs-lookup"><span data-stu-id="73da9-118">Constant</span></span></p></th>
+<th><p><span data-ttu-id="32f34-118">Constante</span><span class="sxs-lookup"><span data-stu-id="32f34-118">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="73da9-119">AdoEnums.ConnectOption.ASYNCCONNECT</span><span class="sxs-lookup"><span data-stu-id="73da9-119">AdoEnums.ConnectOption.ASYNCCONNECT</span></span></p></td>
+<td><p><span data-ttu-id="32f34-119">AdoEnums.ConnectOption.ASYNCCONNECT</span><span class="sxs-lookup"><span data-stu-id="32f34-119">AdoEnums.ConnectOption.ASYNCCONNECT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="73da9-120">AdoEnums.ConnectOption.CONNECTUNSPECIFIED</span><span class="sxs-lookup"><span data-stu-id="73da9-120">AdoEnums.ConnectOption.CONNECTUNSPECIFIED</span></span></p></td>
+<td><p><span data-ttu-id="32f34-120">AdoEnums.ConnectOption.CONNECTUNSPECIFIED</span><span class="sxs-lookup"><span data-stu-id="32f34-120">AdoEnums.ConnectOption.CONNECTUNSPECIFIED</span></span></p></td>
 </tr>
 </tbody>
 </table>

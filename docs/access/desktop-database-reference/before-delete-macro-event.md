@@ -18,32 +18,32 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296916"
 ---
-# <a name="before-delete-macro-event"></a><span data-ttu-id="b4218-102">Eliminación previa (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="b4218-102">Before Delete macro event</span></span>
+# <a name="before-delete-macro-event"></a><span data-ttu-id="d1be8-102">Eliminación previa (evento de macro)</span><span class="sxs-lookup"><span data-stu-id="d1be8-102">Before Delete macro event</span></span>
 
-<span data-ttu-id="b4218-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4218-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d1be8-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1be8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b4218-104">El evento **Eliminación previa** se produce cuando se elimina un registro, pero antes de confirmar el cambio.</span><span class="sxs-lookup"><span data-stu-id="b4218-104">The **Before Delete** event occurs when a record is deleted, but before the change is committed.</span></span>
+<span data-ttu-id="d1be8-104">El evento **Eliminación previa** se produce cuando se elimina un registro, pero antes de confirmar el cambio.</span><span class="sxs-lookup"><span data-stu-id="d1be8-104">The **Before Delete** event occurs when a record is deleted, but before the change is committed.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b4218-105">El evento **Eliminación previa** solo está disponible en macros de datos.</span><span class="sxs-lookup"><span data-stu-id="b4218-105">The **Before Delete** event is available only in Data Macros.</span></span>
+> <span data-ttu-id="d1be8-105">El evento **Eliminación previa** solo está disponible en macros de datos.</span><span class="sxs-lookup"><span data-stu-id="d1be8-105">The **Before Delete** event is available only in Data Macros.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b4218-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b4218-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d1be8-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d1be8-106">Remarks</span></span>
 
-<span data-ttu-id="b4218-107">Utilice el evento **Eliminación previa** para realizar cualquier acción que desee que ocurra antes de eliminar un registro.</span><span class="sxs-lookup"><span data-stu-id="b4218-107">Use the **Before Delete** event to perform any actions that you want to occur before a record is deleted.</span></span> <span data-ttu-id="b4218-108">**Cambio previo** se suele utilizar para realizar la validación y para provocar mensajes de error personalizados.</span><span class="sxs-lookup"><span data-stu-id="b4218-108">The **Before Change** is commonly used to perform validation and to raise custom error messages.</span></span>
+<span data-ttu-id="d1be8-107">Utilice el evento **Eliminación previa** para realizar cualquier acción que desee que ocurra antes de eliminar un registro.</span><span class="sxs-lookup"><span data-stu-id="d1be8-107">Use the **Before Delete** event to perform any actions that you want to occur before a record is deleted.</span></span> <span data-ttu-id="d1be8-108">**Cambio previo** se suele utilizar para realizar la validación y para provocar mensajes de error personalizados.</span><span class="sxs-lookup"><span data-stu-id="d1be8-108">The **Before Change** is commonly used to perform validation and to raise custom error messages.</span></span>
 
-<span data-ttu-id="b4218-109">Puede tener acceso a un valor del registro que se va a eliminar mediante la siguiente sintaxis:</span><span class="sxs-lookup"><span data-stu-id="b4218-109">You can access a value in the record to be deleted by using the following syntax:</span></span>
+<span data-ttu-id="d1be8-109">Puede tener acceso a un valor del registro que se va a eliminar mediante la siguiente sintaxis:</span><span class="sxs-lookup"><span data-stu-id="d1be8-109">You can access a value in the record to be deleted by using the following syntax:</span></span>
 
 `[Old].[Field Name]`
 
-<span data-ttu-id="b4218-110">Por ejemplo, para tener acceso al valor del campo QuantityInStock del registro que se va a eliminar, use la sintaxis siguiente:</span><span class="sxs-lookup"><span data-stu-id="b4218-110">For example, to access the value of the QuantityInStock field in the record to be deleted, use the following syntax:</span></span>
+<span data-ttu-id="d1be8-110">Por ejemplo, para obtener acceso al valor del campo QuantityInStock del registro que se va a eliminar, use la sintaxis siguiente:</span><span class="sxs-lookup"><span data-stu-id="d1be8-110">For example, to access the value of the QuantityInStock field in the record to be deleted, use the following syntax:</span></span>
 
 `[Old].[QuantityInStock]`
 
-<span data-ttu-id="b4218-111">Cuando finaliza el evento **Eliminación previa**, se eliminan permanentemente los valores contenidos en el registro que hay que eliminar.</span><span class="sxs-lookup"><span data-stu-id="b4218-111">The values contained in the record to be deleted are deleted permanently when the **Before Delete** event ends.</span></span>
+<span data-ttu-id="d1be8-111">Cuando finaliza el evento **Eliminación previa**, se eliminan permanentemente los valores contenidos en el registro que hay que eliminar.</span><span class="sxs-lookup"><span data-stu-id="d1be8-111">The values contained in the record to be deleted are deleted permanently when the **Before Delete** event ends.</span></span>
 
-<span data-ttu-id="b4218-112">Puede cancelar el evento **Eliminación previa** mediante la acción **ProvocarError**.</span><span class="sxs-lookup"><span data-stu-id="b4218-112">You can cancel the **Before Delete** event by using the **RaiseError** action.</span></span> <span data-ttu-id="b4218-113">Cuando se genera un error, se descartan los cambios contenidos en el **evento Eliminación** previa.</span><span class="sxs-lookup"><span data-stu-id="b4218-113">When an error is raised, the changes contained in the **Before Delete** event are discarded.</span></span>
+<span data-ttu-id="d1be8-112">Puede cancelar el evento **Eliminación previa** mediante la acción **ProvocarError**.</span><span class="sxs-lookup"><span data-stu-id="d1be8-112">You can cancel the **Before Delete** event by using the **RaiseError** action.</span></span> <span data-ttu-id="d1be8-113">Cuando se genera un error, se descartan los cambios contenidos en el **evento Eliminar** antes.</span><span class="sxs-lookup"><span data-stu-id="d1be8-113">When an error is raised, the changes contained in the **Before Delete** event are discarded.</span></span>
 
-<span data-ttu-id="b4218-114">La siguiente tabla enumera los comandos de macro que pueden utilizarse en el evento **Eliminación previa**.</span><span class="sxs-lookup"><span data-stu-id="b4218-114">The following table lists macro commands that can be used in the **Before Delete** event.</span></span>
+<span data-ttu-id="d1be8-114">La siguiente tabla enumera los comandos de macro que pueden utilizarse en el evento **Eliminación previa**.</span><span class="sxs-lookup"><span data-stu-id="d1be8-114">The following table lists macro commands that can be used in the **Before Delete** event.</span></span>
 
 <table>
 <colgroup>
@@ -52,54 +52,54 @@ ms.locfileid: "32296916"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b4218-115">Tipo de comando</span><span class="sxs-lookup"><span data-stu-id="b4218-115">Command Type</span></span></p></th>
-<th><p><span data-ttu-id="b4218-116">Comando</span><span class="sxs-lookup"><span data-stu-id="b4218-116">Command</span></span></p></th>
+<th><p><span data-ttu-id="d1be8-115">Tipo de comando</span><span class="sxs-lookup"><span data-stu-id="d1be8-115">Command Type</span></span></p></th>
+<th><p><span data-ttu-id="d1be8-116">Comando</span><span class="sxs-lookup"><span data-stu-id="d1be8-116">Command</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b4218-117">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="b4218-117">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="b4218-118"><a href="comment-macro-statement.md">Comentario (instrucción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b4218-118"><a href="comment-macro-statement.md">Comment macro statement</a></span></span></p></td>
+<td><p><span data-ttu-id="d1be8-117">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="d1be8-117">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="d1be8-118"><a href="comment-macro-statement.md">Comentario (instrucción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="d1be8-118"><a href="comment-macro-statement.md">Comment macro statement</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b4218-119">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="b4218-119">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="b4218-120"><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b4218-120"><a href="group-macro-statement.md">Group macro statement</a></span></span></p></td>
+<td><p><span data-ttu-id="d1be8-119">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="d1be8-119">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="d1be8-120"><a href="group-macro-statement.md">Grupo (instrucción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="d1be8-120"><a href="group-macro-statement.md">Group macro statement</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b4218-121">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="b4218-121">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="b4218-122"><a href="if-then-else-macro-block.md">If...Then...Else (bloque de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b4218-122"><a href="if-then-else-macro-block.md">If...Then...Else macro block</a></span></span></p></td>
+<td><p><span data-ttu-id="d1be8-121">Flujo de programas</span><span class="sxs-lookup"><span data-stu-id="d1be8-121">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="d1be8-122"><a href="if-then-else-macro-block.md">If...Then...Else (bloque de macro)</a></span><span class="sxs-lookup"><span data-stu-id="d1be8-122"><a href="if-then-else-macro-block.md">If...Then...Else macro block</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b4218-123">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="b4218-123">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="b4218-124"><a href="lookuprecord-data-block.md">BuscarRegistro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b4218-124"><a href="lookuprecord-data-block.md">LookupRecord macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="d1be8-123">Bloque de datos</span><span class="sxs-lookup"><span data-stu-id="d1be8-123">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="d1be8-124"><a href="lookuprecord-data-block.md">Acción de macro LookupRecord</a></span><span class="sxs-lookup"><span data-stu-id="d1be8-124"><a href="lookuprecord-data-block.md">LookupRecord macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b4218-125">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b4218-125">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b4218-126"><a href="clearmacroerror-macro-action.md">BorrarErrorDeMacro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b4218-126"><a href="clearmacroerror-macro-action.md">ClearMacroError macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="d1be8-125">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="d1be8-125">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="d1be8-126"><a href="clearmacroerror-macro-action.md">BorrarErrorDeMacro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="d1be8-126"><a href="clearmacroerror-macro-action.md">ClearMacroError macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b4218-127">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b4218-127">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b4218-128"><a href="onerror-macro-action.md">AlOcurrirError (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b4218-128"><a href="onerror-macro-action.md">OnError macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="d1be8-127">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="d1be8-127">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="d1be8-128"><a href="onerror-macro-action.md">AlOcurrirError (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="d1be8-128"><a href="onerror-macro-action.md">OnError macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b4218-129">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b4218-129">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b4218-130"><a href="raiseerror-macro-action.md">ProvocarError (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b4218-130"><a href="raiseerror-macro-action.md">RaiseError macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="d1be8-129">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="d1be8-129">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="d1be8-130"><a href="raiseerror-macro-action.md">ProvocarError (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="d1be8-130"><a href="raiseerror-macro-action.md">RaiseError macro action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b4218-131">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b4218-131">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b4218-132"><a href="setlocalvar-macro-action.md">EstablecerVariableLocal (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b4218-132"><a href="setlocalvar-macro-action.md">SetLocalVar macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="d1be8-131">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="d1be8-131">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="d1be8-132"><a href="setlocalvar-macro-action.md">EstablecerVariableLocal (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="d1be8-132"><a href="setlocalvar-macro-action.md">SetLocalVar macro action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b4218-133">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="b4218-133">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="b4218-134"><a href="stopmacro-macro-action.md">DetenerMacro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="b4218-134"><a href="stopmacro-macro-action.md">StopMacro macro action</a></span></span></p></td>
+<td><p><span data-ttu-id="d1be8-133">Acción de datos</span><span class="sxs-lookup"><span data-stu-id="d1be8-133">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="d1be8-134"><a href="stopmacro-macro-action.md">DetenerMacro (acción de macro)</a></span><span class="sxs-lookup"><span data-stu-id="d1be8-134"><a href="stopmacro-macro-action.md">StopMacro macro action</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="b4218-135">Para crear una macro de datos que capture el evento **Eliminación previa**, utilice los pasos siguientes.</span><span class="sxs-lookup"><span data-stu-id="b4218-135">To create a Data macro that captures the **Before Delete** event, use the following steps.</span></span>
+<span data-ttu-id="d1be8-135">Para crear una macro de datos que capture el evento **Eliminación previa**, utilice los pasos siguientes.</span><span class="sxs-lookup"><span data-stu-id="d1be8-135">To create a Data macro that captures the **Before Delete** event, use the following steps.</span></span>
 
-1.  <span data-ttu-id="b4218-136">Abra la tabla en la que desee capturar el evento **Eliminación previa**.</span><span class="sxs-lookup"><span data-stu-id="b4218-136">Open the table for which you want to capture the **Before Delete** event.</span></span>
+1.  <span data-ttu-id="d1be8-136">Abra la tabla en la que desee capturar el evento **Eliminación previa**.</span><span class="sxs-lookup"><span data-stu-id="d1be8-136">Open the table for which you want to capture the **Before Delete** event.</span></span>
 
-2.  <span data-ttu-id="b4218-137">En la **pestaña** Tabla, en el grupo **Eventos** previos, seleccione **Eliminar antes.**</span><span class="sxs-lookup"><span data-stu-id="b4218-137">On the **Table** tab, in the **Before Events** group, select **Before Delete**.</span></span>
+2.  <span data-ttu-id="d1be8-137">En la **ficha Tabla,** en el grupo **Eventos anteriores,** seleccione **Antes de eliminar**.</span><span class="sxs-lookup"><span data-stu-id="d1be8-137">On the **Table** tab, in the **Before Events** group, select **Before Delete**.</span></span>
 

@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296692"
 ---
-# <a name="cancel-method-example-vb"></a><span data-ttu-id="04c6e-102">Ejemplo del método Cancel (VB)</span><span class="sxs-lookup"><span data-stu-id="04c6e-102">Cancel method example (VB)</span></span>
+# <a name="cancel-method-example-vb"></a><span data-ttu-id="54ed0-102">Ejemplo del método Cancel (VB)</span><span class="sxs-lookup"><span data-stu-id="54ed0-102">Cancel method example (VB)</span></span>
 
 
-<span data-ttu-id="04c6e-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="04c6e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="54ed0-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="54ed0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="04c6e-104">En este ejemplo se utiliza el método [Cancel](cancel-method-ado.md) para cancelar un comando que se ejecuta en un objeto [Connection](connection-object-ado.md) si la conexión está ocupada.</span><span class="sxs-lookup"><span data-stu-id="04c6e-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="54ed0-104">En este ejemplo se utiliza el método [Cancel](cancel-method-ado.md) para cancelar un comando que se ejecuta en un objeto [Connection](connection-object-ado.md) si la conexión está ocupada.</span><span class="sxs-lookup"><span data-stu-id="54ed0-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```vb 
  

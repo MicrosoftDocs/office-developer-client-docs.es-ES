@@ -14,14 +14,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296048"
 ---
-# <a name="complextype-members-dao"></a><span data-ttu-id="2d3d1-102">Miembros complexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="2d3d1-102">ComplexType members (DAO)</span></span>
+# <a name="complextype-members-dao"></a><span data-ttu-id="55d23-102">Miembros complexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="55d23-102">ComplexType members (DAO)</span></span>
 
 
-<span data-ttu-id="2d3d1-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d3d1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="55d23-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="55d23-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2d3d1-104">Representa un campo multivalor.</span><span class="sxs-lookup"><span data-stu-id="2d3d1-104">Represents a multi-valued field.</span></span>
+<span data-ttu-id="55d23-104">Representa un campo multivalor.</span><span class="sxs-lookup"><span data-stu-id="55d23-104">Represents a multi-valued field.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="2d3d1-105">Propiedades</span><span class="sxs-lookup"><span data-stu-id="2d3d1-105">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="55d23-105">Propiedades</span><span class="sxs-lookup"><span data-stu-id="55d23-105">Properties</span></span>
 
 <table>
 <colgroup>
@@ -30,14 +30,14 @@ ms.locfileid: "32296048"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2d3d1-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="2d3d1-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="2d3d1-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="2d3d1-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="55d23-106">Nombre</span><span class="sxs-lookup"><span data-stu-id="55d23-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="55d23-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="55d23-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2d3d1-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span><span class="sxs-lookup"><span data-stu-id="2d3d1-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="2d3d1-109">Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="2d3d1-109">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object.</span></span> <span data-ttu-id="2d3d1-110">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="2d3d1-110">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="55d23-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span><span class="sxs-lookup"><span data-stu-id="55d23-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="55d23-p101">Devuelve una colección <strong>Fields</strong> que representa todos los objetos <strong>Field</strong> almacenados para el objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="55d23-p101">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object. Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

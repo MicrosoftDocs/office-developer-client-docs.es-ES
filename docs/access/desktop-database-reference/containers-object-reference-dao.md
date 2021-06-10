@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295565"
 ---
-# <a name="containers-object-reference-dao"></a><span data-ttu-id="6aaa6-102">Referencia de objeto containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="6aaa6-102">Containers object reference (DAO)</span></span>
+# <a name="containers-object-reference-dao"></a><span data-ttu-id="c3288-102">Referencia de objeto containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="c3288-102">Containers object reference (DAO)</span></span>
 
-<span data-ttu-id="6aaa6-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6aaa6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c3288-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c3288-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6aaa6-104">Colección Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="6aaa6-104">Containers collection (DAO)</span></span>](containers-collection-dao.md)
-- [<span data-ttu-id="6aaa6-105">Miembros de contenedores (DAO)</span><span class="sxs-lookup"><span data-stu-id="6aaa6-105">Containers members (DAO)</span></span>](containers-members-dao.md)
-- [<span data-ttu-id="6aaa6-106">Propiedades de contenedores (DAO)</span><span class="sxs-lookup"><span data-stu-id="6aaa6-106">Containers properties (DAO)</span></span>](containers-properties-dao.md)
-- [<span data-ttu-id="6aaa6-107">Métodos de contenedores (DAO)</span><span class="sxs-lookup"><span data-stu-id="6aaa6-107">Containers methods (DAO)</span></span>](containers-methods-dao.md)
+- [<span data-ttu-id="c3288-104">Colección Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="c3288-104">Containers collection (DAO)</span></span>](containers-collection-dao.md)
+- [<span data-ttu-id="c3288-105">Miembros de contenedores (DAO)</span><span class="sxs-lookup"><span data-stu-id="c3288-105">Containers members (DAO)</span></span>](containers-members-dao.md)
+- [<span data-ttu-id="c3288-106">Propiedades de contenedores (DAO)</span><span class="sxs-lookup"><span data-stu-id="c3288-106">Containers properties (DAO)</span></span>](containers-properties-dao.md)
+- [<span data-ttu-id="c3288-107">Métodos containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="c3288-107">Containers methods (DAO)</span></span>](containers-methods-dao.md)
 

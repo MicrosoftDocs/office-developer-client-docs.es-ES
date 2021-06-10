@@ -18,16 +18,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295663"
 ---
-# <a name="containerdocuments-property-dao"></a><span data-ttu-id="c43a3-102">Container.Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="c43a3-102">Container.Documents property (DAO)</span></span>
+# <a name="containerdocuments-property-dao"></a><span data-ttu-id="0e2a8-102">Container.Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="0e2a8-102">Container.Documents property (DAO)</span></span>
 
 
-<span data-ttu-id="c43a3-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c43a3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0e2a8-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0e2a8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c43a3-104">Devuelve una colección **Documents** que contiene todos los documentos almacenados en el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="c43a3-104">Returns a **Documents** collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="c43a3-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="c43a3-105">Read-only.</span></span>
+<span data-ttu-id="0e2a8-p101">Devuelve una colección **Documents** que contiene todos los documentos almacenados en el objeto especificado. Sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="0e2a8-p101">Returns a **Documents** collection that contains all of the documents stored in the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c43a3-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="c43a3-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0e2a8-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="0e2a8-106">Syntax</span></span>
 
-<span data-ttu-id="c43a3-107">*expresión* . Documentos</span><span class="sxs-lookup"><span data-stu-id="c43a3-107">*expression* .Documents</span></span>
+<span data-ttu-id="0e2a8-107">*expresión* . Documentos</span><span class="sxs-lookup"><span data-stu-id="0e2a8-107">*expression* .Documents</span></span>
 
-<span data-ttu-id="c43a3-108">*expresión* Variable que representa un objeto **Container.**</span><span class="sxs-lookup"><span data-stu-id="c43a3-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="0e2a8-108">*expresión* Variable que representa un **objeto Container.**</span><span class="sxs-lookup"><span data-stu-id="0e2a8-108">*expression* A variable that represents a **Container** object.</span></span>
 
