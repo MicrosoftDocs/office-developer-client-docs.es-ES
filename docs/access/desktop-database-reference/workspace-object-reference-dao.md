@@ -20,6 +20,6 @@ ms.locfileid: "32302537"
 
 - [Objeto Workspace (DAO)](workspace-object-dao.md)
 - [Miembros del área de trabajo (DAO)](workspace-members-dao.md)
-- [Propiedades de área de trabajo (DAO)](workspace-properties-dao.md)
+- [Propiedades del área de trabajo (DAO)](workspace-properties-dao.md)
 - [Métodos Workspace (DAO)](workspace-methods-dao.md)
 

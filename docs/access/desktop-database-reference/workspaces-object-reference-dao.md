@@ -19,7 +19,7 @@ ms.locfileid: "32302628"
 **Se aplica a:** Access 2013, Office 2013
 
 - [Colección Workspaces (DAO)](workspaces-collection-dao.md)
-- [Miembros workspaces (DAO)](workspaces-members-dao.md)
+- [Miembros de workspaces (DAO)](workspaces-members-dao.md)
 - [Propiedades workspaces (DAO)](workspaces-properties-dao.md)
 - [Métodos Workspaces (DAO)](workspaces-methods-dao.md)
 

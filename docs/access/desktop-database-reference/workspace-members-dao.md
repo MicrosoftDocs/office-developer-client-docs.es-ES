@@ -83,7 +83,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspace-connections-property-dao.md">Connections</a></strong></p></td>
+<td><p><strong><a href="workspace-connections-property-dao.md">Conexiones</a></strong></p></td>
 <td><p>Devuelve una colección <strong>Connections</strong> que representa las conexiones actuales del objeto <strong>Workspace</strong> especificado. Es de solo lectura.</p></td>
 </tr>
 <tr class="even">
@@ -109,7 +109,7 @@ Un objeto Workspace define una sesión con nombre para un usuario. Contiene base
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-type-property-dao.md">Tipo</a></strong></p></td>

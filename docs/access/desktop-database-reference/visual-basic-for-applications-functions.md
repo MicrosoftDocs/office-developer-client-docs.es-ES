@@ -157,7 +157,7 @@ Se pueden utilizar las siguientes funciones de Visual Basic para Aplicaciones pa
 <td><p>Str$</p></td>
 <td><p>StrComp</p></td>
 <td><p>StrConv</p></td>
-<td><p>String</p></td>
+<td><p>Cadena</p></td>
 </tr>
 <tr class="odd">
 <td><p>String$</p></td>

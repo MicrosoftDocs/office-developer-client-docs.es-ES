@@ -50,7 +50,7 @@ La acción **MostrarBarraDeHerramientas** utiliza los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Show</strong></p></td>
-<td><p>Especifica si se debe mostrar u ocultar el grupo de comandos y en qué vistas hacerlo. El valor predeterminado <strong>es Sí</strong> (mostrar el grupo en todo momento). Puede seleccionar <strong>Sí para</strong> mostrar el grupo en todo momento, Cuando corresponda para mostrar el grupo solo cuando el formulario o informe adecuado esté activo, o <strong>No</strong> para ocultar el grupo en todo momento. <strong></strong></p></td>
+<td><p>Especifica si se debe mostrar u ocultar el grupo de comandos y en qué vistas hacerlo. El valor predeterminado es <strong>Sí</strong> (mostrar el grupo en todo momento). Puede seleccionar <strong>Sí para</strong> mostrar el grupo en todo momento, Cuando corresponda para mostrar el grupo solo cuando el formulario o informe adecuado esté activo, o <strong>No</strong> para ocultar el grupo en todo momento. <strong></strong></p></td>
 </tr>
 </tbody>
 </table>

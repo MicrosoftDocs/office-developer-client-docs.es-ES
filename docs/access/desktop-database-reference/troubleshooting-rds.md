@@ -21,9 +21,9 @@ ms.locfileid: "32306282"
 Consulte esta sección para obtener soluciones a errores o problemas específicos con RDS:
 
 - [Configurar RDS en Windows 2000](configuring-rds-on-windows-2000.md)
-- [Interbloqueos con nivel de aislamiento de lectura repetible](deadlocks-with-read-repeatable-isolation-level.md)
+- [Interbloqueos con nivel de aislamiento repetible de lectura](deadlocks-with-read-repeatable-isolation-level.md)
 - [Comprobación de que hay espacio suficiente en TempDB](ensuring-sufficient-tempdb-space.md)
-- [Error de servidor de Internet: Acceso denegado](internet-server-error-access-denied.md)
+- [Error del servidor de Internet: acceso denegado](internet-server-error-access-denied.md)
 - [Minimización del uso del espacio del archivo de registro](minimizing-log-file-space-usage.md)
 - [RDS devuelve el error “Flujo no leído”](rds-returns-stream-not-read-error.md)
 

@@ -44,7 +44,7 @@ La acción **TransferirBaseDeDatosSQL** utiliza los siguientes argumentos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Server</strong></p></td>
+<td><p><strong>Servidor</strong></p></td>
 <td><p>El nombre de la base de datos de SQL Server 7.0 o posterior donde se están copiando los datos.</p></td>
 </tr>
 <tr class="even">

@@ -29,7 +29,7 @@ WillExecute *Source*, *CursorType*, *LockType*, *Options*, *adStatus*, *pCommand
 |Parámetro|Descripción|
 |:--------|:----------|
 |*Source* |**String** que contiene un comando SQL o un nombre de procedimiento almacenado.|
-|*CursorType* |Valor de tipo [CursorTypeEnum](cursortypeenum.md) que contiene el tipo de cursor para el objeto **Recordset** que se abrirá. Con este parámetro, puede cambiar el cursor a cualquier tipo durante una **operación Abrir conjunto** [de](open-method-ado-recordset.md) registros. *CursorType* se omitirá para cualquier otra operación.|
+|*CursorType* |Valor de tipo [CursorTypeEnum](cursortypeenum.md) que contiene el tipo de cursor para el objeto **Recordset** que se abrirá. Con este parámetro, puede cambiar el cursor a cualquier tipo durante una **operación Recordset** [Open.](open-method-ado-recordset.md) *CursorType* se omitirá para cualquier otra operación.|
 |*LockType* |Valor de tipo [LockTypeEnum](locktypeenum.md) que contiene el tipo de bloqueo para el objeto **Recordset** que se abrirá. Con este parámetro, es posible cambiar el bloqueo a cualquier tipo durante una operación del método **Open** de un objeto **Recordset**. *LockType* se omitirá para cualquier otra operación.|
 |*Options* |Valor de tipo **Long** que indica las opciones que se pueden usar para ejecutar el comando o abrir el objeto **Recordset**.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Antes de que el evento vuelva, establezca este parámetro en **adStatusUnwantedEvent** para impedir notificaciones posteriores, o en **adStatusCancel** para solicitar la cancelación de la operación que provocó el evento.|

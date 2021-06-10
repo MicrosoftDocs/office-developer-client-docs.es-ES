@@ -22,7 +22,7 @@ La forma de datos requiere normalmente dos proveedores. El proveedor de servicio
 
 Se puede especificar el nombre del proveedor de servicios (MSDataShape) como valor de la propiedad [Provider](connection-object-ado.md) del objeto [Connection](provider-property-ado.md) o la palabra clave de la cadena de conexión "Provider=MSDataShape;".
 
-El nombre del proveedor de datos se puede  especificar como el valor de  la propiedad dinámica Proveedor de datos, que el servicio de forma de datos para OLE DB agrega a la colección [De](properties-collection-ado.md) propiedades del objeto Connection o la palabra clave de cadena de conexión "* Proveedor de *datos=***proveedor".*
+El nombre del proveedor de datos se puede  especificar como el valor de la [](properties-collection-ado.md) propiedad dinámica Proveedor de datos, que se agrega a la colección Propiedades del objeto **Connection** mediante el Servicio de forma de datos para OLE DB o la palabra clave de cadena de conexión "**Proveedor de datos=***proveedor".*
 
 No se requiere ningún proveedor de datos si no se rellena el objeto **Recordset** (por ejemplo, como en un objeto **Recordset** donde las columnas se crean con la palabra clave NEW). En ese caso, se debe especificar "**Data Provider=** none;".
 

@@ -23,7 +23,7 @@ El Asistente para bibliotecas de tipos de Java es una característica de Visual 
 
 El Asistente para bibliotecas de tipos de Java genera resultados similares a las herramientas de línea de comandos incluidas en [Microsoft SDK para Java](using-the-microsoft-sdk-for-java.md). Sin embargo, no se pueden ejecutar paso a paso los contenedores de clase que genera el Asistente, a diferencia de los contenedores de clase generados por Microsoft SDK para Java.
 
-El Java biblioteca de tipos genera las clases en la siguiente ubicación: directorio de \\ \< Windows Java biblioteca de \> \\ \\ confianza \\ msado15. El archivo Summary.txt, ubicado en el directorio donde se han generado las clases, muestra las definiciones de clase generadas.
+El Java biblioteca de tipos genera las clases en la siguiente ubicación: directorio de \\ \< windows Java \> \\ \\ trustlib \\ msado15. El archivo Summary.txt, ubicado en el directorio donde se han generado las clases, muestra las definiciones de clase generadas.
 
 El Asistente para bibliotecas de tipos de Java convierte los tipos enumerados, que se encuentran en cualquier biblioteca de tipos especificado, en el tipo INT (entero). También define una interfaz correspondiente a cada tipo enumerado en la biblioteca de tipos. Se puede hacer referencia a los valores de un tipo enumerado de ADO con la sintaxis siguiente:
 
@@ -47,7 +47,7 @@ Para obtener más código de ejemplo, vea [Contenedores de clase Java de ADO](ad
 
 1.  En el menú **Herramientas**, seleccione **Asistente para bibliotecas de tipos de Java**.
 
-2.  Seleccione "Biblioteca de objetos de datos de Microsoft ActiveX" y haga clic en **Aceptar**. Esto ahora (vuelve a)generar archivos en el directorio trustlib para ADO (de forma predeterminada en \\ c: \\ winnt \\ java \\ trustlib \\ msado15). Si ha utilizado Microsoft SDK para Java para generar clases para ADO, éstas se reemplazarán con las clases del Asistente para bibliotecas de tipos de Java.
+2.  Seleccione "Biblioteca de objetos de datos de Microsoft ActiveX" y haga clic en **Aceptar**. Esto ahora (re)genera archivos en el directorio trustlib para ADO (de forma predeterminada en \\ c: \\ winnt \\ java \\ trustlib \\ msado15). Si ha utilizado Microsoft SDK para Java para generar clases para ADO, éstas se reemplazarán con las clases del Asistente para bibliotecas de tipos de Java.
 
 3.  Para utilizar estos archivos, abra un proyecto en Visual J++. En el menú **Proyecto**, elija **Agregar al proyecto**. Seleccione **Archivos** y agregue todos los archivos . Archivos JAVA generados en el directorio trustlib (de forma predeterminada \\ en c: \\ winnt \\ java \\ trustlib \\ msado15) para el proyecto.
 

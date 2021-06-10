@@ -29,7 +29,7 @@ Devuelve un valor que indica si se hereda un objeto **[Property](property-object
 
 *expresión* . Heredado
 
-*expresión* Variable que representa un objeto **Property** .
+*expresión* Variable que representa un **objeto Property.**
 
 ## <a name="remarks"></a>Comentarios
 

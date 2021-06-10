@@ -119,7 +119,7 @@ Por ejemplo, supongamos que tenemos una tabla denominada  Demographics  (Datos d
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
-<td><p>Ann</p></td>
+<td><p>Tacoma</p></td>
 <td><p>500 000</p></td>
 </tr>
 <tr class="odd">
@@ -140,7 +140,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
            objConnection 
 ```
 
-Este comando abre un objeto **Recordset** con forma que consta de dos niveles. El nivel primario  es un conjunto de registros generado con una columna de agregado (SUM(rs.population) ), una columna que hace referencia al objeto **Recordset** secundario (rs) y una columna para agrupar el objeto **Recordset** secundario (estado). El nivel secundario es el **conjunto** de registros devuelto por el comando de consulta (), una columna que hace referencia al objeto **Recordset** secundario (rs) y una columna para agrupar el objeto **Recordset** secundario (estado). El nivel secundario es el **conjunto de registros** devuelto por el comando de consulta (selección de datos \* demográficos).
+Este comando abre un objeto **Recordset** con forma que consta de dos niveles. El nivel primario es un **objeto Recordset** generado con una columna de agregado (SUM(rs.population), una columna que hace referencia al **objeto Recordset** secundario (rs) y una columna para agrupar el objeto **Recordset** secundario (estado). El nivel secundario es **el conjunto** de registros devuelto por el comando de consulta (), una columna que hace referencia al objeto **Recordset** secundario (rs) y una columna para agrupar el **objeto Recordset** secundario (estado). El nivel secundario es el **conjunto de registros** devuelto por el comando de consulta (selección de datos \* demográficos).
 
 Las filas de detalle del objeto **Recordset** secundario se agruparán por estado, pero por lo demás en ningún orden particular. Es decir, los grupos no estarán en orden alfabético ni numérico. Si desea ordenar el objeto **Recordset** primario, podrá utilizar el método **Sort** del objeto **Recordset** para ordenar el objeto **Recordset** primario.
 
@@ -236,7 +236,7 @@ Ahora, puede navegar por el objeto **Recordset** primario abierto y obtener acce
 </tr>
 <tr class="even">
 <td><p>WA</p></td>
-<td><p>Ann</p></td>
+<td><p>Tacoma</p></td>
 <td><p>500 000</p></td>
 </tr>
 </tbody>

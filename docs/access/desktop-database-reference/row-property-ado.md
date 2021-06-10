@@ -1,5 +1,5 @@
 ---
-title: 'Row (propiedad): ActiveX data objects (ADO)'
+title: 'Propiedad Row: ActiveX data objects (ADO)'
 TOCTitle: Row property (ADO)
 ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306485"
 ---
-# <a name="row-property-ado"></a>Row (propiedad, ADO)
+# <a name="row-property-ado"></a>Propiedad Row (ADO)
 
 **Se aplica a:** Access 2013, Office 2013
 

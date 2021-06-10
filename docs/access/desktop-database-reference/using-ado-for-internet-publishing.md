@@ -21,7 +21,7 @@ ms.locfileid: "32305904"
 
 
 
-[OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md) muestra un ejemplo específico de cómo obtener acceso a datos heterogéneos con ADO. Aunque los ejemplos de esta sección serán específicos para usar el proveedor de publicación en Internet, los principios que se muestran deben ser similares al usar ADO con otros proveedores para datos heterogéneos, como un proveedor de un almacén de correo electrónico.
+[OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md) muestra un ejemplo específico de cómo obtener acceso a datos heterogéneos con ADO. Aunque los ejemplos de esta sección serán específicos del uso del proveedor de publicación de Internet, los principios demostrados deben ser similares al usar ADO con otros proveedores para datos heterogéneos, como un proveedor de un almacén de correo electrónico.
 
 ## <a name="urls"></a>Direcciones URL
 
@@ -43,6 +43,6 @@ Se han mejorado varios objetos de ADO para que funcionen conjuntamente con los o
 
   - Como método abreviado y una alternativa al método **Append**, se pueden crear campos asignando simplemente un valor a un campo sin definir o un campo anteriormente eliminado.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Temas del escenario de publicación en Internet](internet-publishing-scenario.md)

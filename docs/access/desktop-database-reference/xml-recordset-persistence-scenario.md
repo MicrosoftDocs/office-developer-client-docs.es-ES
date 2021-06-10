@@ -68,7 +68,7 @@ En este paso, escribirá el código para abrir un objeto **Recordset** de ADO y 
         adoRec.Open strSQL, adoCon, adOpenStatic, adLockOptimistic, adCmdText 
    ```
 
-2. Asegúrese de cambiar el valor del parámetro Data Source en strCon por el nombre de su Microsoft SQL Server equipo.
+2. Asegúrese de cambiar el valor del parámetro Data Source en strCon por el nombre del Microsoft SQL Server equipo.
 
 3. Mantenga el archivo abierto y vaya al paso siguiente.
 
@@ -92,15 +92,15 @@ Ahora que ya tiene un **Recordset**, deberá enviarlo al cliente guardándolo co
     %> 
    ```
 
-   Tenga en cuenta que el **objeto Response** de ASP se especifica como el destino del método Save del **conjunto** [de](save-method-ado.md) registros. El destino del método **Save** puede ser cualquier objeto que admita la interfaz **IStream**, tal como un objeto ADO [Stream](stream-object-ado.md) o un nombre de archivo que incluya la ruta de acceso completa donde se va a guardar el objeto **Recordset**.
+   Observe que el objeto **Response** de ASP se especifica como el destino del **método Recordset** [Save.](save-method-ado.md) El destino del método **Save** puede ser cualquier objeto que admita la interfaz **IStream**, tal como un objeto ADO [Stream](stream-object-ado.md) o un nombre de archivo que incluya la ruta de acceso completa donde se va a guardar el objeto **Recordset**.
 
-2. Antes de ir al paso siguiente, guarde y cierre XMLResponse.asp. Copie también el archivo adovbs.inc de la carpeta Ado del sistema de archivos comunes de archivos de programa en la misma carpeta donde tiene el archivo \\ \\ \\ \\ XMLResponse.asp.
+2. Antes de ir al paso siguiente, guarde y cierre XMLResponse.asp. Copie también el archivo adovbs.inc de la carpeta Ado del sistema de archivos comunes C: Archivos de programa en la misma carpeta donde tiene el archivo \\ \\ \\ \\ XMLResponse.asp.
 
 ## <a name="step-4-receive-and-display-the-data"></a>Paso 4: Recibir y mostrar los datos
 
 En este paso, creará un archivo HTML con un [RDS incrustado. Objeto DataControl](datacontrol-object-rds.md) que apunta al archivo XMLResponse.asp para obtener el **objeto Recordset**. 
 
-1. Abre default.htm con un editor de texto, como el Bloc de notas de Windows, y agrega el siguiente código. Sustituya "sqlserver" en la dirección URL por el nombre de su equipo servidor.
+1. Abra default.htm con un editor de texto, como Windows Bloc de notas, y agregue el siguiente código. Sustituya "sqlserver" en la dirección URL por el nombre de su equipo servidor.
 
    ```html 
     

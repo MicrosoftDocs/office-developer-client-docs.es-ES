@@ -25,7 +25,7 @@ ms.locfileid: "32306009"
 
 Puede usar la acción **TareasFlujoTrabajo** para mostrar el cuadro de diálogo **Tarea de flujo de trabajo**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **TareasFlujoTrabajo** tiene el siguiente argumento.
 

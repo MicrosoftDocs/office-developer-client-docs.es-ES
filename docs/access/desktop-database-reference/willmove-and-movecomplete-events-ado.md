@@ -37,7 +37,7 @@ MoveComplete *adReason*, *pError*, *adStatus*, *pRecordset*
 
 ## <a name="remarks"></a>Comentarios
 
-Puede **producirse un evento WillMove** o **MoveComplete** debido a las siguientes **operaciones del conjunto de** registros:
+Puede producirse un evento **WillMove** **o MoveComplete** debido a las siguientes **operaciones recordset:**
 
 - [Open](open-method-ado-recordset.md)
 - [Move](move-method-ado.md)
@@ -50,7 +50,7 @@ Puede **producirse un evento WillMove** o **MoveComplete** debido a las siguient
 
 Estos eventos pueden producirse debido a las siguientes propiedades:
 
-- [Filtro](filter-property-ado.md)
+- [Filter](filter-property-ado.md)
 - [Índice](index-property-ado.md)
 - [Bookmark](bookmark-property-ado.md)
 - [AbsolutePage](absolutepage-property-ado.md)

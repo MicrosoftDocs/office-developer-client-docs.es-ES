@@ -1,5 +1,5 @@
 ---
-title: Propiedades de área de trabajo (DAO)
+title: Propiedades del área de trabajo (DAO)
 TOCTitle: Properties
 ms:assetid: 5b18557d-5531-4149-b773-89fa58cf73ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124967(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305911"
 ---
-# <a name="workspace-properties-dao"></a>Propiedades de área de trabajo (DAO)
+# <a name="workspace-properties-dao"></a>Propiedades del área de trabajo (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

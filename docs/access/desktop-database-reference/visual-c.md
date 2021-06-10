@@ -49,7 +49,7 @@ class CRstEvent : public RecordsetEventsVt
 // EndEventExampleVC01 
 ```
 
-Implemente cada uno de los métodos event-handler en ambas clases. Es suficiente que cada método devuelva simplemente un HRESULT de S \_ OK. Sin embargo, cuando notifique que los controladores de eventos están disponibles, se les llamará continuamente de forma predeterminada. En lugar de ello, tal vez desee que no se soliciten más notificaciones después de la primera vez estableciendo **adStatus** en **adStatusUnwantedEvent**.
+Implemente cada uno de los métodos event-handler en ambas clases. Basta con que cada método simplemente devuelva un HRESULT de S \_ OK. Sin embargo, cuando notifique que los controladores de eventos están disponibles, se les llamará continuamente de forma predeterminada. En lugar de ello, tal vez desee que no se soliciten más notificaciones después de la primera vez estableciendo **adStatus** en **adStatusUnwantedEvent**.
 
 ```cpp 
  

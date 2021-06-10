@@ -34,7 +34,7 @@ Puede utilizar la propiedad **Prepare** para crear y tener en el servidor un pro
 
 Cuando se crea un procedimiento de almacenado se puede ralentizar la operación inicial, pero se aumenta el rendimiento de todas las referencias subsiguientes a la consulta. Sin embargo, algunas consultas no se pueden ejecutar en el formulario de procedimientos de almacenado. En estos casos, debe establecer la propiedad **Prepare** en **dbQUnprepare**.
 
-Si **Prepare** se establece en **dbQPrepare**, esto se puede invalidar cuando se ejecuta la consulta estableciendo el argumento de opciones del método **[Execute](querydef-execute-method-dao.md)** en **dbExecDirect**.
+Si **Prepare** se establece en **dbQPrepare,** esto se puede invalidar cuando se ejecuta la consulta estableciendo el argumento options del método **[Execute](querydef-execute-method-dao.md)** en **dbExecDirect**.
 
 > [!NOTE]
 > [!NOTA] La API de ODBC de **SQLPrepare** se llama tan pronto como se establece la propiedad **[SQL](querydef-sql-property-dao.md)** con DAO. Por tanto, si desea mejorar el rendimiento utilizando la opción **dbQUnprepare**, debe establecer la propiedad **Prepare** antes que la propiedad **SQL**.

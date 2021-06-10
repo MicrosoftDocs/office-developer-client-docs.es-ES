@@ -22,16 +22,16 @@ Actualiza los datos de un objeto [Recordset](recordset-object-ado.md) ejecutando
 
 ## <a name="syntax"></a>Sintaxis
 
-*recordset*. Opciones de *Nuevaconsulta*
+*recordset*. Opciones *de* Requery
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 |Nombre |Descripción|
 |:----|:----------|
 |*Opciones* |Es opcional. Máscara de bits que contiene valores de [ExecuteOptionEnum](executeoptionenum.md) y [CommandTypeEnum](commandtypeenum.md) que afectan a esta operación.|
 
 > [!NOTE]
-> Si *Options* se establece en **adAsyncExecute,** esta operación se ejecutará asincrónicamente y se emitirá un evento [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) cuando concluya.
+> Si *Options* se establece en **adAsyncExecute,** esta operación se ejecutará de forma asincrónica y se emitirá un evento [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) cuando concluya.
 
 Los valores de **ExecuteOpenEnum** de **adExecuteNoRecords** o **adExecuteStream** no deben utilizarse con **Requery**.
 

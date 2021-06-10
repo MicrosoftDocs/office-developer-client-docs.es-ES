@@ -82,7 +82,7 @@ Si desea obtener más información, vea la *Referencia del programador de OLE DB
 
 _**Inicio de entradas de enlace**_
 
-**BEGIN \_ BINDING \_ de ADO**(*clase)*
+**BEGIN \_ ENLACE \_ de ADO**(*Clase*)
 
 _**Datos de longitud fija**_
 
@@ -99,7 +99,7 @@ _**Datos de longitud variable**_
 **ADO \_ VARIABLE \_ LENGTH \_ ENTRY**(*Ordinal, DataType, Buffer, Size, Status, Length, Modify*)  
 **ADO \_ VARIABLE \_ LENGTH \_ ENTRY2**(*Ordinal, DataType, Buffer, Size, Status, Modify*)  
 **ADO \_ VARIABLE \_ LENGTH \_ ENTRY3**(*Ordinal, DataType, Buffer, Size, Length, Modify*)  
-**ADO \_ VARIABLE \_ LENGTH \_ ENTRY4**(*Ordinal, DataType, Buffer, Size, Modify*)
+**ADO \_ LONGITUD \_ VARIABLE \_ ENTRY4**(*Ordinal, DataType, Buffer, Size, Modify*)
 
 _**Finalización de entradas de enlace**_
 
@@ -139,7 +139,7 @@ _**Finalización de entradas de enlace**_
 </tr>
 <tr class="even">
 <td><p><em>Estado</em></p></td>
-<td><p>Nombre de una variable que va a indicar si el contenido de <em>Buffer</em> es válido y si la conversión del campo en <em>DataType</em> se ha realizado correctamente. Los dos valores más importantes de esta variable son <strong>adFldOK</strong> y <strong>adFldNull</strong>, es decir, la conversión se ha realizado correctamente y el valor del campo es VARIANT de tipo VT_NULL y no está vacío, respectivamente. Los valores posibles <em>de Estado</em> se enumeran en la siguiente tabla, Valores &quot; de estado.&quot;</p></td>
+<td><p>Nombre de una variable que va a indicar si el contenido de <em>Buffer</em> es válido y si la conversión del campo en <em>DataType</em> se ha realizado correctamente. Los dos valores más importantes de esta variable son <strong>adFldOK</strong> y <strong>adFldNull</strong>, es decir, la conversión se ha realizado correctamente y el valor del campo es VARIANT de tipo VT_NULL y no está vacío, respectivamente. Los valores posibles <em>para Status</em> se enumeran en la siguiente tabla, &quot; Status Values.&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Modify</em></p></td>
@@ -151,7 +151,7 @@ _**Finalización de entradas de enlace**_
 <td><p>Número de dígitos que se pueden representar en una variable numérica.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Scale</em> </p></td>
+<td><p><em>Scale</em></p></td>
 <td><p>Número de posiciones de decimales en una variable numérica.</p></td>
 </tr>
 <tr class="even">
@@ -189,17 +189,17 @@ Al configurar los datos, puede que el valor de *Status* sea **adFldNull** para i
 </tr>
 <tr class="even">
 <td><p><strong>adFldBadAccessor</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>El enlace no es válido.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldCantConvertValue</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>El valor no se ha podido convertir por motivos que no sean la falta de coincidencia de los signos o el desbordamiento de datos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldNull</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Al obtener un campo, indica que se ha devuelto un valor null. Cuando establece un campo, indica que el campo debe establecerse en <strong>NULL</strong> cuando no puede codificar <strong>NULL</strong> por sí mismo (por ejemplo, una matriz de caracteres o un entero).</p></td>
 </tr>
 <tr class="odd">
@@ -234,7 +234,7 @@ Al configurar los datos, puede que el valor de *Status* sea **adFldNull** para i
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIntegrityViolation</strong></p></td>
-<td><p>10  </p></td>
+<td><p>10</p></td>
 <td><p>Al actualizar, el valor de campo infringirá la integridad de las columnas.</p></td>
 </tr>
 <tr class="even">
@@ -249,7 +249,7 @@ Al configurar los datos, puede que el valor de *Status* sea **adFldNull** para i
 </tr>
 <tr class="even">
 <td><p><strong>adFldDefault</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Al actualizar, se ha utilizado un valor predeterminado.</p></td>
 </tr>
 </tbody>

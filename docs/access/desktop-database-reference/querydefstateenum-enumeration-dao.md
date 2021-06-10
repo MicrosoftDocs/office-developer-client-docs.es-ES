@@ -37,12 +37,12 @@ Se utiliza con la propiedad **Prepare** para determinar el método utilizado par
 <tbody>
 <tr class="odd">
 <td><p>dbQPrepare</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>(Valor predeterminado) La instrucción es preparada (es decir, se llama a la API de ODBC de SQLPrepare).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbQUnprepare</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>La instrucción no es preparada (es decir, se llama a la API de ODBC de SQLExecDirect).</p></td>
 </tr>
 </tbody>

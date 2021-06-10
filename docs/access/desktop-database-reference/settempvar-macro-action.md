@@ -27,7 +27,7 @@ ms.locfileid: "32306527"
 
 Puede usar la acción **DefinirVariableTemporal** para crear una variable temporal y establecerla en un valor específico. A continuación, podrá usar la variable como condición o argumento en acciones subsiguientes, o bien, usarla en otra macro, un procedimiento de evento o en un formulario o informe.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **DefinirVariableTemporal** tiene los siguientes argumentos.
 
@@ -49,7 +49,7 @@ La acción **DefinirVariableTemporal** tiene los siguientes argumentos.
 </tr>
 <tr class="even">
 <td><p><strong>Expresión</strong></p></td>
-<td><p>Escriba una expresión que se usará para establecer el valor de esta variable temporal. No preceda la expresión con el signo igual ( <strong>=</strong> ). Puedes hacer clic en el <strong>botón</strong> Generar <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> para usar el Generador de expresiones para establecer este argumento.</p></td>
+<td><p>Escriba una expresión que se usará para establecer el valor de esta variable temporal. No anteponga la expresión con el signo igual ( <strong>=</strong> ) . Puede hacer clic en el <strong>botón Generar</strong> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> para usar el Generador de expresiones para establecer este argumento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ La acción **DefinirVariableTemporal** tiene los siguientes argumentos.
 
 - Puede haber hasta 255 variables temporales definidas a la vez. Si no quita una variable temporal, esta permanecerá en la memoria hasta que se cierre la base de datos. Se recomienda quitar las variables temporales cuando termine de usarlas. Para quitar una sola variable temporal, use la acción **[QuitarVariableTemporal](removetempvar-macro-action.md)** y establezca su argumento en el nombre de la variable temporal que quiera quitar. Si hay más de una variable temporal y quiere quitarlas todas a la vez, use la acción **QuitarTodasLasVariablesTemporales**.
 
-- Las variables temporales son globales. Una vez creada una variable temporal, podrá referirse a la misma en un procedimiento de evento, un módulo de Visual Basic para Aplicaciones (VBA), una consulta o una expresión. Por ejemplo, si creó una variable temporal denominada *MyVar*, podría usar la variable como origen de control de un cuadro de texto mediante la sintaxis siguiente:
+- Las variables temporales son globales. Una vez creada una variable temporal, podrá referirse a la misma en un procedimiento de evento, un módulo de Visual Basic para Aplicaciones (VBA), una consulta o una expresión. Por ejemplo, si creó una variable temporal denominada *MyVar*, podría usar la variable como origen de control para un cuadro de texto mediante la sintaxis siguiente:
     
   `=[TempVars]![MyVar]`
     
@@ -82,8 +82,8 @@ En la siguiente macro se muestra cómo crear una variable temporal mediante la a
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Action</p></th>
+<th><p>Condición</p></th>
+<th><p>Acción</p></th>
 <th><p>Argumentos</p></th>
 </tr>
 </thead>
@@ -96,7 +96,7 @@ En la siguiente macro se muestra cómo crear una variable temporal mediante la a
 <tr class="even">
 <td><p>[TempVars]![MyVar]&lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: = &quot; Ha escrito &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>Información</strong></p></td>
+<td><p><strong>Message</strong>: = &quot; You entered &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

@@ -84,7 +84,9 @@ Para objetos tales como <strong>Tables</strong>, el usuario tiene permiso para i
 <tr class="even">
 <td><p><strong>adRightMaximumAllowed</strong></p></td>
 <td><p>33554432 ( &amp; H2000000)</p></td>
-<td><p>El usuario o el grupo tiene el número máximo de permisos que concede el proveedor. Los permisos específicos dependen del proveedor.</p></td>
+<td><p>El usuario o el grupo tiene el número máximo de permisos que concede el proveedor.
+
+Los permisos específicos dependen del proveedor.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRightNone</strong></p></td>

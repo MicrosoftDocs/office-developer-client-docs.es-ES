@@ -22,7 +22,7 @@ Crea un nuevo objeto **[Database](database-object-dao.md)**, guarda la base de d
 
 ## <a name="syntax"></a>Sintaxis
 
-*expresión* . CreateDatabase(***Name***, ***Connect***, ***Option***)
+*expresión* . CreateDatabase(***Name***, ***Conectar***, ***Option***)
 
 *expression* Variable que representa un objeto **Workspace**.
 

@@ -37,12 +37,12 @@ Se utiliza con el método **MakeReplica** para especificar el tipo de réplica q
 <tbody>
 <tr class="odd">
 <td><p>dbRepMakePartial</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Crea una réplica parcial.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbRepMakeReadOnly</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Hace replicables los elementos de una base de datos nueva de sólo lectura.</p></td>
 </tr>
 </tbody>

@@ -53,7 +53,9 @@ La acción **CambiarNombreDeObjeto** tiene los siguientes argumentos.
 </tr>
 <tr class="odd">
 <td><p><strong>Nombre anterior</strong></p></td>
-<td><p>Nombre del objeto cuyo nombre se va a cambiar. En el cuadro <strong>Nombre anterior</strong> se muestran todos los objetos de la base de datos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el argumento <strong>Tipo de objeto</strong>, deje también en blanco este argumento.</p><p><strong>NOTA:</strong>Si ejecuta una macro <STRONG></STRONG> que contiene la acción Cambiar nombre en una base de datos de biblioteca, Microsoft Access busca primero el objeto con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos actual.</p></td>
+<td><p>Nombre del objeto cuyo nombre se va a cambiar. En el cuadro <strong>Nombre anterior</strong> se muestran todos los objetos de la base de datos del tipo seleccionado mediante el argumento <strong>Tipo de objeto</strong>. Si deja en blanco el argumento <strong>Tipo de objeto</strong>, deje también en blanco este argumento. 
+
+</p><p><strong>NOTA:</strong>Si ejecuta una macro <STRONG></STRONG> que contiene la acción Cambiar nombre en una base de datos de biblioteca, Microsoft Access primero busca el objeto con este nombre en la base de datos de biblioteca y, a continuación, en la base de datos actual.</p></td>
 </tr>
 </tbody>
 </table>

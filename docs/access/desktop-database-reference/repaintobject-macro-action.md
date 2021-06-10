@@ -24,7 +24,7 @@ ms.locfileid: "32306688"
 
 Puede usar la acción **RepintarObjeto** para completar cualquier actualización de pantalla que quede pendiente para un objeto de base de datos especificado o el objeto de base de datos activo si no hay ninguno especificado. Esas actualizaciones incluyen todos los cálculos pendientes de los controles del objeto.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **RepintarObjeto** tiene los siguientes argumentos.
 

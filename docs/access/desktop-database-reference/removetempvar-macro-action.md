@@ -27,7 +27,7 @@ ms.locfileid: "32306758"
 
 Puede usar la acción **QuitarVariableTemporal** para quitar una sola variable temporal creada mediante la acción **DefinirVariableTemporal**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **QuitarVariableTemporal** tiene el siguiente argumento.
 
@@ -75,8 +75,8 @@ En la siguiente macro se muestra cómo crear una variable temporal, cómo usarla
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Action</p></th>
+<th><p>Condición</p></th>
+<th><p>Acción</p></th>
 <th><p>Argumentos</p></th>
 </tr>
 </thead>
@@ -89,7 +89,7 @@ En la siguiente macro se muestra cómo crear una variable temporal, cómo usarla
 <tr class="even">
 <td><p>[TempVars]![MyVar]&lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Mensaje</strong>: = &quot; Ha escrito &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>Información</strong></p></td>
+<td><p><strong>Message</strong>: = &quot; You entered &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

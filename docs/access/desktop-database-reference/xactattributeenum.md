@@ -39,7 +39,7 @@ Especifica los atributos de transacción de un objeto [ Connection](connection-o
 <tr class="odd">
 <td><p><strong>adXactAbortRetaining</strong></p></td>
 <td><p>262144</p></td>
-<td><p>Realiza anulaciones de retención; es decir, al llamar <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">a RollbackTrans</a> se inicia automáticamente una nueva transacción. No todos los proveedores admiten esto.</p></td>
+<td><p>Realiza las anulaciones de retención; es decir, al llamar <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">a RollbackTrans</a> se inicia automáticamente una nueva transacción. No todos los proveedores admiten esto.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adXactCommitRetaining</strong></p></td>

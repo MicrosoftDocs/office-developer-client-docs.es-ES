@@ -22,9 +22,9 @@ Actualiza los datos del actual objeto [Recordset](recordset-object-ado.md) o la 
 
 ## <a name="syntax"></a>Sintaxis
 
-*Recordset*. Volver a sincronizar *AffectRecords*, *ResyncValues*
+*Recordset*. Resync *AffectRecords*, *ResyncValues*
 
-*Record*. *Campos*. Volver a sincronizar *ResyncValues*
+*Grabar*. *Campos*. Volver a *sincronizar ResyncValues*
 
 ## <a name="parameters"></a>Parámetros
 

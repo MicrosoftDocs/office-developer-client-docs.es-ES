@@ -114,21 +114,21 @@ Al crear comandos de proveedor a partir de datos proporcionados por el usuario c
 SHAPE {select * from t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-SHAPE ejecutará dos comandos: seleccionar de t1 y \* (seleccionar \* de t2 RELATE k1 A k2). Si el usuario proporciona un comando compuesto formado por varios comandos de proveedor separados por signos de punto de coma, SHAPE no es capaz de discernir la diferencia. Por lo tanto, en el siguiente comando SHAPE,
+SHAPE ejecutará dos comandos: seleccione \* de t1 y (seleccione \* de t2 RELATE k1 A k2). Si el usuario proporciona un comando compuesto formado por varios comandos de proveedor separados por signos de punto de coma, SHAPE no es capaz de discernir la diferencia. Por lo tanto, en el siguiente comando SHAPE,
 
 ```vb 
  
 SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO k2) 
 ```
 
-SHAPE ejecuta select \* de t1; drop table t1 y (select from t2 RELATE k1 TO k2), sin darse cuenta de que la tabla desplegable t1 es un comando de proveedor independiente y, en este \* caso, peligroso. Las aplicaciones siempre deben validar los datos proporcionados por el usuario para evitar que se produzcan esos posibles ataques de piratas informáticos.
+SHAPE ejecuta select \* from t1; drop table t1 and (select \* from t2 RELATE k1 TO k2), not inging that drop table t1 is a separate and in this case, dangerous, provider command. Las aplicaciones siempre deben validar los datos proporcionados por el usuario para evitar que se produzcan esos posibles ataques de piratas informáticos.
 
 Esta sección incluye los siguientes temas:
 
-- [Operación de comandos no parametrizados](operation-of-non-parameterized-commands.md)
+- [Operación de comandos sin parámetros](operation-of-non-parameterized-commands.md)
 
 - [Operación de comandos parametrizados](operation-of-parameterized-commands.md)
 
 - [Comandos híbridos](hybrid-commands.md)
 
-- [Intervención de cláusulas COMPUTE de shape](intervening-shape-compute-clauses.md)
+- [Cláusulas COMPUTE de formas intervenidas](intervening-shape-compute-clauses.md)

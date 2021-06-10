@@ -23,7 +23,7 @@ ms.locfileid: "32305918"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Devuelve una colección **Connections** que representa las conexiones actuales del objeto **Workspace** especificado. Solo lectura.
+Devuelve una colección **Connections** que representa las conexiones actuales del objeto **Workspace** especificado. Es de solo lectura.
 
 ## <a name="syntax"></a>Sintaxis
 

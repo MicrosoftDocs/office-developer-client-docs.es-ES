@@ -26,13 +26,13 @@ Esta sección contiene información específica sobre la utilización de RDS con
 
 **Internet Information Services** Para obtener más información sobre Microsoft Internet Information Services (IIS), vea el sitio Microsoft Internet Information Services web.
 
-**páginas Active Server** Para obtener más información acerca de Microsoft páginas Active Server (ASP), consulte el sitio web de Microsoft páginas Active Server web.
+**páginas Active Server** Para obtener más información acerca de Microsoft páginas Active Server (ASP), consulte el sitio web páginas Active Server Microsoft.
 
-**Servicios de componentes de Microsoft** Para obtener más información acerca de los Servicios de componentes, vea el sitio web de Microsoft Transaction Server.
+**Servicios de componentes de Microsoft** Para obtener más información acerca de los Servicios de componentes, consulte el sitio web de Microsoft Transaction Server.
 
-**Microsoft SQL Server** Para obtener más información sobre Microsoft SQL Server, consulte el sitio Microsoft SQL Server web.
+**Microsoft SQL Server** Para obtener más información acerca Microsoft SQL Server, consulte el sitio Microsoft SQL Server web.
 
 **Microsoft Internet Explorer** Para obtener más información acerca de Microsoft Internet Explorer, vea el sitio web de Microsoft Internet Explorer y el sitio web de MSDN Library y Web Workshop.
 
-**Microsoft Windows NT Server/Windows 2000 Server** Para obtener más información acerca de la seguridad en Microsoft Windows NT Server o Windows 2000 Server, vea el sitio web de Microsoft Windows.
+**Microsoft Windows NT Server/Windows 2000 Server** Para obtener más información acerca de la seguridad en Microsoft Windows NT Server o Windows 2000 Server, vea el sitio web Windows Microsoft.
 

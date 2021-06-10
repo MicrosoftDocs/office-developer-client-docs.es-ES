@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305883"
 ---
-# <a name="workspace-methods-dao"></a>Métodos workspace (DAO)
+# <a name="workspace-methods-dao"></a>Métodos Workspace (DAO)
 
 **Se aplica a:** Access 2013, Office 2013
 

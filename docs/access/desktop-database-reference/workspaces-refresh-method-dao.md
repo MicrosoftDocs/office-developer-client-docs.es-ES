@@ -29,7 +29,7 @@ No admitido en este objeto.
 
 *expresión* . Actualizar
 
-*expresión* Variable que representa un objeto **Workspaces** .
+*expresión* Variable que representa un **objeto Workspaces.**
 
 ## <a name="remarks"></a>Comentarios
 

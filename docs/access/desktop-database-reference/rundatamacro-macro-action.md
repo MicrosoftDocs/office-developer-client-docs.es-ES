@@ -24,7 +24,7 @@ ms.locfileid: "32306814"
 
 Puede utilizar la acción **EjecutarMacroDeDatos** para ejecutar una macro de datos con nombre.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **EjecutarMacroDeDatos** tiene el siguiente argumento.
 
@@ -50,7 +50,7 @@ La acción **EjecutarMacroDeDatos** tiene el siguiente argumento.
 
 ## <a name="remarks"></a>Comentarios
 
-Puede usar la acción **EjecutarMacroDeDatos** en macros, macros de datos con nombre y los siguientes eventos de macro: Después de eliminar evento de **[macro](after-delete-macro-event.md)**, después de insertar **[evento de macro](after-insert-macro-event.md)** y después de actualizar evento de **[macro](after-update-macro-event.md)**.
+Puede usar la acción **RunDataMacro** en macros, macros de datos con nombre y los siguientes eventos de macro: Después de eliminar evento de **[macro](after-delete-macro-event.md)**, Después de insertar evento **[de macro](after-insert-macro-event.md)** y Después de actualizar evento de **[macro](after-update-macro-event.md)**.
 
 El nombre de la macro de datos debe incluir la tabla a la que está adjunta (por ejemplo, **Comments.AddComment**, no solo **AddComment**).
 
@@ -60,7 +60,7 @@ Cuando se ejecuta una macro que contiene la acción **EjecutarMacroDeDatos** y s
 
 ## <a name="example"></a>Ejemplo
 
-En el siguiente ejemplo se muestra cómo pasar un parámetro a una macro de datos con nombre. Se llama a la macro de datos dmGetCurrentServiceRequest de la tabla tblServiceRequests mediante la acción RunDataMacro. Cuando finaliza dmGetCurrentServiceRequest, la variable CurrentServiceRequest devuelta forma la macro de datos se escribe en el cuadro de texto txtCurrentSR.
+En el ejemplo siguiente se muestra cómo pasar un parámetro a una macro de datos con nombre. Se llama a la macro de datos dmGetCurrentServiceRequest de la tabla tblServiceRequests mediante la acción RunDataMacro. Una vez finalizada la dmGetCurrentServiceRequest, la variable CurrentServiceRequest devuelta forma la macro de datos se escribe en el cuadro de texto txtCurrentSR.
 
 **Código de ejemplo proporcionado por** la [Referencia del programador de Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

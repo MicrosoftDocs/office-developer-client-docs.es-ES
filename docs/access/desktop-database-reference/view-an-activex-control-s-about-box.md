@@ -23,9 +23,9 @@ ms.locfileid: "32305967"
 
 **Se aplica a:** Access 2013, Office 2013
 
-Para ver un cuadro **Acerca de** que muestra la información de la versión y los derechos de autor de un control ActiveX contenido:
+Para ver un **cuadro Acerca de** que se muestra la versión y la información de copyright de un control ActiveX datos:
 
-1. Elija el **cuadro Acerca de** la propiedad en la hoja de propiedades de Microsoft Access.
+1. Elija el **cuadro De** la propiedad en la hoja de propiedades de Microsoft Access.
 
 2. Elija el **botón** Generar a la derecha del cuadro de la propiedad.
 

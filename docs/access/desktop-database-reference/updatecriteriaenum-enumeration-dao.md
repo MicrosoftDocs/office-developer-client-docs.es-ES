@@ -47,12 +47,12 @@ Se utiliza con el método **UpdateOptions** para especificar cómo se crea una a
 </tr>
 <tr class="odd">
 <td><p>dbCriteriaKey</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Utiliza sólo la columna o columnas de clave en la cláusula WHERE.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbCriteriaModValues</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Utiliza la columna o columnas de clave y todas las columnas actualizadas en la cláusula WHERE.</p></td>
 </tr>
 <tr class="odd">

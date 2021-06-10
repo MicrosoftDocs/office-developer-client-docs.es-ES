@@ -45,7 +45,7 @@ La coincidencia de patrones integrada proporciona una herramienta versátil para
 <td><p>Un único dígito (0 – 9)</p></td>
 </tr>
 <tr class="even">
-<td><p>[<em>lista de caracteres</em>]</p></td>
+<td><p>[<em>charlist</em>]</p></td>
 <td><p>Cualquier carácter de <em>listaDeCaracteres</em></p></td>
 </tr>
 <tr class="odd">
@@ -56,19 +56,19 @@ La coincidencia de patrones integrada proporciona una herramienta versátil para
 </table>
 
 
-Puede usar un grupo de uno o más caracteres (*lista* de caracteres ) entre corchetes ( ) para que coincida con cualquier carácter individual de la \[ \] *expresión,* y la *lista* de caracteres puede incluir casi cualquier carácter en el juego de caracteres ANSI, incluidos los dígitos. Puede usar los caracteres especiales corchete de apertura ( ), signo de interrogación (?), signo de número ( ) y asterisco ( ) para que coincidan directamente solo si está entre \[ \# \* corchetes. No puede usar el corchete de cierre ( ) dentro de un grupo para que coincida con sí mismo, pero puede usarlo fuera de un \] grupo como un carácter individual.
+Puede usar un grupo de uno o varios caracteres (*charlist*) entre corchetes ( ) para coincidir con cualquier carácter individual de la expresión, y charlist puede incluir casi cualquier carácter en el conjunto de caracteres ANSI, incluidos los \[ \] dígitos.   Puede usar el corchete de apertura de caracteres especiales ( ), signo de interrogación (?), signo de número ( ) y asterisco ( ) para que coincidan directamente solo si están entre \[ \# \* corchetes. No puede usar el corchete de cierre ( ) dentro de un grupo para que coincida con sí mismo, pero puede usarlo fuera de un \] grupo como un carácter individual.
 
-Además de una lista simple de caracteres incluidos entre corchetes, *listaDeCaracteres* puede especificar un intervalo de caracteres utilizando un guión (-) para separar los límites inicial y final del intervalo. Por ejemplo, el uso de A-Z en el patrón da como resultado una coincidencia si la posición de carácter correspondiente en la expresión contiene alguna de las letras mayúsculas del rango \[ \] A a Z.   Puede incluir varios intervalos entre corchetes sin delimitar los intervalos. Por ejemplo, \[ a-zA-Z0-9 coincide con \] cualquier carácter alfanumérico.
+Además de una lista simple de caracteres incluidos entre corchetes, *listaDeCaracteres* puede especificar un intervalo de caracteres utilizando un guión (-) para separar los límites inicial y final del intervalo. Por ejemplo, el uso de A-Z en el patrón da como resultado una coincidencia si la posición de carácter correspondiente en la expresión contiene alguna de las letras mayúsculas del intervalo \[ \] A a Z.   Puede incluir varios intervalos entre corchetes sin delimitar los intervalos. Por ejemplo, \[ a-zA-Z0-9 \] coincide con cualquier carácter alfanumérico.
 
 Es importante tener en cuenta que ansi SQL caracteres comodín (%) and ( \_ ) are only available with Microsoft Jet version 4.X and the Microsoft OLE DB Provider for Jet. Se tratarán como literales si se usan en Microsoft Access o DAO.
 
 Otras reglas importantes de la coincidencia de patrones son:
 
-- Un signo de exclamación ( ) al principio de la lista de caracteres significa que se realiza una coincidencia si se encuentra cualquier carácter excepto los de la lista de caracteres \! en la *expresión*.   Si se usa fuera de los corchetes, el signo de exclamación se corresponde consigo mismo.
+- Un signo de exclamación ( ) al principio de charlist significa que se realiza una coincidencia si se encuentra algún carácter excepto los de \! *charlist* en la *expresión*.  Si se usa fuera de los corchetes, el signo de exclamación se corresponde consigo mismo.
 
 - Puede usar el guión (-) al principio (a continuación de un signo de exclamación si se utiliza) o al final de *listaDeCaracteres* en correspondencia consigo mismo. En cualquier otra posición, el guión identifica un intervalo de caracteres ANSI.
 
 - Cuando se especifica un intervalo de caracteres, éstos deben aparecer en un criterio de ordenación ascendente (A-Z o 0-100). \[A-Z \] es un patrón válido, pero \[ Z-A \] no lo es.
 
-- La secuencia de caracteres se omite; se considera una cadena \[ \] de longitud cero ("").
+- La secuencia de caracteres se omite; se considera una cadena de \[ \] longitud cero ("").
 

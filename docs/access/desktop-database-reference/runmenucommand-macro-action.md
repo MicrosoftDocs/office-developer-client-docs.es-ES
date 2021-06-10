@@ -24,7 +24,7 @@ ms.locfileid: "32306506"
 
 La acción **EjecutarComandoDeMenú** sirve para ejecutar un comando integrado de Microsoft Access.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **EjecutarComandoDeMenú** usa el siguiente argumento de acción.
 

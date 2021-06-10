@@ -79,7 +79,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 <td><p>Establece o devuelve el número de registros recuperados de un origen de datos ODBC que se almacenarán localmente en caché. <strong>Long</strong> de lectura y escritura.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-connect-property-dao.md">Connect</a></strong></p></td>
+<td><p><strong><a href="querydef-connect-property-dao.md">Conectar</a></strong></p></td>
 <td><p>Establece o devuelve un valor que proporciona información sobre el origen de la base de datos utilizada en una consulta de paso a través. <strong>String</strong> de sólo lectura.</p></td>
 </tr>
 <tr class="odd">
@@ -107,7 +107,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 <td><p>Indica el número de segundos que hay que esperar antes de que se produzca un error de tiempo de espera cuando se ejecuta <strong><a href="querydef-object-dao.md">QueryDef</a></strong> en una base de datos ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-parameters-property-dao.md">Parámetros</a></strong></p></td>
+<td><p><strong><a href="querydef-parameters-property-dao.md">Parameters</a></strong></p></td>
 <td><p>Devuelve una colección <strong><a href="parameters-collection-dao.md">Parameters</a></strong> que contiene todos los objetos <strong><a href="parameter-object-dao.md">Parameter</a></strong> del objeto <strong>QueryDef</strong> especificado. Es de solo lectura.</p></td>
 </tr>
 <tr class="even">
@@ -117,7 +117,7 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-properties-property-dao.md">Properties</a></strong></p></td>
-<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Solo lectura.</p></td>
+<td><p>Devuelve la colección <strong><a href="properties-collection-dao.md">Properties</a></strong> de un objeto especificado. Sólo lectura.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-recordsaffected-property-dao.md">RecordsAffected</a></strong></p></td>
@@ -138,11 +138,11 @@ Un objeto QueryDef es una definición de una consulta almacenada en una base de 
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-type-property-dao.md">Tipo</a></strong></p></td>
-<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Read-only<strong>entero</strong>.</p></td>
+<td><p>Establece o devuelve un valor que indica el tipo operativo o el tipo de datos de un objeto. Integer de solo<strong>lectura.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Booleano</strong> de solo lectura.</p></td>
+<td><p>Devuelve un valor que indica si el usuario puede cambiar un objeto DAO. <strong>Boolean</strong> de sólo lectura.</p></td>
 </tr>
 </tbody>
 </table>

@@ -18,7 +18,9 @@ ms.locfileid: "32302614"
 
 **Se aplica a:** Access 2013, Office 2013 
  
-ADO 2.5 incluye las siguientes características nuevas y una documentación mejorada. Esta lista hace referencia a ADO, ADO MD y ADOX.
+ADO 2.5 incluye las siguientes características nuevas y una documentación mejorada.
+
+Esta lista hace referencia a ADO, ADO MD y ADOX.
 
 ## <a name="new-features"></a>Características nuevas
 
@@ -36,9 +38,9 @@ ADO 2.5 incluye las siguientes características nuevas y una documentación mejo
 
 - **[Campos especiales para proveedores de orígenes de documentos](records-and-provider-supplied-fields.md)**
 
-  Una clase especial de proveedores, denominados proveedores de *orígenes de documentos*, administran carpetas y documentos. Cuando un objeto **Record** representa un documento, o un objeto **Recordset** representa una carpeta de documentos, el proveedor de orígenes de documentos rellena esos objetos con un conjunto único de campos que describen las características del documento. Estos campos constituyen un *objeto* **Record** o Recordset **de recursos.**
+  Una clase especial de proveedores, denominados proveedores de *orígenes de documentos*, administran carpetas y documentos. Cuando un objeto **Record** representa un documento, o un objeto **Recordset** representa una carpeta de documentos, el proveedor de orígenes de documentos rellena esos objetos con un conjunto único de campos que describen las características del documento. Estos campos constituyen un *recurso* **Record** o **Recordset**.
 
-## <a name="new-reference-topics"></a>Nuevos temas de referencia
+## <a name="new-reference-topics"></a>Temas de referencia nuevos
 
 ### <a name="properties"></a>Propiedades
 
@@ -93,7 +95,7 @@ Esta versión incluye las siguientes propiedades nuevas.
 <td><p>Indica la entidad representada por el objeto <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">Estado</a></p></td>
 <td><p>Indica, para todos los objetos aplicables, si el estado del objeto es abierto o cerrado. Indica para todos los objetos aplicables que ejecutan un método asincrónico si el objeto se encuentra actualmente en estado de conexión, ejecución o recuperación.</p></td>
 </tr>
 <tr class="odd">
@@ -125,7 +127,7 @@ Esta versión incluye los siguientes métodos nuevos.
 </tr>
 <tr class="even">
 <td><p><a href="copyto-method-ado.md">CopyTo</a></p></td>
-<td><p>Copia el número especificado de caracteres o bytes (según <strong>el</strong>tipo) del objeto <strong>Stream</strong> <strong>en</strong> otro <strong>objeto Stream</strong> .</p></td>
+<td><p>Copia el número especificado de caracteres o bytes (según <strong>Type</strong>) del <strong>objeto Stream</strong> <strong>en</strong> otro objeto <strong>Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deleterecord-method-ado.md">DeleteRecord</a></p></td>
@@ -191,7 +193,7 @@ Esta versión incluye los siguientes métodos nuevos.
 
 - **[Temas de ejemplo de código](ado-code-examples.md)**
 
-  Los ejemplos se han ampliado para contener ejemplos de código escritos en Microsoft Visual C++ y Microsoft Visual J++. Estos ejemplos de código se pueden copiar y pegar en el editor.
+  Los ejemplos se han expandido para contener ejemplos de código escritos en Microsoft Visual C++ y Microsoft Visual J++. Estos ejemplos de código se pueden copiar y pegar en el editor.
 
 - **[Temas del proveedor](appendix-a-providers.md)**
 
@@ -199,5 +201,5 @@ Esta versión incluye los siguientes métodos nuevos.
 
 - **[Programar con ADO](appendix-c-programming-with-ado.md)**
 
-  Esta nueva sección contiene sugerencias y trucos para usar ADO con diversos lenguajes de programación. Contiene los índices de sintaxis existentes para las Extensiones de Visual C++ para ADO y ADO/WFC, así como nueva información específica para desarrolladores que usan Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ o Microsoft Visual J++.
+  Esta nueva sección contiene sugerencias y trucos para usar ADO con varios lenguajes de programación. Contiene los índices de sintaxis existentes para las extensiones de Visual C++ para ADO y ADO/WFC, así como nueva información específica para desarrolladores que usan Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ o Microsoft Visual J++.
 

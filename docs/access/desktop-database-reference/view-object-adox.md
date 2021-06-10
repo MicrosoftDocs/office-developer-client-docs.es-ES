@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306054"
 ---
-# <a name="view-object-adox"></a>View (objeto, ADOX)
+# <a name="view-object-adox"></a>Objeto View (ADOX)
 
 
 **Se aplica a:** Access 2013, Office 2013
