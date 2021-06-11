@@ -30,7 +30,7 @@ Inicie una espera para que transcurra la inicialización MAPI o el número espec
 HRESULT IMAPIInitMonitor::BeginWait(DWORD timeout, IMAPIWaitResult** ppResult)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 _tiempo de espera_
 >[in] El número de milisegundos que se esperará a la inicialización MAPI, esto puede establecerse en INFINITE para esperar para siempre a que se pueda producir la inicialización.
 

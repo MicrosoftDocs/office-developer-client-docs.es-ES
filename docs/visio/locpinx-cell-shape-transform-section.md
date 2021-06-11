@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm680
 localization_priority: Normal
 ms.assetid: b82feade-5793-8a6e-3ff4-69a4cbdd2cf9
-description: 'Representa la coordenada x del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es:'
+description: 'Representa la coordenada x del pin de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es:'
 ms.openlocfilehash: 2eb5c328eed3c97652173670c426b83b8c358833
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33439243"
 ---
 # <a name="locpinx-cell-shape-transform-section"></a>Celda LocPinX (Sección de transformación de forma)
 
-Representa la coordenada  *x*  del eje de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es: 
+Representa la coordenada  *x*  del pin de la forma (centro de rotación) en relación con el origen de la forma. La fórmula predeterminada es: 
   
 = Ancho \* 0,5
   

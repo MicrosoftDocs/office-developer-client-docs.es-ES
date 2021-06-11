@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [MTSID](mtsid.md) existente.
 CbMTSID (_lpentry)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _lpentry_
   
-> Puntero a la estructura **MTSID** existente. 
+> Puntero a la estructura **DE MTSID** existente. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

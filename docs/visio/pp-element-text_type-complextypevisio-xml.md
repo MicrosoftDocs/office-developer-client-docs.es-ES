@@ -1,5 +1,5 @@
 ---
-title: Elemento pp (Text_Type complexType) (XML de Visio)
+title: elemento pp (Text_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537741"
 ---
-# <a name="pp-element-text_type-complextype-visio-xml"></a>Elemento pp (Text_Type complexType) (XML de Visio)
+# <a name="pp-element-text_type-complextype-visio-xml"></a>elemento pp (Text_Type complexType) (Visio XML)
 
 Especifica el principio de una ejecución de propiedades de párrafo. La ejecución se define al final del texto o hasta la siguiente etiqueta.
   
@@ -36,7 +36,7 @@ Especifica el principio de una ejecución de propiedades de párrafo. La ejecuci
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

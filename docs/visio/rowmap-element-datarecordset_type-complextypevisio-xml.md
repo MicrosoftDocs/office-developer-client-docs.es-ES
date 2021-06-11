@@ -1,12 +1,12 @@
 ---
-title: Elemento RowMap (DataRecordSet_Type complexType) (XML de Visio)
+title: Elemento RowMap (DataRecordSet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
-description: Asigna una fila de conjunto de registros de datos a una forma.
+description: Mapas una fila de conjunto de registros de datos a una forma.
 ms.openlocfilehash: 178ceb06d64bfc9ef50f75dd22f8bd94f09f5c33
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540773"
 ---
-# <a name="rowmap-element-datarecordset_type-complextype-visio-xml"></a>Elemento RowMap (DataRecordSet_Type complexType) (XML de Visio)
+# <a name="rowmap-element-datarecordset_type-complextype-visio-xml"></a>Elemento RowMap (DataRecordSet_Type complexType) (Visio XML)
 
-Asigna una fila de conjunto de registros de datos a una forma.
+Mapas una fila de conjunto de registros de datos a una forma.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Asigna una fila de conjunto de registros de datos a una forma.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -54,7 +54,7 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador de página de la forma vinculada a los datos de la fila del conjunto de registros de datos identificada **por RowID**.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador de página de la forma vinculada a los datos de la fila del conjunto de registros de datos identificada por **RowID**.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |RowID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador de fila de la fila, único dentro del conjunto de registros de datos.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |ShapeID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador de forma de la forma vinculada a los datos de la fila del conjunto de registros de datos identificada **por RowID**.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    

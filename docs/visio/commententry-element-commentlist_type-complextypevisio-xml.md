@@ -1,5 +1,5 @@
 ---
-title: Elemento CommentEntry (CommentList_Type complexType) (XML de Visio)
+title: Elemento CommentEntry (CommentList_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540115"
 ---
-# <a name="commententry-element-commentlist_type-complextype-visio-xml"></a>Elemento CommentEntry (CommentList_Type complexType) (VISIO XML)
+# <a name="commententry-element-commentlist_type-complextype-visio-xml"></a>Elemento CommentEntry (CommentList_Type complexType) (Visio XML)
 
 Especifica las propiedades usadas para identificar un comentario en un dibujo.
   
@@ -36,7 +36,7 @@ Especifica las propiedades usadas para identificar un comentario en un dibujo.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,12 +52,12 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|AuthorID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Un valor basado en uno que identifica al autor.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|AuthorID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Valor único que identifica al autor.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |CommentID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Valor único que identifica el comentario en una página de dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |Fecha  <br/> |xsd:dateTime  <br/> |necesario  <br/> |Especifica cuándo se creó un comentario.  <br/> |Valores del tipo xsd:dateTime.  <br/> |
 |Hecho  <br/> |xsd:boolean  <br/> |opcional  <br/> |Especifica el estado actual del comentario.  <br/> |Valores del tipo xsd:boolean.  <br/> |
-|EditDate  <br/> |xsd:dateTime  <br/> |opcional  <br/> |Especifica cuándo se modificó un comentario por última vez.  <br/> |Valores del tipo xsd:dateTime.  <br/> |
+|EditDate  <br/> |xsd:dateTime  <br/> |opcional  <br/> |Especifica cuándo se cambió por última vez un comentario.  <br/> |Valores del tipo xsd:dateTime.  <br/> |
 |PageID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Valor que identifica la página de dibujo en la que se encuentra el comentario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|ShapeID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Valor que identifica la forma en la que se encuentra el comentario. Si no se especifica ningún ShapeID, el comentario hace referencia a la página de dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ShapeID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Valor que identifica la forma en la que está el comentario. Si no se especifica Ningún ShapeID, el comentario hace referencia a la página de dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

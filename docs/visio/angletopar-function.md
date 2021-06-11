@@ -18,7 +18,9 @@ ms.locfileid: "45160261"
 ---
 # <a name="angletopar-function"></a>Función ANGLETOPAR
 
-Devuelve un ángulo transformado en el sistema de coordenadas principales de la forma de destino. Convierte las coordenadas locales de un ángulo en una forma de origen a las coordenadas originales en una forma de destino. 
+Devuelve un ángulo transformado en el sistema de coordenadas principales de la forma de destino. Convierte las coordenadas locales de un ángulo en una forma de origen a las coordenadas originales en una forma de destino.
+    
+ 
   
 ## <a name="syntax"></a>Sintaxis
 

@@ -52,15 +52,15 @@ typedef struct _DTBLMVLISTBOX
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura DTBLMVLISTBOX** describe una lista estándar de varios valores que tiene una lista de elementos de solo lectura. Al usar una lista de varios valores estándar, los valores se muestran inmediatamente. 
+Una **estructura DTBLMVLISTBOX** describe una lista estándar de varios valores que tiene una lista de elementos de solo lectura. Al usar una lista multivalor estándar, los valores se muestran inmediatamente. 
   
-Los datos que se muestran proceden de la propiedad identificada en el **miembro ulMVPropTag.** No es necesario leer desde la interfaz de propiedades asociada a la tabla para mostrar. Además, como los usuarios no pueden realizar selecciones de estos tipos de listas, los datos no se escriben en la interfaz de propiedades. 
+Los datos que se muestran proceden de la propiedad identificada en el **miembro ulMVPropTag.** No hay ningún requisito para leer desde la interfaz de propiedades asociada a la tabla para mostrar. Además, como los usuarios no pueden realizar selecciones de estos tipos de listas, los datos no se escriben en la interfaz de propiedades. 
   
-Solo se admiten propiedades de cadena de varios valores para la lista de varios valores; No se admiten otros tipos de propiedades multivalor. 
+Solo se admiten propiedades de cadena de varios valores para la lista de varios valores; no se admiten otros tipos de propiedades multivalor. 
   
-Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información sobre cómo implementar una tabla para mostrar, vea [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

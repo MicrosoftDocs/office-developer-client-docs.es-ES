@@ -30,7 +30,7 @@ La **función IIf** contiene los argumentos siguientes.
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *Condition*  <br/> |Expresión que desea evaluar.  <br/> |
-| *TrueValue*  <br/> |Valor o expresión devuelta si  *Condition*  es True.  <br/> |
+| *TrueValue*  <br/> |Valor o expresión devueltos  *si Condition*  es True.  <br/> |
 | *FalseValue*  <br/> |Valor o expresión devueltos si  *Condition*  es False.  <br/> |
    
 ## <a name="example"></a>Ejemplo

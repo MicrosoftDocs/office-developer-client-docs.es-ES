@@ -1,5 +1,5 @@
 ---
-title: Elemento StyleSheet (StyleSheets_Type complexType) (XML de Visio)
+title: Elemento StyleSheet (StyleSheets_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541942"
 ---
-# <a name="stylesheet-element-stylesheets_type-complextype-visio-xml"></a>Elemento StyleSheet (StyleSheets_Type complexType) (XML de Visio)
+# <a name="stylesheet-element-stylesheets_type-complextype-visio-xml"></a>Elemento StyleSheet (StyleSheets_Type complexType) (Visio XML)
 
 Representa un estilo definido en un documento.
   
@@ -35,7 +35,7 @@ Representa un estilo definido en un documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -55,7 +55,7 @@ Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**,
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |FillStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Identificador del elemento StyleSheet del que este estilo hereda el formato de relleno.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador único del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El identificador único del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |IsCustomName  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica si el usuario ha personalizado el nombre.  <br/> |Valores del tipo xsd:boolean.  <br/> |
 |IsCustomNameU  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica si el usuario ha personalizado el nombre universal.  <br/> |Valores del tipo xsd:boolean.  <br/> |
 |LineStyle  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Identificador del elemento StyleSheet del que este estilo hereda el formato de línea.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |

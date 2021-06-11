@@ -36,13 +36,13 @@ Calcula el número de bytes que se deben asignar para una nueva estructura [SPro
 CbNewSPropAttrArray (_cattr)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _cattr_
   
-> Número de atributos de propiedad que se incluirán en la nueva **estructura SPropAttrArray.** 
+> Recuento de atributos de propiedad que se incluirán en la nueva **estructura SPropAttrArray.** 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

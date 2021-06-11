@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [SPropTagArray](sproptagarray.md) 
 CbSPropTagArray (_lparray)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _lparray_
   
 > Puntero a la estructura **SPropTagArray** existente. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

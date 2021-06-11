@@ -30,7 +30,7 @@ Inicia una llamada BLOCKING en este subproceso, que devolverá cuando haya trans
 HRESULT IMAPIInitMonitor::Wait(DWORD timeout)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 _tiempo de espera_
 > [in] El número de milisegundos que hay que esperar a que se inicialice MAPI, puede pasar INFINITE (0xFFFFFFFF) para esperar para siempre.
 

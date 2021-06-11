@@ -1,12 +1,12 @@
 ---
-title: Elemento ProtectStyles (DocumentSettings_Type complexType) (XML de Visio)
+title: Elemento ProtectStyles (DocumentSettings_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 041c1b07-7ad4-f786-c6dc-32a41d4d5e04
-description: Especifica si se impide que el usuario cree o edite estilos.
+description: Especifica si el usuario no puede crear o editar estilos.
 ms.openlocfilehash: b2b725d0d735212f79606fed094adf5fe81a43d5
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538938"
 ---
-# <a name="protectstyles-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectStyles (DocumentSettings_Type complexType) (XML de Visio)
+# <a name="protectstyles-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectStyles (DocumentSettings_Type complexType) (Visio XML)
 
-Especifica si se impide que el usuario cree o edite estilos.
+Especifica si el usuario no puede crear o editar estilos.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Especifica si se impide que el usuario cree o edite estilos.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

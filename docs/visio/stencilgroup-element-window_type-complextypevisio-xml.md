@@ -1,5 +1,5 @@
 ---
-title: Elemento StencilGroup (Window_Type complexType) (XML de Visio)
+title: Elemento StencilGroup (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542005"
 ---
-# <a name="stencilgroup-element-window_type-complextype-visio-xml"></a>Elemento StencilGroup (Window_Type complexType) (VISIO XML)
+# <a name="stencilgroup-element-window_type-complextype-visio-xml"></a>Elemento StencilGroup (Window_Type complexType) (Visio XML)
 
 Especifica el grupo de ventanas de galería de símbolos combinadas de las que la ventana es miembro.
   
@@ -36,7 +36,7 @@ Especifica el grupo de ventanas de galería de símbolos combinadas de las que l
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

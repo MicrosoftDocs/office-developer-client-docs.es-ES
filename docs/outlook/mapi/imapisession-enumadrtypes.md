@@ -35,19 +35,19 @@ HRESULT EnumAdrTypes(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que indica el formato de los tipos de direcciones devueltos. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que indica el formato de los tipos de direcciones devueltos. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Los tipos de dirección están en formato Unicode. Si no MAPI_UNICODE marca, los tipos de dirección están en formato ANSI.
+> Los tipos de direcciones están en formato Unicode. Si la MAPI_UNICODE no está establecida, los tipos de direcciones están en formato ANSI.
     
  _lpcAdrTypes_
   
-> [salida] Puntero a un recuento de tipos de direcciones a los que apunta el parámetro _lpppszAdrTypes._ 
+> [salida] Puntero a un recuento de tipos de direcciones señalados por el _parámetro lpppszAdrTypes._ 
     
  _lpppszAdrTypes_
   
@@ -57,17 +57,17 @@ MAPI_UNICODE
 
 S_OK 
   
-> Los tipos de dirección se recuperaron correctamente.
+> Los tipos de direcciones se recuperaron correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISession::EnumAdrTypes** devuelve una lista de los tipos de direcciones que pueden controlar todos los proveedores de transporte activos en la sesión. Los tipos de dirección para los proveedores de transporte que no están cargados actualmente no se incluyen en la lista. Los proveedores de transporte se registran para controlar uno o más tipos de direcciones cuando MAPI llama a su [método IXPLogon::AddressTypes.](ixplogon-addresstypes.md) 
+El **método IMAPISession::EnumAdrTypes** devuelve una lista de los tipos de direcciones que pueden controlar todos los proveedores de transporte activo de la sesión. Los tipos de direcciones para los proveedores de transporte que no están cargados actualmente no se incluyen en la lista. Los proveedores de transporte se registran para controlar uno o más tipos de direcciones cuando MAPI llama a su [método IXPLogon::AddressTypes.](ixplogon-addresstypes.md) 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame [a MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de cadenas a la que apunta el parámetro _lpppszAdrTypes._ 
+Llama [a MAPIFreeBuffer para](mapifreebuffer.md) liberar la matriz de cadenas a la que apunta el parámetro _lpppszAdrTypes._ 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

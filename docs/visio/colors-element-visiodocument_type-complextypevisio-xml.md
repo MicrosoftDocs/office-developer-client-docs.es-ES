@@ -1,5 +1,5 @@
 ---
-title: Elemento Colors (VisioDocument_Type complexType) (VISIO XML)
+title: Elemento Colors (VisioDocument_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540178"
 ---
-# <a name="colors-element-visiodocument_type-complextype-visio-xml"></a>Elemento Colors (VisioDocument_Type complexType) (VISIO XML)
+# <a name="colors-element-visiodocument_type-complextype-visio-xml"></a>Elemento Colors (VisioDocument_Type complexType) (Visio XML)
 
 Contiene la tabla de colores del documento.
   
@@ -36,13 +36,13 @@ Contiene la tabla de colores del documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento de Microsoft Visio.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento Visio Microsoft.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

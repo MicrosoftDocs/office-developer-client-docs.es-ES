@@ -1,12 +1,12 @@
 ---
-title: Elemento AuthorList (Comments_Type complexType) (XML de Visio)
+title: Elemento AuthorList (Comments_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4b6950c4-7c03-6462-eeab-3176db9a8f7e
-description: Especifica los autores de comentarios de un dibujo.
+description: Especifica los autores de los comentarios de un dibujo.
 ms.openlocfilehash: c6e94c985d2728ba704a9159ec9bf3c4a2a72e95
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537860"
 ---
-# <a name="authorlist-element-comments_type-complextype-visio-xml"></a>Elemento AuthorList (Comments_Type complexType) (XML de Visio)
+# <a name="authorlist-element-comments_type-complextype-visio-xml"></a>Elemento AuthorList (Comments_Type complexType) (Visio XML)
 
-Especifica los autores de comentarios de un dibujo.
+Especifica los autores de los comentarios de un dibujo.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Especifica los autores de comentarios de un dibujo.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

@@ -1,5 +1,5 @@
 ---
-title: pp_Type complexType (VISIO XML)
+title: pp_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539008"
 ---
-# <a name="pp_type-complextype-visio-xml"></a>pp_Type complexType (VISIO XML)
+# <a name="pp_type-complextype-visio-xml"></a>pp_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Información de tipos
 
@@ -37,7 +37,7 @@ ms.locfileid: "34539008"
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 

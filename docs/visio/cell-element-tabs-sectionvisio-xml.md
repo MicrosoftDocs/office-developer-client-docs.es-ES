@@ -1,5 +1,5 @@
 ---
-title: Elemento Cell (Sección de tabulaciones) (XML de Visio)
+title: Elemento Cell (sección Tabs) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539365"
 ---
-# <a name="cell-element-tabs-section-visio-xml"></a>Elemento Cell (Sección de tabulaciones) (XML de Visio)
+# <a name="cell-element-tabs-section-visio-xml"></a>Elemento Cell (sección Tabs) (Visio XML)
 
 Especifica una propiedad que controla la posición o alineación de la tabulación de formas y estilos. 
   
@@ -36,13 +36,13 @@ Especifica una propiedad que controla la posición o alineación de la tabulaci�
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (Sección de tabulaciones)](row-element-tabs-sectionvisio-xml.md) <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |Especifica una propiedad que controla la posición o alineación de la tabulación de formas y estilos.  <br/> |
+|[Elemento Row (sección Tabs)](row-element-tabs-sectionvisio-xml.md) <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |Especifica una propiedad que controla la posición o alineación de la tabulación de formas y estilos.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -55,18 +55,18 @@ Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**,
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que la fórmula se evalúa como un error. El valor de **E** es el valor actual (una cadena de mensaje de error); el valor del atributo **V** es el último valor válido.  <br/> |Una cadena de mensaje de error.  <br/> |
-|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener una de las siguientes cadenas:  <br/>  '(alguna fórmula)' si la fórmula existe localmente  <br/>  `No Formula` si la fórmula se elimina o bloquea localmente  <br/>  `Inh` si la fórmula se hereda.  <br/> |Una fórmula.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener una de las cadenas siguientes:  <br/>  '(alguna fórmula)' si la fórmula existe localmente  <br/>  `No Formula` si la fórmula se elimina o bloquea localmente  <br/>  `Inh` si la fórmula se hereda.  <br/> |Una fórmula.  <br/> |
 |N  <br/> |xsd:string  <br/> |necesario  <br/> |Representa el nombre de la celda ShapeSheet.  <br/> |Nombre de la celda ShapeSheet.  <br/> Vea la sección Comentarios a continuación.  <br/> |
 |U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa una unidad de medida El valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |Valor de la celda ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El **atributo N** de este elemento **Cell** debe ser uno de un conjunto limitado de valores que corresponden a celdas ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este **elemento Cell.** 
+El **atributo N** de este elemento **Cell** debe ser uno de un conjunto limitado de valores que corresponden a celdas ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** permitidos para este **elemento Cell.** 
   
 |**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|
-|Alignment  <br/> |Especifica la alineación de las tabulaciones.  <br/> |[Celda Alignment (Sección de tabulaciones)](alignment-cell-tabs-section.md) <br/> |
+|Alineación  <br/> |Especifica la alineación de las tabulaciones.  <br/> |[Celda Alignment (Sección de tabulaciones)](alignment-cell-tabs-section.md) <br/> |
 |Position  <br/> |Especifica la posición de una tabulación. La posición de tabulación no depende de la escala del dibujo. Si se cambia la escala, la posición de tabulación permanece igual.  <br/> |[Celda Position (Sección de tabulaciones)](position-cell-tabs-section.md) <br/> |
    
 

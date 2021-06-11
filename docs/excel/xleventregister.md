@@ -24,7 +24,7 @@ Se usa para registrar un controlador de eventos. Se introdujo en Excel 2010.
 Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12 pxEvent);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pxProcedure_ (**xltypeStr**)
   
@@ -36,16 +36,16 @@ Evento que controla la función designada en el _parámetro pxProcedure._
   
 A partir de Excel 2010, Excel admite los siguientes eventos:
   
-|**Evento**|**Descripción**|
+|**Event**|**Descripción**|
 |:-----|:-----|
-|**xleventCalculationEnded** <br/> |Se genera cuando Excel completa un cálculo. Puede liberar los recursos asignados durante el cálculo después de este evento.  <br/> |
+|**xleventCalculationEnded** <br/> |Se genera cuando Excel un cálculo. Puede liberar los recursos asignados durante el cálculo después de este evento.  <br/> |
 |**xleventCalculationCanceled** <br/> |Se genera cuando el usuario interrumpe el cálculo. El XLL debe detener cualquier actividad asincrónica. El evento CalculationEnded se genera inmediatamente después de este evento.  <br/> |
    
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
 Si se realiza correctamente, pxRes (**xltypeInt**) tiene un valor > 0. Si no se realiza correctamente, pxRes ==0.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

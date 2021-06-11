@@ -1,5 +1,5 @@
 ---
-title: Elemento DataConnections (XML de Visio)
+title: Elemento DataConnections (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539185"
 ---
-# <a name="dataconnections-element-visio-xml"></a>Elemento DataConnections (XML de Visio)
+# <a name="dataconnections-element-visio-xml"></a>Elemento DataConnections (Visio XML)
 
 Contiene los **elementos DataConnection** del documento. 
   
@@ -36,7 +36,7 @@ Contiene los **elementos DataConnection** del documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

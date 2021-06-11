@@ -25,24 +25,24 @@ ms.locfileid: "33439880"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Admite Microsoft Outlook 2010 y Microsoft Outlook 2013 para enviar devoluciones de llamada de notificaciones a un cliente.
+Admite Microsoft Outlook 2010 y Microsoft Outlook 2013 enviar devoluciones de llamada de notificación a un cliente.
   
 |||
 |:-----|:-----|
 |Suministrado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIOfflineNotify  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|[Notify](imapiofflinenotify-notify.md) <br/> |Envía notificaciones a un cliente sobre los cambios en el estado de conexión.  <br/> |
+|[Notificar](imapiofflinenotify-notify.md) <br/> |Envía notificaciones a un cliente sobre los cambios en el estado de conexión.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 El cliente debe implementar esta interfaz y pasarle un puntero como miembro de **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** al configurar devoluciones de llamada mediante **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Posteriormente, Outlook 2010 o Outlook 2013 podrán usar esta interfaz para enviar devoluciones de llamada de notificación al cliente. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

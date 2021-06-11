@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251750
 localization_priority: Normal
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
-description: Representa una coordenada y de una forma en coordenadas locales. En la tabla siguiente se describe la celda Y según la fila en la que se encuentre.
+description: Representa una coordenada y en una forma en coordenadas locales. En la tabla siguiente se describe la celda Y según la fila en la que se encuentre.
 ms.openlocfilehash: 7dea96b544c84f09abe1d72304da0bacaa09432f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "34540493"
 ---
 # <a name="y-cell-geometry-section"></a>Celda Y (Sección de geometría)
 
-Representa una  *coordenada y*  de una forma en coordenadas locales. En la tabla siguiente se describe la celda Y según la fila en la que se encuentre. 
+Representa una  *coordenada y*  en una forma en coordenadas locales. En la tabla siguiente se describe la celda Y según la fila en la que se encuentre. 
   
-|Fila|Description|
+|Fila|Descripción|
 |:-----|:-----|
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Si la fila MoveTo es la primera fila de la sección, la celda Y representa la coordenada  *y*  del primer vértice de una ruta de acceso. Si la fila MoveTo aparece entre dos filas, la celda Y representa la coordenada  *y*  del primer vértice después del salto en la ruta de acceso.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | *Coordenada y* del vértice final de un segmento de línea recta.  <br/> |
@@ -30,7 +30,7 @@ Representa una  *coordenada y*  de una forma en coordenadas locales. En la tabla
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Coordenada  *y*  del último punto de control de una spline B racional no uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Coordenada  *y*  del segundo punto de control de una spline.  <br/> |
 |[SplineKnot](splineknot-row-geometry-section.md) <br/> | *Coordenada y* de un punto de control.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | *Coordenada y* de un punto de la línea infinita.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | *Coordenada y* de un punto en la línea infinita.  <br/> |
 |[Elipse](ellipse-row-geometry-section.md) <br/> | Coordenada  *y*  del centro de la elipse.  <br/> |
    
 ## <a name="remarks"></a>Comentarios

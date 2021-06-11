@@ -23,11 +23,11 @@ ms.locfileid: "34541921"
   
 En este tema se asigna cada nombre de propiedad canónica a la propiedad MAPI o a las propiedades que representa. El tema contiene tres tablas: una tabla para propiedades con nombre con identificadores numéricos, una segunda tabla para propiedades con nombre con identificadores de cadena y una tercera tabla para propiedades etiquetadas.
   
-Para obtener más información acerca de cómo se relacionan las propiedades canónicas con las propiedades MAPI, vea [Propiedades canónicas de MAPI](mapi-canonical-properties.md).
+Para obtener más información sobre cómo se relacionan las propiedades canónicas con las propiedades MAPI, vea [Mapi Canonical Properties](mapi-canonical-properties.md).
   
 ## <a name="named-properties-with-numerical-identifiers"></a>Propiedades con nombre con identificadores numéricos
 
-|**Nombre de propiedad canónica**|**Actual Named (propiedad)**|
+|**Nombre de la propiedad canónica**|**Real Named (propiedad)**|
 |:-----|:-----|
 |[PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md) <br/> |dispidABPArrayType  <br/> |
 |[PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md) <br/> |dispidABPEmailList  <br/> |
@@ -306,7 +306,7 @@ Para obtener más información acerca de cómo se relacionan las propiedades can
    
 ## <a name="named-properties-with-string-identifiers"></a>Propiedades con nombre con identificadores de cadena
 
-|**Nombre de propiedad canónica**|**Actual Named (propiedad)**|
+|**Nombre de la propiedad canónica**|**Real Named (propiedad)**|
 |:-----|:-----|
 |[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |Accept-Language  <br/> |
 |[PidNameApplicationName](pidnameapplicationname-canonical-property.md) <br/> |AppName  <br/> |
@@ -318,13 +318,13 @@ Para obtener más información acerca de cómo se relacionan las propiedades can
 |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |Categoría  <br/> |
 |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |CharCount  <br/> |
 |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |Comentarios  <br/> |
-|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Company  <br/> |
+|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Empresa  <br/> |
 |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |Content-Base  <br/> |
 |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |Content-Class  <br/> |
 |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |Codificación de la transferencia de contenido  <br/> |
 |[PidNameContentType](pidnamecontenttype-canonical-property.md) <br/> |Content-Type  <br/> |
 |[PidNameCreateDateTimeReadOnly](pidnamecreatedatetimereadonly-canonical-property.md) <br/> |CreateDtmRo  <br/> |
-|[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |Xref  <br/> |
+|[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |RefX  <br/> |
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |EditTime  <br/> |
 |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |HiddenCount  <br/> |
@@ -346,7 +346,7 @@ Para obtener más información acerca de cómo se relacionan las propiedades can
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |SlideCount  <br/> |
 |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Plantilla  <br/> |
-|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |El título  <br/> |
+|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Title  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |WordCount  <br/> |
 |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |X-Sharing-Capabilities  <br/> |
 |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |X-Sharing-Config-Url  <br/> |
@@ -362,7 +362,7 @@ Para obtener más información acerca de cómo se relacionan las propiedades can
    
 ## <a name="tagged-properties"></a>Propiedades etiquetadas
 
-|**Nombre de propiedad canónica**|**Propiedades etiquetadas reales**|
+|**Nombre de la propiedad canónica**|**Propiedades etiquetadas reales**|
 |:-----|:-----|
 |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |PR_7BIT_DISPLAY_NAME, PR_7BIT_DISPLAY_NAME_A, PR_7BIT_DISPLAY_NAME_W  <br/> |
 |[PidTagAbDefaultDir](pidtagabdefaultdir-canonical-property.md) <br/> |PR_AB_DEFAULT_DIR  <br/> |

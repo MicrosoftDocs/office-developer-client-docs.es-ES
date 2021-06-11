@@ -1,12 +1,12 @@
 ---
-title: Elemento RuleSets (Validation_Type complexType) (XML de Visio)
+title: Elemento RuleSets (Validation_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a0201e6-9a93-83ae-8a0a-47630ed291ce
-description: Incluye un elemento RuleSet para cada conjunto de reglas de validación del documento.
+description: Incluye un elemento RuleSet para cada regla de validación establecida en el documento.
 ms.openlocfilehash: 0aca3f52bd8b201d1afc2ab7d647757452ff8899
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541578"
 ---
-# <a name="rulesets-element-validation_type-complextype-visio-xml"></a>Elemento RuleSets (Validation_Type complexType) (XML de Visio)
+# <a name="rulesets-element-validation_type-complextype-visio-xml"></a>Elemento RuleSets (Validation_Type complexType) (Visio XML)
 
-Incluye un **elemento RuleSet** para cada conjunto de reglas de validación del documento. 
+Incluye un **elemento RuleSet** para cada regla de validación establecida en el documento. 
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Incluye un **elemento RuleSet** para cada conjunto de reglas de validación del 
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -48,7 +48,7 @@ Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**,
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Representa un conjunto de reglas de validación de diagrama.  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Representa un conjunto de reglas de validación de diagramas.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

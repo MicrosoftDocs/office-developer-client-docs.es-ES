@@ -40,21 +40,21 @@ typedef struct _SCurrencyArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
-> Número de valores de la matriz a los que apunta el **miembro lpcur.** 
+> Recuento de valores en la matriz apuntada por el **miembro lpcur.** 
     
  **lpcur**
   
-> Puntero a una matriz [de estructuras CURRENCY](currency.md) que contienen los valores de moneda. 
+> Puntero a una matriz de [estructuras CURRENCY](currency.md) que contienen los valores de moneda. 
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener información acerca PT_MV_CURRENCY, vea [Lista de tipos de propiedad](property-types.md). 
+Para obtener información sobre PT_MV_CURRENCY, [vea List of Property Types](property-types.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

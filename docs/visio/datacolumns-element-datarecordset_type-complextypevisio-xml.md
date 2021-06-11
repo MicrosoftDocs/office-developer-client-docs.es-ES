@@ -1,5 +1,5 @@
 ---
-title: Elemento DataColumns (DataRecordSet_Type complexType) (XML de Visio)
+title: Elemento DataColumns (DataRecordSet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541200"
 ---
-# <a name="datacolumns-element-datarecordset_type-complextype-visio-xml"></a>Elemento DataColumns (DataRecordSet_Type complexType) (XML de Visio)
+# <a name="datacolumns-element-datarecordset_type-complextype-visio-xml"></a>Elemento DataColumns (DataRecordSet_Type complexType) (Visio XML)
 
 Contiene todos los **elementos DataColumn** de un conjunto de registros de datos. 
   
@@ -36,7 +36,7 @@ Contiene todos los **elementos DataColumn** de un conjunto de registros de datos
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -55,6 +55,6 @@ Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**,
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |SortAsc  <br/> |xsd:boolean  <br/> |opcional  <br/> |Columna en la que se ordenarán los datos.  <br/> |Valores del tipo xsd:boolean.  <br/> |
-|SortColumn  <br/> |xsd:string  <br/> |opcional  <br/> |Si se ordena la **columna SortColumn** en orden ascendente (1) o descendente (0).  <br/> |Valores del tipo xsd:string.  <br/> |
+|SortColumn  <br/> |xsd:string  <br/> |opcional  <br/> |Ordenar la columna **SortColumn** en orden ascendente (1) o descendente (0).  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

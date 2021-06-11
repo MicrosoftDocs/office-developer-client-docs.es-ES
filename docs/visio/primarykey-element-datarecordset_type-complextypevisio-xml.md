@@ -1,5 +1,5 @@
 ---
-title: Elemento PrimaryKey (DataRecordSet_Type complexType) (XML de Visio)
+title: Elemento PrimaryKey (DataRecordSet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537713"
 ---
-# <a name="primarykey-element-datarecordset_type-complextype-visio-xml"></a>Elemento PrimaryKey (DataRecordSet_Type complexType) (XML de Visio)
+# <a name="primarykey-element-datarecordset_type-complextype-visio-xml"></a>Elemento PrimaryKey (DataRecordSet_Type complexType) (Visio XML)
 
 Identifica una o más columnas de clave principal en el conjunto de registros de datos.
   
@@ -36,7 +36,7 @@ Identifica una o más columnas de clave principal en el conjunto de registros de
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -54,6 +54,6 @@ Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**,
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnNameID  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica el nombre de un campo que es un componente de la clave principal. Debe ser el valor del atributo **ColumnNameID** de un elemento DataColumn_Type descendiente de la DataRecordSet_Type cuya clave principal se especifica.  <br/> |Valores del tipo xsd:string.  <br/> |
+|ColumnNameID  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica el nombre de un campo que es un componente de la clave principal. DEBE ser el valor del atributo **ColumnNameID** de un elemento DataColumn_Type descendiente de la DataRecordSet_Type cuya clave principal se especifica.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

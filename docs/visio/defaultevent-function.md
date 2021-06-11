@@ -31,7 +31,7 @@ La tabla siguiente muestra el evento predeterminado asociado con varios objetos.
 |**Objeto**|**Evento predeterminado**|
 |:-----|:-----|
 |Forma  <br/> |Modificar texto.  <br/> |
-|Group  <br/> |No hace nada.  <br/> |
+|Grupo  <br/> |No hace nada.  <br/> |
 |OLE  <br/> |Ejecutar verbo principal.  <br/> |
 |Otros  <br/> |No hace nada.  <br/> |
    

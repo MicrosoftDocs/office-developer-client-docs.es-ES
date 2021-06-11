@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251491
 localization_priority: Normal
 ms.assetid: a374fe7d-7302-5365-81ab-64f5474d9d5c
-description: Redondea un número a la precisión representada por numberofdigits .
+description: Redondear un número a la precisión representada por numberofdigits .
 ms.openlocfilehash: 6795cbc4d99e293da06c0ec369d2cefb84f9f5b5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33439971"
 ---
 # <a name="round-function-visioshapesheet"></a>Función ROUND (VisioShapeSheet)
 
-Redondea un número a la precisión representada por  *numberofdigits*  . 
+Redondear un número a la precisión representada por  *numberofdigits*  . 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -33,7 +33,7 @@ ROUND(** *number* **, ** *numberofdigits* ** )
    
 ## <a name="remarks"></a>Comentarios
 
-Si  _numberofdigits_ es mayor que 0,  _el_ número se redondea  _por numberofdigits_ a la derecha del decimal. Si  _numberofdigits es_ 0,  _el número_ se redondea a un entero. Si  _numberofdigits_ es menor que 0,  _el_ número se redondea  _por numberofdigits_ a la izquierda del decimal. 
+Si  _numberofdigits_ es mayor que 0,  _el_ número se redondea  _por numberofdigits_ a la derecha del decimal. Si  _numberofdigits_ es 0,  _el número_ se redondea a un número entero. Si  _numberofdigits_ es menor que 0,  _el_ número se redondea  _por numberofdigits_ a la izquierda del decimal. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

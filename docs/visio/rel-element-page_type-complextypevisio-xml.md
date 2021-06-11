@@ -1,5 +1,5 @@
 ---
-title: Elemento Rel (Page_Type complexType) (XML de Visio)
+title: Elemento Rel (Page_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542782"
 ---
-# <a name="rel-element-page_type-complextype-visio-xml"></a>Elemento Rel (Page_Type complexType) (XML de Visio)
+# <a name="rel-element-page_type-complextype-visio-xml"></a>Elemento Rel (Page_Type complexType) (Visio XML)
 
 Especifica una relación con un elemento con el XML de página correspondiente.
   
@@ -36,7 +36,7 @@ Especifica una relación con un elemento con el XML de página correspondiente.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,12 +52,12 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|r:id  <br/> |xsd:string  <br/> Consulte Comentarios.  <br/> |necesario  <br/> |Especifica una relación con una parte.  <br/> |"rId#"  <br/> Consulte Comentarios.  <br/> |
+|r:id  <br/> |xsd:string  <br/> Consulte Comentarios.  <br/> |necesario  <br/> |Especifica una relación con un elemento.  <br/> |"rId#"  <br/> Consulte Comentarios.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor del atributo **r:id** debe ser un **ST_RelationshipID** predeterminado. El **ST_RelationshipID** es una cadena que debe tener el formato 'rId#', donde el carácter final debe ser un número. El número debe ser único entre todos los elementos del mismo nivel del **elemento Rel.** 
+El valor del atributo **r:id** debe ser **ST_RelationshipID** tipo. El **ST_RelationshipID** es una cadena que debe tener el formato 'rId#', donde el carácter final debe ser un número. El número debe ser único entre todos los elementos del mismo nivel del **elemento Rel.** 
   
-Para obtener más información acerca del tipo ST_RelationshipID, vea la especificación [ISO/IEC 29500 Parte 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Para obtener más información acerca del tipo ST_RelationshipID, vea la especificación [ISO/IEC 29500 Part 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

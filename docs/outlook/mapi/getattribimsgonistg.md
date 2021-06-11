@@ -25,13 +25,13 @@ ms.locfileid: "33439999"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Recupera atributos de propiedades en un [objeto IMessage](imessageimapiprop.md) proporcionado por la [función OpenIMsgOnIStg](openimsgonistg.md) . 
+Recupera atributos de propiedades en un [objeto IMessage](imessageimapiprop.md) proporcionado por la [función OpenIMsgOnIStg.](openimsgonistg.md) 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Imessage.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Aplicaciones cliente y proveedores de almacenamiento de mensajes  <br/> |
+|Llamado por:  <br/> |Proveedores de aplicaciones cliente y almacén de mensajes  <br/> |
    
 ```cpp
 HRESULT GetAttribIMsgOnIStg(
@@ -41,15 +41,15 @@ HRESULT GetAttribIMsgOnIStg(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpObject_
   
-> [entrada] Puntero a un **objeto IMessage** obtenido de la [función OpenIMsgOnIStg.](openimsgonistg.md) 
+> [in] Puntero a un **objeto IMessage** obtenido de la [función OpenIMsgOnIStg.](openimsgonistg.md) 
     
  _lpPropTagArray_
   
-> [entrada] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad que indica las propiedades para las que se van a recuperar los atributos. 
+> [in] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad que indican las propiedades para las que se van a recuperar los atributos. 
     
  _lppPropAttrArray_
   
@@ -63,15 +63,15 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> La llamada se ha hecho correctamente en general, pero no se pudo tener acceso a una o más propiedades y se devolvieron con un tipo de propiedad de PT_ERROR.
+> La llamada se ha hecho correctamente en general, pero no se pudo obtener acceso a una o más propiedades y se devolvieron con un tipo de propiedad PT_ERROR.
     
 ## <a name="remarks"></a>Comentarios
 
-Sólo se puede tener acceso a los atributos de propiedad en objetos de propiedad, es decir, objetos que implementan la [interfaz IMAPIProp : IUnknown.](imapipropiunknown.md) Para que las propiedades MAPI estén disponibles en un objeto de almacenamiento estructurado OLE, [OpenIMsgOnIStg](openimsgonistg.md) genera un [objeto IMessage : IMAPIProp](imessageimapiprop.md) sobre el objeto OLE **IStorage.** Los atributos de propiedad de dichos objetos se pueden establecer o modificar [con SetAttribIMsgOnIStg](setattribimsgonistg.md) y recuperarse con **GetAttribIMsgOnIStg**. 
+Solo se puede tener acceso a los atributos de propiedad en objetos de propiedad, es decir, objetos que implementan la [interfaz IMAPIProp : IUnknown.](imapipropiunknown.md) Para que las propiedades MAPI estén disponibles en un objeto de almacenamiento estructurado OLE, [OpenIMsgOnIStg](openimsgonistg.md) compila un [objeto IMessage : IMAPIProp](imessageimapiprop.md) encima del objeto OLE **IStorage.** Los atributos de propiedad de estos objetos se pueden establecer o modificar con [SetAttribIMsgOnIStg](setattribimsgonistg.md) y recuperarse con **GetAttribIMsgOnIStg**. 
   
 > [!NOTE]
 > **GetAttribIMsgOnIStg** y **SetAttribIMsgOnIStg** no funcionan en todos los **objetos IMessage.** Solo son válidos para **objetos IMessage**-on- **IStorage** devueltos **por OpenIMsgOnIStg**. 
   
-El número y las posiciones de los atributos en el parámetro _lppPropAttrArray_ corresponden al número y las posiciones de las etiquetas de propiedad en el parámetro _lpPropTagArray._ 
+El número y las posiciones de los atributos del parámetro _lppPropAttrArray_ corresponden al número y las posiciones de las etiquetas de propiedad en el parámetro _lpPropTagArray._ 
   
 

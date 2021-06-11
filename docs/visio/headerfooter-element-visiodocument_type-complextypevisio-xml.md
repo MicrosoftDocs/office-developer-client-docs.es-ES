@@ -1,5 +1,5 @@
 ---
-title: Elemento HeaderFooter (VisioDocument_Type complexType) (XML de Visio)
+title: Elemento HeaderFooter (VisioDocument_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541109"
 ---
-# <a name="headerfooter-element-visiodocument_type-complextype-visio-xml"></a>Elemento HeaderFooter (VisioDocument_Type complexType) (XML de Visio)
+# <a name="headerfooter-element-visiodocument_type-complextype-visio-xml"></a>Elemento HeaderFooter (VisioDocument_Type complexType) (Visio XML)
 
 Contiene elementos para el encabezado y pie de página de un documento.
   
@@ -36,13 +36,13 @@ Contiene elementos para el encabezado y pie de página de un documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento de Microsoft Visio.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento Visio Microsoft.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -62,6 +62,6 @@ Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**,
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|HeaderFooterColor  <br/> |xsd:string  <br/> |opcional  <br/> |Valor RGB del color del texto para el encabezado y pie de página en notación hexadecimal; por ejemplo, #rrggbb.  <br/> |Valores del tipo xsd:string.  <br/> |
+|HeaderFooterColor  <br/> |xsd:string  <br/> |opcional  <br/> |El valor RGB del color del texto del encabezado y pie de página en notación hexadecimal; por ejemplo, #rrggbb.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

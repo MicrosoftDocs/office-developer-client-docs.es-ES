@@ -1,5 +1,5 @@
 ---
-title: Elemento Shapes (ShapeSheet_Type complexType) (XML de Visio)
+title: Elemento Shapes (ShapeSheet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542103"
 ---
-# <a name="shapes-element-shapesheet_type-complextype-visio-xml"></a>Elemento Shapes (ShapeSheet_Type complexType) (XML de Visio)
+# <a name="shapes-element-shapesheet_type-complextype-visio-xml"></a>Elemento Shapes (ShapeSheet_Type complexType) (Visio XML)
 
 Contiene una colección de elementos Shape.
   
@@ -36,7 +36,7 @@ Contiene una colección de elementos Shape.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -48,7 +48,7 @@ Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**,
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un **elemento Master**, **Page** o group shape.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un **elemento Master**, **Page** o forma de grupo.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

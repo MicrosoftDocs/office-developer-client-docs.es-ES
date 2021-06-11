@@ -1,5 +1,5 @@
 ---
-title: Elemento AuthorEntry (AuthorList_Type complexType) (XML de Visio)
+title: Elemento AuthorEntry (AuthorList_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537909"
 ---
-# <a name="authorentry-element-authorlist_type-complextype-visio-xml"></a>Elemento AuthorEntry (AuthorList_Type complexType) (XML de Visio)
+# <a name="authorentry-element-authorlist_type-complextype-visio-xml"></a>Elemento AuthorEntry (AuthorList_Type complexType) (Visio XML)
 
 Especifica las propiedades usadas para identificar al autor de un comentario en un dibujo.
   
@@ -36,7 +36,7 @@ Especifica las propiedades usadas para identificar al autor de un comentario en 
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,9 +52,9 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Un valor basado en uno que identifica al autor.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|Initials  <br/> |xsd:string  <br/> |opcional  <br/> |Iniciales del autor.  <br/> |Valores del tipo xsd:string.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Valor único que identifica al autor.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|Initials  <br/> |xsd:string  <br/> |opcional  <br/> |Las iniciales del autor.  <br/> |Valores del tipo xsd:string.  <br/> |
 |Nombre  <br/> |xsd:string  <br/> |opcional  <br/> |Nombre del autor.  <br/> |Valores del tipo xsd:string.  <br/> |
-|ResolutionID  <br/> |xsd:string  <br/> |opcional  <br/> |Identificador único del autor.  <br/> |Valores del tipo xsd:string.  <br/> |
+|ResolutionID  <br/> |xsd:string  <br/> |opcional  <br/> |Un identificador único para el autor.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

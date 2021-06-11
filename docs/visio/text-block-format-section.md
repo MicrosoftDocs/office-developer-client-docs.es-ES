@@ -22,6 +22,6 @@ Contiene celdas que controlan la alineación, los márgenes y las posiciones pre
   
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer estos atributos  de texto mediante  el cuadro de diálogo Texto (en la ficha Inicio, haga clic en el iniciador de cuadros de diálogo en el grupo **Fuente).** 
+También puede establecer estos atributos  de texto mediante  el cuadro de diálogo Texto (en la ficha Inicio, haga clic en el iniciador del cuadro de diálogo en el **grupo** Fuente). 
   
 

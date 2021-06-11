@@ -27,7 +27,7 @@ Antes de comenzar, asegúrese de que se cumplen los siguientes requisitos.
     
 - Consulte con el administrador de la granja de servidores para asegurarse de que el Servicio de código de espacio aislado de Microsoft SharePoint Foundation esté en uso en el servidor. Para más información, vea [Publicar formularios con código](publishing-forms-with-code.md).
     
-- El lenguaje de programación que seleccionó para la plantilla de formulario es **C#** o **Visual Basic** sin ningún nombre de versión anterior que lo siga. Las versiones compatibles con InfoPath 2007 y InfoPath 2003 de los lenguajes de programación y los modelos de objetos no se admiten para soluciones de espacio aislado. Para obtener más información acerca de cómo especificar el lenguaje de programación, vea [Desarrollar con Visual Studio](how-to-develop-with-visual-studio.md).
+- El lenguaje de programación que seleccionó para la plantilla de formulario es **C#** o **Visual Basic** sin ningún nombre de versión anterior que lo siga. Las versiones compatibles con InfoPath 2007 y InfoPath 2003 de los lenguajes de programación y los modelos de objetos no se admiten para soluciones de espacio aislado. Para obtener más información acerca de cómo especificar el lenguaje de programación, vea [Develop with Visual Studio](how-to-develop-with-visual-studio.md).
     
 Realice los siguientes pasos para crear una plantilla de formulario que ordene los datos en un control de **Tabla de repetición** en el formulario. 
   
@@ -133,7 +133,7 @@ Realice los siguientes pasos para crear una plantilla de formulario que ordene l
         Me.NamespaceManager).InnerXml = newTableXML
    ```
 
-5. Para publicar el formulario, siga estos pasos:
+5. Publique el formulario mediante los pasos siguientes:
     
     1. Haga clic en **SharePoint Server**, en la ficha **Publicar**, en Backstage. 
         
@@ -150,7 +150,7 @@ Realice los siguientes pasos para crear una plantilla de formulario que ordene l
         
     6. Haga clic en **Publicar**.
     
-## <a name="example-2-managing-vendors-in-a-sharepoint-list"></a>Ejemplo 2: Administración de proveedores en una lista de SharePoint
+## <a name="example-2-managing-vendors-in-a-sharepoint-list"></a>Ejemplo 2: Administración de proveedores en una SharePoint lista
 
 Este ejemplo implica la programación con el modelo de objetos de Microsoft SharePoint Foundation 2010. Para esto, debe establecer una referencia al ensamblado de Microsoft.SharePoint.dll, que está instalado con una copia con licencia de SharePoint Server 2010.
   
@@ -166,7 +166,7 @@ Del código de un formulario de InfoPath, puede usar el modelo de objetos de Sha
     
 2. Cree un nuevo **Formulario en blanco** en InfoPath Designer, inserte un control de **Cuadro combinado** en el formulario y cambie el nombre del campo enlazado al cuadro combinado en myCombo.
     
-3. Cree la conexión de datos a la lista que se usará para rellenar el cuadro combinado mediante los siguientes pasos:
+3. Cree la conexión de datos a la lista que se usará para rellenar el cuadro combinado mediante los pasos siguientes:
     
     1. En la ficha **Datos**, haga clic en el botón **Desde la lista de SharePoint** en el grupo **Obtener datos externos**. 
         
@@ -180,7 +180,7 @@ Del código de un formulario de InfoPath, puede usar el modelo de objetos de Sha
         
     6. Denomine la conexión de datos LookupList y haga clic en **Finalizar**.
     
-4. Rellene los valores del cuadro combinado de la lista mediante los siguientes pasos:
+4. Rellene los valores del cuadro combinado de la lista mediante los pasos siguientes:
     
     1. Seleccione el cuadro combinado que creó en el paso 1.
         
@@ -198,7 +198,7 @@ Del código de un formulario de InfoPath, puede usar el modelo de objetos de Sha
     
     Si el formulario aún no se ha guardado, se le pedirá que lo haga. A continuación, se abrirá la ventana del editor de código con el cursor en el controlador de eventos  `myCombo_Changed`. 
     
-6. Agregue una referencia al ensamblado Microsoft.SharePoint.dll como se describió anteriormente en este tema. Para obtener más información acerca de cómo hacer referencia al ensamblado Microsoft.SharePoint, vea Usar miembros del modelo [de objetos de SharePoint](how-to-use-sharepoint-object-model-members.md).
+6. Agregue una referencia al ensamblado Microsoft.SharePoint.dll como se describió anteriormente en este tema. Para obtener más información acerca de la referencia a Microsoft. SharePoint ensamblado, vea [Usar SharePoint miembros del modelo de objetos](how-to-use-sharepoint-object-model-members.md).
     
 7. Pegue el código siguiente en el controlador de eventos  `myCombo_Changed`. 
     
@@ -277,7 +277,7 @@ Del código de un formulario de InfoPath, puede usar el modelo de objetos de Sha
     End Function
    ```
 
-9. Para publicar el formulario, siga estos pasos:
+9. Publique el formulario mediante los pasos siguientes:
     
     1. Haga clic en **SharePoint Server**, en la ficha **Publicar**, en Backstage. 
         

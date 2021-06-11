@@ -25,7 +25,7 @@ ms.locfileid: "33439425"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la naturaleza de la entidad funcional por medio de la cual se entregó un mensaje al destinatario. 
+Especifica la naturaleza de la entidad funcional mediante la cual se entregó un mensaje al destinatario. 
   
 |||
 |:-----|:-----|
@@ -44,7 +44,7 @@ MAPI_MH_DP_ML
     
 MAPI_MH_DP_MS 
   
-> Se entrega a un almacén de mensajes en lugar de directamente a un destinatario.
+> Entregado a un almacén de mensajes en lugar de directamente a un destinatario.
     
 MAPI_MH_DP_OTHER_AU 
   
@@ -56,7 +56,7 @@ MAPI_MH_DP_PDAU
     
 MAPI_MH_DP_PDS_PATRON 
   
-> Se entrega a un sistema de entrega físico, como un buzón postal convencional.
+> Entregado a un usuario del sistema de entrega físico, como un buzón postal convencional.
     
 MAPI_MH_DP_PRIVATE_UA 
   
@@ -64,7 +64,7 @@ MAPI_MH_DP_PRIVATE_UA
     
 MAPI_MH_DP_PUBLIC_UA 
   
-> Se entrega a un agente de usuario público o a un proveedor de servicios públicos.
+> Entregado a un agente de usuario público o a un proveedor de servicios públicos.
     
 El valor predeterminado es MAPI_MH_DP_PRIVATE_UA, es decir, un cliente MAPI. 
   
@@ -80,13 +80,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

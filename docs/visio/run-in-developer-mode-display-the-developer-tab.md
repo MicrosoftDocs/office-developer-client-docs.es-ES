@@ -17,9 +17,9 @@ ms.locfileid: "33438795"
 ---
 # <a name="run-in-developer-mode-display-the-developer-tab"></a>Ejecutar en modo para programadores (mostrar la ficha Programador)
 
-- Haga clic en **la pestaña** Archivo y, a continuación, haga clic **en Opciones.**
+- Haga clic en **la pestaña** Archivo y, a continuación, en **Opciones.**
     
-- En el cuadro de diálogo Opciones de **Visio,** **haga** clic en Avanzadas y, a continuación, en **General,** **seleccione Ejecutar en modo de desarrollador.**
+- En el **cuadro de Visio opciones,** haga clic en **Avanzadas** y, a continuación, en **General**, seleccione Ejecutar en modo **de desarrollador**.
     
 Seleccione entonces un objeto y haga clic en el botón **Mostrar ShapeSheet** para acelerar el acceso a la ventana ShapeSheet. 
   

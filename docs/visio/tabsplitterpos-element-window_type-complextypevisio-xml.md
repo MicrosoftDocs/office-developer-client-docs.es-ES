@@ -1,5 +1,5 @@
 ---
-title: Elemento TabSplitterPos (Window_Type complexType) (VISIO XML)
+title: Elemento TabSplitterPos (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538854"
 ---
-# <a name="tabsplitterpos-element-window_type-complextype-visio-xml"></a>Elemento TabSplitterPos (Window_Type complexType) (XML de Visio)
+# <a name="tabsplitterpos-element-window_type-complextype-visio-xml"></a>Elemento TabSplitterPos (Window_Type complexType) (Visio XML)
 
 Especifica el ancho del control de pestaña de página de una ventana de dibujo (como una fracción del ancho total de la ventana de dibujo).
   
@@ -35,13 +35,13 @@ Especifica el ancho del control de pestaña de página de una ventana de dibujo 
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Ventana abierta en una instancia de Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Una ventana abierta en una Visio instancia.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

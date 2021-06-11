@@ -1,12 +1,12 @@
 ---
-title: Elemento GlueSettings (DocumentSettings_Type complexType) (XML de Visio)
+title: Elemento GlueSettings (DocumentSettings_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a5675dea-3b78-9fc2-c1c0-51fefe45c6e3
-description: Especifica los objetos a los que se pegan las formas cuando se habilita el pegado en el documento.
+description: Especifica los objetos a los que se pegan las formas cuando el pegado está habilitado en el documento.
 ms.openlocfilehash: 6a876275fd604eab4b65a28386c052dcc5cac1cf
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542222"
 ---
-# <a name="gluesettings-element-documentsettings_type-complextype-visio-xml"></a>Elemento GlueSettings (DocumentSettings_Type complexType) (XML de Visio)
+# <a name="gluesettings-element-documentsettings_type-complextype-visio-xml"></a>Elemento GlueSettings (DocumentSettings_Type complexType) (Visio XML)
 
-Especifica los objetos a los que se pegan las formas cuando se habilita el pegado en el documento.
+Especifica los objetos a los que se pegan las formas cuando el pegado está habilitado en el documento.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Especifica los objetos a los que se pegan las formas cuando se habilita el pegad
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

@@ -25,7 +25,7 @@ ms.locfileid: "33438956"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece un almacén local para emular el Administrador de protocolo de Outlook para colar mensajes salientes en un servidor.
+Establece un almacén local para emular el administrador Outlook de protocolo para colar mensajes salientes en un servidor.
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -35,20 +35,20 @@ HRESULT EmulateSpooler(
 
  _fEmulate_
   
->  [entrada] Establezca este parámetro en True si el almacén local debe emular la cola; se establece en False si no es así. 
+>  [in] Establezca este parámetro en True si el almacén local debe emular la cola; estadóla en False si no es así. 
     
 ## <a name="remarks"></a>Comentarios
 
-Un almacén local llama a **IPSTX::EmulateSpooler** para que actúe como administrador de protocolo de Outlook, y pone en cola los mensajes de la cola saliente en el servidor back-end (por ejemplo, servidor MSN o servidor AOL) para su procesamiento. Emulando una cola durante la sincronización, el almacén llama a estos dos métodos: 
+Un almacén local llama a **IPSTX::EmulateSpooler** para actuar como administrador de protocolos de Outlook, en cola de mensajes en la cola saliente al servidor back-end (por ejemplo, servidor MSN o servidor AOL) para su procesamiento. Emulando una cola durante la sincronización, el almacén llama a estos dos métodos: 
   
-1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** para obtener la cola saliente de mensajes en el almacén. Este método solo se realiza correctamente si el almacén emula el Administrador de protocolo de Outlook. 
+1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** para obtener la cola saliente de mensajes en el almacén. Este método solo se realiza correctamente si el almacén emula el administrador Outlook protocolo. 
     
-2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** para proteger el acceso único a un mensaje en la cola saliente justo antes de enviarlo al servidor. Este método solo se realiza correctamente si el almacén emula el Administrador de protocolo de Outlook. Después de enviar el mensaje, el almacén llama de nuevo a este método para liberar el acceso único a él. 
+2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** para proteger el acceso único a un mensaje en la cola saliente justo antes de enviarlo al servidor. Este método solo se realiza correctamente si el almacén emula el administrador Outlook protocolo. Después de enviar el mensaje, el almacén vuelve a llamar a este método para liberar el acceso único a él. 
     
 > [!NOTE]
-> Desde Outlook 2002, el Administrador de protocolo de Outlook reemplazó la cola MAPI y se hizo responsable de poner en cola los mensajes salientes en servidores back-end. 
+> Desde Outlook 2002, el Administrador de protocolos de Outlook reemplazó la cola MAPI y se hizo responsable de la cola de mensajes salientes en servidores back-end. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

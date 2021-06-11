@@ -41,11 +41,11 @@ SCODE ScBinFromHexBounded(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _sz_
   
-> [entrada] Puntero a la cadena terminada en null que se va a convertir. Los caracteres válidos incluyen los caracteres hexadecimales del 0 al 9 y los caracteres en mayúsculas y minúsculas a a f.
+> [in] Puntero a la cadena terminada en null que se va a convertir. Los caracteres válidos incluyen los caracteres hexadecimales del 0 al 9 y los caracteres en mayúsculas y minúsculas de a f.
     
  _pb_
   
@@ -53,7 +53,7 @@ SCODE ScBinFromHexBounded(
     
  _cb_
   
-> [entrada] Tamaño, en bytes, del _parámetro pb._ 
+> [in] Tamaño, en bytes, del _parámetro pb._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -65,7 +65,7 @@ MAPI_E_CALL_FAILED
   
 > Se encontraron caracteres no válidos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "33438886"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción **AND,** que se usa para unirse a un grupo de restricciones mediante una operación **lógica AND.** 
+Describe una restricción **AND,** que se usa para unirse a un grupo de restricciones mediante una operación **AND** lógica. 
   
 |||
 |:-----|:-----|
@@ -40,23 +40,23 @@ typedef struct _SAndRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cRes**
   
-> Recuento de restricciones de búsqueda en la matriz a la que apunta el **miembro lpRes.** 
+> Recuento de restricciones de búsqueda en la matriz señalada por el **miembro lpRes.** 
     
  **lpRes**
   
-> Puntero a una matriz [de estructuras SRestriction](srestriction.md) que se combinarán con una operación **lógica AND.** 
+> Puntero a una matriz de [estructuras SRestriction](srestriction.md) que se combinarán con una operación **AND** lógica. 
     
 ## <a name="remarks"></a>Comentarios
 
-El resultado de **SAndRestriction** es TRUE si todas sus restricciones secundarias se evalúan en TRUE. Es FALSE si cualquier restricción secundaria se evalúa como FALSE. 
+El resultado de **SAndRestriction** es TRUE si todas sus restricciones secundarias se evalúan como TRUE. Es FALSE si cualquier restricción secundaria se evalúa como FALSE. 
   
-Para obtener una descripción de los tipos de restricciones, cómo crearlas y código de ejemplo, vea [Acerca de las restricciones](about-restrictions.md).
+Para obtener una descripción de los tipos de restricciones, cómo compilarlas y código de ejemplo, vea [Acerca de las restricciones](about-restrictions.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

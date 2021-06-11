@@ -26,7 +26,7 @@ La geometría de una forma se puede expresar en varias secciones **de** geometr�
 
 La **sección Geometría** contiene los siguientes tipos de fila. Para obtener más detalles, vea los temas acerca de las filas. 
   
-|Fila|Description|
+|Fila|Descripción|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> |Va a una coordenada.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> |Dibuja una línea en una coordenada.  <br/> |
@@ -38,12 +38,12 @@ La **sección Geometría** contiene los siguientes tipos de fila. Para obtener m
 |[SplineKnot](splineknot-row-geometry-section.md) <br/> |Dibuja un segmento de spline en la coordenada de un nodo.  <br/> |
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> |Dibuja una línea infinita de una coordenada a otra.  <br/> |
 |[Elipse](ellipse-row-geometry-section.md) <br/> |Dibuja una elipse a partir de una coordenada central y unos ejes mayor y menor.  <br/> |
-|[RelMtBezTo](relcubbezto-row-geometry-section.md) <br/> |Dibuja una curva Bézier cúbica con relación al ancho y alto de la forma.  <br/> |
+|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |Dibuja una curva bézier cúbica con relación al ancho y alto de la forma.  <br/> |
 |[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |Dibuja un arco elíptico en una coordenada con relación al alto y ancho de la forma.  <br/> |
-|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Dibujar una línea a una coordenada relativa al alto y ancho de una forma.  <br/> |
+|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Dibuje una línea a una coordenada relativa al alto y ancho de una forma.  <br/> |
 |[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Desplazarse a una coordenada relativa al ancho y alto de la forma.  <br/> |
-|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Dibuja una curva Bézier cuadrática con relación al ancho y alto de la forma.  <br/> |
+|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Dibuja una curva bézier cuadrática con relación al ancho y alto de la forma.  <br/> |
    
-Para cambiar un tipo de fila en esta sección, haga clic con el botón secundario en la fila y, a continuación, haga clic en Cambiar tipo de fila **en** el menú contextual. 
+Para cambiar un tipo de fila en esta sección, haga clic con el botón secundario en la fila y, a continuación, haga clic en **Cambiar tipo** de fila en el menú contextual. 
   
 

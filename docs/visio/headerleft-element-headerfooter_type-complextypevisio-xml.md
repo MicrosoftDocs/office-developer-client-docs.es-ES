@@ -1,5 +1,5 @@
 ---
-title: Elemento HeaderLeft (HeaderFooter_Type complexType) (XML de Visio)
+title: Elemento HeaderLeft (HeaderFooter_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541046"
 ---
-# <a name="headerleft-element-headerfooter_type-complextype-visio-xml"></a>Elemento HeaderLeft (HeaderFooter_Type complexType) (XML de Visio)
+# <a name="headerleft-element-headerfooter_type-complextype-visio-xml"></a>Elemento HeaderLeft (HeaderFooter_Type complexType) (Visio XML)
 
 Contiene la cadena de texto que aparece en la parte izquierda del encabezado de un documento.
   
@@ -36,7 +36,7 @@ Contiene la cadena de texto que aparece en la parte izquierda del encabezado de 
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

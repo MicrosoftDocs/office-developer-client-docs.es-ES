@@ -1,5 +1,5 @@
 ---
-title: Elemento RuleInfo (Issue_Type complexType) (XML de Visio)
+title: Elemento RuleInfo (Issue_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541690"
 ---
-# <a name="ruleinfo-element-issue_type-complextype-visio-xml"></a>Elemento RuleInfo (Issue_Type complexType) (XML de Visio)
+# <a name="ruleinfo-element-issue_type-complextype-visio-xml"></a>Elemento RuleInfo (Issue_Type complexType) (Visio XML)
 
 Especifica información sobre la regla de validación a la que pertenece el problema de validación principal.
   
@@ -36,7 +36,7 @@ Especifica información sobre la regla de validación a la que pertenece el prob
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -53,6 +53,6 @@ Ninguno.
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |RuleID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Especifica el identificador único de la regla de validación a la que pertenece el problema primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|RuleSetID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Especifica el identificador único del conjunto de reglas de validación al que pertenece el problema principal.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|RuleSetID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Especifica el identificador único del conjunto de reglas de validación al que pertenece el problema primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

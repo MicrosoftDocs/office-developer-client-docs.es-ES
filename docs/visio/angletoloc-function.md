@@ -19,6 +19,8 @@ ms.locfileid: "45160268"
 # <a name="angletoloc-function"></a>Función ANGLETOLOC
 
 Devuelve un ángulo transformado en el sistema de coordenadas local de la forma de destino. Convierte las coordenadas locales de un ángulo en una forma de origen a las coordenadas locales en una forma de destino. 
+    
+ 
   
 ## <a name="syntax"></a>Sintaxis
 

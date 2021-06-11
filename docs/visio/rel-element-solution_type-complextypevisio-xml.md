@@ -1,12 +1,12 @@
 ---
-title: Elemento Rel (Solution_Type complexType) (XML de Visio)
+title: Elemento Rel (Solution_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8438fe4b-f5f7-d4e4-58b7-7ebdc1da197a
-description: Especifica una relación con un elemento con el XML de la solución asociado a esta solución.
+description: Especifica una relación con un elemento con el XML de solución asociado a esta solución.
 ms.openlocfilehash: 1fe48579da28501b74fedd507f3e44d59736ae87
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542768"
 ---
-# <a name="rel-element-solution_type-complextype-visio-xml"></a>Elemento Rel (Solution_Type complexType) (XML de Visio)
+# <a name="rel-element-solution_type-complextype-visio-xml"></a>Elemento Rel (Solution_Type complexType) (Visio XML)
 
-Especifica una relación con un elemento con el XML de la solución asociado a esta solución.
+Especifica una relación con un elemento con el XML de solución asociado a esta solución.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Especifica una relación con un elemento con el XML de la solución asociado a e
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -56,8 +56,8 @@ Ninguno.
    
 ## <a name="remarks"></a>Comentarios
 
-El valor del atributo **r:id** debe ser un **ST_RelationshipID** predeterminado. El **ST_RelationshipID** es una cadena que debe tener el formato 'rId#', donde el carácter final debe ser un número. El número debe ser único entre todos los elementos del mismo nivel del **elemento Rel.** 
+El valor del atributo **r:id** debe ser **ST_RelationshipID** tipo. El **ST_RelationshipID** es una cadena que debe tener el formato 'rId#', donde el carácter final debe ser un número. El número debe ser único entre todos los elementos del mismo nivel del **elemento Rel.** 
   
-Para obtener más información acerca del tipo ST_RelationshipID, vea la especificación [ISO/IEC 29500 Parte 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Para obtener más información acerca del tipo ST_RelationshipID, vea la especificación [ISO/IEC 29500 Part 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

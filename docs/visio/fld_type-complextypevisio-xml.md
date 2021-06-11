@@ -1,5 +1,5 @@
 ---
-title: fld_Type complexType (VISIO XML)
+title: fld_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539603"
 ---
-# <a name="fld_type-complextype-visio-xml"></a>fld_Type complexType (VISIO XML)
+# <a name="fld_type-complextype-visio-xml"></a>fld_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Información de tipos
 
@@ -42,7 +42,7 @@ ms.locfileid: "34539603"
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 

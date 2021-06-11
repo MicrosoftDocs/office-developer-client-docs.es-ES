@@ -30,7 +30,7 @@ HRESULT IOlkEnum::Reset ();
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IOlkEnum::GetCount](iolkenum-getcount.md)
 - [IOlkEnum::GetNext](iolkenum-getnext.md)

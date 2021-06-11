@@ -20,12 +20,12 @@ ms.locfileid: "34542502"
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda D según la fila en la que se encuentre.
   
-|Fila|Description|
+|Fila|Descripción|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Relación entre el eje mayor y el eje menor de un arco. A pesar del significado normal de estas palabras, el eje "mayor" no tiene por qué ser más grande que el eje "menor", por lo que esta relación no tiene que ser mayor que 1. Si establece en esta celda un valor menor o igual que 0, o mayor que 1000, pueden producirse resultados inesperados.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Primer grosor de la spline B racional no uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Grado de la spline (un número entero entre 1 y 25).  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | *Coordenada y* de un punto de una elipse; emparejado con la coordenada *x* representada por la [celda C.](c-cell-geometry-section.md)  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | Una coordenada *y* de un punto en una elipse; emparejado con la coordenada *x* representada por la [celda C.](c-cell-geometry-section.md)  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -35,7 +35,7 @@ Para obtener una referencia a la celda D por su nombre desde otra fórmula, o de
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | Geometría  *i*  . D  *j*            donde  *i*  y  *j*  = <1>, 2, 3...  <br/> |
-|| Geometría  *i*  . D1 (fila Ellipse) donde  *i*  = <1>, 2, 3...  <br/> |
+|| Geometría  *i*  . D1 (fila Elipse) donde  *i*  = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda D por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

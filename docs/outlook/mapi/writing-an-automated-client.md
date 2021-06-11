@@ -23,16 +23,16 @@ ms.locfileid: "33439768"
   
 Una aplicación cliente automatizada es una aplicación que se ejecuta desatendida y no muestra ninguna interfaz de usuario.
   
- De forma predeterminada, muchos métodos de interfaz MAPI muestran una interfaz de usuario. Todos estos métodos tienen marcas que permiten a un cliente permitir o suprimir esta presentación. Aunque MAPI espera que los proveedores de servicios cumplan estas marcas, hay algunos proveedores que no siempre cumplen estas expectativas. Un motivo legítimo para no respetar las marcas es la dependencia del proveedor de servicios en otro servicio que no permite la supresión de la interfaz de usuario. Si está desarrollando un cliente automatizado, preste especial atención a los proveedores de servicios que está usando y cómo se configuran. No suponga que todas las llamadas para suprimir una interfaz de usuario serán correctas. 
+ De forma predeterminada, muchos métodos de interfaz MAPI muestran una interfaz de usuario. Todos estos métodos tienen marcas que permiten a un cliente permitir o suprimir esta presentación. Aunque MAPI espera que los proveedores de servicios cumplan estas marcas, hay algunos proveedores que no siempre cumplen estas expectativas. Una razón legítima para no respetar las marcas es la dependencia del proveedor de servicios en otro servicio que no permite la supresión de la interfaz de usuario. Si está desarrollando un cliente automatizado, preste atención cuidadosa a los proveedores de servicios que está usando y cómo se configuran. No suponga que todas las llamadas para suprimir una interfaz de usuario se realizarán correctamente. 
   
-Los clientes automatizados deben tener la información necesaria disponible para una configuración adecuada de cada uno de los servicios de mensajes del perfil. Hay dos maneras de proporcionar información de configuración durante el inicio de sesión:
+Los clientes automatizados deben tener disponible la información necesaria para una configuración adecuada de cada uno de los servicios de mensajes del perfil. Hay dos formas de proporcionar información de configuración en el momento del inicio de sesión:
   
 - El proveedor de servicios puede recuperar información del perfil.
     
 - El proveedor de servicios puede solicitar información al usuario. 
     
-Dado que la segunda opción no está disponible para los clientes automatizados, estos clientes deben usar la primera opción. Los clientes deben configurar sus perfiles cuidadosamente para garantizar que esta opción siempre funciona.
+Dado que la segunda opción no está disponible para clientes automatizados, estos clientes deben usar la primera opción. Los clientes deben configurar sus perfiles cuidadosamente para asegurarse de que esta opción siempre funciona.
   
-Los clientes automatizados siempre establecen la MAPI_NO_MAIL en la llamada a la función [MAPILogonEx](mapilogonex.md) para iniciar una sesión MAPI. 
+Los clientes automatizados siempre establecen la MAPI_NO_MAIL en la llamada de función [MAPILogonEx](mapilogonex.md) para iniciar una sesión MAPI. 
   
 

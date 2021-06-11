@@ -1,5 +1,5 @@
 ---
-title: elemento fld (Text_Type complexType) (XML de Visio)
+title: elemento fld (Text_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539617"
 ---
-# <a name="fld-element-text_type-complextype-visio-xml"></a>elemento fld (Text_Type complexType) (XML de Visio)
+# <a name="fld-element-text_type-complextype-visio-xml"></a>elemento fld (Text_Type complexType) (Visio XML)
 
 Indica un punto de inserción de campo de texto para el elemento **Field** correspondiente. 
   
@@ -36,7 +36,7 @@ Indica un punto de inserción de campo de texto para el elemento **Field** corre
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,6 +52,6 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Índice de base cero del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Índice basado en cero del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251416
 localization_priority: Normal
 ms.assetid: 154d76a2-81f5-d8b1-b665-26dbae5da615
-description: Devuelve un entero, de 1 a 366, que representa el día secuencial del año en fecha y hora o expresión. La función DAYOFYEAR usa el calendario gregoriano.
+description: Devuelve un número entero, de 1 a 366, que representa el día secuencial del año en datetime o expresión. La función DAYOFYEAR usa el calendario gregoriano.
 ms.openlocfilehash: 30c0331a57282baee97e81689b6a8f362581b8f1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33439454"
 ---
 # <a name="dayofyear-function"></a>Función DAYOFYEAR
 
-Devuelve un entero, de 1 a 366, que representa el día secuencial del año en  _fecha y hora_ o  _expresión_. La función DAYOFYEAR usa el calendario gregoriano.
+Devuelve un entero, de 1 a 366, que representa el día secuencial del año en  _datetime_ o  _expresión_. La función DAYOFYEAR usa el calendario gregoriano.
   
 ## <a name="syntax"></a>Sintaxis
 
-DAYOFYEAR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+DAYOFYEAR(" ** *datetime* ** "| ** *expresión* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -38,11 +38,11 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Se descarta cualquier componente de _hora en fecha y_ hora o expresión.  
+Cualquier componente de hora  _en datetime_ o  _expresión_ se descarta. 
   
-El resultado corresponde a la fecha entre el 1 de enero y el 31 de diciembre. No se realiza ningún redondeo. Si  _falta fecha_ y hora o no se puede interpretar como una fecha u hora válidas, la función devuelve un error. 
+El resultado corresponde a la fecha entre el 1 de enero y el 31 de diciembre. No se realiza ningún redondeo. Si  _falta datetime_ o no se puede interpretar como una fecha u hora válidas, la función devuelve un error. 
   
-La función DAYOFYEAR también acepta un  valor numérico único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
+La función DAYOFYEAR también acepta un  valor de número único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

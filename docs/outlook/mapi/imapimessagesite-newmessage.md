@@ -38,19 +38,19 @@ HRESULT NewMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _fComposeInFolder_
   
-> [entrada] Indica en qué carpeta debe componerse el mensaje. Si la variable es FALSE, se omite el  _parámetro pFolderFocus_ y el visor de formularios puede redactar el mensaje en cualquier carpeta. Si la variable es TRUE y null se pasa en el  _parámetro pFolderFocus,_ el mensaje se compone en la carpeta actual. Si la variable es TRUE y se pasa un valor que no es NULL en  _pFolderFocus_, el mensaje se compone en la carpeta a la que apunta  _pFolderFocus_.
+> [in] Indica en qué carpeta se debe componer el mensaje. Si la variable es FALSE, se omite el  _parámetro pFolderFocus_ y el visor de formularios puede redactar el mensaje en cualquier carpeta. Si la variable es TRUE y NULL se pasa en el  _parámetro pFolderFocus,_ el mensaje se compone en la carpeta actual. Si la variable es TRUE y se pasa un valor que no es NULL en  _pFolderFocus_, el mensaje se compone en la carpeta señalada por  _pFolderFocus_.
     
  _pFolderFocus_
   
-> [entrada] Puntero a la carpeta donde se crea el nuevo mensaje.
+> [in] Puntero a la carpeta donde se crea el nuevo mensaje.
     
  _pPersistMessage_
   
-> [entrada] Puntero al objeto de formulario para el nuevo formulario.
+> [in] Puntero al objeto de formulario del nuevo formulario.
     
  _ppMessage_
   
@@ -72,11 +72,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman **al método IMAPIMessageSite::NewMessage** para crear un mensaje nuevo. El formulario usa **NewMessage** para obtener un nuevo mensaje y el sitio de mensaje asociado desde su vista. A continuación, puede modificar el nuevo mensaje. 
+Los objetos Form llaman **al método IMAPIMessageSite::NewMessage** para crear un nuevo mensaje. El formulario usa **NewMessage** para obtener un nuevo mensaje y el sitio de mensaje asociado desde su vista. A continuación, puede modificar el nuevo mensaje. 
   
-También puedes obtener un contexto de vista asociado pasando un valor que no sea NULL en el _parámetro ppViewContext._ Este contexto de vista se puede usar directamente o se puede agregar y pasar al nuevo mensaje. Si se requiere una implementación completa, pase NULL en  _ppViewContext_.
+También puede obtener un contexto de vista asociado pasando un valor que no sea NULL en el _parámetro ppViewContext._ Este contexto de vista se puede usar directamente o puede agregarse y pasarse al nuevo mensaje. Si se requiere una implementación completa, pase NULL en  _ppViewContext_.
   
-Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -86,7 +86,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::NewMessage  <br/> |MFCMAPI usa el método **IMAPIMessageSite::NewMessage** para crear un nuevo mensaje, crear una instancia de un nuevo visor de formularios y llamar a **SetPersist** para establecer el mensaje en el visor de formularios. Por último, devuelve el visor de formularios como el sitio del mensaje.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

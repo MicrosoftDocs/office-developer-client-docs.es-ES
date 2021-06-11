@@ -1,5 +1,5 @@
 ---
-title: Elemento De Windows (XML de Visio)
+title: Windows elemento (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538448"
 ---
-# <a name="windows-element-visio-xml"></a>Elemento De Windows (XML de Visio)
+# <a name="windows-element-visio-xml"></a>Windows elemento (Visio XML)
 
 Contiene los **elementos Window** de un documento. 
   
@@ -36,7 +36,7 @@ Contiene los **elementos Window** de un documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,7 +52,7 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|ClientHeight  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Representa la dimensión de alto de un área de presentación  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
-|ClientWidth  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Representa la dimensión de ancho de un área de presentación  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
+|ClientHeight  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Representa la dimensión de alto de un área de visualización  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
+|ClientWidth  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Representa la dimensión de ancho de un área de visualización  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
    
 

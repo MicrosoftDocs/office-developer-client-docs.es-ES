@@ -19,7 +19,7 @@ ms.locfileid: "33438879"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La API de seguridad de datos adjuntos permite a las soluciones de Outlook detectar si Outlook considera que los datos adjuntos no son seguros y están bloqueados para su visualización e indización. Proporciona las siguientes definiciones e interfaz.
+La API de seguridad de datos adjuntos Outlook soluciones para detectar si un archivo adjunto se considera no seguro por Outlook y está bloqueado para su visualización e indización. Proporciona las siguientes definiciones e interfaz.
   
 Definiciones
   

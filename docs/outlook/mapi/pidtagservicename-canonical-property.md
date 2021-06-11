@@ -36,7 +36,7 @@ Contiene el nombre de un servicio de mensajes establecido por el usuario en el a
    
 ## <a name="remarks"></a>Comentarios
 
-El nombre incluido en estas propiedades es específico del servicio de mensajes. Procede de la sección [Servicios] de MapiSvc.inf.
+El nombre contenido en estas propiedades es específico del servicio de mensajes. Proviene de la sección [Servicios] de MapiSvc.inf.
   
 Estas propiedades aparecen como una columna en la tabla de servicio de mensajes y se pueden usar para filtrar servicios. Dado que se usa para identificar y filtrar servicios, el valor no debe localizarse.
   
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

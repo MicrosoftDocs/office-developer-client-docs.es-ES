@@ -1,12 +1,12 @@
 ---
-title: Elemento StencilGroupPos (Window_Type complexType) (VISIO XML)
+title: Elemento StencilGroupPos (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7440a59b-1c7c-6477-32e7-35188fbd2b39
-description: Contiene un entero que especifica la posición relativa de una galería de símbolos dentro de un grupo en una ventana.
+description: Contiene un entero que especifica la posición relativa de una galería de símbolos dentro de un grupo de una ventana.
 ms.openlocfilehash: a539cd4435477f43a2e9c16b6a9b77e6e1e9d7f5
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538882"
 ---
-# <a name="stencilgrouppos-element-window_type-complextype-visio-xml"></a>Elemento StencilGroupPos (Window_Type complexType) (VISIO XML)
+# <a name="stencilgrouppos-element-window_type-complextype-visio-xml"></a>Elemento StencilGroupPos (Window_Type complexType) (Visio XML)
 
-Contiene un entero que especifica la posición relativa de una galería de símbolos dentro de un grupo en una ventana.
+Contiene un entero que especifica la posición relativa de una galería de símbolos dentro de un grupo de una ventana.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Contiene un entero que especifica la posición relativa de una galería de símb
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

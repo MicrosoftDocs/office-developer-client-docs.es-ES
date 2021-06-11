@@ -21,12 +21,12 @@ ms.locfileid: "33439817"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El perfil predeterminado es el perfil que se usa si no se especifica explícitamente uno en la llamada a [MAPILogonEx](mapilogonex.md), estableciendo en su lugar la marca MAPI_USE_DEFAULT usuario.
+El perfil predeterminado es el perfil que se usa si no especifica explícitamente uno en la llamada a [MAPILogonEx](mapilogonex.md), estableciendo en su lugar la marca MAPI_USE_DEFAULT.
   
  **Para establecer un perfil predeterminado**
   
-1. Llame a [la función MAPIAdminProfiles](mapiadminprofiles.md) para recuperar un puntero de interfaz **IProfAdmin.** 
+1. Llame a [la función MAPIAdminProfiles](mapiadminprofiles.md) para recuperar un puntero de **interfaz IProfAdmin.** 
     
-2. Llame [a IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md). **SetDefaultProfile** establece la **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) para el nuevo perfil predeterminado y quita la configuración del perfil predeterminado anterior.
+2. Llame [a IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md). **SetDefaultProfile** establece la **propiedad PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) del nuevo perfil predeterminado y quita la configuración del perfil predeterminado anterior.
     
 

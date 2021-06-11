@@ -18,11 +18,11 @@ ms.locfileid: "45160303"
 ---
 # <a name="ang360-function"></a>Función ANG360
 
-Normaliza el intervalo de un ángulo en 0 = resultado \< \< 2PI radianes (0 \< = resultado \< 360 grados).
+Normaliza el rango de un ángulo en 0 = radianes 2PI de resultado \< \< (0 \< = resultado \< 360 grados).
   
 ## <a name="syntax"></a>Sintaxis
 
-ANG360(***ángulo*** ) 
+ANG360(***angle*** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -32,7 +32,7 @@ ANG360(***ángulo*** )
    
 ## <a name="remarks"></a>Comentarios
 
-Si  *el*  ángulo no se especifica mediante unidades angulares, se interpreta como radianes. Si  *el*  ángulo no se puede convertir en un valor, #VALUE! se devuelve. 
+Si  *el*  ángulo no se especifica mediante unidades angulares, se interpreta como radianes. Si  *el*  ángulo no se puede convertir en un valor, #VALUE! error se devuelve. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

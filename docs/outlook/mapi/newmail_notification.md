@@ -45,11 +45,11 @@ typedef struct _NEWMAIL_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
-> Número de bytes en el identificador de entrada al que apunta el **miembro lpEntryID.** 
+> Recuento de bytes en el identificador de entrada al que apunta el **miembro lpEntryID.** 
     
  **lpEntryID**
   
@@ -69,7 +69,7 @@ typedef struct _NEWMAIL_NOTIFICATION
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
  **lpszMessageClass**
   
@@ -81,19 +81,19 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Comentarios
 
-La **NEWMAIL_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de** información de la [estructura notification.](notification.md) Cuando el **miembro de** información de una estructura **notification** contiene una estructura **NEWMAIL_NOTIFICATION,** el miembro **ulEventType** de la estructura **NOTIFICATION** se establece en  _fnevNewMail._
+La **NEWMAIL_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el **miembro de información** de la estructura [notification.](notification.md) Cuando el **miembro de** información de una estructura **NOTIFICATION** contiene una estructura **NEWMAIL_NOTIFICATION,** el **miembro ulEventType** de la estructura **NOTIFICATION** se establece en  _fnevNewMail._
   
-MAPI usa la **NEWMAIL_NOTIFICATION** sólo como miembro  de la estructura de notificación, que contiene información sobre un evento de notificación para el receptor de avisos. 
+MAPI usa la **NEWMAIL_NOTIFICATION** solo como miembro de la estructura **NOTIFICATION,** que contiene información sobre un evento de notificación para el receptor de notificaciones. 
   
 Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben administrar las notificaciones.  <br/> |
 |[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar [el método IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento DocumentSheet (VisioDocument_Type complexType) (XML de Visio)
+title: Elemento DocumentSheet (VisioDocument_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540045"
 ---
-# <a name="documentsheet-element-visiodocument_type-complextype-visio-xml"></a>Elemento DocumentSheet (VisioDocument_Type complexType) (XML de Visio)
+# <a name="documentsheet-element-visiodocument_type-complextype-visio-xml"></a>Elemento DocumentSheet (VisioDocument_Type complexType) (Visio XML)
 
 Especifica una estructura DocumentSheet.
   
@@ -36,19 +36,19 @@ Especifica una estructura DocumentSheet.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento de Microsoft Visio.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento Visio Microsoft.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Especifica una celda de una hoja de documentos.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Especifica una celda en un DocumentSheet.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 
@@ -56,8 +56,8 @@ Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**,
 |:-----|:-----|:-----|:-----|:-----|
 |IsCustomName  <br/> |xsd:boolean  <br/> |opcional  <br/> |Describe si el usuario ha personalizado el nombre.  <br/> |Valores del tipo xsd:Boolean.  <br/> |
 |IsCustomNameU  <br/> |xsd:boolean  <br/> |opcional  <br/> |Describe si el usuario ha personalizado el nombre universal.  <br/> |Valores del tipo xsd:Boolean.  <br/> |
-|Nombre  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica el nombre dependiente del idioma de documentSheet.  <br/> |Valores del tipo xsd:string.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica el nombre independiente del idioma de documentSheet.  <br/> |Valores del tipo xsd:string.  <br/> |
+|Nombre  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica el nombre dependiente del idioma de DocumentSheet.  <br/> |Valores del tipo xsd:string.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |opcional  <br/> |Especifica el nombre independiente del idioma de DocumentSheet.  <br/> |Valores del tipo xsd:string.  <br/> |
 |UniqueID  <br/> |xsd:string  <br/> |opcional  <br/> |Cadena opcional. GUID (identificador único global) que identifica la forma.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

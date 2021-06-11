@@ -1,5 +1,5 @@
 ---
-title: Elemento Text (ShapeSheet_Type complexType) (XML de Visio)
+title: Elemento Text (ShapeSheet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541928"
 ---
-# <a name="text-element-shapesheet_type-complextype-visio-xml"></a>Elemento Text (ShapeSheet_Type complexType) (XML de Visio)
+# <a name="text-element-shapesheet_type-complextype-visio-xml"></a>Elemento Text (ShapeSheet_Type complexType) (Visio XML)
 
 Contiene el texto de una forma.
   
@@ -36,13 +36,13 @@ Contiene el texto de una forma.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un **elemento Master**, **Page** o group shape.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un **elemento Master**, **Page** o forma de grupo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -51,7 +51,7 @@ Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**,
 |[cp](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Marca el principio de una ejecución de propiedades de carácter con formato según el elemento Char correspondiente.  <br/> |
 |[fld](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indica un punto de inserción de campo de texto para el elemento Field correspondiente.  <br/> |
 |[pp](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |Especifica el principio de una ejecución de propiedades de párrafo.  <br/> |
-|[tp](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Especifica el principio de una ejecución de propiedades de pestañas.  <br/> |
+|[tp](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Especifica el principio de la ejecución de las propiedades de las pestañas.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

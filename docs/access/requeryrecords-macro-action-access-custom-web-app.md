@@ -27,7 +27,7 @@ La **acción RequeryRecords** tiene los argumentos siguientes.
   
 |**Parámetro**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
-|**Where=** <br/> |No  <br/> |Una SQL cláusula WHERE que restringe los registros de la vista. De forma predeterminada, este argumento está en blanco.  <br/> |
+|**Where=** <br/> |No  <br/> |Una SQL where que restringe los registros de la vista. De forma predeterminada, este argumento está en blanco.  <br/> |
 |**OrderBy** <br/> |No  <br/> |Una expresión de cadena que incluye el nombre del campo o campos en los que se van a ordenar los registros y las palabras clave ASC o DESC opcionales. De forma predeterminada, este argumento está en blanco.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
@@ -36,10 +36,10 @@ Cualquier ordenación o filtrado aplicado por el usuario se borra cuando se llam
   
 El  *argumento OrderBy*  es el nombre del campo o campos en los que desea ordenar los registros. Si usa más de un nombre de campo, separe los nombres con una coma (,). 
   
-Cuando se establece el  *argumento OrderBy,*  los registros se ordenan de forma predeterminada en orden ascendente. 
+Al establecer el argumento  *OrderBy,*  los registros se ordenan de forma predeterminada en orden ascendente. 
   
-Para ordenar los registros en orden descendente, escriba DESC al final de la expresión del argumento *OrderBy.* Por ejemplo, para ordenar los registros de clientes en orden descendente por nombre de contacto, establezca el argumento  *OrderBy*  en "ContactName DESC". 
+Para ordenar los registros en orden descendente, escriba DESC al final de la expresión de argumento *OrderBy.* Por ejemplo, para ordenar los registros de clientes en orden descendente por nombre de contacto, establezca el argumento  *OrderBy*  en "ContactName DESC". 
   
-Para ordenar los nombres por Apellido descendente y Nombre ascendente, establezca el argumento  *OrderBy*  en "LastName DESC, FirstName ASC". 
+Para ordenar los nombres por LastName descendente y FirstName ascendente, establezca el argumento  *OrderBy*  en "LastName DESC, FirstName ASC". 
   
 

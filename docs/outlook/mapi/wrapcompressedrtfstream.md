@@ -41,27 +41,27 @@ HRESULT WrapCompressedRTFStream(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpCompressedRTFStream_
   
-> [entrada] Puntero a una secuencia abierta en la PR_RTF_COMPRESSED propiedad de un mensaje. 
+> [in] Puntero a una secuencia abierta en la PR_RTF_COMPRESSED propiedad de un mensaje. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas de opción para la función. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de las marcas de opción para la función. Se pueden establecer las siguientes marcas:
     
 MAPI_MODIFY 
   
-> Indica si el cliente tiene la intención de leer o escribir la interfaz de secuencia ajustada que se devuelve. 
+> Si el cliente tiene la intención de leer o escribir la interfaz de secuencia ajustada que se devuelve. 
     
 STORE_UNCOMPRESSED_RTF 
   
-> Rtf sin comprimir debe escribirse en la secuencia a la que  _apunta lpCompressedRTFStream_
+> RTF sin comprimir debe escribirse en la secuencia a la que  _apunta lpCompressedRTFStream_
     
  _lpUncompressedRTFStream_
   
-> [salida] Puntero a la ubicación donde **WrapCompressedRTFStream** devuelve una secuencia para el RTF sin comprimir. 
+> [salida] Puntero a la ubicación donde **WrapCompressedRTFStream** devuelve una secuencia del RTF sin comprimir. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -71,15 +71,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Si la MAPI_MODIFY se pasa en el parámetro  _ulFlags,_ el parámetro  _lpCompressedRTFStream_ ya debe estar abierto para lectura y escritura. El texto RTF nuevo y sin comprimir debe escribirse en la interfaz de secuencia devuelta  _en lpUncompressedRTFStream_. Dado que no es posible anexar la secuencia existente, se debe escribir todo el texto del mensaje. 
+Si la MAPI_MODIFY se pasa en el parámetro  _ulFlags,_ el parámetro  _lpCompressedRTFStream_ ya debe estar abierto para leer y escribir. El texto RTF nuevo sin comprimir debe escribirse en la interfaz de secuencia devuelta  _en lpUncompressedRTFStream_. Dado que no es posible anexar la secuencia existente, se debe escribir todo el texto del mensaje. 
   
-Si se pasa cero en el  _parámetro ulFlags,_ es posible que  _lpCompressedRTFStream_ se abra como de solo lectura. Solo se puede leer todo el texto del mensaje de la interfaz de secuencia devuelta  _en lpUncompressedRTFStream_. No es posible buscar empezando en medio de la secuencia. 
+Si se pasa cero en el  _parámetro ulFlags,_  _lpCompressedRTFStream_ puede abrirse de solo lectura. Solo se puede leer todo el texto del mensaje de la interfaz de secuencia devuelta  _en lpUncompressedRTFStream_. No es posible buscar a partir del medio de la secuencia. 
   
- **WrapCompressedRTFStream** supone que el puntero de la secuencia comprimida está establecido al principio de la secuencia. Algunos métodos **OLE IStream** no son compatibles con la secuencia sin comprimir devuelta. Estos incluyen **IStream::Clone**, **IStream::LockRegion**, **IStream::Revert**, **IStream::Seek**, **IStream::SetSize**, **IStream::Stat** e **IStream::UnlockRegion**. Para copiar a toda la secuencia, se necesita un bucle de lectura y escritura. 
+ **WrapCompressedRTFStream** supone que el puntero de la secuencia comprimida está establecido en el principio de la secuencia. Algunos métodos **OLE IStream** no son compatibles con la secuencia sin comprimir devuelta. Estos incluyen **IStream::Clone**, **IStream::LockRegion**, **IStream::Revert**, **IStream::Seek**, **IStream::SetSize**, **IStream::Stat** y **IStream::UnlockRegion**. Para copiar a toda la secuencia, se necesita un bucle de lectura y escritura. 
   
 Dado que el cliente escribe nuevo RTF en formato sin comprimir, debe usar **WrapCompressedRTFStream**, en lugar de escribir directamente en la secuencia. Los clientes compatibles con RTF deben buscar la marca STORE_UNCOMPRESSED_RTF en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) y pasarla a **WrapCompressed RTFStream** si está establecida. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "33439362"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe un filtro para limitar la vista de una tabla a filas concretas. 
+Describe un filtro para limitar la vista de una tabla a filas determinadas. 
   
 |||
 |:-----|:-----|
@@ -53,11 +53,11 @@ typedef struct _SRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **rt**
   
-> El tipo de restricción. Los valores posibles son los siguientes: 
+> Tipo de restricción. Los valores posibles son los siguientes: 
     
 RES_AND 
   
@@ -81,15 +81,15 @@ RES_CONTENT
     
 RES_EXIST 
   
-> Una restricción existente, que determina si se admite una propiedad.
+> Una restricción exist, que determina si se admite una propiedad.
     
 RES_NOT 
   
-> Una **restricción NOT,** que aplica una operación **NOT** lógica a una restricción. 
+> Una **restricción NOT,** que aplica una operación **LÓGICA NOT** a una restricción. 
     
 RES_OR 
   
-> Una **restricción OR,** que aplica una operación **lógica OR** a una restricción. 
+> Una **restricción OR,** que aplica una operación **OR** lógica a una restricción. 
     
 RES_PROPERTY 
   
@@ -101,7 +101,7 @@ RES_SIZE
     
 RES_SUBRESTRICTION 
   
-> Una restricción de subelemento, que aplica una restricción a los datos adjuntos o destinatarios de un mensaje.
+> Una restricción de sub object, que aplica una restricción a los datos adjuntos o destinatarios de un mensaje.
     
  **res**
   
@@ -124,11 +124,11 @@ RES_SUBRESTRICTION
    
 ## <a name="remarks"></a>Comentarios
 
-Los clientes usan **una estructura SRestriction** para limitar el número y el tipo de filas en su vista de una tabla y para buscar mensajes específicos en una carpeta. Para imponer la limitación en una tabla, los clientes llaman a [IMAPITable::Restrict o](imapitable-restrict.md) [IMAPITable::FindRow](imapitable-findrow.md). Para imponer la limitación a una carpeta, los clientes llaman al método [IMAPIContainer::SetSearchCriteria de](imapicontainer-setsearchcriteria.md) la carpeta. 
+Los clientes usan una **estructura SRestriction** para limitar el número y el tipo de filas en su vista de una tabla y para buscar mensajes específicos en una carpeta. Para imponer la limitación en una tabla, los clientes llaman a [IMAPITable::Restrict o](imapitable-restrict.md) [IMAPITable::FindRow](imapitable-findrow.md). Para imponer la limitación de una carpeta, los clientes llaman al método [IMAPIContainer::SetSearchCriteria de](imapicontainer-setsearchcriteria.md) la carpeta. 
   
 Para obtener información sobre cómo usar restricciones con tablas, vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

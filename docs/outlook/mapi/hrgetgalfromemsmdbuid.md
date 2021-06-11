@@ -21,7 +21,7 @@ ms.locfileid: "33439110"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el identificador de entrada de la libreta de direcciones global para el servicio de Exchange identificado por  _pEmsmdbUID_. El identificador de entrada devuelto debe liberarse [con MAPIFreeBuffer](mapifreebuffer.md).
+Devuelve el identificador de entrada de la libreta de direcciones global del servicio Exchange identificado por _pEmsmdbUID_. El identificador de entrada devuelto debe liberarse [con MAPIFreeBuffer](mapifreebuffer.md).
   
 |||
 |:-----|:-----|
@@ -39,23 +39,23 @@ HRESULT HrGetGALFromEmsmdbUID(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pSess_
   
-> [entrada] Ha iniciado sesión en IMAPISession. No puede ser NULL.
+> [in] Ha iniciado sesión en IMAPISession. No puede ser NULL.
     
  _pAddrBook_
   
-> [entrada] La libreta de direcciones usada para abrir el identificador de entrada. No puede ser NULL.
+> [in] La libreta de direcciones usada para abrir el identificador de entrada. No puede ser NULL.
     
  _pEmsmdbUID_
   
-> [entrada] Puntero a un **emsmdbUID** que identifica la GAL del servicio de Exchange que se va a recuperar. Si  _pEmsmdbUID_ es NULL o el UID cero, esta función obtiene la GAL heredada del servicio de Exchange. 
+> [in] Puntero a un **emsmdbUID** que identifica la GAL del servicio de Exchange que se va a recuperar. Si _pEmsmdbUID_ es NULL o el UID cero, esta función obtiene la GAL heredada del Exchange Service. 
     
- _lpccvd_
+ _lpcbeid_
   
-> [salida] Puntero al recuento de bytes del identificador de entrada de la lista global de direcciones.
+> [salida] Puntero al número de bytes del identificador de entrada de la lista global de direcciones.
     
  _lppeid_
   

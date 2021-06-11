@@ -1,12 +1,12 @@
 ---
-title: Elemento FaceName (FaceNames_Type complexType) (XML de Visio)
+title: Elemento FaceName (FaceNames_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b1783f05-ced1-917f-8298-eca4ecfa3912
-description: Contiene información acerca de una fuente.
+description: Contiene información sobre una fuente.
 ms.openlocfilehash: 773b5f10607cc6d515671d93d7d4abd9e39e72ff
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541018"
 ---
-# <a name="facename-element-facenames_type-complextype-visio-xml"></a>Elemento FaceName (FaceNames_Type complexType) (XML de Visio)
+# <a name="facename-element-facenames_type-complextype-visio-xml"></a>Elemento FaceName (FaceNames_Type complexType) (Visio XML)
 
-Contiene información acerca de una fuente.
+Contiene información sobre una fuente.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Contiene información acerca de una fuente.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,10 +52,10 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|CharSets  <br/> |xsd:string  <br/> |opcional  <br/> |Los juegos de caracteres admitidos de la fuente.  <br/> |Valores del tipo xsd:string.  <br/> |
+|CharSets  <br/> |xsd:string  <br/> |opcional  <br/> |Los conjuntos de caracteres admitidos de la fuente.  <br/> |Valores del tipo xsd:string.  <br/> |
 |Flags  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Marcas que indican lo siguiente: fuente que falta, fuente predeterminada, fuente asiática, fuente compleja, fuente vertical y tipo de fuente.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |NameU  <br/> |xsd:string  <br/> |necesario  <br/> |Nombre de la fuente como una cadena Unicode UTF-16.  <br/> ||
-|Panos  <br/> |xsd:string  <br/> |opcional  <br/> |Firma panose de la fuente. Panose es un sistema de clasificación para tipos de letra que los clasifica en función de sus características visuales.  <br/> |Valores del tipo xsd:string.  <br/> |
-|UnicodeRanges  <br/> |xsd:string  <br/> |opcional  <br/> |Intervalos Unicode admitidos de la fuente.  <br/> |Valores del tipo xsd:string.  <br/> |
+|Panos  <br/> |xsd:string  <br/> |opcional  <br/> |Firma de panose para la fuente. Panose es un sistema de clasificación de tipos de letra que los clasifica en función de sus características visuales.  <br/> |Valores del tipo xsd:string.  <br/> |
+|UnicodeRanges  <br/> |xsd:string  <br/> |opcional  <br/> |Los intervalos Unicode compatibles de la fuente.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

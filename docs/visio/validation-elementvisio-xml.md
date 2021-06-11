@@ -1,5 +1,5 @@
 ---
-title: Elemento Validation (XML de Visio)
+title: Elemento Validation (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538553"
 ---
-# <a name="validation-element-visio-xml"></a>Elemento Validation (XML de Visio)
+# <a name="validation-element-visio-xml"></a>Elemento Validation (Visio XML)
 
 Almacena información sobre la validación del diagrama para el documento.
   
@@ -35,7 +35,7 @@ Almacena información sobre la validación del diagrama para el documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -46,7 +46,7 @@ Ninguno.
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
 |[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contiene todos los **elementos Issue** del documento.  <br/> |
-|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Incluye un **elemento RuleSet** para cada conjunto de reglas de validación del documento.  <br/> |
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Incluye un **elemento RuleSet** para cada regla de validación establecida en el documento.  <br/> |
 |[ValidationProperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |Encapsula las propiedades relacionadas con la validación del documento.  <br/> |
    
 ### <a name="attributes"></a>Atributos

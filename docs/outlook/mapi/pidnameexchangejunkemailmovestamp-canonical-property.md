@@ -25,7 +25,7 @@ ms.locfileid: "34540948"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor de mensaje persistente que indica que un filtro de correo no deseado no debe procesar el mensaje porque ya se ha procesado o es seguro.
+Contiene el valor de mensaje persistente que indica que un filtro de correo no deseado no debe procesar el mensaje porque el mensaje ya se ha procesado o es seguro.
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Contiene el valor de mensaje persistente que indica que un filtro de correo no d
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se marca en todos los mensajes movidos por la regla de correo electrónico no deseado o que son contenido de confianza.
+Esta propiedad se marca en todos los mensajes que se mueven mediante la regla de correo electrónico no deseado o que son contenido de confianza.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -53,7 +53,7 @@ Esta propiedad se marca en todos los mensajes movidos por la regla de correo ele
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que representan elementos RSS.
+> Especifica las propiedades y las operaciones que representan elementos RSS.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -61,13 +61,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

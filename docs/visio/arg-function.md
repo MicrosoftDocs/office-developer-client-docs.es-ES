@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 781369e1-fade-ec10-7c51-0f921b5c3b76
-description: Especifica un argumento que la celda que llama puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda que llama no pasa un valor para el argumento. Devuelve el valor especificado por la celda que llama y el parámetro argName correspondiente.
+description: Especifica un argumento que la celda de llamada puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda que llama no pasa un valor para el argumento. Devuelve el valor especificado por la celda que llama y el parámetro argName que coincide.
 ms.openlocfilehash: 3cde7fe55d7bc60d15f32d7ad954443e545af914
 ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "48293488"
 ---
 # <a name="arg-function"></a>Función ARG
 
-Especifica un argumento que la celda que llama puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda que llama no pasa un valor para el argumento. Devuelve el valor especificado por la celda que llama y el parámetro argName correspondiente.
+Especifica un argumento que la celda de llamada puede pasar a una función personalizada, así como el valor predeterminado devuelto por la función personalizada si la celda que llama no pasa un valor para el argumento. Devuelve el valor especificado por la celda que llama y el parámetro argName que coincide.
   
 ## <a name="syntax"></a>Sintaxis
 

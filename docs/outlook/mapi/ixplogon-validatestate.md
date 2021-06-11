@@ -34,23 +34,23 @@ HRESULT ValidateState(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
+> [in] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se realiza la comprobación de estado y los resultados de la comprobación de estado. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se realiza la comprobación de estado y los resultados de la comprobación de estado. Se pueden establecer las siguientes marcas:
     
 ABORT_XP_HEADER_OPERATION 
   
-> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. El proveedor de transporte tiene la opción de continuar trabajando en la operación o puede anular la operación y devolver MAPI_E_USER_CANCELED. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón Cancelar** de un cuadro de diálogo. El proveedor de transporte tiene la opción de continuar trabajando en la operación o puede anular la operación y devolver MAPI_E_USER_CANCELED. 
     
 CONFIG_CHANGED 
   
-> Valida el estado de los proveedores de transporte cargados actualmente haciendo que la cola MAPI llame a su [método IXPLogon::AddressTypes.](ixplogon-addresstypes.md) Esta marca también proporciona a la cola MAPI una oportunidad para corregir errores críticos del proveedor de transporte sin forzar que las aplicaciones cliente cierren sesión y vuelvan a iniciar sesión. 
+> Valida el estado de los proveedores de transporte cargados actualmente haciendo que la cola MAPI llame a su [método IXPLogon::AddressTypes.](ixplogon-addresstypes.md) Esta marca también proporciona a la cola MAPI la oportunidad de corregir errores críticos del proveedor de transporte sin forzar a las aplicaciones cliente a cerrar sesión y, a continuación, volver a iniciar sesión. 
     
 FORCE_XP_CONNECT 
   
@@ -62,11 +62,11 @@ FORCE_XP_DISCONNECT
     
 PROCESS_XP_HEADER_CACHE 
   
-> Las entradas de la tabla de caché de encabezados deben procesarse, se deben descargar todos los mensajes marcados con la marca MSGSTATUS_REMOTE_DOWNLOAD y todos los mensajes marcados con la marca MSGSTATUS_REMOTE_DELETE deben eliminarse. Los mensajes que tienen MSGSTATUS_REMOTE_DOWNLOAD y MSGSTATUS_REMOTE_DELETE deben moverse.
+> Se deben procesar las entradas de la tabla de caché de encabezado, descargar todos los mensajes marcados con la marca MSGSTATUS_REMOTE_DOWNLOAD y eliminar todos los mensajes marcados con la marca MSGSTATUS_REMOTE_DELETE. Los mensajes que tienen MSGSTATUS_REMOTE_DOWNLOAD y MSGSTATUS_REMOTE_DELETE deben moverse.
     
 REFRESH_XP_HEADER_CACHE 
   
-> Se debe descargar una nueva lista de encabezados de mensaje y deben borrarse todas las marcas de marcado de estado de mensaje.
+> Se debe descargar una nueva lista de encabezados de mensaje y se deben borrar todas las marcas de marcado de estado del mensaje.
     
 SUPPRESS_UI 
   
@@ -88,15 +88,15 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón Cancelar** de un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método **IXPLogon::ValidateState** para admitir llamadas al método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) para el objeto de estado. El proveedor de transporte debe responder a la llamada **IXPLogon::ValidateState** exactamente como si la cola MAPI hubiera abierto un objeto de estado para la sesión de inicio de sesión actual y, a continuación, llamara **IMAPIStatus::ValidateState** en ese objeto. 
+La cola MAPI llama al método **IXPLogon::ValidateState** para admitir llamadas al método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) para el objeto status. El proveedor de transporte debe responder a la llamada **IXPLogon::ValidateState** exactamente como si la cola MAPI hubiera abierto un objeto de estado para la sesión de inicio de sesión actual y, a continuación, llamara **IMAPIStatus::ValidateState** en ese objeto. 
   
-Para admitir su implementación de **IMAPIStatus::ValidateState**, la cola MAPI llama a **IXPLogon::ValidateState** en todos los objetos de inicio de sesión de todos los proveedores de transporte activos que se ejecutan en una sesión de perfil. 
+Para admitir su implementación de **IMAPIStatus::ValidateState**, la cola MAPI llama a **IXPLogon::ValidateState** en todos los objetos de inicio de sesión para todos los proveedores de transporte activo que se ejecutan en una sesión de perfil. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

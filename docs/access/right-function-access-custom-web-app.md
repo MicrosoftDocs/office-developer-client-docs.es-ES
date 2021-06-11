@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 74cefaa2-3ac4-4a65-af0b-2ee4d9644a93
-description: Devuelve la parte derecha de una cadena de caracteres con el número de caracteres especificado.
+description: Devuelve la parte derecha de una cadena de caracteres con el número especificado de caracteres.
 ms.openlocfilehash: eb87f6d238802a950a4858bae942f75fdefc1d5b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33439957"
 ---
 # <a name="right-function-access-custom-web-app"></a>Función Right (aplicación web personalizada de Access)
 
-Devuelve la parte derecha de una cadena de caracteres con el número de caracteres especificado.
+Devuelve la parte derecha de una cadena de caracteres con el número especificado de caracteres.
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
@@ -25,7 +25,7 @@ Devuelve la parte derecha de una cadena de caracteres con el número de caracter
 
  **Right** (*TextExpression*, *Length*) 
   
-La **función** Right contiene los argumentos siguientes. 
+La **función Right** contiene los argumentos siguientes. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|

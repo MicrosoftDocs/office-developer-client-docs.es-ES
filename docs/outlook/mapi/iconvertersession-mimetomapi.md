@@ -36,31 +36,31 @@ HRESULT IConverterSession:: MIMEToMAPI (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pstm_
   
-> [entrada] [Interfaz IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) a una secuencia MIME. 
+> [in] [Interfaz IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) a una secuencia MIME. 
     
  _pmsg_
   
-> [entrada] Puntero al mensaje que se cargará. El autor de la llamada debe proporcionar un mensaje para que la API se rellene, por lo que el objeto debe entrar. Vea mapidefs.h para obtener la definición de tipo **de LPMESSAGE**.
+> [in] Puntero al mensaje que se cargará. El autor de la llamada debe proporcionar un mensaje para que la API se rellene, por lo que el objeto debe ir [in]. Vea mapidefs.h para obtener la definición de tipo **de LPMESSAGE**.
     
  _pszSrcSrv_
   
-> [entrada] Este valor debe ser **nulo.**
+> [in] Este valor debe ser **null**.
     
  _ulFlags_
   
-> [entrada] Este parámetro identifica cualquier acción especial que se debe realizar durante la conversión. Debe ser cero (0) si no se va a realizar ninguna acción específica o una combinación de los siguientes valores:
+> [in] Este parámetro identifica cualquier acción especial que se debe realizar durante la conversión. Debe ser cero (0) si no se va a realizar ninguna acción específica o una combinación de los siguientes valores:
     
 CCSF_EMBEDDED_MESSAGE
   
-> La información enviada o no enviada se conserva en X-Unsent.
+> La información enviada o no se conserva en X-Unsent.
     
 CCSF_SMTP
   
-> La secuencia MIME es para un mensaje smtp (Protocolo simple de transferencia de correo).
+> La secuencia MIME es para un mensaje del Protocolo simple de transferencia de correo (SMTP).
     
 CCSF_INCLUDE_BCC
   
@@ -77,11 +77,11 @@ CCSF_GLOBAL_MESSAGE
 
 E_INVALIDARG
   
-> Indica que  _pstm_ es **null**,  _pmsg_ es **null** o  _ulFlags_ no es válido. 
+> Indica que  _pstm_ es **null,**  _pmsg_ es **null** o  _ulFlags_ no es válido. 
     
 ## <a name="remarks"></a>Comentarios
 
-Si ha especificado  CCSF_USE_RTF como parte de _ulFlags_ y el almacén de mensajes de destino admite HTML y RTF, el mensaje MAPI se convertirá a HTML o RTF. Si el mensaje se convierte en RTF, el formato convertido se comprimirá rtf, cualquier HTML se incrustará en la cadena RTF comprimida y la cadena se incluirá en la propiedad canónica [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
+Si ha especificado  CCSF_USE_RTF como parte de _ulFlags_ y el almacén de mensajes de destino admite HTML y RTF, el mensaje MAPI se convertirá en HTML o RTF. Si el mensaje se convierte en RTF, el formato convertido se comprimirá RTF, cualquier HTML se incrustará en la cadena RTF comprimida y la cadena se incluirá en la propiedad canónica [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -92,7 +92,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

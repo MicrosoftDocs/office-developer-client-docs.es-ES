@@ -1,5 +1,5 @@
 ---
-title: Conceptos (ShapeSheet de Visio)
+title: Conceptos (Visio ShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438900"
 ---
-# <a name="concepts-visio-shapesheet"></a>Conceptos (ShapeSheet de Visio)
+# <a name="concepts-visio-shapesheet"></a>Conceptos (Visio ShapeSheet)
 
 Esta página de navegación contiene vínculos a temas de información general sobre la programación en Visio. Haga clic en los vínculos siguientes o utilice la tabla de contenido para desplazarse a estos temas:
   

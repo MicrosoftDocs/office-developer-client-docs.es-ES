@@ -22,7 +22,7 @@ Devuelve un número binario de 16 bits en el que cada bit se establece en 1 solo
   
 ## <a name="syntax"></a>Sintaxis
 
-BITNOT(** *binary number* ** ) 
+BITNOT(** *número binario* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

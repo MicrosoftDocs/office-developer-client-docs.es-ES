@@ -1,5 +1,5 @@
 ---
-title: Elemento Connect (Connects_Type complexType) (XML de Visio)
+title: Conectar (Connects_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541999"
 ---
-# <a name="connect-element-connects_type-complextype-visio-xml"></a>Elemento Connect (Connects_Type complexType) (XML de Visio)
+# <a name="connect-element-connects_type-complextype-visio-xml"></a>Conectar (Connects_Type complexType) (Visio XML)
 
 Representa una conexión entre dos formas de un dibujo, como una línea y un cuadro en un organigrama.
   
@@ -36,13 +36,13 @@ Representa una conexión entre dos formas de un dibujo, como una línea y un cua
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contiene un **elemento Connect** para cada conexión entre dos formas de un dibujo.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contiene un **Conectar** para cada conexión entre dos formas de un dibujo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -53,7 +53,7 @@ Ninguno.
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |FromCell  <br/> |xsd:string  <br/> |opcional  <br/> |Celda desde la que se origina una conexión.  <br/> |Valores del tipo xsd:string.  <br/> |
-|FromPart  <br/> |xsd:int  <br/> |opcional  <br/> |Parte de una forma desde la que se origina una conexión.  <br/> |Valores del tipo xsd:int.  <br/> |
+|FromPart  <br/> |xsd:int  <br/> |opcional  <br/> |La parte de una forma desde la que se origina una conexión.  <br/> |Valores del tipo xsd:int.  <br/> |
 |FromSheet  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador de la forma desde la que se origina una conexión o conexiones.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |ToCell  <br/> |xsd:string  <br/> |opcional  <br/> |Celda a la que se realiza una conexión.  <br/> |Valores del tipo xsd:string.  <br/> |
 |ToPart  <br/> |xsd:int  <br/> |opcional  <br/> |La parte de una forma a la que se realiza una conexión.  <br/> |Valores del tipo xsd:Int.  <br/> |

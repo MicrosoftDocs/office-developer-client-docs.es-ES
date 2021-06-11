@@ -1,5 +1,5 @@
 ---
-title: Elemento FaceNames (VisioDocument_Type complexType) (XML de Visio)
+title: Elemento FaceNames (VisioDocument_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539716"
 ---
-# <a name="facenames-element-visiodocument_type-complextype-visio-xml"></a>Elemento FaceNames (VisioDocument_Type complexType) (XML de Visio)
+# <a name="facenames-element-visiodocument_type-complextype-visio-xml"></a>Elemento FaceNames (VisioDocument_Type complexType) (Visio XML)
 
 Contiene una colección de **elementos FaceName.** 
   
@@ -36,19 +36,19 @@ Contiene una colección de **elementos FaceName.**
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento de Microsoft Visio.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Elemento raíz de un documento Visio Microsoft.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[FaceName](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |Contiene información acerca de una fuente.  <br/> |
+|[FaceName](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |Contiene información sobre una fuente.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

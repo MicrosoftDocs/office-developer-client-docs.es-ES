@@ -25,7 +25,7 @@ ms.locfileid: "33439733"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Muestra una hoja de propiedades que permite al usuario cambiar la configuración de un proveedor de servicios Este método no es compatible con objetos de estado que implementa MAPI.
+Muestra una hoja de propiedades que permite al usuario cambiar la configuración de un proveedor de servicios Este método no se admite en objetos de estado que implementa MAPI.
   
 ```cpp
 HRESULT SettingsDialog(
@@ -34,19 +34,19 @@ HRESULT SettingsDialog(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de la hoja de propiedades de configuración.
+> [in] Identificador de la ventana principal de la hoja de propiedades de configuración.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla la presentación de la hoja de propiedades. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla la presentación de la hoja de propiedades. Se puede establecer la siguiente marca:
     
 UI_READONLY 
   
-> Sugiere que el proveedor no debe permitir que los usuarios cambien las propiedades de configuración. Esta marca es solo una sugerencia; se puede omitir.
+> Sugiere que el proveedor no debe permitir que los usuarios cambien las propiedades de configuración. Esta marca es solo una sugerencia; puede omitirse.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,7 +56,7 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> El objeto de estado no admite este método, como se indica por la ausencia de la marca STATUS_SETTINGS_DIALOG en la **propiedad PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
+> El objeto status no admite este método, como se indica por la ausencia de la marca STATUS_SETTINGS_DIALOG en la propiedad **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
     
 ## <a name="remarks"></a>Comentarios
 
@@ -68,21 +68,21 @@ Si un proveedor de transporte remoto tiene alguna configuración, debe hacer lo 
   
 - Abra la sección de perfil del proveedor de transporte.
     
-- Obtiene la configuración de propiedades del proveedor de transporte del perfil.
+- Obtener la configuración de la propiedad del proveedor de transporte desde el perfil.
     
 - Mostrar la configuración de la propiedad en un cuadro de diálogo.
     
-- Si el cuadro de diálogo permite editar la configuración de la propiedad, compruebe que la nueva configuración sea válida y vuelva a almacenarla en la sección de perfil del proveedor de transporte.
+- Si el cuadro de diálogo permite editar la configuración de la propiedad, compruebe que la nueva configuración es válida y guárdala de nuevo en la sección de perfil del proveedor de transporte.
     
-- Devuelve S_OK valores de error devueltos durante los pasos anteriores.
+- Devuelve S_OK, o cualquier valor de error devuelto durante los pasos anteriores.
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar la hoja de propiedades mostrada a través de **SettingsDialog** para realizar una variedad de tareas, como las siguientes: 
+Puede usar la hoja de propiedades que se muestra a través **de SettingsDialog** para realizar una variedad de tareas, como las siguientes: 
   
 - Especifique un almacén de mensajes predeterminado.
     
-- Especifique una orden de transporte.
+- Especifique un pedido de transporte.
     
 - Especifique un contenedor de libreta de direcciones predeterminado para la exploración.
     
@@ -90,11 +90,11 @@ Puede usar la hoja de propiedades mostrada a través de **SettingsDialog** para 
     
 - Especifique una libreta de direcciones personal predeterminada.
     
-Los proveedores de servicios pueden implementar hojas de propiedades de lectura y escritura, de solo lectura o una combinación de permisos, según la propiedad. Los proveedores de servicios pueden implementar diferentes permisos en propiedades individuales estableciendo restricciones de propiedad. El modo predeterminado para las hojas de propiedades es de lectura y escritura. Puede solicitar hojas de propiedades de solo lectura estableciendo la marca UI_READONLY en las llamadas a **SettingsDialog**. Los proveedores de servicios que pueden implementar hojas de propiedades de solo lectura pueden hacerlo. Sin embargo, dado que algunos proveedores de servicios no pueden invalidar el modo predeterminado, debe estar preparado para controlar las hojas de propiedades de cualquiera de los tipos. 
+Los proveedores de servicios pueden implementar hojas de propiedades de lectura y escritura, de solo lectura o una combinación de permisos, según la propiedad. Los proveedores de servicios pueden implementar diferentes permisos en propiedades individuales estableciendo restricciones de propiedades. El modo predeterminado para las hojas de propiedades es de lectura y escritura. Puede solicitar hojas de propiedades de solo lectura estableciendo la marca UI_READONLY en las llamadas a **SettingsDialog**. Los proveedores de servicios que pueden implementar hojas de propiedades de solo lectura pueden hacerlo. Sin embargo, dado que algunos proveedores de servicios no pueden invalidar el modo predeterminado, debe estar preparado para controlar las hojas de propiedades de cualquier tipo. 
   
-Dado que una interfaz de usuario siempre participa en esta operación, solo los clientes interactivos deben llamar **a SettingsDialog**.
+Dado que una interfaz de usuario siempre está implicada en esta operación, solo los clientes interactivos deben llamar a **SettingsDialog**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

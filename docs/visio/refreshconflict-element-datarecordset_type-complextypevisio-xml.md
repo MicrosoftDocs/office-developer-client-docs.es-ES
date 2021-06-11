@@ -1,5 +1,5 @@
 ---
-title: Elemento RefreshConflict (DataRecordSet_Type complexType) (XML de Visio)
+title: Elemento RefreshConflict (DataRecordSet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542838"
 ---
-# <a name="refreshconflict-element-datarecordset_type-complextype-visio-xml"></a>Elemento RefreshConflict (DataRecordSet_Type complexType) (XML de Visio)
+# <a name="refreshconflict-element-datarecordset_type-complextype-visio-xml"></a>Elemento RefreshConflict (DataRecordSet_Type complexType) (Visio XML)
 
 Indica una fila del conjunto de registros de datos vinculada a una forma que está en conflicto después de actualizar el conjunto de registros de datos.
   
@@ -36,7 +36,7 @@ Indica una fila del conjunto de registros de datos vinculada a una forma que est
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -53,7 +53,7 @@ Ninguno.
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |PageID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador de página de la forma implicada en el conflicto.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|RowID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El identificador de fila original de la fila que ahora está en conflicto después de actualizar los datos.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|RowID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El identificador de fila original de la fila ahora en conflicto después de actualizar los datos .  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |ShapeID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador de forma de la forma implicada en el conflicto.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

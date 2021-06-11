@@ -25,7 +25,7 @@ ms.locfileid: "33439782"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Comprueba si Microsoft Outlook 2010 o Microsoft Outlook 2013 bloquean los datos adjuntos especificados para su visualización e indización.
+Comprueba si un archivo adjunto especificado está bloqueado Microsoft Outlook 2010 o Microsoft Outlook 2013 para ver e indizar.
   
 ```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
@@ -34,11 +34,11 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pwszFileName_
   
-> [entrada] Puntero al nombre de archivo de un archivo adjunto.
+> [in] Puntero al nombre de archivo de un archivo adjunto.
     
  _pfBlocked_
   
@@ -50,5 +50,5 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 [Constantes MAPI](mapi-constants.md)
   
-[Comprobar que los datos adjuntos están bloqueados](how-to-verify-an-attachment-is-blocked.md)
+[Comprobar que un archivo adjunto está bloqueado](how-to-verify-an-attachment-is-blocked.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento ColorEntry (Colors_Type complexType) (XML de Visio)
+title: Elemento ColorEntry (Colors_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540185"
 ---
-# <a name="colorentry-element-colors_type-complextype-visio-xml"></a>Elemento ColorEntry (Colors_Type complexType) (XML de Visio)
+# <a name="colorentry-element-colors_type-complextype-visio-xml"></a>Elemento ColorEntry (Colors_Type complexType) (Visio XML)
 
 Contiene una entrada de tabla de colores.
   
@@ -36,7 +36,7 @@ Contiene una entrada de tabla de colores.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,7 +52,7 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Índice de base cero del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Índice basado en cero del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |RGB  <br/> |xsd:string  <br/> |necesario  <br/> |Valor hexadecimal de la entrada de la tabla de colores.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

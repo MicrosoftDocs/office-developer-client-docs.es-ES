@@ -36,15 +36,15 @@ Esta propiedad contiene un número que indica el estado de una transferencia rem
    
 ## <a name="remarks"></a>Comentarios
 
-Si no hay ninguna transferencia en curso, esta propiedad debe establecerse en 1. Si una transferencia está en curso, debe establecerse en un valor de 0 a 100 que indique el porcentaje de finalización de la transferencia.
+Si no hay ninguna transferencia en curso, esta propiedad debe establecerse en 1. Si una transferencia está en curso, debe establecerse en un valor de 0 a 100 que indica el porcentaje de finalización de la transferencia.
   
-El texto asociado con el código de estado numérico aparece en **la PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
+El texto asociado con el código de estado numérico aparece **en la propiedad PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
   
 Se pueden establecer las siguientes marcas para esta propiedad:
   
 MSGSTATUS_REMOTE_DELETE
   
-> La transferencia de mensajes se elimina.
+> Se elimina la transferencia de mensajes.
     
 MSGSTATUS_REMOTE_DOWNLOAD
   
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

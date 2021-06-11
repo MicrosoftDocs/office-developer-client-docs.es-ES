@@ -25,7 +25,7 @@ ms.locfileid: "33438578"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada del contenedor de la libreta de direcciones que se mostrará en primer lugar. 
+Contiene el identificador de entrada del contenedor de la libreta de direcciones que se mostrará primero. 
   
 |||
 |:-----|:-----|
@@ -50,14 +50,14 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [IAddrBook::SetDefaultDir](iaddrbook-setdefaultdir.md)
 
 
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

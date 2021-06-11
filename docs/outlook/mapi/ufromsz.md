@@ -39,11 +39,11 @@ UINT UFromSz(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
-> [entrada] Puntero a la cadena terminada en null que se va a convertir. El  _parámetro lpsz_ no debe superar los 65536 caracteres. 
+> [in] Puntero a la cadena terminada en null que se va a convertir. El  _parámetro lpsz_ no debe superar los 65536 caracteres. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,8 +51,8 @@ UINT UFromSz(
   
 ## <a name="remarks"></a>Comentarios
 
-La **función UFromSz** deja de convertirse cuando alcanza el primer carácter de la cadena que no es un dígito decimal. Por ejemplo, dado la cadena "55", **UFromSz** devuelve el valor entero 55. Dada la cadena "5a5b", la función devuelve el valor entero 5. Dado la cadena "a5b5", **UFromSz** devuelve cero. 
+La **función UFromSz** deja de convertir cuando alcanza el primer carácter de la cadena que no es un dígito decimal. Por ejemplo, teniendo en cuenta la cadena "55", **UFromSz** devuelve el valor entero 55. Dada la cadena "5a5b", la función devuelve el valor entero 5. Dada la cadena "a5b5", **UFromSz** devuelve cero. 
   
- **UFromSz es** sensible a las diferencias diacríticas. Se admiten cadenas en los formatos Unicode y DBCS. El límite de longitud  _de lpsz_ está en caracteres, no necesariamente bytes. 
+ **UFromSz es** sensible a las diferencias diacríticos. Se admiten cadenas en los formatos Unicode y DBCS. El límite de longitud de  _lpsz_ está en caracteres, no necesariamente bytes. 
   
 

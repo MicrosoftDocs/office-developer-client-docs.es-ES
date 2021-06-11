@@ -41,9 +41,9 @@ typedef struct _SSizeRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
- **reeste**
+ **relop**
   
 > Operador relacional que se usa en la comparación de tamaño. Los valores posibles son los siguientes: 
     
@@ -65,7 +65,7 @@ RELOP_LT
     
 RELOP_NE 
   
-> La comparación se realiza en función de valores no iguales.
+> La comparación se realiza en función de valores desiguales.
     
 RELOP_RE 
   
@@ -81,13 +81,13 @@ RELOP_EQ
     
  **cb**
   
-> Número de bytes en el valor de la propiedad.
+> Recuento de bytes en el valor de la propiedad.
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una explicación general de cómo funcionan las [restricciones,](about-restrictions.md)vea Acerca de las restricciones . 
+Para obtener una explicación general de cómo funcionan las restricciones, vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

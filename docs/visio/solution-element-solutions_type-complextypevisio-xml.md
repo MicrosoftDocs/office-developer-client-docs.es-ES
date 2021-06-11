@@ -1,5 +1,5 @@
 ---
-title: Elemento Solution (Solutions_Type complexType) (XML de Visio)
+title: Elemento Solution (Solutions_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540269"
 ---
-# <a name="solution-element-solutions_type-complextype-visio-xml"></a>Elemento Solution (Solutions_Type complexType) (XML de Visio)
+# <a name="solution-element-solutions_type-complextype-visio-xml"></a>Elemento Solution (Solutions_Type complexType) (Visio XML)
 
 Especifica una instancia de XML de solución almacenada en el dibujo.
   
@@ -35,7 +35,7 @@ Especifica una instancia de XML de solución almacenada en el dibujo.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -47,7 +47,7 @@ Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**,
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |Especifica la relación con un elemento con el XML de la solución asociado a esta solución.  <br/> |
+|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |Especifica la relación con un elemento con el XML de solución asociado a esta solución.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

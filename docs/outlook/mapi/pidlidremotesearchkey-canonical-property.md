@@ -31,7 +31,7 @@ Indica la clave de búsqueda de un elemento remoto.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidRemoteSearchKey  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Remote  <br/> |
-|Long ID (LID):  <br/> |0x00008F06  <br/> |
+|Id. largo (LID):  <br/> |0x00008F06  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Mensaje remoto  <br/> |
    
@@ -49,13 +49,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

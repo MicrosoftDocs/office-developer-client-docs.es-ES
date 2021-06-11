@@ -20,16 +20,16 @@ ms.locfileid: "34541305"
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda A según la fila en la que se encuentre.
   
-|Fila|Description|
+|Fila|Descripción|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | Distancia desde el punto medio del arco hasta el punto medio de su cuerda.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordenada  *x*  del punto de control del arco, un punto del arco. El punto de control se encuentra mejor a medio camino entre los vértices inicial y final del arco. De lo contrario, el arco puede crecer hasta un tamaño extremo para pasar a través del punto de control, con resultados impredecibles.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | La coordenada  *x*  del punto de control del arco, un punto en el arco. El punto de control se encuentra mejor a medio camino entre los vértices inicial y final del arco. De lo contrario, el arco puede crecer hasta un tamaño extremo para pasar a través del punto de control, con resultados impredecibles.  <br/> |
 |[PolylineTo](polylineto-row-geometry-section.md) <br/> | Fórmula de polilínea.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Penúltimo nodo de la spline B racional no uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Segundo nodo de la spline.  <br/> |
 |[SplineKnot](splineknot-row-geometry-section.md) <br/> | Uno de los nodos de la spline (cualquiera menos el último o los dos primeros).  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordenada *x* de un punto de la línea infinita; emparejado con *coordenada y* representada por la [celda B.](b-cell-geometry-section.md)  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | Coordenada *x* de un punto de la elipse; emparejado con *coordenada y* representada por la [celda B.](b-cell-geometry-section.md)  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Una coordenada *x* de un punto en la línea infinita; emparejado con *y* -coordinate representado por la [celda B.](b-cell-geometry-section.md)  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | Una coordenada *x* de un punto en la elipse; emparejado con *y* -coordinate representado por la [celda B.](b-cell-geometry-section.md)  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

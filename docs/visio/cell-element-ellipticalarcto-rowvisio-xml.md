@@ -1,12 +1,12 @@
 ---
-title: Elemento Cell (fila EllipticalArcTo) (XML de Visio)
+title: Elemento Cell (Fila EllipticalArcTo) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3c0aa7a3-cc54-ffac-2c62-917b3d0a357e
-description: Contiene coordenadas x o y del extremo de un arco elíptico, las coordenadas x o y de los puntos de control del arco, el ángulo desde el eje X hasta el eje principal de la elipse o la relación entre los ejes principales y menores de la elipse.
+description: Contiene coordenadas x o y del extremo de un arco elíptico, las coordenadas X o Y de los puntos de control en el arco, el ángulo desde el eje X hasta el eje principal de la elipse o la relación entre los ejes principales y los ejes menores de la elipse.
 ms.openlocfilehash: 396575c069925fe472fa3df0543e29303881dad3
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539831"
 ---
-# <a name="cell-element-ellipticalarcto-row-visio-xml"></a>Elemento Cell (fila EllipticalArcTo) (XML de Visio)
+# <a name="cell-element-ellipticalarcto-row-visio-xml"></a>Elemento Cell (Fila EllipticalArcTo) (Visio XML)
 
-Contiene coordenadas x o y del extremo de un arco elíptico, las coordenadas x o y de los puntos de control del arco, el ángulo desde el eje X hasta el eje principal de la elipse o la relación entre los ejes principales y menores de la elipse.
+Contiene coordenadas x o y del extremo de un arco elíptico, las coordenadas X o Y de los puntos de control en el arco, el ángulo desde el eje X hasta el eje principal de la elipse o la relación entre los ejes principales y los ejes menores de la elipse.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,13 +36,13 @@ Contiene coordenadas x o y del extremo de un arco elíptico, las coordenadas x o
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Elemento Row (Geometría)](row-element-geometry-sectionvisio-xml.md) <br/> |[EllipticalArcTo_Type](ellipticalarcto_type-complextypevisio-xml.md) <br/> |Contiene las coordenadas x o y del extremo de un arco elíptico, las coordenadas x o y de los puntos de control del arco, el ángulo desde el eje X hasta el eje principal de la elipse o la relación entre los ejes principales y menores de la elipse.  <br/> |
+|[Elemento Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[EllipticalArcTo_Type](ellipticalarcto_type-complextypevisio-xml.md) <br/> |Contiene coordenadas x o y del extremo de un arco elíptico, las coordenadas X o Y de los puntos de control en el arco, el ángulo desde el eje X hasta el eje principal de la elipse o la relación entre los ejes principales y los ejes menores de la elipse.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -55,14 +55,14 @@ Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**,
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |E  <br/> |xsd:string  <br/> |opcional  <br/> |Indica que la fórmula se evalúa como un error. El valor de **E** es el valor actual (una cadena de mensaje de error); el valor del atributo **V** es el último valor válido.  <br/> |Una cadena de mensaje de error.  <br/> |
-|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener una de las siguientes cadenas:  <br/>  '(alguna fórmula)' si la fórmula existe localmente  <br/>  `No Formula` si la fórmula se elimina o bloquea localmente  <br/>  `Inh` si la fórmula se hereda.  <br/> |Una fórmula.  <br/> |
+|F  <br/> |xsd:string  <br/> |opcional  <br/> | Representa la fórmula del elemento. Este atributo puede contener una de las cadenas siguientes:  <br/>  '(alguna fórmula)' si la fórmula existe localmente  <br/>  `No Formula` si la fórmula se elimina o bloquea localmente  <br/>  `Inh` si la fórmula se hereda.  <br/> |Una fórmula.  <br/> |
 |N  <br/> |xsd:string  <br/> |necesario  <br/> |Representa el nombre de la celda ShapeSheet.  <br/> |Nombre de la celda ShapeSheet.  <br/> Vea la sección Comentarios a continuación.  <br/> |
 |U  <br/> |xsd:string  <br/> |opcional  <br/> |Representa una unidad de medida El valor predeterminado es DL.  <br/> |Las unidades de la celda.  <br/> |
 |V  <br/> |xsd:string  <br/> |opcional  <br/> |Representa el valor de la celda.  <br/> |Valor de la celda ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El **atributo N** de este elemento **Cell** debe ser uno de un conjunto limitado de valores que corresponden a las celdas de ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** que se permiten para este **elemento Cell.** 
+El **atributo N** de este elemento **Cell** debe ser uno de un conjunto limitado de valores que corresponden a celdas ShapeSheet. Consulte la tabla siguiente para determinar los valores del atributo **N** permitidos para este **elemento Cell.** 
   
 |**Valor**|**Descripción**|**Más información**|
 |:-----|:-----|:-----|

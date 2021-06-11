@@ -1,5 +1,5 @@
 ---
-title: Elemento ProtectShapes (DocumentSettings_Type complexType) (XML de Visio)
+title: Elemento ProtectShapes (DocumentSettings_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540668"
 ---
-# <a name="protectshapes-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectShapes (DocumentSettings_Type complexType) (XML de Visio)
+# <a name="protectshapes-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectShapes (DocumentSettings_Type complexType) (Visio XML)
 
 Especifica si el usuario no puede seleccionar formas que tengan el **elemento LockSelect** establecido en 1. 
   
@@ -36,7 +36,7 @@ Especifica si el usuario no puede seleccionar formas que tengan el **elemento Lo
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

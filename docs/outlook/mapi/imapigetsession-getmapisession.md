@@ -25,7 +25,7 @@ ms.locfileid: "33439614"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un puntero a la sesión MAPI asociada con el objeto de compatibilidad de MAPI.
+Devuelve un puntero a la sesión MAPI asociada con el objeto de soporte técnico MAPI.
   
 ```cpp
 HRESULT GetMAPISession(
@@ -33,18 +33,18 @@ HRESULT GetMAPISession(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lppSession_
   
 > [salida] Puntero a la sesión MAPI actual.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMAPIGetSession : IUnknown](imapigetsessioniunknown.md)
 
 
-[Información general sobre los objetos de soporte técnico](support-object-overview.md)
+[Introducción a los objetos de soporte](support-object-overview.md)
 

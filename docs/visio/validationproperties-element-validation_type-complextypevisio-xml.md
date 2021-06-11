@@ -1,5 +1,5 @@
 ---
-title: Elemento ValidationProperties (Validation_Type complexType) (XML de Visio)
+title: Elemento ValidationProperties (Validation_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538525"
 ---
-# <a name="validationproperties-element-validation_type-complextype-visio-xml"></a>Elemento ValidationProperties (Validation_Type complexType) (XML de Visio)
+# <a name="validationproperties-element-validation_type-complextype-visio-xml"></a>Elemento ValidationProperties (Validation_Type complexType) (Visio XML)
 
 Encapsula las propiedades relacionadas con la validación del documento.
   
@@ -36,7 +36,7 @@ Encapsula las propiedades relacionadas con la validación del documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

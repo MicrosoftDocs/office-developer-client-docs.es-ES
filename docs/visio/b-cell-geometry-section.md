@@ -20,13 +20,13 @@ ms.locfileid: "34537797"
 
 Representa distinta información según las filas. En la tabla siguiente se describe la celda B según la fila en la que se encuentre.
   
-|Fila|Description|
+|Fila|Descripción|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordenada  *y*  del punto de control de un arco.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Último grosor de la spline B racional no uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Primer nodo de una spline.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordenada *y* de un punto en una línea infinita; emparejado con coordenada *x* representada por la [celda A.](a-cell-geometry-section.md)  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | *Coordenada y* de un punto de una elipse; emparejado con coordenada *x* representada por la [celda A.](a-cell-geometry-section.md)  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Una coordenada *y* de un punto en una línea infinita; emparejado con *x* -coordinate representado por la [celda A.](a-cell-geometry-section.md)  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | Una coordenada *y* de un punto en una elipse; emparejado con *x* -coordinate representado por la [celda A.](a-cell-geometry-section.md)  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

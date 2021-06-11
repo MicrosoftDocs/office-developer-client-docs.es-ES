@@ -36,7 +36,7 @@ Para obtener una referencia a la celda Disabled por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | SmartTags.  *nombre*  . Deshabilitado donde SmartTags. *es*  el nombre de la fila de etiqueta de acción  <br/> |
+| Nombre de celda:  <br/> | SmartTags.  *nombre*  . Deshabilitado donde SmartTags. *nombre*  es el nombre de la fila de etiqueta de acción  <br/> |
    
 Para obtener una referencia desde un programa a la celda Disabled por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

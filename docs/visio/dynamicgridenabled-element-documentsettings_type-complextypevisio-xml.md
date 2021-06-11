@@ -1,5 +1,5 @@
 ---
-title: Elemento DynamicGridEnabled (DocumentSettings_Type complexType) (XML de Visio)
+title: Elemento DynamicGridEnabled (DocumentSettings_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540003"
 ---
-# <a name="dynamicgridenabled-element-documentsettings_type-complextype-visio-xml"></a>Elemento DynamicGridEnabled (DocumentSettings_Type complexType) (XML de Visio)
+# <a name="dynamicgridenabled-element-documentsettings_type-complextype-visio-xml"></a>Elemento DynamicGridEnabled (DocumentSettings_Type complexType) (Visio XML)
 
 Especifica si la característica de cuadrícula dinámica está habilitada para un documento.
   
@@ -36,7 +36,7 @@ Especifica si la característica de cuadrícula dinámica está habilitada para 
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

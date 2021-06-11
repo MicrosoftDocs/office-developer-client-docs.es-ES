@@ -1,12 +1,12 @@
 ---
-title: Elemento Icon (Master_Type complexType) (XML de Visio)
+title: Elemento Icon (Master_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 80061e7d-dbcb-f7a1-b63a-052eee4ec7d7
-description: Especifica un icono binario codificado MIME (Extensiones multipropósito al correo de Internet) (en formato .ico) para un elemento Master de un documento.
+description: Especifica un icono binario codificado MIME (Multipurpose Internet Mail Extensions) (en formato .ico) para un elemento Master de un documento.
 ms.openlocfilehash: fb66e79348b6fba5d5dfd163e6165e7c1bfddfcd
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537748"
 ---
-# <a name="icon-element-master_type-complextype-visio-xml"></a>Elemento Icon (Master_Type complexType) (XML de Visio)
+# <a name="icon-element-master_type-complextype-visio-xml"></a>Elemento Icon (Master_Type complexType) (Visio XML)
 
-Especifica un icono binario codificado MIME (Extensiones multipropósito al correo de Internet) (en formato .ico) para un elemento Master de un documento.
+Especifica un icono binario codificado MIME (Multipurpose Internet Mail Extensions) (en formato .ico) para un elemento Master de un documento.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Especifica un icono binario codificado MIME (Extensiones multipropósito al corr
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

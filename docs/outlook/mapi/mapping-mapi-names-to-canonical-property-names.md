@@ -23,11 +23,11 @@ ms.locfileid: "34542705"
   
 En este tema se asigna cada propiedad MAPI al nombre de la propiedad canónica correspondiente. El tema contiene tres tablas: una tabla para propiedades con nombre con identificadores numéricos, una segunda tabla para propiedades con nombre con identificadores de cadena y una tercera tabla para propiedades etiquetadas.
   
-Para obtener más información acerca de cómo se relacionan las propiedades canónicas con las propiedades MAPI, vea [Propiedades canónicas de MAPI](mapi-canonical-properties.md).
+Para obtener más información sobre cómo se relacionan las propiedades canónicas con las propiedades MAPI, vea [Mapi Canonical Properties](mapi-canonical-properties.md).
   
 ## <a name="named-properties-with-numerical-identifiers"></a>Propiedades con nombre con identificadores numéricos
 
-|**Actual Named (propiedad)**|**Nombre de propiedad canónica**|
+|**Real Named (propiedad)**|**Nombre de la propiedad canónica**|
 |:-----|:-----|
 |dispidABPArrayType  <br/> |[PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md) <br/> |
 |dispidABPEmailList  <br/> |[PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md) <br/> |
@@ -306,7 +306,7 @@ Para obtener más información acerca de cómo se relacionan las propiedades can
    
 ## <a name="named-properties-with-string-identifiers"></a>Propiedades con nombre con identificadores de cadena
 
-|**Actual Named (propiedad)**|**Nombre de propiedad canónica**|
+|**Real Named (propiedad)**|**Nombre de la propiedad canónica**|
 |:-----|:-----|
 |Accept-Language  <br/> |[PidNameAcceptLanguage](pidnameacceptlanguage-canonical-property.md) <br/> |
 |AppName  <br/> |[PidNameApplicationName](pidnameapplicationname-canonical-property.md) <br/> |
@@ -317,7 +317,7 @@ Para obtener más información acerca de cómo se relacionan las propiedades can
 |Categoría  <br/> |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |
 |CharCount  <br/> |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |
 |Comentarios  <br/> |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |
-|Company  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
+|Empresa  <br/> |[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |
 |Content-Base  <br/> |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |
 |Content-Class  <br/> |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |
 |Codificación de la transferencia de contenido  <br/> |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |
@@ -344,7 +344,7 @@ Para obtener más información acerca de cómo se relacionan las propiedades can
 |SlideCount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
 |Subject  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
 |Plantilla  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
-|El título  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
+|Title  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |
 |WordCount  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
 |X-Sharing-Capabilities  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
@@ -358,11 +358,11 @@ Para obtener más información acerca de cómo se relacionan las propiedades can
 |X-Sharing-Remote-Store-Uid  <br/> |[PidNameXSharingRemoteStoreUid](pidnamexsharingremotestoreuid-canonical-property.md) <br/> |
 |X-Sharing-Remote-Type  <br/> |[PidNameXSharingRemoteType](pidnamexsharingremotetype-canonical-property.md) <br/> |
 |X-Sharing-Remote-Uid  <br/> |[PidNameXSharingRemoteUid](pidnamexsharingremoteuid-canonical-property.md) <br/> |
-|Xref  <br/> |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |
+|RefX  <br/> |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |
    
 ## <a name="tagged-properties"></a>Propiedades etiquetadas
 
-|**Actual Tagged (propiedad)**|**Nombre de propiedad canónica**|
+|**Real Tagged (propiedad)**|**Nombre de la propiedad canónica**|
 |:-----|:-----|
 |PR_7BIT_DISPLAY_NAME_A  <br/> |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |
 |PR_7BIT_DISPLAY_NAME_W  <br/> |[PidTag7BitDisplayName](pidtag7bitdisplayname-canonical-property.md) <br/> |

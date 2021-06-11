@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251423
 localization_priority: Normal
 ms.assetid: 6788bc96-cc86-5f21-781f-67274e7f605a
-description: Redondear un número hacia 0 (cero), al siguiente entero o a la siguiente instancia de múltiplo.
+description: Redondear un número hacia 0 (cero), al número entero siguiente o a la siguiente instancia de varios.
 ms.openlocfilehash: 7a16a77a990180f34dd7a5706c24ec3232438467
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33439901"
 ---
 # <a name="floor-function"></a>Función FLOOR
 
-Redondea un número hacia 0 (cero), al siguiente entero o a la siguiente instancia de  _varios_.
+Redondear un número hacia 0 (cero), al número entero siguiente o a la siguiente instancia de  _varios_.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -37,9 +37,9 @@ Número
   
 ## <a name="remarks"></a>Comentarios
 
-Si  _no_ se especifica multiple, el número se redondea hacia 0 al siguiente entero. 
+Si  _no_ se especifica multiple, el número se redondea hacia 0 al número entero siguiente. 
   
- _El_ número  _y el_ múltiplo deben tener los mismos signos o un #NUM! se devuelve. Si no  _se_  _puede_ convertir un número o varios en un valor, #VALUE! se devuelve. Si el  _número_ o  _múltiplo_ es 0, el resultado es 0. 
+ _Número_ y  _múltiplo_ deben tener los mismos signos, o un #NUM! error se devuelve. Si no  _se_  _puede_ convertir un número o varios en un valor, #VALUE! error se devuelve. Si número  _o_  _múltiplo_ es 0, el resultado es 0. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

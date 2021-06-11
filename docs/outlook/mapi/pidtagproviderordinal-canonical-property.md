@@ -25,20 +25,20 @@ ms.locfileid: "33438354"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el índice de base cero de la posición de un proveedor de servicios en la tabla del proveedor.
+Contiene el índice basado en cero de la posición de un proveedor de servicios en la tabla del proveedor.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PROVIDER_ORDINAL  <br/> |
 |Identificador:  <br/> |0x300D  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Mapi común  <br/> |
+|Área:  <br/> |MAPI común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 MAPI calcula esta propiedad.
   
-Obtenga la tabla del proveedor llamando al [método IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Ordene la tabla del proveedor en esta propiedad para mostrar el orden de transporte. 
+Para obtener la tabla de proveedor, llame al [método IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Ordene la tabla de proveedor de esta propiedad para mostrar el orden de transporte. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

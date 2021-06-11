@@ -1,12 +1,12 @@
 ---
-title: Elemento ShowPageBreaks (Window_Type complexType) (XML de Visio)
+title: Elemento ShowPageBreaks (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a8c29d9-31d9-dd77-09c5-6e9eaf870552
-description: Especifica si se muestran saltos de página en una ventana.
+description: Especifica si los saltos de página se muestran en una ventana.
 ms.openlocfilehash: 85450dedcfdf07929aafb92e59c29e474a5fb626
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541445"
 ---
-# <a name="showpagebreaks-element-window_type-complextype-visio-xml"></a>Elemento ShowPageBreaks (Window_Type complexType) (XML de Visio)
+# <a name="showpagebreaks-element-window_type-complextype-visio-xml"></a>Elemento ShowPageBreaks (Window_Type complexType) (Visio XML)
 
-Especifica si se muestran saltos de página en una ventana.
+Especifica si los saltos de página se muestran en una ventana.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Especifica si se muestran saltos de página en una ventana.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

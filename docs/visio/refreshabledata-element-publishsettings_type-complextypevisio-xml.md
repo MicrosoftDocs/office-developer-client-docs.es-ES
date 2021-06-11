@@ -1,12 +1,12 @@
 ---
-title: Elemento RefreshableData (PublishSettings_Type complexType) (XML de Visio)
+title: Elemento RefreshableData (PublishSettings_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
-description: Especifica si un conjunto de registros se puede actualizar mediante Servicios de Visio en Microsoft SharePoint Server 2013.
+description: Especifica si un conjunto de registros se puede actualizar mediante Visio services en Microsoft SharePoint Server 2013.
 ms.openlocfilehash: 21a0a5c198998c4b230be88c6bd9f96b25265990
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542880"
 ---
-# <a name="refreshabledata-element-publishsettings_type-complextype-visio-xml"></a>Elemento RefreshableData (PublishSettings_Type complexType) (XML de Visio)
+# <a name="refreshabledata-element-publishsettings_type-complextype-visio-xml"></a>Elemento RefreshableData (PublishSettings_Type complexType) (Visio XML)
 
-Especifica si un conjunto de registros se puede actualizar mediante Servicios de Visio en Microsoft SharePoint Server 2013.
+Especifica si un conjunto de registros se puede actualizar mediante Visio services en Microsoft SharePoint Server 2013.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -37,13 +37,13 @@ Especifica si un conjunto de registros se puede actualizar mediante Servicios de
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Especifica la configuración que se usa cuando se abre el diagrama mediante Servicios de Visio.  <br/> |
+|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Especifica la configuración que se usa cuando se abre el diagrama mediante Visio Services.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 

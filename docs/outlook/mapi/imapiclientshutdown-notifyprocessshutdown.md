@@ -39,9 +39,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Para evitar la pérdida de datos debido al apagado rápido de un cliente MAPI, los clientes MAPI deben llamar a los métodos **IMAPIClientShutdown::NotifyProcessShutdown** e [IMAPIClientShutdown::D oFastShutdown](imapiclientshutdown-dofastshutdown.md) basándose en el resultado S_OK devuelto por el subsistema MAPI en el método [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Para obtener más información, vea [Procedimientos recomendados para el apagado rápido.](best-practices-for-fast-shutdown.md)
+Para evitar la pérdida de datos por el apagado rápido de un cliente MAPI, los clientes MAPI deben llamar a los métodos **IMAPIClientShutdown::NotifyProcessShutdown** [e IMAPIClientShutdown::D oFastShutdown](imapiclientshutdown-dofastshutdown.md) en función del resultado S_OK devuelto por el subsistema MAPI en el método [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Para obtener más información, vea [Procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

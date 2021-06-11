@@ -1,5 +1,5 @@
 ---
-title: Elemento RefBy (Trigger_Type complexType) (XML de Visio)
+title: Elemento RefBy (Trigger_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538294"
 ---
-# <a name="refby-element-trigger_type-complextype-visio-xml"></a>Elemento RefBy (Trigger_Type complexType) (XML de Visio)
+# <a name="refby-element-trigger_type-complextype-visio-xml"></a>Elemento RefBy (Trigger_Type complexType) (Visio XML)
 
 Especifica una referencia a una página del dibujo.
   
@@ -36,13 +36,13 @@ Especifica una referencia a una página del dibujo.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Proporciona instrucciones a Microsoft Visio para recalcular una relación entre elementos de documento en un archivo de Visio.  <br/> |
+|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Proporciona instrucciones a Microsoft Visio para volver a calcular una relación entre elementos de documento en un Visio archivo.  <br/> |
 
    
 ### <a name="child-elements"></a>Elementos secundarios
@@ -53,7 +53,7 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Especifica el atributo id. de una página del dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Especifica el atributo ID de una página en el dibujo.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |T  <br/> |xsd:string  <br/> |necesario  <br/> |Especifica el tipo de referencia.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

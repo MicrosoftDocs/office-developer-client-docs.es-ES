@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251401
 localization_priority: Normal
 ms.assetid: 672eacaf-a374-c7e2-b39b-8d42d2371aee
-description: Devuelve un número binario de 16 bits en el que cada bit se establece en 1 si el bit correspondiente en cualquiera de los dos, pero no el número binario1 y el número binario2 es 1. De lo contrario, el bit se establece en 0.
+description: Devuelve un número binario de 16 bits en el que cada bit se establece en 1 si el bit correspondiente en cualquiera de los dos, pero no tanto el número binario1 como el número binario2 es 1. De lo contrario, el bit se establece en 0.
 ms.openlocfilehash: ab8ff46fe98512d963ef4ecd5c37127353827725
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33439236"
 ---
 # <a name="bitxor-function"></a>Función BITXOR
 
-Devuelve un número binario de 16 bits en el que cada bit se establece en 1 si el bit correspondiente en cualquiera de los dos, pero no el número binario1 y el número binario2 es 1. De lo contrario, el bit se establece en 0.
+Devuelve un número binario de 16 bits en el que cada bit se establece en 1 si el bit correspondiente en cualquiera de los dos, pero no tanto el número binario1 como el número binario2 es 1. De lo contrario, el bit se establece en 0.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -28,8 +28,8 @@ BITXOR(** *binary number1* **, ** *binary number2* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _binary number1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El primer número binario de 16 bits.  <br/> |
-| _binary number2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El segundo número binario de 16 bits.  <br/> |
+| _número binario1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El primer número binario de 16 bits.  <br/> |
+| _número binario2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El segundo número binario de 16 bits.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

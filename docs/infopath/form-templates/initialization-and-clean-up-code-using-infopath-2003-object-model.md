@@ -126,7 +126,7 @@ Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
 End Sub
 ```
 
-Para obtener información sobre cómo crear un controlador de eventos, vea Agregar un controlador de eventos mediante el modelo de objetos de [InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Para obtener información sobre cómo crear un controlador de eventos, vea [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="the-_shutdown-method"></a>Método _ShutDown
 
@@ -148,7 +148,7 @@ El método  `_Shutdown` es el último método al que se llama cuando se cierra u
 En el ejemplo siguiente, se muestra cómo inicializar una conexión a una base de datos de Microsoft SQL Server en el método  `_Startup` y cerrar la conexión en el método  `_Shutdown`. Para que este ejemplo funcione correctamente, primero debe establecer una referencia al ensamblado System.Data de .NET Framework, haciendo clic en la opción **Agregar referencia** del menú **Proyecto** y, después, debe seleccionar el componente System.Data.dll en la ficha **.NET**. Tenga en cuenta, además, que la directiva  `using System.Data.SqlClient` (o  `Imports System.Data.SqlClient)`) se agrega al principio del archivo de código del formulario para reducir el número de pulsaciones. 
   
 > [!NOTE]
-> [!NOTA] Puede que los usuarios de un formulario de InfoPath que contenga código que se conecte a una base de datos de SQL necesiten permisos de seguridad según la forma en que se implemente el formulario y cómo se defina la directiva de seguridad. Para obtener más información sobre la seguridad, vea Acerca del modelo de [seguridad](about-the-security-model-for-form-templates-with-code.md) de plantillas de formulario con código y Configuración de la seguridad de plantillas [de formulario con código.](how-to-configure-security-settings-for-form-templates-with-code.md) 
+> [!NOTA] Puede que los usuarios de un formulario de InfoPath que contenga código que se conecte a una base de datos de SQL necesiten permisos de seguridad según la forma en que se implemente el formulario y cómo se defina la directiva de seguridad. Para obtener más información sobre la seguridad, vea [About the Security Model for Form Templates with Code](about-the-security-model-for-form-templates-with-code.md) y Configure Security Configuración for Form Templates with [Code](how-to-configure-security-settings-for-form-templates-with-code.md). 
   
 ```cs
 using System;
@@ -217,7 +217,7 @@ Namespace Template1
 End Namespace
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

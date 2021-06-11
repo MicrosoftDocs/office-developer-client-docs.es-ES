@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251402
 localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
-description: Devuelve el componente azul de un color. El valor devuelto es un entero comprendido entre 0 y 255, ambos inclusive. La función devuelve 0 para la entrada no válida.
+description: Devuelve el componente azul de un color. El valor devuelto es un entero entre 0 y 255, ambos incluidos. La función devuelve 0 para la entrada no válida.
 ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33439040"
 ---
 # <a name="blue-function"></a>Función BLUE
 
-Devuelve el componente azul de un color. El valor devuelto es un entero entre 0 y 255, ambos inclusive. La función devuelve 0 para la entrada no válida.
+Devuelve el componente azul de un color. El valor devuelto es un entero entre 0 y 255, ambos incluidos. La función devuelve 0 para la entrada no válida.
   
 ## <a name="syntax"></a>Sintaxis
 
-BLUE(** *expression* ** ) 
+BLUE(** *expresión* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

@@ -1,5 +1,5 @@
 ---
-title: Elemento ProtectBkgnds (DocumentSettings_Type complexType) (XML de Visio)
+title: Elemento ProtectBkgnds (DocumentSettings_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540752"
 ---
-# <a name="protectbkgnds-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectBkgnds (DocumentSettings_Type complexType) (XML de Visio)
+# <a name="protectbkgnds-element-documentsettings_type-complextype-visio-xml"></a>Elemento ProtectBkgnds (DocumentSettings_Type complexType) (Visio XML)
 
 Especifica si se impide que el usuario elimine o edite páginas en segundo plano.
   
@@ -36,7 +36,7 @@ Especifica si se impide que el usuario elimine o edite páginas en segundo plano
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

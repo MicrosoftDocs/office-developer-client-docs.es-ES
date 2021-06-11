@@ -1,5 +1,5 @@
 ---
-title: Elemento Masters (XML de Visio)
+title: Elemento Masters (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538056"
 ---
-# <a name="masters-element-visio-xml"></a>Elemento Masters (XML de Visio)
+# <a name="masters-element-visio-xml"></a>Elemento Masters (Visio XML)
 
 Contiene los elementos Master del documento.
   
@@ -36,7 +36,7 @@ Contiene los elementos Master del documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -47,7 +47,7 @@ Ninguno.
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
 |[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen un patrón para el documento.  <br/> |
-|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Especifica un acceso directo de patrón definido en el documento.  <br/> |
+|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Especifica un método abreviado maestro definido en el documento.  <br/> |
    
 ### <a name="attributes"></a>Atributos
 

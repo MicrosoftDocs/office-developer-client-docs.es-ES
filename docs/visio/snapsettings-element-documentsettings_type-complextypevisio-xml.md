@@ -1,5 +1,5 @@
 ---
-title: Elemento SnapSettings (DocumentSettings_Type complexType) (XML de Visio)
+title: Elemento SnapSettings (DocumentSettings_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540297"
 ---
-# <a name="snapsettings-element-documentsettings_type-complextype-visio-xml"></a>Elemento SnapSettings (DocumentSettings_Type complexType) (XML de Visio)
+# <a name="snapsettings-element-documentsettings_type-complextype-visio-xml"></a>Elemento SnapSettings (DocumentSettings_Type complexType) (Visio XML)
 
 Especifica los objetos a los que se acoplan las formas cuando el ajuste está activo en la ventana.
   
@@ -36,7 +36,7 @@ Especifica los objetos a los que se acoplan las formas cuando el ajuste está ac
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -59,16 +59,16 @@ El valor puede ser una suma de los valores de la tabla siguiente.
 |**Valor**|**Descripción**|
 |:-----|:-----|
 |0  <br/> |No se ajusta a ningún objeto.  <br/> |
-|1   <br/> |Se ajusta a subdivisiones de regla.  <br/> |
-|2   <br/> |Se ajusta a la cuadrícula.  <br/> |
+|1  <br/> |Acoplar a subdivisiones de regla.  <br/> |
+|2  <br/> |Acoplar a la cuadrícula.  <br/> |
 |4   <br/> |Se ajusta a las guías.  <br/> |
 |8   <br/> |Se ajustan a asas de selección.  <br/> |
 |16   <br/> |Se ajusta a los vértices.  <br/> |
 |32  <br/> |Se ajusta a los puntos de conexión.  <br/> |
-|256  <br/> |Se ajusta a los bordes visibles de las formas.  <br/> |
-|512  <br/> |Se ajusta al cuadro de alineación.  <br/> |
+|256  <br/> |Acoplar a los bordes visibles de las formas.  <br/> |
+|512  <br/> |Acoplar al cuadro de alineación.  <br/> |
 |1024  <br/> |Se ajusta a las opciones de extensión de las formas.  <br/> |
-|32768  <br/> |Ajuste deshabilitado.  <br/> |
+|32768  <br/> |Acoplar deshabilitada.  <br/> |
 |65536  <br/> |Se ajusta a las intersecciones.  <br/> |
    
 

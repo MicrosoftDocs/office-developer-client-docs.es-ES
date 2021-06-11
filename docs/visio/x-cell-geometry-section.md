@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1135
 localization_priority: Normal
 ms.assetid: 2416b323-e084-18e1-c9be-a797078dfab9
-description: Representa una coordenada x de una forma en coordenadas locales. En la tabla siguiente se describe la celda X según la fila en la que se encuentre.
+description: Representa una coordenada x en una forma en coordenadas locales. En la tabla siguiente se describe la celda X según la fila en la que se encuentre.
 ms.openlocfilehash: 2b3303533db446780ef797844ac5e1438cec242f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -18,20 +18,20 @@ ms.locfileid: "34538217"
 ---
 # <a name="x-cell-geometry-section"></a>Celda X (Sección de geometría)
 
-Representa una coordenada  *x*  de una forma en coordenadas locales. En la tabla siguiente se describe la celda X según la fila en la que se encuentre. 
+Representa una coordenada  *x*  en una forma en coordenadas locales. En la tabla siguiente se describe la celda X según la fila en la que se encuentre. 
   
-|Fila|Description|
+|Fila|Descripción|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> | Si la fila MoveTo es la primera fila de la sección, la celda X representa la coordenada  *x*  del primer vértice de una ruta de acceso. Si la fila MoveTo aparece entre dos filas, la celda X representa la coordenada  *x*  del primer vértice después del salto en la ruta de acceso.  <br/> |
-|[LineTo](lineto-row-geometry-section.md) <br/> | Coordenada  *x*  del vértice final de un segmento de línea recta.  <br/> |
+|[LineTo](lineto-row-geometry-section.md) <br/> | La coordenada  *x*  del vértice final de un segmento de línea recta.  <br/> |
 |[ArcTo](arcto-row-geometry-section.md) <br/> | Coordenada  *x*  del vértice final de un arco.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordenada  *x*  del vértice final de un arco elíptico.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> | Coordenada  *x*  del vértice final de una polilínea.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Coordenada  *x*  del último punto de control de una spline B racional no uniforme (NURBS).  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | La coordenada  *x*  del vértice final de un arco elíptico.  <br/> |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> | La coordenada  *x*  del vértice final de una polilínea.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | La coordenada  *x*  del último punto de control de una spline B racional no uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Coordenada  *x*  del segundo punto de control de una spline.  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> | Coordenada  *x*  de un punto de control.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordenada  *x*  de un punto de la línea infinita.  <br/> |
-|[Elipse](ellipse-row-geometry-section.md) <br/> | Coordenada  *x*  del centro de la elipse.  <br/> |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> | La coordenada  *x*  de un punto de control.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Una coordenada  *x*  de un punto en la línea infinita.  <br/> |
+|[Elipse](ellipse-row-geometry-section.md) <br/> | La coordenada  *x*  del centro de la elipse.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

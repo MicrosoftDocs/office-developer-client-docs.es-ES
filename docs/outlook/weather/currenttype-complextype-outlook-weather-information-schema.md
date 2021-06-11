@@ -1,5 +1,5 @@
 ---
-title: currentType complexType (esquema de información meteorológica de Outlook)
+title: currentType complexType (Outlook de información meteorológica)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540990"
 ---
-# <a name="currenttype-complextype-outlook-weather-information-schema"></a>currentType complexType (esquema de información meteorológica de Outlook)
+# <a name="currenttype-complextype-outlook-weather-information-schema"></a>currentType complexType (Outlook de información meteorológica)
 
 Define los parámetros sobre las condiciones meteorológicas actuales de una ubicación.
   
@@ -49,7 +49,7 @@ Define los parámetros sobre las condiciones meteorológicas actuales de una ubi
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -59,17 +59,17 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|date  <br/> |xs:date  <br/> |necesario  <br/> |Especifica la fecha de hoy.  <br/> |Un valor del tipo xs:date  <br/> |
-|day  <br/> |xs:string  <br/> |opcional  <br/> |Especifica un día para la previsión.  <br/> |Un valor del tipo xs:string  <br/> |
-|feelslike  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura de la sensación meteorológica actual.  <br/> |Un valor del tipo xs:integer  <br/> |
-|desa.  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica el valor numérico actual de la humedad.  <br/> |Un valor del tipo xs:integer  <br/> |
-|observationpoint  <br/> |xs:string  <br/> |necesario  <br/> |Especifica de dónde se observa la información meteorológica actual.  <br/> |Un valor del tipo xs:string  <br/> |
-|observationtime  <br/> |xs:time  <br/> |necesario  <br/> |Especifica cuándo se observa la información meteorológica actual.  <br/> |Un valor del tipo xs:time  <br/> |
-|shortday  <br/> |xs:string  <br/> |opcional  <br/> |Especifica un día en forma abreviada.  <br/> |Un valor del tipo xs:string  <br/> |
-|skycode  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica un código entero para las condiciones meteorológicas actuales.  <br/> |Un valor del tipo xs:integer  <br/> |
-|skytext  <br/> |xs:string  <br/> |necesario  <br/> |Especifica de una a dos palabras que describen las condiciones meteorológicas actuales.  <br/> |Un valor del tipo xs:string  <br/> |
-|temperature  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura actual de la ubicación.  <br/> |Un valor del tipo xs:integer  <br/> |
-|winddisplay  <br/> |xs:string  <br/> |necesario  <br/> |Cadena que describe las condiciones actuales del aire.  <br/> |Un valor del tipo xs:string  <br/> |
-|windspeed  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica el valor de velocidad de energía numérico actual.  <br/> |Un valor del tipo xs:integer  <br/> |
+|date  <br/> |xs:date  <br/> |necesario  <br/> |Especifica la fecha de hoy.  <br/> |Valor del tipo xs:date  <br/> |
+|día  <br/> |xs:string  <br/> |opcional  <br/> |Especifica un día para la previsión.  <br/> |Valor del tipo xs:string  <br/> |
+|feelslike  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura de cómo se siente el tiempo actual.  <br/> |Valor del tipo xs:integer  <br/> |
+|humedad  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica el valor de humedad numérica actual.  <br/> |Valor del tipo xs:integer  <br/> |
+|observationpoint  <br/> |xs:string  <br/> |necesario  <br/> |Especifica desde dónde se observa la información meteorológica actual.  <br/> |Valor del tipo xs:string  <br/> |
+|tiempo de observación  <br/> |xs:time  <br/> |necesario  <br/> |Especifica cuándo se observa la información meteorológica actual en.  <br/> |Valor del tipo xs:time  <br/> |
+|shortday  <br/> |xs:string  <br/> |opcional  <br/> |Especifica un día en forma abreviada.  <br/> |Valor del tipo xs:string  <br/> |
+|skycode  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica un código entero para las condiciones meteorológicas actuales.  <br/> |Valor del tipo xs:integer  <br/> |
+|skytext  <br/> |xs:string  <br/> |necesario  <br/> |Especifica de una a dos palabras que describen las condiciones meteorológicas actuales.  <br/> |Valor del tipo xs:string  <br/> |
+|temperatura  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura actual de la ubicación.  <br/> |Valor del tipo xs:integer  <br/> |
+|winddisplay  <br/> |xs:string  <br/> |necesario  <br/> |Cadena que describe las condiciones de viento actuales.  <br/> |Valor del tipo xs:string  <br/> |
+|windspeed  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica el valor de velocidad de viento numérico actual.  <br/> |Valor del tipo xs:integer  <br/> |
    
 

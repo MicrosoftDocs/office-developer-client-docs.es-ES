@@ -1,12 +1,12 @@
 ---
-title: Elemento RuleFilter (Rule_Type complexType) (XML de Visio)
+title: Elemento RuleFilter (Rule_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b05497e6-722f-9203-e03c-0f14a712cddb
-description: Especifica la expresión lógica que determina si se debe aplicar la regla de validación a un objeto de destino.
+description: Especifica la expresión lógica que determina si la regla de validación debe aplicarse a un objeto de destino.
 ms.openlocfilehash: 3abcd7e2dd093fa8e2321052e73835db22c150db
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541683"
 ---
-# <a name="rulefilter-element-rule_type-complextype-visio-xml"></a>Elemento RuleFilter (Rule_Type complexType) (XML de Visio)
+# <a name="rulefilter-element-rule_type-complextype-visio-xml"></a>Elemento RuleFilter (Rule_Type complexType) (Visio XML)
 
-Especifica la expresión lógica que determina si se debe aplicar la regla de validación a un objeto de destino.
+Especifica la expresión lógica que determina si la regla de validación debe aplicarse a un objeto de destino.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Especifica la expresión lógica que determina si se debe aplicar la regla de va
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

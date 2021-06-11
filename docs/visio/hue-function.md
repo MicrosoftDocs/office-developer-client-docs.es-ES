@@ -22,7 +22,7 @@ Devuelve el valor del componente de matiz de un color.
   
 ## <a name="syntax"></a>Sintaxis
 
-HUE(** *expression* ** ) 
+HUE(** *expresión* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

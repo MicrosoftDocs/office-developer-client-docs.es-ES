@@ -1,5 +1,5 @@
 ---
-title: Elemento DataRecordSets (XML de Visio)
+title: Elemento DataRecordSets (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542446"
 ---
-# <a name="datarecordsets-element-visio-xml"></a>Elemento DataRecordSets (XML de Visio)
+# <a name="datarecordsets-element-visio-xml"></a>Elemento DataRecordSets (Visio XML)
 
 Contiene todos los **elementos DataRecordset** del documento. 
   
@@ -36,7 +36,7 @@ Contiene todos los **elementos DataRecordset** del documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,8 +52,8 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Identificador del conjunto de registros  de datos activo en la ventana Datos externos cuando se cierra la ventana, para que se pueda restaurar la próxima vez que se abra la ventana.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|DataWindowOrder  <br/> |xsd:string  <br/> |opcional  <br/> |Orden de los conjuntos de registros de datos que se muestran en las fichas de la **ventana Datos externos.** Una lista ordenada de los IDs del conjunto de registros de datos, separados por punto y coma.  <br/> |Valores del tipo xsd:string.  <br/> |
+|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Identificador del conjunto de registros de datos activo en la ventana **Datos** externos cuando se cierra la ventana, de modo que se pueda restaurar la próxima vez que se abra la ventana.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|DataWindowOrder  <br/> |xsd:string  <br/> |opcional  <br/> |El orden de los conjuntos de registros de datos que se muestran en las pestañas de la **ventana Datos** externos. Una lista ordenada de los IDs del conjunto de registros de datos, separados por punto y coma.  <br/> |Valores del tipo xsd:string.  <br/> |
 |NextID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El siguiente identificador disponible para un nuevo conjunto de registros de datos.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Celda BevelBottomWidth (Sección de propiedades de bisel)
+title: Celda BevelBottomWidth (sección Propiedades biseladas)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439677"
 ---
-# <a name="bevelbottomwidth-cell-bevel-properties-section"></a>Celda BevelBottomWidth (Sección de propiedades de bisel)
+# <a name="bevelbottomwidth-cell-bevel-properties-section"></a>Celda BevelBottomWidth (sección Propiedades biseladas)
 
 Determina el ancho del bisel inferior en puntos. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **BevelBottomWidth** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **BevelBottomWidth** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la propiedad **CellsU,** use: 
   
 |||
 |:-----|:-----|

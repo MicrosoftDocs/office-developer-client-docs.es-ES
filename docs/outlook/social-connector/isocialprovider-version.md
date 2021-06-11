@@ -29,7 +29,7 @@ Cadena que contiene el número de versión del proveedor.
   
 ## <a name="remarks"></a>Comentarios
 
-La cadena de versión debe usar  _MajorVersion_. _Formato MinorVersion_ (por ejemplo, 1,4730). 
+La cadena de versión debe usar  _majorversion_. _Formato MinorVersion_ (por ejemplo, 1.4730). 
   
 ## <a name="see-also"></a>Vea también
 

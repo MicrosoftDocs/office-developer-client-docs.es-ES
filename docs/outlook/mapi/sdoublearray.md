@@ -40,11 +40,11 @@ typedef struct _SDoubleArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
-> Recuento de valores de la matriz a la que apunta el **miembro lpdbl.** 
+> Recuento de valores en la matriz a la que apunta el **miembro lpdbl.** 
     
  **lpdbl**
   
@@ -52,9 +52,9 @@ typedef struct _SDoubleArray
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca PT_MV_DOUBLE, vea [Lista de tipos de propiedad](property-types.md).
+Para obtener más información acerca PT_MV_DOUBLE, [vea Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

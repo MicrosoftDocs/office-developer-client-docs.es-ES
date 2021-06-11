@@ -1,5 +1,5 @@
 ---
-title: forecastType complexType (esquema de información meteorológica de Outlook)
+title: forecastType complexType (Outlook de información meteorológica)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540955"
 ---
-# <a name="forecasttype-complextype-outlook-weather-information-schema"></a>forecastType complexType (esquema de información meteorológica de Outlook)
+# <a name="forecasttype-complextype-outlook-weather-information-schema"></a>forecastType complexType (Outlook de información meteorológica)
 
 Define los parámetros sobre las condiciones meteorológicas de previsión de una ubicación.
   
@@ -45,7 +45,7 @@ Define los parámetros sobre las condiciones meteorológicas de previsión de un
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -55,13 +55,13 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|date  <br/> |xs:date  <br/> |necesario  <br/> |Especifica la fecha de la previsión.  <br/> |Un valor del tipo xs:date  <br/> |
-|day  <br/> |xs:string  <br/> |necesario  <br/> |Especifica un día para la previsión.  <br/> |Un valor del tipo xs:string  <br/> |
-|high  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura más alta prevista.  <br/> |Un valor del tipo xs:integer  <br/> |
-|low  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura más baja prevista.  <br/> |Un valor del tipo xs:integer  <br/> |
-|precip  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica el porcentaje de probabilidad de que se puedan realizar resaltes.  <br/> |Un valor del tipo xs:integer  <br/> |
-|shortday  <br/> |xs:string  <br/> |necesario  <br/> |Especifica un día en forma abreviada.  <br/> |Un valor del tipo xs:string  <br/> |
-|skycodeday  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica un código para las condiciones previstas.  <br/> |Un valor del tipo xs:integer  <br/> |
-|skytextday  <br/> |xs:string  <br/> |necesario  <br/> |Especifica de una a dos palabras que describen las condiciones previstas.  <br/> |Un valor del tipo xs:string  <br/> |
+|date  <br/> |xs:date  <br/> |necesario  <br/> |Especifica la fecha de la previsión.  <br/> |Valor del tipo xs:date  <br/> |
+|día  <br/> |xs:string  <br/> |necesario  <br/> |Especifica un día para la previsión.  <br/> |Valor del tipo xs:string  <br/> |
+|high  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura más alta prevista.  <br/> |Valor del tipo xs:integer  <br/> |
+|low  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica la temperatura más baja prevista.  <br/> |Valor del tipo xs:integer  <br/> |
+|precip  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica el porcentaje de posibilidad de precipitación.  <br/> |Valor del tipo xs:integer  <br/> |
+|shortday  <br/> |xs:string  <br/> |necesario  <br/> |Especifica un día en forma abreviada.  <br/> |Valor del tipo xs:string  <br/> |
+|skycodeday  <br/> |xs:integer  <br/> |necesario  <br/> |Especifica un código para las condiciones previstas.  <br/> |Valor del tipo xs:integer  <br/> |
+|skytextday  <br/> |xs:string  <br/> |necesario  <br/> |Especifica de una a dos palabras que describen las condiciones previstas.  <br/> |Valor del tipo xs:string  <br/> |
    
 

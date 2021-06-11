@@ -25,19 +25,19 @@ ms.locfileid: "33439446"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Identifica la cuenta con la que está asociado el elemento de encabezado, principalmente para implementar la funcionalidad pop Leave on Server. 
+Identifica la cuenta a la que está asociado el elemento de encabezado, principalmente para implementar la funcionalidad de licencia POP en el servidor. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas  <br/> |dispidRemoteXP  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Remote  <br/> |
-|Long ID (LID):  <br/> |0x00008F03  <br/> |
+|Id. largo (LID):  <br/> |0x00008F03  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8  <br/> |
 |Área:  <br/> |Mensaje remoto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad solo es relevante en los mensajes que tienen una clase de mensaje de IPM. Remoto. Microsoft Outlook mantiene una asignación de varias cuentas que se descargan en un almacén determinado en un mensaje de información asociada a carpetas (FAI), pero también podría mantener esta información en el Registro.
+Esta propiedad solo es relevante en los mensajes que tienen una clase de mensaje de IPM. Remoto. Microsoft Outlook guarda una asignación de varias cuentas que se descargan en un almacén determinado en un mensaje de información asociada a carpetas (FAI), pero también podría mantener esta información en el Registro.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

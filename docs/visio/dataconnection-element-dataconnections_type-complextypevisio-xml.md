@@ -1,5 +1,5 @@
 ---
-title: Elemento DataConnection (DataConnections_Type complexType) (XML de Visio)
+title: Elemento DataConnection (DataConnections_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538406"
 ---
-# <a name="dataconnection-element-dataconnections_type-complextype-visio-xml"></a>Elemento DataConnection (DataConnections_Type complexType) (XML de Visio)
+# <a name="dataconnection-element-dataconnections_type-complextype-visio-xml"></a>Elemento DataConnection (DataConnections_Type complexType) (Visio XML)
 
 Abstrae la comunicación entre uno o varios **elementos DataRecordset** y un origen de datos que no es XML. 
   
@@ -36,7 +36,7 @@ Abstrae la comunicación entre uno o varios **elementos DataRecordset** y un ori
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -54,10 +54,10 @@ Ninguno.
 |:-----|:-----|:-----|:-----|:-----|
 |AlwaysUseConnectionFile  <br/> |xsd:boolean  <br/> |opcional  <br/> |El valor predeterminado es False. Para obtener más información, vea los Comentarios.  <br/> |Valores del tipo xsd:boolean.  <br/> |
 |Comando  <br/> |xsd:string  <br/> |opcional  <br/> |Cadena de comandos usada para consultar el origen de datos.  <br/> |Valores del tipo xsd:string.  <br/> |
-|ConnectionString  <br/> |xsd:string  <br/> |opcional  <br/> |Cadena de conexión que define los parámetros necesarios para conectarse a un origen de datos.  <br/> |Valores del tipo xsd:string.  <br/> |
+|ConnectionString  <br/> |xsd:string  <br/> |opcional  <br/> |La cadena de conexión que define los parámetros necesarios para conectarse a un origen de datos.  <br/> |Valores del tipo xsd:string.  <br/> |
 |FileName  <br/> |xsd:string  <br/> |necesario  <br/> |Nombre del archivo de conexión. Para obtener más información, vea los Comentarios.  <br/> |Valores del tipo xsd:string.  <br/> |
-|FriendlyName  <br/> |xsd:string  <br/> |opcional  <br/> |Un nombre proporcionado por el usuario para la conexión de datos.  <br/> |Valores del tipo xsd:string.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador asignado por Visio para una conexión determinada, único dentro del documento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|FriendlyName  <br/> |xsd:string  <br/> |opcional  <br/> |Un usuario proporcionó el nombre para la conexión de datos.  <br/> |Valores del tipo xsd:string.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El identificador asignado por Visio para una conexión determinada, única en el documento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |Timeout  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Tiempo de espera en minutos al intentar establecer una conexión antes de finalizar el intento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

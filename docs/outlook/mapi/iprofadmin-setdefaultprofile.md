@@ -34,25 +34,25 @@ HRESULT SetDefaultProfile(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
-> [entrada] Puntero al nombre del perfil que se convertirá en el valor predeterminado o NULL. Establecer  _lpszProfileName_ en NULL indica que **SetDefaultProfile** debe quitar el perfil predeterminado existente, dejando al cliente sin un valor predeterminado. 
+> [in] Puntero al nombre del perfil que se convertirá en el valor predeterminado o NULL. Establecer  _lpszProfileName_ en NULL indica que **SetDefaultProfile** debe quitar el perfil predeterminado existente, dejando al cliente sin un valor predeterminado. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de la cadena a la que  _apunta lpszProfileName_. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de cadena a la que  _apunta lpszProfileName_. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> El nombre del perfil está en formato Unicode. Si no MAPI_UNICODE marca de perfil, el nombre del perfil está en formato ANSI.
+> El nombre del perfil está en formato Unicode. Si no MAPI_UNICODE marca, el nombre del perfil está en formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Un perfil predeterminado se estableció o quitó correctamente.
+> Un perfil predeterminado se estableció o eliminó correctamente.
     
 MAPI_E_NOT_FOUND 
   
@@ -66,7 +66,7 @@ El **método IProfAdmin::SetDefaultProfile** establece un perfil determinado com
 
 Para iniciar una sesión con el perfil predeterminado, pase la marca MAPI_USE_DEFAULT a la [función MAPILogonEx.](mapilogonex.md) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

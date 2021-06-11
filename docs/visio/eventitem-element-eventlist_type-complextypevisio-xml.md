@@ -1,5 +1,5 @@
 ---
-title: Elemento EventItem (EventList_Type complexType) (XML de Visio)
+title: Elemento EventItem (EventList_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541844"
 ---
-# <a name="eventitem-element-eventlist_type-complextype-visio-xml"></a>Elemento EventItem (EventList_Type complexType) (XML de Visio)
+# <a name="eventitem-element-eventlist_type-complextype-visio-xml"></a>Elemento EventItem (EventList_Type complexType) (Visio XML)
 
 Encapsula un código de evento.
   
@@ -36,7 +36,7 @@ Encapsula un código de evento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -52,11 +52,11 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|Action  <br/> |xsd:unsignedShort  <br/> |necesario  <br/> |Especifica el código de acción del elemento **primario EventItem.**  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
+|Acción  <br/> |xsd:unsignedShort  <br/> |necesario  <br/> |Especifica el código de acción del elemento **primario EventItem.**  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
 |Habilitado  <br/> |xsd:boolean  <br/> |opcional  <br/> |Representa una marca que indica si el evento está habilitado o deshabilitado.  <br/> |Valores del tipo xsd:boolean.  <br/> |
 |EventCode  <br/> |xsd:unsignedShort  <br/> |necesario  <br/> |Código que indica el evento que desencadena el complemento.  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Identificador del evento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |El identificador del evento.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
 |Target  <br/> |xsd:string  <br/> |necesario  <br/> |Especifica el destino de un evento.  <br/> |Valores del tipo xsd:string.  <br/> |
-|TargetArgs  <br/> |xsd:string  <br/> |necesario  <br/> |Especifica una cadena que contiene los argumentos que se enviarán al destino de un evento.  <br/> |Valores del tipo xsd:string.  <br/> |
+|TargetArgs  <br/> |xsd:string  <br/> |necesario  <br/> |Especifica una cadena que contiene argumentos que se enviarán al destino de un evento.  <br/> |Valores del tipo xsd:string.  <br/> |
    
 

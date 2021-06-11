@@ -1,5 +1,5 @@
 ---
-title: Elemento Issue (Issues_Type complexType) (XML de Visio)
+title: Elemento Issue (Issues_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541130"
 ---
-# <a name="issue-element-issues_type-complextype-visio-xml"></a>Elemento Issue (Issues_Type complexType) (XML de Visio)
+# <a name="issue-element-issues_type-complextype-visio-xml"></a>Elemento Issue (Issues_Type complexType) (Visio XML)
 
 Representa un único problema de validación en el documento.
   
@@ -36,7 +36,7 @@ Representa un único problema de validación en el documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -48,7 +48,7 @@ Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**,
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |Según el destino del problema de validación primario, especifica la página o la página y la forma, asociadas con el problema de validación principal.  <br/> |
+|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |Según el destino del problema de validación principal, especifica la página o la página y la forma asociadas con el problema de validación principal.  <br/> |
 |[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Especifica información sobre la regla de validación a la que pertenece el problema de validación principal.  <br/> |
    
 ### <a name="attributes"></a>Atributos

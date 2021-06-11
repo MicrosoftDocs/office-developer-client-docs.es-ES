@@ -1,5 +1,5 @@
 ---
-title: Celda DocLockDuplicatePage (Sección de propiedades del documento)
+title: Celda DocLockDuplicatePage (sección Propiedades del documento)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,18 +14,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439663"
 ---
-# <a name="doclockduplicatepage-cell-document-properties-section"></a>Celda DocLockDuplicatePage (Sección de propiedades del documento)
+# <a name="doclockduplicatepage-cell-document-properties-section"></a>Celda DocLockDuplicatePage (sección Propiedades del documento)
 
 Determina si las páginas del documento se pueden duplicar, como un valor booleano.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Los duplicados** en el menú contextual de la página y el método de automatización **Page.Duplicate** están deshabilitados.  <br/> |
+|TRUE  <br/> |**Los** duplicados en el menú contextual de la página y el método de automatización **Page.Duplicate** están deshabilitados.  <br/> |
 |FALSE  <br/> |La página se puede duplicar.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **DocLockDuplicatePage** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **DocLockDuplicatePage** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|

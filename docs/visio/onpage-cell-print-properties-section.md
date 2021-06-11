@@ -29,9 +29,9 @@ Indica si el dibujo se imprime en un número concreto de páginas de la impresor
 
 Si la celda OnPage se establece en TRUE, Microsoft Visio recurrirá a las celdas PagesX y PagesY para determinar el número de páginas de impresora en que encajar el dibujo. Se omiten los valores de las celdas ScaleX y ScaleY. Esto puede considerarse una opción de escala automática.
   
-Este valor corresponde  a la opción  Ajustar a de la ficha Configurar  impresión del cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en la flecha configurar **página).**  
+Este valor corresponde  a la opción  Ajustar a de la ficha Configurar  impresión del cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en **la** flecha Configurar página).  
   
-Para obtener una referencia a la celda OnPage por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** utilice: 
+Para obtener una referencia a la celda OnPage por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|

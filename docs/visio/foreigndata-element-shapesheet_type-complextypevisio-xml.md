@@ -1,12 +1,12 @@
 ---
-title: Elemento ForeignData (ShapeSheet_Type complexType) (XML de Visio)
+title: Elemento ForeignData (ShapeSheet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59db25bc-0283-6f56-0aa9-9be98a3e9041
-description: Contiene un BLOB codificado MIME (Extensiones multipropósito al correo de Internet) de datos de imagen, como metarchivo de Windows, mapa de bits o datos OLE.
+description: Contiene un BLOB codificado mime (extensiones multipropósito de correo de Internet) de datos de imagen, como Windows metarchivo, mapa de bits o datos OLE.
 ms.openlocfilehash: 6b130b5a50a51d5d909b843e805d197735dc7146
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539845"
 ---
-# <a name="foreigndata-element-shapesheet_type-complextype-visio-xml"></a>Elemento ForeignData (ShapeSheet_Type complexType) (XML de Visio)
+# <a name="foreigndata-element-shapesheet_type-complextype-visio-xml"></a>Elemento ForeignData (ShapeSheet_Type complexType) (Visio XML)
 
-Contiene un BLOB codificado MIME (Extensiones multipropósito al correo de Internet) de datos de imagen, como metarchivo de Windows, mapa de bits o datos OLE.
+Contiene un BLOB codificado mime (extensiones multipropósito de correo de Internet) de datos de imagen, como Windows metarchivo, mapa de bits o datos OLE.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,13 +36,13 @@ Contiene un BLOB codificado MIME (Extensiones multipropósito al correo de Inter
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
 |**Elemento**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un **elemento Master**, **Page** o group shape.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contiene elementos que definen una forma en un **elemento Master**, **Page** o forma de grupo.  <br/> |
    
 ### <a name="child-elements"></a>Elementos secundarios
 
@@ -55,14 +55,14 @@ Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**,
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
 |CompressionLevel  <br/> |xsd:double  <br/> |opcional  <br/> |Especifica el nivel de compresión aplicado al archivo. Este atributo solo es significativo si los datos externos son un objeto externo basado en trama, como un archivo DIB, JPG, PNG, TIFF o GIF.  <br/> |Valores del tipo xsd:double.  <br/> |
-|CompressionType  <br/> |xsd:token  <br/> |opcional  <br/> |Especifica el tipo de compresión aplicada al archivo. Este atributo solo es significativo si los datos externos son un objeto externo basado en trama, como un archivo DIB, JPG, PNG, TIFF o GIF.  <br/> |Valores del tipo xsd:token.  <br/> |
+|CompressionType  <br/> |xsd:token  <br/> |opcional  <br/> |Especifica el tipo de compresión aplicada al archivo. Este atributo solo es significativo si los datos externos son un objeto externo basado en trama, como un archivo DIB, JPG, PNG, TIFF o GIF  <br/> |Valores del tipo xsd:token.  <br/> |
 |ExtentX  <br/> |xsd:double  <br/> |opcional  <br/> |Especifica la extensión horizontal del metarchivo. Este atributo solo es significativo si los datos externos son un metarchivo.  <br/> |Valores del tipo xsd:double.  <br/> |
 |ExtentY  <br/> |xsd:double  <br/> |opcional  <br/> |Especifica la extensión vertical del metarchivo. Este atributo solo es significativo si los datos externos son un metarchivo.  <br/> |Valores del tipo xsd:double.  <br/> |
 |ForeignType  <br/> |xsd:token  <br/> |necesario  <br/> |Indica el tipo de metarchivo, EnhMetaFile, Bitmap, Object o Ink.  <br/> |Valores del tipo xsd:token.  <br/> |
 |MappingMode  <br/> |xsd:unsignedShort  <br/> |opcional  <br/> |Especifica el modo de asignación de metarchivo. Este atributo solo es significativo si los datos externos son un metarchivo.  <br/> |Valores del tipo xsd:unsignedShort.  <br/> |
-|ObjectHeight  <br/> |xsd:double  <br/> |opcional  <br/> |Especifica el alto del objeto en unidades de página. Este atributo solo es significativo si los datos externos son un objeto incrustado OLE2.  <br/> |Valores del tipo xsd:double.  <br/> |
-|ObjectType  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Indicador entero del tipo de objeto. Se usa cuando el tipo externo es un objeto.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
-|ObjectWidth  <br/> |xsd:double  <br/> |opcional  <br/> |Especifica el ancho del objeto en unidades de página. Este atributo solo es significativo si los datos externos son un objeto incrustado OLE2.  <br/> |Valores del tipo xsd:double.  <br/> |
-|ShowAsIcon  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica si se deben mostrar o no los datos incrustados como un icono.  <br/> |Valores del tipo xsd:boolean.  <br/> |
+|ObjectHeight  <br/> |xsd:double  <br/> |opcional  <br/> |Especifica el alto del objeto en las unidades de página. Este atributo solo es significativo si los datos externos son un objeto incrustado OLE2.  <br/> |Valores del tipo xsd:double.  <br/> |
+|ObjectType  <br/> |xsd:unsignedInt  <br/> |opcional  <br/> |Un indicador entero del tipo de objeto. Se usa cuando tipo externo es objeto.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|ObjectWidth  <br/> |xsd:double  <br/> |opcional  <br/> |Especifica el ancho del objeto en las unidades de página. Este atributo solo es significativo si los datos externos son un objeto incrustado OLE2.  <br/> |Valores del tipo xsd:double.  <br/> |
+|ShowAsIcon  <br/> |xsd:boolean  <br/> |opcional  <br/> |Indica si se muestran o no los datos incrustados como un icono.  <br/> |Valores del tipo xsd:boolean.  <br/> |
    
 

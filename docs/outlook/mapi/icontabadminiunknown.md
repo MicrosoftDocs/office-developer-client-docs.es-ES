@@ -25,7 +25,7 @@ ms.locfileid: "33439334"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita las carpetas de contactos de la libreta de direcciones de Microsoft Outlook 2010 y Microsoft Outlook 2013.
+Quita las carpetas de contactos de Microsoft Outlook 2010 y Microsoft Outlook 2013 libreta de direcciones.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Quita las carpetas de contactos de la libreta de direcciones de Microsoft Outloo
 |Identificador de interfaz:  <br/> |IID_IContabAdmin  <br/> |
 |Tipo de puntero:  <br/> ||
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
