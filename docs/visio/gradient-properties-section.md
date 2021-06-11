@@ -1,5 +1,5 @@
 ---
-title: Sección de propiedades de degradado
+title: Sección Propiedades de degradado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417318"
 ---
-# <a name="gradient-properties-section"></a><span data-ttu-id="b5022-104">Sección de propiedades de degradado</span><span class="sxs-lookup"><span data-stu-id="b5022-104">Gradient Properties Section</span></span>
+# <a name="gradient-properties-section"></a><span data-ttu-id="66b60-104">Sección Propiedades de degradado</span><span class="sxs-lookup"><span data-stu-id="66b60-104">Gradient Properties Section</span></span>
 
-<span data-ttu-id="b5022-105">Muestra las propiedades de los efectos de relleno degradado o de color de línea aplicados a la forma.</span><span class="sxs-lookup"><span data-stu-id="b5022-105">Shows the properties for any gradient fill or line color effects applied to the shape.</span></span> <span data-ttu-id="b5022-106">Esta sección también incluye celdas que controlan si el degradado de una forma gira con la forma o si la forma asume un degradado aplicado cuando se agrupa con otras formas.</span><span class="sxs-lookup"><span data-stu-id="b5022-106">This section also includes cells that control whether a shape's gradient rotates with the shape or whether the shape assumes an applied gradient when grouped with other shapes.</span></span> 
+<span data-ttu-id="66b60-105">Muestra las propiedades de los efectos de relleno degradado o de color de línea aplicados a la forma.</span><span class="sxs-lookup"><span data-stu-id="66b60-105">Shows the properties for any gradient fill or line color effects applied to the shape.</span></span> <span data-ttu-id="66b60-106">Esta sección también incluye celdas que controlan si el degradado de una forma gira con la forma o si la forma asume un degradado aplicado cuando se agrupa con otras formas.</span><span class="sxs-lookup"><span data-stu-id="66b60-106">This section also includes cells that control whether a shape's gradient rotates with the shape or whether the shape assumes an applied gradient when grouped with other shapes.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="b5022-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b5022-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="66b60-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="66b60-107">Remarks</span></span>
 
-<span data-ttu-id="b5022-108">Puede establecer la configuración de degradado en el cuadro de diálogo **Formato** de forma (Página **principal** Estilos de relleno Opciones de relleno  >    >    >  **Relleno**  >    >  **degradado**).</span><span class="sxs-lookup"><span data-stu-id="b5022-108">You can set gradient settings in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Fill** > **Fill Options** > **Fill** > **Gradient fill**).</span></span> 
+<span data-ttu-id="66b60-108">Puede establecer la configuración de degradado en el cuadro de diálogo **Formato de forma** (**Relleno** de opciones de relleno estilos de forma principal  >    >    >    >  **Relleno**  >  ).</span><span class="sxs-lookup"><span data-stu-id="66b60-108">You can set gradient settings in the **Format Shape** dialog box (**Home** > **Shape Styles** > **Fill** > **Fill Options** > **Fill** > **Gradient fill**).</span></span> 
   
 

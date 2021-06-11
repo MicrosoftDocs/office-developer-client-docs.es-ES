@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416786"
 ---
-# <a name="imapifolderemptyfolder"></a><span data-ttu-id="765af-103">IMAPIFolder::EmptyFolder</span><span class="sxs-lookup"><span data-stu-id="765af-103">IMAPIFolder::EmptyFolder</span></span>
+# <a name="imapifolderemptyfolder"></a><span data-ttu-id="7790a-103">IMAPIFolder::EmptyFolder</span><span class="sxs-lookup"><span data-stu-id="7790a-103">IMAPIFolder::EmptyFolder</span></span>
 
   
   
-<span data-ttu-id="765af-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="765af-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7790a-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7790a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="765af-105">Elimina todos los mensajes y subcarpetas de una carpeta sin eliminar la carpeta en sí.</span><span class="sxs-lookup"><span data-stu-id="765af-105">Deletes all messages and subfolders from a folder without deleting the folder itself.</span></span>
+<span data-ttu-id="7790a-105">Elimina todos los mensajes y subcarpetas de una carpeta sin eliminar la carpeta en sí.</span><span class="sxs-lookup"><span data-stu-id="7790a-105">Deletes all messages and subfolders from a folder without deleting the folder itself.</span></span>
   
 ```cpp
 HRESULT EmptyFolder(
@@ -35,84 +35,84 @@ HRESULT EmptyFolder(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="765af-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="765af-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7790a-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="7790a-106">Parameters</span></span>
 
- <span data-ttu-id="765af-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="765af-107">_ulUIParam_</span></span>
+ <span data-ttu-id="7790a-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="7790a-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="765af-108">[entrada] Identificador de la ventana principal del indicador de progreso.</span><span class="sxs-lookup"><span data-stu-id="765af-108">[in] A handle to the parent window of the progress indicator.</span></span> <span data-ttu-id="765af-109">El _parámetro ulUIParam_ se omite a menos FOLDER_DIALOG marca esté establecida en el _parámetro ulFlags._</span><span class="sxs-lookup"><span data-stu-id="765af-109">The  _ulUIParam_ parameter is ignored unless the FOLDER_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
+> <span data-ttu-id="7790a-108">[in] Identificador de la ventana principal del indicador de progreso.</span><span class="sxs-lookup"><span data-stu-id="7790a-108">[in] A handle to the parent window of the progress indicator.</span></span> <span data-ttu-id="7790a-109">El _parámetro ulUIParam_ se omite a menos que FOLDER_DIALOG marca esté establecida en _el parámetro ulFlags._</span><span class="sxs-lookup"><span data-stu-id="7790a-109">The  _ulUIParam_ parameter is ignored unless the FOLDER_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
     
- <span data-ttu-id="765af-110">_lpProgress_</span><span class="sxs-lookup"><span data-stu-id="765af-110">_lpProgress_</span></span>
+ <span data-ttu-id="7790a-110">_lpProgress_</span><span class="sxs-lookup"><span data-stu-id="7790a-110">_lpProgress_</span></span>
   
-> <span data-ttu-id="765af-111">[entrada] Puntero a un objeto de progreso que muestra un indicador de progreso.</span><span class="sxs-lookup"><span data-stu-id="765af-111">[in] A pointer to a progress object that displays a progress indicator.</span></span> <span data-ttu-id="765af-112">Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI.</span><span class="sxs-lookup"><span data-stu-id="765af-112">If NULL is passed in  _lpProgress_, the message store provider displays a progress indicator by using the MAPI progress object implementation.</span></span> <span data-ttu-id="765af-113">El _parámetro lpProgress_ se omite a menos que FOLDER_DIALOG marca esté establecida en el _parámetro ulFlags._</span><span class="sxs-lookup"><span data-stu-id="765af-113">The  _lpProgress_ parameter is ignored unless the FOLDER_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
+> <span data-ttu-id="7790a-111">[in] Puntero a un objeto de progreso que muestra un indicador de progreso.</span><span class="sxs-lookup"><span data-stu-id="7790a-111">[in] A pointer to a progress object that displays a progress indicator.</span></span> <span data-ttu-id="7790a-112">Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI.</span><span class="sxs-lookup"><span data-stu-id="7790a-112">If NULL is passed in  _lpProgress_, the message store provider displays a progress indicator by using the MAPI progress object implementation.</span></span> <span data-ttu-id="7790a-113">El _parámetro lpProgress_ se omite a menos que FOLDER_DIALOG marca se establezca en _el parámetro ulFlags._</span><span class="sxs-lookup"><span data-stu-id="7790a-113">The  _lpProgress_ parameter is ignored unless the FOLDER_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
     
- <span data-ttu-id="765af-114">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="765af-114">_ulFlags_</span></span>
+ <span data-ttu-id="7790a-114">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="7790a-114">_ulFlags_</span></span>
   
-> <span data-ttu-id="765af-115">[entrada] Máscara de bits de marcas que controla cómo se vacía la carpeta.</span><span class="sxs-lookup"><span data-stu-id="765af-115">[in] A bitmask of flags that controls how the folder is emptied.</span></span> <span data-ttu-id="765af-116">Se pueden establecer las siguientes marcas:</span><span class="sxs-lookup"><span data-stu-id="765af-116">The following flags can be set:</span></span>
+> <span data-ttu-id="7790a-115">[in] Máscara de bits de marcas que controla cómo se vacía la carpeta.</span><span class="sxs-lookup"><span data-stu-id="7790a-115">[in] A bitmask of flags that controls how the folder is emptied.</span></span> <span data-ttu-id="7790a-116">Se pueden establecer las siguientes marcas:</span><span class="sxs-lookup"><span data-stu-id="7790a-116">The following flags can be set:</span></span>
     
-<span data-ttu-id="765af-117">DEL_ASSOCIATED</span><span class="sxs-lookup"><span data-stu-id="765af-117">DEL_ASSOCIATED</span></span> 
+<span data-ttu-id="7790a-117">DEL_ASSOCIATED</span><span class="sxs-lookup"><span data-stu-id="7790a-117">DEL_ASSOCIATED</span></span> 
   
-> <span data-ttu-id="765af-118">Elimina todas las subcarpetas, incluidas las subcarpetas que contienen mensajes con contenido asociado.</span><span class="sxs-lookup"><span data-stu-id="765af-118">Deletes all subfolders, including subfolders that contain messages with associated content.</span></span> <span data-ttu-id="765af-119">El DEL_ASSOCIATED marca solo tiene significado para la carpeta de nivel superior en la que actúa la llamada.</span><span class="sxs-lookup"><span data-stu-id="765af-119">The DEL_ASSOCIATED flag has meaning only for the top-level folder the call acts on.</span></span>
+> <span data-ttu-id="7790a-118">Elimina todas las subcarpetas, incluidas las subcarpetas que contienen mensajes con contenido asociado.</span><span class="sxs-lookup"><span data-stu-id="7790a-118">Deletes all subfolders, including subfolders that contain messages with associated content.</span></span> <span data-ttu-id="7790a-119">La marca DEL_ASSOCIATED solo significa para la carpeta de nivel superior en la que actúa la llamada.</span><span class="sxs-lookup"><span data-stu-id="7790a-119">The DEL_ASSOCIATED flag has meaning only for the top-level folder the call acts on.</span></span>
     
-<span data-ttu-id="765af-120">DELETE_HARD_DELETE</span><span class="sxs-lookup"><span data-stu-id="765af-120">DELETE_HARD_DELETE</span></span>
+<span data-ttu-id="7790a-120">DELETE_HARD_DELETE</span><span class="sxs-lookup"><span data-stu-id="7790a-120">DELETE_HARD_DELETE</span></span>
   
-> <span data-ttu-id="765af-121">Elimina permanentemente todos los mensajes, incluidos los eliminados temporalmente.</span><span class="sxs-lookup"><span data-stu-id="765af-121">Permanently removes all messages, including soft-deleted ones.</span></span>
+> <span data-ttu-id="7790a-121">Elimina permanentemente todos los mensajes, incluidos los eliminados temporalmente.</span><span class="sxs-lookup"><span data-stu-id="7790a-121">Permanently removes all messages, including soft-deleted ones.</span></span>
     
-<span data-ttu-id="765af-122">FOLDER_DIALOG</span><span class="sxs-lookup"><span data-stu-id="765af-122">FOLDER_DIALOG</span></span> 
+<span data-ttu-id="7790a-122">FOLDER_DIALOG</span><span class="sxs-lookup"><span data-stu-id="7790a-122">FOLDER_DIALOG</span></span> 
   
-> <span data-ttu-id="765af-123">Muestra un indicador de progreso mientras continúa la operación.</span><span class="sxs-lookup"><span data-stu-id="765af-123">Displays a progress indicator while the operation proceeds.</span></span>
+> <span data-ttu-id="7790a-123">Muestra un indicador de progreso mientras continúa la operación.</span><span class="sxs-lookup"><span data-stu-id="7790a-123">Displays a progress indicator while the operation proceeds.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="765af-124">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="765af-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7790a-124">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7790a-124">Return value</span></span>
 
-<span data-ttu-id="765af-125">S_OK</span><span class="sxs-lookup"><span data-stu-id="765af-125">S_OK</span></span> 
+<span data-ttu-id="7790a-125">S_OK</span><span class="sxs-lookup"><span data-stu-id="7790a-125">S_OK</span></span> 
   
-> <span data-ttu-id="765af-126">La carpeta se ha vaciado correctamente.</span><span class="sxs-lookup"><span data-stu-id="765af-126">The folder was successfully emptied.</span></span>
+> <span data-ttu-id="7790a-126">La carpeta se vació correctamente.</span><span class="sxs-lookup"><span data-stu-id="7790a-126">The folder was successfully emptied.</span></span>
     
-<span data-ttu-id="765af-127">MAPI_W_PARTIAL_COMPLETION</span><span class="sxs-lookup"><span data-stu-id="765af-127">MAPI_W_PARTIAL_COMPLETION</span></span> 
+<span data-ttu-id="7790a-127">MAPI_W_PARTIAL_COMPLETION</span><span class="sxs-lookup"><span data-stu-id="7790a-127">MAPI_W_PARTIAL_COMPLETION</span></span> 
   
-> <span data-ttu-id="765af-128">La llamada se ha hecho correctamente, pero la carpeta no se ha vaciado por completo.</span><span class="sxs-lookup"><span data-stu-id="765af-128">The call succeeded, but the folder was not completely emptied.</span></span> <span data-ttu-id="765af-129">Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta.</span><span class="sxs-lookup"><span data-stu-id="765af-129">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="765af-130">Para probar esta advertencia, use la **macro HR_FAILED** datos.</span><span class="sxs-lookup"><span data-stu-id="765af-130">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="765af-131">Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)</span><span class="sxs-lookup"><span data-stu-id="765af-131">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
+> <span data-ttu-id="7790a-128">La llamada se ha hecho correctamente, pero la carpeta no se ha vaciado completamente.</span><span class="sxs-lookup"><span data-stu-id="7790a-128">The call succeeded, but the folder was not completely emptied.</span></span> <span data-ttu-id="7790a-129">Cuando se devuelve esta advertencia, la llamada debe controlarse como correcta.</span><span class="sxs-lookup"><span data-stu-id="7790a-129">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="7790a-130">Para probar esta advertencia, use la **HR_FAILED** macro.</span><span class="sxs-lookup"><span data-stu-id="7790a-130">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="7790a-131">Para obtener más información, vea [Using Macros for Error Handling](using-macros-for-error-handling.md).</span><span class="sxs-lookup"><span data-stu-id="7790a-131">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="765af-132">Comentarios</span><span class="sxs-lookup"><span data-stu-id="765af-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7790a-132">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7790a-132">Remarks</span></span>
 
-<span data-ttu-id="765af-133">El **método IMAPIFolder::EmptyFolder** elimina todo el contenido de una carpeta sin eliminar la carpeta en sí.</span><span class="sxs-lookup"><span data-stu-id="765af-133">The **IMAPIFolder::EmptyFolder** method deletes all of a folder's contents without deleting the folder itself.</span></span> 
+<span data-ttu-id="7790a-133">El **método IMAPIFolder::EmptyFolder** elimina todo el contenido de una carpeta sin eliminar la carpeta en sí.</span><span class="sxs-lookup"><span data-stu-id="7790a-133">The **IMAPIFolder::EmptyFolder** method deletes all of a folder's contents without deleting the folder itself.</span></span> 
   
-<span data-ttu-id="765af-134">Durante una **llamada EmptyFolder,** los mensajes enviados no se eliminan.</span><span class="sxs-lookup"><span data-stu-id="765af-134">During an **EmptyFolder** call, submitted messages are not deleted.</span></span> 
+<span data-ttu-id="7790a-134">Durante una **llamada EmptyFolder,** los mensajes enviados no se eliminan.</span><span class="sxs-lookup"><span data-stu-id="7790a-134">During an **EmptyFolder** call, submitted messages are not deleted.</span></span> 
   
-<span data-ttu-id="765af-135">El contenido asociado de una carpeta incluye mensajes que se usan para describir vistas, reglas, formularios personalizados y almacenamiento de soluciones personalizado, y también pueden incluir definiciones de formulario.</span><span class="sxs-lookup"><span data-stu-id="765af-135">A folder's associated contents include messages that are used to describe views, rules, custom forms, and custom solution storage, and can also include form definitions.</span></span> 
+<span data-ttu-id="7790a-135">El contenido asociado de una carpeta incluye mensajes que se usan para describir vistas, reglas, formularios personalizados y almacenamiento de soluciones personalizado, y también pueden incluir definiciones de formulario.</span><span class="sxs-lookup"><span data-stu-id="7790a-135">A folder's associated contents include messages that are used to describe views, rules, custom forms, and custom solution storage, and can also include form definitions.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="765af-136">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="765af-136">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="7790a-136">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="7790a-136">Notes to implementers</span></span>
 
-<span data-ttu-id="765af-137">No llame al [método IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) para los mensajes de la carpeta que se han enviado.</span><span class="sxs-lookup"><span data-stu-id="765af-137">Do not call the [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) method for messages in the folder that have been submitted.</span></span> <span data-ttu-id="765af-138">Los mensajes enviados no se eliminan.</span><span class="sxs-lookup"><span data-stu-id="765af-138">Submitted messages are not deleted.</span></span> 
+<span data-ttu-id="7790a-137">No llame al [método IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) para los mensajes de la carpeta que se han enviado.</span><span class="sxs-lookup"><span data-stu-id="7790a-137">Do not call the [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) method for messages in the folder that have been submitted.</span></span> <span data-ttu-id="7790a-138">Los mensajes enviados no se eliminan.</span><span class="sxs-lookup"><span data-stu-id="7790a-138">Submitted messages are not deleted.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="765af-139">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="765af-139">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="7790a-139">Notas para los llamadores</span><span class="sxs-lookup"><span data-stu-id="7790a-139">Notes to callers</span></span>
 
-<span data-ttu-id="765af-140">Espere estos valores devueltos en las siguientes condiciones.</span><span class="sxs-lookup"><span data-stu-id="765af-140">Expect these return values under the following conditions.</span></span>
+<span data-ttu-id="7790a-140">Espere estos valores devueltos en las siguientes condiciones.</span><span class="sxs-lookup"><span data-stu-id="7790a-140">Expect these return values under the following conditions.</span></span>
   
-|<span data-ttu-id="765af-141">**Condition**</span><span class="sxs-lookup"><span data-stu-id="765af-141">**Condition**</span></span>|<span data-ttu-id="765af-142">**Valor devuelto**</span><span class="sxs-lookup"><span data-stu-id="765af-142">**Return value**</span></span>|
+|<span data-ttu-id="7790a-141">**Condition**</span><span class="sxs-lookup"><span data-stu-id="7790a-141">**Condition**</span></span>|<span data-ttu-id="7790a-142">**Valor devuelto**</span><span class="sxs-lookup"><span data-stu-id="7790a-142">**Return value**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="765af-143">**EmptyFolder** ha vaciado correctamente la carpeta.</span><span class="sxs-lookup"><span data-stu-id="765af-143">**EmptyFolder** has successfully emptied the folder.</span></span>  <br/> |<span data-ttu-id="765af-144">S_OK</span><span class="sxs-lookup"><span data-stu-id="765af-144">S_OK</span></span>  <br/> |
-|<span data-ttu-id="765af-145">**EmptyFolder** no pudo vaciar completamente la carpeta.</span><span class="sxs-lookup"><span data-stu-id="765af-145">**EmptyFolder** was unable to completely empty the folder.</span></span>  <br/> |<span data-ttu-id="765af-146">MAPI_W_PARTIAL_COMPLETION</span><span class="sxs-lookup"><span data-stu-id="765af-146">MAPI_W_PARTIAL_COMPLETION</span></span>  <br/> |
-|<span data-ttu-id="765af-147">**EmptyFolder** no se pudo completar.</span><span class="sxs-lookup"><span data-stu-id="765af-147">**EmptyFolder** was unable to complete.</span></span>  <br/> |<span data-ttu-id="765af-148">Cualquier valor de error</span><span class="sxs-lookup"><span data-stu-id="765af-148">Any error value</span></span>  <br/> |
+|<span data-ttu-id="7790a-143">**EmptyFolder** ha vaciado correctamente la carpeta.</span><span class="sxs-lookup"><span data-stu-id="7790a-143">**EmptyFolder** has successfully emptied the folder.</span></span>  <br/> |<span data-ttu-id="7790a-144">S_OK</span><span class="sxs-lookup"><span data-stu-id="7790a-144">S_OK</span></span>  <br/> |
+|<span data-ttu-id="7790a-145">**EmptyFolder** no pudo vaciar completamente la carpeta.</span><span class="sxs-lookup"><span data-stu-id="7790a-145">**EmptyFolder** was unable to completely empty the folder.</span></span>  <br/> |<span data-ttu-id="7790a-146">MAPI_W_PARTIAL_COMPLETION</span><span class="sxs-lookup"><span data-stu-id="7790a-146">MAPI_W_PARTIAL_COMPLETION</span></span>  <br/> |
+|<span data-ttu-id="7790a-147">**EmptyFolder** no se pudo completar.</span><span class="sxs-lookup"><span data-stu-id="7790a-147">**EmptyFolder** was unable to complete.</span></span>  <br/> |<span data-ttu-id="7790a-148">Cualquier valor de error</span><span class="sxs-lookup"><span data-stu-id="7790a-148">Any error value</span></span>  <br/> |
    
-<span data-ttu-id="765af-149">Cuando **EmptyFolder** no se puede completar, no suponga que no se ha realizado ningún trabajo.</span><span class="sxs-lookup"><span data-stu-id="765af-149">When **EmptyFolder** is unable to complete, do not assume that no work was done.</span></span> <span data-ttu-id="765af-150">Es posible que **EmptyFolder** haya podido eliminar parte del contenido de la carpeta antes de encontrar el error.</span><span class="sxs-lookup"><span data-stu-id="765af-150">**EmptyFolder** might have been able to delete some of the folder's contents before encountering the error.</span></span> 
+<span data-ttu-id="7790a-149">Cuando **EmptyFolder** no se puede completar, no suponga que no se ha realizado ningún trabajo.</span><span class="sxs-lookup"><span data-stu-id="7790a-149">When **EmptyFolder** is unable to complete, do not assume that no work was done.</span></span> <span data-ttu-id="7790a-150">Es posible que **EmptyFolder** haya podido eliminar parte del contenido de la carpeta antes de encontrar el error.</span><span class="sxs-lookup"><span data-stu-id="7790a-150">**EmptyFolder** might have been able to delete some of the folder's contents before encountering the error.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="765af-151">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="765af-151">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="7790a-151">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="7790a-151">MFCMAPI reference</span></span>
 
-<span data-ttu-id="765af-152">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="765af-152">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="7790a-152">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="7790a-152">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="765af-153">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="765af-153">**File**</span></span>|<span data-ttu-id="765af-154">**Función**</span><span class="sxs-lookup"><span data-stu-id="765af-154">**Function**</span></span>|<span data-ttu-id="765af-155">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="765af-155">**Comment**</span></span>|
+|<span data-ttu-id="7790a-153">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="7790a-153">**File**</span></span>|<span data-ttu-id="7790a-154">**Función**</span><span class="sxs-lookup"><span data-stu-id="7790a-154">**Function**</span></span>|<span data-ttu-id="7790a-155">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="7790a-155">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="765af-156">MsgStoreDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="765af-156">MsgStoreDlg.cpp</span></span>  <br/> |<span data-ttu-id="765af-157">CMsgStoreDlg::OnEmptyFolder</span><span class="sxs-lookup"><span data-stu-id="765af-157">CMsgStoreDlg::OnEmptyFolder</span></span>  <br/> |<span data-ttu-id="765af-158">MFCMAPI usa el **método IMAPIFolder::EmptyFolder** para eliminar el contenido de la carpeta especificada.</span><span class="sxs-lookup"><span data-stu-id="765af-158">MFCMAPI uses the **IMAPIFolder::EmptyFolder** method to delete the contents of the specified folder.</span></span>  <br/> |
+|<span data-ttu-id="7790a-156">MsgStoreDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="7790a-156">MsgStoreDlg.cpp</span></span>  <br/> |<span data-ttu-id="7790a-157">CMsgStoreDlg::OnEmptyFolder</span><span class="sxs-lookup"><span data-stu-id="7790a-157">CMsgStoreDlg::OnEmptyFolder</span></span>  <br/> |<span data-ttu-id="7790a-158">MFCMAPI usa el **método IMAPIFolder::EmptyFolder** para eliminar el contenido de la carpeta especificada.</span><span class="sxs-lookup"><span data-stu-id="7790a-158">MFCMAPI uses the **IMAPIFolder::EmptyFolder** method to delete the contents of the specified folder.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="765af-159">Consulte también</span><span class="sxs-lookup"><span data-stu-id="765af-159">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7790a-159">Vea también</span><span class="sxs-lookup"><span data-stu-id="7790a-159">See also</span></span>
 
 
 
-[<span data-ttu-id="765af-160">IMsgStore::AbortSubmit</span><span class="sxs-lookup"><span data-stu-id="765af-160">IMsgStore::AbortSubmit</span></span>](imsgstore-abortsubmit.md)
+[<span data-ttu-id="7790a-160">IMsgStore::AbortSubmit</span><span class="sxs-lookup"><span data-stu-id="7790a-160">IMsgStore::AbortSubmit</span></span>](imsgstore-abortsubmit.md)
   
-[<span data-ttu-id="765af-161">IMAPIFolder : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="765af-161">IMAPIFolder : IMAPIContainer</span></span>](imapifolderimapicontainer.md)
+[<span data-ttu-id="7790a-161">IMAPIFolder : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="7790a-161">IMAPIFolder : IMAPIContainer</span></span>](imapifolderimapicontainer.md)
 
 
-[<span data-ttu-id="765af-162">MFCMAPI como un ejemplo de código</span><span class="sxs-lookup"><span data-stu-id="765af-162">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="7790a-162">MFCMAPI como un ejemplo de código</span><span class="sxs-lookup"><span data-stu-id="7790a-162">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="765af-163">Uso de macros para el control de errores</span><span class="sxs-lookup"><span data-stu-id="765af-163">Using Macros for Error Handling</span></span>](using-macros-for-error-handling.md)
+[<span data-ttu-id="7790a-163">Uso de macros para el control de errores</span><span class="sxs-lookup"><span data-stu-id="7790a-163">Using Macros for Error Handling</span></span>](using-macros-for-error-handling.md)
 

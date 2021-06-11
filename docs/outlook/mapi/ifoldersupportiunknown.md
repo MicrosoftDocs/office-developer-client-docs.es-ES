@@ -19,29 +19,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415778"
 ---
-# <a name="ifoldersupport--iunknown"></a><span data-ttu-id="beedd-103">IFolderSupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="beedd-103">IFolderSupport : IUnknown</span></span>
+# <a name="ifoldersupport--iunknown"></a><span data-ttu-id="bb8b7-103">IFolderSupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bb8b7-103">IFolderSupport : IUnknown</span></span>
 
   
   
-<span data-ttu-id="beedd-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="beedd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bb8b7-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bb8b7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="beedd-105">Proporciona información sobre la compatibilidad de una carpeta para compartir.</span><span class="sxs-lookup"><span data-stu-id="beedd-105">Provides information about a folder's support for sharing.</span></span>
+<span data-ttu-id="bb8b7-105">Proporciona información sobre la compatibilidad de una carpeta para compartir.</span><span class="sxs-lookup"><span data-stu-id="bb8b7-105">Provides information about a folder's support for sharing.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="beedd-106">Suministrado por:</span><span class="sxs-lookup"><span data-stu-id="beedd-106">Provided by:</span></span>  <br/> |<span data-ttu-id="beedd-107">Proveedor de almacenamiento de mensajes</span><span class="sxs-lookup"><span data-stu-id="beedd-107">Message store provider</span></span>  <br/> |
-|<span data-ttu-id="beedd-108">Identificador de interfaz:</span><span class="sxs-lookup"><span data-stu-id="beedd-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="beedd-109">IID_IFolderSupport</span><span class="sxs-lookup"><span data-stu-id="beedd-109">IID_IFolderSupport</span></span>  <br/> |
+|<span data-ttu-id="bb8b7-106">Suministrado por:</span><span class="sxs-lookup"><span data-stu-id="bb8b7-106">Provided by:</span></span>  <br/> |<span data-ttu-id="bb8b7-107">Proveedor de almacén de mensajes</span><span class="sxs-lookup"><span data-stu-id="bb8b7-107">Message store provider</span></span>  <br/> |
+|<span data-ttu-id="bb8b7-108">Identificador de interfaz:</span><span class="sxs-lookup"><span data-stu-id="bb8b7-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="bb8b7-109">IID_IFolderSupport</span><span class="sxs-lookup"><span data-stu-id="bb8b7-109">IID_IFolderSupport</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="beedd-110">Orden de tabla virtual</span><span class="sxs-lookup"><span data-stu-id="beedd-110">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="bb8b7-110">Orden de Vtable</span><span class="sxs-lookup"><span data-stu-id="bb8b7-110">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="beedd-111">**[GetSupportMask](ifoldersupport-getsupportmask.md)**</span><span class="sxs-lookup"><span data-stu-id="beedd-111">**[GetSupportMask](ifoldersupport-getsupportmask.md)**</span></span> <br/> |<span data-ttu-id="beedd-112">Obtiene información sobre la compatibilidad de una carpeta para compartir.</span><span class="sxs-lookup"><span data-stu-id="beedd-112">Gets information about a folder's support for sharing.</span></span>  <br/> |
+|<span data-ttu-id="bb8b7-111">**[GetSupportMask](ifoldersupport-getsupportmask.md)**</span><span class="sxs-lookup"><span data-stu-id="bb8b7-111">**[GetSupportMask](ifoldersupport-getsupportmask.md)**</span></span> <br/> |<span data-ttu-id="bb8b7-112">Obtiene información sobre la compatibilidad de una carpeta para compartir.</span><span class="sxs-lookup"><span data-stu-id="bb8b7-112">Gets information about a folder's support for sharing.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="beedd-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="beedd-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bb8b7-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bb8b7-113">Remarks</span></span>
 
-<span data-ttu-id="beedd-114">Por lo general, Microsoft Office Outlook un proveedor de almacén MAPI para implementar esta interfaz si el proveedor desea compartir una carpeta.</span><span class="sxs-lookup"><span data-stu-id="beedd-114">Generally, Microsoft Office Outlook requires a MAPI store provider to implement this interface if the provider wants to share a folder.</span></span> <span data-ttu-id="beedd-115">La excepción es el Exchange Server de almacenamiento, que puede compartir carpetas sin implementar esta interfaz.</span><span class="sxs-lookup"><span data-stu-id="beedd-115">The exception is the Exchange Server store provider, which can share folders without implementing this interface.</span></span>
+<span data-ttu-id="bb8b7-114">Por lo general, Microsoft Office Outlook un proveedor de almacenamiento MAPI para implementar esta interfaz si el proveedor desea compartir una carpeta.</span><span class="sxs-lookup"><span data-stu-id="bb8b7-114">Generally, Microsoft Office Outlook requires a MAPI store provider to implement this interface if the provider wants to share a folder.</span></span> <span data-ttu-id="bb8b7-115">La excepción es el Exchange Server de almacenamiento, que puede compartir carpetas sin implementar esta interfaz.</span><span class="sxs-lookup"><span data-stu-id="bb8b7-115">The exception is the Exchange Server store provider, which can share folders without implementing this interface.</span></span>
   
-<span data-ttu-id="beedd-116">Un cliente puede consultar un **[IMAPIFolder](imapifolderimapicontainer.md)** para **IFolderSupport**.</span><span class="sxs-lookup"><span data-stu-id="beedd-116">A client can query an **[IMAPIFolder](imapifolderimapicontainer.md)** for **IFolderSupport**.</span></span> <span data-ttu-id="beedd-117">Si esto se realiza correctamente, llame a **IFolderSupport::GetSupportMask** y compruebe si se **FS_SUPPORTS_SHARING** bit que se va a establecer.</span><span class="sxs-lookup"><span data-stu-id="beedd-117">If that succeeds, call **IFolderSupport::GetSupportMask** and check for the **FS_SUPPORTS_SHARING** bit to be set.</span></span> 
+<span data-ttu-id="bb8b7-116">Un cliente puede consultar un **[IMAPIFolder](imapifolderimapicontainer.md)** para **IFolderSupport**.</span><span class="sxs-lookup"><span data-stu-id="bb8b7-116">A client can query an **[IMAPIFolder](imapifolderimapicontainer.md)** for **IFolderSupport**.</span></span> <span data-ttu-id="bb8b7-117">Si esto se realiza correctamente, llama a **IFolderSupport::GetSupportMask** y comprueba si el FS_SUPPORTS_SHARING **se** va a establecer.</span><span class="sxs-lookup"><span data-stu-id="bb8b7-117">If that succeeds, call **IFolderSupport::GetSupportMask** and check for the **FS_SUPPORTS_SHARING** bit to be set.</span></span> 
   
 

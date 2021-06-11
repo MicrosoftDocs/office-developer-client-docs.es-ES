@@ -1,5 +1,5 @@
 ---
-title: Creación de elementos de Outlook mediante MAPI
+title: Creación de Outlook mediante MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,32 +15,32 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409863"
 ---
-# <a name="creating-outlook-items-by-using-mapi"></a><span data-ttu-id="18634-103">Creación de elementos de Outlook mediante MAPI</span><span class="sxs-lookup"><span data-stu-id="18634-103">Creating Outlook Items by Using MAPI</span></span>
+# <a name="creating-outlook-items-by-using-mapi"></a><span data-ttu-id="c6329-103">Creación de Outlook mediante MAPI</span><span class="sxs-lookup"><span data-stu-id="c6329-103">Creating Outlook Items by Using MAPI</span></span>
 
   
   
-<span data-ttu-id="18634-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="18634-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c6329-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c6329-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="18634-105">Los temas de esta sección muestran cómo crear elementos de Outlook con MAPI.</span><span class="sxs-lookup"><span data-stu-id="18634-105">The topics in this section demonstrate how to create Outlook items using MAPI.</span></span>
+<span data-ttu-id="c6329-105">En los temas de esta sección se muestra cómo crear Outlook con MAPI.</span><span class="sxs-lookup"><span data-stu-id="c6329-105">The topics in this section demonstrate how to create Outlook items using MAPI.</span></span>
   
-- [<span data-ttu-id="18634-106">Instalar los ejemplos usados en esta sección</span><span class="sxs-lookup"><span data-stu-id="18634-106">Install the Samples Used in This Section</span></span>](how-to-install-the-samples-used-in-this-section.md)
+- [<span data-ttu-id="c6329-106">Instalar los ejemplos usados en esta sección</span><span class="sxs-lookup"><span data-stu-id="c6329-106">Install the Samples Used in This Section</span></span>](how-to-install-the-samples-used-in-this-section.md)
     
-    <span data-ttu-id="18634-107">En este tema se muestra cómo instalar y ver los ejemplos analizados en esta sección.</span><span class="sxs-lookup"><span data-stu-id="18634-107">This topic shows how to install and view the samples discussed in this section.</span></span>
+    <span data-ttu-id="c6329-107">En este tema se muestra cómo instalar y ver los ejemplos analizados en esta sección.</span><span class="sxs-lookup"><span data-stu-id="c6329-107">This topic shows how to install and view the samples discussed in this section.</span></span>
     
-- [<span data-ttu-id="18634-108">Crear un elemento de correo simple</span><span class="sxs-lookup"><span data-stu-id="18634-108">Create a Simple Mail Item</span></span>](how-to-create-a-simple-mail-item.md)
+- [<span data-ttu-id="c6329-108">Crear un elemento de correo simple</span><span class="sxs-lookup"><span data-stu-id="c6329-108">Create a Simple Mail Item</span></span>](how-to-create-a-simple-mail-item.md)
     
-    <span data-ttu-id="18634-109">En este tema se muestra cómo crear un elemento de correo simple que solicita una confirmación de lectura.</span><span class="sxs-lookup"><span data-stu-id="18634-109">This topic shows how to create a simple mail item that requests a read receipt.</span></span>
+    <span data-ttu-id="c6329-109">En este tema se muestra cómo crear un elemento de correo simple que solicite un recibo de lectura.</span><span class="sxs-lookup"><span data-stu-id="c6329-109">This topic shows how to create a simple mail item that requests a read receipt.</span></span>
     
-- [<span data-ttu-id="18634-110">Crear un elemento de tarea periódica simple</span><span class="sxs-lookup"><span data-stu-id="18634-110">Create a Simple Recurrent Task Item</span></span>](how-to-create-a-simple-recurrent-task-item.md)
+- [<span data-ttu-id="c6329-110">Crear un elemento de tarea recurrente simple</span><span class="sxs-lookup"><span data-stu-id="c6329-110">Create a Simple Recurrent Task Item</span></span>](how-to-create-a-simple-recurrent-task-item.md)
     
-    <span data-ttu-id="18634-111">En este tema se muestra cómo crear un elemento de tarea simple que se produce cada semana.</span><span class="sxs-lookup"><span data-stu-id="18634-111">This topic shows how to create a simple task item that occurs every week.</span></span>
+    <span data-ttu-id="c6329-111">En este tema se muestra cómo crear un elemento de tarea simple que se produce cada semana.</span><span class="sxs-lookup"><span data-stu-id="c6329-111">This topic shows how to create a simple task item that occurs every week.</span></span>
     
-- [<span data-ttu-id="18634-112">Crear un elemento de cita periódica compleja</span><span class="sxs-lookup"><span data-stu-id="18634-112">Create a Complex Recurrent Appointment Item</span></span>](how-to-create-a-complex-recurrent-appointment-item.md)
+- [<span data-ttu-id="c6329-112">Crear un elemento de cita periódica compleja</span><span class="sxs-lookup"><span data-stu-id="c6329-112">Create a Complex Recurrent Appointment Item</span></span>](how-to-create-a-complex-recurrent-appointment-item.md)
     
-    <span data-ttu-id="18634-113">En este tema se muestra cómo crear un elemento de cita periódica semanalmente, que también tiene en cuenta los problemas relacionados con las zonas horarias.</span><span class="sxs-lookup"><span data-stu-id="18634-113">This topic shows how to create a weekly-recurrent appointment item, that also takes into consideration issues related to time zones.</span></span>
+    <span data-ttu-id="c6329-113">En este tema se muestra cómo crear un elemento de cita periódica semanal, que también tiene en cuenta los problemas relacionados con las zonas horarias.</span><span class="sxs-lookup"><span data-stu-id="c6329-113">This topic shows how to create a weekly-recurrent appointment item, that also takes into consideration issues related to time zones.</span></span>
     
-- [<span data-ttu-id="18634-114">Leer y analizar un patrón de periodicidad</span><span class="sxs-lookup"><span data-stu-id="18634-114">Read and Parse a Recurrence Pattern</span></span>](how-to-read-and-parse-a-recurrence-pattern.md)
+- [<span data-ttu-id="c6329-114">Leer y analizar un patrón de periodicidad</span><span class="sxs-lookup"><span data-stu-id="c6329-114">Read and Parse a Recurrence Pattern</span></span>](how-to-read-and-parse-a-recurrence-pattern.md)
     
-    <span data-ttu-id="18634-115">En este tema se muestra cómo leer y analizar un patrón de periodicidad para un elemento de cita.</span><span class="sxs-lookup"><span data-stu-id="18634-115">This topic shows how to read and parse a recurrence pattern for an appointment item.</span></span>
+    <span data-ttu-id="c6329-115">En este tema se muestra cómo leer y analizar un patrón de periodicidad para un elemento de cita.</span><span class="sxs-lookup"><span data-stu-id="c6329-115">This topic shows how to read and parse a recurrence pattern for an appointment item.</span></span>
     
 

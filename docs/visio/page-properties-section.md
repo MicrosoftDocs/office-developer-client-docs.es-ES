@@ -16,12 +16,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411655"
 ---
-# <a name="page-properties-section"></a><span data-ttu-id="3ce34-103">Sección de propiedades de página</span><span class="sxs-lookup"><span data-stu-id="3ce34-103">Page Properties Section</span></span>
+# <a name="page-properties-section"></a><span data-ttu-id="f89c5-103">Sección de propiedades de página</span><span class="sxs-lookup"><span data-stu-id="f89c5-103">Page Properties Section</span></span>
 
-<span data-ttu-id="3ce34-104">Contiene las celdas que controlan los atributos de la página, como el ancho, alto y escala de la página.</span><span class="sxs-lookup"><span data-stu-id="3ce34-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
+<span data-ttu-id="f89c5-104">Contiene las celdas que controlan los atributos de la página, como el ancho, alto y escala de la página.</span><span class="sxs-lookup"><span data-stu-id="f89c5-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3ce34-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3ce34-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f89c5-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f89c5-105">Remarks</span></span>
 
-<span data-ttu-id="3ce34-106">Puede establecer los valores de las propiedades  de página realizando una entrada  en la celda  de sección Propiedades de página o mediante el cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en el iniciador de cuadros de diálogo en el grupo Configurar página). </span><span class="sxs-lookup"><span data-stu-id="3ce34-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
+<span data-ttu-id="f89c5-106">Puede establecer los valores de las propiedades  de página realizando una entrada  en la celda  de sección Propiedades de página o mediante el cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en el iniciador de cuadros de diálogo del grupo Configuración de página). </span><span class="sxs-lookup"><span data-stu-id="f89c5-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
   
 

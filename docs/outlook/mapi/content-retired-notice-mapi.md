@@ -13,24 +13,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409996"
 ---
-# <a name="content-retired-notice-mapi"></a><span data-ttu-id="0b31d-103">Aviso de retirada de contenido (MAPI)</span><span class="sxs-lookup"><span data-stu-id="0b31d-103">Content Retired Notice (MAPI)</span></span>
+# <a name="content-retired-notice-mapi"></a><span data-ttu-id="48ac8-103">Aviso de retirada de contenido (MAPI)</span><span class="sxs-lookup"><span data-stu-id="48ac8-103">Content Retired Notice (MAPI)</span></span>
 
 
   
-<span data-ttu-id="0b31d-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0b31d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="48ac8-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="48ac8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0b31d-105">El contenido que intenta ver ya no se encuentra disponible.</span><span class="sxs-lookup"><span data-stu-id="0b31d-105">The content that you tried to view is no longer available.</span></span> <span data-ttu-id="0b31d-106">Quizás haya sido eliminado o sustituido por una versión más reciente.</span><span class="sxs-lookup"><span data-stu-id="0b31d-106">It may have been deleted or replaced with a more recent version.</span></span> <span data-ttu-id="0b31d-107">Explore este conjunto de vínculos para que se encuentre al día.</span><span class="sxs-lookup"><span data-stu-id="0b31d-107">Explore this set of links to get you up to speed.</span></span>
+<span data-ttu-id="48ac8-105">El contenido que intenta ver ya no se encuentra disponible.</span><span class="sxs-lookup"><span data-stu-id="48ac8-105">The content that you tried to view is no longer available.</span></span> <span data-ttu-id="48ac8-106">Quizás haya sido eliminado o sustituido por una versión más reciente.</span><span class="sxs-lookup"><span data-stu-id="48ac8-106">It may have been deleted or replaced with a more recent version.</span></span> <span data-ttu-id="48ac8-107">Explora este conjunto de vínculos para ponerte al día.</span><span class="sxs-lookup"><span data-stu-id="48ac8-107">Explore this set of links to get you up to speed.</span></span>
   
-## <a name="microsoft-outlook-2013-messaging-api-mapi-reference"></a><span data-ttu-id="0b31d-108">Referencia de API de mensajería (MAPI) Microsoft Outlook 2013</span><span class="sxs-lookup"><span data-stu-id="0b31d-108">Microsoft Outlook 2013 Messaging API (MAPI) Reference</span></span>
+## <a name="microsoft-outlook-2013-messaging-api-mapi-reference"></a><span data-ttu-id="48ac8-108">Referencia de API de mensajería (MAPI) Microsoft Outlook 2013</span><span class="sxs-lookup"><span data-stu-id="48ac8-108">Microsoft Outlook 2013 Messaging API (MAPI) Reference</span></span>
 
-- [<span data-ttu-id="0b31d-109">Referencia MAPI de Outlook</span><span class="sxs-lookup"><span data-stu-id="0b31d-109">Outlook MAPI Reference</span></span>](outlook-mapi-reference.md)
+- [<span data-ttu-id="48ac8-109">Referencia MAPI de Outlook</span><span class="sxs-lookup"><span data-stu-id="48ac8-109">Outlook MAPI Reference</span></span>](outlook-mapi-reference.md)
     
-- [<span data-ttu-id="0b31d-110">Introducción a la Referencia MAPI de Outlook</span><span class="sxs-lookup"><span data-stu-id="0b31d-110">Getting Started with the Outlook MAPI Reference</span></span>](getting-started-with-the-outlook-mapi-reference.md)
+- [<span data-ttu-id="48ac8-110">Introducción a la Referencia MAPI de Outlook</span><span class="sxs-lookup"><span data-stu-id="48ac8-110">Getting Started with the Outlook MAPI Reference</span></span>](getting-started-with-the-outlook-mapi-reference.md)
     
-- [<span data-ttu-id="0b31d-111">Ejemplos de MAPI</span><span class="sxs-lookup"><span data-stu-id="0b31d-111">MAPI Samples</span></span>](mapi-samples.md)
+- [<span data-ttu-id="48ac8-111">Ejemplos de MAPI</span><span class="sxs-lookup"><span data-stu-id="48ac8-111">MAPI Samples</span></span>](mapi-samples.md)
     
-- [<span data-ttu-id="0b31d-112">Conceptos de MAPI</span><span class="sxs-lookup"><span data-stu-id="0b31d-112">MAPI Concepts</span></span>](mapi-concepts.md)
+- [<span data-ttu-id="48ac8-112">Conceptos de MAPI</span><span class="sxs-lookup"><span data-stu-id="48ac8-112">MAPI Concepts</span></span>](mapi-concepts.md)
     
-- [<span data-ttu-id="0b31d-113">Referencia MAPI</span><span class="sxs-lookup"><span data-stu-id="0b31d-113">MAPI Reference</span></span>](mapi-reference.md)
+- [<span data-ttu-id="48ac8-113">Referencia MAPI</span><span class="sxs-lookup"><span data-stu-id="48ac8-113">MAPI Reference</span></span>](mapi-reference.md)
     
 

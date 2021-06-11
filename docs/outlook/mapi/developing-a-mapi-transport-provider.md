@@ -15,12 +15,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416912"
 ---
-# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="6e2d6-103">Desarrollo de un proveedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="6e2d6-103">Developing a MAPI Transport Provider</span></span>
+# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="63a87-103">Desarrollo de un proveedor de transporte MAPI</span><span class="sxs-lookup"><span data-stu-id="63a87-103">Developing a MAPI Transport Provider</span></span>
 
   
   
-<span data-ttu-id="6e2d6-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6e2d6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="63a87-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="63a87-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6e2d6-105">Debe estar familiarizado con la arquitectura del subsistema MAPI, el lenguaje C++ y con la escritura de bibliotecas de vínculos dinámicos (DLL) para las distintas plataformas windows antes de desarrollar un proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="6e2d6-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
+<span data-ttu-id="63a87-105">Debe estar familiarizado con la arquitectura del subsistema MAPI, el lenguaje C++ y con la escritura de bibliotecas de vínculos dinámicos (DLL) para las distintas plataformas Windows antes de desarrollar un proveedor de transporte.</span><span class="sxs-lookup"><span data-stu-id="63a87-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
   
 

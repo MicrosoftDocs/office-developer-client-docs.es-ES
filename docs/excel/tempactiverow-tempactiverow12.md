@@ -19,30 +19,30 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413111"
 ---
-# <a name="tempactiverowtempactiverow12"></a><span data-ttu-id="bb796-104">TempActiveRow/TempActiveRow12</span><span class="sxs-lookup"><span data-stu-id="bb796-104">TempActiveRow/TempActiveRow12</span></span>
+# <a name="tempactiverowtempactiverow12"></a><span data-ttu-id="90fc6-104">TempActiveRow/TempActiveRow12</span><span class="sxs-lookup"><span data-stu-id="90fc6-104">TempActiveRow/TempActiveRow12</span></span>
 
- <span data-ttu-id="bb796-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="bb796-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="90fc6-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="90fc6-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="bb796-106">Funciones de biblioteca de marcos que crean un  /  **XLOPER XLOPER12** temporal que contiene una referencia externa a una fila completa de la hoja activa.</span><span class="sxs-lookup"><span data-stu-id="bb796-106">Framework library functions that create a temporary **XLOPER**/ **XLOPER12** containing an external reference to an entire row on the active sheet.</span></span> 
+<span data-ttu-id="90fc6-106">Funciones de biblioteca de marcos que crean un  /  **XLOPER XLOPER12** temporal que contiene una referencia externa a una fila completa de la hoja activa.</span><span class="sxs-lookup"><span data-stu-id="90fc6-106">Framework library functions that create a temporary **XLOPER**/ **XLOPER12** containing an external reference to an entire row on the active sheet.</span></span> 
   
 ```cs
 LPXLOPER TempActiveRow(WORD row);
 LPXLOPER12 TempActiveRow12(ROW row);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="bb796-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="bb796-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="90fc6-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="90fc6-107">Parameters</span></span>
 
- <span data-ttu-id="bb796-108">_row_</span><span class="sxs-lookup"><span data-stu-id="bb796-108">_row_</span></span>
+ <span data-ttu-id="90fc6-108">_fila_</span><span class="sxs-lookup"><span data-stu-id="90fc6-108">_row_</span></span>
   
-<span data-ttu-id="bb796-109">Fila a la que se va a hacer referencia.</span><span class="sxs-lookup"><span data-stu-id="bb796-109">The row to be referenced.</span></span> <span data-ttu-id="bb796-110">Los argumentos de fila se basan en cero para que la fila 1 se pase como 0.</span><span class="sxs-lookup"><span data-stu-id="bb796-110">Row arguments are zero-based so that row 1 is passed as 0.</span></span> <span data-ttu-id="bb796-111">En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 65.535 = 2^16 - 1 y es el valor máximo que puede tomar un entero de WORD.</span><span class="sxs-lookup"><span data-stu-id="bb796-111">In Microsoft Office Excel 2003 and earlier versions, and starting in Excel 2007 running a workbook in compatibility mode, the maximum value is 65,535 = 2^16 - 1 and is the maximum value that can be taken by a WORD integer.</span></span> <span data-ttu-id="bb796-112">A partir de Excel 2007 que ejecuta un libro, el valor máximo es 1.048.575 = 2^20 - 1.</span><span class="sxs-lookup"><span data-stu-id="bb796-112">Starting in Excel 2007 running a workbook, the maximum value is 1,048,575 = 2^20 - 1.</span></span> <span data-ttu-id="bb796-113">RW se define como un entero con signo de 32 bits en XLCALL.H.</span><span class="sxs-lookup"><span data-stu-id="bb796-113">RW is defined as a 32-bit signed integer in XLCALL.H.</span></span>
+<span data-ttu-id="90fc6-109">Fila a la que se va a hacer referencia.</span><span class="sxs-lookup"><span data-stu-id="90fc6-109">The row to be referenced.</span></span> <span data-ttu-id="90fc6-110">Los argumentos row están basados en cero para que la fila 1 se pase como 0.</span><span class="sxs-lookup"><span data-stu-id="90fc6-110">Row arguments are zero-based so that row 1 is passed as 0.</span></span> <span data-ttu-id="90fc6-111">En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 65.535 = 2^16 - 1 y es el valor máximo que puede tomar un entero de WORD.</span><span class="sxs-lookup"><span data-stu-id="90fc6-111">In Microsoft Office Excel 2003 and earlier versions, and starting in Excel 2007 running a workbook in compatibility mode, the maximum value is 65,535 = 2^16 - 1 and is the maximum value that can be taken by a WORD integer.</span></span> <span data-ttu-id="90fc6-112">A partir Excel 2007 que ejecuta un libro, el valor máximo es 1.048.575 = 2^20 - 1.</span><span class="sxs-lookup"><span data-stu-id="90fc6-112">Starting in Excel 2007 running a workbook, the maximum value is 1,048,575 = 2^20 - 1.</span></span> <span data-ttu-id="90fc6-113">RW se define como un entero con signo de 32 bits en XLCALL.H.</span><span class="sxs-lookup"><span data-stu-id="90fc6-113">RW is defined as a 32-bit signed integer in XLCALL.H.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="bb796-114">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="bb796-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="90fc6-114">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="90fc6-114">Return value</span></span>
 
-<span data-ttu-id="bb796-115">Devuelve una **referencia externa xltypeRef** a las celdas de fila pasadas.</span><span class="sxs-lookup"><span data-stu-id="bb796-115">Returns an **xltypeRef** external reference to row cells passed in.</span></span> 
+<span data-ttu-id="90fc6-115">Devuelve una **referencia externa xltypeRef** a las celdas de fila pasadas.</span><span class="sxs-lookup"><span data-stu-id="90fc6-115">Returns an **xltypeRef** external reference to row cells passed in.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="bb796-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="bb796-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="90fc6-116">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="90fc6-116">Example</span></span>
 
-<span data-ttu-id="bb796-117">En este ejemplo se usa **la función TempActiveRow12** para seleccionar la fila 113.</span><span class="sxs-lookup"><span data-stu-id="bb796-117">This example uses the **TempActiveRow12** function to select row 113.</span></span> 
+<span data-ttu-id="90fc6-117">En este ejemplo se usa **la función TempActiveRow12** para seleccionar la fila 113.</span><span class="sxs-lookup"><span data-stu-id="90fc6-117">This example uses the **TempActiveRow12** function to select row 113.</span></span> 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -54,9 +54,9 @@ short WINAPI TempActiveRowExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="bb796-118">Consulte también</span><span class="sxs-lookup"><span data-stu-id="bb796-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="90fc6-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="90fc6-118">See also</span></span>
 
 
 
-[<span data-ttu-id="bb796-119">Funciones de la biblioteca de marcos</span><span class="sxs-lookup"><span data-stu-id="bb796-119">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="90fc6-119">Funciones de la biblioteca de marcos</span><span class="sxs-lookup"><span data-stu-id="90fc6-119">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

@@ -15,54 +15,54 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416660"
 ---
-# <a name="understanding-the-infopath-2003-object-model"></a><span data-ttu-id="029ff-104">Descripción del modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-104">Understanding the InfoPath 2003 Object Model</span></span>
+# <a name="understanding-the-infopath-2003-object-model"></a><span data-ttu-id="77676-104">Descripción del modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-104">Understanding the InfoPath 2003 Object Model</span></span>
 
-<span data-ttu-id="029ff-105">En esta sección, se trata el modelo de objeto de las soluciones de código administrado de InfoPath y se describe las tareas de programación más comunes.</span><span class="sxs-lookup"><span data-stu-id="029ff-105">This section discusses the object model for InfoPath managed-code solutions, and describes common programming tasks.</span></span>
+<span data-ttu-id="77676-105">En esta sección, se trata el modelo de objeto de las soluciones de código administrado de InfoPath y se describe las tareas de programación más comunes.</span><span class="sxs-lookup"><span data-stu-id="77676-105">This section discusses the object model for InfoPath managed-code solutions, and describes common programming tasks.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="029ff-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="029ff-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="77676-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="77676-106">In this section</span></span>
 
-[<span data-ttu-id="029ff-107">Modelos de objetos compatibles con InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-107">InfoPath 2003 Compatible Object Models</span></span>](infopath-2003-compatible-object-models.md)
+[<span data-ttu-id="77676-107">Modelos de objetos compatibles con InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-107">InfoPath 2003 Compatible Object Models</span></span>](infopath-2003-compatible-object-models.md)
   
-> <span data-ttu-id="029ff-108">Ofrece información general sobre los modelos de objetos que se utilizan en los proyectos de código administrado de InfoPath.</span><span class="sxs-lookup"><span data-stu-id="029ff-108">Provides an overview of the object models used in InfoPath managed-code projects.</span></span>
+> <span data-ttu-id="77676-108">Ofrece información general sobre los modelos de objetos que se utilizan en los proyectos de código administrado de InfoPath.</span><span class="sxs-lookup"><span data-stu-id="77676-108">Provides an overview of the object models used in InfoPath managed-code projects.</span></span>
     
-[<span data-ttu-id="029ff-109">Obtener acceso a datos de la aplicación mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-109">Access Application Data Using the InfoPath 2003 Object Model</span></span>](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-109">Obtener acceso a datos de aplicación mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-109">Access Application Data Using the InfoPath 2003 Object Model</span></span>](how-to-access-application-data-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-110">Trata de cómo obtener acceso a información sobre la aplicación InfoPath, el documento XML subyacente del formulario y el archivo de definición de formularios (.xsf).</span><span class="sxs-lookup"><span data-stu-id="029ff-110">Discusses how to access information about the InfoPath application, the form's underlying XML document, and the form definition (.xsf) file.</span></span>
+> <span data-ttu-id="77676-110">Trata de cómo obtener acceso a información sobre la aplicación InfoPath, el documento XML subyacente del formulario y el archivo de definición de formularios (.xsf).</span><span class="sxs-lookup"><span data-stu-id="77676-110">Discusses how to access information about the InfoPath application, the form's underlying XML document, and the form definition (.xsf) file.</span></span>
     
-[<span data-ttu-id="029ff-111">Obtener acceso a orígenes de datos externos mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-111">Access External Data Sources Using the InfoPath 2003 Object Model</span></span>](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-111">Obtener acceso a orígenes de datos externos mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-111">Access External Data Sources Using the InfoPath 2003 Object Model</span></span>](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-112">Trata de cómo obtener acceso a los datos de orígenes externos.</span><span class="sxs-lookup"><span data-stu-id="029ff-112">Discusses how to access data from external data sources.</span></span>
+> <span data-ttu-id="77676-112">Trata de cómo obtener acceso a los datos de orígenes externos.</span><span class="sxs-lookup"><span data-stu-id="77676-112">Discusses how to access data from external data sources.</span></span>
     
-[<span data-ttu-id="029ff-113">Obtener acceso a datos de formulario mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-113">Access Form Data Using the InfoPath 2003 Object Model</span></span>](how-to-access-form-data-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-113">Obtener acceso a datos de formulario mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-113">Access Form Data Using the InfoPath 2003 Object Model</span></span>](how-to-access-form-data-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-114">Trata de cómo obtener acceso a información sobre el documento XML subyacente del formulario y los datos que contiene y cómo realizar alguna acción en el mismo.</span><span class="sxs-lookup"><span data-stu-id="029ff-114">Discusses how to access information about the form's underlying XML document, the data it contains, or to perform some action on the XML document.</span></span>
+> <span data-ttu-id="77676-114">Trata de cómo obtener acceso a información sobre el documento XML subyacente del formulario y los datos que contiene y cómo realizar alguna acción en el mismo.</span><span class="sxs-lookup"><span data-stu-id="77676-114">Discusses how to access information about the form's underlying XML document, the data it contains, or to perform some action on the XML document.</span></span>
     
-[<span data-ttu-id="029ff-115">Mostrar alertas y cuadros de diálogo con el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-115">Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model</span></span>](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-115">Mostrar alertas y cuadros de diálogo con el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-115">Display Alerts and Dialog Boxes Using the InfoPath 2003 Object Model</span></span>](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-116">Trata de cómo mostrar alertas y cuadros de diálogo en los proyectos de código administrado de InfoPath.</span><span class="sxs-lookup"><span data-stu-id="029ff-116">Discusses how to display alerts and dialog boxes in InfoPath managed-code projects.</span></span>
+> <span data-ttu-id="77676-116">Trata de cómo mostrar alertas y cuadros de diálogo en los proyectos de código administrado de InfoPath.</span><span class="sxs-lookup"><span data-stu-id="77676-116">Discusses how to display alerts and dialog boxes in InfoPath managed-code projects.</span></span>
     
-[<span data-ttu-id="029ff-117">Controlar errores mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-117">Handle Errors Using the InfoPath 2003 Object Model</span></span>](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-117">Controlar errores mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-117">Handle Errors Using the InfoPath 2003 Object Model</span></span>](how-to-handle-errors-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-118">Explica cómo tratar los errores en los proyectos de código administrado de InfoPath.</span><span class="sxs-lookup"><span data-stu-id="029ff-118">Discusses how to handle errors in InfoPath managed-code projects.</span></span>
+> <span data-ttu-id="77676-118">Explica cómo tratar los errores en los proyectos de código administrado de InfoPath.</span><span class="sxs-lookup"><span data-stu-id="77676-118">Discusses how to handle errors in InfoPath managed-code projects.</span></span>
     
-[<span data-ttu-id="029ff-119">Responder a eventos de formulario mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-119">Respond to Form Events Using the InfoPath 2003 Object Model</span></span>](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-119">Responder a eventos de formulario mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-119">Respond to Form Events Using the InfoPath 2003 Object Model</span></span>](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-120">Trata de cómo crear controladores de eventos que respondan a los eventos que se producen mientras el usuario rellena el formulario.</span><span class="sxs-lookup"><span data-stu-id="029ff-120">Discusses how to create event handlers that respond to events that occur as a user fills out a form.</span></span>
+> <span data-ttu-id="77676-120">Trata de cómo crear controladores de eventos que respondan a los eventos que se producen mientras el usuario rellena el formulario.</span><span class="sxs-lookup"><span data-stu-id="77676-120">Discusses how to create event handlers that respond to events that occur as a user fills out a form.</span></span>
     
-[<span data-ttu-id="029ff-121">Trabajar con ventanas de formulario mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-121">Work with Form Windows Using the InfoPath 2003 Object Model</span></span>](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-121">Trabajar con formularios Windows el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-121">Work with Form Windows Using the InfoPath 2003 Object Model</span></span>](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-122">Trata de cómo trabajar con ventanas de formularios.</span><span class="sxs-lookup"><span data-stu-id="029ff-122">Discusses how to work with form windows.</span></span>
+> <span data-ttu-id="77676-122">Trata de cómo trabajar con ventanas de formularios.</span><span class="sxs-lookup"><span data-stu-id="77676-122">Discusses how to work with form windows.</span></span>
     
-[<span data-ttu-id="029ff-123">Trabajar con vistas mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-123">Work with Views Using the InfoPath 2003 Object Model</span></span>](how-to-work-with-views-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-123">Trabajar con vistas mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-123">Work with Views Using the InfoPath 2003 Object Model</span></span>](how-to-work-with-views-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-124">Trata de cómo trabajar con vistas.</span><span class="sxs-lookup"><span data-stu-id="029ff-124">Discusses how to work with views.</span></span>
+> <span data-ttu-id="77676-124">Trata de cómo trabajar con vistas.</span><span class="sxs-lookup"><span data-stu-id="77676-124">Discusses how to work with views.</span></span>
     
-[<span data-ttu-id="029ff-125">Trabajar con firmas digitales mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-125">Work with Digital Signatures Using the InfoPath 2003 Object Model</span></span>](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-125">Trabajar con firmas digitales con el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-125">Work with Digital Signatures Using the InfoPath 2003 Object Model</span></span>](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-126">Trata de cómo trabajar con firmas digitales.</span><span class="sxs-lookup"><span data-stu-id="029ff-126">Discusses how to work with digital signatures.</span></span>
+> <span data-ttu-id="77676-126">Trata de cómo trabajar con firmas digitales.</span><span class="sxs-lookup"><span data-stu-id="77676-126">Discusses how to work with digital signatures.</span></span>
     
-[<span data-ttu-id="029ff-127">Trabajar con soluciones sin conexión mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="029ff-127">Work with Offline Solutions Using the InfoPath 2003 Object Model</span></span>](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
+[<span data-ttu-id="77676-127">Trabajar con soluciones sin conexión mediante el modelo de objetos de InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="77676-127">Work with Offline Solutions Using the InfoPath 2003 Object Model</span></span>](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
   
-> <span data-ttu-id="029ff-128">Trata de cómo trabajar con soluciones sin conexión.</span><span class="sxs-lookup"><span data-stu-id="029ff-128">Discusses how to work with offline solutions.</span></span>
+> <span data-ttu-id="77676-128">Trata de cómo trabajar con soluciones sin conexión.</span><span class="sxs-lookup"><span data-stu-id="77676-128">Discusses how to work with offline solutions.</span></span>
     
 

@@ -16,16 +16,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416051"
 ---
-# <a name="keywords-function"></a><span data-ttu-id="f721b-103">Función KEYWORDS</span><span class="sxs-lookup"><span data-stu-id="f721b-103">KEYWORDS Function</span></span>
+# <a name="keywords-function"></a><span data-ttu-id="3204d-103">Función KEYWORDS</span><span class="sxs-lookup"><span data-stu-id="3204d-103">KEYWORDS Function</span></span>
 
-<span data-ttu-id="f721b-104">Devuelve el texto del campo **Palabras clave** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="f721b-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
+<span data-ttu-id="3204d-104">Devuelve el texto del campo **Palabras clave** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="3204d-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f721b-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f721b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3204d-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3204d-105">Syntax</span></span>
 
-<span data-ttu-id="f721b-106">PALABRAS CLAVE ()</span><span class="sxs-lookup"><span data-stu-id="f721b-106">KEYWORDS ()</span></span>
+<span data-ttu-id="3204d-106">PALABRAS CLAVE ()</span><span class="sxs-lookup"><span data-stu-id="3204d-106">KEYWORDS ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="f721b-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="f721b-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="3204d-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3204d-107">Return value</span></span>
 
-<span data-ttu-id="f721b-108">String</span><span class="sxs-lookup"><span data-stu-id="f721b-108">String</span></span>
+<span data-ttu-id="3204d-108">String</span><span class="sxs-lookup"><span data-stu-id="3204d-108">String</span></span>
   
 

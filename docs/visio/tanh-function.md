@@ -16,32 +16,32 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412775"
 ---
-# <a name="tanh-function"></a><span data-ttu-id="43f6f-103">Función TANH</span><span class="sxs-lookup"><span data-stu-id="43f6f-103">TANH Function</span></span>
+# <a name="tanh-function"></a><span data-ttu-id="e9838-103">Función TANH</span><span class="sxs-lookup"><span data-stu-id="e9838-103">TANH Function</span></span>
 
-<span data-ttu-id="43f6f-104">Devuelve la tangente hiperbólica de un ángulo.</span><span class="sxs-lookup"><span data-stu-id="43f6f-104">Returns the hyperbolic tangent of an angle.</span></span> 
+<span data-ttu-id="e9838-104">Devuelve la tangente hiperbólica de un ángulo.</span><span class="sxs-lookup"><span data-stu-id="e9838-104">Returns the hyperbolic tangent of an angle.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="43f6f-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="43f6f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e9838-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e9838-105">Syntax</span></span>
 
-<span data-ttu-id="43f6f-106">TANH(\*\* *angle* \*\* )</span><span class="sxs-lookup"><span data-stu-id="43f6f-106">TANH(\*\* *angle* \*\* )</span></span> 
+<span data-ttu-id="e9838-106">TANH(\*\* *angle* \*\* )</span><span class="sxs-lookup"><span data-stu-id="e9838-106">TANH(\*\* *angle* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="43f6f-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="43f6f-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="e9838-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="e9838-107">Parameters</span></span>
 
-|<span data-ttu-id="43f6f-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="43f6f-108">**Name**</span></span>|<span data-ttu-id="43f6f-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="43f6f-109">**Required/Optional**</span></span>|<span data-ttu-id="43f6f-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="43f6f-110">**Data Type**</span></span>|<span data-ttu-id="43f6f-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="43f6f-111">**Description**</span></span>|
+|<span data-ttu-id="e9838-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="e9838-108">**Name**</span></span>|<span data-ttu-id="e9838-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="e9838-109">**Required/Optional**</span></span>|<span data-ttu-id="e9838-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="e9838-110">**Data Type**</span></span>|<span data-ttu-id="e9838-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e9838-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="43f6f-112">_ángulo_</span><span class="sxs-lookup"><span data-stu-id="43f6f-112">_angle_</span></span> <br/> |<span data-ttu-id="43f6f-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="43f6f-113">Required</span></span>  <br/> |<span data-ttu-id="43f6f-114">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="43f6f-114">**Numeric**</span></span> <br/> |<span data-ttu-id="43f6f-115">Ángulo del que se obtiene la tangente hiperbólica.</span><span class="sxs-lookup"><span data-stu-id="43f6f-115">The angle of which to get the hypbolic tangent.</span></span>  <br/> |
+| <span data-ttu-id="e9838-112">_ángulo_</span><span class="sxs-lookup"><span data-stu-id="e9838-112">_angle_</span></span> <br/> |<span data-ttu-id="e9838-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="e9838-113">Required</span></span>  <br/> |<span data-ttu-id="e9838-114">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="e9838-114">**Numeric**</span></span> <br/> |<span data-ttu-id="e9838-115">Ángulo del que se obtiene la tangente hipbólica.</span><span class="sxs-lookup"><span data-stu-id="e9838-115">The angle of which to get the hypbolic tangent.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="43f6f-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="43f6f-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="e9838-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="e9838-116">Return value</span></span>
 
-<span data-ttu-id="43f6f-117">Numérico</span><span class="sxs-lookup"><span data-stu-id="43f6f-117">Numeric</span></span>
+<span data-ttu-id="e9838-117">Numérico</span><span class="sxs-lookup"><span data-stu-id="e9838-117">Numeric</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="43f6f-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="43f6f-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e9838-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e9838-118">Remarks</span></span>
 
-<span data-ttu-id="43f6f-119">La función TANH usa radianes a menos que especifique una unidad de medida diferente en *ángulo.*</span><span class="sxs-lookup"><span data-stu-id="43f6f-119">The TANH function uses radians unless you specify a different unit of measure in  *angle*  .</span></span> 
+<span data-ttu-id="e9838-119">La función TANH usa radianes a menos que especifique una unidad de medida diferente en  *ángulo*  .</span><span class="sxs-lookup"><span data-stu-id="e9838-119">The TANH function uses radians unless you specify a different unit of measure in  *angle*  .</span></span> 
   
-## <a name="example"></a><span data-ttu-id="43f6f-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="43f6f-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e9838-120">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e9838-120">Example</span></span>
 
-<span data-ttu-id="43f6f-121">TANH(-45)</span><span class="sxs-lookup"><span data-stu-id="43f6f-121">TANH(-45)</span></span> 
+<span data-ttu-id="e9838-121">TANH(-45)</span><span class="sxs-lookup"><span data-stu-id="e9838-121">TANH(-45)</span></span> 
   
-<span data-ttu-id="43f6f-122">Devuelve -0,6558.</span><span class="sxs-lookup"><span data-stu-id="43f6f-122">Returns -0.6558.</span></span> 
+<span data-ttu-id="e9838-122">Devuelve -0,6558.</span><span class="sxs-lookup"><span data-stu-id="e9838-122">Returns -0.6558.</span></span> 
   
 

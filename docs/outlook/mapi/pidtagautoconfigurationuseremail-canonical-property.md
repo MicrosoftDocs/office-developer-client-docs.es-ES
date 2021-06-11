@@ -19,19 +19,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413139"
 ---
-# <a name="pidtagautoconfigurationuseremail-canonical-property"></a><span data-ttu-id="cdd33-103">Propiedad canónica PidTagAutoConfigurationUserEmail</span><span class="sxs-lookup"><span data-stu-id="cdd33-103">PidTagAutoConfigurationUserEmail Canonical Property</span></span>
+# <a name="pidtagautoconfigurationuseremail-canonical-property"></a><span data-ttu-id="b0bbd-103">Propiedad canónica PidTagAutoConfigurationUserEmail</span><span class="sxs-lookup"><span data-stu-id="b0bbd-103">PidTagAutoConfigurationUserEmail Canonical Property</span></span>
 
   
   
-<span data-ttu-id="cdd33-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cdd33-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b0bbd-104">**Hace referencia a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b0bbd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cdd33-105">Representa la dirección de correo del usuario</span><span class="sxs-lookup"><span data-stu-id="cdd33-105">Represents the user's email address.</span></span>
+<span data-ttu-id="b0bbd-105">Representa la dirección de correo del usuario</span><span class="sxs-lookup"><span data-stu-id="b0bbd-105">Represents the user's email address.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cdd33-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="cdd33-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="cdd33-107">PR_AUTOCFG_USER_EMAIL_W</span><span class="sxs-lookup"><span data-stu-id="cdd33-107">PR_AUTOCFG_USER_EMAIL_W</span></span>  <br/> |
-|<span data-ttu-id="cdd33-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="cdd33-108">Identifier:</span></span>  <br/> |<span data-ttu-id="cdd33-109">0x67FD</span><span class="sxs-lookup"><span data-stu-id="cdd33-109">0x67FD</span></span>  <br/> |
-|<span data-ttu-id="cdd33-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="cdd33-110">Data type:</span></span>  <br/> |<span data-ttu-id="cdd33-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="cdd33-111">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="cdd33-112">Área:</span><span class="sxs-lookup"><span data-stu-id="cdd33-112">Area:</span></span>  <br/> |<span data-ttu-id="cdd33-113">Datos adjuntos del mensaje</span><span class="sxs-lookup"><span data-stu-id="cdd33-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="b0bbd-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="b0bbd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b0bbd-107">PR_AUTOCFG_USER_EMAIL_W</span><span class="sxs-lookup"><span data-stu-id="b0bbd-107">PR_AUTOCFG_USER_EMAIL_W</span></span>  <br/> |
+|<span data-ttu-id="b0bbd-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="b0bbd-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b0bbd-109">0x67FD</span><span class="sxs-lookup"><span data-stu-id="b0bbd-109">0x67FD</span></span>  <br/> |
+|<span data-ttu-id="b0bbd-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="b0bbd-110">Data type:</span></span>  <br/> |<span data-ttu-id="b0bbd-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="b0bbd-111">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="b0bbd-112">Área:</span><span class="sxs-lookup"><span data-stu-id="b0bbd-112">Area:</span></span>  <br/> |<span data-ttu-id="b0bbd-113">Datos adjuntos del mensaje</span><span class="sxs-lookup"><span data-stu-id="b0bbd-113">Message attachment</span></span>  <br/> |
    
 

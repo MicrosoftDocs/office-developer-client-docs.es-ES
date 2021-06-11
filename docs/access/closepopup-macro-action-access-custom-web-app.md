@@ -13,15 +13,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417570"
 ---
-# <a name="closepopup-macro-action-access-custom-web-app"></a><span data-ttu-id="e9737-103">Acción de macro ClosePopup (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="e9737-103">ClosePopup Macro Action (Access custom web app)</span></span>
+# <a name="closepopup-macro-action-access-custom-web-app"></a><span data-ttu-id="a1304-103">Acción de macro ClosePopup (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="a1304-103">ClosePopup Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="e9737-104">Puede usar la acción **ClosePopup para** cerrar la vista emergente del documento activo.</span><span class="sxs-lookup"><span data-stu-id="e9737-104">You can use the **ClosePopup** action to close the active document popup view.</span></span> 
+<span data-ttu-id="a1304-104">Puede usar la acción **ClosePopup** para cerrar la vista emergente del documento activo.</span><span class="sxs-lookup"><span data-stu-id="a1304-104">You can use the **ClosePopup** action to close the active document popup view.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="e9737-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="e9737-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="a1304-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="a1304-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="e9737-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e9737-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a1304-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a1304-107">Remarks</span></span>
 
-<span data-ttu-id="e9737-108">Si el registro actual de la vista emergente está en modo de edición, los cambios realizados en el registro se guardan automáticamente.</span><span class="sxs-lookup"><span data-stu-id="e9737-108">If the current record in the popup view is in edit mode, the changes to the record are automatically saved.</span></span>
+<span data-ttu-id="a1304-108">Si el registro actual de la vista emergente está en modo de edición, los cambios en el registro se guardan automáticamente.</span><span class="sxs-lookup"><span data-stu-id="a1304-108">If the current record in the popup view is in edit mode, the changes to the record are automatically saved.</span></span>
   
 

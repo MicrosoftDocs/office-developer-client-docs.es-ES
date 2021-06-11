@@ -19,37 +19,37 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413342"
 ---
-# <a name="cbnewspropproblemarray"></a><span data-ttu-id="e3a8e-103">CbNewSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="e3a8e-103">CbNewSPropProblemArray</span></span>
+# <a name="cbnewspropproblemarray"></a><span data-ttu-id="7e00b-103">CbNewSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="7e00b-103">CbNewSPropProblemArray</span></span>
 
   
   
-<span data-ttu-id="e3a8e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e3a8e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7e00b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7e00b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e3a8e-105">Calcula el número de bytes que se asignarán a una nueva estructura [SPropProblemArray](spropproblemarray.md) que contiene un número especificado de estructuras [SPropProblem.](spropproblem.md)</span><span class="sxs-lookup"><span data-stu-id="e3a8e-105">Computes the number of bytes to be allocated for a new [SPropProblemArray](spropproblemarray.md) structure that contains a specified number of [SPropProblem](spropproblem.md) structures.</span></span> 
+<span data-ttu-id="7e00b-105">Calcula el número de bytes que se asignarán para una nueva estructura [SPropProblemArray](spropproblemarray.md) que contiene un número especificado de estructuras [SPropProblem.](spropproblem.md)</span><span class="sxs-lookup"><span data-stu-id="7e00b-105">Computes the number of bytes to be allocated for a new [SPropProblemArray](spropproblemarray.md) structure that contains a specified number of [SPropProblem](spropproblem.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e3a8e-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="e3a8e-106">Header file:</span></span>  <br/> |<span data-ttu-id="e3a8e-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e3a8e-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="e3a8e-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="e3a8e-108">Related structure:</span></span>  <br/> |<span data-ttu-id="e3a8e-109">**SPropProblemArray**</span><span class="sxs-lookup"><span data-stu-id="e3a8e-109">**SPropProblemArray**</span></span> <br/> |
+|<span data-ttu-id="7e00b-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="7e00b-106">Header file:</span></span>  <br/> |<span data-ttu-id="7e00b-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7e00b-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="7e00b-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="7e00b-108">Related structure:</span></span>  <br/> |<span data-ttu-id="7e00b-109">**SPropProblemArray**</span><span class="sxs-lookup"><span data-stu-id="7e00b-109">**SPropProblemArray**</span></span> <br/> |
    
 ```cpp
 CbNewSPropProblemArray (_cprob)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e3a8e-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="e3a8e-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7e00b-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="7e00b-110">Parameters</span></span>
 
- <span data-ttu-id="e3a8e-111">_ _cprob_</span><span class="sxs-lookup"><span data-stu-id="e3a8e-111">_ _cprob_</span></span>
+ <span data-ttu-id="7e00b-111">_ _cprob_</span><span class="sxs-lookup"><span data-stu-id="7e00b-111">_ _cprob_</span></span>
   
-> <span data-ttu-id="e3a8e-112">Recuento de **estructuras SPropProblem** que se incluirán en la nueva **estructura SPropProblemArray.**</span><span class="sxs-lookup"><span data-stu-id="e3a8e-112">Count of **SPropProblem** structures to be included in the new **SPropProblemArray** structure.</span></span> 
+> <span data-ttu-id="7e00b-112">Recuento de **estructuras SPropProblem** que se incluirán en la nueva **estructura SPropProblemArray.**</span><span class="sxs-lookup"><span data-stu-id="7e00b-112">Count of **SPropProblem** structures to be included in the new **SPropProblemArray** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="e3a8e-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="e3a8e-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7e00b-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="7e00b-113">See also</span></span>
 
 
 
-[<span data-ttu-id="e3a8e-114">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="e3a8e-114">SPropProblemArray</span></span>](spropproblemarray.md)
+[<span data-ttu-id="7e00b-114">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="7e00b-114">SPropProblemArray</span></span>](spropproblemarray.md)
   
-[<span data-ttu-id="e3a8e-115">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="e3a8e-115">SPropProblem</span></span>](spropproblem.md)
+[<span data-ttu-id="7e00b-115">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="7e00b-115">SPropProblem</span></span>](spropproblem.md)
 
 
-[<span data-ttu-id="e3a8e-116">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="e3a8e-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="7e00b-116">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="7e00b-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

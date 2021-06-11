@@ -1,12 +1,12 @@
 ---
-title: Celda UseGroupGradient (Sección de propiedades de degradado)
+title: Celda UseGroupGradient (sección Propiedades de degradado)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f1dcf0ec-8b4a-4ee1-9208-b1c84e30d37b
-description: Determina si la forma toma un degradado cuando la forma se agrupa junto con otras formas, como un valor booleano. El valor de la celda UseGroupGradient afecta sólo al relleno de la forma.
+description: Determina si la forma toma un degradado cuando la forma se agrupa junto con otras formas, como un valor Boolean. El valor de la celda UseGroupGradient solo afecta al relleno de forma.
 ms.openlocfilehash: a69b48095aec93705c686a5401051f1d1e368d18
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,24 +14,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411368"
 ---
-# <a name="usegroupgradient-cell-gradient-properties-section"></a><span data-ttu-id="a1b0e-104">Celda UseGroupGradient (Sección de propiedades de degradado)</span><span class="sxs-lookup"><span data-stu-id="a1b0e-104">UseGroupGradient Cell (Gradient Properties Section)</span></span>
+# <a name="usegroupgradient-cell-gradient-properties-section"></a><span data-ttu-id="5879f-104">Celda UseGroupGradient (sección Propiedades de degradado)</span><span class="sxs-lookup"><span data-stu-id="5879f-104">UseGroupGradient Cell (Gradient Properties Section)</span></span>
 
-<span data-ttu-id="a1b0e-105">Determina si la forma toma un degradado cuando la forma se agrupa junto con otras formas, como un valor booleano.</span><span class="sxs-lookup"><span data-stu-id="a1b0e-105">Determines whether the shape takes on a gradient when the shape is grouped together with other shapes, as a Boolean.</span></span> <span data-ttu-id="a1b0e-106">El valor de **la celda UseGroupGradient** afecta únicamente al relleno de la forma.</span><span class="sxs-lookup"><span data-stu-id="a1b0e-106">The value of **UseGroupGradient** cell affects the shape fill only.</span></span> 
+<span data-ttu-id="5879f-105">Determina si la forma toma un degradado cuando la forma se agrupa junto con otras formas, como un valor Boolean.</span><span class="sxs-lookup"><span data-stu-id="5879f-105">Determines whether the shape takes on a gradient when the shape is grouped together with other shapes, as a Boolean.</span></span> <span data-ttu-id="5879f-106">El valor de **la celda UseGroupGradient** solo afecta al relleno de forma.</span><span class="sxs-lookup"><span data-stu-id="5879f-106">The value of **UseGroupGradient** cell affects the shape fill only.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="a1b0e-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a1b0e-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5879f-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5879f-107">Remarks</span></span>
 
-<span data-ttu-id="a1b0e-108">Para obtener una referencia a la celda **UseGroupGradient** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice:</span><span class="sxs-lookup"><span data-stu-id="a1b0e-108">To get a reference to the **UseGroupGradient** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="5879f-108">Para obtener una referencia a la celda **UseGroupGradient** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la propiedad **CellsU,** use:</span><span class="sxs-lookup"><span data-stu-id="5879f-108">To get a reference to the **UseGroupGradient** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a1b0e-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="a1b0e-109">Cell name:</span></span>  <br/> | <span data-ttu-id="a1b0e-110">UseGroupGradient</span><span class="sxs-lookup"><span data-stu-id="a1b0e-110">UseGroupGradient</span></span>  <br/> |
+| <span data-ttu-id="5879f-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="5879f-109">Cell name:</span></span>  <br/> | <span data-ttu-id="5879f-110">UseGroupGradient</span><span class="sxs-lookup"><span data-stu-id="5879f-110">UseGroupGradient</span></span>  <br/> |
    
-<span data-ttu-id="a1b0e-111">Para obtener una referencia desde un programa a la **celda UseGroupGradient** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="a1b0e-111">To get a reference to the **UseGroupGradient** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="5879f-111">Para obtener una referencia desde un programa a la celda **UseGroupGradient** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="5879f-111">To get a reference to the **UseGroupGradient** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a1b0e-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="a1b0e-112">Section index:</span></span>  <br/> |<span data-ttu-id="a1b0e-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="a1b0e-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="a1b0e-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="a1b0e-114">Row index:</span></span>  <br/> |<span data-ttu-id="a1b0e-115">**visRowGradientProperties**</span><span class="sxs-lookup"><span data-stu-id="a1b0e-115">**visRowGradientProperties**</span></span> <br/> |
-| <span data-ttu-id="a1b0e-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="a1b0e-116">Cell index:</span></span>  <br/> |<span data-ttu-id="a1b0e-117">\*\*visUseGroupGradient \*\*</span><span class="sxs-lookup"><span data-stu-id="a1b0e-117">\*\*visUseGroupGradient \*\*</span></span> <br/> |
+| <span data-ttu-id="5879f-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="5879f-112">Section index:</span></span>  <br/> |<span data-ttu-id="5879f-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="5879f-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="5879f-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="5879f-114">Row index:</span></span>  <br/> |<span data-ttu-id="5879f-115">**visRowGradientProperties**</span><span class="sxs-lookup"><span data-stu-id="5879f-115">**visRowGradientProperties**</span></span> <br/> |
+| <span data-ttu-id="5879f-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="5879f-116">Cell index:</span></span>  <br/> |<span data-ttu-id="5879f-117">\*\*visUseGroupGradient \*\*</span><span class="sxs-lookup"><span data-stu-id="5879f-117">\*\*visUseGroupGradient \*\*</span></span> <br/> |
    
 

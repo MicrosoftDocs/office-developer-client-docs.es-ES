@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416562"
 ---
-# <a name="olflagicon"></a><span data-ttu-id="08f75-103">OlFlagIcon</span><span class="sxs-lookup"><span data-stu-id="08f75-103">OlFlagIcon</span></span>
+# <a name="olflagicon"></a><span data-ttu-id="522b7-103">OlFlagIcon</span><span class="sxs-lookup"><span data-stu-id="522b7-103">OlFlagIcon</span></span>
 
   
   
-<span data-ttu-id="08f75-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="08f75-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="522b7-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="522b7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="08f75-105">Especifica si un elemento está marcado y, si es así, el color asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="08f75-105">Specifies whether an item is flagged, and if it is, the color associated with the flagged item.</span></span>
+<span data-ttu-id="522b7-105">Especifica si un elemento está marcado y, si es así, el color asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="522b7-105">Specifies whether an item is flagged, and if it is, the color associated with the flagged item.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="08f75-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="08f75-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="522b7-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="522b7-106">Quick info</span></span>
 
 ```cpp
 enum OlFlagIcon { 
@@ -38,39 +38,39 @@ enum OlFlagIcon {
 
 ```
 
-## <a name="members"></a><span data-ttu-id="08f75-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="08f75-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="522b7-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="522b7-107">Members</span></span>
 
- <span data-ttu-id="08f75-108">_olNoFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="08f75-108">_olNoFlagIcon_</span></span>
+ <span data-ttu-id="522b7-108">_olNoFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="522b7-108">_olNoFlagIcon_</span></span>
   
-> <span data-ttu-id="08f75-109">No se ha asociado ninguna marca con el elemento.</span><span class="sxs-lookup"><span data-stu-id="08f75-109">No flag has been associated with the item.</span></span>
+> <span data-ttu-id="522b7-109">No se ha asociado ninguna marca al elemento.</span><span class="sxs-lookup"><span data-stu-id="522b7-109">No flag has been associated with the item.</span></span>
     
- <span data-ttu-id="08f75-110">_olPurpleFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="08f75-110">_olPurpleFlagIcon_</span></span>
+ <span data-ttu-id="522b7-110">_olPurpleFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="522b7-110">_olPurpleFlagIcon_</span></span>
   
-> <span data-ttu-id="08f75-111">El color púrpura se ha asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="08f75-111">Purple has been associated with the flagged item.</span></span>
+> <span data-ttu-id="522b7-111">Púrpura se ha asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="522b7-111">Purple has been associated with the flagged item.</span></span>
     
- <span data-ttu-id="08f75-112">_olOrangeFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="08f75-112">_olOrangeFlagIcon_</span></span>
+ <span data-ttu-id="522b7-112">_olOrangeFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="522b7-112">_olOrangeFlagIcon_</span></span>
   
-> <span data-ttu-id="08f75-113">Naranja se ha asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="08f75-113">Orange has been associated with the flagged item.</span></span>
+> <span data-ttu-id="522b7-113">Naranja se ha asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="522b7-113">Orange has been associated with the flagged item.</span></span>
     
- <span data-ttu-id="08f75-114">_olGreenFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="08f75-114">_olGreenFlagIcon_</span></span>
+ <span data-ttu-id="522b7-114">_olGreenFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="522b7-114">_olGreenFlagIcon_</span></span>
   
-> <span data-ttu-id="08f75-115">El color verde se ha asociado al elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="08f75-115">Green has been associated with the flagged item.</span></span>
+> <span data-ttu-id="522b7-115">El verde se ha asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="522b7-115">Green has been associated with the flagged item.</span></span>
     
- <span data-ttu-id="08f75-116">_olYellowFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="08f75-116">_olYellowFlagIcon_</span></span>
+ <span data-ttu-id="522b7-116">_olYellowFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="522b7-116">_olYellowFlagIcon_</span></span>
   
-> <span data-ttu-id="08f75-117">El color amarillo se ha asociado al elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="08f75-117">Yellow has been associated with the flagged item.</span></span>
+> <span data-ttu-id="522b7-117">El color amarillo se ha asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="522b7-117">Yellow has been associated with the flagged item.</span></span>
     
- <span data-ttu-id="08f75-118">_olBlueFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="08f75-118">_olBlueFlagIcon_</span></span>
+ <span data-ttu-id="522b7-118">_olBlueFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="522b7-118">_olBlueFlagIcon_</span></span>
   
-> <span data-ttu-id="08f75-119">El color azul se ha asociado al elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="08f75-119">Blue has been associated with the flagged item.</span></span>
+> <span data-ttu-id="522b7-119">El azul se ha asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="522b7-119">Blue has been associated with the flagged item.</span></span>
     
- <span data-ttu-id="08f75-120">_olRedFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="08f75-120">_olRedFlagIcon_</span></span>
+ <span data-ttu-id="522b7-120">_olRedFlagIcon_</span><span class="sxs-lookup"><span data-stu-id="522b7-120">_olRedFlagIcon_</span></span>
   
-> <span data-ttu-id="08f75-121">El color rojo se ha asociado al elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="08f75-121">Red has been associated with the flagged item.</span></span>
+> <span data-ttu-id="522b7-121">El rojo se ha asociado con el elemento marcado.</span><span class="sxs-lookup"><span data-stu-id="522b7-121">Red has been associated with the flagged item.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="08f75-122">Consulte también</span><span class="sxs-lookup"><span data-stu-id="08f75-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="522b7-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="522b7-122">See also</span></span>
 
 
 
-[<span data-ttu-id="08f75-123">Propiedad canónica PidTagFollowupIcon</span><span class="sxs-lookup"><span data-stu-id="08f75-123">PidTagFollowupIcon Canonical Property</span></span>](pidtagfollowupicon-canonical-property.md)
+[<span data-ttu-id="522b7-123">Propiedad canónica PidTagFollowupIcon</span><span class="sxs-lookup"><span data-stu-id="522b7-123">PidTagFollowupIcon Canonical Property</span></span>](pidtagfollowupicon-canonical-property.md)
 

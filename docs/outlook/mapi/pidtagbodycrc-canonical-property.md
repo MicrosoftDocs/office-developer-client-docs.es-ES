@@ -19,48 +19,48 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415183"
 ---
-# <a name="pidtagbodycrc-canonical-property"></a><span data-ttu-id="8b739-103">Propiedad canónica PidTagBodyCrc</span><span class="sxs-lookup"><span data-stu-id="8b739-103">PidTagBodyCrc Canonical Property</span></span>
+# <a name="pidtagbodycrc-canonical-property"></a><span data-ttu-id="e99a6-103">Propiedad canónica PidTagBodyCrc</span><span class="sxs-lookup"><span data-stu-id="e99a6-103">PidTagBodyCrc Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8b739-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8b739-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e99a6-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e99a6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8b739-105">Contiene un valor de comprobación de redundancia cíclica (CRC) en el texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="8b739-105">Contains a cyclic redundancy check (CRC) value on the message text.</span></span>
+<span data-ttu-id="e99a6-105">Contiene un valor de comprobación de redundancia cíclica (CRC) en el texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="e99a6-105">Contains a cyclic redundancy check (CRC) value on the message text.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8b739-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="8b739-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8b739-107">PR_BODY_CRC</span><span class="sxs-lookup"><span data-stu-id="8b739-107">PR_BODY_CRC</span></span>  <br/> |
-|<span data-ttu-id="8b739-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="8b739-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8b739-109">0x0E1C</span><span class="sxs-lookup"><span data-stu-id="8b739-109">0x0E1C</span></span>  <br/> |
-|<span data-ttu-id="8b739-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="8b739-110">Data type:</span></span>  <br/> |<span data-ttu-id="8b739-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="8b739-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="8b739-112">Área:</span><span class="sxs-lookup"><span data-stu-id="8b739-112">Area:</span></span>  <br/> |<span data-ttu-id="8b739-113">Exchange</span><span class="sxs-lookup"><span data-stu-id="8b739-113">Exchange</span></span>  <br/> |
+|<span data-ttu-id="e99a6-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="e99a6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e99a6-107">PR_BODY_CRC</span><span class="sxs-lookup"><span data-stu-id="e99a6-107">PR_BODY_CRC</span></span>  <br/> |
+|<span data-ttu-id="e99a6-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="e99a6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e99a6-109">0x0E1C</span><span class="sxs-lookup"><span data-stu-id="e99a6-109">0x0E1C</span></span>  <br/> |
+|<span data-ttu-id="e99a6-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="e99a6-110">Data type:</span></span>  <br/> |<span data-ttu-id="e99a6-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="e99a6-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="e99a6-112">Área:</span><span class="sxs-lookup"><span data-stu-id="e99a6-112">Area:</span></span>  <br/> |<span data-ttu-id="e99a6-113">Exchange</span><span class="sxs-lookup"><span data-stu-id="e99a6-113">Exchange</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8b739-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8b739-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e99a6-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e99a6-114">Remarks</span></span>
 
-<span data-ttu-id="8b739-115">El almacén de mensajes puede usar cualquier algoritmo CRC que genere un valor PT_LONG mensaje.</span><span class="sxs-lookup"><span data-stu-id="8b739-115">The message store can use any CRC algorithm that generates a PT_LONG value.</span></span> <span data-ttu-id="8b739-116">Debe calcular esta propiedad como parte del método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) cuando la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) se ha establecido por primera vez y siempre que se haya modificado posteriormente.</span><span class="sxs-lookup"><span data-stu-id="8b739-116">It must compute this property as part of the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method when the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property has been set for the first time and whenever it has been subsequently modified.</span></span>
+<span data-ttu-id="e99a6-115">El almacén de mensajes puede usar cualquier algoritmo CRC que genere un PT_LONG valor.</span><span class="sxs-lookup"><span data-stu-id="e99a6-115">The message store can use any CRC algorithm that generates a PT_LONG value.</span></span> <span data-ttu-id="e99a6-116">Debe calcular esta propiedad como parte del método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) cuando la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) se haya establecido por primera vez y siempre que se haya modificado posteriormente.</span><span class="sxs-lookup"><span data-stu-id="e99a6-116">It must compute this property as part of the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method when the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property has been set for the first time and whenever it has been subsequently modified.</span></span>
   
-<span data-ttu-id="8b739-117">Una aplicación cliente usa **PR_BODY_CRC** ayuda a comparar las cadenas de texto del mensaje contenidas **en PR_BODY** propiedades o sus variantes.</span><span class="sxs-lookup"><span data-stu-id="8b739-117">A client application uses **PR_BODY_CRC** to aid in comparing message text strings contained in **PR_BODY** properties or their variants.</span></span> <span data-ttu-id="8b739-118">Con esta propiedad, el cliente puede detectar rápida y fácilmente cuándo ha cambiado el texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="8b739-118">Using this property, the client can quickly and easily detect when the message text has changed.</span></span> <span data-ttu-id="8b739-119">Puede obtener mejoras significativas en el rendimiento mediante  **PR_BODY_CRC** en lugar de obtener PR_BODY del almacén de mensajes y compararlo con una versión local.</span><span class="sxs-lookup"><span data-stu-id="8b739-119">It can realize significant performance gains by using **PR_BODY_CRC** instead of obtaining **PR_BODY** from the message store and comparing it with a local version.</span></span> 
+<span data-ttu-id="e99a6-117">Una aplicación cliente usa **PR_BODY_CRC** para ayudar a comparar cadenas de texto de mensaje contenidas **en PR_BODY** propiedades o sus variantes.</span><span class="sxs-lookup"><span data-stu-id="e99a6-117">A client application uses **PR_BODY_CRC** to aid in comparing message text strings contained in **PR_BODY** properties or their variants.</span></span> <span data-ttu-id="e99a6-118">Con esta propiedad, el cliente puede detectar de forma rápida y sencilla cuándo ha cambiado el texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="e99a6-118">Using this property, the client can quickly and easily detect when the message text has changed.</span></span> <span data-ttu-id="e99a6-119">Puede obtener ganancias significativas de rendimiento mediante  **PR_BODY_CRC** en lugar de obtener PR_BODY del almacén de mensajes y compararlo con una versión local.</span><span class="sxs-lookup"><span data-stu-id="e99a6-119">It can realize significant performance gains by using **PR_BODY_CRC** instead of obtaining **PR_BODY** from the message store and comparing it with a local version.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="8b739-120">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="8b739-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e99a6-120">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="e99a6-120">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="8b739-121">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="8b739-121">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e99a6-121">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="e99a6-121">Header files</span></span>
 
-<span data-ttu-id="8b739-122">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8b739-122">Mapidefs.h</span></span>
+<span data-ttu-id="e99a6-122">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e99a6-122">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8b739-123">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="8b739-123">Provides data type definitions.</span></span>
+> <span data-ttu-id="e99a6-123">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="e99a6-123">Provides data type definitions.</span></span>
     
-<span data-ttu-id="8b739-124">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="8b739-124">Mapitags.h</span></span>
+<span data-ttu-id="e99a6-124">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="e99a6-124">Mapitags.h</span></span>
   
-> <span data-ttu-id="8b739-125">Contiene definiciones de propiedades enumeradas como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="8b739-125">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="e99a6-125">Contiene definiciones de propiedades enumeradas como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="e99a6-125">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8b739-126">Consulte también</span><span class="sxs-lookup"><span data-stu-id="8b739-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e99a6-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="e99a6-126">See also</span></span>
 
 
 
-[<span data-ttu-id="8b739-127">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="8b739-127">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e99a6-127">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="e99a6-127">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8b739-128">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="8b739-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e99a6-128">Propiedades canónicas MAPI</span><span class="sxs-lookup"><span data-stu-id="e99a6-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8b739-129">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="8b739-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e99a6-129">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="e99a6-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8b739-130">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="8b739-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e99a6-130">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="e99a6-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

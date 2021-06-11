@@ -13,21 +13,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411844"
 ---
-# <a name="arithmetic-operators-access-custom-web-app"></a><span data-ttu-id="4a1be-102">Operadores aritméticos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="4a1be-102">Arithmetic Operators (Access custom web app)</span></span>
+# <a name="arithmetic-operators-access-custom-web-app"></a><span data-ttu-id="8a6b5-102">Operadores aritméticos (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="8a6b5-102">Arithmetic Operators (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="4a1be-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="4a1be-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="8a6b5-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="8a6b5-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="4a1be-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="4a1be-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8a6b5-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="8a6b5-105">In this section</span></span>
 
-- [<span data-ttu-id="4a1be-106">- (Resta) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="4a1be-106">- (Subtract) (Access custom web app)</span></span>](subtractaccess-custom-web-app.md)
+- [<span data-ttu-id="8a6b5-106">- (Restar) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="8a6b5-106">- (Subtract) (Access custom web app)</span></span>](subtractaccess-custom-web-app.md)
     
-- [<span data-ttu-id="4a1be-107">\* (Multiplicar) (Aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="4a1be-107">\* (Multiply) (Access custom web app)</span></span>](multiplyaccess-custom-web-app.md)
+- [<span data-ttu-id="8a6b5-107">\* (Multiplicar) (Aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="8a6b5-107">\* (Multiply) (Access custom web app)</span></span>](multiplyaccess-custom-web-app.md)
     
-- [<span data-ttu-id="4a1be-108">/ (Dividir) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="4a1be-108">/ (Divide) (Access custom web app)</span></span>](divideaccess-custom-web-app.md)
+- [<span data-ttu-id="8a6b5-108">/ (Dividir) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="8a6b5-108">/ (Divide) (Access custom web app)</span></span>](divideaccess-custom-web-app.md)
     
-- [<span data-ttu-id="4a1be-109">+ (Agregar) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="4a1be-109">+ (Add) (Access custom web app)</span></span>](plusaddaccess-custom-web-app.md)
+- [<span data-ttu-id="8a6b5-109">+ (Agregar) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="8a6b5-109">+ (Add) (Access custom web app)</span></span>](plusaddaccess-custom-web-app.md)
     
-- [<span data-ttu-id="4a1be-110">Mod (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="4a1be-110">Mod (Access custom web app)</span></span>](mod-access-custom-web-app.md)
+- [<span data-ttu-id="8a6b5-110">Mod (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="8a6b5-110">Mod (Access custom web app)</span></span>](mod-access-custom-web-app.md)
     
 

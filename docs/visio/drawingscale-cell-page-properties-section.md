@@ -16,11 +16,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413321"
 ---
-# <a name="drawingscale-cell-page-properties-section"></a><span data-ttu-id="43e89-104">Celda DrawingScale (Sección de propiedades de página)</span><span class="sxs-lookup"><span data-stu-id="43e89-104">DrawingScale Cell (Page Properties Section)</span></span>
+# <a name="drawingscale-cell-page-properties-section"></a><span data-ttu-id="bcb45-104">Celda DrawingScale (Sección de propiedades de página)</span><span class="sxs-lookup"><span data-stu-id="bcb45-104">DrawingScale Cell (Page Properties Section)</span></span>
 
-<span data-ttu-id="43e89-p102">Representa el valor de la unidad de dibujo en la escala de dibujo actual. La escala de dibujo de la página es la relación entre la unidad de la página mostrada en la celda PageScale y la unidad de dibujo que aparece en la celda DrawingScale.</span><span class="sxs-lookup"><span data-stu-id="43e89-p102">Represents the value of the drawing unit in the current drawing scale. The drawing scale for the page is the ratio of the page unit shown in the PageScale cell to the drawing unit shown in the DrawingScale cell.</span></span>
+<span data-ttu-id="bcb45-p102">Representa el valor de la unidad de dibujo en la escala de dibujo actual. La escala de dibujo de la página es la relación entre la unidad de la página mostrada en la celda PageScale y la unidad de dibujo que aparece en la celda DrawingScale.</span><span class="sxs-lookup"><span data-stu-id="bcb45-p102">Represents the value of the drawing unit in the current drawing scale. The drawing scale for the page is the ratio of the page unit shown in the PageScale cell to the drawing unit shown in the DrawingScale cell.</span></span>
   
-<span data-ttu-id="43e89-107">Puede establecer la celda DrawingScale para cambiar las unidades de las reglas de una página de un programa.</span><span class="sxs-lookup"><span data-stu-id="43e89-107">You can set the DrawingScale cell to change the units of a page's rulers from a program.</span></span> <span data-ttu-id="43e89-108">A continuación, figura un ejemplo de cómo cambiar de unidades de pulgadas a centímetros para un programa.</span><span class="sxs-lookup"><span data-stu-id="43e89-108">Here is an example of changing the measurement units from inches to centimeters from a program.</span></span> <span data-ttu-id="43e89-109">En este caso, se utiliza el método **ConvertResult** para mantener la misma distancia, pero en unidades distintas.</span><span class="sxs-lookup"><span data-stu-id="43e89-109">In this case, we use the **ConvertResult** method to keep the distance the same but express it in different units.</span></span> 
+<span data-ttu-id="bcb45-p103">Puede establecer la celda DrawingScale para cambiar las unidades de las reglas de una página de un programa. A continuación, figura un ejemplo de cómo cambiar de unidades de pulgadas a centímetros para un programa. En este caso, se utiliza el método **ConvertResult** para mantener la misma distancia, pero en unidades distintas.</span><span class="sxs-lookup"><span data-stu-id="bcb45-p103">You can set the DrawingScale cell to change the units of a page's rulers from a program. Here is an example of changing the measurement units from inches to centimeters from a program. In this case, we use the **ConvertResult** method to keep the distance the same but express it in different units.</span></span> 
   
 ```vb
 Public Sub SetActivePageMeasurementToCM() 
@@ -32,35 +32,35 @@ Set dsCell = ActivePage.PageSheet.Cells("DrawingScale")
 End Sub 
 ```
 
-<span data-ttu-id="43e89-110">Puede determinar el sistema de medida de un dibujo observando la propiedad **Units** de la celda DrawingScale.</span><span class="sxs-lookup"><span data-stu-id="43e89-110">You can determine the measurement system in a drawing by examining the **Units** property of the DrawingScale cell.</span></span> <span data-ttu-id="43e89-111">Después de ejecutar la macro anterior, la siguiente instrucción ejecutada en la Visual Basic Editor inmediato devolverá  *True*  .</span><span class="sxs-lookup"><span data-stu-id="43e89-111">After running the above macro the following statement executed in the Visual Basic Editor Immediate window will return  *True*  .</span></span> 
+<span data-ttu-id="bcb45-110">Puede determinar el sistema de medida de un dibujo observando la propiedad **Units** de la celda DrawingScale.</span><span class="sxs-lookup"><span data-stu-id="bcb45-110">You can determine the measurement system in a drawing by examining the **Units** property of the DrawingScale cell.</span></span> <span data-ttu-id="bcb45-111">Después de ejecutar la macro anterior, la siguiente instrucción ejecutada en la Visual Basic editor inmediato devolverá *True* .</span><span class="sxs-lookup"><span data-stu-id="bcb45-111">After running the above macro the following statement executed in the Visual Basic Editor Immediate window will return  *True*  .</span></span> 
   
 ```vb
 debug.print ActivePage.PageSheet.Cells("DrawingScale").Units = _ 
  visCentimeters 
 ```
 
-## <a name="remarks"></a><span data-ttu-id="43e89-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="43e89-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bcb45-112">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bcb45-112">Remarks</span></span>
 
-<span data-ttu-id="43e89-113">Esta celda corresponde a la configuración del cuadro de diálogo **Configurar página** (haga clic en la flecha de **Configurar página** en la ficha **Inicio**).</span><span class="sxs-lookup"><span data-stu-id="43e89-113">This cell corresponds to the settings in the **Page Setup** dialog box (click the **Page Setup** arrow on the **Home** tab).</span></span> 
+<span data-ttu-id="bcb45-113">Esta celda corresponde a la configuración del cuadro de diálogo **Configurar página** (haga clic en la flecha de **Configurar página** en la ficha **Inicio**).</span><span class="sxs-lookup"><span data-stu-id="bcb45-113">This cell corresponds to the settings in the **Page Setup** dialog box (click the **Page Setup** arrow on the **Home** tab).</span></span> 
   
-<span data-ttu-id="43e89-p105">Las unidades de la fórmula de la celda DrawingScale determinan las unidades de medida utilizadas por las reglas en la ventana de dibujo. Si no desea cambiar la escala del dibujo, puede seguir uno de estos procedimientos:</span><span class="sxs-lookup"><span data-stu-id="43e89-p105">The units of the formula in the DrawingScale cell determine the measurement units used by the rulers in the drawing window. If you do not want to also change the drawing's scale, you can do one of the following:</span></span>
+<span data-ttu-id="bcb45-p105">Las unidades de la fórmula de la celda DrawingScale determinan las unidades de medida utilizadas por las reglas en la ventana de dibujo. Si no desea cambiar la escala del dibujo, puede seguir uno de estos procedimientos:</span><span class="sxs-lookup"><span data-stu-id="bcb45-p105">The units of the formula in the DrawingScale cell determine the measurement units used by the rulers in the drawing window. If you do not want to also change the drawing's scale, you can do one of the following:</span></span>
   
-- <span data-ttu-id="43e89-116">Mantener la misma distancia expresada en la celda DrawingScale, pero en unidades distintas.</span><span class="sxs-lookup"><span data-stu-id="43e89-116">Keep the distance expressed in the DrawingScale cell the same but express it in different units.</span></span>
+- <span data-ttu-id="bcb45-116">Mantener la misma distancia expresada en la celda DrawingScale, pero en unidades distintas.</span><span class="sxs-lookup"><span data-stu-id="bcb45-116">Keep the distance expressed in the DrawingScale cell the same but express it in different units.</span></span>
     
-- <span data-ttu-id="43e89-117">Cambiar la distancia expresada en la celda PageScale en la misma proporción que cambie la celda DrawingScale.</span><span class="sxs-lookup"><span data-stu-id="43e89-117">Change the distance expressed in the PageScale cell by the same factor that you change DrawingScale.</span></span>
+- <span data-ttu-id="bcb45-117">Cambiar la distancia expresada en la celda PageScale en la misma proporción que cambie la celda DrawingScale.</span><span class="sxs-lookup"><span data-stu-id="bcb45-117">Change the distance expressed in the PageScale cell by the same factor that you change DrawingScale.</span></span>
     
-<span data-ttu-id="43e89-118">Para obtener una referencia a la celda DrawingScale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="43e89-118">To get a reference to the DrawingScale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="bcb45-118">Para obtener una referencia a la celda DrawingScale por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="bcb45-118">To get a reference to the DrawingScale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="43e89-119">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="43e89-119">Cell name:</span></span>  <br/> |<span data-ttu-id="43e89-120">DrawingScale</span><span class="sxs-lookup"><span data-stu-id="43e89-120">DrawingScale</span></span>  <br/> |
+|<span data-ttu-id="bcb45-119">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="bcb45-119">Cell name:</span></span>  <br/> |<span data-ttu-id="bcb45-120">DrawingScale</span><span class="sxs-lookup"><span data-stu-id="bcb45-120">DrawingScale</span></span>  <br/> |
    
-<span data-ttu-id="43e89-121">Para obtener una referencia a la celda DrawingScale por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="43e89-121">To get a reference to the DrawingScale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="bcb45-121">Para obtener una referencia a la celda DrawingScale por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="bcb45-121">To get a reference to the DrawingScale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="43e89-122">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="43e89-122">Section index:</span></span>  <br/> |<span data-ttu-id="43e89-123">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="43e89-123">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="43e89-124">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="43e89-124">Row index:</span></span>  <br/> |<span data-ttu-id="43e89-125">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="43e89-125">**visRowPage**</span></span> <br/> |
-|<span data-ttu-id="43e89-126">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="43e89-126">Cell index:</span></span>  <br/> |<span data-ttu-id="43e89-127">**visPageDrawingScale**</span><span class="sxs-lookup"><span data-stu-id="43e89-127">**visPageDrawingScale**</span></span> <br/> |
+|<span data-ttu-id="bcb45-122">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="bcb45-122">Section index:</span></span>  <br/> |<span data-ttu-id="bcb45-123">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="bcb45-123">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="bcb45-124">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="bcb45-124">Row index:</span></span>  <br/> |<span data-ttu-id="bcb45-125">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="bcb45-125">**visRowPage**</span></span> <br/> |
+|<span data-ttu-id="bcb45-126">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="bcb45-126">Cell index:</span></span>  <br/> |<span data-ttu-id="bcb45-127">**visPageDrawingScale**</span><span class="sxs-lookup"><span data-stu-id="bcb45-127">**visPageDrawingScale**</span></span> <br/> |
    
 
