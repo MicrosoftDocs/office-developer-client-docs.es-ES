@@ -75,7 +75,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI usa el **método HrGetOneProp** para recuperar el tipo de un objeto.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

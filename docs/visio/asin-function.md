@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251395
 localization_priority: Normal
 ms.assetid: 7d917be4-65b1-002f-48cc-6d81916a1157
-description: Devuelve el arcoseno de un número, por ejemplo, el ángulo cuyo seno es el número .
+description: Devuelve la arcosina de un número, por ejemplo, el ángulo cuyo seno es número .
 ms.openlocfilehash: e66ed9ab3d01ac79bceb18f5c793afc928e5e4b4
 ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "48293509"
 ---
 # <a name="asin-function"></a>Función ASIN
 
-Devuelve el arcoseno de un número, por ejemplo, el ángulo cuyo seno es  *el número*  . 
+Devuelve la arcosina de un número, por ejemplo, el ángulo cuyo seno es  *número*  . 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -32,7 +32,7 @@ ASIN(***number*** )
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de entrada debe estar en el intervalo -1 <=  *número*  <= 1, o un #NUM! se devuelve. El ángulo resultante está en el rango -PI/2 < *=*  ángulo <= PI/2 radianes (-90 < *=*  ángulo <= 90 grados). 
+El valor de entrada debe estar en el intervalo -1 <=  *número*  <= 1, o un #NUM! error se devuelve. El ángulo resultante está en el intervalo -PI/2 <=  *ángulo*  <= PI/2 radianes (-90 <=  *ángulo*  <= 90 grados). 
   
 ## <a name="example"></a>Ejemplo
 

@@ -45,7 +45,7 @@ Este punto de entrada exportado desde OLMAPI32.DLL permite al autor de la llamad
 |Llamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
   
  _ppInitMonitor_
 > [salida] Puntero para recibir la instancia recién creada del monitor de inicialización MAPI.

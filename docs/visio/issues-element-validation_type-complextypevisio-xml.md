@@ -1,5 +1,5 @@
 ---
-title: Elemento Issues (Validation_Type complexType) (XML de Visio)
+title: Elemento Issues (Validation_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542943"
 ---
-# <a name="issues-element-validation_type-complextype-visio-xml"></a>Elemento Issues (Validation_Type complexType) (XML de Visio)
+# <a name="issues-element-validation_type-complextype-visio-xml"></a>Elemento Issues (Validation_Type complexType) (Visio XML)
 
 Contiene todos los elementos Issue del documento.
   
@@ -36,7 +36,7 @@ Contiene todos los elementos Issue del documento.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia**, **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

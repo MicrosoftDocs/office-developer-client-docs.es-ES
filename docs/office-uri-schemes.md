@@ -140,7 +140,7 @@ Para argumentos de comando URI, la longitud de ruta máxima es de 256 caracteres
   
 ### <a name="allowed-characters-in-uri-command-arguments"></a>Caracteres permitidos en argumentos de comando URI
 
-Los URI permitidos deben cumplir con los estándares propuestos en RFC 3987: Identificadores de recursos internacionalizados (IDI). Los caracteres identificados como reservados en RFC 3986 no deben codificarse por porcentaje. . Los nombres de archivo no deben contener ninguno de los siguientes caracteres: \ / : ? \< \> | " o \* .  
+Los URI permitidos deben cumplir con los estándares propuestos en RFC 3987: Identificadores de recursos internacionalizados (IRI). Los caracteres identificados como reservados en RFC 3986 no deben estar cifrados con porcentaje. Los nombres de archivo no deben contener ninguno de los siguientes caracteres: \ / : ? \< \> | " o \*.  
   
 ## <a name="appendix-a---uri-scheme-registration-template-for-ms-word-scheme"></a>APÉNDICE A: PLANTILLA DE REGISTRO DE ESQUEMA URI PARA ESQUEMA MS-WORD
 <a name="bk_addresources"> </a>
@@ -343,7 +343,7 @@ Microsoft Office 2013 usa el esquema URI ms-access para invocar Microsoft Access
   
 ### <a name="e-6-interoperability-considerations"></a>E-6. Consideraciones de interoperabilidad
 
-Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. Dentro de los segmentos, los caracteres reservados RFC 3986 ":" y "/" forman parte de los datos de argumento, no de delimitadores y, por lo tanto, se incluyen sin \<command-argument\> límite.
+Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. Dentro de los segmentos, los caracteres reservados RFC 3986 y "/" forman parte de los datos de argumento, no delimitadores y, por lo tanto, se incluyen sin \<command-argument\> delimitar.
   
 ### <a name="e-7-security-considerations"></a>E-7. Consideraciones de seguridad
 
@@ -427,7 +427,7 @@ Microsoft Office 2013 usa el esquema URI ms-publisher para invocar Microsoft Pub
   
 ### <a name="g-6-interoperability-considerations"></a>G-6. Consideraciones de interoperabilidad
 
-Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. Dentro de los segmentos, los caracteres reservados RFC 3986 ":" y "/" forman parte de los datos del argumento, no de delimitadores y, por lo tanto, se incluyen sin \<command-argument\> delimitar.
+Tenga en cuenta que la barra vertical que se usa como delimitador de esta especificación no se encuentra entre los caracteres identificados en la sección 2.2 de RFC 3986 porque está reservado para uso potencial como delimitadores. Esto se hace intencionalmente para maximizar el conjunto de caracteres que el argumento de comando URI puede admitir sin necesidad de codificar los caracteres con porcentaje. Dentro de los segmentos, los caracteres reservados RFC 3986 y "/" forman parte de los datos de argumento, no delimitadores y, por lo tanto, se incluyen sin \<command-argument\> delimitar.
   
 ### <a name="g-7-security-considerations"></a>G-7. Consideraciones de seguridad
 

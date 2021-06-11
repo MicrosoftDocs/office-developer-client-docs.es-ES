@@ -27,7 +27,7 @@ En la tabla siguiente se enumeran todas las propiedades establecidas con su GUID
 |Calendar  <br/> |PSETID_Meeting{6ED8DA90-450B-101B-98DA-00AA003F1305}  <br/> |
 |Común  <br/> |PS_MAPI{00020328-0000-0000-C000-000000000046}  <br/> |
 |Común  <br/> |PS_PUBLIC_STRINGS{00020329-0000-0000-C000-000000000046}  <br/> |
-|Común  <br/> |PSETID_Common{00062008-0000-0000-C000-0000000000046}  <br/> |
+|Común  <br/> |PSETID_Common{00062008-0000-0000-C000-000000000046}  <br/> |
 |Contacto  <br/> |PSETID_Address{00062004-0000-0000-C000-000000000046}  <br/> |
 |Correo electrónico  <br/> |PS_INTERNET_HEADERS{00020386-0000-0000-C000-000000000046}  <br/> |
 |Mensajería general  <br/> |PSETID_Report{00062013-0000-0000-C000-000000000046}  <br/> |
@@ -36,9 +36,9 @@ En la tabla siguiente se enumeran todas las propiedades establecidas con su GUID
 |Mensajería remota  <br/> |PSETID_Remote{00062014-0000-0000-C000-000000000046}  <br/> |
 |Canal RSS  <br/> |PSETID_PostRss{00062041-0000-0000-C000-000000000046}  <br/> |
 |Compartir  <br/> |PSETID_Sharing{00062040-0000-0000-C000-000000000046}  <br/> |
-|Nota rápida  <br/> |PSETID_Note{0006200E-0000-0000-C000-000000000046}  <br/> |
+|Nota pegajosa  <br/> |PSETID_Note{0006200E-0000-0000-C000-000000000046}  <br/> |
 |Sincronizar  <br/> |SETID_AirSync{71035549-0739-4DCB-9163-00F0580DBBDF}  <br/> |
-|Task  <br/> |PSETID_Task{00062003-0000-0000-C000-000000000046}  <br/> |
+|Tarea  <br/> |PSETID_Task{00062003-0000-0000-C000-000000000046}  <br/> |
 |Mensajería unificada  <br/> |PSETID_UnifiedMessaging{4442858E-A9E3-4E80-B900-317A210CC15B}  <br/> |
    
 

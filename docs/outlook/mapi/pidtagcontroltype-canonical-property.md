@@ -40,7 +40,7 @@ Esta propiedad puede tener exactamente uno de los siguientes valores:
     
 DTCT_LABEL (0x00000000)
   
-> Una etiqueta de cuadro de diálogo.
+> Etiqueta de cuadro de diálogo.
    
 DTCT_EDIT (0x00000001)
   
@@ -56,35 +56,35 @@ DTCT_COMBOBOX (0x00000003)
 
 DTCT_DDLBX (0x00000004)
   
-> Cuadro de lista desplegable de cuadros de diálogo.
+> Cuadro de lista desplegable de cuadro de diálogo.
 
 DTCT_CHECKBOX (0x00000005)
   
-> Una casilla de diálogo.
+> Casilla de diálogo.
 
 DTCT_GROUPBOX (0x00000006)
   
-> Un cuadro de diálogo de grupo.
+> Cuadro de diálogo.
   
 DTCT_BUTTON (0x00000007)
   
-> Un control de botón de diálogo.
+> Un control de botón de cuadro de diálogo.
     
 DTCT_PAGE (0x00000008)
   
-> Una página con pestañas de cuadro de diálogo.
+> Página con pestañas de cuadro de diálogo.
     
 DTCT_RADIOBUTTON (0x00000009)
   
-> Un botón de radio de cuadro de diálogo.
+> Botón de radio de cuadro de diálogo.
     
 DTCT_MVLISTBOX (0x0000000B)
   
-> Cuadro de lista multivalor rellenado por una propiedad multivalor de tipo cadena.
+> Un cuadro de lista multivalor rellenado por una propiedad multivalor de tipo string.
     
 DTCT_MVDDLBX (0x0000000C)
   
-> Cuadro de lista desplegable con varios valores rellenado por una propiedad multivalor de tipo cadena.
+> Un cuadro de lista desplegable multivalor rellenado por una propiedad multivalor de tipo string.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -98,13 +98,13 @@ mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

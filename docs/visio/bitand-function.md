@@ -28,7 +28,7 @@ BITAND(***binarynumber1***, ***binarynumber2*** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _binary number1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El primer número binario de 16 bits.  <br/> |
+| _número binario1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El primer número binario de 16 bits.  <br/> |
 | _número binario2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El segundo número binario de 16 bits.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
