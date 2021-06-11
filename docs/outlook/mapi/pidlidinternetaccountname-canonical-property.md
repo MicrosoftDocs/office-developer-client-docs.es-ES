@@ -25,13 +25,13 @@ ms.locfileid: "32315494"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el nombre de la cuenta de correo electrónico visible para el usuario a través del cual se envía el mensaje de correo electrónico.
+Especifica el nombre de cuenta de correo electrónico visible del usuario a través del cual se envía el mensaje de correo electrónico.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidInetAcctName  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008580  <br/> |
+|Id. largo (LID):  <br/> |0x00008580  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
@@ -49,7 +49,7 @@ El formato de esta cadena depende de la implementación. El cliente puede usar e
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

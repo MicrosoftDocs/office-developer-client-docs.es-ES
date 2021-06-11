@@ -40,7 +40,7 @@ Esta propiedad debe establecerse en uno o varios de los siguientes valores:
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|0x00000002  <br/> |Indica que el mensaje de información asociada a carpetas (FAI) debe contener una secuencia Dictionary, serializada en un esquema XML fijo y almacenada en la propiedad **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)). Si el mensaje FAI no contiene una secuencia Dictionary, la aplicación debe tratar dictionary como que no tiene entradas.  <br/> |
+|0x00000002  <br/> |Indica que el mensaje Folder Associated Information (FAI) debe contener una secuencia Dictionary, serializada en un esquema XML fijo y almacenada en la propiedad **PR_ROAMING_DICTIONARY** ([PidTagRoamingDictionary](pidtagroamingdictionary-canonical-property.md)). Si el mensaje FAI no contiene una secuencia Dictionary, la aplicación debe tratar el Dictionary como que no tiene entradas.  <br/> |
 |0x00000004  <br/> |Indica que el mensaje FAI debe contener una secuencia XML almacenada en la propiedad **PR_ROAMING_XMLSTREAM** ([PidTagRoamingXmlStream](pidtagroamingxmlstream-canonical-property.md)) que usa un esquema XML arbitrario.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -51,7 +51,7 @@ Esta propiedad debe establecerse en uno o varios de los siguientes valores:
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OCFGCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > Especifica la ubicación y las propiedades de los datos de configuración de cliente y servidor, como listas de categorías compartidas y horas laborables.
     
@@ -65,13 +65,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

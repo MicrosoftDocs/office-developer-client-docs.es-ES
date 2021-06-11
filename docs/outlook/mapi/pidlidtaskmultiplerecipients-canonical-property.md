@@ -31,9 +31,9 @@ Proporciona sugerencias de optimización sobre los destinatarios de una tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskMultRecips  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008120  <br/> |
+|Id. largo (LID):  <br/> |0x00008120  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -42,7 +42,7 @@ Si se establece, esta propiedad debe establecerse en una operación **OR** bit a
 |**Name**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
 |Sent  <br/> |0x00000001  <br/> |La tarea tiene varios destinatarios principales.  <br/> |
-|Cantidad.Recibida  <br/> |0x00000002  <br/> |Aunque la sugerencia enviada no estaba presente, el cliente detectó que la tarea tiene varios destinatarios principales.  <br/> |
+|Cantidad.Recibida  <br/> |0x00000002  <br/> |Aunque la sugerencia Enviado no estaba presente, el cliente detectó que la tarea tiene varios destinatarios principales.  <br/> |
 |Reserved  <br/> |0x00000004  <br/> |Este valor está reservado.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -63,13 +63,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

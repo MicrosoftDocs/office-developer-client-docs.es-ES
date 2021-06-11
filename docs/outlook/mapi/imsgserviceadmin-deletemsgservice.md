@@ -33,11 +33,11 @@ HRESULT DeleteMsgService(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpuid_
   
-> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se debe eliminar. 
+> [in] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se debe eliminar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,7 +47,7 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> El **MAPIUID** al que  _apunta lpuid_ no coincide con un servicio de mensajes existente. 
+> El **MAPIUID** señalado por  _lpuid_ no coincide con un servicio de mensajes existente. 
     
 ## <a name="remarks"></a>Comentarios
 
@@ -55,7 +55,7 @@ El **método IMsgServiceAdmin::D eleteMsgService** elimina un servicio de mensaj
   
  **DeleteMsgService** realiza los siguientes pasos para eliminar el servicio de mensajes: 
   
-1. Llama a la función de punto de entrada del servicio de mensajes con el parámetro  _ulContext_ establecido en MSG_SERVICE_DELETE antes de quitar las secciones de perfil. Esto permite al servicio realizar tareas específicas del servicio. 
+1. Llama a la función de punto de entrada del servicio de mensajes con el parámetro  _ulContext_ establecido en MSG_SERVICE_DELETE antes de que se quiten las secciones de perfil. Esto permite al servicio realizar tareas específicas del servicio. 
     
 2. Elimina el servicio de mensajes.
     
@@ -65,7 +65,7 @@ No se vuelve a llamar a la función de punto de entrada del servicio de mensajes
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para recuperar la estructura **MAPIUID** del servicio de mensajes que se va a eliminar, recupere la columna de propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla del servicio de mensajes. Para obtener más información, vea el procedimiento descrito en el [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
+Para recuperar la estructura **MAPIUID** para que el servicio de mensajes elimine, recupere la columna de propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes de la tabla de servicio de mensajes. Para obtener más información, vea el procedimiento descrito en el [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -73,9 +73,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa **el método IMsgServiceAdmin::D eleteMsgService** para eliminar el servicio seleccionado.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el **método IMsgServiceAdmin::D eleteMsgService** para eliminar el servicio seleccionado.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

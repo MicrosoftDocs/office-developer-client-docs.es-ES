@@ -27,7 +27,7 @@ Determina si las formas que pertenecen a la capa pueden pegarse.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde  a la  opción Pegar del cuadro de diálogo Propiedades de capa (en la ficha Inicio, en el grupo Edición, haga clic en Capas y, a continuación, haga clic en **Propiedades de capa).**   
+Esta celda corresponde a la  opción **Pegar** del cuadro  de diálogo  Propiedades de capa (en la ficha Inicio, en el grupo Edición, haga clic en Capas **y,** a continuación, haga clic en **Propiedades de capa).** 
   
 Para obtener una referencia a la celda Glue por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

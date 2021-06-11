@@ -27,15 +27,15 @@ Vea [IOlkAccount](iolkaccount.md).
 |Identificador:  <br/> |0x0001  <br/> |
 |Tipo de propiedad:  <br/> |PT_LONG  <br/> |
 |Etiqueta de propiedad:  <br/> |0x00010003  <br/> |
-|Acceso:  <br/> |Solo lectura  <br/> |
+|Access:  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Obtenga esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md). Si el cliente intenta establecer esta propiedad, esta propiedad devuelve **E_OLK_PROP_READ_ONLY**. 
+Obtener esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md). Si el cliente intenta establecer esta propiedad, esta propiedad devuelve **E_OLK_PROP_READ_ONLY**. 
   
-Esta propiedad es diferente de [PROP_ACCT_MINI_UID](prop_acct_mini_uid.md) en que su valor es único solo entre todas las cuentas dentro de ese perfil en el que se creó la cuenta, mientras que **PROP \_ ACCT_MINI_UID** identifica de forma única la cuenta dentro y fuera del perfil en el que se creó la cuenta. Cuando un mensaje con estas propiedades se desvía a un segundo equipo con un perfil de Outlook diferente y un conjunto de cuentas diferente, **PROP_ACCT_ID** puede entrar en conflicto con una cuenta en el perfil del segundo equipo y **PROP_ACCT_MINI_UID** puede identificar de forma única la cuenta original en el perfil original. 
+Esta propiedad es diferente [de PROP_ACCT_MINI_UID](prop_acct_mini_uid.md) ya que su valor es único solo entre todas las cuentas dentro del perfil en el que se creó la cuenta, mientras que **PROP \_ ACCT_MINI_UID** identifica de forma única la cuenta dentro y fuera del perfil en el que se creó la cuenta. Cuando un mensaje con estas propiedades se desvía a un segundo equipo con un perfil de Outlook diferente y un conjunto de cuentas diferente, **PROP_ACCT_ID** puede entrar en conflicto con una cuenta en el perfil del segundo equipo y **PROP_ACCT_MINI_UID** puede identificar de forma única la cuenta original en el perfil original. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

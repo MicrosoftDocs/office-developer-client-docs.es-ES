@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251493
 localization_priority: Normal
 ms.assetid: c154413f-c366-a66b-94e3-ed71ad23f325
-description: Ejecuta la cadena y pasa los argumentos de la línea de comandos al programa como una cadena.
+description: Ejecuta cadena y pasa los argumentos de línea de comandos al programa como una cadena.
 ms.openlocfilehash: bc05a4480438875c348373059f57bf04f82c9eca
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33408708"
 ---
 # <a name="runaddonwargs-function"></a>Función RUNADDONWARGS
 
-Ejecuta  _una_ cadena y pasa los  _argumentos_ de la línea de comandos al programa como una cadena. 
+Ejecuta  _cadena_ y pasa los  _argumentos_ de línea de comandos al programa como una cadena. 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -33,9 +33,9 @@ RUNADDONWARGS(" ** *string* ** "," ** *arguments* ** ")
    
 ## <a name="remarks"></a>Comentarios
 
-En la práctica,  _los argumentos_ deben tener 50 caracteres o menos. Utilice la función RUNADDONWARGS para enlazar un programa, por ejemplo un complemento, a una celda (por ejemplo, a una celda Action o Events). 
+En la práctica,  _los argumentos_ deben tener 50 o menos caracteres. Utilice la función RUNADDONWARGS para enlazar un programa, por ejemplo un complemento, a una celda (por ejemplo, a una celda Action o Events). 
   
-La función RUNADDONWARGS solo puede ejecutar complementos que sean miembros de la colección **Addons de la** aplicación. Para estar presente en esa colección, un complemento debe ser un archivo EXE o un archivo VSL que sea: 
+La función RUNADDONWARGS sólo puede ejecutar complementos que pertenecen a la colección **Addons** de la aplicación.Para formar parte de ese conjunto, el complemento debe consistir en un archivo EXE o VSL que haya sido: 
   
 - Instalado en la ruta **Startup** o **Addons** de la aplicación. 
     

@@ -38,7 +38,7 @@ Contiene el identificador de entrada de la vista predeterminada de una carpeta.
 
 Esta propiedad es el identificador de entrada de la vista de carpeta que debe establecerse como vista inicial. No es necesario establecer la propiedad si se va a usar la vista "Normal" como vista inicial.
   
-Una aplicación cliente puede obtener esta propiedad en el momento en que abre la carpeta y obtener mejoras significativas en el rendimiento. Esta propiedad se puede usar como acceso directo para obtener la vista predeterminada, en lugar de abrir la tabla de contenido asociada y enviar una restricción.
+Una aplicación cliente puede obtener esta propiedad en el momento en que abre la carpeta y obtener importantes ganancias de rendimiento. Esta propiedad se puede usar como acceso directo para obtener la vista predeterminada, en lugar de abrir la tabla de contenido asociada y enviar una restricción.
   
 Una implementación del proveedor de servicios del [método IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) puede copiar esta propiedad cuando copia carpetas. 
   
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

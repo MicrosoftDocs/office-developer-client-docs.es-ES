@@ -32,7 +32,7 @@ MSOTINT(** *color* **, ** *deltaLum* ** )
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Obligatorio  <br/> |**RVA** <br/> |Valor de color RGB estándar (rojo, verde, azul) o referencia a un color.  <br/> |
-| _deltaLum_ <br/> |Obligatorio  <br/> |**Integer** <br/> |El porcentaje cambia hacia blanco (-100%) o negro (100%) del valor  _de_ color.  <br/> |
+| _deltaLum_ <br/> |Obligatorio  <br/> |**Integer** <br/> |El cambio porcentual hacia blanco (-100 %) o negro (100 %) desde el  _valor de_ color.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

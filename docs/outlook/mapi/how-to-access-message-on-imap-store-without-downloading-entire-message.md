@@ -17,9 +17,9 @@ ms.locfileid: "32299079"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En este tema se muestra un ejemplo de código en C++ que consulta un almacén de mensajes para la interfaz **[IProxyStoreObject](iproxystoreobject.md)** y usa el puntero devuelto y la función **[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** para obtener un puntero a un objeto de almacén IMAP que se ha desencapsulado. El uso de este almacén sin envolver permite el acceso a un mensaje en su estado actual sin invocar una descarga de todo el mensaje. 
+En este tema se muestra un ejemplo de código en C++ que consulta un almacén de mensajes para la interfaz **[IProxyStoreObject](iproxystoreobject.md)** y usa el puntero devuelto y la función **[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** para obtener un puntero a un objeto de almacén IMAP que se ha desencapsulado. El uso de este almacén sin envolver permite el acceso a un mensaje en su estado actual sin invocar una descarga del mensaje completo. 
   
-Dado que **UnwrapNoRef** no incrementa el recuento de referencias para este nuevo puntero al objeto de almacén sin envolver, después de llamar correctamente **a UnwrapNoRef**, debe llamar a [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para mantener el recuento de referencias. 
+Dado que **UnwrapNoRef** no incrementa el recuento de referencias de este nuevo puntero al objeto de almacén sin envolver, después de llamar correctamente **a UnwrapNoRef,** debe llamar a [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para mantener el recuento de referencias. 
   
 ```cpp
 HRESULT HrUnWrapMDB(LPMDB lpMDBIn, LPMDB* lppMDBOut) 

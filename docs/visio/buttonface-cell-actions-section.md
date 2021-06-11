@@ -27,14 +27,14 @@ Identifica el icono que aparece junto a un elemento en un menú contextual o de 
 
 La cadena de la celda ButtonFace representa el identificador de una imagen de botón de Microsoft Office. Si el valor es cero (0) o si no hay ningún valor, no aparecerá ningún icono. 
   
-Los Id. que se pueden utilizar en la celda ButtonFace son los mismos que los utilizados con la propiedad **FaceID** de un objeto **CommandBarButton**. Para obtener más información sobre estos IDs, busque "trabajar con imágenes de botón de barra de comandos" en MSDN. 
+Los Id. que se pueden utilizar en la celda ButtonFace son los mismos que los utilizados con la propiedad **FaceID** de un objeto **CommandBarButton**. Para obtener más información acerca de estos IDs, busque "trabajar con imágenes de botón de barra de comandos" en MSDN. 
   
 Para obtener una referencia a la celda ButtonFace por su nombre desde otra fórmula, o desde un programa mediante la propiedad
  **CellsU**, use: 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |**Acciones**.  *nombre*  . **ButtonFace**         donde **Actions**.  *es*  el nombre de la fila de acciones  <br/> |
+|Nombre de celda:  <br/> |**Acciones**.  *nombre*  . **ButtonFace**         donde **acciones**.  *nombre*  es el nombre de la fila de acciones  <br/> |
    
 Para obtener una referencia desde un programa a la celda ButtonFace por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

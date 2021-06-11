@@ -34,15 +34,15 @@ HRESULT GetStatusTable(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que determina el formato de las columnas que son cadenas de caracteres. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que determina el formato de las columnas que son cadenas de caracteres. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena están en formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena tienen el formato ANSI.
     
  _lppTable_
   
@@ -52,15 +52,15 @@ MAPI_UNICODE
 
 S_OK 
   
-> La tabla se devolvió correctamente.
+> La tabla se ha devuelto correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISession::GetStatusTable** proporciona acceso a la tabla de estado que contiene información sobre todos los recursos MAPI de la sesión. Hay una fila en la tabla para obtener información sobre el subsistema MAPI, una fila para la cola MAPI, una fila para la libreta de direcciones integrada y una fila para cada proveedor de servicios en el perfil. 
+El **método IMAPISession::GetStatusTable** proporciona acceso a la tabla de estado que contiene información sobre todos los recursos MAPI de la sesión. Hay una fila en la tabla para obtener información sobre el subsistema MAPI, una fila para la cola MAPI, una fila para la libreta de direcciones integrada y una fila para cada proveedor de servicios del perfil. 
   
-Para obtener una lista completa de las columnas obligatorias y opcionales de la tabla de estado, vea [Tablas de estado.](status-tables.md) 
+Para obtener una lista completa de las columnas obligatorias y opcionales de la tabla de estado, vea [Tablas de estado](status-tables.md). 
   
-Establecer el MAPI_UNICODE en el parámetro _ulFlags_ afecta al formato de las columnas devueltas de los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el método [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
+Establecer la marca MAPI_UNICODE en el _parámetro ulFlags_ afecta al formato de las columnas devueltas de los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el [método IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -70,7 +70,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI usa el **método IMAPISession::GetStatusTable** para obtener la tabla de estado que se va a representar.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

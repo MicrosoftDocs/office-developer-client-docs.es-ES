@@ -25,13 +25,13 @@ ms.locfileid: "32360110"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el nombre de archivo del sonido que un cliente debe reproducir cuando el aviso de ese objeto llega a su fin.
+Especifica el nombre de archivo del sonido que un cliente debe reproducir cuando el aviso de ese objeto se ha vencido.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidReminderFileParam  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x0000851F  <br/> |
+|Id. largo (LID):  <br/> |0x0000851F  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Reminder  <br/> |
    
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

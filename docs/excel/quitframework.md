@@ -22,7 +22,7 @@ ms.locfileid: "33408575"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de marcos que desinicia la biblioteca de marcos, que simplemente reinicializa las estructuras de datos de memoria /  **XLOPER XLOPER12** temporales, liberando cualquier memoria que ya se haya asignado. 
+Función de biblioteca de marcos que desinicia la biblioteca framework, que simplemente reinicializa las estructuras temporales de datos de memoria /  **XLOPER XLOPER12,** liberando cualquier memoria que ya se haya asignado. 
   
 ```cs
 short WINAPI QuitFramework(void);
@@ -36,7 +36,7 @@ Esta función no toma ningún argumento.
 
 Esta función no devuelve un valor.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

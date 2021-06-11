@@ -21,7 +21,7 @@ ms.locfileid: "33408946"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica los indicadores de configuración para una tabla de almacenamiento personal (archivo .pst).
+Especifica las marcas de configuración de una tabla de almacenamiento personal (archivo .pst).
   
 |||
 |:-----|:-----|
@@ -42,25 +42,25 @@ PST_CONFIG_UNICODE
     
 PST_CONFIG_CREATE_NOWARN
   
-> Cuando se establece desde las marcas de cliente al método [IMsgServiceAdmin::ConfigureMsgService,](imsgserviceadmin-configuremsgservice.md) trata **ConfigureMsgService** como una llamada [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) y omite la advertencia "Este servicio de información no se ha configurado". 
+> Cuando se establece de las marcas de cliente al método [IMsgServiceAdmin::ConfigureMsgService,](imsgserviceadmin-configuremsgservice.md) **trata ConfigureMsgService** como una llamada [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) y omite la advertencia "Este servicio de información no se ha configurado". 
     
    `#define PST_CONFIG_CREATE_NOWARN 0x00000001`
     
 PST_CONFIG_PRESERVE_DISPLAY_NAME
   
-> Indica **a ConfigureMsgService** que no cambie el valor de **la propiedad PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), aunque se haya suministrado. En ese caso, solo se suministró para los nuevos archivos .pst.
+> Indica **a ConfigureMsgService** que no cambie el valor de la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), aunque se haya proporcionado. En ese caso, solo se suministró para los nuevos archivos .pst.
     
    `#define PST_CONFIG_PRESERVE_DISPLAY_NAME 0x00000002`
     
 OST_CONFIG_POLICY_DELAY_IGNORE_OST
   
-> Indica al código de configuración que primero muestre un cuadro de diálogo para confirmar si se encontró un archivo de carpeta sin conexión (.ost) y, según la respuesta del usuario, use la carpeta sin conexión encontrada o permita al usuario buscar otra carpeta sin conexión.
+> Indica al código de configuración que primero muestre un cuadro de diálogo para confirmar si se encontró un archivo de carpeta sin conexión (.ost) y, según la respuesta del usuario, use la carpeta sin conexión encontrada o habilite al usuario para buscar otra carpeta sin conexión.
     
    `#define OST_CONFIG_POLICY_DELAY_IGNORE_OST 0x00000008`
     
 OST_CONFIG_CREATE_NEW_DEFAULT
   
-> Copia el archivo .ost con un nuevo nombre único y descarta el nombre actual. El archivo .ost existente permanece en el equipo, pero ya no se usa en este perfil. Esto suele ocurrir cuando Microsoft Outlook ya no permite un archivo .ost concreto y las directivas del Registro no permiten al usuario cambiar el nombre del archivo. 
+> Copia el archivo .ost con un nuevo nombre único y descarta el nombre actual. El archivo .ost existente permanece en el equipo, pero ya no se usa en este perfil. Esto suele ocurrir cuando Microsoft Outlook permite un archivo .ost determinado y las directivas del Registro no permiten al usuario cambiar el nombre del archivo. 
     
    `#define OST_CONFIG_CREATE_NEW_DEFAULT_OST 0x00000010`
     
@@ -82,13 +82,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

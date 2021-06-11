@@ -25,7 +25,7 @@ ms.locfileid: "32359517"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor que indica el tipo de una fila de una tabla.
+Contiene un valor que indica el tipo de fila de una tabla.
   
 |||
 |:-----|:-----|
@@ -46,15 +46,15 @@ TBL_LEAF_ROW
     
 TBL_EMPTY_CATEGORY 
   
-> No se usa actualmente.
+> Actualmente no se usa.
     
 TBL_EXPANDED_CATEGORY 
   
-> La categoría se expande; La interfaz de usuario normalmente muestra esto con el signo menos ( - ) al lado.
+> La categoría se expande; la interfaz de usuario normalmente muestra esto con el signo menos ( - ) junto a él.
     
 TBL_COLLAPSED_CATEGORY 
   
-> La categoría está contrayda; La interfaz de usuario normalmente muestra esto con el signo más (+) junto a él.
+> La categoría se contrae; la interfaz de usuario normalmente muestra esto con el signo más (+) junto a él.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,7 +62,7 @@ TBL_COLLAPSED_CATEGORY
 
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Incluye operaciones permitidas para los objetos de tabla principales.
+> Incluye operaciones permitidas para los objetos de tabla principal.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -74,7 +74,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -83,7 +83,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -31,13 +31,13 @@ Indica si la tarea incluye un patrón de periodicidad.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskFRecur  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008126  <br/> |
+|Id. largo (LID):  <br/> |0x00008126  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si esta propiedad se deja sin conjunto, se supone un valor predeterminado de FALSE. Si se establece en TRUE, las propiedades **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) y **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) también deben establecerse como se especifica en [[MS-OCCITASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
+Si esta propiedad se deja sin conjunto, se supone un valor predeterminado de FALSE. Si se establece en TRUE, las propiedades **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) y **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) también deben establecerse como se especifica en [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

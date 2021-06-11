@@ -25,19 +25,19 @@ ms.locfileid: "32303041"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica la precisión de la propiedad **dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)).
+Indica la precisión de la **propiedad dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskFFixOffline  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x0000812C  <br/> |
+|Id. largo (LID):  <br/> |0x0000812C  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si la **propiedad dispidTaskFFixOffline** se establece en FALSE o no está establecida, el valor de la propiedad **dispidTaskOwner** es correcto. Si **dispidTaskFFixOffline** se establece en TRUE, el cliente no puede determinar un valor preciso para **dispidTaskOwner**. En ese caso, el cliente puede establecer **dispidTaskOwner en** un nombre de propietario genérico, como "Desconocido". Sin embargo, si un cliente encuentra un valor **dispidTaskFFixOffline** de TRUE y puede determinar un nombre de propietario preciso, el cliente debe actualizar **dispidTaskOwner** y establecer **dispidTaskFFixOffline** en FALSE. 
+Si la **propiedad dispidTaskFFixOffline** se establece en FALSE o no se establece, el valor de la propiedad **dispidTaskOwner** es correcto. Si **dispidTaskFFixOffline** se establece en TRUE, el cliente no puede determinar un valor preciso para **dispidTaskOwner**. En ese caso, el cliente puede establecer **dispidTaskOwner** en un nombre de propietario genérico, como "Unknown". Sin embargo, si un cliente encuentra un valor **dispidTaskFFixOffline** de TRUE y puede determinar un nombre de propietario preciso, el cliente debe actualizar **dispidTaskOwner** y establecer **dispidTaskFFixOffline** en FALSE. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

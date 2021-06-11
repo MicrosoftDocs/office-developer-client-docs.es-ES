@@ -25,7 +25,7 @@ ms.locfileid: "32303412"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de los meses durante los cuales los datos de disponibilidad de tipo fuera de la oficina (OOF) están presentes en el mensaje de disponibilidad. 
+Contiene una lista de los meses durante los que los datos de disponibilidad de tipo fuera de la oficina (OOF) están presentes en el mensaje de disponibilidad. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene una lista de los meses durante los cuales los datos de disponibilidad d
    
 ## <a name="remarks"></a>Comentarios
 
-El formato, el cálculo y las restricciones de esta propiedad son los mismos que los de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), pero hacen referencia a citas que están marcadas fuera de la oficina (OOF) en el objeto de calendario asociado.
+El formato, el cálculo y las restricciones de esta propiedad son los mismos que los de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), pero hacen referencia a citas marcadas fuera de la oficina (OOF) en el objeto de calendario asociado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

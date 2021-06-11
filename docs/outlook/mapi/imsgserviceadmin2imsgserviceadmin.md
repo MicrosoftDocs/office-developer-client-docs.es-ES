@@ -36,7 +36,7 @@ Realiza cambios en un servicio de mensajes en un perfil.
 |Identificador de interfaz:  <br/> |IID_IMsgServiceAdmin2  <br/> |
 |Tipo de puntero:  <br/> |LPSERVICEADMIN2  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -44,9 +44,9 @@ Realiza cambios en un servicio de mensajes en un perfil.
    
 ## <a name="remarks"></a>Comentarios
 
-La **interfaz IMsgServiceAdmin2** está expuesta por los mismos objetos que exponen la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) y ha estado disponible mediante la implementación de Outlook del subsistema MAPI desde Microsoft Outlook 2003. 
+La **interfaz IMsgServiceAdmin2** está expuesta por los mismos objetos que exponen la interfaz [IMsgServiceAdmin](imsgserviceadminiunknown.md) y ha estado disponible mediante la implementación del subsistema MAPI de Outlook desde Microsoft Outlook 2003. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

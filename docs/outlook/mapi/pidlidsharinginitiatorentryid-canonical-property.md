@@ -25,19 +25,19 @@ ms.locfileid: "32309530"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Designa como propiedad de un mensaje para compartir.
+Designa como una propiedad de un mensaje de uso compartido.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSharingInitiatorEid  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Sharing  <br/> |
-|Long ID (LID):  <br/> |0x00008A09  <br/> |
+|Id. largo (LID):  <br/> |0x00008A09  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Compartir  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad debe establecerse en el valor de la propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) para la libreta de direcciones del usuario que ha iniciado sesión actualmente (vea [[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)). 
+Esta propiedad debe establecerse en el valor de la propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la libreta de direcciones del usuario que ha iniciado sesión actualmente (vea [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

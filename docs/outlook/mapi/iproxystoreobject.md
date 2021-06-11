@@ -25,17 +25,17 @@ ms.locfileid: "32315522"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona un objeto de almacén del Protocolo de acceso a mensajes de Internet (IMAP) que se ha desencapsulado y que permite el acceso a los elementos del archivo de carpetas personales (PST) sin invocar la sincronización y descargar los elementos.
+Proporciona un objeto de almacén de Protocolo de acceso a mensajes de Internet (IMAP) que se ha desencapsulado y que permite el acceso a los elementos del archivo carpetas personales (PST) sin invocar la sincronización y descargar los elementos.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
 |Heredado de:  <br/> |[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
-|Proporcionado por:  <br/> |Proveedor de almacenamiento de mensajes  <br/> |
+|Proporcionado por:  <br/> |Proveedor de almacén de mensajes  <br/> |
 |Identificador de interfaz:  <br/> |**IID_IProxyStoreObject** <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -45,8 +45,8 @@ Proporciona un objeto de almacén del Protocolo de acceso a mensajes de Internet
    
 ## <a name="remarks"></a>Comentarios
 
-Llame [a IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) en el almacén de mensajes de origen para obtener la **interfaz IProxyStoreObject.** A **continuación, llama a IProxyStoreObject::UnwrapNoRef para** obtener el objeto de almacén sin envolver. Si **QueryInterface** devuelve el error **MAPI_E_INTERFACE_NOT_SUPPORTED**, el almacén no se ha ajustado. 
+Llama [a IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) en el almacén de mensajes de origen para obtener la **interfaz IProxyStoreObject.** A **continuación, llame a IProxyStoreObject::UnwrapNoRef para** obtener el objeto de almacén sin envolver. Si **QueryInterface** devuelve el error **MAPI_E_INTERFACE_NOT_SUPPORTED**, el almacén no se ha ajustado. 
   
-Dado que **UnwrapNoRef** no incrementa el recuento de referencias para este nuevo puntero al objeto de almacén sin envolver, después de llamar correctamente **a UnwrapNoRef**, debe llamar a [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para mantener el recuento de referencias. 
+Dado que **UnwrapNoRef** no incrementa el recuento de referencias de este nuevo puntero al objeto de almacén sin envolver, después de llamar correctamente **a UnwrapNoRef**, debe llamar a [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para mantener el recuento de referencias. 
   
 

@@ -25,13 +25,13 @@ ms.locfileid: "32315431"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica que el usuario no indicó ningún texto en el cuerpo de la respuesta a la reunión.
+Indica que el usuario no indicó ningún texto en el cuerpo de la respuesta de la reunión.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |LID_IS_SILENT  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Meeting  <br/> |
-|Long ID (LID):  <br/> |0x00000004  <br/> |
+|Id. largo (LID):  <br/> |0x00000004  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
@@ -45,7 +45,7 @@ Indica que el usuario no indicó ningún texto en el cuerpo de la respuesta a la
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

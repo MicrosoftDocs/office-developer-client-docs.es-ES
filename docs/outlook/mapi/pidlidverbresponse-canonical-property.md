@@ -25,19 +25,19 @@ ms.locfileid: "32360560"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la opción de voto seleccionada por un participante.
+Especifica la opción de voto que seleccionó un encuestado.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidVerbResponse  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008524  <br/> |
+|Id. largo (LID):  <br/> |0x00008524  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad normalmente se establece en uno de los valores delimitados que se encuentran en la propiedad **dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) en la que vota el reencarnado.
+Esta propiedad suele establecerse en uno de los valores delimitados contenidos en la propiedad **dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) en la que vota el encuestado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -45,11 +45,11 @@ Esta propiedad normalmente se establece en uno de los valores delimitados que se
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
+> Proporciona la definición del conjunto de propiedades y las referencias a las Exchange Server de protocolo relacionados.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

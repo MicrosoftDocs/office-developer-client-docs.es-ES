@@ -25,7 +25,7 @@ ms.locfileid: "33409023"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la fecha y la hora en que un proveedor de transporte pasó un mensaje a su sistema de mensajería subyacente.
+Contiene la fecha y hora en que un proveedor de transporte pasó un mensaje a su sistema de mensajería subyacente.
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Contiene la fecha y la hora en que un proveedor de transporte pasó un mensaje a
 
 El proveedor de transporte saliente establece esta propiedad en el momento en que se envía un mensaje.
   
-Esta propiedad corresponde a un atributo de sobre de envío X.400 por mensaje. 
+Esta propiedad corresponde a un atributo X.400 submission envelope per-message. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

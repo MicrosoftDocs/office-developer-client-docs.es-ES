@@ -31,13 +31,13 @@ Valida si el valor de la propiedad **dispidRequest** ([PidLidFlagRequest](pidlid
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidValidFlagStringProof  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x000085BF  <br/> |
+|Id. largo (LID):  <br/> |0x000085BF  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-En objetos no enviables (correo recibido y objetos que no son de correo), los clientes deben establecer este valor en el valor de **PR_MESSAGE_DELIVERY_TIME** al modificar **dispidRequest**.
+En objetos no enviados (correo recibido y objetos que no son de correo), los clientes deben establecer este valor en el valor de **PR_MESSAGE_DELIVERY_TIME** al modificar **dispidRequest**.
   
 Dado que el remitente no puede predecir el valor de **PR_MESSAGE_DELIVERY_TIME,** si el valor de esta propiedad es igual al valor de **PR_MESSAGE_DELIVERY_TIME**, es razonablemente seguro que el valor de **dispidRequest** no se originó en el remitente del mensaje. Un cliente puede decidir cómo presentar el valor de **dispidRequest** al usuario final en función del resultado de esta comparación de acuerdo con la directiva de seguridad específica del cliente. Si se omite el valor **de dispidRequest** debido a la presencia de un valor para **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), esta propiedad debe omitirse.
   
@@ -51,7 +51,7 @@ Dado que el remitente no puede predecir el valor de **PR_MESSAGE_DELIVERY_TIME,*
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -59,7 +59,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -68,7 +68,7 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

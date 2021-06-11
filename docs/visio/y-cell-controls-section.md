@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251282
 localization_priority: Normal
 ms.assetid: dd7ea5fa-1d34-44e8-5a29-69ca542aecba
-description: Representa la coordenada y que indica la ubicación del controlador de una forma en coordenadas locales.
+description: Representa la coordenada y que indica la ubicación del controlador de control de una forma en coordenadas locales.
 ms.openlocfilehash: 14aaa7aef7e7250baeb8ffb863244ece26a201e7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33407952"
 ---
 # <a name="y-cell-controls-section"></a>Celda Y (Sección de controles)
 
-Representa la  *coordenada y*  que indica la ubicación del controlador de una forma en coordenadas locales. 
+Representa la coordenada  *y*  que indica la ubicación del controlador de control de una forma en coordenadas locales. 
   
 ## <a name="remarks"></a>Comentarios
 
@@ -26,7 +26,7 @@ Para obtener una referencia desde un programa a la celda Y por su índice, utili
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Controles.  *nombre*  . Controles Ywhere.  *es*  el nombre de la fila de controles.  <br/> |
+| Nombre de celda:  <br/> | Controles.  *nombre*  . Controles Ywhere.  *nombre*  es el nombre de la fila de controles.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

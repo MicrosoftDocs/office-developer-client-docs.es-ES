@@ -23,7 +23,7 @@ ms.locfileid: "32282323"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor usado para sincronizar este mensaje de definición con el contenedor de la carpeta de búsqueda correspondiente.
+Contiene el valor usado para sincronizar este mensaje de definición con el contenedor de carpeta de búsqueda correspondiente.
   
 |||
 |:-----|:-----|
@@ -58,13 +58,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "33408624"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especificado. El identificador de propiedad no ha cambiado. 
+Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especificado. El identificador de la propiedad no ha cambiado. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Actualiza el tipo de propiedad de una etiqueta de propiedad a un valor especific
 CHANGE_PROP_TYPE (ulPropTag, ulPropType)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   
@@ -44,9 +44,9 @@ CHANGE_PROP_TYPE (ulPropTag, ulPropType)
     
  _ulPropType_
   
-> El nuevo valor para el tipo de propiedad.
+> El nuevo valor del tipo de propiedad.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "32278882"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor del campo de encabezado de un mensaje de extensiones multipropósito al correo de Internet (MIME) List-Unsubscribe de correo electrónico.
+Contiene el valor del campo de encabezado de un mensaje Multipurpose Internet Mail Extensions (MIME List-Unsubscribe).
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Contiene el valor del campo de encabezado de un mensaje de extensiones multiprop
    
 ## <a name="remarks"></a>Comentarios
 
-Para generar un campo List-Unsubscribe encabezado, los clientes deben establecer estas propiedades en el valor deseado. Los escritores MIME deben copiar el valor de estas propiedades en el List-Unsubscribe encabezado.
+Para generar un campo List-Unsubscribe encabezado, los clientes deben establecer estas propiedades en el valor deseado. Los escritores MIME deben copiar el valor de estas propiedades en el List-Unsubscribe de encabezado.
   
 Para establecer el valor de estas propiedades relacionadas con el servidor de lista, los clientes MIME deben escribir los campos de encabezado como se especifica en la tabla siguiente.
   
-|**Propiedad**|**Nombre de campo de encabezado preferido**|**Nombre de campo de encabezado alternativo**|
+|**Property**|**Nombre de campo de encabezado preferido**|**Nombre de campo de encabezado alternativo**|
 |:-----|:-----|:-----|
 |**PR_LIST_UNSUBSCRIBE** <br/> |List-Unsubscribe  <br/> |X-List-Unsubscribe  <br/> |
    
@@ -54,7 +54,7 @@ Para establecer el valor de estas propiedades relacionadas con el servidor de li
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

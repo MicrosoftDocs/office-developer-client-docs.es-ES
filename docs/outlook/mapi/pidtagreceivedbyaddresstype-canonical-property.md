@@ -36,7 +36,7 @@ Contiene el tipo de dirección de correo electrónico, como SMTP, para el usuari
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección del usuario de mensajería que realmente recibe el mensaje. El proveedor de transporte entrante los debe establecer.
+Estas propiedades son ejemplos de las propiedades de dirección del usuario de mensajería que realmente recibe el mensaje. Deben ser establecidas por el proveedor de transporte entrante.
   
 La cadena de tipo de dirección solo puede contener los caracteres alfabéticos en mayúsculas A a Z y los números de cero a nueve. Estas propiedades califican la propiedad **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) especificando un tipo de dirección, como SMTP, lo que indica cómo se debe construir la dirección.
   
@@ -50,7 +50,7 @@ La cadena de tipo de dirección solo puede contener los caracteres alfabéticos 
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en los mensajes de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

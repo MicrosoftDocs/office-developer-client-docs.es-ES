@@ -31,7 +31,7 @@ Para obtener una referencia a la celda Action por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Acciones.  *nombre*  . Acción donde Actions. *es*  el nombre de la fila de acciones  <br/> |
+| Nombre de celda:  <br/> | Acciones.  *nombre*  . Acción donde acciones. *nombre*  es el nombre de la fila de acciones  <br/> |
    
 Para obtener una referencia a la celda Action por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

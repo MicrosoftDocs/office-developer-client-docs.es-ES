@@ -28,11 +28,11 @@ HRESULT IOlkAccountManager::FreeMemory (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pv_
   
-> [entrada] Puntero a la memoria que se liberará.
+> [in] Un puntero a la memoria para liberar.
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -40,9 +40,9 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
   
 ## <a name="remarks"></a>Comentarios
 
-Use este método para liberar memoria asignada por [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md).
+Use este método para liberar la memoria asignada por [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)
 

@@ -36,13 +36,13 @@ Calcula el número de bytes que se deben asignar para una nueva estructura [FLAT
 CbNewFLATENTRY (_cb)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _cb_
   
-> Número de bytes en las **estructuras FLATENTRY** que se incluirán en la **nueva estructura FLATENTRYLIST.** 
+> Recuento de bytes en las **estructuras FLATENTRY** que se incluirán en la **nueva estructura FLATENTRYLIST.** 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

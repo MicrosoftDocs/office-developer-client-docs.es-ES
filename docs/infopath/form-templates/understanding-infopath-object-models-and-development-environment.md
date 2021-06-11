@@ -58,8 +58,8 @@ Las clases y los miembros de las dos versiones de este modelo de objetos se expo
   
 |**Ensamblado**|**Descripción**|
 |:-----|:-----|
-|Microsoft.Office.InfoPath.dll (ubicado en C:\Archivos de programa\Microsoft Office\Office15\InfoPathOM\InfoPathOMFormServices)  <br/> |Subconjunto del modelo de objetos que contiene solo tipos y miembros que se ejecutarán en la lógica empresarial de una plantilla de formulario implementada en un servidor que ejecuta InfoPath Forms Services.  <br/> |
-|Microsoft.Office.InfoPath.dll (ubicado en C:\Archivos de programa\Microsoft Office\Office15\InfoPathOM)  <br/> |El modelo de objetos "completo", incluidos los tipos y miembros que no se ejecutarán en la lógica empresarial de una plantilla de formulario implementada en InfoPath Forms Services.  <br/> |
+|Microsoft.Office.InfoPath.dll (ubicado en C:\Program Files\Microsoft Office\Office15\InfoPathOM\InfoPathOMFormServices)  <br/> |Subconjunto del modelo de objetos que solo contiene tipos y miembros que se ejecutarán en la lógica empresarial de una plantilla de formulario implementada en un servidor que ejecuta InfoPath Forms Services.  <br/> |
+|Microsoft.Office.InfoPath.dll (ubicado en C:\Program Files\Microsoft Office\Office15\InfoPathOM)  <br/> |El modelo de objetos "completo", incluidos los tipos y miembros que no se ejecutarán en la lógica empresarial de una plantilla de formulario implementada en InfoPath Forms Services.  <br/> |
    
 > [!NOTE]
 > [!NOTA] Los ensamblados a los que se hace referencia más arriba en esta sección se usan en tiempo de diseño al escribir y compilar código. En tiempo de ejecución, el ensamblado usado al abrir una plantilla de formulario en InfoPath se encuentra en la caché global de ensamblados (GAC) del equipo donde está instalado InfoPath. Al abrir una plantilla de formulario en un explorador web desde un servidor que ejecuta InfoPath Forms Services, el ensamblado usado se encuentra en el servidor. 
@@ -70,7 +70,7 @@ En las dos versiones del modelo de objetos de código administrado que expone el
   
 El uso de miembros de la clase **XPathNavigator** permite que el mismo código de lógica empresarial sea compatible con la manipulación de DOM para plantillas de formulario que se abren en el cliente de InfoPath y en los formularios habilitados para Web abiertos desde SharePoint Server 2013 con InfoPath Forms Services en un explorador web. 
   
-Para obtener información acerca de cómo trabajar con miembros de la clase **XPathNavigator** en la lógica empresarial de las plantillas de formulario con código administrado de InfoPath, vea Trabajar con las clases [XPathNavigator y XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
+Para obtener información sobre cómo trabajar con miembros de la clase **XPathNavigator** en la lógica empresarial de las plantillas de formulario de código administrado de InfoPath, vea Trabajar con las clases [XPathNavigator y XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
 ### <a name="the-infopath-2003-compatible-managed-code-object-model"></a>Modelo de objetos de código administrado compatible con InfoPath 2003
 
@@ -80,7 +80,7 @@ Las clases y los miembros de este modelo de objetos se exponen a través del esp
   
 |**Ensamblado**|**Descripción**|
 |:-----|:-----|
-|Microsoft.Office.Interop.InfoPath.SemiTrust.dll  <br/> |Proporciona interoperabilidad COM con el modelo de objetos COM de InfoPath para la lógica empresarial de plantilla de formulario escrita con C# o Visual Basic.  <br/> |
+|Microsoft.Office.Interop.InfoPath.SemiTrust.dll  <br/> |Proporciona interoperabilidad COM con el modelo de objetos COM de InfoPath para la lógica de negocios de plantilla de formulario escrita con C# o Visual Basic.  <br/> |
    
 > [!NOTE]
 > [!NOTA] Si bien InfoPath 2013 aún admite crear lógica empresarial con el modelo de objetos de código administrado de interoperabilidad COM que proporciona el ensamblado Microsoft.Office.Interop.InfoPath.SemiTrust, la lógica empresarial escrita con este modelo de objetos no se admite para plantillas de formulario habilitadas para el explorador e implementadas en SharePoint Server 2013 con InfoPath Forms Services. Las plantillas de formulario habilitadas para el explorador deben usar el modelo de objetos de código administrado de InfoPath para la lógica empresarial personalizada. 
@@ -104,7 +104,7 @@ El modelo de objetos de código administrado para automatizar las tareas adminis
   
 |**Ensamblado**|**Descripción**|
 |:-----|:-----|
-|Microsoft.Office.InfoPath.Server.dll  <br/> |Modelo de objetos para automatizar InfoPath Forms Services tareas como cargar, activar o desactivar plantillas de formulario habilitadas para el explorador.  <br/> |
+|Microsoft.Office.InfoPath.Server.dll  <br/> |Modelo de objetos para automatizar InfoPath Forms Services tareas como cargar, activar o desactivar plantillas de formulario habilitadas para explorador.  <br/> |
    
 Para más información sobre el modelo de objetos de InfoPath Forms Services, vea el kit de desarrollo de software (SDK) de SharePoint Server 2013, que puede encontrar en MSDN.
   
@@ -115,7 +115,7 @@ La lógica empresarial puede desarrollarse en plantillas de formulario de InfoPa
 > [!NOTE]
 > [!NOTA] InfoPath 2013 no permite crear ni modificar plantillas de formulario que usan lógica empresarial escrita con JScript o VBScript, a pesar de que InfoPath Filler permite abrir plantillas de formulario basadas en script creadas en versiones anteriores de InfoPath. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Tutorial: Crear una plantilla de formulario básica con código](walkthrough-creating-a-basic-form-template-with-code.md)
 - [Tutorial: Crear y depurar una plantilla de formulario básica mediante el modelo de objetos de InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)

@@ -1,5 +1,5 @@
 ---
-title: Igual a(Aplicación web personalizada de Access)
+title: Equals(Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408932"
 ---
-# <a name="equals-access-custom-web-app"></a>Es igual a (aplicación web personalizada de Access)
+# <a name="equals-access-custom-web-app"></a>Igual a (aplicación web personalizada de Access)
 
 Compara la igualdad de dos expresiones.
   
@@ -26,7 +26,7 @@ Compara la igualdad de dos expresiones.
 
 *expresión*   =   *expresión* 
   
-*expresión*  Es cualquier expresión válida. Si las expresiones no son del mismo tipo de datos, el tipo de datos de una expresión debe ser implícitamente convertible al tipo de datos de la otra. La conversión depende de las reglas de prioridad del tipo de datos. 
+*expresión*  Es cualquier expresión válida. Si las expresiones no son del mismo tipo de datos, el tipo de datos de una expresión debe ser implícitamente convertible para el tipo de datos de la otra. La conversión depende de las reglas de prioridad del tipo de datos. 
   
 ## <a name="return-type"></a>Tipo de valor devuelto
 

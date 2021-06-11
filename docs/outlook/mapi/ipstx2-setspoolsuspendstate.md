@@ -33,11 +33,11 @@ void SetSpoolSuspendState(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulState_
   
-> [entrada] Estado en el que se va a establecer la cola. Debe ser uno de los siguientes valores:
+> [in] Estado en el que se va a establecer la cola. Debe ser uno de los siguientes valores:
     
  **SS_ACTIVE**
   

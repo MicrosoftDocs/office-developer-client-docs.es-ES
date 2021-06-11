@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - DIALOGMsgProc
 keywords:
-- Función dialogmsgproc [excel 2007]
+- función dialogmsgproc [excel 2007]
 localization_priority: Normal
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,13 +22,13 @@ ms.locfileid: "33406517"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Este procedimiento está asociado al cuadro de diálogo nativo de Windows que [muestra fShowDialog.](fshowdialog.md) Proporciona las rutinas de servicio a las que Windows llama para los eventos (mensajes) que se producen cuando el usuario opera uno de los botones, campos de entrada o controles del cuadro de diálogo. 
+Este procedimiento está asociado con el cuadro Windows de diálogo nativo que [fShowDialog](fshowdialog.md) muestra. Proporciona las rutinas de servicio llamadas por Windows para los eventos (mensajes) que se producen cuando el usuario opera uno de los botones, campos de entrada o controles del cuadro de diálogo. 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _hWndDlg_ (**HWND**)
   
@@ -36,7 +36,7 @@ Contiene el identificador de Windows HWND del cuadro de diálogo.
   
  _message_ (**UINT**)
   
-Mensaje al que se debe responder.
+Mensaje al que responder.
   
  _wParam_ (**WPARAM**)
   
@@ -46,13 +46,13 @@ Argumentos pasados por Windows.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
- **TRUE** si el mensaje se procesa, **FALSE** si no es así. 
+ **TRUE** si se procesa el mensaje, **FALSE** si no es así. 
   
 ### <a name="example"></a>Ejemplo
 
 Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

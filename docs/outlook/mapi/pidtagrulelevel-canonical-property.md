@@ -48,9 +48,9 @@ Si se establece esta propiedad, el cliente debe pasar 0x00000000.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica métodos para conectarse a buzones y configurarlos como delegados e interacciones con elementos de mensaje y calendario cuando actúan en nombre de otro usuario.
+> Especifica métodos para conectarse a buzones y configurarlos como delegados e interacciones con elementos de calendario y mensajes cuando actúan en nombre de otro usuario.
     
-[[MS-OJORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula los mensajes de correo electrónico entrantes en un servidor.
     
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -73,7 +73,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

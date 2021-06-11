@@ -36,7 +36,7 @@ Contiene el tiempo estimado para descargar un mensaje desde un servidor remoto a
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se expresa en segundos y representa la mejor estimación del tiempo que tardaría un proveedor de transporte remoto en descargar un mensaje determinado desde su ubicación actual a un almacén de mensajes local para el cliente que ve la carpeta de encabezado. Normalmente, el proveedor de transporte remoto calcula el valor de esta propiedad dividiendo el valor de la propiedad **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) por la velocidad del vínculo de comunicaciones en bytes por segundo. Si el proveedor no puede calcular el tiempo de descarga, por ejemplo si no conoce la velocidad del vínculo, debe proporcionar un valor **PT_ERROR** como **MAPI_E_NO_SUPPORT** para esta columna en la tabla de contenido de la carpeta de encabezado. 
+Esta propiedad se expresa en segundos y representa la mejor estimación del tiempo que tardaría un proveedor de transporte remoto en descargar un mensaje determinado desde su ubicación actual en un almacén de mensajes local para el cliente que ve la carpeta de encabezado. El proveedor de transporte remoto suele calcular el valor de esta propiedad dividiendo el valor de la propiedad **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) por la velocidad del vínculo de comunicaciones en bytes por segundo. Si el proveedor no puede calcular el tiempo de descarga, por ejemplo, si no conoce la velocidad del vínculo, debe proporcionar un valor **PT_ERROR** como **MAPI_E_NO_SUPPORT** para esta columna en la tabla de contenido de la carpeta de encabezado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

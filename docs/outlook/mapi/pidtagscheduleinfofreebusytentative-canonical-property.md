@@ -36,11 +36,11 @@ Contiene los bloques de horas para las que el estado de disponibilidad es provis
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad tiene tantos valores como el número de valores en **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)). Cada valor binario representa un mes y corresponde al valor en el mismo índice de **PR_SCHDINFO_MONTHS_TENTATIVE**. Los valores binarios se ordenan en el mismo orden que los valores de **PR_SCHDINFO_MONTHS_TENTATIVE**.
+Esta propiedad tiene tantos valores como el número de valores **de PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)). Cada valor binario representa un mes y corresponde al valor en el mismo índice de **PR_SCHDINFO_MONTHS_TENTATIVE**. Los valores binarios se ordenan en el mismo orden que los valores de **PR_SCHDINFO_MONTHS_TENTATIVE**.
   
 Cada valor binario tiene uno o más bloques de 4 BYTES y cada uno de ellos contiene la hora de inicio en los dos primeros bytes y la hora de finalización en los dos segundos bytes en formato little-endian. La hora de inicio es el número de minutos entre la medianoche hora universal coordinada (UTC) del primer día del mes y la hora de inicio del evento en UTC. La hora de finalización es el número de minutos entre la medianoche UTC del primer día del mes y la hora de finalización del evento en UTC. Los bloques de 4 BYTES se ordenan en orden ascendente.
   
-Los bloques de tiempo consecutivos o superpuestos se combinan en un bloque con la hora de inicio como la hora de inicio del primer bloque y la hora de finalización como la hora de finalización del último bloque. Si un evento se distribuye en varios meses o años, el evento se divide en varios bloques, uno para cada mes. Si no hay eventos provisionales en el intervalo  de publicación, esta propiedad y PR_SCHDINFO_MONTHS_TENTATIVE no deben establecerse o eliminarse si ya existen. De lo contrario, se debe establecer esta propiedad. 
+Los bloques de tiempo consecutivos o superpuestos se combinan en un bloque con la hora de inicio como la hora de inicio del primer bloque y la hora de finalización como la hora de finalización del último bloque. Si un evento se extiende entre varios meses o años, el evento se divide en varios bloques, uno para cada mes. Si no hay eventos provisionales en el intervalo  de publicación, esta propiedad y PR_SCHDINFO_MONTHS_TENTATIVE no deben establecerse o deben eliminarse si ya existen. De lo contrario, esta propiedad debe establecerse. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

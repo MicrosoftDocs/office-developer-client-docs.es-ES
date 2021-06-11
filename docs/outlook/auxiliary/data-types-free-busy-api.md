@@ -21,7 +21,7 @@ En esta sección se describen los tipos de datos de la API de disponibilidad.
 |**Tipo de datos**|**Descripción**|
 |:-----|:-----|
 |[FBBlock_1](fbblock_1.md) <br/> |Define un bloque de datos de disponibilidad.  <br/> |
-|[FBStatus](fbstatus.md) <br/> |Una enumeración para el estado de disponibilidad de los bloques de disponibilidad.  <br/> |
+|[FBStatus](fbstatus.md) <br/> |Enumeración para el estado de disponibilidad de los bloques de disponibilidad.  <br/> |
 |[FBUser](fbuser.md) <br/> |Identifica un usuario que puede o no tener datos de disponibilidad disponibles.  <br/> |
    
 

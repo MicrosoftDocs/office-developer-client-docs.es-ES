@@ -25,7 +25,7 @@ ms.locfileid: "32283152"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una cadena de texto que describe el tipo de una carpeta. Aunque esta propiedad generalmente se omite, las versiones de Microsoft® Exchange Server antes de Exchange Server Administrador de buzones de correo de 2003 esperan que esta propiedad esté presente.
+Contiene una cadena de texto que describe el tipo de una carpeta. Aunque esta propiedad generalmente se omite, las versiones de Microsoft® Exchange Server antes de Exchange Server administrador de buzones de correo de 2003 esperan que esta propiedad esté presente.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene una cadena de texto que describe el tipo de una carpeta. Aunque esta pr
    
 ## <a name="remarks"></a>Comentarios
 
-Normalmente, estas propiedades no las usa Exchange Server. Sin embargo, Microsoft Office Outlook® las adjunta a las carpetas del buzón. Además, las versiones de Exchange Server antes de Exchange Server Administrador de buzones de correo de 2003 podrían controlar incorrectamente las carpetas que no tienen estas propiedades.
+Estas propiedades normalmente no las usa Exchange Server. Sin embargo, Microsoft Office Outlook® las adjunta a carpetas de buzones. Además, las versiones de Exchange Server antes de Exchange Server administrador de buzones de correo de 2003 podrían controlar incorrectamente carpetas que no tienen estas propiedades.
   
 Estas propiedades se pueden asignar a los valores de cadena en la tabla siguiente.
   
@@ -44,9 +44,9 @@ Estas propiedades se pueden asignar a los valores de cadena en la tabla siguient
 |:-----|:-----|
 |IPF. Cita  <br/> |Citas  <br/> |
 |IPF. Contacto  <br/> |Contactos  <br/> |
-|IPF. Diario  <br/> |Entradas del diario de Outlook  <br/> |
+|IPF. Diario  <br/> |Outlook Entradas de diario  <br/> |
 |IPF. Nota  <br/> |Mensajes de correo y notas  <br/> |
-|IPF. StickyNote  <br/> |Notas rápidas de Outlook  <br/> |
+|IPF. StickyNote  <br/> |Outlook Notas rápidas  <br/> |
 |IPF. Tarea  <br/> |Tareas de Outlook  <br/> |
    
 Para las carpetas que contienen mensajes de correo, estas propiedades deben establecerse en IPF. Nota.
@@ -61,15 +61,15 @@ Para las carpetas que contienen mensajes de correo, estas propiedades deben esta
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y localizar las carpetas especiales en un buzón.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de lista de distribución personal y de contacto.
+> Especifica las propiedades y las operaciones permitidas para los objetos de lista de distribución personal y de contacto.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -81,13 +81,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

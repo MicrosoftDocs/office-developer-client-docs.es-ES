@@ -35,7 +35,7 @@ ULONG FAR * lpulTableStatus
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,11 +43,11 @@ ULONG FAR * lpulTableStatus
     
  _ulTimeout_
   
-> [entrada] Número máximo de milisegundos que hay que esperar a que se complete la operación asincrónica o las operaciones. Para esperar indefinidamente hasta que se produzca la finalización,  _establezca ulTimeout_ en 0xFFFFFFFF. 
+> [in] Número máximo de milisegundos para esperar a que se complete la operación asincrónica o las operaciones. Para esperar indefinidamente hasta que se produzca la finalización,  _establezca ulTimeout_ en 0xFFFFFFFF. 
     
  _lpulTableStatus_
   
-> [entrada, salida] En la entrada, un puntero válido o NULL. En el resultado,  _si lpulTableStatus es_ un puntero válido, apunta al estado más reciente de la tabla. Si  _lpulTableStatus es_ NULL, no se devuelve información de estado. Si **WaitForCompletion devuelve** un valor HRESULT fallido, el contenido de  _lpulTableStatus_ no está definido. 
+> [in, out] En la entrada, un puntero válido o NULL. En el resultado,  _si lpulTableStatus_ es un puntero válido, apunta al estado más reciente de la tabla. Si  _lpulTableStatus_ es NULL, no se devuelve información de estado. Si **WaitForCompletion** devuelve un valor HRESULT fallido, el contenido de  _lpulTableStatus_ no está definido. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,17 +57,17 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> La tabla no admite esperar a que se completen las operaciones asincrónicas.
+> La tabla no admite la espera para la finalización de las operaciones asincrónicas.
     
 MAPI_E_TIMEOUT 
   
-> La operación asincrónica o las operaciones no se completaron en la hora especificada.
+> La operación asincrónica o las operaciones no se completaron en el tiempo especificado.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPITable::WaitForCompletion** suspende el procesamiento hasta que se completen las operaciones asincrónicas actualmente en curso para la tabla. **WaitForCompletion** puede permitir que las operaciones asincrónicas se completen completamente o se ejecuten durante un determinado número de milisegundos, como se indica en  _ulTimeout_, antes de ser interrumpidas. Para detectar operaciones asincrónicas en curso, llame al [método IMAPITable::GetStatus.](imapitable-getstatus.md) 
+El **método IMAPITable::WaitForCompletion** suspende el procesamiento hasta que se completen las operaciones asincrónicas que se están realizando actualmente para la tabla. **WaitForCompletion** puede permitir que las operaciones asincrónicas se completen por completo o se ejecuten durante un número determinado de milisegundos, como indica  _ulTimeout_, antes de que se interrumpan. Para detectar operaciones asincrónicas en curso, llame al [método IMAPITable::GetStatus.](imapitable-getstatus.md) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Agregar un controlador de eventos mediante el modelo de objetos de InfoPath
+title: Agregar un controlador de eventos con el modelo de objetos de InfoPath
 manager: soliver
 ms.date: 01/20/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303671"
 ---
-# <a name="add-an-event-handler-using-the-infopath-object-model"></a>Agregar un controlador de eventos mediante el modelo de objetos de InfoPath
+# <a name="add-an-event-handler-using-the-infopath-object-model"></a>Agregar un controlador de eventos con el modelo de objetos de InfoPath
 
 Los comandos de menú para agregar funciones de controlador de eventos a un proyecto de plantilla de formulario compatible con el modelo de objetos de InfoPath 2003 son fundamentalmente los mismos que los utilizados en otros tipos de plantilla de formulario. Por ejemplo, para agregar un controlador de eventos **OnLoad**, con la plantilla de formulario abierta en el diseñador de InfoPath, haga clic en **Evento Al cargar (OnLoad)** en la ficha **Programador**. En el editor de código de Visual Studio 2012, el foco se desplazará automáticamente al código del formulario relacionado con el controlador de eventos **OnLoad**. 
   
@@ -81,11 +81,11 @@ En todos los procedimientos siguientes, se da por supuesto que el usuario tiene 
     
     El foco se desplazará al código auxiliar del controlador de eventos del evento[OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) en el editor de código. 
     
-## <a name="adding-an-event-handler-for-the-onafterimport-event"></a>Adición de un controlador de eventos para el evento OnAfterImport
+## <a name="adding-an-event-handler-for-the-onafterimport-event"></a>Agregar un controlador de eventos para el evento OnAfterImport
 
 Para agregar controladores de eventos para el evento [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) , debe abrir el código de formulario de la plantilla de formulario con código administrado y agregar la función de controlador de eventos manualmente. Para obtener información acerca de cómo escribir un controlador de eventos para este evento, haga clic en el vínculo del evento **OnAfterImport**. 
   
-## <a name="adding-an-event-handler-for-a-secondary-data-source"></a>Adición de un controlador de eventos para un origen de datos secundario
+## <a name="adding-an-event-handler-for-a-secondary-data-source"></a>Agregar un controlador de eventos para un origen de datos secundario
 
 En el ejemplo siguiente se muestra cómo agregar un controlador de eventos para un origen de datos secundario. En el ejemplo se supone que existe un origen de datos secundario procedente de un archivo de recursos llamado books.xml, que tiene el siguiente esquema:
   
@@ -277,11 +277,11 @@ El atributo **InfoPathEventHandler** (según su definición de la clase [InfoPat
   
 Cuando el evento lo requiera, el parámetro **MatchPath** (tal como lo define la propiedad [MatchPath](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.MatchPath.aspx) de la clase **InfoPathEventHandlerAttribute**) especifica una expresión XPath que identifica el origen del evento. El parámetro **EventType** (tal como lo define la propiedad [EventType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.EventType.aspx) de la clase **InfoPathEventHandlerAttribute**) especifica el tipo de evento. No debe cambiar los valores de estos parámetros. Si lo hace, es posible que el controlador de eventos no se compile correctamente o que la notificación del evento no se produzca como se esperaba. 
   
-## <a name="obfuscating-code-in-event-handlers"></a>Ofuscar código en controladores de eventos
+## <a name="obfuscating-code-in-event-handlers"></a>Ocultación de código en controladores de eventos
 
 Si ejecuta una utilidad de protección en el ensamblado que se genera al compilar una plantilla de formulario con código administrado ( *nombreproyecto*  .dll), InfoPath no podrá cargar el ensamblado cuando un usuario abra el formulario. Si desea proteger el código de los controladores de eventos u otro código de formulario, colóquelo en otro ensamblado, incluya una referencia a ese ensamblado en el proyecto y después llame a los miembros del ensamblado de la referencia desde FormCode.cs o FormCode.vb. Es importante que sólo ejecute la utilidad de protección en el ensamblado de la referencia. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Responder a eventos de formulario mediante el modelo de objetos de InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

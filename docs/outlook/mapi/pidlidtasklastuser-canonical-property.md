@@ -31,13 +31,13 @@ Nombra al usuario más reciente que era el propietario de la tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskLastUser  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008122  <br/> |
+|Id. largo (LID):  <br/> |0x00008122  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Antes de que un cliente envíe una solicitud de tarea, establece esta propiedad en el nombre del asignador de tareas. Antes de que un cliente envíe una aceptación de tarea, establece esta propiedad en el nombre del usuario al que se asigna la tarea. Antes de que un cliente envíe un rechazo de tarea, establece esta propiedad en el nombre del asignador de tareas.
+Antes de que un cliente envíe una solicitud de tarea, establece esta propiedad en el nombre del asignador de tareas. Antes de que un cliente envíe una aceptación de tarea, establece esta propiedad en el nombre del usuario asignado. Antes de que un cliente envíe un rechazo de tarea, establece esta propiedad en el nombre del asignador de tareas.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

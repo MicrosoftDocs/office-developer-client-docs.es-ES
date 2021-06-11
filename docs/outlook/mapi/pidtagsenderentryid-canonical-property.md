@@ -32,13 +32,13 @@ Contiene el identificador de entrada del remitente del mensaje.
 |Propiedades asociadas:  <br/> |PR_SENDER_ENTRYID  <br/> |
 |Identificador:  <br/> |0x0C19  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Address  <br/> |
+|Área:  <br/> |Dirección  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es una de las propiedades de dirección del remitente del mensaje. Debe establecerlo el proveedor de transporte saliente, que nunca debe propagar los valores existentes anteriormente.
+Esta propiedad es una de las propiedades de dirección del remitente del mensaje. Debe ser establecido por el proveedor de transporte saliente, que nunca debe propagar ningún valor existente previamente.
   
-Si ningún proveedor de transporte ha proporcionado ninguna propiedad de dirección del remitente, la cola MAPI intenta rellenarlas llamando al método [IMAPISession::QueryIdentity](imapisession-queryidentity.md) para obtener un identificador de entrada. Si no se han proporcionado identificadores de entrada, la cola MAPI tiene un identificador correspondiente a la cadena "Unknown" en esta propiedad. 
+Si ningún proveedor de transporte ha proporcionado ninguna propiedad de dirección de remitente, la cola MAPI intenta rellenarlas llamando al método [IMAPISession::QueryIdentity](imapisession-queryidentity.md) para obtener un identificador de entrada. Si no se han proporcionado identificadores de entrada, la cola MAPI un identificador correspondiente a la cadena "Unknown" en esta propiedad. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,11 +50,11 @@ Si ningún proveedor de transporte ha proporcionado ninguna propiedad de direcci
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que representan elementos RSS.
+> Especifica las propiedades y las operaciones que representan elementos RSS.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -66,11 +66,11 @@ Si ningún proveedor de transporte ha proporcionado ninguna propiedad de direcci
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos post.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos post.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -82,13 +82,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

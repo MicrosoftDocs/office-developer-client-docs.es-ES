@@ -36,9 +36,9 @@ Contiene el nombre de cuenta del destinatario.
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades proporcionan información de identificación y acceso para un destinatario. Los define el destinatario y su organización.
+Estas propiedades proporcionan información de identificación y acceso para un destinatario. El destinatario y su organización los definen.
   
-Estas propiedades normalmente contienen el nombre de correo electrónico del destinatario, es decir, el componente final de la dirección de correo electrónico, que identifica de forma exclusiva al destinatario en la organización local. El nombre del correo electrónico corresponde al nombre distintivo X.400, que está diseñado para ser un nombre corto que se garantiza que sea único dentro de un dominio de mensajería determinado.
+Estas propiedades normalmente contienen el nombre de correo electrónico del destinatario, es decir, el componente final de la dirección de correo electrónico, que identifica de forma única al destinatario en la organización local. El nombre del correo electrónico corresponde al nombre distintivo X.400, que está diseñado para ser un nombre corto que se garantiza que es único dentro de un dominio de mensajería determinado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,11 +50,11 @@ Estas propiedades normalmente contienen el nombre de correo electrónico del des
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,14 +66,14 @@ mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [IMailUser : IMAPIProp](imailuserimapiprop.md)
 
 
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -38,7 +38,7 @@ Contiene los meses marcados provisionalmente en el mensaje de disponibilidad.
 
 El número de valores de esta propiedad debe estar entre cero y el número de meses cubiertos por el intervalo de publicación, que es el período entre las propiedades **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) y **PR_FREEBUSY_PUBLISH_END** ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)).
   
-Cada valor de esta propiedad tiene un mes y un año codificados en ella. Esto se calcula mediante la expresión "año × 16 + mes" donde año y mes se basan en el calendario gregoriano. Los valores se ordenan en orden ascendente y se codifican en formato little-endian. Si un evento se distribuye entre varios meses o varios años, debe haber un valor para cada uno de los meses que se incluyen en el intervalo de publicación. Si no hay eventos provisionales en el intervalo de publicación, esta propiedad y **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) no se deben establecer o deben eliminarse si ya existen. De lo contrario, se debe establecer esta propiedad.
+Cada valor de esta propiedad tiene un mes y un año codificados en ella. Esto se calcula mediante la expresión "año × 16 + mes" donde año y mes se basan en el calendario gregoriano. Los valores se ordenan en orden ascendente y se codifican en formato little-endian. Si un evento se extiende entre varios meses o varios años, debe haber un valor para cada uno de los meses que entran en el intervalo de publicación. Si no hay eventos provisionales en el intervalo de publicación, esta propiedad y **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) no se deben establecer o deben eliminarse si ya existen. De lo contrario, esta propiedad debe establecerse.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

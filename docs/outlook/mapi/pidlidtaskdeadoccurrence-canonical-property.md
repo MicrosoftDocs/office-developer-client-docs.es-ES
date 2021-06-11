@@ -31,13 +31,13 @@ Indica si se deben generar nuevas repeticiones.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskDeadOccur  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008109  <br/> |
+|Id. largo (LID):  <br/> |0x00008109  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un patrón de periodicidad ya no está en vigor cuando su instancia final está en el pasado o se ha generado el número de instancias especificado. El cliente establece esta propiedad en FALSE para una nueva tarea o en TRUE cuando genera la última instancia de una tarea periódica. Cuando copia una tarea para generar una nueva instancia, esta propiedad se establece en TRUE en la copia, que es la instancia completada.
+Un patrón de periodicidad ya no está en vigor cuando su instancia final está en el pasado o se ha generado su número especificado de instancias. El cliente establece esta propiedad en FALSE para una nueva tarea o en TRUE cuando genera la última instancia de una tarea periódica. Al copiar una tarea para generar una nueva instancia, esta propiedad se establece en TRUE en la copia, que es la instancia completada.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

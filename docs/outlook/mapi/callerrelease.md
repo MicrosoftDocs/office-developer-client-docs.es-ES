@@ -41,19 +41,19 @@ void CALLERRELEASE(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulCallerData_
   
-> [entrada] Datos del autor de la llamada guardados por MAPI con la vista de tabla y pasados a la función de devolución de llamada basada en **CALLERRELEASE.** Los datos proporcionan contexto sobre la vista de tabla que se está liberando. 
+> [in] Datos de autor de la llamada guardados por MAPI con la vista de tabla y pasados a la función de devolución de llamada basada en **CALLERRELEASE.** Los datos proporcionan contexto sobre la vista de tabla que se va a liberar. 
     
  _lpTblData_
   
-> [entrada] Puntero a la [interfaz ITableData : IUnknown](itabledataiunknown.md) para el objeto de datos de tabla subyacente a la vista de tabla que se va a liberar. 
+> [in] Puntero a la [interfaz ITableData : IUnknown](itabledataiunknown.md) para el objeto de datos de tabla subyacente a la vista de tabla que se va a liberar. 
     
  _lpVue_
   
-> [entrada] Puntero a la [interfaz IMAPITable : IUnknown](imapitableiunknown.md) para la vista de tabla que se está liberando. Se trata de una interfaz para el objeto de tabla devuelto en el parámetro  _lppMAPITable_ del método [ITableData::HrGetView](itabledata-hrgetview.md) que creó el objeto para liberar. 
+> [in] Puntero a [la interfaz IMAPITable: IUnknown](imapitableiunknown.md) para la vista de tabla que se va a liberar. Se trata de una interfaz para el objeto table devuelto en el parámetro  _lppMAPITable_ del método [ITableData::HrGetView](itabledata-hrgetview.md) que creó el objeto que se va a liberar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,8 +61,8 @@ Ninguno
   
 ## <a name="remarks"></a>Comentarios
 
-Una aplicación cliente o un proveedor de servicios que haya rellenado un objeto de datos de tabla puede llamar a [ITableData::HrGetView](itabledata-hrgetview.md) para crear una vista ordenada de solo lectura de la tabla. La llamada a **HrGetView** pasa un puntero a una función de devolución de llamada basada en **CALLERRELEASE** y también un contexto que se guardará con la vista de tabla. Cuando el recuento de referencias de la vista de tabla vuelve a cero y se libera la vista, la implementación de **IMAPITable** llama a la función de devolución de llamada y pasa el contexto en el parámetro _ulCallerData._ 
+Una aplicación cliente o un proveedor de servicios que ha rellenado un objeto de datos de tabla puede llamar a [ITableData::HrGetView](itabledata-hrgetview.md) para crear una vista ordenada de solo lectura de la tabla. La llamada a **HrGetView** pasa un puntero a una función de devolución de llamada basada en **CALLERRELEASE** y también un contexto que se guardará con la vista de tabla. Cuando el recuento de referencias de la vista de tabla vuelve a cero y se libera la vista, la implementación **imapitable** llama a la función de devolución de llamada, pasando el contexto en _el parámetro ulCallerData._ 
   
-Un uso común de una función de devolución de llamada basada en **CALLERRELEASE** es liberar el objeto de datos de tabla subyacente y no es necesario realizar un seguimiento de él durante el procesamiento posterior. 
+Un uso común de una función de devolución de llamada basada en **CALLERRELEASE** es liberar el objeto de datos de tabla subyacente y no tener que realizar un seguimiento de él durante el procesamiento posterior. 
   
 

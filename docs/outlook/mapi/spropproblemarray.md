@@ -41,7 +41,7 @@ typedef struct _SPropProblemArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cProblem**
   
@@ -49,13 +49,13 @@ typedef struct _SPropProblemArray
     
  **aProblem**
   
-> Matriz de **estructuras SPropProblem,** cada una de las que describe un error de propiedad. 
+> Matriz de **estructuras SPropProblem,** cada una que describe un error de propiedad. 
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca de cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, vea [PROPIEDADES con](mapi-named-properties.md)nombre MAPI . 
+Para obtener más información acerca de cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, vea [Mapi Named Properties](mapi-named-properties.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

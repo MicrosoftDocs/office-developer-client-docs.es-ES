@@ -25,7 +25,7 @@ Este tema contiene definiciones de constantes para la API de capa de degradació
 |DDLWRAP_FLAG_ANSI  <br/> |0x00000001  <br/> |
 |DDLWRAP_FLAG_UNICODE  <br/> |0x00000002  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la capa de degradación de datos API](about-the-data-degradation-layer-api.md)
 

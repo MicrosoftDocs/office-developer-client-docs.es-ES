@@ -21,9 +21,9 @@ ms.locfileid: "32270059"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los implementadores de servidores de formulario deben esperar la siguiente secuencia de llamadas de método a su servidor de formulario y objetos de formulario cuando una aplicación cliente abre un nuevo mensaje para redactarlo:
+Los implementadores del servidor de formularios deben esperar la siguiente secuencia de llamadas de método a sus objetos de formulario y servidor de formulario cuando una aplicación cliente abre un nuevo mensaje para redactar:
   
-1. La aplicación cliente llama al método [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para obtener información de clase sobre la clase de mensaje del servidor de formulario. 
+1. La aplicación cliente llama al [método IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para obtener información de clase sobre la clase de mensaje del servidor de formularios. 
     
 2. La aplicación cliente llama [a IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) para obtener un nuevo objeto de formulario. 
     
@@ -31,11 +31,11 @@ Los implementadores de servidores de formulario deben esperar la siguiente secue
     
 4. La aplicación cliente toma la interfaz **IMAPIForm** resultante y llama al método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) para obtener la interfaz [IPersistMessage del](ipersistmessageiunknown.md) objeto. 
     
-5. La aplicación cliente llama al método [IPersistMessage::InitNew](ipersistmessage-initnew.md) para asociar el objeto de formulario con [IMessage,](imessageimapiprop.md)ver contexto y aconsejar objetos receptores.
+5. La aplicación cliente llama al [método IPersistMessage::InitNew](ipersistmessage-initnew.md) para asociar el objeto de formulario con [IMessage,](imessageimapiprop.md)ver el contexto y aconsejar a los objetos receptores.
     
 6. La aplicación cliente llama al [método IMAPIForm::D oVerb](imapiform-doverb.md) para invocar el verbo abierto. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

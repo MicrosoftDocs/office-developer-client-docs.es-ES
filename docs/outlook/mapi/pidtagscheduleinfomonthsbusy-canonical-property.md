@@ -23,7 +23,7 @@ ms.locfileid: "32359797"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los meses durante los que los datos de disponibilidad del tipo ocupado están presentes en el mensaje de disponibilidad.
+Contiene los meses durante los que los datos de disponibilidad de tipo ocupado están presentes en el mensaje de disponibilidad.
   
 |||
 |:-----|:-----|
@@ -58,13 +58,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

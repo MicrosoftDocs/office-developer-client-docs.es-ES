@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
-description: 'Última modificación: 2 de julio de 2012'
+description: 'Last modified: July 02, 2012'
 ms.openlocfilehash: 96f472d67f144a451046ff61a3ed6c6ff2ff9acf
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,17 +17,17 @@ ms.locfileid: "33408989"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Antes de iniciar sesión en MAPI en un proveedor de almacén de ARCHIVOS PST ajustado, debe inicializar y configurar el proveedor de almacenamiento de archivos de carpetas personales (PST) ajustado. Para obtener más información, vea [Inicializar un proveedor de almacén de PST ajustado.](initializing-a-wrapped-pst-store-provider.md)
+Para poder iniciar sesión en MAPI en un proveedor de almacenamiento PST ajustado, debe inicializar y configurar el proveedor de almacén de archivos de carpetas personales (PST) ajustado. Para obtener más información, vea [Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md).
   
-Después de inicializar y configurar un proveedor de almacén de PST ajustado, debe implementar dos rutinas de inicio de sesión. La **[función IMSProvider::Logon](imsprovider-logon.md)** inicia sesión en MAPI en el proveedor de almacenamiento de PST ajustado. La **[función IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** registra la cola MAPI en el proveedor del almacén de ARCHIVOS PST ajustado. 
+Después de inicializar y configurar un proveedor de almacenamiento PST ajustado, debe implementar dos rutinas de inicio de sesión. La **[función IMSProvider::Logon](imsprovider-logon.md)** inicia sesión en MAPI en el proveedor del almacén PST ajustado. La **[función IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** inicia sesión en la cola MAPI en el proveedor de almacenamiento PST ajustado. 
   
-En este tema, la función **IMSProvider::Logon** y la función **IMSProvider::SpoolerLogon** se muestran mediante ejemplos de código del proveedor de almacén pst ajustado de ejemplo. El ejemplo implementa un proveedor de PST ajustado que está pensado para usarse junto con la API de replicación. Para obtener más información acerca de cómo descargar e instalar el proveedor de almacén de ARCHIVOS PST ajustados de ejemplo, consulte Instalación del proveedor de almacén pst ajustado [de ejemplo.](installing-the-sample-wrapped-pst-store-provider.md) Para obtener más información acerca de la API de replicación, vea [Acerca de la API de replicación.](about-the-replication-api.md)
+En este tema, la función **IMSProvider::Logon** y la función **IMSProvider::SpoolerLogon** se muestran mediante ejemplos de código del proveedor de almacén PST ajustado de ejemplo. El ejemplo implementa un proveedor de PST ajustado que está pensado para usarse junto con la API de replicación. Para obtener más información acerca de cómo descargar e instalar el proveedor de la tienda PST encapsulada de muestra, consulte [Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md). Para obtener más información acerca de la API de replicación, vea [Acerca de la API de replicación](about-the-replication-api.md).
   
-Después de que MAPI y la cola MAPI hayan iniciado sesión en el proveedor de almacenamiento DE ARCHIVOS PST ajustado, está listo para usarse. Para obtener más información, vea [Usar un proveedor de almacén de PST ajustado.](using-a-wrapped-pst-store-provider.md)
+Después de que MAPI y la cola MAPI hayan iniciado sesión en el proveedor de almacenamiento PST ajustado, está listo para usarse. Para obtener más información, vea [Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md).
   
 ## <a name="mapi-logon-routine"></a>Rutina de inicio de sesión MAPI
 
-Después de inicializar el proveedor del almacén de PST ajustado, debe implementar la función **[IMSProvider::Logon](imsprovider-logon.md)** para iniciar sesión en MAPI en el almacén pst ajustado. Esta función valida las credenciales de usuario y obtiene las propiedades de configuración del proveedor. También debe implementar la función para establecer la información de archivo sin  `SetOLFIInOST` conexión (**[OLFI](olfi.md)** ). **OLFI** es una cola de estructuras de id. a largo plazo que usa el proveedor de almacenamiento pst ajustado para asignar un identificador de entrada para un nuevo mensaje o carpeta en modo sin conexión. Por último, la **función IMSProvider::Logon** devuelve un objeto de almacén de mensajes en el que la cola MAPI y las aplicaciones cliente pueden iniciar sesión en el  `ppMDB` parámetro. 
+Después de inicializar el proveedor del almacén PST ajustado, debe implementar la función **[IMSProvider::Logon](imsprovider-logon.md)** para iniciar sesión en MAPI en el almacén PST ajustado. Esta función valida las credenciales de usuario y obtiene las propiedades de configuración del proveedor. También debe implementar la función para establecer la información de archivo sin  `SetOLFIInOST` conexión (**[OLFI](olfi.md)** ). **OLFI** es una cola de estructuras de id. a largo plazo que usa el proveedor de almacenamiento PST ajustado para asignar un identificador de entrada para un nuevo mensaje o carpeta en modo sin conexión. Por último, la función **IMSProvider::Logon** devuelve un objeto de almacén de mensajes al que la cola MAPI y las aplicaciones cliente pueden iniciar sesión en el  `ppMDB` parámetro. 
   
 ### <a name="cmsproviderlogon-example"></a>Ejemplo de CMSProvider::Logon()
 
@@ -103,7 +103,7 @@ STDMETHODIMP CMSProvider::Logon(
 
 ## <a name="mapi-spooler-logon-routine"></a>Rutina de inicio de sesión de cola MAPI
 
-Al igual que **IMSProvider::Logon,** debe implementar la función **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** para iniciar sesión en la cola MAPI en el almacén pst ajustado. En el parámetro se devuelve un objeto de almacén de mensajes en el que la cola MAPI y las aplicaciones cliente pueden iniciar  `ppMDB` sesión. 
+De forma similar a **IMSProvider::Logon**, debe implementar la función **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** para iniciar sesión en la cola MAPI en el almacén DE PST ajustado. Se devuelve un objeto de almacén de mensajes en el que la cola MAPI y las aplicaciones cliente pueden iniciar sesión en el  `ppMDB` parámetro. 
   
 ### <a name="cmsproviderspoolerlogon-example"></a>Ejemplo de CMSProvider::SpoolerLogon()
 
@@ -157,11 +157,11 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Acerca del proveedor de almacenamiento PST ajustado de ejemplo](about-the-sample-wrapped-pst-store-provider.md) 
-- [Instalación del proveedor de almacén pst ajustado de ejemplo](installing-the-sample-wrapped-pst-store-provider.md) 
-- [Inicialización de un proveedor de almacén de PST ajustado](initializing-a-wrapped-pst-store-provider.md)
-- [Uso de un proveedor de almacén de PST ajustado](using-a-wrapped-pst-store-provider.md)
-- [Apagar un proveedor de almacén de PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Acerca del proveedor de almacén PST ajustado de ejemplo](about-the-sample-wrapped-pst-store-provider.md) 
+- [Instalación del proveedor de almacén PST ajustado de muestra](installing-the-sample-wrapped-pst-store-provider.md) 
+- [Inicializar un proveedor de almacenamiento PST ajustado](initializing-a-wrapped-pst-store-provider.md)
+- [Uso de un proveedor de almacenamiento PST ajustado](using-a-wrapped-pst-store-provider.md)
+- [Apagar un proveedor de almacenamiento PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
 

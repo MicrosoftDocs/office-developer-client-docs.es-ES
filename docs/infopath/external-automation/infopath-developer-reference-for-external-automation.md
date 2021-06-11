@@ -19,11 +19,11 @@ ms.locfileid: "32310146"
 
 Esta es la referencia del programador de InfoPath 2013 sobre automatización externa. En esta documentación encontrará descripciones, tareas de programación e información de referencia sobre la biblioteca de clases que le servirán para crear soluciones de código administrado que automaticen InfoPath desde aplicaciones o complementos externos.
   
-Para obtener más información acerca de cómo trabajar con plantillas de formulario de InfoPath que contienen lógica empresarial escrita en código administrado, vea la referencia del programador de [InfoPath 2013](https://go.microsoft.com/fwlink/?LinkId=159764)para plantillas de formulario.
+Para obtener más información sobre cómo trabajar con plantillas de formulario de InfoPath que contienen lógica empresarial escrita en código administrado, vea la referencia para desarrolladores de [InfoPath 2013](https://go.microsoft.com/fwlink/?LinkId=159764)para plantillas de formulario.
   
 Fecha de publicación de esta referencia: octubre de 2012
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Centro de programadores de InfoPath](https://msdn.microsoft.com/office/aa905434.aspx)  
 - [Centro para desarrolladores de Microsoft Office](https://msdn.microsoft.com/office/default.aspx)

@@ -25,19 +25,19 @@ ms.locfileid: "32303083"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica que la tarea la creó originalmente el usuario o el agente de usuario actual en lugar de procesar una solicitud de tarea.
+Indica que la tarea se creó originalmente por el usuario o el agente de usuario actual en lugar de procesar una solicitud de tarea.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskFCreator  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x0000811E  <br/> |
+|Id. largo (LID):  <br/> |0x0000811E  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El cliente establece esta propiedad en TRUE cuando el usuario crea la tarea y en FALSE cuando la asigna otro usuario. Si esta propiedad se deja sin conjunto, se supone un valor TRUE.
+El cliente establece esta propiedad en TRUE cuando el usuario crea la tarea y en FALSE cuando la asigna otro usuario. Si esta propiedad se deja sin conjunto, se asume un valor de TRUE.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

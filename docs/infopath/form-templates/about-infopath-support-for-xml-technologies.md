@@ -162,7 +162,7 @@ InfoPath se adapta bien con el modelo acoplado de forma imprecisa de los servici
 |||
 |:-----|:-----|
 |**grupo de campos:** <br/> |Una sección, una sección repetida u opcional, o una tabla repetida. Las secciones y las tablas repetidas son controles en un formulario que incluyen otros controles, y que se repiten a medida que son necesarios. Los usuarios pueden insertar varias secciones o filas cuando completan el formulario.  <br/> |
-|**Árbol DOM:** <br/> |La estructura del origen de datos del formulario. En particular, la colección de campos y grupos que definen y almacenan los datos de un formulario de InfoPath.  <br/> |
+|**Árbol DOM:** <br/> |La estructura del origen de datos del formulario. En concreto, la colección de campos y grupos que definen y almacenan los datos de un formulario de InfoPath.  <br/> |
    
 ## <a name="conclusion"></a>Conclusión
 

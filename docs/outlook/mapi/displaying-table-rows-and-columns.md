@@ -33,7 +33,7 @@ La tabla para mostrar correspondiente contiene cuatro filas, una para cada contr
 |Cuadro de edición de direcciones de correo electrónico  <br/> |76  <br/> |40  <br/> |89  <br/> |12   <br/> |
 |Casilla  <br/> |14   <br/> |64  <br/> |90  <br/> |12   <br/> |
    
-En la siguiente tabla se sugieren los valores adecuados para el tipo del control, su propiedad **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) y la máscara de bits de marcas, su propiedad **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
+En esta tabla siguiente se sugieren los valores adecuados para el tipo del control, su propiedad **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) y la máscara de bits de las marcas, su propiedad **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
   
 |**Control**|**Tipo**|**Flags**|
 |:-----|:-----|:-----|
@@ -43,7 +43,7 @@ En la siguiente tabla se sugieren los valores adecuados para el tipo del control
 |Cuadro de edición de direcciones de correo electrónico  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
 |Casilla  <br/> |DTCT_CHECKBOX  <br/> |DT_EDITABLE  <br/> |
    
-La tabla final enumera cada control con el contenido de su estructura de control asociada. Observe que el valor de cada uno de los controles de etiqueta aparece en la memoria directamente después de la estructura.
+La tabla final enumera cada control con el contenido de su estructura de control asociada. Observe que el valor de cada uno de los controles de etiqueta aparece en la memoria siguiendo directamente la estructura.
   
 |**Control**|**Estructura**|
 |:-----|:-----|
@@ -54,11 +54,11 @@ La tabla final enumera cada control con el contenido de su estructura de control
 |Casilla  <br/> |PR_SEND_RICH_INFO  <br/> |
    
 > [!NOTE]
-> Los **botones** Aceptar, **Cancelar** **y Ayuda** no se incluyen en la tabla de presentación. La interfaz de usuario puede agregar contexto a un cuadro de diálogo agregando controles que no están en la tabla para mostrar. 
+> Los **botones Aceptar,** **Cancelar** y **Ayuda** no se incluyen en la tabla para mostrar. La interfaz de usuario puede agregar contexto a un cuadro de diálogo agregando controles que no están en la tabla para mostrar. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
-[Implementación de la tabla de visualización](display-table-implementation.md)
+[Implementación de tabla para mostrar](display-table-implementation.md)
 

@@ -44,11 +44,11 @@ typedef struct _DTBLCOMBOBOX
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulbLpszCharsAllowed**
   
-> Desplazamiento desde el inicio de la estructura **DTBLCOMBOBOX** a un filtro de cadena de caracteres que describe las restricciones, si las hay, a los caracteres que se pueden especificar en el control de edición del cuadro combinado. El filtro no se interpreta como una expresión regular y se aplica el mismo filtro a todos los caracteres especificados. El formato del filtro es el siguiente: 
+> Desplazamiento desde el inicio de la estructura **DTBLCOMBOBOX** a un filtro de cadena de caracteres que describe restricciones, si las hay, a los caracteres que se pueden especificar en el control de edición del cuadro combinado. El filtro no se interpreta como una expresión regular y el mismo filtro se aplica a todos los caracteres especificados. El formato del filtro es el siguiente: 
     
 |**Carácter**|**Descripción**|
 |:-----|:-----|
@@ -56,7 +56,7 @@ typedef struct _DTBLCOMBOBOX
 | `[ ]` <br/> |Define un conjunto de caracteres (por ejemplo,  `"[0123456789]"` ).  <br/> |
 | `-` <br/> |Indica un intervalo de caracteres (por ejemplo,  `"[a-z]"` ).  <br/> |
 | `~` <br/> |Indica que estos caracteres no están permitidos. (por ejemplo,  `"[~0-9]"` ).  <br/> |
-| `\` <br/> |Se usa para citar cualquiera de los símbolos anteriores (por ejemplo, se permiten los caracteres  `"[\-\\\[\]]"` -, \, [y ]).  <br/> |
+| `\` <br/> |Se usa para citar cualquiera de los símbolos anteriores (por ejemplo, se permiten los caracteres  `"[\-\\\[\]]"` -, \, [y ] ).  <br/> |
    
  **ulFlags**
   
@@ -64,7 +64,7 @@ typedef struct _DTBLCOMBOBOX
     
 MAPI_UNICODE 
   
-> El filtro está en formato Unicode. Si no MAPI_UNICODE marca, el filtro está en formato ANSI.
+> El filtro está en formato Unicode. Si la MAPI_UNICODE no está establecida, el filtro está en formato ANSI.
     
  **ulNumCharsAllowed**
   
@@ -76,21 +76,21 @@ MAPI_UNICODE
     
  **ulPRTableName**
   
-> Etiqueta de propiedad de una propiedad de tipo PT_OBJECT en la que se puede abrir una interfaz **IMAPITable** mediante una **llamada a OpenProperty.** La tabla debe tener una columna con una propiedad que sea del mismo tipo que la propiedad identificada por el **miembro ulPRPropertyName.** Las filas de la tabla se usan para rellenar la lista. 
+> Etiqueta de propiedad para una propiedad de tipo PT_OBJECT en la que se puede abrir una interfaz **IMAPITable** mediante una **llamada OpenProperty.** La tabla debe tener una columna con una propiedad que sea del mismo tipo que la propiedad identificada por el **miembro ulPRPropertyName.** Las filas de la tabla se usan para rellenar la lista. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura DTBLCOMBOBOX** describe un cuadro combinado que consta de una lista y un campo de selección. La lista presenta la información a partir de la cual un usuario puede seleccionar y el campo de selección muestra la selección actual. El campo de selección es un control de edición que también se puede usar para escribir texto que aún no está en la lista. 
+Una **estructura DTBLCOMBOBOX** describe un cuadro combinado un control que consta de una lista y un campo de selección. La lista presenta la información desde la que un usuario puede seleccionar y el campo de selección muestra la selección actual. El campo de selección es un control de edición que también se puede usar para escribir texto que aún no esté en la lista. 
   
-Los dos miembros de la etiqueta de propiedad trabajan juntos para coordinar la presentación de la lista con el control de edición. Cuando MAPI muestra el cuadro combinado por primera vez, llama al método **OpenProperty** de la implementación **IMAPIProp** asociada a la tabla para mostrar para recuperar la tabla representada por el **miembro ulPRTableName.** Esta tabla tiene una columna que contiene valores para la propiedad representada por el **miembro ulPRPropertyName.** Por lo tanto, esta columna debe ser del mismo tipo que la propiedad **ulPRPropertyName** y ambas columnas deben ser cadenas de caracteres. 
+Los dos miembros de la etiqueta de propiedad trabajan juntos para coordinar la presentación de la lista con el control de edición. Cuando MAPI muestra por primera vez el cuadro combinado, llama al método **OpenProperty** de la implementación **IMAPIProp** asociada a la tabla para mostrar para recuperar la tabla representada por el **miembro ulPRTableName.** Esta tabla tiene una columna que contiene valores para la propiedad representada por el **miembro ulPRPropertyName.** Por lo tanto, esta columna debe ser del mismo tipo que la **propiedad ulPRPropertyName** y ambas columnas deben ser cadenas de caracteres. 
   
 Los valores de la columna se muestran en la sección de lista del cuadro combinado. Por lo **tanto, PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) no es una etiqueta de propiedad válida para **ulPRPropertyName**. Cuando un usuario selecciona una de las filas o escribe nuevos datos en el cuadro de texto, la propiedad **ulPRPropertyName** se establece en el valor seleccionado o especificado. 
   
 Para mostrar un valor inicial para el control de edición, MAPI llama a [IMAPIProp::GetProps](imapiprop-getprops.md) para recuperar los valores de propiedad de la tabla para mostrar. Si una de las propiedades recuperadas coincide con la propiedad representada por el **miembro ulPRPropertyName,** su valor se convierte en el valor inicial. 
   
-Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información sobre cómo implementar una tabla para mostrar, vea [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

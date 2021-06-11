@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251413
 localization_priority: Normal
 ms.assetid: 0bf7f757-0b7f-dec1-9709-6612c9ad0d53
-description: Devuelve el valor de fecha y hora representado por fecha y hora o expresión.
+description: Devuelve el valor de fecha y hora representado por datetime o expresión.
 ms.openlocfilehash: 2da084f685c044d48495b04f727a877140b51004
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "32360322"
 ---
 # <a name="datetime-function"></a>Función DATETIME
 
-Devuelve el valor de fecha y hora representado por  _fecha y hora_ o  _expresión_.
+Devuelve el valor de fecha y hora representado por  _datetime_ o  _expresión_.
   
 ## <a name="syntax"></a>Sintaxis
 
-DATETIME(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+DATETIME(" ** *datetime* ** "| ** *expresión* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -38,11 +38,11 @@ Datetime
   
 ## <a name="remarks"></a>Comentarios
 
-Si  *falta fecha y*  hora o no se puede interpretar como una fecha u hora válidas, DATETIME devuelve un #VALUE! error. 
+Si  *falta datetime*  o no se puede interpretar como una fecha u hora válidas, DATETIME devuelve un #VALUE! error. 
   
 El formato del valor devuelto corresponde al estilo corto de fecha y hora establecido en la configuración regional actual del sistema. 
   
-La función DATETIME también acepta un  valor numérico único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899, y la parte decimal representa la fracción de un día desde la medianoche. 
+La función DATETIME también acepta un  valor de número único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899 y la parte decimal representa la fracción de un día desde la medianoche. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

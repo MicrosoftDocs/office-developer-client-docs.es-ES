@@ -33,7 +33,7 @@ LPMAPIUID lpMuid
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMuid_
   
@@ -43,17 +43,17 @@ LPMAPIUID lpMuid
 
 S_OK 
   
-> Se creó **la nueva estructura MAPIUID.** 
+> Se **creó la nueva estructura MAPIUID.** 
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::NewUID** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios y los servicios de mensajes llaman a **NewUID** siempre que necesiten generar un identificador único a largo plazo. Un proveedor de almacén de mensajes, por ejemplo, puede llamar a **NewUID** para obtener **un MAPIUID** para colocar en la propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de un mensaje recién creado.
+El **método IMAPISupport::NewUID** se implementa para todos los objetos de soporte técnico. Los proveedores de servicios y servicios de mensajes llaman a **NewUID** siempre que necesiten generar un identificador único a largo plazo. Un proveedor de almacén de mensajes, por ejemplo, puede llamar a **NewUID** para obtener **un MAPIUID** para colocar la propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de un mensaje recién creado.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-No confunda la estructura **MAPIUID** que se registra durante el inicio de sesión con las estructuras **MAPIUID** que crea el **método NewUID.** La **estructura MAPIUID** que se registra al llamar al método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) representa la libreta de direcciones o el proveedor del almacén de mensajes a MAPI y se usa para distinguir los identificadores de entrada que crean los distintos proveedores. Esta **estructura MAPIUID** debe codificarse de forma sólida y no obtenerse a través de una llamada a **NewUID**.
+No confunda la estructura **MAPIUID** que se registra durante el inicio de sesión con las estructuras **MAPIUID** que **crea el método NewUID.** La estructura **MAPIUID** que se registra al llamar al método [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) representa la libreta de direcciones o el proveedor del almacén de mensajes a MAPI y se usa para distinguir los identificadores de entrada que crean los distintos proveedores. Esta **estructura MAPIUID** debe codificarse de forma sólida y no obtenerse a través de una llamada a **NewUID**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -36,7 +36,7 @@ Contiene el conjunto de acciones asociadas a la regla.
    
 ## <a name="remarks"></a>Comentarios
 
-Las acciones se expresan como una acción de regla y el búfer de valores de propiedad contiene la estructura del búfer de datos de acción de regla empaquetada como se especifica en [[MS-OJORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Las acciones se expresan como una acción de regla y el búfer de valores de propiedad contiene la estructura del búfer de datos de acción de regla empaquetada según se especifica en [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -44,7 +44,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyActions  <br/> |Estas funciones muestran cómo analizar una PT_ACTIONS propiedad con el fin de copiarla en otra propiedad.  <br/> |
+|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyActions  <br/> |Estas funciones muestran cómo analizar una propiedad PT_ACTIONS con el fin de copiar en otra propiedad.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,7 +54,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula los mensajes de correo electrónico entrantes en un servidor.
     
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

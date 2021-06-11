@@ -36,7 +36,7 @@ Contiene texto opcional para un informe generado por el sistema de mensajería.
    
 ## <a name="remarks"></a>Comentarios
 
-Normalmente, el texto contenido en estas propiedades se genera en respuesta a un informe de entrega o no entrega o un informe leído o no leído recibido del sistema de mensajería subyacente, pero no es en sí texto que se transfirió a través de ese sistema. 
+Normalmente, el texto contenido en estas propiedades se genera en respuesta a un informe de entrega o no entrega o un informe de lectura o no leído recibido del sistema de mensajería subyacente, pero no es en sí texto que se transfirió a través de ese sistema. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Normalmente, el texto contenido en estas propiedades se genera en respuesta a un
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en los mensajes de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

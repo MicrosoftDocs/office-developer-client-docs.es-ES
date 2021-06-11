@@ -25,18 +25,18 @@ ms.locfileid: "32360100"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de identificadores de entrada para los destinatarios alternativos designados por el destinatario original. 
+Contiene una lista de identificadores de entrada para destinatarios alternativos designados por el destinatario original. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_ALTERNATE_RECIPIENT  <br/> |
 |Identificador:  <br/> |0x3A01  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Address  <br/> |
+|Área:  <br/> |Dirección  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para los mensajes reenviados automáticamente. Contiene una estructura [FLATENTRYLIST](flatentrylist.md) de destinatarios alternativos. Si no se permite la actualización automática o si no se ha designado ningún destinatario alternativo, se genera un informe de no entrega. 
+Esta propiedad se usa para los mensajes reenviados automáticamente. Contiene una estructura [FLATENTRYLIST](flatentrylist.md) de destinatarios alternativos. Si no se permite el autoforwarding o si no se ha designado ningún destinatario alternativo, se genera un informe de no entrega. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -56,7 +56,7 @@ Esta propiedad se usa para los mensajes reenviados automáticamente. Contiene un
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -68,7 +68,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -77,7 +77,7 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -33,7 +33,7 @@ LPSSortOrderSet FAR * lppSortCriteria
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lppSortCriteria_
   
@@ -43,11 +43,11 @@ LPSSortOrderSet FAR * lppSortCriteria
 
 S_OK 
   
-> El criterio de ordenación actual se devolvió correctamente.
+> El criterio de ordenación actual se ha devuelto correctamente.
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que impide que se inicie la operación de recuperación de criterio de ordenación. La operación en curso debe poder completarse o debe detenerse.
+> Hay otra operación en curso que impide que se inicie la operación de recuperación de criterio de ordenación. Debe permitirse completar la operación en curso o detenerse.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -55,7 +55,7 @@ El **método IMAPITable::QuerySortOrder** recupera el criterio de ordenación ac
   
 - El **miembro cSorts** de la estructura **SSortOrderSet** se puede establecer en cero si: 
     
-- La tabla no está desordenada.
+- La tabla no está variada.
     
 - No hay información sobre cómo se ordena la tabla.
     
@@ -63,11 +63,11 @@ El **método IMAPITable::QuerySortOrder** recupera el criterio de ordenación ac
     
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si se realiza una llamada al método [IMAPITable::SortTable](imapitable-sorttable.md) con una estructura **SSortOrderSet** que contiene cero columnas en la clave de ordenación, quite el criterio de ordenación actual y aplique el orden predeterminado, si lo hay. En llamadas posteriores **a QuerySortOrder,** puede elegir si desea devolver cero o más columnas para la clave de ordenación. Puede devolver más columnas de las que se encuentran en la vista actual.
+Si se realiza una llamada al método [IMAPITable::SortTable](imapitable-sorttable.md) con una estructura **SSortOrderSet** que contiene cero columnas en la clave de ordenación, quite el criterio de ordenación actual y aplique el orden predeterminado, si lo hay. En las llamadas posteriores a **QuerySortOrder,** puede elegir si se devuelven cero o más columnas para la clave de ordenación. Puede devolver más columnas de las que se encuentran en la vista actual.
   
-Para obtener más información acerca de la ordenación, vea [Ordenar y categorizar](sorting-and-categorization.md).
+Para obtener más información acerca de la ordenación, vea [Ordenación y categorización](sorting-and-categorization.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -19,16 +19,16 @@ ms.locfileid: "32279794"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Todos los objetos que define MAPI están en una o más capas de la arquitectura MAPI. La capa de interfaz de cliente contiene todos los objetos que puede implementar una aplicación cliente, un visor de formularios o un servidor de formulario. La capa de interfaz del proveedor de servicios contiene los objetos que puede implementar un proveedor de servicios de cualquier tipo. Esta capa incluye objetos implementados por libretas de direcciones, almacenes de mensajes, proveedores de transporte y bibliotecas de formularios. La capa que representa el subsistema MAPI se coloca entre las capas de interfaz de cliente y proveedor de servicios. La capa MAPI contiene todos los objetos que MAPI implementa para que los clientes o proveedores de servicios los usen. 
+Todos los objetos que define MAPI se caen en una o más capas de la arquitectura MAPI. La capa de interfaz de cliente contiene todos los objetos que puede implementar una aplicación cliente, un visor de formularios o un servidor de formulario. La capa de interfaz del proveedor de servicios contiene los objetos que un proveedor de servicios de cualquier tipo puede implementar. Esta capa incluye objetos implementados por libretas de direcciones, almacenes de mensajes, proveedores de transporte y bibliotecas de formularios. La capa que representa el subsistema MAPI se coloca entre las capas de interfaz de proveedor de servicios y cliente. La capa MAPI contiene todos los objetos que MAPI implementa para que los clientes o proveedores de servicios usen. 
   
-En la siguiente ilustración se muestra dónde encaja cada uno de los objetos MAPI en la arquitectura MAPI. Los objetos se representan con los nombres de sus interfaces derivadas. Por ejemplo, un objeto receptor de aviso se muestra como [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md), la interfaz que deriva de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) y que cada objeto receptor de aviso implementa. Varios componentes usan o implementan las interfaces que unen capas. Aunque la capa MAPI parece separar las capas de cliente y proveedor, lo que implica que toda la comunicación debe fluir a través de MAPI, este no es el caso. Los clientes pueden comunicarse directamente con objetos del proveedor de servicios. 
+En la siguiente ilustración se muestra dónde encaja cada uno de los objetos MAPI en la arquitectura MAPI. Los objetos se representan con los nombres de sus interfaces derivadas. Por ejemplo, un objeto de receptor de aviso se muestra como [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md), la interfaz que deriva de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) y que cada objeto receptor de aviso implementa. Las interfaces que puenten las capas se usan o implementan en varios componentes. Aunque la capa MAPI parece separar las capas de cliente y proveedor, lo que implica que toda la comunicación debe fluir a través de MAPI, este no es el caso. Los clientes pueden comunicarse directamente con objetos del proveedor de servicios. 
   
 **Capas de objetos en MAPI**
   
 ![Capas de objetos en capas de]objetos MAPI en(media/amapi_38.gif "MAPI")
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md)
-- [Información general sobre el objeto MAPI y la interfaz](mapi-object-and-interface-overview.md)
+- [Introducción a la interfaz y el objeto MAPI](mapi-object-and-interface-overview.md)
 

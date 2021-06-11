@@ -1,5 +1,5 @@
 ---
-title: Sección MapiSvc.inf [Asignaciones de archivo de Ayuda]
+title: Sección MapiSvc.inf [Asignaciones de archivos de ayuda]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407560"
 ---
-# <a name="mapisvcinf-help-file-mappings-section"></a>Sección MapiSvc.inf [Asignaciones de archivos de Ayuda]
+# <a name="mapisvcinf-help-file-mappings-section"></a>Sección MapiSvc.inf [Asignaciones de archivos de ayuda]
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La **sección [Asignaciones de** archivos de ayuda] contiene entradas que cada servicio de mensajes asigna al archivo que proporciona ayuda para los errores generados por el servicio. Las entradas de esta sección tienen el siguiente formato: 
+La **sección [Asignaciones de** archivos de ayuda] contiene entradas que cada servicio de mensaje asigna al archivo que proporciona ayuda para los errores generados por el servicio. Las entradas de esta sección usan el siguiente formato: 
   
- **Nombre del archivo de ayuda del nombre** del servicio de _mensaje_[Asignaciones de archivo  =   _de ayuda]_
+ **[Asignaciones de archivo de ayuda]** nombre de archivo _de ayuda_ del servicio  =   _de mensajes_
   
-El nombre del servicio de mensajes es el nombre del servicio de mensajes instalado; El nombre del archivo de ayuda es el nombre del archivo donde reside la información de error. En el siguiente ejemplo se muestra una sección **típica [Asignaciones** de archivo de Ayuda] que contiene entradas para tres servicios: MAPI, el servicio MsgService y el servicio MS. 
+El nombre del servicio de mensajes es el nombre del servicio de mensajes instalado; el nombre del archivo de ayuda es el nombre del archivo donde reside la información de error. En el ejemplo siguiente se muestra una sección **típica [Asignaciones** de archivos de ayuda] que contiene entradas para tres servicios: MAPI, el servicio MsgService y el servicio MS. 
   
 ```cpp
 [Help File Mappings]

@@ -36,13 +36,13 @@ Contiene una máscara de bits de 32 bits de marcas que definen el estado de la c
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad para carpetas es análoga a **la propiedad PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para los mensajes. Sus marcas solo se proporcionan para la aplicación cliente y no afectan al almacén de mensajes. Los clientes pueden usar o ignorar esta configuración. El cliente también puede definir sus propios valores para los bits definibles por el cliente de esta propiedad.
+Esta propiedad para carpetas es análoga a **la propiedad PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) para los mensajes. Sus marcas se proporcionan solo para la aplicación cliente y no afectan al almacén de mensajes. Los clientes pueden usar o omitir esta configuración. El cliente también puede definir sus propios valores para los bits definibles por el cliente de esta propiedad.
   
 Se pueden establecer una o varias de las siguientes marcas para la máscara de bits:
   
 FLDSTATUS_DELMARKED 
   
-> La carpeta se marca para su eliminación. La aplicación cliente establece esta marca.
+> La carpeta está marcada para su eliminación. La aplicación cliente establece esta marca.
     
 FLDSTATUS_HIDDEN 
   
@@ -56,9 +56,9 @@ FLDSTATUS_TAGGED
   
 > La carpeta está etiquetada.
     
-Los proveedores de almacenamiento de mensajes establecen esta propiedad en una carpeta en uno o varios de estos valores y los clientes interpretan el estado según corresponda a sus aplicaciones. Por ejemplo, un cliente puede usar el estado de la carpeta para diferenciar visualmente entre las carpetas de una tabla de jerarquía, mostrando carpetas con el mismo estado de la misma manera. Las carpetas resaltadas se pueden mostrar en vídeo inverso, las carpetas etiquetadas y las carpetas marcadas para su eliminación se pueden mostrar con un icono significativo y las carpetas ocultas se pueden ocultar.
+Los proveedores de almacén de mensajes establecen esta propiedad en una carpeta en uno o varios de estos valores y los clientes interpretan el estado según corresponda para sus aplicaciones. Por ejemplo, un cliente puede usar el estado de la carpeta para diferenciar visualmente entre carpetas de una tabla de jerarquía, mostrando carpetas con el mismo estado de la misma manera. Las carpetas resaltadas se pueden mostrar en vídeo inverso, las carpetas etiquetadas y las carpetas marcadas para su eliminación se pueden mostrar con un icono significativo y las carpetas ocultas se pueden ocultar.
   
-Los bits del 16 al 31 ("0x10000" a "0x80000000") de esta propiedad están disponibles para su uso por parte de la aplicación cliente IPM. Todos los demás bits están reservados para su uso por MAPI; los que no están definidos en la lista anterior deben establecerse inicialmente en cero y no modificarse.
+Los bits del 16 al 31 ("0x10000" a "0x80000000") de esta propiedad están disponibles para su uso en la aplicación cliente de IPM. Todos los demás bits están reservados para su uso por MAPI; los que no están definidos en la lista anterior deben establecerse inicialmente en cero y no modificarse.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -70,7 +70,7 @@ Los bits del 16 al 31 ("0x10000" a "0x80000000") de esta propiedad están dispon
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -82,13 +82,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

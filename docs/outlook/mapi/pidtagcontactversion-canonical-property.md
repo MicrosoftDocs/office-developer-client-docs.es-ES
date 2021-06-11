@@ -36,7 +36,7 @@ Contiene la versión de la información de contacto de un destinatario.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es una de las propiedades que proporciona identificación y acceso a información sobre un destinatario. Estas propiedades las definen el destinatario y la organización del destinatario.
+Esta propiedad es una de las propiedades que proporciona información de identificación y acceso sobre un destinatario. El destinatario y la organización del destinatario definen estas propiedades.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

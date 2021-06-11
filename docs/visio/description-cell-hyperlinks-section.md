@@ -22,7 +22,7 @@ Representa una cadena de texto descriptivo para un hipervínculo.
   
 ## <a name="remarks"></a>Comentarios
 
-Use esta celda para almacenar comentarios sobre el hipervínculo; por ejemplo, "Vínculo a nuestro sitio web de precios".
+Use esta celda para almacenar comentarios sobre el hipervínculo; por ejemplo, "Vincular a nuestro sitio web de precios".
   
 También puede usar el cuadro de diálogo **Hipervínculos** para establecer el valor de esta celda (haga clic en **Hipervínculo** en la ficha **Insertar**). 
   
@@ -30,7 +30,7 @@ Para obtener una referencia a la celda Description por su nombre desde otra fór
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Hipervínculo.  *Nombre*  . Descripción donde Hyperlink.  *El*  nombre es el nombre de la fila de hipervínculo.  <br/> |
+| Nombre de celda:  <br/> | Hipervínculo.  *Nombre*  . Descripción donde Hyperlink.  *Name*  es el nombre de la fila de hipervínculo  <br/> |
    
 Para obtener una referencia a la celda Description por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

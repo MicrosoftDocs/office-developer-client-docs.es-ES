@@ -36,16 +36,16 @@ Permite a los visores de formulario controlar el almacenamiento de un formulario
 |Identificador de interfaz:  <br/> |IID_IPersistMessage  <br/> |
 |Tipo de puntero:  <br/> |LPPERSISTMESSAGE  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[GetLastError](ipersistmessage-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior en el objeto de formulario.  <br/> |
 |[GetClassID](ipersistmessage-getclassid.md) <br/> |Devuelve un identificador que representa el servidor de formularios que puede administrar el formulario.  <br/> |
-|[IsDirty](ipersistmessage-isdirty.md) <br/> |Comprueba en el formulario los cambios realizados desde la última vez que se guardaron.  <br/> |
+|[IsDirty](ipersistmessage-isdirty.md) <br/> |Comprueba en el formulario los cambios realizados desde el último guardado.  <br/> |
 |[InitNew](ipersistmessage-initnew.md) <br/> |Inicializa un nuevo mensaje.  <br/> |
-|[Load](ipersistmessage-load.md) <br/> |Carga el formulario para un mensaje especificado.  <br/> |
-|[Save](ipersistmessage-save.md) <br/> |Guarda un formulario revisado en el mensaje desde el que se cargó o creó.  <br/> |
+|[Load](ipersistmessage-load.md) <br/> |Carga el formulario de un mensaje especificado.  <br/> |
+|[Save](ipersistmessage-save.md) <br/> |Guarda un formulario revisado de nuevo en el mensaje desde el que se cargó o creó.  <br/> |
 |[SaveCompleted](ipersistmessage-savecompleted.md) <br/> |Notifica al formulario que se ha completado una operación de guardado.  <br/> |
 |[HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Hace que el formulario libere su mensaje actual.  <br/> |
    
@@ -53,9 +53,9 @@ Permite a los visores de formulario controlar el almacenamiento de un formulario
 
 Todos los formularios son necesarios para implementar la **interfaz IPersistMessage.** 
   
- **IPersistMessage funciona** de forma similar a la interfaz OLE [IPersistStorage.](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) Para obtener más información, vea los **métodos IPersistStorage.** 
+ **IPersistMessage** funciona de forma similar a la interfaz [OLE IPersistStorage.](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) Para obtener más información, vea los **métodos IPersistStorage.** 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -40,11 +40,11 @@ typedef struct _SBinary
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cb**
   
-> Número de bytes en el **miembro lpb.** 
+> Recuento de bytes en el **miembro lpb.** 
     
  **lpb**
   
@@ -54,7 +54,7 @@ typedef struct _SBinary
 
 Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

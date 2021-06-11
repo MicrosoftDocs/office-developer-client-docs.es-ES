@@ -30,25 +30,25 @@ Permite que un proveedor de almacenamiento de archivos de carpetas personales (P
 |||
 |:-----|:-----|
 |Hereda de:  <br/> |IUnknown  <br/> |
-|Implementado por:  <br/> |Proveedor de almacén de PST  <br/> |
+|Implementado por:  <br/> |Proveedor de almacenamiento PST  <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IPSTOVERRIDE1  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Recupera la lista de registros del archivo de carpetas personales (.pst).  <br/> |
-|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Registra los archivos de carpetas personales para el desbloqueo automático, evitando llamadas adicionales a HrTrustedPSTOverrideHandlerCallback.  <br/> |
+|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Recupera la lista de registros del archivo Carpetas personales (.pst).  <br/> |
+|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Registra archivos de carpetas personales para el desbloqueo automático, evitando más llamadas a HrTrustedPSTOverrideHandlerCallback.  <br/> |
 |[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Desbloquea un archivo de carpetas personales para su crecimiento.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Es posible que los identificadores de interfaz del controlador de reemplazo de PST no se definan en el archivo de encabezado descargable que tiene actualmente, en cuyo caso los encontrará en el tema Constantes [MAPI](mapi-constants.md) y puede copiarlos y agregarlos al código. Use la macro DEFINE_GUID definida en el archivo de encabezado guiddef.h del Kit de desarrollo de software (SDK) de Microsoft Windows para asociar nombres simbólicos de identificador único global (GUID) con sus valores. 
+Es posible que los identificadores de interfaz de controlador de invalidación de PST no se definan en el archivo de encabezado descargable que tiene actualmente, en cuyo caso los encontrará en el tema Constantes [MAPI](mapi-constants.md) y puede copiarlos y agregarlos al código. Use la macro DEFINE_GUID definida en el archivo de encabezado guiddef.h del Kit de desarrollo de software (SDK) de Microsoft Windows para asociar nombres simbólicos de identificador único global (GUID) con sus valores. 
   
-Para obtener más información, vea Cómo implementar un controlador de reemplazo de PST para omitir la directiva [PSTDisableGrow en Outlook 2007](https://support.microsoft.com/kb/956070).
+Para obtener más información, vea [How to implement a PST override handler to bypass the PSTDisableGrow policy in Outlook 2007](https://support.microsoft.com/kb/956070).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

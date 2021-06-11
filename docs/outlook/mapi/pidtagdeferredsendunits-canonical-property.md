@@ -25,7 +25,7 @@ ms.locfileid: "32359909"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la unidad de tiempo por la que se debe multiplicar **el valor PR_DEFERRED_SEND_NUMBER** propiedad ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)).
+Especifica la unidad de tiempo por la que se debe multiplicar el valor de la propiedad **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)).
   
 |||
 |:-----|:-----|
@@ -42,9 +42,9 @@ Si se establece, esta propiedad debe tener uno de los siguientes valores:
 |:-----|:-----|
 |**PidTagDeferredSendUnits** <br/> |Descripción  <br/> |
 |0  <br/> |Minutos, por ejemplo, 60 segundos  <br/> |
-|1   <br/> |Horas, por ejemplo, 60 x 60 segundos  <br/> |
-|2   <br/> |Día, por ejemplo 24 x 60 x 60 segundos  <br/> |
-|3   <br/> |Semana, por ejemplo, 7 x 24 x 60 x 60 segundos  <br/> |
+|1  <br/> |Horas, por ejemplo, 60 x 60 segundos  <br/> |
+|2  <br/> |Day, por ejemplo, 24x60x60 segundos  <br/> |
+|3  <br/> |Semana, por ejemplo, 7x24x60x60 segundos  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,7 +52,7 @@ Si se establece, esta propiedad debe tener uno de los siguientes valores:
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

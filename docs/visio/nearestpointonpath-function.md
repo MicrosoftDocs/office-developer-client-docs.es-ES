@@ -37,10 +37,10 @@ NEARESTPOINTONPATH(** *section* **, ** *x* **, ** *y* ** )
    
 ### <a name="return-value"></a>Valor devuelto
 
- **Double**
+ **Doble**
   
 ## <a name="remarks"></a>Comentarios
 
-Si  _la_ sección no existe, Microsoft Visio devuelve #REF!. 
+Si _la_ sección no existe, Microsoft Visio devuelve #REF!. 
   
 

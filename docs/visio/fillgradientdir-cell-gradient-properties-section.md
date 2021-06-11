@@ -1,5 +1,5 @@
 ---
-title: Celda FillGradientDir (Sección de propiedades de degradado)
+title: Celda FillGradientDir (sección Propiedades de degradado)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,31 +14,31 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406720"
 ---
-# <a name="fillgradientdir-cell-gradient-properties-section"></a>Celda FillGradientDir (Sección de propiedades de degradado)
+# <a name="fillgradientdir-cell-gradient-properties-section"></a>Celda FillGradientDir (sección Propiedades de degradado)
 
 Determina la dirección del degradado de relleno. Un degradado puede ser lineal, radial, rectangular o seguir una ruta de acceso. 
   
 > [!NOTE]
-> Un degradado lineal es el único degradado que toma un valor de ángulo adicional (determinado por **la celda FillGradientDir).** Todas las demás direcciones de degradado tienen enumeraciones preestablecidas. 
+> Un degradado lineal es el único degradado que toma un valor de ángulo adicional (según lo determina **la celda FillGradientDir).** Todas las demás direcciones de degradado tienen enumeraciones preestablecidas. 
   
 ****
 
 |**Valor**|**Descripción**|
 |:-----|:-----|
 |0  <br/> |Degradado lineal. La **celda FillGradientAngle** determina la dirección del degradado.  <br/> |
-|1-7  <br/> |Degradados radiales. El degradado se extiende hacia afuera en un círculo desde un punto central.  <br/> |
+|1-7  <br/> |Degradados radiales. El degradado se extiende hacia fuera en un círculo desde un punto central.  <br/> |
 |8-12  <br/> |Degradados rectangulares. El degradado se extiende como una línea direccional desde un origen con un fundido de forma rectangular.  <br/> |
-|13   <br/> |Degradado de la ruta de acceso.  <br/> |
+|13  <br/> |Degradado de ruta de acceso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **FillGradientDir** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **FillGradientDir** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la propiedad **CellsU,** use: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | FillGradientDir  <br/> |
    
-Para obtener una referencia desde un programa a la celda **FillGradientDir** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la **celda FillGradientDir** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

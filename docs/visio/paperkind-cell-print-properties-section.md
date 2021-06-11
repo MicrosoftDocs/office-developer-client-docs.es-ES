@@ -22,7 +22,7 @@ Especifica el tipo de papel donde imprimir la página.
   
 ## <a name="remarks"></a>Comentarios
 
-Esta configuración corresponde  a la configuración  tamaño de papel en el cuadro  de diálogo Configurar impresión  (en la ficha Diseño, haga clic en la flecha de configuración de página y, a continuación, en la ficha Configurar impresión, haga clic en el botón **Configurar).**  
+Esta configuración corresponde  a la configuración  Tamaño de papel en el cuadro  de diálogo Configurar impresión  (en la ficha Diseño, haga clic en la flecha Configurar página y, a continuación, en la pestaña Configurar impresión, haga clic en el botón **Configurar).**  
   
 Los valores numéricos de esta celda se asignan a constantes (con el prefijo DMPAPER) definidas para las selecciones de papel en el archivo wingdi.h de Microsoft Windows. 
   

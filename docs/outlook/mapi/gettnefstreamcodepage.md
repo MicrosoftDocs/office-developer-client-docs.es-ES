@@ -21,7 +21,7 @@ ms.locfileid: "32299436"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina la página de códigos de una Transport-Neutral de formato de encapsulamiento (TNEF).
+Determina la página de código de una Transport-Neutral de formato de encapsulación (TNEF).
   
 |||
 |:-----|:-----|
@@ -37,15 +37,15 @@ HRESULT GetTnefStreamCodepage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpStream_
   
-> [entrada] Puntero a una interfaz OLE **IStream** de objeto de secuencia de almacenamiento que proporciona un origen para un mensaje de secuencia TNEF. 
+> [in] Puntero a una interfaz OLE **IStream** de objeto de secuencia de almacenamiento que proporciona un origen para un mensaje de secuencia TNEF. 
     
  _lpulCodepage_
   
-> [salida] Puntero a la página de códigos de la secuencia.
+> [salida] Puntero a la página de código de la secuencia.
     
  _lpulSubCodepage_
   
@@ -67,9 +67,9 @@ HRESULT GetTnefStreamCodepage(
     
 ## <a name="remarks"></a>Comentarios
 
-Use la **función GetTnefStreamCodepage** para leer el atributo **attOemCodepage** de la secuencia TNEF para determinar la página de códigos y la página de subcódigo. Si **no se encuentra attOemCodepage,** **GetTnefStreamCodepage** devuelve una página de códigos de 437 y una página de subcódigo de 0. 
+Use la **función GetTnefStreamCodepage** para leer el atributo **attOemCodepage** de la secuencia TNEF para determinar la página de código y la página de subcódigo. Si **no se encuentra attOemCodepage,** **GetTnefStreamCodepage** devuelve una página de código de 437 y una página de subcódigo de 0. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

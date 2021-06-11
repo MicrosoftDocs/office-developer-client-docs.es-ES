@@ -19,31 +19,31 @@ ms.locfileid: "33407630"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un mensaje saliente es un mensaje que se puede enviar a uno o más destinatarios a través de uno o más sistemas de mensajería o publicarse en una carpeta de un almacén de mensajes.
+Un mensaje saliente es un mensaje que se puede enviar a uno o varios destinatarios en uno o varios sistemas de mensajería o se puede publicar en una carpeta de un almacén de mensajes.
   
 ## <a name="create-and-send-an-outgoing-message"></a>Crear y enviar un mensaje saliente
   
-1. Abra el almacén de mensajes predeterminado. Para obtener más información, vea [Abrir un almacén de mensajes](opening-a-message-store.md) y Abrir el almacén de mensajes [predeterminado.](opening-the-default-message-store.md)
+1. Abra el almacén de mensajes predeterminado. Para obtener más información, consulta [Abrir un almacén de mensajes](opening-a-message-store.md) y Abrir el almacén de mensajes [predeterminado.](opening-the-default-message-store.md)
     
-2. Abra la carpeta Bandeja de salida. Para obtener más información, vea [Abrir una carpeta de almacén de mensajes.](opening-a-message-store-folder.md)
+2. Abra la carpeta Bandeja de salida. Para obtener más información, consulta [Abrir una carpeta del almacén de mensajes](opening-a-message-store-folder.md).
     
-3. Llame al método **IMAPIFolder::CreateMessage** de la carpeta Bandeja de salida para crear el nuevo mensaje. Para obtener más información, [vea IMAPIFolder::CreateMessage](imapifolder-createmessage.md),
+3. Llame al método **IMAPIFolder::CreateMessage** de la carpeta De salida para crear el nuevo mensaje. Para obtener más información, [vea IMAPIFolder::CreateMessage](imapifolder-createmessage.md),
     
-4. Cree una lista de destinatarios con uno o más destinatarios resueltos. Para obtener más información, vea [Crear una lista de destinatarios.](creating-a-recipient-list.md)
+4. Cree una lista de destinatarios con uno o varios destinatarios resueltos. Para obtener más información, vea [Creating a Recipient List](creating-a-recipient-list.md).
     
-5. Opcionalmente, agregue un asunto. Para obtener más información, vea [Crear un asunto del mensaje.](creating-a-message-subject.md)
+5. Opcionalmente, agregue un asunto. Para obtener más información, vea [Creating a Message Subject](creating-a-message-subject.md).
     
-6. Agregue el texto del mensaje. Para obtener más información, vea [Crear texto de mensaje.](creating-message-text.md)
+6. Agregue el texto del mensaje. Para obtener más información, vea [Creating Message Text](creating-message-text.md).
     
-7. Si el texto del mensaje tiene formato, agregue información de representación. Para obtener más información, vea [Agregar información de representación al texto con formato.](adding-rendering-information-to-formatted-text.md)
+7. Si el texto del mensaje tiene formato, agregue información de representación. Para obtener más información, vea [Adding Rendering Information to Formatted Text](adding-rendering-information-to-formatted-text.md).
     
-8. Opcionalmente, agregue uno o más datos adjuntos. Para obtener más información, vea [Creación de datos adjuntos de un mensaje.](creating-a-message-attachment.md)
+8. Opcionalmente, agregue uno o varios datos adjuntos. Para obtener más información, vea [Creating a Message Attachment](creating-a-message-attachment.md).
     
-9. Establezca otras propiedades del mensaje como desee y, a continuación, guarde y envíe el mensaje llamando a **IMessage::SubmitMessage**. Para obtener más información, [vea IMessage::SubmitMessage](imessage-submitmessage.md).
+9. Establezca otras propiedades de mensaje como desee y, a continuación, guarde y envíe el mensaje llamando a **IMessage::SubmitMessage**. Para obtener más información, vea [IMessage::SubmitMessage](imessage-submitmessage.md).
     
-10. Elimine el mensaje enviado si la propiedad **PR \_ DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) está establecida en TRUE o muévela a la carpeta identificada por la propiedad **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)). Para obtener más información, vea [Procesamiento de un mensaje enviado.](processing-a-sent-message.md)
+10. Elimine el mensaje enviado si la propiedad **PR \_ DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) está establecida en TRUE o si se mueve a la carpeta identificada por la propiedad **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)). Para obtener más información, vea [Processing a Sent Message](processing-a-sent-message.md).
     
-Si desea guardar el mensaje de forma intermitente antes de enviarlo, llame al método [IMAPIProp::SaveChanges del](imapiprop-savechanges.md) mensaje. Para obtener más información, vea Guardar [un mensaje](saving-a-message.md) o Enviar [un mensaje.](sending-a-message.md) 
+Si desea guardar el mensaje de forma intermitente antes de enviarlo, llame al método [IMAPIProp::SaveChanges del](imapiprop-savechanges.md) mensaje. Para obtener más información, vea [Guardar un mensaje](saving-a-message.md) o Enviar un [mensaje](sending-a-message.md). 
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -53,11 +53,11 @@ Si desea guardar el mensaje de forma intermitente antes de enviarlo, llame al m�
     
 - [Creación de texto de](creating-message-text.md)mensaje: describe cómo crear texto del mensaje.
     
-- [Agregar información de representación al texto con](adding-rendering-information-to-formatted-text.md)formato: describe dónde se representarán los datos adjuntos en el texto con formato.
+- [Agregar información de representación al texto](adding-rendering-information-to-formatted-text.md)con formato: describe dónde se representarán los datos adjuntos en el texto con formato.
     
-- [Creación de datos adjuntos de](creating-a-message-attachment.md)mensajes: describe cómo crear datos adjuntos.
+- [Creación de datos adjuntos de](creating-a-message-attachment.md)mensaje: describe cómo crear datos adjuntos.
     
-- [Guardar un mensaje:](saving-a-message.md)describe cómo los clientes guardarán los mensajes.
+- [Guardar un mensaje:](saving-a-message.md)describe cómo los clientes guardar mensajes.
     
 - [Enviar un mensaje:](sending-a-message.md)describe cómo enviar un mensaje.
     

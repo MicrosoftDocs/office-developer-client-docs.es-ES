@@ -23,7 +23,7 @@ ms.locfileid: "33407154"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de marcos que crea un **XLOPER/XLOPER12** temporal que contiene una cadena **xltypeStr,** tomando una cadena de origen terminada en null como entrada. La función asigna un nuevo búfer de memoria y copia la cadena pasada en él. La cadena de entrada no se modifica y, por lo tanto, se declara **como constante**.
+Función de biblioteca de marcos que crea una **XLOPER/XLOPER12** temporal que contiene una cadena **xltypeStr,** tomando una cadena de origen terminada en null como entrada. La función asigna un nuevo búfer de memoria y copia la cadena pasada en él. La cadena de entrada no se modifica y, por lo tanto, se declara **como const**.
   
 ```cs
 LPXLOPER TempStrConst(const LPSTR str);
@@ -34,7 +34,7 @@ LPXLOPER12 TempStr12(const XCHAR* lpstr);
 
  _str_
   
-Puntero a la cadena de origen terminada en null. En el caso de **XLOPER,** TempStrConst trunca cadenas que tienen más de 255 bytes. En el caso de **XLOPER12,** TempStr12Const trunca cadenas que tienen más de 32.767 caracteres Unicode.
+Puntero a la cadena de origen terminada en null. En el caso de **XLOPER** s, TempStrConst trunca cadenas de más de 255 bytes. En el caso de **XLOPER12** s, TempStr12Const trunca cadenas que tienen más de 32.767 caracteres Unicode.
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -42,7 +42,7 @@ Devuelve una **cadena xltypeStr** que contiene una copia del búfer de cadena pa
   
 ## <a name="remarks"></a>Comentarios
 
-Tenga en cuenta que la función marco de cadena **XLOPER,** **TempStr**, se comporta de forma diferente e intenta sobrescribir el primer carácter de la cadena proporcionada con la longitud de la cadena posterior. Esto no siempre es algo seguro: Microsoft Excel podría bloquearse si se pasa una cadena de solo lectura. Esta forma de crear cadenas temporales ahora está en desuso en favor de la forma en que funcionan **tanto TempStrConst** como **TempStr12.** Por lo tanto, el primer carácter de la cadena de entrada se trata como el inicio de la cadena, es decir, no como un carácter de longitud o como un espacio para un carácter de longitud. No debes pasar cadenas que tengan un carácter de longitud codificado al principio, ya que las consecuencias podrían ser impredecibles. 
+Tenga en cuenta que la función Marco de cadena **XLOPER,** **TempStr**, se comporta de forma diferente e intenta sobrescribir el primer carácter de la cadena suministrada con la longitud de la cadena posterior. Esto no siempre es algo seguro: Microsoft Excel podría bloquearse si se pasa una cadena de solo lectura. Esta forma de crear cadenas temporales ahora está en desuso en favor de la forma en que funcionan **TempStrConst** y **TempStr12.** Por lo tanto, el primer carácter de la cadena de entrada se trata como el inicio de la cadena, es decir, no como un carácter de longitud o como un espacio para un carácter de longitud. No debe pasar cadenas que tengan un carácter de longitud codificado al principio, ya que las consecuencias podrían ser impredecibles. 
   
 ## <a name="example"></a>Ejemplo
 
@@ -58,7 +58,7 @@ short WINAPI TempStrExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

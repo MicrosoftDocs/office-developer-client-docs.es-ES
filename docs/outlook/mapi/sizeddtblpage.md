@@ -23,7 +23,7 @@ ms.locfileid: "33407448"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una [estructura DTBLPAGE](dtblpage.md) para describir un control de página con fichas, una etiqueta de una longitud especificada y una entrada de archivo de Ayuda de una longitud especificada. 
+Crea una estructura con nombre que incluye una estructura [DTBLPAGE](dtblpage.md) para describir un control de página con pestañas, una etiqueta de una longitud especificada y una entrada de archivo de ayuda de una longitud especificada. 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Crea una estructura con nombre que incluye una [estructura DTBLPAGE](dtblpage.md
 SizedDtblPage (n, n1, u)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _n_
   
@@ -42,7 +42,7 @@ _n_
     
 _n1_
   
-> Longitud de la entrada que aparece en el archivo Mapisvc.inf que identifica el archivo de Ayuda que se usará con el control de página con fichas.
+> Longitud de la entrada que aparece en el archivo Mapisvc.inf que identifica el archivo de ayuda que se usará con el control de página con fichas.
     
 _s_
   
@@ -50,7 +50,7 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblPage** permite definir un control de página con fichas cuando se conoce el número de caracteres de la etiqueta asociada y la entrada del archivo de Ayuda. La nueva estructura se crea con los siguientes miembros: 
+La **macro SizedDtblPage** permite definir un control de página con pestañas cuando se conoce el número de caracteres de la etiqueta asociada y la entrada del archivo de ayuda. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLPAGE dtblpage;
@@ -64,7 +64,7 @@ Para usar un puntero a la estructura resultante de la macro **SizedDtblPage** co
 lpDtblPage = (LPDTBLPAGE) &SizedDtblPage;
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [DTBLPAGE](dtblpage.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

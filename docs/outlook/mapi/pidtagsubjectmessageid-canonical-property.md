@@ -36,7 +36,7 @@ Contiene un valor binario que se copia del mensaje para el que se genera un info
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad, como la **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), se puede usar para correlacionar un informe con el mensaje original. 
+Esta propiedad, como **la PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), se puede usar para correlacionar un informe con el mensaje original. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

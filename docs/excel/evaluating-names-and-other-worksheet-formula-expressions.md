@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- expression evaluation [excel 2007],worksheets [Excel 2007], name evaluation,evaluating expressions [Excel 2007],assessing worksheet names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007], evaluating,name evaluation [Excel 2007],strings [Excel 2007], converting to values,xlfEvaluate function [Excel 2007],worksheets [Excel 2007], expression evaluation
+- evaluación de expresiones [excel 2007],hojas de cálculo [Excel 2007], evaluación de nombres,evaluación de expresiones [Excel 2007],evaluación de nombres de hoja de cálculo [Excel 2007],expresiones [Excel 2007], evaluating,names [Excel 2007], evaluating,name evaluation [Excel 2007],strings [Excel 2007], converting to values,xlfEvaluate function [Excel 2007],worksheets [Excel 2007], expression evaluation
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -20,7 +20,7 @@ ms.locfileid: "33406867"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Una de las características más importantes que Excel expone a través de la API de C es la capacidad de convertir cualquier fórmula de cadena que se pueda introducir legalmente en una hoja de cálculo en un valor o una matriz de valores. Esto es esencial para los comandos y funciones XLL que deben leer el contenido de los nombres definidos, por ejemplo. Esta capacidad se expone a través de la función [xlfEvaluate,](xlfevaluate.md)como se muestra en este ejemplo.
+Una de las características más importantes que Excel expone a través de la API de C es la capacidad de convertir cualquier fórmula de cadena que se pueda introducir legalmente en una hoja de cálculo en un valor o matriz de valores. Esto es esencial para las funciones y comandos XLL que deben leer el contenido de los nombres definidos, por ejemplo. Esta capacidad se expone a través de la función [xlfEvaluate](xlfevaluate.md), como se muestra en este ejemplo.
   
 ```C
 int WINAPI evaluate_name_example(void)
@@ -41,15 +41,15 @@ int WINAPI evaluate_name_example(void)
 }
 ```
 
-Tenga en cuenta que, al evaluar el nombre de una hoja de cálculo, ya sea por sí mismo o en una fórmula, debe usar como prefijo el nombre "!", al menos. De lo contrario, Excel intenta encontrar el nombre en un espacio de nombres oculto reservado para dll. Puede crear y eliminar nombres dll ocultos mediante la [función xlfSetName](xlfsetname.md). Puede obtener la definición de cualquier nombre definido, ya sea un nombre DLL oculto o un nombre de hoja de cálculo, mediante la función **xlfGetDef.** 
+Tenga en cuenta que al evaluar un nombre de hoja de cálculo, ya sea por sí mismo o en una fórmula, debe prefijo el nombre con '!', al menos. De lo Excel, intenta encontrar el nombre en un espacio de nombres oculto reservado para dll. Puede crear y eliminar nombres dll ocultos mediante la [función xlfSetName](xlfsetname.md). Puede obtener la definición de cualquier nombre definido, ya sea un nombre dll oculto o un nombre de hoja de cálculo, mediante la **función xlfGetDef.** 
   
-La especificación completa del nombre de una hoja de cálculo tiene la siguiente forma:
+La especificación completa de un nombre de hoja de cálculo tiene el siguiente formulario:
   
 `='C:\example folder\[Book1.xls]Sheet1'!Name`
   
-Tenga en cuenta que Excel 2007 introdujo varias extensiones de archivo nuevas. Puede omitir la ruta de acceso, el nombre del libro y el nombre de la hoja donde no haya ambigüedad entre los libros abiertos en esta sesión de Excel. 
+Tenga en cuenta Excel 2007 introdujo una serie de nuevas extensiones de archivo. Puede omitir la ruta de acceso, el nombre del libro y el nombre de la hoja donde no hay ambigüedad entre los libros abiertos en esta Excel sesión. 
   
-En el siguiente ejemplo se evalúa la fórmula de la hoja de cálculo  `COUNT(A1:IV65536)` activa y se muestra el resultado. Tenga en cuenta la necesidad de agregar un prefijo "!" a la dirección del rango, que es coherente con la convención de referencia de rango en las hojas de macros XLM. El XLM de la API de C sigue esta convención: 
+En el siguiente ejemplo se evalúa la fórmula  `COUNT(A1:IV65536)` de la hoja de cálculo activa y se muestra el resultado. Tenga en cuenta la necesidad de prefijo de la dirección de intervalo con '!', que es coherente con la convención de referencia de intervalo en hojas de macros XLM. La API de C XLM se sigue a esta convención: 
   
 - `=A1` Referencia a la celda A1 de la hoja de macros actual. (No definido para XLL). 
   
@@ -57,7 +57,7 @@ En el siguiente ejemplo se evalúa la fórmula de la hoja de cálculo  `COUNT(A1
   
 - `=Sheet1!A1` Una referencia a la celda A1 de la hoja especificada, Sheet1 en este caso. 
   
-- `=[Book1.xls]Sheet1!A1` Referencia a la celda A1 de la hoja especificada del libro especificado. 
+- `=[Book1.xls]Sheet1!A1` Referencia a la celda A1 de la hoja especificada en el libro especificado. 
   
 En un XLL, una referencia sin un signo de exclamación inicial (**!**) no se puede convertir en un valor. No tiene ningún significado porque no hay ninguna hoja de macros actual. Tenga en cuenta que un signo inicial es igual a ( **=** ) es opcional y se omite en el siguiente ejemplo.
   
@@ -80,12 +80,12 @@ int WINAPI evaluate_expression_example(void)
 }
 ```
 
-También puede usar la función **xlfEvaluate** para recuperar el identificador de registro de una función XLL a partir de su nombre registrado, que se puede usar para llamar a esa función mediante la función [xlUDF](xludf.md).
+También puede usar la función **xlfEvaluate** para recuperar el identificador de registro de una función XLL de su nombre registrado, que luego se puede usar para llamar a esa función mediante la función [xlUDF](xludf.md).
   
 > [!NOTE]
-> El nombre registrado se puede pasar directamente a la **función xlUDF.** Esto significa que puede evitar tener que evaluar el nombre para obtener el identificador antes de llamar **a xlUDF**. Sin embargo, si se va a llamar a la función varias veces, llamarla mediante el identificador de registro es más rápido. 
+> El nombre registrado se puede pasar directamente a la **función xlUDF.** Esto significa que puede evitar tener que evaluar el nombre para obtener el identificador antes de llamar **a xlUDF**. Sin embargo, si se va a llamar a la función muchas veces, llamarla mediante el identificador de registro es más rápido. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Evaluación de hojas de cálculo y expresiones de Excel](excel-worksheet-and-expression-evaluation.md)
 - [Permitir interrupciones de usuarios en operaciones largas](permitting-user-breaks-in-lengthy-operations.md)

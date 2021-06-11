@@ -31,9 +31,9 @@ Indica el tipo de cambio que se realizó por última vez en la tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskHistory  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x0000811A  <br/> |
+|Id. largo (LID):  <br/> |0x0000811A  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -43,9 +43,9 @@ Cuando se establece el valor de esta propiedad, la propiedad **dispidTaskLastUpd
 |:-----|:-----|
 |0x00000004  <br/> |La **propiedad dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) ha cambiado.  <br/> |
 |0x00000003  <br/> |Se cambió otra propiedad.  <br/> |
-|0x00000001  <br/> |El usuario al que se asigna la tarea ha aceptado esta tarea.  <br/> |
-|0x00000002  <br/> |El usuario al que se asigna la tarea rechazó esta tarea.  <br/> |
-|0x00000005  <br/> |La tarea se asignó a un usuario al que se asigna una tarea.  <br/> |
+|0x00000001  <br/> |El destinatario de la tarea aceptó esta tarea.  <br/> |
+|0x00000002  <br/> |El destinatario de la tarea rechazó esta tarea.  <br/> |
+|0x00000005  <br/> |La tarea se asignó a un usuario asignado.  <br/> |
 |0x00000000  <br/> |No se realizaron cambios.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -66,13 +66,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

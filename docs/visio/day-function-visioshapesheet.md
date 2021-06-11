@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251415
 localization_priority: Normal
 ms.assetid: 3b0842ae-6893-2d7b-6cb2-8905198fae30
-description: Devuelve un entero, de 1 a 31, que representa el día en la fecha y hora o expresión. La función DAY usa el calendario gregoriano.
+description: Devuelve un número entero, de 1 a 31, que representa el día en datetime o expresión. La función DAY usa el calendario gregoriano.
 ms.openlocfilehash: 49c29d5dc25bf11599f89a20cb2bc2367bd74187
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "32360301"
 ---
 # <a name="day-function-visioshapesheet"></a>Función DAY (VisioShapeSheet)
 
-Devuelve un entero, de 1 a 31, que representa el día en  _fecha y hora_ o  _expresión_. La función DAY usa el calendario gregoriano.
+Devuelve un número entero, de 1 a 31, que representa el día en  _datetime o_  _expresión_. La función DAY usa el calendario gregoriano.
   
 ## <a name="syntax"></a>Sintaxis
 
-DAY(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+DAY(" ** *datetime* ** "| ** *expresión* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -38,11 +38,11 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Se descarta cualquier componente de _hora en fecha y_ hora o expresión.  
+Cualquier componente de hora  _en datetime_ o  _expresión_ se descarta. 
   
-No se realiza redondeo. Si  _falta fecha y_ hora o no se puede convertir en un resultado válido, la función devuelve un error. 
+No se realiza redondeo. Si  _falta datetime_ o no se puede convertir en un resultado válido, la función devuelve un error. 
   
-La función DAY también acepta un  valor numérico único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
+La función DAY también acepta un  valor de número único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

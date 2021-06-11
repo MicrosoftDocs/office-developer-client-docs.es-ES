@@ -21,7 +21,7 @@ ms.locfileid: "32358950"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una cadena Unicode que se está consultando en la lista de direcciones de correo electrónico o nombres para mostrar de los destinatarios que se abordan en la línea **CC** de mensajes en el almacén. 
+Contiene una cadena Unicode que se consulta en la lista de direcciones de correo electrónico o nombres para mostrar de los destinatarios que se abordan en la línea **CC** de mensajes en el almacén. 
   
 ## 
 
@@ -35,7 +35,7 @@ Contiene una cadena Unicode que se está consultando en la lista de direcciones 
 ## <a name="related-resources"></a>Recursos relacionados
 
 > [!NOTE]
-> Es posible que esta etiqueta de restricción MAPI, que se usa al buscar direcciones de correo electrónico o nombres para mostrar a los que se envía el mensaje como una copia de carbón, no esté definida en el archivo de encabezado descargable que tiene actualmente. Puedes agregarlo al código mediante el siguiente valor: >  `#define PR_SEARCH_RECIP_EMAIL_CC_W PROP_TAG(PT_UNICODE, 0x0EA7)`
+> Es posible que esta etiqueta de restricción MAPI, que se usa al buscar direcciones de correo electrónico o nombres para mostrar a los que se envía el mensaje como una copia de carbono, no se defina en el archivo de encabezado descargable que tiene actualmente. Puede agregarlo al código mediante el siguiente valor: >  `#define PR_SEARCH_RECIP_EMAIL_CC_W PROP_TAG(PT_UNICODE, 0x0EA7)`
   
 ### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
@@ -57,13 +57,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades que se enumeran como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

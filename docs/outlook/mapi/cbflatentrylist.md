@@ -25,7 +25,7 @@ ms.locfileid: "33408442"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes de una [estructura FLATENTRYLIST](flatentrylist.md) existente. 
+Calcula el número de bytes de una estructura [FLATENTRYLIST](flatentrylist.md) existente. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Calcula el número de bytes de una [estructura FLATENTRYLIST](flatentrylist.md) 
 CbFLATENTRYLIST(_lplist)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _lplist_
   
 > Puntero a la **estructura FLATENTRYLIST** en cuestión. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

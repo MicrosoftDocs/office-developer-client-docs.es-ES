@@ -16,7 +16,7 @@ ms.locfileid: "33407742"
 ---
 # <a name="greater-than-access-custom-web-app"></a>Mayor que (aplicación web personalizada de Access)
 
-Compara dos expresiones. Cuando se comparan expresiones que no son nulas, el resultado es TRUE si el operando izquierdo tiene un valor superior al operando derecho; de lo contrario, el resultado es FALSE.
+Compara dos expresiones. Al comparar expresiones que no son nulas, el resultado es TRUE si el operando izquierdo tiene un valor superior al operando derecho; de lo contrario, el resultado es FALSE.
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 

@@ -21,20 +21,20 @@ ms.locfileid: "33407896"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- **Para almacenar un mensaje en la Bandeja de entrada sin ningún destinatario**
+ **Para almacenar un mensaje en la Bandeja de entrada sin destinatarios**
   
 1. Llame [a IMsgStore::GetReceiveFolder para](imsgstore-getreceivefolder.md) recuperar el identificador de entrada de la Bandeja de entrada. 
     
-2. Llame [a IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir la Bandeja de entrada y recuperar un puntero a ella. 
+2. Llama [a IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir la Bandeja de entrada y recuperar un puntero. 
     
-3. Llame al método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) de la Bandeja de entrada para crear el mensaje. 
+3. Llama al método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) de la Bandeja de entrada para crear el mensaje. 
     
 4. Llame al método [IMAPIProp::SetProps](imapiprop-setprops.md) del mensaje para agregar las propiedades **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) o **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) y **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). 
     
-5. Cree cada dato adjunto, establezca sus propiedades y guárdelo. Para obtener información detallada acerca de cómo agregar datos adjuntos a los mensajes, consulte [Creación de datos adjuntos de mensajes.](creating-a-message-attachment.md)
+5. Cree cada dato adjunto, establezca sus propiedades y guárdelo. Para obtener información detallada acerca de cómo agregar datos adjuntos a los mensajes, vea [Creating a Message Attachment](creating-a-message-attachment.md).
     
-6. Llame **a IMessage::SaveChanges** para guardar el mensaje. En este momento aparecerá en la tabla de contenido de la Bandeja de entrada. 
+6. Llama **a IMessage::SaveChanges** para guardar el mensaje. En este momento aparecerá en la tabla de contenido de la Bandeja de entrada. 
     
-Si desea guardar un mensaje de forma intermitente antes de que aparezca en la tabla de contenido de la Bandeja de entrada, cráigalo en su lugar en una carpeta oculta, como la carpeta raíz del subárbol IPM y, a continuación, muévelo a la Bandeja de entrada. 
+Si desea guardar un mensaje de forma intermitente antes de que aparezca en la tabla de contenido de la Bandeja de entrada, creelo en su lugar en una carpeta oculta, como la carpeta raíz del subárbol IPM y, a continuación, muévelo a la Bandeja de entrada. 
   
 

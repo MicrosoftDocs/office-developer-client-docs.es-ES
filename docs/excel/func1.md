@@ -22,17 +22,17 @@ ms.locfileid: "33408918"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-La función de hoja de cálculo definida por el usuario de ejemplo muestra la devolución de un valor de cadena estático. Cuando se carga GENERIC.xll, registra esta función para que se pueda llamar desde la hoja de cálculo.
+La función de hoja de cálculo definida por el usuario muestra el retorno de un valor de cadena estática. Cuando se carga GENERIC.xll, registra esta función para que se pueda llamar desde la hoja de cálculo.
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _px_ (**LPXLOPER**)
   
-Este argumento se omite y sirve solo para desencadenar que Microsoft Excel llame a la función.
+Este argumento se omite y solo sirve para desencadenar Microsoft Excel llamar a la función.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
@@ -42,7 +42,7 @@ Este argumento se omite y sirve solo para desencadenar que Microsoft Excel llame
 
 Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

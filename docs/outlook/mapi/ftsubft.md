@@ -40,15 +40,15 @@ FILETIME FtSubFt(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _Minuend_
   
-> [entrada] Estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo del que se va a restar el valor del parámetro _Subtrahend._ 
+> [in] Estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo del que se va a restar el valor del _parámetro Subtrahend._ 
     
  _Subtrahend_
   
-> [entrada] Estructura **FILETIME** que contiene el entero de 64 bits sin signo que se resta del valor indicado por el _parámetro Minuend._ 
+> [in] Estructura **FILETIME** que contiene el entero de 64 bits sin signo que se resta del valor indicado por el _parámetro Minuend._ 
     
 ## <a name="return-value"></a>Valor devuelto
 

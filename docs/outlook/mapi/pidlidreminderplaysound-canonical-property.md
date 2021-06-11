@@ -25,13 +25,13 @@ ms.locfileid: "32360056"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si el cliente debe reproducir un sonido cuando el aviso llegue a su fin.
+Especifica si el cliente debe reproducir un sonido cuando el aviso llega a su fin.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidReminderPlaySound  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x0000851E  <br/> |
+|Id. largo (LID):  <br/> |0x0000851E  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Reminder  <br/> |
    
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

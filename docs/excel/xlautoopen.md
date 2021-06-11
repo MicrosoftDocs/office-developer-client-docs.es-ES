@@ -22,7 +22,7 @@ ms.locfileid: "33406650"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de devolución de llamada que cada XLL válido debe implementar y exportar. La **función xlAutoOpen** es el lugar recomendado desde donde registrar comandos y funciones XLL, inicializar estructuras de datos, personalizar la interfaz de usuario, y así sucesivamente. 
+Función de devolución de llamada que todos los XLL válidos deben implementar y exportar. La **función xlAutoOpen** es el lugar recomendado desde el que registrar funciones y comandos XLL, inicializar estructuras de datos, personalizar la interfaz de usuario, y así sucesivamente. 
   
 ```cs
 int WINAPI xlAutoOpen(void);
@@ -38,29 +38,29 @@ La implementación de esta función debe devolver 1 (**int**).
   
 ## <a name="remarks"></a>Comentarios
 
-Microsoft Excel llama **a xlAutoOpen** siempre que se activa el XLL. El XLL se activa en las siguientes situaciones: 
+Microsoft Excel llamadas **xlAutoOpen** cada vez que se activa XLL. El XLL se activa en las siguientes situaciones: 
   
-- Al inicio de una sesión de Excel si estaba activa en la última sesión de Excel que finalizó normalmente.
+- Al principio de una sesión de Excel si estaba activa en la última sesión Excel sesión que finalizaba normalmente.
     
-- Si se carga durante una sesión de Excel.
+- Si se carga durante una Excel sesión.
     
 - Un XLL se puede cargar de varias maneras:
     
-- Al elegir **Abrir en** el menú Archivo (donde la versión de Excel admite este método de carga de XLL).  
+- Al elegir **Abrir en** el **menú** Archivo (donde la versión de Excel admite este método de carga de XLLs). 
     
 - Usando el Administrador de complementos.
     
-- Desde otro XLL que llama [a xlfRegister](xlfregister-form-1.md) con el nombre de esta DLL como único argumento. 
+- Desde otro XLL que llama [a xlfRegister](xlfregister-form-1.md) con el nombre de este DLL como único argumento. 
     
 - Desde una hoja de macros XLM que llama [a REGISTER](xlfregister-form-1.md) con el nombre de esta DLL como único argumento. 
     
-- Si el complemento se desactiva y se reactiva durante una sesión de Excel, se llama a esta función en la reactivación.
+- Si el complemento se desactiva y se reactiva durante una sesión Excel, se llama a esta función en la reactivación.
     
 ### <a name="example"></a>Ejemplo
 
-Vea los archivos  `SAMPLES\EXAMPLE\EXAMPLE.C`  `SAMPLES\GENERIC\GENERIC.C` y, por ejemplo, las implementaciones de esta función.
+Vea los archivos  `SAMPLES\EXAMPLE\EXAMPLE.C` y , y por ejemplo las  `SAMPLES\GENERIC\GENERIC.C` implementaciones de esta función.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

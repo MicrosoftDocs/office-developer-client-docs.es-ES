@@ -38,6 +38,6 @@ Para obtener una referencia a la celda AsianFont por su índice desde un program
 |:-----|:-----|
 |Índice de sección:  <br/> |**visSectionCharacter** <br/> |
 |Índice de fila:  <br/> |**visRowCharacter**  +   *i* donde *i* = 0, 1, 2...  <br/> |
-|Índice de celda:  <br/> |**visCharacterLacnFont** <br/> |
+|Índice de celda:  <br/> |**visCharacterAsianFont** <br/> |
    
 

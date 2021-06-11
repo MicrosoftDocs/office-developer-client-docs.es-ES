@@ -21,7 +21,7 @@ ms.locfileid: "32359160"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una cadena Unicode que se consulta en la lista de direcciones de correo electrónico o nombres para mostrar de los destinatarios a los que se dirige en la línea **CCO** de los mensajes no enviados en el almacén. 
+Contiene una cadena Unicode que se consulta en la lista de direcciones de correo electrónico o nombres para mostrar de los destinatarios que se abordan en la línea **CCO** de mensajes no enviados en el almacén. 
   
 ## 
 
@@ -30,14 +30,14 @@ Contiene una cadena Unicode que se consulta en la lista de direcciones de correo
 |Propiedades asociadas:  <br/> |PR_SEARCH_RECIP_EMAIL_BCC_W  <br/> |
 |Identificador:  <br/> |0x0EA8  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
-|Acceso:  <br/> |Búsqueda  <br/> |
+|Access:  <br/> |Búsqueda  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad solo es relevante para los mensajes del almacén que no se han enviado, porque los mensajes que se han enviado o recibido no contienen información CCO.
+Esta propiedad solo es relevante para los mensajes del almacén que no se han enviado, ya que los mensajes que se han enviado o recibido no contienen información CCO.
   
 > [!NOTE]
-> Es posible que esta etiqueta de restricción MAPI, que se usa al buscar direcciones de correo electrónico o nombres para mostrar a los que se enviará el mensaje como una copia carbón, no esté definida en el archivo de encabezado descargable que tiene actualmente. Puedes agregarlo al código mediante el siguiente valor: >  `#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
+> Es posible que esta etiqueta de restricción MAPI, que se usa al buscar direcciones de correo electrónico o nombres para mostrar a los que se enviará el mensaje como una copia de carbón ciego, no se defina en el archivo de encabezado descargable que tiene actualmente. Puede agregarlo al código mediante el siguiente valor: >  `#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -61,13 +61,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -18,17 +18,17 @@ ms.locfileid: "33407700"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Muestra un cuadro de diálogo modal para recopilar información del usuario. Este punto de entrada se llama  cuando un  usuario hace clic en el botón Opciones situado junto  al cuadro Tipo de clúster del conector de clúster seleccionado en el cuadro de diálogo Opciones de **Excel** (en la categoría Avanzadas de la sección **Fórmulas).** Los conectores de clúster son responsables de implementar su propia interfaz de diálogo de opciones y de almacenar los datos relacionados en el Registro o en otro lugar. Las opciones son internas al conector de clúster. Excel no los tiene en cuenta. 
+Muestra un cuadro de diálogo modal para recopilar información del usuario. Este punto de entrada se llama  cuando un  usuario hace clic en el botón Opciones situado junto al  cuadro Tipo de clúster del conector de clúster seleccionado en el cuadro de diálogo Opciones de **Excel** (en la categoría Avanzadas de la sección **Fórmulas).** Los conectores de clúster son responsables de implementar su propia interfaz de diálogo de opciones y de almacenar los datos relacionados en el Registro o en otro lugar. Las opciones son internas del conector de clúster. Excel no es consciente de ellos. 
   
 ```cpp
 int ShowOptions(HWND hWndParent)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _hWndParent_
   
-> Identificador de la ventana de Excel.
+> Un identificador de la Excel ventana.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -38,7 +38,7 @@ _hWndParent_
 
 Los conectores de clúster pueden usar este cuadro de diálogo para obtener información, como el servidor de clúster que se va a usar, del usuario.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Funciones de conectores clúster de Excel](excel-cluster-connector-functions.md)
 

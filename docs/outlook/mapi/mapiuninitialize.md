@@ -25,7 +25,7 @@ ms.locfileid: "33408526"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Disminuye el recuento de referencias, limpia y elimina los datos globales por instancia para la DLL de MAPI. 
+Disminuye el recuento de referencias, limpia y elimina los datos globales por instancia para el DLL MAPI. 
   
 |||
 |:-----|:-----|
@@ -52,6 +52,6 @@ Una aplicación cliente llama a la **función MAPIUninitialize** para finalizar 
  **MAPIUninitialize** disminuye el recuento de referencias y la función **MAPIInitialize** correspondiente incrementa el recuento de referencias. Por lo tanto, el número de llamadas a una función debe ser igual al número de llamadas a la otra. 
   
 > [!NOTE]
-> No puede llamar a **MAPIInitialize** o **MAPIUninitialize** desde dentro de una función **DllMain** de Win32 o cualquier otra función que cree o finalice subprocesos. Para obtener más información, vea [Utilizar Thread-Safe objetos](using-thread-safe-objects.md). 
+> No se puede llamar a **MAPIInitialize** o **MAPIUninitialize** desde dentro de una función **DllMain** de Win32 o cualquier otra función que cree o termine subprocesos. Para obtener más información, vea [Using Thread-Safe Objects](using-thread-safe-objects.md). 
   
 

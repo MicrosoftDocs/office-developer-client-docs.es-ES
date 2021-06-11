@@ -1,5 +1,5 @@
 ---
-title: Celda YRulerDensity (Sección &amp; de cuadrícula de regla)
+title: Celda YRulerDensity (sección &amp; Cuadrícula de regla)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406804"
 ---
-# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Celda YRulerDensity (Sección &amp; de cuadrícula de regla)
+# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Celda YRulerDensity (sección &amp; Cuadrícula de regla)
 
 Especifica las subdivisiones verticales de la regla en la página.
   
@@ -29,7 +29,7 @@ Especifica las subdivisiones verticales de la regla en la página.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción **Subdivisiones** verticales del  cuadro de diálogo Cuadrícula de regla (en la ficha Ver, haga clic en **la flecha** Mostrar). **&amp;** 
+Esta celda corresponde a la opción **Subdivisiones** verticales del cuadro de diálogo Cuadrícula de reglas (en la ficha **Ver,** haga clic en **la flecha** Mostrar). **&amp;** 
   
 Para obtener una referencia a la celda YRulerDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

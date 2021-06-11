@@ -21,16 +21,16 @@ ms.locfileid: "32310034"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) es la interfaz OLE que las aplicaciones cliente usan para crear nuevos objetos de formulario de la clase de mensaje del servidor de formulario. En la tabla siguiente se enumeran **los métodos IClassFactory** necesarios. 
+[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) es la interfaz OLE que usan las aplicaciones cliente para crear nuevos objetos de formulario de la clase de mensaje del servidor de formulario. En la tabla siguiente se enumeran **los métodos IClassFactory** necesarios. 
   
 |**Método**|**Descripción**|
 |:-----|:-----|
 |[CreateInstance](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |Crea un nuevo objeto de formulario.  <br/> |
-|[LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |Bloquea el servidor de formularios en la memoria para que se pueda evitar la sobrecarga de inicio cuando se crean varios objetos de formulario.  <br/> |
+|[LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |Bloquea el servidor de formularios en la memoria para evitar la sobrecarga de inicio cuando se crean varios objetos de formulario.  <br/> |
    
-Para obtener toda la información necesaria para implementar estos métodos, consulta la sección COM y ActiveX Object Services en Windows SDK.
+Para obtener toda la información necesaria para implementar estos métodos, consulte la sección COM y ActiveX Object Services en el SDK de Windows.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

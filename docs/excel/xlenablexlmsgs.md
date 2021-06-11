@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlEnableXLMsgs
 keywords:
-- Función xlenablexlmsgs [excel 2007]
+- función xlenablexlmsgs [excel 2007]
 localization_priority: Normal
 ms.assetid: 1a7eeaf9-8603-446e-9393-5560e88b3a32
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -28,7 +28,7 @@ Esta función está en desuso y ya no es necesario llamarla.
 Excel12(xlEnableXLMsgs, 0, 0);
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

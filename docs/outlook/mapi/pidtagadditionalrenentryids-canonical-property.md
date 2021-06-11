@@ -32,11 +32,11 @@ Contiene los identificadores de entrada de determinadas carpetas especiales.
 |Propiedades asociadas:  <br/> |PR_ADDITIONAL_REN_ENTRYIDS  <br/> |
 |Identificador:  <br/> |0x36D8  <br/> |
 |Tipo de datos:  <br/> |PT_MV_BINARY  <br/> |
-|Área:  <br/> |Aplicación de Outlook  <br/> |
+|Área:  <br/> |Outlook aplicación  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Las cinco primeras entradas de esta propiedad de varios valores se aplican a las siguientes carpetas especiales, si existen en el almacén:
+Las cinco primeras entradas de esta propiedad multivalor se aplican a las siguientes carpetas especiales, si existen en el almacén:
   
 0: carpeta de conflictos
   
@@ -58,11 +58,11 @@ Las cinco primeras entradas de esta propiedad de varios valores se aplican a las
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y localizar las carpetas especiales en un buzón.
     
-[[MS-PHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
-> Identifica y marca los mensajes de correo electrónico diseñados para engañar a los destinatarios con el objetivo de divulgar información confidencial (como contraseñas y otra información personal) a una fuente no confiable.
+> Identifica y marca los mensajes de correo electrónico diseñados para engañar a los destinatarios para que divulgen información confidencial (como contraseñas y otra información personal) a un origen no confiable.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
@@ -78,11 +78,11 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Invalidación de un objeto
+title: Invalidar un objeto
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407679"
 ---
-# <a name="invalidating-an-object"></a>Invalidación de un objeto
+# <a name="invalidating-an-object"></a>Invalidar un objeto
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Como parte del proceso de cierre del proveedor, es posible que desee invalidar un objeto. Invalidar un objeto implica reemplazar su tabla virtual con una tabla virtual que contiene implementaciones para los tres métodos **IUnknown:** **AddRef**, **Release** y **QueryInterface**. Invalide un objeto llamando a [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md), un método que se incluye en el objeto de compatibilidad de cada uno de los tres tipos de proveedor comunes. Normalmente, los proveedores hacen esta llamada en la implementación del método **Logoff** del objeto de inicio de sesión. 
+Como parte del proceso de cierre del proveedor, es posible que desee invalidar un objeto. Invalidar un objeto implica reemplazar su tabla virtual por una tabla virtual que contiene implementaciones para los tres métodos **IUnknown:** **AddRef**, **Release** y **QueryInterface**. Invalide un objeto llamando a [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md), un método que se incluye en el objeto de soporte técnico de cada uno de los tres tipos de proveedor comunes. Normalmente, los proveedores hacen esta llamada en la implementación del método **Logoff** del objeto de inicio de sesión. 
   
-La invalidación de un objeto da a MAPI la responsabilidad última de liberar la memoria asociada a un objeto. Puede liberar todos los recursos conectados a un objeto y, a continuación, llamar a **MakeInvalid** para invalidar todos los métodos de sus interfaces heredadas. Las llamadas a cualquiera de estos métodos devolverán MAPI_E_INVALID_OBJECT. El **uso de MakeInvalid** es una opción que muchos proveedores de servicios eligen ignorar. 
+La invalidación de un objeto proporciona a MAPI la responsabilidad última de liberar la memoria asociada a un objeto. Puede liberar todos los recursos conectados a un objeto y, a continuación, llamar a **MakeInvalid** para invalidar todos los métodos de sus interfaces heredadas. Las llamadas a cualquiera de estos métodos devolverán MAPI_E_INVALID_OBJECT. Usar **MakeInvalid** es una opción que muchos proveedores de servicios eligen omitir. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

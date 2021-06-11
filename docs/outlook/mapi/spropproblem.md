@@ -41,11 +41,11 @@ typedef struct _SPropProblem
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulIndex**
   
-> Índice de una matriz de etiquetas de propiedad.
+> Un índice en una matriz de etiquetas de propiedades.
     
  **ulPropTag**
   
@@ -53,11 +53,11 @@ typedef struct _SPropProblem
     
  **scode**
   
-> Valor de error que describe el problema con la propiedad. Este valor puede ser cualquier valor [de MAPI SCODE.](scode.md) 
+> Valor de error que describe el problema con la propiedad. Este valor puede ser cualquier valor [SCODE](scode.md) MAPI. 
     
 ## <a name="remarks"></a>Comentarios
 
-Se devuelve una **matriz de estructuras SPropProblem** de los métodos siguientes: 
+Se devuelve una **matriz de estructuras SPropProblem** de los siguientes métodos: 
   
 - [IMAPISupport::DoCopyTo](imapisupport-docopyto.md)
     
@@ -75,9 +75,9 @@ Se devuelve una **matriz de estructuras SPropProblem** de los métodos siguiente
     
 Una **estructura SPropProblem** contiene un valor de error **SCODE** que resulta de una operación que intenta modificar o eliminar una propiedad MAPI. 
   
-Para obtener más información acerca de cómo funciona la estructura **SPropProblem** con errores relacionados con las propiedades, vea [MAPI Named Properties](mapi-named-properties.md). 
+Para obtener más información sobre cómo funciona la estructura **SPropProblem** con errores relacionados con propiedades, vea [PROPIEDADES con nombre MAPI](mapi-named-properties.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

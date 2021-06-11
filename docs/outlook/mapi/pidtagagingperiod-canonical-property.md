@@ -25,7 +25,7 @@ ms.locfileid: "32360119"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa el número de unidades de tiempo que se usan para determinar el tiempo que un elemento permanece en una carpeta antes de que se archive el elemento.
+Representa el número de unidades de tiempo que se usan para determinar el tiempo que un elemento permanece en una carpeta antes de archivar el elemento.
   
 ## 
 
@@ -38,9 +38,9 @@ Representa el número de unidades de tiempo que se usan para determinar el tiemp
    
 ## <a name="remarks"></a>Comentarios
 
-El tiempo que un elemento permanece en una carpeta antes de que se archive el elemento está determinado por dos propiedades, **PR_AGING_PERIOD** y **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**. **PR_AGING_GRANULARITY** representa la unidad de tiempo en **la que se PR_AGING_PERIOD,** al determinar este período de tiempo. 
+El tiempo que un elemento permanece en una carpeta antes de archivar el elemento está determinado por dos propiedades, **PR_AGING_PERIOD** y **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**. **PR_AGING_GRANULARITY** representa la unidad de tiempo en la que **PR_AGING_PERIOD** se expresa, al determinar esta longitud de tiempo. 
   
-Los valores posibles **para PR_AGING_GRANULARITY** pueden ser uno de los siguientes. 
+Los valores posibles **PR_AGING_GRANULARITY** pueden ser uno de los siguientes. 
   
 ****
 
@@ -50,7 +50,7 @@ Los valores posibles **para PR_AGING_GRANULARITY** pueden ser uno de los siguien
 |**AG_WEEKS** <br/> |**PR_AGING_PERIOD** se define en número de semanas.  <br/> |
 |**AG_DAYS** <br/> |**PR_AGING_PERIOD** se define en número de días.  <br/> |
    
-Por ejemplo, si una carpeta archiva un elemento solo después de que el elemento haya estado en la carpeta durante dos semanas, **PR_AGING_GRANULARITY** es **AG_WEEKS** y **PR_AGING_PERIOD** es 2. 
+Por ejemplo, si una carpeta archiva un elemento solo después de  que el  elemento haya estado en la carpeta durante dos semanas, PR_AGING_GRANULARITY se AG_WEEKS y **PR_AGING_PERIOD** es 2. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -66,7 +66,7 @@ Por ejemplo, si una carpeta archiva un elemento solo después de que el elemento
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que se permiten para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -78,13 +78,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

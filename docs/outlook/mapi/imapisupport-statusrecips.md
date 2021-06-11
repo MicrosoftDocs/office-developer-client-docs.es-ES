@@ -34,15 +34,15 @@ LPADRLIST lpRecipList
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
-> [entrada] Puntero al mensaje para el que se debe generar el informe.
+> [in] Puntero al mensaje para el que se debe generar el informe.
     
  _lpRecipList_
   
-> [entrada] Puntero a una [estructura ADRLIST](adrlist.md) que describe los destinatarios del mensaje que apunta  _lpMessage_.
+> [in] Puntero a una [estructura ADRLIST](adrlist.md) que describe los destinatarios del mensaje al que apunta  _lpMessage_.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,23 +52,23 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> La llamada se ha hecho correctamente en general, pero no hay opciones de destinatario para este tipo de destinatario. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
+> La llamada se ha hecho correctamente en general, pero no hay opciones de destinatario para este tipo de destinatario. Cuando se devuelve esta advertencia, la llamada debe controlarse como correcta. Para probar esta advertencia, use la **HR_FAILED** macro. Para obtener más información, vea [Using Macros for Error Handling](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::StatusRecips** se implementa para objetos de compatibilidad del proveedor de transporte. Los proveedores de transporte llaman a **StatusRecips** para solicitar que MAPI envíe un informe de entrega o no entrega a un conjunto de uno o varios de los destinatarios de un mensaje. 
+El **método IMAPISupport::StatusRecips** se implementa para objetos de soporte del proveedor de transporte. Los proveedores de transporte llaman a **StatusRecips** para solicitar que MAPI envíe un informe de entrega o no entrega a un conjunto de uno o varios de los destinatarios de un mensaje. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede llamar a **StatusRecips varias** veces durante el procesamiento de un mensaje. Sin embargo, si llama a **StatusRecips** para un mensaje abierto, haga todo lo posible para recopilar toda la información de entrega y no entrega para los destinatarios del mensaje y llamar a **StatusRecips** para esa lista de destinatarios. Un único punto de recopilación es importante, ya que varias **llamadas StatusRecips** para un destinatario pueden dar como resultado que se envíen varios informes idénticos. 
+Puede llamar a **StatusRecips** varias veces durante el procesamiento de un mensaje. Sin embargo, si llama a **StatusRecips** para un mensaje abierto, haga todo lo posible para recopilar toda la información de entrega y no entrega para los destinatarios del mensaje y llamar a **StatusRecips** para esa lista de destinatarios. Un único punto de colección es importante, ya que varias llamadas **StatusRecips** para un destinatario pueden dar como resultado que se envíen varios informes idénticos. 
   
-Almacene las propiedades relacionadas con la entrega de mensajes o nondelivery en la estructura **ADRLIST** indicada por el parámetro _lpRecipList._ Para obtener una lista completa de propiedades obligatorias y opcionales para informes de entrega e informes de no entrega, vea Propiedades de mensaje de informe requeridas y Propiedades opcionales [del mensaje de informe.](optional-report-message-properties.md) [](required-report-message-properties.md) 
+Almacene las propiedades relacionadas con la entrega de mensajes o nondelivery en la estructura **ADRLIST** indicada por el _parámetro lpRecipList._ Para obtener una lista completa de las propiedades obligatorias y opcionales para informes de entrega e informes de no entrega, vea [Propiedades](required-report-message-properties.md) del mensaje de informe obligatorio y [Propiedades opcionales del](optional-report-message-properties.md)mensaje de informe . 
   
-Asigne memoria para la **estructura ADRLIST** _en lpRecipList_ mediante las [funciones MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIAllocateMore.](mapiallocatemore.md) MAPI libera la memoria llamando a la [función MAPIFreeBuffer](mapifreebuffer.md) solo si **StatusRecips se realiza** correctamente. 
+Asigne memoria para la **estructura ADRLIST** en _lpRecipList_ mediante las [funciones MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIAllocateMore.](mapiallocatemore.md) MAPI libera la memoria llamando a la [función MAPIFreeBuffer](mapifreebuffer.md) solo si **StatusRecips se** realiza correctamente. 
   
-Para obtener información general sobre los informes de entrega y no entrega, vea [mensajes de informe MAPI](mapi-report-messages.md).
+Para obtener información general sobre los informes de entrega y no entrega, vea [Mensajes de informe MAPI](mapi-report-messages.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

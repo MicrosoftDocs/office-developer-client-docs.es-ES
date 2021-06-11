@@ -36,11 +36,11 @@ Mantiene un segundo conjunto de valores de propiedad que no afectan al estado ma
    
 ## <a name="remarks"></a>Comentarios
 
-Actuando como ubicación de almacenamiento de marca secundaria si se admiten marcas de remitente o avisos de remitente, esta estructura proporciona una ubicación en la que almacenar todas las propiedades relacionadas con el protocolo de marcación informativo admitidas en las marcas del remitente y todas las propiedades relacionadas con el protocolo de configuración de avisos que se admiten en avisos de remitente sin exponer la marca del remitente o la información de aviso del remitente a los destinatarios de un mensaje.
+Esta estructura, que actúa como ubicación de almacenamiento de marca secundaria si se admiten las marcas de remitente o los avisos de remitente, proporciona una ubicación en la que almacenar todas las propiedades relacionadas con el Protocolo de marcado informativo que se admiten en las marcas de remitente y todas las propiedades relacionadas con el Protocolo de aviso Configuración que se admiten en los avisos de remitente sin exponer la marca del remitente o la información de aviso del remitente a los destinatarios de un mensaje.
   
-De forma similar, esta estructura proporciona una ubicación en la que almacenar todas las propiedades relacionadas con el protocolo de marcación informativo que se admiten en las marcas de destinatario y las propiedades relacionadas con el protocolo de configuración de aviso que se admiten en los avisos de destinatario en un mensaje enviado anteriormente.
+De forma similar, esta estructura proporciona una ubicación en la que almacenar todas las propiedades relacionadas con el Protocolo de marcado informativo que se admiten en las marcas de destinatarios y las propiedades relacionadas con el Protocolo de aviso Configuración que se admiten en avisos de destinatarios en un mensaje enviado anteriormente.
   
-Para obtener más información acerca de esta propiedad, [vea [MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
+Para obtener más información acerca de esta propiedad, vea [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,7 +52,7 @@ Para obtener más información acerca de esta propiedad, [vea [MS-OXOFLAG]](http
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

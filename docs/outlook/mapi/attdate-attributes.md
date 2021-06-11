@@ -21,10 +21,10 @@ ms.locfileid: "33408281"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Todas las propiedades MAPI relacionadas con fechas y horas se asignan a atributos TNEF que tienen el **prefijo attDate.** Todas se codifican como **estructuras DTR.** Las fechas y horas de los atributos de datos adjuntos también se codifican como **estructuras DTR.** 
+Todas las propiedades MAPI relacionadas con fechas y horas se asignan a atributos TNEF que tienen el **prefijo attDate.** Todas están codificadas como **estructuras DTR.** Las fechas y horas de los atributos de datos adjuntos también se codifican como estructuras **DTR.** 
   
-Todas las propiedades MAPI relacionadas con fechas y horas se asignan a atributos TNEF que tienen el **prefijo attDate.** Todas se codifican como **estructuras DTR.** Las fechas y horas de los atributos de datos adjuntos también se codifican como **estructuras DTR.** 
+Todas las propiedades MAPI relacionadas con fechas y horas se asignan a atributos TNEF que tienen el **prefijo attDate.** Todas están codificadas como **estructuras DTR.** Las fechas y horas de los atributos de datos adjuntos también se codifican como estructuras **DTR.** 
   
-Una **estructura DTR** es muy similar a la **estructura SYSTEMTIME** definida en los archivos de encabezado win32. La **estructura DTR** se codifica en la secuencia TNEF como bytes **sizeof(DTR)** empezando por el primer miembro de la estructura. La **estructura dtr** se define en el TNEF. Archivo de encabezado H. 
+Una **estructura DTR** es muy similar a la **estructura SYSTEMTIME** definida en los archivos de encabezado de Win32. La **estructura DTR** se codifica en la secuencia TNEF como **bytes sizeof(DTR)** a partir del primer miembro de la estructura. La **estructura DTR** se define en el TNEF. Archivo de encabezado H. 
   
 

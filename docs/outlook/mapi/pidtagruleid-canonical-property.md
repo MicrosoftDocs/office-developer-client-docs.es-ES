@@ -36,9 +36,9 @@ Especifica un identificador único que el servidor de mensajería genera para ca
    
 ## <a name="remarks"></a>Comentarios
 
-El cliente no debe especificar esta propiedad al crear una regla nueva, pero debe especificarla al modificar o eliminar una regla.
+El cliente no debe especificar esta propiedad al crear una nueva regla, pero debe especificarla al modificar o eliminar una regla.
   
-Al eliminar una regla, la única propiedad que debe pasar el **cliente es PR_RULE_ID** y no debe pasar ninguna otra propiedad. El servidor debe omitir las propiedades que no son esta propiedad. Al agregar una regla, el cliente no debe pasar PR_RULE_ID **,** debe pasar las propiedades **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) y **PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)). Al modificar una regla, el  cliente debe pasar PR_RULE_ID y pasar el resto de las propiedades que deben modificarse. 
+Al eliminar una regla, la única propiedad que debe pasar el cliente **es PR_RULE_ID** y no debe pasar en ninguna otra propiedad. El servidor debe omitir propiedades que no son esta propiedad. Al agregar una regla, el cliente no debe pasar **en PR_RULE_ID**, debe pasar las propiedades **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) y **PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)). Al modificar una regla, el  cliente debe pasar PR_RULE_ID y pasar el resto de las propiedades que deben modificarse. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Al eliminar una regla, la única propiedad que debe pasar el **cliente es PR_RUL
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula los mensajes de correo electrónico entrantes en un servidor.
     
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -75,7 +75,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

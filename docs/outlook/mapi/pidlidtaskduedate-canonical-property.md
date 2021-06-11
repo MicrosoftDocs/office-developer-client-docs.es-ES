@@ -25,19 +25,19 @@ ms.locfileid: "32303328"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa la fecha en la que el usuario espera completar la tarea.
+Representa la fecha en que el usuario espera completar la tarea.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskDueDate  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008105  <br/> |
+|Id. largo (LID):  <br/> |0x00008105  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La tarea no tiene fecha de vencimiento si esta propiedad no está establecida o se establece en 0x5AE980E0 (1.525.252.320). Sin embargo, una fecha de vencimiento es opcional solo si no se indica ninguna fecha de inicio en la propiedad **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)). Si la tarea tiene una fecha de vencimiento, el valor debe tener un componente de hora de medianoche y también debe establecerse la propiedad **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)). Si **dispidTaskStartDate** tiene una fecha de inicio, el valor de la propiedad **dispidTaskDueDate** debe ser mayor o igual que el valor de **dispidTaskStartDate**.
+La tarea no tiene fecha de vencimiento si esta propiedad no está establecida o se establece en 0x5AE980E0 (1.525.252.320). Sin embargo, una fecha de vencimiento es opcional solo si no se indica ninguna fecha de inicio en la **propiedad dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)). Si la tarea tiene una fecha de vencimiento, el valor debe tener un componente de hora de medianoche y la propiedad **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) también debe establecerse. Si **dispidTaskStartDate** tiene una fecha de inicio, el valor de la propiedad **dispidTaskDueDate** debe ser mayor o igual que el valor de **dispidTaskStartDate**.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -61,13 +61,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

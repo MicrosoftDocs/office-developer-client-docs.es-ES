@@ -38,11 +38,11 @@ Contiene el estado del mensaje en función de la información disponible para la
 
 MAPI calcula esta propiedad en objetos de mensaje.
   
-Esta propiedad aparece solo en los mensajes entrantes y está reservada en el resto de los casos. Indica si un mensaje se ha entregado o no a su ubicación final o si un proveedor de enlaces de mensajería eliminó potencialmente el mensaje al volver a enrirlo.
+Esta propiedad aparece solo en los mensajes entrantes y se reserva en todos los demás casos. Indica si un mensaje se ha entregado a su ubicación final o si un proveedor de enlaces de mensajería eliminó potencialmente el mensaje al volver a enrirlo.
   
 Las aplicaciones cliente nunca deben establecer esta propiedad. Para un mensaje entrante, un cliente o proveedor de servicios puede llamar a [IMAPIProp::GetProps](imapiprop-getprops.md) en esta propiedad para determinar el estado del mensaje. El valor S_OK indica que el mensaje se entregó correctamente al almacén de mensajes. El valor MAPI_E_OBJECT_DELETED indica que el mensaje se eliminó y nunca se ha confirmado en el almacén. 
   
-Los proveedores de almacenamiento de mensajes deben admitir esta propiedad en los mensajes, las tablas de destinatarios y la tabla de cola saliente. Los clientes y proveedores deben poder establecer columnas en la tabla de cola de salida y restringir basándose en esta propiedad.
+Los proveedores de almacén de mensajes deben admitir esta propiedad en los mensajes, las tablas de destinatarios y la tabla de cola saliente. Los clientes y proveedores deben poder establecer columnas en la tabla de cola saliente y restringir en función de esta propiedad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -24,7 +24,7 @@ Contiene una lista delimitada por punto y coma de direcciones de correo electró
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_SPAM_TRUSTED_RECIPIENTS_W  <br/> |
-|Long ID (LID):  <br/> |0x0419  <br/> |
+|Id. largo (LID):  <br/> |0x0419  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Correo no deseado  <br/> |
    
@@ -50,10 +50,10 @@ Mapitags.h
   
 > Contiene definiciones de propiedades que se enumeran como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Propiedades MAPI](mapi-properties.md) 
-- [Propiedades canónicas de MAPI](mapi-canonical-properties.md)  
+- [Propiedades canónicas MAPI](mapi-canonical-properties.md)  
 - [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)  
 - [Asignación de nombres MAPI a nombres de propiedades canónicas](mapping-mapi-names-to-canonical-property-names.md)
 

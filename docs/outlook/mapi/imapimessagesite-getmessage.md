@@ -33,7 +33,7 @@ HRESULT GetMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppmsg_
   
@@ -53,9 +53,9 @@ S_FALSE
 
 Los formularios llaman **al método IMAPIMessageSite::GetMessage** para obtener una interfaz de mensaje para el mensaje actual. El mensaje actual es el mismo mensaje que se pasó anteriormente en el método [IPersistMessage::InitNew](ipersistmessage-initnew.md), [IPersistMessage::Load](ipersistmessage-load.md)o [IPersistMessage::SaveCompleted.](ipersistmessage-savecompleted.md) 
   
- **GetMessage** devuelve S_FALSE si no existe ningún mensaje actualmente. Este estado puede producirse después de realizar llamadas al método [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) o antes de realizar la siguiente llamada a **IPersistMessage::Load** o **IPersistMessage::SaveCompleted.** 
+ **GetMessage** devuelve S_FALSE si no existe ningún mensaje actualmente. Este estado puede producirse después de las llamadas al método [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) o antes de realizar la siguiente llamada a **IPersistMessage::Load** o **IPersistMessage::SaveCompleted.** 
   
-Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -63,9 +63,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI usa el **método IMAPIMessageSite::GetMessage** para devolver el puntero de mensaje almacenado actualmente en caché, si está disponible.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI usa el **método IMAPIMessageSite::GetMessage** para devolver el puntero de mensaje almacenado en caché, si está disponible.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

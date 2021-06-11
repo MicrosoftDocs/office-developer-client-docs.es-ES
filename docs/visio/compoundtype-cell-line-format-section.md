@@ -1,5 +1,5 @@
 ---
-title: Celda CompoundType (Sección de formato de línea)
+title: Celda CompoundType (sección Line Format)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,27 +14,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407175"
 ---
-# <a name="compoundtype-cell-line-format-section"></a>Celda CompoundType (Sección de formato de línea)
+# <a name="compoundtype-cell-line-format-section"></a>Celda CompoundType (sección Line Format)
 
 Determina el tipo compuesto de la línea de una forma. 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
 |0  <br/> |Sencillo  <br/> |
-|1   <br/> |Doble  <br/> |
-|2   <br/> |Grueso fino  <br/> |
-|3   <br/> |Grosor fino  <br/> |
+|1  <br/> |Doble  <br/> |
+|2  <br/> |Grosor fino  <br/> |
+|3  <br/> |Grosor fino  <br/> |
 |4   <br/> |Triple  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **CompoundType** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell,** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la **celda CompoundType** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | CompoundType  <br/> |
    
-Para obtener una referencia desde un programa a **la celda CompoundType** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la **celda CompoundType** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

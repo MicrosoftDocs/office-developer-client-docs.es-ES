@@ -25,7 +25,7 @@ ms.locfileid: "32359020"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si se puede seleccionar la entrada de la tabla de un solo acceso. 
+Contiene TRUE si se puede seleccionar la entrada de la tabla de un solo elemento. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contiene TRUE si se puede seleccionar la entrada de la tabla de un solo acceso.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa principalmente para el formato visual de una tabla de uso único. Las plantillas se pueden agrupar creando una entrada que indique el encabezado del grupo. Si se establece esta propiedad en FALSE para el encabezado, el usuario solo podrá seleccionar las plantillas reales del grupo y no esta entrada de título. 
+Esta propiedad se usa principalmente para el formato visual de una tabla de uso único. Las plantillas se pueden agrupar creando una entrada que indique el encabezado del grupo. Si se establece esta propiedad en FALSE para el encabezado, el usuario solo puede seleccionar las plantillas reales del grupo y no esta entrada de título. 
   
-Esta propiedad sólo se aplica a una tabla de un solo elemento, no a una tabla de jerarquía de libreta de direcciones. 
+Esta propiedad solo se aplica a una tabla única, no a una tabla de jerarquía de libreta de direcciones. 
   
-MAPI permite a un proveedor de libreta de direcciones agrupar elementos visualmente por dos medios. En primer lugar, determinadas filas pueden funcionar como encabezados si no se pueden seleccionar. En segundo lugar, los elementos seleccionables se pueden aplicar sangría en relación con sus encabezados mediante la propiedad **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)). Esta propiedad se usa en dicha agrupación para indicar si este elemento se puede seleccionar o no en una lista para crear una dirección de uso único. Por ejemplo, si un cliente tiene varias plantillas para crear direcciones de fax, puede mostrarlas de la siguiente manera: 
+MAPI permite a un proveedor de libreta de direcciones agrupar elementos visualmente por dos medios. En primer lugar, determinadas filas pueden funcionar como encabezados al no seleccionarse. En segundo lugar, los elementos seleccionables se pueden aplicar sangría con respecto a sus encabezados mediante **la propiedad PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)). Esta propiedad se usa en dicha agrupación para indicar si este elemento se puede seleccionar de una lista para crear una dirección única. Por ejemplo, si un cliente tiene varias plantillas para crear direcciones de fax, puede mostrarlas de la siguiente manera: 
   
-Plantillas de FAX (profundidad 0, no seleccionable)
+Plantillas de FAX (profundidad 0, no seleccionables)
   
  Local (profundidad 1, seleccionable) 
   
@@ -56,9 +56,9 @@ Plantillas de FAX (profundidad 0, no seleccionable)
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
+[[MS-OXOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para las plantillas de libreta de direcciones.
+> Especifica las propiedades y las operaciones permitidas para las plantillas de libreta de direcciones.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -70,7 +70,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -81,7 +81,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

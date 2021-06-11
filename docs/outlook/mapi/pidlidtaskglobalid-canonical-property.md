@@ -25,15 +25,15 @@ ms.locfileid: "32303020"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca una tarea existente, mediante un GUID, al recibir una respuesta de tarea o una actualización de tarea.
+Localiza una tarea existente, mediante un GUID, al recibir una respuesta de tarea o una actualización de tarea.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskGlobalObjId  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008519  <br/> |
+|Id. largo (LID):  <br/> |0x00008519  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

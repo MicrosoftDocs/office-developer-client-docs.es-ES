@@ -35,16 +35,16 @@ Proporciona información de estado sobre el subsistema MAPI, la libreta de direc
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIStatus  <br/> |
 |Tipo de puntero:  <br/> |LPMAPISTATUS  <br/> |
-|Modelo de transacción:  <br/> |Notransacted  <br/> |
+|Modelo de transacciones:  <br/> |No transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[ValidateState](imapistatus-validatestate.md) <br/> |Confirma la información de estado externo disponible para el recurso MAPI o el proveedor de servicios.  <br/> |
 |[SettingsDialog](imapistatus-settingsdialog.md) <br/> |Muestra una hoja de propiedades que permite al usuario cambiar la configuración de un proveedor de servicios.  <br/> |
 |[ChangePassword](imapistatus-changepassword.md) <br/> |Modifica la contraseña de un proveedor de servicios sin mostrar una interfaz de usuario.  <br/> |
-|[FlushQueues](imapistatus-flushqueues.md) <br/> |Fuerza la carga o descarga inmediata de todos los mensajes en espera de ser enviados o recibidos.  <br/> |
+|[FlushQueues](imapistatus-flushqueues.md) <br/> |Fuerza a que todos los mensajes que esperan ser enviados o recibidos se carguen o descarguen inmediatamente.  <br/> |
    
 |**Propiedades requeridas**|**Access**|
 |:-----|:-----|
@@ -58,19 +58,19 @@ Proporciona información de estado sobre el subsistema MAPI, la libreta de direc
    
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de estado que mapi implementa admiten los métodos siguientes:
+Los objetos de estado que implementa MAPI admiten los métodos siguientes:
   
 |**Status (objeto)**|**Métodos admitidos**|
 |:-----|:-----|
-|Subsistema MAPI  <br/> |**Solo ValidateState**  <br/> |
-|Libreta de direcciones MAPI  <br/> |**Solo ValidateState**  <br/> |
+|Subsistema MAPI  <br/> |**ValidateState** only  <br/> |
+|Libreta de direcciones MAPI  <br/> |**ValidateState** only  <br/> |
 |Cola MAPI  <br/> |**ValidateState** y **FlushQueues** <br/> |
    
-Los objetos de estado que implementa MAPI deben tener una versión de solo lectura de los métodos de la interfaz [IMAPIProp](imapipropiunknown.md) y admitir el **método ValidateState.** Los proveedores de transporte también deben **admitir FlushQueues**. Todos los proveedores deben admitir **SettingsDialog**; La compatibilidad **con ChangePassword** es opcional. 
+Los objetos de estado que implementa MAPI son necesarios para tener una versión de solo lectura de los métodos de la [interfaz IMAPIProp](imapipropiunknown.md) y para admitir el **método ValidateState.** Los proveedores de transporte también deben **admitir FlushQueues**. Todos los proveedores deben admitir **SettingsDialog**; La compatibilidad **con ChangePassword** es opcional. 
   
-Los clientes usan objetos de estado para realizar la configuración y para obtener información sobre el estado de la sesión. Tienen acceso a un objeto de estado llamando al método **OpenStatusEntry** de un objeto de inicio de sesión del proveedor de servicios o al método [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para recuperar el objeto de estado. 
+Los clientes usan objetos de estado para realizar la configuración y para obtener información sobre el estado de la sesión. Obtienen acceso a un objeto de estado llamando al método **OpenStatusEntry** de un objeto de inicio de sesión del proveedor de servicios o al método [IMAPISession::GetStatusTable](imapisession-getstatustable.md) para recuperar el objeto status. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

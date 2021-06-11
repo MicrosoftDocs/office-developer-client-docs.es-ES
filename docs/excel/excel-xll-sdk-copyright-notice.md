@@ -1,5 +1,5 @@
 ---
-title: Aviso de derechos de autor del SDK de XLL de Excel
+title: Excel Aviso de copyright del SDK de XLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311035"
 ---
-# <a name="excel-xll-sdk-copyright-notice"></a>Aviso de derechos de autor del SDK de XLL de Excel
+# <a name="excel-xll-sdk-copyright-notice"></a>Excel Aviso de copyright del SDK de XLL
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   

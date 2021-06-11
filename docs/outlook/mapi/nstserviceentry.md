@@ -21,7 +21,7 @@ ms.locfileid: "32280057"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Función de punto de entrada del servicio de mensajes para que un proveedor de almacén MAPI ajuste un almacén local basado en PST como un almacén NST. 
+Función de punto de entrada de servicio de mensajes para que un proveedor de almacén MAPI ajuste un almacén local basado en PST como almacén NST. 
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -45,23 +45,23 @@ HRESULT NSTServiceEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  **NSTServiceEntry usa** el prototipo **[de función MSGSERVICEENTRY.](msgserviceentry.md)** Para obtener información sobre sus parámetros, vea **[MSGSERVICEENTRY](msgserviceentry.md)**. 
   
 ## <a name="return-values"></a>Valores devueltos
 
-Para obtener información sobre los valores devueltos, vea **[MSGSERVICEENTRY](msgserviceentry.md)**. 
+Para obtener información sobre los valores devueltos, **[vea MSGSERVICEENTRY](msgserviceentry.md)**. 
   
 ## <a name="remarks"></a>Comentarios
 
 Al usar **[GetProcAddress para](https://msdn.microsoft.com/library/ms683212.aspx)** buscar la dirección de esta función en msmapi32.dll, especifique "NSTServiceEntry" como nombre del procedimiento. 
   
-Para usar la API de replicación, un proveedor de almacén MAPI primero debe abrir y encapsular un almacén local basado en PST llamando a **[NSTServiceEntry](nstserviceentry.md)**. A continuación, el proveedor puede usar las interfaces principales de la API, **[IOSTX](iostxiunknown.md)** e **[IPSTX,](ipstxiunknown.md)** para llevar a cabo la replicación. 
+Para usar la API de replicación, un proveedor de almacén MAPI primero debe abrir y ajustar un almacén local basado en PST llamando a **[NSTServiceEntry](nstserviceentry.md)**. A continuación, el proveedor puede usar las interfaces principales de la API, **[IOSTX](iostxiunknown.md)** e **[IPSTX](ipstxiunknown.md)**, para llevar a cabo la replicación. 
   
-Las siguientes observaciones se aplican a un almacén NST:
+Los siguientes comentarios se aplican a un almacén NST:
   
-- No almacene información en la sección de perfil global al implementar un proveedor MAPI que use **NSTServiceEntry**. Muchos proveedores comparten la sección de perfil global y los datos almacenados en este perfil se pueden sobrescribir. 
+- No almacene ninguna información en la sección de perfil global al implementar un proveedor MAPI que use **NSTServiceEntry**. Muchos proveedores comparten la sección de perfil global y los datos almacenados en este perfil se pueden sobrescribir. 
     
 - Solo los elementos con marcas de tiempo de modificación existentes obtienen sus marcas actualizadas cuando se guardan. 
     
@@ -71,15 +71,15 @@ Las siguientes observaciones se aplican a un almacén NST:
     
 -  El archivo que representa la versión almacenada en caché del servidor se anexa con . NST. 
     
-- Para obtener un puntero a la sección de perfil global, un servicio de mensajes llama a **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** en el objeto de compatibilidad mediante **pbNSTGlobalProfileSectionGuid** como se define a continuación: 
+- Para obtener un puntero a la sección de perfil global, un servicio de mensajes llama a **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** en el objeto de soporte técnico mediante **pbNSTGlobalProfileSectionGuid** tal como se define a continuación: 
     
   ```
   #define  pbNSTGlobalProfileSectionGuid "\x85\xED\x14\x23\x9D\xF7\x42\x66\x8B\xF2\xFB\xD4\xA5\x21\x29\x41"
   ```
 
-- En este caso, el objeto de compatibilidad del servicio de mensajes debe asegurarse de que **IMAPISupport::OpenProfileSection** devuelve la sección de perfil identificada por la propiedad **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** en la sección de perfil predeterminada. Para obtener esta sección de perfil, el objeto de soporte puede abrir la sección de perfil predeterminada, recuperar PR_SERVICE_UID y pasar el resultado **a** **IMAPISupport::OpenProfileSection** para recuperar la sección de perfil global correcta. A su vez, el objeto de soporte devuelve un puntero a esta sección de perfil global al servicio de mensajes. 
+- En este caso, el objeto de soporte del servicio de mensajes debe asegurarse de que **IMAPISupport::OpenProfileSection** devuelve la sección de perfil identificada por la propiedad **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** en la sección de perfil predeterminada. Para obtener esta sección de perfil, el objeto de soporte puede abrir la sección de perfil predeterminada, recuperar PR_SERVICE_UID y pasar el resultado **a** **IMAPISupport::OpenProfileSection** para recuperar la sección de perfil global correcta. A su vez, el objeto de soporte devuelve un puntero a esta sección de perfil global al servicio de mensajes. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

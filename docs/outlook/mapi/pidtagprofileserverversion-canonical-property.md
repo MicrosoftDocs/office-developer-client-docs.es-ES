@@ -21,7 +21,7 @@ ms.locfileid: "32286569"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica información sobre la versión de Microsoft Exchange Server a la que están conectadas las cuentas de un perfil de Microsoft Outlook.
+Especifica información sobre la versión de Microsoft Exchange Server a la que están conectadas las cuentas de un perfil Outlook Microsoft.
   
 ## 
 
@@ -34,15 +34,15 @@ Especifica información sobre la versión de Microsoft Exchange Server a la que 
    
 ## <a name="remarks"></a>Comentarios
 
-Un perfil puede especificar una o más cuentas que se conectan a un Exchange Server, pero deben estar conectadas a la misma Exchange Server.
+Un perfil puede especificar una o varias cuentas que se conectan a un Exchange Server, pero deben estar conectadas al mismo Exchange Server.
   
-Las versiones de Outlook anteriores a Microsoft Office Outlook 2007 pueden escribir en esta propiedad para almacenar información sobre la versión de Exchange Server a la que está conectado el perfil activo. Sin embargo, el formato de la información de versión varía según las distintas versiones de Exchange Server. Por ejemplo, Outlook almacena en **PR_PROFILE_SERVER_VERSION** el valor decimal 6944 para representar solo el número de compilación principal en el identificador de versión **de 6.5.6944.3** para Microsoft Exchange Server 2003. Para una conexión de Exchange 2007, Outlook almacena el número de versión principal y el número de compilación principal en una representación hexadecimal concatenada de estos números en la propiedad. Un identificador de versión de Exchange 2007 de **8.0.685.24** tiene un número de versión principal 8 y un número de compilación principal 685 en decimal. Al convertir ambos números en hexadecimales, se obtienen 0x8 y 0x2AD. Concatenando estos dos números, Outlook almacena el valor 0x82AD en **PR_PROFILE_SERVER_VERSION** en una representación hexadecimal. 
+Las versiones Outlook anteriores Microsoft Office Outlook 2007 pueden escribir en esta propiedad para almacenar información sobre la versión de Exchange Server a la que está conectado el perfil activo. Sin embargo, el formato de la información de versión varía para las diferentes versiones de Exchange Server. Por ejemplo, Outlook almacena en **PR_PROFILE_SERVER_VERSION** el valor decimal 6944 para representar solo el número de compilación principal en el identificador de versión **de 6.5.6944.3** para Microsoft Exchange Server 2003. Para una conexión Exchange 2007, Outlook almacena el número de versión principal y el número de compilación principal en una representación hexadecimal concatenada de estos números en la propiedad. Un Exchange de versión de 2007 de **8.0.685.24** tiene un número de versión principal 8 y un número de compilación principal 685 en decimal. Al convertir ambos números en hexadecimales, obtiene 0x8 y 0x2AD. Concatenando estos dos números, Outlook el valor 0x82AD en **PR_PROFILE_SERVER_VERSION** en representación hexadecimal. 
   
-Outlook 2007 no lee ni escribe en esta propiedad. Es compatible con **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**. 
+Outlook 2007 no lee ni escribe en esta propiedad. Admite **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**. 
   
-Solo uno de **PR_PROFILE_SERVER_VERSION** o **PR_PROFILE_SERVER_FULL_VERSION** probablemente exista en un perfil, pero no hay ninguna garantía de que siempre exista en un perfil. Outlook no escribe en ninguna de las propiedades hasta que se haya conectado correctamente al Exchange Server. 
+Es probable **que PR_PROFILE_SERVER_VERSION** o **PR_PROFILE_SERVER_FULL_VERSION** un perfil, pero no existe ninguna garantía de que exista siempre en un perfil. Outlook no escribe en ninguna de las propiedades hasta que se haya conectado correctamente al Exchange Server. 
   
-En el modelo de objetos de Outlook, puede usar la propiedad **ExchangeMailboxServerVersion** del objeto **NameSpace** para buscar la versión de Exchange Server en la que se hospeda el buzón activo. 
+En el Outlook de objetos, puede usar la propiedad **ExchangeMailboxServerVersion** del objeto **NameSpace** para buscar la versión de Exchange Server en la que se hospeda el buzón activo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251412
 localization_priority: Normal
 ms.assetid: 2b6c5375-c543-ff2f-f20a-6d92fd65717a
-description: Devuelve la fecha representada por el año, el mes y el día con formato de acuerdo con el estilo de fecha corta de configuración regional del sistema. Los valores de año, mes y día reflejan el calendario gregoriano.
+description: Devuelve la fecha representada por año, mes y día con formato de acuerdo con el estilo de fecha corto en la configuración regional del Configuración. Los valores de año, mes y día reflejan el calendario gregoriano.
 ms.openlocfilehash: 0175c1f06ec3dbdf89774759546c65994d38105e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "32360336"
 ---
 # <a name="date-function-visioshapesheet"></a>Función DATE (VisioShapeSheet)
 
-Devuelve la fecha representada por  *año, mes*  y  *día*  con formato de acuerdo con el estilo de fecha corta en la Configuración regional del sistema. Los valores de  *año,* *mes*  y  *día*  reflejan el calendario gregoriano. 
+Devuelve la fecha representada por *año, mes* y *día* con formato de acuerdo con el estilo de fecha corto en la configuración regional del Configuración. Los valores de  *año,* *mes*  y  *día*  reflejan el calendario gregoriano. 
   
 ## <a name="syntax"></a>Sintaxis
 

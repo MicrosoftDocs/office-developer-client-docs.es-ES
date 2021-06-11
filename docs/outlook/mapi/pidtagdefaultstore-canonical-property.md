@@ -25,7 +25,7 @@ ms.locfileid: "32270108"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si un almacén de mensajes es el almacén de mensajes predeterminado en la tabla del almacén de mensajes. 
+Contiene TRUE si un almacén de mensajes es el almacén de mensajes predeterminado de la tabla de almacén de mensajes. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene TRUE si un almacén de mensajes es el almacén de mensajes predetermina
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad aparece como una columna en la tabla del almacén de mensajes. El valor se basa en **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
+Esta propiedad aparece como una columna en la tabla de almacén de mensajes. El valor se basa en **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

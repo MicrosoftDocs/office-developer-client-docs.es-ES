@@ -31,13 +31,13 @@ Especifica si el objeto está asociado a una serie periódica.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |LID_IS_RECURRING  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Meeting  <br/> |
-|Long ID (LID):  <br/> |0x00000005  <br/> |
+|Id. largo (LID):  <br/> |0x00000005  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un valor TRUE indica que el objeto representa una serie periódica o una excepción (incluida una instancia huérfana). Un valor FALSE, o la ausencia de esta propiedad, indica que el objeto representa una instancia única. Tenga en cuenta la diferencia entre esta propiedad y **PR_RECURRING** ([PidLidRecurring](pidlidrecurring-canonical-property.md)).
+Un valor de TRUE indica que el objeto representa una serie periódica o una excepción (incluida una instancia huérfana). Un valor de FALSE, o la ausencia de esta propiedad, indica que el objeto representa una única instancia. Tenga en cuenta la diferencia entre esta propiedad y **la PR_RECURRING** ([PidLidRecurring](pidlidrecurring-canonical-property.md)) .
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Un valor TRUE indica que el objeto representa una serie periódica o una excepci
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

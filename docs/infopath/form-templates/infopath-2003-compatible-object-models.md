@@ -29,7 +29,7 @@ Los archivos de los tres ensamblados de interoperabilidad que instala InfoPath s
     
 En este tema se trata el modelo de objetos expuesto a través del ensamblado de interoperabilidad Microsoft.Office.Interop.InfoPath.SemiTrust, que se utiliza exclusivamente para escribir y ejecutar lógica empresarial con código administrado desde dentro de las plantillas de formulario de InfoPath (.xsn). 
   
-Para obtener información acerca de los ensamblados Microsoft.Office.Interop.InfoPath y Microsoft.Office.Interop.InfoPath.Xml, consulte la documentación de los espacios de nombres [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) [ yMicrosoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) de nombres. 
+Para obtener información sobre Microsoft. Office.Interop.InfoPath y ensamblados de Microsoft.Office.Interop.InfoPath.Xml, consulte la documentación de los espacios de nombres [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) [yMicrosoft.Office.Interop.InfoPath.Xml.](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) 
   
 ## <a name="important-installation-information"></a>Información de instalación importante
 
@@ -39,7 +39,7 @@ Si estos ensamblados no están instalados, deberá comprobar si Microsoft InfoPa
   
 Para obtener información sobre la descarga del redistribuible .NET Framework 2.0, vea [.NET Framework 2.0 Redistributable.](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)
   
-## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>El espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust
+## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>The Microsoft. Office espacio de nombres.Interop.InfoPath.SemiTrust
 
 Antes del lanzamiento de Microsoft Office InfoPath 2003 Service Pack 1 y el Kit de herramientas de Microsoft Office InfoPath 2003 para Visual Studio® .NET, toda la lógica de programación de las plantillas de formulario de InfoPath se creaba utilizando código Microsoft JScript o Microsoft VBScript, que se escribía en el entorno de desarrollo de Microsoft Script Editor (MSE) integrado en InfoPath. Los scripts escritos en MSE se interpretan en tiempo de ejecución y obtienen acceso al modelo de objetos COM que expone la biblioteca de vínculos dinámicos IPEDITOR.dll.
   
@@ -91,7 +91,7 @@ thisXDocument.UI.Alert(thisApplication.Version);
 thisXDocument.UI.Alert(thisApplication.Version)
 ```
 
-### <a name="using-the-class-library-reference-documentation"></a>Uso de la documentación de referencia de la biblioteca de clases
+### <a name="using-the-class-library-reference-documentation"></a>Uso de la documentación de referencia de biblioteca de clases
 
 La organización de la documentación de referencia de la biblioteca de clases del espacio de nombres **Microsoft.Office.Interop.InfoPath.SemiTrust** es un reflejo de las relaciones entre las interfaces de coclase y las interfaces heredadas que aquéllas implementan, como se describe en la sección "Cómo se exponen los objetos COM al código administrado" de este tema. 
   
@@ -121,7 +121,7 @@ thisXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 
 Internamente, todos los miembros e interfaces del ensamblado Microsoft.Office.Interop.InfoPath.SemiTrust tienen un atributo **CLSCompliant** establecido en **false**. Puesto que la documentación de referencia se genera en parte utilizando **System.Reflection**, la descripción de todos los miembros e interfaces lleva unida la frase "Esta interfaz/método/propiedad no es compatible con CLS". No obstante, la mayoría de las interfaces y miembros del espacio de nombres [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) son en realidad compatibles con CLS. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Tareas comunes en el desarrollo de plantillas de formulario mediante el modelo de objetos de InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md)
 - [Acerca del modelo de seguridad de las plantillas de formulario con código](about-the-security-model-for-form-templates-with-code.md)

@@ -1,12 +1,12 @@
 ---
-title: Elemento tp (Text_Type complexType) (XML de Visio)
+title: elemento tp (Text_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
-description: Especifica el principio de una ejecución de propiedades de pestañas. La ejecución se define al final del texto o hasta la siguiente etiqueta.
+description: Especifica el principio de la ejecución de las propiedades de las pestañas. La ejecución se define al final del texto o hasta la siguiente etiqueta.
 ms.openlocfilehash: dad7a3de715473a75c601c1e391c9d51fc1cab85
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542978"
 ---
-# <a name="tp-element-text_type-complextype-visio-xml"></a>Elemento tp (Text_Type complexType) (XML de Visio)
+# <a name="tp-element-text_type-complextype-visio-xml"></a>elemento tp (Text_Type complexType) (Visio XML)
 
-Especifica el principio de una ejecución de propiedades de pestañas. La ejecución se define al final del texto o hasta la siguiente etiqueta.
+Especifica el principio de la ejecución de las propiedades de las pestañas. La ejecución se define al final del texto o hasta la siguiente etiqueta.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -35,7 +35,7 @@ Especifica el principio de una ejecución de propiedades de pestañas. La ejecuc
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 
@@ -51,6 +51,6 @@ Ninguno.
 
 |**Atributo**|**Tipo**|**Obligatorio**|**Descripción**|**Posibles valores**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Índice de base cero del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |necesario  <br/> |Índice basado en cero del elemento dentro de su elemento primario.  <br/> |Valores del tipo xsd:unsignedInt.  <br/> |
    
 

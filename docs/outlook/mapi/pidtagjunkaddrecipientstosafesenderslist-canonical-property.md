@@ -36,9 +36,9 @@ Indica si los destinatarios de correo se van a agregar a la lista de remitentes 
    
 ## <a name="remarks"></a>Comentarios
 
-Si está presente, esta propiedad debe establecerse en 0 o 1. Un valor de 1 indica que los destinatarios de correo se deben agregar a la lista de remitentes seguros. Un valor de 0 indica que los destinatarios de correo no se deben agregar a la lista de remitentes seguros.
+Si está presente, esta propiedad debe establecerse en 0 o 1. Un valor de 1 indica que los destinatarios de correo deben agregarse a la lista de remitentes seguros. Un valor de 0 indica que los destinatarios de correo no deben agregarse a la lista de remitentes seguros.
   
-Si esta propiedad está presente con un valor de 1, las direcciones SMTP de los destinatarios de correo electrónico deben agregarse a la cláusula de remitentes de confianza de la condición regla de correo electrónico no deseado. Si esta propiedad es 0, no se requiere ninguna acción.
+Si esta propiedad está presente con un valor de 1, las direcciones SMTP de los destinatarios de correo electrónico deben agregarse a la cláusula de remitentes de confianza de la condición Regla de correo electrónico no deseado. Si esta propiedad es 0, no se requiere ninguna acción.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

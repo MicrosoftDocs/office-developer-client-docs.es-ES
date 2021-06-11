@@ -36,27 +36,27 @@ BOOL IsBadBoundedStringPtr(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
-> [entrada] Puntero a una cadena ASCII terminada en null.
+> [in] Puntero a una cadena ASCII terminada en null.
     
  _cchMax_
   
-> [entrada] El tamaño máximo de la cadena, en LOS AA. La función comprueba el acceso de lectura en todos los caracteres hasta el carácter nulo de terminación de la cadena, o hasta el número de caracteres especificado por este parámetro, el que sea menor. Si este parámetro es cero, el valor devuelto es cero.
+> [in] El tamaño máximo de la cadena, en LOSR. La función comprueba el acceso de lectura en todos los caracteres hasta el carácter nulo de terminación de la cadena o hasta el número de caracteres especificado por este parámetro, el que sea menor. Si este parámetro es cero, el valor devuelto es cero.
     
 ## <a name="return-value"></a>Valor devuelto
 
-El valor devuelto es cero cuando el proceso de llamada tiene acceso de lectura a todos los caracteres hasta el carácter nulo de terminación de la cadena, o acceso de lectura hasta el número de caracteres especificado por  _cchMax_.
+El valor devuelto es cero cuando el proceso de llamada tiene acceso de lectura a todos los caracteres hasta el carácter nulo de terminación de la cadena o al acceso de lectura hasta el número de caracteres especificado por  _cchMax_.
   
-El valor devuelto es distinto de cero cuando el proceso de llamada no tiene acceso de lectura a todos los caracteres hasta el carácter nulo de terminación de la cadena, o acceso de lectura hasta el número de caracteres especificado por  _cchMax_.
+El valor devuelto es distinto de cero cuando el proceso de llamada no tiene acceso de lectura a todos los caracteres hasta el carácter nulo de terminación de la cadena o al acceso de lectura hasta el número de caracteres especificado por  _cchMax_.
   
 ## <a name="remarks"></a>Comentarios
 
-La **función IsBadBoundedStringPtr** equivale a usar **IsBadStringPtr**.
+La **función IsBadBoundedStringPtr** equivale al uso de **IsBadStringPtr**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

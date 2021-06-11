@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fc438ad-ae26-3632-3444-371537eaecb3
-description: Microsoft InfoPath admite mover plantillas de formulario de una ubicación a otra, enviarlas como datos adjuntos a un mensaje de correo electrónico y crear plantillas de formulario de plena confianza firmadas digitalmente o instaladas.
+description: Microsoft InfoPath admite mover plantillas de formulario de una ubicación a otra, enviarlas como datos adjuntos a un mensaje de correo electrónico y crear plantillas de formulario de plena confianza firmadas o instaladas digitalmente.
 ms.openlocfilehash: 799f2b19bfc4daa4a177d789a811d20ca09e7153
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "32299856"
 ---
 # <a name="security-levels-email-deployment-and-remote-form-templates"></a>Niveles de seguridad, implementación por correo electrónico y plantillas de formulario remotas
 
-Microsoft InfoPath admite mover plantillas de formulario de una ubicación a otra, enviarlas como datos adjuntos a un mensaje de correo electrónico y crear plantillas de formulario de plena confianza firmadas digitalmente o instaladas.
+Microsoft InfoPath admite mover plantillas de formulario de una ubicación a otra, enviarlas como datos adjuntos a un mensaje de correo electrónico y crear plantillas de formulario de plena confianza firmadas o instaladas digitalmente.
   
 ## <a name="security-levels"></a>Niveles de seguridad
 
@@ -65,7 +65,7 @@ El nivel más elevado de confianza que se puede conceder a una plantilla de form
 |Nivel de confianza más elevado concedido|Plena confianza|Equipo cliente (espacio aislado)|Intranet (espacio aislado)|Internet (espacio aislado)|Restricted|
 |:-----|:-----:|:-----:|:-----:|:-----:|:-----:|
 |**archivo: ruta de acceso=ubicación desde donde se abre** <br/> |||X  <br/> |||
-|**archivo: ruta de acceso abierta desde ubicación o sin ruta de \< acceso (independientemente de de dónde provenía \> el formulario)** <br/> |||||X  <br/> |
+|**archivo: Ruta de acceso abierta desde la ubicación o ninguna ruta de acceso (independientemente de de dónde \< \> provenía el formulario)** <br/> |||||X  <br/> |
 |**Ubicación desde donde se abre: Intranet HTTP o HTTPS** <br/> |||X  <br/> |||
 |**Ubicación desde donde se abre: Internet HTTP o HTTPS** <br/> ||||X  <br/> ||
 |**Ubicación desde donde se abre: UNC** <br/> |||X  <br/> |||
@@ -83,9 +83,9 @@ En la tabla siguiente se describen las condiciones necesarias para abrir un form
 |El editor se abre/da error|Plena confianza (requireFullTrust="sí")|Confianza del dominio (trustLevel="Dominio" o en blanco)|Restringido (trustLevel="Restringido")|
 |:-----|:-----|:-----|:-----|
 |**De confianza (certificado de confianza o instalado)** <br/> |El editor se abre en el nivel de plena confianza  <br/> |N/D  <br/> |N/D  <br/> |
-|**Confianza del dominio: Equipo cliente** <br/> |Error al abrir  <br/> |El editor se abre en el nivel de dominio  <br/> |El editor se abre en el nivel Restringido  <br/> |
-|**Confianza del dominio: Intranet** <br/> |Error al abrir  <br/> |El editor se abre en el nivel de dominio  <br/> |El editor se abre en el nivel Restringido  <br/> |
-|**Confianza del dominio: Internet** <br/> |Error al abrir  <br/> |El editor se abre en el nivel de dominio  <br/> |El editor se abre en el nivel Restringido  <br/> |
+|**Confianza del dominio: Equipo cliente** <br/> |Error al abrir  <br/> |Editor se abre en el nivel de dominio  <br/> |El editor se abre en el nivel Restringido  <br/> |
+|**Confianza del dominio: Intranet** <br/> |Error al abrir  <br/> |Editor se abre en el nivel de dominio  <br/> |El editor se abre en el nivel Restringido  <br/> |
+|**Confianza del dominio: Internet** <br/> |Error al abrir  <br/> |Editor se abre en el nivel de dominio  <br/> |El editor se abre en el nivel Restringido  <br/> |
 |**Restringido** <br/> |Error al abrir  <br/> |Error al abrir  <br/> |El editor se abre en el nivel Restringido  <br/> |
    
 ## <a name="specifying-a-security-level"></a>Especificar un nivel de seguridad
@@ -102,7 +102,7 @@ El diseñador de formularios de InfoPath selecciona automáticamente el nivel de
     
 ## <a name="mail-deployment-and-browser-enabled-form-templates"></a>Implementación de correo y plantillas de formulario habilitadas para explorador
 
-InfoPath permite enviar las plantillas de formulario como datos adjuntos a un mensaje de correo electrónico y moverlas de una ubicación a otra. La implementación en el correo es un modo sencillo y eficaz de distribuir formularios para su uso dentro de la organización y también para implementar formularios para usuarios remotos.
+InfoPath le permite enviar las plantillas de formulario como datos adjuntos a un mensaje de correo electrónico y moverlas de una ubicación a otra. La implementación en el correo es un modo sencillo y eficaz de distribuir formularios para su uso dentro de la organización y también para implementar formularios para usuarios remotos.
   
 De forma alternativa, si dispone de Microsoft SharePoint Server 2010 con InfoPath Forms Services, puede crear plantillas de formulario que permiten a los usuarios que no tienen InfoPath instalado rellenar formularios en un explorador web.
   
@@ -128,41 +128,41 @@ Una vez encontrada la coincidencia, el formulario se abrirá con la plantilla as
   
 Al igual que existen dos propiedades de identificación por cada plantilla de formulario, hay una heurística para determinar específicamente las entradas resultantes en la memoria caché, según la condición de la plantilla de formulario (bien sea la ruta de acceso, el id. del formulario o ambos) y el estado de la conexión de red.
   
-## <a name="designing-a-form-to-send-as-an-attachment-to-an-email-message"></a>Diseñar un formulario para enviarlo como datos adjuntos a un mensaje de correo electrónico
+## <a name="designing-a-form-to-send-as-an-attachment-to-an-email-message"></a>Diseño de un formulario para enviar como datos adjuntos a un mensaje de correo electrónico
 
-Todos los formularios creados en infoPath Designer se pueden enviar a los usuarios como datos adjuntos a un mensaje de correo electrónico. La implementación de correo electrónico es una forma fácil y eficaz de distribuir formularios para uso entre oficinas y también para implementar formularios para usuarios remotos.
+Todos los formularios que se crean en el diseñador de InfoPath se pueden enviar a los usuarios como datos adjuntos a un mensaje de correo electrónico. La implementación de correo electrónico es una forma fácil y eficaz de distribuir formularios para el uso entre oficinas y también para implementar formularios para usuarios remotos.
   
 ### <a name="to-mail-a-form-template-to-other-users"></a>Para enviar por correo una plantilla de formulario a otros usuarios
 
-1. Haga clic **en la pestaña** Archivo, en **Publicar** y, a continuación, en el **botón** Correo electrónico. 
+1. Haga clic en **la pestaña** Archivo, haga clic **en Publicar** y, a continuación, haga clic en el **botón** Correo electrónico. 
     
 2. Rellene las dos páginas siguientes del **Asistente para publicación** y haga clic en **Siguiente** para pasar por todas las páginas y, por último, haga clic en **Publicar**.
     
-3. Se muestra un mensaje de correo electrónico que le permite rellenar la lista de destinatarios y las instrucciones adicionales que pueda tener para ellos.
+3. Se muestra un mensaje de correo electrónico que permite rellenar la lista de destinatarios y las instrucciones adicionales que pueda tener para ellos.
     
 4. Una vez terminado, haga clic en **Enviar**. El formulario y la plantilla de formulario se adjuntarán al mensaje.
     
 ## <a name="email-deployment-restricted-domain-and-full-trust-form-templates"></a>Implementación de correo electrónico: plantillas de formulario restringidas, de dominio y de plena confianza
 
-La implementación de correo electrónico de plantillas de formulario restringidas permite abrir formularios dinámicos sin conexiones de datos desde cualquier lugar. Los destinatarios pueden abrir plantillas de formulario enviadas como datos adjuntos de correo electrónico directamente desde Microsoft Outlook 2010 o desde cualquier lugar donde el destinatario haya guardado los datos adjuntos. Asimismo, Outlook 2010 permite a los usuarios editar los formularios directamente en el mensaje.
+La implementación de correo electrónico de plantillas de formulario restringidas permite que los formularios dinámicos sin conexiones de datos se abran desde cualquier lugar. Los destinatarios pueden abrir plantillas de formulario enviadas como datos adjuntos de correo electrónico directamente desde Microsoft Outlook 2010 o desde donde el destinatario haya guardado los datos adjuntos. Asimismo, Outlook 2010 permite a los usuarios editar los formularios directamente en el mensaje.
   
 Las plantillas de formulario con el nivel de confianza Dominio deben abrirse desde su ubicación publicada, pero al publicar en una lista de destinatarios de correo electrónico en el Asistente para publicación, se pueden enviar como datos adjuntos a un mensaje de correo electrónico. Cuando se abren los datos adjuntos, funcionan como un vínculo con la ubicación real de publicación de la plantilla. La plantilla de formulario de esta ubicación es lo que realmente se abre en InfoPath Editor.
   
-El uso de una plantilla de formulario de nivel de dominio enviada como datos adjuntos de correo electrónico es similar al uso de cualquier otro tipo de documento; por ejemplo, un libro de Microsoft Excel o un documento de Microsoft Word. Un usuario sólo tiene que hacer clic en el formulario para abrirlo y usarlo. Además, los usuarios tienen a su disposición todas las ventajas de las actualizaciones del nivel Dominio.
+El uso de una plantilla de formulario de nivel de dominio enviada como datos adjuntos de correo electrónico es similar al uso de cualquier otro tipo de documento; por ejemplo, un Microsoft Excel o un Microsoft Word de datos. Un usuario sólo tiene que hacer clic en el formulario para abrirlo y usarlo. Además, los usuarios tienen a su disposición todas las ventajas de las actualizaciones del nivel Dominio.
   
-Puede enviar por correo electrónico plantillas de formulario que soliciten acceso de plena confianza, pero estas plantillas deben estar firmadas o no podrán abrirse. Las plantillas de formulario que solicitan acceso restringido o dominio no tienen que estar firmadas para enviarse como datos adjuntos de correo electrónico. InfoPath no comprueba la firma, ni siquiera cuando la plantilla está firmada, excepto para ver si puede actualizarse automáticamente. Es posible firmar digitalmente una plantilla de formulario de nivel Restringido o Dominio y seguir manteniendo la capacidad de actualización automática. En este caso, la firma digital evitará que se muestren mensajes de conflicto de memoria caché.
+Puede enviar por correo electrónico plantillas de formulario que soliciten acceso de plena confianza, pero estas plantillas deben estar firmadas o no podrán abrirse. Las plantillas de formulario que solicitan acceso restringido o dominio no tienen que firmarse para enviarse como datos adjuntos de correo electrónico. InfoPath no comprueba la firma, ni siquiera cuando la plantilla está firmada, excepto para ver si puede actualizarse automáticamente. Es posible firmar digitalmente una plantilla de formulario de nivel Restringido o Dominio y seguir manteniendo la capacidad de actualización automática. En este caso, la firma digital evitará que se muestren mensajes de conflicto de memoria caché.
   
 ## <a name="sharing-forms-by-email-message-or-from-a-common-shared-location"></a>Compartir formularios por mensaje de correo electrónico o desde una ubicación compartida común
 
-Ciertas preguntas deben tenerse en cuenta al crear un formulario que se implementará por mensaje de correo electrónico.
+Ciertas preguntas deben tenerse en cuenta al crear un formulario que se implementará mediante un mensaje de correo electrónico.
   
 - **¿Se actualizará el formulario con regularidad?** Si está creando un formulario que se va a actualizar con regularidad, debería publicarlo en una ubicación compartida antes de enviarlo a los usuarios. De este modo, podrá actualizarlo publicando nuevas versiones en la ubicación compartida, pero también podrá distribuir la plantilla de formulario de forma inmediata a los usuarios que tal vez no tengan acceso a la ubicación compartida. 
     
    Si un formulario se actualiza y, a continuación, se distribuye por mensaje de correo electrónico, los usuarios recibirán un mensaje de conflicto de caché cuando intenten abrir el nuevo formulario, si tienen una versión anterior almacenada en su equipo y la ruta de acceso ha cambiado. Se le pedirá al usuario que elija la versión que desea usar. Incluso si el formulario actualizado es el mismo que el que tiene en su equipo, el usuario recibirá un mensaje de conflicto de memoria caché y se le pedirá que elija la copia que va a usar. La práctica recomendada en esta situación es compartir el formulario desde una ubicación compartida.
     
-- **¿Tiene acceso el formulario a una conexión de datos o usa otras características no admitidas en el nivel de seguridad Restringido?** Si está desarrollando un formulario que exige seguridad de nivel Dominio, InfoPath requiere que se publique el formulario en una ubicación compartida para que los usuarios puedan abrirlo. Dado que las plantillas de formulario solo se abrirán en el nivel de seguridad que solicitan, los formularios abiertos directamente desde un mensaje de correo electrónico no se abrirán si InfoPath no puede conceder seguridad de nivel de dominio. 
+- **¿Tiene acceso el formulario a una conexión de datos o usa otras características no admitidas en el nivel de seguridad Restringido?** Si está desarrollando un formulario que exige seguridad de nivel Dominio, InfoPath requiere que se publique el formulario en una ubicación compartida para que los usuarios puedan abrirlo. Dado que las plantillas de formulario solo se abrirán en el nivel de seguridad que soliciten, los formularios abiertos directamente desde un mensaje de correo electrónico no se abrirán si InfoPath no puede conceder seguridad a nivel de dominio. 
     
-## <a name="benefits-of-using-signed-form-templates"></a>Ventajas de usar plantillas de formulario firmadas
+## <a name="benefits-of-using-signed-form-templates"></a>Ventajas del uso de plantillas de formulario firmadas
 
 - Permite abrir la plantilla de formulario con el nivel de seguridad Plena confianza.
     
@@ -184,7 +184,7 @@ En el ejemplo siguiente se muestra cómo una plantilla de formulario firmada y a
     
 5. "B" abre la plantilla de formulario actualizada.
     
-### <a name="example-deploying-restricted-form-templates-on-an-extranet"></a>Ejemplo: implementación de plantillas de formulario restringidas en una extranet
+### <a name="example-deploying-restricted-form-templates-on-an-extranet"></a>Ejemplo: Implementación de plantillas de formulario restringidas en una extranet
   
 1. Guarde la plantilla de formulario Dominio en un sitio web que ejecute Microsoft SharePoint Foundation 2010.
     
@@ -200,7 +200,7 @@ En el ejemplo siguiente se muestra cómo una plantilla de formulario firmada y a
     
 7. Pida a los usuarios que se lo devuelvan después de haberlo rellenado.
     
-8. Vuelva a guardar el formulario en el sitio web que ejecuta SharePoint Foundation 2010 y vuelva a vincular el formulario mediante la opción **Volver** a vincular documentos a esta biblioteca en la página Configuración de biblioteca de **formularios.** 
+8. Guarde el formulario de nuevo en el sitio web que ejecuta SharePoint Foundation 2010 y vuelva a vincularlo mediante la opción **Volver** a vincular documentos a esta biblioteca en la página Biblioteca Configuración **formulario.** 
     
 ## <a name="signature-verification-failure"></a>Error de comprobación de firma
 
@@ -216,7 +216,7 @@ Una plantilla de formulario firmada que solicita acceso de plena confianza pero 
     
 Si una plantilla de formulario firmada solicita acceso Restringido o Dominio, InfoPath no comprobará la firma salvo para determinar si puede actualizarse automáticamente.
   
-## <a name="infrastructure-registry-keys-for-form-migration-open-behavior"></a>Claves del Registro de infraestructura para el comportamiento abierto de la migración de formularios
+## <a name="infrastructure-registry-keys-for-form-migration-open-behavior"></a>Claves del Registro de infraestructura para el comportamiento de apertura de la migración de formularios
 
 Cuando un usuario intenta abrir un formulario que coincide con una plantilla de formulario en el id. de formulario, InfoPath mostrará un mensaje de error si la plantilla de formulario tiene un nivel de confianza Dominio y el dominio no coincide con el atributo  *href*  del formulario. Esto evita que se abran formularios que no se crearon explícitamente con la plantilla de formulario. 
   
@@ -233,7 +233,7 @@ Los valores Nombre corresponden a la configuración de dominio de Internet Explo
 |**Equipo cliente** <br/> |||X  <br/> |
 |**Sitio de confianza** <br/> |||X  <br/> |
    
-La ruta de acceso de la clave del Registro es `HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\InfoPath\Open Behaviors` .
+La ruta de acceso de clave del Registro es `HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\InfoPath\Open Behaviors` .
 
 El comportamiento de apertura del formulario se define como sigue:
   

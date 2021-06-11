@@ -35,33 +35,33 @@ HRESULT Address(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulUIParam_
   
-> [entrada, salida] Puntero al controlador de la ventana primaria del cuadro de diálogo. En la entrada, siempre se debe pasar un controlador de ventana. En el resultado, si la marca DIALOG_SDI se establece en la estructura [ADRPARM](adrparm.md) a la que apunta el parámetro  _lpAdrParms,_ se devuelve el controlador de ventana del cuadro de diálogo no modelado. 
+> [in, out] Puntero al controlador de la ventana primaria del cuadro de diálogo. En la entrada, siempre se debe pasar un identificador de ventana. En el resultado, si la marca DIALOG_SDI se establece en la estructura [ADRPARM](adrparm.md) a la que apunta el parámetro  _lpAdrParms,_ se devuelve el identificador de ventana del cuadro de diálogo modeless. 
     
  _lpAdrParms_
   
-> [entrada, salida] Puntero a una estructura **ADRPARM** que controla la presentación y el comportamiento del cuadro de diálogo de dirección. 
+> [in, out] Puntero a una estructura **ADRPARM** que controla la presentación y el comportamiento del cuadro de diálogo de dirección. 
     
  _lppAdrList_
   
-> [entrada, salida] Puntero a un puntero a una lista de direcciones. En la entrada, esta lista es la lista actual de destinatarios de un mensaje o NULL, si no existe dicha lista. En el resultado,  _lppAdrList_ apunta a una lista actualizada de destinatarios de mensajes. 
+> [in, out] Puntero a un puntero a una lista de direcciones. En la entrada, esta lista es la lista actual de destinatarios de un mensaje o NULL, si no existe dicha lista. Al salir,  _lppAdrList_ apunta a una lista actualizada de destinatarios de mensajes. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El cuadro de diálogo de dirección se ha mostrado correctamente.
+> El cuadro de diálogo dirección se ha mostrado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::Address** se implementa para objetos de compatibilidad del proveedor de libreta de direcciones. Los proveedores de libretas de direcciones llaman a **Address** para crear o actualizar una lista de destinatarios de mensajes. 
+El **método IMAPISupport::Address** se implementa para objetos de soporte del proveedor de libreta de direcciones. Los proveedores de libreta de direcciones llaman a **Address** para crear o actualizar una lista de destinatarios de mensajes. 
   
-Cada destinatario se describe en una [estructura ADRENTRY](adrentry.md) que se incluye en la estructura [ADRLIST](adrlist.md) a la que apunta el parámetro _lppAdrList._ La **estructura ADRENTRY** contiene una matriz de valores de propiedad de destinatario, uno de los cuales es el tipo del destinatario, o **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). Esta **estructura ADRLIST** se puede pasar a un cliente para usarla como parámetro  _lpMods_ en una llamada a [IMessage::ModifyRecipients](imessage-modifyrecipients.md).
+Cada destinatario se describe en una estructura [ADRENTRY](adrentry.md) que se incluye en la estructura [ADRLIST](adrlist.md) a la que apunta el parámetro _lppAdrList._ La **estructura ADRENTRY** contiene una matriz de valores de propiedad de destinatario, uno de los cuales es el tipo del destinatario, o la propiedad **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). Esta **estructura ADRLIST** se puede pasar a un cliente para usarla como parámetro  _lpMods_ en una llamada a [IMessage::ModifyRecipients](imessage-modifyrecipients.md).
   
-Cada destinatario de la estructura **ADRLIST** se puede resolver, lo que indica que uno de sus valores de propiedad es su propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) o no resuelto, lo que indica que falta la propiedad **PR_ENTRYID** . 
+Cada destinatario de la estructura **ADRLIST** puede resolverse, lo que indica que uno de sus valores de propiedad es su propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) o no resuelto, lo que indica que falta la propiedad **PR_ENTRYID.** 
   
 Además de **PR_ENTRYID**, los destinatarios resueltos incluyen las siguientes propiedades:
   
@@ -73,19 +73,19 @@ Además de **PR_ENTRYID**, los destinatarios resueltos incluyen las siguientes p
     
 - **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
-Los destinatarios sin resolver normalmente incluyen solo **PR_DISPLAY_NAME** y **PR_RECIPIENT_TYPE**. 
+Los destinatarios no resueltos suelen incluir solo **PR_DISPLAY_NAME** y **PR_RECIPIENT_TYPE**. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La **estructura ADRLIST** que pasa el autor de la llamada puede tener un tamaño diferente de la estructura que devuelve MAPI. Cuando asigne memoria para la estructura **ADRLIST,** asigne la memoria para cada [estructura SPropValue por](spropvalue.md) separado. 
+La **estructura ADRLIST** que pasa el autor de la llamada puede tener un tamaño diferente de la estructura que devuelve MAPI. Al asignar memoria para la estructura **ADRLIST,** asigne la memoria para cada [estructura SPropValue por](spropvalue.md) separado. 
   
-Use los punteros a las funciones de asignación de memoria MAPI pasadas a la [función ABProviderInit](abproviderinit.md) para asignar memoria. Asigne memoria con la [función MAPIAllocateBuffer](mapiallocatebuffer.md) para **ADRLIST** y cada estructura de valor de propiedad en las **estructuras ADRENTRY** en **ADRLIST**. 
+Use los punteros a las funciones de asignación de memoria MAPI pasadas a la [función ABProviderInit](abproviderinit.md) para asignar memoria. Asigne memoria con la [función MAPIAllocateBuffer](mapiallocatebuffer.md) para **ADRLIST** y cada estructura de valores de propiedad en las estructuras **ADRENTRY** de **ADRLIST**. 
   
-Si **Address** debe devolver una estructura **ADRLIST** más grande, o si ha pasado NULL para  _lppAdrList_, **Address** libera la estructura original y asigna una nueva. **Address** también asigna estructuras de valor de propiedad adicionales en la estructura **ADRLIST** y libera las antiguas según corresponda. Para obtener más información acerca de cómo se administra la memoria para las **estructuras ADRLIST,** vea [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
+Si **Address** debe devolver una estructura **ADRLIST** más grande o si ha pasado NULL para  _lppAdrList,_ **Address** libera la estructura original y asigna una nueva. **Address** también asigna estructuras de valor de propiedad adicionales en la estructura **ADRLIST** y libera las antiguas según corresponda. Para obtener más información acerca de cómo se administra la memoria para las estructuras **ADRLIST,** vea [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
- **La** dirección devuelve inmediatamente si DIALOG_SDI marca se estableció en la estructura **ADRPARM** en el _parámetro lpAdrParms._ 
+ **Address** devuelve inmediatamente si la DIALOG_SDI se estableció en la estructura **ADRPARM** en el _parámetro lpAdrParms._ 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

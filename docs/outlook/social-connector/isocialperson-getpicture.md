@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 02fcaf25-42b5-4584-95c6-d44a3d035128
-description: Obtiene una matriz de bytes que contiene el recurso de imagen de la persona.
+description: Obtiene una matriz de bytes que contiene el recurso picture de la persona.
 ms.openlocfilehash: 755e2138378136a3c1d810a1957923f4e8db721d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,13 +17,13 @@ ms.locfileid: "33406713"
 ---
 # <a name="isocialpersongetpicture"></a>ISocialPerson::GetPicture
 
-Obtiene una matriz de bytes que contiene el recurso de imagen de la persona. 
+Obtiene una matriz de bytes que contiene el recurso picture de la persona. 
   
 ```cpp
 HRESULT _stdcall GetPicture([out, retval] SAFEARRAY(unsigned char)* picture);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _imagen_
   
@@ -31,9 +31,9 @@ _imagen_
     
 ## <a name="remarks"></a>Comentarios
 
-Los recursos de imagen admitidos están en formato .bmp, .jpeg o .png.
+Los recursos de imagen admitidos .bmp, .jpeg o .png formato.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

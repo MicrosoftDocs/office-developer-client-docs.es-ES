@@ -35,7 +35,7 @@ LPSTREAM FAR * ppstm
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pulFlags_
   
@@ -51,7 +51,7 @@ MAPI_UNICODE
     
 SAVE_FORMAT_RICHTEXT 
   
-> El texto del mensaje se guardará como texto con formato en formato de texto enriquecido (RTF). 
+> El texto del mensaje se guardará como texto con formato en el formato de texto enriquecido (RTF). 
     
 SAVE_FORMAT_TEXT 
   
@@ -69,13 +69,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman al método **IMAPIViewContext::GetSaveStream** para recuperar una secuencia de un objeto que implementa la **interfaz IStream** para admitir el control del verbo Guardar como en el visor de formularios. El método [IMAPIForm::D oVerb,](imapiform-doverb.md) que se implementa en el servidor de formularios y al que llama el visor de formularios para invocar un verbo, no debe devolverse hasta que el mensaje se convierta completamente en el formato de texto adecuado y se coloque en la secuencia adecuada. 
+Los objetos Form llaman al método **IMAPIViewContext::GetSaveStream** para recuperar una secuencia de un objeto que implementa la interfaz **IStream** para admitir el control del verbo Guardar como en el visor de formularios. El método [IMAPIForm::D oVerb,](imapiform-doverb.md) que se implementa en el servidor de formularios y al que llama el visor de formularios para invocar un verbo, no debe devolverse hasta que el mensaje se convierta completamente en el formato de texto adecuado y se coloque en la secuencia adecuada. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-No escriba en la secuencia a la que apunta  _ppstm antes_ de llamar **a GetSaveStream**. Cuando **getSaveStream** vuelva, no restablezca la posición del puntero de búsqueda. Este puntero debe permanecer al final del texto del mensaje guardado. 
+No escriba en la secuencia a la que apunta  _ppstm antes_ de llamar a **GetSaveStream**. Cuando **getSaveStream** devuelve, no restablezca la posición del puntero de búsqueda. Este puntero debe permanecer al final del texto del mensaje guardado. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

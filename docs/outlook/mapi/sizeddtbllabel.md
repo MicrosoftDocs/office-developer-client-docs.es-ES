@@ -27,14 +27,14 @@ Crea una estructura con nombre que incluye una [estructura DTBLLABEL](dtbllabel.
   
 |||
 |:-----|:-----|
-|Se especifica en el archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
+|Especificado en el archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Estructura relacionada  <br/> |**DTBLLABEL** <br/> |
    
 ```cpp
 SizedDtblLabel (n, u)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _n_
   
@@ -46,20 +46,20 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblLabel** permite definir una etiqueta de tabla de presentación cuando se conoce el número de caracteres de la etiqueta. La nueva estructura se crea con los siguientes miembros: 
+La **macro SizedDtblLabel** permite definir una etiqueta de tabla para mostrar cuando se conoce el número de caracteres de la etiqueta. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLLABEL dtbllabel;
 TCHAR lpszLabelName[n];
 ```
 
-Para usar un puntero a la estructura resultante de la macro **SizedDtblLabel** como puntero de estructura **DTBLLABEL,** realice la conversión siguiente: 
+Para usar un puntero a la estructura resultante de la macro **SizedDtblLabel** como puntero de **estructura DTBLLABEL,** realice la conversión siguiente: 
   
 ```cpp
 lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [DTBLLABEL](dtbllabel.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

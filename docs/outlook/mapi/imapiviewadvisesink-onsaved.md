@@ -43,11 +43,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Un objeto de formulario llama al método **IMAPIViewAdviseSink::OnSaved** después de que el mensaje actual de un formulario se haya guardado correctamente. Esto permite a los espectadores actualizar sus ventanas para reflejar los cambios en el mensaje. 
+Un objeto de formulario llama al método **IMAPIViewAdviseSink::OnSaved** después de que el mensaje actual de un formulario se haya guardado correctamente. Al hacerlo, los visores pueden actualizar sus ventanas para reflejar los cambios en el mensaje. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario.](sending-and-receiving-form-notifications.md)
+Para obtener más información acerca de las notificaciones de formulario, vea [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

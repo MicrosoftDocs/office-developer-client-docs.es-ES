@@ -32,11 +32,11 @@ Contiene el identificador binario comparable único (clave de registro) del alma
 |Propiedades asociadas:  <br/> |PR_STORE_RECORD_KEY  <br/> |
 |Identificador:  <br/> |0x0FFA  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propiedades de identificador  <br/> |
+|Área:  <br/> |Propiedades de id.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para un almacén de mensajes, esta propiedad es idéntica a la propiedad PR_RECORD_KEY **del** almacén ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)).
+Para un almacén de mensajes, esta propiedad es idéntica a la propiedad PR_RECORD_KEY **(** [PidTagRecordKey](pidtagrecordkey-canonical-property.md)) del almacén.
   
 La relación entre esta propiedad y **PR_RECORD_KEY** es la misma que la relación entre **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) y **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
@@ -46,7 +46,7 @@ La relación entre esta propiedad y **PR_RECORD_KEY** es la misma que la relaci�
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

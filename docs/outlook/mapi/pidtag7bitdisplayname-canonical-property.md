@@ -36,7 +36,7 @@ Contiene una representación ASCII de 7 bits del nombre de un usuario de mensaje
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades asignan la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) a un juego de caracteres de 7 bits. Algunos sistemas de mensajería, como Internet y determinados vínculos X.400, están limitados al conjunto de códigos ASCII de 128 caracteres de 7 bits. Las puertas de enlace a estos sistemas de mensajería pueden mejorar su rendimiento llamando directamente al método [IAddrBook::P repareRecips](iaddrbook-preparerecips.md) para recuperar esta propiedad, lo que evita el procesamiento adicional para la conversión de código. 
+Estas propiedades asignan **la PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) en un juego de caracteres de 7 bits. Algunos sistemas de mensajería, como Internet y determinados vínculos X.400, están limitados al conjunto de código ASCII de 128 caracteres de 7 bits. Las puertas de enlace a estos sistemas de mensajería pueden mejorar su rendimiento llamando al método [IAddrBook::P repareRecips](iaddrbook-preparerecips.md) directamente para recuperar la propiedad, lo que evita el procesamiento adicional para la conversión de código. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,9 +46,9 @@ Estas propiedades asignan la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisp
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones en listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones en listas de usuarios, contactos, grupos y recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
@@ -56,15 +56,15 @@ Estas propiedades asignan la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisp
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Controla el orden y el flujo de datos que se usan para realizar transferencias de datos entre el cliente y el servidor.
+> Controla el orden y el flujo de datos que se usa para transferencias de datos entre el cliente y el servidor.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en los mensajes de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -76,13 +76,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

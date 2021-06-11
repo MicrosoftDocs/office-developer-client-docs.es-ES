@@ -25,7 +25,7 @@ ms.locfileid: "32284486"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa una To-Do marcada de un elemento.
+Representa la To-Do marcada de un elemento.
   
 |||
 |:-----|:-----|
@@ -36,16 +36,16 @@ Representa una To-Do marcada de un elemento.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es un campo de bits en el que cada bit debe establecerse en 1 si se aplica la condición asociada en la tabla siguiente; de lo contrario, 0.
+Esta propiedad es un campo de bits en el que cada bit debe establecerse en 1 si se aplica la condición asociada en la tabla siguiente, de lo contrario 0.
   
 ||||
 |:-----|:-----|:-----|
 |Valor numérico  <br/> |Nombre  <br/> |Descripción  <br/> |
-|No presente  <br/> |N/D  <br/> |Sin inflar  <br/> |
-|1   <br/> |todoTimeFlagged  <br/> |El objeto está marcado por tiempo  <br/> |
-|8   <br/> |todoRecipientFlagged  <br/> |Solo debe establecerse en un objeto de borrador de mensaje, lo que significa que el objeto está marcado para los destinatarios.  <br/> |
+|No presente  <br/> |N/D  <br/> |Sinflagged  <br/> |
+|1  <br/> |todoTimeFlagged  <br/> |El objeto está marcado por tiempo  <br/> |
+|8   <br/> |todoRecipientFlagged  <br/> |Solo se debe establecer en un objeto de borrador de mensaje y significa que el objeto está marcado para los destinatarios.  <br/> |
    
-Se reservan todos los bits que no se especifican en la tabla. Deben omitirse, pero deben conservarse si se establecen.
+Todos los bits que no se especifican en la tabla están reservados. Deben omitirse, pero deben conservarse si se establecen.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,7 +57,7 @@ Se reservan todos los bits que no se especifican en la tabla. Deben omitirse, pe
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -69,13 +69,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

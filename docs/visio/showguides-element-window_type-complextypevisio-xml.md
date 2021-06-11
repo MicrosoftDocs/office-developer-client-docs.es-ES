@@ -1,12 +1,12 @@
 ---
-title: Elemento ShowGuides (Window_Type complexType) (XML de Visio)
+title: Elemento ShowGuides (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b81bc46b-6eff-c11f-f583-85959a47c313
-description: Especifica si se muestran guías en la ventana de dibujo.
+description: Especifica si las guías se muestran en la ventana de dibujo.
 ms.openlocfilehash: 9f747568c664f86dd88a68b9a6e6e2f6df723f67
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542985"
 ---
-# <a name="showguides-element-window_type-complextype-visio-xml"></a>Elemento ShowGuides (Window_Type complexType) (XML de Visio)
+# <a name="showguides-element-window_type-complextype-visio-xml"></a>Elemento ShowGuides (Window_Type complexType) (Visio XML)
 
-Especifica si se muestran guías en la ventana de dibujo.
+Especifica si las guías se muestran en la ventana de dibujo.
   
 ## <a name="element-information"></a>Información del elemento
 
@@ -36,7 +36,7 @@ Especifica si se muestran guías en la ventana de dibujo.
 
 ## <a name="elements-and-attributes"></a>Elementos y atributos
 
-Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición. 
+Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición. 
   
 ### <a name="parent-elements"></a>Elementos principales
 

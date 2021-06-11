@@ -31,7 +31,7 @@ Indica si el documento se envió a un destinatario de enrutamiento durante el re
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidLogDocRouted  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Log  <br/> |
-|Long ID (LID):  <br/> |0x00008710  <br/> |
+|Id. largo (LID):  <br/> |0x00008710  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Diario  <br/> |
    
@@ -41,11 +41,11 @@ Indica si el documento se envió a un destinatario de enrutamiento durante el re
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
+> Proporciona la definición del conjunto de propiedades y las referencias a las Exchange Server de protocolo relacionados.
     
-[[MS-OJOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los diarios.
+> Especifica las propiedades y las operaciones que son permisibles para los diarios.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

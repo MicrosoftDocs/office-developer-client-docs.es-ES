@@ -36,13 +36,13 @@ Contiene una cadena de texto que identifica la clase de mensaje definida por el 
    
 ## <a name="remarks"></a>Comentarios
 
-La clase de mensaje especifica el tipo de mensaje. Determina el conjunto de propiedades definidas para el mensaje, el tipo de información que transmite el mensaje y cómo controlarlo. 
+La clase message especifica el tipo del mensaje. Determina el conjunto de propiedades definidas para el mensaje, el tipo de información que transmite el mensaje y cómo controlar el mensaje. 
   
-Estas propiedades contienen cadenas concatenadas con puntos. Cada cadena representa un nivel de subclase. Por ejemplo, IPM. Nota: es una subclase de IPM y una superclase de IPM. Note.Private. 
+Estas propiedades contienen cadenas concatenadas con puntos. Cada cadena representa un nivel de subclase. Por ejemplo, IPM. Nota es una subclase de IPM y una superclase de IPM. Note.Private. 
   
-Estas propiedades deben estar formadas por los caracteres ASCII del 32 al 127 y no deben terminar con un punto (ASCII 46). Las operaciones de ordenación y comparación deben tratarse como una cadena que no diferencia entre mayúsculas y minúsculas. La longitud máxima posible es de 255 caracteres, pero para permitir que la sala MAPI anexe calificadores, se recomienda mantener la longitud original por debajo de 128 caracteres. 
+Estas propiedades deben estar formadas por los caracteres ASCII 32 a 127 y no deben terminar con un punto (ASCII 46). Las operaciones de ordenación y comparación deben tratarse como una cadena que no diferencia mayúsculas de minúsculas. La longitud máxima posible es de 255 caracteres, pero para permitir que el salón MAPI anexe calificadores, se recomienda mantener la longitud original por debajo de 128 caracteres. 
   
-Cada mensaje es necesario para proporcionar estas propiedades. Normalmente, la aplicación cliente que crea un mensaje nuevo lo establece en cuanto [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) devuelve correctamente. Pero si la propiedad no se ha establecido cuando el cliente llama a [IMAPIProp::SaveChanges,](imapiprop-savechanges.md)el almacén de mensajes debe establecerla en IPM. 
+Cada mensaje es necesario para proporcionar estas propiedades. Normalmente, la aplicación cliente que crea un mensaje nuevo lo establece tan pronto [como IMAPIFolder::CreateMessage](imapifolder-createmessage.md) devuelve correctamente. Pero si la propiedad no se ha establecido cuando el cliente llama a [IMAPIProp::SaveChanges,](imapiprop-savechanges.md)el almacén de mensajes debe establecerlo en IPM. 
   
 Los valores definidos por MAPI son: 
   
@@ -55,13 +55,13 @@ REPORT.<subject message class>.IPNNRN for a nonread report
  
 ```
 
-IPM e IPC están diseñados para ser solo superclases y un mensaje debe tener al menos un calificador de subclase anexado antes de almacenarse o enviarse. Para obtener más información sobre el uso de clases de mensaje, vea [Clases de mensajes.](mapi-message-classes.md) Para obtener listas de propiedades obligatorias y opcionales para las clases de mensaje, vea los temas secundarios de [Acerca de las propiedades de mensaje](message-properties-overview.md).
+IPM e IPC están diseñados para ser superclases solamente y un mensaje debe tener al menos un calificador de subclase anexado antes de almacenarse o enviarse. Para obtener más información sobre el uso de clases de mensaje, vea [Clases de mensaje](mapi-message-classes.md). Para obtener listas de propiedades obligatorias y opcionales para las clases de mensaje, vea los subtemas de [Acerca de las propiedades del mensaje](message-properties-overview.md).
   
-Una clase de mensaje personalizada puede definir propiedades en un intervalo reservado para su uso con esa clase de mensaje únicamente. Para obtener más información, vea [Acerca de los identificadores de propiedad](mapi-property-identifier-overview.md). 
+Una clase de mensaje personalizada puede definir propiedades en un intervalo reservado para su uso solo con esa clase de mensaje. Para obtener más información, vea [About Property Identifiers](mapi-property-identifier-overview.md). 
   
-Las clases de mensajes controlan en qué carpeta de recepción se almacena un mensaje entrante. Para obtener más información, vea el [método IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
+Las clases de mensaje controlan en qué carpeta de recepción se almacena un mensaje entrante. Para obtener más información, vea el [método IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
   
-Para obtener más información sobre el uso de clases de mensajes con formularios y servidores de formularios, vea [Eligiendo una clase de mensaje](choosing-a-message-class.md). 
+Para obtener más información sobre el uso de clases de mensaje con formularios y servidores de formularios, vea [Elegir una clase de mensaje](choosing-a-message-class.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -73,15 +73,15 @@ Para obtener más información sobre el uso de clases de mensajes con formulario
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
-[[MS-OJOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
+[[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para representar mensajes de correo de voz y fax.
+> Especifica las propiedades y las operaciones permitidas para representar mensajes de correo de voz y fax.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -93,13 +93,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

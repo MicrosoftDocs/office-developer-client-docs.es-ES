@@ -34,23 +34,23 @@ HRESULT SetReadFlags(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _lpMsgList_
   
-> [entrada] Puntero a una matriz de [estructuras ENTRYLIST](entrylist.md) que identifican el mensaje o los mensajes que tienen marcas de lectura para establecer o borrar. Si  _lpMsgList se_ establece en NULL, se establecen o borran las marcas de lectura de todos los mensajes de la carpeta. 
+> [in] Puntero a una matriz de estructuras [ENTRYLIST](entrylist.md) que identifican el mensaje o los mensajes que tienen marcas de lectura para establecer o borrar. Si  _lpMsgList_ se establece en NULL, las marcas de lectura de todos los mensajes de la carpeta se establecen o borran. 
     
 _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del indicador de progreso. El _parámetro ulUIParam_ se omite a menos que MESSAGE_DIALOG marca esté establecida en el _parámetro ulFlags._ 
+> [in] Identificador de la ventana principal del indicador de progreso. El _parámetro ulUIParam_ se omite a menos que MESSAGE_DIALOG marca esté establecida en _el parámetro ulFlags._ 
     
 _lpProgress_
   
-> [entrada] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación de MAPI. El  _parámetro lpProgress_ se omite a menos que MESSAGE_DIALOG marca esté establecida en  _ulFlags_.
+> [in] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación de MAPI. El  _parámetro lpProgress_ se omite a menos que la marca MESSAGE_DIALOG esté establecida en  _ulFlags_.
     
 _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla la configuración de la marca de lectura de un mensaje y el procesamiento de informes de lectura. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla la configuración de la marca de lectura de un mensaje y el procesamiento de informes de lectura. Se pueden establecer las siguientes marcas:
     
   - CLEAR_READ_FLAG: la MSGFLAG_READ debe borrarse en **PR_MESSAGE_FLAGS** y no se debe enviar un informe de lectura. 
         
@@ -58,9 +58,9 @@ _ulFlags_
         
   - CLEAR_RN_PENDING: la MSGFLAG_RN_PENDING debe borrarse en **PR_MESSAGE_FLAGS** y no se debe enviar un informe de lectura. 
         
-  - GENERATE_RECEIPT_ONLY: se debe enviar un informe de lectura si hay uno pendiente, pero no debe haber ningún cambio en el estado de la marca MSGFLAG_READ lectura.
+  - GENERATE_RECEIPT_ONLY: se debe enviar un informe de lectura si está pendiente, pero no debe haber ningún cambio en el estado de la marca MSGFLAG_READ lectura.
         
-  - MAPI_DEFERRED_ERRORS: permite que **SetReadFlags** vuelva correctamente, posiblemente antes de que se complete la operación. 
+  - MAPI_DEFERRED_ERRORS: permite **que SetReadFlags** vuelva correctamente, posiblemente antes de que se complete la operación. 
         
   - MESSAGE_DIALOG: muestra un indicador de progreso mientras continúa la operación.
     
@@ -70,7 +70,7 @@ _ulFlags_
 
 S_OK 
   
-> La marca de lectura del mensaje o los mensajes especificados se estableció o despejado correctamente.
+> La marca de lectura del mensaje o mensajes especificados se estableció o borra correctamente.
     
 MAPI_E_NO_SUPPRESS 
   
@@ -88,7 +88,7 @@ MAPI_E_INVALID_PARAMETER
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> La llamada se ha realizado correctamente, pero no todos los mensajes se han procesado correctamente. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
+> La llamada se ha realizado correctamente, pero no todos los mensajes se procesaron correctamente. Cuando se devuelve esta advertencia, la llamada debe controlarse como correcta. Para probar esta advertencia, use la **HR_FAILED** macro. Para obtener más información, vea [Using Macros for Error Handling](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
@@ -102,31 +102,31 @@ La marca de lectura no se puede cambiar para lo siguiente:
     
 - Mensajes que se han movido a otro lugar.
     
-- Mensajes abiertos con permiso de lectura y escritura.
+- Mensajes que se abren con permiso de lectura y escritura.
     
 - Mensajes que se envían actualmente.
     
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Puede decidir no admitir el envío de informes de lectura y la solicitud para suprimir los informes de lectura. Para evitar suprimir un informe de lectura, devuelva MAPI_E_NO_SUPPRESS cuando se llame a **SetReadFlags** con SUPPRESS_RECEIPT establecido en el _parámetro ulFlags._ 
+Puede decidir no admitir el envío de informes de lectura y la solicitud para suprimir los informes de lectura. Para evitar la supresión de un informe de lectura, MAPI_E_NO_SUPPRESS cuando se llama a **SetReadFlags** SUPPRESS_RECEIPT se establece en _el parámetro ulFlags._ 
   
-Cuando el  _parámetro lpMsgList_ apunta a más de un mensaje, realice la operación lo más completa posible para cada mensaje. No detenga la operación antes de tiempo a menos que se produzca un error que esté fuera de su control, como que se queme la memoria, que se esté quedando sin espacio en disco o que el almacén de mensajes esté dañado. 
+Cuando el  _parámetro lpMsgList_ señala a más de un mensaje, realice la operación lo más completa posible para cada mensaje. No detenga la operación prematuramente a menos que se produzca un error que esté fuera de su control, como que se esté quedando sin memoria, que se esté quedando sin espacio en disco o que se produzcan daños en el almacén de mensajes. 
   
-Si no se establece ninguna de las marcas en el  _parámetro ulFlags,_ se aplican las siguientes reglas: 
+Si ninguna de las marcas se establece en el  _parámetro ulFlags,_ se aplican las siguientes reglas: 
   
 - Si MSGFLAG_READ ya está establecido, no haga nada.
     
-- Si MSGFLAG_READ no está establecido, estapórelo inmediatamente y envíe los informes de lectura pendientes si se establece la propiedad **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)).
+- Si MSGFLAG_READ no está establecido, estapórelo inmediatamente y envíe los informes de lectura pendientes si la propiedad **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) está establecida.
     
 Cuando se SUPPRESS_RECEIPT marca, se aplican las siguientes reglas:
   
 - Si MSGFLAG_READ ya está establecido, no haga nada. 
     
-- Si MSGFLAG_READ no está establecido, estad léalo y cancele los informes de lectura pendientes.
+- Si MSGFLAG_READ no está establecido, estadóla y cancele los informes de lectura pendientes.
     
-Cuando se CLEAR_READ_FLAG marca, borre la marca MSGFLAG_READ en la propiedad **PR_MESSAGE_FLAGS** de cada mensaje y no envíe ningún informe de lectura. 
+Cuando se CLEAR_READ_FLAG marca, desactive la marca MSGFLAG_READ en la propiedad **PR_MESSAGE_FLAGS** de cada mensaje y no envíe ningún informe de lectura. 
   
-Cuando se GENERATE_RECEIPT_ONLY marca, envíe los informes de lectura pendientes. No establecer ni borrar el MSGFLAG_READ.
+Cuando se GENERATE_RECEIPT_ONLY marca, envíe los informes de lectura pendientes. No establezca ni desactive MSGFLAG_READ.
   
 Cuando se establecen SUPPRESS_RECEIPT y GENERATE_RECEIPT_ONLY, establezca **PR_READ_RECEIPT_REQUESTED** en FALSE si está establecido y no envíe un informe de lectura. 
   
@@ -137,10 +137,10 @@ Espere estos valores devueltos en las siguientes condiciones.
 |**Condition**|**Valor devuelto**|
 |:-----|:-----|
 |**SetReadFlags** ha procesado correctamente todos los mensajes.  <br/> |S_OK  <br/> |
-|**SetReadFlags** no pudo procesar correctamente todos los mensajes.  <br/> |MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND  <br/> |
+|**SetReadFlags** no pudo procesar correctamente cada mensaje.  <br/> |MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND  <br/> |
 |**SetReadFlags** no se pudo completar.  <br/> |Cualquier valor de error excepto MAPI_E_NOT_FOUND  <br/> |
    
-Cuando **SetReadFlags** no se puede completar, no suponga que no se ha realizado ningún trabajo. **Es posible que SetReadFlags** haya podido establecer o borrar la marca MSGFLAG_READ para uno o varios de los mensajes antes de encontrar el error. 
+Cuando **SetReadFlags** no se pueda completar, no suponga que no se ha realizado ningún trabajo. **Es posible que SetReadFlags** haya podido establecer o borrar la marca MSGFLAG_READ para uno o varios de los mensajes antes de encontrar el error. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -150,7 +150,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI usa el **método IMAPIFolder::SetReadFlags** para establecer manualmente el estado de lectura en los mensajes especificados.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ENTRYLIST](entrylist.md) 
 - [IMessage::SetReadFlag](imessage-setreadflag.md)  

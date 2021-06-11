@@ -25,7 +25,7 @@ ms.locfileid: "32358908"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina la necesidad de procesamiento posterior a la transmisión de un correo electrónico.
+Determina la necesidad del procesamiento posterior a la transmisión de un correo electrónico.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Determina la necesidad de procesamiento posterior a la transmisión de un correo
    
 ## <a name="remarks"></a>Comentarios
 
-Si esta propiedad se establece en un borrador de mensaje, su valor debe establecerse en el valor de la propiedad **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) del mensaje.
+Si esta propiedad se establece en un mensaje de borrador, su valor debe establecerse en el valor de la propiedad **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) del mensaje.
   
-Para obtener más información, [vea la sección [MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx) "Procesamiento posterior a la transmisión de un mensaje marcado". 
+Para obtener más información, vea [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx) section "Post-Transmit Processing of a Flagged Message". 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Para obtener más información, [vea la sección [MS-OXOFLAG]](https://msdn.micr
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

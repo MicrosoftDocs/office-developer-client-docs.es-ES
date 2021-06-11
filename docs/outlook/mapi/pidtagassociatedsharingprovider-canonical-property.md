@@ -32,15 +32,15 @@ Determina si un proveedor de almacenamiento de archivos de carpetas personales (
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad indica si se ha configurado un archivo PST para Microsoft SharePoint 2010. Si la propiedad no está presente, el archivo PST no se ha configurado como pst de Microsoft SharePoint 2010.
+Esta propiedad indica si un PST está configurado para Microsoft SharePoint 2010. Si la propiedad no está presente, el PST no se ha configurado como un PST de Microsoft SharePoint 2010.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -32,7 +32,7 @@ Para obtener una referencia a la celda BeginGroup por su nombre desde otra fórm
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Acciones. *nombre*. BeginGroup donde Actions. *nombre* es el nombre de la fila de acciones  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*. BeginGroup donde actions. *nombre* es el nombre de la fila de acciones  <br/> |
    
 Para obtener una referencia desde un programa a la celda BeginGroup por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

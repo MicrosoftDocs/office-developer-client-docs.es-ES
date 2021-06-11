@@ -27,7 +27,7 @@ Las siguientes entradas alfabéticas contienen documentación sobre los tipos de
   
 ||
 |:-----|
-|[Marcador](bookmark.md) <br/> |
+|[BOOKMARK](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |
 |[DNTBL](dntbl.md) <br/> |
 |[DNTBLE](dntble.md) <br/> |

@@ -25,13 +25,13 @@ ms.locfileid: "32358901"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa la fecha y la hora en que finaliza una cita.
+Representa la fecha y hora en que finaliza una cita.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidApptEndWhole  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x0000820E  <br/> |
+|Id. largo (LID):  <br/> |0x0000820E  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Calendar  <br/> |
    
@@ -39,7 +39,7 @@ Representa la fecha y la hora en que finaliza una cita.
 
 Esta propiedad corresponde a la **propiedad dispidApptEndWhole** de la cita en el Microsoft Office Outlook de objetos. 
   
-Especifica la fecha y hora de finalización del evento; debe estar en hora universal coordinada (UTC) y debe ser mayor que el valor de la propiedad **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)). Para una serie periódica, la propiedad **dispidApptEndWhole** es la fecha y hora de finalización de la primera instancia de acuerdo con el patrón de periodicidad. 
+Especifica la fecha y hora de finalización del evento; debe estar en hora universal coordinada (UTC) y debe ser mayor que el valor de la propiedad **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)). Para una serie periódica, la propiedad **dispidApptEndWhole** es la fecha y hora de finalización de la primera instancia según el patrón de periodicidad. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -51,7 +51,7 @@ Especifica la fecha y hora de finalización del evento; debe estar en hora unive
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -59,13 +59,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

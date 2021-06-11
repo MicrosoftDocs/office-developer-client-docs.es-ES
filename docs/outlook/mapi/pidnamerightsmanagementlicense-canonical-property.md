@@ -25,7 +25,7 @@ ms.locfileid: "32315025"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Almacena en caché la licencia de uso para el mensaje de correo electrónico administrado con derechos.
+Almacena en caché la licencia de uso del mensaje de correo electrónico administrado por derechos.
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Almacena en caché la licencia de uso para el mensaje de correo electrónico adm
    
 ## <a name="remarks"></a>Comentarios
 
-Si la propiedad está presente en un mensaje de correo electrónico administrado con derechos, el primer valor de esta propiedad binaria múltiple debe contener la licencia de uso comprimido ZLIB (como se especifica en [RFC1950]) para el mensaje de correo electrónico administrado con derechos.
+Si la propiedad está presente en un mensaje de correo electrónico administrado con derechos, el primer valor de esta propiedad binaria múltiple debe contener la licencia de uso comprimido ZLIB (como se especifica en [RFC1950]) para el mensaje de correo electrónico administrado por derechos.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

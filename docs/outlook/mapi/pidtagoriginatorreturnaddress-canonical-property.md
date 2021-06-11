@@ -25,7 +25,7 @@ ms.locfileid: "33406832"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la dirección de devolución con codificación binaria del autor del mensaje.
+Contiene la dirección de devolución con codificación binaria del originador del mensaje.
   
 |||
 |:-----|:-----|
@@ -46,13 +46,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

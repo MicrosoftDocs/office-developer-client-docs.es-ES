@@ -101,7 +101,7 @@ Formato de esquema:
   
  `|u|<document URL>`
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="bk_addresources"> </a>
 
 - [Integración con Office](integrate-with-office.md)

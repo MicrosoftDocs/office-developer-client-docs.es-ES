@@ -31,13 +31,13 @@ Contiene una pila de entradas que representan a los asignadores de tareas. El as
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskMyDelegators  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008117  <br/> |
+|Id. largo (LID):  <br/> |0x00008117  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando el cliente recibe una solicitud de tarea, se anexa a esta propiedad, que estructura se define en [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), una entrada que representa al remitente de la tarea. Cuando el cliente recibe un rechazo de tarea, el cliente quita la última entrada del asignador de tareas de esta propiedad. Cuando el cliente envía una respuesta de tarea, el cliente la envía al último asignador de tareas enumerado en el valor de esta propiedad.
+Cuando el cliente recibe una solicitud de tarea, se anexa a esta propiedad, cuya estructura se define en [[MS-OXOTASK],](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)una entrada que representa al remitente de la tarea. Cuando el cliente recibe un rechazo de tarea, el cliente quita la última entrada del asignador de tareas de esta propiedad. Cuando el cliente envía una respuesta de tarea, el cliente la envía al último asignador de tareas que aparece en el valor de esta propiedad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
