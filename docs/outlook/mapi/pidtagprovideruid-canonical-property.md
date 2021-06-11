@@ -32,13 +32,13 @@ Contiene una **estructura MAPIUID** del proveedor de servicios que administra un
 |Propiedades asociadas:  <br/> |PR_PROVIDER_UID  <br/> |
 |Identificador:  <br/> |0x300C  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Mapi común  <br/> |
+|Área:  <br/> |MAPI común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Todos los proveedores de servicios calculan esta propiedad. Contiene una estructura [MAPIUID](mapiuid.md) asociada al proveedor y normalmente codificada de forma hard-code por. Normalmente lo usa una aplicación cliente que solo está interesada en los contenedores de libreta de direcciones proporcionados por un proveedor determinado. 
+Todos los proveedores de servicios calculan esta propiedad. Contiene una estructura [MAPIUID](mapiuid.md) asociada al proveedor y, por lo general, codificada de forma hard. Normalmente lo usa una aplicación cliente que está interesada en solo los contenedores de libreta de direcciones proporcionados por un proveedor determinado. 
   
-Esta propiedad aparece sólo como una entrada de columna en la tabla del proveedor.
+Esta propiedad solo aparece como una entrada de columna en la tabla del proveedor.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

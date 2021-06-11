@@ -36,19 +36,19 @@ Verb2=2
 
 ```
 
-Cada verbo se define en un **[Verbo] independiente.** _string_ **]** section. A **[Verbo.** _la_ **sección string ]** describe un solo verbo ofrecido por el formulario. La **entrada DisplayName** en **un [Verbo.** _la_ **sección string ]** especifica el nombre del comando que se muestra en la interfaz de usuario. La **entrada** Code corresponde al número de verbo pasado en el [método IMAPIForm::D oVerb.](imapiform-doverb.md) Sintaxis de **[Verb.** _la_ **sección de cadena ]** es: 
+Cada verbo se define en un **[Verbo] independiente.** _string_ **]** section. A **[Verb.** _string_ **]** section describe un verbo único ofrecido por el formulario. La **entrada DisplayName** en **un [Verb.** _string_ **]** section especifica el nombre del comando que se muestra en la interfaz de usuario. La **entrada Code** corresponde al número de verbo pasado en el método [IMAPIForm::D oVerb.](imapiform-doverb.md) Sintaxis de **[Verb.** _string_ **]** section es: 
   
  **[Verbo.** _string_ **]**
   
  **DisplayName**  =   _cadena mostrada_
   
- **Código**  =   _integer_
+ **Código**  =   _entero_
   
- **Flags**  =   _integer_
+ **Marcas**  =   _entero_
   
- **Attribs**  =   _integer_
+ **Attribs**  =   _entero_
   
-A continuación se muestra un ejemplo **de un [Verbo.** _string_ **]** section. 
+A continuación se muestra un ejemplo **de un [Verb.** _string_ **]** section. 
   
 ```cpp
 [Verb.1]
@@ -64,6 +64,6 @@ Attribs=2
 
 ```
 
-Los verbos enumerados en esta sección los recupera un cliente mediante el método [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md). Los verbos se activan llamando al método [IMAPIForm::D oVerb](imapiform-doverb.md) del formulario y pasando el número de código del verbo que se va a realizar. 
+Los verbos enumerados en esta sección los recupera un cliente mediante el [método IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md). Los verbos se activan llamando al método [IMAPIForm::D oVerb](imapiform-doverb.md) del formulario y pasando el número de código del verbo que se va a realizar. 
   
 

@@ -41,7 +41,7 @@ typedef struct _SBitMaskRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **relBMR**
   
@@ -49,11 +49,11 @@ typedef struct _SBitMaskRestriction
     
 BMR_EQZ 
   
-> Realice una operación **AND** bit a bit de la máscara en el miembro **ulMask** con la propiedad representada por el miembro **ulPropTag** y compruebe que sea igual a cero. 
+> Realice una operación AND bit a **bit** de la máscara en el **miembro ulMask** con la propiedad representada por el **miembro ulPropTag** y compruebe si es igual a cero. 
     
 BMR_NEZ 
   
-> Realice una operación **AND** bit a bit de la máscara en el miembro **ulMask** con la propiedad representada por el miembro **ulPropTag** y compruebe que no sea igual a cero. 
+> Realice una operación AND bit a **bit** de la máscara en el **miembro ulMask** con la propiedad representada por el **miembro ulPropTag** y compruebe que no sea igual a cero. 
     
  **ulPropTag**
   
@@ -65,11 +65,11 @@ BMR_NEZ
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura SBitMaskRestriction** realiza una operación **AND** bit a bit mediante la máscara de bits descrita en el miembro **ulMask** y el valor de la propiedad descrita por el miembro **ulPropTag.** Si el resultado es cero, BMR_EQZ se cumple. Si es distinto de cero, es decir, si el valor de la propiedad tiene al menos uno de los mismos bits establecidos que **ulMask**, entonces BMR_NEZ se cumple.
+La **estructura SBitMaskRestriction** realiza una operación **AND** bit a bit con la máscara de bits descrita en el **miembro ulMask** y el valor de la propiedad descrita por el miembro **ulPropTag.** Si el resultado es cero, BMR_EQZ se cumple. Si es distinto de cero, es decir, si el valor de la propiedad tiene al menos uno de los mismos bits establecidos como **ulMask**, BMR_NEZ se cumple.
   
-Para obtener más información acerca **de la estructura SBitMaskRestriction** y las restricciones en general, consulta [Acerca de las restricciones](about-restrictions.md).
+Para obtener más información acerca de **la estructura de SBitMaskRestriction** y las restricciones en general, vea [About Restrictions](about-restrictions.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

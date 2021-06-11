@@ -21,7 +21,7 @@ ms.locfileid: "33417353"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una tabla de carpetas de recepción contiene información de todas las carpetas designadas como carpetas de recepción para un almacén de mensajes. Una carpeta de recepción es una carpeta donde se colocan los mensajes entrantes de una clase de mensaje determinada. Los proveedores de almacén de mensajes implementan tablas de carpetas de recepción y las aplicaciones cliente las usan mediante una llamada al método [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
+Una tabla de carpetas de recepción contiene información sobre todas las carpetas designadas como carpetas de recepción para un almacén de mensajes. Una carpeta de recepción es una carpeta donde se colocan los mensajes entrantes de una clase de mensaje determinada. Los proveedores de almacén de mensajes implementan tablas de carpetas de recepción y las aplicaciones cliente las usan mediante una llamada al método [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
   
 Las siguientes propiedades son la columna necesaria establecida en las tablas de carpetas de recepción:
   
@@ -31,7 +31,7 @@ Las siguientes propiedades son la columna necesaria establecida en las tablas de
   
  **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

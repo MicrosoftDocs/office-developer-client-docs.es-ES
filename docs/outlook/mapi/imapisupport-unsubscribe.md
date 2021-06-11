@@ -25,7 +25,7 @@ ms.locfileid: "33421217"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela la responsabilidad de enviar notificaciones establecidas anteriormente con una llamada al método [IMAPISupport::Subscribe.](imapisupport-subscribe.md) 
+Cancela la responsabilidad de enviar notificaciones establecidas anteriormente con una llamada al [método IMAPISupport::Subscribe.](imapisupport-subscribe.md) 
   
 ```cpp
 HRESULT Unsubscribe(
@@ -33,11 +33,11 @@ ULONG ulConnection
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [entrada] El número de conexión distinto de cero que representa el registro de notificación previamente establecido a través de **IMAPISupport::Subscribe**.
+> [in] Número de conexión distinto de cero que representa el registro de notificación establecido anteriormente a través de **IMAPISupport::Subscribe**.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,11 +51,11 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::Unsubscribe** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios llaman a **Unsubscribe** para cancelar un registro de notificación previamente configurado por **Subscribe**. **Cancelar** la suscripción cancela el registro liberando el puntero del receptor de aviso pasado en la llamada **de suscripción.** 
+El **método IMAPISupport::Unsubscribe** se implementa para todos los objetos de soporte del proveedor de servicios. Los proveedores de servicios llaman a **Unsubscribe** para cancelar un registro de notificación configurado anteriormente por **Subscribe**. **Cancelar** suscripción cancela el registro liberando el puntero del receptor de aviso pasado en la **llamada suscribirse.** 
   
-Por lo general, se llama al método **IUnknown::Release** del receptor de avisos durante la llamada **de cancelación de** suscripción. Sin embargo, si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el objeto receptor de aviso, la llamada **release** se retrasa hasta que el método **OnNotify** devuelve. 
+Por lo general, se llama al método **IUnknown::Release** del receptor de avisos durante la llamada **cancelar** suscripción. Sin embargo, si otro subproceso está en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el objeto receptor advise, la llamada **Release** se retrasa hasta que el método **OnNotify** devuelve. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

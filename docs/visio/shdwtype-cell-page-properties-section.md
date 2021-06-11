@@ -22,9 +22,9 @@ Indica el tipo de sombra predeterminado para una página.
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 1   <br/> | Simple  <br/> |**visFSTSimple** <br/> |
-| 2   <br/> | Oblicua  <br/> |**visFSTOblique** <br/> |
-|3   <br/> |Interno  <br/> |**visFSTInner** <br/> |
+| 1  <br/> | Simple  <br/> |**visFSTSimple** <br/> |
+| 2  <br/> | Oblicua  <br/> |**visFSTOblique** <br/> |
+|3  <br/> |Interno  <br/> |**visFSTInner** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

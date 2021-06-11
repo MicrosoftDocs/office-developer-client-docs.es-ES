@@ -44,9 +44,9 @@ BOUNDINGBOXRECT(** *Index* ** )
 |**Elemento**|**Valor**|
 |:-----|:-----|
 |Borde izquierdo  <br/> |0  <br/> |
-|Borde derecho  <br/> |1   <br/> |
-|Borde superior  <br/> |2   <br/> |
-|Borde inferior  <br/> |3   <br/> |
+|Borde derecho  <br/> |1  <br/> |
+|Borde superior  <br/> |2  <br/> |
+|Borde inferior  <br/> |3  <br/> |
    
 Si la forma tiene un elemento primario, el valor devuelto se encuentra en el sistema de coordenadas de ese elemento primario.
   

@@ -22,9 +22,9 @@ Contiene el nombre del revisor de un documento.
   
 ## <a name="remarks"></a>Comentarios
 
- Este valor predeterminado es el  nombre que se encuentra en el cuadro Nombre de usuario de la ficha **General** del cuadro de diálogo Opciones de **Visio** (haga clic en la ficha Archivo, en Opciones y, a continuación, en **General).**  
+ Este valor predeterminado es el  nombre que se encuentra en el cuadro Nombre de usuario de la ficha **General** del cuadro de diálogo Opciones de Visio (haga clic en la pestaña Archivo, en Opciones y, **a** continuación, en **General**).  
   
-Para obtener una referencia a la celda Name por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** utilice: 
+Para obtener una referencia a la celda Name por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|

@@ -20,7 +20,7 @@ Notifica al cliente los cambios realizados en la cuenta especificada.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulta [IOlkAccountNotify](iolkaccountnotify.md).
+Vea [IOlkAccountNotify](iolkaccountnotify.md).
   
 ```cpp
 HRESULT IOlkAccount::Notify(  
@@ -31,11 +31,11 @@ HRESULT IOlkAccount::Notify(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwNotify_
   
-> [entrada] El tipo de notificación. El valor debe ser uno de los siguientes:
+> [in] El tipo de notificación. El valor debe ser uno de los siguientes:
     
    - NOTIFY_ACCT_CHANGED 
     
@@ -49,17 +49,17 @@ _dwNotify_
     
  _dwAcctID_
   
-> [entrada] El identificador de cuenta de la cuenta que se ha creado, cambiado, eliminado o eliminado previamente.
+> [in] El identificador de cuenta de la cuenta que se ha creado, modificado, eliminado o eliminado previamente.
     
  _dwFlags_
   
->  [entrada] No se usa. OLK_ACCOUNT_NO_FLAGS es el único valor admitido. 
+>  [in] No se usa. OLK_ACCOUNT_NO_FLAGS es el único valor admitido. 
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager](iolkaccountmanager.md)

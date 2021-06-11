@@ -21,7 +21,7 @@ ms.locfileid: "33422064"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para poder comunicarse con proveedores de servicios y un sistema de mensajería subyacente, debe establecer una sesión. Una sesión MAPI es un vínculo de un cliente a otros componentes MAPI. Como resultado de iniciar correctamente una sesión, MAPI devuelve a los clientes un puntero a un objeto de sesión, un objeto que implementa la interfaz **IMAPISession.** Para obtener más información, [vea IMAPISession : IUnknown](imapisessioniunknown.md). Puede usar los métodos de la interfaz **IMAPISession** para obtener acceso a los objetos de los proveedores de libreta de direcciones y almacén de mensajes, obtener acceso a varias tablas, mostrar formularios, establecer propiedades del proveedor de transporte y realizar la administración de perfiles y servicios de mensajes. 
+Para poder comunicarse con proveedores de servicios y un sistema de mensajería subyacente, debe establecer una sesión. Una sesión MAPI es un vínculo de un cliente a otros componentes MAPI. Como resultado de iniciar correctamente una sesión, MAPI devuelve a los clientes un puntero a un objeto de sesión, un objeto que implementa la **interfaz IMAPISession.** Para obtener más información, [vea IMAPISession : IUnknown](imapisessioniunknown.md). Puede usar los métodos de la interfaz **IMAPISession** para obtener acceso a los objetos de los proveedores de libreta de direcciones y almacén de mensajes, acceder a varias tablas, mostrar formularios, establecer propiedades del proveedor de transporte y realizar la administración del servicio de mensajes y perfiles. 
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -35,9 +35,9 @@ Para poder comunicarse con proveedores de servicios y un sistema de mensajería 
     
 [Acceso a objetos mediante el uso de la sesión](accessing-objects-by-using-the-session.md)
   
-> Describe cómo usar un puntero de sesión para tener acceso a objetos de sesión.
+> Describe cómo usar un puntero de sesión para obtener acceso a objetos de sesión.
     
-[Recuperación de identidad principal y de proveedor](retrieving-primary-and-provider-identity.md)
+[Recuperación de la identidad principal y del proveedor](retrieving-primary-and-provider-identity.md)
   
 > Describe las propiedades usadas para recuperar la identidad principal y del proveedor.
     

@@ -22,8 +22,8 @@ ms.locfileid: "33421056"
 
 - [Acción de macro GoToControl (aplicación web de Access)](gotocontrol-macro-action-access-custom-web-app.md)
     
-- [Acción de macro IrARegistro (aplicación web personalizada de Access)](gotorecord-macro-action-access-custom-web-app.md)
+- [Acción de macro GoToRecord (aplicación web personalizada de Access)](gotorecord-macro-action-access-custom-web-app.md)
     
-- [EstablecerPropiedad (acción de macro) (aplicación web personalizada de Access)](setproperty-macro-action-access-custom-web-app.md)
+- [Acción de macro SetProperty (aplicación web personalizada de Access)](setproperty-macro-action-access-custom-web-app.md)
     
 

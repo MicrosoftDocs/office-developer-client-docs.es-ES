@@ -25,7 +25,7 @@ ms.locfileid: "33420671"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si un agente de transferencia de mensajes (MTA) no puede realizar conversiones implícitas de texto de mensaje.
+Contiene TRUE si se prohíbe que un agente de transferencia de mensajes (MTA) haga conversiones implícitas de texto de mensajes.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene TRUE si un agente de transferencia de mensajes (MTA) no puede realizar 
    
 ## <a name="remarks"></a>Comentarios
 
-Si esta propiedad es TRUE, el sistema de mensajería no debe realizar ninguna conversión de contenido en el mensaje a menos que se solicite explícitamente para cada destinatario con la propiedad **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
+Si esta propiedad es TRUE, el sistema de mensajería no debe realizar ninguna conversión de contenido en el mensaje a menos que se solicite explícitamente por destinatario con la propiedad **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

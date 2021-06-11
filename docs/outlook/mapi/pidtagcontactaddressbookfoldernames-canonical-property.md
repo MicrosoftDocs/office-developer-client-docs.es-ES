@@ -25,7 +25,7 @@ ms.locfileid: "33420125"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los nombres de las carpetas de contactos donde se mantienen los usuarios de correo.
+Contiene los nombres de las carpetas contactos donde se mantienen los usuarios de correo.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene los nombres de las carpetas de contactos donde se mantienen los usuario
    
 ## <a name="remarks"></a>Comentarios
 
-Estas son las propiedades de una sección de perfil de libreta de direcciones de contactos.
+Estas son propiedades de una sección de perfil de libreta de direcciones de contactos.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

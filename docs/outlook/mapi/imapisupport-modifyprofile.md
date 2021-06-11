@@ -25,7 +25,7 @@ ms.locfileid: "33419992"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Realiza cambios permanentes en una sección de perfil de almacén de mensajes.
+Hace que los cambios en una sección de perfil de almacén de mensajes se realicen de forma permanente.
   
 ```cpp
 HRESULT ModifyProfile(
@@ -33,11 +33,11 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que indica el tipo de almacén de mensajes. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que indica el tipo de almacén de mensajes. Se puede establecer la siguiente marca:
     
 MDB_TEMPORARY 
   
@@ -51,13 +51,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::ModifyProfile** se implementa para objetos de compatibilidad del proveedor de al almacenamiento de mensajes. Los proveedores del almacén de mensajes **llaman a ModifyProfile** para solicitar a MAPI que modifique su información de perfil. 
+El **método IMAPISupport::ModifyProfile** se implementa para objetos de soporte del proveedor del almacén de mensajes. Los proveedores de almacén de mensajes **llaman a ModifyProfile** para solicitar a MAPI que modifique su información de perfil. 
   
- **ModifyProfile** agrega la sección de perfil asociada con el proveedor de llamadas a la lista de recursos del proveedor de almacenamiento de mensajes instalados. Esto hace que el almacén de mensajes aparezca en la tabla del almacén de mensajes, que está disponible para los clientes a través del método [IMAPISession::GetMsgStoresTable,](imapisession-getmsgstorestable.md) y se abre sin mostrar un cuadro de diálogo. 
+ **ModifyProfile** agrega la sección de perfil que está asociada con el proveedor de llamadas a la lista de recursos de proveedor de almacén de mensajes instalados. Esto hace que el almacén de mensajes aparezca en la tabla del almacén de mensajes, que está disponible para los clientes a través del método [IMAPISession::GetMsgStoresTable,](imapisession-getmsgstorestable.md) y que se abra sin mostrar un cuadro de diálogo. 
   
-Si se MDB_TEMPORARY marca, MAPI no hace nada y el método vuelve inmediatamente con S_OK.
+Si se MDB_TEMPORARY marca, MAPI no hace nada y el método devuelve inmediatamente con S_OK.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

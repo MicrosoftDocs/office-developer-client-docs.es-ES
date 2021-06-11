@@ -36,7 +36,7 @@ Contiene una lista de estructuras [MAPIUID](mapiuid.md) que identifican seccione
    
 ## <a name="remarks"></a>Comentarios
 
-Se pueden crear nuevas secciones de perfil para cada filtro de mensajes. Cuando la información sobre el servicio de mensajes se va a copiar a otro perfil, es importante copiar también las secciones de perfil adicionales para los filtros. Un proveedor de servicios que usa secciones de perfil adicionales puede almacenar las estructuras **MAPIUID** de esas secciones de perfil en **PR_SERVICE_EXTRA_UIDS**, lo que permite a MAPI copiar la información adicional del servicio de mensajes.
+Se pueden crear nuevas secciones de perfil para cada filtro de mensajes. Cuando la información sobre el servicio de mensajes se va a copiar en otro perfil, es importante copiar también las secciones de perfil adicionales para los filtros. Un proveedor de servicios que usa secciones de perfil adicionales puede almacenar las estructuras **MAPIUID** de esas secciones de perfil en **PR_SERVICE_EXTRA_UIDS**, lo que permite a MAPI copiar la información adicional del servicio de mensajes.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

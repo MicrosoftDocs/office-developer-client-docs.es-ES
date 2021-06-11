@@ -30,20 +30,20 @@ Realiza operaciones en los mensajes y subcarpetas de una carpeta.
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Expuesto por:  <br/> |Objetos folder  <br/> |
-|Implementado por:  <br/> |Proveedores de al almacenamiento de mensajes  <br/> |
+|Expuesto por:  <br/> |Objetos Folder  <br/> |
+|Implementado por:  <br/> |Proveedores de almacén de mensajes  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIFolder  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIFOLDER  <br/> |
-|Modelo de transacción:  <br/> |Notransacted  <br/> |
+|Modelo de transacciones:  <br/> |No transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[CreateMessage](imapifolder-createmessage.md) <br/> |Crea un mensaje nuevo.  <br/> |
-|[CopyMessages](imapifolder-copymessages.md) <br/> |Copia o mueve uno o más mensajes.  <br/> |
-|[DeleteMessages](imapifolder-deletemessages.md) <br/> |Elimina uno o más mensajes.  <br/> |
+|[CopyMessages](imapifolder-copymessages.md) <br/> |Copia o mueve uno o varios mensajes.  <br/> |
+|[DeleteMessages](imapifolder-deletemessages.md) <br/> |Elimina uno o varios mensajes.  <br/> |
 |[CreateFolder](imapifolder-createfolder.md) <br/> |Crea una subcarpeta nueva.  <br/> |
 |[CopyFolder](imapifolder-copyfolder.md) <br/> |Copia o mueve una subcarpeta.  <br/> |
 |[DeleteFolder](imapifolder-deletefolder.md) <br/> |Elimina una subcarpeta.  <br/> |
@@ -64,7 +64,7 @@ Realiza operaciones en los mensajes y subcarpetas de una carpeta.
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

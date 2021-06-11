@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251471
 localization_priority: Normal
 ms.assetid: ff59ab04-a589-cf9e-db3b-20658a7dffdc
-description: Abre un documento de Microsoft Visio, si aún no está abierto, y activa la ventana del documento.
+description: Abre un documento Visio microsoft, si aún no está abierto, y activa la ventana del documento.
 ms.openlocfilehash: 5a89a658e560d144007ec19796de82b9949bea82
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33419579"
 ---
 # <a name="openfile-function"></a>Función OPENFILE
 
-Abre un documento de Microsoft Visio, si aún no está abierto, y activa la ventana del documento.
+Abre un documento Visio microsoft, si aún no está abierto, y activa la ventana del documento.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -28,7 +28,7 @@ Abre un documento de Microsoft Visio, si aún no está abierto, y activa la vent
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _filename_ <br/> |Obligatorio  <br/> |**String** <br/> |El nombre del archivo, incluida la ruta de acceso del archivo, que desea abrir.  <br/> |
+| _filename_ <br/> |Obligatorio  <br/> |**String** <br/> |Nombre del archivo, incluida la ruta de acceso de archivo, que desea abrir.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

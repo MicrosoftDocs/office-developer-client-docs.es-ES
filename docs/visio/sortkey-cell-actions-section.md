@@ -31,7 +31,7 @@ Para obtener una referencia a la celda SortKey por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Acciones. *nombre*  . SortKeywhere Actions.  *es*  el nombre de la fila Actions  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*  . SortKeywhere Actions.  *nombre*  es el nombre de la fila Acciones  <br/> |
    
 Para obtener una referencia desde un programa a la celda SortKey por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

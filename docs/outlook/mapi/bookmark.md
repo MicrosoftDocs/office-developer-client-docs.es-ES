@@ -54,7 +54,7 @@ BOOKMARK_END
     
 Los clientes pueden crear otros marcadores para recordar otras posiciones de tabla. Los marcadores solo son válidos cuando la tabla está abierta. Los clientes deben liberar los marcadores que han creado antes de cerrar la tabla asociada. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

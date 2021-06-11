@@ -29,11 +29,11 @@ Un marcador es un recurso que indica una ubicación determinada en una tabla. Es
 |BOOKMARK_BEGINNING  <br/> |Apunta a la primera fila de una tabla.  <br/> |
 |BOOKMARK_END  <br/> |Apunta a la última fila de una tabla.  <br/> |
    
-Los implementadores de tablas son necesarios para admitir estos marcadores estándar y también pueden admitir otros. Sin embargo, dado que los marcadores son recursos y recursos limitados, los usuarios de marcadores deben liberarlos lo antes posible. 
+Los implementadores de tablas son necesarios para admitir estos marcadores estándar y también pueden admitir otros. Sin embargo, como los marcadores son recursos y los recursos son limitados, los usuarios de marcadores deben liberarlos tan pronto como sea posible. 
   
  **Para establecer un marcador en la posición actual de la tabla**
   
-- Llame [a IMAPITable::CreateBookmark](imapitable-createbookmark.md). En ocasiones, no habrá memoria suficiente disponible para asignar el nuevo marcador, lo que provoca que **CreateBookmark** devuelva el MAPI_E_UNABLE_TO_COMPLETE error. 
+- Llame [a IMAPITable::CreateBookmark](imapitable-createbookmark.md). En ocasiones, no habrá suficiente memoria disponible para asignar el nuevo marcador, lo que hace que **CreateBookmark** devuelva el MAPI_E_UNABLE_TO_COMPLETE error. 
     
  **Para liberar un marcador**
   
@@ -41,9 +41,9 @@ Los implementadores de tablas son necesarios para admitir estos marcadores está
     
  **Para mover el cursor a una posición marcada**
   
-- Llame [a IMAPITable::SeekRow](imapitable-seekrow.md). **SeekRow** establece un nuevo valor para la BOOKMARK_CURRENT búsqueda. **SeekRow** puede usarse, por ejemplo, para colocar una tabla de diez filas desde la posición actual o para empezar de nuevo al principio. Los clientes o proveedores de servicios pueden buscar el actual, el principio o el final de una tabla, o cualquier otra posición asociada a un marcador predefinido. Pueden moverse en dirección hacia delante o hacia atrás y limitar la operación a un número especificado de filas. Como regla general, los autores de llamadas no deben buscar más de 50 filas con **SeekRow**; [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) debe usarse con un número mayor de filas. 
+- Llame [a IMAPITable::SeekRow](imapitable-seekrow.md). **SeekRow** establece un nuevo valor para la BOOKMARK_CURRENT posición. **SeekRow** se puede usar, por ejemplo, para colocar una tabla de diez filas desde la posición actual o para empezar de nuevo al principio. Los clientes o proveedores de servicios pueden buscar el marcador actual, inicial o final de una tabla, o cualquier otra posición asociada a un marcador predefinido. Pueden moverse en una dirección hacia delante o hacia atrás y limitar la operación a un número especificado de filas. Como regla general, los autores de llamadas deben buscar a través de no más de 50 filas con **SeekRow**; [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) debe usarse con un número mayor de filas. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

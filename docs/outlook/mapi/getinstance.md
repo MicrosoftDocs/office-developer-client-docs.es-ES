@@ -41,19 +41,19 @@ VOID GetInstance(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pvalMv_
   
-> [entrada] Puntero a una [estructura SPropValue](spropvalue.md) que define una propiedad multivalor. 
+> [in] Puntero a una [estructura SPropValue](spropvalue.md) que define una propiedad multivalor. 
     
  _pvalSv_
   
-> [entrada] Puntero a una propiedad de un solo valor para recibir datos. 
+> [in] Puntero a una propiedad de un solo valor para recibir datos. 
     
  _uliInst_
   
-> [entrada] El número de instancia, es decir, el elemento de matriz, del valor que se copia de la estructura indicada por el _parámetro pvalMv._ 
+> [in] El número de instancia, es decir, el elemento de matriz, del valor que se copia de la estructura indicada por el _parámetro pvalMv._ 
     
 ## <a name="return-value"></a>Valor devuelto
 

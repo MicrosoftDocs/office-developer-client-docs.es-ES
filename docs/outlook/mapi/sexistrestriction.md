@@ -25,7 +25,7 @@ ms.locfileid: "33418942"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción existente que se usa para probar si una propiedad determinada existe como una columna de la tabla. 
+Describe una restricción existente que se usa para probar si una propiedad determinada existe como columna en la tabla. 
   
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ typedef struct _SExistRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulReserved1**
   
@@ -49,7 +49,7 @@ typedef struct _SExistRestriction
     
  **ulPropTag**
   
-> Etiqueta de propiedad que identifica la columna que se va a probar para comprobar su existencia en cada fila.
+> Etiqueta de propiedad que identifica la columna que se va a probar para la existencia en cada fila.
     
  **ulReserved2**
   
@@ -57,13 +57,13 @@ typedef struct _SExistRestriction
     
 ## <a name="remarks"></a>Comentarios
 
-La restricción existente se usa para garantizar resultados significativos para otros tipos de restricciones que implican propiedades, como restricciones de propiedad y contenido. Cuando una restricción que implica una propiedad se pasa a [IMAPITable::Restrict](imapitable-restrict.md) o [IMAPITable::FindRow](imapitable-findrow.md) y la propiedad no existe, los resultados de la restricción son indefinidos. Al crear una **restricción AND** que une la restricción de propiedad con una restricción existente, se pueden garantizar resultados precisos al autor de la llamada. 
+La restricción exist se usa para garantizar resultados significativos para otros tipos de restricciones que implican propiedades, como las restricciones de propiedades y contenido. Cuando una restricción que implica una propiedad se pasa a [IMAPITable::Restrict](imapitable-restrict.md) o [IMAPITable::FindRow](imapitable-findrow.md) y la propiedad no existe, los resultados de la restricción son indefinidos. Al crear una **restricción AND** que une la restricción de propiedad con una restricción existente, se puede garantizar a un autor de la llamada resultados precisos. 
   
-Las restricciones existentes no se pueden usar con propiedades de subelementos que tengan propiedades de tipo PT_OBJECT. 
+Las restricciones existentes no se pueden usar con propiedades de sub object que tengan PT_OBJECT. 
   
 Para obtener más información acerca **de la estructura SExistRestriction,** vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Sintaxis de secuencia TNEF
+title: Sintaxis de secuencia de TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423030"
 ---
-# <a name="tnef-stream-syntax"></a>Sintaxis de secuencia TNEF
+# <a name="tnef-stream-syntax"></a>Sintaxis de secuencia de TNEF
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En este tema se presenta una Bakus-Nauer como la descripción de la sintaxis de secuencia TNEF. En esta descripción, los elementos noterminales que tienen una definición adicional están en cursiva. Las constantes y los elementos literales están en negrita. Las secuencias de elementos se enumeran en orden en una sola línea. Por ejemplo, el  _elemento Stream_ consta de la constante **TNEF_SIGNATURE**, seguida de  _una tecla_, seguida de un objeto  _Object_. Cuando un elemento tiene más de una implementación posible, las alternativas se enumeran en líneas consecutivas. Por ejemplo, un _objeto puede_ constar de  un Message_Seq _,_ un Message_Seq seguido de un _Attach_Seq_ o simplemente un _Attach_Seq_.
+En este tema se presenta Bakus-Nauer descripción de la sintaxis de secuencia de TNEF. En esta descripción, los elementos noterminales que tienen una definición adicional están en cursiva. Las constantes y los elementos literales están en negrita. Las secuencias de elementos se enumeran en orden en una sola línea. Por ejemplo, el  _elemento Stream_ consta de la constante **TNEF_SIGNATURE**, seguido de  _una tecla_, seguida de un objeto  _Object_. Cuando un elemento tiene más de una implementación posible, las alternativas se enumeran en líneas consecutivas. Por ejemplo, un _objeto Object_ puede consistir  en un Message_Seq _,_ un Message_Seq seguido de un _Attach_Seq_, o simplemente un _Attach_Seq_.
   
  _TNEF_Stream:_
   
@@ -29,9 +29,9 @@ En este tema se presenta una Bakus-Nauer como la descripción de la sintaxis de 
     
  _Clave:_
   
-> un entero sin signo de 16 bits distinto de cero
+> un entero sin signo distinto de cero de 16 bits
     
-Los transportes habilitados para TNEF generan este valor antes de usar la implementación de TNEF para generar una secuencia TNEF.
+Los transportes habilitados para TNEF generan este valor antes de usar la implementación de TNEF para generar una secuencia de TNEF.
   
  _Objeto:_
   
@@ -39,15 +39,15 @@ Los transportes habilitados para TNEF generan este valor antes de usar la implem
     
  _Message_Seq:_
   
->  _attTnefVersion attTnefVersion Msg_Attribute_Seq attTnefVersion attMessageClass attTnefVersion attMessageClass Msg_Attribute_Seq attMessageClass attMessageClass Msg_Attribute_Seq Msg_Attribute_Seq_
+>  _attTnefVersion attTnefVersion Msg_Attribute_Seq attTnefVersion attMessageClass attTNefVersion attMessageClass Msg_Attribute_Seq attMessageClass attMessageClass Msg_Attribute_Seq Msg_Attribute_Seq_
     
  _attTnefVersion:_
   
-> LVL_MESSAGE suma de comprobación de 0x00010000 **attTnefVersion sizeof(ULONG)**  
+> **LVL_MESSAGE attTnefVersion sizeof(ULONG) 0x00010000** suma **de** comprobación 
     
  _attMessageClass:_
   
-> **LVL_MESSAGE suma de comprobación msg_class_length msg_class attMessageClass**  
+> **LVL_MESSAGE attMessageClass msg_class_length msg_class** _suma_ de comprobación 
     
  _Msg_Attribute_Seq:_
   
@@ -57,7 +57,7 @@ Los transportes habilitados para TNEF generan este valor antes de usar la implem
   
 > **LVL_MESSAGE** suma de comprobación de atributo-ID de atributo-longitud de atributo-datos 
     
-Attribute-ID es uno de los identificadores de atributo TNEF, como **attSubject**. La longitud del atributo es la longitud en bytes de los datos del atributo. Los datos de atributo son los datos asociados con el atributo.
+Attribute-ID es uno de los identificadores de atributo TNEF, como **attSubject**. La longitud de atributo es la longitud en bytes de los datos de atributo. Attribute-data es los datos asociados con el atributo.
   
  _Attach_Seq:_
   
@@ -65,7 +65,7 @@ Attribute-ID es uno de los identificadores de atributo TNEF, como **attSubject**
     
  _attRenddata:_
   
-> **LVL_ATTACHMENT suma de comprobación de renddata attRenddata** **sizeof(RENDDATA)** 
+> **LVL_ATTACHMENT attRenddata** **sizeof(RENDDATA)** renddata checksum 
     
 Renddata es los datos asociados a la **estructura RENDDATA** que contiene la información de representación de los datos adjuntos correspondientes. La **estructura RENDDATA** se define en el TNEF. Archivo de encabezado H. 
   
@@ -77,6 +77,6 @@ Renddata es los datos asociados a la **estructura RENDDATA** que contiene la inf
   
 > **LVL_ATTACHMENT** suma de comprobación de atributo-ID de atributo-longitud de atributo-datos 
     
-Los datos de atributo-id, longitud de atributo y atributo tienen los mismos significados que para el Msg_Attribute atributo.
+Attribute-ID, attribute-length y attribute-data tienen los mismos significados que para el elemento Msg_Attribute atributo.
   
 

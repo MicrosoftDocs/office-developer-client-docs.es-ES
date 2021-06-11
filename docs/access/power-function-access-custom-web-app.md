@@ -30,6 +30,6 @@ La **función Power** contiene los argumentos siguientes.
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *NumericExpression*  <br/> |Expresión numérica.  <br/> |
-| *Potencia*  <br/> |Potencia a la que se va a  *generar NumericExpression*  .  <br/> |
+| *Potencia*  <br/> |La potencia a la que se debe  *generar NumericExpression*  .  <br/> |
    
 

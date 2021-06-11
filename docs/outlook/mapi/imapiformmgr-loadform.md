@@ -43,15 +43,15 @@ HRESULT LoadForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana primaria del indicador de progreso que se muestra mientras se abre el formulario. El _parámetro ulUIParam_ se omite a menos que MAPI_DIALOG marca esté establecida en el _parámetro ulFlags._ 
+> [in] Identificador de la ventana principal del indicador de progreso que se muestra mientras se abre el formulario. El _parámetro ulUIParam_ se omite a menos que MAPI_DIALOG marca esté establecida en el _parámetro ulFlags._ 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se abre el formulario. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se abre el formulario. Se pueden establecer las siguientes marcas:
     
 MAPI_DIALOG 
   
@@ -59,39 +59,39 @@ MAPI_DIALOG
     
 MAPIFORM_EXACTMATCH 
   
-> Solo deben resolverse las cadenas de clase de mensaje que sean una coincidencia exacta.
+> Solo se deben resolver las cadenas de clase de mensaje que sean una coincidencia exacta.
     
  _lpszMessageClass_
   
-> [entrada] Puntero a una cadena que nombra la clase de mensaje del mensaje que se va a cargar. Si se pasa NULL en el parámetro _lpszMessageClass,_ la clase de mensaje se determina a partir del mensaje al que apunta el _parámetro pmsg._ 
+> [in] Puntero a una cadena que nombra la clase de mensaje del mensaje que se va a cargar. Si se pasa NULL en el parámetro _lpszMessageClass,_ la clase de mensaje se determina a partir del mensaje al que apunta el _parámetro pmsg._ 
     
  _ulMessageStatus_
   
-> [entrada] Máscara de bits de indicadores definidos por el cliente o definidos por el proveedor copiados de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje que proporciona información sobre el estado del mensaje. El _parámetro ulMessageStatus_ debe establecerse si _lpszMessageClass_ no es NULL; de lo contrario, se omite _ulMessageStatus._ 
+> [in] Máscara de bits de marcas definidas por el cliente o definidas por el proveedor copiadas de la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje que proporciona información sobre el estado del mensaje. El _parámetro ulMessageStatus_ debe establecerse _si lpszMessageClass_ no es NULL; de lo contrario, se omite _ulMessageStatus._ 
     
  _ulMessageFlags_
   
-> [entrada] Puntero a una máscara de bits de marcas copiadas de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje que indica el estado actual del mensaje. El _parámetro ulMessageFlags_ debe establecerse _si lpszMessageClass_ no es NULL; de lo contrario, _se omite ulMessageFlags._ 
+> [in] Puntero a una máscara de bits de marcas copiadas de la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje que indica el estado actual del mensaje. El _parámetro ulMessageFlags_ debe establecerse si _lpszMessageClass_ no es NULL; de lo contrario, se omite _ulMessageFlags._ 
     
  _pFolderFocus_
   
-> [entrada] Puntero a la carpeta que contiene directamente el mensaje. El  _parámetro pFolderFocus_ puede ser NULL si dicha carpeta no existe (por ejemplo, si el mensaje está incrustado en otro mensaje). 
+> [in] Puntero a la carpeta que contiene directamente el mensaje. El  _parámetro pFolderFocus_ puede ser NULL si dicha carpeta no existe (por ejemplo, si el mensaje está incrustado en otro mensaje). 
     
  _pMessageSite_
   
-> [entrada] Puntero al sitio del mensaje.
+> [in] Puntero al sitio del mensaje.
     
  _pmsg_
   
-> [entrada] Puntero al mensaje.
+> [in] Puntero al mensaje.
     
  _pViewContext_
   
-> [entrada] Puntero al contexto de vista del mensaje. El  _parámetro pViewContext_ puede ser NULL. 
+> [in] Puntero al contexto de vista del mensaje. El  _parámetro pViewContext_ puede ser NULL. 
     
  _riid_
   
-> [entrada] Identificador de interfaz (IID) de la interfaz que se va a usar para el objeto de formulario devuelto. El  _parámetro riid_ no debe ser NULL. 
+> [in] Identificador de interfaz (IID) de la interfaz que se usará para el objeto de formulario devuelto. El  _parámetro riid_ no debe ser NULL. 
     
  _ppvObj_
   
@@ -109,7 +109,7 @@ MAPI_E_NO_INTERFACE
     
 MAPI_E_NOT_FOUND 
   
-> La clase de mensaje pasada  _en lpszMessageClass_ no coincide con la clase de mensaje de ningún formulario de la biblioteca de formularios. 
+> La clase de mensaje pasada  _en lpszMessageClass_ no coincide con la clase de mensaje para ningún formulario de la biblioteca de formularios. 
     
 ## <a name="remarks"></a>Comentarios
 
@@ -119,7 +119,7 @@ El  _parámetro pFolderFocus_ apunta a la carpeta que contiene el mensaje. Si el
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si se pasa NULL en  _lpszMessageClass_, la implementación obtiene la clase de mensaje del mensaje, el estado y las marcas de las propiedades **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md) **),** PR_MSG_STATUS y **PR_MESSAGE_FLAGS** del mensaje. Si se proporciona una cadena de clase de mensaje  _en lpszMessageClass_, la implementación debe usar los valores  _de ulMessageStatus_ y  _ulMessageFlags_.
+Si se pasa NULL en  _lpszMessageClass_, la implementación obtiene la clase de mensaje, el estado y las marcas del mensaje de las propiedades **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md) **),** PR_MSG_STATUS y **PR_MESSAGE_FLAGS** mensaje. Si se proporciona una cadena de clase de mensaje en  _lpszMessageClass_, la implementación debe usar los valores  _de ulMessageStatus_ y  _ulMessageFlags_.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -129,7 +129,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa el **método IMAPIFormMgr::LoadForm** para cargar un formulario antes de mostrarlo.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

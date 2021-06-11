@@ -33,16 +33,16 @@ La documentación de cada interfaz consta de una sección introductoria que incl
 |Llamado por:  <br/> |Una lista de los componentes que normalmente llaman a los métodos de la interfaz.  <br/> |
 |Identificador de interfaz:  <br/> |GUID del identificador de interfaz.  <br/> |
 |Tipo de puntero:  <br/> |Tipo de puntero para el objeto que expone la interfaz.  <br/> |
-|Modelo de transacción:  <br/> |Para interfaces derivadas de [IMAPIProp](imapipropiunknown.md). Si no se transirán, los cambios se realizarán inmediatamente; si se realizan transacciones, los cambios no tienen efecto hasta que se llama a [IMAPIProp::SaveChanges.](imapiprop-savechanges.md)  <br/> |
+|Modelo de transacciones:  <br/> |Para interfaces derivadas de [IMAPIProp](imapipropiunknown.md). Si no se transduce, los cambios se realizarán inmediatamente; si se realiza una transacción, los cambios no tienen efecto hasta que se llama a [IMAPIProp::SaveChanges.](imapiprop-savechanges.md)  <br/> |
    
-Después de la primera tabla hay otra tabla que enumera todos los métodos de esta interfaz en orden de tabla virtual. Una tabla virtual es una matriz de punteros de función creada por el compilador que contiene un puntero de función para cada método de un objeto MAPI. Los métodos se enumeran en el mismo orden en que se declaran. Los métodos heredados de otras interfaces no se muestran en la tabla Orden de tabla virtual, pero se pueden usar de la misma manera que se documenta en la interfaz que los define.
+Después de la primera tabla hay otra tabla que enumera todos los métodos de esta interfaz en orden vtable. Una tabla virtual es una matriz de punteros de función creada por el compilador que contiene un puntero de función para cada método de un objeto MAPI. Los métodos se enumeran en el mismo orden en que se declaran. Los métodos heredados de otras interfaces no se muestran en la tabla Orden de tabla Vtable, pero se pueden usar de la misma manera que se documenta en la interfaz que las define.
   
-Después de cada tema de la interfaz, los métodos de la interfaz se documentan en orden alfabético. Para cada método, la documentación incluye una instrucción de propósito breve, un bloque de sintaxis y la siguiente información.
+Después de cada tema de interfaz, los métodos de la interfaz se documentan en orden alfabético. Para cada método, la documentación incluye una instrucción de propósito breve, un bloque de sintaxis y la siguiente información.
   
-|**Título**|**Contenido**|
+|**Título**|**Content**|
 |:-----|:-----|
-|Parámetros  <br/> |Descripción de cada parámetro del método.  <br/> |
-|Valor devuelto  <br/> |Descripción de los valores únicos que puede devolver el método. Estos son los valores que los autores de llamadas deben comprobar en su código.  <br/> |
+|Parameters  <br/> |Una descripción de cada parámetro del método.  <br/> |
+|Valor devuelto  <br/> |Una descripción de los valores únicos que el método puede devolver. Estos son los valores que los autores de llamadas deben comprobar en su código.  <br/> |
 |Comentarios  <br/> |Una descripción de por qué y cómo se usa el método.  <br/> |
 |Consulte también  <br/> |Referencias cruzadas a otros temas de esta referencia.  <br/> |
    

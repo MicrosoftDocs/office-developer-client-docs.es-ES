@@ -37,25 +37,25 @@ typedef struct
 } MAPIOFFLINE_ADVISEINFO;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
-_ulSize_: el tamaño de **MAPIOFFLINE_ADVISEINFO**. 
+_ulSize:_ el tamaño de **MAPIOFFLINE_ADVISEINFO**. 
     
-_ulClientToken:_ un token definido por el cliente sobre una devolución de llamada. Es el miembro *ulClientToken* de la **[estructura MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** a **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)**. 
+_ulClientToken:_ un token definido por el cliente acerca de una devolución de llamada. Es el *miembro ulClientToken* de la **[estructura MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** se pasa a **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)**. 
     
-_CallbackType_: tipo de devolución de llamada que se debe realizar.
+_CallbackType:_ tipo de devolución de llamada que se debe realizar.
     
    -  MAPIOFFLINE_CALLBACK_TYPE_NOTIFY 
     
-   - El tipo de devolución de llamada es por notificación. Este es el único tipo admitido de devolución de llamada.  *pCallback*  debe indicar la interfaz **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+   - El tipo de devolución de llamada es por notificación. Este es el único tipo de devolución de llamada admitido.  *pCallback*  debe indicar la interfaz **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
-_pCallback:_ interfaz que se usa para la devolución de llamada. Esta es la implementación del cliente de **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+_pCallback:_ interfaz que se usará para la devolución de llamada. Esta es la implementación del cliente de **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
 _ulAdviseTypes:_ los tipos de asesoramiento, identificados por la condición de asesoramiento. El único tipo admitido es MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
     
 _ulStateMask:_ el único estado admitido es MAPIOFFLINE_STATE_ALL.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 - [Información sobre la API de estado sin conexión](about-the-offline-state-api.md) 

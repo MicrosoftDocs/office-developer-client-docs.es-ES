@@ -25,7 +25,7 @@ ms.locfileid: "33422281"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Llama a una función interna para validar los parámetros de depuración en los métodos del proveedor de servicios llamados por MAPI. 
+Llama a una función interna para validar parámetros de depuración en métodos de proveedor de servicios a los que llama MAPI. 
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ HRESULT CheckParms(
 
  _eMethod_
   
-> [entrada] Especifica, por enumeración, el método que se debe validar. 
+> [in] Especifica, por enumeración, el método que se debe validar. 
     
  _Primero_
   
-> [entrada] Puntero al primer argumento de la pila.
+> [in] Puntero al primer argumento de la pila.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -58,6 +58,6 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-A diferencia de las macros [ValidateParms](validateparms.md) y [UlValidateParms,](ulvalidateparms.md) la macro **CheckParms** no realiza una validación de parámetros completa. Se supone que los parámetros pasados entre MAPI y los proveedores de servicios son correctos, por lo que **CheckParms** solo realiza una validación de depuración. 
+A diferencia de las macros [ValidateParms](validateparms.md) y [UlValidateParms,](ulvalidateparms.md) la macro **CheckParms** no realiza una validación completa de parámetros. Se supone que los parámetros pasados entre MAPI y los proveedores de servicios son correctos, por lo que **CheckParms** solo realiza una validación de depuración. 
   
 

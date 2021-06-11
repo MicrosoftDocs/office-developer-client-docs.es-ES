@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a897e812-08dc-49c9-954b-e8908a0daab3
-description: Devuelve el logaritmo natural o el logaritmo de la base especificada.
+description: Devuelve el logaritmo natural, o el logaritmo de la base determinada, de la expresión especificada.
 ms.openlocfilehash: e2cfd1cf4ad3c1bf44778737faa0f697333f5234
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33419299"
 ---
 # <a name="log-function-access-custom-web-app"></a>Función Log (aplicación web personalizada de Access)
 
-Devuelve el logaritmo natural o el logaritmo de la base especificada.
+Devuelve el logaritmo natural, o el logaritmo de la base determinada, de la expresión especificada.
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
@@ -29,8 +29,8 @@ La **función Log** contiene los argumentos siguientes.
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Número positivo para el que quieres el logaritmo.  <br/> |
-| *Base*  <br/> |Base del logaritmo. Si se omite, la **función Log** devuelve el logaritmo natural.  <br/> |
+| *NumericExpression*  <br/> |Número positivo para el que desea el logaritmo.  <br/> |
+| *Base*  <br/> |La base del logaritmo. Si se omite, la **función Log** devuelve el logaritmo natural.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

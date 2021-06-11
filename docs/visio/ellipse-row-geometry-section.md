@@ -25,11 +25,11 @@ Las filas Ellipse contienen las celdas siguientes.
 |**Cell**|**Descripción**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Coordenada  *x*  del punto central.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Coordenada y* del punto central.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |Coordenada x de un punto de la elipse; emparejado con  *coordenada y*  representada por la celda B.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |Coordenada  *y*  de un punto de la elipse; emparejado con coordenada x representada por la celda A.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |Coordenada  *x*  de otro punto de la elipse; emparejado con  *coordenada y*  representada por la celda D.  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |*Coordenada y* de otro punto de la elipse; emparejado con *coordenada y* representada por la celda C.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Coordenada  *y*  del punto central.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |Coordenada x de un punto en la elipse; emparejado con  *y*  -coordinate representado por la celda B.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |La coordenada  *y*  de un punto en la elipse; emparejado con una coordenada x representada por la celda A.  <br/> |
+|[C](c-cell-geometry-section.md) <br/> |La coordenada  *x*  de otro punto de la elipse; emparejado con  *y*  -coordinate representado por la celda D.  <br/> |
+|[D](d-cell-geometry-section.md) <br/> |La coordenada  *y*  de otro punto de la elipse; emparejado con  *y*  -coordinate representado por la celda C.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

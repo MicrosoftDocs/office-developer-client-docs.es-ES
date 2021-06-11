@@ -25,7 +25,7 @@ ms.locfileid: "33418517"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de bits de marcas que indican el estado actual de un recurso de sesión. Todos los proveedores de servicios establecen códigos de estado como MAPI para informar sobre el estado del subsistema, la cola MAPI y la libreta de direcciones integrada.
+Contiene una máscara de bits de marcas que indican el estado actual de un recurso de sesión. Todos los proveedores de servicios establecen códigos de estado al igual que MAPI para informar sobre el estado del subsistema, la cola MAPI y la libreta de direcciones integrada.
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Contiene una máscara de bits de marcas que indican el estado actual de un recur
 
 El código de estado debe aparecer en el archivo Mapisvc.inf para todos los proveedores. 
   
-Mapi y todos los proveedores de servicios implementan objetos de estado. Hay dos conjuntos de valores válidos para códigos de estado, uno para todos los objetos de estado y otro para proveedores de transporte únicamente. Todos los objetos de estado pueden establecer esta propiedad en los siguientes valores:
+Mapi y todos los proveedores de servicios implementan objetos de estado. Hay dos conjuntos de valores válidos para códigos de estado, uno establecido para todos los objetos de estado y otro conjunto solo para proveedores de transporte. Todos los objetos de estado pueden establecer esta propiedad en los siguientes valores:
   
 STATUS_AVAILABLE 
   
@@ -46,13 +46,13 @@ STATUS_AVAILABLE
     
 STATUS_FAILURE 
   
-> Indica que el recurso está experimentando un problema. Para los proveedores de servicios, STATUS_FAILURE indica que es posible que el proveedor se cierre pronto para finalizar la sesión actual.
+> Indica que el recurso está experimentando un problema. Para los proveedores de servicios, STATUS_FAILURE indica que el proveedor podría cerrarse pronto para finalizar la sesión actual.
     
 STATUS_OFFLINE 
   
 > Indica que solo están disponibles los datos o servicios locales.
     
-Los proveedores de transporte también pueden establecer las propiedades de los objetos **PR_STATUS_CODE** estado en los siguientes valores: 
+Los proveedores de transporte también pueden establecer las propiedades **de** PR_STATUS_CODE de sus objetos de estado en los siguientes valores: 
   
 STATUS_INBOUND_ACTIVE 
   
@@ -94,7 +94,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -103,7 +103,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "33417367"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona a las aplicaciones cliente acceso a propiedades que son específicas de la definición de formulario. Al mantener la información del formulario en un objeto independiente, el proveedor de bibliotecas de formularios puede describir un formulario a un cliente sin activarlo.
+Proporciona a las aplicaciones cliente acceso a propiedades que son particulares para la definición de formulario. Al mantener la información del formulario en un objeto independiente, el proveedor de biblioteca de formularios puede describir un formulario a un cliente sin activar el formulario.
   
 |||
 |:-----|:-----|
@@ -35,23 +35,23 @@ Proporciona a las aplicaciones cliente acceso a propiedades que son específicas
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIFormInfo  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIFORMINFO  <br/> |
-|Modelo de transacción:  <br/> |Notransacted  <br/> |
+|Modelo de transacciones:  <br/> |No transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Devuelve un puntero al conjunto completo de propiedades que usa un formulario.  <br/> |
 |[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Devuelve un puntero al conjunto completo de verbos que usa un formulario.  <br/> |
-|[MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) <br/> |Crea un icono a partir de una propiedad de icono de un formulario.  <br/> |
+|[MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) <br/> |Crea un icono a partir de una propiedad icon de un formulario.  <br/> |
 |[SaveForm](imapiforminfo-saveform.md) <br/> |Guarda una descripción de un formulario determinado en un archivo de configuración.  <br/> |
-|[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |Devuelve un puntero al contenedor de formularios en el que está instalado un formulario determinado.  <br/> |
+|[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |Devuelve un puntero al contenedor de formularios en el que se instala un formulario determinado.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-A diferencia de la mayoría de las interfaces definidas en el archivo de encabezado MapiForm.h, **IMAPIFormInfo** hereda de la interfaz [IMAPIProp,](imapipropiunknown.md) porque exporta la mayor parte de la información de formulario mediante llamadas al método [IMAPIProp::GetProps.](imapiprop-getprops.md) 
+A diferencia de la mayoría de las interfaces definidas en el archivo de encabezado MapiForm.h, **IMAPIFormInfo** hereda de la interfaz [IMAPIProp,](imapipropiunknown.md) ya que exporta la mayor parte de la información del formulario a través de llamadas al método [IMAPIProp::GetProps.](imapiprop-getprops.md) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

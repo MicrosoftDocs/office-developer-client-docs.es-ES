@@ -37,15 +37,15 @@ HRESULT CreateForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana primaria para el indicador de progreso que se muestra mientras se abre el formulario. El _parámetro ulUIParam_ se omite a menos que MAPI_DIALOG marca esté establecida en el _parámetro ulFlags._ 
+> [in] Identificador de la ventana principal para el indicador de progreso que se muestra mientras se abre el formulario. El _parámetro ulUIParam_ se omite a menos que MAPI_DIALOG marca esté establecida en el _parámetro ulFlags._ 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se abre el formulario. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se abre el formulario. Se puede establecer la siguiente marca:
     
 MAPI_DIALOG 
   
@@ -53,11 +53,11 @@ MAPI_DIALOG
     
  _pfrminfoToActivate_
   
-> [entrada] Puntero al objeto de información del formulario que se usa para abrir el formulario.
+> [in] Puntero al objeto de información del formulario que se usa para abrir el formulario.
     
  _refiidToAsk_
   
-> [entrada] Puntero al identificador de interfaz (IID) de la interfaz que se devolverá para el objeto de formulario que se creó. El  _parámetro refiidToAsk_ no debe ser NULL. 
+> [in] Puntero al identificador de interfaz (IID) para la interfaz que se devolverá para el objeto de formulario que se creó. El  _parámetro refiidToAsk_ no debe ser NULL. 
     
  _ppvObj_
   
@@ -75,11 +75,11 @@ MAPI_E_NO_INTERFACE
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormMgr::CreateForm** para abrir un formulario y crear un nuevo mensaje basado en la clase de mensaje del formulario. **CreateForm** abre el formulario creando una instancia del servidor de formularios para dicho formulario, tal como se describe en el objeto de información del formulario especificado. Si es necesario, **CreateForm** llama al método [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) para descargar el código del servidor de formularios en el disco del usuario. 
+Los visores de formularios llaman al método **IMAPIFormMgr::CreateForm** para abrir un formulario para crear un nuevo mensaje basado en la clase de mensaje del formulario. **CreateForm** abre el formulario creando una instancia del servidor de formularios para ese formulario, tal como se describe en el objeto de información del formulario especificado. Si es necesario, **CreateForm** llama al método [IMAPIFormMgr::P repareForm para](imapiformmgr-prepareform.md) descargar el código del servidor de formulario en el disco del usuario. 
   
-El  _parámetro pfrminfoToActivate_ debe apuntar a un objeto de información de formulario que se ha resuelto correctamente. 
+El  _parámetro pfrminfoToActivate_ debe apuntar a un objeto de información de formulario que se haya resuelto correctamente. 
   
-Una vez abierto el formulario, el visor del formulario de llamada debe configurar un mensaje mediante la interfaz [IPersistMessage](ipersistmessageiunknown.md) y, opcionalmente, puede configurar un contexto de vista para el formulario. Para obtener más información, vea [Iniciar un servidor de formulario.](launching-a-form-server.md) 
+Una vez abierto el formulario, el visor de formularios de llamada debe configurar un mensaje mediante la interfaz [IPersistMessage](ipersistmessageiunknown.md) y, opcionalmente, puede configurar un contexto de vista para el formulario. Para obtener más información, vea [Launching a Form Server](launching-a-form-server.md). 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -89,7 +89,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa el **método IMAPIFormMgr::CreateForm** para crear un formulario antes de mostrarlo.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

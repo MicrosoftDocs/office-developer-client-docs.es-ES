@@ -38,22 +38,22 @@ LPSTR SzFindCh(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _lpsz_
   
-> [entrada] Puntero a la cadena terminada en null en la que se buscará. 
+> [in] Puntero a la cadena terminada en null que se va a buscar. 
     
 _ch_
   
-> [entrada] Carácter que se va a buscar.
+> [in] El carácter que se va a buscar.
     
 ## <a name="return-value"></a>Valor devuelto
 
-**SzFindCh** devuelve un puntero a la primera aparición del carácter de la cadena. Si el carácter no se produce en ninguna parte de la cadena o si el parámetro  _lpsz_ es NULL, se devuelve un valor NULL. 
+**SzFindCh** devuelve un puntero a la primera aparición del carácter en la cadena. Si el carácter no se produce en ninguna parte de la cadena o si el parámetro  _lpsz_ es NULL, se devuelve un valor de NULL. 
   
 ## <a name="remarks"></a>Comentarios
 
-La **función SzFindCh** solo busca una coincidencia exacta; es sensible a las diferencias entre mayúsculas y minúsculas. Se admiten búsquedas en los formatos Unicode y DBCS. 
+La **función SzFindCh** solo busca una coincidencia exacta; es sensible a diferencias entre mayúsculas y minúsculas. Se admiten búsquedas en los formatos Unicode y DBCS. 
   
 

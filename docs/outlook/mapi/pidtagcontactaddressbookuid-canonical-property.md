@@ -36,7 +36,7 @@ Contiene el UID que identifica esta sesión de la libreta de direcciones de cont
    
 ## <a name="remarks"></a>Comentarios
 
-Si tiene configuradas varias libretas de direcciones de contactos, esta propiedad debe establecerse para cada una. 
+Si tiene configuradas varias libretas de direcciones de contacto, esta propiedad debe establecerse para cada una de ellas. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

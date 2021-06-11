@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251455
 localization_priority: Normal
 ms.assetid: 7db7a8ed-50a9-8495-b978-42a2fddb466a
-description: Toma un punto definido en las coordenadas locales de una forma y devuelve el punto equivalente expresado en las coordenadas locales de la forma asociada con la fórmula.
+description: Toma un punto definido en las coordenadas locales de una forma y devuelve el punto equivalente expresado en las coordenadas locales de la forma asociada a la fórmula.
 ms.openlocfilehash: 4728e5f8301c6ef10ddb0c14b6c0868a7a48b2a7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33422428"
 ---
 # <a name="loc-function-visioshapesheet"></a>Función LOC (VisioShapeSheet)
 
-Toma un punto definido en las coordenadas locales de una forma y devuelve el punto equivalente expresado en las coordenadas locales de la forma asociada con la fórmula. 
+Toma un punto definido en las coordenadas locales de una forma y devuelve el punto equivalente expresado en las coordenadas locales de la forma asociada a la fórmula. 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -28,11 +28,11 @@ LOC(** *point* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Obligatorio  <br/> |**String** <br/> | Un punto definido en una de las coordenadas locales de la forma.  <br/> |
+| _punto_ <br/> |Obligatorio  <br/> |**String** <br/> | Un punto definido en una de las coordenadas locales de la forma.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

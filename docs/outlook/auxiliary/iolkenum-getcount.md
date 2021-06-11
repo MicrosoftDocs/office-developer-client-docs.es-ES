@@ -29,17 +29,17 @@ HRESULT IOlkEnum::GetCount (
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pulCount_
   
-> [salida] Puntero al número de objetos que se están enumerando.
+> [salida] Puntero al número de objetos que se enumeran.
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IOlkEnum::GetNext](iolkenum-getnext.md)  
 - [IOlkEnum::Reset](iolkenum-reset.md) 

@@ -28,12 +28,12 @@ TEXTWIDTH(** *shapename! TheText* ** ** *[,maximumwidth]* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _shapename!theText_ <br/> |Obligatorio  <br/> |**String** <br/> |Una referencia a la celda llamada TheText de la forma de destino.  _shapename!_ es el nombre de la forma de la que desea recuperar el texto.  <br/> |
+| _shapename!theText_ <br/> |Obligatorio  <br/> |**String** <br/> |Una referencia a la celda llamada TheText de la forma de destino.  _shapename!_ es el nombre de la forma desde la que desea recuperar el texto.  <br/> |
 | _maximumwidth_ <br/> |Opcional  <br/> |**Numérico** <br/> |Ancho máximo del bloque de texto.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

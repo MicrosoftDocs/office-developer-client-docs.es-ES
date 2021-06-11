@@ -36,9 +36,9 @@ Esta propiedad contiene TRUE si el visor remoto puede llamar al [método IMAPISt
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad aparece en la tabla de estado y ofrece cierto control sobre el rendimiento del transporte. Se puede considerar como otra forma de dirigir el visor remoto a inactivo. Cuando se establece en TRUE, el visor remoto puede llamar a **IMAPIStatus::ValidateState** tantas veces como desee. Un valor FALSE indica que el visor remoto no puede realizar más llamadas. 
+Esta propiedad aparece en la tabla de estado y ofrece cierto control sobre el rendimiento del transporte. Se puede considerar como otra forma de dirigir el visor remoto a inactivo. Cuando se establece en TRUE, el visor remoto puede llamar a **IMAPIStatus::ValidateState** con la frecuencia deseada. Un valor de FALSE indica que el visor remoto no puede realizar más llamadas. 
   
-Normalmente, el proveedor de transporte establece esta propiedad dinámicamente, estableciendo el valor en FALSE para deshabilitar llamadas adicionales cuando el proveedor de transporte tiene una cantidad suficiente de procesamiento para realizar. Una vez terminado el proveedor de transporte, establece el valor en TRUE para permitir que la aplicación cliente realice más llamadas **IMAPIStatus::ValidateState.** 
+El proveedor de transporte normalmente establece esta propiedad dinámicamente, estableciendo el valor en FALSE para deshabilitar llamadas adicionales cuando el proveedor de transporte tiene una cantidad suficiente de procesamiento para realizar. Cuando el proveedor de transporte ha terminado, establece el valor en TRUE para permitir que la aplicación cliente realice más llamadas **IMAPIStatus::ValidateState.** 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

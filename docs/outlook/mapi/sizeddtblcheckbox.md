@@ -23,7 +23,7 @@ ms.locfileid: "33420811"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una [estructura DTBLCHECKBOX](dtblcheckbox.md) para describir un control de casilla de verificación y una etiqueta de una longitud especificada. 
+Crea una estructura con nombre que incluye una [estructura DTBLCHECKBOX](dtblcheckbox.md) para describir un control de casilla y una etiqueta de una longitud especificada. 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Crea una estructura con nombre que incluye una [estructura DTBLCHECKBOX](dtblche
 SizedDtblCheckBox (n, u)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _n_
   
@@ -46,20 +46,20 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblCheckBox** permite definir una casilla cuando se conoce el número de caracteres de etiqueta. La nueva estructura se crea con los siguientes miembros: 
+La **macro SizedDtblCheckBox** permite definir una casilla cuando se conoce el número de caracteres de etiqueta. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-Para usar un puntero a la estructura resultante de la macro **SizedDtblCheckBox** como puntero de estructura **DTBLCHECKBOX,** realice la conversión siguiente: 
+Para usar un puntero a la estructura resultante de la macro **SizedDtblCheckBox** como puntero de **estructura DTBLCHECKBOX,** realice la conversión siguiente: 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [DTBLCHECKBOX](dtblcheckbox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

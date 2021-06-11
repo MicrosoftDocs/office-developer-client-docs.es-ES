@@ -25,7 +25,7 @@ ms.locfileid: "33423590"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece el ancho de ajuste de texto de una secuencia MIME que devolverá el convertidor [en IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
+Establece el ancho de ajuste de texto de una secuencia MIME que el convertidor devolverá en [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -34,15 +34,15 @@ HRESULT IConverterSession::SetTextWrapping (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  *fWrapText* 
   
-> [entrada] Si se va a ajustar el texto o no.
+> [in] Si se ajusta texto o no.
     
  *ulWrapWidth* 
   
-> [entrada] Ancho de ajuste de texto que se usará.
+> [in] Ancho de ajuste de texto que se usará.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -59,7 +59,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -36,9 +36,9 @@ Contiene un mensaje que indica el estado actual de un recurso de sesión.
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades ofrecen a los proveedores de servicios y MAPI la oportunidad de proporcionar información específica sobre el estado de un recurso de sesión, como la libreta de direcciones integrada o un proveedor de servicios determinado. Esta propiedad explica y proporciona información adicional sobre un código de estado o la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Mientras que **PR_STATUS_CODE** para todos los objetos de estado, **PR_STATUS_STRING** propiedades asociadas son opcionales. Cuando el proveedor de transporte no proporciona un valor, la cola MAPI proporciona un valor predeterminado. 
+Estas propiedades ofrecen a los proveedores de servicios y MAPI la oportunidad de proporcionar información específica sobre el estado de un recurso de sesión, como la libreta de direcciones integrada o un proveedor de servicios en particular. Esta propiedad explica y proporciona información adicional sobre un código de estado o la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)). Mientras que **PR_STATUS_CODE** es necesario para todos los objetos de **estado,** PR_STATUS_STRING y las propiedades asociadas son opcionales. Cuando el proveedor de transporte no proporciona un valor, la cola MAPI proporciona un valor predeterminado. 
   
-La cadena se genera en el mismo lado de la llamada a procedimiento remoto que la cola MAPI; viaja a través de la memoria compartida en lugar de calcular las referencias a través de un límite de proceso.
+La cadena se genera en el mismo lado de la llamada de procedimiento remoto que la cola MAPI; viaja a través de la memoria compartida en lugar de ser serializada a través de un límite de proceso.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

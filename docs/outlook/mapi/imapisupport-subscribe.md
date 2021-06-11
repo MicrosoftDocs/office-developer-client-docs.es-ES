@@ -37,15 +37,15 @@ ULONG FAR * lpulConnection
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpKey_
   
-> [entrada] Puntero a una clave de notificación que representa el objeto de origen de aviso. El  _parámetro lpKey_ no puede ser NULL. 
+> [in] Puntero a una clave de notificación que representa el objeto de origen advise. El  _parámetro lpKey_ no puede ser NULL. 
     
  _ulEventMask_
   
-> [entrada] Máscara de valores que indica los tipos de eventos de notificación que el autor de la llamada está interesado y debe incluirse en el registro. Los siguientes valores son válidos:
+> [in] Máscara de valores que indica los tipos de eventos de notificación que el autor de la llamada está interesado y debe incluirse en el registro. Los siguientes valores son válidos:
     
  _fnevCriticalError_
   
@@ -53,11 +53,11 @@ ULONG FAR * lpulConnection
     
  _fnevExtended_
   
-> Se registra para notificaciones sobre eventos específicos del proveedor de libreta de direcciones o almacén de mensajes en particular.
+> Registra notificaciones sobre eventos específicos del proveedor de libreta de direcciones o almacén de mensajes en particular.
     
  _fnevNewMail_
   
-> Se registra para recibir notificaciones sobre la llegada de nuevos mensajes. 
+> Registra las notificaciones sobre la llegada de nuevos mensajes. 
     
  _fnevObjectCreated_
   
@@ -73,27 +73,27 @@ ULONG FAR * lpulConnection
     
  _fnevObjectModified_
   
-> Registra notificaciones sobre un objeto que se está modificando.
+> Registra las notificaciones sobre un objeto que se está modificando.
     
  _fnevObjectMoved_
   
-> Registra las notificaciones sobre un objeto que se está trasladando.
+> Registra las notificaciones sobre un objeto que se va a mover.
     
  _fnevSearchComplete_
   
-> Se registra para recibir notificaciones sobre la finalización de una operación de búsqueda.
+> Registra las notificaciones sobre la finalización de una operación de búsqueda.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se produce la notificación. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se produce la notificación. Se puede establecer la siguiente marca:
     
 NOTIFY_SYNC 
   
-> Cuando el autor de la llamada llama al método [IMAPISupport::Notify](imapisupport-notify.md) para generar notificaciones para este receptor de aviso, **notify** debe realizar todas las llamadas necesarias para avisar a los receptores antes de volver. Si no se establece esta marca, la notificación es asincrónica y las devoluciones de llamada se ponen en cola en los procesos que se han suscrito e iniciado cuando esos procesos obtienen el control de la CPU. 
+> Cuando el autor de la llamada llama al método [IMAPISupport::Notify](imapisupport-notify.md) para generar notificaciones para este receptor de notificaciones, **Notify** debe realizar todas las llamadas necesarias para avisar a los receptores antes de devolver. Si no se establece esta marca, la notificación es asincrónica y las devoluciones de llamada se ponen en cola en los procesos que se han suscrito e iniciado cuando esos procesos obtienen el control de la CPU. 
     
  _lpAdviseSink_
   
-> [entrada] Puntero a un objeto receptor de aviso. 
+> [in] Puntero a un objeto receptor de aviso. 
     
  _lpulConnection_
   
@@ -103,21 +103,21 @@ NOTIFY_SYNC
 
 S_OK 
   
-> El registro de notificaciones se ha realizado correctamente.
+> El registro de notificación se ha realizado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::Subscribe** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios **llaman a Subscribe** desde uno de sus **métodos Advise** para permitir que MAPI administre las notificaciones. 
+El **método IMAPISupport::Subscribe** se implementa para todos los objetos de soporte técnico del proveedor de servicios. Los proveedores de servicios **llaman a Subscribe** desde uno de sus **métodos Advise** para permitir que MAPI administre las notificaciones. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para usar los métodos de soporte de MAPI para la notificación, cree una clave para el origen del aviso el objeto sobre qué notificaciones se deben generar. El valor de la clave debe ser único y debe regenerarse fácilmente cada vez que cambie el objeto. 
+Para usar los métodos de soporte técnico MAPI para la notificación, cree una clave para el origen del aviso el objeto sobre qué notificaciones deben generarse. El valor de la clave debe ser único y debe regenerarse fácilmente cada vez que cambie el objeto. 
   
-MAPI usa la clave de notificación para buscar cualquier función de devolución de llamada registrada a través de la función [HrAllocAdviseSink](hrallocadvisesink.md) para el origen de aviso correspondiente. Pase esta clave a **IMAPISupport::Notify** siempre que necesite generar una notificación para el origen de aviso correspondiente. 
+MAPI usa la clave de notificación para buscar las funciones de devolución de llamada registradas a través de la [función HrAllocAdviseSink](hrallocadvisesink.md) para el origen de notificaciones correspondiente. Pase esta clave a **IMAPISupport::Notify** siempre que necesite generar una notificación para el origen de aviso correspondiente. 
   
-El NOTIFY_SYNC marca afecta al funcionamiento de las llamadas subsiguientes a **Notify**. Cuando estableces NOTIFY_SYNC, **Notify** no vuelve hasta que termina de enviar todas las notificaciones necesarias. Cuando no estableces la NOTIFY_SYNC, **notify** funciona de forma asincrónica, posiblemente devolviendo antes de que se hayan enviado todas las notificaciones. 
+La NOTIFY_SYNC marca afecta al funcionamiento de las llamadas posteriores a **Notify**. Cuando estableces NOTIFY_SYNC, **Notify** no vuelve hasta que ha terminado de enviar todas las notificaciones necesarias. Cuando no establece el NOTIFY_SYNC, **Notify** funciona de forma asincrónica, posiblemente volviendo antes de que se hayan enviado todas las notificaciones. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

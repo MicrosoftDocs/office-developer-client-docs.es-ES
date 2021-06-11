@@ -21,7 +21,7 @@ En esta sección se ofrece información sobre tareas de desarrollo habituales cu
   
 ## <a name="in-this-section"></a>En esta sección
 
-[Obtener acceso a datos de la aplicación](how-to-access-application-data.md)
+[Obtener acceso a datos de aplicación](how-to-access-application-data.md)
   
 > Se ofrece información sobre el acceso a información acerca de la aplicación de InfoPath.
     
@@ -29,7 +29,7 @@ En esta sección se ofrece información sobre tareas de desarrollo habituales cu
   
 > Trata de cómo crear controladores de eventos que respondan a los eventos que se producen mientras el usuario rellena el formulario.
     
-[Obtener acceso a datos del formulario](how-to-access-form-data.md)
+[Obtener acceso a los datos del formulario](how-to-access-form-data.md)
   
 > Trata de cómo obtener acceso a información sobre el documento XML subyacente del formulario y los datos que contiene y cómo realizar alguna acción en el mismo.
     
@@ -37,11 +37,11 @@ En esta sección se ofrece información sobre tareas de desarrollo habituales cu
   
 > Trata de cómo obtener acceso a los datos de orígenes externos.
     
-[Escribir lógica condicional que determine el entorno en tiempo de ejecución](how-to-write-conditional-logic-that-determines-the-run-time-environment.md)
+[Escritura de lógica condicional que determina el entorno en tiempo de ejecución](how-to-write-conditional-logic-that-determines-the-run-time-environment.md)
   
 > Se explica cómo escribir código que lleve a cabo una acción diferente dependiendo de si está abierto en InfoPath, un explorador web o un explorador móvil.
     
-[Trabajar con ventanas de formulario](how-to-work-with-form-windows.md)
+[Trabajar con formularios Windows](how-to-work-with-form-windows.md)
   
 > Trata de cómo trabajar con ventanas de formularios.
     
@@ -61,7 +61,7 @@ En esta sección se ofrece información sobre tareas de desarrollo habituales cu
   
 > Explica cómo tratar los errores en los proyectos de código administrado de InfoPath.
     
-[Trabajar con la configuración de Information Rights Management](how-to-work-with-information-rights-management-settings.md)
+[Trabajar con Information Rights Management Configuración](how-to-work-with-information-rights-management-settings.md)
   
 > Explica cómo trabajar con la configuración de Information Rights Management
     

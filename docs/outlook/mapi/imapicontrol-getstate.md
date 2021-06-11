@@ -34,7 +34,7 @@ HRESULT GetState(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -60,11 +60,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de servicios implementan **el método IMAPIControl::GetState** para proporcionar MAPI con el estado de un control de botón. Si el botón está habilitado, puede responder a un clic del mouse o presionar una tecla. Si está deshabilitado, el botón aparece atenuado y no responde a un clic del mouse ni a presionar una tecla. 
+Los proveedores de servicios implementan **el método IMAPIControl::GetState** para proporcionar MAPI con el estado de un control de botón. Si el botón está habilitado, puede responder a un clic del mouse o a una pulsación de tecla. Si está deshabilitado, el botón aparece atenuado y no responde a un clic del mouse ni a una pulsación de tecla. 
   
-Para obtener más información acerca de cómo implementar **GetState** y los otros [métodos IMAPIControl : IUnknown,](imapicontroliunknown.md) vea [Control Object Implementation](control-object-implementation.md).
+Para obtener más información acerca de cómo implementar **GetState y** los otros métodos [IMAPIControl : IUnknown,](imapicontroliunknown.md) vea [Control Object Implementation](control-object-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

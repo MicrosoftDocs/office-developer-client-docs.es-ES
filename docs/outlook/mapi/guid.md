@@ -42,7 +42,7 @@ typedef struct _GUID
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **Data1**
   
@@ -58,7 +58,7 @@ typedef struct _GUID
     
  **Data4**
   
-> Matriz de caracteres sin signo.
+> Una matriz de caracteres sin signo.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -68,15 +68,15 @@ typedef struct _GUID
     
 - Para identificadores de interfaz.
     
-- En el conjunto de propiedades nombres de propiedades con nombre. 
+- En el conjunto de propiedades se establecen nombres de propiedades con nombre. 
     
-Los proveedores de almacén de mensajes y libreta de direcciones generan **una estructura GUID** para usarla en su estructura **MAPIUID.** Al pasar el **MAPIUID resultante** a [IMAPISupport::SetProviderUID,](imapisupport-setprovideruid.md)estos proveedores de servicios informan a MAPI de su identificador único.
+Los proveedores de libreta de direcciones y almacén de mensajes generan **una estructura GUID** que se usará en su estructura **MAPIUID.** Al pasar el **MAPIUID** resultante a [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), estos proveedores de servicios informan a MAPI de su identificador único.
   
-Además, se usan en la implementación de Microsoft Remote Procedure Call (RPC) y el Lenguaje de descripción de objetos (ODL). Para obtener más información acerca de estos usos, vea la guía y la referencia del programador de RPC de *Microsoft,* la referencia del programador *OLE* y *Inside OLE*, segunda *edición.* 
+Además, se usan en la implementación de la llamada a procedimiento remoto (RPC) de Microsoft y el lenguaje de descripción del objeto (ODL). Para obtener más información acerca de estos usos, vea  *la Guía* y la referencia del programador RPC de Microsoft , Referencia del programador *OLE*  y  *Inside OLE*, *Segunda edición*  . 
   
-La **estructura GUID** se define en la referencia del programador de *Win32.* Los valores específicos **de las** estructuras GUID que se usan dentro de MAPI se definen en el archivo de encabezado MAPI Mapiguid.h. 
+La **estructura GUID** se define en la Referencia del programador de  *Win32*  . Los valores específicos **de las estructuras GUID** que se usan dentro de MAPI se definen en el archivo de encabezado MAPI Mapiguid.h. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

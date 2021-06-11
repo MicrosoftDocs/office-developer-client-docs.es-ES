@@ -25,7 +25,7 @@ ms.locfileid: "33419789"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de identificadores para proveedores de libretas de direcciones en el perfil actual. 
+Contiene una lista de identificadores de proveedores de libretas de direcciones en el perfil actual. 
   
 |||
 |:-----|:-----|
@@ -50,11 +50,11 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

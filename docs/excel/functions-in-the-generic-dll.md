@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- generic dll [excel 2007], functions,functions [Excel 2007], Generic DLL
+- dll genérica [excel 2007], functions,functions [Excel 2007], DLL genérica
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -20,19 +20,19 @@ ms.locfileid: "33420601"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-La carpeta contiene microsoft Visual Studio archivos de proyecto y archivos de código fuente necesarios para  `\EXAMPLES\GENERIC\` compilar el ejemplo DLL GENERIC.xll. Puede usar este proyecto como plantilla para escribir sus propios XLL de Microsoft Excel. El código fuente de este proyecto muestra muchas de las características de la API de C de Excel. 
+La carpeta contiene Microsoft Visual Studio archivos de proyecto y archivos de código fuente necesarios para `\EXAMPLES\GENERIC\` compilar el ejemplo DLL GENERIC.xll. Puede usar este proyecto como plantilla para escribir sus propios Microsoft Excel XLLs. El código fuente de este proyecto muestra muchas de las características de la API Excel C. 
   
 Al cargar GENERIC.xll, se crea un nuevo **menú Genérico** con cuatro comandos: 
   
-- **Cuadro** de diálogo: muestra un cuadro de diálogo de Microsoft Excel. 
+- **Cuadro** de diálogo: muestra Microsoft Excel cuadro de diálogo. 
     
-- **Resalte:** mueve la selección hasta que presiona la **tecla ESC.** 
+- **Baile:** mueve la selección hasta que presiona la **tecla ESC.** 
     
-- **Cuadro de diálogo nativo:** muestra un cuadro de diálogo de Windows. 
+- **Cuadro de diálogo** nativo: muestra Windows cuadro de diálogo. 
     
 - **Exit:** descarga GENERIC.xll y quita el **menú Genérico.** 
     
-GENERIC.xll también proporciona tres funciones de hoja de cálculo, Func1, FuncSum y FuncFib, que se pueden usar siempre que se cargue GENERIC.xll. GENERIC.xll se puede cargar con el Administrador de complementos o se carga si estaba activo al final normal de la última sesión de Excel.
+GENERIC.xll también proporciona tres funciones de hoja de cálculo, Func1, FuncSum y FuncFib, que se pueden usar siempre que se cargue GENERIC.xll. GENERIC.xll se puede cargar con el Administrador de complementos o se carga si estaba activo al final normal de la última Excel sesión.
   
 Este proyecto usa la biblioteca de marcos (FRMWRK32.lib).
   
@@ -60,7 +60,7 @@ Este proyecto usa la biblioteca de marcos (FRMWRK32.lib).
   
 [FuncFib](funcfib.md)
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

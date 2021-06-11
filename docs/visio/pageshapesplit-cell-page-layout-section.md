@@ -23,13 +23,13 @@ Indica si las formas de la página se pueden dividir de forma automática.
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |No se permite la división automática de formas.  <br/> |**visPLOSplitNone** <br/> |
-|1   <br/> |Se permite la división automática de formas (valor predeterminado).  <br/> |**visPLOSplitAllow** <br/> |
+|1  <br/> |Se permite la división automática de formas (valor predeterminado).  <br/> |**visPLOSplitAllow** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 La división automática de formas se habilita y deshabilita en tres niveles distintos: aplicación, página y forma. La división está habilitada de forma predeterminada para la aplicación y para las páginas. La configuración predeterminada para las formas depende del tipo de dibujo. 
   
-Para habilitar o deshabilitar la división en  el nivel de aplicación, use la opción Habilitar división de  conectores en la ficha Avanzadas del cuadro de diálogo Opciones de **Visio** (haga clic en el botón **de Office,** en Opciones de la ficha **Visio** y, a continuación, haga clic en **Avanzadas).**  
+Para habilitar o deshabilitar la división en  el nivel de aplicación, use la opción Habilitar división de conectores en la  ficha Avanzadas del cuadro de diálogo Opciones de **Visio** (haga clic en el botón **Office,** haga clic en Opciones en la pestaña **Visio y, a** continuación, haga clic en  **Avanzadas** ). 
   
 Para habilitar o deshabilitar la división en el nivel de forma, vea las celdas ShapeSplit y ShapeSplittable. 
   

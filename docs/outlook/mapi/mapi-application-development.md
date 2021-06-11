@@ -21,6 +21,6 @@ ms.locfileid: "33417612"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los temas de esta sección se aplican a los desarrolladores de aplicaciones cliente y proveedores de servicios. Estos temas se organizan en orden de importancia. Es decir, los temas que son fundamentales para todos los programadores aparecen en primer lugar y los que tienen una importancia mínima o no se aplican a todos los programadores aparecen en último lugar.
+Los temas de esta sección se aplican a desarrolladores de aplicaciones cliente y proveedores de servicios. Estos temas se organizan en orden de importancia. Es decir, los temas que son críticos para todos los programadores aparecen primero y los temas que son de importancia mínima o no se aplican a todos los programadores aparecen en último lugar.
   
 

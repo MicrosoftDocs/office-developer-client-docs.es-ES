@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm80004
 localization_priority: Normal
 ms.assetid: 8491f459-9de2-8e75-5532-7d3bd0986734
-description: Determina si una forma se puede seleccionar o arrastrar cuando el usuario hace clic en el área rellena definida por la sección Geometría.
+description: Determina si se puede seleccionar o arrastrar una forma cuando el usuario hace clic en el área rellenada definida por la sección Geometría.
 ms.openlocfilehash: d60268685d93ae88abb2840f62b093db1e688c2f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33417724"
 ---
 # <a name="noquickdrag-cell-geometry-section"></a>Celda NoQuickDrag (sección de geometría)
 
-Determina si una forma se puede seleccionar o arrastrar cuando el usuario hace clic en el área rellena definida por la sección Geometría.
+Determina si se puede seleccionar o arrastrar una forma cuando el usuario hace clic en el área rellenada definida por la sección Geometría.
   
 ## <a name="remarks"></a>Comentarios
 

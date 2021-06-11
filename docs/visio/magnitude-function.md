@@ -18,7 +18,7 @@ ms.locfileid: "33420461"
 ---
 # <a name="magnitude-function"></a>Función MAGNITUDE
 
-Devuelve la magnitud del vector cuyo aumento es  _A_ y cuyo run es  _B_, multiplicado por las constantes  _respectivas constantA_ y  _constantB_. 
+Devuelve la magnitud del vector cuyo aumento es  _A_ y cuya ejecución es  _B_, multiplicada por las constantes respectivas  _constantA_ y  _constantB_. 
   
 ## <a name="syntax"></a>Sintaxis
 

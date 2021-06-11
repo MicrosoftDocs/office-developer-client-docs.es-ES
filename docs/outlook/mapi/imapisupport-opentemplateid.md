@@ -39,19 +39,19 @@ LPMAPIPROP lpMAPIPropSibling
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbTemplateID_
   
-> [entrada] El recuento de bytes en el identificador de plantilla al que apunta  _lpTemplateID_. 
+> [in] Recuento de bytes en el identificador de plantilla señalado por  _lpTemplateID_. 
     
  _lpTemplateID_
   
-> [entrada] Puntero al identificador de plantilla **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de la entrada de destinatario que se va a abrir.
+> [in] Puntero al identificador de plantilla PR_TEMPLATEID **propiedad** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de la entrada de destinatario que se va a abrir.
     
  _ulTemplateFlags_
   
-> [entrada] Máscara de bits de marcas que se usa para describir cómo abrir la entrada. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas usadas para describir cómo abrir la entrada. Se puede establecer la siguiente marca:
     
 FILL_ENTRY 
   
@@ -59,15 +59,15 @@ FILL_ENTRY
     
  _lpMAPIPropData_
   
-> [entrada] Puntero a la implementación de la interfaz que el autor de la llamada usa para obtener acceso a la entrada. Esta es la implementación que el proveedor externo puede encapsular con su propia implementación y devolver en el parámetro _lppMAPIPropNew._ El _parámetro lpMAPIPropData_ debe apuntar a una implementación de interfaz de lectura y escritura que deriva de [IMAPIProp : IUnknown](imapipropiunknown.md) y admite la interfaz que se solicita en el parámetro _lpInterface._ 
+> [in] Puntero a la implementación de la interfaz que el autor de la llamada usa para obtener acceso a la entrada. Esta es la implementación que el proveedor externo puede ajustar con su propia implementación y devolver en el parámetro _lppMAPIPropNew._ El _parámetro lpMAPIPropData_ debe apuntar a una implementación de interfaz de lectura y escritura que deriva de [IMAPIProp : IUnknown](imapipropiunknown.md) y admite la interfaz que se solicita en el _parámetro lpInterface._ 
     
  _lpInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la entrada. El  _parámetro lppMAPIPropNew_ apunta a una interfaz del tipo especificado por  _lpInterface_. Pasar NULL devuelve la interfaz estándar para un usuario de mensajería, IID_IMailUser. 
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para obtener acceso a la entrada. El  _parámetro lppMAPIPropNew_ apunta a una interfaz del tipo especificado por  _lpInterface_. Si se pasa NULL, se devuelve la interfaz estándar de un usuario de mensajería, IID_IMailUser. 
     
  _lppMAPIPropNew_
   
-> [salida] Puntero a la implementación de la interfaz que proporciona el proveedor externo para obtener acceso a la entrada.
+> [salida] Puntero a la implementación de la interfaz que el proveedor externo proporciona para obtener acceso a la entrada.
     
  _lpMAPIPropSibling_
   
@@ -85,17 +85,17 @@ MAPI_E_UNKNOWN_ENTRYID
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::OpenTemplateID** solo se implementa para objetos de compatibilidad del proveedor de libreta de direcciones. **OpenTemplateID** solo lo llaman los proveedores de libretas de direcciones que pueden actuar como hosts para las entradas que pertenecen a otros proveedores de libretas de direcciones, también conocidos como proveedores externos. Los proveedores de host llaman a **OpenTemplateID** para abrir una entrada externa, que se produce cuando los datos del proveedor de host están enlazados al código del proveedor externo. 
+El **método IMAPISupport::OpenTemplateID** solo se implementa para objetos de soporte del proveedor de libreta de direcciones. **OpenTemplateID** solo lo llaman los proveedores de libretas de direcciones que pueden actuar como hosts para las entradas que pertenecen a otros proveedores de libretas de direcciones, también conocidos como proveedores externos. Los proveedores de host llaman a **OpenTemplateID** para abrir una entrada externa, que se produce cuando los datos del proveedor de host están enlazados al código en el proveedor externo. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame **a OpenTemplateID** solo si admite el almacenamiento de entradas con identificadores de plantilla de proveedores de libretas de direcciones externos. Esta compatibilidad coloca requisitos adicionales en las implementaciones [IABContainer::CreateEntry](iabcontainer-createentry.md) e [IABLogon::OpenEntry.](iablogon-openentry.md) Para obtener más información, vea las descripciones de estos métodos y [actuar como proveedor de libretas de direcciones de host.](acting-as-a-host-address-book-provider.md)
+Llama **a OpenTemplateID** solo si admites el almacenamiento de entradas con identificadores de plantilla de proveedores de libretas de direcciones externos. Esta compatibilidad coloca requisitos adicionales en las implementaciones [IABContainer::CreateEntry](iabcontainer-createentry.md) e [IABLogon::OpenEntry.](iablogon-openentry.md) Para obtener más información, vea las descripciones de estos métodos y Actuar como proveedor de libreta [de direcciones de host](acting-as-a-host-address-book-provider.md).
   
-Si la **llamada a OpenTemplateID** devuelve como interfaz enlazada la misma implementación de objeto de propiedad que pasó, puede liberar la referencia al objeto de propiedad. Esto se debe a que el proveedor externo ha llamado al método **AddRef** del objeto para mantener su propia referencia. Si el proveedor externo no necesita mantener una referencia al objeto de propiedad, **OpenTemplateID** devolverá el objeto de propiedad independiente. 
+Si la **llamada OpenTemplateID** devuelve como interfaz enlazada la misma implementación de objeto de propiedad que pasó, puede liberar la referencia al objeto de propiedad. Esto se debe a que el proveedor externo ha llamado al método **AddRef** del objeto para mantener su propia referencia. Si el proveedor externo no necesita mantener una referencia al objeto de propiedad, **OpenTemplateID** devolverá el objeto de propiedad sin enlazar. 
   
-Si Se produce un error en **OpenTemplateID** MAPI_E_UNKNOWN_ENTRYID, intente continuar tratando la entrada como de solo lectura. 
+Si **OpenTemplateID** produce un error MAPI_E_UNKNOWN_ENTRYID, intente continuar tratando la entrada como de solo lectura. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

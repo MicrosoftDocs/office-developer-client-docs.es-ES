@@ -25,7 +25,7 @@ ms.locfileid: "33423716"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se asignarán a una nueva estructura [SizedSSortOrderSet](sizedssortorderset.md) que contiene un número especificado de criterios de ordenación representados por estructuras [SSortOrder.](ssortorder.md) 
+Calcula el número de bytes que se asignarán para una nueva estructura [SizedSSortOrderSet](sizedssortorderset.md) que contiene un número especificado de órdenes de ordenación representadas por estructuras [de SSortOrder.](ssortorder.md) 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Calcula el número de bytes que se asignarán a una nueva estructura [SizedSSort
 CbNewSSortOrderSet (_csort)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _csort_
   
-> Número de **estructuras SSortOrder** que se incluirán en la estructura **SSortOrderSet.** 
+> Recuento de **estructuras SSortOrder** que se incluirán en la estructura **SSortOrderSet.** 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

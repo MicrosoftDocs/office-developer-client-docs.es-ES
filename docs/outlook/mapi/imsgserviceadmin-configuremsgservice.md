@@ -37,27 +37,27 @@ HRESULT ConfigureMsgService(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
-> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se debe configurar. 
+> [in] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se debe configurar. 
     
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de la hoja de propiedades de configuración.
+> [in] Identificador de la ventana principal de la hoja de propiedades de configuración.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla la presentación de la hoja de propiedades. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla la presentación de la hoja de propiedades. Se pueden establecer las siguientes marcas:
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
 MSG_SERVICE_UI_READ_ONLY 
   
-> El servicio de mensajes debe mostrar su hoja de propiedades de configuración, pero no permitir al usuario cambiarla. La mayoría de los servicios de mensajes omiten esta marca.
+> El servicio de mensajes debe mostrar su hoja de propiedades de configuración, pero no permitir que el usuario la cambie. La mayoría de los servicios de mensajes omiten esta marca.
     
 SERVICE_UI_ALLOWED 
   
@@ -65,15 +65,15 @@ SERVICE_UI_ALLOWED
     
 SERVICE_UI_ALWAYS 
   
-> El servicio de mensajes siempre debe mostrar su hoja de propiedades de configuración. Si SERVICE_UI_ALWAYS no se establece, se puede mostrar una hoja de propiedades de configuración si SERVICE_UI_ALLOWED está establecido y la información de configuración válida no está disponible en la matriz de valores de propiedad en el parámetro _lpProps._ Debe SERVICE_UI_ALLOWED o SERVICE_UI_ALWAYS para que se muestre una hoja de propiedades. 
+> El servicio de mensajes siempre debe mostrar su hoja de propiedades de configuración. Si SERVICE_UI_ALWAYS no está establecido, se puede mostrar una hoja de propiedades de configuración si SERVICE_UI_ALLOWED está establecido y la información de configuración válida no está disponible en la matriz de valores de propiedad en el parámetro _lpProps._ Debe SERVICE_UI_ALLOWED o SERVICE_UI_ALWAYS para que se muestre una hoja de propiedades. 
     
  _cValues_
   
-> [entrada] Recuento de valores de propiedad en la [estructura SPropValue](spropvalue.md) a la que apunta  _lpProps_. 
+> [in] Recuento de valores de propiedad en la [estructura SPropValue](spropvalue.md) apuntada  _por lpProps_. 
     
  _lpProps_
   
-> [entrada] Puntero a una matriz de valores de propiedad que describen las propiedades que se muestran en la hoja de propiedades. El  _parámetro lpProps_ no debe ser NULL si el servicio de mensajes debe configurarse sin una interfaz de usuario. 
+> [in] Puntero a una matriz de valores de propiedad que describen las propiedades que se muestran en la hoja de propiedades. El  _parámetro lpProps_ no debe ser NULL si el servicio de mensajes debe configurarse sin una interfaz de usuario. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -87,7 +87,7 @@ MAPI_E_EXTENDED_ERROR
     
 MAPI_E_NOT_FOUND 
   
-> El **MAPIUID** al que apunta  _lpUID_ no coincide con el de un servicio de mensajes existente. 
+> El **MAPIUID señalado** por  _lpUID_ no coincide con el de un servicio de mensajes existente. 
     
 MAPI_E_NOT_INITIALIZED 
   
@@ -95,21 +95,21 @@ MAPI_E_NOT_INITIALIZED
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de la hoja de propiedades. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón Cancelar** de la hoja de propiedades. 
     
 ## <a name="remarks"></a>Comentarios
 
 El **método IMsgServiceAdmin::ConfigureMsgService** permite configurar un servicio de mensajes, con o sin una hoja de propiedades de configuración. 
   
-Para permitir la configuración sin mostrar una hoja de propiedades, los servicios de mensajes suelen preparar un archivo de encabezado que incluye constantes para todas las propiedades obligatorias y opcionales y sus valores.
+Para permitir la configuración sin mostrar una hoja de propiedades, los servicios de mensajes suelen preparar un archivo de encabezado que incluya constantes para todas las propiedades obligatorias y opcionales y sus valores.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para recuperar la estructura **MAPIUID** del servicio de mensajes que se va a configurar, recupere la columna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla del servicio de mensajes. Para obtener más información, vea el procedimiento descrito en el [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
+Para recuperar la estructura **MAPIUID** para que el servicio de mensajes configure, recupere la columna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes de la tabla de servicio de mensajes. Para obtener más información, vea el procedimiento descrito en el [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
 Puede configurar un servicio de mensajes sin mostrar una hoja de propiedades a un usuario solo si tiene información previa sobre los valores de propiedad que se establecerán. Si va a configurar un servicio de mensajes sin mostrar una hoja de propiedades, pase valores de propiedad válidos en el parámetro  _lpProps_ y no establezca las marcas MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED o SERVICE_UI_ALWAYS. 
   
-Si recibe toda o parte de la información de configuración del usuario a través de una hoja de propiedades, establezca SERVICE_UI_ALLOWED en  _ulFlags_. Si usa la información de propiedad existente solo para establecer la configuración predeterminada y el usuario puede cambiar la configuración, establezca SERVICE_UI_ALWAYS en  _ulFlags_.
+Si recibe toda o parte de la información de configuración del usuario a través de una hoja de propiedades, establezca SERVICE_UI_ALLOWED en  _ulFlags_. Si usa información de propiedad existente solo para establecer la configuración predeterminada y el usuario puede cambiar la configuración, establezca SERVICE_UI_ALWAYS en  _ulFlags_.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -119,7 +119,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI usa el **método IMsgServiceAdmin::ConfigureMsgService** para configurar un servicio que se ha agregado a un perfil.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

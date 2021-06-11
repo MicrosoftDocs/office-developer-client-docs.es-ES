@@ -27,7 +27,7 @@ Determina si un conector puede enrutar verticalmente a través de una forma.
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda  en la ficha Colocación del [](run-in-developer-mode-display-the-developer-tab.md) cuadro de  diálogo Comportamiento (con una forma  seleccionada, en la ficha Programador, en el grupo Diseño de formas, haga clic en Comportamiento y, a continuación, haga clic en la ficha Colocación).   
+También puede establecer el valor de  esta celda en la ficha Ubicación del [](run-in-developer-mode-display-the-developer-tab.md) cuadro de diálogo Comportamiento (con una forma seleccionada, en la ficha Programador, en el grupo Diseño de formas, haga clic en Comportamiento y, a continuación, haga clic en la pestaña Ubicación).    
   
 En las versiones anteriores a Visio 2000, este comportamiento se establece mediante la celda ObjInteract, en la sección de varios.
   

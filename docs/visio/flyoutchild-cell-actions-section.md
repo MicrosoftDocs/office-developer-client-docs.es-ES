@@ -26,7 +26,7 @@ Para obtener una referencia desde otra fórmula a la celda FlyoutChild por su no
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Acciones. *nombre*  . FlyoutChildwhere Actions.  *es*  el nombre de la fila Actions  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*  . FlyoutChildwhere Actions.  *nombre*  es el nombre de la fila Acciones  <br/> |
    
 Para obtener una referencia desde un programa a la celda FlyoutChild por su índice, use la propiedad **CellsSRC** con los argumentos siguientes: 
   

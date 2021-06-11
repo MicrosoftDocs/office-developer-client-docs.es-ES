@@ -32,7 +32,7 @@ Contiene el recuento de elementos de la tabla de contenido asociada de la carpet
 |Propiedades asociadas:  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |Identificador:  <br/> |0x3617  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Folder  <br/> |
+|Área:  <br/> |Carpeta  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,13 +25,13 @@ Nombre de la etiqueta de acción empleado como clave para asociarla con sus acci
   
 ## <a name="remarks"></a>Comentarios
 
- La celda TagName de la sección de etiquetas de acción funciona en conjunción con la celda TagName de la sección de acciones para asociar la etiqueta de acción con sus acciones. Las filas de la sección Acciones también tienen una celda TagName y las filas con el mismo valor de celda TagName que esta celda definen las acciones que se deben realizar para esta etiqueta de acción. 
+ La celda TagName de la sección de etiquetas de acción funciona en conjunción con la celda TagName de la sección de acciones para asociar la etiqueta de acción con sus acciones. Las filas de la sección Acciones también tienen una celda TagName y las filas con el mismo valor de celda TagName que esta celda definen las acciones que deben realizarse para esta etiqueta de acción. 
   
 Para obtener una referencia a la celda TagName por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | SmartTags.  *nombre*  . TagName donde SmartTags. *es*  el nombre de la fila de etiqueta de acción  <br/> |
+| Nombre de celda:  <br/> | SmartTags.  *nombre*  . TagName donde SmartTags. *nombre*  es el nombre de la fila de etiqueta de acción  <br/> |
    
 Para obtener una referencia a la celda TagName por su índice
  desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 

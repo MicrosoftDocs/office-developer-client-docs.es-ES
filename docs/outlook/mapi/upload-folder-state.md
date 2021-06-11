@@ -1,5 +1,5 @@
 ---
-title: Cargar estado de carpeta
+title: Upload Estado de carpeta
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419572"
 ---
-# <a name="upload-folder-state"></a>Cargar estado de carpeta
+# <a name="upload-folder-state"></a>Upload Estado de carpeta
 
   
   
@@ -26,25 +26,25 @@ ms.locfileid: "33419572"
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |
-|Estructura de datos relacionados:  <br/> |**[UPFLD](upfld.md)** <br/> |
-|Desde este estado:  <br/> |[Cargar el estado de jerarquía](upload-hierarchy-state.md) <br/> |
-|A este estado:  <br/> |Cargar el estado de jerarquía  <br/> |
+|Estructura de datos relacionada:  <br/> |**[UPFLD](upfld.md)** <br/> |
+|Desde este estado:  <br/> |[Upload jerarquía](upload-hierarchy-state.md) <br/> |
+|A este estado:  <br/> |Upload jerarquía  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que va de un estado a otro debe volver al primero desde el segundo. 
+> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que sale de un estado a otro debe volver al primero desde el segundo. 
   
-## <a name="description"></a>Description
+## <a name="description"></a>Descripción
 
-Este estado inicia la carga de una carpeta en una jerarquía que se ha especificado en un estado de jerarquía de carga anterior. Durante este estado, Outlook proporciona el objeto de carpeta (si no se ha eliminado) y las marcas que indican el estado de la carpeta (nuevo, movido, modificado o eliminado) como parte de la estructura de datos **UPFLD** correspondiente. A continuación, el cliente carga esta información en el servidor. 
+Este estado inicia la carga de una carpeta en una jerarquía que se ha especificado en un estado de jerarquía de carga anterior. Durante este estado, Outlook proporciona el objeto folder (si no se ha eliminado) y las marcas que indican el estado de la carpeta (nuevo, movido, modificado o eliminado) como parte de la estructura de datos **UPFLD** correspondiente. A continuación, el cliente carga esta información en el servidor. 
   
-Si la carga se realiza correctamente, el cliente establece  *ulFlags*  en **UPFLD** en **UPF_OK**. A continuación, Outlook borra su información interna sobre la solicitud para cargar la carpeta. 
+Si la carga se realiza correctamente, el cliente establece  *ulFlags*  en **UPFLD** en **UPF_OK**. Outlook borra su información interna acerca de la solicitud para cargar la carpeta. 
   
-Cuando finaliza la carga de la carpeta, el almacén local vuelve al estado de la jerarquía de carga. En función de la estructura **[UPHIER](uphier.md)** correspondiente al estado de jerarquía de carga anterior, Outlook determina si se debe continuar con la carga de la carpeta siguiente y prepararse para el siguiente estado de la carpeta de carga. 
+Cuando finaliza la carga de carpetas, el almacén local vuelve al estado de jerarquía de carga. En función de la estructura **[UPHIER](uphier.md)** correspondiente al estado de jerarquía de carga anterior, Outlook determina si se debe continuar con la carga de la carpeta siguiente y prepararse para el siguiente estado de la carpeta de carga. 
   
 > [!NOTE]
-> Si el cliente solo necesita cargar una carpeta, el cliente puede iniciar la replicación a través del estado [de](synchronize-state.md) sincronización sin especificar el estado de la jerarquía de carga. El cliente establece determinados miembros de **[SYNC](sync.md)**  *(ulFlags*  en **UPS_UPLOAD_ONLY** y **UPS_ONE_FOLDER** y  *feid*  en el identificador de la carpeta) para que le digan a Outlook que solo se cargará una carpeta. 
+> Si el cliente necesita cargar solo una carpeta, el cliente puede iniciar la replicación a través del estado de sincronización [sin](synchronize-state.md) especificar el estado de jerarquía de carga. El cliente establece determinados miembros de **[SYNC](sync.md)** *(ulFlags* en **UPS_UPLOAD_ONLY** y **UPS_ONE_FOLDER** y *feid* en el identificador de la carpeta) para que Outlook que solo se cargará una carpeta. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

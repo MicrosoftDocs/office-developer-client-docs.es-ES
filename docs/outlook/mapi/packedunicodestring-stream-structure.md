@@ -23,7 +23,7 @@ La estructura de secuencias PackedUnicodeString contiene una representación Uni
   
 - Para una cadena cuya representación UTF-16 contiene menos de 255 WCHARs, los elementos de datos son los siguientes:
     
-  - Longitud: BYTE (1 byte), longitud, en número de WCHARs, de la representación UTF-16 de la cadena.
+  - Length: BYTE (1 byte), la longitud, en número de WCHARs, de la representación UTF-16 de la cadena.
     
   - Caracteres: una matriz de WCHAR. El recuento de esta matriz es igual al elemento de datos Length. Los datos de la matriz son la representación UTF-16 de la cadena.
     
@@ -31,17 +31,17 @@ La estructura de secuencias PackedUnicodeString contiene una representación Uni
     
   - Prefijo: BYTE (1 byte), el valor de 255 (0xff).
     
-  - Longitud: WORD (2 bytes), la longitud, en número de WCHARs, de la representación UTF-16 de la cadena.
+  - Length: WORD (2 bytes), la longitud, en número de WCHARs, de la representación UTF-16 de la cadena.
     
   - Caracteres: una matriz de WCHAR. El recuento de esta matriz es igual al elemento de datos Length. Los datos de la matriz son la representación UTF-16 de la cadena.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
-[Elementos y campos de Outlook](outlook-items-and-fields.md)
+[Outlook Elementos y campos](outlook-items-and-fields.md)
   
-[Estructuras de flujo](stream-structures.md)
+[Estructuras de secuencias](stream-structures.md)
   
 [Estructura de secuencia FieldDefinition](fielddefinition-stream-structure.md)
 

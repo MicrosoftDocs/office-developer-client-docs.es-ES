@@ -34,11 +34,11 @@ HANDLE          *phSyncDoneEvent;
 } MAPISIB, *PMAPISIB
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulSize**
   
-> Tamaño de la estructura.
+> El tamaño de la estructura.
     
  **ulFlags**
   
@@ -48,25 +48,25 @@ HANDLE          *phSyncDoneEvent;
 |:-----|:-----|:-----|
 |SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Envíe el mensaje al servidor (no está en uso actualmente).  <br/> |
 |SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Cambios de jerarquía de inserción en el servidor.  <br/> |
-|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Extraer cambios de jerarquía del servidor.  <br/> |
-|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Cambios de mensajes de inserción en el servidor.  <br/> |
-|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Extraer cambios de mensajes del servidor.  <br/> |
-|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |El usuario inició la sincronización y debe ser de mayor prioridad.  <br/> |
+|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Extraer cambios de jerarquía desde el servidor.  <br/> |
+|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Insertar cambios de mensaje en el servidor.  <br/> |
+|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Extraer cambios de mensaje desde el servidor.  <br/> |
+|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |El usuario inició la sincronización y debe ser una prioridad mayor.  <br/> |
 |SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Solo deben sincronizarse los encabezados y no los cuerpos completos.  <br/> |
    
  **psesSync**
   
-> [ENTRADA] Puntero a la sesión MAPI.
+> [IN] Puntero a la sesión MAPI.
     
- **golcallBack**
+ **punkCallBack**
   
-> [ENTRADA] Puntero a la interfaz en la que se va a proporcionar el progreso. Se puede usar para consultar la interfaz de [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md).
+> [IN] Puntero a la interfaz en la que se va a proporcionar el progreso. Se puede usar para consultar la interfaz de [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md).
     
  **\*phSyncDoneEvent**
   
-> [SALIDA] Evento que se producirá cuando se complete el subproceso que se acaba de crear. El puntero debe ser válido porque contendrá el evento.
+> [OUT] Evento que se producirá cuando se complete el subproceso que se acaba de crear. El puntero debe ser válido porque contendrá el evento.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

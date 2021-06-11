@@ -25,18 +25,18 @@ ms.locfileid: "33422890"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene TRUE si el asistente para perfiles va a suprimir la página almacén de mensajes personales (PST).
+Esta propiedad contiene TRUE si el asistente para perfiles va a suprimir la página de almacén de mensajes personales (PST).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_WIZARD_NO_PST_PAGE  <br/> |
 |Identificador:  <br/> |0x6700  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Administración de Exchange  <br/> |
+|Área:  <br/> |Exchange Administrativo  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de servicios pueden establecer esta propiedad al llamar a una función basada en el prototipo de la función [LAUNCHWIZARDENTRY.](launchwizardentry.md) Esta propiedad indica al asistente para perfiles que el proveedor no desea que se muestre la página PST durante el cuadro de diálogo de usuario. 
+Los proveedores de servicios pueden establecer esta propiedad al llamar a una función basada en el prototipo de [función LAUNCHWIZARDENTRY.](launchwizardentry.md) Esta propiedad indica al asistente de perfil que el proveedor no desea que se muestre la página PST durante el cuadro de diálogo del usuario. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

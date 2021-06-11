@@ -21,10 +21,10 @@ ms.locfileid: "33420951"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Si la única parte de MAPI que necesita usar son las utilidades: las interfaces y funciones declaradas en MAPIUTIL de MAPI. Archivo de encabezado H como **IPropData** **e ITableData:** no es necesario llamar a **MAPIInitialize** para inicialización. Para obtener más información, vea [IPropData : IMAPIProp](ipropdataimapiprop.md), [ITableData : IUnknown](itabledataiunknown.md)y [MAPIInitialize](mapiinitialize.md). En su lugar, llame a **la función ScInitMapiUtil.** Para obtener más información, [vea ScInitMapiUtil](scinitmapiutil.md). **ScInitMapiUtil permite** a las aplicaciones cliente usar métodos y funciones de utilidad que requieren asignadores MAPI, pero que no los solicitan explícitamente. 
+Si la única parte de MAPI que necesita usar son las utilidades, las interfaces y funciones declaradas en MAPIUTIL de MAPI. Archivo de encabezado H como **IPropData** e **ITableData:** no es necesario llamar a **MAPIInitialize** para la inicialización. Para obtener más información, vea [IPropData : IMAPIProp](ipropdataimapiprop.md), [ITableData : IUnknown](itabledataiunknown.md)y [MAPIInitialize](mapiinitialize.md). En su lugar, llame a **la función ScInitMapiUtil.** Para obtener más información, [vea ScInitMapiUtil](scinitmapiutil.md). **ScInitMapiUtil** permite a las aplicaciones cliente usar funciones de utilidad y métodos que requieren asignadores MAPI, pero que no las solicitan explícitamente. 
   
-En el momento del apagado, realiza una llamada a **DeinitMapiUtil** para liberar recursos conectados a las utilidades. No llame a **MAPIUninitialize**. Para obtener más información, vea [DeinitMapiUtil](deinitmapiutil.md) y [MAPIUninitialize](mapiuninitialize.md).
+En el momento del cierre, realice una llamada a **DeinitMapiUtil para** liberar recursos conectados a las utilidades. No llame a **MAPIUninitialize**. Para obtener más información, vea [DeinitMapiUtil](deinitmapiutil.md) y [MAPIUninitialize](mapiuninitialize.md).
   
-Tenga en cuenta que la **interfaz ITableData** no admite notificaciones de tabla para clientes que han llamado **ScInitMapiUtil** en lugar de **MAPIInitialize**. 
+Tenga en cuenta que la **interfaz ITableData** no admite notificaciones de tabla para clientes que han llamado **a ScInitMapiUtil en** lugar de **MAPIInitialize**. 
   
 

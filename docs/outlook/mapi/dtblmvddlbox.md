@@ -52,15 +52,15 @@ typedef struct _DTBLMVDDLBX
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura DTBLMVDDLBOX** describe una lista desplegable de varios valores, una lista de elementos de solo lectura. Al usar una lista desplegable de varios valores, los valores se muestran cuando un usuario hace clic en una barra de desplazamiento. 
+Una **estructura DTBLMVDDLBOX** describe una lista desplegable de varios valores una lista de elementos de solo lectura. Al usar una lista desplegable de varios valores, los valores se muestran cuando un usuario hace clic en una barra de desplazamiento. 
   
-Los datos que se muestran proceden de la propiedad identificada en el **miembro ulMVPropTag.** No es necesario leer desde la interfaz de propiedades asociada a la tabla para mostrar. Además, como los usuarios no pueden realizar selecciones de estos tipos de cuadros de lista, los datos no se escriben en la interfaz de propiedades. 
+Los datos que se muestran proceden de la propiedad identificada en el **miembro ulMVPropTag.** No hay ningún requisito para leer desde la interfaz de propiedades asociada a la tabla para mostrar. Además, como los usuarios no pueden realizar selecciones de estos tipos de cuadros de lista, los datos no se escriben en la interfaz de propiedades. 
   
 Solo se admiten propiedades de cadena de varios valores para la lista desplegable de varios valores; no se admiten otros tipos de propiedades multivalor. 
   
-Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información sobre cómo implementar una tabla para mostrar, vea [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

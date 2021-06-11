@@ -25,7 +25,7 @@ ms.locfileid: "33420314"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Presenta un cuadro de diálogo que permite al usuario seleccionar varios formularios y devuelve una matriz de objetos de información de formulario que describen esos formularios.
+Presenta un cuadro de diálogo que permite al usuario seleccionar varios formularios y devuelve una matriz de objetos de información de formulario que describen dichos formularios.
   
 ```cpp
 HRESULT SelectMultipleForms(
@@ -38,31 +38,31 @@ HRESULT SelectMultipleForms(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del cuadro de diálogo mostrado. 
+> [in] Identificador de la ventana principal del cuadro de diálogo mostrado. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de las cadenas pasadas. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de las cadenas pasadas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
  _pszTitle_
   
-> [entrada] Puntero a una cadena que contiene el título del cuadro de diálogo. Si el  _parámetro pszTitle_ es NULL, el proveedor de bibliotecas de formularios que proporciona los formularios proporciona un título predeterminado. 
+> [in] Puntero a una cadena que contiene el título del cuadro de diálogo. Si el  _parámetro pszTitle_ es NULL, el proveedor de biblioteca de formularios que proporciona los formularios proporciona un título predeterminado. 
     
  _pfld_
   
-> [entrada] Puntero a la carpeta desde la que se seleccionarán los formularios. Si el  _parámetro pfld_ es NULL, los formularios se seleccionan desde el contenedor de formularios local, personal u organización. 
+> [in] Puntero a la carpeta desde la que se seleccionan los formularios. Si el  _parámetro pfld_ es NULL, los formularios se seleccionan desde el contenedor de formularios local, personal u organización. 
     
  _pfrminfoarray_
   
-> [entrada] Puntero a una matriz de objetos de información de formulario que están preseleccionados para el usuario.
+> [in] Puntero a una matriz de objetos de información de formulario que están preseleccionados para el usuario.
     
  _ppfrminfoarray_
   
@@ -76,21 +76,21 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
+> La marca MAPI_UNICODE se estableció y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar del cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón Cancelar** del cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormMgr::SelectMultipleForms** para presentar primero un cuadro de diálogo que permite al usuario seleccionar varios formularios y, a continuación, recuperar una matriz de objetos de información de formulario que describen los formularios seleccionados. El **cuadro de diálogo SelectMultipleForms** muestra todos los formularios, estén o no ocultos (es decir, si sus propiedades ocultas están claras). 
+Los visores de formularios llaman al método **IMAPIFormMgr::SelectMultipleForms** para presentar primero un cuadro de diálogo que permite al usuario seleccionar varios formularios y, a continuación, recuperar una matriz de objetos de información de formulario que describen los formularios seleccionados. El **cuadro de diálogo SelectMultipleForms** muestra todos los formularios, independientemente de si están ocultos (es decir, si sus propiedades ocultas están o no claras). 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si un visor de formulario pasa la MAPI_UNICODE en el parámetro  _ulFlags,_ todas las cadenas son Unicode. Los proveedores de bibliotecas de formularios que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE se pasa. 
+Si un visor de formulario pasa la marca MAPI_UNICODE en el  _parámetro ulFlags,_ todas las cadenas son Unicode. Los proveedores de bibliotecas de formularios que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE se pasa. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

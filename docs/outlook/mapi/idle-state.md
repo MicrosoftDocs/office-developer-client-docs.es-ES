@@ -1,5 +1,5 @@
 ---
-title: Estado inactivo
+title: Estado de inactividad
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419481"
 ---
-# <a name="idle-state"></a>Estado inactivo
+# <a name="idle-state"></a>Estado de inactividad
 
   
   
@@ -31,13 +31,13 @@ ms.locfileid: "33419481"
 |A este estado:  <br/> |[Estado de sincronización](synchronize-state.md) <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que va de un estado a otro debe volver al primero desde el segundo. 
+> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que sale de un estado a otro debe volver al primero desde el segundo. 
   
-## <a name="description"></a>Description
+## <a name="description"></a>Descripción
 
-No sucede nada en este estado. Un almacén local se encuentra en este estado antes de que se inicie la replicación y una vez completada la replicación.
+No ocurre nada en este estado. Un almacén local está en este estado antes de iniciar la replicación y después de que se complete la replicación.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

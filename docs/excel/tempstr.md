@@ -22,7 +22,7 @@ ms.locfileid: "33418046"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca framework en desuso que crea un **XLOPER temporal** que contiene una cadena de bytes **xltypeStr.** Toma una cadena de origen terminada en null como entrada. Intenta sobrescribir el primer carácter de la cadena proporcionada con la longitud de la cadena subsiguiente. Esto no siempre es algo seguro: Microsoft Excel podría bloquearse si se pasa una cadena de solo lectura. 
+Función de biblioteca de Framework en desuso que crea un **XLOPER temporal** que contiene una cadena de bytes **xltypeStr.** Toma una cadena de origen terminada en null como entrada. Intenta sobrescribir el primer carácter de la cadena suministrada con la longitud de la cadena posterior. Esto no siempre es algo seguro: Microsoft Excel podría bloquearse si se pasa una cadena de solo lectura. 
   
 ```cs
 LPXLOPER TempStr(LPSTR str);
@@ -36,13 +36,13 @@ Puntero a la cadena de origen terminada en null. **TempStr** trunca cadenas de m
   
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve una **cadena xltypeStr** que contiene un puntero al búfer de cadenas pasado. 
+Devuelve una **cadena xltypeStr** que contiene un puntero al búfer de cadena pasado. 
   
 ## <a name="remarks"></a>Comentarios
 
-Esta forma de crear cadenas temporales ahora está en desuso en favor de la forma en que funcionan [tanto TempStrConst como TempStr12.](tempstrconst-tempstr12.md) Estas funciones asignan un nuevo búfer de memoria y copian la cadena pasada en él. Las cadenas de entrada **para TempStrConst** y **TempStr12** no se modifican, por lo que se declaran **como constante**. En cambio, la cadena de entrada a **TempStr** se modifica y, por lo tanto, no se puede declarar como **constante**. El primer carácter de la cadena de entrada se trata como espacio para un carácter de longitud y esta función lo sobrescribe.
+Esta forma de crear cadenas temporales ahora está en desuso en favor de la forma en que funcionan [TempStrConst y TempStr12.](tempstrconst-tempstr12.md) Estas funciones asignan un nuevo búfer de memoria y copian la cadena pasada en él. Las cadenas de entrada **de TempStrConst** y **TempStr12** no se modifican, por lo que se declaran **como const**. En cambio, la cadena de entrada a **TempStr** se modifica y, por lo tanto, no se puede declarar como **const**. El primer carácter de la cadena de entrada se trata como espacio para un carácter de longitud y esta función lo sobrescribe.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

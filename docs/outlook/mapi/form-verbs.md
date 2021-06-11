@@ -19,18 +19,18 @@ ms.locfileid: "33424031"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La interfaz de usuario de un formulario normalmente ofrece elementos de menú o controles que permiten a los usuarios realizar algún tipo de acción con el formulario. El trabajo del servidor de formularios es controlar estas acciones de usuario. Esta interfaz se implementa mediante las API estándar de Win32; escribir una es igual que escribir otras interfaces para programas normales de Win32.
+La interfaz de usuario de un formulario normalmente ofrece elementos de menú o controles que permiten a los usuarios realizar algún tipo de acción con el formulario. El trabajo del servidor de formularios es controlar estas acciones de usuario. Esta interfaz se implementa con las API estándar de Win32; escribir uno es igual que escribir otras interfaces para programas win32 normales.
   
-A menudo, las acciones del usuario se asocian con verbos. Un verbo es el nombre de una acción específica de una clase de mensaje determinada. Por ejemplo, **Responder** es un verbo que implementan muchos servidores de formulario, cada uno de los cuales puede tener una interpretación diferente de ese verbo. A veces, los verbos se denominan comandos. 
+A menudo, las acciones del usuario se asocian con verbos. Un verbo es el nombre de una acción específica de una clase de mensaje determinada. Por ejemplo, **Reply** es un verbo implementado por muchos servidores de formulario, cada uno de los cuales puede tener una interpretación diferente de ese verbo. A veces, los verbos se denominan comandos. 
   
 > [!NOTE]
-> No todos los elementos de menú y controles de un formulario corresponden a un verbo. Por ejemplo, un **botón Cancelar** no corresponde a un verbo Cancel dentro del servidor de formulario. Normalmente, los verbos se asocian con acciones específicas de una clase de mensaje determinada o un conjunto de clases de mensaje. Aunque diferentes clases de mensajes pueden admitir distintos conjuntos de verbos, todos admiten al menos el verbo Open, que muestra la interfaz de usuario del formulario y la carga con los valores de propiedad del mensaje. 
+> No todos los elementos de menú y los controles de un formulario corresponden a un verbo. Por ejemplo, un **botón Cancelar** no corresponde a un verbo Cancel dentro del servidor de formulario. Normalmente, los verbos se asocian con acciones específicas de una clase de mensaje determinada o un conjunto de clases de mensaje. Aunque diferentes clases de mensaje pueden admitir diferentes conjuntos de verbos, todas admiten al menos el verbo Abrir, que muestra la interfaz de usuario del formulario y la carga con los valores de propiedad del mensaje. 
   
-Es posible que los verbos no tomen ningún parámetro. Los formularios que exportan comandos con parámetros variables deben usar los mecanismos de automatización.
+Es posible que los verbos no tomen parámetros. Los formularios que exportan comandos con parámetros variables deben usar los mecanismos de automatización.
   
-Los clientes pueden determinar qué verbos son compatibles con una clase de mensaje determinada mediante el método [IMAPIFormInfo::CalcVerbSet,](imapiforminfo-calcverbset.md) que implementa el administrador de formularios MAPI. El administrador del formulario obtiene esta información del archivo de configuración del formulario. El cliente usa el conjunto de verbos devuelto por este método para mostrar al usuario qué comandos se pueden ejecutar en un mensaje. Por ejemplo, un cliente puede permitir a los usuarios hacer clic con el botón secundario del mouse sobre un mensaje para mostrar verbos aplicables a ese mensaje. 
+Los clientes pueden determinar qué verbos son compatibles con una clase de mensaje determinada a través del método [IMAPIFormInfo::CalcVerbSet,](imapiforminfo-calcverbset.md) que implementa el administrador de formularios MAPI. El administrador de formularios obtiene esta información del archivo de configuración del formulario. El conjunto de verbos devuelto por este método lo usa el cliente para mostrar al usuario qué comandos se pueden ejecutar en un mensaje. Por ejemplo, un cliente puede permitir a los usuarios hacer clic en el botón derecho del mouse sobre un mensaje para mostrar verbos aplicables a ese mensaje. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Formularios MAPI](mapi-forms.md)
 

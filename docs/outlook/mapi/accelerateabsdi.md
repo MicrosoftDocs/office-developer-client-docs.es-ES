@@ -23,7 +23,7 @@ ms.locfileid: "33420377"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una función de devolución de llamada para procesar las teclas de aceleración en un cuadro de diálogo de libreta de direcciones sin modelo. 
+Define una función de devolución de llamada para procesar teclas aceleradoras en un cuadro de diálogo de libreta de direcciones de modeless. 
   
 |||
 |:-----|:-----|
@@ -38,15 +38,15 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Valor específico de la implementación que se usa para pasar información de la interfaz de usuario a una función. En las aplicaciones que se ejecutan en Microsoft Windows,  _ulUIParam_ es el controlador de ventana principal de un cuadro de diálogo y es de tipo HWND, se convierte **en** un ULONG_PTR . Un valor de cero indica que no hay ninguna ventana primaria. 
+> [in] Valor específico de la implementación que se usa para pasar información de interfaz de usuario a una función. En las aplicaciones que se ejecutan en Microsoft Windows, _ulUIParam_ es el identificador de ventana principal de un cuadro de diálogo y es de tipo HWND, se convierte en un **ULONG_PTR**. Un valor de cero indica que no hay ninguna ventana primaria. 
     
  _lpvmsg_
   
-> [entrada] Puntero a un mensaje de Windows.
+> [in] Puntero a un Windows mensaje.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -54,10 +54,10 @@ Una función con el **prototipo ACCELERATEABSDI** devuelve TRUE si controla el m
   
 ## <a name="remarks"></a>Comentarios
 
-Una función basada en el prototipo **ACCELERATEABSDI** solo se usa con un cuadro de diálogo sin modelo, es decir, solo si la aplicación cliente ha establecido la marca DIALOG_SDI en el miembro _ulFlags_ de la estructura [ADRPARM.](adrparm.md) 
+Una función basada en el prototipo **ACCELERATEABSDI** solo se usa con un cuadro de diálogo de modeless, es decir, solo si la aplicación cliente ha establecido la marca DIALOG_SDI en el miembro _ulFlags_ de la estructura [ADRPARM.](adrparm.md) 
   
-Un cuadro de diálogo sin modelo comparte el bucle de mensajes de Windows de la aplicación cliente, en lugar de tener su propio bucle. La aplicación, que controla el bucle de mensajes, no sabe qué teclas de aceleración usa el cuadro de diálogo, por lo que llama a una función basada en **ACCELERATEABSDI** para probar y actuar sobre teclas de aceleración como CTRL+P para imprimir. 
+Un cuadro de diálogo de modeless comparte el bucle Windows mensaje de la aplicación cliente, en lugar de tener su propio bucle. La aplicación, que controla el bucle de mensajes, no sabe qué teclas de aceleración usa el cuadro de diálogo, por lo que llama a una función basada en **ACCELERATEABSDI** para probar y actuar sobre teclas de aceleración como CTRL+P para imprimir. 
   
-El bucle de mensajes de un cliente llama a la función basada en **ACCELERATEABSDI** cuando el cliente invoca un cuadro de diálogo de libreta de direcciones sin modelo con el método [IAddrBook::Address.](iaddrbook-address.md) Esta llamada finaliza cuando MAPI llama a una función basada en el prototipo de función [DISMISSMODELESS.](dismissmodeless.md) 
+El bucle de mensajes de un cliente llama a la función basada en **ACCELERATEABSDI** cuando el cliente invoca un cuadro de diálogo de libreta de direcciones modeless con el método [IAddrBook::Address.](iaddrbook-address.md) Esta llamada finaliza cuando MAPI llama a una función basada en el prototipo de función [DISMISSMODELESS.](dismissmodeless.md) 
   
 

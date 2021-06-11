@@ -20,7 +20,7 @@ Obtiene el siguiente número especificado de bloques de datos de disponibilidad 
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulta [IEnumFBBlock](ienumfbblock.md).
+Vea [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Next(  
@@ -30,15 +30,15 @@ HRESULT Next(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _celta_
   
-> [entrada] Número de bloques de datos de disponibilidad en  *pblk*  que se recuperarán. 
+> [in] Número de bloques de datos de disponibilidad en  *pblk*  que se recuperarán. 
     
 _pblk_
   
-> [entrada] Puntero a una matriz de bloques de disponibilidad. A la matriz se le asigna un tamaño de *celta.* Los bloques de disponibilidad solicitados se devuelven en esta matriz. 
+> [in] Puntero a una matriz de bloques de disponibilidad. A la matriz se le asigna un tamaño de *celta.* Los bloques de disponibilidad solicitados se devuelven en esta matriz. 
     
 _pcfetch_
   
@@ -51,7 +51,7 @@ _pcfetch_
 |S_OK  <br/> |Se ha devuelto el número de bloques solicitado.  <br/> |
 |S_FALSE  <br/> |No se ha devuelto el número de bloques solicitado.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md)  
 - [FBBlock_1](fbblock_1.md)  

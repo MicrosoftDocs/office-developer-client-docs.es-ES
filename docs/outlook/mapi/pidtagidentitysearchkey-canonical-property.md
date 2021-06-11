@@ -36,7 +36,7 @@ Contiene la clave de búsqueda de la identidad de un proveedor de servicios tal 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad no aparece como una propiedad en ningún objeto, sino solo como una columna de una tabla de estado. Forma parte de la identidad del proveedor de servicios que expone la fila de la tabla de estado. La identidad del proveedor suele hacer referencia a su cuenta en el servidor, pero puede hacer referencia a cualquier representación que el proveedor defina dentro del sistema de mensajería. 
+Esta propiedad no aparece como una propiedad en ningún objeto, sino solo como una columna en una tabla de estado. Forma parte de la identidad del proveedor de servicios que expone la fila de tabla de estado. La identidad del proveedor normalmente hace referencia a su cuenta en el servidor, pero puede hacer referencia a cualquier representación que el proveedor defina dentro del sistema de mensajería. 
   
 Un proveedor de servicios que proporciona cualquiera de las propiedades de identidad debe proporcionar todas ellas. Los proveedores que pertenecen al mismo servicio de mensajes deben exponer los mismos valores para las propiedades de identidad. 
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

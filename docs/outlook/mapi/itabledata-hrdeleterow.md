@@ -33,11 +33,11 @@ HRESULT HrDeleteRow(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSPropValue_
   
-> [entrada] Puntero a una estructura de valores de propiedad que describe la columna de índice de la fila que se va a eliminar. El **miembro ulPropTag** de la estructura de valores de propiedad debe contener la misma etiqueta de propiedad que el parámetro _ulPropTagIndexColumn_ de la llamada a la [función CreateTable.](createtable.md) 
+> [in] Puntero a una estructura de valores de propiedad que describe la columna de índice de la fila que se va a eliminar. El **miembro ulPropTag** de la estructura de valores de propiedad debe contener la misma etiqueta de propiedad que el parámetro _ulPropTagIndexColumn_ de la llamada a la [función CreateTable.](createtable.md) 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -53,11 +53,11 @@ MAPI_E_NOT_FOUND
 
 El **método ITableData::HrDeleteRow** quita la fila de tabla que contiene la columna que coincide con la propiedad a la que apunta el parámetro _lpSPropValue._ Los datos de la fila se eliminan y la fila se quita de todas las vistas abiertas. 
   
-Después de eliminar la fila, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable::Advise](imapitable-advise.md) de la tabla para registrarse para recibir notificaciones. 
+Después de eliminar la fila, las notificaciones se envían a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable::Advise](imapitable-advise.md) de la tabla para registrarse en las notificaciones. 
   
-La eliminación de una fila no reduce el conjunto de columnas que está disponible para las vistas existentes o las vistas abiertas posteriormente, incluso si la fila eliminada es la última fila que tiene un valor para una columna específica.
+La eliminación de una fila no reduce el conjunto de columnas que está disponible para vistas existentes o vistas abiertas posteriormente, incluso si la fila eliminada es la última fila que tiene un valor para una columna específica.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

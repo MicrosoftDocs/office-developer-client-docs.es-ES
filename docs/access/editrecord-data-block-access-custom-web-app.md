@@ -23,17 +23,17 @@ Puede utilizar el bloque de datos **EditarRegistro** para cambiar los valores co
 > [!NOTE]
 > El bloque de datos **EditarRegistro** solo está disponible en macros de datos. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 El bloque de datos **EditarRegistro** tiene los siguientes argumentos. 
   
 |**Argumento**|**Descripción**|
 |:-----|:-----|
-|**Alias** <br/> |Una cadena que identifica el registro que hay que editar. Si no  *se especifica*  el argumento Alias, se edita el registro actual.  <br/> |
+|**Alias** <br/> |Una cadena que identifica el registro que hay que editar. Si no se especifica el argumento  *Alias,*  se edita el registro actual.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Después de **la instrucción EditRecord,** puede insertar un bloque de comandos que se ejecutará antes de que se confirman los cambios realizados en el registro. Las siguientes acciones están disponibles en un **bloque de datos EditRecord.** 
+Después de **la instrucción EditRecord,** puede insertar un bloque de comandos que se ejecutará antes de que se confirman los cambios en el registro. Las siguientes acciones están disponibles en un **bloque de datos EditRecord.** 
   
 ||
 |:-----|

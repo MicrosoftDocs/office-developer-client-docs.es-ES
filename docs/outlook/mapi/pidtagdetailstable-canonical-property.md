@@ -36,7 +36,7 @@ Contiene un objeto de tabla para mostrar incrustado.
    
 ## <a name="remarks"></a>Comentarios
 
-Pasar esta propiedad al [método IMAPIProp::OpenProperty](imapiprop-openproperty.md) para el objeto devuelve una interfaz [IMAPITable](imapitableiunknown.md) que permite la creación de la tabla para mostrar. MAPI usa esta tabla para mostrar hojas de propiedades para un objeto de libreta de direcciones en respuesta a una [llamada IAddrBook::D etails.](iaddrbook-details.md) 
+Si se pasa esta propiedad al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) para el objeto, se devuelve una interfaz [IMAPITable](imapitableiunknown.md) que permite la creación de la tabla para mostrar. MAPI usa esta tabla para mostrar hojas de propiedades para un objeto de libreta de direcciones en respuesta a una [llamada IAddrBook::D etails.](iaddrbook-details.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

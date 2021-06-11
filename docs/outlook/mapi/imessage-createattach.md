@@ -25,7 +25,7 @@ ms.locfileid: "33417675"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea un nuevo archivo adjunto.
+Crea un nuevo dato adjunto.
   
 ```cpp
 HRESULT CreateAttach(
@@ -36,23 +36,23 @@ LPATTACH FAR * lppAttach
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso al mensaje. Si se pasa NULL, se devuelve la interfaz estándar del mensaje o **IMessage.** 
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para obtener acceso al mensaje. Si se pasa NULL, se devuelve la interfaz estándar del mensaje o **IMessage.** 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se crean los datos adjuntos. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se crean los datos adjuntos. Se puede establecer la siguiente marca:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permite **que CreateAttach** vuelva correctamente, posiblemente antes de que el cliente que realiza la llamada pueda obtener acceso a los datos adjuntos. Si no se puede obtener acceso a los datos adjuntos, realizar una llamada posterior a él puede provocar un error. 
+> Permite **que CreateAttach** vuelva correctamente, posiblemente antes de que el cliente que realiza la llamada pueda acceder a los datos adjuntos. Si los datos adjuntos no son accesibles, realizar una llamada posterior a él puede provocar un error. 
     
  _lpulAttachmentNum_
   
-> [salida] Puntero a un número de índice que identifica los datos adjuntos recién creados. Este número solo es válido cuando el mensaje está abierto y es la base de la propiedad PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de los datos adjuntos.
+> [salida] Puntero a un número de índice que identifica los datos adjuntos recién creados. Este número solo es válido cuando el mensaje está abierto y es la base para la propiedad PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
     
  _lppAttach_
   
@@ -66,11 +66,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMessage::CreateAttach** crea nuevos datos adjuntos en un mensaje. Los nuevos datos adjuntos y las propiedades establecidas para él no estarán disponibles hasta que un cliente haya llamado al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de los datos adjuntos y al método **IMAPIProp::SaveChanges** del mensaje. 
+El **método IMessage::CreateAttach** crea un nuevo dato adjunto en un mensaje. Los nuevos datos adjuntos y las propiedades que se establecen para él, no están disponibles hasta que un cliente haya llamado al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de los datos adjuntos y al método **IMAPIProp::SaveChanges del mensaje.** 
   
-El número de datos adjuntos al que  _apunta lpulAttachmentNum_ es único y válido solo en el contexto del mensaje. Es decir, dos datos adjuntos de dos mensajes diferentes pueden tener el mismo número, mientras que dos datos adjuntos del mismo mensaje no. 
+El número de datos adjuntos señalado por  _lpulAttachmentNum_ es único y válido solo en el contexto del mensaje. Es decir, dos datos adjuntos en dos mensajes diferentes pueden tener el mismo número, mientras que dos datos adjuntos del mismo mensaje no pueden. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

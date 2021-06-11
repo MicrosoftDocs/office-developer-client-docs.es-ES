@@ -37,31 +37,31 @@ HRESULT SelectForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del cuadro de diálogo mostrado. 
+> [in] Identificador de la ventana principal del cuadro de diálogo mostrado. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de las cadenas pasadas. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de las cadenas pasadas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
  _pszTitle_
   
-> [entrada] Puntero a una cadena que contiene el título del cuadro de diálogo. Si el  _parámetro pszTitle_ es NULL, el proveedor de bibliotecas de formularios proporciona un título predeterminado. 
+> [in] Puntero a una cadena que contiene el título del cuadro de diálogo. Si el  _parámetro pszTitle_ es NULL, el proveedor de biblioteca de formularios proporciona un título predeterminado. 
     
  _pfld_
   
-> [entrada] Puntero a la carpeta desde la que se va a seleccionar el formulario. Si el  _parámetro pfld_ es NULL, el formulario se puede seleccionar desde el contenedor de formulario local, personal u organización. 
+> [in] Puntero a la carpeta desde la que se va a seleccionar el formulario. Si el  _parámetro pfld_ es NULL, el formulario se puede seleccionar desde el contenedor del formulario local, personal u organización. 
     
  _ppfrminfoReturned_
   
-> [salida] Puntero a un puntero al objeto de información de formulario devuelto.
+> [salida] Puntero a un puntero al objeto de información del formulario devuelto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -71,19 +71,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
+> La marca MAPI_UNICODE se estableció y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar del cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón Cancelar** del cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormMgr::SelectForm** para presentar primero un cuadro de diálogo que permite al usuario seleccionar un formulario y, a continuación, recuperar un objeto de información del formulario que describe el formulario seleccionado. El cuadro de diálogo limita al usuario a seleccionar un único formulario. 
+Los visores de formularios llaman al método **IMAPIFormMgr::SelectForm** para presentar primero un cuadro de diálogo que permita al usuario seleccionar un formulario y, a continuación, recuperar un objeto de información de formulario que describa el formulario seleccionado. El cuadro de diálogo limita al usuario a seleccionar un solo formulario. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-El **cuadro de diálogo Seleccionarformulario** muestra solo los formularios que no están ocultos (es decir, los formularios que tienen sus propiedades ocultas borradas). Si un visor de formulario pasa la MAPI_UNICODE en el parámetro  _ulFlags,_ todas las cadenas son Unicode. Los proveedores de bibliotecas de formularios que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE se pasa. 
+El **cuadro de diálogo Seleccionarformulario** muestra solo formularios que no están ocultos (es decir, formularios que tienen sus propiedades ocultas borradas). Si un visor de formulario pasa la marca MAPI_UNICODE en el  _parámetro ulFlags,_ todas las cadenas son Unicode. Los proveedores de bibliotecas de formularios que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE se pasa. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -91,9 +91,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnSelectForm  <br/> |MFCMAPI usa el **método IMAPIFormMgr::SelectForm** para seleccionar un formulario y enviar información sobre el formulario a uno o más registros.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnSelectForm  <br/> |MFCMAPI usa el **método IMAPIFormMgr::SelectForm** para seleccionar un formulario y enviar información sobre el formulario a uno o varios registros.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

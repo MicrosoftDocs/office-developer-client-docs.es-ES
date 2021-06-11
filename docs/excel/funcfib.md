@@ -22,33 +22,33 @@ ms.locfileid: "33423674"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Ejemplo de función de hoja de cálculo definida por el usuario que calcula el número N.º de Fibonacci. Cuando se carga GENERIC.xll, registra esta función para que se pueda llamar desde la hoja de cálculo.
+Función de hoja de cálculo definida por el usuario que calcula el número Nésima de Fibonacci. Cuando se carga GENERIC.xll, registra esta función para que se pueda llamar desde la hoja de cálculo.
   
 ```cs
 LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pxN_ (**LPXLOPER12**)
   
-Valor de N para el que se requiere el número N de Fibonacci.
+Valor de N para el que se requiere el número Nésima fibonacci.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-(**xltypeNum LPXLOPER12** si se realiza correctamente o **xltypeErr en caso** contrario) 
+(**xltypeNum LPXLOPER12** si se realiza correctamente **o xltypeErr de lo** contrario) 
   
-Número N.º de Fibonacci.
+Número Nésima fibonacci.
   
 ## <a name="remarks"></a>Comentarios
 
-La función usa una variable estática definida dentro del bloque de funciones como el valor devuelto **XLOPER12**. Esto no es seguro para subprocesos, por lo que esta función y cualquier función de hoja de cálculo que use esta estrategia para devolver **XLOPER** o **XLOPER12** no deben registrarse como seguras para subprocesos a partir de Excel 2007.
+La función usa una variable estática definida dentro del bloque de funciones como el valor devuelto **XLOPER12**. Esto no es seguro para subprocesos, por lo que esta función y cualquier función de hoja de cálculo que use esta estrategia para devolver **XLOPER** s o **XLOPER12** s, no deben registrarse como seguros para subprocesos a partir de Excel 2007.
   
 ### <a name="example"></a>Ejemplo
 
 Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Ejemplos de proveedores de servicios MAPI
+title: Ejemplos de proveedor de servicios MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420300"
 ---
-# <a name="mapi-service-provider-samples"></a>Ejemplos de proveedores de servicios MAPI
+# <a name="mapi-service-provider-samples"></a>Ejemplos de proveedor de servicios MAPI
 
   
   
@@ -23,7 +23,7 @@ ms.locfileid: "33420300"
   
 Esta sección contiene ejemplos de código de tres proveedores de servicios MAPI:
   
-- [Descarga de los ejemplos MAPI de Outlook](downloading-the-outlook-mapi-samples.md)
+- [Descargar los ejemplos Outlook MAPI](downloading-the-outlook-mapi-samples.md)
     
     En este tema se describe cómo descargar los ejemplos.
     
@@ -31,11 +31,11 @@ Esta sección contiene ejemplos de código de tres proveedores de servicios MAPI
     
     Este ejemplo admite un único contenedor de solo lectura para nombres para mostrar y direcciones de correo electrónico, que se leen desde un archivo binario plano.
     
-- [Ejemplo de proveedor de almacén de mensajes](message-store-provider-sample.md)
+- [Ejemplo del proveedor del almacén de mensajes](message-store-provider-sample.md)
     
     En este ejemplo se usan directorios como carpetas y archivos de documentos OLE 2.0 como mensajes. El ejemplo admite todas las características necesarias para un almacén de mensajes predeterminado.
     
-- [Ejemplo de proveedor de transporte](transport-provider-sample.md)
+- [Ejemplo del proveedor de transporte](transport-provider-sample.md)
     
     En este ejemplo se usan archivos y directorios para transmitir y recibir mensajes.
     

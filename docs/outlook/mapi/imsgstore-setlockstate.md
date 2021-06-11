@@ -34,15 +34,15 @@ HRESULT SetLockState(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
-> [entrada] Puntero al mensaje que se bloqueará o desbloqueará.
+> [in] Puntero al mensaje para bloquear o desbloquear.
     
  _ulLockState_
   
-> [entrada] Valor que indica si el mensaje debe estar bloqueado o desbloqueado. Uno de los siguientes valores es válido:
+> [in] Valor que indica si el mensaje debe bloquearse o desbloquearse. Uno de los siguientes valores es válido:
     
 MSG_LOCKED 
   
@@ -50,7 +50,7 @@ MSG_LOCKED
     
 MSG_UNLOCKED 
   
-> El mensaje debe desbloquearse.
+> El mensaje debe estar desbloqueado.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -60,17 +60,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMsgStore::SetLockState** bloquea o desbloquea un mensaje. **SetLockState** solo se puede llamar mediante la cola MAPI mientras se envía el mensaje. 
+El **método IMsgStore::SetLockState** bloquea o desbloquea un mensaje. **SetLockState** solo se puede llamar mediante la cola MAPI mientras envía el mensaje. 
   
-Normalmente, cuando la cola MAPI llama a **SetLockState** para bloquear un mensaje, bloquea solo el mensaje más antiguo (es decir, el siguiente mensaje en cola para que la cola MAPI envíe). Si el mensaje más antiguo de la cola está esperando un proveedor de transporte temporalmente no disponible y el siguiente mensaje de la cola usa un proveedor de transporte diferente, la cola MAPI puede empezar a procesar el mensaje posterior. Comienza el procesamiento mediante el bloqueo de ese mensaje mediante **SetLockState**.
+Normalmente, cuando la cola MAPI llama a **SetLockState** para bloquear un mensaje, solo bloquea el mensaje más antiguo (es decir, el siguiente mensaje en cola para que la cola MAPI envíe). Si el mensaje más antiguo de la cola está esperando un proveedor de transporte temporalmente no disponible y el siguiente mensaje de la cola usa un proveedor de transporte diferente, la cola MAPI puede comenzar a procesar el mensaje posterior. Se inicia el procesamiento bloqueando ese mensaje mediante **SetLockState**.
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Después de que la cola MAPI haya llamado **a SetLockState** con el parámetro  _ulLockState_ establecido en MSG_LOCKED, las llamadas al método [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) para cancelar la transmisión del mensaje deben producir un error. 
   
-Llame al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje en su implementación **SetLockState** para que se guarden los cambios realizados en el mensaje antes de recibir la llamada **SetLockState.** 
+Llame al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje en la implementación **SetLockState** para que se guarden los cambios realizados en el mensaje antes de recibir la llamada **SetLockState.** 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -36,9 +36,9 @@ Contiene el nombre para mostrar del destinatario que debe obtener informes para 
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección del destinatario al que el remitente delega recibir los informes generados para este mensaje.
+Estas propiedades son ejemplos de las propiedades de dirección del destinatario al que el remitente ha delegado para recibir los informes generados para este mensaje.
   
-Una aplicación cliente que debe enrutar los informes a otro usuario debe establecer estas propiedades en el momento del envío del mensaje. Si no se establecen, los informes se envían al remitente del mensaje.
+Una aplicación cliente que debe enrutar los informes a otro usuario debe establecer estas propiedades en el momento del envío de mensajes. Si no se establecen, los informes se envían al remitente del mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

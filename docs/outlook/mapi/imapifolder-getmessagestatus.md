@@ -36,15 +36,15 @@ HRESULT GetMessageStatus(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> [entrada] Puntero al identificador de entrada del mensaje cuyo estado se obtiene.
+> [in] Puntero al identificador de entrada del mensaje cuyo estado se obtiene.
     
  _ulFlags_
   
@@ -52,7 +52,7 @@ HRESULT GetMessageStatus(
     
  _lpulMessageStatus_
   
-> [salida] Puntero a un puntero a una máscara de bits de marcas que indican el estado del mensaje. Los bits del 0 al 15 están reservados y deben ser cero; Bits 16 a 31 están disponibles para uso específico de la implementación. Se pueden establecer las siguientes marcas:
+> [salida] Puntero a un puntero a una máscara de bits de marcas que indican el estado del mensaje. Los bits del 0 al 15 están reservados y deben ser cero; Los bits del 16 al 31 están disponibles para uso específico de la implementación. Se pueden establecer las siguientes marcas:
     
 MSGSTATUS_DELMARKED 
   
@@ -60,11 +60,11 @@ MSGSTATUS_DELMARKED
     
 MSGSTATUS_HIDDEN 
   
-> No se mostrará el mensaje. 
+> El mensaje no se va a mostrar. 
     
 MSGSTATUS_HIGHLIGHTED 
   
-> El mensaje se mostrará resaltado.
+> El mensaje debe mostrarse resaltado.
     
 MSGSTATUS_REMOTE_DELETE 
   
@@ -82,15 +82,15 @@ MSGSTATUS_TAGGED
 
 S_OK 
   
-> El estado del mensaje se ha recuperado correctamente.
+> El estado del mensaje se recuperó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPIFolder::GetMessageStatus** devuelve el estado de un mensaje. El estado del mensaje se almacena en la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) del mensaje. 
+El **método IMAPIFolder::GetMessageStatus** devuelve el estado de un mensaje. El estado del mensaje se almacena en la propiedad **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La forma en que se establecen, borran y usan los bits de estado del mensaje depende completamente de la implementación, excepto que los bits del 0 al 15 están reservados y deben ser cero. Si almacena mensajes en el subárbol IPM, MAPI reserva bits del 16 al 31 para que los usen los clientes IPM. Si almacena mensajes en otros subárboles, puede usar los bits del 16 al 31 para sus propios fines.
+El modo en que se establecen, borran y usan los bits de estado del mensaje depende completamente de la implementación, excepto que los bits del 0 al 15 están reservados y deben ser cero. Si almacena mensajes en el subárbol IPM, MAPI reserva los bits del 16 al 31 para que los usen los clientes IPM. Si almacena mensajes en otros subárboles, puede usar los bits del 16 al 31 para sus propios fines.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -98,10 +98,10 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI usa el **método IMAPIFolder::GetMessageStatus** para obtener el estado del siguiente mensaje que se mostrará.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI usa el **método IMAPIFolder::GetMessageStatus** para obtener el estado del siguiente mensaje que se va a mostrar.  <br/> |
 |MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal y OpenMessageModal  <br/> |MFCMAPI usa el método **IMAPIFolder::GetMessageStatus** para obtener el estado del mensaje que se va a mostrar para pasarlo al visor de formularios, que es CMyMAPIFormViewer o [IMAPISession::ShowForm](imapisession-showform.md).  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

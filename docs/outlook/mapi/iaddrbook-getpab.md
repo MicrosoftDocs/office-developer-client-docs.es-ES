@@ -34,7 +34,7 @@ HRESULT GetPAB(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpcbEntryID_
   
@@ -48,11 +48,11 @@ HRESULT GetPAB(
 
 S_OK 
   
-> El identificador de entrada del PAB se devolvió correctamente.
+> El identificador de entrada del PAB se ha devuelto correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes llaman **al método GetPAB** para recuperar el identificador de entrada del contenedor designado como PAB. Si no se ha establecido una PAB en el perfil, MAPI selecciona como PAB el primer contenedor de la jerarquía de libretas de direcciones que permite modificaciones. 
+Los clientes llaman **al método GetPAB** para recuperar el identificador de entrada del contenedor designado como PAB. Si no se ha establecido una PAB en el perfil, MAPI selecciona como PAB el primer contenedor de la jerarquía de libreta de direcciones que permite modificaciones. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -60,9 +60,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI usa **el método GetPAB** para obtener el identificador de la libreta de direcciones personal del usuario.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI usa el **método GetPAB** para obtener el identificador de la libreta de direcciones personal del usuario.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

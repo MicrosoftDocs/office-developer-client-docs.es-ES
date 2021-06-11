@@ -23,9 +23,9 @@ Determina el estilo de viñetas.
 |**Valor**|**Estilo de viñeta**|
 |:-----|:-----|
 |0  <br/> |Ninguno  <br/> |
-|1   <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
-|2   <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
-|3   <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
+|1  <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
+|2  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
+|3  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
 |4   <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
 |5   <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
 |6   <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |

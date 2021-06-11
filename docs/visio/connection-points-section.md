@@ -22,10 +22,10 @@ Contiene una fila y celdas para cada punto de conexión definido en una forma.
   
 ## <a name="remarks"></a>Comentarios
 
-Puede definir puntos de conexión en la sección **Puntos** de conexión de la ventana ShapeSheet o haciendo clic en la herramienta **Punto** de conexión de la **ficha** Inicio. 
+Puede definir puntos de conexión en la sección **Puntos de conexión** de la ventana ShapeSheet o haciendo clic en la herramienta **Punto** de conexión de la **ficha** Inicio. 
   
-Si la forma no tiene sección **de puntos de** conexión, puede insertar una sección Puntos **de** conexión en la ventana ShapeSheet. Haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar sección** y, a continuación, en **Puntos de conexión**. Para agregar puntos de conexión a una **sección** de puntos de conexión existente, haga clic con el botón secundario en una fila y haga clic en **Insertar** fila en el menú contextual. 
+Si la forma no tiene ninguna **sección Puntos de conexión,** puede insertar una sección **Puntos de conexión** en la ventana ShapeSheet. Haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar sección** y, a continuación, en **Puntos de conexión**. Para agregar puntos de conexión a una sección **de puntos** de conexión existente, haga clic con el botón secundario en una fila y haga clic en **Insertar fila** en el menú contextual. 
   
-Puede cambiar el tipo de fila de un punto de conexión en esta sección para mostrar celdas adicionales que puede usar para los cálculos de scratch. Para ello, haga clic con el botón secundario en la fila y, a continuación, haga clic en Cambiar tipo de **fila** en el menú contextual. 
+Puede cambiar el tipo de fila de un punto de conexión en esta sección para mostrar celdas adicionales que puede usar para cálculos de scratch. Para ello, haga clic con el botón secundario en la fila y, a continuación, haga clic **en Cambiar tipo de fila** en el menú contextual. 
   
 

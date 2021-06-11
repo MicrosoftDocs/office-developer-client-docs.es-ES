@@ -29,8 +29,8 @@ La **función Replace** contiene los argumentos siguientes.
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Expresión de cadena en la que se va a buscar.  <br/> |
-| *Pattern*  <br/> |Subcadena que se va a encontrar.  *El patrón*  no puede ser una cadena vacía ("").  <br/> |
+| *TextExpression*  <br/> |Expresión de cadena que se va a buscar.  <br/> |
+| *Pattern*  <br/> |Subcadena que se va a encontrar.  *Pattern*  no puede ser una cadena vacía ("").  <br/> |
 | *Replacement*  <br/> |Cadena de reemplazo.  <br/> |
    
 

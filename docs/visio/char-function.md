@@ -28,11 +28,11 @@ CHAR(** *number* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatorio  <br/> |**Number** <br/> |Número cuyo carácter ANSI desea obtener.  <br/> |
+| _number_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número cuyo carácter ANSI desea obtener.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La cadena resultante tiene un carácter de longitud. El  _parámetro_ number debe ser un número entero entre 1 y 255 (ambos incluidos) o la función devuelve un error. 
+La cadena resultante tiene un carácter de longitud. El  _parámetro number_ debe ser un entero entre 1 y 255 (ambos inclusive) o la función devuelve un error. 
   
 ## <a name="example"></a>Ejemplo
 

@@ -33,7 +33,7 @@ HRESULT GetSupportMask(
 ); 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pdwSupportMask_
   

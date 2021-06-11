@@ -25,7 +25,7 @@ ms.locfileid: "33424507"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una tabla que consta de todas las listas de control de acceso (SACL) del sistema aplicadas a una carpeta.
+Contiene una tabla que consta de todas las listas de control de acceso del sistema (SACL) aplicadas a una carpeta.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene una tabla que consta de todas las listas de control de acceso (SACL) de
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad está presente en todos los objetos de carpeta de un Exchange Server. Los valores incluidos en esta propiedad se usan para leer y modificar listas de control de acceso (ACL) en carpetas. Puede usar el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) con el identificador de interfaz IID_IExchangeModifyTable para obtener una interfaz [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) **para** la tabla ACL de una carpeta. Puede usar esta interfaz para leer y modificar esas ACL. 
+Esta propiedad está presente en todos los objetos de carpeta de un Exchange Server. Los valores incluidos en esta propiedad se usan para leer y modificar listas de control de acceso (ACL) en carpetas. Puede usar el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) con el identificador de interfaz IID_IExchangeModifyTable para obtener una [interfaz IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) **para** la tabla ACL de una carpeta. Puede usar esta interfaz para leer y modificar esas ACL. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

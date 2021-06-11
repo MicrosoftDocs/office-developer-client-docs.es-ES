@@ -36,7 +36,7 @@ Crea una estructura con nombre que incluye una [estructura DTBLBUTTON](dtblbutto
 SizedDtblButton (n, u)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _n_
   
@@ -56,7 +56,7 @@ TCHAR lpszLabel[n];
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

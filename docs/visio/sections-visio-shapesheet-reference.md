@@ -1,5 +1,5 @@
 ---
-title: Secciones (referencia de ShapeSheet de Visio)
+title: Secciones (Visio ShapeSheet Reference)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,27 +13,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419229"
 ---
-# <a name="sections-visio-shapesheet-reference"></a>Secciones (referencia de ShapeSheet de Visio)
+# <a name="sections-visio-shapesheet-reference"></a>Secciones (Visio ShapeSheet Reference)
 
 ## <a name="in-this-section"></a>En esta sección
 
 - [Sección de extremos 1D](1-d-endpoints-section.md)
     
-- [Sección de propiedades de rotación 3D](3-d-rotation-properties-section.md)
+- [Sección Propiedades de rotación 3D](3-d-rotation-properties-section.md)
     
 - [Sección de la etiqueta de acción](action-tag-section.md)
     
 - [Sección de acciones](actions-section.md)
     
-- [Sección de propiedades de efectos adicionales](additional-effect-properties-section.md)
+- [Sección Propiedades de efecto adicionales](additional-effect-properties-section.md)
     
 - [Sección de alineación](alignment-section.md)
     
 - [Sección de anotación](annotation-section.md)
     
-- [Sección de propiedades de bisel](bevel-properties-section.md)
+- [Sección Propiedades biselado](bevel-properties-section.md)
     
-- [Cambiar sección de comportamiento de forma](change-shape-behavior-section.md)
+- [Sección Cambiar comportamiento de forma](change-shape-behavior-section.md)
     
 - [Sección de caracteres](character-section.md)
     
@@ -47,7 +47,7 @@ ms.locfileid: "33419229"
     
 - [Sección de formato de relleno](fill-format-section.md)
     
-- [Sección de degradado de relleno](fill-gradient-section.md)
+- [Sección Degradado de relleno](fill-gradient-section.md)
     
 - [Sección de información de imagen externa](foreign-image-info-section.md)
     
@@ -55,7 +55,7 @@ ms.locfileid: "33419229"
     
 - [Sección de información de pegado](glue-info-section.md)
     
-- [Sección de propiedades de degradado](gradient-properties-section.md)
+- [Sección Propiedades de degradado](gradient-properties-section.md)
     
 - [Sección de propiedades de grupo](group-properties-section.md)
     
@@ -69,7 +69,7 @@ ms.locfileid: "33419229"
     
 - [Sección de formato de línea](line-format-section.md)
     
-- [Sección de degradado de línea](line-gradient-section.md)
+- [Sección degradado de línea](line-gradient-section.md)
     
 - [Sección de varios](miscellaneous-section.md)
     
@@ -83,11 +83,11 @@ ms.locfileid: "33419229"
     
 - [Sección de protección](protection-section.md)
     
-- [Sección de estilo rápido](quick-style-section.md)
+- [Sección Estilo rápido](quick-style-section.md)
     
 - [Sección de revisor](reviewer-section.md)
     
-- [Sección de &amp; cuadrícula de regla](rulergrid-section.md)
+- [Sección &amp; Cuadrícula de regla](rulergrid-section.md)
     
 - [Sección de borrador](scratch-section.md)
     
@@ -107,7 +107,7 @@ ms.locfileid: "33419229"
     
 - [Sección de transformación de texto](text-transform-section.md)
     
-- [Sección de propiedades del tema](theme-properties-section.md)
+- [Sección Propiedades del tema](theme-properties-section.md)
     
 - [Sección de celdas definidas por el usuario](user-defined-cells-section.md)
     

@@ -36,21 +36,21 @@ Proporciona una vista de solo lectura de una tabla. Los clientes y proveedores d
 |Identificador de interfaz:  <br/> |IID_IMAPITable  <br/> |
 |Tipo de puntero:  <br/> |LPMAPITABLE  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|[GetLastError](imapitable-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior de la tabla.  <br/> |
+|[GetLastError](imapitable-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior en la tabla.  <br/> |
 |[Aconsejar](imapitable-advise.md) <br/> |Se registra para recibir una notificación de eventos especificados que afectan a la tabla.  <br/> |
-|[Unadvise](imapitable-unadvise.md) <br/> |Cancela el envío de notificaciones previamente configuradas con una llamada al método **IMAPITable::Advise.**  <br/> |
+|[Unadvise](imapitable-unadvise.md) <br/> |Cancela el envío de notificaciones configuradas anteriormente con una llamada al **método IMAPITable::Advise.**  <br/> |
 |[GetStatus](imapitable-getstatus.md) <br/> |Devuelve el estado y el tipo de la tabla.  <br/> |
-|[SetColumns](imapitable-setcolumns.md) <br/> |Define las propiedades concretas y el orden de las propiedades que aparecen como columnas en la tabla.  <br/> |
+|[SetColumns](imapitable-setcolumns.md) <br/> |Define las propiedades concretas y el orden de las propiedades que se mostrarán como columnas en la tabla.  <br/> |
 |[QueryColumns](imapitable-querycolumns.md) <br/> |Devuelve una lista de columnas para la tabla.  <br/> |
 |[GetRowCount](imapitable-getrowcount.md) <br/> |Devuelve el número total de filas de la tabla.  <br/> |
 |[SeekRow](imapitable-seekrow.md) <br/> |Mueve el cursor a una posición específica de la tabla.  <br/> |
-|[SeekRowApprox](imapitable-seekrowapprox.md) <br/> |Mueve el cursor a una posición fraccional aproximada en la tabla.  <br/> |
-|[QueryPosition](imapitable-queryposition.md) <br/> |Recupera la posición actual de fila de tabla del cursor, basándose en un valor fraccionrio.  <br/> |
-|[FindRow](imapitable-findrow.md) <br/> |Busca la siguiente fila de una tabla que coincide con criterios de búsqueda específicos.  <br/> |
+|[SeekRowApprox](imapitable-seekrowapprox.md) <br/> |Mueve el cursor a una posición fraccional aproximada de la tabla.  <br/> |
+|[QueryPosition](imapitable-queryposition.md) <br/> |Recupera la posición actual de fila de tabla del cursor, basándose en un valor fraccional.  <br/> |
+|[FindRow](imapitable-findrow.md) <br/> |Busca la siguiente fila de una tabla que coincida con criterios de búsqueda específicos.  <br/> |
 |[Restrict](imapitable-restrict.md) <br/> |Aplica un filtro a una tabla, lo que reduce el conjunto de filas a solo aquellas filas que coincidan con los criterios especificados.  <br/> |
 |[CreateBookmark](imapitable-createbookmark.md) <br/> |Marca la posición actual de la tabla.  <br/> |
 |[FreeBookmark](imapitable-freebookmark.md) <br/> |Libera la memoria asociada a un marcador.  <br/> |
@@ -58,13 +58,13 @@ Proporciona una vista de solo lectura de una tabla. Los clientes y proveedores d
 |[QuerySortOrder](imapitable-querysortorder.md) <br/> |Recupera el criterio de ordenación actual de una tabla.  <br/> |
 |[QueryRows](imapitable-queryrows.md) <br/> |Devuelve una o más filas de una tabla, comenzando en la posición actual del cursor.  <br/> |
 |[Anular](imapitable-abort.md) <br/> |Detiene las operaciones asincrónicas actualmente en curso para la tabla.  <br/> |
-|[ExpandRow](imapitable-expandrow.md) <br/> |Expande una categoría de tabla contrayendo y agrega las filas hoja pertenecientes a la categoría a la vista de tabla.  <br/> |
-|[CollapseRow](imapitable-collapserow.md) <br/> |Contrae una categoría de tabla expandida, quitando las filas hoja pertenecientes a la categoría de la vista de tabla.  <br/> |
+|[ExpandRow](imapitable-expandrow.md) <br/> |Expande una categoría de tabla contrae y agrega las filas de hoja que pertenecen a la categoría a la vista de tabla.  <br/> |
+|[CollapseRow](imapitable-collapserow.md) <br/> |Contrae una categoría de tabla expandida, quitando las filas hoja que pertenecen a la categoría de la vista de tabla.  <br/> |
 |[WaitForCompletion](imapitable-waitforcompletion.md) <br/> |Suspende el procesamiento hasta que se hayan completado una o varias operaciones asincrónicas en curso en la tabla.  <br/> |
 |[GetCollapseState](imapitable-getcollapsestate.md) <br/> |Devuelve los datos necesarios para volver a generar el estado contraído o expandido actual de una tabla categorizada.  <br/> |
-|[SetCollapseState](imapitable-setcollapsestate.md) <br/> |Vuelve a generar el estado expandido o contraído actual de una tabla categorizada con datos guardados por una llamada anterior al método **IMAPITable::GetCollapseState.**  <br/> |
+|[SetCollapseState](imapitable-setcollapsestate.md) <br/> |Vuelve a generar el estado expandido o contraído actual de una tabla categorizada con datos guardados mediante una llamada anterior al método **IMAPITable::GetCollapseState.**  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

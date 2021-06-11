@@ -25,7 +25,7 @@ ms.locfileid: "33419845"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre codificado del destinatario originalmente deseado de un mensaje autoforwarded.
+Contiene el nombre codificado del destinatario original de un mensaje autoforwarded.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene el nombre codificado del destinatario originalmente deseado de un mensa
    
 ## <a name="remarks"></a>Comentarios
 
-El **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** automático que reenvía el mensaje debe establecer la propiedad. 
+La **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** debe establecerla el agente automático que reenvía el mensaje. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

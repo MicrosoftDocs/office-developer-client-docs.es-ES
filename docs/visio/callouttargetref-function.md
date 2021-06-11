@@ -37,7 +37,7 @@ Si la forma no es una forma de llamada o si no está asociada a una forma de des
   
 ## <a name="example"></a>Ejemplo
 
-CALLOUTTARGETREF()! Height 
+CALLOUTTARGETREF()! Alto 
   
 Devuelve el valor de la celda Height de la forma que está asociada a la llamada. 
   

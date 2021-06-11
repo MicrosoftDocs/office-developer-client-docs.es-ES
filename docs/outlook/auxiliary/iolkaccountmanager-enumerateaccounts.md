@@ -32,7 +32,7 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pclsidCategory_
   
@@ -77,9 +77,9 @@ _ppEnum_
 
 Especificar NULL para la categoría, devuelve un enumerador de todas las cuentas del tipo especificado. De forma similar, si se especifica NULL para el tipo de, devuelve un enumerador de todas las cuentas de la categoría especificada.
   
- **IOlkAccountManager::EnumerateAccounts** no es compatible con la categoría de la libreta de direcciones para una cuenta de Exchange. Si la cuenta es una cuenta de Exchange (*pclsidType*  es **CLSID_OlkMAPIAccount** ), y está intentando enumerar cuentas que implementan la libreta de direcciones (*prgclsidCategory*  es **CLSID_OlkAddressBook** ), al llamar a **IOlkAccountManager::EnumerateAccounts** no se devolverá la cuenta de Exchange en el enumerador de cuentas  *ppEnum*  . 
+ **IOlkAccountManager::EnumerateAccounts** no es compatible con la categoría de la libreta de direcciones para una cuenta de Exchange. Si la cuenta es una cuenta de Exchange (*pclsidType* es **CLSID_OlkMAPIAccount** ), e intenta enumerar las cuentas que implementan la libreta de direcciones (*prgclsidCategory* es **CLSID_OlkAddressBook** ), al llamar a **IOlkAccountManager::EnumerateAccounts** no se devolverá la cuenta de Exchange en el enumerador de cuentas *ppEnum* . 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkEnum](iolkenum.md)

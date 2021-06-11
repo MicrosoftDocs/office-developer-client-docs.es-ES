@@ -19,7 +19,7 @@ ms.locfileid: "33422176"
 Devuelve el valor entero del identificador único de una fuente, especificado por nombre.
   
 > [!NOTE]
-> En la mayoría de los casos, el identificador de fuente es específico del sistema. Aunque la fuente permanece establecida una vez que se usa en un archivo, la función **FONT** proporciona un acceso coherente a una fuente determinada en todos los sistemas y versiones de Visio. Se recomienda usar la función **FONT** para asignar fuentes en lugar de hacer referencia a identificadores de fuente directamente. 
+> En la mayoría de los casos, el identificador de fuente es específico del sistema. Aunque la fuente permanece establecida una vez que se usa en un archivo, la función **FONT** proporciona un acceso coherente a una fuente determinada en todos los sistemas y versiones de Visio. Se recomienda usar la función **FONT** para asignar fuentes en lugar de hacer referencia directamente a identificadores de fuente. 
   
 ## <a name="version-information"></a>Información de versiones
 

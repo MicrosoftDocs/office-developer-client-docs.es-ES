@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [SMAPIFormPropArray](smapiformprop
 CbMAPIFormPropArray (_c)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _c_
   
 > Recuento de **estructuras SMAPIFormProp** en la **estructura SMAPIFormPropArray** en cuestión. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

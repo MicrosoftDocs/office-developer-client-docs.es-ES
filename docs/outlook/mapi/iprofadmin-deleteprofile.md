@@ -34,15 +34,15 @@ HRESULT DeleteProfile(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
-> [entrada] Puntero al nombre del perfil que se va a eliminar.
+> [in] Puntero al nombre del perfil que se va a eliminar.
     
  _ulFlags_
   
-> [entrada] Siempre NULL. 
+> [in] Siempre NULL. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,9 +56,9 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IProfAdmin::D eleteProfile** elimina un perfil. Si el perfil que se va a eliminar está en uso cuando se llama **a DeleteProfile,** **DeleteProfile** devuelve S_OK pero no elimina el perfil inmediatamente. En su **lugar, DeleteProfile** marca el perfil para su eliminación y lo elimina después de que ya no se use, cuando todas sus sesiones activas han finalizado. 
+El **método IProfAdmin::D eleteProfile** elimina un perfil. Si el perfil que se va a eliminar está en uso cuando se llama **a DeleteProfile,** **DeleteProfile** devuelve S_OK pero no elimina el perfil inmediatamente. En su lugar, **DeleteProfile** marca el perfil para su eliminación y lo elimina después de que ya no se esté utilizando, cuando todas sus sesiones activas han finalizado. 
   
-Se llama a la función de punto de entrada para cada servicio de mensajes en el perfil con el valor MSG_SERVICE_DELETE establecido en el _parámetro ulContext._ En primer lugar, la función elimina el servicio y, a continuación, elimina la sección de perfil del servicio. No se vuelve a llamar a la función de punto de entrada del servicio de mensajes después de eliminar el servicio. 
+Se llama a la función de punto de entrada para cada servicio de mensajes del perfil con el valor MSG_SERVICE_DELETE establecido en _el parámetro ulContext._ En primer lugar, la función elimina el servicio y, a continuación, elimina la sección de perfil del servicio. No se vuelve a llamar a la función de punto de entrada del servicio de mensajes después de eliminar el servicio. 
   
 No se requiere ninguna contraseña para eliminar un perfil.
   
@@ -70,7 +70,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI usa el **método IProfAdmin::D eleteProfile** para eliminar el perfil seleccionado.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

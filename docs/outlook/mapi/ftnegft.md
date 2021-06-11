@@ -39,14 +39,14 @@ FILETIME FtNegFt(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ft_
   
-> [entrada] Estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo para el que se va a calcular el complemento de los dos. 
+> [in] Estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo para el que se calcula el complemento de los dos. 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La **función FtNegFt** devuelve una **estructura FILETIME** que contiene el complemento de los dos enteros. El parámetro de entrada no cambia. 
+La **función FtNegFt** devuelve una **estructura FILETIME** que contiene el complemento de los dos del entero. El parámetro de entrada permanece sin cambios. 
   
 

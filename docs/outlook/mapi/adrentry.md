@@ -41,7 +41,7 @@ typedef struct _ADRENTRY
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulReserved1**
   
@@ -49,7 +49,7 @@ typedef struct _ADRENTRY
     
  **cValues**
   
-> Número de propiedades de la matriz de valores de propiedad a las que apunta **el miembro rgPropVals.** El **miembro cValues** puede ser cero. 
+> Recuento de propiedades en la matriz de valores de propiedad a la que apunta el **miembro rgPropVals.** El **miembro cValues** puede ser cero. 
     
  **rgPropVals**
   
@@ -57,7 +57,7 @@ typedef struct _ADRENTRY
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura ADRENTRY** describe las propiedades que pertenecen a un único destinatario. Entre las propiedades que se usan normalmente para describir un destinatario se incluyen las siguientes: 
+Una **estructura ADRENTRY** describe las propiedades que pertenecen a un único destinatario. Entre las propiedades que normalmente se usan para describir un destinatario se incluyen las siguientes: 
   
  **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
   
@@ -67,17 +67,17 @@ Una **estructura ADRENTRY** describe las propiedades que pertenecen a un único 
   
  **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
   
-Cuando aparece un identificador de **entrada PR_ENTRYID** propiedad en la matriz [SPropValue](spropvalue.md) de un destinatario, esto indica que el destinatario se ha resuelto. Los clientes llaman al [método IAddrBook::ResolveName](iaddrbook-resolvename.md) para asegurarse de que se han resuelto todos los destinatarios de la lista de destinatarios de un mensaje saliente. Solo los destinatarios resueltos pueden enviarse con mensajes. 
+Cuando aparece un identificador de **entrada PR_ENTRYID** propiedad en la matriz [SPropValue](spropvalue.md) de un destinatario, esto indica que el destinatario se ha resuelto. Los clientes llaman [al método IAddrBook::ResolveName](iaddrbook-resolvename.md) para asegurarse de que se han resuelto todos los destinatarios de la lista de destinatarios de un mensaje saliente. Solo los destinatarios resueltos se pueden enviar con mensajes. 
   
  **Las estructuras ADRENTRY** normalmente se combinan para formar una matriz para el **miembro aEntries** de una [estructura ADRLIST.](adrlist.md) 
   
- **Las estructuras ADRENTRY** y [SRow](srow.md) son idénticas porque contienen un miembro reservado, una matriz de valores de propiedad y un recuento de valores en la matriz. Mientras que **las estructuras ADRENTRY** se combinan para formar el miembro **aEntries** de una estructura **ADRLIST,** las estructuras **SRow** se combinan para formar el miembro **aRow** de una [estructura SRowSet.](srowset.md) Ambos tipos de estructuras siguen las mismas reglas de asignación, lo que implica que una estructura **SRowSet** que se recupera de la tabla de contenido de un contenedor de libreta de direcciones se puede convertir en una estructura **ADRLIST** y usarse tal como está. 
+ **Las estructuras ADRENTRY** y [SRow](srow.md) son idénticas porque ambas contienen un miembro reservado, una matriz de valores de propiedad y un recuento de valores en la matriz. Mientras que las estructuras **ADRENTRY** se combinan para formar el miembro **aEntries** de una estructura **ADRLIST,** las estructuras **de SRow** se combinan para formar el miembro **aRow** de una estructura [SRowSet.](srowset.md) Ambos tipos de estructuras siguen las mismas reglas de asignación, lo que implica que una estructura **SRowSet** que se recupera de la tabla de contenido de un contenedor de libreta de direcciones se puede convertir en una estructura **ADRLIST** y usarse tal como está. 
   
-Una **estructura ADRENTRY** puede estar vacía. Por ejemplo, una estructura **ADRENTRY** contenida en la estructura **ADRLIST** a la que apunta el parámetro  _lppAdrList_ en una llamada a **IAddrBook::Address** puede estar vacía cuando se quita un destinatario. 
+Una **estructura ADRENTRY** puede estar vacía. Por ejemplo, una estructura **ADRENTRY** que se encuentra en la estructura **ADRLIST** a la que apunta el parámetro  _lppAdrList_ en una llamada a **IAddrBook::Address** puede estar vacía cuando se quita un destinatario. 
   
-Para obtener más información acerca de cómo asignar memoria para las **estructuras ADRENTRY,** vea [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
+Para obtener más información acerca de cómo asignar memoria para estructuras **ADRENTRY,** vea [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

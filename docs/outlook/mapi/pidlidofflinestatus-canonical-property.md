@@ -31,7 +31,7 @@ Determina el estado de un archivo de documento en un servidor que implementa [MS
 |:-----|:-----|
 |Propiedades asociadas  <br/> |dispidOfflineStatus  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x000085B9  <br/> |
+|Id. largo (LID):  <br/> |0x000085B9  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
@@ -41,9 +41,9 @@ En la tabla siguiente se muestran los valores posibles de esta propiedad.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|0  <br/> |El documento no está desproteido.  <br/> |
-|1   <br/> |El documento se desproteme para el usuario actual.  <br/> |
-|2   <br/> |El documento no está desprotegiendo, pero el usuario actual tiene una copia del archivo guardado para su edición en el equipo actual.  <br/> |
+|0  <br/> |El documento no está desprotebado.  <br/> |
+|1  <br/> |El documento se desproteme para el usuario actual.  <br/> |
+|2  <br/> |El documento no está desprotegiendo, pero el usuario actual tiene una copia del archivo guardado para su edición en el equipo actual.  <br/> |
    
 Esta propiedad se calcula localmente y no se envía a un servidor en ningún momento a menos que un usuario arrastre el elemento a otra cuenta. En ese caso, se trata como una propiedad personalizada definida por el usuario.
   
@@ -61,13 +61,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

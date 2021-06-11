@@ -35,15 +35,15 @@ HRESULT ModifyTable(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Use uno de los siguientes valores: 
+> [in] Use uno de los siguientes valores: 
     
 0 (cero)
   
-> Use el valor del miembro **ulRowFlags** de la [estructura ROWENTRY.](rowentry.md) 
+> Use el valor del **miembro ulRowFlags** de la [estructura ROWENTRY.](rowentry.md) 
     
 ACLTABLE_FREEBUSY
   
@@ -51,7 +51,7 @@ ACLTABLE_FREEBUSY
     
 frightsFreeBusyDetailed
   
-> Cuando ACLTABLE_FREEBUSY se pasa, proporciona una visualización detallada de los nuevos derechos de disponibilidad.
+> Cuando ACLTABLE_FREEBUSY se pasa, proporciona una presentación detallada de los nuevos derechos de disponibilidad.
     
 frightsFreeBusySimple
   
@@ -63,7 +63,7 @@ ROWLIST_REPLACE
     
  _lpMods_
   
-> [entrada] Apunta a una [estructura ROWLIST](rowlist.md) que contiene las propiedades del objeto de tabla. 
+> [in] Apunta a una [estructura ROWLIST](rowlist.md) que contiene las propiedades del objeto table. 
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -71,9 +71,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI usa el **método IExchangeModifyTable::ModifyTable** para volver a escribir una regla modificada en la tabla de reglas.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |MFCMAPI usa el **método IExchangeModifyTable::ModifyTable** para escribir una regla modificada en la tabla de reglas.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -22,7 +22,7 @@ Devuelve el valor del componente de luminosidad de un color.
   
 ## <a name="syntax"></a>Sintaxis
 
-LUM(** *expression* ** ) 
+LUM(** *expresión* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

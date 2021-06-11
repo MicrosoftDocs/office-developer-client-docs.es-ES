@@ -31,13 +31,13 @@ Los clientes de tener acceso a los destinatarios de un mensaje a trav�s de su 
     
 - Identificador de fila o **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md))
     
-Una vez que el mensaje se haya sometido al proceso de resolución de nombres, cada destinatario también tendrá un identificador de entrada o una columna **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Y cuando se ha enviado el mensaje, las filas de la tabla de destinatarios agregar� dos columnas m�s:
+Después de que el mensaje haya pasado por el proceso de resolución de nombres, cada destinatario también tendrá un identificador de entrada o una columna **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Y cuando se ha enviado el mensaje, las filas de la tabla de destinatarios agregar� dos columnas m�s:
   
 - Tipo de dirección o **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
 - Responsabilidad de transporte o **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md))
     
-Clients can retrieve a message's recipient table by calling its **IMessage::GetRecipientTable** method or its **IMAPIProp::OpenProperty** method. For more information, see [IMessage::GetRecipientTable](imessage-getrecipienttable.md) and [IMAPIProp::OpenProperty](imapiprop-openproperty.md). Message store providers are expected to support both of these approaches. The **OpenProperty** approach requires that the client specify IID_IMAPITable as the interface identifier and **PR_MESSAGE_RECIPIENTS** as the property tag. **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) es una propiedad de objeto de tabla que representa la tabla de destinatarios de un mensaje. Message store providers are required to set **PR_MESSAGE_RECIPIENTS** for each message and include it in the array of property tags returned from the **IMAPIProp::GetPropList** method. For more information, see [IMAPIProp::GetPropList](imapiprop-getproplist.md).
+Clients can retrieve a message's recipient table by calling its **IMessage::GetRecipientTable** method or its **IMAPIProp::OpenProperty** method. For more information, see [IMessage::GetRecipientTable](imessage-getrecipienttable.md) and [IMAPIProp::OpenProperty](imapiprop-openproperty.md). Message store providers are expected to support both of these approaches. The **OpenProperty** approach requires that the client specify IID_IMAPITable as the interface identifier and **PR_MESSAGE_RECIPIENTS** as the property tag. **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) es una propiedad de objeto table que representa la tabla de destinatarios de un mensaje. Message store providers are required to set **PR_MESSAGE_RECIPIENTS** for each message and include it in the array of property tags returned from the **IMAPIProp::GetPropList** method. For more information, see [IMAPIProp::GetPropList](imapiprop-getproplist.md).
   
 For more information about how to work with a recipient table, see [Tablas de destinatarios](recipient-tables.md).
   

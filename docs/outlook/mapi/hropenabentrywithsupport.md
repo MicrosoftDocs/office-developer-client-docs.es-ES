@@ -41,7 +41,7 @@ HRESULT HrOpenABEntryWithSupport(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSup_
   
@@ -49,19 +49,19 @@ HRESULT HrOpenABEntryWithSupport(
     
  _cbEntryID_
   
-> [entrada] Recuento de bytes del identificador de entrada especificado por el _parámetro lpEntryID._ 
+> [in] Recuento de bytes del identificador de entrada especificado por el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> [entrada] Puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se debe abrir.
+> [in] Puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se debe abrir.
     
  _lpInterface_
   
->  [entrada] Puntero al identificador de interfaz (IID) de la interfaz que se usará para tener acceso a la entrada abierta. Si se pasa NULL, se devuelve la interfaz estándar del objeto. Para los usuarios de mensajería, la interfaz estándar [es IMailUser : IMAPIProp](imailuserimapiprop.md). Para las listas de distribución, es [IDistList : IMAPIContainer](idistlistimapicontainer.md)y, para contenedores, es [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden  _establecer lpInterface_ en la interfaz estándar adecuada o una interfaz en la jerarquía de herencia. 
+>  [in] Puntero al identificador de interfaz (IID) de la interfaz que se usará para tener acceso a la entrada abierta. Si se pasa NULL, se devuelve la interfaz estándar del objeto. Para los usuarios de mensajería, la interfaz estándar es [IMailUser : IMAPIProp](imailuserimapiprop.md). Para las listas de distribución, es [IDistList : IMAPIContainer](idistlistimapicontainer.md)y, para los contenedores, es [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Los autores de llamadas pueden  _establecer lpInterface_ en la interfaz estándar adecuada o en una interfaz de la jerarquía de herencia. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de texto para el _parámetro lpszButtonText._ Se pueden establecer las siguientes marcas: 
+> [in] Máscara de bits de marcas que controla el tipo de texto del parámetro _lpszButtonText._ Se pueden establecer las siguientes marcas: 
     
 AB_TELL_DETAILS_CHANGE
   
@@ -73,15 +73,15 @@ DIALOG_MODAL
     
 DIALOG_SDI
   
-> Muestra la versión no modelada del cuadro de diálogo de direcciones comunes. Esta marca es mutuamente exclusiva con DIALOG_MODAL.
+> Muestra la versión modeless del cuadro de diálogo dirección común. Esta marca es mutuamente exclusiva con DIALOG_MODAL.
     
 MAPI_UNICODE
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
  _lpulObjType_
   
-> [salida] Puntero al tipo de la entrada abierta.
+> [salida] Puntero al tipo de entrada abierta.
     
  _lppUnk_
   

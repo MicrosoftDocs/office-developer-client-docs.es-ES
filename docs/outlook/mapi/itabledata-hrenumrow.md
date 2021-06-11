@@ -34,11 +34,11 @@ HRESULT HrEnumRow(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulRowNumber_
   
-> [entrada] Número de la fila para la que se devolverán las propiedades. El valor del parámetro  _ulRowNumber_ puede ser cualquier valor de 0, que indica la primera fila de la tabla, a través de n - 1, que indica la última fila de la tabla. 
+> [in] Número de fila para la que se devuelven las propiedades. El valor del parámetro  _ulRowNumber_ puede ser cualquier valor desde 0, que indica la primera fila de la tabla, a través de n - 1, que indica la última fila de la tabla. 
     
  _lppSRow_
   
@@ -48,7 +48,7 @@ HRESULT HrEnumRow(
 
 S_OK 
   
-> La fila se recuperó correctamente o no existe una fila para el número de fila especificado por el parámetro _ulRowNumber._ 
+> La fila se recuperó correctamente o no existe una fila para el número de fila especificado por el _parámetro ulRowNumber._ 
     
 ## <a name="remarks"></a>Comentarios
 
@@ -56,11 +56,11 @@ El **método ITableData::HrEnumRow** recupera una fila basada en un número secu
   
 Si el número especificado en  _ulRowNumber_ no corresponde a una fila de la tabla, **HrEnumRow** devuelve S_OK y establece el parámetro  _lppSRow_ en NULL. 
   
-MAPI asigna memoria para la estructura **SRow** devuelta mediante la [función MAPIAllocateBuffer](mapiallocatebuffer.md) cuando se crea el objeto de datos de tabla. El llamador debe liberar esta memoria llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
+MAPI asigna memoria para la estructura **SRow** devuelta mediante la [función MAPIAllocateBuffer](mapiallocatebuffer.md) cuando se crea el objeto de datos de tabla. El autor de la llamada debe liberar esta memoria llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
 Para recuperar filas de una tabla en el orden en que se insertaron, los usuarios del objeto de datos de tabla llaman al **método HrEnumRow.** 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

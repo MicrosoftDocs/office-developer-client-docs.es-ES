@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251459
 localization_priority: Normal
 ms.assetid: 1d198ea6-49e0-e462-b2cf-b65fbb920b55
-description: Devuelve una cadena convertida a minúsculas.
+description: Devuelve una cadena convertida en minúsculas.
 ms.openlocfilehash: 275e5cc40bed5c3ca7d6f40b0882f523334611c3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33421245"
 ---
 # <a name="lower-function"></a>Función LOWER
 
-Devuelve una cadena convertida a minúsculas.
+Devuelve una cadena convertida en minúsculas.
   
 ## <a name="syntax"></a>Sintaxis
 
-LOWER(** *expression* ** ) 
+LOWER(** *expresión* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -32,7 +32,7 @@ LOWER(** *expression* ** )
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

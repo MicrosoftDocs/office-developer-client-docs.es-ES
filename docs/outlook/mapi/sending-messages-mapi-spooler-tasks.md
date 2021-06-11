@@ -27,14 +27,14 @@ La cola MAPI est� implicada en el proceso de transmisi�n de mensajes cuando 
   
 1. If the message is not locked, locks the message by using the [IMsgStore::SetLockState](imsgstore-setlockstate.md) method. 
     
-2. El proveedor de transporte envía el mensaje a todos los destinatarios que tienen la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) establecida en FALSE. 
+2. El proveedor de transporte envía el mensaje a todos los destinatarios que tienen su propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) establecida en FALSE. 
     
-3. Llama a la función adecuada ([RemovePreprocessInfo](removepreprocessinfo.md)) para limpiar cualquier información adicional que se haya agregado al mensaje para su uso durante el preprocesamiento si se ha establecido la propiedad **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)). This function is specified when the transport provider registers its preprocessor function. 
+3. Llama a la función adecuada ([RemovePreprocessInfo](removepreprocessinfo.md)) para limpiar cualquier información adicional que se agregó al mensaje para su uso durante el preprocesamiento **si se ha** establecido la propiedad PR_PREPROCESS ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)). This function is specified when the transport provider registers its preprocessor function. 
     
 4. Calls [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) method. In **FinishedMsg**, the message store provider:
     
   - Desbloquea el mensaje.
     
-  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. A continuación, copia el mensaje en la carpeta identificada por el identificador de entrada en la propiedad **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), si no se reemplaza por el procesamiento de mensajes enviados por un proveedor de enlaces de mensajería. Por último, elimina el mensaje si la propiedad **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) se ha establecido en TRUE. 
+  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. A **continuación,** copia el mensaje en la carpeta identificada por el identificador de entrada de la propiedad PR_SENTMAIL_ENTRYID ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), si no se sustituye por el procesamiento de mensajes enviados por un proveedor de mensajería. Por último, elimina el mensaje si la **propiedad PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) se ha establecido en TRUE. 
     
 

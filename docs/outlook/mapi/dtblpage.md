@@ -25,7 +25,7 @@ ms.locfileid: "33424003"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una página con fichas que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar. 
+Describe una página con pestañas que se usará en un cuadro de diálogo creado a partir de una tabla para mostrar. 
   
 |||
 |:-----|:-----|
@@ -43,37 +43,37 @@ typedef struct _DTBLPAGE
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   
-> Posición en la memoria de la etiqueta de cadena de caracteres de la ficha de página.
+> Posición en la memoria de la etiqueta de cadena de caracteres de la pestaña de página.
     
  **ulFlags**
   
-> Máscara de bits de marcas usada para designar el formato de la etiqueta a la que apunta el **miembro ulbLpszLabelName.** Se puede establecer la siguiente marca: 
+> Máscara de bits de las marcas usadas para designar el formato de la etiqueta a la que apunta el **miembro ulbLpszLabelName.** Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no MAPI_UNICODE marca, la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si la MAPI_UNICODE no está establecida, la etiqueta está en formato ANSI.
     
  **ulbLpszComponent**
   
-> Posición en la memoria de una cadena de caracteres que identifica la **sección [Asignaciones** de archivo de ayuda] en MAPISVC. Archivo de configuración INF o 0. Nombre de archivo que aparece en MAPISVC. Un usuario puede usar la sección INF para obtener acceso a la Ayuda ampliada de la página con pestañas haciendo clic en el botón **Ayuda** del cuadro de diálogo. Para obtener más información acerca de las entradas de MAPISVC. INF, consulte [Formato de archivo de MAPISVC. INF](file-format-of-mapisvc-inf.md).
+> Posición en la memoria de una cadena de caracteres que identifica **la sección [Asignaciones** de archivos de ayuda] en MAPISVC. Archivo de configuración INF o 0. Nombre de archivo que aparece en MAPISVC. Un usuario puede usar la sección INF para obtener acceso a la Ayuda extendida de la página con pestañas haciendo clic en el **botón Ayuda** del cuadro de diálogo. Para obtener más información acerca de las entradas de MAPISVC. INF, vea [Formato de archivo de MAPISVC. INF](file-format-of-mapisvc-inf.md).
     
  **ulContext**
   
-> Identificador único de la página con fichas en la cadena definida por el **miembro ulbLpszComponent.** Tanto **el miembro ulbLpszComponent** como el miembro **ulContext** deben ser distintos de cero para que **funcione** el botón Ayuda. Si este identificador es cero y la cadena de componente es NULL, no hay ninguna Ayuda asociada con la página. 
+> Identificador único de la página con pestañas en la cadena definida por el **miembro ulbLpszComponent.** El **miembro ulbLpszComponent** y **el miembro ulContext** deben ser distintos de cero para que funcione el **botón** Ayuda. Si este identificador es cero y la cadena de componente es NULL, no hay ayuda asociada a la página. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura DTBLPAGE** describe una página con fichas, un control que se usa para separar varios cuadros de diálogo relacionados. Normalmente, estos cuadros de diálogo son hojas de propiedades para mostrar opciones de configuración, mensaje o destinatario. Al hacer clic en la pestaña, el usuario puede cambiar de una hoja a otra. 
+Una **estructura DTBLPAGE** describe una página con pestañas que se usa para separar varios cuadros de diálogo relacionados. Normalmente, estos cuadros de diálogo son hojas de propiedades para mostrar opciones de configuración, mensaje o destinatario. Al hacer clic en la pestaña, el usuario puede cambiar de una hoja a otra. 
   
-La cadena de componente y el identificador de contexto proporcionan información sobre si la Ayuda extendida está disponible para la página con fichas. Si la Ayuda ampliada está disponible, la cadena de componente y el identificador de contexto proporcionarán información sobre cómo obtener acceso a ella. La cadena de componente se asigna al archivo de Ayuda; el identificador de contexto se asigna al tema de Ayuda inicial. Si el identificador de contexto es cero y la cadena de componente es NULL, la Ayuda extendida no está disponible.
+La cadena de componente y el identificador de contexto proporcionan información sobre si la Ayuda extendida está disponible para la página con pestañas. Si la Ayuda extendida está disponible, la cadena de componente y el identificador de contexto proporcionarán información sobre cómo obtener acceso a ella. La cadena de componente se asigna al archivo de ayuda; el identificador de contexto se asigna al tema de ayuda inicial. Si el identificador de contexto es cero y la cadena de componente es NULL, la Ayuda extendida no está disponible.
   
-Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información sobre cómo implementar una tabla para mostrar, vea [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

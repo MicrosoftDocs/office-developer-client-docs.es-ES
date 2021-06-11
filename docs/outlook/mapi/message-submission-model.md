@@ -25,11 +25,11 @@ El envío de mensajes se realiza mediante una serie de llamadas desde la cola MA
   
 1. La cola MAPI llama a [IXPLogon::SubmitMessage](ixplogon-submitmessage.md), pasando una [instancia de IMessage : IMAPIProp,](imessageimapiprop.md) para iniciar el proceso. 
     
-2. A continuación, el proveedor de transporte coloca un valor de referencia (un identificador definido por el transporte usado en futuras referencias a este mensaje) en la ubicación a la que se hace referencia en **SubmitMessage**.
+2. A continuación, el proveedor de transporte coloca un valor de referencia , un identificador definido por el transporte usado en referencias futuras a este mensaje, en la ubicación a la que se hace referencia en **SubmitMessage**.
     
-3. El proveedor de transporte tiene acceso a los datos del mensaje mediante la instancia **de IMessage** pasada. Para cada destinatario en el **IMessage** pasado para el que acepta responsabilidad, el proveedor de transporte establece la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) y, a continuación, devuelve.
+3. El proveedor de transporte tiene acceso a los datos del mensaje mediante la instancia **IMessage** pasada. Para cada destinatario del **IMessage** pasado del que acepta responsabilidad, el proveedor de transporte establece la propiedad **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) y, a continuación, devuelve.
     
-4. El proveedor de transporte puede usar el método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) para indicar si reconoce algún destinatario al que no se puede entregar o para crear un informe de entrega estándar. **StatusRecips** es una comodidad para los proveedores de transporte que han determinado que algunos de los destinatarios no se pueden entregar o que han recibido información de entrega de su sistema de mensajería subyacente que el usuario o la aplicación cliente pueden encontrar útiles. 
+4. El proveedor de transporte puede usar el método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) para indicar si reconoce a los destinatarios a los que no se puede entregar o para crear un informe de entrega estándar. **StatusRecips** es una comodidad para los proveedores de transporte que han determinado que algunos de los destinatarios no se pueden entregar o que han recibido información de entrega de su sistema de mensajería subyacente que el usuario o la aplicación cliente podrían resultar útiles. 
     
 5. La llamada de la cola MAPI a [IXPLogon::EndMessage](ixplogon-endmessage.md) es la entrega de responsabilidad final del mensaje de la cola MAPI al proveedor de transporte. 
     

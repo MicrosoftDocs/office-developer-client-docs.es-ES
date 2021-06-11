@@ -39,19 +39,19 @@ HRESULT SetLimits(
 
  _lpulMin_
   
-> [entrada] Puntero a una variable que contiene el límite inferior de elementos de la operación.
+> [in] Puntero a una variable que contiene el límite inferior de elementos de la operación.
     
  _lpulMax_
   
-> [entrada] Puntero a una variable que contiene el límite superior de elementos de la operación.
+> [in] Puntero a una variable que contiene el límite superior de los elementos de la operación.
     
  _lpulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el nivel de operación en el que se calcula la información de progreso. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el nivel de operación en el que se calcula la información de progreso. Se puede establecer la siguiente marca:
     
 MAPI_TOP_LEVEL 
   
-> Usa los valores de los parámetros _ulCount_ y _ulTotal_ del método [IMAPIProgress::P progress::P progress,](imapiprogress-progress.md) que indican el elemento procesado actualmente y el total de elementos, respectivamente, para incrementar el progreso de la operación. Cuando se establece esta marca, deben establecerse los valores de los límites globales inferior y superior. 
+> Usa los valores de los parámetros _ulCount_ y _ulTotal_ del método [IMAPIProgress::P rogress,](imapiprogress-progress.md) que indican el elemento procesado actualmente y el total de elementos, respectivamente, para incrementar el progreso de la operación. Cuando se establece esta marca, se deben establecer los valores de los límites inferior y superior global. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,11 +61,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de servicios llaman al método **IMAPIProgress::SetLimits** para establecer o borrar la marca MAPI_TOP_LEVEL y para establecer los valores mínimos y máximos locales y globales. El valor de la configuración de la marca afecta a si el objeto de progreso entiende que los valores mínimos y máximos sean locales o globales. Cuando se MAPI_TOP_LEVEL marca, estos valores se consideran globales y se usan para calcular el progreso de toda la operación. Los objetos de progreso inicializan el valor mínimo global en 1 y el valor máximo global en 1000. 
+Los proveedores de servicios llaman al método **IMAPIProgress::SetLimits** para establecer o borrar la marca MAPI_TOP_LEVEL y para establecer los valores mínimos y máximos locales y globales. El valor de la configuración de marca afecta a si el objeto de progreso entiende que los valores mínimos y máximos sean locales o globales. Cuando se MAPI_TOP_LEVEL marca, estos valores se consideran globales y se usan para calcular el progreso de toda la operación. Los objetos Progress inicializan el valor mínimo global en 1 y el valor máximo global en 1000. 
   
-Cuando MAPI_TOP_LEVEL no se establece, los valores mínimos y máximos se consideran locales y los proveedores los usan internamente para mostrar el progreso de los subobjetos de nivel inferior. Los objetos de progreso solo ahorran los valores mínimos y máximos locales para que se puedan devolver a los proveedores cuando se llama a los métodos [IMAPIProgress::GetMin](imapiprogress-getmin.md) e [IMAPIProgress::GetMax.](imapiprogress-getmax.md) 
+Cuando MAPI_TOP_LEVEL no se establece, los valores mínimos y máximos se consideran locales y los proveedores los usan internamente para mostrar el progreso de los subobjetos de nivel inferior. Los objetos Progress solo guarda los valores mínimos y máximos locales para que se puedan devolver a los proveedores cuando se llama a los métodos [IMAPIProgress::GetMin](imapiprogress-getmin.md) e [IMAPIProgress::GetMax.](imapiprogress-getmax.md) 
   
-Para obtener más información acerca de cómo implementar **SetLimits** y los demás métodos [IMAPIProgress,](imapiprogressiunknown.md) vea [Implementar un indicador de progreso](implementing-a-progress-indicator.md).
+Para obtener más información acerca de cómo implementar **SetLimits** y los demás métodos [IMAPIProgress,](imapiprogressiunknown.md) vea [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
 Para obtener más información sobre cómo y cuándo debe realizar llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   

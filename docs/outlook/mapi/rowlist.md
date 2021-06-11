@@ -25,7 +25,7 @@ ms.locfileid: "33419187"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de [estructuras ROWENTRY](rowentry.md) que representan filas y las operaciones que se realizan en esas filas de una tabla a través de la interfaz [IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
+Contiene una matriz de estructuras [ROWENTRY](rowentry.md) que representan filas y las operaciones que se realizan en esas filas de una tabla a través de la [interfaz IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
   
 ```cpp
 typedef struct
@@ -36,15 +36,15 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cEntries**
   
-> Número de entradas de la matriz especificada por el **miembro aEntries.** 
+> Recuento de entradas en la matriz especificada por el **miembro aEntries.** 
     
  **aEntries[MAPI_DIM]**
   
-> Matriz de **estructuras ROWENTRY** que contiene las filas y las operaciones que se realizan en dichas filas de la tabla. 
+> Matriz de **estructuras ROWENTRY** que contiene las filas y las operaciones que se realizan en esas filas de la tabla. 
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -54,7 +54,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Se usa para crear una lista de reglas seleccionadas para acciones **de ModifyTable posteriores.**  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

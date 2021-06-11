@@ -36,7 +36,7 @@ Contiene un nombre de carpeta usado para las entradas de la libreta de direccion
    
 ## <a name="remarks"></a>Comentarios
 
-No se pueden usar los siguientes caracteres en los nombres de carpeta:
+Los siguientes caracteres no se pueden usar en nombres de carpeta:
   
 [ ] / \ &amp; ~ ? \* | \<\> " ; : +
   
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "33418109"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Admite el acceso Microsoft Exchange Server objetos de tabla, específicamente objetos de tabla de lista de control de acceso del sistema (SACL) y objetos de tabla de reglas en Microsoft Exchange Server carpetas. Esta interfaz se asemeja Microsoft Exchange Server la interfaz [IMAPITable: IUnknown,](imapitableiunknown.md) pero agrega compatibilidad con estructuras específicas de Microsoft Exchange Server que se usan para controlar las SACL y las reglas. 
+Admite el acceso Microsoft Exchange Server objetos de tabla, específicamente objetos de tabla de lista de control de acceso del sistema (SACL) y objetos de tabla de reglas en Microsoft Exchange Server carpetas. Esta interfaz es similar a la interfaz [IMAPITable : IUnknown,](imapitableiunknown.md) pero agrega compatibilidad con estructuras específicas de Microsoft Exchange Server que se usan para controlar las SACL y las reglas. 
   
 |||
 |:-----|:-----|
@@ -34,13 +34,13 @@ Admite el acceso Microsoft Exchange Server objetos de tabla, específicamente ob
 |Llamado por:  <br/> |MAPI y aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IExchangeModifyTable  <br/> |
 |Tipo de puntero:  <br/> |LPEXCHANGEMODIFYTABLE  <br/> |
-|Modelo de transacción:  <br/> |Transacted  <br/> |
+|Modelo de transacciones:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Devuelve información sobre el último error que se produjo en un objeto de tabla.  <br/> |
+|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Devuelve información sobre el último error que se produjo en un objeto table.  <br/> |
 |[GetTable](iexchangemodifytable-gettable.md) <br/> |Devuelve un puntero a una interfaz para un objeto de tabla MAPI.  <br/> |
 |[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Actualiza un objeto de tabla MAPI.  <br/> |
    
@@ -66,9 +66,9 @@ Admite el acceso Microsoft Exchange Server objetos de tabla, específicamente ob
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener la **interfaz IExchangeModifyTable,** llame al método MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en una propiedad de tipo PT_OBJECT en un objeto de carpeta. Cuando llame al método **OpenProperty,** pase el valor **IID_IExchangeModifyTable** en el _parámetro lpiid._ 
+Para obtener la **interfaz IExchangeModifyTable,** llame al método MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en una propiedad de tipo PT_OBJECT en un objeto folder. Al llamar al método **OpenProperty,** pase el valor **IID_IExchangeModifyTable** en el _parámetro lpiid._ 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

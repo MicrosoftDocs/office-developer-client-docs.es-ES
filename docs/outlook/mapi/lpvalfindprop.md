@@ -37,29 +37,29 @@ LPSPropValue LpValFindProp(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   
-> [entrada] Etiqueta de la propiedad que se buscará en el conjunto de propiedades, indicada por el _parámetro lpPropArray._ 
+> [in] Etiqueta de la propiedad que se buscará en el conjunto de propiedades, indicado por el _parámetro lpPropArray._ 
     
  _cValues_
   
-> [entrada] Número de propiedades del conjunto de propiedades, indicado por el _parámetro lpPropArray._ 
+> [in] Recuento de propiedades en el conjunto de propiedades, indicado por el _parámetro lpPropArray._ 
     
  _lpPropArray_
   
-> [entrada] Matriz de **estructuras SPropValue** que define las propiedades que se buscarán. 
+> [in] Matriz de **estructuras SPropValue** que define las propiedades que se buscarán. 
     
 ## <a name="return-value"></a>Valor devuelto
 
-La **función LpValFindProp** devuelve una estructura **SPropValue** que define la propiedad que coincide con la etiqueta de propiedad de entrada, o NULL si no hay ninguna coincidencia. 
+La **función LpValFindProp** devuelve una estructura **SPropValue** que define la propiedad que coincide con la etiqueta de propiedad de entrada o NULL si no hay ninguna coincidencia. 
   
 ## <a name="remarks"></a>Comentarios
 
 La **función LpValFindProp** es idéntica a **PpropFindProp**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

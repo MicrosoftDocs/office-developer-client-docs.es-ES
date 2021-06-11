@@ -22,7 +22,7 @@ Devuelve el carácter Unicode de un número.
   
 ## <a name="syntax"></a>Sintaxis
 
-UNICHAR (** *number* ** ) 
+UNICHAR (** *número* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

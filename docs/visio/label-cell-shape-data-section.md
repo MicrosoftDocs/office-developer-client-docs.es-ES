@@ -30,7 +30,7 @@ Para obtener una referencia a la celda Label por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Prop. *Nombre*  . Etiqueta donde Prop.  *El*  nombre es el nombre de fila.  <br/> |
+|Nombre de celda:  <br/> |Prop. *Name*  . Etiqueta donde Prop.  *Name*  es el nombre de fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Label por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

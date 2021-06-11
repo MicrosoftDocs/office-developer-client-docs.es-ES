@@ -34,11 +34,11 @@ Define una [estructura ADRLIST](adrlist.md) con el nombre especificado que conti
 SizedADRLIST (_centries,_name)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ _centries_
   
-> Número de **estructuras ADRENTRY** que se incluirán en la nueva **estructura ADRLIST.** 
+> Recuento de **estructuras ADRENTRY** que se incluirán en la nueva **estructura ADRLIST.** 
     
 _ _name_
   
@@ -46,13 +46,13 @@ _ _name_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedADRLIST** permite definir una lista de destinatarios que tiene límites explícitos cuando se conocen los requisitos de longitud de la matriz. El siguiente código muestra cómo convertir el resultado de la macro **SizedADRLIST** en un puntero **de estructura ADRLIST:** 
+La **macro SizedADRLIST** permite definir una lista de destinatarios que tiene límites explícitos cuando se conocen los requisitos de longitud de la matriz. El código siguiente muestra cómo convertir el resultado de la macro **SizedADRLIST** en un **puntero de estructura ADRLIST:** 
   
 ```cpp
 lpADRList = (LPADRLIST) &SizedADRList;
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ADRLIST](adrlist.md)
 - [ADRENTRY](adrentry.md)

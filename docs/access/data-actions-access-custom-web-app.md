@@ -22,17 +22,17 @@ ms.locfileid: "33423268"
 
 - [Acción de macro StopMacro (aplicación web personalizada de Access)](stopmacro-macro-action-access-custom-web-app.md)
     
-- [CancelarCambioDeRegistro (aplicación web personalizada de Access)](cancelrecordchange-macro-action-access-custom-web-app.md)
+- [Acción de macro CancelRecordChange (aplicación web personalizada de Access)](cancelrecordchange-macro-action-access-custom-web-app.md)
     
-- [EliminarRegistro (acción de macro) (aplicación web personalizada de Access)](deleterecord-data-macro-action-access-custom-web-app.md)
+- [Acción de macro DeleteRecord Data (aplicación web personalizada de Access)](deleterecord-data-macro-action-access-custom-web-app.md)
     
 - [Acción de macro RaiseError (aplicación web personalizada de Access)](raiseerror-macro-action-access-custom-web-app.md)
     
 - [Acción de macro SetField (aplicación web personalizada de Access)](setfield-macro-action-access-custom-web-app.md)
     
-- [EstablecerVarLocal (acción de macro) (aplicación web personalizada de Access)](setlocalvar-macro-action-access-custom-web-app.md)
+- [Acción de macro SetLocalVar (aplicación web personalizada de Access)](setlocalvar-macro-action-access-custom-web-app.md)
     
-- [SalirRegistro (acción de macro) (aplicación web personalizada de Access)](exitforeachrecord-macro-action-access-custom-web-app.md)
+- [Acción de macro ExitForEachRecord (aplicación web personalizada de Access)](exitforeachrecord-macro-action-access-custom-web-app.md)
     
 - [Acción de macro SetReturnVar (aplicación web personalizada de Access)](setreturnvar-macro-action-access-custom-web-app.md)
     

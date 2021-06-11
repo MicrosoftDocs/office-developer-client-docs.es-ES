@@ -23,14 +23,14 @@ Determina cuándo salta un conector.
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Según especifica la página; para ver las especificaciones de la página, en la ficha **Diseño**, haga clic en la flecha del grupo **Configurar página** y, a continuación, haga clic en la pestaña **Diseño y enrutamiento**  <br/> |**visSLOJumpDefault** <br/> |
-|1   <br/> |Nunca  <br/> |**visSLOJumpNever** <br/> |
-|2   <br/> |Siempre  <br/> |**visSLOJumpAlways** <br/> |
-|3   <br/> |Otro conector salta  <br/> |**visSLOJumpOther** <br/> |
+|1  <br/> |Nunca  <br/> |**visSLOJumpNever** <br/> |
+|2  <br/> |Siempre  <br/> |**visSLOJumpAlways** <br/> |
+|3  <br/> |Otro conector salta  <br/> |**visSLOJumpOther** <br/> |
 |4   <br/> |Ningún conector salta  <br/> |**visSLOJumpNeither** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda seleccionando un  conector dinámico, [](run-in-developer-mode-display-the-developer-tab.md) haciendo clic en Comportamiento en el grupo Diseño de formas de la ficha Programador y, a continuación, haciendo clic en la **pestaña** Conector.  
+También puede establecer el valor de esta celda seleccionando un conector dinámico, [](run-in-developer-mode-display-the-developer-tab.md) haciendo clic en Comportamiento en el grupo **Diseño** de formas de la ficha Programador y, a continuación, haciendo clic en **la pestaña Conector.**  
   
 Para obtener una referencia a la celda ConLineJumpCode por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   

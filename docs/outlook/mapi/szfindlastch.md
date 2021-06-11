@@ -40,22 +40,22 @@ LPSTR SzFindLastCh(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
-> [entrada] Puntero a la cadena terminada en null en la que se va a buscar. 
+> [in] Puntero a la cadena terminada en null que se va a buscar. 
     
  _ch_
   
-> [entrada] Carácter que se va a buscar.
+> [in] El carácter que se va a buscar.
     
 ## <a name="return-value"></a>Valor devuelto
 
- **SzFindLastCh** devuelve un puntero a la última aparición del carácter de la cadena. Si el carácter no se produce en ninguna parte de la cadena o si el parámetro  _lpsz_ es NULL, se devuelve un valor NULL. 
+ **SzFindLastCh** devuelve un puntero a la última aparición del carácter en la cadena. Si el carácter no se produce en ninguna parte de la cadena o si el parámetro  _lpsz_ es NULL, se devuelve un valor de NULL. 
   
 ## <a name="remarks"></a>Comentarios
 
-La **función SzFindLastCh** solo busca una coincidencia exacta; es sensible a las diferencias entre mayúsculas y minúsculas. Se admiten búsquedas en los formatos Unicode y DBCS. 
+La **función SzFindLastCh** solo busca una coincidencia exacta; es sensible a diferencias entre mayúsculas y minúsculas. Se admiten búsquedas en los formatos Unicode y DBCS. 
   
 

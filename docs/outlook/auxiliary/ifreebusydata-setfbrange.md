@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4e7147ea-0eb0-324a-80d8-4f0eef654c32
-description: Establece el intervalo de tiempo para una enumeración de bloques de datos de disponibilidad de un usuario.
+description: Establece el intervalo de tiempo para una enumeración de bloques de datos de disponibilidad para un usuario.
 ms.openlocfilehash: 4647453acb0e530521aa808f7f017e3e311644bb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33421665"
 ---
 # <a name="ifreebusydatasetfbrange"></a>IFreeBusyData::SetFBRange
 
-Establece el intervalo de tiempo para una enumeración de bloques de datos de disponibilidad de un usuario.
+Establece el intervalo de tiempo para una enumeración de bloques de datos de disponibilidad para un usuario.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -29,15 +29,15 @@ HRESULT SetFBRange(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _rtmStart_
   
-> [entrada] Un valor de tiempo relativo para el inicio de la información de disponibilidad. Este valor es el número de minutos desde el 1 de enero de 1601.
+> [in] Valor de tiempo relativo para el inicio de la información de disponibilidad. Este valor es el número de minutos desde el 1 de enero de 1601.
     
 _rtmEnd_
   
-> [entrada] Un valor de tiempo relativo para el final de la información de disponibilidad. Este valor es el número de minutos desde el 1 de enero de 1601.
+> [in] Valor de tiempo relativo para el final de la información de disponibilidad. Este valor es el número de minutos desde el 1 de enero de 1601.
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -45,9 +45,9 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
   
 ## <a name="remarks"></a>Comentarios
 
-Este método se usa para indicar el intervalo de tiempo de los elementos del calendario para los que se recuperarán los detalles. Los valores de  *ftmStart*  y  *ftmEnd*  se almacenan en caché y se devuelven en una llamada posterior de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
+Este método se usa para indicar el intervalo de tiempo de los elementos del calendario para los que se van a recuperar detalles. Los valores de  *ftmStart*  y  *ftmEnd*  se almacenan en caché y se devuelven en una llamada posterior de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)

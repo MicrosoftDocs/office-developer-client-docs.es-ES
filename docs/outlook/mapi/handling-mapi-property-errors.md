@@ -1,5 +1,5 @@
 ---
-title: Control de errores de propiedad MAPI
+title: Controlar errores de propiedad MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419082"
 ---
-# <a name="handling-mapi-property-errors"></a>Control de errores de propiedad MAPI
+# <a name="handling-mapi-property-errors"></a>Controlar errores de propiedad MAPI
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   

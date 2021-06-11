@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
-> [entrada] El recuento de bytes en el identificador de entrada al que apunta el  _parámetro lpEntryID1_  _._
+> [in] Recuento de bytes en el identificador de entrada al que apunta el  _parámetro lpEntryID1_  _._
     
  _lpEntryID1_
   
-> [entrada] Puntero al primer identificador de entrada que se va a comparar.
+> [in] Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> [entrada] El recuento de bytes en el identificador de entrada al que apunta el  _parámetro lpEntryID2_  _._
+> [in] Recuento de bytes en el identificador de entrada señalado por el  _parámetro lpEntryID2_  _._
     
  _lpEntryID2_
   
-> [entrada] Puntero al segundo identificador de entrada que se va a comparar.
+> [in] Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [salida] Puntero al resultado de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
+> [salida] Puntero al resultado de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; en caso contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -72,7 +72,7 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Uno o ambos identificadores de entrada especificados como parámetros no hacen referencia a objetos, posiblemente porque los objetos correspondientes están sin abrir y no están disponibles actualmente.
+> Uno o ambos identificadores de entrada especificados como parámetros no hacen referencia a objetos, posiblemente porque los objetos correspondientes no están abiertos y no están disponibles actualmente.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -82,7 +82,7 @@ El **método IMsgStore::CompareEntryIDs** compara dos identificadores de entrada
 
  **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido (por ejemplo, después de instalar una nueva versión de un proveedor de almacén de mensajes). 
   
-Si **CompareEntryIDs** devuelve un error, no realice ninguna acción basada en el resultado de la comparación. En su lugar, tome el enfoque más conservador posible. **CompareEntryIDs** puede producir un error si, por ejemplo, uno o ambos identificadores de entrada contienen un **MAPIUID no válido.** 
+Si **CompareEntryIDs** devuelve un error, no realice ninguna acción en función del resultado de la comparación. En su lugar, tome el enfoque más conservador posible. **CompareEntryIDs** puede producir un error si, por ejemplo, uno o ambos identificadores de entrada contienen un **MAPIUID no válido.** 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -92,7 +92,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI usa el **método IMsgStore::CompareEntryIDs** para comparar los identificadores de entrada.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

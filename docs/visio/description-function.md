@@ -18,7 +18,7 @@ ms.locfileid: "33422288"
 ---
 # <a name="description-function"></a>Función DESCRIPTION
 
-Devuelve el texto del campo **Descripción** de las propiedades de un documento. 
+Devuelve el texto del **campo Descripción** de las propiedades de un documento. 
   
 ## <a name="syntax"></a>Sintaxis
 

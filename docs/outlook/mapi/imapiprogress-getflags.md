@@ -33,7 +33,7 @@ HRESULT GetFlags(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
@@ -47,21 +47,21 @@ MAPI_TOP_LEVEL
 
 S_OK 
   
-> El valor de marcas se devolvió correctamente.
+> El valor de las marcas se devolvió correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI permite a los proveedores de servicios diferenciar entre objetos de nivel superior y subobjetos con la marca MAPI_TOP_LEVEL para que todos los objetos implicados en una operación puedan usar la misma implementación [IMAPIProgress](imapiprogressiunknown.md) para mostrar el progreso. Esto hace que la presentación del indicador continúe sin problemas en una sola dirección positiva. Si se MAPI_TOP_LEVEL marca de estado determina cómo los proveedores de servicios establecen los demás parámetros en llamadas posteriores al objeto de progreso. 
+MAPI permite a los proveedores de servicios diferenciar entre objetos de nivel superior y subobjetos con la marca MAPI_TOP_LEVEL para que todos los objetos implicados en una operación puedan usar la misma implementación [imapiprogress](imapiprogressiunknown.md) para mostrar el progreso. Esto hace que la presentación del indicador continúe sin problemas en una sola dirección positiva. Si se MAPI_TOP_LEVEL marca de acceso determina cómo los proveedores de servicios establecen los demás parámetros en llamadas posteriores al objeto de progreso. 
   
-El valor devuelto por **GetFlags** lo establece inicialmente el implementador y, posteriormente, el proveedor de servicios a través de una llamada al método [IMAPIProgress::SetLimits.](imapiprogress-setlimits.md) 
+El valor devuelto por **GetFlags** lo establece inicialmente el implementador y posteriormente el proveedor de servicios mediante una llamada al método [IMAPIProgress::SetLimits.](imapiprogress-setlimits.md) 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Inicialice siempre la marca para MAPI_TOP_LEVEL y, a continuación, confíe en los proveedores de servicios para borrarla cuando corresponda. Los proveedores de servicios pueden borrar y restablecer la marca llamando al método **IMAPIProgress::SetLimits.** Para obtener más información acerca de cómo implementar **GetFlags** y los demás métodos **IMAPIProgress,** vea [Implementar un indicador de progreso](implementing-a-progress-indicator.md).
+Inicialice siempre la marca para MAPI_TOP_LEVEL y, a continuación, confíe en los proveedores de servicios para borrarla cuando corresponda. Los proveedores de servicios pueden borrar y restablecer la marca llamando al método **IMAPIProgress::SetLimits.** Para obtener más información acerca de cómo implementar **GetFlags** y los demás métodos **IMAPIProgress,** vea [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Cuando muestre un indicador de progreso, realice la primera llamada a **IMAPIProgress::GetFlags**. El valor devuelto debe ser MAPI_TOP_LEVEL, ya que todas las implementaciones inicializan el contenido del parámetro  _lpulFlags_ en este valor. Para obtener más información acerca de la secuencia de llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso.](how-to-display-a-progress-indicator.md)
+Cuando muestre un indicador de progreso, realice la primera llamada a **IMAPIProgress::GetFlags**. El valor devuelto debe MAPI_TOP_LEVEL, ya que todas las implementaciones inicializan el contenido del parámetro  _lpulFlags_ en este valor. Para obtener más información acerca de la secuencia de llamadas a un objeto de progreso, vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -71,7 +71,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProgress.cpp  <br/> |CMAPIProgress::GetFlags  <br/> |MFCMAPI usa el **método IMAPIProgress::GetFlags** para determinar qué marcas se establecen. Devuelve MAPI_TOP_LEVEL a menos que se hayan establecido marcas mediante el método **IMAPIProgress::SetLimits.**  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

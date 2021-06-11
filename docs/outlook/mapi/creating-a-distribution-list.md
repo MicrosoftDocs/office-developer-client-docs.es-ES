@@ -35,7 +35,7 @@ Los clientes pueden crear una lista de distribución directamente en un contened
     };
    ```
 
-2. Llame [a IAddrBook::GetPAB](iaddrbook-getpab.md) para recuperar el identificador de entrada del PAB. Si hay un error o **GetPAB** devuelve cero o NULL, no continúe. 
+2. Llama [a IAddrBook::GetPAB](iaddrbook-getpab.md) para recuperar el identificador de entrada del PAB. Si hay un error o **GetPAB** devuelve cero o NULL, no continúe. 
     
    ```cpp
     LPENTRYID peidPAB = NULL;
@@ -43,7 +43,7 @@ Los clientes pueden crear una lista de distribución directamente en un contened
     lpIAddrBook->GetPAB(&cbeidPAB, &peidPAB);
    ```
 
-3. Llame [a IAddrBook::OpenEntry](iaddrbook-openentry.md) para abrir el PAB. El  _parámetro de salida ulObjType_ debe establecerse en MAPI_ABCONT. 
+3. Llama [a IAddrBook::OpenEntry](iaddrbook-openentry.md) para abrir el PAB. El  _parámetro de salida ulObjType_ debe establecerse en MAPI_ABCONT. 
     
    ```cpp
     ULONG ulObjType = 0;
@@ -64,13 +64,13 @@ Los clientes pueden crear una lista de distribución directamente en un contened
     
    ```
 
-5. Si **se produce un error en GetProps:** 
+5. Si **Se produce un error en GetProps:** 
     
-   1. Llame al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del PAB para abrir la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) con la interfaz **IMAPITable.** 
+   1. Llame al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del PAB para abrir la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) con la **interfaz IMAPITable.** 
       
    2. Cree una restricción de propiedad para buscar la fila con la **columna PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) igual a "MAPIPDL". 
       
-   3. Llame [a IMAPITable::FindRow](imapitable-findrow.md) para localizar esta fila. 
+   3. Llama [a IMAPITable::FindRow](imapitable-findrow.md) para localizar esta fila. 
     
 6. Guarde el identificador de entrada devuelto por **GetProps** o **FindRow**.
     
@@ -80,7 +80,7 @@ Los clientes pueden crear una lista de distribución directamente en un contened
     
    ```
 
-7. Llama al método [IABContainer::CreateEntry](iabcontainer-createentry.md) del PAB para crear una nueva entrada con la plantilla representada por el identificador de entrada guardado. No suponga que el objeto devuelto será una lista de distribución en lugar de un usuario de mensajería cuando esta llamada esté remota. Observe que la CREATE_CHECK_DUP se pasa en el  _parámetro ulFlags_ para evitar que la entrada se pueda agregar dos veces. 
+7. Llame al método [IABContainer::CreateEntry](iabcontainer-createentry.md) del PAB para crear una nueva entrada con la plantilla representada por el identificador de entrada guardado. No suponga que el objeto devuelto será una lista de distribución en lugar de un usuario de mensajería cuando esta llamada esté remota. Observe que la CREATE_CHECK_DUP se pasa en el  _parámetro ulFlags_ para evitar que la entrada se agregó dos veces. 
     
    ```cpp
     lpPABCont->CreateEntry(cbeidDefDLTpl,
@@ -89,16 +89,16 @@ Los clientes pueden crear una lista de distribución directamente en un contened
                     &lpNewPABEntry);
    ```
 
-8. Llama al método **IUnknown::QueryInterface** de la nueva entrada, pasando IID_IDistList como identificador de interfaz, para determinar si la entrada es una lista de distribución y admite la interfaz [IDistList : IMAPIContainer.](idistlistimapicontainer.md) Dado **que CreateEntry** devuelve un puntero **IMAPIProp** en lugar del puntero **IMailUser** o **IDistList** más específico, compruebe que se haya creado un objeto de lista de distribución. Si **QueryInterface se** realiza correctamente, puede estar seguro de que ha creado una lista de distribución en lugar de un usuario de mensajería. 
+8. Llame al método **IUnknown::QueryInterface** de la nueva entrada, pasando IID_IDistList como identificador de interfaz, para determinar si la entrada es una lista de distribución y admite la interfaz [IDistList : IMAPIContainer.](idistlistimapicontainer.md) Dado **que CreateEntry** devuelve un puntero **IMAPIProp** en lugar del puntero **IMailUser** o **IDistList** más específico, compruebe que se creó un objeto de lista de distribución. Si **QueryInterface** se ejecuta correctamente, puede estar seguro de que ha creado una lista de distribución en lugar de un usuario de mensajería. 
     
 9. Llame al método [IMAPIProp::SetProps](imapiprop-setprops.md) de la lista de distribución para establecer su nombre para mostrar y otras propiedades. 
     
-10. Llama al método [IABContainer::CreateEntry](iabcontainer-createentry.md) de la lista de distribución para agregar uno o más usuarios de mensajería. 
+10. Llama al método [IABContainer::CreateEntry](iabcontainer-createentry.md) de la lista de distribución para agregar uno o varios usuarios de mensajería. 
     
-11. Llame al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de la lista de distribución cuando esté listo para guardarlo. Para recuperar el identificador de entrada de la lista de distribución guardada, establezca la marca KEEP_OPEN_READWRITE y, a continuación, llame a [IMAPIProp::GetProps](imapiprop-getprops.md) solicitando la **propiedad PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+11. Llama al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de la lista de distribución cuando estés listo para guardarlo. Para recuperar el identificador de entrada de la lista de distribución guardada, establezca la marca KEEP_OPEN_READWRITE y, a continuación, llame a [IMAPIProp::GetProps](imapiprop-getprops.md) solicitando la propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
-12. Libera la nueva lista de distribución y pab mediante una llamada a sus métodos **IUnknown::Release.** 
+12. Libere la nueva lista de distribución y el PAB llamando a sus **métodos IUnknown::Release.** 
     
-13. Llama [a MAPIFreeBuffer](mapifreebuffer.md) para liberar la memoria del identificador de entrada del PAB y la matriz de etiquetas de propiedad de tamaño. 
+13. Llama [a MAPIFreeBuffer para](mapifreebuffer.md) liberar la memoria del identificador de entrada del PAB y la matriz de etiquetas de propiedad de tamaño. 
     
 

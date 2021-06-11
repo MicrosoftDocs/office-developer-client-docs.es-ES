@@ -32,6 +32,6 @@ Si una fórmula hace referencia a una celda que contiene un valor de error, tamb
 | #REF!  <br/> | Referencia a una celda que no existe  <br/> | Una celda hace referencia a otra que ya no existe  <br/> |
 | #NUM!  <br/> | Número no válido  <br/> | Raíz cuadrada de un número negativo  <br/> |
 | #N/A!  <br/> | No es un valor disponible  <br/> | Función NA( )  <br/> |
-| #DIM!  <br/> | Un valor dimensional que supera el intervalo de dimensiones (las potencias válidas son enteros -128 \< = n \< = 127)  <br/> Valor dimensional utilizado en una operación no válida  <br/> |1in^100 \* 1in^100 (el resultado es 1in^200, que está fuera del intervalo de dimensiones)  <br/> 5,2cm^1,5 (exponente no entero)  <br/> |
+| #DIM!  <br/> | Valor dimensional que supera el intervalo de dimensiones (los poderes válidos son enteros -128 \< = n \< = 127)  <br/> Valor dimensional utilizado en una operación no válida  <br/> |1in^100 \* 1in^100 (el resultado es 1in^200, que está más allá del intervalo de dimensiones)  <br/> 5,2cm^1,5 (exponente no entero)  <br/> |
    
 

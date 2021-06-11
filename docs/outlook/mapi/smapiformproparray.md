@@ -25,7 +25,7 @@ ms.locfileid: "33420069"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz [de estructuras SMAPIFormProp.](smapiformprop.md) 
+Contiene una matriz de [estructuras SMAPIFormProp.](smapiformprop.md) 
   
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cProps**
   
@@ -50,7 +50,7 @@ typedef struct
     
  **ulPad**
   
->  Ocho bytes de espaciado interno usados para garantizar una alineación correcta. 
+>  Ocho bytes de relleno usados para garantizar la alineación correcta. 
     
  **aFormProp**
   
@@ -66,7 +66,7 @@ La **estructura SMAPIFormPropArray** se pasa como parámetro a los métodos sigu
     
 - [IMAPIFormContainer::CalcFormPropSet](imapiformcontainer-calcformpropset.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

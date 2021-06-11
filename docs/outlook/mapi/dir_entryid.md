@@ -40,7 +40,7 @@ typedef struct _dir_entryid
 #pragma pack()
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **abFlags**
   
@@ -48,11 +48,11 @@ typedef struct _dir_entryid
     
  **muid**
   
-> GUID que identifica el proveedor de almacén.
+> GUID que identifica el proveedor de almacenamiento.
     
  **ulVersion**
   
-> Número de versión de la **estructura DIR_ENTRYID** datos. Debe establecerse en CONTAB_VERSION. 
+> Número de versión de la **DIR_ENTRYID** estructura. Debe establecerse en CONTAB_VERSION. 
     
  **ulType**
   
@@ -72,7 +72,7 @@ typedef struct _dir_entryid
 
 Las estructuras **DIR_ENTRYID** y [CONTAB_ENTRYID](contab_entryid.md) son idénticas, excepto para el **miembro ulType.** El contenido del miembro **ulType** determina qué estructura es adecuada para los campos restantes. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

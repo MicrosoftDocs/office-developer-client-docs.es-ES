@@ -1,5 +1,5 @@
 ---
-title: Funciones de la API de C a las que solo se puede llamar desde una DLL o XLL
+title: Funciones de API de C a las que solo se puede llamar desde un DLL o XLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,11 +16,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423121"
 ---
-# <a name="c-api-functions-that-can-be-called-only-from-a-dll-or-xll"></a>Funciones de la API de C a las que solo se puede llamar desde una DLL o XLL
+# <a name="c-api-functions-that-can-be-called-only-from-a-dll-or-xll"></a>Funciones de API de C a las que solo se puede llamar desde un DLL o XLL
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-La API de C proporciona 15 funciones de devolución de llamada de Microsoft Excel a las que solo se puede llamar mediante las funciones **Excel4**, **Excel4v**, **Excel12** o **Excel12v** (o por una de estas funciones indirectamente mediante las funciones de marco **Excel** o **Excel12f**). Esto significa que solo se pueden llamar desde un DLL o XLL.
+La API de C proporciona 15 funciones de devolución de llamada Microsoft Excel a las que solo se puede llamar mediante las funciones **Excel4**, **Excel4v,** **Excel12** o **Excel12v** (o por una de estas funciones indirectamente mediante las funciones framework **Excel** o **Excel12f**). Esto significa que solo se puede llamar desde un DLL o XLL.
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -62,7 +62,7 @@ La API de C proporciona 15 funciones de devolución de llamada de Microsoft Exce
   
 [xlUDF](xludf.md)
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

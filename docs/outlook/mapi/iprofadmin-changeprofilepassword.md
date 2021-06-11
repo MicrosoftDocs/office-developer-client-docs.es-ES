@@ -36,27 +36,27 @@ HRESULT ChangeProfilePassword(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
-> [entrada] Puntero al nombre del perfil asociado con la contraseña que se va a cambiar.
+> [in] Puntero al nombre del perfil asociado a la contraseña que se va a cambiar.
     
  _lpszOldPassword_
   
-> [entrada] Puntero a la contraseña actual.
+> [in] Puntero a la contraseña actual.
     
  _lpszNewPassword_
   
-> [entrada] Un puntero a la nueva contraseña.
+> [in] Puntero a la nueva contraseña.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de las cadenas pasadas. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de las cadenas pasadas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> El nombre de perfil y las contraseñas están en formato Unicode. Si no MAPI_UNICODE marca, estas cadenas están en formato ANSI.
+> El nombre del perfil y las contraseñas están en formato Unicode. Si la MAPI_UNICODE no está establecida, estas cadenas tienen el formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -68,7 +68,7 @@ S_OK
 
 No use este método. MAPI no admite contraseñas para perfiles.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

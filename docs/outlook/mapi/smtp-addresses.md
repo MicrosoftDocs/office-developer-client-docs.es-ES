@@ -25,19 +25,19 @@ El formato de las direcciones de correo electrónico SMTP se define en RFC 822. 
   
  _nombre para mostrar_ **\<** _email-address_**\>**
   
-Los corchetes angulares se incluyen como literales. Los espacios en blanco son comunes en los nombres para mostrar; no es necesario que se entrecomillan. Una dirección típica podría tener este aspecto, que pertenece a uno de los coautores de RFC 1521:
+Los corchetes angulares se incluyen como literales. Los espacios en blanco son comunes en los nombres para mostrar; no es necesario que se cite. Una dirección típica podría tener este aspecto, que pertenece a uno de los coautores de RFC 1521:
   
-Nsb@bellcore.com \<\>
+Nathaniel Borenstein \< nsb@bellcore.com\>
   
-Si el nombre para mostrar contiene caracteres que tienen un significado especial en las direcciones SMTP, como @, todo el nombre para mostrar debe ir entre \< comillas dobles. En el correo saliente, si la longitud total de la dirección de correo electrónico más el nombre para mostrar supera los 255 caracteres, se debe descartar el nombre para mostrar.
+Si el nombre para mostrar contiene caracteres que tienen un significado especial en las direcciones SMTP, como o @, todo el nombre para mostrar debe incluirse \< entre comillas dobles. En el correo saliente, si la longitud total de la dirección de correo electrónico más el nombre para mostrar supera los 255 caracteres, se debe descartar el nombre para mostrar.
   
-Las partes de una dirección SMTP se asignan a propiedades MAPI de la siguiente manera:
+Las partes de una dirección SMTP se asignan a las propiedades MAPI de la siguiente manera:
   
 |**Componente de dirección SMTP**|**Mapi (propiedad)**|
 |:-----|:-----|
 | _nombre para mostrar_ para todos los destinatarios  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
 | _nombre para mostrar_ para el campo De  <br/> |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
-| _nombre para mostrar_ del campo Remitente  <br/> |**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |
+| _nombre para mostrar_ para el campo Remitente  <br/> |**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |
 | _email-address_ <br/> |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |
 |implícito, siempre "SMTP"  <br/> |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |
    

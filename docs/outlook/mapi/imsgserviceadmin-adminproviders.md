@@ -35,15 +35,15 @@ HRESULT AdminProviders(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
-> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se va a administrar. 
+> [in] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se va a administrar. 
     
  _ulFlags_
   
-> [entrada] Siempre NULL. 
+> [in] Siempre NULL. 
     
  _lppProviderAdmin_
   
@@ -57,25 +57,25 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> El **MAPIUID** al que apunta  _lpUID_ no existe. 
+> El **MAPIUID señalado** por  _lpUID_ no existe. 
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMsgServiceAdmin::AdminProviders** proporciona acceso a un objeto de administración del proveedor. Una administración de proveedores es un objeto que admite la [interfaz IProviderAdmin](iprovideradminiunknown.md) y permite a los clientes hacer lo siguiente: 
+El **método IMsgServiceAdmin::AdminProviders** proporciona acceso a un objeto de administración del proveedor. Una administración de proveedor es un objeto que admite la [interfaz IProviderAdmin](iprovideradminiunknown.md) y permite a los clientes hacer lo siguiente: 
   
 - Agregar proveedores de servicios a un servicio de mensajes.
     
 - Eliminar proveedores de servicios de un servicio de mensajes.
     
-- Abra las secciones de perfil.
+- Abra secciones de perfil.
     
-- Obtener acceso a la tabla del proveedor de servicios de mensajes.
+- Obtenga acceso a la tabla del proveedor de servicios de mensajes.
     
-Los tipos de cambios que se pueden realizar realmente en un servicio de mensajes mientras el perfil está en uso dependen del servicio de mensajes. Sin embargo, la mayoría de los servicios de mensajes no admiten cambios como agregar y eliminar proveedores mientras el perfil está en uso.
+Los tipos de cambios que realmente se pueden realizar en un servicio de mensajes mientras el perfil está en uso dependen del servicio de mensajes. Sin embargo, la mayoría de los servicios de mensajes no admiten cambios como agregar y eliminar proveedores mientras el perfil está en uso.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para recuperar la estructura **MAPIUID** para el servicio de mensajes que se va a administrar, recupere la columna de propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes en la tabla del servicio de mensajes. Para obtener más información, vea el procedimiento descrito en el [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
+Para recuperar la estructura **MAPIUID** del servicio de mensajes que se va a administrar, recupere la columna de propiedad **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de la fila del servicio de mensajes de la tabla de servicio de mensajes. Para obtener más información, vea el procedimiento descrito en el [método IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -85,7 +85,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI usa el **método IMsgServiceAdmin::AdminProviders** para abrir un objeto de administración de proveedor para un servicio.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

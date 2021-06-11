@@ -1,5 +1,5 @@
 ---
-title: Bloque de macros de grupo (aplicación web personalizada de Access)
+title: Bloque de macro de grupo (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418781"
 ---
-# <a name="group-macro-block-access-custom-web-app"></a>Bloque de macros de grupo (aplicación web personalizada de Access)
+# <a name="group-macro-block-access-custom-web-app"></a>Bloque de macro de grupo (aplicación web personalizada de Access)
 
 La **instrucción Group** permite especificar un bloque de acciones dentro de una macro que puede expandir o contraer. 
   

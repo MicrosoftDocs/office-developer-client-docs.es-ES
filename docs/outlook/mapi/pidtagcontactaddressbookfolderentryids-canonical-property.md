@@ -25,7 +25,7 @@ ms.locfileid: "33421602"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene identificadores de las carpetas contactos de los almacenes de mensajes donde se mantienen los usuarios de correo.
+Contiene identificadores de las carpetas contactos en los almacenes de mensajes donde se mantienen los usuarios de correo.
   
 |||
 |:-----|:-----|
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

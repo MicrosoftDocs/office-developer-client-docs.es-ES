@@ -58,11 +58,11 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **ulCtlType**
   
-> Tipo de control que se incluye en el miembro **ctl** y corresponde a la propiedad PR_CONTROL_TYPE **(** [PidTagControlType](pidtagcontroltype-canonical-property.md)) del control. Los valores posibles son los siguientes:
+> Tipo de control que se incluye en el miembro **ctl** y corresponde a la propiedad PR_CONTROL_TYPE **(** [PidTagControlType](pidtagcontroltype-canonical-property.md)). Los valores posibles son los siguientes:
     
 DTCT_LABEL 
   
@@ -78,7 +78,7 @@ DTCT_LBX
     
 DTCT_COMBOBOX 
   
-> Control cuadro combinado.
+> Control de cuadro combinado.
     
 DTCT_DDLBX 
   
@@ -86,7 +86,7 @@ DTCT_DDLBX
     
 DTCT_CHECKBOX 
   
-> Control casilla de verificación.
+> Control de casilla.
     
 DTCT_GROUPBOX 
   
@@ -114,11 +114,11 @@ DTCT_MVDDLBX
     
 **ulCtlFlags**
   
-> Máscara de bits de marcas que describe las características del control y corresponde a la propiedad PR_CONTROL_FLAGS **(** [PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) del control. Estas marcas solo se pueden establecer para casillas de verificación, cuadros combinados, cuadros de lista y controles de edición. Los valores posibles son los siguientes:
+> Máscara de bits de marcas que describe las características del control y corresponde a la propiedad PR_CONTROL_FLAGS **(** [PidTagControlFlags](pidtagcontrolflags-canonical-property.md)). Estas marcas solo se pueden establecer para casillas, cuadros combinados, cuadros de lista y controles de edición. Los valores posibles son los siguientes:
     
 DT_ACCEPT_DBCS 
   
-> Se acepta el formato ANSI o DBCS. Esta marca solo es válida para controles de edición.
+> Se acepta el formato ANSI o DBCS. Esta marca solo es válida para los controles de edición.
     
 DT_EDITABLE 
   
@@ -126,23 +126,23 @@ DT_EDITABLE
     
 DT_MULTILINE 
   
-> El control puede contener varias líneas de texto. Esta marca solo es válida para controles de edición.
+> El control puede contener varias líneas de texto. Esta marca solo es válida para los controles de edición.
     
 DT_PASSWORD_EDIT 
   
-> El control contiene una contraseña; por lo tanto, el contenido del control no debe mostrarse al usuario. Esta marca solo es válida para controles de edición.
+> El control contiene una contraseña; por lo tanto, el contenido del control no debe mostrarse al usuario. Esta marca solo es válida para los controles de edición.
     
 DT_REQUIRED 
   
-> El control de cuadro de diálogo es obligatorio. Esta marca solo es válida para controles de edición y cuadro combinado.
+> Se requiere el control de cuadro de diálogo. Esta marca solo es válida para controles de edición y cuadro combinado.
     
 DT_SET_IMMEDIATE 
   
-> Habilita la salida inmediata de un valor tras un cambio en el control. Esto permite establecer una relación de dependencia entre dos controles. 
+> Habilita el resultado inmediato de un valor tras un cambio en el control. Esto permite establecer una relación de dependencia entre dos controles. 
     
 **lpbNotif**
   
-> Puntero a una estructura que consta de una [estructura GUID,](guid.md) para representar el proveedor de servicios y un identificador para el control. Los **miembros lpbNotif** y **cbNotif** corresponden a la propiedad PR_CONTROL_ID ([PidTagControlId](pidtagcontrolid-canonical-property.md)) del control y se usan para notificar **a** la interfaz de usuario cuándo debe actualizarse el control.
+> Puntero a una estructura que consta de una [estructura GUID,](guid.md) para representar el proveedor de servicios y un identificador para el control. Los **miembros lpbNotif** y **cbNotif** corresponden a la propiedad **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) del control y se usan para notificar a la interfaz de usuario cuándo debe actualizarse el control.
     
 **cbNotif**
   
@@ -150,39 +150,39 @@ DT_SET_IMMEDIATE
     
 **lpszFilter**
   
-> Puntero a una cadena de caracteres que describe los caracteres que se pueden introducir en un control de edición o cuadro combinado. Para otros tipos de controles, el **miembro lpszFilter** puede ser NULL. Para los controles de edición y cuadro combinado, debe ser una expresión regular que se aplique a un solo carácter a la vez. Se aplica el mismo filtro a todos los caracteres del control. El formato de la cadena de filtro es el siguiente: 
+> Puntero a una cadena de caracteres que describe qué caracteres se pueden especificar en un control de edición o cuadro combinado. Para otros tipos de controles, el **miembro lpszFilter** puede ser NULL. Para los controles de edición y cuadro combinado, debe ser una expresión regular que se aplique a un solo carácter a la vez. El mismo filtro se aplica a todos los caracteres del control. El formato de la cadena de filtro es el siguiente: 
     
 |**Carácter**|**Descripción**|
 |:-----|:-----|
 | `*` <br/> | Se permite cualquier carácter (por ejemplo, `"*"` ).  <br/> |
 | `[ ]` <br/> |Define un conjunto de caracteres (por ejemplo, `"[0123456789]"` .)  <br/> |
 | `-` <br/> |Indica un intervalo de caracteres (por ejemplo, `"[a-z]"` ).  <br/> |
-| `~` <br/> |Indica que no se permiten estos caracteres (por ejemplo, `"[~0-9]")` . <br/>|   
-| `\` <br/> |Se usa para citar cualquiera de los símbolos anteriores (por ejemplo, se permiten los caracteres `"[\-\\\[\]]"` -, \, [y ]).  <br/> |
+| `~` <br/> |Indica que estos caracteres no están permitidos (por ejemplo, `"[~0-9]")` . <br/>|   
+| `\` <br/> |Se usa para citar cualquiera de los símbolos anteriores (por ejemplo, se permiten los caracteres `"[\-\\\[\]]"` -, \, [y ] ).  <br/> |
    
 **ulItemID**
   
-> Valor que identifica el control en el recurso de cuadro de diálogo. Para controles de páginas con pestañas de tipo DTCT_PAGE el **miembro ulItemID** se usa opcionalmente para cargar el nombre del componente de la página desde un recurso de cadena. La información de posición y etiqueta se lee en el recurso del cuadro de diálogo. 
+> Valor que identifica el control en el recurso de cuadro de diálogo. Para los controles de páginas con pestañas de tipo DTCT_PAGE el **miembro ulItemID** se usa opcionalmente para cargar el nombre del componente de la página desde un recurso de cadena. La información de posición y etiqueta se lee en el recurso del cuadro de diálogo. 
     
 **ctl**
   
-> Estructura que contiene los datos del control y que corresponde a la propiedad PR_CONTROL_STRUCTURE **del** control ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)). Cada tipo de control tiene una estructura diferente.
+> Estructura que contiene los datos del control y corresponde a la propiedad PR_CONTROL_STRUCTURE **(** [PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)). Cada tipo de control tiene una estructura diferente.
     
 ## <a name="remarks"></a>Comentarios
 
 La **estructura DTCTL** describe un control de cualquier tipo. La mayoría de sus miembros se usan para establecer propiedades en el control. 
   
-El **miembro ctl** es una unión de estructuras relacionadas con un tipo determinado de control. Si la **estructura DTCTL** describe un control de edición, por ejemplo, el miembro **ctl** apuntará a una [estructura DTBLEDIT.](dtbledit.md) Esta estructura corresponde a la propiedad PR_CONTROL_STRUCTURE **control.** La unión tiene como primer miembro una variable de tipo LPVOID para permitir la inicialización en tiempo de compilación de la **estructura DTCTL.** 
+El **miembro ctl** es una unión de estructuras que se relacionan con un tipo determinado de control. Si la **estructura DTCTL** describe un control de edición, por ejemplo, el miembro **ctl** apuntará a una [estructura DTBLEDIT.](dtbledit.md) Esta estructura corresponde a la propiedad PR_CONTROL_STRUCTURE **control.** La unión tiene como primer miembro una variable de tipo LPVOID para permitir la inicialización en tiempo de compilación de la **estructura DTCTL.** 
   
-Aunque la [función BuildDisplayTable](builddisplaytable.md) usa la estructura **DTCTL** para crear la tabla de visualización a partir de recursos de control, la estructura **DTCTL** nunca aparece en la propia tabla para mostrar. Esta estructura simplemente proporciona información a **BuildDisplayTable**.
+Aunque la [función BuildDisplayTable](builddisplaytable.md) usa la estructura **DTCTL** para crear la tabla para mostrar a partir de recursos de control, la estructura **DTCTL** nunca aparece en la propia tabla para mostrar. Esta estructura solo proporciona información a **BuildDisplayTable**.
   
-En el **miembro ulCtlFlags,** cuatro marcas DT_ACCEPT_DBCS, DT_EDITABLE, DT_MULTILINE_and DT_PASSWORD_EDIT sólo afectan a los controles de edición. Otros dos DT_REQUIRED y DT_SET_IMMEDIATE a cualquier control editable. 
+En el **miembro ulCtlFlags,** cuatro DT_ACCEPT_DBCS, DT_EDITABLE, DT_MULTILINE_and DT_PASSWORD_EDIT solo afectan a los controles de edición. Otros dos DT_REQUIRED y DT_SET_IMMEDIATE afectan a cualquier control editable. 
   
-Los controles disponibles para un cuadro de diálogo son etiqueta, cuadro de texto, cuadro de texto para entrada de lápiz, lista, lista desplegable, cuadro combinado, casilla, cuadro de grupo, botón, botón de radio y página con pestañas.
+Los controles disponibles para un cuadro de diálogo son etiqueta, cuadro de texto, cuadro de texto con entrada de lápiz, lista, lista desplegable, cuadro combinado, casilla de verificación, cuadro de grupo, botón, botón de radio y página con pestañas.
   
-Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información sobre cómo implementar una tabla para mostrar, vea [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [BuildDisplayTable](builddisplaytable.md)
 - [DTBLBUTTON](dtblbutton.md)

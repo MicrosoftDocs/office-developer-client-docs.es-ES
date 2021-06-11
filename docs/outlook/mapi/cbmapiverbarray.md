@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [SMAPIVerbArray](smapiverbarray.md
 int CbMAPIVerbArray (_c)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _c_
   
 > Recuento de **estructuras SMAPIVerb** en la estructura **SMAPIVerbArray** existente. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

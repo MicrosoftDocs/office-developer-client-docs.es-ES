@@ -1,5 +1,5 @@
 ---
-title: EditarRegistro (aplicación web personalizada de Access)
+title: Acción de macro EditRecord (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421749"
 ---
-# <a name="editrecord-macro-action-access-custom-web-app"></a>EditarRegistro (aplicación web personalizada de Access)
+# <a name="editrecord-macro-action-access-custom-web-app"></a>Acción de macro EditRecord (aplicación web personalizada de Access)
 
 Coloca el registro actual en modo de edición.
   
@@ -26,8 +26,8 @@ Coloca el registro actual en modo de edición.
   
 ## <a name="remarks"></a>Comentarios
 
-Use la **acción GuardarRegistro** para guardar los cambios realizados en el registro o la acción **DeshacerRegistro** para descartar los cambios. 
+Use la **acción GuardarRegistro** para guardar los cambios realizados en el registro o la acción **UndoRecord** para descartar los cambios. 
   
-La **acción EditarRegistro** equivale a seleccionar el **botón** Editar en la barra de acciones. 
+La **acción EditarRegistro** equivale a seleccionar el **botón Editar** en la barra de acciones. 
   
 

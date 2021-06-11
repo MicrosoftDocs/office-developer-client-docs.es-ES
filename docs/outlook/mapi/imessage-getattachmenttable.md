@@ -34,15 +34,15 @@ HRESULT GetAttachmentTable(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas relacionadas con la creación de la tabla. Se puede establecer la siguiente marca: 
+> [in] Máscara de bits de marcas relacionadas con la creación de la tabla. Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena están en formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena tienen el formato ANSI.
     
 MAPI_DEFERRED_ERRORS 
   
@@ -60,15 +60,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMessage::GetAttachmentTable** devuelve un puntero a la tabla de datos adjuntos del mensaje, que incluye información sobre todos los datos adjuntos del mensaje. Los clientes pueden obtener acceso a datos adjuntos solo a través de la tabla de datos adjuntos. Al recuperar el número de datos adjuntos, su propiedad **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) un cliente puede usar varios de los métodos **IMessage** para trabajar con los datos adjuntos. 
+El **método IMessage::GetAttachmentTable** devuelve un puntero a la tabla de datos adjuntos del mensaje, que incluye información sobre todos los datos adjuntos del mensaje. Los clientes solo pueden obtener acceso a datos adjuntos a través de la tabla de datos adjuntos. Al recuperar el número de datos **adjuntos,** su propiedad PR_ATTACH_NUM ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) un cliente puede usar varios de los métodos **IMessage** para trabajar con los datos adjuntos. 
   
-Hay una fila para cada dato adjunto. Para obtener una lista completa de las columnas de una tabla de datos adjuntos, vea [Tablas de datos adjuntos.](attachment-tables.md)
+Hay una fila para cada dato adjunto. Para obtener una lista completa de las columnas de una tabla de datos adjuntos, vea [Tablas de datos adjuntos](attachment-tables.md).
   
-Normalmente, los datos adjuntos no aparecen en la tabla de datos adjuntos hasta que se han guardado los datos adjuntos y el mensaje con una llamada a [IMAPIProp::SaveChanges](imapiprop-savechanges.md). Las tablas de datos adjuntos son dinámicas. Si un cliente crea nuevos datos adjuntos, elimina datos adjuntos existentes o cambia una o más propiedades una vez que se han realizado las llamadas **a SaveChanges** en los datos adjuntos del mensaje, la tabla de datos adjuntos se actualizará para reflejar la nueva información. 
+Normalmente, los datos adjuntos no aparecen en la tabla de datos adjuntos hasta que se han guardado los datos adjuntos y el mensaje con una llamada a [IMAPIProp::SaveChanges](imapiprop-savechanges.md). Las tablas de datos adjuntos son dinámicas. Si un cliente crea datos adjuntos nuevos, elimina datos adjuntos existentes o cambia una o más propiedades una vez que se hayan realizado las llamadas **a SaveChanges** en los datos adjuntos del mensaje, la tabla de datos adjuntos se actualizará para reflejar la nueva información. 
   
-Algunas tablas de datos adjuntos admiten una amplia variedad de restricciones; otros no lo hacen. La compatibilidad con las restricciones depende de la implementación del proveedor del almacén de mensajes. 
+Algunas tablas de datos adjuntos admiten una amplia variedad de restricciones; otros no lo hacen. La compatibilidad con restricciones depende de la implementación del proveedor del almacén de mensajes. 
   
-Cuando se abren inicialmente, las tablas de datos adjuntos no se ordenan necesariamente en un orden determinado. 
+Cuando se abre inicialmente, las tablas de datos adjuntos no se ordenan necesariamente en un orden determinado. 
   
 Establecer el MAPI_UNICODE en el  _parámetro ulFlags_ afecta a las siguientes llamadas a la tabla de datos adjuntos: 
   
@@ -78,9 +78,9 @@ Establecer el MAPI_UNICODE en el  _parámetro ulFlags_ afecta a las siguientes l
     
 - [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) para recuperar el criterio de ordenación. 
     
-Al establecer la marca Unicode, se solicita que la información de las columnas de cadena devueltas por estas llamadas esté en formato Unicode. Sin embargo, dado que no todos los proveedores de al almacenamiento de mensajes admiten Unicode, establecer esta marca es solo una solicitud.
+Al establecer la marca Unicode, se solicita que la información de las columnas de cadena devueltas de estas llamadas esté en formato Unicode. Sin embargo, como no todos los proveedores de almacén de mensajes admiten Unicode, establecer esta marca es solo una solicitud.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

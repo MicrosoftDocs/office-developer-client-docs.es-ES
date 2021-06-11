@@ -1,5 +1,5 @@
 ---
-title: Comandos de la interfaz de usuario (aplicación web personalizada de Access)
+title: Comandos de interfaz de usuario (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -27,6 +27,6 @@ ms.locfileid: "33421693"
     
 - [Acción de macro MessageBox (aplicación web personalizada de Access)](messagebox-macro-action-access-custom-web-app.md)
     
-- [AbrirPopup (acción de macro) (aplicación web personalizada de Access)](openpopup-macro-action-access-custom-web-app.md)
+- [Acción de macro OpenPopup (aplicación web personalizada de Access)](openpopup-macro-action-access-custom-web-app.md)
     
 

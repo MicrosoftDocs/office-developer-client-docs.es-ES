@@ -33,27 +33,27 @@ HRESULT StoreLogoff(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
-> [entrada, salida] Máscara de bits de marcas que controla el cierre de sesión del almacén de mensajes. En la entrada, todas las marcas establecidas para este parámetro son mutuamente excluyentes; El autor de la llamada debe especificar solo una marca por llamada. Las siguientes marcas son válidas en la entrada:
+> [in, out] Máscara de bits de marcas que controla el cierre de sesión desde el almacén de mensajes. En la entrada, todas las marcas establecidas para este parámetro son mutuamente excluyentes; Un autor de la llamada debe especificar solo una marca por llamada. Las siguientes marcas son válidas en la entrada:
     
 LOGOFF_ABORT 
   
-> Cualquier actividad del proveedor de transporte para este almacén de mensajes debe detenerse antes de cerrar sesión. El control se devuelve al autor de la llamada después de detener la actividad. Si tiene lugar alguna actividad del proveedor de transporte, no se produce el cierre de sesión y no se produce ningún cambio en el comportamiento de la cola MAPI o de los proveedores de transporte. Si la actividad del proveedor de transporte está inactiva, la cola MAPI libera el almacén. 
+> Cualquier actividad del proveedor de transporte para este almacén de mensajes debe detenerse antes de cerrar sesión. El control se devuelve al autor de la llamada después de detener la actividad. Si se está llevando a cabo alguna actividad del proveedor de transporte, el cierre de sesión no se produce y no se produce ningún cambio en el comportamiento de la cola MAPI o los proveedores de transporte. Si la actividad del proveedor de transporte está inactiva, la cola MAPI libera el almacén. 
     
 LOGOFF_NO_WAIT 
   
-> El almacén de mensajes no debe esperar mensajes de proveedores de transporte antes de cerrarse. Se envían los mensajes salientes que están listos para enviarse. Si este almacén contiene la Bandeja de entrada predeterminada, se reciben los mensajes dentro del proceso y, a continuación, se deshabilita la recepción adicional. Cuando se completa toda la actividad, la cola MAPI libera el almacén y el control se devuelve inmediatamente al llamador. 
+> El almacén de mensajes no debe esperar los mensajes de los proveedores de transporte antes de cerrarse. Se envían los mensajes salientes que están listos para enviarse. Si este almacén contiene la Bandeja de entrada predeterminada, se reciben los mensajes en proceso y, a continuación, se deshabilita la recepción adicional. Cuando se completa toda la actividad, la cola MAPI libera el almacén y el control se devuelve inmediatamente al autor de la llamada. 
     
 LOGOFF_ORDERLY 
   
-> El almacén de mensajes no debe esperar la información de los proveedores de transporte antes de cerrarse. Los mensajes que se están procesando actualmente se completan, pero no se procesan mensajes nuevos. Cuando se completa toda la actividad, la cola MAPI libera el almacén y el control se devuelve inmediatamente al proveedor del almacén. 
+> El almacén de mensajes no debe esperar la información de los proveedores de transporte antes de cerrar. Los mensajes que se están procesando actualmente se completan, pero no se procesan mensajes nuevos. Cuando se completa toda la actividad, la cola MAPI libera el almacén y el control se devuelve inmediatamente al proveedor de la tienda. 
     
 LOGOFF_PURGE 
   
-> El cierre de sesión debe funcionar del mismo modo que si se establece la marca LOGOFF_NO_WAIT, pero se debe llamar al método [IXPLogon::FlushQueues](ixplogon-flushqueues.md) o [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) para los proveedores de transporte adecuados. La LOGOFF_PURGE devuelve el control al autor de la llamada después de finalizar. 
+> El cierre de sesión debe funcionar igual que si se establece la marca LOGOFF_NO_WAIT, pero se debe llamar al método [IXPLogon::FlushQueues](ixplogon-flushqueues.md) o [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) para los proveedores de transporte adecuados. La LOGOFF_PURGE devuelve el control al autor de la llamada después de finalizar. 
     
 LOGOFF_QUIET 
   
@@ -81,7 +81,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMsgStore::StoreLogoff** controla la interacción del almacén de mensajes y los proveedores de transporte durante el proceso de cierre de sesión. Llamar **a StoreLogoff** solo es válido para los almacenes de mensajes que el autor de la llamada está utilizando únicamente. Por ejemplo, cuando dos clientes usan el mismo almacén de mensajes y uno de ellos llama a **StoreLogoff**, el almacén de mensajes se libera inmediatamente y se devuelve el control al cliente que realiza la llamada.
+El **método IMsgStore::StoreLogoff** ejerce control sobre la interacción del almacén de mensajes y los proveedores de transporte durante el proceso de cierre de sesión. La **llamada a StoreLogoff** solo es válida para los almacenes de mensajes que solo usa el autor de la llamada. Por ejemplo, cuando dos clientes usan el mismo almacén de mensajes y uno de ellos llama a **StoreLogoff,** el almacén de mensajes se libera inmediatamente y el control se devuelve al cliente que realiza la llamada.
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
@@ -89,7 +89,7 @@ Guarde las marcas que se pasan a **StoreLogoff** y pásalos cuando llame al mét
   
 Si no se ha realizado ninguna llamada a **StoreLogoff** antes de que el recuento de referencias del almacén de mensajes alcance cero, establezca la marca LOGOFF_ABORT en el parámetro  _ulFlags_ que pase a **StoreLogoffTransports**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -44,11 +44,11 @@ HRESULT UlValidateParms(
 
  _eMethod_
   
-> [entrada] Especifica, por enumeración, el método que se debe validar. 
+> [in] Especifica, por enumeración, el método que se debe validar. 
     
  _Primero_
   
-> [entrada] Puntero al primer argumento de la pila.
+> [in] Puntero al primer argumento de la pila.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,8 +62,8 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Comentarios
 
-Se supone que los parámetros pasados entre MAPI y los proveedores de servicios son correctos y solo se someten a la validación de depuración con la macro [CheckParms.](checkparms.md) Los proveedores deben comprobar todos los parámetros pasados por las aplicaciones cliente, pero los clientes deben suponer que los parámetros MAPI y del proveedor son correctos. Use la **macro HR_FAILED** para probar los valores devueltos. 
+Se supone que los parámetros pasados entre MAPI y los proveedores de servicios son correctos y solo se someten a validación de depuración con la macro [CheckParms.](checkparms.md) Los proveedores deben comprobar todos los parámetros pasados por las aplicaciones cliente, pero los clientes deben asumir que los parámetros MAPI y del proveedor son correctos. Use la **macro HR_FAILED** para probar los valores devueltos. 
   
-La **macro UlValidateParms** se llama de forma diferente en función de si el código de llamada es C o C++. Esta macro se usa para validar parámetros para los pocos **métodos IUnknown** y MAPI que devuelven ULONG en lugar de valores HRESULT; La [macro ValidateParms funciona](validateparms.md) para todos los demás. 
+La **macro UlValidateParms** se llama de forma diferente en función de si el código de llamada es C o C++. Esta macro se usa para validar parámetros para los pocos **métodos IUnknown** y MAPI que devuelven ULONG en lugar de valores HRESULT; la [macro ValidateParms](validateparms.md) funciona para todos los demás. 
   
 

@@ -21,30 +21,30 @@ ms.locfileid: "33422708"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En la tabla siguiente se resumen los distintos intervalos para los identificadores de propiedad y se describe el propietario de las propiedades de cada intervalo.
+En la tabla siguiente se resumen los distintos intervalos para los identificadores de propiedad, describiendo el propietario de las propiedades de cada intervalo.
   
 |**Intervalo de identificadores**|**Descripción**|
 |:-----|:-----|
 |0000  <br/> |Reservado por MAPI para el valor especial **PR_NULL**.  <br/> |
-|0001 - 0BFF  <br/> |Propiedades del sobre del mensaje definidas por MAPI.  <br/> |
+|0001 - 0BFF  <br/> |Propiedades de sobre de mensaje definidas por MAPI.  <br/> |
 |0C00 - 0DFF  <br/> |Propiedades de destinatario definidas por MAPI.  <br/> |
-|0E00 - 0FFF  <br/> |Propiedades de mensaje no transmitible definidas por MAPI.  <br/> |
+|0E00 - 0FFF  <br/> |Propiedades de mensaje no transmitibles definidas por MAPI.  <br/> |
 |1000 - 2FFF  <br/> |Propiedades de contenido de mensajes definidas por MAPI.  <br/> |
-|3000 - 3FFF  <br/> |Propiedades de objetos que no son mensajes y destinatarios definidos por MAPI.  <br/> |
-|4000 - 57FF  <br/> |Propiedades de sobre de mensaje definidas por proveedores de transporte.  <br/> |
-|5800 - 5FFF  <br/> |Propiedades de destinatario definidas por proveedores de transporte y libreta de direcciones.  <br/> |
-|6000 - 65FF  <br/> |Propiedades de mensajes no transmitibles definidas por los clientes.  <br/> |
+|3000 - 3FFF  <br/> |Propiedades de objetos distintos de los mensajes y destinatarios definidos por MAPI.  <br/> |
+|4000 - 57FF  <br/> |Propiedades de sobre de mensaje definidas por los proveedores de transporte.  <br/> |
+|5800 - 5FFF  <br/> |Propiedades de destinatarios definidas por proveedores de transporte y libreta de direcciones.  <br/> |
+|6000 - 65FF  <br/> |Propiedades de mensaje no transmitibles definidas por los clientes.  <br/> |
 |6600 - 67FF  <br/> |Propiedades no transmitibles definidas por un proveedor de servicios. Estas propiedades pueden ser visibles o invisibles para los usuarios.  <br/> |
-|6800 - 7BFF  <br/> |Propiedades de contenido de mensajes para clases de mensajes personalizadas definidas por los creadores de esas clases.  <br/> |
+|6800 - 7BFF  <br/> |Propiedades de contenido de mensajes para clases de mensaje personalizadas definidas por los creadores de esas clases.  <br/> |
 |7C00 - 7FFF  <br/> |Propiedades no transmitibles para clases de mensajes personalizadas definidas por los creadores de esas clases.  <br/> |
-|8000 - FFFE  <br/> |Propiedades definidas por clientes y proveedores de servicios ocasionalmente identificados por nombre a través de los [métodos IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) e [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md)  <br/> |
+|8000 - FFFE  <br/> |Propiedades definidas por clientes y ocasionalmente proveedores de servicios que se identifican por nombre a través de los [métodos IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) e [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md)  <br/> |
 |FFFF  <br/> |Reservado por MAPI para el valor de error especial PROP_ID_INVALID.  <br/> |
    
-El intervalo entre 3000 y 3FFF está reservado para las propiedades que no están relacionadas con mensajes o destinatarios. MAPI divide este rango en sub rangos por tipos de objeto; En la tabla siguiente se muestra este desglose adicional. 
+El intervalo entre 3000 y 3FFF está reservado para las propiedades que no están relacionadas con mensajes o destinatarios. MAPI divide este rango en sub intervalos por tipos de objeto; en la tabla siguiente se muestra este desglose adicional. 
   
 |**Intervalo de identificadores**|**Tipo de propiedad**|
 |:-----|:-----|
-|3000 - 33FF  <br/> |Propiedades comunes que aparecen en varios objetos, como **PR_DISPLAY_NAME** y **PR_ENTRYID**.  <br/> |
+|3000 - 33FF  <br/> |Propiedades comunes que aparecen en varios objetos, **como PR_DISPLAY_NAME** y **PR_ENTRYID**.  <br/> |
 |3400 - 35FF  <br/> |Propiedades del almacén de mensajes  <br/> |
 |3600 - 36FF  <br/> |Propiedades del contenedor de carpetas y libretas de direcciones  <br/> |
 |3700 - 38FF  <br/> |Propiedades de datos adjuntos  <br/> |

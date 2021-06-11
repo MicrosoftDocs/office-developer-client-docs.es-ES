@@ -25,7 +25,7 @@ ms.locfileid: "33424514"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve información sobre el último error que se produjo en un objeto de tabla.
+Devuelve información sobre el último error que se produjo en un objeto table.
   
 ```cpp
 HRESULT GetLastError( 
@@ -35,21 +35,21 @@ HRESULT GetLastError(
 ); 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
-> [entrada] Valor devuelto del método que ha fallado.
+> [in] Valor devuelto del método que ha fallado.
     
  _ulFlags_
   
-> [entrada] No se usa, se establece en 0 (cero).
+> [in] No se usa, se establece en 0 (cero).
     
  _lppMAPIError_
   
 > [salida] Apunta a una estructura [MAPIERROR que](mapierror.md) contiene información sobre el último error que se produjo para un objeto de tabla. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

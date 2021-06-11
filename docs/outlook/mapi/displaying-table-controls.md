@@ -21,7 +21,7 @@ ms.locfileid: "33422694"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Hay muchos tipos diferentes de controles, ninguno exclusivo de MAPI. Sin embargo, MAPI define sus propias estructuras que se usan junto con [BuildDisplayTable](builddisplaytable.md) para describir el conjunto único de datos implicados con cada control. 
+Hay muchos tipos diferentes de controles, ninguno exclusivo de MAPI. Sin embargo, MAPI define sus propias estructuras que se usan junto con [BuildDisplayTable](builddisplaytable.md) para describir el conjunto único de datos relacionados con cada control. 
   
 En la tabla siguiente se enumeran las estructuras que describen cada tipo de control. 
   
@@ -37,12 +37,12 @@ En la tabla siguiente se enumeran las estructuras que describen cada tipo de con
 |[DTBLLBX](dtbllbx.md) <br/> |Describe un control de cuadro de lista.  <br/> |
 |[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |Describe un control de cuadro de lista desplegable de varios valores.  <br/> |
 |[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |Describe un control de cuadro de lista de varios valores.  <br/> |
-|[DTBLPAGE](dtblpage.md) <br/> |Describe un control de página con fichas.  <br/> |
+|[DTBLPAGE](dtblpage.md) <br/> |Describe un control de página con pestañas.  <br/> |
 |[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Describe un control de botón de opción.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
-[Implementación de tabla de visualización](display-table-implementation.md)
+[Implementación de tabla para mostrar](display-table-implementation.md)
 

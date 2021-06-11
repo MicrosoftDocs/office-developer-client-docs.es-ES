@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveColumn
 - TempActiveColumn12
 keywords:
-- Función tempactivecolumn12 [excel 2007],Función TempActiveColumn [Excel 2007]
+- función tempactivecolumn12 [excel 2007], función TempActiveColumn [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,18 +23,18 @@ ms.locfileid: "33417878"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Funciones de biblioteca de marcos que crean un  /  **XLOPER XLOPER12** temporal que contiene una referencia externa a toda una columna de la hoja activa. 
+Funciones de biblioteca de marcos que crean un /  **XLOPER XLOPER12** temporal que contiene una referencia externa a toda una columna de la hoja activa. 
   
 ```cs
 LPXLOPER TempActiveColumn(BYTE col);
 LPXLOPER12 TempActiveColumn12(COL col);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _col_ (**BYTE**)
   
-Columna a la que se va a hacer referencia. Esto es de base cero para que la columna A se pase como 0. En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 255 = 2^8 - 1 y es el valor máximo que puede tomar un entero BYTE. A partir de Excel 2007 que ejecuta un libro, el valor máximo es 16.383 = 2^14 - 1. COL se define como un entero con signo de 32 bits en XLCALL.H.
+Columna a la que se debe hacer referencia. Se trata de una base cero para que la columna A se pase como 0. En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 255 = 2^8 - 1 y es el valor máximo que puede tomar un entero BYTE. A partir Excel 2007 que ejecuta un libro, el valor máximo es 16.383 = 2^14 - 1. COL se define como un entero con signo de 32 bits en XLCALL.H.
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -54,7 +54,7 @@ short WINAPI TempActiveColumnExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

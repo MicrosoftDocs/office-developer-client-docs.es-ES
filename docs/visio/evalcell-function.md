@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4aa3a1c9-dec9-5eb0-5743-0534c0b3bb5f
-description: Toma una referencia a una celda que contiene una función personalizada, así como uno o varios pares nombre-valor para pasar a la función personalizada como argumentos (opcional). Devuelve el resultado calculado de la función personalizada, dados los argumentos y valores especificados.
+description: Toma una referencia a una celda que contiene una función personalizada, así como uno o más pares nombre-valor para pasar a la función personalizada como argumentos (opcional). Devuelve el resultado calculado de la función personalizada dados los argumentos y valores especificados.
 ms.openlocfilehash: 4ad6645862d620a36b90e4f46d09588d7e83fcc1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33418907"
 ---
 # <a name="evalcell-function"></a>Función EVALCELL
 
-Toma una referencia a una celda que contiene una función personalizada, así como uno o varios pares nombre-valor para pasar a la función personalizada como argumentos (opcional). Devuelve el resultado calculado de la función personalizada, dados los argumentos y valores especificados.
+Toma una referencia a una celda que contiene una función personalizada, así como uno o más pares nombre-valor para pasar a la función personalizada como argumentos (opcional). Devuelve el resultado calculado de la función personalizada dados los argumentos y valores especificados.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -29,7 +29,7 @@ EVALCELL(** *cellRef* **,[ ** *arg1Name,arg1* ** ],[ ** *arg2Name,arg2* ** ],...
 | _cellRef_ <br/> |Obligatorio  <br/> |**String** <br/> |Referencia a una celda que contiene la función personalizada. Se permiten referencias entre hojas.  <br/> |
 | _arg1Name_ <br/> |Opcional  <br/> |**String** <br/> |Nombre del primer argumento que se va a pasar a la función personalizada. Se permiten espacios.  <br/> |
 | _arg1_ <br/> |Opcional  <br/> |**Varía** <br/> |Valor del _parámetro arg1._  <br/> |
-| _arg2Name_ <br/> |Opcional  <br/> |**String** <br/> |Nombre del segundo argumento que se va a pasar a la función personalizada. Se permiten espacios.  <br/> |
+| _arg2Name_ <br/> |Opcional  <br/> |**String** <br/> |Nombre del segundo argumento que se pasará a la función personalizada. Se permiten espacios.  <br/> |
 | _arg2_ <br/> |Opcional  <br/> |**Varía** <br/> |Valor del _parámetro arg2._  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto

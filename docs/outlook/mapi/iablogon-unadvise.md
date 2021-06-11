@@ -25,7 +25,7 @@ ms.locfileid: "33424080"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela las notificaciones configuradas anteriormente con una llamada al método [IABLogon::Advise.](iablogon-advise.md) 
+Cancela las notificaciones configuradas anteriormente con una llamada al [método IABLogon::Advise.](iablogon-advise.md) 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [entrada] El número de conexión asociado a un registro de notificación activo. Una llamada anterior a **Advise** debe haber devuelto el valor  _de ulConnection_.
+> [in] Número de conexión asociado a un registro de notificación activo. Una llamada anterior a **Advise** debe haber devuelto el valor de  _ulConnection_.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,11 +51,11 @@ MAPI llama al **método Unadvise** para cancelar un registro de notificación pa
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La implementación de **Unadvise** dependerá de si admite la notificación con la ayuda de MAPI o manualmente. Si MAPI proporciona soporte técnico, llame al [método IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) para cancelar el registro. Si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del receptor de avisos, se puede retrasar hasta que **OnNotify** haya devuelto. 
+La implementación de **Unadvise** dependerá de si admite la notificación con la ayuda de MAPI o manualmente. Si MAPI proporciona soporte técnico, llama al [método IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) para cancelar el registro. Si otro subproceso está en el proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del receptor de aviso, puede retrasarse hasta que **OnNotify** haya devuelto. 
   
-Para obtener más información acerca del proceso de notificación, vea [Notificación de eventos en MAPI.](event-notification-in-mapi.md) Para obtener información sobre cómo usar los [métodos IMAPISupport : IUnknown](imapisupportiunknown.md) para admitir notificaciones, vea [Notificación de eventos auxiliares.](supporting-event-notification.md)
+Para obtener más información sobre el proceso de notificación, vea [Event Notification in MAPI](event-notification-in-mapi.md). Para obtener información sobre cómo usar los métodos [IMAPISupport : IUnknown](imapisupportiunknown.md) para admitir la notificación, vea [Supporting Event Notification](supporting-event-notification.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

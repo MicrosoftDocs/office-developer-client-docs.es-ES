@@ -24,11 +24,11 @@ Devuelve el número de registros de una consulta o tabla.
 
 **Count** (*Expresión*) 
   
-La **función Count** contiene el argumento siguiente. 
+La **función Count** contiene el siguiente argumento. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *Expresión*  <br/> |Expresión de cadena que identifica el campo que contiene los datos que desea contar o una expresión que realiza un cálculo con los datos del campo. Los operandos de  *expresión*  pueden incluir el nombre de un campo o función de tabla (que puede ser intrínseco o definido por el usuario, pero no otras SQL funciones de agregado). Se pueden contar todo tipo de datos, incluido texto.  <br/> |
+| *Expresión*  <br/> |Expresión de cadena que identifica el campo que contiene los datos que desea contar o una expresión que realiza un cálculo con los datos del campo. Los operandos de *Expresión* pueden incluir el nombre de un campo o función de tabla (que puede ser intrínseco o definido por el usuario, pero no otras funciones SQL agregado). Se pueden contar todo tipo de datos, incluido texto.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

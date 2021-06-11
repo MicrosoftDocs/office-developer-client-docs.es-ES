@@ -21,7 +21,7 @@ ms.locfileid: "33423758"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La **sección [Extensiones]** enumera los atributos extendidos del formulario, normalmente un conjunto de propiedades con nombre, que son atributos que van más allá de los básicos enumerados en la sección **[Descripción]** del archivo de configuración del formulario. Los atributos extendidos son propiedades devueltas de llamadas al método **GetProps** del objeto **IMAPIFormInfo** con el bit alto establecido en la etiqueta de propiedad. Las aplicaciones cliente pueden determinar los atributos extendidos de un formulario, si los hay, recuperando estas etiquetas. Para ello, los clientes llaman al método [IMAPIProp::GetIDsFromNames,](imapiprop-getidsfromnames.md) pasando los nombres de las propiedades del formulario y llaman al método [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener las propiedades. 
+La **sección [Extensiones]** enumera los atributos extendidos del formulario, normalmente un conjunto de propiedades con nombre, que son atributos que van más allá de los básicos enumerados en la sección **[Descripción]** del archivo de configuración del formulario. Los atributos extendidos son propiedades devueltas de llamadas al **método GetProps** del objeto **IMAPIFormInfo** con el conjunto de bits alto en la etiqueta de propiedad. Las aplicaciones cliente pueden determinar los atributos extendidos de un formulario, si los hay, recuperando estas etiquetas. Para ello, los clientes llaman al método [IMAPIProp::GetIDsFromNames,](imapiprop-getidsfromnames.md) pasando los nombres de las propiedades del formulario y llaman al método [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener las propiedades. 
   
  **[Extensiones]**
   
@@ -31,15 +31,15 @@ Cada sección de propiedad de extensión define un atributo de extensión median
   
  **[Extensión.** _string2_ **]**
   
- **Tipo**  =   _integer_
+ **Tipo**  =   _entero_
   
  **NmidPropset**  =   _guid_
   
- **NmidInteger**  =   _integer_
+ **NmidInteger**  =   _entero_
   
- **Valor**  =   _string_  |   _integer_
+ **Valor**  =   _string_  |   _entero_
   
-A continuación se muestra un ejemplo de una sección **[Extensions]** y una sección relacionada posterior. 
+A continuación se muestra un ejemplo de una **sección [Extensiones]** y una sección relacionada posterior. 
   
 ```
 [Extensions]

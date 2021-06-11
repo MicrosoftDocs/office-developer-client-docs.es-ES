@@ -35,7 +35,7 @@ struct UPREAD
 
 ## <a name="members"></a>Miembros
 
- _indeste_
+ _pupre_
   
 >  [salida] Vector de **[entradas UPREADE.](upreade.md)** 
     
@@ -43,7 +43,7 @@ struct UPREAD
   
 >  [salida] Número de **entradas UPREADE.** 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

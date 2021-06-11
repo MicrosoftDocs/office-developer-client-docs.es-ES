@@ -18,7 +18,7 @@ ms.locfileid: "33420349"
 ---
 # <a name="userui-function"></a>Función USERUI
 
-Evalúa una de las dos expresiones según el valor de  _estado_.
+Evalúa una de las dos expresiones en función del valor de  _estado_.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -34,7 +34,7 @@ USERUI(** *state* **, ** *defaultexpression* **, ** *userexpression* ** )
    
 ## <a name="remarks"></a>Comentarios
 
-Si  _el_ estado es 0, la función USERUI evalúa la  _expresión predeterminada_. Si _el_ estado es 1, evalúa la _expresión user ._
+Si  _el_ estado es 0, la función USERUI evalúa la  _expresión predeterminada_. Si  _el_ estado es 1, evalúa la  _expresión userexpression_.
   
 ## <a name="example"></a>Ejemplo
 

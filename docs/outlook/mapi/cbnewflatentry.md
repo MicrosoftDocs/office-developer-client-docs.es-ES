@@ -25,7 +25,7 @@ ms.locfileid: "33419411"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se deben asignar para una nueva estructura [FLATENTRY](flatentry.md) que contiene un identificador de entrada de un tamaño de byte especificado. 
+Calcula el número de bytes que se deben asignar para una nueva estructura [FLATENTRY](flatentry.md) que contiene un identificador de entrada de un tamaño de bytes especificado. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Calcula el número de bytes que se deben asignar para una nueva estructura [FLAT
 CbNewFLATENTRY (_cb)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _cb_
   
-> Número de bytes en el identificador de entrada que se incluirán en la nueva **estructura FLATENTRY.** 
+> Recuento de bytes en el identificador de entrada que se incluirá en la **nueva estructura FLATENTRY.** 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

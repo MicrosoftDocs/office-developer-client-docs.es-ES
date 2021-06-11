@@ -34,7 +34,7 @@ Crea una estructura con nombre que incluye una [estructura DTBLGROUPBOX](dtblgro
 SizedDtblGroupBox (n, u)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _n_
   
@@ -46,7 +46,7 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblGroupBox** permite definir un control de cuadro de grupo cuando se conoce la longitud de la etiqueta. La nueva estructura se crea con los siguientes miembros: 
+La **macro SizedDtblGroupBox** permite definir un control de cuadro de grupo cuando se conoce la longitud de la etiqueta. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLGROUPBOX dtblgroupbox;
@@ -54,14 +54,14 @@ TCHAR lpszLabel[n];
 
 ```
 
-Para usar un puntero a la estructura resultante de la macro **SizedDtblGroupBox** como puntero de estructura **DTBLGROUPBOX,** realice la conversión siguiente: 
+Para usar un puntero a la estructura resultante de la macro **SizedDtblGroupBox** como puntero de **estructura DTBLGROUPBOX,** realice la conversión siguiente: 
   
 ```cpp
 lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [DTBLGROUPBOX](dtblgroupbox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

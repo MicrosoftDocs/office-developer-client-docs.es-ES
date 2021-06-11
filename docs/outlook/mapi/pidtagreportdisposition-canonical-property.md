@@ -23,7 +23,7 @@ ms.locfileid: "33423709"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica el estado de recibo de los mensajes que solicitan recibos. 
+Indica el estado de recepción de los mensajes que solicitan recibos. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Indica el estado de recibo de los mensajes que solicitan recibos.
 
 Los valores válidos son los siguientes:
   
-- "deleted"
+- "eliminado"
     
 - "procesado"
     
-- "dispatched"
+- "despachado"
     
 - "denegado"
     
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -20,7 +20,7 @@ Libera el objeto de sesión MAPI devuelto por - [IOlkAccountHelper::GetMapiSessi
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulta [IOlkAccountHelper](iolkaccounthelper.md).
+Vea [IOlkAccountHelper](iolkaccounthelper.md).
   
 ```cpp
 HRESULT IOlkAccountHelper::HandsOffSession( );
@@ -30,10 +30,10 @@ HRESULT IOlkAccountHelper::HandsOffSession( );
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |Si la implementación de **IOlkAccountHelper** crea su propia sesión MAPI que se devuelve en **IOlkAccountHelper::GetMapiSession**, debe liberar la sesión aquí y devolver S_OK.  <br/> |
+|S_OK  <br/> |Si la implementación de **IOlkAccountHelper** crea su propia sesión MAPI que se devuelve en **IOlkAccountHelper::GetMapiSession,** debe liberar la sesión aquí y devolver S_OK.  <br/> |
 |E_NOTIMPL  <br/> |Si la implementación de **IOlkAccountHelper** no hizo su propia sesión MAPI, solo debe devolver E_NOTIMPL. En este caso, este es el único valor devuelto admitido.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md)

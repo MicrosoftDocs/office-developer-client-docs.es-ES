@@ -23,11 +23,11 @@ Quita la persona identificada por el parámetro  _userID_ como un amigo en la re
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _userID_
   
-> [entrada] Cadena que contiene un identificador de usuario de red social para una persona.
+> [in] Cadena que contiene un identificador de usuario de red social para una persona.
     
 ## <a name="remarks"></a>Comentarios
 

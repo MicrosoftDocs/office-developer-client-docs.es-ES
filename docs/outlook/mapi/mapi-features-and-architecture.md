@@ -1,5 +1,5 @@
 ---
-title: Arquitectura y características mapi
+title: Características y arquitectura MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418284"
 ---
-# <a name="mapi-features-and-architecture"></a>Arquitectura y características mapi
+# <a name="mapi-features-and-architecture"></a>Características y arquitectura MAPI
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La API de mensajería (MAPI) se compone de un conjunto de interfaces comunes de programación de aplicaciones y un componente de biblioteca de vínculos dinámicos (DLL). Las interfaces se usan para crear y tener acceso a diversas aplicaciones de mensajería y sistemas de mensajería, lo que ofrece un entorno uniforme para el desarrollo y el uso, y proporciona una verdadera independencia para ambos. La DLL contiene el subsistema MAPI, que administra la interacción entre aplicaciones de mensajería front-end y sistemas de mensajería back-end y proporciona una interfaz de usuario común para tareas frecuentes. El subsistema MAPI actúa como un centro de intercambio para unificar los distintos sistemas de mensajería y proteger a los clientes de sus diferencias.
+La API de mensajería (MAPI) se compone de un conjunto de interfaces comunes de programación de aplicaciones y un componente de biblioteca de vínculos dinámicos (DLL). Las interfaces se usan para crear y tener acceso a diversas aplicaciones de mensajería y sistemas de mensajería, ofreciendo un entorno uniforme para el desarrollo y el uso, y proporcionando una verdadera independencia para ambos. La DLL contiene el subsistema MAPI, que administra la interacción entre aplicaciones de mensajería front-end y sistemas de mensajería back-end y proporciona una interfaz de usuario común para tareas frecuentes. El subsistema MAPI actúa como un centro de compensación central para unificar los distintos sistemas de mensajería y proteger a los clientes de sus diferencias.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

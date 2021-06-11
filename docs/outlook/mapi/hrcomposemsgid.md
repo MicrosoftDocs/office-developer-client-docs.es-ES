@@ -44,27 +44,27 @@ HrComposeMsgID(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _psession_
   
-> [entrada] Puntero a la sesión en uso por la aplicación cliente. 
+> [in] Puntero a la sesión en uso por la aplicación cliente. 
     
  _cbStoreRecordKey_
   
-> [entrada] Tamaño, en bytes, de la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. Si se pasa cero en el parámetro  _cbStoreRecordKey,_ el parámetro  _pszMsgID_ apunta a una copia del identificador de entrada convertido en texto. 
+> [in] Tamaño, en bytes, de la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. Si se pasa cero en el  _parámetro cbStoreRecordKey,_ el parámetro  _pszMsgID_ apunta a una copia del identificador de entrada convertido en texto. 
     
  _pStoreRecordKey_
   
-> [entrada] Puntero a la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. 
+> [in] Puntero a la clave de registro del almacén de mensajes que contiene el mensaje u otro objeto. 
     
  _cbMsgEID_
   
-> [entrada] Tamaño, en bytes, del identificador de entrada del mensaje u otro objeto. 
+> [in] Tamaño, en bytes, del identificador de entrada del mensaje u otro objeto. 
     
  _pMsgEID_
   
-> [entrada] Puntero al identificador de entrada del objeto. 
+> [in] Puntero al identificador de entrada del objeto. 
     
  _pszMsgID_
   
@@ -76,10 +76,10 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Si el mensaje u otro objeto para el que se está creando el identificador de entrada compuesto reside en un almacén de mensajes, la cadena de identificador se crea a partir del identificador de entrada del objeto y la clave de registro del almacén. Si el objeto no está en un almacén, es decir, si el número de bytes de la clave de registro de almacén pasada en el parámetro  _cbStoreRecordKey_ es cero, el identificador de entrada del objeto simplemente se copia y se convierte en una cadena. 
+Si el mensaje u otro objeto para el que se crea el identificador de entrada compuesta reside en un almacén de mensajes, la cadena de identificador se crea a partir del identificador de entrada del objeto y la clave de registro del almacén. Si el objeto no está en un almacén, es decir, si el número de bytes de la clave de registro de almacén pasada en el parámetro  _cbStoreRecordKey_ es cero, el identificador de entrada del objeto simplemente se copia y se convierte en una cadena. 
   
-Llamar a **la función HrComposeMsgID** equivale a llamar a la función [HrComposeEID](hrcomposeeid.md) y, a continuación, a la función [HrSzFromEntryID.](hrszfromentryid.md) 
+Llamar a **la función HrComposeMsgID** equivale a llamar a la [función HrComposeEID](hrcomposeeid.md) y, a continuación, a la [función HrSzFromEntryID.](hrszfromentryid.md) 
   
- **HrComposeMsgID permite** a las aplicaciones cliente trabajar con objetos en varios almacenes mediante el uso de identificadores de entrada compuestos. Una aplicación puede llamar a [la función HrDecomposeMsgID](hrdecomposemsgid.md) para dividir el identificador de entrada compuesto en sus componentes originales. 
+ **HrComposeMsgID permite** a las aplicaciones cliente trabajar con objetos en varios almacenes mediante el uso de identificadores de entrada compuesta. Una aplicación puede llamar a [la función HrDecomposeMsgID](hrdecomposemsgid.md) para dividir el identificador de entrada compuesta en sus constituyentes originales. 
   
 

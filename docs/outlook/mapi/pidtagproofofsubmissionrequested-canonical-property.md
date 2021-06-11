@@ -25,7 +25,7 @@ ms.locfileid: "33420293"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de prueba de envío de ASN.1.
+Contiene una prueba ASN.1 del valor de envío.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene un valor de prueba de envío de ASN.1.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad corresponde a un atributo de sobre de envío X.400 por mensaje.
+Esta propiedad corresponde a un atributo X.400 submission envelope per-message.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

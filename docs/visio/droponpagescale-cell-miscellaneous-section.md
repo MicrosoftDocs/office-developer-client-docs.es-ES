@@ -25,9 +25,9 @@ En los dos siguientes casos, Visio cambia la escala de las formas de modo que ap
   
 - Cuando se colocan formas sin medir en dibujos a escala.
     
-- Cuando las formas medidas se descartan en dibujos sin escala.
+- Cuando las formas medidas se caen en dibujos sin escala.
     
-El porcentaje de la celda DropOnPageScale indica el factor por el que Visio escale la forma, ya sea hacia arriba ( \> 100) o hacia abajo ( \< 100). Esta cifra se puede usar como factor al calcular los valores que se encuentran en el código de software. 
+El porcentaje de la celda DropOnPageScale indica el factor por el que Visio escala la forma, ya sea hacia arriba ( \> 100) o hacia abajo ( \< 100). Esta cifra se puede usar como factor al calcular los valores que se encuentran en el código de software. 
   
 El valor es el 100% para formas medidas en dibujos a escala y para formas sin medir en dibujos sin escala. 
   

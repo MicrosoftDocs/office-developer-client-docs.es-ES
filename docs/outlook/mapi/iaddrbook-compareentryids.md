@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID1._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID1._ 
     
  _lpEntryID1_
   
-> [entrada] Puntero al primer identificador de entrada que se va a comparar.
+> [in] Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID2._ 
+> [in] Número de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID2._ 
     
  _lpEntryID2_
   
-> [entrada] Puntero al segundo identificador de entrada que se va a comparar.
+> [in] Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -72,17 +72,17 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Uno o ambos identificadores de entrada pasados con los parámetros  _lpEntryID1_ o  _lpEntryID2_ no son reconocidos por ningún proveedor de libreta de direcciones. 
+> Ningún proveedor de libreta de direcciones reconoce uno o ambos identificadores de entrada con los parámetros _lpEntryID1_ o _lpEntryID2._ 
     
 ## <a name="remarks"></a>Comentarios
 
 Las aplicaciones cliente y los proveedores de servicios llaman al método **CompareEntryIDs** para comparar dos identificadores de entrada que pertenecen a un único proveedor de libreta de direcciones para determinar si hacen referencia al mismo objeto. **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esta situación puede producirse, por ejemplo, después de instalar una nueva versión de un proveedor de libreta de direcciones. 
   
-MAPI pasa esta llamada al proveedor de libreta de direcciones responsable de los identificadores de entrada, determinando el proveedor adecuado al hacer coincidir la estructura [MAPIUID](mapiuid.md) en los identificadores de entrada con la estructura **MAPIUID** registrada por el proveedor. 
+MAPI pasa esta llamada al proveedor de libreta de direcciones responsable de los identificadores de entrada, determinando el proveedor adecuado al coincidir la estructura [MAPIUID](mapiuid.md) en los identificadores de entrada con la estructura **MAPIUID** registrada por el proveedor. 
   
-Si los dos identificadores de entrada hacen referencia al mismo objeto, **CompareEntryIDs** establece el contenido del parámetro  _lpulResult_ en TRUE; si hacen referencia a diferentes objetos, **CompareEntryIDs** establece el contenido en FALSE. En cualquier caso, **CompareEntryIDs** devuelve S_OK. Si **CompareEntryIDs** devuelve un error, que puede producirse si ningún proveedor de libreta de direcciones ha registrado una estructura **MAPIUID** que coincida con la de los identificadores de entrada, los clientes y proveedores no deben realizar ninguna acción en función del resultado de la comparación. En su lugar, deben tomar el enfoque más conservador de la acción que se está realizando. 
+Si los dos identificadores de entrada hacen referencia al mismo objeto, **CompareEntryIDs** establece el contenido del parámetro  _lpulResult_ en TRUE; si hacen referencia a diferentes objetos, **CompareEntryIDs** establece el contenido en FALSE. En cualquier caso, **CompareEntryIDs** devuelve S_OK. Si **CompareEntryIDs** devuelve un error, que puede producirse si ningún proveedor de libreta de direcciones ha registrado una estructura **MAPIUID** que coincida con la de los identificadores de entrada, los clientes y proveedores no deben realizar ninguna acción en función del resultado de la comparación. En su lugar, deben tomar el enfoque más conservador de la acción que se realiza. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

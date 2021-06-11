@@ -25,13 +25,13 @@ Especifica si se va a usar la autenticación de contraseña segura (SPA) para la
 |Identificador:  <br/> |0x0207  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
 |Etiqueta de propiedad:  <br/> |0x02070003  <br/> |
-|Acceso:  <br/> |Solo lectura  <br/> |
+|Access:  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un valor cero significa no usar SPA; de lo contrario, use SPA.
+Un valor cero significa no usar SPA, de lo contrario, usar SPA.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md)
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

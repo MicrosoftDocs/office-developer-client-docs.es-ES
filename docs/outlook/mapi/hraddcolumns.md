@@ -38,23 +38,23 @@ HRESULT HrAddColumns(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lptbl_
   
-> [entrada] Puntero a la tabla MAPI afectada.
+> [in] Puntero a la tabla MAPI afectada.
     
  _lpproptagColumnsNew_
   
-> [entrada] Puntero a una **estructura SPropTagArray** que contiene una matriz de etiquetas de propiedad para las propiedades que se van a agregar o mover al principio de la tabla. 
+> [in] Puntero a una **estructura SPropTagArray** que contiene una matriz de etiquetas de propiedad para las propiedades que se van a agregar o mover al principio de la tabla. 
     
  _lpAllocateBuffer_
   
-> [entrada] Puntero a la **función MAPIAllocateBuffer.** Se usa para asignar memoria. 
+> [in] Puntero a la **función MAPIAllocateBuffer.** Se usa para asignar memoria. 
     
  _lpFreeBuffer_
   
-> [entrada] Puntero a la **función MAPIFreeBuffer.** Se usa para liberar memoria. 
+> [in] Puntero a la **función MAPIFreeBuffer.** Se usa para liberar memoria. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -64,9 +64,9 @@ HRESULT HrAddColumns(
     
 ## <a name="remarks"></a>Comentarios
 
-La **función HrAddColumns** equivale a usar **HrAddColumnsEx** con  _lpfnFilterColumns_ establecido en NULL. 
+La **función HrAddColumns** equivale al uso de **HrAddColumnsEx** con  _lpfnFilterColumns_ establecido en NULL. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

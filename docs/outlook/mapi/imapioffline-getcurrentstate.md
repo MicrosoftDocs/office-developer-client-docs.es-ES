@@ -33,11 +33,11 @@ HRESULT GetCurrentState(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pulState_
   
-> [salida] Estado actual en línea o sin conexión de un objeto sin conexión. Debe ser uno de estos dos valores:
+> [salida] El estado actual en línea o sin conexión de un objeto sin conexión. Debe ser uno de estos dos valores:
     
 MAPIOFFLINE_STATE_ONLINE
   
@@ -47,7 +47,7 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

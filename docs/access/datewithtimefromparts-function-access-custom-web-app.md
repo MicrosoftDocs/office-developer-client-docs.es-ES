@@ -28,15 +28,15 @@ La **función DateWithTimeFromParts** contiene los argumentos siguientes.
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *Year*  <br/> |Expresión entera que especifica un año.  <br/> |
-| *Month*  <br/> |Expresión entera que especifica un mes.  <br/> |
-| *Day*  <br/> |Expresión de entero que especifica un día.  <br/> |
+| *Year*  <br/> |Expresión de entero que especifica un año.  <br/> |
+| *Month*  <br/> |Expresión de entero que especifica un mes.  <br/> |
+| *Day*  <br/> |Expresión de número entero que especifica un día.  <br/> |
 | *Hour*  <br/> |Expresión de entero que especifica horas.  <br/> |
 | *Minute*  <br/> |Expresión de entero que especifica minutos.  <br/> |
 | *Second*  <br/> |Expresión de entero que especifica segundos.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-**DateWithTimeFromParts** devuelve un valor de fecha y hora totalmente inicializado. Si los argumentos no son válidos, se genera un error. Si los argumentos necesarios son Null, se devuelve Null. 
+**DateWithTimeFromParts** devuelve un valor Date/Time completamente inicializado. Si los argumentos no son válidos, se genera un error. Si los argumentos necesarios son Null, se devuelve Null. 
   
 

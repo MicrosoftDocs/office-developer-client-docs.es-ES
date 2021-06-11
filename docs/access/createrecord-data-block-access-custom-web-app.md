@@ -23,7 +23,7 @@ Puede utilizar el bloque de datos **CrearRegistro** para crear un nuevo registro
 > [!NOTE]
 > El bloque de datos **CrearRegistro** solo está disponible en macros de datos. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 El bloque de datos **CrearRegistro** tiene los siguientes argumentos. 
   

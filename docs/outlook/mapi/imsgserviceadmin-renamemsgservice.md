@@ -35,11 +35,11 @@ HRESULT RenameMsgService(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
-> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes para cambiar el nombre. 
+> [in] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único para que cambie el nombre del servicio de mensajes. 
     
  _ulFlags_
   
@@ -47,7 +47,7 @@ HRESULT RenameMsgService(
     
  _lpszDisplayName_
   
-> [entrada] Puntero al nuevo nombre del servicio de mensajes.
+> [in] Puntero al nuevo nombre del servicio de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,9 +57,9 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentarios
 
-Para asignar un nuevo nombre a un servicio de mensajes, los clientes deben usar la propiedad **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) del servicio de mensajes. Los nombres de los proveedores de servicios en un servicio de mensajes se almacenan en **sus PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
+Para asignar un nuevo nombre a un servicio de mensajes, los clientes deben usar la propiedad **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) del servicio de mensajes. Los nombres de los proveedores de servicios de un servicio de mensajes se almacenan en sus **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) propiedades. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

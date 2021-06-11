@@ -32,11 +32,11 @@ Contiene el nombre para mostrar definido por el proveedor para un proveedor de s
 |Propiedades asociadas:  <br/> |PR_PROVIDER_DISPLAY, PR_PROVIDER_DISPLAY_A, PR_PROVIDER_DISPLAY_W  <br/> |
 |Identificador:  <br/> |0x3006  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Mapi común  <br/> |
+|Área:  <br/> |MAPI común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades y **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) se definen solo en las secciones de perfil que pertenecen a proveedores de servicios. Deben estar presentes en MAPISVC.INF.
+Estas propiedades y **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) se definen solo en secciones de perfil pertenecientes a proveedores de servicios. Deben estar presentes en MAPISVC.INF.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -31,11 +31,11 @@ HRESULT SetOrder(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pclsidCategory_
   
-> [entrada] Identificador de clase de categoría para el que se va a establecer el orden. El valor debe ser uno de los siguientes:
+> [in] Identificador de clase de categoría para el que se establece el orden. El valor debe ser uno de los siguientes:
     
    - CLSID_OlkAddressBook
     
@@ -43,11 +43,11 @@ _pclsidCategory_
     
 _cAccts_
   
-> [entrada] El número de cuentas.
+> [in] Número de cuentas.
     
 _rgAccts_
   
-> [entrada] Una matriz de los IDs de la cuenta. El tamaño de la matriz  _es cAccts_.
+> [in] Una matriz de IDs de cuenta. El tamaño de la matriz es  _cAccts_.
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -60,9 +60,9 @@ _rgAccts_
    
 ## <a name="remarks"></a>Comentarios
 
-El llamador asigna memoria para el puntero de matriz _prgAccts,_ así como para la matriz a la que _apunta prgAccts._ 
+El autor de la llamada asigna memoria para el puntero de matriz _prgAccts,_ así como para la matriz a la que _apunta prgAccts._ 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)

@@ -32,18 +32,18 @@ Pasa el proveedor de almacén como un campo en la estructura MAPISIB durante una
 |Archivo de encabezado:  <br/> ||
 |Expuesto por:  <br/> |Outlook  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
-|Llamado por:  <br/> |Proveedores de la Tienda  <br/> |
+|Llamado por:  <br/> |Proveedores de la tienda  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPISyncProgressCallback  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|[Progress](imapisyncprogresscallback-progress.md) <br/> |El proveedor de almacenamiento llama periódicamente a esta función para actualizar el estado en el cuadro de diálogo De envío o recepción.  <br/> |
-|[Error](imapisyncprogresscallback-error.md) <br/> |Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función para proporcionar detalles que se muestran en el cuadro de diálogo De envío o recepción.  <br/> |
-|[Hecho](imapisyncprogresscallback-done.md) <br/> |El proveedor de almacenamiento llama a esta función para informar a Outlook de que la sincronización se ha completado.  <br/> |
+|[Progress](imapisyncprogresscallback-progress.md) <br/> |El proveedor de almacenamiento llama periódicamente a esta función para actualizar el estado en el cuadro de diálogo Enviar y recibir.  <br/> |
+|[Error](imapisyncprogresscallback-error.md) <br/> |Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función para proporcionar detalles que se muestran en el cuadro de diálogo Enviar y recibir.  <br/> |
+|[Hecho](imapisyncprogresscallback-done.md) <br/> |El proveedor de almacenamiento llama a esta función para informar Outlook que se ha completado la sincronización.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

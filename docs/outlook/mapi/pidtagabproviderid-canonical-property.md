@@ -38,7 +38,7 @@ Contiene la estructura [MAPIUID](mapiuid.md) de un proveedor de libreta de direc
 
 La **estructura MAPIUID** identifica qué proveedor de libreta de direcciones proporciona este contenedor en particular en la jerarquía de contenedores. El valor es único para cada proveedor. 
   
-Un proveedor de libreta de direcciones puede proporcionar más de un identificador. Por ejemplo, un proveedor que proporciona dos contenedores diferentes puede publicar **en PR_AB_PROVIDER_ID** identificadores únicos para cada contenedor. 
+Un proveedor de libreta de direcciones puede proporcionar más de un identificador. Por ejemplo, un proveedor que proporciona dos contenedores diferentes puede publicar en **PR_AB_PROVIDER_ID** identificadores únicos para cada contenedor. 
   
  **PR_AB_PROVIDER_ID** es análogo a la **propiedad PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para los almacenes de mensajes. Las aplicaciones cliente pueden usar **PR_AB_PROVIDER_ID** para buscar filas relacionadas en una tabla de jerarquía de libreta de direcciones. 
   
@@ -54,7 +54,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -63,7 +63,7 @@ Mapidefs.h
 [Propiedad canónica PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)
 
 
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

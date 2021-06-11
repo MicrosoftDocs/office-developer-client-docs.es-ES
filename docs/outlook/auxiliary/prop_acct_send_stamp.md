@@ -27,13 +27,13 @@ Vea [IOlkAccount](iolkaccount.md).
 |Identificador:  <br/> |0x000E  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
 |Etiqueta de propiedad:  <br/> |0x000E001F  <br/> |
-|Acceso:  <br/> |Solo lectura  <br/> |
+|Access:  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Obtenga esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md). Si el cliente intenta establecer esta propiedad, esta propiedad devuelve **E_OLK_PROP_READ_ONLY**. 
+Obtener esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md). Si el cliente intenta establecer esta propiedad, esta propiedad devuelve **E_OLK_PROP_READ_ONLY**. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)  
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

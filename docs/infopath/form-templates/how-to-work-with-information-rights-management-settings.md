@@ -1,5 +1,5 @@
 ---
-title: Trabajar con la configuración de Information Rights Management
+title: Trabajar con Information Rights Management Configuración
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420013"
 ---
-# <a name="work-with-information-rights-management-settings"></a>Trabajar con la configuración de Information Rights Management
+# <a name="work-with-information-rights-management-settings"></a>Trabajar con Information Rights Management Configuración
 
 Existen dos tipos de configuración de Information Rights Management (IRM) disponibles en Microsoft InfoPath: una para proteger el acceso a las plantillas de formulario de InfoPath y otra para controlar el acceso y las acciones en los datos que contengan los formularios completados.
   
@@ -77,8 +77,8 @@ La clase **UserPermissionCollection** proporciona las siguientes propiedades y u
 |[Enabled (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.Enabled.aspx)  <br/> |Obtiene o establece si los valores de los permisos representados por el objeto **Permission** están habilitados para el formulario actual.  <br/> |
 |[PermissionFromPolicy (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PermissionFromPolicy.aspx)  <br/> |Obtiene o establece si se ha aplicado una directiva de permisos al formulario actual.  <br/> |
 |[PolicyDescription (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyDescription.aspx)  <br/> |Obtiene una descripción de la directiva que se aplicó al formulario.  <br/> |
-|[PolicyName (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyName.aspx)  <br/> |Obtiene el nombre de la directiva que se aplicó al formulario.  <br/> |
-|[RequestPermissionUrl (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.RequestPermissionUrl.aspx)  <br/> |Obtiene o establece el archivo, la dirección URL o la dirección de correo electrónico para ponerse en contacto con los usuarios que necesitan permisos adicionales en el formulario actual.  <br/> |
+|[Propiedad PolicyName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyName.aspx)  <br/> |Obtiene el nombre de la directiva que se aplicó al formulario.  <br/> |
+|[RequestPermissionUrl (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.RequestPermissionUrl.aspx)  <br/> |Obtiene o establece el archivo, la dirección URL o la dirección de correo electrónico en contacto para los usuarios que necesitan permisos adicionales en el formulario actual.  <br/> |
 |[StoreLicenses (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.StoreLicenses.aspx)  <br/> |Obtiene o establece si la licencia del usuario para ver el formulario actual se debe almacenar en caché para permitir su visualización sin conexión cuando el usuario no se pueda conectar a un servidor de administración de derechos.  <br/> |
 |[UserPermissions (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.UserPermissions.aspx)  <br/> |Obtiene un objeto **UserPermissionCollection** para el formulario.  <br/> |
    
@@ -88,7 +88,7 @@ La clase **UserPermissionCollection** proporciona las siguientes propiedades y m
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[Método](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) Add (+3 sobrecargas)  <br/> |Añada un nuevo usuario al formulario y opcionalmente especifica los permisos y una fecha de caducidad.  <br/> |
+|[Método Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) (+3 sobrecargas)  <br/> |Añada un nuevo usuario al formulario y opcionalmente especifica los permisos y una fecha de caducidad.  <br/> |
 |Método [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Remove.aspx)  <br/> |Quita el objeto **UserPermission** con el **UserId** especificado de la colección.  <br/> |
 |[RemoveAll (método)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.RemoveAll.aspx)  <br/> |Quita todos los objetos **UserPermission** de la colección.  <br/> |
 |Propiedad [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Count.aspx)  <br/> |Obtiene el número de objetos **UserPermission** de la colección.  <br/> |
@@ -102,7 +102,7 @@ La clase **UserPermission** proporciona las siguientes propiedades y un método:
 |:-----|:-----|
 |Método [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Remove.aspx)  <br/> |Quita el objeto **UserPermission** de los permisos del formulario.  <br/> |
 |[ExpirationDate (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.ExpirationDate.aspx)  <br/> |Obtiene o establece la fecha de caducidad opcional de los permisos del formulario asignados al usuario asociado a una instancia de la clase **UserPermission**.  <br/> |
-|[Propiedad Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Permission.aspx)  <br/> |Obtiene o establece un valor que representa los permisos del formulario asignados al usuario asociado a una instancia de la clase **UserPermission**.  <br/> |
+|[Permission (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Permission.aspx)  <br/> |Obtiene o establece un valor que representa los permisos del formulario asignados al usuario asociado a una instancia de la clase **UserPermission**.  <br/> |
 |[UserId (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.UserId.aspx)  <br/> |Obtiene la dirección de correo electrónico del usuario cuyos permisos en el formulario actual están determinados por el objeto **UserPermission** especificado.  <br/> |
    
 ### <a name="the-permissiontype-enumeration"></a>Enumeración PermissionType
@@ -111,15 +111,15 @@ Los permisos de un usuario se establecen o leen utilizando los valores de enumer
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|**PermissionType.Change** <br/> |Permite a los usuarios ver, editar, copiar y guardar un formulario, pero no imprimirlo. Equivale a la suma de los permisos **Read**, **Edit**, **Save** y **Extract**.  <br/> |
+|**PermissionType.Change** <br/> |Permite a los usuarios ver, editar, copiar y guardar un formulario, pero no imprimirlo. Equivale a la suma de los permisos **Read**, **Edit**, **Save** y **Extract**.<br/> |
 |**PermissionType.Edit** <br/> |Permite al usuario editar el formulario.  <br/> |
 |**PermissionType.Extract** <br/> |Permite a un usuario con el permiso **Read** copiar contenido en el formulario.  <br/> |
 |**PermissionType.FullControl** <br/> |Permite al usuario agregar, cambiar y quitar permisos de los demás usuarios de un formulario.  <br/> |
-|**PermissionType.ObjectModel** <br/> |Permite a un usuario obtener acceso al documento del formulario mediante programación a través de su modelo de objetos. Los usuarios sin el permiso **ObjectModel** no pueden usar el modelo de objetos para determinar sus propios permisos.  <br/> |
+|**PermissionType.ObjectModel** <br/> |Permite a un usuario obtener acceso al documento del formulario mediante programación a través de su modelo de objetos. Los usuarios sin el permiso **ObjectModel** no pueden usar el modelo de objetos para determinar sus propios permisos.<br/> |
 |**PermissionType.Print** <br/> |Permite al usuario imprimir el formulario.  <br/> |
-|**PermissionType.Read** <br/> |Permite al usuario leer (ver) el documento. Los permisos **Read** y **View** son equivalentes.  <br/> |
+|**PermissionType.Read** <br/> |Permite al usuario leer (ver) el documento. Los permisos **Read** y **View** son equivalentes.<br/> |
 |**PermissionType.Save** <br/> |Permite al usuario guardar el formulario.  <br/> |
-|**PermissionType.View** <br/> |Permite al usuario leer (ver) el formulario. Los permisos **Read** y **View** son equivalentes.  <br/> |
+|**PermissionType.View** <br/> |Permite al usuario leer (ver) el formulario. Los permisos **Read** y **View** son equivalentes. <br/> |
    
 ### <a name="example"></a>Ejemplo
 

@@ -38,7 +38,7 @@ Contiene el identificador de entrada de plantilla de una lista de distribución 
 
 Las aplicaciones cliente usan esta propiedad para crear una lista de distribución dentro de un contenedor. La compatibilidad con la creación de entradas es opcional para contenedores de libreta de direcciones; aquellos que no lo admiten no son necesarios para exponer esta propiedad. 
   
-Esta propiedad especifica una entrada que puede aparecer en la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) para listas de distribución. Después de obtener el identificador, el cliente lo usa en una llamada al método [IABContainer::CreateEntry.](iabcontainer-createentry.md) La entrada representa la plantilla de la lista de distribución predeterminada. 
+Esta propiedad especifica una entrada que puede aparecer en la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) para listas de distribución. Después de obtener el identificador, el cliente lo usa en una llamada al [método IABContainer::CreateEntry.](iabcontainer-createentry.md) La entrada representa la plantilla de la lista de distribución predeterminada. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

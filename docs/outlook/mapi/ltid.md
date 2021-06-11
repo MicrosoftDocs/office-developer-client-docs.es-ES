@@ -21,7 +21,7 @@ ms.locfileid: "33419439"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Identificador genérico a largo plazo de un objeto en un almacén de Outlook.
+Identificador de largo plazo genérico de un objeto en un Outlook almacén.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -42,13 +42,13 @@ struct LTID
     
  _globcnt_
   
-- [salida] Un número único de 6 bytes que identifica el objeto dentro del almacén de Outlook.
+- [salida] Un número único de 6 bytes que identifica el objeto dentro del Outlook almacén.
     
  _wLevel_
   
-- [salida] Nivel de jerarquía del identificador de entrada de una carpeta pública favorita de Exchange.
+- [salida] Nivel de jerarquía del identificador de entrada de una Exchange carpeta pública favorita.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

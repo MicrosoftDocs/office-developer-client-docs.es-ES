@@ -21,21 +21,21 @@ ms.locfileid: "33419383"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El administrador de formularios predeterminado no admite las siguientes características por motivos de rendimiento, pero pueden ser compatibles con los administradores de formularios personalizados.
+El administrador de formularios predeterminado no admite las siguientes características por motivos de rendimiento, pero pueden ser compatibles con administradores de formularios personalizados.
   
-- Jerarquía que permite agrupar o clasificar formularios en una biblioteca de formularios. Una biblioteca de formularios es una base de datos de formularios de archivos planos.
+- Jerarquía que permite agrupar o clasificar formularios en una biblioteca de formularios. Una biblioteca de formularios es una base de datos de archivos planos de formularios.
     
-- Control de acceso para categorías de formularios, correspondientes a clases de mensajes o superclases.
+- Control de acceso para categorías de formularios, correspondientes a clases de mensaje o superclases.
     
 - Compatibilidad con varias versiones de idioma del mismo formulario en una sola biblioteca de formularios.
     
 Estos son problemas de implementación. No hay nada que impida que un administrador de formularios personalizado implemente estas características.
   
-La arquitectura de formulario MAPI no admite la ejecución simultánea de varios administradores de formularios. Aunque MAPI admite varios proveedores de almacén de mensajes simultáneos, proveedores de transporte y proveedores de libretas de direcciones, solo se admite un administrador de formularios único.
+La arquitectura de formulario MAPI no admite varios administradores de formularios que se ejecutan simultáneamente. Aunque MAPI admite varios proveedores de almacén de mensajes simultáneos, proveedores de transporte y proveedores de libreta de direcciones, solo se admite un administrador de formularios único.
   
-Como solo se puede ejecutar un administrador de formularios a la vez, si implementa un administrador de formularios personalizado, tendrá que volver a implementar cualquier funcionalidad del administrador de formularios predeterminado que necesite. Dado que el administrador de formularios personalizado reemplazará por completo al administrador de formularios predeterminado, las capacidades del administrador de formularios predeterminado no estarán disponibles a menos que se dupliquen en el administrador de formularios personalizado.
+Dado que solo se puede ejecutar un administrador de formularios a la vez, si implementa un administrador de formularios personalizado, tendrá que volver a implementar cualquier funcionalidad del administrador de formularios predeterminado que necesite. Dado que el administrador de formularios personalizado reemplazará por completo al administrador de formularios predeterminado, las capacidades del administrador de formularios predeterminado no estarán disponibles a menos que se dupliquen en el administrador de formularios personalizado.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

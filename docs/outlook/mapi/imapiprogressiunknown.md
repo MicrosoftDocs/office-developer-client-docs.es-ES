@@ -36,7 +36,7 @@ Implementa un objeto de progreso que proporciona a las aplicaciones cliente un i
 |Identificador de interfaz:  <br/> |IID_IMAPIProgress  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIPROGRESS  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -48,7 +48,7 @@ Implementa un objeto de progreso que proporciona a las aplicaciones cliente un i
    
 ## <a name="remarks"></a>Comentarios
 
-MAPI incluye un  _parámetro lpProgress_ en muchos de los métodos que realizan operaciones potencialmente largas.  _lpProgress_ apunta a una implementación de cliente de un objeto de progreso. Los clientes que implementan **la interfaz IMAPIProgress** establecen este parámetro para que apunte a su implementación; los clientes que no implementan **IMAPIProgress** establecen el parámetro en NULL. Para mostrar un indicador de progreso durante el procesamiento de la operación, los proveedores de servicios usan el objeto de progreso proporcionado por el cliente, si está disponible, o una implementación MAPI (que se indica cuando  _lpProgress_ se establece en NULL). 
+MAPI incluye un  _parámetro lpProgress_ en muchos de los métodos que realizan operaciones potencialmente largas.  _lpProgress apunta_ a una implementación de cliente de un objeto de progreso. Los clientes que implementan **la interfaz IMAPIProgress** establecen este parámetro para que apunte a su implementación; los clientes que no implementan **IMAPIProgress** establecen el parámetro en NULL. Para mostrar un indicador de progreso durante el procesamiento de la operación, los proveedores de servicios usan el objeto de progreso proporcionado por el cliente, si está disponible, o una implementación MAPI (indicado cuando  _lpProgress_ se establece en NULL). 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -56,9 +56,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Files**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MapiProgress.h y MapiProgress.cpp  <br/> |No aplicable  <br/> |Si la configuración IMAPIProgress está habilitada, MFCMAPI pasará una implementación **IMAPIProgress** a todas las funciones que MFCMAPI invoca que aceptan una implementación.  <br/> |
+|MapiProgress.h y MapiProgress.cpp  <br/> |No aplicable  <br/> |Si la configuración IMAPIProgress está habilitada, MFCMAPI pasará una implementación **imapiprogress** a todas las funciones que MFCMAPI invoca que acepten una implementación.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

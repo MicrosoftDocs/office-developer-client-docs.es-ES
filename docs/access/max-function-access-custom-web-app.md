@@ -25,10 +25,10 @@ Devuelve el valor máximo de la expresión de una consulta o tabla.
 
  **Max** (*Expression*) 
   
-La **función Max** contiene el siguiente argumento. 
+La **función Max** contiene el argumento siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *Expresión*  <br/> |Expresión de cadena que identifica el campo que contiene los datos que desea evaluar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos  de expresión pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de SQL agregado).  <br/> |
+| *Expresión*  <br/> |Expresión de cadena que identifica el campo que contiene los datos que desea evaluar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de *Expresión* pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones SQL agregado).  <br/> |
    
 

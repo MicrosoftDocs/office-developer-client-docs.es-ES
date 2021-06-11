@@ -36,11 +36,11 @@ HRESULT FlushQueues(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
+> [in] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
     
  _cbTargetTransport_
   
@@ -48,15 +48,15 @@ HRESULT FlushQueues(
     
  _lpTargetTransport_
   
-> [entrada] Reservado; debe ser NULL.
+> [in] Reservado; debe ser NULL.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se realiza el vaciado de la cola de mensajes. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se realiza el vaciado de cola de mensajes. Se pueden establecer las siguientes marcas:
     
 FLUSH_DOWNLOAD 
   
-> Las colas o colas de mensajes entrantes deben vaciarse.
+> La cola de mensajes entrantes o las colas deben vaciarse.
     
 FLUSH_FORCE 
   
@@ -68,7 +68,7 @@ FLUSH_NO_UI
     
 FLUSH_UPLOAD 
   
-> Las colas o colas de mensajes salientes deben vaciarse.
+> La cola o las colas de mensajes salientes deben vaciarse.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -78,11 +78,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método **IXPLogon::FlushQueues** para informar al proveedor de transporte de que la cola MAPI está a punto de comenzar a procesar mensajes. El proveedor de transporte debe llamar al método [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) para establecer un bit adecuado para su estado en la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de su fila de estado. Después de actualizar su fila de estado, el proveedor de transporte debe devolver S_OK para la **llamada FlushQueues.** A continuación, la cola MAPI inicia el envío de mensajes, con la operación sincrónica en la cola MAPI. 
+La cola MAPI llama al método **IXPLogon::FlushQueues** para informar al proveedor de transporte de que la cola MAPI está a punto de comenzar a procesar mensajes. El proveedor de transporte debe llamar al método [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) para establecer un bit adecuado para su estado en la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de su fila de estado. Después de actualizar su fila de estado, el proveedor de transporte debe devolver S_OK para la **llamada FlushQueues.** A continuación, la cola MAPI comienza a enviar mensajes, con la operación sincrónica en la cola MAPI. 
   
-Para admitir su implementación del método [IMAPIStatus::FlushQueues,](imapistatus-flushqueues.md) la cola MAPI llama a **IXPLogon::FlushQueues** para todos los objetos de inicio de sesión de los proveedores de transporte activos que se ejecutan en una sesión de perfil. Cuando se llama al método **FlushQueues** de un proveedor de transporte como resultado de una llamada de aplicación cliente a **IMAPIStatus::FlushQueues**, el procesamiento de mensajes se produce de forma asincrónica para el cliente.
+Para admitir su implementación del método [IMAPIStatus::FlushQueues,](imapistatus-flushqueues.md) la cola MAPI llama a **IXPLogon::FlushQueues** para todos los objetos de inicio de sesión de los proveedores de transporte activo que se ejecutan en una sesión de perfil. Cuando se llama al método **FlushQueues** de un proveedor de transporte como resultado de una llamada de aplicación cliente a **IMAPIStatus::FlushQueues,** el procesamiento de mensajes se produce de forma asincrónica para el cliente.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

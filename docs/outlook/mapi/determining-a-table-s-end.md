@@ -23,14 +23,14 @@ ms.locfileid: "33420090"
   
  Un error común es suponer que se ha alcanzado el final de la tabla cuando: 
   
-- Se ha llamado a [IMAPITable::QueryRows](imapitable-queryrows.md) en un bucle, con el final del bucle determinado por el recuento de filas devuelto por [IMAPITable::GetRowCount](imapitable-getrowcount.md). El recuento que **devuelve GetRowCount** no siempre representa el número exacto de filas de la tabla; es un recuento aproximado. 
+- Se ha llamado a [IMAPITable::QueryRows](imapitable-queryrows.md) en un bucle, con el final del bucle determinado por el recuento de filas devuelto por [IMAPITable::GetRowCount](imapitable-getrowcount.md). El recuento que **GetRowCount devuelve** no siempre representa el número exacto de filas de la tabla; es un recuento aproximado. 
     
 - Se ha llamado a **QueryRows** con un número fijo de filas y se devuelven menos filas. No es hasta que **QueryRows** devuelve un conjunto de filas con un recuento de filas igual a cero que no hay más filas que recuperar. 
     
 > [!IMPORTANT]
-> La única vez que un llamador puede suponer que el cursor está situado al final de la tabla para un recuento de filas positivo o al principio de la tabla para un recuento de filas negativo es cuando se devuelve el valor S_OK y cero filas. El valor MAPI_E_NOT_FOUND nunca se devuelve. 
+> La única vez que un autor de la llamada puede suponer que el cursor se coloca al final de la tabla para un recuento de filas positivo o al principio de la tabla para un recuento de filas negativo es cuando se devuelve el valor S_OK y cero filas. El valor MAPI_E_NOT_FOUND nunca se devuelve. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

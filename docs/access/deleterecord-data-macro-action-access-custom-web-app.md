@@ -1,5 +1,5 @@
 ---
-title: EliminarRegistro (acción de macro de datos) (aplicación web personalizada de Access)
+title: Acción DeleteRecord Data Macro (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423156"
 ---
-# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>EliminarRegistro (acción de macro) (aplicación web personalizada de Access)
+# <a name="deleterecord-data-macro-action-access-custom-web-app"></a>Acción DeleteRecord Data Macro (aplicación web personalizada de Access)
 
 Puede usar la acción **EliminarRegistro** para eliminar un registro. 
   
@@ -22,11 +22,11 @@ Puede usar la acción **EliminarRegistro** para eliminar un registro.
   
 ## <a name="setting"></a>Configuración
 
-La **acción EliminarRegistro** tiene los argumentos siguientes. 
+La **acción DeleteRecord** tiene los argumentos siguientes. 
   
 |**Argumento**|**Descripción**|
 |:-----|:-----|
-|**Alias del registro** <br/> |Una cadena que identifica el registro que hay que eliminar. Si no  *se especifica*  el argumento Alias, se elimina el registro actual.  <br/> |
+|**Alias del registro** <br/> |Una cadena que identifica el registro que hay que eliminar. Si no se especifica el argumento  *Alias,*  se elimina el registro actual.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

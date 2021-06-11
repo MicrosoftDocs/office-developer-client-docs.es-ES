@@ -21,7 +21,7 @@ ms.locfileid: "33418333"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica los diferentes estados de seguimiento de un mensaje.
+Especifica los distintos estados de seguimiento de un mensaje.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -46,13 +46,13 @@ enum FollowUpStatus {
     
  _flwupMarked_
   
-> El mensaje se marca para su seguimiento.
+> El mensaje está marcado para el seguimiento.
     
  _flwupMAX_
   
 > Número de estados diferentes admitidos para el seguimiento.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
