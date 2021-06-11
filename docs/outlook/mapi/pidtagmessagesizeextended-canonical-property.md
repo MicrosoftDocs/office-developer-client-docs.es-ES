@@ -25,7 +25,7 @@ ms.locfileid: "32342536"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una versión entera de 64 bits de **la PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
+Contiene una versión entera de 64 bits de **la propiedad PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
   
 |||
 |:-----|:-----|
@@ -44,7 +44,7 @@ Contiene una versión entera de 64 bits de **la PR_MESSAGE_SIZE** ([PidTagMessag
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -73,7 +73,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

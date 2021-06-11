@@ -1,5 +1,5 @@
 ---
-title: Aviso de copyright de referencia para desarrolladores de Outlook
+title: Outlook aviso de copyright de referencia para desarrolladores
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32355107"
 ---
-# <a name="outlook-developer-reference-copyright-notice"></a>Aviso de copyright de referencia para desarrolladores de Outlook
+# <a name="outlook-developer-reference-copyright-notice"></a>Outlook aviso de copyright de referencia para desarrolladores
 
 Este documento se ofrece "tal cual". La información y las vistas expresadas en este documento, incluidas las url y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. Usted es responsable de los riegos de su uso. 
   

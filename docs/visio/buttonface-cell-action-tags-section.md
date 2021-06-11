@@ -25,15 +25,15 @@ Contiene el id. de la imagen de botón que aparece en el botón de etiqueta de a
   
 ## <a name="remarks"></a>Comentarios
 
-La cadena de la celda ButtonFace representa el id. de una imagen de botón de Microsoft Office. El valor predeterminado es 0 (cero) o en blanco para el botón de información de la etiqueta de acción estándar "i". ![Botón de información de etiqueta de acción estándar "i"](media/InfoPS_ZA10180114.gif).
+La cadena de la celda ButtonFace representa el id. de una imagen de botón de Microsoft Office. Un valor de 0 (cero) o un valor en blanco predeterminado para el botón de información de la etiqueta de acción estándar "i" ![Botón de información de etiqueta de acción estándar "i"](media/InfoPS_ZA10180114.gif).
   
-Los Id. que se pueden utilizar en la celda ButtonFace son los mismos que los utilizados con la propiedad **FaceID** de un objeto **CommandBarButton**. Para obtener más información sobre estos IDs, busque "trabajar con imágenes de botón de barra de comandos" en MSDN. 
+Los Id. que se pueden utilizar en la celda ButtonFace son los mismos que los utilizados con la propiedad **FaceID** de un objeto **CommandBarButton**. Para obtener más información acerca de estos IDs, busque "trabajar con imágenes de botón de barra de comandos" en MSDN. 
   
 Para obtener una referencia a la celda ButtonFace por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | SmartTags.  *nombre*  . ButtonFace donde SmartTags. *es*  el nombre de la fila de etiqueta de acción  <br/> |
+| Nombre de celda:  <br/> | SmartTags.  *nombre*  . ButtonFace donde SmartTags. *nombre*  es el nombre de la fila de etiqueta de acción  <br/> |
    
 Para obtener una referencia desde un programa a la celda ButtonFace por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

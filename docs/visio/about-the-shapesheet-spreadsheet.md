@@ -34,13 +34,13 @@ Puede visualizar simultáneamente la ventana ShapeSheet y la ventana de dibujo p
   
 ## <a name="structure-of-the-shapesheet-window"></a>Estructura de la ventana ShapeSheet.
 
-Una ShapeSheet se divide en  *secciones*  que controlan un aspecto determinado del comportamiento o la apariencia de una forma, por ejemplo, su geometría o su formato. Cada sección contiene una o más  *filas que*  contienen  *celdas*  . Cada celda puede contener una fórmula, su resultado (normalmente denominado valor de la celda) e información opcional de error. Una fórmula puede ser requerida u opcional dependiendo de la celda de que se trate. Los datos de una celda (por ejemplo, su fórmula o valor) pueden estar definidos localmente o, con más frecuencia, se heredan de la celda equivalente del patrón o estilo de la forma. 
+Un ShapeSheet se divide en  *secciones que*  controlan un aspecto concreto del comportamiento o la apariencia de una forma, por ejemplo, su geometría o su formato. Cada sección contiene una o más  *filas*  que contienen  *celdas*  . Cada celda puede contener una fórmula, su resultado (normalmente denominado valor de la celda) e información opcional de error. Una fórmula puede ser requerida u opcional dependiendo de la celda de que se trate. Los datos de una celda (por ejemplo, su fórmula o valor) pueden estar definidos localmente o, con más frecuencia, se heredan de la celda equivalente del patrón o estilo de la forma. 
   
-En el siguiente ejemplo se muestra la barra de fórmulas ![barra de fórmulas](media/callout1_ZA01036259.gif), una sección ![section](media/callout2_ZA01036260.gif), una celda ![cell](media/callout3_ZA01036261.gif)y una fila ![row](media/callout4_ZA01036262.gif) en la ventana ShapeSheet. 
+En el ejemplo siguiente se muestra la barra de fórmulas ![barra de fórmulas](media/callout1_ZA01036259.gif), una sección ![section](media/callout2_ZA01036260.gif), una celda ![celda](media/callout3_ZA01036261.gif), y una fila ![row](media/callout4_ZA01036262.gif) en la ventana ShapeSheet. 
   
 ![Ventana ShapeSheet](media/ShpSheetRef_CA_02a_ZA07645861.gif)
   
-Al dibujar una forma, Visio la registra como una colección de ubicaciones horizontales y verticales conectadas por segmentos. Estas ubicaciones (denominadas vértices) se registran en las celdas X e Y de la sección **de geometría de la** forma. Como se muestra en el ejemplo siguiente, al  hacer clic en las celdas X e Y de la sección geometría de la ventana ShapeSheet de una forma, verá un cuadro con borde negro que resalta el vértice de la forma en la ventana de dibujo. 
+Al dibujar una forma, Visio la registra como una colección de ubicaciones horizontales y verticales conectadas por segmentos. Estas ubicaciones (denominadas vértices) se registran en las celdas X e Y de la sección **Geometría de la** forma. Como se muestra en el ejemplo siguiente, al  hacer clic en las celdas X e Y de la sección Geometría de la ventana ShapeSheet de una forma, verá un cuadro con borde negro que resalta el vértice de la forma en la ventana de dibujo. 
   
 ![Cuadro con borde negro que resalta el vértice de la forma en la ventana de dibujo](media/ShpSheetRef_CA_01_ZA07645860.gif)
   
@@ -48,15 +48,15 @@ Al dibujar una forma, Visio la registra como una colección de ubicaciones horiz
 
 Cuando hay una ventana ShapeSheet activa, la cinta cambia para mostrar opciones específicas para trabajar en esa ventana. Al seleccionar una celda de ShapeSheet, aparece una barra de fórmulas que puede usar para especificar y modificar las fórmulas de un objeto. También puede escribir directamente en la celda.
   
-En la ventana ShapeSheet puede agregar secciones a la hoja de cálculo de una forma para agregarle nuevas características en la página de dibujo. Por ejemplo, puede agregar una sección puntos **de** conexión para crear una conexión. Si ya no necesita una sección, puede eliminarla. 
+En la ventana ShapeSheet puede agregar secciones a la hoja de cálculo de una forma para agregarle nuevas características en la página de dibujo. Por ejemplo, puede agregar una sección Puntos **de conexión** para crear una conexión. Si ya no necesita una sección, puede eliminarla. 
   
-También puede agregar filas a las secciones para albergar fórmulas adicionales o cambiar la apariencia de una forma. Por ejemplo, puede agregar una fila a una sección **de geometría** para agregar un segmento a una forma. Igualmente, puede eliminar las filas que ya no necesite. 
+También puede agregar filas a las secciones para albergar fórmulas adicionales o cambiar la apariencia de una forma. Por ejemplo, puede agregar una fila a una sección **Geometría** para agregar un segmento a una forma. Igualmente, puede eliminar las filas que ya no necesite. 
   
 En las celdas pueden mostrarse fórmulas o valores. Muestre las fórmulas cuando especifique fórmulas nuevas, cuando modifique las existentes o cuando desee ver cómo se relacionan entre sí las fórmulas de las distintas celdas. Un valor es el resultado que se obtiene cuando Visio evalúa la fórmula de una celda. Puede mostrar los valores de las celdas para ver el resultado de la evaluación.
   
 ## <a name="additional-shapesheet-references"></a>Más material de referencia sobre ShapeSheet
 
-Para obtener información detallada sobre una sección, fila o celda concreta de ShapeSheet, vea el artículo correspondiente en esta [referencia de ShapeSheet](reference-visio-shapesheet.md).
+Para obtener más información sobre una sección, fila o celda en particular en ShapeSheet, vea el artículo correspondiente en esta [Referencia de ShapeSheet](reference-visio-shapesheet.md).
   
 Si desea información detallada acerca del acceso por programa a la hoja de cálculo ShapeSheet, vea la Referencia de automatización de Microsoft Visio.
   

@@ -38,9 +38,9 @@ Contiene una matriz de tamaño de identificadores de entrada para los destinatar
 
 Esta propiedad contiene una [estructura FLATENTRYLIST](flatentrylist.md) y no es una propiedad multivalor. 
   
-Cuando esta propiedad no está presente, solo se envía una respuesta al usuario identificado por la propiedad **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Cuando se definen PR_REPLY_RECIPIENT_NAMES y las propiedades PR_REPLY_RECIPIENT_NAMES **(** [PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)), la respuesta se envía a todos los destinatarios identificados por estas dos propiedades. Un proveedor de transporte usa estas propiedades para invalidar la lógica de respuesta habitual.
+Cuando esta propiedad no está presente, solo se envía una respuesta al usuario identificado por la propiedad **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Cuando se definen esta y **las propiedades PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)), la respuesta se envía a todos los destinatarios identificados por estas dos propiedades. Un proveedor de transporte usa estas propiedades para invalidar la lógica de respuesta habitual.
   
-Si se establece esta propiedad **o PR_REPLY_RECIPIENT_NAMES** propiedad, también se debe establecer la otra propiedad. Estas propiedades deben contener el mismo número de destinatarios y deben contenerlas en el mismo orden. Si no se cumplen estos requisitos, se pueden producir resultados impredecibles. 
+Si esta propiedad o la **PR_REPLY_RECIPIENT_NAMES** está establecida, también se debe establecer la otra propiedad. Estas propiedades deben contener el mismo número de destinatarios y deben contenerlas en el mismo orden. Si no se cumplen estos requisitos, se pueden producir resultados impredecibles. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,11 +52,11 @@ Si se establece esta propiedad **o PR_REPLY_RECIPIENT_NAMES** propiedad, tambié
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en los mensajes de correo electrónico.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

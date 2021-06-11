@@ -31,7 +31,7 @@ Abre un objeto sin conexión basado en un perfil determinado.
 
 |||
 |:-----|:-----|
-|Exportado por:  <br/> |msmapi32.dll  <br/> |
+|Exportada por:  <br/> |msmapi32.dll  <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
@@ -45,27 +45,27 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulReserved_
   
-> [entrada] Este parámetro no se usa. Debe ser 0.
+> [in] Este parámetro no se usa. Debe ser 0.
     
  _pwszProfileNameIn_
   
-> [entrada] Nombre del perfil para el que está el objeto sin conexión. Debe expresarse en Unicode. 
+> [in] Nombre del perfil para el que está el objeto sin conexión. Debe expresarse en Unicode. 
     
  _pGUID_
   
-> [entrada] Puntero a un GUID que se puede usar para identificar de forma única este objeto desde otros objetos sin conexión. Debe ser **GUID_GlobalState**.
+> [in] Puntero a un GUID que se puede usar para identificar de forma única este objeto desde otros objetos sin conexión. Debe ser **GUID_GlobalState**.
     
  _pReserved_
   
-> [entrada] Este parámetro no se usa. Debe ser **null**.
+> [in] Este parámetro no se usa. Debe ser **null**.
     
  _ppOfflineObj_
   
-> [salida] Puntero al objeto sin conexión solicitado. El llamador puede usar este puntero para obtener acceso a la interfaz [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md) para buscar las devoluciones de llamada que admite este objeto y para configurar devoluciones de llamada para él. 
+> [salida] Puntero al objeto sin conexión solicitado. El autor de la llamada puede usar este puntero para obtener acceso a la interfaz [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md) para buscar las devoluciones de llamada que admite este objeto y configurar las devoluciones de llamada para él. 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -75,17 +75,17 @@ S_OK
     
 MAPI_E_NOT_FOUND
   
-- Error en la llamada a la función.
+- Error en la llamada de función.
     
 ## <a name="remarks"></a>Comentarios
 
-Esta es la primera llamada que realiza un cliente cuando desea recibir una notificación de cualquier cambio de estado de conexión de un perfil determinado. Al llamar **a HrOpenOfflineObj**, el cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. El cliente puede comprobar los tipos de devoluciones de llamada compatibles con el objeto (mediante [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)) y, a continuación, configurar devoluciones de llamada para él (mediante [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
+Esta es la primera llamada que realiza un cliente cuando el cliente desea recibir una notificación de cualquier cambio de estado de conexión para un perfil determinado. Al llamar **a HrOpenOfflineObj**, el cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. El cliente puede comprobar los tipos de devoluciones de llamada compatibles con el objeto (mediante [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)) y, a continuación, configurar devoluciones de llamada para él (mediante [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
   
-Al usar [GetProcAddress para](https://msdn.microsoft.com/library/ms683212.aspx) buscar la dirección de esta función en msmapi32.dll, especifique **HrOpenOfflineObj@20** como nombre del procedimiento. 
+Al usar [GetProcAddress para](https://msdn.microsoft.com/library/ms683212.aspx) buscar la dirección de esta función en msmapi32.dll, especifique **HrOpenOfflineObj@20** como el nombre del procedimiento. 
   
- **HrOpenOfflineObj** solo funciona para clientes que son proveedores MAPI, complementos COM y extensiones de cliente de Exchange que se ejecutan dentro del proceso de Outlook. De lo **contrario, HrOpenOfflineObj** **devuelve MAPI_E_NOT_FOUND**. 
+ **HrOpenOfflineObj** solo funciona para clientes que son proveedores MAPI, complementos COM y extensiones de cliente Exchange que se ejecutan dentro del Outlook cliente. De lo contrario, **HrOpenOfflineObj** **devuelve MAPI_E_NOT_FOUND**. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

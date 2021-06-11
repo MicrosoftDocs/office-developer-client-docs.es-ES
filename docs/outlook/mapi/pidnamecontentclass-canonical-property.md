@@ -25,7 +25,7 @@ ms.locfileid: "32356353"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de campo de encabezado de clase de contenido [RFC3282].
+Contiene un valor de campo de encabezado [RFC3282] Content-Class.
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Contiene un valor de campo de encabezado de clase de contenido [RFC3282].
    
 ## <a name="remarks"></a>Comentarios
 
-Para establecer el valor de esta propiedad, los clientes de Extensiones multipropósito a mensajes de Internet (MIME) deben escribir un campo de encabezado Content-Class con el valor deseado. Los lectores MIME deben copiar el valor de un campo de encabezado Content-Class en el valor de esta propiedad. 
+Para establecer el valor de esta propiedad, los clientes de Multipurpose Internet Message Extensions (MIME) deben escribir un campo de encabezado Content-Class con el valor deseado. Los lectores MIME deben copiar el valor de un campo de encabezado Content-Class en el valor de esta propiedad. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Para establecer el valor de esta propiedad, los clientes de Extensiones multipro
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
@@ -61,13 +61,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

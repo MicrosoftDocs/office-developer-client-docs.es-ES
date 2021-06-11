@@ -36,7 +36,7 @@ Contiene la clase del mensaje original para su uso en un informe.
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades contienen una copia de **la PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) del mensaje para el que se genera el informe.
+Estas propiedades contienen una copia de la **propiedad PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) del mensaje para el que se genera el informe.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Estas propiedades contienen una copia de **la PR_MESSAGE_CLASS** ([PidTagMessage
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

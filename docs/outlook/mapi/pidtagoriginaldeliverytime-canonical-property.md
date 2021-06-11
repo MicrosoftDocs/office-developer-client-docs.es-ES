@@ -25,7 +25,7 @@ ms.locfileid: "32355660"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una copia de la fecha y hora de entrega del mensaje original en un hilo. 
+Contiene una copia de la fecha y hora de entrega del mensaje original en un subproceso. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene una copia de la fecha y hora de entrega del mensaje original en un hilo
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se copia de la propiedad **PR_MESSAGE_DELIVERY_TIME** original ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) en operaciones de respuesta o reenvío posteriores y se usa en informes leídos y no leídos. Los informes de entrega **usan PR_DELIVER_TIME** propiedad ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) en su lugar.
+Esta propiedad se copia de la propiedad **PR_MESSAGE_DELIVERY_TIME** original ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) en operaciones posteriores de respuesta o reenvío y se usa en informes leídos y no leídos. Los informes de entrega **usan la PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) en su lugar.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Esta propiedad se copia de la propiedad **PR_MESSAGE_DELIVERY_TIME** original ([
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

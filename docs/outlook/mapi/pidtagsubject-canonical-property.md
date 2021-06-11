@@ -38,11 +38,11 @@ Contiene el asunto completo de un mensaje.
 
 Estas propiedades se recomiendan en todos los objetos de mensaje. 
   
-Estas propiedades siempre son el texto del asunto completo, es decir, la concatenación del prefijo y el asunto normalizado. Si no hay ningún prefijo, el asunto normalizado debe ser el mismo que el asunto. Un almacén de mensajes o un proveedor de transporte usa estas propiedades y propiedades **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) para calcular el asunto normalizado mediante la regla descrita en **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
+Estas propiedades son siempre el texto completo del asunto, es decir, la concatenación del prefijo y el asunto normalizado. Si no hay ningún prefijo, el asunto normalizado debe ser el mismo que el asunto. Un proveedor de transporte o almacén de mensajes usa estas propiedades y las propiedades **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) para calcular el asunto normalizado mediante la regla descrita **en PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
   
-Las propiedades del asunto suelen ser cadenas pequeñas de menos de 256 caracteres y un proveedor de almacenamiento de mensajes no está obligado a admitir la interfaz **IStream** en ellas. El cliente siempre debe intentar obtener acceso a través de la interfaz **IMAPIProp** en primer lugar y recurrir a **IStream** solo si **MAPI_E_NOT_ENOUGH_MEMORY** se devuelve. 
+Las propiedades del asunto suelen ser pequeñas cadenas de menos de 256 caracteres y un proveedor de almacén de mensajes no está obligado a admitir la interfaz **IStream** en ellas. El cliente siempre debe intentar el acceso a través de la interfaz **IMAPIProp** primero y recurrir a **IStream** solo si **MAPI_E_NOT_ENOUGH_MEMORY** se devuelve. 
   
-Para un informe, esta propiedad contiene el asunto del mensaje original precedido de una cadena que indica lo que ha ocurrido con el mensaje.
+Para un informe, esta propiedad contiene el asunto del mensaje original precedido por una cadena que indica lo que ha ocurrido con el mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,7 +54,7 @@ Para un informe, esta propiedad contiene el asunto del mensaje original precedid
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

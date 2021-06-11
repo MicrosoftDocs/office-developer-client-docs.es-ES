@@ -25,7 +25,7 @@ ms.locfileid: "32355156"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un desplazamiento, en caracteres, que se usa para representar datos adjuntos dentro del texto del mensaje principal.
+Contiene un desplazamiento, en caracteres, que se usará en la representación de datos adjuntos dentro del texto del mensaje principal.
   
 |||
 |:-----|:-----|
@@ -40,9 +40,9 @@ Cuando el desplazamiento proporcionado es -1 (0xFFFFFFFF), los datos adjuntos no
   
  **Nota** El carácter indicado por esta propiedad en **PR_BODY** se reemplaza por los datos adjuntos. Normalmente, este carácter es un espacio, aunque también se puede usar un carácter de marcador de posición especial. 
   
-Esta propiedad se expresa en caracteres. En algunos juegos de caracteres, esto no equivale a bytes. Las aplicaciones Unicode pueden calcular la posición en función de caracteres de dos bytes. Double-Byte de juego de caracteres (DBCS) deben examinar el texto hasta este valor de propiedad, ya que su representación de caracteres varía entre uno y dos bytes por carácter.
+Esta propiedad se expresa en caracteres. En algunos conjuntos de caracteres, esto no equivale a bytes. Las aplicaciones Unicode pueden calcular la posición en función de caracteres de dos bytes. Double-Byte de juego de caracteres (DBCS) deben examinar el texto hasta este valor de propiedad, ya que su representación de caracteres varía entre uno y dos bytes por carácter.
   
-Esta propiedad no debe usarse con texto en formato de texto enriquecido (RTF). La posición de representación se indica en RTF mediante una secuencia de escape denominada marcador de posición de datos adjuntos del objeto. Esta secuencia consta de la cadena seguida de un solo carácter, normalmente un espacio, que se reemplazará por la  `\objattph` representación de datos adjuntos. 
+Esta propiedad no debe usarse con texto de formato de texto enriquecido (RTF). La posición de representación se indica en RTF mediante una secuencia de escape denominada marcador de posición de datos adjuntos del objeto. Esta secuencia consta de la cadena seguida de un solo carácter, normalmente un espacio, que se reemplazará por la  `\objattph` representación de datos adjuntos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,7 +54,7 @@ Esta propiedad no debe usarse con texto en formato de texto enriquecido (RTF). L
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "32339287"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un objeto adjunto al que normalmente se tiene acceso a través de la interfaz **IStorage** de vinculación e incrustación de objetos (OLE). 
+Contiene un objeto de datos adjuntos al que normalmente se tiene acceso a través de la interfaz **IStorage** de vinculación e inserción de objetos (OLE). 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contiene un objeto adjunto al que normalmente se tiene acceso a través de la in
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad contiene los datos adjuntos cuando el valor de la propiedad **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) es **ATTACH_EMBEDDED_MSG** o **ATTACH_OLE**. El tipo de codificación OLE se puede determinar **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+Esta propiedad contiene los datos adjuntos cuando el valor de la propiedad **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) es ATTACH_EMBEDDED_MSG **o** **ATTACH_OLE**. El tipo de codificación OLE se puede determinar **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
-Para los datos adjuntos asociados **ATTACH_EMBEDDED_MSG** valor, la [interfaz IMessage:IMAPIProp](imessageimapiprop.md) se puede usar para un acceso más rápido. 
+Para los datos adjuntos asociados con **el ATTACH_EMBEDDED_MSG,** la [interfaz IMessage:IMAPIProp](imessageimapiprop.md) se puede usar para un acceso más rápido. 
   
 Para un objeto OLE dinámico incrustado, la propiedad **PR_ATTACH_DATA_OBJ** contiene su propia información de representación y la propiedad **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) debe ser inexistente o vacía. 
   
-Para los datos adjuntos de un archivo de documento OLE, el proveedor del almacén de mensajes debe responder **a** una llamada [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en PR_ATTACH_DATA_OBJ y, opcionalmente, puede responder a una llamada en **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)). Las **PR_ATTACH_DATA_BIN** y **PR_ATTACH_DATA_OBJ** comparten el mismo identificador de propiedad y, por lo tanto, son dos representaciones de la misma propiedad. 
+Para los datos adjuntos de un archivo de documento OLE, el proveedor del almacén de mensajes debe responder a una llamada [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en **PR_ATTACH_DATA_OBJ** y, opcionalmente, responder a una llamada en **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)). Las **PR_ATTACH_DATA_BIN** y **PR_ATTACH_DATA_OBJ** comparten el mismo identificador de propiedad y, por lo tanto, son dos representaciones de la misma propiedad. 
   
-Para un objeto de almacenamiento, como un archivo compuesto en formato docfile OLE 2.0, algunos proveedores de servicios permiten que se abra con la interfaz **MAPI IStreamDocfile,** una subclase de **IStream** sin miembros adicionales, diseñada para optimizar el rendimiento. El posible almacenamiento es suficiente para justificar el intento de abrir **PR_ATTACH_DATA_OBJ** a través **de IStreamDocfile**. Si **MAPI_E_INTERFACE_NOT_SUPPORTED** se devuelve, el cliente puede abrir **PR_ATTACH_DATA_BIN** con **IStream**. 
+Para un objeto de almacenamiento, como un archivo compuesto en formato docfile OLE 2.0, algunos proveedores de servicios permiten que se abra con la interfaz **IStreamDocfile** MAPI, una subclase de **IStream** sin miembros adicionales, diseñada para optimizar el rendimiento. El posible ahorro es suficiente para justificar el intento de abrir **PR_ATTACH_DATA_OBJ** a través **de IStreamDocfile**. Si **MAPI_E_INTERFACE_NOT_SUPPORTED** se devuelve, el cliente puede **abrir** PR_ATTACH_DATA_BIN con **IStream**. 
   
 Si la aplicación cliente o el proveedor de servicios no pueden abrir un subobjeto de datos adjuntos mediante **PR_ATTACH_DATA_OBJ** con la ayuda de **PR_ATTACH_METHOD**, debe usar **PR_ATTACH_DATA_BIN**. 
   
-Para obtener más información sobre las interfaces y formatos OLE, vea [OLE y transferencia de datos.](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx)
+Para obtener más información sobre las interfaces y formatos [OLE,](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx)vea OLE y Transferencia de datos .
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -56,7 +56,7 @@ Para obtener más información sobre las interfaces y formatos OLE, vea [OLE y t
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ## <a name="header-files"></a>Archivos de encabezado
 
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "32342507"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor que indica la opinión del remitente del mensaje sobre la sensibilidad de un mensaje.
+Contiene un valor que indica la opinión del remitente del mensaje sobre la confidencialidad de un mensaje.
   
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ Esta propiedad puede tener exactamente uno de los siguientes valores:
   
 SENSITIVITY_NONE 
   
-> El mensaje no tiene confidencialidad especial.
+> El mensaje no tiene ninguna confidencialidad especial.
     
 SENSITIVITY_PERSONAL 
   
@@ -54,7 +54,7 @@ SENSITIVITY_PRIVATE
     
 SENSITIVITY_COMPANY_CONFIDENTIAL 
   
-> El mensaje se designa como confidencial de la empresa.
+> El mensaje es confidencial de la compañía designada.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -66,7 +66,7 @@ SENSITIVITY_COMPANY_CONFIDENTIAL
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -78,13 +78,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

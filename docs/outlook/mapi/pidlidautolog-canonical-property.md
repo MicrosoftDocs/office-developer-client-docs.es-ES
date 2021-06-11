@@ -31,7 +31,7 @@ Especifica si se va a crear un diario para cada acción asociada a este contacto
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidAutoLog  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x00008025  <br/> |
+|Id. largo (LID):  <br/> |0x00008025  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
@@ -45,7 +45,7 @@ Especifica si se va a crear un diario para cada acción asociada a este contacto
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los contactos y la lista de distribución personal.
+> Especifica las propiedades y las operaciones que son permisibles para los contactos y la lista de distribución personal.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

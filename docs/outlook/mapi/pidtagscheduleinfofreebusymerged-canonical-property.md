@@ -25,7 +25,7 @@ ms.locfileid: "32338720"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene las horas para las que el estado de disponibilidad se establece en ocupado u OOF.
+Contiene las horas para las que el estado de disponibilidad está establecido en ocupado u OOF.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene las horas para las que el estado de disponibilidad se establece en ocup
    
 ## <a name="remarks"></a>Comentarios
 
-Los eventos de tipo de disponibilidad provisional no se incluyen en esta propiedad. El formato, el cálculo y las restricciones de esta propiedad son los mismos que los de **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), pero hacen referencia a citas marcadas como OOF o ocupadas en el calendario asociado.
+Los eventos de tipo de disponibilidad provisional no se incluyen en esta propiedad. El formato, el cálculo y las restricciones de esta propiedad son los mismos que los de PR_SCHDINFO_FREEBUSY_TENTATIVE ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), pero hacen referencia **a** citas marcadas como OOF o ocupados en el calendario asociado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

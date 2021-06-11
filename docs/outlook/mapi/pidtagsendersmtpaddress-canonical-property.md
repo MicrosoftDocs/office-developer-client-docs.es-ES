@@ -21,20 +21,20 @@ ms.locfileid: "32342633"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el formato de la dirección de correo electrónico del protocolo simple de transporte de correo (SMTP) del propietario del buzón de correo remitente.
+Contiene el formato de la dirección de correo electrónico de Protocolo simple de transporte de correo (SMTP) del propietario del buzón de envío.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_SENDER_SMTP_ADDRESS, PR_SENDER_SMTP_ADDRESS_A, PR_SENDER_SMTP_ADDRESS_W  <br/> |
 |Identificador:  <br/> |0x5D01  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Área:  <br/> |Address  <br/> |
+|Área:  <br/> |Dirección  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es un ejemplo de las propiedades de dirección del remitente del mensaje. Debe establecerlo el proveedor de transporte saliente, que nunca debe propagar los valores existentes anteriormente.
+Esta propiedad es un ejemplo de las propiedades de dirección del remitente del mensaje. Debe ser establecido por el proveedor de transporte saliente, que nunca debe propagar ningún valor existente previamente.
   
-Si ningún proveedor de transporte ha proporcionado ninguna propiedad de dirección del remitente, la cola MAPI intenta rellenarlas llamando al método [IMAPISession::QueryIdentity](imapisession-queryidentity.md) para obtener un identificador de entrada. Si no se han proporcionado identificadores de entrada, la cola MAPI almacena "Unknown" en todas las propiedades de dirección del remitente del tipo PT_UNICODE o PT_STRING8. 
+Si ningún proveedor de transporte ha proporcionado ninguna propiedad de dirección de remitente, la cola MAPI intenta rellenarlas llamando al método [IMAPISession::QueryIdentity](imapisession-queryidentity.md) para obtener un identificador de entrada. Si no se han proporcionado identificadores de entrada, la cola MAPI almacena "Unknown" en todas las propiedades de dirección del remitente del tipo PT_UNICODE o PT_STRING8. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,7 +46,7 @@ Si ningún proveedor de transporte ha proporcionado ninguna propiedad de direcci
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -58,15 +58,15 @@ Si ningún proveedor de transporte ha proporcionado ninguna propiedad de direcci
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos post.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos post.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de lista de distribución personal y de contacto.
+> Especifica las propiedades y las operaciones permitidas para los objetos de lista de distribución personal y de contacto.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -78,13 +78,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

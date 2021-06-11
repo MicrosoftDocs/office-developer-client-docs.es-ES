@@ -25,7 +25,7 @@ ms.locfileid: "32342570"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una tabla de datos adjuntos de un mensaje. 
+Contiene una tabla de datos adjuntos para un mensaje. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Contiene una tabla de datos adjuntos de un mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad puede excluirse en operaciones [IMAPIProp::CopyTo](imapiprop-copyto.md) o incluirse en [operaciones IMAPIProp::CopyProps.](imapiprop-copyprops.md) Como propiedad de tipo PT_OBJECT, el método [IMAPIProp::GetProps](imapiprop-getprops.md) no puede recuperarla correctamente. El método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) debe tener acceso a su contenido, solicitando el **identificador IID_IMAPITable** interfaz. Los proveedores de servicios deben notificarlo al método [IMAPIProp::GetPropList](imapiprop-getproplist.md) si está establecido, pero opcionalmente pueden notificarlo o no si no está establecido. 
+Esta propiedad puede excluirse en operaciones [IMAPIProp::CopyTo](imapiprop-copyto.md) o incluirse en [operaciones IMAPIProp::CopyProps.](imapiprop-copyprops.md) Como propiedad de tipo PT_OBJECT, el método [IMAPIProp::GetProps](imapiprop-getprops.md) no puede recuperarla correctamente. El método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) debe tener acceso a su contenido, solicitando el **IID_IMAPITable** de interfaz. Los proveedores de servicios deben notificarlo al método [IMAPIProp::GetPropList](imapiprop-getproplist.md) si está establecido, pero opcionalmente pueden notificarlo o no si no está establecido. 
   
-Para recuperar el contenido de la tabla, una aplicación cliente debe llamar al método [IMessage::GetAttachmentTable.](imessage-getattachmenttable.md) For more information, see [Tablas de datos adjuntos](attachment-tables.md). 
+Para recuperar el contenido de la tabla, una aplicación cliente debe llamar al [método IMessage::GetAttachmentTable.](imessage-getattachmenttable.md) For more information, see [Tablas de datos adjuntos](attachment-tables.md). 
   
-Esta propiedad puede usarse para la restricción de subobjetos si se especifica en la estructura [SSubRestriction.](ssubrestriction.md) Esto permite que el cliente limite la vista de un contenedor a los mensajes con datos adjuntos que cumplan determinados criterios. Un mensaje cumple los requisitos para ver si al menos una fila de la tabla de datos adjuntos, es decir, un dato adjunto, satisface la restricción del subobjeto. 
+Esta propiedad se puede usar para la restricción de subobjetos si se especifica en la [estructura SSubRestriction.](ssubrestriction.md) Esto permite al cliente limitar la vista de un contenedor a los mensajes con datos adjuntos que cumplan criterios determinados. Un mensaje cumple los requisitos para ver si al menos una fila de la tabla de datos adjuntos, es decir, un dato adjunto, satisface la restricción del subobjeto. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

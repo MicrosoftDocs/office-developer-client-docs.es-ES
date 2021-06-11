@@ -25,7 +25,7 @@ ms.locfileid: "32342640"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de un miembro de tabla que tiene los derechos descritos en una carpeta Microsoft Exchange Server buzón de correo.
+Contiene el identificador de un miembro de tabla que tiene los derechos descritos en una Microsoft Exchange Server o buzón de correo.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene el identificador de un miembro de tabla que tiene los derechos descrito
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad devuelve un identificador único para la tabla. Un identificador de usuario de directorio está asociado a cada identificador de miembro y lo proporciona esta propiedad. La interfaz de [IExchangeModifyTable](iexchangemodifytableiunknown.md) usa esta propiedad para recuperar el identificador de entrada de directorio de un miembro con derechos explícitos en una carpeta. 
+Esta propiedad devuelve un identificador único de la tabla. Un identificador de usuario de directorio está asociado a cada identificador de miembro y lo proporciona esta propiedad. La interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) usa esta propiedad para recuperar el identificador de entrada de directorio de un miembro con derechos explícitos en una carpeta. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Esta propiedad devuelve un identificador único para la tabla. Un identificador 
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Controla la recuperación de listas de permisos de carpeta almacenadas en el servidor.
+> Controla la recuperación de listas de permisos de carpetas almacenadas en el servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -69,7 +69,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

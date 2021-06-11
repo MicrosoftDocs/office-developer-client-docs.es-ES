@@ -31,15 +31,15 @@ Especifica cómo generar y volver a compilar el valor de la propiedad **dispidFi
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidFileUnderId  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x00008006  <br/> |
+|Id. largo (LID):  <br/> |0x00008006  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si falta esta propiedad o se establece en un valor que no se detalla en la tabla siguiente o en [[MS-OXOCNTC],](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)la aplicación puede elegir su propia lógica para volver a compilar el valor de **dispidFileUnder** a medida que cambien otras propiedades de nombre de contacto. 
+Si falta esta propiedad o se establece en un valor que no se detalla en la tabla siguiente o [en [MS-OXOCNTC],](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)la aplicación puede elegir su propia lógica para volver a compilar el valor de **dispidFileUnder** a medida que cambian otras propiedades de nombre de contacto. 
   
-En la tabla siguiente, la notación <PropertyName> se usa para especificar "el valor de PropertyName". Por ejemplo, si el valor de la propiedad **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) es "Smith" y el valor de la propiedad **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) es "Ben", " " especifica la cadena <PidTagGivenName> <PidTagSurname> "Ben Smith". En la tabla, "\r" especifica un carácter de retorno de carro, "\n" especifica un carácter de avance de línea y <space> representa un carácter de espacio.
+En la tabla siguiente, se usa la notación <PropertyName> para especificar "el valor de PropertyName". Por ejemplo, si el valor de la propiedad **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) es "Smith", y el valor de la propiedad **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) es "Ben", " " especifica la cadena <PidTagGivenName> <PidTagSurname> "Ben Smith". En la tabla, "\r" especifica un carácter de retorno de carro, "\n" especifica un carácter de fuente de línea y <space> representa un carácter de espacio.
   
 |**Valor de la **propiedad dispidFileUnderId****|**Descripción de la **propiedad dispidFileUnder****|
 |:-----|:-----|
@@ -49,20 +49,20 @@ En la tabla siguiente, la notación <PropertyName> se usa para especificar "el v
 |0x00003A11  <br/> |" \< PidTagSurname \> "  <br/> |
 |0x00003A16  <br/> |" \< PidTagCompanyName \> "  <br/> |
 |0x00008017  <br/> |" \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> "  <br/> |
-|0x00008018  <br/> |" \< PidTagCompanyName \> \r\n \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> "  <br/> |
-|0x00008019  <br/> |" \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> \r\n \< PidTagCompanyName \> "  <br/> |
+|0x00008018  <br/> |" \< PidTagCompanyName \>\r\n\< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> "  <br/> |
+|0x00008019  <br/> |" \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName\r\n\> \< PidTagCompanyName \> "  <br/> |
 |0x00008030  <br/> |" \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> "  <br/> |
-|0x00008031  <br/> |" \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> "  <br/> |
-|0x00008032  <br/> |" \< PidTagCompanyName \> \r\n \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> "  <br/> |
-|0x00008033  <br/> |" \< PidTagCompanyName \> \r\n \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> "  <br/> |
-|0x00008034  <br/> |" \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \r\n \< PidTagCompanyName \> "  <br/> |
-|0x00008035  <br/> |" \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \r\n \< PidTagCompanyName \> "  <br/> |
-|0x00008036  <br/> |" \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName space \> \< \> \< PidTagGeneration \> "  <br/> |
+|0x00008031  <br/> |" \< Espacio PidTagSurname \> \< \> \< PidTagGivenName \> \< espacio \> \< PidTagMiddleName \> "  <br/> |
+|0x00008032  <br/> |" \< PidTagCompanyName \>\r\n\< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> "  <br/> |
+|0x00008033  <br/> |" \< PidTagCompanyName \>\r\n\< pidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> "  <br/> |
+|0x00008034  <br/> |" \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \>\r\n\< PidTagCompanyName \> "  <br/> |
+|0x00008035  <br/> |" \< Espacio PidTagSurname \> \< \> \< PidTagGivenName \> \< espacio \> \< PidTagMiddleName\r\n\> \< PidTagCompanyName \> "  <br/> |
+|0x00008036  <br/> |" \< Espacio PidTagSurname \> \< \> \< PidTagGivenName \> \< espacio \> \< PidTagMiddleName espacio \> \< \> \< PidTagGeneration \> "  <br/> |
 |0x00008037  <br/> |" \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \< space \> \< PidTagSurname space \> \< \> \< PidTagGeneration \> "  <br/> |
 |0x00008038  <br/> |" \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \< space \> \< PidTagGeneration \> "  <br/> |
-|0xfffffffd  <br/> |Especifica que, al mostrar el contacto, la aplicación debe intentar usar el valor actual de **dispidFileUnder** y otras propiedades de contacto para buscar una "mejor coincidencia" para **dispidFileUnderId** con uno de los valores anteriores de esta tabla.  <br/> |
-|0xfffffffe  <br/> |Especifica que, al mostrar el contacto, la aplicación debe elegir los valores predeterminados adecuados (según la configuración regional del idioma) para **dispidFileUnderId** y actualizar **dispidFileUnder** para que coincida con la elección.  <br/> |
-|0xffffffff  <br/> |**dispidFileUnder** es una propiedad proporcionada por el PT_UNICODE y no se debe cambiar cuando cambia otra propiedad de nombre de contacto.  <br/> |
+|0xfffffffd  <br/> |Especifica que, al mostrar el contacto, la aplicación debe intentar usar el valor actual de **dispidFileUnder** y otras propiedades de contacto para encontrar una "mejor coincidencia" para **dispidFileUnderId** con uno de los valores anteriores de esta tabla.  <br/> |
+|0xfffffffe  <br/> |Especifica que, al mostrar el contacto, la aplicación debe elegir los valores predeterminados adecuados (según la configuración regional de idioma) para **dispidFileUnderId** y actualizar **dispidFileUnder** para que coincida con la opción.  <br/> |
+|0xffffffff  <br/> |**dispidFileUnder** es una propiedad proporcionada por PT_UNICODE y no debe cambiarse cuando cambie otra propiedad de nombre de contacto.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -74,7 +74,7 @@ En la tabla siguiente, la notación <PropertyName> se usa para especificar "el v
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -82,13 +82,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

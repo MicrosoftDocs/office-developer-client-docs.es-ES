@@ -25,14 +25,14 @@ ms.locfileid: "32348233"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de la carpeta que contiene una carpeta o un mensaje.
+Contiene el identificador de entrada de la carpeta que contiene una carpeta o mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PARENT_ENTRYID  <br/> |
 |Identificador:  <br/> |0x0E09  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propiedades de identificador  <br/> |
+|Área:  <br/> |Propiedades de id.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -68,11 +68,11 @@ Para una carpeta raíz del almacén de mensajes, esta propiedad contiene el iden
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y localizar las carpetas especiales en un buzón.
     
 [[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
   
-> Especifica el método para entregar datos de libreta de direcciones sin conexión (OAB) de servidor a cliente.
+> Especifica el método de entrega de datos de libreta de direcciones sin conexión (OAB) de servidor a cliente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -84,7 +84,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -93,7 +93,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

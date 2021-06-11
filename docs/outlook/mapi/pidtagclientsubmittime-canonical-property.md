@@ -25,7 +25,7 @@ ms.locfileid: "32345720"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la fecha y la hora en que el remitente del mensaje envió un mensaje. 
+Contiene la fecha y hora en que el remitente del mensaje envió un mensaje. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene la fecha y la hora en que el remitente del mensaje envió un mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-El proveedor del **almacén PR_CLIENT_SUBMIT_TIME** la hora en que la aplicación cliente llamó [a IMessage::SubmitMessage](imessage-submitmessage.md). 
+El proveedor de **almacenamiento establece PR_CLIENT_SUBMIT_TIME** la hora en que la aplicación cliente llamó a [IMessage::SubmitMessage](imessage-submitmessage.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,7 +44,7 @@ El proveedor del **almacén PR_CLIENT_SUBMIT_TIME** la hora en que la aplicació
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

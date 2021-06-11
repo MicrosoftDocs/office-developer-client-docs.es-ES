@@ -32,7 +32,7 @@ Contiene una máscara de bits de preferencias de codificación.
 |Propiedades asociadas:  <br/> |PR_SEND_INTERNET_ENCODING  <br/> |
 |Identificador:  <br/> |0x3A71  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Address  <br/> |
+|Área:  <br/> |Dirección  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -42,11 +42,11 @@ Esta propiedad contiene las siguientes marcas:
   
 BODY_ENCODING_HTML 
   
-> Codifica el texto del mensaje en HTML. Esta marca se omite a menos que ENCODING_MIME esté establecida. 
+> Codifica el texto del mensaje en HTML. Esta marca se omite a menos que ENCODING_MIME se establezca la marca. 
     
 BODY_ENCODING_TEXT_AND_HTML 
   
-> Codificar el texto del mensaje con texto y HTML como alternativas multipart extensions multipropósito al correo de Internet (MIME). Esta marca se omite a menos que ENCODING_MIME esté establecida. 
+> Codifica el texto del mensaje con texto y HTML como alternativas multiparte de extensiones de correo de Internet (MIME). Esta marca se omite a menos que ENCODING_MIME se establezca la marca. 
     
 ENCODING_MIME 
   
@@ -58,15 +58,15 @@ ENCODING_PREFERENCE
     
 MAC_ATTACH_ENCODING_APPLEDOUBLE 
   
-> Codificar datos adjuntos de Macintosh en modo doble de Apple. Esta marca se omite a menos que ENCODING_MIME esté establecida. 
+> Codificar datos adjuntos de Macintosh en modo doble de Apple. Esta marca se omite a menos que ENCODING_MIME se establezca la marca. 
     
 MAC_ATTACH_ENCODING_APPLESINGLE 
   
-> Codificar datos adjuntos de Macintosh en modo único de Apple. Esta marca se omite a menos que ENCODING_MIME esté establecida. 
+> Codificar datos adjuntos de Macintosh en modo único de Apple. Esta marca se omite a menos que ENCODING_MIME se establezca la marca. 
     
 MAC_ATTACH_ENCODING_UUENCODE 
   
-> Codificar datos adjuntos de Macintosh en UUENCODE. Si se ENCODING_MIME marca predeterminada, esta marca se omite y se usa la codificación BinHex en su lugar. 
+> Codificar datos adjuntos de Macintosh en UUENCODE. Si se ENCODING_MIME marca, se omite esta marca y se usa la codificación BinHex en su lugar. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -76,21 +76,21 @@ MAC_ATTACH_ENCODING_UUENCODE
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -102,13 +102,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

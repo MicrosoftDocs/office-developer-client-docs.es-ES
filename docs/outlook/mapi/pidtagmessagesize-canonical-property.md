@@ -36,9 +36,9 @@ Contiene la suma, en bytes, de los tamaños de todas las propiedades de un objet
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los objetos de mensaje exponán esta propiedad. El tamaño del mensaje indica el número aproximado de bytes que se transfieren cuando el mensaje se mueve de un almacén de mensajes a otro. Al ser la suma de los tamaños de todas las propiedades del objeto de mensaje, suele ser considerablemente mayor que el texto del mensaje. 
+Se recomienda que los objetos de mensaje exponán esta propiedad. El tamaño del mensaje indica el número aproximado de bytes que se transfieren cuando el mensaje se mueve de un almacén de mensajes a otro. Al ser la suma de los tamaños de todas las propiedades del objeto message, suele ser considerablemente mayor que el texto del mensaje solo. 
   
-La mayoría de los proveedores de al almacenamiento de mensajes calculan esta propiedad para los mensajes que controlan. Sin embargo, algunos proveedores de al almacenamiento de mensajes no admiten esta propiedad. En cualquier caso, esta propiedad no está disponible hasta que se haya llamado al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) o [IMessage::SubmitMessage.](imessage-submitmessage.md) 
+La mayoría de los proveedores de almacén de mensajes calculan esta propiedad para los mensajes que administran. Sin embargo, algunos proveedores de almacén de mensajes no admiten esta propiedad. En cualquier caso, esta propiedad no está disponible hasta que se haya llamado al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) o [IMessage::SubmitMessage.](imessage-submitmessage.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ La mayoría de los proveedores de al almacenamiento de mensajes calculan esta pr
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -70,13 +70,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

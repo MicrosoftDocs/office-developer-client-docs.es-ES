@@ -31,13 +31,13 @@ Especifica una descripción de cadena de la zona horaria.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTimeZoneDesc  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008234  <br/> |
+|Id. largo (LID):  <br/> |0x00008234  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Calendar  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad especifica una descripción legible para el usuario de la zona horaria representada por los datos de la propiedad **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)).
+Esta propiedad especifica una descripción legible de la zona horaria representada por los datos de la propiedad **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Esta propiedad especifica una descripción legible para el usuario de la zona ho
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

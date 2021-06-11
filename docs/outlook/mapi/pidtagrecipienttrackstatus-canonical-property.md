@@ -36,11 +36,11 @@ Indica el estado de respuesta devuelto por el asistente.
    
 ## <a name="remarks"></a>Comentarios
 
-Si no se establece este valor, se debe suponer que es respNone. De lo contrario, debe ser uno de los siguientes:
+Si no se establece este valor, se debe asumir que es respNone. De lo contrario, debe ser uno de los siguientes:
   
-|**Estado de la respuesta**|**Valor**|**Descripción**|
+|**Estado de respuesta**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
-|respNone  <br/> |0x00000000  <br/> |No se requiere respuesta para este objeto. Este es el caso de objetos de cita y objetos de respuesta de reunión.  <br/> |
+|respNone  <br/> |0x00000000  <br/> |No se requiere ninguna respuesta para este objeto. Este es el caso de objetos de cita y objetos de respuesta de reunión.  <br/> |
 |respTentative  <br/> |0x00000002  <br/> |Este valor en el objeto de reunión del asistente indica que el asistente ha aceptado provisionalmente el objeto de solicitud de reunión.  <br/> |
 |respAccepted  <br/> |0x00000003  <br/> |Este valor en el objeto de reunión del asistente indica que el asistente ha aceptado el objeto de solicitud de reunión.  <br/> |
 |respDeclined  <br/> |0x00000004  <br/> |Este valor en el objeto de reunión del asistente indica que el asistente ha rechazado el objeto de solicitud de reunión.  <br/> |
@@ -55,11 +55,11 @@ Si no se establece este valor, se debe suponer que es respNone. De lo contrario,
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -71,13 +71,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -31,13 +31,13 @@ Especifica las opciones que se usan en el procesamiento automático de mensajes 
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSniffState  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x0000851A  <br/> |
+|Id. largo (LID):  <br/> |0x0000851A  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La propiedad puede no estar presente, en cuyo caso se usa el valor predeterminado de "0x00000000". Si se establece, esta propiedad debe establecerse en uno de los valores de la tabla siguiente.
+La propiedad puede estar ausente, en cuyo caso se usa el valor predeterminado de "0x00000000". Si se establece, esta propiedad debe establecerse en uno de los valores de la tabla siguiente.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ La propiedad puede no estar presente, en cuyo caso se usa el valor predeterminad
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -63,13 +63,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

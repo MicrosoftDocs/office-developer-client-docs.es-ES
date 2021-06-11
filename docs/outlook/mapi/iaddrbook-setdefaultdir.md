@@ -34,15 +34,15 @@ HRESULT SetDefaultDir(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> [entrada] Puntero al identificador de entrada del contenedor de libreta de direcciones predeterminado.
+> [in] Puntero al identificador de entrada del contenedor de libreta de direcciones predeterminado.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,10 +52,10 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes y proveedores de servicios llaman **al método SetDefaultDir** para establecer un nuevo contenedor de libreta de direcciones predeterminado. El contenedor predeterminado es el contenedor que el usuario ve que se muestra en la libreta de direcciones cuando se abre la libreta de direcciones por primera vez. **SetDefaultDir** guarda el contenedor predeterminado como una entrada en el perfil. El contenedor permanece como predeterminado hasta que se realiza otra llamada a **SetDefaultDir** en la misma sesión o en otra sesión, o se quita el contenedor. 
+Los clientes y proveedores de servicios llaman al **método SetDefaultDir** para establecer un nuevo contenedor de libreta de direcciones predeterminado. El contenedor predeterminado es el contenedor que el usuario ve que se muestra en la libreta de direcciones cuando se abre por primera vez la libreta de direcciones. **SetDefaultDir** guarda el contenedor predeterminado como una entrada en el perfil. El contenedor permanece como predeterminado hasta que se realiza otra llamada a **SetDefaultDir** en la misma sesión o en otra sesión, o se quita el contenedor. 
   
 > [!NOTE]
-> La [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) propiedad corresponde a la opción Elegir **automáticamente** en el cuadro de diálogo Opciones de la libreta de direcciones. Cuando esta propiedad existe en la sección de perfil de [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) y se establece en **true**, el cuadro de diálogo libreta de direcciones ya no se establece de forma predeterminada en el contenedor especificado por **SetDefaultDir**, pero elige una libreta de direcciones que Microsoft Outlook considere apropiada para el contexto en el que se mostra el cuadro de diálogo. Tenga en cuenta que esto puede provocar una mala experiencia para proveedores de libretas de direcciones de terceros. 
+> La [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) corresponde a la configuración **Elegir automáticamente** en el cuadro de diálogo Opciones de la libreta de direcciones. Cuando esta propiedad existe en la sección de perfil de [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) y se establece en **true,** el cuadro de diálogo Libreta de direcciones ya no es el valor predeterminado del contenedor especificado por **SetDefaultDir,** sino que elige una libreta de direcciones que Microsoft Outlook considere adecuada para el contexto en el que se mostra el cuadro de diálogo. Tenga en cuenta que esto puede provocar una mala experiencia para proveedores de libretas de direcciones de terceros. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -63,9 +63,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI usa el **método SetDefaultDir** para convertir el contenedor de libreta de direcciones especificado en el predeterminado.  <br/> |
+|Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI usa el **método SetDefaultDir** para que el contenedor de libreta de direcciones especificado sea el predeterminado.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

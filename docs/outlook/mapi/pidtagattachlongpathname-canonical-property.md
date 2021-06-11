@@ -25,7 +25,7 @@ ms.locfileid: "32339371"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la ruta de acceso larga y el nombre de archivo completos de un archivo adjunto. 
+Contiene la ruta de acceso larga completa y el nombre de archivo de un archivo adjunto. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene la ruta de acceso larga y el nombre de archivo completos de un archivo 
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son aplicables cuando se usa cualquiera de los valores de la propiedad **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indican datos adjuntos por referencia: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** o **ATTACH_BY_REF_ONLY**. Las plataformas que admiten  nombres de archivo largos deben establecer propiedades PR_ATTACH_LONG_PATHNAME o asociadas y propiedades  **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) al enviar y deben comprobar primero PR_ATTACH_LONG_PATHNAME o propiedades asociadas al recibir. 
+Estas propiedades son aplicables cuando se usa cualquiera de los valores de la propiedad **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indican datos adjuntos por referencia: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** o **ATTACH_BY_REF_ONLY**. Las plataformas que admiten nombres de archivo largos deben establecer propiedades **PR_ATTACH_LONG_PATHNAME** o asociadas y propiedades  **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) al enviar y deben comprobar primero las propiedades PR_ATTACH_LONG_PATHNAME o asociadas al recibir. 
   
 La aplicación cliente debe establecer estas propiedades en una ruta de acceso larga sugerida y un nombre de archivo que se usará si el equipo host que recibe un mensaje admite nombres de archivo largos. Establecer estas propiedades indica que los datos adjuntos no se incluyen en el mensaje, pero están disponibles en un servidor de archivos común. 
   
@@ -44,7 +44,7 @@ A diferencia de los directorios y nombres de archivo proporcionados por **PR_ATT
   
 Los clientes deben usar una convención de nomenclatura universal (UNC) en la mayoría de los casos cuando se comparte el archivo y deben usar una ruta de acceso absoluta cuando el archivo es local.
   
-MAPI sólo funciona con rutas de acceso y nombres de archivo en el juego de caracteres ANSI. Las aplicaciones cliente que usan rutas de acceso y nombres de archivo en un juego de caracteres OEM deben convertirlos en ANSI antes de llamar a MAPI. 
+MAPI solo funciona con rutas de acceso y nombres de archivo en el juego de caracteres ANSI. Las aplicaciones cliente que usan rutas de acceso y nombres de archivo en un juego de caracteres OEM deben convertirlos en ANSI antes de llamar a MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,7 +52,7 @@ MAPI sólo funciona con rutas de acceso y nombres de archivo en el juego de cara
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

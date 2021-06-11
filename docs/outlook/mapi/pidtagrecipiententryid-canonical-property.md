@@ -32,7 +32,7 @@ Contiene el **EntryID** del destinatario
 |Propiedades asociadas:  <br/> |PR_RECIPIENT_ENTRYID  <br/> |
 |Identificador:  <br/> |0x5FF7  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propiedades de identificador  <br/> |
+|Área:  <br/> |Propiedades de id.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,11 +52,11 @@ Contiene el **EntryID** del destinatario
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

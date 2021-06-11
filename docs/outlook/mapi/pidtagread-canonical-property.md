@@ -44,7 +44,7 @@ Indica si se ha leído una fila de tabla.
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Incluye operaciones permitidas para los objetos de tabla principales.
+> Incluye operaciones permitidas para los objetos de tabla principal.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

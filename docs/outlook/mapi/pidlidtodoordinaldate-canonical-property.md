@@ -25,23 +25,23 @@ ms.locfileid: "32345279"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Determina el criterio de ordenación de los objetos de una lista de tareas tareas consolidadas.
+Determina el criterio de ordenación de los objetos de una lista consolidada de tareas por hacer.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidToDoOrdinalDate  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x000085A0  <br/> |
+|Id. largo (LID):  <br/> |0x000085A0  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando se marca un objeto, esta propiedad debe establecerse en la hora actual en hora universal coordinada (UTC). 
+Cuando se marca un objeto, esta propiedad debe establecerse en la hora actual en la hora universal coordinada (UTC). 
   
-Si el cliente permite a un usuario reordenar las tareas dentro de la lista de tareas consolidadas mediante arrastrar u otros mecanismos, puede usar cualquier algoritmo adecuado para determinar el nuevo valor de esta propiedad para que la tarea aparezca en el lugar correcto cuando esta propiedad se usa como campo de ordenación.
+Si el cliente permite que un usuario reordene las tareas de la lista de tareas consolidadas mediante arrastrar u otros mecanismos, puede usar cualquier algoritmo adecuado para determinar el nuevo valor de esta propiedad de modo que la tarea aparezca en el lugar correcto cuando esta propiedad se use como campo de ordenación.
   
-Cuando esta propiedad se usa para ordenar objetos y la ordenación da como resultado una empate, la propiedad **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) se usa como separador de empates.
+Cuando esta propiedad se usa para ordenar objetos y la ordenación da como resultado una empate, la propiedad **dispidToDoSubOrdinal** ([PidLidToDoSubOrdinal](pidlidtodosubordinal-canonical-property.md)) se usa como desempate.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -53,7 +53,7 @@ Cuando esta propiedad se usa para ordenar objetos y la ordenación da como resul
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -70,7 +70,7 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

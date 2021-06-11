@@ -25,19 +25,19 @@ ms.locfileid: "32355667"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica una lista de valores posibles para la propiedad **dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)).
+Especifica una lista de valores posibles para la **propiedad dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidFileUnderList  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x00008026  <br/> |
+|Id. largo (LID):  <br/> |0x00008026  <br/> |
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cada valor de la propiedad de varios valores debe ser uno de los valores permitidos para **dispidFileUnderId** especificado en [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
+Cada valor de la propiedad multi-value debe ser uno de los valores permitidos para **dispidFileUnderId** especificado en [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Cada valor de la propiedad de varios valores debe ser uno de los valores permiti
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

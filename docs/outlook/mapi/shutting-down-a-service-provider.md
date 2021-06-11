@@ -23,9 +23,9 @@ ms.locfileid: "32339210"
   
 Cuando un cliente llama al método [IMAPISession::Logoff](imapisession-logoff.md) para finalizar la sesión y apagar todos los proveedores de servicios activos, MAPI a su vez llama a los métodos siguientes: 
   
-- [IABLogon::Logoff](iablogon-logoff.md) para proveedores de libretas de direcciones. 
+- [IABLogon::Logoff para](iablogon-logoff.md) proveedores de libreta de direcciones. 
     
-- [IMSLogon::Logoff](imslogon-logoff.md) para proveedores de almacén de mensajes. 
+- [IMSLogon::Logoff para](imslogon-logoff.md) proveedores de almacén de mensajes. 
     
 - [IXPLogon::TransportLogoff para](ixplogon-transportlogoff.md) proveedores de transporte. 
     
@@ -33,41 +33,41 @@ Estos métodos tienen implementaciones similares. Las tareas principales que rea
   
 - Liberar todos los objetos abiertos, incluidos los subobjetos y los objetos de estado.
     
-- Llamar al método [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) del objeto de soporte técnico para disminuir el recuento de referencias. 
+- Llamar al método [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) del objeto de soporte técnico para disminuir su recuento de referencias. 
     
 - Quitar todas las estructuras [MAPIUID](mapiuid.md) registradas del proveedor. 
     
 - Quitar la fila del proveedor en la tabla de estado.
     
-- Realizar las tareas relacionadas con la limpieza de recursos, como las siguientes:
+- Realizar cualquier tarea relacionada con la limpieza de recursos, como las siguientes:
     
   - Terminación de una conexión con un servidor remoto.
     
-  - Disminuir el recuento de referencias en el objeto de inicio de sesión.
+  - Disminuir el número de referencias en el objeto de inicio de sesión.
     
   - Quitar el objeto de inicio de sesión de la lista de objetos de inicio de sesión que almacena el proveedor.
     
-  - En el modo de depuración, la emisión de seguimientos para localizar objetos que tienen pérdidas de memoria.
+  - En modo de depuración, emitiendo seguimientos para localizar objetos que tienen pérdida de memoria.
     
-Cuando se devuelve el método de cierre de sesión, MAPI llama a lo siguiente:
+Cuando el método de cierre de sesión devuelve, MAPI llama a lo siguiente:
   
 - El método **IUnknown::Release** del objeto de inicio de sesión. 
     
-- El método Shutdown del **objeto** de proveedor para realizar las tareas de limpieza finales. Según el tipo de proveedor, se llama a uno de los métodos siguientes: 
+- Método Shutdown del objeto **de** proveedor para realizar las tareas de limpieza finales. Según el tipo de proveedor, se llama a uno de los siguientes métodos: 
     
-  - [IABProvider::Shutdown](iabprovider-shutdown.md) para proveedores de libretas de direcciones 
+  - [IABProvider::Shutdown](iabprovider-shutdown.md) para proveedores de libreta de direcciones 
     
-  - [IMSProvider::Shutdown](imsprovider-shutdown.md) for message store providers 
+  - [IMSProvider::Shutdown](imsprovider-shutdown.md) para proveedores de almacén de mensajes 
     
   - [IXPProvider::Shutdown](ixpprovider-shutdown.md) para proveedores de transporte 
     
-- El método **IUnknown::Release** del objeto proveedor. 
+- Método **IUnknown::Release** del objeto de proveedor. 
     
-Si el proveedor es un almacén de mensajes, una llamada de cliente a [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) también iniciará el proceso de apagado. **StoreLogoff cierra** un proveedor de almacenamiento de mensajes en particular y no tiene ningún efecto en la sesión. Solo se puede apagar un proveedor de al almacenamiento de mensajes con este método; no hay ninguna manera explícita de apagar una libreta de direcciones o un proveedor de transporte en particular. Para obtener información acerca de cómo responder a una llamada **a StoreLogoff,** vea Apagar un proveedor de [almacén de mensajes.](shutting-down-a-message-store-provider.md)
+Si el proveedor es un almacén de mensajes, una llamada de cliente a [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) también iniciará el proceso de apagado. **StoreLogoff** cierra un proveedor de almacén de mensajes en particular y no tiene ningún efecto en la sesión. Solo se puede cerrar un proveedor de almacén de mensajes con este método; no hay ninguna forma explícita de cerrar una libreta de direcciones o un proveedor de transporte en particular. Para obtener información sobre cómo responder a una llamada **a StoreLogoff,** vea [Apagar un proveedor de almacén de mensajes](shutting-down-a-message-store-provider.md).
   
-La DLL del proveedor se descargará cuando MAPI llame a la función de API de Win32 **FreeLibrary**, una llamada que se realiza después de que el último cliente activo haya llamado [MAPIUninitialize](mapiuninitialize.md). En este momento, el proveedor de servicios habrá terminado de apagarse. 
+La DLL del proveedor se descargará cuando MAPI llame a la función de API de Win32 **FreeLibrary**, una llamada que se realiza después de que el último cliente activo haya llamado [MAPIUninitialize](mapiuninitialize.md). Para este momento, el proveedor de servicios habrá terminado de cerrarse. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

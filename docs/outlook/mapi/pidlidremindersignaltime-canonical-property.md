@@ -31,13 +31,13 @@ Especifica el momento en que un aviso pasa de pendiente a vencido.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidReminderNextTime  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008560  <br/> |
+|Id. largo (LID):  <br/> |0x00008560  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad debe establecerse si la propiedad **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) es TRUE. Los clientes deben establecer el valor en hora universal coordinada (UTC).
+Esta propiedad debe establecerse si la **propiedad dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) es TRUE. Los clientes deben establecer el valor en Hora universal coordinada (UTC).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

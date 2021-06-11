@@ -31,13 +31,13 @@ Especifica si el evento es todo el día.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidApptSubType  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008215  <br/> |
+|Id. largo (LID):  <br/> |0x00008215  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Calendar  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad especifica si el evento es o no un evento de día completo, según lo especificado por el usuario. Un valor TRUE indica que el evento es un evento de todo el día, en cuyo caso la hora de inicio y la hora de finalización deben ser medianoche para que la duración sea múltiplo de 24 horas y sea de al menos 24 horas. Un valor FALSE o la ausencia de esta propiedad indica que el evento no es un evento de todo el día. El cliente o servidor no debe inferir el valor como TRUE cuando un usuario crea un evento de 24 horas, incluso si el evento se inicia y finaliza a medianoche.
+Esta propiedad especifica si el evento es un evento de todo el día, según lo especificado por el usuario. Un valor de TRUE indica que el evento es un evento de todo el día, en cuyo caso la hora de inicio y la hora de finalización deben ser medianoche, de modo que la duración sea de un múltiplo de 24 horas y de al menos 24 horas. Un valor de FALSE o la ausencia de esta propiedad indica que el evento no es un evento de todo el día. El cliente o el servidor no deben inferir el valor como TRUE cuando un usuario crea un evento de 24 horas, incluso si el evento se inicia y finaliza a medianoche.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Esta propiedad especifica si el evento es o no un evento de día completo, segú
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

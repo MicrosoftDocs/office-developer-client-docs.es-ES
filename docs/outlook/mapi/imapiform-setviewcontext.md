@@ -33,11 +33,11 @@ HRESULT SetViewContext(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pViewContext_
   
-> [entrada] Puntero al nuevo contexto de vista del formulario.
+> [in] Puntero al nuevo contexto de vista del formulario.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,23 +47,23 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al **método IMAPIForm::SetViewContext** para establecer un contexto de vista de formulario determinado como actual. Un formulario solo puede tener un contexto de vista a la vez. 
+Los visores de formularios llaman **al método IMAPIForm::SetViewContext** para establecer un contexto de vista de formulario determinado como actual. Un formulario solo puede tener un contexto de vista a la vez. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La mayoría de los servidores de **formulario implementan SetViewContext** mediante el siguiente algoritmo: 
+La mayoría de los servidores **de formulario implementan SetViewContext** mediante el siguiente algoritmo: 
   
-- Si ya existe un contexto de vista para el formulario, cancele el registro del formulario llamando al método [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) con **null** en el parámetro  _pmnvs_ y, a continuación, llame al método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del contexto de vista para disminuir su recuento de referencias. 
+- Si ya existe un contexto de vista para el formulario, cancele el registro del formulario llamando al método [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) con **null** en el  _parámetro pmnvs_ y, a continuación, llame al método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del contexto de vista para disminuir su recuento de referencias. 
     
-- Si el nuevo contexto de vista no es **nulo,** llame a **IMAPIViewContext::SetAdviseSink** mediante el parámetro  _pViewContext_ para configurar un nuevo receptor de avisos de vista. 
+- Si el nuevo contexto de vista no es **nulo,** llama a **IMAPIViewContext::SetAdviseSink** mediante el parámetro  _pViewContext_ para configurar un receptor de aviso de vista nuevo. 
     
-- Si el nuevo contexto de vista no es **nulo,** llame al método [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) para determinar qué marcas de estado se han establecido. 
+- Si el nuevo contexto de vista no es **nulo,** llama al método [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) para determinar qué marcas de estado se han establecido. 
     
-- Si el nuevo contexto de vista no es **nulo,** guárdalo y llame a su método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para incrementar su recuento de referencias. 
+- Si el nuevo contexto de vista no es **nulo,** guárdalo y llame a su [método IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) para incrementar su recuento de referencias. 
     
-- Actualiza los elementos de la interfaz de usuario que dependen del contexto de vista. 
+- Actualice los elementos de la interfaz de usuario que dependan del contexto de vista. 
     
-Según las marcas de estado devueltas desde **IMAPIViewContext::GetViewStatus,** **SetViewContext** también puede realizar otras acciones. Por ejemplo, si se VCSTATUS_NEXT y VCSTATUS_PREV, **SetViewContext** puede habilitar los  botones Siguiente y Anterior para el nuevo contexto de vista.  
+Según las marcas de estado devueltas de **IMAPIViewContext::GetViewStatus,** **SetViewContext** también puede realizar otras acciones. Por ejemplo, si se devuelven VCSTATUS_NEXT y VCSTATUS_PREV, **SetViewContext** puede habilitar  los botones **Siguiente** y Anterior para el nuevo contexto de vista. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -71,9 +71,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa el método **IMAPIForm::SetViewContext** para establecer el contexto de vista de MFCMAPI en el formulario antes de que se muestre el formulario.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI usa el **método IMAPIForm::SetViewContext** para establecer el contexto de vista de MFCMAPI en el formulario antes de que se muestre el formulario.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -31,13 +31,13 @@ Especifica el estado de las direcciones electrónicas del contacto y representa 
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidABPArrayType  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x00008029  <br/> |
+|Id. largo (LID):  <br/> |0x00008029  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de la **propiedad dispidABPArrayType** debe ser una combinación de marcas que especifiquen el estado del objeto de contacto. En la tabla siguiente se especifican marcas individuales. Si se establece esta propiedad, también se debe establecer la propiedad **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)). Estas dos propiedades deben mantenerse sincronizadas entre sí. Por ejemplo, si **dispidABPArrayType** tiene el bit "0x00000001 set", uno de los valores de **dispidABPEmailList** debe ser "0x00000000". 
+El valor de la **propiedad dispidABPArrayType** debe ser una combinación de marcas que especifiquen el estado del objeto de contacto. Las marcas individuales se especifican en la tabla siguiente. Si se establece esta propiedad, también se debe establecer la propiedad **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)). Estas dos propiedades deben mantenerse sincronizadas entre sí. Por ejemplo, si **dispidABPArrayType** tiene el bit "0x00000001 set", uno de los valores de **dispidABPEmailList** debe ser "0x00000000". 
   
 |**Bit**|**Descripción**|
 |:-----|:-----|
@@ -58,7 +58,7 @@ El valor de la **propiedad dispidABPArrayType** debe ser una combinación de mar
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

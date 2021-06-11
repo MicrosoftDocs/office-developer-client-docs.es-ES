@@ -34,15 +34,15 @@ Especifica la versión completa y la información de compilación sobre la Micro
    
 ## <a name="remarks"></a>Comentarios
 
-Un perfil puede especificar una o más cuentas que se conectan a un Exchange Server, pero deben estar conectadas a la misma Exchange Server.
+Un perfil puede especificar una o varias cuentas que se conectan a un Exchange Server, pero deben estar conectadas al mismo Exchange Server.
   
-Las versiones de Outlook anteriores a Microsoft Office Outlook 2007 no admiten esta propiedad. Para esas versiones de Outlook, compruebe la existencia de PR_PROFILE_SERVER_VERSION **[en](pidtagprofileserverversion-canonical-property.md)** el perfil. 
+Las versiones Outlook anteriores a Microsoft Office Outlook 2007 no admiten esta propiedad. Para esas versiones de Outlook, compruebe la existencia de PR_PROFILE_SERVER_VERSION **[en](pidtagprofileserverversion-canonical-property.md)** el perfil. 
   
-Por lo general, si el buzón activo está conectado Exchange Server una Exchange Server, Outlook 2007 almacena la información completa de la versión Exchange Server en la propiedad **PR_PROFILE_SERVER_FULL_VERSION** del perfil activo. Outlook almacena la información en una **estructura EXCHANGE_STORE_VERSION_NUM** que contiene los números de versión principal y secundaria y los números de compilación principales y secundarias. Por ejemplo, para almacenar el identificador de versión Exchange Server de **8.0.685.24**, el número de versión principal es 8 y el número de versión secundaria es 0, y el número de compilación principal es 685 y el número de compilación secundaria es 24.
+Por lo general, si el buzón activo está conectado Exchange Server un Exchange Server, Outlook 2007 almacena la información completa de Exchange Server versión en la propiedad **PR_PROFILE_SERVER_FULL_VERSION** en el perfil activo. Outlook almacena la información en una **estructura** EXCHANGE_STORE_VERSION_NUM que contiene los números de versión principal y secundaria y los números de compilación principales y secundarias. Por ejemplo, para almacenar el identificador de versión Exchange Server de **8.0.685.24**, el número de versión principal es 8 y el número de versión secundaria es 0, y el número de compilación principal es 685 y el número de compilación secundaria es 24.
   
-Solo uno de **PR_PROFILE_SERVER_VERSION** o **PR_PROFILE_SERVER_FULL_VERSION** probablemente exista en un perfil, pero no hay ninguna garantía de que siempre exista en un perfil. Outlook no escribe en ninguna de las propiedades hasta que se haya conectado correctamente al Exchange Server. 
+Es probable **que PR_PROFILE_SERVER_VERSION** o **PR_PROFILE_SERVER_FULL_VERSION** un perfil, pero no existe ninguna garantía de que exista siempre en un perfil. Outlook no escribe en ninguna de las propiedades hasta que se haya conectado correctamente al Exchange Server. 
   
-En el modelo de objetos de Outlook, puede usar la propiedad **ExchangeMailboxServerVersion** del objeto **NameSpace** para buscar la versión de Exchange Server en la que se hospeda el buzón activo. 
+En el Outlook de objetos, puede usar la propiedad **ExchangeMailboxServerVersion** del objeto **NameSpace** para buscar la versión de Exchange Server en la que se hospeda el buzón activo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -32,39 +32,39 @@ Contiene un identificador binario comparable único para un objeto específico.
 |Propiedades asociadas:  <br/> |PR_RECORD_KEY  <br/> |
 |Identificador:  <br/> |0x0FF9  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propiedades de identificador  <br/> |
+|Área:  <br/> |Propiedades de id.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad facilita la búsqueda de referencias a un objeto, como la búsqueda de su fila en una tabla de contenido. Esta propiedad no se puede usar para abrir un objeto; use el identificador de entrada para ese propósito.
+Esta propiedad facilita la localización de referencias a un objeto, como buscar su fila en una tabla de contenido. Esta propiedad no se puede usar para abrir un objeto; usar el identificador de entrada para ese propósito.
   
-Esta propiedad debe identificar de forma única un subobjeto de datos adjuntos dentro de un mensaje. Este identificador es la única característica de datos adjuntos que se garantiza que se mantenga igual después de cerrar y volver a abrir el mensaje. El proveedor de almacén debe conservar esta propiedad entre sesiones para garantizar esta garantía.
+Esta propiedad debe identificar de forma única un subobjeto de datos adjuntos dentro de un mensaje. Este identificador es la única característica de datos adjuntos que se garantiza que permanecerá igual después de cerrar y volver a abrir el mensaje. El proveedor de la tienda debe conservar esta propiedad en todas las sesiones para garantizar esta garantía.
   
-Para las carpetas, esta propiedad contiene una clave usada en la tabla de jerarquía de carpetas. Normalmente es el mismo valor que proporciona la **propiedad PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Para las carpetas, esta propiedad contiene una clave usada en la tabla de jerarquía de carpetas. Normalmente es el mismo valor que el proporcionado por **la propiedad PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
-Para los almacenes de mensajes, esta propiedad es idéntica a **PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md)).
+Para los almacenes de mensajes, esta propiedad es idéntica a **la propiedad PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md)).
   
-En un objeto de almacén de mensajes, esta propiedad debe ser única en todos los proveedores de almacén. Una forma de hacerlo es combinar el valor de la propiedad **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) para el almacén (único para ese tipo de proveedor) con una estructura [GUID](guid.md) u otro valor único para el almacén de mensajes específico. 
+En un objeto de almacén de mensajes, esta propiedad debe ser única en todos los proveedores de almacén. Una forma de hacerlo es combinar el valor de la propiedad **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) del almacén (único para ese tipo de proveedor) con una estructura [GUID](guid.md) u otro valor único para el almacén de mensajes específico. 
   
 Esta propiedad siempre está disponible a través del método [IMAPIProp::GetProps](imapiprop-getprops.md) después de la primera llamada al método [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Algunos proveedores pueden hacer que esté disponible inmediatamente después de la creación de instancias. 
   
-Un cliente o proveedor de servicios puede comparar valores de esta propiedad mediante memcmp. Esto no es posible para los valores de identificador de entrada. Sin embargo, se garantiza que esta propiedad sea única dentro del mismo almacén de mensajes o contenedor de libreta de direcciones; dos objetos de contenedores diferentes pueden tener el mismo valor de esta propiedad.
+Un cliente o proveedor de servicios puede comparar valores de esta propiedad mediante memcmp. Esto no es posible para los valores de identificador de entrada. Sin embargo, se garantiza que esta propiedad es única dentro del mismo contenedor de libreta de direcciones o almacén de mensajes; dos objetos de contenedores diferentes pueden tener el mismo valor de esta propiedad.
   
-Una distinción entre el registro y las claves de búsqueda es que la clave de registro es específica del objeto, mientras que la clave de búsqueda se puede copiar a otros objetos. Por ejemplo, dos copias del objeto pueden tener el mismo valor **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)), pero deben tener valores diferentes para esta propiedad.
+Una distinción entre las claves de registro y de búsqueda es que la clave de registro es específica del objeto, mientras que la clave de búsqueda se puede copiar en otros objetos. Por ejemplo, dos copias del objeto pueden tener el mismo valor **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) pero deben tener valores diferentes para esta propiedad.
   
-En la tabla siguiente se resumen las diferencias **importantes entre PR_ENTRYID**, **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) y esta propiedad. 
+En la tabla siguiente se resumen las diferencias importantes **entre PR_ENTRYID**, **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) y esta propiedad. 
   
 |**Característica**|**PR_ENTRYID**|**PR_RECORD_KEY**|**PR_SEARCH_KEY**|
 |:-----|:-----|:-----|:-----|
 |Obligatorio en objetos de datos adjuntos  <br/> |No  <br/> |Sí  <br/> |No  <br/> |
 |Obligatorio en objetos de carpeta  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |Obligatorio en objetos de almacén de mensajes  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|Requerido en objetos de estado  <br/> |Sí  <br/> |No  <br/> |No  <br/> |
-|Creable por cliente  <br/> |No  <br/> |No  <br/> |Sí  <br/> |
-|Disponible antes de llamar a **SaveChanges** <br/> |Tal vez  <br/> |Tal vez  <br/> |Mensajes Sí a otros, tal vez  <br/> |
-|Se cambió en una operación de copia  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Obligatorio en objetos de estado  <br/> |Sí  <br/> |No  <br/> |No  <br/> |
+|Creatable por cliente  <br/> |No  <br/> |No  <br/> |Sí  <br/> |
+|Disponible antes de una llamada a **SaveChanges** <br/> |Tal vez  <br/> |Tal vez  <br/> |Mensajes Sí otros tal vez  <br/> |
+|Cambiado en una operación de copia  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |Modificable por un cliente después de una copia  <br/> |No  <br/> |No  <br/> |Sí  <br/> |
-|Único dentro de ...  <br/> |Todo el mundo  <br/> |Instancia del proveedor  <br/> |Todo el mundo  <br/> |
+|Único dentro de ...  <br/> |Mundo entero  <br/> |Instancia de proveedor  <br/> |Mundo entero  <br/> |
 |Binario comparable (como con memcmp)  <br/> |No: use **IMAPISupport:: CompareEntryIDs** <br/> |Sí  <br/> |Sí  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -77,11 +77,11 @@ En la tabla siguiente se resumen las diferencias **importantes entre PR_ENTRYID*
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -93,13 +93,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

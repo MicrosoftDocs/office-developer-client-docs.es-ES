@@ -21,12 +21,12 @@ ms.locfileid: "32346315"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Valor largo que indica el nivel de filtrado de correo no deseado.
+Un valor largo que indica el nivel de filtrado de correo no deseado.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_SPAM_THRESHOLD  <br/> |
-|Long ID (LID):  <br/> | 0x041B  <br/> |
+|Id. largo (LID):  <br/> | 0x041B  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Correo no deseado  <br/> |
    
@@ -38,7 +38,7 @@ Los valores para el filtrado de correo no deseado son los siguientes:
 |:-----|:-----|
 |Ninguno  <br/> |0xFFFFFFFF  <br/> |
 |Bajo  <br/> |0x00000006  <br/> |
-|Mediano  <br/> |0x00000005  <br/> |
+|Medio  <br/> |0x00000005  <br/> |
 |Alto  <br/> |0x00000003  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -63,13 +63,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

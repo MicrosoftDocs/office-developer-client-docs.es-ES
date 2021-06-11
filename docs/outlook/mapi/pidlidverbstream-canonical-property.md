@@ -25,13 +25,13 @@ ms.locfileid: "32341254"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica las respuestas de voto que el usuario puede realizar en respuesta al mensaje.
+Especifica qué respuestas de voto puede realizar el usuario en respuesta al mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidVerbStream  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008520  <br/> |
+|Id. largo (LID):  <br/> |0x00008520  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
@@ -45,7 +45,7 @@ Especifica las respuestas de voto que el usuario puede realizar en respuesta al 
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

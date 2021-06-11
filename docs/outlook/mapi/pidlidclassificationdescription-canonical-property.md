@@ -31,13 +31,13 @@ Describe lo que la clasificación de mensajes pretende lograr.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidClassDesc  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x000085B7  <br/> |
+|Id. largo (LID):  <br/> |0x000085B7  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información, [vea Cómo implementar la clasificación de mensajes para Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
+Para obtener información adicional, [vea How to Deploy Message Classification for Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Para obtener más información, [vea Cómo implementar la clasificación de mens
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

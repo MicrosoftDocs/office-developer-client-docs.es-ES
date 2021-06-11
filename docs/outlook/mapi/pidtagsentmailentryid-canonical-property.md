@@ -25,7 +25,7 @@ ms.locfileid: "32342514"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de la carpeta a la que se debe mover el mensaje después del envío.
+Contiene el identificador de entrada de la carpeta donde se debe mover el mensaje después del envío.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contiene el identificador de entrada de la carpeta a la que se debe mover el men
    
 ## <a name="remarks"></a>Comentarios
 
-A menudo, esta propiedad se copia de **la** PR_IPM_SENTMAIL_ENTRYID ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), la carpeta elementos enviados estándar de la aplicación cliente.
+Esta propiedad a menudo se copia de la **propiedad PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), la carpeta de elementos enviados estándar de la aplicación cliente.
   
-La aplicación cliente usa esta propiedad con la propiedad **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) para controlar lo que sucede con un mensaje después de enviarlo. Uno u otro deben establecerse, pero no ambos.
+La aplicación cliente usa esta propiedad con la propiedad **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) para controlar lo que sucede con un mensaje después de enviarlo. Uno o el otro deben establecerse, pero no ambos.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ La aplicación cliente usa esta propiedad con la propiedad **PR_DELETE_AFTER_SUB
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

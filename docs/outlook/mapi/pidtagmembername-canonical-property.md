@@ -36,7 +36,7 @@ Contiene el nombre para mostrar de un miembro de la tabla de lista de control de
    
 ## <a name="remarks"></a>Comentarios
 
-La interfaz [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) usa estas propiedades para mostrar el nombre de un miembro de una tabla ACL, que es una persona o un rol con derechos explícitos en una carpeta o buzón. 
+La interfaz [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) usa estas propiedades para mostrar el nombre de un miembro de una tabla acl, que es una persona o un rol con derechos explícitos en una carpeta o buzón. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ La interfaz [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) u
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Controla la recuperación de listas de permisos de carpeta almacenadas en el servidor.
+> Controla la recuperación de listas de permisos de carpetas almacenadas en el servidor.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,7 +60,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -69,7 +69,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

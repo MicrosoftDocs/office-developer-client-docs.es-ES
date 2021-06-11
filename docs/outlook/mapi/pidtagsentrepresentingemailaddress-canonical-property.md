@@ -32,13 +32,13 @@ Contiene la dirección de correo electrónico del usuario de mensajería represe
 |Propiedades asociadas:  <br/> |PR_SENT_REPRESENTING_EMAIL_ADDRESS, PR_SENT_REPRESENTING_EMAIL_ADDRESS_A, PR_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
 |Identificador:  <br/> |0x0065  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Área:  <br/> |Address  <br/> |
+|Área:  <br/> |Dirección  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección del usuario de mensajería que representa el remitente. Cuando una aplicación cliente envía un mensaje en nombre de otro cliente, debe establecer todas las propiedades de remitente representadas en los valores de ese cliente. Normalmente, un usuario de mensajería que envía en su propio nombre deja sin conjunto las propiedades del remitente representado.
+Estas propiedades son ejemplos de las propiedades de dirección del usuario de mensajería que representa el remitente. Cuando una aplicación cliente envía un mensaje en nombre de otro cliente, debe establecer todas las propiedades de remitente representadas en los valores de ese cliente. Por lo general, un usuario de mensajería que envía en su propio nombre deja sin conjunto las propiedades del remitente representado.
   
-El proveedor de transporte saliente siempre debe dejar estas propiedades sin cambios si el cliente de envío lo ha establecido. Si no se establece, el proveedor de transporte debe establecerla en la propiedad **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)) en la copia saliente del mensaje y dejarla sin establecer en la copia local.
+El proveedor de transporte saliente siempre debe dejar estas propiedades sin cambios si el cliente de envío lo ha establecido. Si no se establece, el proveedor de transporte debe establecerlo en la propiedad **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)) en la copia saliente del mensaje y dejarla sin establecer en la copia local.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,11 +50,11 @@ El proveedor de transporte saliente siempre debe dejar estas propiedades sin cam
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que representan elementos RSS.
+> Especifica las propiedades y las operaciones que representan elementos RSS.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -66,15 +66,15 @@ El proveedor de transporte saliente siempre debe dejar estas propiedades sin cam
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -86,13 +86,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

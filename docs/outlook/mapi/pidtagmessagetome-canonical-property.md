@@ -38,11 +38,11 @@ Contiene TRUE si este usuario de mensajería se denomina específicamente como d
 
 Esta propiedad proporciona una forma cómoda de determinar si el nombre de usuario aparece explícitamente en la lista de destinatarios principal, sin examinar todas las entradas de la lista. 
   
-Esta propiedad también ayuda a controlar de forma automatizada los mensajes recibidos en el momento de la recepción. En la opción del proveedor de transporte, esta propiedad contiene FALSE o no se incluye si el usuario de mensajería no aparece directamente en la tabla de destinatarios. 
+Esta propiedad también ayuda al tratamiento automatizado de los mensajes recibidos en el momento de la recepción. En la opción del proveedor de transporte, esta propiedad contiene FALSE o no se incluye si el usuario de mensajería no aparece directamente en la tabla de destinatarios. 
   
-La entrega de mensajes resultante de la expansión de la lista de distribución o una designación de copia carbón no hace que se establezca esta propiedad. El destinatario debe tener un nombre explícito. 
+La entrega de mensajes resultante de la expansión de la lista de distribución o una designación de copia a ciegas no hace que se establezca esta propiedad. El destinatario debe tener un nombre explícito. 
   
-Por lo general, los mensajes no enviados no establecen el PR_MESSAGE_CC_ME **(** [PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)), **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) o esta propiedad. Si están presentes en mensajes a los que el usuario puede acceder en almacenes de mensajes públicos, en almacenes privados de otros usuarios, en archivos en disco o incrustados dentro de otros mensajes recibidos, generalmente contienen los valores a los que se estableció la última vez que un proveedor de transporte entregó el mensaje. 
+Por lo general, los mensajes no enviados no establecen el PR_MESSAGE_CC_ME **(** [PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)), **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) o esta propiedad. Si están presentes en mensajes a los que el usuario puede acceder en almacenes de mensajes públicos, en almacenes privados de otros usuarios, en archivos en disco o incrustados dentro de otros mensajes recibidos, generalmente contienen los valores a los que se les estableció la última vez que un proveedor de transporte entregó el mensaje. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,7 +54,7 @@ Por lo general, los mensajes no enviados no establecen el PR_MESSAGE_CC_ME **(**
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

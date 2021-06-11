@@ -36,9 +36,9 @@ Contiene la prioridad relativa de un mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad y la **PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md)) no deben confundirse. La importancia indica un valor para los usuarios, mientras que la prioridad indica el orden o la velocidad a la que el software del sistema de mensajería debe enviar el mensaje. La prioridad más alta suele indicar un costo más alto. La interfaz de usuario suele asociar una mayor importancia a una pantalla diferente.
+Esta propiedad y la **PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md)) no deben confundirse. Importance indica un valor para los usuarios, mientras que priority indica el orden o la velocidad a la que el software del sistema de mensajería debe enviar el mensaje. La prioridad más alta suele indicar un costo más alto. La interfaz de usuario suele asociar una mayor importancia a una pantalla diferente.
   
-La prioridad de un mensaje de informe debe ser la misma que la prioridad del mensaje original que se está notificando.
+La prioridad de un mensaje de informe debe ser la misma que la prioridad del mensaje original que se va a notificar.
   
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
@@ -64,7 +64,7 @@ PRIO_URGENT
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -76,13 +76,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

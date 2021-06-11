@@ -19,7 +19,7 @@ ms.locfileid: "32339189"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para cargar elementos que se han movido. Esta información se usa durante el estado [de eliminación de carga](upload-delete-status-state.md) y el estado de la tabla de [carga.](upload-table-state.md)
+Información para cargar elementos que se han movido. Esta información se usa durante el estado [de eliminación de carga y](upload-delete-status-state.md) el estado de la tabla de [carga.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -43,19 +43,19 @@ struct UPMOV
 
 _ulFlags_
   
-> [entrada] Marcas para determinar el comportamiento adecuado durante la carga.
+> [in] Marcas para determinar el comportamiento adecuado durante la carga.
     
   - UPV_ERROR
     
-    - [entrada] Problema al abrir la carpeta del servidor.
+    - [in] Problema al abrir la carpeta del servidor.
     
   - UPV_DIRTY
     
-    - [entrada] El estado de carga ha cambiado. El cliente lo usa para realizar un seguimiento del cambio de estado del almacén local.
+    - [in] El estado de carga ha cambiado. El cliente lo usa para realizar un seguimiento del cambio de estado del almacén local.
     
   - UPV_COMMIT
     
-    - [entrada] Confirmar el estado de carga.
+    - [in] Confirmar el estado de carga.
     
 _pReserved_
   
@@ -74,29 +74,29 @@ _pszName_
   
 _feid_
   
->  [salida] Identificador de entrada de la carpeta de destino. 
+>  [salida] Id. de entrada de la carpeta de destino. 
     
 _pfld_
   
->  [entrada] Puntero a la carpeta del servidor. 
+>  [in] Puntero a la carpeta del servidor. 
     
 _pxicc_
   
->  [entrada] Puntero a la **interfaz de contenido IExchangeImportContentsChanges** que admite la carga de cambios de contenido al usar la sincronización de cambios incrementales (ICS). Para obtener más información **sobre IExchangeImportContentsChanges** e ICS, consulte [Criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [in] Puntero a la **interfaz de contenido IExchangeImportContentsChanges** que admite la carga de cambios de contenido al usar la sincronización incremental de cambios (ICS). Para obtener más información **sobre IExchangeImportContentsChanges** e ICS, vea [Criterios de evaluación de ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _dwReserved_
   
 >  [salida] Este miembro está reservado para uso interno de Outlook y no es compatible. 
     
-_movNext_
+_pupmovNext_
   
 >  [salida] Siguiente contexto de movimiento. 
     
 _cEntMov_
   
->  [entrada] Número de elementos movidos aquí. 
+>  [in] Número de elementos movidos aquí. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

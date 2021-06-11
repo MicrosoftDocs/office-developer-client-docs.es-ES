@@ -31,7 +31,7 @@ Especifica un campo de bits que describe el estado auxiliar del objeto.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidApptAuxFlags  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008207  <br/> |
+|Id. largo (LID):  <br/> |0x00008207  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
@@ -41,7 +41,7 @@ Esta propiedad no es necesaria. A continuación se muestran las marcas individua
   
 C (auxApptFlagCopied, 0x00000001)
   
-> Esta marca indica que el objeto de calendario se copió de otra carpeta de calendario.
+> Esta marca indica que el objeto calendar se copió de otra carpeta de calendario.
     
 R (auxApptFlagForceMtgResponse, 0x00000002)
   
@@ -49,7 +49,7 @@ R (auxApptFlagForceMtgResponse, 0x00000002)
     
 F (auxApptFlagForwarded, 0x00000004)
   
-> Esta marca en una convocatoria de reunión indica que se reenvía (incluido que el organizador la reenvía), en lugar de ser una invitación del organizador.
+> Esta marca en una solicitud de reunión indica que se reenvía (incluida la reenviada por el organizador), en lugar de ser una invitación del organizador.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -61,7 +61,7 @@ F (auxApptFlagForwarded, 0x00000004)
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -69,13 +69,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

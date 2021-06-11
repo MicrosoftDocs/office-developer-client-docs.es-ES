@@ -21,65 +21,65 @@ ms.locfileid: "32345552"
   
 Para instalar la aplicación MFCMAPI y el proyecto CreateOutlookItemsAddin para ver y ejecutar el código de ejemplo al que hacen referencia los temas de la sección Crear elementos de Outlook mediante [MAPI,](creating-outlook-items-by-using-mapi.md) siga estos pasos. 
 
-Para descargar e instalar los ejemplos usados en la sección "Usar MAPI para crear elementos de Outlook", siga estos pasos.
+Para descargar e instalar los ejemplos usados en la sección "Uso de MAPI para crear Outlook elementos", siga estos pasos.
 
 ### <a name="to-download-and-install-the-mfcmapi-application-and-open-createoutlookitemsaddin-project"></a>Para descargar e instalar la aplicación MFCMAPI y abrir el proyecto CreateOutlookItemsAddin
 
-1. Descargue la versión actual del [archivo ejecutable MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) en una carpeta del sistema. 
+1. Descargue la versión actual del [ejecutable MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) en una carpeta del sistema. 
     
-2. Extraiga el MFCMapi.exe archivo en MFCMapi.exe. _version_.zip en una carpeta vacía de la unidad de disco duro.
+2. Extraiga el MFCMapi.exe archivo de MFCMapi.exe. _versión_.zip a una carpeta vacía en la unidad de disco duro.
     
 3. Descargue la versión actual del [proyecto CreateOutlookItemsAddin.](https://go.microsoft.com/fwlink/?LinkID=127828) 
     
-4. Extraiga todos los archivos del archivo CreateOutlookItemsAddin.zip en la carpeta donde extrajo el MFCMapi.exe en el paso 2.
+4. Extraiga todos los archivos del archivo CreateOutlookItemsAddin.zip a la carpeta donde extrajo el archivo MFCMapi.exe en el paso 2.
     
 5. Copie MFCMapi.exe de la carpeta usada en el paso 2 al directorio de compilación del proyecto CreateOutlookItemsAddin (\CreateOutlookItemsAddin\Debug).
     
-6. Abra el proyecto CreateOutlookItemsAddin (\CreateOutlookItemsAddin\CreateOutlookItemsAddin.vcproj) en Visual Studio para examinar el código fuente. Consulte los temas de la sección Crear elementos [de Outlook](creating-outlook-items-by-using-mapi.md) mediante MAPI para determinar qué archivos de origen se abrirán. 
+6. Abra el proyecto CreateOutlookItemsAddin (\CreateOutlookItemsAddin\CreateOutlookItemsAddin.vcproj) en Visual Studio examinar el código fuente. Consulte los temas de la sección [Creating Outlook Items by Using MAPI](creating-outlook-items-by-using-mapi.md) para determinar qué archivos de origen se abrirán. 
     
 ## <a name="run-mfcmapi-and-the-createoutlookitemsaddin-project"></a>Ejecutar MFCMAPI y el proyecto CreateOutlookItemsAddin
 
-En los pasos siguientes se supone que ha descargado e instalado la versión actual del archivo ejecutable MFCMAPI y del proyecto CreateOutlookItemsAddin, tal como se describe en el procedimiento anterior. Estos pasos le guiarán a los elementos de menú **Complementos** que le permiten crear elementos de Outlook mediante la aplicación MFCMAPI y el proyecto CreateOutlookItemsAddin. 
+En los pasos siguientes se supone que ha descargado e instalado la versión actual del archivo ejecutable MFCMAPI y el proyecto CreateOutlookItemsAddin, tal como se describe en el procedimiento anterior. Estos pasos le guiarán a los elementos de menú **Addins** que le permiten crear elementos Outlook mediante la aplicación MFCMAPI y el proyecto CreateOutlookItemsAddin. 
   
 > [!NOTE]
-> La carpeta que seleccione en el paso 8 y el comando que seleccione en el paso 9 dependen del tipo de elemento que se describe en uno de los temas de la sección Crear elementos de Outlook mediante [MAPI.](creating-outlook-items-by-using-mapi.md) 
+> La carpeta que seleccione en el paso 8 y el comando que seleccione en el paso 9, depende del tipo de elemento que se describe en uno de los temas de la sección Crear elementos Outlook mediante [MAPI.](creating-outlook-items-by-using-mapi.md) 
 
-### <a name="to-run-the-mfcmapi-application-and-addins-menu-commands"></a>Para ejecutar la aplicación MFCMAPI y los comandos del menú Complementos
+### <a name="to-run-the-mfcmapi-application-and-addins-menu-commands"></a>Para ejecutar los comandos de menú Aplicación MFCMAPI y Addins
 
 1. Inicie Mfcmapi.exe en la carpeta CreateOutlookItemsAddin\Debug que se crea al seguir las instrucciones de instalación.
     
-2. Haga **clic en Aceptar** para cerrar la pantalla de presentación MFCMAPI. 
+2. Haga **clic en** Aceptar para descartar la pantalla de presentación de MFCMAPI. 
     
-3. En el menú **Sesión,** haga clic en **Inicio de sesión y mostrar tabla del almacén.**
+3. En el **menú Sesión,** haga clic **en Inicio de sesión y Mostrar tabla del almacén**.
     
-4. En el **cuadro de diálogo** Elegir perfil, seleccione el perfil correcto y, a continuación, haga clic en **Aceptar.** 
+4. En el cuadro de diálogo Elegir **perfil,** seleccione el perfil correcto y, a continuación, haga clic en **Aceptar**. 
     
-5. Haga doble clic **en Buzón de correo - _[Nombre de usuario]_** en la vista de lista de la tabla de almacenamiento. 
+5. Haga doble clic en **Buzón de correo : _[Nombre de usuario]_** en la vista de lista de la tabla de almacenamiento. 
     
-6. En la vista de árbol de carpetas, expanda el nodo raíz. El nombre que se muestra para el nodo raíz varía según el tipo de perfil seleccionado. Normalmente, este nodo se muestra como **raíz - buzón** de correo .
+6. En la vista de árbol de carpetas, expanda el nodo raíz. El nombre que se muestra para el nodo raíz varía según el tipo de perfil seleccionado. Normalmente, este nodo se muestra como **Root - Mailbox**.
     
-7. En la vista de árbol de carpetas, expanda el nodo que contiene el almacén de información. El nombre que se muestra para este nodo varía según el tipo de perfil seleccionado. Normalmente, este nodo se muestra **como IPM_SUBTREE** o En la parte superior del almacén **de información.**
+7. En la vista de árbol de carpetas, expanda el nodo que contiene el almacén de información. El nombre que se muestra para este nodo varía según el tipo de perfil seleccionado. Normalmente, este nodo se muestra **como IPM_SUBTREE** o superior del almacén **de información**.
     
-8. Haga doble clic en la carpeta para el tipo de elemento que se creará. Por ejemplo, para crear una cita, haga clic en la **carpeta Citas.** 
+8. Haga doble clic en la carpeta del tipo de elemento que se creará. Por ejemplo, para crear una cita, haga clic en la **carpeta Citas.** 
     
-9. En el **menú Complementos,** haga clic en el comando adecuado para el elemento que se va a crear. 
+9. En el **menú Addins,** haga clic en el comando correspondiente para el elemento que se va a crear. 
     
-## <a name="download-and-view-code-from-the-mfcmapi-application"></a>Descargar y ver código de la aplicación MFCMAPI
+## <a name="download-and-view-code-from-the-mfcmapi-application"></a>Descargar y ver código desde la aplicación MFCMAPI
 
-Algunos temas hacen referencia al código fuente de la propia aplicación MFCMAPI. Los siguientes pasos describen cómo descargar el código fuente MFCMAPI y verlo en Visual Studio. 
+Algunos temas hacen referencia al código fuente de la propia aplicación MFCMAPI. En los pasos siguientes se describe cómo descargar el código fuente MFCMAPI y verlo en Visual Studio. 
 
 ### <a name="to-download-and-view-the-mfcmapi-application-source-code"></a>Para descargar y ver el código fuente de la aplicación MFCMAPI
 
 1. Descargue el código fuente de la versión actual de la [aplicación MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) en una carpeta del sistema. 
     
-2. Extraiga los archivos de MFCMAPI- _changeset_.zip en una carpeta vacía de la unidad de disco duro.
+2. Extraiga los archivos de MFCMAPI- _changeset_.zip a una carpeta vacía de la unidad de disco duro.
     
 3. Abra el proyecto MFCMapi (\ _foldername_\ MFCMapi.vcproj) en Visual Studio para examinar el código fuente.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Crear un elemento de correo simple](how-to-create-a-simple-mail-item.md)
-- [Crear un elemento de tarea periódica simple](how-to-create-a-simple-recurrent-task-item.md)
+- [Crear un elemento de tarea recurrente simple](how-to-create-a-simple-recurrent-task-item.md)
 - [Crear un elemento de cita periódica compleja](how-to-create-a-complex-recurrent-appointment-item.md)
 - [Leer y analizar un patrón de periodicidad](how-to-read-and-parse-a-recurrence-pattern.md)
 

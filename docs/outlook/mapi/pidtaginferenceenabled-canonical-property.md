@@ -21,7 +21,7 @@ ms.locfileid: "32346595"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Almacenar el registro de propiedades de inferencia.
+Almacenar propiedad que controla el registro de inferencia.
   
 |||
 |:-----|:-----|
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0f92c2d-b5ba-4558-b8a2-484b2db32bec
-description: 'Última modificación: 18 de junio de 2012'
+description: 'Last modified: June 18, 2012'
 ms.openlocfilehash: 1a1cf0a607dd4b57353eda74f9b14965e110c071
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -32,27 +32,27 @@ LPWSTR MNLS_lstrcpyW(
 LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 lpString1
   
-> [salida] Un búfer para recibir el contenido de la cadena a la que apunta el parámetro lpString2.
+> [salida] Búfer para recibir el contenido de la cadena a la que apunta el parámetro lpString2.
     
 lpString2
   
-> [entrada] Cadena terminada en null que se va a copiar.
+> [in] La cadena terminada en null que se va a copiar.
     
 ## <a name="return-value"></a>Valor devuelto
 
 Si la función se realiza correctamente, el valor devuelto es un puntero al búfer.
   
-Si se produce un error en la función, es posible que el valor devuelto sea NULL y lpString1 no finalice en null.
+Si se produce un error en la función, el valor devuelto es NULL y lpString1 puede no finalizar en null.
   
 ## <a name="remarks"></a>Comentarios
 
 Esta función ajusta la **función lstrcpy.** Para obtener más información, [vea lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

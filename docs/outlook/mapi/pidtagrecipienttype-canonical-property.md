@@ -36,21 +36,21 @@ Contiene el tipo de destinatario de un destinatario de mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-El tipo de destinatario contenido en esta propiedad consta de un valor necesario y una marca opcional.
+El tipo de destinatario contenido en esta propiedad consta de un valor obligatorio y una marca opcional.
   
 Esta propiedad debe contener exactamente uno de los siguientes valores:
   
 MAPI_TO 
   
-> El destinatario es un destinatario principal (para). Los clientes deben controlar los destinatarios principales. Todos los dem�s tipos son opcionales.
+> El destinatario es un destinatario principal (Para). Los clientes son necesarios para controlar los destinatarios principales. Todos los dem�s tipos son opcionales.
     
 MAPI_CC 
   
-> El destinatario es un destinatario de copia (CC), un destinatario que recibe un mensaje además de los destinatarios principales.
+> El destinatario es un destinatario de copia de carbono (CC), un destinatario que recibe un mensaje además de los destinatarios principales.
     
 MAPI_BCC 
   
-> El destinatario es un destinatario de copia oculta (CCO). Los destinatarios principales y de copia carboníceos no son conscientes de la existencia de destinatarios CCO. 
+> El destinatario es un destinatario de copia de carbono ciego (CCO). Los destinatarios principales y de copia de carbono no son conscientes de la existencia de destinatarios CCO. 
     
 MAPI_P1 
   
@@ -62,19 +62,19 @@ MAPI_SUBMITTED
   
 > El destinatario ya ha recibido el mensaje y no necesita volver a recibirlo. Se trata de un nuevo envío de una transmisión anterior. Esta marca se establece junto con los **MAPI_TO**, **MAPI_CC** y **MAPI_BCC** valores. 
     
-El MAPI_P1 y la marca **MAPI_SUBMITTED** se usan cuando un mensaje se retransmite debido a que no se entrega a uno o varios de los destinatarios previstos. Para esta retransmisión, el  cliente establece MAPI_SUBMITTED en todos los destinatarios que no necesitan el mensaje de nuevo, pero que deben mostrarse en la lista de destinatarios. Por cada destinatario que no recibió el mensaje anteriormente, el cliente conserva el destinatario original con su valor **PR_RECIPIENT_TYPE** sin cambios, pero además envía una copia del destinatario con MAPI_P1 en lugar del valor original. Esta copia, que se descarta antes de la entrega real, obliga al destinatario al sobre P1 y garantiza la retransmisión física a dicho destinatario. La **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) está establecida en FALSE para MAPI_P1 destinatarios.
+El MAPI_P1 y la marca **MAPI_SUBMITTED** se usan cuando se retransmite un mensaje debido a que no se entrega a uno o varios de los destinatarios previstos. Para esta retransmisión, el  cliente establece MAPI_SUBMITTED en todos los destinatarios que no necesitan el mensaje de nuevo, pero que deben mostrarse en la lista de destinatarios. Para todos los destinatarios que no recibieron el mensaje anteriormente, el cliente conserva el destinatario original con su valor **PR_RECIPIENT_TYPE** sin cambios, pero además envía una copia del destinatario con MAPI_P1 en lugar del valor original. Esta copia, que se descarta antes de la entrega real, fuerza al destinatario en el sobre P1 y garantiza la retransmisión física a ese destinatario. La **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) se establece en FALSE para MAPI_P1 destinatarios.
   
-Cuando un cliente muestra un formulario de nuevo, solo los MAPI_P1 destinatarios son visibles. A menos que el usuario escriba destinatarios adicionales, cuando se entregue el mensaje, la lista de destinatarios aparecerá exactamente igual que cuando se envió el mensaje por primera vez. 
+Cuando un cliente muestra un formulario de reenmiende, solo están visibles MAPI_P1 destinatarios. A menos que el usuario escriba destinatarios adicionales, cuando se entregue el mensaje, la lista de destinatarios aparecerá exactamente igual que cuando se envió el mensaje por primera vez. 
   
-Las **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)), **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) y **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) están relacionadas con el tipo de destinatario. Cuando un cliente llama al **IMAPIProp::SaveChanges** de un mensaje y hay al menos un destinatario en la lista de destinatarios, el proveedor del almacén de mensajes establece estas propiedades de la siguiente manera: 
+Las **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)), **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) y **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) están relacionadas con el tipo de destinatario. Cuando un cliente llama a **IMAPIProp::SaveChanges** de un mensaje y hay al menos un destinatario en la lista de destinatarios, el proveedor del almacén de mensajes establece estas propiedades de la siguiente manera: 
   
 |**Propiedad**|**Descripción**|
 |:-----|:-----|
-|PR_DISPLAY_TO  <br/> |Se establece en TRUE si uno o varios de los destinatarios **MAPI_TO** destinatarios.  <br/> |
+|PR_DISPLAY_TO  <br/> |Se establece en TRUE si uno o varios de los destinatarios son **MAPI_TO** destinatarios.  <br/> |
 |PR_DISPLAY_CC  <br/> |Se establece en TRUE si uno o varios de los destinatarios son **MAPI_CC** destinatarios.  <br/> |
-| PR_DISPLAY_BCC  <br/> |Se establece en TRUE si uno o varios de los destinatarios **MAPI_BCC** destinatarios.  <br/> |
+| PR_DISPLAY_BCC  <br/> |Se establece en TRUE si uno o varios de los destinatarios son **MAPI_BCC** destinatarios.  <br/> |
    
-En X.400, el P1 o el sobre de entrega es la información necesaria para entregar un mensaje, incluidas las propiedades de dirección del destinatario y las marcas de opción que controlan la entrega y las respuestas. El sobre para mostrar o P2 es la información que normalmente se muestra a cada destinatario que no sea el propio texto del mensaje. Normalmente incluye el asunto, la importancia, la prioridad, la confidencialidad y el tiempo de envío, así como los nombres de los destinatarios principales y copiados. 
+En X.400, el sobre de entrega o P1 es la información necesaria para entregar un mensaje, incluidas las propiedades de dirección del destinatario y las marcas de opción que controlan la entrega y las respuestas. El sobre para mostrar o P2 es la información que normalmente se muestra a cada destinatario que no sea el propio texto del mensaje. Normalmente incluye el asunto, la importancia, la prioridad, la confidencialidad y el tiempo de envío, así como los nombres de destinatarios principales y copiados. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -86,15 +86,15 @@ En X.400, el P1 o el sobre de entrega es la información necesaria para entregar
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -106,7 +106,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -121,7 +121,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

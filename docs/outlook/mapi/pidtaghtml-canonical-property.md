@@ -1,5 +1,5 @@
 ---
-title: PidTagHtml (propiedad canónica)
+title: Propiedad canónica PidTagHtml
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356752"
 ---
-# <a name="pidtaghtml-canonical-property"></a>PidTagHtml (propiedad canónica)
+# <a name="pidtaghtml-canonical-property"></a>Propiedad canónica PidTagHtml
 
   
   
@@ -40,7 +40,7 @@ Contiene el texto del cuerpo del mensaje en formato HTML.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Define cada propiedad que se usa en los objetos que se describen en documentos con prefijo MS-OXO.
+> Define cada propiedad que se usa en los objetos descritos por documentos con prefijo MS-OXO.
     
 [[MS-OXBBODY]](https://msdn.microsoft.com/library/98296160-746e-4b25-8d45-676dabebb57d%28Office.15%29.aspx)
   
@@ -48,11 +48,11 @@ Contiene el texto del cuerpo del mensaje en formato HTML.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 [[MS-OXOPOST]](https://msdn.microsoft.com/library/9b18fdab-aacd-4d73-9534-be9b6ba2f115%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos post.
+> Especifica las propiedades y las operaciones permitidas en los objetos post.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
@@ -60,7 +60,7 @@ Contiene el texto del cuerpo del mensaje en formato HTML.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que representan elementos RSS.
+> Especifica las propiedades y las operaciones que representan elementos RSS.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -72,13 +72,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

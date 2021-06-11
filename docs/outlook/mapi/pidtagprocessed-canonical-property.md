@@ -25,7 +25,7 @@ ms.locfileid: "32351439"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se establece en TRUE cuando se ha procesado la solicitud de reunión.
+Se establece en TRUE cuando se haya procesado la solicitud de reunión.
   
 |||
 |:-----|:-----|
@@ -48,11 +48,11 @@ Esta propiedad garantiza que las solicitudes de reunión se procese una vez. El 
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
-[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de lista de distribución personal y de contacto.
+> Especifica las propiedades y las operaciones permitidas para los objetos de lista de distribución personal y de contacto.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

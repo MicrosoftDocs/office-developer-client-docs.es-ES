@@ -31,7 +31,7 @@ HRESULT IConverterSession:: SetEncoding (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _et_
   
@@ -51,9 +51,9 @@ E_INVALIDARG
     
 ## <a name="remarks"></a>Comentarios
 
-Llame **a SetEncoding antes** de usar [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) para realizar la conversión. 
+Llama **a SetEncoding** antes de usar [IConverterSession::MAPIToMIMEStm para](iconvertersession-mapitomimestm.md) realizar la conversión. 
   
-Use **SetEncoding para** establecer la codificación solo para el cuerpo del mensaje más externo de un elemento de correo. Microsoft Outlook 2010 y Microsoft Outlook 2013 eligen la codificación de los datos adjuntos individuales. 
+Use **SetEncoding** para establecer la codificación solo para el cuerpo del mensaje más externo de un elemento de correo. Microsoft Outlook 2010 y Microsoft Outlook 2013 la codificación de los datos adjuntos individuales. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -64,7 +64,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IConverterSession : IUnknown](iconvertersessioniunknown.md)
 - [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)

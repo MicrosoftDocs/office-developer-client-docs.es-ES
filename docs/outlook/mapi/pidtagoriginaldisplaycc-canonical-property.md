@@ -25,7 +25,7 @@ ms.locfileid: "32355625"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los nombres para mostrar de cualquier destinatario de copia (CC) del mensaje original.
+Contiene los nombres para mostrar de los destinatarios de cualquier copia de carbono (CC) del mensaje original.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene los nombres para mostrar de cualquier destinatario de copia (CC) del me
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades contienen una lista separada por punto y coma. Mapi lo ofrece y se copia directamente desde **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) cuando se genera un informe de entrega o no entrega o un informe leído o no leído. Esta propiedad puede estar presente en otros mensajes definidos por sus clases de mensajes.
+Estas propiedades contienen una lista separada por punto y coma. Se entrega mediante MAPI y se copia directamente desde **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) cuando se genera un informe de entrega o no entrega o un informe de lectura o no leído. Esta propiedad puede estar presente en otros mensajes definidos por sus clases de mensajes.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Estas propiedades contienen una lista separada por punto y coma. Mapi lo ofrece 
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -32,11 +32,11 @@ Contiene el nombre para mostrar del usuario de mensajería representado por el u
 |Propiedades asociadas:  <br/> |PR_RCVD_REPRESENTING_NAME, PR_RCVD_REPRESENTING_NAME_A, PR_RCVD_REPRESENTING_NAME_W  <br/> |
 |Identificador:  <br/> |0x0044  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Área:  <br/> |Address  <br/> |
+|Área:  <br/> |Dirección  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección del usuario de mensajería representado por el usuario receptor. Deben ser establecidas por el proveedor de transporte entrante, que también es responsable de la autorización o comprobación del delegado. Si no se representa ningún usuario de mensajería, estas propiedades deben establecerse en el nombre para mostrar incluido en la **propiedad PR_RECEIVED_BY_NAME** ([PidTagReceivedByName](pidtagreceivedbyname-canonical-property.md)).
+Estas propiedades son ejemplos de las propiedades de dirección del usuario de mensajería que está siendo representado por el usuario receptor. Deben ser establecidas por el proveedor de transporte entrante, que también es responsable de la autorización o comprobación del delegado. Si no se representa ningún usuario de mensajería, estas propiedades deben establecerse en el nombre para mostrar contenido en la **propiedad PR_RECEIVED_BY_NAME** ([PidTagReceivedByName](pidtagreceivedbyname-canonical-property.md)).
   
 Una aplicación cliente que responda a un mensaje recibido en nombre de otro cliente debe copiar estas propiedades del mensaje recibido en la propiedad **PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) de la respuesta.
   
@@ -50,7 +50,7 @@ Una aplicación cliente que responda a un mensaje recibido en nombre de otro cli
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -58,15 +58,15 @@ Una aplicación cliente que responda a un mensaje recibido en nombre de otro cli
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de citas y reuniones.
+> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica métodos para conectar y configurar buzones como delegados e interacciones con objetos de mensaje y calendario cuando actúan en nombre de otro usuario.
+> Especifica métodos para conectarse y configurar buzones como delegados e interacciones con objetos de mensaje y calendario cuando actúan en nombre de otro usuario.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -78,13 +78,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

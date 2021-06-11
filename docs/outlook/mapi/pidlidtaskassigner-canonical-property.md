@@ -25,19 +25,19 @@ ms.locfileid: "32340092"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- Asigna un nombre al usuario al que se asignó la tarea por última vez. 
+ Asigna nombres al usuario al que se asignó por última vez la tarea. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskDelegator  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008121  <br/> |
+|Id. largo (LID):  <br/> |0x00008121  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si la tarea no se ha asignado, esta propiedad se deja sin conjunto. Dado que el cliente establece esta propiedad después de que el usuario al que se asigna la tarea recibe una solicitud de tarea, la propiedad no se establecerá en la copia de la tarea del asignador de tareas. Cuando el cliente agrega o quita un asignador de tareas de la lista de asignadores de tareas en la propiedad **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), la propiedad **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) debe establecerse en el asignador de tareas agregado o quitado.
+Si no se ha asignado la tarea, esta propiedad se deja sin conjunto. Dado que el cliente establece esta propiedad después de que el asignador de tareas reciba una solicitud de tarea, la propiedad no se establecerá en la copia del asignador de tareas de la tarea. Cuando el cliente agrega o quita un asignador de tareas de la lista de asignadores de tareas de la propiedad **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), la propiedad **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) debe establecerse en el asignador de tareas agregado o quitado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

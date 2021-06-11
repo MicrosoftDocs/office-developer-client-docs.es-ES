@@ -25,19 +25,19 @@ ms.locfileid: "32344999"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica que el valor de la propiedad **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) está establecido en la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) del recipientRow que representa un recurso.
+Indica que el valor de la propiedad **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) se establece en la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de RecipientRow que representa un recurso.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidAutoFillLocation  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x0000823A  <br/> |
+|Id. largo (LID):  <br/> |0x0000823A  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información sobre RecipientRow, vea el protocolo Message y Attachment Object como se especifica en [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
+Para obtener más información sobre RecipientRow, vea el protocolo Message and Attachment Object tal como se especifica en [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Para obtener más información sobre RecipientRow, vea el protocolo Message y At
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -32,7 +32,7 @@ Representa el número de destinatario de un destinatario en el mensaje.
 |Propiedades asociadas:  <br/> |PR_RECIPIENT_NUMBER  <br/> |
 |Identificador:  <br/> |0x6662  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Lectura y escritura de mensajes de Exchange  <br/> |
+|Área:  <br/> |Exchange Lectura y escritura de mensajes  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,7 +44,7 @@ Representa el número de destinatario de un destinatario en el mensaje.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en los mensajes de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

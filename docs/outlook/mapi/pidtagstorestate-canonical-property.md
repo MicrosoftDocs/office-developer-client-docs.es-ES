@@ -36,7 +36,7 @@ Contiene una marca que describe el estado del almacén de mensajes.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es dinámica y puede cambiar en función de las acciones del usuario, a diferencia de **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Esta propiedad es dinámica y puede cambiar en función de las acciones del usuario, a diferencia **de PR_STORE_SUPPORT_MASK** propiedad ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
 Se puede establecer el siguiente valor:
   
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "32338062"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene palabras clave o categorías para el objeto de mensaje.
+Contiene palabras clave o categorías para el objeto message.
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Contiene palabras clave o categorías para el objeto de mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Un valor de varias cadenas que especifica las categorías de un objeto de mensaje, la longitud de cada cadena dentro de esta cadena de varios valores de propiedad debe ser inferior a 256.
+Un valor de varias cadenas que especifica las categorías de un objeto de mensaje, la longitud de cada cadena dentro de esta cadena de varios valores de propiedad, debe ser inferior a 256.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,11 +49,11 @@ Un valor de varias cadenas que especifica las categorías de un objeto de mensaj
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
-[[MS-OJODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los documentos.
+> Especifica las propiedades y las operaciones permitidas en los documentos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -61,13 +61,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

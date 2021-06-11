@@ -25,7 +25,7 @@ ms.locfileid: "32355065"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el **EntryID de** la carpeta de avisos. 
+Contiene el **EntryID** de la carpeta reminders. 
   
 |||
 |:-----|:-----|
@@ -38,15 +38,15 @@ Contiene el **EntryID de** la carpeta de avisos.
 
 Esta propiedad se almacena en la carpeta Bandeja de entrada y en la carpeta raíz del almacén de mensajes. Para obtener acceso a la propiedad en un almacén de mensajes específico, haga lo siguiente. 
   
-1. En primer lugar, busque la propiedad en la carpeta Bandeja de entrada. Use [IMsgStore::GetReceiveFolder para](imsgstore-getreceivefolder.md) obtener una referencia al **EntryID** de la carpeta Bandeja de entrada. 
+1. En primer lugar, busque la propiedad en la carpeta Bandeja de entrada. Use [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) para obtener una referencia al **EntryID** de la carpeta Bandeja de entrada. 
     
-2. Si **IMsgStore::GetReceiveFolder** se realiza correctamente, use la referencia al **EntryID** de la Bandeja de entrada e [IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir la Bandeja de entrada y obtener una referencia a un objeto **IMAPIFolder** . 
+2. Si **IMsgStore::GetReceiveFolder** se realiza correctamente, use la referencia al **EntryID** de la Bandeja de entrada e [IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir la Bandeja de entrada y obtener una referencia a un objeto **IMAPIFolder.** 
     
 3. Si **IMsgStore::OpenEntry** se realiza correctamente, use la referencia devuelta al objeto **IMAPIFolder** y [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener la propiedad deseada. 
     
-4. Si se produce un error en los pasos 1, 2 o 3, busque la propiedad en la carpeta raíz. Para ello, use **IMsgStore::OpenEntry**, especificando NULL para **lpEntryID**, para abrir la carpeta raíz del almacén de mensajes y obtener una referencia al objeto **IMAPIFolder** . 
+4. Si se produce un error en los pasos 1, 2 o 3, busque la propiedad en la carpeta raíz. Para ello, use **IMsgStore::OpenEntry**, especificando NULL para **lpEntryID**, para abrir la carpeta raíz del almacén de mensajes y obtener una referencia al objeto **IMAPIFolder.** 
     
-5. Si la apertura de la carpeta raíz es correcta, use la referencia devuelta al objeto **IMAPIFolder** y **IMAPIProp::GetProps** para obtener la propiedad deseada. 
+5. Si la apertura de la carpeta raíz se realiza correctamente, use la referencia devuelta al objeto **IMAPIFolder** y **IMAPIProp::GetProps** para obtener la propiedad deseada. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -58,7 +58,7 @@ Esta propiedad se almacena en la carpeta Bandeja de entrada y en la carpeta raí
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y localizar las carpetas especiales en un buzón.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -70,13 +70,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

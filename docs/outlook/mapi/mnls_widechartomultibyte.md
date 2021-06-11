@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f64cde12-7ed1-444f-8ca4-51cb3ea514cf
-description: 'Última modificación: 21 de febrero de 2012'
+description: 'Last modified: February 21, 2012'
 ms.openlocfilehash: ad41f9b6060e5cfbabecfd9bb29a47815929d6b5
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "32338734"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta función es similar a **WideCharToMultiByte,** que asigna una cadena UTF-16 (carácter ancho) a una nueva cadena de caracteres. La nueva cadena de caracteres no es necesariamente de un juego de caracteres multibyte.
+Esta función es similar a **WideCharToMultiByte**, que asigna una cadena UTF-16 (carácter ancho) a una nueva cadena de caracteres. La nueva cadena de caracteres no es necesariamente de un conjunto de caracteres multibyte.
   
 ```cpp
 int MNLS_WideCharToMultiByte(
@@ -35,23 +35,23 @@ int MNLS_WideCharToMultiByte(
   BOOL FAR *lpfUsedDefaultChar);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _uCodePage_
   
-> [entrada] Página de códigos que se usará para realizar la conversión.
+> [in] Página de código que se usará para realizar la conversión.
     
  _dwFlags_
   
-> [entrada] Marcas que indican el tipo de conversión.
+> [in] Marcas que indican el tipo de conversión.
     
  _lpWideCharStr_
   
-> [entrada] Puntero a la cadena Unicode que se convertirá.
+> [in] Puntero a la cadena Unicode que se debe convertir.
     
  _cchWideChar_
   
-> [entrada] Marcas que indican el tipo de conversión.
+> [in] Marcas que indican el tipo de conversión.
     
  _lpMultiByteStr_
   
@@ -59,7 +59,7 @@ int MNLS_WideCharToMultiByte(
     
  _cchMultiByte_
   
-> [entrada] Tamaño, en bytes, del búfer indicado por  _lpMultiByteStr_.
+> [in] Tamaño, en bytes, del búfer indicado por  _lpMultiByteStr_.
     
  _lpDefaultChar_
   
@@ -71,13 +71,13 @@ int MNLS_WideCharToMultiByte(
     
 ## <a name="return-value"></a>Valor devuelto
 
-Devuelve el número de bytes escritos en el búfer al que apunta  _lpMultiByteStr_ si se realiza correctamente. 
+Devuelve el número de bytes escritos en el búfer al que  _apunta lpMultiByteStr_ si se realiza correctamente. 
   
 ## <a name="remarks"></a>Comentarios
 
 Esta función ajusta la **función WideCharToMultiByte.** Para obtener más información, [vea WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

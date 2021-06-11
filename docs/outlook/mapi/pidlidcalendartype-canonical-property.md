@@ -25,19 +25,19 @@ ms.locfileid: "32341996"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el valor del campo CalendarType de la propiedad **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
+Especifica el valor del campo CalendarType de la **propiedad dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |LID_CALENDAR_TYPE  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Meeting  <br/> |
-|Long ID (LID):  <br/> |0x0000001C  <br/> |
+|Id. largo (LID):  <br/> |0x0000001C  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando la solicitud de reunión representa una serie periódica o una excepción, este es el valor del campo CalendarType de la propiedad **dispidApptRecur.** De lo contrario, esta propiedad no se establece y se supone que es 0. 
+Cuando la solicitud de reunión representa una serie periódica o una excepción, este es el valor del campo CalendarType de la **propiedad dispidApptRecur.** De lo contrario, esta propiedad no se establece y se supone que es 0. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Cuando la solicitud de reunión representa una serie periódica o una excepción
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

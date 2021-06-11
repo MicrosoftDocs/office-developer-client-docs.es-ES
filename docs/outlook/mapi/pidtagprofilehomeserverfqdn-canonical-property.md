@@ -34,10 +34,10 @@ Habilita la autenticación Kerberos de una configuración de perfil.
    
 ## <a name="remarks"></a>Comentarios
 
-Establecer esta propiedad en el nombre de dominio del servidor de directorio del usuario permite la conexión directa con el controlador de dominio (DC), que es necesario para un perfil que se ha configurado para usar la autenticación Kerberos en Microsoft Exchange Server 2007 y versiones anteriores, estableciendo **RPC_C_AUTHN_GSS_KERBEROS** en **PR_PROFILE_AUTH_PACKAGE**.
+Establecer esta propiedad en el nombre de dominio del servidor de directorios del usuario permite la conexión directa al controlador de dominio (DC), que es necesario para un perfil que se ha configurado para usar la autenticación Kerberos en Microsoft Exchange Server 2007 y versiones anteriores, estableciendo **RPC_C_AUTHN_GSS_KERBEROS** en **PR_PROFILE_AUTH_PACKAGE**.
   
 > [!NOTE]
-> Microsoft Exchange Server 2010 y Exchange Server 2013 controlan las llamadas de libreta de direcciones realizadas al servidor de acceso de cliente de forma diferente a la forma en que Exchange Server 2007 y versiones anteriores las controlan. El proceso DSProxy ya no se usa, por lo que la autenticación Kerberos puede ser correcta. Sin embargo, el cliente seguiría comunicándose con el servidor exchange en lugar de directamente con el DC, lo que puede que no desee: la configuración PR_PROFILE_HOME_SERVER_FQDN **evita** esto. 
+> Microsoft Exchange Server 2010 y Exchange Server 2013 controlan las llamadas de libreta de direcciones realizadas al servidor de acceso de cliente de forma diferente a la forma en que Exchange Server 2007 y versiones anteriores las controlan. El proceso DSProxy ya no se usa, por lo que la autenticación Kerberos puede ser correcta. Sin embargo, el cliente seguiría comunicándose con el servidor Exchange en lugar de directamente  con el controlador de dominio, lo que puede no desearse: establecer PR_PROFILE_HOME_SERVER_FQDN evita esto. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -61,13 +61,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

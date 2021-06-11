@@ -31,13 +31,13 @@ Especifica el tercer nombre para mostrar que corresponde a la dirección de corr
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidEmail3OriginalDisplayName  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x000080A4  <br/> |
+|Id. largo (LID):  <br/> |0x000080A4  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si el valor de la propiedad **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) es "SMTP", el valor de la propiedad **dispidEmail3OriginalDisplayName** correspondiente debe ser igual al valor de la **dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). El propósito de esta propiedad es mostrar una dirección alternativa fácil de usar que es equivalente a la de **dispidEmail3EmailAddress**.
+Si el valor de la propiedad **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) es "SMTP", el valor de la propiedad **dispidEmail3OriginalDisplayName** correspondiente debe ser igual al valor de la **dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). El propósito de esta propiedad es mostrar una dirección alternativa fácil de usar que sea equivalente a la de **dispidEmail3EmailAddress**.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Si el valor de la propiedad **dispidEmail3AddrType** ([PidLidEmail3AddressType](
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -40,7 +40,7 @@ Esta propiedad, si existe, es una sugerencia para el cliente. El cliente puede o
   
 |**Estado del elemento de correo**|**Índice de iconos**|
 |:-----|:-----|
-|Correo nuevo  <br/> |0xFFFFFFFF  <br/> |
+|Nuevo correo  <br/> |0xFFFFFFFF  <br/> |
 |Publicación  <br/> |0x00000001  <br/> |
 |Otros  <br/> |0x00000003  <br/> |
 |Leer correo  <br/> |0x00000100  <br/> |
@@ -53,56 +53,56 @@ Esta propiedad, si existe, es una sugerencia para el cliente. El cliente puede o
 |Correo remoto  <br/> |0x00000107  <br/> |
 |Correo de entrega  <br/> |0x00000108  <br/> |
 |Leer correo  <br/> |0x00000109  <br/> |
-|Correo nondelivery  <br/> |0x0000010A  <br/> |
+|Correo Nondelivery  <br/> |0x0000010A  <br/> |
 |Correo no leído  <br/> |0x0000010B  <br/> |
 |Recall_S correo electrónico  <br/> |0x0000010C  <br/> |
 |Recall_F correo electrónico  <br/> |0x0000010D  <br/> |
-|Seguimiento de correo  <br/> |0x0000010E  <br/> |
+|Seguimiento del correo  <br/> |0x0000010E  <br/> |
 |Correo fuera de la oficina  <br/> |0x0000011B  <br/> |
 |Recuperar correo  <br/> |0x0000011C  <br/> |
 |Correo rastreado  <br/> |0x00000130  <br/> |
 |Contacto  <br/> |0x00000200  <br/> |
 |Lista de distribución  <br/> |0x00000202  <br/> |
-|Nota rápida azul  <br/> |0x00000300  <br/> |
-|Nota rápida verde  <br/> |0x00000301  <br/> |
-|Rosa nota pegajosa  <br/> |0x00000302  <br/> |
-|Nota permanente amarilla  <br/> |0x00000303  <br/> |
-|Notas rápidas en blanco  <br/> |0x00000304  <br/> |
+|Nota pegajosa azul  <br/> |0x00000300  <br/> |
+|Nota pegajosa verde  <br/> |0x00000301  <br/> |
+|Rosa de nota pegajosa  <br/> |0x00000302  <br/> |
+|Nota pegajosa amarilla  <br/> |0x00000303  <br/> |
+|Nota pegajosa blanca  <br/> |0x00000304  <br/> |
 |Cita de instancia única  <br/> |0x00000400  <br/> |
 |Cita periódica  <br/> |0x00000401  <br/> |
 |Reunión de instancia única  <br/> |0x00000402  <br/> |
 |Reunión periódica  <br/> |0x00000403  <br/> |
 |Solicitud de reunión  <br/> |0x00000404  <br/> |
 |Aceptar  <br/> |0x00000405  <br/> |
-|Rechazar  <br/> |0x00000406  <br/> |
+|Declinar  <br/> |0x00000406  <br/> |
 |Tentativly  <br/> |0x00000407  <br/> |
 |Cancelación  <br/> |0x00000408  <br/> |
 |Actualización informativo  <br/> |0x00000409  <br/> |
 |Tarea o tarea  <br/> |0x00000500  <br/> |
-|Tarea periódica sin asignar  <br/> |0x00000501  <br/> |
-|Tarea del usuario al que se asigna  <br/> |0x00000502  <br/> |
+|Tarea periódica sinsignar  <br/> |0x00000501  <br/> |
+|Tarea del usuario asignado  <br/> |0x00000502  <br/> |
 |Tarea del asignador  <br/> |0x00000503  <br/> |
 |Solicitud de tareas  <br/> |0x00000504  <br/> |
-|Aceptación de la tarea  <br/> |0x00000505  <br/> |
-|Rechazo de tarea  <br/> |0x00000506  <br/> |
+|Aceptación de tareas  <br/> |0x00000505  <br/> |
+|Rechazo de tareas  <br/> |0x00000506  <br/> |
 |Conversación en diario  <br/> |0x00000601  <br/> |
-|Mensaje de correo electrónico del diario  <br/> |0x00000602  <br/> |
+|Mensaje de correo electrónico de diario  <br/> |0x00000602  <br/> |
 |Solicitud de reunión de diario  <br/> |0x00000603  <br/> |
 |Respuesta de reunión de diario  <br/> |0x00000604  <br/> |
 |Solicitud de tarea de diario  <br/> |0x00000606  <br/> |
 |Respuesta de tarea de diario  <br/> |0x00000607  <br/> |
 |Nota del diario  <br/> |0x00000608  <br/> |
 |Fax de diario  <br/> |0x00000609  <br/> |
-|Llamada de teléfono de diario  <br/> |0x0000060A  <br/> |
+|Llamada telefónica de diario  <br/> |0x0000060A  <br/> |
 |Carta de diario  <br/> |0x0000060C  <br/> |
 |Journal Microsoft Office Word  <br/> |0x0000060D  <br/> |
-|Registro Microsoft Office Excel  <br/> |0x0000060E  <br/> |
+|Registro de Microsoft Office Excel  <br/> |0x0000060E  <br/> |
 |Registro Microsoft Office PowerPoint  <br/> |0x0000060F  <br/> |
-|Acceso de Microsoft Office diario  <br/> |0x00000610  <br/> |
+|Acceso Microsoft Office diario  <br/> |0x00000610  <br/> |
 |Documento de diario  <br/> |0x00000612  <br/> |
-|Reunión de diario  <br/> |0x00000613  <br/> |
+|Reunión del diario  <br/> |0x00000613  <br/> |
 |Cancelación de reunión de diario  <br/> |0x00000614  <br/> |
-|Sesión remota del diario  <br/> |0x00000615  <br/> |
+|Sesión remota de diario  <br/> |0x00000615  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -114,15 +114,15 @@ Esta propiedad, si existe, es una sugerencia para el cliente. El cliente puede o
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas en las listas de distribución personal y de contactos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -134,13 +134,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

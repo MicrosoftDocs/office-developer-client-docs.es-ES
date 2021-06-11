@@ -25,7 +25,7 @@ ms.locfileid: "32341954"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor que correlaciona los datos adjuntos del formato de encapsulamiento neutro de transporte (TNEF) con un mensaje.
+Contiene un valor que correlaciona un archivo adjunto de formato de encapsulación neutro de transporte (TNEF) con un mensaje.
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Contiene un valor que correlaciona los datos adjuntos del formato de encapsulami
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los subdominios de datos adjuntos TNEF exponán esta propiedad. Esta propiedad determina si un archivo TNEF entrante pertenece o no al mensaje al que está adjunto. Lo usan principalmente los proveedores de transporte y las puertas de enlace.
+Se recomienda que los sub objetos adjuntos TNEF exponán esta propiedad. Esta propiedad determina si un archivo TNEF entrante pertenece o no al mensaje al que está adjunto. Se usa principalmente por proveedores de transporte y puertas de enlace.
   
-En un mensaje saliente, el proveedor de transporte debe calcular un valor binario único para ese mensaje o usar un valor existente que satisfaga el requisito de unidad, como un identificador de mensaje. El proveedor de transporte debe almacenar este valor en esta propiedad y, a continuación, llamar al método [ITnef::AddProps](itnef-addprops.md) para encapsularlo. El mismo valor también debe almacenarse en el sobre de transporte en un lugar definido por el proveedor, como el encabezado del mensaje. 
+En un mensaje saliente, el proveedor de transporte debe calcular un valor binario único para ese mensaje o usar un valor existente que satisfaga el requisito de unibilidad, como un identificador de mensaje. El proveedor de transporte debe almacenar este valor en esta propiedad y, a continuación, llamar al [método ITnef::AddProps](itnef-addprops.md) para encapsularlo. El mismo valor también debe almacenarse en el sobre de transporte en un lugar definido por el proveedor, como el encabezado del mensaje. 
   
-En un mensaje entrante, el proveedor de transporte debe llamar al método [ITnef::ExtractProps](itnef-extractprops.md) para decapsular los datos adjuntos TNEF y, a continuación, comparar esta propiedad con el valor almacenado en el sobre de transporte. Si los valores coinciden, TNEF debe procesarse normalmente, es decir, deben usarse todas las propiedades extraídas de los datos adjuntos TNEF. Si los valores no coinciden, se deben omitir todas las propiedades de los datos adjuntos TNEF. Si no se establece esta propiedad, se debe considerar que el archivo TNEF pertenece a este mensaje y se deben usar las demás propiedades extraídas de él. 
+En un mensaje entrante, el proveedor de transporte debe llamar al método [ITnef::ExtractProps](itnef-extractprops.md) para decapsular los datos adjuntos de TNEF y, a continuación, comparar esta propiedad con el valor almacenado en el sobre de transporte. Si los valores coinciden, TNEF debe procesarse normalmente, es decir, se deben usar todas las propiedades extraídas de los datos adjuntos de TNEF. Si los valores no coinciden, se deben omitir todas las propiedades de los datos adjuntos de TNEF. Si no se establece esta propiedad, se debe considerar que el archivo TNEF pertenece a este mensaje y se deben usar las demás propiedades extraídas de él. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -56,11 +56,11 @@ En un mensaje entrante, el proveedor de transporte debe llamar al método [ITnef
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -72,13 +72,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

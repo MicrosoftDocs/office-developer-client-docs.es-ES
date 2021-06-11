@@ -25,7 +25,7 @@ ms.locfileid: "32339878"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona información de tipo de archivo para datos adjuntos que no son de Windows.
+Proporciona información de tipo de archivo para datos adjuntos que no Windows datos adjuntos.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Proporciona información de tipo de archivo para datos adjuntos que no son de Wi
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad proporciona metadatos sobre un dato adjunto determinado en función de la codificación de los datos adjuntos. Por ejemplo, cuando la propiedad **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) contiene MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contiene una cadena que representa el creador de archivos de Macintosh y el tipo de archivo, con el formato ":CREA:TYPE" para el archivo macintosh codificado. 
+Esta propiedad proporciona metadatos sobre un dato adjunto determinado en función de la codificación de los datos adjuntos. Por ejemplo, cuando la propiedad **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) contiene MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contiene una cadena que representa el creador de archivos de Macintosh y el tipo de archivo, con el formato ":CREA:TYPE" para el archivo Macintosh codificado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,7 +44,7 @@ Esta propiedad proporciona metadatos sobre un dato adjunto determinado en funci�
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

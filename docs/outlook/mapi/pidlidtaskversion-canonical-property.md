@@ -31,15 +31,15 @@ Indica qué copia es la actualización más reciente de una tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskVersion  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008112  <br/> |
+|Id. largo (LID):  <br/> |0x00008112  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Se omiten las actualizaciones con versiones inferiores a las de la tarea. 
+Se omiten las actualizaciones con versiones inferiores a la tarea. 
   
-Al insertar una tarea en una comunicación de tarea, el cliente también establece la versión actual de la tarea incrustada en la comunicación de la tarea.
+Al insertar una tarea en una comunicación de tarea, el cliente también establece la versión actual de la tarea incrustada en la comunicación de tarea.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -59,13 +59,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

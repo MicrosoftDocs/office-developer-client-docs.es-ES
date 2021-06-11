@@ -23,9 +23,9 @@ Las implementaciones del [método IUnknown::QueryInterface](https://msdn.microso
   
 1. Validación de parámetros.
     
-2. Comprobar el identificador de la interfaz solicitada con la lista de interfaces admitidas por el objeto y devolver el valor E_NO_INTERFACE o un puntero de interfaz válido. Si se devuelve un puntero de interfaz, la implementación también debe llamar al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para incrementar el recuento de referencias. 
+2. Comprobar el identificador de la interfaz solicitada en la lista de interfaces admitidas por el objeto y devolver el valor E_NO_INTERFACE o un puntero de interfaz válido. Si se devuelve un puntero de interfaz, la implementación también debe llamar al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) para incrementar el recuento de referencias. 
     
-La principal diferencia entre una implementación de **QueryInterface** en C y C++ es el primer parámetro adicional de la versión C. Dado que el puntero de objeto se agrega a la lista de parámetros, una implementación de C de **QueryInterface** debe tener más validación de parámetros que una implementación de C++. La lógica para comprobar el identificador de interfaz, incrementar el recuento de referencias y devolver un puntero de objeto debe ser idéntica en ambos idiomas. 
+La principal diferencia entre una implementación de **QueryInterface** en C y C++ es el primer parámetro adicional de la versión C. Dado que el puntero de objeto se agrega a la lista de parámetros, una implementación C de **QueryInterface** debe tener más validación de parámetros que una implementación de C++. La lógica para comprobar el identificador de interfaz, incrementar el recuento de referencias y devolver un puntero de objeto debe ser idéntica en ambos idiomas. 
   
 En el siguiente ejemplo de código se muestra cómo implementar **QueryInterface** en C para un objeto de estado. 
   
@@ -64,9 +64,9 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
 
 ```
 
-Mientras que la implementación del **método AddRef** en C es similar a una implementación de C++, una implementación de C del método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) puede ser más compleja que una versión de C++. Esto se debe a que gran parte de la funcionalidad necesaria para liberar un objeto se puede incorporar al constructor y destructor de C++, y C no tiene dicho mecanismo. Toda esta funcionalidad debe incluirse en el **método Release.** Además, debido al parámetro adicional y a su tabla virtual explícita, se requiere más validación. 
+Mientras que la implementación del **método AddRef** en C es similar a una implementación de C++, una implementación C del método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) puede ser más compleja que una versión de C++. Esto se debe a que gran parte de la funcionalidad que implica liberar un objeto se puede incorporar al constructor y destructor de C++, y C no tiene dicho mecanismo. Toda esta funcionalidad debe incluirse en el **método Release.** Además, debido al parámetro adicional y a su vtable explícito, se requiere más validación. 
   
-La siguiente **llamada al método AddRef** ilustra una implementación típica de C para un objeto de estado. 
+La siguiente **llamada al método AddRef** ilustra una implementación típica de C para un objeto status. 
   
 ```cpp
 STDMETHODIMP_(ULONG) STATUS_AddRef(LPMYSTATUSOBJ lpMyObj)
@@ -90,11 +90,11 @@ STDMETHODIMP_(ULONG) STATUS_AddRef(LPMYSTATUSOBJ lpMyObj)
 
 ```
 
-En el siguiente ejemplo de código se muestra una implementación típica de **Release** para un objeto de estado C. Si el recuento de referencias es 0 después de que se disminuye, una implementación de objeto de estado C debe realizar las siguientes tareas: 
+En el siguiente ejemplo de código se muestra una implementación típica de **Release** para un objeto de estado C. Si el recuento de referencias es 0 después de su decrementación, una implementación de objeto de estado C debe realizar las siguientes tareas: 
   
-- Libera los punteros que se mantienen en los objetos. 
+- Libere los punteros que se mantienen en objetos. 
     
-- Establezca la tabla virtual en NULL, facilitando la depuración en caso de que el usuario de un objeto llamado **Release** continúe intentando usar el objeto. 
+- Establezca la tabla vtable en NULL, lo que facilita la depuración en el caso en que el usuario de un objeto llamado **Release** aún continúe intentando usar el objeto. 
     
 - Llama **a MAPIFreeBuffer** para liberar el objeto. 
     
@@ -130,7 +130,7 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Implementación de objetos MAPI](implementing-mapi-objects.md)
 - [Implementación de la interfaz IUnknown](implementing-the-iunknown-interface.md)

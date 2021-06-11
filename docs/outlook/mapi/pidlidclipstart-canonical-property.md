@@ -25,13 +25,13 @@ ms.locfileid: "32349248"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la fecha y hora de inicio del evento en horarios universales coordinados (UTC) para objetos de calendario de instancia única y especifica la medianoche de la fecha de la primera instancia en UTC para una serie periódica.
+Especifica la fecha y hora de inicio del evento en Horarios universales coordinados (UTC) para objetos de calendario de una sola instancia y especifica la medianoche en la fecha de la primera instancia en UTC para una serie periódica.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidClipStart  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008235  <br/> |
+|Id. largo (LID):  <br/> |0x00008235  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Calendar  <br/> |
    
@@ -45,7 +45,7 @@ Especifica la fecha y hora de inicio del evento en horarios universales coordina
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

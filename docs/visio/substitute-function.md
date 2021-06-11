@@ -30,17 +30,17 @@ Reemplaza parte de una cadena de texto con una cadena de texto diferente.
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto o la referencia a la celda que contiene el texto cuyos caracteres se desea reemplazar.  <br/> |
 | _old_text_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto que se desea reemplazar.  <br/> |
-| _new_text_ <br/> |Obligatorio  <br/> |**String** <br/> | El texto que desea usar para  _reemplazar_ old_text .  <br/> |
+| _new_text_ <br/> |Obligatorio  <br/> |**String** <br/> | Texto que desea usar para  _reemplazar_ old_text .  <br/> |
 | _start_num_opt_ <br/> |Opcional  <br/> |**Numérico** <br/> |Especifica qué repeticiones de old_text reemplazar.  <br/> |
 | _ignore_case_opt_ <br/> |Opcional  <br/> |**Boolean** <br/> |Será FALSE si diferencia entre mayúsculas y minúsculas y, si no, TRUE. El valor predeterminado es FALSE (falso).  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 
- Si especifica una  _start_num_opt_, solo se reemplaza la  _aparición old_text_ del usuario. De lo contrario, todas  _las old_text_  _del_ texto se cambian  _a new_text._
+ Si especifica _start_num_opt_, solo se reemplaza la aparición _de old_text._ De lo contrario, todas  _las old_text_ de  _texto_ se cambian  _a new_text._
   
 Use esta función cuando desee reemplazar un texto específico dentro de una cadena de texto. Si desea reemplazar texto que se produce en una ubicación específica de una cadena de texto, use la función REPLACE.
   

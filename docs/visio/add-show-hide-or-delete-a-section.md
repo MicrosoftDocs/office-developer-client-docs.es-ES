@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm2165
 localization_priority: Normal
 ms.assetid: 1470248e-be1c-fcb0-1d6b-0a5f60365924
-description: Puede agregar, mostrar, ocultar y eliminar secciones en ShapeSheet.
+description: Puede agregar, mostrar, ocultar y eliminar secciones en shapesheet.
 ms.openlocfilehash: 1f1aa5cc20418fa3fc588c50d5e7a94bd9763774
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,10 +18,10 @@ ms.locfileid: "32341688"
 ---
 # <a name="add-show-hide-or-delete-a-section"></a>Agregar, mostrar, ocultar o eliminar una sección
 
-Puede agregar, mostrar, ocultar y eliminar secciones en ShapeSheet.
+Puede agregar, mostrar, ocultar y eliminar secciones en shapesheet.
   
 > [!NOTE]
-> Si desea agregar su propia sección personalizada a [](user-defined-cells-section.md) ShapeSheet, use [](scratch-section.md) las secciones Celdas definidas por el usuario o Scratch para definir la lógica de ShapeSheet. 
+> Si desea agregar su propia sección personalizada a [](user-defined-cells-section.md) ShapeSheet, use las secciones Celdas definidas por el usuario o [Scratch](scratch-section.md) para definir la lógica ShapeSheet. 
   
 ### <a name="to-add-a-section"></a>Para agregar una sección
 
@@ -29,9 +29,9 @@ Puede agregar, mostrar, ocultar y eliminar secciones en ShapeSheet.
     
 2. Realice una de las acciones siguientes:
     
-  - En **Herramientas de ShapeSheet** de la **ficha** Diseño, en el grupo **Secciones,** haga clic en **Insertar**.
+  - En **Herramientas de ShapeSheet** de la **ficha** Diseño, en el **grupo Secciones,** haga clic **en Insertar**.
     
-  - O bien, haga clic con el botón secundario en la ventana ShapeSheet y, a continuación, haga clic **en Insertar sección** en el menú contextual. 
+  - O haga clic con el botón secundario en la ventana ShapeSheet y, a continuación, haga clic **en Insertar sección** en el menú contextual. 
     
 3. Active la casilla de verificación de la sección que desee añadir y, a continuación, haga clic en **Aceptar**.
     
@@ -59,13 +59,13 @@ Puede agregar, mostrar, ocultar y eliminar secciones en ShapeSheet.
     
 3. Haga clic en el título de la sección.
     
-    La presentación cambia para ocultar o mostrar las celdas de la sección.
+    La pantalla cambia para ocultar o mostrar las celdas de la sección.
     
 ### <a name="to-delete-a-section"></a>Para eliminar una sección
 
 1. Haga clic en la ventana ShapeSheet para activarla.
     
-2. En **Herramientas de ShapeSheet** de la **ficha** Diseño, en la **sección** Vista, haga clic **en Secciones**. O bien, haga clic con el botón secundario en la ventana ShapeSheet y, a continuación, haga clic en **Ver secciones**.
+2. En **Herramientas de ShapeSheet de** la **ficha** Diseño, en la **sección Ver,** haga clic **en Secciones**. O bien, haga clic con el botón secundario en la ventana ShapeSheet y, a continuación, haga clic en **Ver secciones**.
     
 3. Active las casillas de las secciones que desee mostrar o desactive las de las secciones que desee ocultar.
     

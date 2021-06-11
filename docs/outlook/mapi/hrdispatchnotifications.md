@@ -39,7 +39,7 @@ HRESULT HrDispatchNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -61,10 +61,10 @@ MAPI_E_NOT_INITIALIZED
     
 ## <a name="remarks"></a>Comentarios
 
-La **función HrDispatchNotifications** hace que MAPI envíe todas las notificaciones que están actualmente en cola en el motor de notificaciones MAPI sin tener que esperar a que se envíe un mensaje. Esto puede tener un efecto beneficioso en el uso de la memoria. Para obtener más información, [vea Forzar una notificación.](forcing-a-notification.md) 
+La **función HrDispatchNotifications** hace que MAPI envíe todas las notificaciones que están actualmente en cola en el motor de notificaciones MAPI sin esperar a que se envíe un mensaje. Esto puede tener un efecto beneficioso en el uso de la memoria. Para obtener más información, [vea Forzar una notificación](forcing-a-notification.md). 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Algunas aplicaciones esperan un mensaje de notificación en un bucle de tiempo de espera mediante las funciones Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) y [DispatchMessage.](https://msdn.microsoft.com/library/ms644934.aspx) En todas las plataformas menos las más rápidas, estas aplicaciones pueden experimentar un rendimiento deficiente o incluso bloquear las notificaciones. El **uso de HrDispatchNotifications** no solo reduce el código, sino que mejora el rendimiento. 
+Algunas aplicaciones esperan un mensaje de notificación en un bucle de tiempo de espera mediante las Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) y [DispatchMessage.](https://msdn.microsoft.com/library/ms644934.aspx) En todas las plataformas, menos en las más rápidas, estas aplicaciones pueden experimentar un rendimiento deficiente o incluso bloquear las notificaciones. El **uso de HrDispatchNotifications** no solo reduce el código, sino que mejora el rendimiento. 
   
 

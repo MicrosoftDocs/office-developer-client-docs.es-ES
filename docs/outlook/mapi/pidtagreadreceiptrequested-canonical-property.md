@@ -25,7 +25,7 @@ ms.locfileid: "32356472"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si un remitente de mensaje desea que el sistema de mensajería genere un informe de lectura cuando el destinatario ha leído un mensaje.
+Contiene TRUE si un remitente de mensajes desea que el sistema de mensajería genere un informe de lectura cuando el destinatario haya leído un mensaje.
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Contiene TRUE si un remitente de mensaje desea que el sistema de mensajería gen
 
 Esta propiedad debe establecerse en TRUE para validar los valores de las propiedades **PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) y **PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)).
   
-Si un mensaje con **PR_READ_RECEIPT_REQUESTED** se elimina o expira antes de que el sistema de mensajería pueda generar un informe de lectura, se genera un informe no leído. 
+Si un mensaje **con PR_READ_RECEIPT_REQUESTED** se elimina o expira antes de que el sistema de mensajería pueda generar un informe de lectura, se genera un informe no leído. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Si un mensaje con **PR_READ_RECEIPT_REQUESTED** se elimina o expira antes de que
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

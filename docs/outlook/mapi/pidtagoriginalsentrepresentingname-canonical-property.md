@@ -36,9 +36,9 @@ Contiene el nombre para mostrar del usuario de mensajería en cuyo nombre se env
    
 ## <a name="remarks"></a>Comentarios
 
-Estos ejemplos de propiedades de las propiedades de dirección del remitente original representado de un mensaje. Se usa en un hilo de conversación.
+Estos ejemplos de propiedades de las propiedades de dirección del remitente representado original de un mensaje. Se usa en un hilo de conversación.
   
-Una aplicación cliente que envía un mensaje en nombre de otro cliente debe establecer estas propiedades en el valor de la propiedad **PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) en el primer envío del mensaje. Una vez establecido, nunca debe cambiarse.
+Una aplicación cliente que envíe un mensaje en nombre de otro cliente debe establecer estas propiedades en el valor de la propiedad **PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) en el primer envío del mensaje. Una vez establecido, nunca se debe cambiar.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Una aplicación cliente que envía un mensaje en nombre de otro cliente debe est
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

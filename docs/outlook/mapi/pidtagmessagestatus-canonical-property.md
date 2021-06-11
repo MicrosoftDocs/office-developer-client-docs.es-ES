@@ -36,7 +36,7 @@ Contiene una máscara de bits de 32 bits de marcas que define el estado de un me
    
 ## <a name="remarks"></a>Comentarios
 
-Un mensaje puede existir en una tabla de contenido y en una o más tablas de resultados de búsqueda, y cada instancia del mensaje puede tener un estado diferente. Esta propiedad no debe considerarse una propiedad de un mensaje, sino una columna de una tabla de contenido. 
+Un mensaje puede existir en una tabla de contenido y en una o más tablas de resultados de búsqueda, y cada instancia del mensaje puede tener un estado diferente. Esta propiedad no debe considerarse una propiedad en un mensaje, sino una columna en una tabla de contenido. 
   
 Una aplicación cliente puede establecer una o varias de las siguientes marcas en esta propiedad: 
   
@@ -54,11 +54,11 @@ MSGSTATUS_DRAFT
     
 MSGSTATUS_HIDDEN 
   
-> El mensaje se suprimirá de las pantallas de carpeta de los destinatarios. 
+> El mensaje se suprimirá de las pantallas de la carpeta de los destinatarios. 
     
 MSGSTATUS_HIGHLIGHTED 
   
-> El mensaje debe resaltarse en las pantallas de la carpeta de los destinatarios. 
+> El mensaje se resaltará en las pantallas de la carpeta de los destinatarios. 
     
 MSGSTATUS_REMOTE_DELETE 
   
@@ -72,13 +72,13 @@ MSGSTATUS_TAGGED
   
 > El mensaje se ha etiquetado para un propósito definido por el cliente.
     
-El **cliente MSGSTATUS_DELMARKED,** **MSGSTATUS_HIDDEN**, **MSGSTATUS_HIGHLIGHTED** y **MSGSTATUS_TAGGED** marca. Los proveedores de transporte y almacenamiento pasan estos bits sin ninguna acción. 
+Las **MSGSTATUS_DELMARKED**, **MSGSTATUS_HIDDEN**, **MSGSTATUS_HIGHLIGHTED** y MSGSTATUS_TAGGED marca  son definidas por el cliente. Los proveedores de transporte y almacenamiento pasan estos bits sin ninguna acción. 
   
-Los clientes pueden interpretar estos valores de cualquier forma que sea adecuada para sus aplicaciones. Una forma en que muchos clientes usan esta propiedad es mostrar los mensajes marcados para su eliminación con un icono representativo. 
+Los clientes pueden interpretar estos valores de cualquier manera que sea adecuada para sus aplicaciones. Una forma en que muchos clientes usan esta propiedad es mostrar mensajes marcados para su eliminación con un icono representativo. 
   
-Un cliente de visor remoto puede MSGSTATUS_REMOTE_DELETE **o** **MSGSTATUS_REMOTE_DOWNLOAD** en los mensajes de la carpeta de encabezado que le presenta el proveedor de transporte remoto. La aplicación cliente puede examinar cada encabezado de mensaje de esta carpeta para determinar si el mensaje debe descargarse o eliminarse en el almacén de mensajes remoto. A continuación, usa [el método IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) para establecer la marca adecuada. **SetMessageStatus** es la única forma de establecer cualquiera de las marcas de esta propiedad; No [se puede usar el método IMAPIProp::SetProps.](imapiprop-setprops.md) Para recuperar esta propiedad, los clientes llaman [a IMAPIFolder::GetMessageStatus en](imapifolder-getmessagestatus.md) lugar de [IMAPIProp::GetProps](imapiprop-getprops.md).
+Un cliente de visor remoto puede **MSGSTATUS_REMOTE_DELETE** o **MSGSTATUS_REMOTE_DOWNLOAD** mensajes de la carpeta de encabezado que le presenta el proveedor de transporte remoto. La aplicación cliente puede examinar cada encabezado de mensaje de esta carpeta para determinar si el mensaje debe descargarse o eliminarse en el almacén de mensajes remoto. A continuación, usa [el método IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) para establecer la marca adecuada. **SetMessageStatus** es la única forma de establecer cualquiera de las marcas de esta propiedad; no se puede usar el [método IMAPIProp::SetProps.](imapiprop-setprops.md) Para recuperar esta propiedad, los clientes llaman [a IMAPIFolder::GetMessageStatus en](imapifolder-getmessagestatus.md) lugar de [IMAPIProp::GetProps](imapiprop-getprops.md).
   
-Los bits del 16 al 31 (0x10000 a 0x80000000) de esta propiedad están disponibles para que los use la aplicación cliente de mensajes interpersonales (IPM). Todos los demás bits están reservados para su uso por MAPI; los que no se definen en la tabla anterior deben establecerse inicialmente en cero y no modificarse posteriormente. 
+Los bits del 16 al 31 (0x10000 a 0x80000000) de esta propiedad están disponibles para su uso en la aplicación cliente de mensajes interpersonales (IPM). Todos los demás bits están reservados para su uso por MAPI; los que no están definidos en la tabla anterior deben establecerse inicialmente en cero y no modificarse posteriormente. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -102,7 +102,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -111,7 +111,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "32355688"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una tabla de restricciones que se puede aplicar a una tabla de contenido para buscar todos los mensajes que contienen subobjetos de destinatario que cumplen las restricciones. 
+Contiene una tabla de restricciones que se puede aplicar a una tabla de contenido para buscar todos los mensajes que contienen subobjetos de destinatarios que cumplen las restricciones. 
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contiene una tabla de restricciones que se puede aplicar a una tabla de contenid
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad puede excluirse en operaciones [IMAPIProp::CopyTo](imapiprop-copyto.md) o incluirse en [operaciones IMAPIProp::CopyProps.](imapiprop-copyprops.md) Como propiedad de **tipo** PT_OBJECT , el método [IMAPIProp::GetProps](imapiprop-getprops.md) no puede recuperarla correctamente. El método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) debe tener acceso a su contenido, solicitando el **identificador IID_IMAPITable** interfaz. Los proveedores de servicios deben notificarlo al método [IMAPIProp::GetPropList](imapiprop-getproplist.md) si está establecido, pero opcionalmente pueden notificarlo o no si no está establecido. 
+Esta propiedad puede excluirse en operaciones [IMAPIProp::CopyTo](imapiprop-copyto.md) o incluirse en [operaciones IMAPIProp::CopyProps.](imapiprop-copyprops.md) Como propiedad de tipo **PT_OBJECT**, el método [IMAPIProp::GetProps](imapiprop-getprops.md) no puede recuperarla correctamente. El método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) debe tener acceso a su contenido, solicitando el **IID_IMAPITable** de interfaz. Los proveedores de servicios deben notificarlo al método [IMAPIProp::GetPropList](imapiprop-getproplist.md) si está establecido, pero opcionalmente pueden notificarlo o no si no está establecido. 
   
 Para recuperar el contenido de la tabla, una aplicación cliente debe llamar al [método IMessage::GetRecipientTable.](imessage-getrecipienttable.md) 
   
-Esta propiedad se puede usar para la restricción de subobjetos si se especifica en la estructura [SSubRestriction.](ssubrestriction.md) Esto permite que un cliente limite la vista de un contenedor a los mensajes con destinatarios que cumplan determinados criterios. Un mensaje cumple los requisitos para ver si al menos una fila de la tabla de destinatarios, es decir, un destinatario satisface la restricción de subobjeto. 
+Esta propiedad se puede usar para la restricción de subobjetos si se especifica en la [estructura SSubRestriction.](ssubrestriction.md) Esto permite a un cliente limitar la vista de un contenedor a los mensajes con destinatarios que cumplen criterios determinados. Un mensaje cumple los requisitos para ver si al menos una fila de su tabla de destinatarios, es decir, un destinatario satisface la restricción del subobjeto. 
   
- **Nota** El uso de resultados de restricción de subobjetos equivale a una [llamada IMAPISession::OpenEntry](imapisession-openentry.md) en cada mensaje de la tabla. Según la aplicación cliente y el número de mensajes que se buscarán, puede afectar al rendimiento. 
+ **Nota** El uso de los resultados de restricción de subobjetos equivale a una [llamada IMAPISession::OpenEntry](imapisession-openentry.md) en todos los mensajes de la tabla. Según la aplicación cliente y el número de mensajes que se buscarán, puede afectar al rendimiento. 
   
-La **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) y esta propiedad son similares en uso. Varias propiedades MAPI proporcionan acceso a las tablas: 
+La **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) y esta propiedad son similares en uso. Varias propiedades MAPI proporcionan acceso a tablas: 
   
-|**Propiedad**|**Table**|
+|**Property**|**Table**|
 |:-----|:-----|
-|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Tabla Contents  <br/> |
-|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Tabla Hierarchy  <br/> |
-|**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md))  <br/> |Tabla de contenido asociado  <br/> |
-|**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Tabla Attachment  <br/> |
-|PR_MESSAGE_RECIPIENTS  <br/> |Tabla Recipient  <br/> |
+|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Tabla contenido  <br/> |
+|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Tabla jerarquía  <br/> |
+|**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md))  <br/> |Tabla de contenido asociada  <br/> |
+|**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Tabla de datos adjuntos  <br/> |
+|PR_MESSAGE_RECIPIENTS  <br/> |Tabla de destinatarios  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -76,7 +76,7 @@ La **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachmen
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -88,13 +88,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

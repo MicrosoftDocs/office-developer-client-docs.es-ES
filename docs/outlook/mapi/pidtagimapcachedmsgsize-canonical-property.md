@@ -25,14 +25,14 @@ ms.locfileid: "32346630"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el tamaño del mensaje del protocolo de acceso a mensajes de Internet almacenado en caché.
+Contiene el tamaño del mensaje almacenado en caché del Protocolo de acceso a mensajes de Internet.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |Ninguno  <br/> |
 |Identificador:  <br/> |0x10F0  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Cambiar el nombre de la carpeta del mensaje  <br/> |
+|Área:  <br/> |Cambiar el nombre de la carpeta de mensajes  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,7 +44,7 @@ Contiene el tamaño del mensaje del protocolo de acceso a mensajes de Internet a
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

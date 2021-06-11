@@ -31,13 +31,13 @@ Especifica el usuario que respondió por última vez a la solicitud de reunión 
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidApptReplyName  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008230  <br/> |
+|Id. largo (LID):  <br/> |0x00008230  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad solo se establece para un delegador cuando un delegado respondió. El valor es igual a la **propiedad PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) del almacén del delegado. Esta propiedad no tiene ningún significado para el organizador. Para obtener más **información PR_MAILBOX_OWNER_NAME**, vea el protocolo de objetos de almacén especificado en [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx).
+Esta propiedad solo se establece para un delegado cuando un delegado respondió. El valor es igual a la **propiedad PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) del almacén del delegado. Esta propiedad no tiene ningún significado para el organizador. Para obtener más **información PR_MAILBOX_OWNER_NAME**, vea store object protocol specified in [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -53,7 +53,7 @@ Esta propiedad solo se establece para un delegador cuando un delegado respondió
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -61,13 +61,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

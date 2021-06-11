@@ -31,13 +31,13 @@ Especifica qué propiedades de dirección electrónica se establecen en el conta
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidABPEmailList  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x00008028  <br/> |
+|Id. largo (LID):  <br/> |0x00008028  <br/> |
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cada PT_LONG valor de esta propiedad debe ser único en la propiedad y debe establecerse en uno de los valores de la tabla siguiente. Si se establece esta propiedad, también debe establecerse la propiedad **dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)). Estas dos propiedades deben mantenerse sincronizadas entre sí. Por ejemplo, si uno de los valores de **dispidABPEmailList** es "0x00000000", **dispidABPArrayType** debe tener el bit "0x00000001" establecido. 
+Cada PT_LONG valor de esta propiedad debe ser único en la propiedad y debe establecerse en uno de los valores de la tabla siguiente. Si se establece esta propiedad, también se debe establecer la propiedad **dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)). Estas dos propiedades deben mantenerse sincronizadas entre sí. Por ejemplo, si uno de los valores de **dispidABPEmailList** es "0x00000000", **dispidABPArrayType** debe tener el conjunto de bits "0x00000001". 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
@@ -58,7 +58,7 @@ Cada PT_LONG valor de esta propiedad debe ser único en la propiedad y debe esta
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

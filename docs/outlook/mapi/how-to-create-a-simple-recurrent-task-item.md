@@ -19,13 +19,13 @@ ms.locfileid: "32345475"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI se puede usar para crear elementos de tarea. En este tema se describe cómo crear un elemento de tarea recurrente simple.
+MAPI se puede usar para crear elementos de tarea. En este tema se describe cómo crear un elemento de tarea simple y recurrente.
   
-Para obtener información sobre cómo descargar, ver y ejecutar el código de la aplicación MFCMAPI y el proyecto CreateOutlookItemsAddin al que se hace referencia en este tema, vea [Instalar](how-to-install-the-samples-used-in-this-section.md)los ejemplos usados en esta sección.
+Para obtener información sobre cómo descargar, ver y ejecutar el código desde la aplicación MFCMAPI y el proyecto CreateOutlookItemsAddin al que se hace referencia en este tema, vea [Install the Samples Used in This Section](how-to-install-the-samples-used-in-this-section.md).
 
 ### <a name="to-create-a-task-item"></a>Para crear un elemento de tarea
 
-1. Abra un almacén de mensajes. Para obtener información sobre cómo abrir un almacén de mensajes, vea [Abrir un almacén de mensajes.](opening-a-message-store.md)
+1. Abra un almacén de mensajes. Para obtener información sobre cómo abrir un almacén de mensajes, vea [Opening a Message Store](opening-a-message-store.md).
     
 2. Abra la carpeta Tareas en el almacén de mensajes. Para obtener más información, **vea PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
     
@@ -35,18 +35,18 @@ Para obtener información sobre cómo descargar, ver y ejecutar el código de la
     
 5. Guarde el nuevo elemento de tarea.
     
-La  `AddTask` función del archivo de origen Tasks.cpp del proyecto CreateOutlookItemsAddin muestra estos pasos. La función toma parámetros del cuadro de diálogo Agregar tarea que se muestra al hacer clic en Agregar tarea en el menú Complementos de la aplicación de ejemplo `AddTask` MFCMAPI.    La función de Tasks.cpp muestra el cuadro de diálogo y pasa valores  `DisplayAddTaskDialog` del cuadro de diálogo a la  `AddTask` función. La función no se relaciona directamente con la creación de un elemento de tarea mediante MAPI, por lo  `DisplayAddTaskDialog` que no se muestra aquí. 
+La  `AddTask` función del archivo de origen Tasks.cpp del proyecto CreateOutlookItemsAddin muestra estos pasos. La función toma parámetros del cuadro de diálogo Agregar tarea que se muestra al hacer clic en Agregar tarea en el menú `AddTask` **Addins** de la aplicación de ejemplo MFCMAPI.   La función tasks.cpp muestra el cuadro de diálogo y pasa los valores  `DisplayAddTaskDialog` del cuadro de diálogo a la  `AddTask` función. La función no se relaciona directamente con la creación de un elemento de tarea con MAPI, por lo  `DisplayAddTaskDialog` que no se muestra aquí. 
   
 > [!IMPORTANT]
-> El código de la aplicación MFCMAPI  no garantiza que se  haya seleccionado la carpeta Tareas al hacer clic en el comando Agregar tarea del **menú** Complementos. La creación de elementos de tarea en una carpeta que no sea **la carpeta** Tareas puede provocar un comportamiento no definido. Asegúrese de haber seleccionado la carpeta **Tareas** antes de usar el comando **Agregar** tarea en la aplicación MFCMAPI. 
+> El código de la aplicación MFCMAPI  no garantiza que se  haya seleccionado la carpeta Tareas al hacer clic en el comando Agregar tarea del **menú Addins.** La creación de elementos de tarea en una carpeta que no sea **la carpeta Tareas** puede provocar un comportamiento indefinido. Asegúrese de haber seleccionado la carpeta **Tareas** antes de usar el comando **Agregar tarea** en la aplicación MFCMAPI. 
   
-La  `AddTask` función se muestra a continuación. Tenga en cuenta que el parámetro _lpFolder_ pasado a la función es un puntero a una interfaz IMAPIFolder que representa la carpeta donde `AddTask` se crea la nueva tarea. [](imapifolderimapicontainer.md) Dado el _lpFolder_ que representa una **interfaz IMAPIFolder,** el código llama al método [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) El **método CreateMessage** devuelve un código correcto y un puntero a un puntero a una **interfaz IMessage.** La mayor parte del código de función controla el trabajo de especificar propiedades en preparación para llamar al método `AddTask` [IMAPIProp::SetProps.](imapiprop-setprops.md) Si la llamada al método **SetProps** se realiza correctamente, se llama al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para confirmar los cambios en el almacén y crear un nuevo elemento de tarea. 
+La  `AddTask` función se muestra a continuación. Tenga en cuenta que el parámetro _lpFolder_ pasado a la función es un puntero a una interfaz IMAPIFolder que representa la carpeta donde `AddTask` se crea la nueva tarea. [](imapifolderimapicontainer.md) Dado el _lpFolder_ que representa una **interfaz IMAPIFolder,** el código llama al [método IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) El **método CreateMessage** devuelve un código correcto y un puntero a un puntero a una **interfaz IMessage.** La mayoría del código de función controla el trabajo de especificar propiedades como preparación para llamar al `AddTask` [método IMAPIProp::SetProps.](imapiprop-setprops.md) Si la llamada al **método SetProps** se realiza correctamente, se llama al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para confirmar los cambios en el almacén y crear un nuevo elemento de tarea. 
   
-La  `AddTask` función establece un número de propiedades con nombre. Para obtener información acerca de las propiedades con nombre y cómo se crean, vea Usar MAPI para crear elementos [de Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Dado que las propiedades con nombre usadas para los elementos de tarea ocupan varios conjuntos de propiedades, debe tenerse cuidado al crear parámetros para pasar al método [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) 
+La  `AddTask` función establece un número de propiedades con nombre. Para obtener información sobre las propiedades con nombre y cómo se crean, vea [Using MAPI to Create Outlook 2007 Items](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Dado que las propiedades con nombre usadas para los elementos de tarea ocupan varios conjuntos de propiedades, debe tenerse cuidado al crear parámetros para pasar al método [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) 
   
-La función usa la función auxiliar para crear una estructura que represente una periodicidad de tarea para establecer `AddTask` `BuildWeeklyTaskRecurrencePattern` la propiedad **dispidTaskRecur.** Para obtener información sobre la estructura de periodicidad de la tarea que genera la función, vea Propiedad canónica  `BuildWeeklyTaskRecurrencePattern` [PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md) y Propiedad canónica [PidLidRecurrencePattern](pidlidrecurrencepattern-canonical-property.md). 
+La función usa la función auxiliar para crear una estructura que represente una periodicidad de tarea `AddTask` para establecer la propiedad `BuildWeeklyTaskRecurrencePattern` **dispidTaskRecur.** Para obtener información sobre la estructura de periodicidad de tareas que genera la función, vea  `BuildWeeklyTaskRecurrencePattern` [PidLidTaskRecurrence Canonical Property](pidlidtaskrecurrence-canonical-property.md) y [PidLidRecurrencePattern Canonical Property](pidlidrecurrencepattern-canonical-property.md). 
 
-Tenga en cuenta que aunque una gran variedad de patrones de periodicidad son posibles, la función solo crea  `BuildWeeklyTaskRecurrencePattern` un patrón de periodicidad semanal. También está codificado de forma permanente para una serie de suposiciones, como el tipo de calendario (gregoriano), el primer día de la semana (domingo) y el número de instancias modificadas o eliminadas (ninguna). Una función de creación de patrones de periodicidad de propósito más general tendría que aceptar este tipo de variables como parámetros. 
+Tenga en cuenta que, aunque es posible una gran variedad de patrones de periodicidad, la función solo  `BuildWeeklyTaskRecurrencePattern` crea un patrón de periodicidad semanal. También está codificado de forma permanente para una serie de suposiciones, como el tipo de calendario (gregoriano), el primer día de la semana (domingo) y el número de instancias modificadas o eliminadas (ninguna). Una función de creación de patrones de periodicidad de uso más general tendría que aceptar este tipo de variables como parámetros. 
   
 A continuación se muestra la lista completa de la  `AddTask` función. 
   
@@ -176,7 +176,7 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Uso de MAPI para crear elementos de Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
+- [Uso de MAPI para crear Outlook de 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

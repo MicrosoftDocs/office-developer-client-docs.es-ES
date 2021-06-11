@@ -25,19 +25,19 @@ ms.locfileid: "32342038"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los detalles de personalización del usuario para mostrar un contacto como una tarjeta de presentación.
+Contiene detalles de personalización del usuario para mostrar un contacto como tarjeta de presentación.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidBCDisplayDefinition  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x00008040  <br/> |
+|Id. largo (LID):  <br/> |0x00008040  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El diseño de una tarjeta de presentación se puede representar como una imagen y varios campos de texto. La imagen puede ser una foto de contacto o una imagen de tarjeta. Los campos de texto constan de un valor de otra propiedad establecida en el contacto y una cadena de etiqueta personalizada opcional proporcionada por el usuario. Ten en cuenta que los valores de varios bytes se almacenan en formato little-endian en el búfer.
+El diseño de una tarjeta de presentación se puede representar como una imagen y un número de campos de texto. La imagen puede ser una foto de contacto o una imagen de tarjeta. Los campos de texto constan de un valor de otra propiedad establecida en el contacto y una cadena de etiqueta personalizada opcional proporcionada por el usuario. Tenga en cuenta que los valores de varios bytes se almacenan en formato little-endian en el búfer.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ El diseño de una tarjeta de presentación se puede representar como una imagen 
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

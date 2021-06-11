@@ -1,5 +1,5 @@
 ---
-title: Descarga de los ejemplos MAPI de Outlook
+title: Descargar los ejemplos Outlook MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,33 +15,33 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32338363"
 ---
-# <a name="downloading-the-outlook-mapi-samples"></a>Descarga de los ejemplos MAPI de Outlook
+# <a name="downloading-the-outlook-mapi-samples"></a>Descargar los ejemplos Outlook MAPI
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los ejemplos mapi de Microsoft Outlook incluyen un proveedor de libreta de direcciones, un proveedor de al almacenamiento de mensajes y un proveedor de transporte.
+Los ejemplos Outlook MAPI de Microsoft incluyen un proveedor de libreta de direcciones, un proveedor de almacén de mensajes y un proveedor de transporte.
   
  **Para descargar el proveedor de libreta de direcciones de ejemplo**
   
-1. Para descargar los ejemplos mapi de Outlook, haga clic en la pestaña **Inicio** en la página de ejemplos de código de la API de mensajería de [Outlook (MAPI).](https://ol2010mapisamples.codeplex.com/) 
+1. Para descargar los ejemplos Outlook MAPI,  haga clic en la pestaña Inicio de la página Outlook ejemplos de código de la API de mensajería [(MAPI).](https://ol2010mapisamples.codeplex.com/) 
     
-2. En la **pestaña Inicio,** haga clic aquí para descargar el origen de los ejemplos MAPI de **Outlook 2010.**
+2. En la **pestaña Inicio,** haga clic en Haga clic aquí para descargar el origen de **Outlook ejemplos MAPI de 2010**.
     
-3. Lea el contrato de licencia y, si está de acuerdo, haga clic **en Acepto.**
+3. Lea el contrato de licencia y, si está de acuerdo, haga clic **en Acepto**.
     
-4. En el cuadro **de diálogo Descarga** de archivos, haga clic en **Guardar.** En el **cuadro de diálogo** Guardar como, busque la carpeta en la que desea guardar los archivos de origen y, a continuación, haga clic en **Guardar**.
+4. En el **cuadro de diálogo Descargar** archivo, haga clic en **Guardar**. En el **cuadro de diálogo Guardar** como, busque la carpeta en la que desea guardar los archivos de origen y, a continuación, haga clic en **Guardar**.
     
-5. En el **cuadro de diálogo Descargar completado,** haga clic **en** Cerrar para cerrar el cuadro de diálogo. 
+5. En el **cuadro de diálogo Descargar completado,** haga clic en **Cerrar** para cerrar el cuadro de diálogo. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Ejemplo de proveedor de libreta de direcciones](address-book-provider-sample.md)
   
-[Ejemplo de proveedor de almacén de mensajes](message-store-provider-sample.md)
+[Ejemplo del proveedor del almacén de mensajes](message-store-provider-sample.md)
   
-[Ejemplo de proveedor de transporte](transport-provider-sample.md)
+[Ejemplo del proveedor de transporte](transport-provider-sample.md)
 

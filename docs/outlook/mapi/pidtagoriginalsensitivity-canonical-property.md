@@ -36,9 +36,9 @@ Contiene el valor de confidencialidad asignado por el remitente de la primera ve
    
 ## <a name="remarks"></a>Comentarios
 
-Una aplicación cliente debe establecer esta propiedad en el mismo valor que la propiedad **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) cuando se envía el mensaje por primera vez. Nunca se debe cambiar posteriormente.
+Una aplicación cliente debe establecer esta propiedad en el mismo valor que la **propiedad PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) cuando se envía el mensaje por primera vez. Nunca se debe cambiar posteriormente.
   
-El proveedor de transporte usa esta propiedad para proteger la confidencialidad de las entradas copiadas. Le permite, por ejemplo, bloquear la modificación del texto del mensaje original al reenviar o responder a un mensaje que se marcó originalmente **como SENSITIVITY_PRIVATE**.
+El proveedor de transporte usa esta propiedad para proteger la confidencialidad de las entradas copiadas. Le permite, por ejemplo, bloquear la modificación del texto del mensaje original en un reenvío o responder a un mensaje que se marcó originalmente **SENSITIVITY_PRIVATE**.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ El proveedor de transporte usa esta propiedad para proteger la confidencialidad 
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

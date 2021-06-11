@@ -31,7 +31,7 @@ Especifica el formato de texto enriquecido de la otra dirección de fax del cont
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidFax3RTF  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x000080D6  <br/> |
+|Id. largo (LID):  <br/> |0x000080D6  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
@@ -41,11 +41,11 @@ Especifica el formato de texto enriquecido de la otra dirección de fax del cont
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
+> Proporciona la definición del conjunto de propiedades y las referencias a las Exchange Server de protocolo relacionados.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -31,13 +31,13 @@ Especifica el **EntryId** del objeto que corresponde a la tercera dirección de 
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidEmail3OriginalEntryID  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x000080A5  <br/> |
+|Id. largo (LID):  <br/> |0x000080A5  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de esta propiedad debe ser un **EntryId** de uso único para esta dirección electrónica o un objeto entryId de la libreta de **direcciones válido.**
+El valor de esta propiedad debe ser un **EntryId** único para esta dirección electrónica o un objeto EntryId válido de la libreta **de direcciones.**
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ El valor de esta propiedad debe ser un **EntryId** de uso único para esta direc
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

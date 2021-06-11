@@ -40,10 +40,10 @@ Esta propiedad no es necesaria. Las siguientes son las marcas individuales que s
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|S (recipSendable, 0x00000001)  <br/> |El destinatario es un **asistente que se puede** enviar. Esta marca solo se usa en la propiedad **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).  <br/> |
+|S (recipSendable, 0x00000001)  <br/> |El destinatario es un **asistente para enviar.** Esta marca solo se usa en la **propiedad dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).  <br/> |
 |O (recipOrganizer, 0x0000002)  <br/> |El **RecipientRow** en el que se establece esta marca representa al organizador de la reunión.  <br/> |
-|ER (recipExceptionalResponse, 0x00000010)  <br/> |Indica que el asistente ha dado una respuesta para la excepción en la que **reside este RecipientRow.** Esta marca solo se usa en **recipientRow** de un objeto de mensaje incrustado de excepción del objeto de reunión del organizador.  <br/> |
-|ED (recipExceptionalDeleted, 0x00000020)  <br/> |Indica que, aunque **existe RecipientRow,** debe tratarse como si el destinatario correspondiente no lo hubiera hecho. Esta marca solo se usa en **recipientRow** de un objeto de mensaje incrustado de excepción del objeto de reunión del organizador.  <br/> |
+|ER (recipExceptionalResponse, 0x00000010)  <br/> |Indica que el asistente ha dado una respuesta para la excepción en la que **reside recipientrow.** Esta marca solo se usa en **un Objeto RecipientRow** de un objeto de mensaje incrustado de excepción del objeto de reunión del organizador.  <br/> |
+|ED (recipExceptionalDeleted, 0x00000020)  <br/> |Indica que, aunque **existe RecipientRow,** debe tratarse como si el destinatario correspondiente no lo fuera. Esta marca solo se usa en **un Objeto RecipientRow** de un objeto de mensaje incrustado de excepción del objeto de reunión del organizador.  <br/> |
 |X (reservado, 0x00000040)  <br/> |No se debe establecer.  <br/> |
 |X (reservado, 0x00000080)  <br/> |No se debe establecer.  <br/> |
 |G (recipOriginal, 0x00000100)  <br/> |Indica que el destinatario es un asistente original. Esta marca solo se usa en la **propiedad dispidApptUnsendableRecips.**  <br/> |
@@ -59,7 +59,7 @@ Esta propiedad no es necesaria. Las siguientes son las marcas individuales que s
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -71,13 +71,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

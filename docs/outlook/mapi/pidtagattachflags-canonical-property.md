@@ -25,7 +25,7 @@ ms.locfileid: "32339336"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de bits de marcas para datos adjuntos. 
+Contiene una máscara de bits de marcas para un dato adjunto. 
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Contiene una máscara de bits de marcas para datos adjuntos.
 
 Esta propiedad se usa para la compatibilidad con MHTML. 
   
-Se pueden establecer una o varias de las siguientes marcas para la **máscara PR_ATTACH_FLAGS** bits: 
+Se pueden establecer una o varias de las siguientes marcas **para la máscara PR_ATTACH_FLAGS** bits: 
   
 ATT_INVISIBLE_IN_HTML 
   
@@ -46,9 +46,9 @@ ATT_INVISIBLE_IN_HTML
     
 ATT_INVISIBLE_IN_RTF 
   
-> Indica que estos datos adjuntos no están disponibles para las aplicaciones que se representa en formato de texto enriquecido (RTF) y deben omitirse mediante MAPI.
+> Indica que estos datos adjuntos no están disponibles para la representación de aplicaciones en formato de texto enriquecido (RTF) y mapi debe omitirlos.
     
-Si la **PR_ATTACH_FLAGS** es cero o no está presente, todas las aplicaciones procesarán los datos adjuntos. 
+Si la **PR_ATTACH_FLAGS** es cero o ausente, todas las aplicaciones procesarán los datos adjuntos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -56,7 +56,7 @@ Si la **PR_ATTACH_FLAGS** es cero o no está presente, todas las aplicaciones pr
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

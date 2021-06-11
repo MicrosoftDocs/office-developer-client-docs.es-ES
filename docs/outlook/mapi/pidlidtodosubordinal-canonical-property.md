@@ -25,19 +25,19 @@ ms.locfileid: "32344922"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Actúa como separador de empates cuando la propiedad **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) ordena objetos y el resultado es una empate.
+Actúa como desempate cuando la propiedad **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) ordena objetos y el resultado es una empate.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidToDoSubOrdinal  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x000085A1  <br/> |
+|Id. largo (LID):  <br/> |0x000085A1  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si se usa, esta propiedad debe ordenarse léxicamente. Los caracteres componentes de la cadena deben constar solo de los números de cero a nueve. Esta propiedad debe establecerse inicialmente en "5555555". La longitud de esta propiedad no debe superar los 254 caracteres (excepto el carácter NULL de terminación).
+Si se usa, esta propiedad debe ordenarse léxicografíamente. Los caracteres de componente de la cadena deben estar formados solo por los números de cero a nueve. Esta propiedad debe establecerse inicialmente en "5555555". La longitud de esta propiedad no debe superar los 254 caracteres (excepto el carácter NULL de finalización).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Si se usa, esta propiedad debe ordenarse léxicamente. Los caracteres componente
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,7 +57,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -66,7 +66,7 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

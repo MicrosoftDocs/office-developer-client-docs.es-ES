@@ -31,13 +31,13 @@ Contiene una secuencia que se asigna al formato persistente de una estructura [T
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTimeZoneStruct  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008233  <br/> |
+|Id. largo (LID):  <br/> |0x00008233  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Calendar  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Microsoft Office Outlook 2003, versiones anteriores de Outlook y aplicaciones basadas en Objetos de datos de colaboración (CDO) 1.21 cuyos usuarios no han ejecutado la herramienta de actualización de calendario proporcionada por Outlook o Exchange Server almacenan la hora de inicio y finalización de una cita periódica o una solicitud de reunión como hora relativa, y almacenan la zona horaria donde se crea la cita o la solicitud de reunión en **dispidTimeZoneStruct**. Sin embargo, este esquema omite que con el tiempo, las reglas de zona horaria pueden cambiar, lo que da como resultado algunas citas y reuniones que los usuarios programaron antes de que las reglas cambiaron y se producen en momentos incorrectos. Los usuarios y administradores que no ejecutan Windows Vista o que no tienen actualizaciones automáticas activadas deben usar las herramientas de reajuste de calendario proporcionadas por Outlook o Exchange Server para ajustar la hora de dichas citas y solicitudes de reunión. Para obtener más información acerca de estas API y herramientas de reabasado de calendarios que rebasen calendarios, vea Acerca del reabasado de [calendarios](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx) mediante programación para el horario de verano
+Microsoft Office Outlook 2003, versiones anteriores de Outlook y aplicaciones basadas en objetos de datos de colaboración (CDO) 1.21 cuyos usuarios no han ejecutado la herramienta de actualización de calendario proporcionada por Outlook o Exchange Server almacenan la hora de inicio y finalización de una cita periódica o una solicitud de reunión como hora relativa, y almacenan la zona horaria donde se crea la cita o la solicitud de reunión en **dispidTimeZoneStruct**. Sin embargo, este esquema omite que, con el tiempo, las reglas de zona horaria pueden cambiar, lo que da como resultado algunas citas y reuniones que los usuarios programaron antes de que las reglas cambiaron y se producen en momentos incorrectos. Los usuarios y administradores que no ejecutan Windows Vista o que no tienen actualizaciones automáticas activadas deben usar las herramientas de cambio de calendario proporcionadas por Outlook o Exchange Server para ajustar el tiempo de dichas citas y solicitudes de reunión. Para obtener más información acerca de estas API y herramientas de rebasado de calendarios que rebasen calendarios, vea About [rebasing calendars programmatically for Daylight Saving Time](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx)
   
 Use el siguiente formato little-endian al analizar una secuencia obtenida de **dispidTimeZoneStruct** o al conservar la estructura **TZREG** en una secuencia para confirmar la propiedad binaria **dispidTimeZoneStruct.** 
   
@@ -63,7 +63,7 @@ Esta propiedad se establece en una serie periódica para especificar informació
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -71,13 +71,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

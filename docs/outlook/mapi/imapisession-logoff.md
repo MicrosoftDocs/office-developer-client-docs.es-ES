@@ -35,23 +35,23 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que se mostrarán. Este parámetro se omite si no se MAPI_LOGOFF_UI marca de destino.
+> [in] Identificador de la ventana principal de los cuadros de diálogo o ventanas que se mostrarán. Este parámetro se omite si no se MAPI_LOGOFF_UI marca.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controlan la operación de cierre de sesión. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controlan la operación de cierre de sesión. Se pueden establecer las siguientes marcas:
     
 MAPI_LOGOFF_SHARED 
   
-> Si esta sesión se comparte, todos los clientes que hayan iniciado sesión con la sesión compartida deben recibir una notificación del cierre de sesión en curso. Los clientes deben cerrar sesión. Cualquier cliente que use la sesión compartida puede establecer esta marca. MAPI_LOGOFF_SHARED se omite si no se comparte la sesión actual.
+> Si se comparte esta sesión, todos los clientes que iniciaron sesión con la sesión compartida deben recibir una notificación del cierre de sesión en curso. Los clientes deben cerrar sesión. Cualquier cliente que use la sesión compartida puede establecer esta marca. MAPI_LOGOFF_SHARED se omite si no se comparte la sesión actual.
     
 MAPI_LOGOFF_UI 
   
-> **Cerrar sesión** puede mostrar un cuadro de diálogo durante la operación, posiblemente solicitando confirmación al usuario. 
+> **La cierre de** sesión puede mostrar un cuadro de diálogo durante la operación, lo que puede pedir confirmación al usuario. 
     
  _ulReserved_
   
@@ -65,13 +65,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISession::Logoff** finaliza una sesión MAPI. Cuando **logoff** devuelve, no se puede llamar a ninguno de los métodos excepto [para IUnknown::Release.](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) 
+El **método IMAPISession::Logoff** finaliza una sesión MAPI. Cuando **logoff** devuelve, no se puede llamar a ninguno de los métodos excepto [IUnknown::Release.](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
 Cuando **logoff** devuelve, libera el objeto de sesión llamando a su **método IUnknown::Release.** 
   
-Para obtener más información acerca de cómo finalizar una sesión, vea [Finalizar una sesión MAPI](ending-a-mapi-session.md).
+Para obtener más información acerca de cómo finalizar una sesión, vea [Ending a MAPI Session](ending-a-mapi-session.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -82,9 +82,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI usa el **método IMAPISession::Logoff** para cerrar sesión de la sesión antes de liberarla.  <br/> |
    
 > [!NOTE]
-> Debido al comportamiento de cierre rápido introducido en Microsoft Office Outlook 2007 Service Pack 2, Microsoft Outlook 2010 y Microsoft Outlook 2013, los clientes nunca deben pasar el parámetro **MAPI_LOGOFF_SHARED a** [IMAPISession::Logoff](imapisession-logoff.md). Pasar **MAPI_LOGOFF_SHARED** hará que todos los clientes MAPI comiencen el apagado y se producirá un comportamiento inesperado. 
+> Debido al comportamiento de apagado rápido introducido en Microsoft Office Outlook 2007 Service Pack 2, Microsoft Outlook 2010 y Microsoft Outlook 2013, los clientes nunca deben pasar el parámetro **MAPI_LOGOFF_SHARED a** [IMAPISession::Logoff](imapisession-logoff.md). Pasar **MAPI_LOGOFF_SHARED** hará que todos los clientes MAPI comiencen a cerrarse y se producirá un comportamiento inesperado. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

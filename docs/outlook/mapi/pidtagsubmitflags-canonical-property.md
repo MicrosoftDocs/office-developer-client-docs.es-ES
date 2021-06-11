@@ -36,15 +36,15 @@ Contiene una máscara de bits de marcas que indica detalles sobre el envío de u
    
 ## <a name="remarks"></a>Comentarios
 
-Se pueden establecer una o varias de las siguientes marcas para la **máscara PR_SUBMIT_FLAGS** bits: 
+Se pueden establecer una o varias de las siguientes marcas para la **máscara PR_SUBMIT_FLAGS** de bits: 
   
 SUBMITFLAG_LOCKED 
   
-> Actualmente, la cola MAPI tiene el mensaje bloqueado. 
+> La cola MAPI tiene actualmente el mensaje bloqueado. 
     
 SUBMITFLAG_PREPROCESS 
   
-> El mensaje necesita preprocesamiento. Cuando la cola MAPI termine de preprocesar este mensaje, debe llamar al [método IMessage::SubmitMessage.](imessage-submitmessage.md) El proveedor del almacén de mensajes reconoce que la cola, en lugar de la aplicación cliente, ha llamado **SubmitMessage**, borra la marca y continúa el envío de mensajes.
+> El mensaje necesita preprocesamiento. Cuando la cola MAPI haya terminado de procesar previamente este mensaje, debe llamar al [método IMessage::SubmitMessage.](imessage-submitmessage.md) El proveedor del almacén de mensajes reconoce que el spooler, en lugar de la aplicación cliente, ha llamado **SubmitMessage**, borra la marca y continúa el envío de mensajes.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -68,7 +68,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -77,7 +77,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

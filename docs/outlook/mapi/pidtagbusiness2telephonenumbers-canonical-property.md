@@ -25,7 +25,7 @@ ms.locfileid: "32345706"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de números de teléfono de una empresa.
+Contiene una lista de números de teléfono para una empresa.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene una lista de números de teléfono de una empresa.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad puede usarse para enumerar números de teléfono alternativos o una lista de extensiones para una empresa.
+Esta propiedad se puede usar para enumerar números de teléfono alternativos o una lista de extensiones para una empresa.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,9 +46,9 @@ Esta propiedad puede usarse para enumerar números de teléfono alternativos o u
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,13 +25,13 @@ ms.locfileid: "32348436"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el código de país de la dirección de correo del contacto.
+Especifica el código de país de la dirección postal del contacto.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidAddressCountryCode  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x000080DD  <br/> |
+|Id. largo (LID):  <br/> |0x000080DD  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
@@ -45,7 +45,7 @@ Especifica el código de país de la dirección de correo del contacto.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -19,15 +19,15 @@ ms.locfileid: "32345846"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Todas las interfaces implementadas por objetos MAPI heredan finalmente de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), la interfaz OLE que permite que los objetos se comuniquen. La mayoría de las interfaces heredan directamente de **IUnknown,** pero algunas heredan de una de las otras dos interfaces base: [IMAPIProp : IUnknown](imapipropiunknown.md) o [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md). En la siguiente ilustración se muestra la jerarquía de herencia completa en MAPI.
+Todas las interfaces implementadas por objetos MAPI heredan en última instancia de [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), la interfaz OLE que permite que los objetos se comuniquen. La mayoría de las interfaces heredan directamente de **IUnknown,** pero algunas heredan de otras dos interfaces base: [IMAPIProp : IUnknown](imapipropiunknown.md) o [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md). En la ilustración siguiente se muestra la jerarquía de herencia completa en MAPI.
   
 **Jerarquía de herencia de MAPI**
   
 ![Jerarquía de herencia MAPI jerarquía]de herencia(media/amapi_06.gif "MAPI")
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IMAPIProp : IUnknown](imapipropiunknown.md) 
 - [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-- [Información general sobre el objeto MAPI y la interfaz](mapi-object-and-interface-overview.md)
+- [Introducción a la interfaz y el objeto MAPI](mapi-object-and-interface-overview.md)
 

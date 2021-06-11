@@ -27,19 +27,19 @@ ms.locfileid: "32338342"
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |
 |Estructura de datos relacionada:  <br/> |**[DNTBL](dntbl.md)** <br/> |
-|Desde este estado:  <br/> |[Sincronizar el estado del contenido](synchronize-contents-state.md) <br/> |
-|A este estado:  <br/> |Sincronizar el estado del contenido  <br/> |
+|Desde este estado:  <br/> |[Sincronizar el estado de contenido](synchronize-contents-state.md) <br/> |
+|A este estado:  <br/> |Sincronizar el estado de contenido  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que va de un estado a otro debe volver al primero desde el segundo. 
+> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que sale de un estado a otro debe volver al primero desde el segundo. 
   
-## <a name="description"></a>Description
+## <a name="description"></a>Descripción
 
-Este estado inicia la descarga de una carpeta. Durante este estado, Outlook inicializa la estructura de datos **DNTBL** asociada con información sobre la carpeta. El cliente descarga el contenido de la carpeta y actualiza la carpeta en el almacén local con nuevos contenidos, modificaciones o eliminaciones del servidor. El proceso de descarga adopta la sincronización de cambios incrementales (ICS) de Microsoft Exchange. Para obtener más información sobre ICS, consulte [Criterios de evaluación ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+Este estado inicia la descarga de una carpeta. Durante este estado, Outlook inicializa la estructura de datos **de DNTBL** asociada con información sobre la carpeta. El cliente descarga el contenido de la carpeta y actualiza la carpeta en el almacén local con nuevos contenidos, modificaciones o eliminaciones del servidor. El proceso de descarga adopta Microsoft Exchange sincronización incremental de cambios (ICS). Para obtener más información sobre ICS, consulte [Criterios de evaluación ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
-Cuando finaliza este estado, el almacén local vuelve al estado de sincronización de contenidos.
+Cuando finaliza este estado, el almacén local vuelve al estado de sincronización de contenido.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

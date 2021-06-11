@@ -17,9 +17,9 @@ ms.locfileid: "32346427"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Este tema contiene un ejemplo de código en C++ que muestra cómo llamar a la función [MAPICrashRecovery](mapicrashrecovery.md) desde la función [UnhandledExceptionFilter.](https://msdn.microsoft.com/library/ms681401%28VS.85%29.aspx) La [función MAPICrashRecovery](mapicrashrecovery.md) comprueba el estado de la memoria compartida del archivo de carpetas personales (PST) o del archivo de carpetas sin conexión (OST). 
+Este tema contiene un ejemplo de código en C++ que muestra cómo llamar a la función [MAPICrashRecovery](mapicrashrecovery.md) desde la función [UnhandledExceptionFilter.](https://msdn.microsoft.com/library/ms681401%28VS.85%29.aspx) La [función MAPICrashRecovery](mapicrashrecovery.md) comprueba el estado de la memoria compartida del archivo de carpetas personales (PST) o de carpetas sin conexión (OST). 
 
-Si la memoria está en un estado coherente, la función [MAPICrashRecovery](mapicrashrecovery.md) mueve los datos al disco y evita el acceso de lectura o escritura hasta que finaliza el proceso. Al asegurarse de que los ARCHIVOS OST están en un estado coherente antes de que finalice el proceso, puede evitar que Microsoft Outlook 2010 o Microsoft Outlook 2013 muestren el siguiente mensaje de error y evitar problemas de rendimiento: 
+Si la memoria está en un estado coherente, la función [MAPICrashRecovery](mapicrashrecovery.md) mueve los datos al disco e impide el acceso de lectura o escritura hasta que finalice el proceso. Al asegurarse de que los PST o los OST están en un estado coherente antes de que finalice el proceso, puede impedir que Microsoft Outlook 2010 o Microsoft Outlook 2013 muestren el siguiente mensaje de error y evitar problemas de rendimiento: 
   
 **Un archivo de datos no se ha cerrado correctamente la última vez que se usó y se está buscando problemas. El rendimiento puede verse afectado mientras la comprobación está en curso.**
   
@@ -50,7 +50,7 @@ LONG WINAPI UnhandledExceptionFilter(__in EXCEPTION_POINTERS* pep)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de recuperación de bloqueo de MAPI](about-the-mapi-crash-recovery-api.md) 
 - [MAPICrashRecovery](mapicrashrecovery.md)

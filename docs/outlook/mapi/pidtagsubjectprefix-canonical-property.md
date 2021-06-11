@@ -25,7 +25,7 @@ ms.locfileid: "32339231"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un prefijo de asunto que normalmente indica alguna acción en un mensaje, como "FW: " para el reenvío. 
+Contiene un prefijo de asunto que normalmente indica alguna acción en un mensaje, como "FW: " para reenviar. 
   
 |||
 |:-----|:-----|
@@ -38,13 +38,13 @@ Contiene un prefijo de asunto que normalmente indica alguna acción en un mensaj
 
 Estas propiedades se recomiendan en todos los objetos de mensaje. 
   
-El prefijo de asunto consta de uno o más caracteres alfanuméricos, seguidos de dos puntos y un espacio (que forman parte del prefijo). No debe contener caracteres no alfanuméricos delante de los dos puntos. La ausencia de un prefijo se puede representar con una cadena vacía o con esta propiedad que no se establece. 
+El prefijo de sujeto consta de uno o más caracteres alfanuméricos, seguidos de dos puntos y un espacio (que forman parte del prefijo). No debe contener ningún carácter nonalphanumeric delante de los dos puntos. La ausencia de un prefijo puede representarse mediante una cadena vacía o por esta propiedad que no se está configurando. 
   
-Si estas propiedades se establecen explícitamente, la cadena puede tener cualquier longitud y usar cualquier carácter alfanumérico, pero debe coincidir con una subcadena al principio de la propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). Si el remitente no establece estas propiedades y deben calcularse, su contenido está más restringido. La regla para calcular el prefijo es que **PR_SUBJECT** debe comenzar con una, dos o tres letras (solo alfabética) seguidas de dos puntos y un espacio. Si dicha subcadena se encuentra al principio de **PR_SUBJECT**, se convierte en la cadena de estas propiedades (y también permanece al principio de **PR_SUBJECT**). De lo contrario, estas propiedades permanecen sin conjunto. 
+Si estas propiedades se establecen explícitamente, la cadena puede ser de cualquier longitud y usar cualquier carácter alfanumérico, pero debe coincidir con una subcadena al principio de la propiedad **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). Si el remitente no establece estas propiedades y debe calcularse, su contenido está más restringido. La regla para calcular el prefijo es **que PR_SUBJECT** debe comenzar con una, dos o tres letras (solo alfabéticas) seguidas de dos puntos y un espacio. Si dicha subcadena se encuentra al principio de **PR_SUBJECT**, se convierte en la cadena de estas propiedades (y también permanece al principio de **PR_SUBJECT**). De lo contrario, estas propiedades permanecen sin conjunto. 
   
-Estas propiedades **y PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) deben calcularse como parte de la [implementación de IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Un cliente no debe solicitar a [IMAPIProp::GetProps](imapiprop-getprops.md) sus valores hasta que se hayan confirmado mediante una llamada **IMAPIProp::SaveChanges.** 
+Estas propiedades **y PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) deben calcularse como parte de la [implementación IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Un cliente no debe solicitar [a IMAPIProp::GetProps](imapiprop-getprops.md) sus valores hasta que se hayan confirmado mediante una llamada **IMAPIProp::SaveChanges.** 
   
-Las propiedades de asunto suelen ser cadenas pequeñas de menos de 256 caracteres y un proveedor de almacenamiento de mensajes no está obligado a admitir la interfaz **OLE IStream** en ellas. Un cliente siempre debe intentar obtener acceso a través de la interfaz **IMAPIProp** en primer lugar y recurrir a **IStream** solo si MAPI_E_NOT_ENOUGH_MEMORY **se** devuelve. 
+Las propiedades del asunto suelen ser pequeñas cadenas de menos de 256 caracteres y un proveedor de almacén de mensajes no está obligado a admitir la interfaz **OLE IStream** en ellas. Un cliente siempre debe intentar el acceso a través de la interfaz **IMAPIProp** primero y recurrir a **IStream** solo **si MAPI_E_NOT_ENOUGH_MEMORY** se devuelve. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -56,11 +56,11 @@ Las propiedades de asunto suelen ser cadenas pequeñas de menos de 256 caractere
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -72,13 +72,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -36,7 +36,7 @@ Contiene un conjunto de bits que indica los derechos de este miembro en una carp
    
 ## <a name="remarks"></a>Comentarios
 
-La interfaz de [IExchangeModifyTable](iexchangemodifytableiunknown.md) usa esta propiedad para definir los derechos de un miembro en una carpeta. Estos derechos se pueden mostrar y modificar. Los siguientes valores son derechos definidos para esta propiedad. 
+La interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) usa esta propiedad para definir los derechos de un miembro en una carpeta. Estos derechos se pueden mostrar y modificar. Los siguientes valores son derechos definidos para esta propiedad. 
   
 frightsReadAny
   
@@ -108,11 +108,11 @@ rightsAll
     
 [[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Controla la recuperación de listas de permisos de carpeta almacenadas en el servidor.
+> Controla la recuperación de listas de permisos de carpetas almacenadas en el servidor.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica métodos para conectarse a buzones y configurarlos como delegados e interacciones con elementos de mensaje y calendario cuando actúan en nombre de otro usuario.
+> Especifica métodos para conectarse a buzones y configurarlos como delegados e interacciones con elementos de calendario y mensajes cuando actúan en nombre de otro usuario.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -124,7 +124,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -133,7 +133,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

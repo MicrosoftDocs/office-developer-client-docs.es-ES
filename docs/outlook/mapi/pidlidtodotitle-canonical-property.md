@@ -25,23 +25,23 @@ ms.locfileid: "32339945"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene texto especificado por el usuario para identificar este objeto de mensaje en una lista de tareas que se ha consolidado.
+Contiene texto que puede ser especificado por el usuario para identificar este objeto de mensaje en una lista consolidada de tareas por hacer.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidToDoTitle  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x000085A4  <br/> |
+|Id. largo (LID):  <br/> |0x000085A4  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Esta propiedad no debe establecerse en una tarea. Para indicar una propiedad vacía, no establezca esta propiedad en la cadena de longitud cero, sino que la elimine. 
   
-Al marcar un objeto de mensaje y la propiedad no existe, un cliente debe escribir el valor de **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) en esta propiedad.
+Al marcar un objeto message y la propiedad no existe, un cliente debe escribir el valor de **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) en esta propiedad.
   
-En una lista consolidada de tareas, si esta propiedad no existe, un cliente debe sustituir el valor de la propiedad **PR_NORMALIZED_SUBJECT** al mostrar esta propiedad en la lista de tareas. 
+En una lista consolidada de tareas, si esta propiedad no existe, un cliente debe sustituir el valor de la propiedad **PR_NORMALIZED_SUBJECT** al mostrar esta propiedad en la lista de tareas por hacer. 
   
 En un objeto de borrador de mensaje, si el cliente implementa marcas de remitente, esta propiedad debe establecerse en el mismo valor que **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)).
   
@@ -51,11 +51,11 @@ En un objeto de borrador de mensaje, si el cliente implementa marcas de remitent
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones Exchange Server protocolo relacionados
+> Proporciona definiciones de conjunto de propiedades y referencias a especificaciones Exchange Server de protocolo relacionados
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -74,7 +74,7 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

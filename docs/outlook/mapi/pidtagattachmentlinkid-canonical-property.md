@@ -36,7 +36,7 @@ Indica el tipo de objeto Message al que están vinculados estos datos adjuntos.
    
 ## <a name="remarks"></a>Comentarios
 
-Debe ser 0, a menos que lo invalide otro protocolo que extienda el protocolo de objetos message y Attachment, como se indica en [[MS-OXCMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx).
+Debe ser 0, a menos que se invalide por otros protocolos que amplían el protocolo de objetos Message y Attachment, como se indica en [[MS-OXCMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,11 +44,11 @@ Debe ser 0, a menos que lo invalide otro protocolo que extienda el protocolo de 
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
-[[MS-OJOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de diario.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de diario.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

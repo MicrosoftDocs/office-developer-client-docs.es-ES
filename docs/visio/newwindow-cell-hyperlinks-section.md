@@ -31,7 +31,7 @@ Para obtener una referencia a la celda NewWindow por su nombre desde otra fórmu
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Hipervínculo.  *Nombre*  . NewWindow donde Hyperlink.  *El*  nombre es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Hipervínculo.  *Nombre*  . NewWindow donde Hyperlink.  *Name*  es el nombre de fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda NewWindow por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 
