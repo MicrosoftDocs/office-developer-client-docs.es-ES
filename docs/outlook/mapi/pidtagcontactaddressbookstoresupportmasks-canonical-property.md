@@ -19,46 +19,46 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427804"
 ---
-# <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a><span data-ttu-id="45b83-103">Propiedad canónica PidTagContactAddressBookStoreSupportMasks</span><span class="sxs-lookup"><span data-stu-id="45b83-103">PidTagContactAddressBookStoreSupportMasks Canonical Property</span></span>
+# <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a><span data-ttu-id="25af0-103">Propiedad canónica PidTagContactAddressBookStoreSupportMasks</span><span class="sxs-lookup"><span data-stu-id="25af0-103">PidTagContactAddressBookStoreSupportMasks Canonical Property</span></span>
 
   
   
-<span data-ttu-id="45b83-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="45b83-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="25af0-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="25af0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="45b83-105">Contiene marcas que indican las características admitidas de la tienda.</span><span class="sxs-lookup"><span data-stu-id="45b83-105">Contains flags indicating the store's supported features.</span></span>
+<span data-ttu-id="25af0-105">Contiene marcas que indican las características admitidas del almacén.</span><span class="sxs-lookup"><span data-stu-id="25af0-105">Contains flags indicating the store's supported features.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="45b83-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="45b83-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="45b83-107">PR_CONTAB_STORE_SUPPORT_MASKS</span><span class="sxs-lookup"><span data-stu-id="45b83-107">PR_CONTAB_STORE_SUPPORT_MASKS</span></span>  <br/> |
-|<span data-ttu-id="45b83-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="45b83-108">Identifier:</span></span>  <br/> |<span data-ttu-id="45b83-109">0x6621</span><span class="sxs-lookup"><span data-stu-id="45b83-109">0x6621</span></span>  <br/> |
-|<span data-ttu-id="45b83-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="45b83-110">Data type:</span></span>  <br/> |<span data-ttu-id="45b83-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="45b83-111">PT_MV_LONG</span></span>  <br/> |
-|<span data-ttu-id="45b83-112">Área:</span><span class="sxs-lookup"><span data-stu-id="45b83-112">Area:</span></span>  <br/> |<span data-ttu-id="45b83-113">Libreta de direcciones de contactos</span><span class="sxs-lookup"><span data-stu-id="45b83-113">Contact address book</span></span>  <br/> |
+|<span data-ttu-id="25af0-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="25af0-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="25af0-107">PR_CONTAB_STORE_SUPPORT_MASKS</span><span class="sxs-lookup"><span data-stu-id="25af0-107">PR_CONTAB_STORE_SUPPORT_MASKS</span></span>  <br/> |
+|<span data-ttu-id="25af0-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="25af0-108">Identifier:</span></span>  <br/> |<span data-ttu-id="25af0-109">0x6621</span><span class="sxs-lookup"><span data-stu-id="25af0-109">0x6621</span></span>  <br/> |
+|<span data-ttu-id="25af0-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="25af0-110">Data type:</span></span>  <br/> |<span data-ttu-id="25af0-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="25af0-111">PT_MV_LONG</span></span>  <br/> |
+|<span data-ttu-id="25af0-112">Área:</span><span class="sxs-lookup"><span data-stu-id="25af0-112">Area:</span></span>  <br/> |<span data-ttu-id="25af0-113">Libreta de direcciones de contactos</span><span class="sxs-lookup"><span data-stu-id="25af0-113">Contact address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="45b83-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="45b83-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="25af0-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="25af0-114">Remarks</span></span>
 
-<span data-ttu-id="45b83-115">Esta propiedad se obtiene de los almacenes que contienen las carpetas Contactos.</span><span class="sxs-lookup"><span data-stu-id="45b83-115">This property is obtained from the stores which contains the Contacts folders.</span></span> <span data-ttu-id="45b83-116">El proveedor de libreta de direcciones de contactos lo usa para evaluar la idoneidad de las características admitidas del almacén.</span><span class="sxs-lookup"><span data-stu-id="45b83-116">The Contact Address Book provider uses it to evaluate the adequacy of the store's supported features.</span></span> <span data-ttu-id="45b83-117">Es una propiedad de una sección de perfil de libreta de direcciones de contactos.</span><span class="sxs-lookup"><span data-stu-id="45b83-117">It is a property on a Contact Address Book profile section.</span></span> 
+<span data-ttu-id="25af0-115">Esta propiedad se obtiene de los almacenes que contienen las carpetas Contactos.</span><span class="sxs-lookup"><span data-stu-id="25af0-115">This property is obtained from the stores which contains the Contacts folders.</span></span> <span data-ttu-id="25af0-116">El proveedor de la libreta de direcciones de contactos lo usa para evaluar la idoneidad de las características admitidas del almacén.</span><span class="sxs-lookup"><span data-stu-id="25af0-116">The Contact Address Book provider uses it to evaluate the adequacy of the store's supported features.</span></span> <span data-ttu-id="25af0-117">Es una propiedad de una sección de perfil de libreta de direcciones de contactos.</span><span class="sxs-lookup"><span data-stu-id="25af0-117">It is a property on a Contact Address Book profile section.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="45b83-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="45b83-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="25af0-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="25af0-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="45b83-119">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="45b83-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="25af0-119">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="25af0-119">Header files</span></span>
 
-<span data-ttu-id="45b83-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="45b83-120">Mapidefs.h</span></span>
+<span data-ttu-id="25af0-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="25af0-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="45b83-121">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="45b83-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="25af0-121">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="25af0-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="45b83-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="45b83-122">Mapitags.h</span></span>
+<span data-ttu-id="25af0-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="25af0-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="45b83-123">Contiene definiciones de propiedades enumeradas como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="45b83-123">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="25af0-123">Contiene definiciones de propiedades enumeradas como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="25af0-123">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="45b83-124">Consulte también</span><span class="sxs-lookup"><span data-stu-id="45b83-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="25af0-124">Vea también</span><span class="sxs-lookup"><span data-stu-id="25af0-124">See also</span></span>
 
 
 
-[<span data-ttu-id="45b83-125">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="45b83-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="25af0-125">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="25af0-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="45b83-126">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="45b83-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="25af0-126">Propiedades canónicas MAPI</span><span class="sxs-lookup"><span data-stu-id="25af0-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="45b83-127">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="45b83-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="25af0-127">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="25af0-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="45b83-128">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="45b83-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="25af0-128">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="25af0-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

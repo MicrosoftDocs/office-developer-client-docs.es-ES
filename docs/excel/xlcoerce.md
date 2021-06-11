@@ -18,42 +18,42 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424836"
 ---
-# <a name="xlcoerce"></a><span data-ttu-id="ad848-104">xlCoerce</span><span class="sxs-lookup"><span data-stu-id="ad848-104">xlCoerce</span></span>
+# <a name="xlcoerce"></a><span data-ttu-id="8f35c-104">xlCoerce</span><span class="sxs-lookup"><span data-stu-id="8f35c-104">xlCoerce</span></span>
 
- <span data-ttu-id="ad848-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="ad848-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="8f35c-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="8f35c-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="ad848-106">Convierte un tipo de **XLOPER** /  **XLOPER12** en otro o busca valores de celda en una hoja.</span><span class="sxs-lookup"><span data-stu-id="ad848-106">Converts one type of **XLOPER**/ **XLOPER12** to another, or looks up cell values on a sheet.</span></span> 
+<span data-ttu-id="8f35c-106">Convierte un tipo de **XLOPER** /  **XLOPER12** en otro o busca valores de celda en una hoja.</span><span class="sxs-lookup"><span data-stu-id="8f35c-106">Converts one type of **XLOPER**/ **XLOPER12** to another, or looks up cell values on a sheet.</span></span> 
   
 ```cs
 Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestType);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ad848-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ad848-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8f35c-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="8f35c-107">Parameters</span></span>
 
- <span data-ttu-id="ad848-108">_pxSource_</span><span class="sxs-lookup"><span data-stu-id="ad848-108">_pxSource_</span></span>
+ <span data-ttu-id="8f35c-108">_pxSource_</span><span class="sxs-lookup"><span data-stu-id="8f35c-108">_pxSource_</span></span>
   
-<span data-ttu-id="ad848-109">**XLOPER** /  **XLOPER12** de origen que se debe convertir.</span><span class="sxs-lookup"><span data-stu-id="ad848-109">The source **XLOPER**/ **XLOPER12** that needs to be converted.</span></span> 
+<span data-ttu-id="8f35c-109">**XLOPER** /  **XLOPER12** de origen que debe convertirse.</span><span class="sxs-lookup"><span data-stu-id="8f35c-109">The source **XLOPER**/ **XLOPER12** that needs to be converted.</span></span> 
   
- <span data-ttu-id="ad848-110">_pxDestType_ (**xltypeInt**)</span><span class="sxs-lookup"><span data-stu-id="ad848-110">_pxDestType_ (**xltypeInt**)</span></span>
+ <span data-ttu-id="8f35c-110">_pxDestType_ (**xltypeInt**)</span><span class="sxs-lookup"><span data-stu-id="8f35c-110">_pxDestType_ (**xltypeInt**)</span></span>
   
-<span data-ttu-id="ad848-111">(Opcional).</span><span class="sxs-lookup"><span data-stu-id="ad848-111">(Optional).</span></span> <span data-ttu-id="ad848-112">Máscara de bits de los tipos resultantes que estás dispuesto a aceptar.</span><span class="sxs-lookup"><span data-stu-id="ad848-112">A bit-mask of the resulting types you are willing to accept.</span></span> <span data-ttu-id="ad848-113">Debe usar el operador **OR** bit a bit ( | ) para especificar varios tipos posibles.</span><span class="sxs-lookup"><span data-stu-id="ad848-113">You should use the bitwise **OR** operator ( | ) to specify multiple possible types.</span></span> <span data-ttu-id="ad848-114">Si se omite este argumento, las referencias a celdas únicas se convierten en uno de los tipos de valor **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (si la celda a la que se hace referencia está vacía) y las referencias a bloques de celdas se convierten en **xltypeMulti**.</span><span class="sxs-lookup"><span data-stu-id="ad848-114">If this argument is omitted, references to single cells are converted to one of the value types **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (if the referred-to cell is empty), and references to blocks of cells are converted to **xltypeMulti**.</span></span> <span data-ttu-id="ad848-115">Esto hace **que xlCoerce sea** la forma más cómoda de buscar valores de celda.</span><span class="sxs-lookup"><span data-stu-id="ad848-115">This makes **xlCoerce** the most convenient way to look up cell values.</span></span> 
+<span data-ttu-id="8f35c-111">(Opcional).</span><span class="sxs-lookup"><span data-stu-id="8f35c-111">(Optional).</span></span> <span data-ttu-id="8f35c-112">Máscara de bits de los tipos resultantes que está dispuesto a aceptar.</span><span class="sxs-lookup"><span data-stu-id="8f35c-112">A bit-mask of the resulting types you are willing to accept.</span></span> <span data-ttu-id="8f35c-113">Debe usar el operador **OR** bit a bit ( | ) para especificar varios tipos posibles.</span><span class="sxs-lookup"><span data-stu-id="8f35c-113">You should use the bitwise **OR** operator ( | ) to specify multiple possible types.</span></span> <span data-ttu-id="8f35c-114">Si se omite este argumento, las referencias a celdas únicas se convierten en uno de los tipos de valor **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (si la celda a la que se hace referencia está vacía) y las referencias a bloques de celdas se convierten en **xltypeMulti**.</span><span class="sxs-lookup"><span data-stu-id="8f35c-114">If this argument is omitted, references to single cells are converted to one of the value types **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (if the referred-to cell is empty), and references to blocks of cells are converted to **xltypeMulti**.</span></span> <span data-ttu-id="8f35c-115">Esto hace **que xlCoerce sea** la forma más cómoda de buscar valores de celda.</span><span class="sxs-lookup"><span data-stu-id="8f35c-115">This makes **xlCoerce** the most convenient way to look up cell values.</span></span> 
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="ad848-116">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ad848-116">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="8f35c-116">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="8f35c-116">Property value/Return value</span></span>
 
-<span data-ttu-id="ad848-117">Devuelve el valor coercido (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** o **xltypeMulti**).</span><span class="sxs-lookup"><span data-stu-id="ad848-117">Returns the coerced value (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil**, or **xltypeMulti**).</span></span>
+<span data-ttu-id="8f35c-117">Devuelve el valor coerced (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** o **xltypeMulti**).</span><span class="sxs-lookup"><span data-stu-id="8f35c-117">Returns the coerced value (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil**, or **xltypeMulti**).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ad848-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ad848-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8f35c-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8f35c-118">Remarks</span></span>
 
- <span data-ttu-id="ad848-119">**xlCoerce** no puede convertir a o desde **xltypeBigData** o **xltypeFlow**.</span><span class="sxs-lookup"><span data-stu-id="ad848-119">**xlCoerce** cannot convert to or from **xltypeBigData** or **xltypeFlow**.</span></span> <span data-ttu-id="ad848-120">Pasar un **tipo xltypeMissing** o **xltypeNil** como  _pxDestType_ equivale a omitir el argumento.</span><span class="sxs-lookup"><span data-stu-id="ad848-120">Passing an **xltypeMissing** or **xltypeNil** type as  _pxDestType_ is equivalent to omitting the argument.</span></span> <span data-ttu-id="ad848-121">La conversión puede producir un error en algunos casos.</span><span class="sxs-lookup"><span data-stu-id="ad848-121">Conversion can fail in some cases.</span></span> <span data-ttu-id="ad848-122">Por ejemplo, algunas cadenas no se pueden convertir en números, mientras que otras sí.</span><span class="sxs-lookup"><span data-stu-id="ad848-122">For example, some strings cannot be converted to numbers, whereas others can.</span></span> 
+ <span data-ttu-id="8f35c-119">**xlCoerce** no puede convertir a o desde **xltypeBigData** o **xltypeFlow**.</span><span class="sxs-lookup"><span data-stu-id="8f35c-119">**xlCoerce** cannot convert to or from **xltypeBigData** or **xltypeFlow**.</span></span> <span data-ttu-id="8f35c-120">Pasar un **tipo xltypeMissing** o **xltypeNil** como  _pxDestType_ equivale a omitir el argumento.</span><span class="sxs-lookup"><span data-stu-id="8f35c-120">Passing an **xltypeMissing** or **xltypeNil** type as  _pxDestType_ is equivalent to omitting the argument.</span></span> <span data-ttu-id="8f35c-121">La conversión puede producir un error en algunos casos.</span><span class="sxs-lookup"><span data-stu-id="8f35c-121">Conversion can fail in some cases.</span></span> <span data-ttu-id="8f35c-122">Por ejemplo, algunas cadenas no se pueden convertir en números, mientras que otras sí.</span><span class="sxs-lookup"><span data-stu-id="8f35c-122">For example, some strings cannot be converted to numbers, whereas others can.</span></span> 
   
-<span data-ttu-id="ad848-123">Si una matriz o una referencia de varias celdas se convierte en un único tipo de valor, el resultado es el valor de la celda superior izquierda o el elemento de matriz.</span><span class="sxs-lookup"><span data-stu-id="ad848-123">If an array or a multi-cell reference is converted to a single value type, the result is the value of the top left cell or array element.</span></span>
+<span data-ttu-id="8f35c-123">Si una matriz o una referencia de varias celdas se convierte en un único tipo de valor, el resultado es el valor de la celda superior izquierda o elemento de matriz.</span><span class="sxs-lookup"><span data-stu-id="8f35c-123">If an array or a multi-cell reference is converted to a single value type, the result is the value of the top left cell or array element.</span></span>
   
-## <a name="example"></a><span data-ttu-id="ad848-124">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="ad848-124">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8f35c-124">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="8f35c-124">Example</span></span>
 
-<span data-ttu-id="ad848-125">El siguiente código puede encontrarse en  `\SAMPLES\EXAMPLE\EXAMPLE.C` .</span><span class="sxs-lookup"><span data-stu-id="ad848-125">The following code can be found in  `\SAMPLES\EXAMPLE\EXAMPLE.C`.</span></span> 
+<span data-ttu-id="8f35c-125">El siguiente código se puede encontrar en  `\SAMPLES\EXAMPLE\EXAMPLE.C` .</span><span class="sxs-lookup"><span data-stu-id="8f35c-125">The following code can be found in  `\SAMPLES\EXAMPLE\EXAMPLE.C`.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="ad848-126">La función **xlcAlert** intenta implícitamente convertir su argumento en una cadena para que el paso de coerción que se muestra aquí se pueda quitar de hecho y **xInt** se pueda pasar directamente a **xlcAlert**.</span><span class="sxs-lookup"><span data-stu-id="ad848-126">The **xlcAlert** function implicitly tries to convert its argument to a string so that the coercion step shown here could in fact be removed, and **xInt** could be passed directly to **xlcAlert**.</span></span> <span data-ttu-id="ad848-127">Como **xlcAlert es** una macro de comandos, este código solo funciona correctamente cuando se llama desde una hoja de macros.</span><span class="sxs-lookup"><span data-stu-id="ad848-127">As **xlcAlert** is a command macro, this code only works correctly when called from a macro sheet.</span></span> 
+> <span data-ttu-id="8f35c-126">La **función xlcAlert** intenta convertir implícitamente su argumento en una cadena para que el paso de coerción que se muestra aquí se pueda quitar de hecho y **xInt** se pueda pasar directamente a **xlcAlert**.</span><span class="sxs-lookup"><span data-stu-id="8f35c-126">The **xlcAlert** function implicitly tries to convert its argument to a string so that the coercion step shown here could in fact be removed, and **xInt** could be passed directly to **xlcAlert**.</span></span> <span data-ttu-id="8f35c-127">Como **xlcAlert es** una macro de comandos, este código solo funciona correctamente cuando se llama desde una hoja de macros.</span><span class="sxs-lookup"><span data-stu-id="8f35c-127">As **xlcAlert** is a command macro, this code only works correctly when called from a macro sheet.</span></span> 
   
 ```cs
 short WINAPI xlCoerceExample(short iVal)
@@ -70,12 +70,12 @@ short WINAPI xlCoerceExample(short iVal)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="ad848-128">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ad848-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8f35c-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="8f35c-128">See also</span></span>
 
 
 
-[<span data-ttu-id="ad848-129">xlSet</span><span class="sxs-lookup"><span data-stu-id="ad848-129">xlSet</span></span>](xlset.md)
+[<span data-ttu-id="8f35c-129">xlSet</span><span class="sxs-lookup"><span data-stu-id="8f35c-129">xlSet</span></span>](xlset.md)
 
 
-[<span data-ttu-id="ad848-130">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="ad848-130">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[<span data-ttu-id="8f35c-130">Funciones de la API de C que se pueden llamar solo desde una DLL o XLL</span><span class="sxs-lookup"><span data-stu-id="8f35c-130">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

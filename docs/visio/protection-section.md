@@ -16,14 +16,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429400"
 ---
-# <a name="protection-section"></a><span data-ttu-id="2a880-103">Sección de protección</span><span class="sxs-lookup"><span data-stu-id="2a880-103">Protection Section</span></span>
+# <a name="protection-section"></a><span data-ttu-id="6e070-103">Sección de protección</span><span class="sxs-lookup"><span data-stu-id="6e070-103">Protection Section</span></span>
 
-<span data-ttu-id="2a880-104">Muestra la configuración de  bloqueo actual establecida con el comando Protección [(ficha](run-in-developer-mode-display-the-developer-tab.md) Programador) además de algunos bloqueos adicionales que solo se pueden establecer en una ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="2a880-104">Shows the current lock settings set with the **Protection** command ( [Developer](run-in-developer-mode-display-the-developer-tab.md) tab) plus a few additional locks that can be set only in a ShapeSheet window.</span></span> 
+<span data-ttu-id="6e070-104">Muestra la configuración de bloqueo actual establecida con el comando **Protección** [(pestaña](run-in-developer-mode-display-the-developer-tab.md) Programador) más algunos bloqueos adicionales que solo se pueden establecer en una ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="6e070-104">Shows the current lock settings set with the **Protection** command ( [Developer](run-in-developer-mode-display-the-developer-tab.md) tab) plus a few additional locks that can be set only in a ShapeSheet window.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="2a880-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="2a880-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6e070-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="6e070-105">Remarks</span></span>
 
-<span data-ttu-id="2a880-p101">El bloqueo impide modificaciones accidentales en la forma, pero no evita que los valores sean restablecidos en otras circunstancias. Tampoco protege contra cambios efectuados en la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="2a880-p101">Locking helps prevent inadvertent changes to the shape but does not prevent values from being reset in other circumstances. It also does not protect against changes made in the ShapeSheet window.</span></span>
+<span data-ttu-id="6e070-p101">El bloqueo impide modificaciones accidentales en la forma, pero no evita que los valores sean restablecidos en otras circunstancias. Tampoco protege contra cambios efectuados en la ventana ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="6e070-p101">Locking helps prevent inadvertent changes to the shape but does not prevent values from being reset in other circumstances. It also does not protect against changes made in the ShapeSheet window.</span></span>
   
-<span data-ttu-id="2a880-108">Para proteger una fórmula de que no se cambie, use la **función GUARD.**</span><span class="sxs-lookup"><span data-stu-id="2a880-108">To protect a formula from being changed, use the **GUARD** function.</span></span> 
+<span data-ttu-id="6e070-108">Para proteger una fórmula de cambio, use la **función GUARD.**</span><span class="sxs-lookup"><span data-stu-id="6e070-108">To protect a formula from being changed, use the **GUARD** function.</span></span> 
   
 

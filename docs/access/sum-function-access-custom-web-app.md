@@ -14,27 +14,27 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427104"
 ---
-# <a name="sum-function-access-custom-web-app"></a><span data-ttu-id="7eb68-103">Función Sum (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="7eb68-103">Sum Function (Access custom web app)</span></span>
+# <a name="sum-function-access-custom-web-app"></a><span data-ttu-id="661aa-103">Función Sum (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="661aa-103">Sum Function (Access custom web app)</span></span>
 
-<span data-ttu-id="7eb68-104">Devuelve la suma de todos los valores de la expresión.</span><span class="sxs-lookup"><span data-stu-id="7eb68-104">Returns the sum of all the values in the expression.</span></span>
+<span data-ttu-id="661aa-104">Devuelve la suma de todos los valores de la expresión.</span><span class="sxs-lookup"><span data-stu-id="661aa-104">Returns the sum of all the values in the expression.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="7eb68-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="7eb68-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="661aa-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="661aa-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="7eb68-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7eb68-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="661aa-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="661aa-107">Syntax</span></span>
 
- <span data-ttu-id="7eb68-108">**Sum** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="7eb68-108">**Sum** (*NumericExpression*)</span></span> 
+ <span data-ttu-id="661aa-108">**Sum** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="661aa-108">**Sum** (*NumericExpression*)</span></span> 
   
-<span data-ttu-id="7eb68-109">La **función Sum** contiene el argumento siguiente.</span><span class="sxs-lookup"><span data-stu-id="7eb68-109">The **Sum** function contains the following argument.</span></span> 
+<span data-ttu-id="661aa-109">La **función Sum** contiene el argumento siguiente.</span><span class="sxs-lookup"><span data-stu-id="661aa-109">The **Sum** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="7eb68-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="7eb68-110">**Argument name**</span></span>|<span data-ttu-id="7eb68-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7eb68-111">**Description**</span></span>|
+|<span data-ttu-id="661aa-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="661aa-110">**Argument name**</span></span>|<span data-ttu-id="661aa-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="661aa-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="7eb68-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="7eb68-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="7eb68-113">Expresión que identifica el campo que contiene los datos numéricos que desea agregar o una expresión que realiza un cálculo con los datos de ese campo.</span><span class="sxs-lookup"><span data-stu-id="7eb68-113">An expression identifying the field that contains the numeric data you want to add or an expression that performs a calculation using the data in that field.</span></span> <span data-ttu-id="7eb68-114">Los operandos de  *NumericExpression*  pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de SQL agregado).</span><span class="sxs-lookup"><span data-stu-id="7eb68-114">Operands in  *NumericExpression*  can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).</span></span>  <br/> |
+| <span data-ttu-id="661aa-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="661aa-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="661aa-113">Expresión que identifica el campo que contiene los datos numéricos que desea agregar o una expresión que realiza un cálculo con los datos de ese campo.</span><span class="sxs-lookup"><span data-stu-id="661aa-113">An expression identifying the field that contains the numeric data you want to add or an expression that performs a calculation using the data in that field.</span></span> <span data-ttu-id="661aa-114">Los operandos de *NumericExpression* pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones SQL agregado).</span><span class="sxs-lookup"><span data-stu-id="661aa-114">Operands in  *NumericExpression*  can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7eb68-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7eb68-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="661aa-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="661aa-115">Remarks</span></span>
 
-<span data-ttu-id="7eb68-116">La **función Sum** omite los registros que contienen valores Null.</span><span class="sxs-lookup"><span data-stu-id="7eb68-116">The **Sum** function ignores records that contain Null values.</span></span> 
+<span data-ttu-id="661aa-116">La **función Sum** omite los registros que contienen valores Null.</span><span class="sxs-lookup"><span data-stu-id="661aa-116">The **Sum** function ignores records that contain Null values.</span></span> 
   
-<span data-ttu-id="7eb68-117">La **función Sum** solo se puede usar con columnas numéricas.</span><span class="sxs-lookup"><span data-stu-id="7eb68-117">The **Sum** function can only be used with numeric columns.</span></span> 
+<span data-ttu-id="661aa-117">La **función Sum** solo se puede usar con columnas numéricas.</span><span class="sxs-lookup"><span data-stu-id="661aa-117">The **Sum** function can only be used with numeric columns.</span></span> 
   
 

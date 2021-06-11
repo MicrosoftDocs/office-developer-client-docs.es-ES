@@ -16,16 +16,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424416"
 ---
-# <a name="title-function"></a><span data-ttu-id="9a130-103">Función TITLE</span><span class="sxs-lookup"><span data-stu-id="9a130-103">TITLE Function</span></span>
+# <a name="title-function"></a><span data-ttu-id="09c5d-103">Función TITLE</span><span class="sxs-lookup"><span data-stu-id="09c5d-103">TITLE Function</span></span>
 
-<span data-ttu-id="9a130-104">Devuelve el texto del campo **Título** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="9a130-104">Returns the text from the **Title** field of a document's properties.</span></span> 
+<span data-ttu-id="09c5d-104">Devuelve el texto del **campo Título** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="09c5d-104">Returns the text from the **Title** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="9a130-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="9a130-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="09c5d-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="09c5d-105">Syntax</span></span>
 
-<span data-ttu-id="9a130-106">TITLE ()</span><span class="sxs-lookup"><span data-stu-id="9a130-106">TITLE ()</span></span>
+<span data-ttu-id="09c5d-106">TITLE ()</span><span class="sxs-lookup"><span data-stu-id="09c5d-106">TITLE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="9a130-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="9a130-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="09c5d-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="09c5d-107">Return value</span></span>
 
-<span data-ttu-id="9a130-108">String</span><span class="sxs-lookup"><span data-stu-id="9a130-108">String</span></span>
+<span data-ttu-id="09c5d-108">String</span><span class="sxs-lookup"><span data-stu-id="09c5d-108">String</span></span>
   
 

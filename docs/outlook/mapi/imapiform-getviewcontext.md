@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430906"
 ---
-# <a name="imapiformgetviewcontext"></a><span data-ttu-id="ebdb5-103">IMAPIForm::GetViewContext</span><span class="sxs-lookup"><span data-stu-id="ebdb5-103">IMAPIForm::GetViewContext</span></span>
+# <a name="imapiformgetviewcontext"></a><span data-ttu-id="27436-103">IMAPIForm::GetViewContext</span><span class="sxs-lookup"><span data-stu-id="27436-103">IMAPIForm::GetViewContext</span></span>
 
   
   
-<span data-ttu-id="ebdb5-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ebdb5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="27436-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="27436-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ebdb5-105">Devuelve el contexto de vista actual del formulario.</span><span class="sxs-lookup"><span data-stu-id="ebdb5-105">Returns the current view context for the form.</span></span> 
+<span data-ttu-id="27436-105">Devuelve el contexto de vista actual del formulario.</span><span class="sxs-lookup"><span data-stu-id="27436-105">Returns the current view context for the form.</span></span> 
   
 ```cpp
 HRESULT GetViewContext(
@@ -33,46 +33,46 @@ HRESULT GetViewContext(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ebdb5-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ebdb5-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="27436-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="27436-106">Parameters</span></span>
 
- <span data-ttu-id="ebdb5-107">_ppViewContext_</span><span class="sxs-lookup"><span data-stu-id="ebdb5-107">_ppViewContext_</span></span>
+ <span data-ttu-id="27436-107">_ppViewContext_</span><span class="sxs-lookup"><span data-stu-id="27436-107">_ppViewContext_</span></span>
   
-> <span data-ttu-id="ebdb5-108">[salida] Puntero a un puntero al contexto de vista del formulario.</span><span class="sxs-lookup"><span data-stu-id="ebdb5-108">[out] A pointer to a pointer to the form's view context.</span></span>
+> <span data-ttu-id="27436-108">[salida] Puntero a un puntero al contexto de vista del formulario.</span><span class="sxs-lookup"><span data-stu-id="27436-108">[out] A pointer to a pointer to the form's view context.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ebdb5-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ebdb5-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="27436-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="27436-109">Return value</span></span>
 
-<span data-ttu-id="ebdb5-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="ebdb5-110">S_OK</span></span> 
+<span data-ttu-id="27436-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="27436-110">S_OK</span></span> 
   
-> <span data-ttu-id="ebdb5-111">El contexto de vista actual del formulario se ha devuelto correctamente.</span><span class="sxs-lookup"><span data-stu-id="ebdb5-111">The form's current view context was successfully returned.</span></span> 
+> <span data-ttu-id="27436-111">El contexto de vista actual del formulario se ha devuelto correctamente.</span><span class="sxs-lookup"><span data-stu-id="27436-111">The form's current view context was successfully returned.</span></span> 
     
-<span data-ttu-id="ebdb5-112">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="ebdb5-112">S_FALSE</span></span> 
+<span data-ttu-id="27436-112">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="27436-112">S_FALSE</span></span> 
   
-> <span data-ttu-id="ebdb5-113">No hay ningún contexto de vista para el formulario.</span><span class="sxs-lookup"><span data-stu-id="ebdb5-113">There is no view context for the form.</span></span>
+> <span data-ttu-id="27436-113">No hay ningún contexto de vista para el formulario.</span><span class="sxs-lookup"><span data-stu-id="27436-113">There is no view context for the form.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="ebdb5-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ebdb5-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="27436-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="27436-114">Remarks</span></span>
 
-<span data-ttu-id="ebdb5-115">Los visores de formularios llaman a **GetViewContext** para obtener un puntero al contexto de vista establecido en una llamada anterior a [IMAPIForm::SetViewContext](imapiform-setviewcontext.md).</span><span class="sxs-lookup"><span data-stu-id="ebdb5-115">Form viewers call **GetViewContext** to obtain a pointer to the view context established in a previous call to [IMAPIForm::SetViewContext](imapiform-setviewcontext.md).</span></span> <span data-ttu-id="ebdb5-116">Si no se ha realizado ninguna llamada previa a **SetViewContext**, **GetViewContext** establece  _ppViewContext_ en NULL.</span><span class="sxs-lookup"><span data-stu-id="ebdb5-116">If no prior call has been made to **SetViewContext**, **GetViewContext** sets  _ppViewContext_ to NULL.</span></span> 
+<span data-ttu-id="27436-115">Los visores de formularios llaman a **GetViewContext** para obtener un puntero al contexto de vista establecido en una llamada anterior a [IMAPIForm::SetViewContext](imapiform-setviewcontext.md).</span><span class="sxs-lookup"><span data-stu-id="27436-115">Form viewers call **GetViewContext** to obtain a pointer to the view context established in a previous call to [IMAPIForm::SetViewContext](imapiform-setviewcontext.md).</span></span> <span data-ttu-id="27436-116">Si no se ha realizado ninguna llamada previa a **SetViewContext,** **GetViewContext** establece  _ppViewContext_ en NULL.</span><span class="sxs-lookup"><span data-stu-id="27436-116">If no prior call has been made to **SetViewContext**, **GetViewContext** sets  _ppViewContext_ to NULL.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="ebdb5-117">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="ebdb5-117">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="27436-117">Notas a los implementadores</span><span class="sxs-lookup"><span data-stu-id="27436-117">Notes to implementers</span></span>
 
-<span data-ttu-id="ebdb5-118">Copie el puntero de contexto de vista del formulario en el puntero pasado por el visor del formulario de llamada en el _parámetro ppViewContext._</span><span class="sxs-lookup"><span data-stu-id="ebdb5-118">Copy your form's view context pointer into the pointer passed in by the calling form viewer in the  _ppViewContext_ parameter.</span></span> <span data-ttu-id="ebdb5-119">Si el formulario no tiene un contexto de vista, establezca  _ppViewContext_ en NULL.</span><span class="sxs-lookup"><span data-stu-id="ebdb5-119">If the form does not have a view context, set  _ppViewContext_ to NULL.</span></span> 
+<span data-ttu-id="27436-118">Copie el puntero de contexto de vista del formulario en el puntero pasado por el visor de formularios de llamada en el _parámetro ppViewContext._</span><span class="sxs-lookup"><span data-stu-id="27436-118">Copy your form's view context pointer into the pointer passed in by the calling form viewer in the  _ppViewContext_ parameter.</span></span> <span data-ttu-id="27436-119">Si el formulario no tiene un contexto de vista, establezca  _ppViewContext_ en NULL.</span><span class="sxs-lookup"><span data-stu-id="27436-119">If the form does not have a view context, set  _ppViewContext_ to NULL.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="ebdb5-120">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="ebdb5-120">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="27436-120">Referencia de MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="27436-120">MFCMAPI reference</span></span>
 
-<span data-ttu-id="ebdb5-121">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="ebdb5-121">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="27436-121">Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="27436-121">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="ebdb5-122">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="ebdb5-122">**File**</span></span>|<span data-ttu-id="ebdb5-123">**Función**</span><span class="sxs-lookup"><span data-stu-id="ebdb5-123">**Function**</span></span>|<span data-ttu-id="ebdb5-124">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="ebdb5-124">**Comment**</span></span>|
+|<span data-ttu-id="27436-122">**Archivo**</span><span class="sxs-lookup"><span data-stu-id="27436-122">**File**</span></span>|<span data-ttu-id="27436-123">**Función**</span><span class="sxs-lookup"><span data-stu-id="27436-123">**Function**</span></span>|<span data-ttu-id="27436-124">**Comentario**</span><span class="sxs-lookup"><span data-stu-id="27436-124">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="ebdb5-125">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="ebdb5-125">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="ebdb5-126">OpenMessageNonModal</span><span class="sxs-lookup"><span data-stu-id="ebdb5-126">OpenMessageNonModal</span></span>  <br/> |<span data-ttu-id="ebdb5-127">MFCMAPI usa el **método IMAPIForm::GetViewContext** para comprobar si un formulario tiene un contexto de vista.</span><span class="sxs-lookup"><span data-stu-id="ebdb5-127">MFCMAPI uses the **IMAPIForm::GetViewContext** method to check whether a form has a view context.</span></span>  <br/> |
+|<span data-ttu-id="27436-125">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="27436-125">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="27436-126">OpenMessageNonModal</span><span class="sxs-lookup"><span data-stu-id="27436-126">OpenMessageNonModal</span></span>  <br/> |<span data-ttu-id="27436-127">MFCMAPI usa el **método IMAPIForm::GetViewContext** para comprobar si un formulario tiene un contexto de vista.</span><span class="sxs-lookup"><span data-stu-id="27436-127">MFCMAPI uses the **IMAPIForm::GetViewContext** method to check whether a form has a view context.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ebdb5-128">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ebdb5-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27436-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="27436-128">See also</span></span>
 
 
 
-[<span data-ttu-id="ebdb5-129">IMAPIViewContext : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ebdb5-129">IMAPIViewContext : IUnknown</span></span>](imapiviewcontextiunknown.md)
+[<span data-ttu-id="27436-129">IMAPIViewContext : IUnknown</span><span class="sxs-lookup"><span data-stu-id="27436-129">IMAPIViewContext : IUnknown</span></span>](imapiviewcontextiunknown.md)
   
-[<span data-ttu-id="ebdb5-130">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ebdb5-130">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
+[<span data-ttu-id="27436-130">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="27436-130">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
 
 
-[<span data-ttu-id="ebdb5-131">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="ebdb5-131">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="27436-131">MFCMAPI como un ejemplo de c�digo</span><span class="sxs-lookup"><span data-stu-id="27436-131">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1026934
 localization_priority: Normal
 ms.assetid: b213fc46-7f80-99fd-60ba-8ddf3d0f6ee3
-description: Posición de coordenada y en las coordenadas locales de la forma alrededor de la cual se coloca el botón de etiqueta de acción.
+description: Posición y -coordinate en las coordenadas locales de la forma alrededor de la cual se coloca el botón de etiqueta de acción.
 ms.openlocfilehash: 02797a849a262cb506f4617aadaccedabccdab77
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,29 +16,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430227"
 ---
-# <a name="y-cell-action-tags-section"></a><span data-ttu-id="f9ac1-103">Celda Y (sección de etiquetas de acción)</span><span class="sxs-lookup"><span data-stu-id="f9ac1-103">Y Cell (Action Tags Section)</span></span>
+# <a name="y-cell-action-tags-section"></a><span data-ttu-id="689b7-103">Celda Y (sección de etiquetas de acción)</span><span class="sxs-lookup"><span data-stu-id="689b7-103">Y Cell (Action Tags Section)</span></span>
 
-<span data-ttu-id="f9ac1-104">Posición de coordenada  *y*  en las coordenadas locales de la forma alrededor de la cual se coloca el botón de etiqueta de acción.</span><span class="sxs-lookup"><span data-stu-id="f9ac1-104">The  *y*  -coordinate position in the shape's local coordinates around which the action tag button is placed.</span></span> 
+<span data-ttu-id="689b7-104">Posición  *y*  -coordinate en las coordenadas locales de la forma alrededor de la cual se coloca el botón de etiqueta de acción.</span><span class="sxs-lookup"><span data-stu-id="689b7-104">The  *y*  -coordinate position in the shape's local coordinates around which the action tag button is placed.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="f9ac1-105">En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes.</span><span class="sxs-lookup"><span data-stu-id="f9ac1-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="689b7-105">En versiones anteriores de Microsoft Visio, las etiquetas de acción se denominaban etiquetas inteligentes.</span><span class="sxs-lookup"><span data-stu-id="689b7-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="f9ac1-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f9ac1-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="689b7-106">Comentarios</span><span class="sxs-lookup"><span data-stu-id="689b7-106">Remarks</span></span>
 
-<span data-ttu-id="f9ac1-107">Las celdas X e Y definen un punto en las coordenadas locales de la forma, y las celdas X Justify e Y Justify definen dónde se coloca el botón de etiqueta de acción en relación con ese punto.</span><span class="sxs-lookup"><span data-stu-id="f9ac1-107">The X and Y cells define a point in the shape's local coordinates, and the X Justify and Y Justify cells define where to place the action tag button in relation to that point.</span></span> 
+<span data-ttu-id="689b7-107">Las celdas X e Y definen un punto en las coordenadas locales de la forma, y las celdas X Justify e Y Justify definen dónde se coloca el botón de etiqueta de acción en relación con ese punto.</span><span class="sxs-lookup"><span data-stu-id="689b7-107">The X and Y cells define a point in the shape's local coordinates, and the X Justify and Y Justify cells define where to place the action tag button in relation to that point.</span></span> 
   
-<span data-ttu-id="f9ac1-108">Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="f9ac1-108">To get a reference to the Y cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="689b7-108">Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="689b7-108">To get a reference to the Y cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f9ac1-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="f9ac1-109">Cell name:</span></span>  <br/> | <span data-ttu-id="f9ac1-110">SmartTags.</span><span class="sxs-lookup"><span data-stu-id="f9ac1-110">SmartTags.</span></span>  <span data-ttu-id="f9ac1-111">*nombre*  . Y donde SmartTags.</span><span class="sxs-lookup"><span data-stu-id="f9ac1-111">*name*  .Y           where SmartTags.</span></span> <span data-ttu-id="f9ac1-112">*es*  el nombre de la fila de etiqueta de acción</span><span class="sxs-lookup"><span data-stu-id="f9ac1-112">*name*  is the name of the action tag row</span></span>  <br/> |
+| <span data-ttu-id="689b7-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="689b7-109">Cell name:</span></span>  <br/> | <span data-ttu-id="689b7-110">SmartTags.</span><span class="sxs-lookup"><span data-stu-id="689b7-110">SmartTags.</span></span>  <span data-ttu-id="689b7-111">*nombre*  . Y donde SmartTags.</span><span class="sxs-lookup"><span data-stu-id="689b7-111">*name*  .Y           where SmartTags.</span></span> <span data-ttu-id="689b7-112">*nombre*  es el nombre de la fila de etiqueta de acción</span><span class="sxs-lookup"><span data-stu-id="689b7-112">*name*  is the name of the action tag row</span></span>  <br/> |
    
-<span data-ttu-id="f9ac1-113">Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="f9ac1-113">To get a reference to the Y cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="689b7-113">Para obtener una referencia desde un programa a la celda Y por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="689b7-113">To get a reference to the Y cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f9ac1-114">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="f9ac1-114">Section index:</span></span>  <br/> |<span data-ttu-id="f9ac1-115">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="f9ac1-115">**visSectionSmartTag**</span></span> <br/> |
-| <span data-ttu-id="f9ac1-116">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="f9ac1-116">Row index:</span></span>  <br/> |<span data-ttu-id="f9ac1-117">**visRowSmartTag**  +   *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="f9ac1-117">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="f9ac1-118">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="f9ac1-118">Cell index:</span></span>  <br/> |<span data-ttu-id="f9ac1-119">**visSmartTagY**</span><span class="sxs-lookup"><span data-stu-id="f9ac1-119">**visSmartTagY**</span></span> <br/> |
+| <span data-ttu-id="689b7-114">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="689b7-114">Section index:</span></span>  <br/> |<span data-ttu-id="689b7-115">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="689b7-115">**visSectionSmartTag**</span></span> <br/> |
+| <span data-ttu-id="689b7-116">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="689b7-116">Row index:</span></span>  <br/> |<span data-ttu-id="689b7-117">**visRowSmartTag**  +   *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="689b7-117">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="689b7-118">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="689b7-118">Cell index:</span></span>  <br/> |<span data-ttu-id="689b7-119">**visSmartTagY**</span><span class="sxs-lookup"><span data-stu-id="689b7-119">**visSmartTagY**</span></span> <br/> |
    
 

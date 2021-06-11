@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426810"
 ---
-# <a name="skey"></a><span data-ttu-id="82882-103">SKEY</span><span class="sxs-lookup"><span data-stu-id="82882-103">SKEY</span></span>
+# <a name="skey"></a><span data-ttu-id="f6002-103">SKEY</span><span class="sxs-lookup"><span data-stu-id="f6002-103">SKEY</span></span>
 
   
   
-<span data-ttu-id="82882-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="82882-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f6002-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f6002-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="82882-105">Clave de origen para un elemento de Outlook.</span><span class="sxs-lookup"><span data-stu-id="82882-105">Source key for an Outlook item.</span></span>
+<span data-ttu-id="f6002-105">Clave de origen para un Outlook elemento.</span><span class="sxs-lookup"><span data-stu-id="f6002-105">Source key for an Outlook item.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="82882-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="82882-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="f6002-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="f6002-106">Quick info</span></span>
 
 ```cpp
 struct SKEY 
@@ -33,23 +33,23 @@ struct SKEY
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="82882-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="82882-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="f6002-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="f6002-107">Members</span></span>
 
- <span data-ttu-id="82882-108">_guid_</span><span class="sxs-lookup"><span data-stu-id="82882-108">_guid_</span></span>
+ <span data-ttu-id="f6002-108">_guid_</span><span class="sxs-lookup"><span data-stu-id="f6002-108">_guid_</span></span>
   
-> <span data-ttu-id="82882-109">GUID del servidor que crea el objeto.</span><span class="sxs-lookup"><span data-stu-id="82882-109">GUID of the server creating the object.</span></span>
+> <span data-ttu-id="f6002-109">GUID del servidor que crea el objeto.</span><span class="sxs-lookup"><span data-stu-id="f6002-109">GUID of the server creating the object.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="82882-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="82882-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f6002-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="f6002-110">See also</span></span>
 
 
 
-[<span data-ttu-id="82882-111">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="82882-111">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="f6002-111">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="f6002-111">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="82882-112">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="82882-112">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="f6002-112">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="f6002-112">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="82882-113">UPDELE</span><span class="sxs-lookup"><span data-stu-id="82882-113">UPDELE</span></span>](updele.md)
+[<span data-ttu-id="f6002-113">UPDELE</span><span class="sxs-lookup"><span data-stu-id="f6002-113">UPDELE</span></span>](updele.md)
   
-[<span data-ttu-id="82882-114">UPMSG</span><span class="sxs-lookup"><span data-stu-id="82882-114">UPMSG</span></span>](upmsg.md)
+[<span data-ttu-id="f6002-114">UPMSG</span><span class="sxs-lookup"><span data-stu-id="f6002-114">UPMSG</span></span>](upmsg.md)
   
-[<span data-ttu-id="82882-115">UPREADE</span><span class="sxs-lookup"><span data-stu-id="82882-115">UPREADE</span></span>](upreade.md)
+[<span data-ttu-id="f6002-115">UPREADE</span><span class="sxs-lookup"><span data-stu-id="f6002-115">UPREADE</span></span>](upreade.md)
 

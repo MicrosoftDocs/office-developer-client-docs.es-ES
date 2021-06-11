@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424934"
 ---
-# <a name="imapisyncprogresscallbackerror"></a><span data-ttu-id="7ca95-103">IMAPISyncProgressCallback::Error</span><span class="sxs-lookup"><span data-stu-id="7ca95-103">IMAPISyncProgressCallback::Error</span></span>
+# <a name="imapisyncprogresscallbackerror"></a><span data-ttu-id="497c1-103">IMAPISyncProgressCallback::Error</span><span class="sxs-lookup"><span data-stu-id="497c1-103">IMAPISyncProgressCallback::Error</span></span>
 
   
   
-<span data-ttu-id="7ca95-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7ca95-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="497c1-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="497c1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7ca95-105">Proporciona detalles que se muestran en el cuadro de diálogo De envío o recepción.</span><span class="sxs-lookup"><span data-stu-id="7ca95-105">Provides details that are displayed in the Send/Receive dialog.</span></span> <span data-ttu-id="7ca95-106">Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función.</span><span class="sxs-lookup"><span data-stu-id="7ca95-106">If errors are encountered during synchronization, the store provider calls this function.</span></span>
+<span data-ttu-id="497c1-105">Proporciona detalles que se muestran en el cuadro de diálogo Enviar y recibir.</span><span class="sxs-lookup"><span data-stu-id="497c1-105">Provides details that are displayed in the Send/Receive dialog.</span></span> <span data-ttu-id="497c1-106">Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función.</span><span class="sxs-lookup"><span data-stu-id="497c1-106">If errors are encountered during synchronization, the store provider calls this function.</span></span>
   
 ```cpp
 HRESULT Error(
@@ -34,25 +34,25 @@ HRESULT Error(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7ca95-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="7ca95-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="497c1-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="497c1-107">Parameters</span></span>
 
- <span data-ttu-id="7ca95-108">**hResult**</span><span class="sxs-lookup"><span data-stu-id="7ca95-108">**hResult**</span></span>
+ <span data-ttu-id="497c1-108">**hResult**</span><span class="sxs-lookup"><span data-stu-id="497c1-108">**hResult**</span></span>
   
-> <span data-ttu-id="7ca95-109">HRESULT del error o advertencia.</span><span class="sxs-lookup"><span data-stu-id="7ca95-109">The HRESULT of the error or warning.</span></span>
+> <span data-ttu-id="497c1-109">HRESULT del error o advertencia.</span><span class="sxs-lookup"><span data-stu-id="497c1-109">The HRESULT of the error or warning.</span></span>
     
- <span data-ttu-id="7ca95-110">**pwcszErrorStr**</span><span class="sxs-lookup"><span data-stu-id="7ca95-110">**pwcszErrorStr**</span></span>
+ <span data-ttu-id="497c1-110">**pwcszErrorStr**</span><span class="sxs-lookup"><span data-stu-id="497c1-110">**pwcszErrorStr**</span></span>
   
-> <span data-ttu-id="7ca95-111">Puntero a la cadena asociada con el error que se va a mostrar.</span><span class="sxs-lookup"><span data-stu-id="7ca95-111">A pointer to the string associated with the error to be displayed.</span></span>
+> <span data-ttu-id="497c1-111">Puntero a la cadena asociada al error que se va a mostrar.</span><span class="sxs-lookup"><span data-stu-id="497c1-111">A pointer to the string associated with the error to be displayed.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7ca95-112">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="7ca95-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="497c1-112">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="497c1-112">Return value</span></span>
 
-<span data-ttu-id="7ca95-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="7ca95-113">S_OK</span></span> 
+<span data-ttu-id="497c1-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="497c1-113">S_OK</span></span> 
   
-> <span data-ttu-id="7ca95-114">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="7ca95-114">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="497c1-114">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="497c1-114">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="7ca95-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="7ca95-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="497c1-115">Vea también</span><span class="sxs-lookup"><span data-stu-id="497c1-115">See also</span></span>
 
 
 
-[<span data-ttu-id="7ca95-116">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7ca95-116">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
+[<span data-ttu-id="497c1-116">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="497c1-116">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
 

@@ -14,35 +14,35 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427020"
 ---
-# <a name="disttopath-function"></a><span data-ttu-id="aa6f4-103">Función DISTTOPATH</span><span class="sxs-lookup"><span data-stu-id="aa6f4-103">DISTTOPATH Function</span></span>
+# <a name="disttopath-function"></a><span data-ttu-id="8cb32-103">Función DISTTOPATH</span><span class="sxs-lookup"><span data-stu-id="8cb32-103">DISTTOPATH Function</span></span>
 
-<span data-ttu-id="aa6f4-104">Devuelve la distancia más corta desde el punto representado por las coordenadas especificadas a un punto en la ruta de acceso.</span><span class="sxs-lookup"><span data-stu-id="aa6f4-104">Returns the shortest distance from the point represented by the specified coordinates to a point on the path.</span></span>
+<span data-ttu-id="8cb32-104">Devuelve la distancia más corta desde el punto representado por las coordenadas especificadas a un punto en la ruta de acceso.</span><span class="sxs-lookup"><span data-stu-id="8cb32-104">Returns the shortest distance from the point represented by the specified coordinates to a point on the path.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="aa6f4-105">Información de versión</span><span class="sxs-lookup"><span data-stu-id="aa6f4-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="8cb32-105">Información de versión</span><span class="sxs-lookup"><span data-stu-id="8cb32-105">Version Information</span></span>
 
-<span data-ttu-id="aa6f4-106">Versión añadida: Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="aa6f4-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="8cb32-106">Versión añadida: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="8cb32-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="aa6f4-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="aa6f4-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8cb32-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="8cb32-107">Syntax</span></span>
 
-<span data-ttu-id="aa6f4-108">DISTTOPATH(\*\* *section* \*\*, \*\* *x* \*\*, \*\* *y* \*\* )</span><span class="sxs-lookup"><span data-stu-id="aa6f4-108">DISTTOPATH(\*\* *section* \*\*, \*\* *x* \*\*, \*\* *y* \*\* )</span></span> 
+<span data-ttu-id="8cb32-108">DISTTOPATH(\*\* *section* \*\*, \*\* *x* \*\*, \*\* *y* \*\* )</span><span class="sxs-lookup"><span data-stu-id="8cb32-108">DISTTOPATH(\*\* *section* \*\*, \*\* *x* \*\*, \*\* *y* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="aa6f4-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="aa6f4-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="8cb32-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="8cb32-109">Parameters</span></span>
 
-|<span data-ttu-id="aa6f4-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="aa6f4-110">**Name**</span></span>|<span data-ttu-id="aa6f4-111">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="aa6f4-111">**Required/Optional**</span></span>|<span data-ttu-id="aa6f4-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="aa6f4-112">**Data Type**</span></span>|<span data-ttu-id="aa6f4-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="aa6f4-113">**Description**</span></span>|
+|<span data-ttu-id="8cb32-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="8cb32-110">**Name**</span></span>|<span data-ttu-id="8cb32-111">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="8cb32-111">**Required/Optional**</span></span>|<span data-ttu-id="8cb32-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="8cb32-112">**Data Type**</span></span>|<span data-ttu-id="8cb32-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="8cb32-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="aa6f4-114">_section_</span><span class="sxs-lookup"><span data-stu-id="aa6f4-114">_section_</span></span> <br/> |<span data-ttu-id="aa6f4-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="aa6f4-115">Required</span></span>  <br/> |<span data-ttu-id="aa6f4-116">**String**</span><span class="sxs-lookup"><span data-stu-id="aa6f4-116">**String**</span></span> <br/> |<span data-ttu-id="aa6f4-117">Sección de geometría que representa la ruta de acceso, especificada por una referencia a su celda Path (por ejemplo, Geometry1.Path).</span><span class="sxs-lookup"><span data-stu-id="aa6f4-117">The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path).</span></span>  <br/> |
-| <span data-ttu-id="aa6f4-118">_x_</span><span class="sxs-lookup"><span data-stu-id="aa6f4-118">_x_</span></span> <br/> |<span data-ttu-id="aa6f4-119">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="aa6f4-119">Required</span></span>  <br/> |<span data-ttu-id="aa6f4-120">**Double**</span><span class="sxs-lookup"><span data-stu-id="aa6f4-120">**Double**</span></span> <br/> |<span data-ttu-id="aa6f4-121">Coordenada  _x_ del punto.</span><span class="sxs-lookup"><span data-stu-id="aa6f4-121">The  _x_-coordinate of the point.</span></span>  <br/> |
-| <span data-ttu-id="aa6f4-122">_y_</span><span class="sxs-lookup"><span data-stu-id="aa6f4-122">_y_</span></span> <br/> |<span data-ttu-id="aa6f4-123">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="aa6f4-123">Required</span></span>  <br/> |<span data-ttu-id="aa6f4-124">**Double**</span><span class="sxs-lookup"><span data-stu-id="aa6f4-124">**Double**</span></span> <br/> |<span data-ttu-id="aa6f4-125">Coordenada  _y_ del punto.</span><span class="sxs-lookup"><span data-stu-id="aa6f4-125">The  _y_-coordinate of the point.</span></span>  <br/> |
+| <span data-ttu-id="8cb32-114">_section_</span><span class="sxs-lookup"><span data-stu-id="8cb32-114">_section_</span></span> <br/> |<span data-ttu-id="8cb32-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="8cb32-115">Required</span></span>  <br/> |<span data-ttu-id="8cb32-116">**String**</span><span class="sxs-lookup"><span data-stu-id="8cb32-116">**String**</span></span> <br/> |<span data-ttu-id="8cb32-117">Sección de geometría que representa la ruta de acceso, especificada por una referencia a su celda Path (por ejemplo, Geometry1.Path).</span><span class="sxs-lookup"><span data-stu-id="8cb32-117">The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path).</span></span>  <br/> |
+| <span data-ttu-id="8cb32-118">_x_</span><span class="sxs-lookup"><span data-stu-id="8cb32-118">_x_</span></span> <br/> |<span data-ttu-id="8cb32-119">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="8cb32-119">Required</span></span>  <br/> |<span data-ttu-id="8cb32-120">**Double**</span><span class="sxs-lookup"><span data-stu-id="8cb32-120">**Double**</span></span> <br/> |<span data-ttu-id="8cb32-121">La coordenada  _x_ del punto.</span><span class="sxs-lookup"><span data-stu-id="8cb32-121">The  _x_-coordinate of the point.</span></span>  <br/> |
+| <span data-ttu-id="8cb32-122">_y_</span><span class="sxs-lookup"><span data-stu-id="8cb32-122">_y_</span></span> <br/> |<span data-ttu-id="8cb32-123">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="8cb32-123">Required</span></span>  <br/> |<span data-ttu-id="8cb32-124">**Double**</span><span class="sxs-lookup"><span data-stu-id="8cb32-124">**Double**</span></span> <br/> |<span data-ttu-id="8cb32-125">Coordenada  _y_ del punto.</span><span class="sxs-lookup"><span data-stu-id="8cb32-125">The  _y_-coordinate of the point.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="aa6f4-126">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="aa6f4-126">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="8cb32-126">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="8cb32-126">Return value</span></span>
 
- <span data-ttu-id="aa6f4-127">**Double**</span><span class="sxs-lookup"><span data-stu-id="aa6f4-127">**Double**</span></span>
+ <span data-ttu-id="8cb32-127">**Doble**</span><span class="sxs-lookup"><span data-stu-id="8cb32-127">**Double**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="aa6f4-128">Comentarios</span><span class="sxs-lookup"><span data-stu-id="aa6f4-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8cb32-128">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8cb32-128">Remarks</span></span>
 
-<span data-ttu-id="aa6f4-129">Microsoft Visio devuelve #REF!</span><span class="sxs-lookup"><span data-stu-id="aa6f4-129">Microsoft Visio returns #REF!</span></span> <span data-ttu-id="aa6f4-130">si  _la sección_ no existe.</span><span class="sxs-lookup"><span data-stu-id="aa6f4-130">if  _section_ does not exist.</span></span> 
+<span data-ttu-id="8cb32-129">Microsoft Visio devuelve #REF!</span><span class="sxs-lookup"><span data-stu-id="8cb32-129">Microsoft Visio returns #REF!</span></span> <span data-ttu-id="8cb32-130">si  _la_ sección no existe.</span><span class="sxs-lookup"><span data-stu-id="8cb32-130">if  _section_ does not exist.</span></span> 
   
-<span data-ttu-id="aa6f4-131">El valor devuelto es positivo si el punto se encuentra a la izquierda de la dirección del recorrido y negativo si se encuentra a la derecha.</span><span class="sxs-lookup"><span data-stu-id="aa6f4-131">The returned value is positive if the point is to the left of the direction of travel; it is negative if the point is to the right of the direction of travel.</span></span>
+<span data-ttu-id="8cb32-131">El valor devuelto es positivo si el punto se encuentra a la izquierda de la dirección del recorrido y negativo si se encuentra a la derecha.</span><span class="sxs-lookup"><span data-stu-id="8cb32-131">The returned value is positive if the point is to the left of the direction of travel; it is negative if the point is to the right of the direction of travel.</span></span>
   
 

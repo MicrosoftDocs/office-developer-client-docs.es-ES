@@ -14,23 +14,23 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424290"
 ---
-# <a name="less-than-access-custom-web-app"></a><span data-ttu-id="f3cb9-104">Menor que (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="f3cb9-104">Less Than (Access custom web app)</span></span>
+# <a name="less-than-access-custom-web-app"></a><span data-ttu-id="3001e-104">Menor que (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="3001e-104">Less Than (Access custom web app)</span></span>
 
-<span data-ttu-id="f3cb9-105">Compara dos expresiones.</span><span class="sxs-lookup"><span data-stu-id="f3cb9-105">Compares two expressions.</span></span> <span data-ttu-id="f3cb9-106">Al comparar expresiones que no son nulas, el resultado es TRUE si el operando izquierdo tiene un valor inferior al operando derecho; de lo contrario, el resultado es FALSE.</span><span class="sxs-lookup"><span data-stu-id="f3cb9-106">When you compare non-null expressions, the result is TRUE if the left operand has a value lower than the right operand; otherwise, the result is FALSE.</span></span>
+<span data-ttu-id="3001e-105">Compara dos expresiones.</span><span class="sxs-lookup"><span data-stu-id="3001e-105">Compares two expressions.</span></span> <span data-ttu-id="3001e-106">Al comparar expresiones que no son nulas, el resultado es TRUE si el operando izquierdo tiene un valor inferior al operando derecho; de lo contrario, el resultado es FALSE.</span><span class="sxs-lookup"><span data-stu-id="3001e-106">When you compare non-null expressions, the result is TRUE if the left operand has a value lower than the right operand; otherwise, the result is FALSE.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="f3cb9-p103">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="f3cb9-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="3001e-p103">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="3001e-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f3cb9-109">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f3cb9-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3001e-109">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3001e-109">Syntax</span></span>
 
 `< (Less Than)`
 
-<span data-ttu-id="f3cb9-110">*expresión*  \<  *expresión*</span><span class="sxs-lookup"><span data-stu-id="f3cb9-110">*expression*  \<  *expression*</span></span> 
+<span data-ttu-id="3001e-110">*expresión*  \<  *expresión*</span><span class="sxs-lookup"><span data-stu-id="3001e-110">*expression*  \<  *expression*</span></span> 
   
-<span data-ttu-id="f3cb9-111">*expresión*  Es cualquier expresión válida.</span><span class="sxs-lookup"><span data-stu-id="f3cb9-111">*expression*  Is any valid expression.</span></span> <span data-ttu-id="f3cb9-112">Ambas expresiones deben tener tipos de datos convertibles implícitamente.</span><span class="sxs-lookup"><span data-stu-id="f3cb9-112">Both expressions must have implicitly convertible data types.</span></span> <span data-ttu-id="f3cb9-113">La conversión depende de las reglas de prioridad del tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="f3cb9-113">The conversion depends on the rules of data type precedence.</span></span> 
+<span data-ttu-id="3001e-111">*expresión*  Es cualquier expresión válida.</span><span class="sxs-lookup"><span data-stu-id="3001e-111">*expression*  Is any valid expression.</span></span> <span data-ttu-id="3001e-112">Ambas expresiones deben tener tipos de datos convertibles implícitamente.</span><span class="sxs-lookup"><span data-stu-id="3001e-112">Both expressions must have implicitly convertible data types.</span></span> <span data-ttu-id="3001e-113">La conversión depende de las reglas de prioridad del tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="3001e-113">The conversion depends on the rules of data type precedence.</span></span> 
   
-## <a name="return-type"></a><span data-ttu-id="f3cb9-114">Tipo de valor devuelto</span><span class="sxs-lookup"><span data-stu-id="f3cb9-114">Return Type</span></span>
+## <a name="return-type"></a><span data-ttu-id="3001e-114">Tipo de valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3001e-114">Return Type</span></span>
 
-<span data-ttu-id="f3cb9-115">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="f3cb9-115">**Boolean**</span></span>
+<span data-ttu-id="3001e-115">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="3001e-115">**Boolean**</span></span>
   
 

@@ -16,12 +16,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430752"
 ---
-# <a name="group-properties-section"></a><span data-ttu-id="bb774-103">Sección de propiedades de grupo</span><span class="sxs-lookup"><span data-stu-id="bb774-103">Group Properties Section</span></span>
+# <a name="group-properties-section"></a><span data-ttu-id="c8fab-103">Sección de propiedades de grupo</span><span class="sxs-lookup"><span data-stu-id="c8fab-103">Group Properties Section</span></span>
 
-<span data-ttu-id="bb774-104">Contiene celdas para un grupo que controla cómo se agregan formas a un grupo, cómo se mueven los miembros del grupo y cómo se seleccionan grupos.</span><span class="sxs-lookup"><span data-stu-id="bb774-104">Contains cells for a group that control how you add shapes to a group, move members of a group, and select groups.</span></span> 
+<span data-ttu-id="c8fab-104">Contiene celdas para un grupo que controla cómo se agregan formas a un grupo, cómo se mueven los miembros del grupo y cómo se seleccionan grupos.</span><span class="sxs-lookup"><span data-stu-id="c8fab-104">Contains cells for a group that control how you add shapes to a group, move members of a group, and select groups.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="bb774-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bb774-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8fab-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c8fab-105">Remarks</span></span>
 
-<span data-ttu-id="bb774-106">También puede establecer estos valores en la ficha **Comportamiento** en el cuadro de diálogo **Comportamiento** (haga clic en **Comportamiento** en el grupo **Diseño de formas** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md)).</span><span class="sxs-lookup"><span data-stu-id="bb774-106">You can also set these values on the **Behavior** tab in the **Behavior** dialog box (click **Behavior** in the **Shape Design** group on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab).</span></span> 
+<span data-ttu-id="c8fab-106">También puede establecer estos valores en la ficha **Comportamiento** en el cuadro de diálogo **Comportamiento** (haga clic en **Comportamiento** en el grupo **Diseño de formas** en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md)).</span><span class="sxs-lookup"><span data-stu-id="c8fab-106">You can also set these values on the **Behavior** tab in the **Behavior** dialog box (click **Behavior** in the **Shape Design** group on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab).</span></span> 
   
 

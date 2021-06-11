@@ -1,5 +1,5 @@
 ---
-title: Referencia de API de administración de cuentas
+title: Referencia de api de administración de cuentas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427692"
 ---
-# <a name="account-management-api-reference"></a><span data-ttu-id="bc161-103">Referencia de API de administración de cuentas</span><span class="sxs-lookup"><span data-stu-id="bc161-103">Account management API reference</span></span>
+# <a name="account-management-api-reference"></a><span data-ttu-id="aa2f6-103">Referencia de api de administración de cuentas</span><span class="sxs-lookup"><span data-stu-id="aa2f6-103">Account management API reference</span></span>
 
-<span data-ttu-id="bc161-104">En esta sección se proporciona contenido de referencia para la API de administración de cuentas, que proporciona acceso a la información de la cuenta, admite notificaciones de cambios de cuenta, la protección de cuentas contra correo no deseado y la administración de descargas de mensajes para cuentas POP3.</span><span class="sxs-lookup"><span data-stu-id="bc161-104">This section provides reference content for the Account Management API, which provides access to account information, supports notifications of account changes, protecting accounts from spam and managing message downloads for POP3 accounts.</span></span>
+<span data-ttu-id="aa2f6-104">En esta sección se proporciona contenido de referencia para la API de administración de cuentas, que proporciona acceso a la información de la cuenta, admite notificaciones de cambios de cuentas, protege las cuentas contra correo no deseado y administra las descargas de mensajes para cuentas POP3.</span><span class="sxs-lookup"><span data-stu-id="aa2f6-104">This section provides reference content for the Account Management API, which provides access to account information, supports notifications of account changes, protecting accounts from spam and managing message downloads for POP3 accounts.</span></span>
 
 
-- [<span data-ttu-id="bc161-105">Constants</span><span class="sxs-lookup"><span data-stu-id="bc161-105">Constants</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="aa2f6-105">Constants</span><span class="sxs-lookup"><span data-stu-id="aa2f6-105">Constants</span></span>](constants-account-management-api.md)
     
-- [<span data-ttu-id="bc161-106">Tipos de datos</span><span class="sxs-lookup"><span data-stu-id="bc161-106">Data Types</span></span>](data-types-account-management-api.md)
+- [<span data-ttu-id="aa2f6-106">Tipos de datos</span><span class="sxs-lookup"><span data-stu-id="aa2f6-106">Data Types</span></span>](data-types-account-management-api.md)
     
-- [<span data-ttu-id="bc161-107">Interfaces</span><span class="sxs-lookup"><span data-stu-id="bc161-107">Interfaces</span></span>](interfaces-account-management-api.md)
+- [<span data-ttu-id="aa2f6-107">Interfaces</span><span class="sxs-lookup"><span data-stu-id="aa2f6-107">Interfaces</span></span>](interfaces-account-management-api.md)
     
-- [<span data-ttu-id="bc161-108">Propiedades con nombre</span><span class="sxs-lookup"><span data-stu-id="bc161-108">Named Properties</span></span>](named-properties-account-management-api.md)
+- [<span data-ttu-id="aa2f6-108">Propiedades con nombre</span><span class="sxs-lookup"><span data-stu-id="aa2f6-108">Named Properties</span></span>](named-properties-account-management-api.md)
     
-- [<span data-ttu-id="bc161-109">Propiedades</span><span class="sxs-lookup"><span data-stu-id="bc161-109">Properties</span></span>](properties-account-management-api.md)
+- [<span data-ttu-id="aa2f6-109">Propiedades</span><span class="sxs-lookup"><span data-stu-id="aa2f6-109">Properties</span></span>](properties-account-management-api.md)
     
 

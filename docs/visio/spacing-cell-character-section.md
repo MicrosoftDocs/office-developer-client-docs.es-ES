@@ -16,26 +16,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430066"
 ---
-# <a name="spacing-cell-character-section"></a><span data-ttu-id="9d163-104">Celda Spacing (Sección de caracteres)</span><span class="sxs-lookup"><span data-stu-id="9d163-104">Spacing Cell (Character Section)</span></span>
+# <a name="spacing-cell-character-section"></a><span data-ttu-id="45fbc-104">Celda Spacing (Sección de caracteres)</span><span class="sxs-lookup"><span data-stu-id="45fbc-104">Spacing Cell (Character Section)</span></span>
 
-<span data-ttu-id="9d163-105">Controla el espacio que hay entre dos o más caracteres.</span><span class="sxs-lookup"><span data-stu-id="9d163-105">Controls the amount of space between two or more characters.</span></span> <span data-ttu-id="9d163-106">El espacio puede aumentar o disminuir en incrementos de 1/20 de punto.</span><span class="sxs-lookup"><span data-stu-id="9d163-106">Space can be added or subtracted in 1/20th point increments.</span></span>
+<span data-ttu-id="45fbc-p102">Controla el espacio que hay entre dos o más caracteres. El espacio puede aumentar o disminuir en incrementos de 1/20 de punto.</span><span class="sxs-lookup"><span data-stu-id="45fbc-p102">Controls the amount of space between two or more characters. Space can be added or subtracted in 1/20th point increments.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9d163-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9d163-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="45fbc-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="45fbc-107">Remarks</span></span>
 
-<span data-ttu-id="9d163-108">También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**).</span><span class="sxs-lookup"><span data-stu-id="9d163-108">You can also set the value of this cell by using the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
+<span data-ttu-id="45fbc-108">También puede usar el cuadro de diálogo **Texto** para establecer el valor de esta celda (en la ficha **Inicio**, haga clic en la flecha de **Fuente**).</span><span class="sxs-lookup"><span data-stu-id="45fbc-108">You can also set the value of this cell by using the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
   
-<span data-ttu-id="9d163-109">Para obtener una referencia a la celda Spacing por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="9d163-109">To get a reference to the Spacing cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="45fbc-109">Para obtener una referencia a la celda Spacing por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="45fbc-109">To get a reference to the Spacing cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9d163-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="9d163-110">Cell name:</span></span>  <br/> |<span data-ttu-id="9d163-111">Char.Letterspace[ *i*  ] donde  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="9d163-111">Char.Letterspace[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="45fbc-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="45fbc-110">Cell name:</span></span>  <br/> |<span data-ttu-id="45fbc-111">Char.Letterspace[ *i*  ] donde  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="45fbc-111">Char.Letterspace[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="9d163-112">Para obtener una referencia desde un programa a la celda Spacing por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="9d163-112">To get a reference to the Spacing cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="45fbc-112">Para obtener una referencia desde un programa a la celda Spacing por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="45fbc-112">To get a reference to the Spacing cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9d163-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="9d163-113">Section index:</span></span>  <br/> |<span data-ttu-id="9d163-114">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="9d163-114">**visSectionCharacter**</span></span> <br/> |
-|<span data-ttu-id="9d163-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="9d163-115">Row index:</span></span>  <br/> |<span data-ttu-id="9d163-116">**visRowCharacter**  +   *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="9d163-116">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="9d163-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="9d163-117">Cell index:</span></span>  <br/> |<span data-ttu-id="9d163-118">**visCharacterLetterspace**</span><span class="sxs-lookup"><span data-stu-id="9d163-118">**visCharacterLetterspace**</span></span> <br/> |
+|<span data-ttu-id="45fbc-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="45fbc-113">Section index:</span></span>  <br/> |<span data-ttu-id="45fbc-114">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="45fbc-114">**visSectionCharacter**</span></span> <br/> |
+|<span data-ttu-id="45fbc-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="45fbc-115">Row index:</span></span>  <br/> |<span data-ttu-id="45fbc-116">**visRowCharacter**  +   *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="45fbc-116">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="45fbc-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="45fbc-117">Cell index:</span></span>  <br/> |<span data-ttu-id="45fbc-118">**visCharacterLetterspace**</span><span class="sxs-lookup"><span data-stu-id="45fbc-118">**visCharacterLetterspace**</span></span> <br/> |
    
 

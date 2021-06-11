@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430990"
 ---
-# <a name="iolkaccountmanagerunadvise"></a><span data-ttu-id="e4a1b-103">IOlkAccountManager::Unadvise</span><span class="sxs-lookup"><span data-stu-id="e4a1b-103">IOlkAccountManager::Unadvise</span></span>
+# <a name="iolkaccountmanagerunadvise"></a><span data-ttu-id="7fac4-103">IOlkAccountManager::Unadvise</span><span class="sxs-lookup"><span data-stu-id="7fac4-103">IOlkAccountManager::Unadvise</span></span>
 
-<span data-ttu-id="e4a1b-104">Anula el registro de un cliente con el administrador de cuentas para las notificaciones de todas las cuentas.</span><span class="sxs-lookup"><span data-stu-id="e4a1b-104">Unregisters a client with the account manager for notifications for all accounts.</span></span> 
+<span data-ttu-id="7fac4-104">Anula el registro de un cliente con el administrador de cuentas para las notificaciones de todas las cuentas.</span><span class="sxs-lookup"><span data-stu-id="7fac4-104">Unregisters a client with the account manager for notifications for all accounts.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="e4a1b-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="e4a1b-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="7fac4-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="7fac4-105">Quick info</span></span>
 
-<span data-ttu-id="e4a1b-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="e4a1b-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
+<span data-ttu-id="7fac4-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="7fac4-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
   
 ```cpp
 HRESULT Unadvise(
@@ -29,22 +29,22 @@ HRESULT Unadvise(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e4a1b-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="e4a1b-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7fac4-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="7fac4-107">Parameters</span></span>
 
-<span data-ttu-id="e4a1b-108">_dwCookie_</span><span class="sxs-lookup"><span data-stu-id="e4a1b-108">_dwCookie_</span></span>
+<span data-ttu-id="7fac4-108">_dwCookie_</span><span class="sxs-lookup"><span data-stu-id="7fac4-108">_dwCookie_</span></span>
   
-> <span data-ttu-id="e4a1b-109">[entrada] La cookie devuelta por [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).</span><span class="sxs-lookup"><span data-stu-id="e4a1b-109">[in] The cookie returned by [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).</span></span>
+> <span data-ttu-id="7fac4-109">[in] Cookie devuelta por [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).</span><span class="sxs-lookup"><span data-stu-id="7fac4-109">[in] The cookie returned by [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="e4a1b-110">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="e4a1b-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="7fac4-110">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="7fac4-110">Return values</span></span>
 
-|<span data-ttu-id="e4a1b-111">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="e4a1b-111">**HRESULT**</span></span>|<span data-ttu-id="e4a1b-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="e4a1b-112">**Description**</span></span>|
+|<span data-ttu-id="7fac4-111">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="7fac4-111">**HRESULT**</span></span>|<span data-ttu-id="7fac4-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="7fac4-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="e4a1b-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="e4a1b-113">S_OK</span></span>  <br/> |<span data-ttu-id="e4a1b-114">La llamada ha sido correcta.</span><span class="sxs-lookup"><span data-stu-id="e4a1b-114">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="e4a1b-115">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="e4a1b-115">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="e4a1b-116">Uno o más argumentos no son válidos.</span><span class="sxs-lookup"><span data-stu-id="e4a1b-116">One or more arguments are invalid.</span></span>  <br/> |
-|<span data-ttu-id="e4a1b-117">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="e4a1b-117">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="e4a1b-118">No se ha inicializado el Administrador de cuentas para su uso.</span><span class="sxs-lookup"><span data-stu-id="e4a1b-118">The account manager has not been initialized for use.</span></span>  <br/> |
+|<span data-ttu-id="7fac4-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="7fac4-113">S_OK</span></span>  <br/> |<span data-ttu-id="7fac4-114">La llamada ha sido correcta.</span><span class="sxs-lookup"><span data-stu-id="7fac4-114">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="7fac4-115">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="7fac4-115">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="7fac4-116">Uno o más argumentos no son válidos.</span><span class="sxs-lookup"><span data-stu-id="7fac4-116">One or more arguments are invalid.</span></span>  <br/> |
+|<span data-ttu-id="7fac4-117">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="7fac4-117">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="7fac4-118">No se ha inicializado el Administrador de cuentas para su uso.</span><span class="sxs-lookup"><span data-stu-id="7fac4-118">The account manager has not been initialized for use.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="e4a1b-119">Consulte también</span><span class="sxs-lookup"><span data-stu-id="e4a1b-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7fac4-119">Vea también</span><span class="sxs-lookup"><span data-stu-id="7fac4-119">See also</span></span>
 
-- [<span data-ttu-id="e4a1b-120">Constantes (API de administración de cuenta)</span><span class="sxs-lookup"><span data-stu-id="e4a1b-120">Constants (Account management API)</span></span>](constants-account-management-api.md)  
-- [<span data-ttu-id="e4a1b-121">IOlkAccountManager::Advise</span><span class="sxs-lookup"><span data-stu-id="e4a1b-121">IOlkAccountManager::Advise</span></span>](iolkaccountmanager-advise.md)
+- [<span data-ttu-id="7fac4-120">Constantes (API de administración de cuenta)</span><span class="sxs-lookup"><span data-stu-id="7fac4-120">Constants (Account management API)</span></span>](constants-account-management-api.md)  
+- [<span data-ttu-id="7fac4-121">IOlkAccountManager::Advise</span><span class="sxs-lookup"><span data-stu-id="7fac4-121">IOlkAccountManager::Advise</span></span>](iolkaccountmanager-advise.md)
 

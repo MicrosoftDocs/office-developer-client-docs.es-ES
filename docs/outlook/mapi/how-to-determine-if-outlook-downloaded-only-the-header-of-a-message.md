@@ -13,11 +13,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428154"
 ---
-# <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a><span data-ttu-id="ca2ee-103">Determinar si Outlook descarga solo el encabezado de un mensaje</span><span class="sxs-lookup"><span data-stu-id="ca2ee-103">Determine if Outlook downloaded only the header of a message</span></span>
+# <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a><span data-ttu-id="64bd7-103">Determinar si Outlook descarga solo el encabezado de un mensaje</span><span class="sxs-lookup"><span data-stu-id="64bd7-103">Determine if Outlook downloaded only the header of a message</span></span>
 
-<span data-ttu-id="ca2ee-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ca2ee-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="64bd7-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="64bd7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ca2ee-105">En este tema se muestra un ejemplo de código en Visual C++ que usa la propiedad canónica [PidLidHeaderItem](pidlidheaderitem-canonical-property.md) para determinar si Microsoft Outlook 2013 ha descargado solo el encabezado de un mensaje o el encabezado y el cuerpo de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="ca2ee-105">This topic shows a code sample in Visual C++ that uses the named [PidLidHeaderItem Canonical Property](pidlidheaderitem-canonical-property.md) to determine whether Microsoft Outlook 2013 has downloaded only the header of a message or the header and the body of a message.</span></span> 
+<span data-ttu-id="64bd7-105">En este tema se muestra un ejemplo de código en Visual C++ que usa la propiedad canónica [PidLidHeaderItem](pidlidheaderitem-canonical-property.md) denominada para determinar si Microsoft Outlook 2013 solo ha descargado el encabezado de un mensaje o el encabezado y el cuerpo de un mensaje.</span><span class="sxs-lookup"><span data-stu-id="64bd7-105">This topic shows a code sample in Visual C++ that uses the named [PidLidHeaderItem Canonical Property](pidlidheaderitem-canonical-property.md) to determine whether Microsoft Outlook 2013 has downloaded only the header of a message or the header and the body of a message.</span></span> 
   
 ```cpp
 BOOL bIsHeader(LPMESSAGE lpMessage) 

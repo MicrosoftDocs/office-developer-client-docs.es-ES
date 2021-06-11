@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426859"
 ---
-# <a name="imapisync--synchronizeinbackground"></a><span data-ttu-id="2b90b-103">IMAPISync : SynchronizeInBackground</span><span class="sxs-lookup"><span data-stu-id="2b90b-103">IMAPISync : SynchronizeInBackground</span></span>
+# <a name="imapisync--synchronizeinbackground"></a><span data-ttu-id="ac187-103">IMAPISync : SynchronizeInBackground</span><span class="sxs-lookup"><span data-stu-id="ac187-103">IMAPISync : SynchronizeInBackground</span></span>
 
  
   
-<span data-ttu-id="2b90b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2b90b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ac187-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ac187-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="2b90b-105">Inicia una sincronización.</span><span class="sxs-lookup"><span data-stu-id="2b90b-105">Initiates a synchronization.</span></span> <span data-ttu-id="2b90b-106">Microsoft Outlook 2010 y Microsoft Outlook 2013 llaman a este método e los implementan los proveedores de almacenamiento de mensajes.</span><span class="sxs-lookup"><span data-stu-id="2b90b-106">This method is called by Microsoft Outlook 2010 and Microsoft Outlook 2013 and implemented by message store providers.</span></span> 
+ <span data-ttu-id="ac187-105">Inicia una sincronización.</span><span class="sxs-lookup"><span data-stu-id="ac187-105">Initiates a synchronization.</span></span> <span data-ttu-id="ac187-106">Este método es llamado por Microsoft Outlook 2010 y Microsoft Outlook 2013 e implementado por los proveedores de almacén de mensajes.</span><span class="sxs-lookup"><span data-stu-id="ac187-106">This method is called by Microsoft Outlook 2010 and Microsoft Outlook 2013 and implemented by message store providers.</span></span> 
   
 ```cpp
 HRESULT SynchronizeInBackground (
@@ -33,23 +33,23 @@ HRESULT SynchronizeInBackground (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2b90b-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="2b90b-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ac187-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="ac187-107">Parameters</span></span>
 
- <span data-ttu-id="2b90b-108">_psibpb_</span><span class="sxs-lookup"><span data-stu-id="2b90b-108">_psibpb_</span></span>
+ <span data-ttu-id="ac187-108">_psibpb_</span><span class="sxs-lookup"><span data-stu-id="ac187-108">_psibpb_</span></span>
   
-> <span data-ttu-id="2b90b-109">Informa al proveedor de lo que se sincronizará y proporciona acceso a las interfaces que se pueden usar durante la sincronización.</span><span class="sxs-lookup"><span data-stu-id="2b90b-109">Informs the provider of what will be synchronized and gives access to interfaces that can be used during the synchronization.</span></span> <span data-ttu-id="2b90b-110">Es una [estructura MAPISIB.](mapisib.md)</span><span class="sxs-lookup"><span data-stu-id="2b90b-110">It is a [MAPISIB](mapisib.md) structure.</span></span> 
+> <span data-ttu-id="ac187-109">Informa al proveedor de lo que se sincronizará y proporciona acceso a las interfaces que se pueden usar durante la sincronización.</span><span class="sxs-lookup"><span data-stu-id="ac187-109">Informs the provider of what will be synchronized and gives access to interfaces that can be used during the synchronization.</span></span> <span data-ttu-id="ac187-110">Es una [estructura MAPISIB.](mapisib.md)</span><span class="sxs-lookup"><span data-stu-id="ac187-110">It is a [MAPISIB](mapisib.md) structure.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="2b90b-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="2b90b-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ac187-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ac187-111">Return value</span></span>
 
-<span data-ttu-id="2b90b-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="2b90b-112">S_OK</span></span> 
+<span data-ttu-id="ac187-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="ac187-112">S_OK</span></span> 
   
-> <span data-ttu-id="2b90b-113">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="2b90b-113">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="ac187-113">La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.</span><span class="sxs-lookup"><span data-stu-id="ac187-113">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="2b90b-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2b90b-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ac187-114">Vea también</span><span class="sxs-lookup"><span data-stu-id="ac187-114">See also</span></span>
 
 
 
-[<span data-ttu-id="2b90b-115">IMAPISync : IUnknown</span><span class="sxs-lookup"><span data-stu-id="2b90b-115">IMAPISync : IUnknown</span></span>](imapisynciunknown.md)
+[<span data-ttu-id="ac187-115">IMAPISync : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ac187-115">IMAPISync : IUnknown</span></span>](imapisynciunknown.md)
   
-[<span data-ttu-id="2b90b-116">MAPISIB</span><span class="sxs-lookup"><span data-stu-id="2b90b-116">MAPISIB</span></span>](mapisib.md)
+[<span data-ttu-id="ac187-116">MAPISIB</span><span class="sxs-lookup"><span data-stu-id="ac187-116">MAPISIB</span></span>](mapisib.md)
 

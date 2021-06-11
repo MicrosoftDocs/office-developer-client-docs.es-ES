@@ -1,5 +1,5 @@
 ---
-title: NuevaRegistro (acción de macro) (aplicación web personalizada de Access)
+title: Acción de macro NewRecord (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,17 +14,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424598"
 ---
-# <a name="newrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="90a13-103">NuevaRegistro (acción de macro) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="90a13-103">NewRecord Macro Action (Access custom web app)</span></span>
+# <a name="newrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="8d208-103">Acción de macro NewRecord (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="8d208-103">NewRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="90a13-104">Crea un nuevo registro en blanco en la vista actual.</span><span class="sxs-lookup"><span data-stu-id="90a13-104">Creates a new, blank record in the current view.</span></span>
+<span data-ttu-id="8d208-104">Crea un nuevo registro en blanco en la vista actual.</span><span class="sxs-lookup"><span data-stu-id="8d208-104">Creates a new, blank record in the current view.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="90a13-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="90a13-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="8d208-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="8d208-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="90a13-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="90a13-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8d208-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="8d208-107">Remarks</span></span>
 
-<span data-ttu-id="90a13-108">Puede usar  la acción NuevoRegistro para agregar un registro en blanco al final de la vista para poder escribir nuevos datos.</span><span class="sxs-lookup"><span data-stu-id="90a13-108">You can use the **NewRecord** action to add a blank record at the end of view so you can enter new data.</span></span> 
+<span data-ttu-id="8d208-108">Puede usar la acción **NewRecord** para agregar un registro en blanco al final de la vista para poder escribir nuevos datos.</span><span class="sxs-lookup"><span data-stu-id="8d208-108">You can use the **NewRecord** action to add a blank record at the end of view so you can enter new data.</span></span> 
   
-<span data-ttu-id="90a13-109">La **acción NuevoRegistro** equivale a usar el **botón** Agregar de la barra de acciones para agregar un registro.</span><span class="sxs-lookup"><span data-stu-id="90a13-109">The **NewRecord** action is equivalent to using the **Add** button in the action bar to add a record.</span></span> 
+<span data-ttu-id="8d208-109">La **acción NewRecord** equivale a usar el **botón Agregar** en la barra de acciones para agregar un registro.</span><span class="sxs-lookup"><span data-stu-id="8d208-109">The **NewRecord** action is equivalent to using the **Add** button in the action bar to add a record.</span></span> 
   
 

@@ -15,25 +15,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427916"
 ---
-# <a name="isocialsessiongetlogonurl"></a><span data-ttu-id="69dd6-103">ISocialSession::GetLogonUrl</span><span class="sxs-lookup"><span data-stu-id="69dd6-103">ISocialSession::GetLogonUrl</span></span>
+# <a name="isocialsessiongetlogonurl"></a><span data-ttu-id="0a51e-103">ISocialSession::GetLogonUrl</span><span class="sxs-lookup"><span data-stu-id="0a51e-103">ISocialSession::GetLogonUrl</span></span>
 
-<span data-ttu-id="69dd6-104">Obtiene una cadena que representa una dirección URL que se usa para presentar un formulario basado en explorador al usuario durante la autenticación web.</span><span class="sxs-lookup"><span data-stu-id="69dd6-104">Gets a string that represents a URL that is used for presenting a browser-based form to the user during web authentication.</span></span>
+<span data-ttu-id="0a51e-104">Obtiene una cadena que representa una dirección URL que se usa para presentar un formulario basado en explorador al usuario durante la autenticación web.</span><span class="sxs-lookup"><span data-stu-id="0a51e-104">Gets a string that represents a URL that is used for presenting a browser-based form to the user during web authentication.</span></span>
   
 ```cpp
 HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="69dd6-105">Parámetros</span><span class="sxs-lookup"><span data-stu-id="69dd6-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0a51e-105">Parameters</span><span class="sxs-lookup"><span data-stu-id="0a51e-105">Parameters</span></span>
 
-<span data-ttu-id="69dd6-106">_url_</span><span class="sxs-lookup"><span data-stu-id="69dd6-106">_url_</span></span>
+<span data-ttu-id="0a51e-106">_url_</span><span class="sxs-lookup"><span data-stu-id="0a51e-106">_url_</span></span>
   
-> <span data-ttu-id="69dd6-107">[salida] Cadena que contiene una dirección URL para el formulario usado en la autenticación web.</span><span class="sxs-lookup"><span data-stu-id="69dd6-107">[out] A string that contains a URL for the form used in web authentication.</span></span>
+> <span data-ttu-id="0a51e-107">[salida] Cadena que contiene una dirección URL para el formulario usado en la autenticación web.</span><span class="sxs-lookup"><span data-stu-id="0a51e-107">[out] A string that contains a URL for the form used in web authentication.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="69dd6-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="69dd6-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0a51e-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="0a51e-108">Remarks</span></span>
 
-<span data-ttu-id="69dd6-109">Después de presentar el formulario al usuario, se llama al método [ISocialSession::LogonWeb](isocialsession-logonweb.md) con una cadena vacía para el _parámetro connectIn._</span><span class="sxs-lookup"><span data-stu-id="69dd6-109">After the form is presented to the user, the [ISocialSession::LogonWeb](isocialsession-logonweb.md) method is called with an empty string for the  _connectIn_ parameter.</span></span> 
+<span data-ttu-id="0a51e-109">Después de presentar el formulario al usuario, se llama al método [ISocialSession::LogonWeb](isocialsession-logonweb.md) con una cadena vacía para el _parámetro connectIn._</span><span class="sxs-lookup"><span data-stu-id="0a51e-109">After the form is presented to the user, the [ISocialSession::LogonWeb](isocialsession-logonweb.md) method is called with an empty string for the  _connectIn_ parameter.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="69dd6-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="69dd6-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0a51e-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="0a51e-110">See also</span></span>
 
-- [<span data-ttu-id="69dd6-111">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="69dd6-111">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="0a51e-111">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0a51e-111">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

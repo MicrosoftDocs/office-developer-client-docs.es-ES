@@ -19,44 +19,44 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428609"
 ---
-# <a name="sizedssortorderset"></a><span data-ttu-id="202f8-103">SizedSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="202f8-103">SizedSSortOrderSet</span></span>
+# <a name="sizedssortorderset"></a><span data-ttu-id="1d5e1-103">SizedSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="1d5e1-103">SizedSSortOrderSet</span></span>
 
-<span data-ttu-id="202f8-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="202f8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1d5e1-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1d5e1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="202f8-105">Crea una estructura [SSortOrderSet](ssortorderset.md) con nombre que contiene un número especificado de criterios de ordenación.</span><span class="sxs-lookup"><span data-stu-id="202f8-105">Creates a named [SSortOrderSet](ssortorderset.md) structure that contains a specified number of sort orders.</span></span> 
+<span data-ttu-id="1d5e1-105">Crea una estructura [SSortOrderSet](ssortorderset.md) con nombre que contiene un número especificado de órdenes de ordenación.</span><span class="sxs-lookup"><span data-stu-id="1d5e1-105">Creates a named [SSortOrderSet](ssortorderset.md) structure that contains a specified number of sort orders.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="202f8-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="202f8-106">Header file:</span></span>  <br/> |<span data-ttu-id="202f8-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="202f8-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="202f8-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="202f8-108">Related structure:</span></span>  <br/> |<span data-ttu-id="202f8-109">**SSortOrderSet**</span><span class="sxs-lookup"><span data-stu-id="202f8-109">**SSortOrderSet**</span></span> <br/> |
+|<span data-ttu-id="1d5e1-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="1d5e1-106">Header file:</span></span>  <br/> |<span data-ttu-id="1d5e1-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1d5e1-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="1d5e1-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="1d5e1-108">Related structure:</span></span>  <br/> |<span data-ttu-id="1d5e1-109">**SSortOrderSet**</span><span class="sxs-lookup"><span data-stu-id="1d5e1-109">**SSortOrderSet**</span></span> <br/> |
    
 ```cpp
 SizedSSortOrderSet (_csort,_name)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="202f8-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="202f8-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1d5e1-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="1d5e1-110">Parameters</span></span>
 
-<span data-ttu-id="202f8-111">_ _csort_</span><span class="sxs-lookup"><span data-stu-id="202f8-111">_ _csort_</span></span>
+<span data-ttu-id="1d5e1-111">_ _csort_</span><span class="sxs-lookup"><span data-stu-id="1d5e1-111">_ _csort_</span></span>
   
-> <span data-ttu-id="202f8-112">Recuento de los pedidos de ordenación que se incluirán en la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="202f8-112">Count of sort orders to be included in the new structure.</span></span>
+> <span data-ttu-id="1d5e1-112">Recuento de los pedidos de ordenación que se incluirán en la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="1d5e1-112">Count of sort orders to be included in the new structure.</span></span>
     
-<span data-ttu-id="202f8-113">_ _name_</span><span class="sxs-lookup"><span data-stu-id="202f8-113">_ _name_</span></span>
+<span data-ttu-id="1d5e1-113">_ _name_</span><span class="sxs-lookup"><span data-stu-id="1d5e1-113">_ _name_</span></span>
   
-> <span data-ttu-id="202f8-114">Nombre de la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="202f8-114">Name for the new structure.</span></span>
+> <span data-ttu-id="1d5e1-114">Nombre de la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="1d5e1-114">Name for the new structure.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="202f8-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="202f8-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1d5e1-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1d5e1-115">Remarks</span></span>
 
-<span data-ttu-id="202f8-116">Use la macro **SizedSSortOrderSet para** crear un conjunto de criterio de ordenación con límites explícitos.</span><span class="sxs-lookup"><span data-stu-id="202f8-116">Use the **SizedSSortOrderSet** macro to create a sort order set with explicit bounds.</span></span> 
+<span data-ttu-id="1d5e1-116">Use la **macro SizedSSortOrderSet** para crear un conjunto de ordenación con límites explícitos.</span><span class="sxs-lookup"><span data-stu-id="1d5e1-116">Use the **SizedSSortOrderSet** macro to create a sort order set with explicit bounds.</span></span> 
   
-<span data-ttu-id="202f8-117">Para usar la nueva estructura que resulta de la macro **SizedSSortOrderSet** como puntero a una estructura **SSortOrderSet,** realice la conversión siguiente:</span><span class="sxs-lookup"><span data-stu-id="202f8-117">To use the new structure that results from the **SizedSSortOrderSet** macro as a pointer to an **SSortOrderSet** structure, perform the following cast:</span></span> 
+<span data-ttu-id="1d5e1-117">Para usar la nueva estructura que resulta de la macro **SizedSSortOrderSet** como puntero a una estructura **SSortOrderSet,** realice la conversión siguiente:</span><span class="sxs-lookup"><span data-stu-id="1d5e1-117">To use the new structure that results from the **SizedSSortOrderSet** macro as a pointer to an **SSortOrderSet** structure, perform the following cast:</span></span> 
   
 ```cpp
 lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="202f8-118">Consulte también</span><span class="sxs-lookup"><span data-stu-id="202f8-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1d5e1-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="1d5e1-118">See also</span></span>
 
-- [<span data-ttu-id="202f8-119">SSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="202f8-119">SSortOrderSet</span></span>](ssortorderset.md)
-- [<span data-ttu-id="202f8-120">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="202f8-120">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+- [<span data-ttu-id="1d5e1-119">SSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="1d5e1-119">SSortOrderSet</span></span>](ssortorderset.md)
+- [<span data-ttu-id="1d5e1-120">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="1d5e1-120">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

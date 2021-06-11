@@ -16,31 +16,31 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430430"
 ---
-# <a name="shdwobliqueangle-cell-page-properties-section"></a><span data-ttu-id="3523b-103">Celda ShdwObliqueAngle (Sección de propiedades de página)</span><span class="sxs-lookup"><span data-stu-id="3523b-103">ShdwObliqueAngle Cell (Page Properties Section)</span></span>
+# <a name="shdwobliqueangle-cell-page-properties-section"></a><span data-ttu-id="318b1-103">Celda ShdwObliqueAngle (Sección de propiedades de página)</span><span class="sxs-lookup"><span data-stu-id="318b1-103">ShdwObliqueAngle Cell (Page Properties Section)</span></span>
 
-<span data-ttu-id="3523b-104">Contiene un número que especifica el ángulo de dirección oblicua cuando se aplica el tipo de sombra predeterminado de la página.</span><span class="sxs-lookup"><span data-stu-id="3523b-104">Contains a number specifying the angle of oblique direction when applying the default page shadow type.</span></span>
+<span data-ttu-id="318b1-104">Contiene un número que especifica el ángulo de dirección oblicua cuando se aplica el tipo de sombra predeterminado de la página.</span><span class="sxs-lookup"><span data-stu-id="318b1-104">Contains a number specifying the angle of oblique direction when applying the default page shadow type.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3523b-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3523b-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="318b1-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="318b1-105">Remarks</span></span>
 
-<span data-ttu-id="3523b-106">Un valor de cero (0) en esta celda indica que la dirección del ángulo es vertical hacia arriba y que se mide moviéndose en el sentido de las agujas del reloj.</span><span class="sxs-lookup"><span data-stu-id="3523b-106">A value of zero (0) in this cell indicates that the angle direction is straight up and is measured moving clockwise.</span></span>
+<span data-ttu-id="318b1-106">Un valor de cero (0) en esta celda indica que la dirección del ángulo es vertical hacia arriba y que se mide moviéndose en el sentido de las agujas del reloj.</span><span class="sxs-lookup"><span data-stu-id="318b1-106">A value of zero (0) in this cell indicates that the angle direction is straight up and is measured moving clockwise.</span></span>
   
- <span data-ttu-id="3523b-107">El ángulo descrito en esta celda se usa siempre que la celda ShapeShdwType (el tipo de sombra de una forma de la página) se establece en Page Default (**visFSTPageDefault** ) y el tipo de sombra es oblicua.</span><span class="sxs-lookup"><span data-stu-id="3523b-107">The angle described in this cell is used whenever the ShapeShdwType Cell (the shadow type for a shape on the page) is set to Page Default (**visFSTPageDefault** ), and the shadow type is oblique.</span></span> <span data-ttu-id="3523b-108">El tipo de sombra predeterminado de la página se define en la celda ShdwType.</span><span class="sxs-lookup"><span data-stu-id="3523b-108">The default page shadow type is defined in the ShdwType cell.</span></span> 
+ <span data-ttu-id="318b1-107">El ángulo descrito en esta celda se usa siempre que la celda ShapeShdwType (el tipo de sombra de una forma de la página) se establece en Page Default (**visFSTPageDefault** ), y el tipo de sombra es oblicua.</span><span class="sxs-lookup"><span data-stu-id="318b1-107">The angle described in this cell is used whenever the ShapeShdwType Cell (the shadow type for a shape on the page) is set to Page Default (**visFSTPageDefault** ), and the shadow type is oblique.</span></span> <span data-ttu-id="318b1-108">El tipo de sombra predeterminado de la página se define en la celda ShdwType.</span><span class="sxs-lookup"><span data-stu-id="318b1-108">The default page shadow type is defined in the ShdwType cell.</span></span> 
   
-<span data-ttu-id="3523b-109">Para establecer este comportamiento para una forma individual, utilice la celda ShapeShdwObliqueAngle de la sección de formato de relleno.</span><span class="sxs-lookup"><span data-stu-id="3523b-109">To set this behavior for an individual shape, use the ShapeShdwObliqueAngle cell in the Fill Format section.</span></span>
+<span data-ttu-id="318b1-109">Para establecer este comportamiento para una forma individual, utilice la celda ShapeShdwObliqueAngle de la sección de formato de relleno.</span><span class="sxs-lookup"><span data-stu-id="318b1-109">To set this behavior for an individual shape, use the ShapeShdwObliqueAngle cell in the Fill Format section.</span></span>
   
-<span data-ttu-id="3523b-110">Para obtener una referencia a la celda ShdwObliqueAngle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="3523b-110">To get a reference to the ShdwObliqueAngle cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="318b1-110">Para obtener una referencia a la celda ShdwObliqueAngle por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="318b1-110">To get a reference to the ShdwObliqueAngle cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3523b-111">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="3523b-111">Cell name:</span></span>  <br/> | <span data-ttu-id="3523b-112">ShdwObliqueAngle</span><span class="sxs-lookup"><span data-stu-id="3523b-112">ShdwObliqueAngle</span></span>  <br/> |
+| <span data-ttu-id="318b1-111">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="318b1-111">Cell name:</span></span>  <br/> | <span data-ttu-id="318b1-112">ShdwObliqueAngle</span><span class="sxs-lookup"><span data-stu-id="318b1-112">ShdwObliqueAngle</span></span>  <br/> |
    
-<span data-ttu-id="3523b-113">Para obtener una referencia desde un programa a la celda ShdwObliqueAngle por su índice
-, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="3523b-113">To get a reference to the ShdwObliqueAngle cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="318b1-113">Para obtener una referencia desde un programa a la celda ShdwObliqueAngle por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="318b1-113">To get a reference to the ShdwObliqueAngle cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3523b-114">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="3523b-114">Section index:</span></span>  <br/> |<span data-ttu-id="3523b-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3523b-115">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="3523b-116">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="3523b-116">Row index:</span></span>  <br/> |<span data-ttu-id="3523b-117">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="3523b-117">**visRowPage**</span></span> <br/> |
-| <span data-ttu-id="3523b-118">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="3523b-118">Cell index:</span></span>  <br/> |<span data-ttu-id="3523b-119">**visPageShdwObliqueAngle**</span><span class="sxs-lookup"><span data-stu-id="3523b-119">**visPageShdwObliqueAngle**</span></span> <br/> |
+| <span data-ttu-id="318b1-114">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="318b1-114">Section index:</span></span>  <br/> |<span data-ttu-id="318b1-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="318b1-115">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="318b1-116">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="318b1-116">Row index:</span></span>  <br/> |<span data-ttu-id="318b1-117">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="318b1-117">**visRowPage**</span></span> <br/> |
+| <span data-ttu-id="318b1-118">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="318b1-118">Cell index:</span></span>  <br/> |<span data-ttu-id="318b1-119">**visPageShdwObliqueAngle**</span><span class="sxs-lookup"><span data-stu-id="318b1-119">**visPageShdwObliqueAngle**</span></span> <br/> |
    
 
