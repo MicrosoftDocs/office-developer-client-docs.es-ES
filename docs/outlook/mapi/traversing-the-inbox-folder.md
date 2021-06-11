@@ -1,5 +1,5 @@
 ---
-title: Atravesar la carpeta Bandeja de entrada
+title: Recorrer la carpeta bandeja de entrada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,36 +15,36 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406559"
 ---
-# <a name="traversing-the-inbox-folder"></a><span data-ttu-id="23758-103">Atravesar la carpeta Bandeja de entrada</span><span class="sxs-lookup"><span data-stu-id="23758-103">Traversing the Inbox Folder</span></span>
+# <a name="traversing-the-inbox-folder"></a><span data-ttu-id="cf96f-103">Recorrer la carpeta bandeja de entrada</span><span class="sxs-lookup"><span data-stu-id="cf96f-103">Traversing the Inbox Folder</span></span>
 
   
   
-<span data-ttu-id="23758-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="23758-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cf96f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cf96f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="23758-105">**Para recorrer todos los mensajes de la Bandeja de entrada**</span><span class="sxs-lookup"><span data-stu-id="23758-105">**To cycle through all of the messages in the Inbox**</span></span>
+ <span data-ttu-id="cf96f-105">**Para recorrer todos los mensajes de la Bandeja de entrada**</span><span class="sxs-lookup"><span data-stu-id="cf96f-105">**To cycle through all of the messages in the Inbox**</span></span>
   
-1. <span data-ttu-id="23758-106">Llame [a IMsgStore::GetReceiveFolder para](imsgstore-getreceivefolder.md) recuperar el identificador de entrada de la Bandeja de entrada.</span><span class="sxs-lookup"><span data-stu-id="23758-106">Call [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) to retrieve the entry identifier of the Inbox.</span></span> 
+1. <span data-ttu-id="cf96f-106">Llame [a IMsgStore::GetReceiveFolder para](imsgstore-getreceivefolder.md) recuperar el identificador de entrada de la Bandeja de entrada.</span><span class="sxs-lookup"><span data-stu-id="cf96f-106">Call [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) to retrieve the entry identifier of the Inbox.</span></span> 
     
-2. <span data-ttu-id="23758-107">Llame **a IMAPIFolder::OpenEntry** para abrir la Bandeja de entrada.</span><span class="sxs-lookup"><span data-stu-id="23758-107">Call **IMAPIFolder::OpenEntry** to open the Inbox.</span></span> 
+2. <span data-ttu-id="cf96f-107">Llama **a IMAPIFolder::OpenEntry** para abrir la Bandeja de entrada.</span><span class="sxs-lookup"><span data-stu-id="cf96f-107">Call **IMAPIFolder::OpenEntry** to open the Inbox.</span></span> 
     
-3. <span data-ttu-id="23758-108">Llame al método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la Bandeja de entrada para recuperar la tabla de contenido.</span><span class="sxs-lookup"><span data-stu-id="23758-108">Call the Inbox's [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) method to retrieve the contents table.</span></span> 
+3. <span data-ttu-id="cf96f-108">Llame al método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la Bandeja de entrada para recuperar la tabla de contenido.</span><span class="sxs-lookup"><span data-stu-id="cf96f-108">Call the Inbox's [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) method to retrieve the contents table.</span></span> 
     
-4. <span data-ttu-id="23758-109">Llame al método [IMAPITable::SetColumns](imapitable-setcolumns.md) de la tabla de contenido para limitar el conjunto de columnas **a PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) y a cualquier otra columna que necesite.</span><span class="sxs-lookup"><span data-stu-id="23758-109">Call the contents table's [IMAPITable::SetColumns](imapitable-setcolumns.md) method to limit the column set to **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) and any other columns you require.</span></span> 
+4. <span data-ttu-id="cf96f-109">Llame al método [IMAPITable::SetColumns](imapitable-setcolumns.md) de la tabla de contenido para limitar la columna establecida en **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) y cualquier otra columna que necesite.</span><span class="sxs-lookup"><span data-stu-id="cf96f-109">Call the contents table's [IMAPITable::SetColumns](imapitable-setcolumns.md) method to limit the column set to **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) and any other columns you require.</span></span> 
     
-5. <span data-ttu-id="23758-110">Llame [a IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar un grupo de filas.</span><span class="sxs-lookup"><span data-stu-id="23758-110">Call [IMAPITable::QueryRows](imapitable-queryrows.md) to retrieve a group of rows.</span></span> 
+5. <span data-ttu-id="cf96f-110">Llama [a IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar un grupo de filas.</span><span class="sxs-lookup"><span data-stu-id="cf96f-110">Call [IMAPITable::QueryRows](imapitable-queryrows.md) to retrieve a group of rows.</span></span> 
     
-6. <span data-ttu-id="23758-111">Hasta que ya no haya filas en la tabla de contenido:</span><span class="sxs-lookup"><span data-stu-id="23758-111">Until there are no longer any rows in the contents table:</span></span>
+6. <span data-ttu-id="cf96f-111">Hasta que ya no haya filas en la tabla de contenido:</span><span class="sxs-lookup"><span data-stu-id="cf96f-111">Until there are no longer any rows in the contents table:</span></span>
     
-1. <span data-ttu-id="23758-112">Llame [a IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir el mensaje representado por el identificador de entrada de cada fila.</span><span class="sxs-lookup"><span data-stu-id="23758-112">Call [IMsgStore::OpenEntry](imsgstore-openentry.md) to open the message represented by the entry identifier from each row.</span></span> 
+1. <span data-ttu-id="cf96f-112">Llama [a IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir el mensaje representado por el identificador de entrada de cada fila.</span><span class="sxs-lookup"><span data-stu-id="cf96f-112">Call [IMsgStore::OpenEntry](imsgstore-openentry.md) to open the message represented by the entry identifier from each row.</span></span> 
     
-2. <span data-ttu-id="23758-113">Asigne el  _parámetro lppUnk_ a un puntero de **interfaz IMessage** local.</span><span class="sxs-lookup"><span data-stu-id="23758-113">Assign the  _lppUnk_ parameter to a local **IMessage** interface pointer.</span></span> 
+2. <span data-ttu-id="cf96f-113">Asigne el  _parámetro lppUnk_ a un puntero de **interfaz IMessage** local.</span><span class="sxs-lookup"><span data-stu-id="cf96f-113">Assign the  _lppUnk_ parameter to a local **IMessage** interface pointer.</span></span> 
     
-3. <span data-ttu-id="23758-114">Trabajar con las propiedades del mensaje.</span><span class="sxs-lookup"><span data-stu-id="23758-114">Work with the properties of the message.</span></span>
+3. <span data-ttu-id="cf96f-114">Trabaje con las propiedades del mensaje.</span><span class="sxs-lookup"><span data-stu-id="cf96f-114">Work with the properties of the message.</span></span>
     
-4. <span data-ttu-id="23758-115">Libere el puntero al que apunta el _parámetro lppUnk._</span><span class="sxs-lookup"><span data-stu-id="23758-115">Release the pointer pointed to by the  _lppUnk_ parameter.</span></span> 
+4. <span data-ttu-id="cf96f-115">Libere el puntero al que apunta el _parámetro lppUnk._</span><span class="sxs-lookup"><span data-stu-id="cf96f-115">Release the pointer pointed to by the  _lppUnk_ parameter.</span></span> 
     
-5. <span data-ttu-id="23758-116">Llame [a IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar el siguiente grupo de filas.</span><span class="sxs-lookup"><span data-stu-id="23758-116">Call [IMAPITable::QueryRows](imapitable-queryrows.md) to retrieve the next group of rows.</span></span> 
+5. <span data-ttu-id="cf96f-116">Llama [a IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar el siguiente grupo de filas.</span><span class="sxs-lookup"><span data-stu-id="cf96f-116">Call [IMAPITable::QueryRows](imapitable-queryrows.md) to retrieve the next group of rows.</span></span> 
     
-7. <span data-ttu-id="23758-117">Libere la tabla de contenido.</span><span class="sxs-lookup"><span data-stu-id="23758-117">Release the contents table.</span></span>
+7. <span data-ttu-id="cf96f-117">Liberar la tabla de contenido.</span><span class="sxs-lookup"><span data-stu-id="cf96f-117">Release the contents table.</span></span>
     
 

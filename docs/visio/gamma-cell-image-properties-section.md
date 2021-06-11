@@ -16,25 +16,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409016"
 ---
-# <a name="gamma-cell-image-properties-section"></a><span data-ttu-id="88a11-104">Celda Gamma (Sección de propiedades de la imagen)</span><span class="sxs-lookup"><span data-stu-id="88a11-104">Gamma Cell (Image Properties Section)</span></span>
+# <a name="gamma-cell-image-properties-section"></a><span data-ttu-id="24596-104">Celda Gamma (Sección de propiedades de la imagen)</span><span class="sxs-lookup"><span data-stu-id="24596-104">Gamma Cell (Image Properties Section)</span></span>
 
-<span data-ttu-id="88a11-p102">Ajusta o corrige la intensidad de una imagen para un dispositivo específico de salida, como por ejemplo un monitor o un escáner. El valor predeterminado es 1 (sin corrección).</span><span class="sxs-lookup"><span data-stu-id="88a11-p102">Adjusts or corrects the intensity of an image for a particular output device, such as a monitor or scanner. The default value is 1 (no correction).</span></span>
+<span data-ttu-id="24596-p102">Ajusta o corrige la intensidad de una imagen para un dispositivo específico de salida, como por ejemplo un monitor o un escáner. El valor predeterminado es 1 (sin corrección).</span><span class="sxs-lookup"><span data-stu-id="24596-p102">Adjusts or corrects the intensity of an image for a particular output device, such as a monitor or scanner. The default value is 1 (no correction).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="88a11-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="88a11-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="24596-107">Comentarios</span><span class="sxs-lookup"><span data-stu-id="24596-107">Remarks</span></span>
 
-<span data-ttu-id="88a11-108">Para obtener una referencia a la celda Gamma por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="88a11-108">To get a reference to the Gamma cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="24596-108">Para obtener una referencia a la celda Gamma por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="24596-108">To get a reference to the Gamma cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="88a11-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="88a11-109">Cell name:</span></span>  <br/> | <span data-ttu-id="88a11-110">Gamma</span><span class="sxs-lookup"><span data-stu-id="88a11-110">Gamma</span></span>  <br/> |
+| <span data-ttu-id="24596-109">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="24596-109">Cell name:</span></span>  <br/> | <span data-ttu-id="24596-110">Gamma</span><span class="sxs-lookup"><span data-stu-id="24596-110">Gamma</span></span>  <br/> |
    
-<span data-ttu-id="88a11-111">Para obtener una referencia desde un programa a la celda Gamma por su índice
-, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="88a11-111">To get a reference to the Gamma cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="24596-111">Para obtener una referencia desde un programa a la celda Gamma por su índice
+, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="24596-111">To get a reference to the Gamma cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="88a11-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="88a11-112">Section index:</span></span>  <br/> |<span data-ttu-id="88a11-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="88a11-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="88a11-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="88a11-114">Row index:</span></span>  <br/> |<span data-ttu-id="88a11-115">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="88a11-115">**visRowImage**</span></span> <br/> |
-| <span data-ttu-id="88a11-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="88a11-116">Cell index:</span></span>  <br/> |<span data-ttu-id="88a11-117">**visImageGamma**</span><span class="sxs-lookup"><span data-stu-id="88a11-117">**visImageGamma**</span></span> <br/> |
+| <span data-ttu-id="24596-112">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="24596-112">Section index:</span></span>  <br/> |<span data-ttu-id="24596-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="24596-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="24596-114">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="24596-114">Row index:</span></span>  <br/> |<span data-ttu-id="24596-115">**visRowImage**</span><span class="sxs-lookup"><span data-stu-id="24596-115">**visRowImage**</span></span> <br/> |
+| <span data-ttu-id="24596-116">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="24596-116">Cell index:</span></span>  <br/> |<span data-ttu-id="24596-117">**visImageGamma**</span><span class="sxs-lookup"><span data-stu-id="24596-117">**visImageGamma**</span></span> <br/> |
    
 

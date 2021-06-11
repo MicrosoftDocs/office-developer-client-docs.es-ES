@@ -18,33 +18,33 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408918"
 ---
-# <a name="func1"></a><span data-ttu-id="35903-104">Func1</span><span class="sxs-lookup"><span data-stu-id="35903-104">Func1</span></span>
+# <a name="func1"></a><span data-ttu-id="212c9-104">Func1</span><span class="sxs-lookup"><span data-stu-id="212c9-104">Func1</span></span>
 
- <span data-ttu-id="35903-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="35903-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="212c9-105">**Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="212c9-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="35903-106">La función de hoja de cálculo definida por el usuario de ejemplo muestra la devolución de un valor de cadena estático.</span><span class="sxs-lookup"><span data-stu-id="35903-106">Example user-defined worksheet function demonstrates the return of a static string value.</span></span> <span data-ttu-id="35903-107">Cuando se carga GENERIC.xll, registra esta función para que se pueda llamar desde la hoja de cálculo.</span><span class="sxs-lookup"><span data-stu-id="35903-107">When GENERIC.xll is loaded, it registers this function so that it can be called from the worksheet.</span></span>
+<span data-ttu-id="212c9-106">La función de hoja de cálculo definida por el usuario muestra el retorno de un valor de cadena estática.</span><span class="sxs-lookup"><span data-stu-id="212c9-106">Example user-defined worksheet function demonstrates the return of a static string value.</span></span> <span data-ttu-id="212c9-107">Cuando se carga GENERIC.xll, registra esta función para que se pueda llamar desde la hoja de cálculo.</span><span class="sxs-lookup"><span data-stu-id="212c9-107">When GENERIC.xll is loaded, it registers this function so that it can be called from the worksheet.</span></span>
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="35903-108">Parámetros</span><span class="sxs-lookup"><span data-stu-id="35903-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="212c9-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="212c9-108">Parameters</span></span>
 
- <span data-ttu-id="35903-109">_px_ (**LPXLOPER**)</span><span class="sxs-lookup"><span data-stu-id="35903-109">_px_ (**LPXLOPER**)</span></span>
+ <span data-ttu-id="212c9-109">_px_ (**LPXLOPER**)</span><span class="sxs-lookup"><span data-stu-id="212c9-109">_px_ (**LPXLOPER**)</span></span>
   
-<span data-ttu-id="35903-110">Este argumento se omite y sirve solo para desencadenar que Microsoft Excel llame a la función.</span><span class="sxs-lookup"><span data-stu-id="35903-110">This argument is ignored, and serves only to trigger Microsoft Excel to call the function.</span></span>
+<span data-ttu-id="212c9-110">Este argumento se omite y solo sirve para desencadenar Microsoft Excel llamar a la función.</span><span class="sxs-lookup"><span data-stu-id="212c9-110">This argument is ignored, and serves only to trigger Microsoft Excel to call the function.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="35903-111">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="35903-111">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="212c9-111">Valor de la propiedad/valor devuelto</span><span class="sxs-lookup"><span data-stu-id="212c9-111">Property value/Return value</span></span>
 
- <span data-ttu-id="35903-112">**LPXLOPER12**: Siempre la cadena "Func1"</span><span class="sxs-lookup"><span data-stu-id="35903-112">**LPXLOPER12**: Always the string "Func1"</span></span>
+ <span data-ttu-id="212c9-112">**LPXLOPER12**: Siempre la cadena "Func1"</span><span class="sxs-lookup"><span data-stu-id="212c9-112">**LPXLOPER12**: Always the string "Func1"</span></span>
   
-### <a name="example"></a><span data-ttu-id="35903-113">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="35903-113">Example</span></span>
+### <a name="example"></a><span data-ttu-id="212c9-113">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="212c9-113">Example</span></span>
 
-<span data-ttu-id="35903-114">Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función.</span><span class="sxs-lookup"><span data-stu-id="35903-114">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
+<span data-ttu-id="212c9-114">Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función.</span><span class="sxs-lookup"><span data-stu-id="212c9-114">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="35903-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="35903-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="212c9-115">Vea también</span><span class="sxs-lookup"><span data-stu-id="212c9-115">See also</span></span>
 
 
 
-[<span data-ttu-id="35903-116">Funciones en la DLL genérica</span><span class="sxs-lookup"><span data-stu-id="35903-116">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
+[<span data-ttu-id="212c9-116">Funciones en la DLL genérica</span><span class="sxs-lookup"><span data-stu-id="212c9-116">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
 

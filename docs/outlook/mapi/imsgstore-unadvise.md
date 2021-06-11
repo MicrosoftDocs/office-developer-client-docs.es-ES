@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309726"
 ---
-# <a name="imsgstoreunadvise"></a><span data-ttu-id="10dfd-103">IMsgStore::Unadvise</span><span class="sxs-lookup"><span data-stu-id="10dfd-103">IMsgStore::Unadvise</span></span>
+# <a name="imsgstoreunadvise"></a><span data-ttu-id="21d67-103">IMsgStore::Unadvise</span><span class="sxs-lookup"><span data-stu-id="21d67-103">IMsgStore::Unadvise</span></span>
 
   
   
-<span data-ttu-id="10dfd-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="10dfd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="21d67-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="21d67-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="10dfd-105">Cancela el envío de notificaciones previamente configuradas con una llamada al método [IMsgStore::Advise.](imsgstore-advise.md)</span><span class="sxs-lookup"><span data-stu-id="10dfd-105">Cancels the sending of notifications previously set up with a call to the [IMsgStore::Advise](imsgstore-advise.md) method.</span></span> 
+<span data-ttu-id="21d67-105">Cancela el envío de notificaciones configuradas anteriormente con una llamada al [método IMsgStore::Advise.](imsgstore-advise.md)</span><span class="sxs-lookup"><span data-stu-id="21d67-105">Cancels the sending of notifications previously set up with a call to the [IMsgStore::Advise](imsgstore-advise.md) method.</span></span> 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,31 +33,31 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="10dfd-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="10dfd-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="21d67-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="21d67-106">Parameters</span></span>
 
- <span data-ttu-id="10dfd-107">_ulConnection_</span><span class="sxs-lookup"><span data-stu-id="10dfd-107">_ulConnection_</span></span>
+ <span data-ttu-id="21d67-107">_ulConnection_</span><span class="sxs-lookup"><span data-stu-id="21d67-107">_ulConnection_</span></span>
   
-> <span data-ttu-id="10dfd-108">[entrada] El número de conexión asociado a un registro de notificación activo.</span><span class="sxs-lookup"><span data-stu-id="10dfd-108">[in] The connection number associated with an active notification registration.</span></span> <span data-ttu-id="10dfd-109">El valor de _ulConnection_ debe haber sido devuelto por una llamada anterior al **método IMsgStore::Advise.**</span><span class="sxs-lookup"><span data-stu-id="10dfd-109">The value of  _ulConnection_ must have been returned by a previous call to the **IMsgStore::Advise** method.</span></span> 
+> <span data-ttu-id="21d67-108">[in] Número de conexión asociado a un registro de notificación activo.</span><span class="sxs-lookup"><span data-stu-id="21d67-108">[in] The connection number associated with an active notification registration.</span></span> <span data-ttu-id="21d67-109">El valor de _ulConnection_ debe haber sido devuelto por una llamada anterior al **método IMsgStore::Advise.**</span><span class="sxs-lookup"><span data-stu-id="21d67-109">The value of  _ulConnection_ must have been returned by a previous call to the **IMsgStore::Advise** method.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="10dfd-110">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="10dfd-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="21d67-110">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="21d67-110">Return value</span></span>
 
-<span data-ttu-id="10dfd-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="10dfd-111">S_OK</span></span> 
+<span data-ttu-id="21d67-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="21d67-111">S_OK</span></span> 
   
-> <span data-ttu-id="10dfd-112">El registro se canceló correctamente.</span><span class="sxs-lookup"><span data-stu-id="10dfd-112">The registration was successfully canceled.</span></span>
+> <span data-ttu-id="21d67-112">El registro se canceló correctamente.</span><span class="sxs-lookup"><span data-stu-id="21d67-112">The registration was successfully canceled.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="10dfd-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="10dfd-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="21d67-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="21d67-113">Remarks</span></span>
 
-<span data-ttu-id="10dfd-114">El **método IMsgStore::Unadvise** cancela un registro para notificación.</span><span class="sxs-lookup"><span data-stu-id="10dfd-114">The **IMsgStore::Unadvise** method cancels a registration for notification.</span></span> <span data-ttu-id="10dfd-115">**Unadvise** libera su puntero al receptor de avisos del autor de la llamada, que recibió en la llamada **advise** usada para el registro.</span><span class="sxs-lookup"><span data-stu-id="10dfd-115">**Unadvise** releases its pointer to the caller's advise sink, which it received in the **Advise** call used for registration.</span></span> 
+<span data-ttu-id="21d67-114">El **método IMsgStore::Unadvise** cancela un registro para la notificación.</span><span class="sxs-lookup"><span data-stu-id="21d67-114">The **IMsgStore::Unadvise** method cancels a registration for notification.</span></span> <span data-ttu-id="21d67-115">**Unadvise** libera su puntero al receptor de avisos del autor de la llamada, que recibió en la **llamada Advise** usada para el registro.</span><span class="sxs-lookup"><span data-stu-id="21d67-115">**Unadvise** releases its pointer to the caller's advise sink, which it received in the **Advise** call used for registration.</span></span> 
   
-<span data-ttu-id="10dfd-116">Por lo general, **Unadvise llama** al método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del receptor de avisos durante la **llamada Unadvise.**</span><span class="sxs-lookup"><span data-stu-id="10dfd-116">Generally, **Unadvise** calls the advise sink's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method during the **Unadvise** call.</span></span> <span data-ttu-id="10dfd-117">Sin embargo, si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del receptor de aviso, la llamada **Release** se retrasa hasta que el método **OnNotify** devuelve.</span><span class="sxs-lookup"><span data-stu-id="10dfd-117">However, if another thread is in the process of calling the advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
+<span data-ttu-id="21d67-116">Por lo general, **Unadvise** llama al método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) del receptor de aviso durante la **llamada Unadvise.**</span><span class="sxs-lookup"><span data-stu-id="21d67-116">Generally, **Unadvise** calls the advise sink's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method during the **Unadvise** call.</span></span> <span data-ttu-id="21d67-117">Sin embargo, si otro subproceso está en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) del receptor de aviso, la llamada **Release** se retrasa hasta que el método **OnNotify** devuelve.</span><span class="sxs-lookup"><span data-stu-id="21d67-117">However, if another thread is in the process of calling the advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="10dfd-118">Consulte también</span><span class="sxs-lookup"><span data-stu-id="10dfd-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="21d67-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="21d67-118">See also</span></span>
 
 
 
-[<span data-ttu-id="10dfd-119">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="10dfd-119">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
+[<span data-ttu-id="21d67-119">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="21d67-119">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
   
-[<span data-ttu-id="10dfd-120">IMsgStore::Advise</span><span class="sxs-lookup"><span data-stu-id="10dfd-120">IMsgStore::Advise</span></span>](imsgstore-advise.md)
+[<span data-ttu-id="21d67-120">IMsgStore::Advise</span><span class="sxs-lookup"><span data-stu-id="21d67-120">IMsgStore::Advise</span></span>](imsgstore-advise.md)
   
-[<span data-ttu-id="10dfd-121">IMsgStore: IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="10dfd-121">IMsgStore : IMAPIProp</span></span>](imsgstoreimapiprop.md)
+[<span data-ttu-id="21d67-121">IMsgStore: IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="21d67-121">IMsgStore : IMAPIProp</span></span>](imsgstoreimapiprop.md)
 

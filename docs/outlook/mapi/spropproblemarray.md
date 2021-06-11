@@ -19,18 +19,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406860"
 ---
-# <a name="spropproblemarray"></a><span data-ttu-id="2460f-103">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="2460f-103">SPropProblemArray</span></span>
+# <a name="spropproblemarray"></a><span data-ttu-id="299d2-103">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="299d2-103">SPropProblemArray</span></span>
 
   
   
-<span data-ttu-id="2460f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2460f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="299d2-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="299d2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2460f-105">Contiene una matriz de una o varias [estructuras SPropProblem.](spropproblem.md)</span><span class="sxs-lookup"><span data-stu-id="2460f-105">Contains an array of one or more [SPropProblem](spropproblem.md) structures.</span></span> 
+<span data-ttu-id="299d2-105">Contiene una matriz de una o varias [estructuras SPropProblem.](spropproblem.md)</span><span class="sxs-lookup"><span data-stu-id="299d2-105">Contains an array of one or more [SPropProblem](spropproblem.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2460f-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="2460f-106">Header file:</span></span>  <br/> |<span data-ttu-id="2460f-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="2460f-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="2460f-108">Macros relacionadas:</span><span class="sxs-lookup"><span data-stu-id="2460f-108">Related macros:</span></span>  <br/> |[<span data-ttu-id="2460f-109">CbNewSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="2460f-109">CbNewSPropProblemArray</span></span>](cbnewspropproblemarray.md) <br/> [<span data-ttu-id="2460f-110">CbSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="2460f-110">CbSPropProblemArray</span></span>](cbspropproblemarray.md) <br/> [<span data-ttu-id="2460f-111">SizedSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="2460f-111">SizedSPropProblemArray</span></span>](sizedspropproblemarray.md) <br/> |
+|<span data-ttu-id="299d2-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="299d2-106">Header file:</span></span>  <br/> |<span data-ttu-id="299d2-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="299d2-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="299d2-108">Macros relacionadas:</span><span class="sxs-lookup"><span data-stu-id="299d2-108">Related macros:</span></span>  <br/> |[<span data-ttu-id="299d2-109">CbNewSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="299d2-109">CbNewSPropProblemArray</span></span>](cbnewspropproblemarray.md) <br/> [<span data-ttu-id="299d2-110">CbSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="299d2-110">CbSPropProblemArray</span></span>](cbspropproblemarray.md) <br/> [<span data-ttu-id="299d2-111">SizedSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="299d2-111">SizedSPropProblemArray</span></span>](sizedspropproblemarray.md) <br/> |
    
 ```cpp
 typedef struct _SPropProblemArray
@@ -41,28 +41,28 @@ typedef struct _SPropProblemArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="2460f-112">Miembros</span><span class="sxs-lookup"><span data-stu-id="2460f-112">Members</span></span>
+## <a name="members"></a><span data-ttu-id="299d2-112">Members</span><span class="sxs-lookup"><span data-stu-id="299d2-112">Members</span></span>
 
- <span data-ttu-id="2460f-113">**cProblem**</span><span class="sxs-lookup"><span data-stu-id="2460f-113">**cProblem**</span></span>
+ <span data-ttu-id="299d2-113">**cProblem**</span><span class="sxs-lookup"><span data-stu-id="299d2-113">**cProblem**</span></span>
   
-> <span data-ttu-id="2460f-114">Recuento de [estructuras SPropProblem](spropproblem.md) en la matriz indicada por el **miembro aProblem.**</span><span class="sxs-lookup"><span data-stu-id="2460f-114">Count of [SPropProblem](spropproblem.md) structures in the array indicated by the **aProblem** member.</span></span> 
+> <span data-ttu-id="299d2-114">Recuento de [estructuras SPropProblem](spropproblem.md) en la matriz indicada por el **miembro aProblem.**</span><span class="sxs-lookup"><span data-stu-id="299d2-114">Count of [SPropProblem](spropproblem.md) structures in the array indicated by the **aProblem** member.</span></span> 
     
- <span data-ttu-id="2460f-115">**aProblem**</span><span class="sxs-lookup"><span data-stu-id="2460f-115">**aProblem**</span></span>
+ <span data-ttu-id="299d2-115">**aProblem**</span><span class="sxs-lookup"><span data-stu-id="299d2-115">**aProblem**</span></span>
   
-> <span data-ttu-id="2460f-116">Matriz de **estructuras SPropProblem,** cada una de las que describe un error de propiedad.</span><span class="sxs-lookup"><span data-stu-id="2460f-116">Array of **SPropProblem** structures, each describing a property error.</span></span> 
+> <span data-ttu-id="299d2-116">Matriz de **estructuras SPropProblem,** cada una que describe un error de propiedad.</span><span class="sxs-lookup"><span data-stu-id="299d2-116">Array of **SPropProblem** structures, each describing a property error.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="2460f-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="2460f-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="299d2-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="299d2-117">Remarks</span></span>
 
-<span data-ttu-id="2460f-118">Para obtener más información acerca de cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, vea [PROPIEDADES con](mapi-named-properties.md)nombre MAPI .</span><span class="sxs-lookup"><span data-stu-id="2460f-118">For more information about how the **SPropProblem** and **SPropProblemArray** structures work with errors related to properties, see [MAPI Named Properties](mapi-named-properties.md).</span></span> 
+<span data-ttu-id="299d2-118">Para obtener más información acerca de cómo funcionan las estructuras **SPropProblem** y **SPropProblemArray** con errores relacionados con las propiedades, vea [Mapi Named Properties](mapi-named-properties.md).</span><span class="sxs-lookup"><span data-stu-id="299d2-118">For more information about how the **SPropProblem** and **SPropProblemArray** structures work with errors related to properties, see [MAPI Named Properties](mapi-named-properties.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="2460f-119">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2460f-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="299d2-119">Vea también</span><span class="sxs-lookup"><span data-stu-id="299d2-119">See also</span></span>
 
 
 
-[<span data-ttu-id="2460f-120">SCODE</span><span class="sxs-lookup"><span data-stu-id="2460f-120">SCODE</span></span>](scode.md)
+[<span data-ttu-id="299d2-120">SCODE</span><span class="sxs-lookup"><span data-stu-id="299d2-120">SCODE</span></span>](scode.md)
   
-[<span data-ttu-id="2460f-121">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="2460f-121">SPropProblem</span></span>](spropproblem.md)
+[<span data-ttu-id="299d2-121">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="299d2-121">SPropProblem</span></span>](spropproblem.md)
 
 
-[<span data-ttu-id="2460f-122">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="2460f-122">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="299d2-122">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="299d2-122">MAPI Structures</span></span>](mapi-structures.md)
 
