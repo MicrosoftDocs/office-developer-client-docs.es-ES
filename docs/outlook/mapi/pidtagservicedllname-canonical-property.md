@@ -19,53 +19,53 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32330068"
 ---
-# <a name="pidtagservicedllname-canonical-property"></a><span data-ttu-id="d1946-103">Propiedad canónica PidTagServiceDllName</span><span class="sxs-lookup"><span data-stu-id="d1946-103">PidTagServiceDllName Canonical Property</span></span>
+# <a name="pidtagservicedllname-canonical-property"></a><span data-ttu-id="873ca-103">Propiedad canónica PidTagServiceDllName</span><span class="sxs-lookup"><span data-stu-id="873ca-103">PidTagServiceDllName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="d1946-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d1946-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="873ca-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="873ca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d1946-105">Contiene el nombre de archivo de la DLL que contiene la función de punto de entrada del proveedor de servicios de mensajes para llamar a la configuración.</span><span class="sxs-lookup"><span data-stu-id="d1946-105">Contains the filename of the DLL containing the message service provider entry point function to call for configuration.</span></span>
+<span data-ttu-id="873ca-105">Contiene el nombre de archivo de la DLL que contiene la función de punto de entrada del proveedor de servicios de mensajes para llamar a la configuración.</span><span class="sxs-lookup"><span data-stu-id="873ca-105">Contains the filename of the DLL containing the message service provider entry point function to call for configuration.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d1946-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="d1946-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="d1946-107">PR_SERVICE_DLL_NAME, PR_SERVICE_DLL_NAME_A, PR_SERVICE_DLL_NAME_W</span><span class="sxs-lookup"><span data-stu-id="d1946-107">PR_SERVICE_DLL_NAME, PR_SERVICE_DLL_NAME_A, PR_SERVICE_DLL_NAME_W</span></span>  <br/> |
-|<span data-ttu-id="d1946-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="d1946-108">Identifier:</span></span>  <br/> |<span data-ttu-id="d1946-109">0x3D0A</span><span class="sxs-lookup"><span data-stu-id="d1946-109">0x3D0A</span></span>  <br/> |
-|<span data-ttu-id="d1946-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="d1946-110">Data type:</span></span>  <br/> |<span data-ttu-id="d1946-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="d1946-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="d1946-112">Área:</span><span class="sxs-lookup"><span data-stu-id="d1946-112">Area:</span></span>  <br/> |<span data-ttu-id="d1946-113">Perfil MAPI</span><span class="sxs-lookup"><span data-stu-id="d1946-113">MAPI profile</span></span>  <br/> |
+|<span data-ttu-id="873ca-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="873ca-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="873ca-107">PR_SERVICE_DLL_NAME, PR_SERVICE_DLL_NAME_A, PR_SERVICE_DLL_NAME_W</span><span class="sxs-lookup"><span data-stu-id="873ca-107">PR_SERVICE_DLL_NAME, PR_SERVICE_DLL_NAME_A, PR_SERVICE_DLL_NAME_W</span></span>  <br/> |
+|<span data-ttu-id="873ca-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="873ca-108">Identifier:</span></span>  <br/> |<span data-ttu-id="873ca-109">0x3D0A</span><span class="sxs-lookup"><span data-stu-id="873ca-109">0x3D0A</span></span>  <br/> |
+|<span data-ttu-id="873ca-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="873ca-110">Data type:</span></span>  <br/> |<span data-ttu-id="873ca-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="873ca-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="873ca-112">Área:</span><span class="sxs-lookup"><span data-stu-id="873ca-112">Area:</span></span>  <br/> |<span data-ttu-id="873ca-113">Perfil MAPI</span><span class="sxs-lookup"><span data-stu-id="873ca-113">MAPI profile</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d1946-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d1946-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="873ca-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="873ca-114">Remarks</span></span>
 
-<span data-ttu-id="d1946-115">Cuando el nombre de la función de punto de entrada aparece en el **método PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)), indica que el punto de entrada existe.</span><span class="sxs-lookup"><span data-stu-id="d1946-115">When the entry point function name appears in the **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) method, it indicates that the entry point exists.</span></span>
+<span data-ttu-id="873ca-115">Cuando el nombre de la función de punto de entrada aparece en el método **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)), indica que el punto de entrada existe.</span><span class="sxs-lookup"><span data-stu-id="873ca-115">When the entry point function name appears in the **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) method, it indicates that the entry point exists.</span></span>
   
-<span data-ttu-id="d1946-116">MAPI usa una convención de nomenclatura de archivos DLL.</span><span class="sxs-lookup"><span data-stu-id="d1946-116">MAPI uses a DLL file naming convention.</span></span> <span data-ttu-id="d1946-117">Anexa la cadena 32 al nombre de dll base para identificar la versión que se ejecuta en plataformas de 32 bits.</span><span class="sxs-lookup"><span data-stu-id="d1946-117">It appends the string 32 to the base DLL name to identify the version that runs on 32-bit platforms.</span></span> <span data-ttu-id="d1946-118">Por ejemplo, cuando se especifica el nombre MAPI.DLL, MAPI construye el nombre MAPI32.DLL para representar la versión de 32 bits correspondiente de la DLL.</span><span class="sxs-lookup"><span data-stu-id="d1946-118">For example, when the name MAPI.DLL is specified, MAPI constructs the name MAPI32.DLL to represent the corresponding 32-bit version of the DLL.</span></span>
+<span data-ttu-id="873ca-116">MAPI usa una convención de nomenclatura de archivos DLL.</span><span class="sxs-lookup"><span data-stu-id="873ca-116">MAPI uses a DLL file naming convention.</span></span> <span data-ttu-id="873ca-117">Anexa la cadena 32 al nombre de DLL base para identificar la versión que se ejecuta en plataformas de 32 bits.</span><span class="sxs-lookup"><span data-stu-id="873ca-117">It appends the string 32 to the base DLL name to identify the version that runs on 32-bit platforms.</span></span> <span data-ttu-id="873ca-118">Por ejemplo, cuando se especifica MAPI.DLL nombre, MAPI construye el nombre MAPI32.DLL para representar la versión de 32 bits correspondiente de la DLL.</span><span class="sxs-lookup"><span data-stu-id="873ca-118">For example, when the name MAPI.DLL is specified, MAPI constructs the name MAPI32.DLL to represent the corresponding 32-bit version of the DLL.</span></span>
   
-<span data-ttu-id="d1946-119">Estas propiedades deben especificar el nombre base.</span><span class="sxs-lookup"><span data-stu-id="d1946-119">These properties should specify the base name.</span></span> <span data-ttu-id="d1946-120">MAPI anexa la cadena 32 según corresponda.</span><span class="sxs-lookup"><span data-stu-id="d1946-120">MAPI appends the string 32 as appropriate.</span></span> <span data-ttu-id="d1946-121">La inclusión de la cadena 32 como parte de estas propiedades produce un error.</span><span class="sxs-lookup"><span data-stu-id="d1946-121">Including the string 32 as part of these properties result in an error.</span></span>
+<span data-ttu-id="873ca-119">Estas propiedades deben especificar el nombre base.</span><span class="sxs-lookup"><span data-stu-id="873ca-119">These properties should specify the base name.</span></span> <span data-ttu-id="873ca-120">MAPI anexa la cadena 32 según corresponda.</span><span class="sxs-lookup"><span data-stu-id="873ca-120">MAPI appends the string 32 as appropriate.</span></span> <span data-ttu-id="873ca-121">Si se incluye la cadena 32 como parte de estas propiedades, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="873ca-121">Including the string 32 as part of these properties result in an error.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="d1946-122">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="d1946-122">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="873ca-122">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="873ca-122">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="d1946-123">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="d1946-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="873ca-123">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="873ca-123">Header files</span></span>
 
-<span data-ttu-id="d1946-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="d1946-124">Mapidefs.h</span></span>
+<span data-ttu-id="873ca-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="873ca-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="d1946-125">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="d1946-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="873ca-125">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="873ca-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="d1946-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="d1946-126">Mapitags.h</span></span>
+<span data-ttu-id="873ca-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="873ca-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="d1946-127">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="d1946-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="873ca-127">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="873ca-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d1946-128">Consulte también</span><span class="sxs-lookup"><span data-stu-id="d1946-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="873ca-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="873ca-128">See also</span></span>
 
 
 
-[<span data-ttu-id="d1946-129">Propiedad canónica PidTagProviderDllName</span><span class="sxs-lookup"><span data-stu-id="d1946-129">PidTagProviderDllName Canonical Property</span></span>](pidtagproviderdllname-canonical-property.md)
+[<span data-ttu-id="873ca-129">Propiedad canónica PidTagProviderDllName</span><span class="sxs-lookup"><span data-stu-id="873ca-129">PidTagProviderDllName Canonical Property</span></span>](pidtagproviderdllname-canonical-property.md)
 
 
-[<span data-ttu-id="d1946-130">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="d1946-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="873ca-130">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="873ca-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="d1946-131">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="d1946-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="873ca-131">Propiedades canónicas MAPI</span><span class="sxs-lookup"><span data-stu-id="873ca-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="d1946-132">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="d1946-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="873ca-132">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="873ca-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="d1946-133">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="d1946-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="873ca-133">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="873ca-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

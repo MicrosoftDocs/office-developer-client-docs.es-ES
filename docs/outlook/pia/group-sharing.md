@@ -14,20 +14,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32332091"
 ---
-# <a name="group-sharing"></a><span data-ttu-id="6b3ce-102">Uso compartido de grupos</span><span class="sxs-lookup"><span data-stu-id="6b3ce-102">Group sharing</span></span>
+# <a name="group-sharing"></a><span data-ttu-id="08eca-102">Uso compartido de grupos</span><span class="sxs-lookup"><span data-stu-id="08eca-102">Group sharing</span></span>
 
-<span data-ttu-id="6b3ce-103">En esta sección se proporcionan tareas de ejemplo relacionadas con el uso compartido de grupos.</span><span class="sxs-lookup"><span data-stu-id="6b3ce-103">This section provides sample tasks that involve group sharing.</span></span>
+<span data-ttu-id="08eca-103">En esta sección se proporcionan tareas de ejemplo relacionadas con el uso compartido de grupos.</span><span class="sxs-lookup"><span data-stu-id="08eca-103">This section provides sample tasks that involve group sharing.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="6b3ce-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="6b3ce-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="08eca-104">En esta sección</span><span class="sxs-lookup"><span data-stu-id="08eca-104">In this section</span></span>
 
-|<span data-ttu-id="6b3ce-105">Tema</span><span class="sxs-lookup"><span data-stu-id="6b3ce-105">Topic</span></span>|<span data-ttu-id="6b3ce-106">Descripción</span><span class="sxs-lookup"><span data-stu-id="6b3ce-106">Description</span></span>|
+|<span data-ttu-id="08eca-105">Tema</span><span class="sxs-lookup"><span data-stu-id="08eca-105">Topic</span></span>|<span data-ttu-id="08eca-106">Descripción</span><span class="sxs-lookup"><span data-stu-id="08eca-106">Description</span></span>|
 |:----|:----------|
-|<span data-ttu-id="6b3ce-107">[Subscribe to an RSS feed](how-to-subscribe-to-an-rss-feed.md) (Suscribirse a una fuente RSS)</span><span class="sxs-lookup"><span data-stu-id="6b3ce-107">[Subscribe to an RSS feed](how-to-subscribe-to-an-rss-feed.md)</span></span>  |<span data-ttu-id="6b3ce-108">Se suscribe a una fuente RSS mediante el método [OpenSharedFolder(String, Object, Object, Object)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="6b3ce-108">Subscribes to an RSS feed by using the [OpenSharedFolder(String, Object, Object, Object)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)) method.</span></span>|
-|<span data-ttu-id="6b3ce-109">[Synchronize Outlook with a SharePoint folder](how-to-synchronize-outlook-with-a-sharepoint-folder.md) (Sincronizar Outlook con una carpeta de SharePoint)</span><span class="sxs-lookup"><span data-stu-id="6b3ce-109">[Synchronize Outlook with a SharePoint folder](how-to-synchronize-outlook-with-a-sharepoint-folder.md)</span></span>  |<span data-ttu-id="6b3ce-110">Conecta Outlook con una carpeta de SharePoint y sincroniza el contenido de la carpeta mediante programación.</span><span class="sxs-lookup"><span data-stu-id="6b3ce-110">Programmatically connects Outlook with a SharePoint folder and synchronizes the folder contents.</span></span>|
+|<span data-ttu-id="08eca-107">[Subscribe to an RSS feed](how-to-subscribe-to-an-rss-feed.md) (Suscribirse a una fuente RSS)</span><span class="sxs-lookup"><span data-stu-id="08eca-107">[Subscribe to an RSS feed](how-to-subscribe-to-an-rss-feed.md)</span></span>  |<span data-ttu-id="08eca-108">Se suscribe a una fuente RSS mediante el método [OpenSharedFolder(String, Object, Object, Object)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="08eca-108">Subscribes to an RSS feed by using the [OpenSharedFolder(String, Object, Object, Object)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)) method.</span></span>|
+|<span data-ttu-id="08eca-109">[Synchronize Outlook with a SharePoint folder](how-to-synchronize-outlook-with-a-sharepoint-folder.md) (Sincronizar Outlook con una carpeta de SharePoint)</span><span class="sxs-lookup"><span data-stu-id="08eca-109">[Synchronize Outlook with a SharePoint folder](how-to-synchronize-outlook-with-a-sharepoint-folder.md)</span></span>  |<span data-ttu-id="08eca-110">Conecta Outlook con una carpeta de SharePoint y sincroniza el contenido de la carpeta mediante programación.</span><span class="sxs-lookup"><span data-stu-id="08eca-110">Programmatically connects Outlook with a SharePoint folder and synchronizes the folder contents.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="6b3ce-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="6b3ce-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="08eca-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="08eca-111">See also</span></span>
 
-- [<span data-ttu-id="6b3ce-112">Calendario</span><span class="sxs-lookup"><span data-stu-id="6b3ce-112">Calendar</span></span>](calendar.md)
-- [<span data-ttu-id="6b3ce-113">Correo</span><span class="sxs-lookup"><span data-stu-id="6b3ce-113">Mail</span></span>](mail.md)
-- <span data-ttu-id="6b3ce-114">[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md) (¿Cómo se puede... [Referencia a PIA de Outlook 2013])</span><span class="sxs-lookup"><span data-stu-id="6b3ce-114">[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)</span></span>
+- [<span data-ttu-id="08eca-112">Calendario</span><span class="sxs-lookup"><span data-stu-id="08eca-112">Calendar</span></span>](calendar.md)
+- [<span data-ttu-id="08eca-113">Correo</span><span class="sxs-lookup"><span data-stu-id="08eca-113">Mail</span></span>](mail.md)
+- <span data-ttu-id="08eca-114">[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md) (¿Cómo se puede... [Referencia a PIA de Outlook 2013])</span><span class="sxs-lookup"><span data-stu-id="08eca-114">[How do I... (Outlook 2013 PIA reference)](how-do-i-outlook-2013-pia-reference.md)</span></span>
 

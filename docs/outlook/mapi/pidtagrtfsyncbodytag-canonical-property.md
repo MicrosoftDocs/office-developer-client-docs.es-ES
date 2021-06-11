@@ -19,58 +19,58 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32331181"
 ---
-# <a name="pidtagrtfsyncbodytag-canonical-property"></a><span data-ttu-id="fd7a1-103">Propiedad canónica PidTagRtfSyncBodyTag</span><span class="sxs-lookup"><span data-stu-id="fd7a1-103">PidTagRtfSyncBodyTag Canonical Property</span></span>
+# <a name="pidtagrtfsyncbodytag-canonical-property"></a><span data-ttu-id="b7ce9-103">Propiedad canónica PidTagRtfSyncBodyTag</span><span class="sxs-lookup"><span data-stu-id="b7ce9-103">PidTagRtfSyncBodyTag Canonical Property</span></span>
 
   
   
-<span data-ttu-id="fd7a1-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fd7a1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b7ce9-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b7ce9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="fd7a1-105">Contiene caracteres significativos que aparecen al principio del texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="fd7a1-105">Contains significant characters that appear at the beginning of the message text.</span></span>
+<span data-ttu-id="b7ce9-105">Contiene caracteres significativos que aparecen al principio del texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="b7ce9-105">Contains significant characters that appear at the beginning of the message text.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="fd7a1-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="fd7a1-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="fd7a1-107">PR_RTF_SYNC_BODY_TAG, PR_RTF_SYNC_BODY_TAG_A, PR_RTF_SYNC_BODY_TAG_W</span><span class="sxs-lookup"><span data-stu-id="fd7a1-107">PR_RTF_SYNC_BODY_TAG, PR_RTF_SYNC_BODY_TAG_A, PR_RTF_SYNC_BODY_TAG_W</span></span>  <br/> |
-|<span data-ttu-id="fd7a1-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="fd7a1-108">Identifier:</span></span>  <br/> |<span data-ttu-id="fd7a1-109">0x1008</span><span class="sxs-lookup"><span data-stu-id="fd7a1-109">0x1008</span></span>  <br/> |
-|<span data-ttu-id="fd7a1-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="fd7a1-110">Data type:</span></span>  <br/> |<span data-ttu-id="fd7a1-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="fd7a1-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="fd7a1-112">Área:</span><span class="sxs-lookup"><span data-stu-id="fd7a1-112">Area:</span></span>  <br/> |<span data-ttu-id="fd7a1-113">Mensaje MAPI</span><span class="sxs-lookup"><span data-stu-id="fd7a1-113">MAPI message</span></span>  <br/> |
+|<span data-ttu-id="b7ce9-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="b7ce9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b7ce9-107">PR_RTF_SYNC_BODY_TAG, PR_RTF_SYNC_BODY_TAG_A, PR_RTF_SYNC_BODY_TAG_W</span><span class="sxs-lookup"><span data-stu-id="b7ce9-107">PR_RTF_SYNC_BODY_TAG, PR_RTF_SYNC_BODY_TAG_A, PR_RTF_SYNC_BODY_TAG_W</span></span>  <br/> |
+|<span data-ttu-id="b7ce9-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="b7ce9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b7ce9-109">0x1008</span><span class="sxs-lookup"><span data-stu-id="b7ce9-109">0x1008</span></span>  <br/> |
+|<span data-ttu-id="b7ce9-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="b7ce9-110">Data type:</span></span>  <br/> |<span data-ttu-id="b7ce9-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="b7ce9-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="b7ce9-112">Área:</span><span class="sxs-lookup"><span data-stu-id="b7ce9-112">Area:</span></span>  <br/> |<span data-ttu-id="b7ce9-113">Mensaje MAPI</span><span class="sxs-lookup"><span data-stu-id="b7ce9-113">MAPI message</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="fd7a1-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="fd7a1-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b7ce9-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b7ce9-114">Remarks</span></span>
 
-<span data-ttu-id="fd7a1-115">La [función RTFSync](rtfsync.md) usa la etiqueta de texto para indicar el principio del texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="fd7a1-115">The [RTFSync](rtfsync.md) function uses the text tag to indicate the beginning of the message text.</span></span> <span data-ttu-id="fd7a1-116">Cuando se modifica el texto, la etiqueta se usa para buscar el principio del texto anterior.</span><span class="sxs-lookup"><span data-stu-id="fd7a1-116">When the text is modified, the tag is used to find the beginning of the previous text.</span></span> 
+<span data-ttu-id="b7ce9-115">La [función RTFSync](rtfsync.md) usa la etiqueta de texto para indicar el principio del texto del mensaje.</span><span class="sxs-lookup"><span data-stu-id="b7ce9-115">The [RTFSync](rtfsync.md) function uses the text tag to indicate the beginning of the message text.</span></span> <span data-ttu-id="b7ce9-116">Cuando se modifica el texto, la etiqueta se usa para buscar el principio del texto anterior.</span><span class="sxs-lookup"><span data-stu-id="b7ce9-116">When the text is modified, the tag is used to find the beginning of the previous text.</span></span> 
   
-<span data-ttu-id="fd7a1-117">Estas propiedades son propiedades auxiliares de formato de texto enriquecido.</span><span class="sxs-lookup"><span data-stu-id="fd7a1-117">These properties are Rich Text Format auxiliary properties.</span></span> <span data-ttu-id="fd7a1-118">La función **RTFSync** las usa y no están pensadas para ser usadas directamente por las aplicaciones cliente.</span><span class="sxs-lookup"><span data-stu-id="fd7a1-118">They are used by the **RTFSync** function and are not intended to be used directly by client applications.</span></span> 
+<span data-ttu-id="b7ce9-117">Estas propiedades son propiedades auxiliares de formato de texto enriquecido.</span><span class="sxs-lookup"><span data-stu-id="b7ce9-117">These properties are Rich Text Format auxiliary properties.</span></span> <span data-ttu-id="b7ce9-118">La función **RTFSync** las usa y las aplicaciones cliente no las usan directamente.</span><span class="sxs-lookup"><span data-stu-id="b7ce9-118">They are used by the **RTFSync** function and are not intended to be used directly by client applications.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="fd7a1-119">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="fd7a1-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="b7ce9-119">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="b7ce9-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="fd7a1-120">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="fd7a1-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="b7ce9-120">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="b7ce9-120">Protocol specifications</span></span>
 
-<span data-ttu-id="fd7a1-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="fd7a1-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="b7ce9-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b7ce9-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="fd7a1-122">Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.</span><span class="sxs-lookup"><span data-stu-id="fd7a1-122">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="b7ce9-122">Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.</span><span class="sxs-lookup"><span data-stu-id="b7ce9-122">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="fd7a1-123">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="fd7a1-123">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="b7ce9-123">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b7ce9-123">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="fd7a1-124">Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.</span><span class="sxs-lookup"><span data-stu-id="fd7a1-124">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
+> <span data-ttu-id="b7ce9-124">Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.</span><span class="sxs-lookup"><span data-stu-id="b7ce9-124">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="fd7a1-125">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="fd7a1-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="b7ce9-125">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="b7ce9-125">Header files</span></span>
 
-<span data-ttu-id="fd7a1-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="fd7a1-126">Mapidefs.h</span></span>
+<span data-ttu-id="b7ce9-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b7ce9-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="fd7a1-127">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="fd7a1-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="b7ce9-127">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="b7ce9-127">Provides data type definitions.</span></span>
     
-<span data-ttu-id="fd7a1-128">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="fd7a1-128">Mapitags.h</span></span>
+<span data-ttu-id="b7ce9-128">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="b7ce9-128">Mapitags.h</span></span>
   
-> <span data-ttu-id="fd7a1-129">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="fd7a1-129">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="b7ce9-129">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="b7ce9-129">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="fd7a1-130">Consulte también</span><span class="sxs-lookup"><span data-stu-id="fd7a1-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b7ce9-130">Vea también</span><span class="sxs-lookup"><span data-stu-id="b7ce9-130">See also</span></span>
 
 
 
-[<span data-ttu-id="fd7a1-131">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="fd7a1-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="b7ce9-131">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="b7ce9-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="fd7a1-132">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="fd7a1-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="b7ce9-132">Propiedades canónicas MAPI</span><span class="sxs-lookup"><span data-stu-id="b7ce9-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="fd7a1-133">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="fd7a1-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="b7ce9-133">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="b7ce9-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="fd7a1-134">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="fd7a1-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="b7ce9-134">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="b7ce9-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,17 +19,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32331391"
 ---
-# <a name="slargeintegerarray"></a><span data-ttu-id="cd729-103">SLargeIntegerArray</span><span class="sxs-lookup"><span data-stu-id="cd729-103">SLargeIntegerArray</span></span>
+# <a name="slargeintegerarray"></a><span data-ttu-id="9e05f-103">SLargeIntegerArray</span><span class="sxs-lookup"><span data-stu-id="9e05f-103">SLargeIntegerArray</span></span>
 
   
   
-<span data-ttu-id="cd729-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cd729-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9e05f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9e05f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cd729-105">Contiene una matriz [de LARGE_INTEGER](https://go.microsoft.com/fwlink/?LinkId=132130) que se usan para describir una propiedad de tipo PT_MV_I8.</span><span class="sxs-lookup"><span data-stu-id="cd729-105">Contains an array of [LARGE_INTEGER](https://go.microsoft.com/fwlink/?LinkId=132130) structures that are used to describe a property of type PT_MV_I8.</span></span> 
+<span data-ttu-id="9e05f-105">Contiene una matriz [de LARGE_INTEGER](https://go.microsoft.com/fwlink/?LinkId=132130) estructuras que se usan para describir una propiedad de tipo PT_MV_I8.</span><span class="sxs-lookup"><span data-stu-id="9e05f-105">Contains an array of [LARGE_INTEGER](https://go.microsoft.com/fwlink/?LinkId=132130) structures that are used to describe a property of type PT_MV_I8.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cd729-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="cd729-106">Header file:</span></span>  <br/> |<span data-ttu-id="cd729-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cd729-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="9e05f-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="9e05f-106">Header file:</span></span>  <br/> |<span data-ttu-id="9e05f-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="9e05f-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SLargeIntegerArray
@@ -40,26 +40,26 @@ typedef struct _SLargeIntegerArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="cd729-108">Miembros</span><span class="sxs-lookup"><span data-stu-id="cd729-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="9e05f-108">Members</span><span class="sxs-lookup"><span data-stu-id="9e05f-108">Members</span></span>
 
- <span data-ttu-id="cd729-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="cd729-109">**cValues**</span></span>
+ <span data-ttu-id="9e05f-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="9e05f-109">**cValues**</span></span>
   
-> <span data-ttu-id="cd729-110">Recuento de valores en la matriz a la que apunta el **miembro lpli.**</span><span class="sxs-lookup"><span data-stu-id="cd729-110">Count of values in the array pointed to by the **lpli** member.</span></span> 
+> <span data-ttu-id="9e05f-110">Recuento de valores en la matriz a la que apunta el **miembro lpli.**</span><span class="sxs-lookup"><span data-stu-id="9e05f-110">Count of values in the array pointed to by the **lpli** member.</span></span> 
     
- <span data-ttu-id="cd729-111">**lpli**</span><span class="sxs-lookup"><span data-stu-id="cd729-111">**lpli**</span></span>
+ <span data-ttu-id="9e05f-111">**lpli**</span><span class="sxs-lookup"><span data-stu-id="9e05f-111">**lpli**</span></span>
   
-> <span data-ttu-id="cd729-112">Puntero a una matriz de **LARGE_INTEGER** estructuras que mantienen los valores enteros.</span><span class="sxs-lookup"><span data-stu-id="cd729-112">Pointer to an array of **LARGE_INTEGER** structures holding the integer values.</span></span> 
+> <span data-ttu-id="9e05f-112">Puntero a una matriz de **LARGE_INTEGER** estructuras que mantienen los valores enteros.</span><span class="sxs-lookup"><span data-stu-id="9e05f-112">Pointer to an array of **LARGE_INTEGER** structures holding the integer values.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="cd729-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="cd729-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9e05f-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9e05f-113">Remarks</span></span>
 
-<span data-ttu-id="cd729-114">Para obtener más información acerca PT_MV_18, vea [Lista de tipos de propiedad](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="cd729-114">For more information about PT_MV_18, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="9e05f-114">Para obtener más información sobre PT_MV_18, [vea Lista de tipos de propiedad](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="9e05f-114">For more information about PT_MV_18, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="cd729-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="cd729-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9e05f-115">Vea también</span><span class="sxs-lookup"><span data-stu-id="9e05f-115">See also</span></span>
 
 
 
-[<span data-ttu-id="cd729-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="cd729-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="9e05f-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="9e05f-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="cd729-117">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="cd729-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="9e05f-117">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="9e05f-117">MAPI Structures</span></span>](mapi-structures.md)
 
