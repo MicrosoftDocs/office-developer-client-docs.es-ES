@@ -25,13 +25,13 @@ ms.locfileid: "32357627"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una cadena que indica el número de versión principal y secundaria de la aplicación Outlook para un elemento.
+Contiene una cadena que indica el número de versión principal y secundaria de la Outlook de un elemento.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidCurrentVersionName  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008554  <br/> |
+|Id. largo (LID):  <br/> |0x00008554  <br/> |
 |Tipo de datos:  <br/> |Por determinar  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
@@ -49,11 +49,11 @@ Contiene una cadena que indica el número de versión principal y secundaria de 
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de citas y reuniones.
+> Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -61,13 +61,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

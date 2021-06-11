@@ -36,19 +36,19 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
-> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único de la sección de perfil que se va a abrir. Los clientes no deben pasar NULL para el _parámetro lpUID._ Los proveedores de servicios pueden pasar NULL para recuperar **MAPIUID** cuando llaman desde sus funciones de punto de entrada del servicio de mensajes. 
+> [in] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único de la sección de perfil que se va a abrir. Los clientes no deben pasar NULL para el _parámetro lpUID._ Los proveedores de servicios pueden pasar NULL para recuperar **MAPIUID** cuando llaman desde sus funciones de punto de entrada de servicio de mensajes. 
     
  _lpInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la sección de perfil. Si se pasa NULL, se devuelve la interfaz estándar de la sección de perfil (**IProfSect**). 
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la sección de perfil. Si se pasa NULL, se devuelve la interfaz estándar de la sección de perfil (**IProfSect).** 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se abre la sección de perfil. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se abre la sección de perfil. Se pueden establecer las siguientes marcas:
     
 MAPI_DEFERRED_ERRORS 
   
@@ -56,11 +56,11 @@ MAPI_DEFERRED_ERRORS
     
 MAPI_MODIFY 
   
-> Solicita permiso de lectura y escritura. De forma predeterminada, los objetos se abren con permiso de solo lectura y los autores de llamadas no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. No se permite a los clientes permiso de lectura y escritura para las secciones del proveedor del perfil.
+> Solicitudes de permiso de lectura y escritura. De forma predeterminada, los objetos se abren con permiso de solo lectura y los autores de llamadas no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. Los clientes no tienen permiso de lectura y escritura para las secciones del proveedor del perfil.
     
 MAPI_FORCE_ACCESS
   
-> Permite el acceso a todas las secciones de perfil, incluso a las que pertenecen a proveedores de servicios individuales.
+> Permite el acceso a todas las secciones de perfil, incluso las que pertenecen a proveedores de servicios individuales.
     
  _lppProfSect_
   
@@ -78,21 +78,21 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NOT_FOUND 
   
-> La sección de perfil solicitada no existe.
+> La sección de perfil solicitado no existe.
     
 ## <a name="remarks"></a>Comentarios
 
 El **método IProviderAdmin::OpenProfileSection** abre una sección de perfil, lo que permite al autor de la llamada leer información y, posiblemente, escribir información en el perfil activo. 
   
-Los clientes no pueden abrir secciones de perfil que pertenezcan a proveedores mediante el **método OpenProfileSection.** 
+Los clientes no pueden abrir secciones de perfil que pertenecen a proveedores mediante el **método OpenProfileSection.** 
   
-Varios clientes o proveedores de servicios pueden abrir simultáneamente una sección de perfil con permiso de solo lectura. Sin embargo, cuando se abre una sección de perfil con permiso de lectura y escritura, no se pueden realizar otras llamadas para abrir la sección, independientemente del tipo de acceso. Si se abre una sección de perfil con permiso de solo lectura, se producirá un error en una llamada posterior para solicitar permiso de lectura y escritura con MAPI_E_NO_ACCESS. Del mismo modo, si una sección está abierta con permiso de lectura y escritura, también se producirá un error en una llamada posterior para solicitar el permiso de solo lectura. 
+Varios clientes o proveedores de servicios pueden abrir simultáneamente una sección de perfil con permiso de solo lectura. Sin embargo, cuando una sección de perfil está abierta con permiso de lectura y escritura, no se pueden realizar otras llamadas para abrir la sección, independientemente del tipo de acceso. Si una sección de perfil está abierta con permiso de solo lectura, se producirá un error en una llamada posterior para solicitar permiso de lectura y escritura con MAPI_E_NO_ACCESS. Del mismo modo, si una sección está abierta con permiso de lectura y escritura, también se producirá un error en una llamada posterior para solicitar permiso de solo lectura. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si solicita que **OpenProfileSection** abra una sección de perfil que no existe pasando MAPI_MODIFY  _en ulFlags_ y un **MAPIUID** desconocido en  _lpUID,_ se creará la sección de perfil. 
+Si solicita que **OpenProfileSection** abra una sección de perfil inexistente pasando MAPI_MODIFY  _en ulFlags_ y un **MAPIUID** desconocido en  _lpUID,_ se creará la sección de perfil. 
   
-Si solicita que **OpenProfileSection** abra una sección que no existe con permiso de solo lectura, devolverá MAPI_E_NOT_FOUND. 
+Si solicita que **OpenProfileSection** abra una sección inexistente con permiso de solo lectura, devuelve MAPI_E_NOT_FOUND. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -102,7 +102,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI usa el **método IProviderAdmin::OpenProfileSection** para abrir una sección de perfil desde el perfil actual.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

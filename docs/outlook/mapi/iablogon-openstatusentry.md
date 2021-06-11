@@ -25,7 +25,7 @@ ms.locfileid: "33410787"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Abre el objeto de estado del proveedor.
+Abre el objeto status del proveedor.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -36,19 +36,19 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se debe usar para tener acceso al objeto de estado. Pasar NULL devuelve la interfaz estándar del objeto, [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md).
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que debe usarse para obtener acceso al objeto de estado. Si se pasa NULL, se devuelve la interfaz estándar del objeto, [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md).
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se abre el objeto de estado. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se abre el objeto de estado. Se puede establecer la siguiente marca:
     
 MAPI_MODIFY 
   
-> Solicita permiso de lectura y escritura. De forma predeterminada, los objetos se abren con acceso de solo lectura y los autores de llamadas no deben suponer que se ha concedido permiso de lectura y escritura.
+> Solicitudes de permiso de lectura y escritura. De forma predeterminada, los objetos se abren con acceso de solo lectura y los autores de llamadas no deben asumir que se ha concedido permiso de lectura y escritura.
     
  _lpulObjType_
   
@@ -62,13 +62,13 @@ MAPI_MODIFY
 
 S_OK 
   
-> La llamada se ha realizado correctamente y se ha abierto el objeto de estado.
+> La llamada se ha realizado correctamente y se ha abierto el objeto status.
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de libretas de direcciones implementan **el método OpenStatusEntry** para conceder acceso a su objeto de estado. Todos los proveedores de libretas de direcciones son necesarios para implementar un objeto de estado que admita, como mínimo, el [método IMAPIStatus::ValidateState.](imapistatus-validatestate.md) Para obtener más información, vea [Implementación de objeto de estado.](status-object-implementation.md)
+Los proveedores de libreta de direcciones implementan **el método OpenStatusEntry** para conceder acceso a su objeto de estado. Todos los proveedores de libreta de direcciones son necesarios para implementar un objeto de estado que admita, como mínimo, el [método IMAPIStatus::ValidateState.](imapistatus-validatestate.md) Para obtener más información, vea [Status Object Implementation](status-object-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

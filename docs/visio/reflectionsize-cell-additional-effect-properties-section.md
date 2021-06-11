@@ -1,12 +1,12 @@
 ---
-title: Celda ReflectionSize (Sección de propiedades de efecto adicional)
+title: Celda ReflectionSize (sección Propiedades de efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7dfeb78e-a0fa-4492-b35f-70b1e2975d38
-description: Determina el tamaño del reflejo con relación a la forma, como un porcentaje entre 0,0 y 100,0%. Una forma con un valor de 0 % en la celda ReflectionSize no tiene un reflejo; Un valor del 100 % muestra una imagen de reflejo completa de la forma.
+description: Determina el tamaño de la reflexión con respecto a la forma, como un porcentaje de 0,0 a 100,0%. Una forma con un valor de 0 % en la celda ReflectionSize no tiene reflejo; un valor de 100 % muestra una imagen reflejada completa de la forma.
 ms.openlocfilehash: 60fcb315ec1b6187082bdcdbbdcfaa4b80bbcfb3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409079"
 ---
-# <a name="reflectionsize-cell-additional-effect-properties-section"></a>Celda ReflectionSize (Sección de propiedades de efecto adicional)
+# <a name="reflectionsize-cell-additional-effect-properties-section"></a>Celda ReflectionSize (sección Propiedades de efecto adicional)
 
-Determina el tamaño del reflejo con relación a la forma, como un porcentaje entre 0,0 y 100,0%. Una forma con un valor de 0 % en la **celda ReflectionSize** no tiene un reflejo; Un valor del 100 % muestra una imagen de reflejo completa de la forma. 
+Determina el tamaño de la reflexión con respecto a la forma, como un porcentaje de 0,0 a 100,0%. Una forma con un valor de 0 % en la **celda ReflectionSize** no tiene reflejo; un valor de 100 % muestra una imagen reflejada completa de la forma. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **ReflectionSize** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell,** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **ReflectionSize** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | ReflectionSize  <br/> |
    
-Para obtener una referencia desde un programa a **la celda ReflectionSize** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la **celda ReflectionSize** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

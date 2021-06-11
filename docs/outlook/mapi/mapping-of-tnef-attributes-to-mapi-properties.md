@@ -23,7 +23,7 @@ ms.locfileid: "33405026"
   
 En la tabla siguiente se enumeran todos los atributos definidos en la implementación de TNEF y sus asignaciones a propiedades MAPI. En algunos casos, varias propiedades MAPI se codifican como un único atributo. Algunos atributos tienen descripciones extendidas más adelante en esta sección.
   
-|**Atributo TNEF**|**Propiedades o propiedades mapi**|
+|**Atributo TNEF**|**Propiedades o propiedades MAPI**|
 |:-----|:-----|
 |**attAidOwner** <br/> |**PR_OWNER_APPT_ID** ([PidTagOwnerAppointmentId](pidtagownerappointmentid-canonical-property.md))  <br/> |
 |**attAttachCreateDate** <br/> |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |
@@ -35,12 +35,12 @@ En la tabla siguiente se enumeran todos los atributos definidos en la implementa
 |**attAttachTitle** <br/> |**PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md))  <br/> |
 |**attAttachTransportFilename** <br/> |**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md))  <br/> |
 |**attBody** <br/> |**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |
-|**attConversationID** <br/> |**PR_CONVERSATION_KEY** ([PidTagConversationKey](pidtagconversationkey-canonical-property.md)) Esta propiedad ha quedado en desuso en Microsoft Exchange Server: su uso solo persiste en Outlook, para buscar **IPM. Mensajes de MessageManager.**  <br/> |
-|**attDateEnd** <br/> |**PR_END_DATE** ([PidTagEndDate](pidtagenddate-canonical-property.md)) Vea [los atributos attDate para](attdate-attributes.md) obtener más información.  <br/> |
-|**attDateModified** <br/> |**PR_LAST_MODIFICATION_TIME** Consulte [atributos attDate](attdate-attributes.md) para obtener más información.  <br/> |
-|**attDateRecd** <br/> |**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) Vea [los atributos attDate](attdate-attributes.md) para obtener más información.  <br/> |
-|**attDateSent** <br/> |**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) Vea [los atributos attDate](attdate-attributes.md) para obtener más información.  <br/> |
-|**attDateStart** <br/> |**PR_START_DATE** ([PidTagStartDate](pidtagstartdate-canonical-property.md)) Vea [los atributos attDate para](attdate-attributes.md) obtener más información.  <br/> |
+|**attConversationID** <br/> |**PR_CONVERSATION_KEY** ([PidTagConversationKey](pidtagconversationkey-canonical-property.md)) Esta propiedad ha quedado en desuso en Microsoft Exchange Server: su uso persiste en Outlook, para localizar **IPM. Mensajes messageManager.**  <br/> |
+|**attDateEnd** <br/> |**PR_END_DATE** ([PidTagEndDate](pidtagenddate-canonical-property.md)) Vea [attDate Attributes](attdate-attributes.md) para obtener más información.  <br/> |
+|**attDateModified** <br/> |**PR_LAST_MODIFICATION_TIME** Vea [attDate Attributes para](attdate-attributes.md) obtener más información.  <br/> |
+|**attDateRecd** <br/> |**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) Vea [attDate Attributes](attdate-attributes.md) para obtener más información.  <br/> |
+|**attDateSent** <br/> |**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) Vea [attDate Attributes](attdate-attributes.md) para obtener más información.  <br/> |
+|**attDateStart** <br/> |**PR_START_DATE** ([PidTagStartDate](pidtagstartdate-canonical-property.md)) Vea [atributos attDate para](attdate-attributes.md) obtener más información.  <br/> |
 |**attFrom** <br/> |**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) y **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
 |**attMAPIProps** <br/> |Para obtener información acerca de este atributo, [vea attMAPIProps](attmapiprops.md).  <br/> |
 |**attMessageClass** <br/> |**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |
@@ -48,7 +48,7 @@ En la tabla siguiente se enumeran todos los atributos definidos en la implementa
 |**attMessageStatus** <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
 |**attOriginalMessageClass** <br/> |**PR_ORIG_MESSAGE_CLASS ** ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md))  <br/> |
 |**attOwner** <br/> |Vea [attOwner](attowner.md).  <br/> |
-|**attParentID** <br/> |**PR_PARENT_KEY** (**PidTagParentKey**) Esta propiedad está en desuso. Consulta [Elementos de API en desuso en esta edición](api-elements-deprecated-in-this-edition.md) para obtener más información.  <br/> |
+|**attParentID** <br/> |**PR_PARENT_KEY** (**PidTagParentKey**) Esta propiedad ha quedado en desuso. Consulta [Elementos de API en desuso en esta edición](api-elements-deprecated-in-this-edition.md) para obtener más información.  <br/> |
 |**attPriority** <br/> |**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |
 |**attRecipTable** <br/> |**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |
 |**attRequestRes** <br/> |**PR_RESPONSE_REQUESTED** ([PidTagResponseRequested](pidtagresponserequested-canonical-property.md))  <br/> |

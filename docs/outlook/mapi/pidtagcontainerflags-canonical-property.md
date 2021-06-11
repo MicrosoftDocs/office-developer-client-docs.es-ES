@@ -58,11 +58,11 @@ AB_UNMODIFIABLE
   
 > Las entradas no se pueden agregar ni quitar del contenedor. Esta marca no indica si se pueden modificar las entradas del contenedor. 
     
-El AB_FIND_ON_OPEN marca es muy recomendable para contenedores usados con servicios en línea o con conexiones lentas a servidores. Cuando se abre un contenedor que AB_FIND_ON_OPEN,  se presenta un cuadro de diálogo Buscar al usuario para restringir los usuarios de mensajería mostrados. Incluso una especificación parcial que limita los usuarios de mensajería puede acelerar considerablemente una presentación del contenido. 
+La AB_FIND_ON_OPEN se recomienda encarecidamente para contenedores usados con servicios en línea o con conexiones lentas a servidores. Cuando se abre un contenedor que AB_FIND_ON_OPEN,  se presenta un cuadro de diálogo Buscar al usuario para restringir los usuarios de mensajería mostrados. Incluso una especificación parcial que limita los usuarios de mensajería puede acelerar considerablemente una presentación del contenido. 
   
 Debe establecerse AB_MODIFIABLE o AB_UNMODIFIABLE marca. Ambas marcas se pueden establecer para indicar que el contenedor no sabe si se puede modificar o no, por ejemplo, si la modificación depende de los derechos de acceso del usuario. En este caso, una aplicación cliente debe intentar una llamada y examinar el código devuelto para determinar las capacidades del contenedor. Normalmente, un cliente comienza examinando AB_MODIFIABLE. Si se establece, el cliente realiza una llamada que intenta modificar el contenedor y comprueba el valor devuelto. 
   
-La AB_MODIFIABLE no indica qué tipos de entradas se pueden agregar al contenedor. Para determinar esto, el cliente debe usar el método [OpenProperty](imapiprop-openproperty.md) adecuado para abrir la propiedad PR_CREATE_TEMPLATES **(** [PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) del contenedor. Abrir **PR_CREATE_TEMPLATES** hace que se devuelva la tabla de uso único del contenedor, enumerando los tipos de entradas que se pueden crear en el contenedor. 
+La AB_MODIFIABLE no indica qué tipos de entradas se pueden agregar al contenedor. Para determinar esto, el cliente debe usar el método [OpenProperty](imapiprop-openproperty.md) adecuado para abrir la propiedad PR_CREATE_TEMPLATES **(** [PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). La **PR_CREATE_TEMPLATES** hace que se devuelva la tabla única del contenedor, enumerando los tipos de entradas que se pueden crear en el contenedor. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -72,9 +72,9 @@ La AB_MODIFIABLE no indica qué tipos de entradas se pueden agregar al contenedo
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
@@ -90,13 +90,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

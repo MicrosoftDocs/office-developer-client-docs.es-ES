@@ -28,15 +28,15 @@ Se usa para crear y eliminar nombres definidos asociados con la DLL.
 Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNameDefinition);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pxNameText_ (**xltypeStr**)
   
-Nombre del intervalo, que debe cumplir con las limitaciones habituales de Microsoft Excel en los nombres válidos.
+Nombre del intervalo, que debe cumplir con las limitaciones habituales en Microsoft Excel nombres válidos.
   
 _pxNameDefinition_ (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**, **xltypeRef** o **xltypeInt**)
   
-(Opcional). Valor, conjunto de valores, celda o rango de celdas como _pxNameText._ Si se omite, se elimina el nombre. 
+(Opcional). Valor, conjunto de valores, celda o rango de celdas que  _pxNameText_ se define como. Si se omite, se elimina el nombre. 
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
@@ -46,13 +46,13 @@ TRUE si la operación se ha hecho correctamente o FALSE si no se pudo crear o el
   
 ## <a name="remarks"></a>Comentarios
 
-Cuando se registra una función o un comando mediante **xlfRegister** con un argumento  _pxFunctionText_ válido, Excel crea un nombre asociado con el recurso DLL. Cuando se descarga la DLL, estos nombres deben eliminarse con la [función xlfSetName](xlfsetname.md). Sin embargo, debido a un problema conocido en Excel, esta operación de eliminación produce un error. Para obtener más información, consulta [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+Cuando se registra una función o un comando mediante **xlfRegister** con un argumento _pxFunctionText_ válido, Excel crea un nombre asociado al recurso DLL. Cuando se descarga la DLL, estos nombres deben eliminarse mediante la [función xlfSetName](xlfsetname.md). Sin embargo, debido a un problema conocido en Excel, se produce un error en esta operación de eliminación. Para obtener más información, consulta [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ### <a name="example"></a>Ejemplo
 
 Vea el código de la **función xlAutoClose** en  `\SAMPLES\GENERIC\GENERIC.C` .
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Funciones esenciales y útiles XLM de API de C](essential-and-useful-c-api-xlm-functions.md)
 

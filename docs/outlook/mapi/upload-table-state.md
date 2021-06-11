@@ -1,5 +1,5 @@
 ---
-title: Cargar estado de tabla
+title: Upload Estado de tabla
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405824"
 ---
-# <a name="upload-table-state"></a>Cargar estado de tabla
+# <a name="upload-table-state"></a>Upload Estado de tabla
 
   
   
@@ -26,20 +26,20 @@ ms.locfileid: "33405824"
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |
-|Estructura de datos relacionados:  <br/> |**[UPTBL](uptbl.md)** <br/> |
-|Desde este estado:  <br/> |[Sincronizar el estado del contenido](synchronize-contents-state.md) <br/> |
-|A este estado:  <br/> |[Cargar el estado del mensaje,](upload-message-state.md) [cargar el estado de eliminación,](upload-delete-status-state.md)cargar el estado de [lectura](upload-read-status-state.md)o sincronizar el estado del contenido  <br/> |
+|Estructura de datos relacionada:  <br/> |**[UPTBL](uptbl.md)** <br/> |
+|Desde este estado:  <br/> |[Sincronizar el estado de contenido](synchronize-contents-state.md) <br/> |
+|A este estado:  <br/> |[Upload de mensaje,](upload-message-state.md)estado de [eliminación de carga,](upload-delete-status-state.md)estado de lectura [de](upload-read-status-state.md)carga o estado de sincronización de contenido  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que va de un estado a otro debe volver al primero desde el segundo. 
+> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que sale de un estado a otro debe volver al primero desde el segundo. 
   
-## <a name="description"></a>Description
+## <a name="description"></a>Descripción
 
-Este estado inicia la carga del contenido de una carpeta que se ha especificado en un estado de contenido de sincronización anterior. La carpeta puede ser una carpeta de correo, calendario, contactos, tareas, notas o diario. Durante este estado, Outlook crea una lista de elementos que se han agregado, modificado, movido, eliminado o marcado como leído, y prepara la información interna adecuada para el estado de carga del mensaje correspondiente, el estado de eliminación de carga o el estado de lectura de carga.
+Este estado inicia la carga del contenido de una carpeta que se ha especificado en un estado de contenido de sincronización anterior. La carpeta puede ser una carpeta de correo, calendario, contactos, tareas, notas o diario. Durante este estado, Outlook crea una lista de elementos que se han agregado, modificado, movido, eliminado o marcado como leído, y prepara la información interna adecuada para el estado del mensaje de carga correspondiente, el estado de la eliminación de carga o el estado de lectura de carga.
   
-Cuando finaliza este estado, Outlook marca la carpeta como que tiene su contenido sincronizado, de modo que el contenido no se volverá a cargar hasta que se haga otra modificación. El almacén local vuelve al estado de sincronización de contenidos.
+Cuando finalice este estado, Outlook marca la carpeta como que su contenido esté sincronizado, de modo que el contenido no se vuelva a cargar hasta que se haga otra modificación. El almacén local vuelve al estado de sincronización de contenido.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

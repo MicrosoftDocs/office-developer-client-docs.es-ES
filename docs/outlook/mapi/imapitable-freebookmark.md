@@ -33,17 +33,17 @@ BOOKMARK bkPosition
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _bkPosition_
   
-> [entrada] Marcador que se va a liberar, creado llamando al [método IMAPITable::CreateBookmark.](imapitable-createbookmark.md) 
+> [in] El marcador que se va a liberar, creado mediante una llamada al [método IMAPITable::CreateBookmark.](imapitable-createbookmark.md) 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El marcador se ha libre correctamente.
+> El marcador se ha liberando correctamente.
     
 MAPI_E_INVALID_BOOKMARK 
   
@@ -57,7 +57,7 @@ El **método IMAPITable::FreeBookmark** libera un marcador que ya no es necesari
 
 Si el autor de la llamada pasa uno de los tres marcadores predefinidos en el parámetro  _bkPosition,_ ignore la solicitud y devuelva S_OK. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

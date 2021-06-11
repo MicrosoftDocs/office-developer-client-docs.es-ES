@@ -25,7 +25,7 @@ ms.locfileid: "32360819"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista ASCII de los nombres para mostrar de los destinatarios de mensajes de copia oculta (CCO), separados por punto y coma (;).
+Contiene una lista ASCII de los nombres para mostrar de los destinatarios de mensajes de cualquier copia de carbón ciego (CCO), separados por punto y coma (;).
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contiene una lista ASCII de los nombres para mostrar de los destinatarios de men
    
 ## <a name="remarks"></a>Comentarios
 
-El almacén de mensajes calcula estas propiedades en objetos de mensaje mediante el [método IMessage::ModifyRecipients.](imessage-modifyrecipients.md) El almacén de mensajes también mantiene estas propiedades para que siempre refleje el último estado guardado de un mensaje. El valor se sincroniza en el momento de cada llamada al método [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
+El almacén de mensajes calcula estas propiedades en objetos de mensaje mediante el [método IMessage::ModifyRecipients.](imessage-modifyrecipients.md) El almacén de mensajes también mantiene estas propiedades para que siempre refleje el último estado guardado de un mensaje. El valor se sincroniza en el momento de cada llamada al [método IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
-Si un mensaje no tiene destinatarios de copia carbón, el almacén de mensajes debe responder a una llamada [IMAPIProp::GetProps](imapiprop-getprops.md) con un valor devuelto de S_OK y una cadena vacía para **PR_DISPLAY_BCC**. 
+Si un mensaje no tiene destinatarios de copia de carbón ciego, el almacén de mensajes debe responder a una llamada [IMAPIProp::GetProps](imapiprop-getprops.md) con un valor devuelto de S_OK y una cadena vacía para **PR_DISPLAY_BCC**. 
   
 Debido a la posible necesidad de localización, MAPI proporciona estas directrices para todos los nombres de destinatarios:
   
 - Todos los nombres deben poder localizarse. 
     
-- El punto y coma debe ser el carácter que se usa para separar los nombres de las propiedades **PR_DISPLAY_BCC**, **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) y **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)). No se permiten puntos y comas dentro de los nombres de destinatario en MAPI. 
+- El punto y coma debe ser el carácter que se usa para separar nombres en las propiedades **PR_DISPLAY_BCC**, **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md)) y **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)). Los puntos y coma no están permitidos en los nombres de destinatarios de MAPI. 
     
 - Los clientes deben traducir cada punto y coma encontrado en esta propiedad a un carácter separador localizado antes de hacer que la información de la propiedad sea visible en la interfaz de usuario. 
     
-- Al reenviar mensajes, no es necesario que los clientes traduzcan los caracteres separadores en la línea de destinatario de copia carbón. 
+- Al reenviar mensajes, los clientes no necesitan traducir los caracteres separadores en la línea de destinatario de copia de carbono ciego. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

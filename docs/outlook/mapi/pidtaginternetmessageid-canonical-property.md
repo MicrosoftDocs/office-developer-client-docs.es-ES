@@ -25,7 +25,7 @@ ms.locfileid: "32358578"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Corresponde al campo id. de mensaje como se especifica en [RFC2822].
+Corresponde al campo id. de mensaje especificado en [RFC2822].
   
 |||
 |:-----|:-----|
@@ -48,7 +48,7 @@ Estas propiedades deben estar presentes en todos los mensajes de correo electró
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

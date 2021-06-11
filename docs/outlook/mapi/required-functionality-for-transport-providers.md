@@ -23,14 +23,14 @@ ms.locfileid: "33404445"
   
 Todos los proveedores de transporte MAPI deben:
   
-- Siga las instrucciones generales para trabajar con MAPI y otros proveedores de servicios. Para obtener más información, vea [Proveedores de servicios](mapi-application-development.md) MAPI y desarrollo de aplicaciones [MAPI.](mapi-service-providers.md)
+- Siga las instrucciones generales para trabajar con MAPI y otros proveedores de servicios. Para obtener más información, vea [Mapi Application Development](mapi-application-development.md) and MAPI Service [Providers](mapi-service-providers.md).
     
-- Hacer que su DLL del proveedor de transporte exponga a MAPI [su función de inicialización XPProviderInit.](xpproviderinit.md) 
+- Haga que su DLL del proveedor de transporte exponga a MAPI [su función de inicialización XPProviderInit.](xpproviderinit.md) 
     
-- Exponer a MAPI su implementación de [IXPProvider : IUnknown](ixpprovideriunknown.md) e [IXPLogon : interfaces IUnknown.](ixplogoniunknown.md) 
+- Exponer a MAPI su implementación de [las interfaces IXPProvider : IUnknown](ixpprovideriunknown.md) e [IXPLogon : IUnknown.](ixplogoniunknown.md) 
     
-- Exponer a MAPI y aplicaciones cliente su implementación de [la interfaz IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Para obtener más información acerca de la **implementación de IMAPIStatus**, vea [La implementación del objeto status](status-object-implementation.md). 
+- Exponer a MAPI y aplicaciones cliente su implementación de la [interfaz IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Para obtener más información acerca de la implementación de **IMAPIStatus,** vea [Status Object Implementation](status-object-implementation.md). 
     
-- Implementar un cuadro de diálogo de hoja de propiedades para la configuración. Para obtener más información acerca de la implementación de hojas de propiedades, vea [Implementación de la hoja de propiedades.](property-sheet-implementation.md)
+- Implementar un cuadro de diálogo de hoja de propiedades para la configuración. Para obtener más información acerca de la implementación de hojas de propiedades, vea [Property Sheet Implementation](property-sheet-implementation.md).
     
 

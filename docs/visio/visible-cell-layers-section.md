@@ -27,7 +27,7 @@ Especifica si las formas de la capa son visibles en la página de dibujo.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la  opción **Visible** del cuadro  de diálogo  Propiedades de capa (en la ficha Inicio, en el grupo Edición, haga clic en Capas y, a continuación, haga clic en **Propiedades de capa).** 
+Esta celda corresponde a la  opción **Visible** del cuadro  de diálogo  Propiedades de capa (en la ficha Inicio, en el grupo Edición, haga clic en **Capas** y, a continuación, haga clic en **Propiedades de capa).** 
   
 Para obtener una referencia a la celda Visible por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

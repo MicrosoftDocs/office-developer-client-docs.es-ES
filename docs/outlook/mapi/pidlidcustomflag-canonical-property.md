@@ -25,19 +25,19 @@ ms.locfileid: "32357620"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Máscara de bits que especifica cómo se personaliza un mensaje, por ejemplo, se guarda con propiedades personalizadas.
+Máscara de bits que especifica cómo se personaliza un mensaje, por ejemplo, guardado con propiedades personalizadas.
   
 ## 
 
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidCustomFlag  <br/> |
-|Long ID (LID):  <br/> |0x00008251  <br/> |
+|Id. largo (LID):  <br/> |0x00008251  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para recuperar el valor de esta propiedad, use primero **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en **[IMAPIProp::GetProps](imapiprop-getprops.md)** para obtener el valor. 
+Para recuperar el valor de esta propiedad, primero use **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en **[IMAPIProp::GetProps](imapiprop-getprops.md)** para obtener el valor. 
   
 Las marcas posibles son las siguientes:
   
@@ -76,13 +76,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

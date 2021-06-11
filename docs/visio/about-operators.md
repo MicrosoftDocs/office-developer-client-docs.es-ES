@@ -26,30 +26,30 @@ En la tabla siguiente se muestran ejemplos de expresiones y su resultado.
   
 |**Expression**|**Resultado**|**Descripción**|
 |:-----|:-----|:-----|
-| 2 \* 5 &amp; " céntimos"  <br/> | "10 céntimos"  <br/> | El operador (concatenación de cadenas) requiere argumentos de cadena, por lo que el resultado numérico de 2 5 se convierte automáticamente en la cadena &amp; \* "10".  <br/> |
-| 5 \* "2"  <br/> | 10    <br/> | El operador (multiplicación) requiere argumentos numéricos, por lo que la cadena "2" se convierte automáticamente al \* número equivalente 2.  <br/> |
-| 5 \* "resalte"  <br/> | 0  <br/> | El operador (multiplicación) requiere argumentos numéricos, por lo que dado que la cadena "descarada" no se puede convertir en un número, se usa cero como \* su equivalente numérico.  <br/> |
+| 2 \* 5 &amp; " cents"  <br/> | "10 céntimos"  <br/> | El operador (concatenación de cadenas) requiere argumentos de cadena, por lo que el resultado numérico de 2 5 se convierte automáticamente en la cadena &amp; \* "10".  <br/> |
+| 5 \* "2"  <br/> | 10  <br/> | El operador (multiplicación) requiere argumentos numéricos, por lo que la cadena "2" se convierte automáticamente al \* número equivalente 2.  <br/> |
+| 5 \* "ovejas"  <br/> | 0  <br/> | El \* operador (multiplicación) requiere argumentos numéricos, por lo que como la cadena "oveja" no se puede convertir en un número, cero se usa como su equivalente numérico.  <br/> |
    
 ## <a name="arithmetic-operators"></a>Operadores aritméticos
 
 Los operadores aritméticos realizan operaciones con números. Los operadores más (+) y menos (-) pueden utilizarse solos como operadores unarios para indicar el signo de un número. El operador porcentaje (%) también es unario e identifica al número como un porcentaje.
   
-|**Operador**|**Acción**|**Ejemplo**|**Resultado**|
+|**Operator**|**Action**|**Ejemplo**|**Resultado**|
 |:-----|:-----|:-----|:-----|
 | +  <br/> | Más unario  <br/> | +37  <br/> | 37  <br/> |
 | -  <br/> | Menos unario  <br/> | -37  <br/> | -37  <br/> |
-| %  <br/> | Porcentaje unario  <br/> | 37%  <br/> | .37  <br/> |
+| %  <br/> | Porcentaje unario  <br/> | 37 %  <br/> | .37  <br/> |
 | ^  <br/> | Exponenciación  <br/> | 5 ^ 2  <br/> | 25  <br/> |
-| \*  <br/> | Multiplicación  <br/> | 5 \* 2  <br/> | 10    <br/> |
+| \*  <br/> | Multiplicación  <br/> | 5 \* 2  <br/> | 10  <br/> |
 | /  <br/> | División  <br/> | 5/2  <br/> | 2,5  <br/> |
 | +  <br/> | Adición  <br/> | 5 +2  <br/> | 7   <br/> |
-| -  <br/> | Sustracción  <br/> | 5 -2  <br/> | 3   <br/> |
+| -  <br/> | Sustracción  <br/> | 5 -2  <br/> | 3  <br/> |
    
 ## <a name="comparison-operators"></a>Operadores de comparación
 
 Los operadores de comparación se utilizan para crear expresiones lógicas. Una expresión lógica da como resultado TRUE o FALSE.
   
-|**Operador**|**Alternativa**|**Acción**|**Ejemplo**|**Resultado**|
+|**Operator**|**Alternativa**|**Action**|**Ejemplo**|**Resultado**|
 |:-----|:-----|:-----|:-----|:-----|
 | \>  <br/> | _GT_  <br/> | Mayor que  <br/> | 5 \> 2  <br/> | TRUE  <br/> |
 | \<  <br/> | _LT_  <br/> | Menor que  <br/> | 5 \< 2  <br/> | FALSE  <br/> |
@@ -58,7 +58,7 @@ Los operadores de comparación se utilizan para crear expresiones lógicas. Una 
 | =  <br/> | _EQ_  <br/> | Igual a  <br/> | 5 = 2  <br/> | FALSE  <br/> |
 | \<\>  <br/> | _NE_  <br/> | Distinto de  <br/> | 5 \< \> 2  <br/> | TRUE  <br/> |
    
-Los operadores de comparación simbólicos ( \> \< , etc.) son la mejor opción para la mayoría de las comparaciones. Los operadores alternativos _(GT,_ _LT,_ etc.) realizan una comparación exacta con los 15 dígitos completos de precisión que Visio usa para almacenar valores internamente.
+Los operadores de comparación simbólicos ( \> \< , y así sucesivamente) son la mejor opción para la mayoría de las comparaciones. Los operadores alternativos _(GT,_ _LT,_ etc.) realizan una comparación exacta con los 15 dígitos completos de precisión que Visio para almacenar valores internamente.
   
 Al comparar valores redondeados o calculados con los operadores alternativos, es posible que el resultado sea FALSE cuando, en prácticamente todos los casos, debiera ser TRUE.
   
@@ -68,7 +68,7 @@ Al utilizar operadores de comparación para comparar cadenas de texto, éstas se
 
 Cuando una fórmula contiene más de una expresión, el orden en que se evalúan las expresiones depende de la operación que se esté realizando. En la tabla siguiente se muestra el orden de evaluación de los operadores en Visio.
   
-|**Order**|**Acción**|**Operador**|
+|**Order**|**Action**|**Operator**|
 |:-----|:-----|:-----|
 |Primero  <br/> |Positivo  <br/> |+ (unario)  <br/> |
 ||Negativo  <br/> |- (unario)  <br/> |

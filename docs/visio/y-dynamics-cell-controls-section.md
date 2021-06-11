@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Y Dynamics por su nombre desde otra fórm
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Controles.  *nombre*  . Controles de YDynwhere.  *es*  el nombre de la fila de controles.  <br/> |
+| Nombre de celda:  <br/> | Controles.  *nombre*  . Controles de YDynwhere.  *nombre*  es el nombre de la fila de controles.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Y Dynamics por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

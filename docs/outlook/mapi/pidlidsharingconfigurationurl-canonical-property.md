@@ -25,13 +25,13 @@ ms.locfileid: "32358858"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Designa como propiedad de un mensaje para compartir.
+Designa como una propiedad de un mensaje de uso compartido.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSharingConfigUrl  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Sharing  <br/> |
-|Long ID (LID):  <br/> |0x00008A24  <br/> |
+|Id. largo (LID):  <br/> |0x00008A24  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Compartir  <br/> |
    
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

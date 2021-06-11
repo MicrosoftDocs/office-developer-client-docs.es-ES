@@ -43,11 +43,11 @@ typedef struct _DTBLEDIT
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulbLpszCharsAllowed**
   
-> Desplazamiento desde el principio de la estructura **DTBLEDIT** a un filtro de cadena de caracteres que describe las restricciones, si las hay, a los caracteres que se pueden introducir en el control de edición. El filtro no se interpreta como una expresión regular y se aplica el mismo filtro a todos los caracteres especificados. El formato del filtro es el siguiente: 
+> Desplazamiento desde el inicio de la estructura **DTBLEDIT** a un filtro de cadena de caracteres que describe restricciones, si las hubiera, a los caracteres que se pueden especificar en el control de edición. El filtro no se interpreta como una expresión regular y el mismo filtro se aplica a todos los caracteres especificados. El formato del filtro es el siguiente: 
     
 |**Carácter**|**Descripción**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ typedef struct _DTBLEDIT
 | `[ ]` <br/> |Define un conjunto de caracteres (por ejemplo,  `"[0123456789]".` )  <br/> |
 | `-` <br/> |Indica un intervalo de caracteres (por ejemplo,  `"[a-z]"` ).  <br/> |
 | `~` <br/> |Indica que estos caracteres no están permitidos (por ejemplo,  `"[~0-9]"` ).  <br/> |
-| `\` <br/> |Se usa para citar cualquiera de los símbolos anteriores (por ejemplo, se permiten los caracteres  `"[\-\\\[\]]"` -, \, [y ]).  <br/> |
+| `\` <br/> |Se usa para citar cualquiera de los símbolos anteriores (por ejemplo, se permiten los caracteres  `"[\-\\\[\]]"` -, \, [y ] ).  <br/> |
    
  **ulFlags**
   
@@ -63,7 +63,7 @@ typedef struct _DTBLEDIT
     
 MAPI_UNICODE
   
-> El filtro está en formato Unicode. Si no MAPI_UNICODE marca, el filtro está en formato ANSI.
+> El filtro está en formato Unicode. Si la MAPI_UNICODE no está establecida, el filtro está en formato ANSI.
     
  **ulNumCharsAllowed**
   
@@ -71,17 +71,17 @@ MAPI_UNICODE
     
  **ulPropTag**
   
-> Etiqueta de propiedad para una propiedad de tipo PT_TSTRING. El **miembro ulPropTag** identifica la propiedad de cadena cuyos datos se muestran y editan en el control de edición. 
+> Etiqueta de propiedad para una propiedad de tipo PT_TSTRING. El **miembro ulPropTag** identifica la propiedad string cuyos datos se muestran y editan en el control de edición. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura DTBLEDIT** describe un control de edición en un área de un cuadro de diálogo que contiene información alfanumérica. Casi todos los cuadros de diálogo tienen al menos un control de edición. Los controles de edición pueden ser modificables por un usuario o de solo lectura. 
+Una **estructura DTBLEDIT** describe un control de edición un área de un cuadro de diálogo que contiene información alfanumérica. Casi todos los cuadros de diálogo tienen al menos un control de edición. Los controles de edición pueden ser modificables por un usuario o de solo lectura. 
   
-Los controles de edición también pueden ser de una sola línea o de varias líneas. Los controles de edición multilínea suelen tener asociada una barra de desplazamiento. 
+Los controles de edición también pueden ser de línea única o multilínea. Los controles de edición multilínea suelen tener asociada una barra de desplazamiento. 
   
-Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información sobre cómo implementar una tabla para mostrar, vea [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

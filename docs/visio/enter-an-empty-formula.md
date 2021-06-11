@@ -23,6 +23,6 @@ ms.locfileid: "33405684"
 2. Presione Supr y, a continuación, Entrar.
     
 > [!NOTE]
-> Pruebe esto en una **celda Scratch** después de insertar una fórmula local. La celda se revierte a "Sin fórmula", porque no hay ninguna fórmula para heredar del patrón. 
+> Pruébalo en una **celda Scratch** después de insertar una fórmula local. La celda vuelve a "Sin fórmula", ya que no hay ninguna fórmula que heredar del patrón. 
   
 

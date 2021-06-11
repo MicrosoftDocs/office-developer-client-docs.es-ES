@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251495
 localization_priority: Normal
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
-description: Devuelve un entero, de 0 a 59, que representa el componente de segundos de fecha y hora o expresión.
+description: Devuelve un número entero, de 0 a 59, que representa el componente de segundos de datetime o expresión.
 ms.openlocfilehash: c23bbded12a3886fe3bd4dd2a3c3ba1bd6d11619
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33404879"
 ---
 # <a name="second-function-visioshapesheet"></a>Función SECOND (VisioShapeSheet)
 
-Devuelve un entero, de 0 a 59, que representa el componente de segundos de  _fecha y hora_ o  _expresión_.
+Devuelve un entero, de 0 a 59, que representa el componente de segundos de  _datetime_ o  _expresión_.
   
 ## <a name="syntax"></a>Sintaxis
 
-SECOND(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+SECOND(" ** *datetime* ** "| ** *expresión* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -30,7 +30,7 @@ SECOND(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
 |:-----|:-----|:-----|:-----|
 | _datetime_ <br/> |Obligatorio  <br/> |**String** <br/> |Cualquier cadena que se pueda reconocer como una fecha y una hora, o una referencia a una celda que contenga una fecha y una hora.  <br/> |
 | _expression_ <br/> |Obligatorio  <br/> |**String** <br/> | Cualquier expresión que produzca como resultado una fecha y una hora.  <br/> |
-| _lcid_ <br/> |Opcional  <br/> |**Numérico** <br/> |Identificador de configuración regional que se usará para evaluar una fecha y hora no _local._ El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
+| _lcid_ <br/> |Opcional  <br/> |**Numérico** <br/> |El identificador de configuración regional que se usará para evaluar una fecha y hora _no local._ El identificador regional es un número que se describe en los archivos de encabezado del sistema.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -38,15 +38,15 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Se descarta el componente de  _fecha y_ hora  _o_ expresión. 
+El componente date en  _datetime_ o  _expresión_ se descarta. 
   
-No se realiza redondeo. Si  _falta fecha_ y hora o no se puede convertir en un resultado válido, esta función devuelve un error. 
+No se realiza redondeo. Si  _falta datetime_ o no se puede convertir en un resultado válido, esta función devuelve un error. 
   
-La función SECOND también acepta un  valor numérico único para la expresión donde la parte decimal del resultado representa la fracción de un día desde la medianoche. 
+La función SECOND también acepta un  valor de número único para la expresión donde la parte decimal del resultado representa la fracción de un día desde la medianoche. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-SECOND("30/05/1997 13:45:32")
+SECOND("05/30/1997 13:45:32")
   
 Devuelve 32.
   

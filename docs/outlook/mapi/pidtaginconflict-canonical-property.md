@@ -36,11 +36,11 @@ Contiene TRUE cuando los datos adjuntos representan una réplica alternativa.
    
 ## <a name="remarks"></a>Comentarios
 
-El cliente de correo electrónico y el servidor deben generar un mensaje de resolución de conflictos al detectar un conflicto con la versión actual de un mensaje en la réplica durante la sincronización. Es importante comprender que es posible que la versión actual del mensaje en la réplica local se transmita durante la operación de sincronización actual. Esto ocurrirá cuando el conflicto ya exista en el servidor antes de que cualquiera de los mensajes en conflicto se descargara en la réplica local. Un mensaje de resolución de conflictos debe sincronizarse como réplicas independientes con PCL en conflicto. El mensaje de resolución de conflictos no debe sincronizarse entre el cliente y el servidor; solo se deben intercambiar las réplicas independientes. A continuación, el asociado de sincronización debe generar un nuevo mensaje que coincida con la estructura del mensaje en conflicto. Por lo tanto, es importante que el cliente y el servidor usen el mismo algoritmo para detectar el elemento "ganador". Se deben aplicar las siguientes reglas para detectar el "ganador":
+El cliente de correo electrónico y el servidor deben generar un mensaje de resolución de conflictos al detectar un conflicto con la versión actual de un mensaje en la réplica durante la sincronización. Es importante comprender que es posible que la versión actual del mensaje en la réplica local se transmitió durante la operación de sincronización actual. Esto ocurrirá cuando el conflicto ya exista en el servidor antes de que alguno de los mensajes en conflicto se descargara en la réplica local. Un mensaje de resolución de conflictos debe sincronizarse como réplicas independientes con LAS PCL en conflicto. El mensaje de resolución de conflictos en sí no debe sincronizarse entre el cliente y el servidor; solo se deben intercambiar las réplicas independientes. A continuación, el asociado de sincronización debe generar un nuevo mensaje que coincida con la estructura del mensaje en conflicto. Por lo tanto, es importante que el cliente y el servidor usen el mismo algoritmo para detectar el elemento "ganador". Se deben aplicar las siguientes reglas para detectar el "ganador":
   
-1. Hora de la última modificación.
+1. Última hora de modificación.
     
-2. GUID de CN más alto (con comparación de memoria) para romper la vinculación.
+2. GUID CN superior (con comparación de memoria) para romper la vinculación.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

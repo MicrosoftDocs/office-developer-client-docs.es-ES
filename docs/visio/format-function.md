@@ -22,7 +22,7 @@ Devuelve el resultado de  _la expresión_ como una cadena con formato según  _f
   
 ## <a name="syntax"></a>Sintaxis
 
-FORMAT(** *expression* **," ** *formatpicture* ** ") 
+FORMAT(** *expresión* **," ** *formatpicture* ** ") 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -33,13 +33,13 @@ FORMAT(** *expression* **," ** *formatpicture* ** ")
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 
-El tipo de la expresión y el especificado en el formato de imagen controlan el comportamiento de la cadena devuelta. El  _formatpicture_ debe ser apropiado para el tipo de expresión. Para obtener más información acerca de cómo especificar imágenes de formato, vea [Acerca del formato de imágenes.](about-format-pictures.md)
+El tipo de la expresión y el especificado en el formato de imagen controlan el comportamiento de la cadena devuelta. La  _formatpicture_ debe ser adecuada para el tipo de expresión. Para obtener más información sobre cómo especificar imágenes de formato, vea [Acerca del formato de imágenes](about-format-pictures.md).
   
-Devuelve un error si  el resultado de la expresión y el tipo esperado en _formatpicture_ son de otro tipo o si hay errores de sintaxis en _formatpicture_.
+Devuelve un error si  el resultado de la expresión y el tipo esperado en _formatpicture_ son de un tipo diferente o si hay errores de sintaxis en _formatpicture_.
   
 ## <a name="example-1"></a>Ejemplo 1
 

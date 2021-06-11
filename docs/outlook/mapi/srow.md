@@ -23,7 +23,7 @@ ms.locfileid: "33410437"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una fila de una tabla que contiene las propiedades seleccionadas para un objeto específico. 
+Describe una fila de una tabla que contiene propiedades seleccionadas para un objeto específico. 
   
 |||
 |:-----|:-----|
@@ -39,15 +39,15 @@ typedef struct _SRow
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **ulAdrEntryPad**
   
-> Rellenar bytes para alinear correctamente los valores de propiedad a los que apunta el **miembro lpProps.** 
+> Padding bytes to properly align the property values pointed to by the **lpProps** member. 
     
 **cValues**
   
-> Recuento de valores de propiedad a los que **apunta lpProps**. 
+> Recuento de valores de propiedad **señalados por lpProps**. 
     
 **lpProps**
   
@@ -55,7 +55,7 @@ typedef struct _SRow
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura SRow** describe una fila de una tabla. Se incluye en la estructura de [TABLE_NOTIFICATION](table_notification.md) que acompaña a una notificación de tabla. 
+Una **estructura SRow** describe una fila de una tabla. Se incluye en la estructura [TABLE_NOTIFICATION](table_notification.md) que acompaña a una notificación de tabla. 
   
 **Las estructuras SRow** se usan en los métodos siguientes: 
   
@@ -75,19 +75,19 @@ Una **estructura SRow** describe una fila de una tabla. Se incluye en la estruct
     
 - [HrQueryAllRows](hrqueryallrows.md)
     
-Cuando es necesario describir más de una fila, se usa una estructura [SRowSet.](srowset.md) Una **estructura SRowSet** contiene una matriz de **estructuras SRow** y un recuento de estructuras en la matriz. 
+Cuando se necesita describir más de una fila, se usa una estructura [SRowSet.](srowset.md) Una **estructura SRowSet** contiene una matriz de **estructuras SRow** y un recuento de estructuras en la matriz. 
   
-En la siguiente ilustración se muestra la relación entre una estructura de datos **SRow** y una estructura de datos **SRowSet.** 
+En la ilustración siguiente se muestra la relación entre **un SRow** y una estructura de datos **de SRowSet.** 
   
 **Relación entre SRow y SRowSet**
   
-![Relación entre SRow y SRowSet](media/amapi_17.gif "Entre SRow y SRowSet")
+![Relación entre SRow y SRowSet](media/amapi_17.gif "Relación entre SRow y SRowSet")
   
-**Las estructuras SRow** se definen igual que las [estructuras ADRENTRY.](adrentry.md) Por lo tanto, una fila de una tabla de destinatarios y una entrada de una lista de direcciones se pueden tratar igual. 
+**Las estructuras SRow** se definen igual que las [estructuras ADRENTRY.](adrentry.md) Por lo tanto, una fila de una tabla de destinatarios y una entrada en una lista de direcciones se pueden tratar igual. 
   
-Para obtener información acerca de cómo se debe asignar la memoria para las estructuras **SRow,** vea [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
+Para obtener información sobre cómo se debe asignar la memoria de las estructuras **SRow,** vea [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ADRENTRY](adrentry.md)
 - [SPropValue](spropvalue.md)

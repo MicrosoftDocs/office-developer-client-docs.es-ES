@@ -23,12 +23,12 @@ ms.locfileid: "33409156"
   
  **Para buscar el icono asociado a un mensaje**
   
-1. Llame al método [IMAPIProp::GetProps](imapiprop-getprops.md) del mensaje para recuperar su propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
+1. Llame al método [IMAPIProp::GetProps](imapiprop-getprops.md) del mensaje para recuperar su **propiedad PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
     
 2. Llame [a MAPIOpenFormMgr para](mapiopenformmgr.md) recuperar un puntero de interfaz **IMAPIFormMgr.** Pase el **puntero IMAPISession** en el _parámetro pSession._ 
     
-3. Llame [a IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para recuperar un puntero de **interfaz IMAPIFormInfo.** 
+3. Llama [a IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) para recuperar un puntero de **interfaz IMAPIFormInfo.** 
     
-4. Use el puntero **IMAPIFormInfo** para llamar a [IMAPIProp::GetProps](imapiprop-getprops.md) y recuperar las propiedades **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) o **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
+4. Use el puntero **IMAPIFormInfo** para llamar a [IMAPIProp::GetProps](imapiprop-getprops.md) y recuperar las propiedades **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) y/o **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
     
 

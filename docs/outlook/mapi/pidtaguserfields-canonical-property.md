@@ -32,14 +32,14 @@ Contiene el nombre, el tipo de datos y otra información sobre un campo definido
    
 ## <a name="remarks"></a>Comentarios
 
-Para cada elemento, Outlook almacena las definiciones de todos los campos definidos por el usuario en la propiedad [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) del objeto **IMessage** correspondiente. La **propiedad PidLidPropertyDefinitionStream** contiene una secuencia binaria conocida como [PropertyDefinition](propertydefinition-stream-structure.md), que contiene las definiciones de campo. Para obtener más información acerca de las estructuras de secuencia para las definiciones de campo, vea [Estructuras de secuencia](stream-structures.md).
+Para cada elemento, Outlook las definiciones de todos los campos definidos por el usuario en la propiedad [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) del objeto **IMessage** correspondiente. La **propiedad PidLidPropertyDefinitionStream** contiene una secuencia binaria conocida como [PropertyDefinition](propertydefinition-stream-structure.md), que contiene las definiciones de campo. Para obtener más información acerca de las estructuras de secuencia para definiciones de campo, vea [Stream Structures](stream-structures.md).
   
-Para cada carpeta, Outlook almacena las definiciones de todos los campos definidos por el usuario en esa carpeta en la propiedad **PidTagUserFields** de un mensaje asociado de la clase de mensaje IPC.MS. REN. USERFIELDS: se supone que cada carpeta no contiene más de un mensaje de esta clase en su tabla de contenido asociada. 
+Para cada carpeta, Outlook almacena las definiciones de todos los campos definidos por el usuario en esa carpeta en la propiedad **PidTagUserFields** de un mensaje asociado de la clase de mensaje IPC.MS. REN. USERFIELDS: cada carpeta que se supone no contiene más de un mensaje de esta clase en su tabla de contenido asociada. 
   
 > [!NOTE]
 > Es posible que el conjunto de campos definidos por el usuario de una carpeta no coincida necesariamente con los conjuntos de campos definidos por el usuario en cada uno de sus elementos. 
   
-El conjunto de campos definidos por el usuario en una carpeta se muestra en varios lugares de la interfaz de usuario de Outlook, como el Seleccionador de campos de la carpeta. La propiedad **PidTagUserFields** del mensaje contiene una secuencia binaria, **FolderUserFields**, que contiene las definiciones de campo de carpeta. Para obtener más información acerca de las estructuras de secuencia para las definiciones de campo de carpeta, vea [Estructuras](folder-fields-stream-structures.md) de secuencia de campos de carpeta y el ejemplo de secuencia [FolderUserFields](folderuserfields-stream-sample.md).
+El conjunto de campos definidos por el usuario en una carpeta se muestra en varios lugares de la interfaz de usuario de Outlook, como el Seleccionador de campos de la carpeta. La propiedad **PidTagUserFields** del mensaje contiene una secuencia binaria, **FolderUserFields**, que contiene las definiciones de campo de carpeta. Para obtener más información acerca de las estructuras de secuencia para definiciones de campo de carpeta, vea [Folder Fields Stream Structures](folder-fields-stream-structures.md) y [folderUserFields Stream Sample](folderuserfields-stream-sample.md).
   
 ## <a name="section-heading"></a>Título de sección
 
@@ -55,19 +55,19 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
-[Elementos y campos de Outlook](outlook-items-and-fields.md)
+[Outlook Elementos y campos](outlook-items-and-fields.md)
   
-[Agregar una definición para un campo User-Defined nuevo](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Agregar una definición para un nuevo User-Defined campo](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Ejemplo de secuencia PropertyDefinition](propertydefinition-stream-sample.md)
   
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

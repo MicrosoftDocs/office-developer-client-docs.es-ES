@@ -34,15 +34,15 @@ HRESULT hrStatus
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _dwPageNumber_
   
-> [entrada] Número de la última página impresa.
+> [in] Número de la última página impresa.
     
  _hrStatus_
   
-> [entrada] Valor HRESULT que indica el estado del trabajo de impresión. Los valores posibles son:
+> [in] Valor HRESULT que indica el estado del trabajo de impresión. Los valores posibles son:
     
 S_FALSE 
   
@@ -54,7 +54,7 @@ S_OK
     
 ERROR 
   
-> El trabajo de impresión finalizó debido a un error.
+> El trabajo de impresión se ha terminado debido a un error.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -68,15 +68,15 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman al método **IMAPIViewAdviseSink::OnPrint** mientras se imprime para informar al visor del progreso de impresión. 
+Los objetos Form llaman al **método IMAPIViewAdviseSink::OnPrint** mientras se imprimen para informar al visor del progreso de impresión. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si el trabajo de impresión implica varias páginas, puede llamar a **OnPrint** después de imprimir cada página. Establezca  _dwPageNumber_ en la página que se está imprimindo actualmente y  _hrStatus_ en S_OK. Una vez completado el trabajo de impresión, llame a **OnPrint** con  _dwPageNumber_ establecido en la última página impresa y  _hrStatus_ establecido en S_FALSE. 
+Si el trabajo de impresión implica varias páginas, puede llamar a **OnPrint** después de imprimir cada página. Establezca  _dwPageNumber en_ la página que se está imprimindo y  _hrStatus_ en S_OK. Cuando se complete el trabajo de impresión, llame a **OnPrint** con  _dwPageNumber_ establecido en la última página impresa y  _hrStatus_ establecido en S_FALSE. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario.](sending-and-receiving-form-notifications.md)
+Para obtener más información acerca de las notificaciones de formulario, vea [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

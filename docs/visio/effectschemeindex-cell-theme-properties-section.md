@@ -1,5 +1,5 @@
 ---
-title: Celda EffectSchemeIndex (Sección de propiedades del tema)
+title: Celda EffectSchemeIndex (sección Propiedades del tema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409275"
 ---
-# <a name="effectschemeindex-cell-theme-properties-section"></a>Celda EffectSchemeIndex (Sección de propiedades del tema)
+# <a name="effectschemeindex-cell-theme-properties-section"></a>Celda EffectSchemeIndex (sección Propiedades del tema)
 
 Determina la combinación de efectos del tema aplicado a una forma, como un entero.
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **EffectSchemeIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **EffectSchemeIndex** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la propiedad **CellsU,** use: 
   
 |||
 |:-----|:-----|

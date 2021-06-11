@@ -36,27 +36,27 @@ HRESULT CreateProfile(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
-> [entrada] Puntero al nombre del nuevo perfil.
+> [in] Puntero al nombre del nuevo perfil.
     
  _lpszPassword_
   
-> [entrada] Puntero a la contraseña del nuevo perfil. 
+> [in] Puntero a la contraseña del nuevo perfil. 
     
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
+> [in] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se crea el perfil. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se crea el perfil. Se pueden establecer las siguientes marcas:
     
 MAPI_DEFAULT_SERVICES 
   
-> MAPI debe rellenar el nuevo perfil con los servicios de mensaje que se incluyen en la sección [Servicios predeterminados] del archivo Mapisvc.inf.
+> MAPI debe rellenar el nuevo perfil con los servicios de mensajes que se incluyen en la sección [Servicios predeterminados] del archivo Mapisvc.inf.
     
 MAPI_DIALOG 
   
@@ -78,13 +78,13 @@ El **método IProfAdmin::CreateProfile** crea un nuevo perfil.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede llamar a **CreateProfile en el** momento de la instalación de la aplicación o en cualquier momento durante una sesión. Cuando se llama a este método en el momento de la instalación, muchas de las opciones de configuración provienen del archivo de configuración Mapisvc.inf. Cuando se llama a este método durante una sesión activa, la configuración procede del usuario al que se le solicita a través de una serie de hojas de propiedades. 
+Puede llamar a **CreateProfile en** el momento de la instalación de la aplicación o en cualquier momento durante una sesión. Cuando se llama a este método en el momento de la instalación, muchas de las opciones de configuración proceden del archivo de configuración Mapisvc.inf. Cuando se llama a este método durante una sesión activa, la configuración procede del usuario al que se le pide una serie de hojas de propiedades. 
   
-Si la marca MAPI_DEFAULT_SERVICES se establece en el parámetro  _ulFlags,_ **CreateProfile** llama a la función de punto de entrada del servicio de mensajes para cada servicio de mensajes en la sección [Servicios predeterminados] del archivo Mapisvc.inf. Se llama a cada función de punto de entrada del servicio de mensajes con el  _parámetro ulContext_ establecido en MSG_SERVICE_CREATE. 
+Si la marca MAPI_DEFAULT_SERVICES se establece en el parámetro  _ulFlags,_ **CreateProfile** llama a la función de punto de entrada del servicio de mensajes para cada servicio de mensajes en la sección [Servicios predeterminados] del archivo Mapisvc.inf. Se llama a cada función de punto de entrada del servicio de mensajes con el parámetro  _ulContext_ establecido en MSG_SERVICE_CREATE. 
   
 Si se establecen las marcas MAPI_DIALOG y MAPI_DEFAULT_SERVICES, los valores de los parámetros  _ulUIParam_ y  _ulFlags_ también se pasan a la función de punto de entrada del servicio de mensajes. Solo se llama a las funciones de punto de entrada del servicio de mensajes después de que toda la información disponible del archivo Mapisvc.inf se haya agregado al perfil. 
   
-El nombre del nuevo perfil y su contraseña pueden tener hasta 64 caracteres de longitud y pueden incluir los siguientes caracteres:
+El nombre del nuevo perfil y su contraseña pueden tener hasta 64 caracteres y pueden incluir los siguientes caracteres:
   
 - Todos los caracteres alfanuméricos, incluidos los caracteres de énfrica y el carácter de subrayado.
     
@@ -92,7 +92,7 @@ El nombre del nuevo perfil y su contraseña pueden tener hasta 64 caracteres de 
     
 El  _parámetro lpszPassword_ debe ser NULL o un puntero a una cadena de longitud cero. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

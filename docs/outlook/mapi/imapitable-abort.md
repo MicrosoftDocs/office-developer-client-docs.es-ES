@@ -53,11 +53,11 @@ El **método IMAPITable::Abort** detiene cualquier operación asincrónica que e
 
 Para averiguar si hay una operación asincrónica en curso, llame al [método IMAPITable::GetStatus.](imapitable-getstatus.md) 
   
-Si **Abort** detiene el procesamiento de una llamada al método [IMAPITable::Restrict,](imapitable-restrict.md) el estado de  la tabla será el mismo que en el momento en que se procese la llamada de anulación. 
+Si **Abort** detiene el procesamiento de una llamada al método [IMAPITable::Restrict,](imapitable-restrict.md) el estado de  la tabla será el mismo que en el momento en que se procese la llamada Abort. 
   
-Si **Abort** detiene el procesamiento de una llamada al método [IMAPITable::SortTable,](imapitable-sorttable.md) el criterio de ordenación de la tabla no se verán afectados y permanecerá igual que antes de la llamada **a SortTable.** 
+Si **Abort** detiene el procesamiento de una llamada al método [IMAPITable::SortTable,](imapitable-sorttable.md) el criterio de ordenación de la tabla no se verán afectados y permanecerá como antes de la llamada **a SortTable.** 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

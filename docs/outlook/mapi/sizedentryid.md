@@ -34,11 +34,11 @@ Crea una estructura [ENTRYID](entryid.md) con nombre que contiene un **miembro a
 SizedENTRYID (_cb, _name)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ _cb_
   
-> Número de bytes en el **miembro ab** de la nueva estructura. 
+> Recuento de bytes en el **miembro ab** de la nueva estructura. 
     
 _ _name_
   
@@ -48,14 +48,14 @@ _ _name_
 
 La **macro SizedENTRYID** permite definir un identificador de entrada después de conocer los requisitos de longitud de la matriz. Use esta macro para crear un identificador de entrada con límites explícitos. 
   
-Para usar la nueva estructura que resulta de la macro **SizedENTRYID** como puntero a una estructura **ENTRYID,** realice la conversión siguiente: 
+Para usar la nueva estructura que resulta de la macro **SizedENTRYID** como puntero a una **estructura ENTRYID,** realice la conversión siguiente: 
   
 ```cpp
 lpENTRYID = (LPENTRYID) &SizedENTRYID;
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ENTRYID](entryid.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

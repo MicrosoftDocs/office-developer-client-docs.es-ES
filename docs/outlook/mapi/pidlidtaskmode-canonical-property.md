@@ -31,9 +31,9 @@ Especifica el estado de asignación de la tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskMode  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008518  <br/> |
+|Id. largo (LID):  <br/> |0x00008518  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -43,8 +43,8 @@ El valor debe ser uno de los siguientes.
 |:-----|:-----|
 |0x00000000  <br/> |La tarea no está asignada.  <br/> |
 |0x00000001  <br/> |La tarea está incrustada en una solicitud de tarea.  <br/> |
-|0x00000002  <br/> |La tarea fue aceptada por el usuario al que se asigna la tarea.  <br/> |
-|0x00000003  <br/> |El usuario al que se asigna la tarea rechazó la tarea.  <br/> |
+|0x00000002  <br/> |El destinatario de la tarea aceptó la tarea.  <br/> |
+|0x00000003  <br/> |El destinatario de la tarea rechazó la tarea.  <br/> |
 |0x00000004  <br/> |La tarea está incrustada en una actualización de tarea.  <br/> |
 |0x00000005  <br/> |La tarea se asignó al asignador de tareas.  <br/> |
    
@@ -56,7 +56,7 @@ El valor debe ser uno de los siguientes.
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
@@ -66,13 +66,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
-> [entrada] El tamaño, en bytes, del identificador de entrada al que apunta el  _parámetro lpEntryID1_  _._
+> [in] Tamaño, en bytes, del identificador de entrada al que apunta el  _parámetro lpEntryID1_  _._
     
  _lpEntryID1_
   
-> [entrada] Puntero al primer identificador de entrada que se va a comparar.
+> [in] Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> [entrada] El tamaño, en bytes, del identificador de entrada al que apunta el  _parámetro lpEntryID2_  _._
+> [in] Tamaño, en bytes, del identificador de entrada al que apunta el  _parámetro lpEntryID2_  _._
     
  _lpEntryID2_
   
-> [entrada] Puntero al segundo identificador de entrada que se va a comparar.
+> [in] Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [salida] Puntero al resultado devuelto de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
+> [salida] Puntero al resultado devuelto de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; en caso contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -74,9 +74,9 @@ S_OK
 
 Los proveedores de almacén de mensajes implementan el método **IMSLogon::CompareEntryIDs** para comparar dos identificadores de entrada de una entrada determinada en un almacén de mensajes para determinar si hacen referencia al mismo objeto. Si los dos identificadores de entrada hacen referencia al mismo objeto, **CompareEntryIDs** establece el parámetro  _lpulResult_ en TRUE; si hacen referencia a diferentes objetos, **CompareEntryIDs** establece  _lpulResult_ en FALSE. 
   
- **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esto puede ocurrir, por ejemplo, después de instalar una nueva versión de un proveedor de almacenamiento de mensajes. 
+ **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esto puede ocurrir, por ejemplo, después de instalar una nueva versión de un proveedor de almacén de mensajes. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

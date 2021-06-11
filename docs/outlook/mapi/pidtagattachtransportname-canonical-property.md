@@ -25,7 +25,7 @@ ms.locfileid: "32361071"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre de un archivo adjunto modificado para que pueda asociarse con mensajes TNEF. 
+Contiene el nombre de un archivo adjunto modificado para que se pueda asociar a mensajes TNEF. 
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Contiene el nombre de un archivo adjunto modificado para que pueda asociarse con
 
 TNEF y el proveedor de transporte usan estas propiedades. Por lo general, no están disponibles para las aplicaciones cliente. 
   
-TNEF usa normalmente estas propiedades cuando el sistema de mensajería subyacente no admite los nombres de archivo proporcionados. Por ejemplo, se usan cuando el usuario adjunta varios archivos con el mismo nombre, como cinco archivos denominados CONFIG.SYS. El proveedor de transporte debe modificar los nombres para asegurarse de que son únicos. Cada nombre modificado aparece en los datos **adjuntos** PR_ATTACH_TRANSPORT_NAME propiedades asociadas. 
+TNEF usa normalmente estas propiedades cuando el sistema de mensajería subyacente no admite los nombres de archivo proporcionados. Por ejemplo, se usan cuando el usuario adjunta varios archivos con el mismo nombre, como cinco archivos denominados CONFIG.SYS. El proveedor de transporte debe modificar los nombres para asegurarse de que son únicos. Cada nombre modificado aparece en las propiedades **asociadas** PR_ATTACH_TRANSPORT_NAME datos adjuntos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,7 +46,7 @@ TNEF usa normalmente estas propiedades cuando el sistema de mensajería subyacen
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -58,13 +58,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

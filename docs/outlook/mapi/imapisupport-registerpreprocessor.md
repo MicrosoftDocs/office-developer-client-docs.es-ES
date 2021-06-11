@@ -25,7 +25,7 @@ ms.locfileid: "33404900"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Registra la función de preprocesador de un proveedor de transporte (una función que se ajusta al prototipo [PreprocessMessage).](preprocessmessage.md) 
+Registra la función de preprocesador de un proveedor de transporte (una función que se ajusta al [prototipo PreprocessMessage).](preprocessmessage.md) 
   
 ```cpp
 HRESULT RegisterPreprocessor(
@@ -38,27 +38,27 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMuid_
   
-> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador que controla la función de preprocesador. El  _parámetro lpMuid_ puede ser NULL. 
+> [in] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador que controla la función de preprocesador. El  _parámetro lpMuid_ puede ser NULL. 
     
  _lpszAdrType_
   
-> [entrada] Puntero al tipo de dirección de los mensajes en los que opera la función, como FAX, SMTP o X500. El  _parámetro lpszAdrType_ puede ser NULL. 
+> [in] Puntero al tipo de dirección de los mensajes en los que funciona la función, como FAX, SMTP o X500. El  _parámetro lpszAdrType_ puede ser NULL. 
     
  _lpszDLLName_
   
-> [entrada] Puntero al nombre de la biblioteca de vínculos dinámicos (DLL) que contiene el punto de entrada de la función de preprocesador.
+> [in] Puntero al nombre de la biblioteca de vínculos dinámicos (DLL) que contiene el punto de entrada de la función de preprocesador.
     
  _lpszPreprocess_
   
-> [entrada] Puntero al nombre de la función de preprocesador. El  _parámetro lpszPreprocess_ puede ser NULL. 
+> [in] Puntero al nombre de la función de preprocesador. El  _parámetro lpszPreprocess_ puede ser NULL. 
     
  _lpszRemovePreprocessInfo_
   
-> [entrada] Puntero al nombre de la función que quita la información del preprocesador (una función que se ajusta al prototipo [RemovePreprocessInfo).](removepreprocessinfo.md) El  _parámetro lpszRemovePreprocessInfo_ puede ser NULL. 
+> [in] Puntero al nombre de la función que quita la información del preprocesador (una función que se ajusta al [prototipo RemovePreprocessInfo).](removepreprocessinfo.md) El  _parámetro lpszRemovePreprocessInfo_ puede ser NULL. 
     
  _ulFlags_
   
@@ -72,17 +72,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::RegisterPreprocessor** se implementa únicamente para objetos de compatibilidad del proveedor de transporte. Los proveedores de transporte llaman a **RegisterPreprocessor** para registrar una función de preprocesador (una función que se ajusta al prototipo [PreprocessMessage).](preprocessmessage.md) Se debe registrar una función de preprocesador para que la cola MAPI pueda llamarla. 
+El **método IMAPISupport::RegisterPreprocessor** solo se implementa para objetos de soporte del proveedor de transporte. Los proveedores de transporte llaman a **RegisterPreprocessor** para registrar una función de preprocesador (una función que se ajusta al prototipo [PreprocessMessage).](preprocessmessage.md) Se debe registrar una función de preprocesador antes de que la cola MAPI pueda llamarla. 
   
-Los parámetros  _lpszPreprocess_,  _lpszRemovePreprocessInfo_ y  _lpszDLLName_ deben apuntar a cadenas que se pueden usar junto con llamadas a la función **GetProcAddress** de Win32, lo que permite llamar correctamente al punto de entrada dll del preprocesador. 
+Los parámetros  _lpszPreprocess_,  _lpszRemovePreprocessInfo_ y  _lpszDLLName_ deben apuntar a cadenas que se pueden usar junto con llamadas a la función **GetProcAddress** de Win32, lo que permite llamar correctamente al punto de entrada DLL del preprocesador. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Las llamadas a preprocesadores son específicas del orden del proveedor de transporte. Esto significa que si otro proveedor de transporte anterior a su proveedor es capaz de controlar un mensaje, no se llamará a la función de preprocesador para ese mensaje. Solo se llamará a la función de preprocesador para los mensajes que controlará.
+Las llamadas a los preprocesadores son específicas para el pedido del proveedor de transporte. Esto significa que si otro proveedor de transporte delante de su proveedor es capaz de controlar un mensaje, no se llamará a la función de preprocesador para ese mensaje. Solo se llamará a la función de preprocesador para los mensajes que controlará.
   
-Puede escribir funciones de preprocesador para controlar un identificador específico almacenado en una estructura [MAPIUID](mapiuid.md) o un tipo de dirección. Si especifica una estructura **MAPIUID** en el parámetro  _lpMuid_ y un tipo de dirección en el parámetro  _lpszAdrType,_ se llamará a la función para los destinatarios de mensajes que coincidan con **MAPIUID** o con el tipo de dirección. Si  _lpMuid_ es NULL y  _lpszAdrType_ no es NULL, solo se llamará a la función para los destinatarios que tengan una dirección que coincida con el tipo al que apunta  _lpszAdrType_. Si  _lpMuid_ no es NULL y  _lpszAdrType_ es NULL, se llamará a la función para los destinatarios que coincidan con **MAPIUID,** independientemente de su tipo de dirección. Si ambos son NULL, se llama a la función para todos los destinatarios del mensaje.
+Puede escribir funciones de preprocesador para controlar un identificador específico almacenado en una estructura [MAPIUID](mapiuid.md) o un tipo de dirección. Si especifica una estructura **MAPIUID** en el parámetro  _lpMuid_ y un tipo de dirección en el parámetro  _lpszAdrType,_ se llamará a la función para los destinatarios de mensajes que coincidan con **MAPIUID** o con el tipo de dirección. Si  _lpMuid_ es NULL y  _lpszAdrType_ no es NULL, se llamará a la función solo para los destinatarios que tengan una dirección que coincida con el tipo señalado por  _lpszAdrType_. Si  _lpMuid_ no es NULL y  _lpszAdrType_ es NULL, se llamará a la función para los destinatarios que coincidan con **MAPIUID,** independientemente de su tipo de dirección. Si ambos son NULL, se llama a la función para todos los destinatarios del mensaje.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

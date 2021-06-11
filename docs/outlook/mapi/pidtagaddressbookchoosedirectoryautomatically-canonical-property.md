@@ -21,7 +21,7 @@ ms.locfileid: "33409667"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite que Microsoft Outlook 2010 y Microsoft Outlook 2013 elijan la lista global de direcciones (GAL) o carpeta de contactos más adecuada para el buzón actual.
+Permite Microsoft Outlook 2010 y Microsoft Outlook 2013 elegir la lista global de direcciones (GAL) o carpeta de contactos más adecuada para el buzón actual.
   
 |||
 |:-----|:-----|
@@ -32,7 +32,7 @@ Permite que Microsoft Outlook 2010 y Microsoft Outlook 2013 elijan la lista glob
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad corresponde a la opción **Elegir automáticamente** en el cuadro de diálogo Opciones de la libreta de direcciones. Cuando esta propiedad existe en la sección de perfil de IID_CAPONE_PROF y se establece en **true**, el cuadro de diálogo libreta de direcciones ya no se establece de forma predeterminada en el contenedor especificado por el método [SetDefaultDir,](iaddrbook-setdefaultdir.md) sino que elige una libreta de direcciones que Outlook 2010 u Outlook 2013 considere apropiada para el contexto en el que se mostra el cuadro de diálogo. Tenga en cuenta que esto puede provocar una mala experiencia para proveedores de libretas de direcciones de terceros. 
+Esta propiedad corresponde a la configuración **Elegir automáticamente** en el cuadro de diálogo Opciones de la libreta de direcciones. Cuando esta propiedad existe en la sección de perfil de IID_CAPONE_PROF y se establece en **true,** el cuadro de diálogo Libreta de direcciones ya no es el valor predeterminado del contenedor especificado por el método [SetDefaultDir,](iaddrbook-setdefaultdir.md) sino que elige una libreta de direcciones que Outlook 2010 o Outlook 2013 considere apropiada para el contexto en el que se mostró el cuadro de diálogo. Tenga en cuenta que esto puede provocar una mala experiencia para proveedores de libretas de direcciones de terceros. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,13 +46,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Constantes MAPI](mapi-constants.md)
   

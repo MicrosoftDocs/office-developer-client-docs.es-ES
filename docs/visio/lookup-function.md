@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251457
 localization_priority: Normal
 ms.assetid: cb6ec664-6062-75d0-1514-8058b98c2c36
-description: Devuelve un índice de base cero que indica la ubicación de la clave de subcadena en una lista o devuelve -1 si la cadena de destino contiene el delimitador.
+description: Devuelve un índice basado en cero que indica la ubicación de la clave de subcadena en una lista o devuelve -1 si la cadena de destino contiene el delimitador.
 ms.openlocfilehash: 10fc32e6e979ab819246161dedfb1183c2683a99
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33410332"
 ---
 # <a name="lookup-function"></a>Función LOOKUP
 
-Devuelve un índice de base cero que indica  la ubicación de la clave de subcadena en una lista _o_ devuelve -1 si la cadena de destino contiene _el delimitador_.
+Devuelve un índice basado en cero que indica  la ubicación de la clave de subcadena en una lista _o_ devuelve -1 si la cadena de destino contiene _el delimitador_.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -30,7 +30,7 @@ LOOKUP(" ** *key* ** "," ** *list* ** "[," ** *delimiter* ** "])
 |:-----|:-----|:-----|:-----|
 | _key_ <br/> |Obligatorio  <br/> |**String** <br/> |Cadena que desea buscar.  <br/> |
 | _list_ <br/> |Obligatorio  <br/> |**String** <br/> | Lista en la que desea realizar la búsqueda.  <br/> |
-| _delimiter_ <br/> |Opcional  <br/> |**String** <br/> | La cadena que se usará como delimitador dentro de la  _lista_. Una  _cadena delimitadora_ puede tener más de un carácter de longitud y puede incluir caracteres multibyte. El valor predeterminado es un punto y coma.  <br/> |
+| _delimiter_ <br/> |Opcional  <br/> |**String** <br/> | Cadena que se usará como delimitador dentro de la  _lista_. Una  _cadena delimitadora_ puede tener más de un carácter de longitud y puede incluir caracteres multibyte. El valor predeterminado es un punto y coma.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -44,19 +44,19 @@ Todos los argumentos deben ser cadenas o expresiones que se puedan convertir en 
   
 ## <a name="example-1"></a>Ejemplo 1
 
-LOOKUP("rat","cat;rat;; indeste")
+LOOKUP("rat","cat;rat;; cabrío")
   
 Devuelve 1.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-LOOKUP("",";cat;rat;; indeste")
+LOOKUP("",";cat;rat;; cabrío")
   
 Devuelve 0.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-LOOKUP("t","cat;rat;; desao","a")
+LOOKUP("t","cat;rat;; goat","a")
   
 Devuelve 3.
   

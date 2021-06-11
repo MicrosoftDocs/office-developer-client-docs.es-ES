@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 390df5ce-e730-470d-b6e9-0de4a3e904f8
-description: En este tema se enumeran los códigos de error del modelo de objetos de OneNote 2013.
+description: En este tema se enumeran los códigos de error del OneNote de objetos de 2013.
 ms.openlocfilehash: 83f8ad3d686693c82db1e57b8e37fa21ad140ab9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33409429"
 ---
 # <a name="error-codes-onenote"></a>Códigos de error (OneNote)
 
-En este tema se enumeran los códigos de error del modelo de objetos de OneNote 2013.
+En este tema se enumeran los códigos de error del OneNote de objetos de 2013.
   
 |**HResult**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
@@ -28,15 +28,15 @@ En este tema se enumeran los códigos de error del modelo de objetos de OneNote 
 |hrPageDoesNotExist  <br/> |0x80042005  <br/> |La página no existe.  <br/> |
 |hrFileDoesNotExist  <br/> |0x80042006  <br/> |El archivo no existe.  <br/> |
 |hrInsertingImage  <br/> |0x80042007  <br/> |No se pudo insertar la imagen.  <br/> |
-|hrInsertingInk  <br/> |0x80042008  <br/> |No se pudo insertar la entrada de lápiz.  <br/> |
-|hrInsertingHtml  <br/> |0x80042009  <br/> |No se pudo insertar el código HTML.  <br/> |
+|hrInsertingInk  <br/> |0x80042008  <br/> |No se pudo insertar la tinta.  <br/> |
+|hrInsertingHtml  <br/> |0x80042009  <br/> |No se pudo insertar el CÓDIGO HTML.  <br/> |
 |hrNavigatingToPage  <br/> |0x8004200a  <br/> |No se pudo abrir la página.  <br/> |
 |hrSectionReadOnly  <br/> |0x8004200b  <br/> |La sección es de solo lectura.  <br/> |
 |hrPageReadOnly  <br/> |0x8004200c  <br/> |La página es de solo lectura.  <br/> |
-|hrInsertingOutlineText  <br/> |0x8004200d  <br/> |No se pudo insertar el texto de esquema.  <br/> |
-|hrPageObjectDoesNotExist  <br/> |0x8004200e  <br/> |El objeto de página no existe.  <br/> |
+|hrInsertingOutlineText  <br/> |0x8004200d  <br/> |No se pudo insertar el texto del esquema.  <br/> |
+|hrPageObjectDoesNotExist  <br/> |0x8004200e  <br/> |El objeto page no existe.  <br/> |
 |hrBinaryObjectDoesNotExist  <br/> |0x8004200f  <br/> |El objeto binario no existe.  <br/> |
-|hrLastModifiedDateDidNotMatch  <br/> |0x80042010  <br/> |La fecha de la última modificación no coincide.  <br/> |
+|hrLastModifiedDateDidNotMatch  <br/> |0x80042010  <br/> |La última fecha de modificación no coincide.  <br/> |
 |hrGroupDoesNotExist  <br/> |0x80042011  <br/> |El grupo de secciones no existe.  <br/> |
 |hrPageDoesNotExistInGroup  <br/> |0x80042012  <br/> |La página no existe en el grupo de secciones.  <br/> |
 |hrNoActiveSelection  <br/> |0x80042013  <br/> |No hay ninguna selección activa.  <br/> |
@@ -53,11 +53,11 @@ En este tema se enumeran los códigos de error del modelo de objetos de OneNote 
 ||||
 |:-----|:-----|:-----|
 |hrNotYetSynchronized  <br/> |0x8004201d  <br/> |OneNote aún no ha sincronizado el contenido.  <br/> |
-|hrLegacySection  <br/> |0x8004201E  <br/> |La sección es de OneNote 2007 o versiones anteriores.  <br/> |
+|hrLegacySection  <br/> |0x8004201E  <br/> |La sección es de OneNote 2007 o anterior.  <br/> |
 |hrMergeFailed  <br/> |0x8004201F  <br/> |Error en la operación de combinación.  <br/> |
 |hrInvalidXMLSchema  <br/> |0x80042020  <br/> |El esquema XML no es válido.  <br/> |
 |hrFutureContentLoss  <br/> |0x80042022  <br/> |Se ha producido una pérdida de contenido (a partir de versiones futuras de OneNote).  <br/> |
-|hrTimeOut  <br/> |0x80042023  <br/> |Se ha producido un tiempo de espera de la acción.  <br/> |
+|hrTimeOut  <br/> |0x80042023  <br/> |La acción ha pasado el tiempo de espera.  <br/> |
 |hrRecordingInProgress  <br/> |0x80042024  <br/> |La grabación de audio está en curso.  <br/> |
 |hrUnknownLinkedNoteState  <br/> |0x80042025  <br/> |El estado de la nota vinculada es desconocido.  <br/> |
 |hrNoShortNameForLinkedNote  <br/> |0x80042026  <br/> |No existe ningún nombre corto para la nota vinculada.  <br/> |
@@ -68,9 +68,9 @@ En este tema se enumeran los códigos de error del modelo de objetos de OneNote 
 |hrUnreadDisabledForNotebook  <br/> |0x8004202B  <br/> |El resaltado no leído está deshabilitado para el bloc de notas.  <br/> |
 |hrInvalidSelection  <br/> |0x8004202C  <br/> |La selección no es válida.  <br/> |
 |hrConvertFailed  <br/> |0x8004202D  <br/> |Error en la conversión.  <br/> |
-|hrRecycleBinEditFailed  <br/> |0x8004202E  <br/> |Error de edición en la papelera de reciclaje.  <br/> |
+|hrRecycleBinEditFailed  <br/> |0x8004202E  <br/> |Error de edición en la Papelera de reciclaje.  <br/> |
    
-A continuación se enumeran los nuevos códigos de error de OneNote 2013.
+A continuación se enumeran los nuevos códigos de error OneNote 2013.
   
 |**HResult**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|

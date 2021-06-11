@@ -23,6 +23,6 @@ ms.locfileid: "33410290"
     
 - [Referencia SQL y expresiones de Access (aplicación web personalizada de Access)](access-sql-and-expressions-reference-access-custom-web-app.md)
     
-- [Referencia de la función de macro (aplicación web personalizada de Access)](macro-function-reference-access-custom-web-app.md)
+- [Referencia de función de macro (aplicación web personalizada de Access)](macro-function-reference-access-custom-web-app.md)
     
 

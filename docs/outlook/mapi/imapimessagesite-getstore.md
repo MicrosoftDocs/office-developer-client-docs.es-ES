@@ -25,7 +25,7 @@ ms.locfileid: "33410472"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el almacén de mensajes que contiene el mensaje actual, si existe dicho almacén. Este método devolverá NULL en el parámetro  _ppStore_ para los mensajes incrustados, que se almacenan en otro mensaje en lugar de directamente en un almacén de mensajes. 
+Devuelve el almacén de mensajes que contiene el mensaje actual, si existe dicho almacén. Este método devolverá NULL en el  _parámetro ppStore_ para los mensajes incrustados, que se almacenan en otro mensaje en lugar de directamente en un almacén de mensajes. 
   
 ```cpp
 HRESULT GetStore(
@@ -33,7 +33,7 @@ HRESULT GetStore(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppStore_
   
@@ -51,7 +51,7 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -59,9 +59,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetStore  <br/> |MFCMAPI usa el **método IMAPIMessageSite::GetStore** para obtener el puntero almacenado actualmente en caché al almacén especificado, si está disponible.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetStore  <br/> |MFCMAPI usa el método **IMAPIMessageSite::GetStore** para obtener el puntero almacenado actualmente en caché al almacén especificado, si está disponible.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

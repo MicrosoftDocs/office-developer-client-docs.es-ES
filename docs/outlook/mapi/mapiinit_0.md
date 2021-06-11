@@ -40,35 +40,35 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulVersion**
   
-> Un valor entero que representa el número de versión de la **MAPIINIT_0** estructura. El **miembro ulVersion** es para la expansión futura y no representa la versión de la interfaz MAPI. Actualmente, **ulVersion** debe establecerse en MAPI_INIT_VERSION. 
+> Valor entero que representa el número de versión de **la MAPIINIT_0** estructura. El **miembro ulVersion** es para la expansión futura y no representa la versión de la interfaz MAPI. Actualmente, **ulVersion** debe establecerse en MAPI_INIT_VERSION. 
     
  **ulFlags**
   
-> Máscara de bits de marcas usada para controlar la inicialización de la sesión MAPI. Se pueden establecer las siguientes marcas:
+> Máscara de bits de las marcas usadas para controlar la inicialización de la sesión MAPI. Se pueden establecer las siguientes marcas:
     
 MAPI_MULTITHREAD_NOTIFICATIONS 
   
-> MAPI debe generar notificaciones mediante un subproceso dedicado al control de notificaciones en lugar del primer subproceso usado para llamar **a MAPIInitialize**.
+> MAPI debe generar notificaciones mediante un subproceso dedicado al control de notificaciones en lugar del primer subproceso usado para llamar a **MAPIInitialize**.
     
 MAPI_NT_SERVICE 
   
-> El autor de la llamada se ejecuta como un servicio de Windows. Los autores de llamadas que no se ejecutan como un servicio de Windows no deben establecer esta marca; Los autores de llamadas que se ejecutan como servicio deben establecer esta marca.
+> El autor de la llamada se ejecuta como Windows servicio. Los autores de llamadas que no se ejecutan como servicio Windows no deben establecer esta marca; Los autores de llamadas que se ejecutan como servicio deben establecer esta marca.
     
 MAPI_NO_COINIT
   
-> Establezca la MAPI_NO_COINT para que **MAPIInitialize** no intente inicializar COM con una llamada a [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Si se **pasa** una estructura MAPIINIT_0 **a MAPIInitialize** con  _ulFlags_ establecido en MAPI_NO_COINIT, MAPI supondrá que COM ya se ha inicializado y omitirá la llamada a **CoInitialize**.
+> Establezca la MAPI_NO_COINT para que **MAPIInitialize** no intente inicializar COM con una llamada a [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Si se **pasa una** estructura MAPIINIT_0 **a MAPIInitialize** con  _ulFlags_ establecido en MAPI_NO_COINIT, MAPI supondrá que COM ya se ha inicializado y omitirá la llamada a **CoInitialize**.
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes multiproceso deben establecer la MAPI_MULTITHREAD_NOTIFICATIONS cliente. Si no se establece la marca, se generan notificaciones en el subproceso usado para realizar la primera llamada a **MAPIInitialize**. 
+Los clientes multiproceso deben establecer MAPI_MULTITHREAD_NOTIFICATIONS marca. Si no se establece la marca, se generan notificaciones en el subproceso usado para realizar la primera llamada a **MAPIInitialize**. 
   
-Para obtener más información acerca de cuándo establecer esta marca y cómo implementar la seguridad de subprocesos en un cliente, vea [Subprocesos en MAPI](threading-in-mapi.md). 
+Para obtener más información acerca de cuándo establecer esta marca y cómo implementar la seguridad de subprocesos en un cliente, vea [Threading in MAPI](threading-in-mapi.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

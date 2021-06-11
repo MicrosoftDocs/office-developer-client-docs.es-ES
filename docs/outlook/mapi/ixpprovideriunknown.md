@@ -25,7 +25,7 @@ ms.locfileid: "33404697"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Inicializa un objeto de proveedor de transporte y cierra el objeto cuando ya no es necesario.
+Inicializa un objeto de proveedor de transporte y apaga el objeto cuando ya no es necesario.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Inicializa un objeto de proveedor de transporte y cierra el objeto cuando ya no 
 |Identificador de interfaz:  <br/> |IID_IXPProvider  <br/> |
 |Tipo de puntero:  <br/> |LPXPROVIDER  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|

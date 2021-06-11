@@ -22,9 +22,9 @@ Un área de trabajo para escribir fórmulas en celdas específicas del usuario a
   
 ## <a name="remarks"></a>Comentarios
 
-Al igual que  [en la](scratch-section.md) sección de scratch, la sección celdas definidas por el usuario se puede usar en la solución de muchas maneras diferentes. La ventaja de la **sección De celdas definidas por** el usuario es que las celdas se pueden nombrar; no se puede **nombrar las celdas de** la sección de scratch. 
+Al igual [que la sección Scratch,](scratch-section.md) la sección **Celdas** definidas por el usuario puede ser usada por la solución de muchas maneras diferentes. La ventaja de la **sección Celdas definidas** por el usuario es que las celdas se pueden nombrar; las celdas de **la sección Scratch** no se pueden denominar. 
   
-Si la solución tiene un propósito bien definido, se  recomienda usar celdas en la sección Celdas definidas por el usuario para mayor claridad, ya que las celdas de usuario se pueden denominar. La **sección de** scratch se usa normalmente para aislar cálculos complejos repetidos. 
+Si la solución tiene un propósito bien definido, se  sugiere que use celdas en la sección Celdas definidas por el usuario para mayor claridad porque las celdas de usuario se pueden nombrar. La **sección Scratch** se usa normalmente para aislar cálculos complejos repetidos. 
   
 Para agregar esta sección, use el cuadro de diálogo **Insertar sección** (haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección**).
   

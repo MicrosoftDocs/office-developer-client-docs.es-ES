@@ -19,14 +19,14 @@ ms.locfileid: "33405859"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-**Para que los informes nondelivery (NDRs) lleguen a una ubicación central cuando varias instancias del cliente se ejecutan simultáneamente**
+**Para que los informes de no entrega (NDR) lleguen a una ubicación central cuando se ejecutan simultáneamente varias instancias del cliente**
   
 1. Establezca **PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md)), **PR_REPORT_NAME** ([PidTagReportName](pidtagreportname-canonical-property.md)) y PR_REPORT_SEARCH_KEY ([PidTagReportSearchKey](pidtagreportsearchkey-canonical-property.md)) **en** los valores adecuados para la cuenta que va a recibir los informes. Cree el identificador de entrada llamando a [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md) si es necesario. 
     
-2. Comprenda que hay sistemas de mensajería que ignorarán la cuenta que ha solicitado para los informes y las enviarán al autor de la solicitud. Reduzca el impacto que esto tendrá en los administradores que tendrán que mover los informes:
+2. Comprenda que hay sistemas de mensajería que omitirán la cuenta que ha solicitado para los informes y las enviarán al originador. Reduzca el impacto que esto tendrá en los administradores que tendrán que mover los informes:
     
-- Dar al mensaje original una clase de mensaje distinta, como IPM. Note.MSNNews. Busque mensajes entrantes con la clase Report.IPM.Note.MSNNews.NDR y reenvía a la cuenta a la que desea que se presenten los informes. Al mismo tiempo, envíe un correo electrónico al sistema de mensajería que omitió su cuenta de informe de no entrega para comunicar que debe respetar la **propiedad PR_REPORT_ENTRYID** cliente. 
+- Dar al mensaje original una clase de mensaje distinta, como IPM. Note.MSNNews. Busque los mensajes entrantes con la clase Report.IPM.Note.MSNNews.NDR y reenvía los mensajes a la cuenta a la que pretendía que llegaran los informes. Al mismo tiempo, envíe correo electrónico al sistema de mensajería que omitió su cuenta de informe de no entrega para comunicar que debe respetar la **PR_REPORT_ENTRYID** propiedad. 
     
-- La mayoría de los sistemas de mensajería **que PR_REPORT_ENTRYID** no respetarán las convenciones de clase de mensaje MAPI. Por lo tanto, recibirá algo parecido a una nota. Esto es un poco más difícil de tratar porque la entrada es tan variable. Mira el asunto y reenvía si encuentras algo de una lista de palabras que significan "no se puede entregar" o algo del tema original. Esté preparado para ajustar estas listas con el tiempo. 
+- La mayoría de los sistemas de mensajería **que no respetan PR_REPORT_ENTRYID** tampoco respetarán las convenciones de clase de mensaje MAPI. Por lo tanto, recibirás algo parecido a una nota. Esto es un poco más difícil de tratar porque la entrada es tan variable. Mira el asunto y reenvía si encuentras algo de una lista de palabras que significan "no se puede entregar" o algo del asunto original. Esté preparado para ajustar estas listas con el tiempo. 
     
 

@@ -41,7 +41,7 @@ typedef struct _DTBLLABEL
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulbLpszLabelName**
   
@@ -49,25 +49,25 @@ typedef struct _DTBLLABEL
     
  **ulFlags**
   
-> Máscara de bits de marcas usada para designar el formato de la etiqueta a la que apunta el **miembro ulbLpszLabelName.** Se puede establecer la siguiente marca: 
+> Máscara de bits de las marcas usadas para designar el formato de la etiqueta a la que apunta el **miembro ulbLpszLabelName.** Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no MAPI_UNICODE marca, la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si la MAPI_UNICODE no está establecida, la etiqueta está en formato ANSI.
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura DTBLLABEL** describe un texto de control de etiqueta que se muestra con otro tipo de control para agregar significado a ese control. Por ejemplo, la mayoría de los controles de edición se sitúan junto a las etiquetas para informar al usuario del tipo de información que se va a escribir. Algunos controles, como los cuadros de grupo y los botones de radio, mantienen sus propias etiquetas. 
+Una **estructura DTBLLABEL** describe un texto de control de etiqueta que se muestra con otro tipo de control para agregar significado a ese control. Por ejemplo, la mayoría de los controles de edición se sitúan junto a las etiquetas para informar al usuario del tipo de información que se va a especificar. Algunos controles, como cuadros de grupo y botones de radio, tienen sus propias etiquetas. 
   
-La etiqueta puede incluir un acelerador de Windows, identificado como el carácter que sigue a la yand ( &amp; ). Al presionar la tecla de aceleración, se coloca el foco en el primer control que no es de etiqueta, que no es de botón, que sigue a esta etiqueta en la tabla de presentación.
+La etiqueta puede incluir un acelerador Windows, identificado como el carácter que sigue a la ampersand ( &amp; ). Al presionar la tecla de aceleración, se coloca el foco en el primer control sin etiqueta y sin botón que sigue a esta etiqueta en la tabla para mostrar.
   
-No se admiten etiquetas multilínea. Mostrar varias líneas requiere varias etiquetas.
+No hay compatibilidad con etiquetas de varias líneas. Mostrar varias líneas requiere varias etiquetas.
   
-No es posible usar una etiqueta como control de edición de solo lectura. La diferencia es que un control de edición se puede seleccionar y copiar mientras que una etiqueta no. 
+No es posible usar una etiqueta como control de edición de solo lectura. La diferencia es que un control de edición se puede seleccionar y copiar mientras que una etiqueta no puede. 
   
-Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información sobre cómo implementar una tabla para mostrar, vea [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

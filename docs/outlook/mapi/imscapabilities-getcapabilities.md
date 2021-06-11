@@ -33,21 +33,21 @@ MSCAP_SELECTOR mscapSelector
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  *mscapSelector* 
   
-> [entrada] Selector que indica las capacidades que se devolverán.
+> [in] Selector que indica qué capacidades devolver.
     
 ## <a name="return-value"></a>Valor devuelto
 
 MSCAP_SECURE_FOLDER_HOMEPAGES
   
-> Compatibilidad con las páginas de inicio de carpeta en un almacén no predeterminado. Esto se puede devolver **si MSCAP_SEL_FOLDER** se especifica en  *mscapSelector*  . 
+> Compatibilidad con las páginas de inicio de carpetas en un almacén no predeterminado. Esto se puede devolver **si MSCAP_SEL_FOLDER** se especifica en  *mscapSelector*  . 
     
 MSCAP_RES_ANNOTATION
   
-> Si una restricción contiene argumentos no válidos como propiedades no válidas, el almacén omite los argumentos no válidos y procesa sólo los argumentos válidos. Esto se puede devolver **si MSCAP_SEL_RESTRICTION** especificado en  *mscapSelector*  . 
+> Si una restricción contiene argumentos no válidos como propiedades no válidas, el almacén omite los argumentos no válidos y procesa solo los argumentos válidos. Esto se puede devolver **si MSCAP_SEL_RESTRICTION** se especifica en  *mscapSelector*  . 
     
 NULL
   

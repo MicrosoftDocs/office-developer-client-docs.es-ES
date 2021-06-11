@@ -33,19 +33,19 @@ void STDMETHODCALLTYPE Notify(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pNotifyInfo_
   
-> [entrada] La notificación que Outlook envía al cliente. La notificación indica la parte del estado de conexión que ha cambiado, el estado de conexión antiguo y el nuevo estado de conexión.
+> [in] La notificación que Outlook envía al cliente. La notificación indica la parte del estado de conexión que ha cambiado, el estado de conexión anterior y el nuevo estado de conexión.
     
 ## <a name="remarks"></a>Comentarios
 
-Outlook usa este método para enviar devoluciones de llamada de notificaciones a un cliente. Para que esta interfaz esté disponible para Microsoft Outlook 2010 o Microsoft Outlook 2013, el cliente debe implementar esta interfaz y pasarle un puntero como miembro de **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** al configurar devoluciones de llamada con **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. 
+Outlook este método para enviar devoluciones de llamada de notificación a un cliente. Para que esta interfaz esté disponible para Microsoft Outlook 2010 o Microsoft Outlook 2013, el cliente debe implementar esta interfaz y pasarle un puntero como miembro en **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** al configurar devoluciones de llamada con **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. 
   
-El cliente también pasa **MAPIOFFLINE_ADVISEINFO** un token de cliente que Outlook 2010 u Outlook 2013 usa en **IMAPIOfflineNotify::Notify** para identificar el cliente registrado para la devolución de llamada de notificación. 
+El cliente también pasa **a MAPIOFFLINE_ADVISEINFO** un token de cliente que Outlook 2010 o Outlook 2013 usa en **IMAPIOfflineNotify::Notify** para identificar el cliente registrado para la devolución de llamada de notificación. 
   
-En general, Outlook 2010 y Outlook 2013 pueden notificar a un cliente los cambios en línea o sin conexión y otros cambios de estado de conexión, pero la API de estado sin conexión solo admite notificaciones de cambios en línea o sin conexión. El cliente debe omitir todas las demás notificaciones.
+En general, Outlook 2010 y Outlook 2013 pueden notificar a un cliente los cambios en línea/sin conexión y otros cambios de estado de conexión, pero la API de estado sin conexión solo admite notificaciones para cambios en línea o sin conexión. El cliente debe omitir todas las demás notificaciones.
   
 ## <a name="see-also"></a>Vea también
 

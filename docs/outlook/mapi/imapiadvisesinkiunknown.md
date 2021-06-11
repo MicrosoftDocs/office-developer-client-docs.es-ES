@@ -25,24 +25,24 @@ ms.locfileid: "33409569"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Implementa un objeto receptor de avisos para controlar la notificación. Un puntero a un objeto receptor de aviso se pasa en una llamada al método **Advise** de un proveedor de servicios, el mecanismo usado para registrar la notificación. 
+Implementa un objeto de receptor de aviso para controlar la notificación. Un puntero a un objeto receptor de aviso se pasa en una llamada al método **Advise** de un proveedor de servicios, el mecanismo usado para registrarse para la notificación. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Expuesto por:  <br/> |Avisar a los objetos receptores  <br/> |
+|Expuesto por:  <br/> |Aconsejar objetos de receptor  <br/> |
 |Implementado por:  <br/> |Aplicaciones cliente y MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios y MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIAdviseSink  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responde a una notificación realizando una o varias tareas. Las tareas realizadas dependen del tipo de evento y del objeto que genera la notificación.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

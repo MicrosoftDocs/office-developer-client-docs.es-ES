@@ -22,7 +22,7 @@ Determina si la forma 1D utiliza un pegado estático (punto a punto) o dinámico
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| &amp;H0  <br/> | Éste es el valor predeterminado. Permitir el pegado dinámico sólo para el conector dinámico y, si no es el caso, utilizar el pegado estático.  <br/> |**visGlueTypeDefault** <br/> |
+| &amp;H0  <br/> | Valor predeterminado. Permitir el pegado dinámico sólo para el conector dinámico y, si no es el caso, utilizar el pegado estático.  <br/> |**visGlueTypeDefault** <br/> |
 | &amp;H1  <br/> | Permitir el pegado dinámico.  <br/> | Obsoleto en Visio 2002  <br/> |
 | &amp;H2  <br/> | Permitir el pegado dinámico.  <br/> |**visGlueTypeWalking** <br/> |
 | &amp;H4  <br/> | No permitir el pegado dinámico.  <br/> |**visGlueTypeNoWalking** <br/> |

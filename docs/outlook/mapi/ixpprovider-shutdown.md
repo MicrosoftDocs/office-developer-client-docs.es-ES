@@ -33,7 +33,7 @@ HRESULT Shutdown (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
@@ -43,13 +43,13 @@ HRESULT Shutdown (
 
 S_OK 
   
-> La llamada ha logrado apagar el proveedor de transporte.
+> La llamada se ha cerrado correctamente el proveedor de transporte.
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama al método **IXPProvider::Shutdown** justo antes de liberar un objeto de proveedor de transporte. Antes de **llamar a Shutdown**, MAPI libera todos los objetos de inicio de sesión para un proveedor.
+La cola MAPI llama al método **IXPProvider::Shutdown** justo antes de liberar un objeto de proveedor de transporte. Antes de llamar **a Shutdown,** MAPI libera todos los objetos de inicio de sesión de un proveedor.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

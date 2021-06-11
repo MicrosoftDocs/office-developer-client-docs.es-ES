@@ -31,15 +31,15 @@ Representa el estado de una solicitud de reunión.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidRequest  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008530  <br/> |
+|Id. largo (LID):  <br/> |0x00008530  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
-|Área:  <br/> |Marcar  <br/> |
+|Área:  <br/> |Marcación  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 En Microsoft Office Outlook, una solicitud de reunión es un elemento de cita.
   
-Esta propiedad contiene texto que el usuario puede asociar a la marca y se debe establecer si el objeto de mensaje está marcado o completado, pero no debe existir para un objeto relacionado con la reunión. Los clientes pueden optar por no admitir esta propiedad y escribir siempre "Seguimiento" (traducido al idioma del usuario si corresponde) como el valor de la cadena cuando se debe establecer esta propiedad. Esta propiedad debe omitirse condicionalmente en función de los valores de las propiedades **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) y **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)).
+Esta propiedad contiene texto que el usuario puede asociar a la marca y debe establecerse si el objeto de mensaje está marcado o completado, pero no debe existir para un objeto relacionado con la reunión. Los clientes pueden elegir no admitir esta propiedad y escribir siempre "Seguimiento" (traducido al idioma del usuario si procede) como el valor de la cadena cuando se debe establecer esta propiedad. Esta propiedad debe omitirse condicionalmente en función de los valores de las propiedades **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) y **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -51,7 +51,7 @@ Esta propiedad contiene texto que el usuario puede asociar a la marca y se debe 
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -59,13 +59,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

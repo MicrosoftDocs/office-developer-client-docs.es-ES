@@ -25,14 +25,14 @@ Entre las características opcionales que los proveedores de transporte pueden i
   
 - Registrar opciones de mensaje y destinatario específicas del proveedor de transporte.
     
-- Mantener un perfil, si es necesario, para almacenar la información de configuración y las credenciales en el sistema de mensajería.
+- Mantener un perfil, si es necesario, para almacenar información de configuración y credenciales en el sistema de mensajería.
     
 - Realizar cualquier comprobación de las credenciales requeridas por el sistema de mensajería.
     
-- Admitir la notificación de eventos para aplicaciones cliente interesadas con [el método IMAPISupport::Notify.](imapisupport-notify.md) 
+- Notificación de eventos de soporte técnico para aplicaciones cliente interesadas con [el método IMAPISupport::Notify.](imapisupport-notify.md) 
     
-- Mostrar hojas de propiedades de configuración y cuadros de diálogo del asistente para permitir a los usuarios configurar las opciones del proveedor de transporte.
+- Mostrar hojas de propiedades de configuración y cuadros de diálogo del asistente para permitir a los usuarios configurar la configuración del proveedor de transporte.
     
-- Proporcionar informes de entrega de mensajes a las aplicaciones cliente.
+- Proporcionar informes de entrega de mensajes a aplicaciones cliente.
     
 

@@ -29,11 +29,11 @@ HRESULT IOlkEnum:: GetNext(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_pique_
+_ppunk_
   
-> [entrada] Puntero a una **interfaz IUnknown que** el cliente puede consultar para obtener una [interfaz IOlkAccount.](iolkaccount.md) 
+> [in] Puntero a una **interfaz IUnknown** que el cliente puede consultar para obtener una [interfaz IOlkAccount.](iolkaccount.md) 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -44,9 +44,9 @@ _pique_
    
 ## <a name="remarks"></a>Comentarios
 
-La interfaz especificada por  *pabe*  hereda de **IUnknown**. El cliente puede consultar esta interfaz (mediante **IUnknown::QueryInterface)** para obtener un puntero a una interfaz **IOlkAccount** y obtener o establecer información para esta cuenta. 
+La interfaz especificada por  *ppunk*  hereda de **IUnknown**. El cliente puede consultar esta interfaz (mediante **IUnknown::QueryInterface**) para obtener un puntero a una interfaz **IOlkAccount** y obtener o establecer información para esta cuenta. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md) 
 - [IOlkEnum::GetCount](iolkenum-getcount.md)  

@@ -36,13 +36,13 @@ Calcula el número de bytes que se deben asignar para una nueva estructura [ENTR
 CbNewENTRYID (_cb)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _cb_
   
-> Número de bytes en el identificador de entrada que se almacenará en la nueva **estructura ENTRYID.** 
+> Recuento de bytes en el identificador de entrada que se almacenará en la **nueva estructura ENTRYID.** 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

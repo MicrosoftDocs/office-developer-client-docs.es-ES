@@ -37,7 +37,7 @@ Las carpetas de resultados de b�squeda tienen los siguientes l�mites:
     
 Sin embargo, es posible modificar las propiedades de una carpeta de resultados de b�squeda y usarlo para eliminar un mensaje. Cuando se elimina un mensaje de una carpeta de resultados de b�squeda, se elimine realmente desde la carpeta real. Sin embargo, al eliminar la carpeta de resultados de b�squeda propio no influye en los mensajes dentro; permanecen en sus carpetas gen�ricos.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

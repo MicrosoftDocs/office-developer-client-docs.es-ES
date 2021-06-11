@@ -21,25 +21,25 @@ ms.locfileid: "33404298"
   
 Antes de empezar a escribir código para admitir el servicio de mensajes, es importante crear un diseño. Resuelva los siguientes problemas en el proceso de diseño:
   
-1. Determine cuántos proveedores de servicios deben incluirse en el servicio de mensajes. Incluya solo los proveedores de servicios relacionados (es decir, los proveedores que trabajan con el mismo sistema de mensajería) en su servicio. Los proveedores de servicios no relacionados no pertenecen al mismo servicio de mensajes. Use el perfil para integrar proveedores de servicios no relacionados y servicios de mensajes.
+1. Determine cuántos proveedores de servicios deben incluirse en el servicio de mensajes. Incluya solo proveedores de servicios relacionados (es decir, proveedores que trabajen con el mismo sistema de mensajería) en el servicio. Los proveedores de servicios no relacionados no pertenecen al mismo servicio de mensajes. Use el perfil para integrar proveedores de servicios y servicios de mensajes no relacionados.
     
-2. Determine qué tipo de proveedores de servicios se deben incluir en el servicio de mensajes. La mayoría de los servicios de desorden incluyen un proveedor de cada uno de los tipos comunes. Es decir, el servicio de mensajes típico tiene un proveedor de libreta de direcciones, un proveedor de almacenamiento de mensajes y un proveedor de transporte.
+2. Determine qué tipo de proveedores de servicios se deben incluir en el servicio de mensajes. La mayoría de los servicios de desorden incluyen un proveedor de cada uno de los tipos comunes. Es decir, el servicio de mensajes típico tiene un proveedor de libreta de direcciones, un proveedor de almacén de mensajes y un proveedor de transporte.
     
-3. Determine cuántos archivos DLL deben contener el servicio de mensajes. El número de DLL que usa un servicio de mensajes depende de lo siguiente:
+3. Determine cuántas DLL deben contener el servicio de mensajes. El número de DLL que usa un servicio de mensajes depende de lo siguiente:
     
-   - El grado de complejidad que usted, como escritor del servicio de mensajes, está dispuesto a controlar.
+   - Grado de complejidad que usted como escritor del servicio de mensajes está dispuesto a controlar.
     
-   - El tipo de proveedores de servicios en el servicio de mensajes.
+   - Tipo de proveedores de servicios en el servicio de mensajes.
     
    - Relación que el servicio de mensajes puede tener con otro servicio de mensajes.
     
-   Dado que MAPI almacena solo un punto de entrada para cada tipo de proveedor, no incluya varios proveedores del mismo tipo en una sola DLL. Si tiene sentido incluir varios proveedores de un tipo, puede implementarlos en DLL independientes o hacer que compartan una función de punto de entrada. Otra opción es implementar servicios de mensajes relacionados o servicios de mensajes que puedan usar el mismo código de instalación y configuración y la misma función de punto de entrada dll, en una DLL.
+   Dado que MAPI almacena solo un punto de entrada para cada tipo de proveedor, no incluya varios proveedores del mismo tipo en un único ARCHIVO DLL. Si tiene sentido incluir varios proveedores de un tipo, puede implementarlos en DLL independientes o hacer que compartan una función de punto de entrada. Otra opción es implementar servicios de mensajes relacionados o servicios de mensajes que puedan usar el mismo código de instalación y configuración y la misma función de punto de entrada DLL, en un dll.
     
-   Si es posible, siga estando sencillo y use una DLL que contenga la implementación de todos los proveedores de servicios en el servicio de mensajes y todo el código para instalar y configurar el servicio de mensajes. Si esto no es posible, puede implementar una DLL para el código de instalación y configuración y una sola DLL para todos los proveedores de servicios o una DLL para cada proveedor.
+   Si es posible, manténlo sencillo y usa una DLL que contenga la implementación de todos los proveedores de servicios en el servicio de mensajes y todo el código para instalar y configurar el servicio de mensajes. Si esto no es posible, puede implementar un DLL para el código de instalación y configuración y un solo ARCHIVO DLL para todos los proveedores de servicios o un DLL para cada proveedor.
     
 4. Determine un nombre para la DLL o dll del servicio de mensajes. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Implementación del servicio de mensajes](message-service-implementation.md)
 

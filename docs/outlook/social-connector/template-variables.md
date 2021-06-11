@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6f8f6af2-c7fa-4135-9532-7af5fc643b0d
-description: Las instancias de variables de plantilla (representadas por un elemento templateVariable) especifican los datos de un elemento de fuente de actividades en una plantilla de actividad.
+description: Las instancias de variables de plantilla (representadas por un elemento templateVariable) especifican los datos de un elemento de fuente de actividad en una plantilla de actividad.
 ms.openlocfilehash: 9b37665488f0f1e2bd205fb7d4a5d2201697d7c8
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,9 +17,9 @@ ms.locfileid: "33404375"
 ---
 # <a name="template-variables"></a>Variables de plantilla
 
-Las instancias de variables de plantilla (representadas por un **elemento templateVariable)** especifican los datos de un elemento de fuente de actividades en una plantilla de actividad. 
+Las instancias de variables de plantilla (representadas por un **elemento templateVariable)** especifican los datos de un elemento de fuente de actividad en una plantilla de actividad. 
   
-Para obtener un ejemplo de XML de fuente de actividades, vea [el ejemplo XML de fuente de actividades](activity-feed-xml-example.md).
+Para obtener un ejemplo de XML de fuente de actividad, vea [Activity Feed XML Example](activity-feed-xml-example.md).
 
 En la tabla siguiente se muestran los tipos de variables de plantilla admitidas, cada una representada por el valor de enumeración XML correspondiente.
   
@@ -29,8 +29,8 @@ En la tabla siguiente se muestran los tipos de variables de plantilla admitidas,
 |**linkVariable** <br/> |Un vínculo.  <br/> |
 |**listVariable** <br/> |Un grupo de objetos.  <br/> |
 |**pictureVariable** <br/> |Imagen.  <br/> |
-|**publisherVariable** <br/> |El publicador del elemento de fuente de actividades.  <br/> |
-|**textVariable** <br/> |Bloque de texto.  <br/> |
+|**publisherVariable** <br/> |El editor del elemento de fuente de actividad.  <br/> |
+|**textVariable** <br/> |Un bloque de texto.  <br/> |
    
 Cada tipo de variable de plantilla tiene elementos necesarios para especificar los datos sobre esa variable. Las variables de plantilla se especifican de la siguiente manera:
   
@@ -42,11 +42,11 @@ Puede especificar variables de plantilla contenidas en una lista (delimitadas po
   
 `<simpleTemplateVariable type="variable type of text, link, or picture">`
   
-Una variable de plantilla del tipo **listVariable** es un contenedor para objetos. Puede contener elementos delimitados por comas (del tipo **linkVariable** o **textVariable)** o imágenes (del tipo **pictureVariable).** Las listas pueden contener hasta cinco elementos de vínculo, cinco elementos de texto o cinco imágenes. 
+Una variable de plantilla del **tipo listVariable** es un contenedor para objetos. Puede contener elementos delimitados por comas (del tipo **linkVariable** o **textVariable)** o imágenes (del tipo **pictureVariable).** Las listas pueden contener hasta cinco elementos de vínculo, cinco elementos de texto o cinco imágenes. 
   
-Outlook Social Connector (OSC) localiza los elementos de lista de vínculos o texto de acuerdo con la configuración regional del sistema de Windows.
+El Outlook Social Connector (OSC) localiza los elementos de vínculo o de lista de texto según la configuración regional Windows sistema.
   
-Para analizar y mostrar imágenes correctamente en un elemento de fuente de actividades, debe incluir imágenes en una lista. Se cambia el tamaño de todas las imágenes a 52 píxeles de alto. No se cambia el tamaño del ancho de la imagen.
+Para analizar y mostrar imágenes correctamente en un elemento de fuente de actividad, debe incluir imágenes en una lista. Todas las imágenes tienen un tamaño de 52 píxeles de alto. No se cambia el tamaño del ancho de la imagen.
   
 ## <a name="template-variable-elements"></a>Elementos de variable de plantilla
 
@@ -57,8 +57,8 @@ En esta sección se tratan los elementos obligatorios y opcionales admitidos par
 |**Elemento**|**Descripción**|
 |:-----|:-----|
 |**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
-|**id** <br/> |Identificador único del usuario. Necesario.  <br/> |
-|**nameHint** <br/> |Nombre que se mostrará en el elemento de fuente. Opcional.  <br/> |
+|**id** <br/> |El identificador único del usuario. Necesario.  <br/> |
+|**nameHint** <br/> |Nombre que se va a mostrar en el elemento de fuente. Opcional.  <br/> |
 |**profileUrl** <br/> |Dirección URL del perfil de la persona que se usará como hipervínculo para el nombre de la persona en el elemento de fuente, si el nombre de la persona está presente. Opcional.  <br/> |
 |**emailAddress** <br/> |La dirección de correo electrónico que se usa para actualizar la información de contacto de esta persona en Outlook. Opcional.  <br/> |
    
@@ -68,7 +68,7 @@ En esta sección se tratan los elementos obligatorios y opcionales admitidos par
 |:-----|:-----|
 |**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
 |**value** <br/> |Dirección URL de este vínculo. Necesario.  <br/> |
-|**text** <br/> |Texto del vínculo que se mostrará en lugar de la dirección URL en sí. Opcional.  <br/> |
+|**text** <br/> |El texto del vínculo que se mostrará en lugar de la dirección URL en sí. Opcional.  <br/> |
    
 ### <a name="listvariable"></a>listVariable
 
@@ -91,8 +91,8 @@ En esta sección se tratan los elementos obligatorios y opcionales admitidos par
 |**Elemento**|**Descripción**|
 |:-----|:-----|
 |**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
-|**id** <br/> |Identificador único del usuario. Necesario.  <br/> |
-|**nameHint** <br/> |Nombre que se mostrará en el elemento de fuente. Opcional.  <br/> |
+|**id** <br/> |El identificador único del usuario. Necesario.  <br/> |
+|**nameHint** <br/> |Nombre que se va a mostrar en el elemento de fuente. Opcional.  <br/> |
 |**profileUrl** <br/> |Dirección URL del perfil de la persona que se usará como hipervínculo para el nombre de la persona en el elemento de fuente, si el nombre de la persona está presente. Opcional.  <br/> |
 |**emailAddress** <br/> |La dirección de correo electrónico que se usa para actualizar la información de contacto de esta persona en Outlook. Opcional.  <br/> |
    
@@ -103,13 +103,13 @@ En esta sección se tratan los elementos obligatorios y opcionales admitidos par
 |**nombre** <br/> |El nombre de la variable. Necesario.  <br/> |
 |**value** <br/> |Texto que se mostrará. Opcional.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Información general sobre XML para un elemento de fuente de actividades](overview-of-xml-for-an-activity-feed-item.md)  
-- [Elemento activityDetails](activitydetails-element.md)  
-- [Elemento activityTemplateContainer](activitytemplatecontainer-element.md)  
+- [Información general sobre XML para un elemento de fuente de actividad](overview-of-xml-for-an-activity-feed-item.md)  
+- [elemento activityDetails](activitydetails-element.md)  
+- [elemento activityTemplateContainer](activitytemplatecontainer-element.md)  
 - [Directrices para mostrar actividades correctamente](guidelines-for-properly-displaying-activities.md)  
 - [XML para actividades](xml-for-activities.md)  
-- [Esquema XML del proveedor de Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Outlook Esquema XML del proveedor de Social Connector](outlook-social-connector-provider-xml-schema.md)
 - [Desarrollo de un proveedor con el esquema XML de OSC](developing-a-provider-with-the-osc-xml-schema.md)
 

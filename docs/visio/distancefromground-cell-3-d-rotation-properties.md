@@ -20,13 +20,13 @@ Determina la distancia que el objeto se eleva desde el suelo en puntos cuando se
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **DistanceFromGround** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **DistanceFromGround** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|
 |Nombre de celda:  <br/> |DistanceFromGround  <br/> |
    
-Para obtener una referencia desde un programa a **la celda DistanceFromGround** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la **celda DistanceFromGround** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

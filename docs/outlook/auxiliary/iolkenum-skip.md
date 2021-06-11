@@ -28,17 +28,17 @@ HRESULT IOlkEnum::Skip(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _cSkip_
   
-> [entrada] Número de cuentas que se omitirán.
+> [in] Número de cuentas que se omitirán.
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IOlkEnum::GetCount](iolkenum-getcount.md) 
 - [IOlkEnum::GetNext](iolkenum-getnext.md)  

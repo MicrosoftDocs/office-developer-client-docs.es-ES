@@ -23,15 +23,15 @@ Obtiene una cadena que representa una colección de actividades de cada uno de l
 HRESULT _stdcall GetActivitiesEx([in] SAFEARRAY(BSTR) hashedAddresses, [in] DATE startTime, [out, retval] BSTR *activities);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _hashedAddresses_
   
-> [entrada] Estructura que especifica una matriz de direcciones SMTP con hash para un conjunto de usuarios.
+> [in] Estructura que especifica una matriz de direcciones SMTP hash para un conjunto de usuarios.
     
 _startTime_
   
-> [entrada] Tiempo después del cual se devolverán las actividades que se crearán.
+> [in] La hora después de la cual se devolverán las actividades que se crean.
     
 _activities_
   
@@ -39,19 +39,19 @@ _activities_
     
 ## <a name="remarks"></a>Comentarios
 
-El OSC llama **a GetActivitiesEx** si el proveedor de OSC admite la sincronización a petición de las actividades. El OSC almacena la información devuelta en  _las actividades_ en la memoria. Para obtener más información sobre cómo el OSC usa y actualiza esta información en la memoria, consulta Sincronizar amigos [y actividades.](synchronizing-friends-and-activities.md)
+El OSC llama **a GetActivitiesEx** si el proveedor de OSC admite la sincronización a petición de actividades. El OSC almacena la información devuelta en  _actividades en_ la memoria. Para obtener más información sobre cómo el OSC usa y actualiza esta información en la memoria, vea [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
   
-A partir de Outlook Social Connector 2013, el OSC solo admite la sincronización a petición de actividades y solo llama a **GetActivitiesEx** para obtener actividades. Para admitir la búsqueda de actividades a petición, establezca **cacheActivities** como **false** y **getActivities** y **dynamicActivitiesLookupEx** como **true** y el OSC llamará **a GetActivitiesEx**.
+A partir de Outlook Social Connector 2013, el OSC solo admite la sincronización a petición de actividades y solo llama a **GetActivitiesEx** para obtener actividades. Para admitir la búsqueda de actividades a petición, establezca **cacheActivities** como **false** y **getActivities** y **dynamicActivitiesLookupEx** como **true** y el OSC llamará a **GetActivitiesEx**.
   
 La cadena XML devuelta debe cumplir con la definición de esquema de **activityFeed**, tal como se define en el esquema para la extensibilidad del proveedor de OSC.
   
-El  _sring hashedAddresses_ representa un conjunto de direcciones hash para cada usuario que se muestra en el panel de personas. Las direcciones SMTP con hash se cifran mediante la función hash especificada por el elemento **hashFunction** en el XML de **capacidades del** proveedor. El usuario no tiene que ser un amigo del usuario que ha iniciado sesión representado por la propiedad [ISocialSession::LoggedOnUserName.](isocialsession-loggedonusername.md) 
+El  _hashedAddresses_ sring representa un conjunto de direcciones hash para cada usuario que se muestra en el Panel de personas. Las direcciones SMTP hash se cifran mediante la función hash especificada por el **elemento hashFunction** en el XML de **capacidades del** proveedor. El usuario no tiene que ser un amigo del usuario que ha iniciado sesión representado por la propiedad [ISocialSession::LoggedOnUserName.](isocialsession-loggedonusername.md) 
   
-El  _parámetro startTime_ es un **valor de fecha** en hora universal coordinada (UTC). Los valores de hora local deben convertirse a valores **de fecha** UTC. 
+El  _parámetro startTime_ es un **valor Date** en la hora universal coordinada (UTC). Los valores de hora local deben convertirse a valores **de fecha** UTC. 
   
-Las actividades que devuelve el método **GetActivitiesEx** deben tener un valor de hora de creación mayor que  _startTime_ y menor o igual que **Now**. Si no se han producido cambios entre **startTime** y **Now**, el proveedor debe devolver OSC_E_NO_CHANGES error.
+Las actividades que **devuelve el método GetActivitiesEx** deben tener un valor de tiempo de creación mayor que  _startTime_ y menor o igual que **Now**. Si no se han producido cambios entre **startTime** y **Now**, el proveedor debe devolver un OSC_E_NO_CHANGES error.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 - [Sincronizar amigos y actividades](synchronizing-friends-and-activities.md)

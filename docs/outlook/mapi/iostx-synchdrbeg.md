@@ -35,25 +35,25 @@ HRESULT SyncHdrBeg(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _cgnid_
+ _cbeid_
   
-> [entrada] El número de bytes del identificador de entrada del mensaje.
+> [in] Número de bytes en el identificador de entrada del mensaje.
     
  _lpeid_
   
-> [entrada] Identificador de entrada del mensaje.
+> [in] El identificador de entrada del mensaje.
     
  _ppv_
   
->  [entrada]/[salida] Puntero a la estructura **[HDRSYNC](hdrsync.md)** del encabezado del mensaje. 
+>  [in]/[out] Puntero a la **[estructura HDRSYNC](hdrsync.md)** del encabezado del mensaje. 
     
 ## <a name="remarks"></a>Comentarios
 
-En **IOSTX::SyncHdrBeg,** el almacén local pasa al estado de encabezado [del mensaje de descarga.](download-message-header-state.md) Outlook inicializa para el cliente la estructura **HDRSYNC** con la representación actual del encabezado del mensaje en el almacén y la carpeta principal. A continuación, el cliente debe descargar un elemento de mensaje completo  *(como pmsgFull*  en **HDRSYNC** ). Si se ha realizado correctamente, el cliente también establece  *ulFlags*  en **HDRSYNC** **como HSF_OK**. En **[IOSTX::SyncHdrEnd,](iostx-synchdrend.md)** Outlook comprueba el resultado en **HDRSYNC** y usa la información de **HDRSYNC** para actualizar el encabezado del mensaje local. 
+Tras **IOSTX::SyncHdrBeg,** el almacén local pasa al estado de encabezado [del mensaje de descarga.](download-message-header-state.md) Outlook inicializa para el cliente la estructura **HDRSYNC** con la representación actual del encabezado del mensaje en el almacén y la carpeta primaria. A continuación, el cliente debe descargar un elemento de mensaje completo  *(como pmsgFull*  en **HDRSYNC** ). Si se ha realizado correctamente, el cliente también establece  *ulFlags*  en **HDRSYNC** como **HSF_OK**. En **[IOSTX::SyncHdrEnd,](iostx-synchdrend.md)** Outlook comprueba el resultado en **HDRSYNC** y usa la información de **HDRSYNC** para actualizar el encabezado del mensaje local. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

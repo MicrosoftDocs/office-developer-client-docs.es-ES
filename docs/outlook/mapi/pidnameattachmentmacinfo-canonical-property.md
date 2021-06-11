@@ -25,7 +25,7 @@ ms.locfileid: "32360931"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de datos adjuntos [RFC3282] que se compone de los datos de bifurcación de recursos y encabezado adecuados usados por clientes de correo electrónico basados en Macintosh.
+Contiene un valor de datos adjuntos [RFC3282] que se compone de datos de tenedor de recursos y encabezado adecuados usados por clientes de correo electrónico basados en Macintosh.
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Contiene un valor de datos adjuntos [RFC3282] que se compone de los datos de bif
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información, consulte MS-OXCMAIL sección 2.2.4.2 Formatos de archivo de Apple.
+Para obtener más información, vea MS-OXCMAIL sección 2.2.4.2 Formatos de archivo de Apple.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Para obtener más información, consulte MS-OXCMAIL sección 2.2.4.2 Formatos de
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

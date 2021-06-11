@@ -36,9 +36,9 @@ Contiene un mapa de bits de un icono de tamaño medio para un formulario.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad contiene una imagen de 32 × de 32 píxeles de un icono, igual que el contenido de un archivo . Archivo ICO, pero solo la parte superior izquierda de 16 × 16 píxeles se considera significativa. Esta propiedad se copia normalmente desde el archivo . Archivo ICO especificado en la línea SmallIcon de la sección [Descripción] adecuada del archivo de configuración del formulario.
+Esta propiedad contiene una imagen de 32 × 32 píxeles de un icono, igual que el contenido de un . Archivo ICO, pero solo los 16 píxeles superior izquierdo × 16 píxeles se consideran significativos. Esta propiedad se copia normalmente desde el archivo . Archivo ICO especificado en la línea SmallIcon de la sección [Descripción] correspondiente del archivo de configuración del formulario.
   
- **Nota** Algunas plataformas no admiten iconos de 16 × de 16 píxeles. El formato 32 × 32 de esta propiedad se puede usar en tal caso, pero las aplicaciones cliente deben tener en cuenta las incoherencias de visualización. 
+ **Nota** Algunas plataformas no admiten iconos de 16 × de 16 píxeles. El formato 32 × 32 de esta propiedad es utilizable en tal caso, pero las aplicaciones cliente deben tener en cuenta las incoherencias de presentación. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "33404438"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Separa la representación ASCII del identificador de entrada compuesto de un objeto, normalmente un mensaje en un almacén de mensajes, en el identificador de entrada de ese objeto en el almacén y el identificador de entrada del almacén. 
+Separa la representación ASCII del identificador de entrada compuesta de un objeto, normalmente un mensaje en un almacén de mensajes, en el identificador de entrada de ese objeto en el almacén y el identificador de entrada del almacén. 
   
 |||
 |:-----|:-----|
@@ -44,27 +44,27 @@ HrDecomposeMsgID(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _psession_
   
-> [entrada] Puntero a la sesión en uso por la aplicación cliente. 
+> [in] Puntero a la sesión en uso por la aplicación cliente. 
     
  _szMsgID_
   
-> [entrada] Cadena que representa el identificador de entrada del objeto. 
+> [in] Cadena que representa el identificador de entrada del objeto. 
     
- _pbcStoreEID_
+ _pcbStoreEID_
   
-> [salida] Puntero al tamaño devuelto, en bytes, del identificador de entrada del almacén de mensajes que contiene el objeto. Si el  _parámetro szMsgID_ apunta a una cadena de identificador de entrada no completa, el parámetro  _szStoreEID_ apunta a cero. 
+> [salida] Puntero al tamaño devuelto, en bytes, del identificador de entrada del almacén de mensajes que contiene el objeto. Si el  _parámetro szMsgID_ apunta a una cadena de identificador de entrada no completa, el parámetro  _pcbStoreEID_ apunta a cero. 
     
  _ppStoreEID_
   
-> [salida] Puntero a un puntero al identificador de entrada devuelto del almacén de mensajes que contiene el objeto. Si el _parámetro szMsgID_ apunta a un identificador de entrada no completo, se devuelve NULL en el _parámetro ppStoreEID._ 
+> [salida] Puntero a un puntero al identificador de entrada devuelto del almacén de mensajes que contiene el objeto. Si el _parámetro szMsgID_ apunta a un identificador de entrada no completo, null se devuelve en el _parámetro ppStoreEID._ 
     
- _dimmMsgEID_
+ _pcbMsgEID_
   
-> [salida] Puntero al tamaño devuelto, en bytes, del identificador de entrada del objeto dentro de su almacén. Si el _parámetro szMsgID_ apunta a una cadena de identificador de entrada no completa, el parámetro _dimmMsgEID_ es igual al valor del _parámetro cbEID._ 
+> [salida] Puntero al tamaño devuelto, en bytes, del identificador de entrada del objeto dentro de su almacén. Si el _parámetro szMsgID_ apunta a una cadena de identificador de entrada no completa, el parámetro _pcbMsgEID_ es igual al valor del _parámetro cbEID._ 
     
  _ppMsgEID_
   
@@ -76,8 +76,8 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Si el identificador especificado por el parámetro  _szMsgID_ es compuesto, se convierte de ASCII y se divide en el identificador de entrada del objeto dentro de su almacén de mensajes y el identificador de entrada del almacén. Las cadenas de identificador de entrada no completa simplemente se convierten y copian. La cadena de identificador compuesto que se va a separar suele ser una creada por la función [HrComposeMsgID.](hrcomposemsgid.md) 
+Si el identificador especificado por el parámetro  _szMsgID_ es compuesto, se convierte desde ASCII y se divide en el identificador de entrada del objeto dentro de su almacén de mensajes y el identificador de entrada del almacén. Las cadenas de identificador de entrada no completa simplemente se convierten y copian. La cadena de identificador compuesto que se va a separar suele ser una creada por la [función HrComposeMsgID.](hrcomposemsgid.md) 
   
-Llamar a **la función HrDecomposeMsgID** equivale a llamar a la función [HrEntryIDFromSz](hrentryidfromsz.md) y, a continuación, a la función [HrDecomposeEID.](hrdecomposeeid.md) 
+Llamar a **la función HrDecomposeMsgID** equivale a llamar a la [función HrEntryIDFromSz](hrentryidfromsz.md) y, a continuación, a la [función HrDecomposeEID.](hrdecomposeeid.md) 
   
 

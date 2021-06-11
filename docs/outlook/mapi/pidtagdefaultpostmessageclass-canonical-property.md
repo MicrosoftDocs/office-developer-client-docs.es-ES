@@ -25,7 +25,7 @@ ms.locfileid: "32357907"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre de una clase Message de formulario personalizado.
+Contiene el nombre de una clase Message del formulario personalizado.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene el nombre de una clase Message de formulario personalizado.
    
 ## <a name="remarks"></a>Comentarios
 
-Si esta propiedad se establece en una carpeta, el valor debe contener exactamente la clase de mensaje base (por ejemplo, "IPM. Contacto" para una carpeta de contactos o "IPM. Cita" para una carpeta de calendario) o comience con la clase de mensaje base (por ejemplo, "IPM. Contact.MyContact").
+Si esta propiedad se establece en una carpeta, el valor debe contener exactamente la clase de mensaje base (por ejemplo, "IPM. Contacto" para una carpeta de contactos o "IPM. Appointment" para una carpeta de calendario) o comenzar con la clase de mensaje base (por ejemplo, "IPM. Contact.MyContact").
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Si esta propiedad se establece en una carpeta, el valor debe contener exactament
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

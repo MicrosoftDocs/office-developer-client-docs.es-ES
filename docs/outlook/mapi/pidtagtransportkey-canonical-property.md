@@ -25,7 +25,7 @@ ms.locfileid: "33405551"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor usado por la cola MAPI para realizar un seguimiento del progreso de un mensaje saliente a través de los proveedores de transporte saliente.
+Contiene un valor usado por la cola MAPI para realizar un seguimiento del progreso de un mensaje saliente a través de los proveedores de transporte salientes.
   
 |||
 |:-----|:-----|
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ Devuelve la raíz cuadrada del valor especificado.
 
  **Sqrt** (*NumericExpression*) 
   
-La **función Sqrt** contiene el siguiente argumento. 
+La **función Sqrt** contiene el argumento siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|

@@ -25,7 +25,7 @@ ms.locfileid: "33405597"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona un mecanismo para sincronizar el correo electrónico en lugar de usar la API de transporte. Esta interfaz se expone en un objeto de almacén. Mediante esta interfaz e [IMAPISyncProgressCallback : IUnknown,](imapisyncprogresscallbackiunknown.md)un proveedor de transporte puede proporcionar un mejor progreso y mensajes de error que los que aparecen en el cuadro de diálogo De envío o recepción en Microsoft Outlook.
+Proporciona un mecanismo para sincronizar el correo electrónico en lugar de usar la API de transporte. Esta interfaz se expone en un objeto store. Mediante esta interfaz e [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), un proveedor de transporte puede proporcionar mejores mensajes de progreso y error que los que aparecen en el cuadro de diálogo Enviar o recibir en Microsoft Outlook.
   
 La bandeja de salida sigue estando en el almacén predeterminado. Outlook seguirá usando las API de transporte para enviar correo porque el mensaje saliente no puede estar en el almacén externo.
   
@@ -36,13 +36,13 @@ La bandeja de salida sigue estando en el almacén predeterminado. Outlook seguir
 |Llamado por:  <br/> |Proveedores de almacenamiento y transporte  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPISync  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implementado por proveedores de almacén de mensajes. Outlook 2010 y Outlook 2013 llaman a este método para iniciar la sincronización.  <br/> |
+|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implementado por proveedores de almacén de mensajes. Se llama a este método Outlook 2010 y Outlook 2013 para iniciar la sincronización.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

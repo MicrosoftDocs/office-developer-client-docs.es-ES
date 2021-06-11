@@ -41,27 +41,27 @@ LPSPropValue PpropFindProp(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _rgprop_
   
-> [entrada] Matriz de [estructuras SPropValue](spropvalue.md) que definen las propiedades que se buscarán. 
+> [in] Matriz de [estructuras SPropValue](spropvalue.md) que definen las propiedades que se buscarán. 
     
  _cprop_
   
-> [entrada] Número de propiedades del conjunto de propiedades indicado por el _parámetro rgprop._ 
+> [in] Recuento de propiedades en el conjunto de propiedades indicado por el _parámetro rgprop._ 
     
  _ulPropTag_
   
-> [entrada] Etiqueta de propiedad de la propiedad que se debe buscar en el conjunto de propiedades indicado por el _parámetro rgprop._ 
+> [in] Etiqueta de propiedad para la propiedad que se debe buscar en el conjunto de propiedades indicado por el _parámetro rgprop._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
- **PpropFindProp** devuelve una estructura [SPropValue](spropvalue.md) que define la propiedad que coincide con la etiqueta de propiedad de entrada, o NULL si no hay ninguna coincidencia. 
+ **PpropFindProp devuelve** una estructura [SPropValue](spropvalue.md) que define la propiedad que coincide con la etiqueta de propiedad de entrada o NULL si no hay coincidencia. 
   
 ## <a name="remarks"></a>Comentarios
 
-Si la etiqueta de propiedad determinada indica una propiedad de tipo PT_UNSPECIFIED, la función **PpropFindProp** solo encuentra una coincidencia para el identificador de propiedad en la etiqueta. De lo contrario, busca una coincidencia para la etiqueta de propiedad completa, incluido el tipo de propiedad, y devuelve la propiedad identificada. 
+Si la etiqueta de propiedad determinada indica una propiedad de tipo PT_UNSPECIFIED, la función **PpropFindProp** solo encuentra una coincidencia para el identificador de propiedad de la etiqueta. De lo contrario, busca una coincidencia para toda la etiqueta de propiedad, incluido el tipo de propiedad, y devuelve la propiedad identificada. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -69,9 +69,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI usa el **método PpropFindProp para** buscar propiedades en un conjunto de propiedades que se agrega a la lista.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI usa el **método PpropFindProp** para buscar propiedades en un conjunto de propiedades que se va a agregar a la lista.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

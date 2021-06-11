@@ -31,15 +31,15 @@ Contiene un índice que identifica uno de un conjunto de cadenas de texto predef
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidFlagStringEnum  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x000085C0  <br/> |
+|Id. largo (LID):  <br/> |0x000085C0  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Si se establece esta propiedad, los clientes deben usar el valor de cadena correspondiente en las tablas siguientes (por ejemplo, para sustituir una cadena traducida al idioma del usuario actual) y deben omitir el valor establecido en **dispidFlagRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) y **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)). 
   
-Los valores predeterminados sugeridos al usuario para los objetos de contacto son los siguientes:
+Los valores predeterminados sugeridos al usuario para objetos de contacto son los siguientes:
   
 |**Valor**|**Cadena en inglés**|
 |:-----|:-----|
@@ -60,13 +60,13 @@ Los valores predeterminados sugeridos al usuario para todos los demás objetos d
 |0x00000003  <br/> |"Seguimiento"  <br/> |
 |0x00000004  <br/> |"Para su información"  <br/> |
 |0x00000005  <br/> |"Reenviar"  <br/> |
-|0x00000006  <br/> |"No se necesita respuesta"  <br/> |
-|0x00000007  <br/> |"Leer"  <br/> |
+|0x00000006  <br/> |"Sin respuesta necesaria"  <br/> |
+|0x00000007  <br/> |"Read"  <br/> |
 |0x00000008  <br/> |"Responder"  <br/> |
 |0x00000009  <br/> |"Responder a todos"  <br/> |
 |0x0000000A  <br/> |"Revisar"  <br/> |
    
-Todas las cadenas especificadas anteriormente se pueden traducir al idioma del usuario, si corresponde.
+Todas las cadenas especificadas anteriormente se pueden traducir al idioma del usuario, si procede.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -78,7 +78,7 @@ Todas las cadenas especificadas anteriormente se pueden traducir al idioma del u
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -86,13 +86,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

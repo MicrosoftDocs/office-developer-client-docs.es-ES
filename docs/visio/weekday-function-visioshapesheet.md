@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251512
 localization_priority: Normal
 ms.assetid: f2625ef8-3bdb-5a8d-48b9-149be0592533
-description: Devuelve un número entero, de 1 a 7, que representa el día de la semana en fecha y hora o expresión.
+description: Devuelve un número entero, de 1 a 7, que representa el día de la semana en datetime o expresión.
 ms.openlocfilehash: 7c5d467d8c6ff14b99b64b8b0462d21d0b769998
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33404809"
 ---
 # <a name="weekday-function-visioshapesheet"></a>Función WEEKDAY (VisioShapeSheet)
 
-Devuelve un número entero, de 1 a 7, que representa el día de la semana  _en fecha y hora_ o  _expresión_.
+Devuelve un número entero, de 1 a 7, que representa el día de la semana  _en datetime o_  _expresión_.
   
 ## <a name="syntax"></a>Sintaxis
 
-WEEKDAY(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+WEEKDAY(" ** *datetime* ** "| ** *expresión* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -38,11 +38,11 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Se descarta el componente de _hora en la fecha y_ hora o la expresión.  
+El componente de hora en  _datetime_ o  _expresión_ se descarta. 
   
-El resultado corresponde al lunes (1) al domingo (7). No se realiza redondeo. Si  _falta fecha_ y hora o no se puede interpretar como una fecha u hora válidas, la función devuelve un #VALUE! error. 
+El resultado corresponde al lunes (1) al domingo (7). No se realiza redondeo. Si  _falta datetime_ o no se puede interpretar como una fecha u hora válidas, la función devuelve un #VALUE! error. 
   
-La función WEEKDAY también acepta un  valor numérico único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
+La función WEEKDAY también acepta un  valor de número único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

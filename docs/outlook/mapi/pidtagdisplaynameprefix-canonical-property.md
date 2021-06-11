@@ -36,7 +36,7 @@ Contiene el prefijo de nombre para mostrar (como Miss, Mr., Mrs.) para el usuari
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades proporcionan información de identificación y acceso sobre un usuario de mensajería. El contenido lo definen el usuario de mensajería y la organización del usuario de mensajería.
+Estas propiedades proporcionan información de identificación y acceso sobre un usuario de mensajería. El contenido lo define el usuario de mensajería y la organización del usuario de mensajería.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,11 +48,11 @@ Estas propiedades proporcionan información de identificación y acceso sobre un
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

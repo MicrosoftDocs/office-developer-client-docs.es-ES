@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Prompt por su nombre desde otra fórmula,
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Prop.  *Nombre*  . Símbolo del sistema  *donde Nombre*  es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Prop.  *Nombre*  . Preguntar dónde  *nombre*  es el nombre de fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Prompt por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

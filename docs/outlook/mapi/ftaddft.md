@@ -40,15 +40,15 @@ FILETIME FtAddFt(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _Addend1_
   
-> [entrada] Estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar. 
+> [in] Estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar. 
     
  _Addend2_
   
-> [entrada] Estructura **FILETIME** que contiene el segundo entero de 64 bits sin signo que se va a agregar. 
+> [in] Estructura **FILETIME** que contiene el segundo entero de 64 bits sin signo que se va a agregar. 
     
 ## <a name="return-value"></a>Valor devuelto
 

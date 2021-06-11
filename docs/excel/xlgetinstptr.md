@@ -18,13 +18,13 @@ ms.locfileid: "33405285"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Devuelve el identificador de instancia de la instancia de Microsoft Excel que actualmente llama a una DLL.
+Devuelve el identificador de instancia de la instancia de Microsoft Excel que actualmente llama a un archivo DLL.
   
 ```cs
 Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 Esta función no tiene argumentos.
   
@@ -36,13 +36,13 @@ El identificador de instancia (**xltypeBigData**) estará en el **campo val.bigd
 
 Esta función se puede usar para distinguir entre varias instancias en ejecución de Excel que llaman a la DLL.
   
-Esta función devuelve un valor correcto con las versiones de Excel de 32 bits y 64 bits. Se introdujo en Excel 2010 como una extensión de la función [xlGetInst,](xlgetinst.md) que funciona correctamente solo con versiones de Excel de 32 bits. 
+Esta función devuelve un valor correcto con versiones de 32 bits y 64 bits de Excel. Se introdujo en Excel 2010 como una extensión de la función [xlGetInst,](xlgetinst.md) que funciona correctamente solo con versiones de 32 bits de Excel. 
   
-Esta función funciona correctamente cuando se llama mediante las variedades Excel4 y [Excel12](excel4-excel12.md) de las funciones de devolución de llamada api, ya que **XLOPER** y **XLOPER12** tienen la misma estructura que admite el tipo de valor **xltypeBigData.** 
+Esta función funciona correctamente cuando se llama mediante las variedades Excel4 y [Excel12](excel4-excel12.md) de las funciones de devolución de llamada api, ya que **tanto XLOPER** como **XLOPER12** tienen la misma estructura que admite el tipo de valor **xltypeBigData.** 
   
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se compara la instancia de la última copia de Excel que la llamó con la copia actual de Excel que la llamó. Si son iguales, devuelve 1; si no es así, devuelve 0; si se produce un error en la función, devuelve -1. Este ejemplo funciona con versiones de Excel de 32 y 64 bits.
+En el ejemplo siguiente se compara la instancia de la última copia de Excel que la llamó a la copia actual de Excel que la llamó. Si son iguales, devuelve 1; si no es así, devuelve 0; si se produce un error en la función, devuelve -1. Este ejemplo funciona con versiones de 32 bits y 64 bits de Excel.
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -68,7 +68,7 @@ short WINAPI xlGetInstPtrExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [xlGetHwnd](xlgethwnd.md)
 - [xlGetInst](xlgetinst.md)

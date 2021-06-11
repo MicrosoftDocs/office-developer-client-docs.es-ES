@@ -24,7 +24,7 @@ THEMEGUARD()
   
 ## <a name="remarks"></a>Comentarios
 
-Si se aplica la función THEMEGUARD a una celda, no se protege el formato manual de la misma forma que si se aplicase la función GUARD. Si aplica formato a la forma en la interfaz de usuario o mediante programación, mediante automatización, se reemplaza la fórmula THEMEGUARD, a menos que incluya la función SETATREFEXPR en la fórmula para almacenar el valor de formato manual. 
+Si se aplica la función THEMEGUARD a una celda, no se protege el formato manual de la misma forma que si se aplicase la función GUARD. Si aplica formato a la forma en la interfaz de usuario o mediante programación, mediante automatización, se invalida la fórmula THEMEGUARD, a menos que incluya la función SETATREFEXPR en la fórmula para almacenar el valor de formato manual. 
   
 ## <a name="example"></a>Ejemplo
 

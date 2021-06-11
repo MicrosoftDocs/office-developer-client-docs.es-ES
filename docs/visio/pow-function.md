@@ -33,7 +33,7 @@ POW(** *number* **, ** *exponent* ** )
    
 ## <a name="remarks"></a>Comentarios
 
-Tanto  _el número_ como el  _exponente_ pueden no ser enteros y pueden ser negativos. Si  _el_ número no es 0 y  _el exponente_ es 0, esta función devuelve 1. Si  _el_ número es 0 y  _el exponente_ es negativo, esta función devuelve 0,0. Si el _número_ y _el exponente_ son 0, o si el número es negativo y el _exponente_ no es un entero, esta función devuelve 0,0.  Si el  _número_ y  _el exponente_ son negativos, esta función devuelve -1,#IND. 
+Tanto  _el número_ como el  _exponente_ pueden ser no enteros y pueden ser negativos. Si  _número_ no es 0 y  _exponente_ es 0, esta función devuelve 1. Si  _número_ es 0 y  _exponente_ es negativo, esta función devuelve 0,0. Si número  _y_  _exponente_ son 0, o si  _el_ número es negativo y  _exponente_ no es un entero, esta función devuelve 0,0. Si el  _número_ y  _el exponente son_ negativos, esta función devuelve -1.#IND. 
   
 ## <a name="example"></a>Ejemplo
 

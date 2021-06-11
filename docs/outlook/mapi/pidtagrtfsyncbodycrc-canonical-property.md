@@ -36,9 +36,9 @@ Contiene la comprobación de redundancia cíclica (CRC) calculada para el texto 
    
 ## <a name="remarks"></a>Comentarios
 
-La [función RTFSync](rtfsync.md) calcula el CRC usando solo los caracteres que considera significativos para el mensaje. Por ejemplo, algunos espacios en blanco y otros caracteres ignorables se omiten en el CRC. 
+La [función RTFSync](rtfsync.md) calcula el CRC usando solo los caracteres que considera significativos para el mensaje. Por ejemplo, se omiten algunos espacios en blanco y otros caracteres ignorables del CRC. 
   
-Esta propiedad es una propiedad auxiliar de formato de texto enriquecido (RTF). La función **RTFSync** usa estas propiedades y no están pensadas para que las usen directamente las aplicaciones cliente. 
+Esta propiedad es una propiedad auxiliar de formato de texto enriquecido (RTF). La función **RTFSync** usa estas propiedades y no están diseñadas para que las usen directamente las aplicaciones cliente. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Esta propiedad es una propiedad auxiliar de formato de texto enriquecido (RTF). 
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

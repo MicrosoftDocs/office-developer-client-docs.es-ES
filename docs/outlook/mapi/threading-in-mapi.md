@@ -21,26 +21,26 @@ ms.locfileid: "33405544"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un subproceso es la entidad básica a la que un sistema operativo asigna tiempo de CPU. Un subproceso tiene sus propios registros, pila, prioridad y almacenamiento, pero comparte un espacio de direcciones y recursos de proceso, como tokens de acceso. Los subprocesos también comparten memoria, con un subproceso que lee lo que ha escrito otro subproceso.
+Un subproceso es la entidad básica a la que un sistema operativo asigna tiempo de CPU. Un subproceso tiene sus propios registros, pila, prioridad y almacenamiento, pero comparte un espacio de direcciones y recursos de proceso como tokens de acceso. Los subprocesos también comparten memoria, con un subproceso que lee lo que otro subproceso ha escrito.
   
 Los clientes MAPI usan los siguientes modelos de subprocesos genéricos.
   
 |**Modelo de subprocesos**|**Descripción**|
 |:-----|:-----|
-|Modelo de subproceso único  <br/> |Todos los objetos se usan en el subproceso único.  <br/> |
-|Modelo de subprocesos de los departamentos  <br/> |Un objeto solo se puede usar en el subproceso que lo creó.  <br/> |
-|Modelo de subprocesos gratuitos o de terceros  <br/> |Un objeto puede usarse en cualquier subproceso.  <br/> |
+|Modelo de subproceso único  <br/> |Todos los objetos se usan en el único subproceso.  <br/> |
+|Modelo de subprocesos de departamentos  <br/> |Un objeto solo se puede usar en el subproceso que lo creó.  <br/> |
+|Modelo de subprocesos gratuitos o de grupo de subprocesos  <br/> |Se puede usar un objeto en cualquier subproceso.  <br/> |
    
-MAPI usa el modelo de subprocesamiento libre, que admite objetos seguros para subprocesos que se pueden usar en cualquier subproceso en cualquier momento. OLE usa el modelo de subprocesamiento de contenedor. El modelo de subprocesamiento de los departamentos admite objetos que deben transferirse explícitamente cuando un subproceso distinto del que creó el objeto necesita usar ese objeto.
+MAPI usa el modelo de subprocesos gratuitos, que admite objetos seguros para subprocesos que se pueden usar en cualquier subproceso en cualquier momento. OLE usa el modelo de subprocesos de apartamento. El modelo de subprocesos de departamentos admite objetos que deben transferirse explícitamente cuando un subproceso distinto del que creó el objeto necesita usar ese objeto.
   
-El mecanismo que OLE usa para transferir objetos de un subproceso a otro se conoce como cálculo de referencias. El cálculo de referencias implica un objeto auxiliar y un objeto proxy. Estos objetos especiales empaquetan los parámetros de la interfaz en el objeto que se va a calcular de referencias, transfieren estos parámetros al otro subproceso y los desempaquetar al llegar. El conflicto entre los dos modelos multiproceso se produce cuando se envía un objeto MAPI de subprocesamiento libre a otro proceso mediante OLE "lightweight" Remote Procedure Call o LRPC. LRPC cambia la semántica del objeto de subprocesos libres a subprocesos de departamentos mediante la interposición de interfaces de código auxiliar y proxy con el comportamiento de subprocesos de los departamentos entre el objeto y su autor de la llamada. El conocimiento de las situaciones de MAPI que llevan a este conflicto puede ayudar a los clientes y proveedores de servicios a evitar que se produzcan problemas.
+El mecanismo que OLE usa para transferir objetos de un subproceso a otro se conoce como cálculo de referencias. El cálculo de referencias implica un objeto stub y un objeto proxy. Estos objetos especiales empaquetan los parámetros de la interfaz del objeto que se va a calcular, transfieren estos parámetros al otro subproceso y los desenvasan al llegar. El conflicto entre los dos modelos multiproceso se produce cuando se envía un objeto MAPI de subproceso libre a otro proceso mediante llamada a procedimiento remoto "ligera" OLE o LRPC. LRPC cambia la semántica del objeto de subprocesos libres a subprocesos de departamentos mediante la interposición de interfaces de código auxiliar y proxy con el comportamiento de subproceso de apartamento entre el objeto y su autor de la llamada. El conocimiento de las situaciones en MAPI que llevan a este conflicto puede ayudar a los clientes y proveedores de servicios a evitar que se produzcan problemas.
   
-Se puede tener acceso a un objeto MAPI:
+Se puede obtener acceso a un objeto MAPI:
   
 - A través de llamadas directas a sus métodos mediante un puntero de interfaz devuelto por un proveedor de servicios o MAPI vinculado al proceso del cliente, como el objeto de sesión devuelto de [MAPILogonEx](mapilogonex.md).
     
-- Mediante llamadas indirectas a sus métodos mediante un puntero de interfaz devuelto por cualquier proveedor de servicios, como el objeto de carpeta copiado de otra carpeta en [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md).
+- A través de llamadas indirectas a sus métodos mediante un puntero de interfaz devuelto por cualquier proveedor de servicios, como el objeto folder copiado de otra carpeta en [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md).
     
-- Mediante una función de devolución de llamada, como el método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pasado a un proveedor de servicios o a MAPI en una llamada **Advise** o los métodos que pueden mostrar el progreso de una operación larga. 
+- A través de una función de devolución de llamada, como el método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pasado a un proveedor de servicios o a MAPI en una llamada **Advise** o los métodos que pueden mostrar el progreso de una operación larga. 
     
 

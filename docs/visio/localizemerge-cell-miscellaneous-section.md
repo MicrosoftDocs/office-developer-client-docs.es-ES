@@ -23,7 +23,7 @@ Determina si las formas se traducen al copiarlas de un documento a otro.
 |**Valor**|**Descripción**|
 |:-----|:-----|
 | TRUE  <br/> | Traduce una forma al idioma del documento de destino.  <br/> |
-| FALSE  <br/> | No localice una forma según el idioma del documento de destino (valor predeterminado).  <br/> |
+| FALSE  <br/> | No localice una forma en función del idioma del documento de destino (valor predeterminado).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

@@ -33,11 +33,11 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
-> [Entrada] Reservado; debe ser un puntero a cero.
+> [In] Reservado; debe ser un puntero a cero.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -49,7 +49,7 @@ S_OK
 
 En la implementación del método **Shutdown,** realice las tareas que considere necesarias. MAPI llama al **método Shutdown** solo después de liberar todos los objetos de inicio de sesión. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

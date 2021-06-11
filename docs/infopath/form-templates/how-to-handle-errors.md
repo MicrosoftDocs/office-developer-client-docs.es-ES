@@ -35,7 +35,7 @@ La clase [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Offi
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[Método](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) Add (+3 sobrecargas)  <br/> |Crea un objeto **FormError** y lo añade a la colección.  <br/> |
+|[Método Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) (+3 sobrecargas)  <br/> |Crea un objeto **FormError** y lo añade a la colección.  <br/> |
 |[Método Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) (+1 sobrecarga)  <br/> |Elimina el error definido por el usuario especificado de la colección.  <br/> |
 |[DeleteAll (método)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx)  <br/> |Elimina todos los objetos **FormError** contenidos en la colección.  <br/> |
 |[GetErrors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) (+1 sobrecarga)  <br/> |Devuelve todos los objetos **FormError** del nombre o tipo especificado de la colección.  <br/> |

@@ -38,13 +38,13 @@ Contiene un valor usado para asociar un icono a una fila determinada de una tabl
 
 Esta propiedad contiene un entero largo que facilita el tratamiento especial de la entrada de tabla en función de su tipo. Este tratamiento especial suele consistir en mostrar un icono u otro elemento de visualización asociado con el tipo de presentación. 
   
-Esta propiedad no se usa en tablas de contenido de carpetas. Las aplicaciones cliente deben usar la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) de un mensaje y la interfaz [IMAPIFormInfo](imapiforminfoimapiprop.md) adecuada para obtener las propiedades **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) y **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) para ese mensaje. 
+Esta propiedad no se usa en las tablas de contenido de carpetas. Las aplicaciones cliente deben usar la propiedad **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) de un mensaje y la interfaz [IMAPIFormInfo](imapiforminfoimapiprop.md) adecuada para obtener las propiedades **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) y **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) para ese mensaje. 
   
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
 DT_AGENT 
   
-> Un agente automatizado, como comillas del día o una presentación de gráficos meteorológicos.
+> Un agente automatizado, como La cita del día o una presentación de gráficos meteorológicos.
     
 DT_DISTLIST 
   
@@ -52,19 +52,19 @@ DT_DISTLIST
     
 DT_FOLDER 
   
-> Muestra el icono de carpeta predeterminado adyacente a la carpeta.
+> Mostrar el icono de carpeta predeterminado adyacente a la carpeta.
     
 DT_FOLDER_LINK 
   
-> Muestra el icono de vínculo de carpeta predeterminado adyacente a la carpeta en lugar del icono de carpeta predeterminado.
+> Mostrar el icono de vínculo de carpeta predeterminado adyacente a la carpeta en lugar del icono de carpeta predeterminado.
     
 DT_FOLDER_SPECIAL 
   
-> Icono para mostrar de una carpeta con una distinción específica de la aplicación, como un tipo especial de carpeta pública.
+> Icono de visualización de una carpeta con una distinción específica de la aplicación, como un tipo especial de carpeta pública.
     
 DT_FORUM 
   
-> Un foro, como un servicio de boletín o una carpeta pública o compartida.
+> Un foro, como un servicio de tablón de anuncios o una carpeta pública o compartida.
     
 DT_GLOBAL 
   
@@ -80,7 +80,7 @@ DT_MAILUSER
     
 DT_MODIFIABLE 
   
-> Modificable; el contenedor se debe señalar como modificable en la interfaz de usuario.
+> Modificable; el contenedor debe anotarse como modificable en la interfaz de usuario.
     
 DT_NOT_SPECIFIC 
   
@@ -88,7 +88,7 @@ DT_NOT_SPECIFIC
     
 DT_ORGANIZATION 
   
-> Alias especial definido para un grupo grande, como el departamento de soporte técnico, la contabilidad o el coordinador de unidad de sangre.
+> Alias especial definido para un grupo grande, como el departamento de soporte técnico, la contabilidad o el coordinador de sangre.
     
 DT_PRIVATE_DISTLIST 
   
@@ -96,17 +96,17 @@ DT_PRIVATE_DISTLIST
     
 DT_REMOTE_MAILUSER 
   
-> Un destinatario que se sabe que es de un sistema de mensajería externo o remoto.
+> Un destinatario conocido por ser de un sistema de mensajería externo o remoto.
     
 DT_WAN 
   
 > Una libreta de direcciones de red de área extensa.
     
-Las tablas de contenido de la libreta de direcciones usan los valores DT_AGENT, DT_DISTLIST, DT_FORUM, DT_MAILUSER, DT_ORGANIZATION, DT_PRIVATE_DISTLIST y DT_REMOTE_MAILUSER. Las tablas de jerarquía de la libreta de direcciones y las tablas de uso único usan los valores DT_GLOBAL, DT_LOCAL, DT_MODIFIABLE, DT_NOT_SPECIFIC y DT_WAN únicos. Las tablas de jerarquía de carpetas usan DT_FOLDER, DT_FOLDER_LINK y DT_FOLDER_SPECIAL valores. 
+Las tablas de contenido de la libreta de direcciones usan los DT_AGENT, DT_DISTLIST, DT_FORUM, DT_MAILUSER, DT_ORGANIZATION, DT_PRIVATE_DISTLIST y DT_REMOTE_MAILUSER. Las tablas de jerarquía de libreta de direcciones y las tablas DT_GLOBAL, DT_LOCAL, DT_MODIFIABLE, DT_NOT_SPECIFIC y DT_WAN valores. Las tablas de jerarquía de carpetas usan DT_FOLDER, DT_FOLDER_LINK y DT_FOLDER_SPECIAL valores. 
   
 Si no se establece esta propiedad, el cliente debe asumir el tipo predeterminado adecuado para la tabla, normalmente DT_FOLDER, DT_LOCAL o DT_MAILUSER. 
   
- **Nota** Todos los valores no documentados están reservados para MAPI. Las aplicaciones cliente no deben definir valores nuevos y deben estar preparadas para tratar con un valor no documentado. 
+ **Nota** Todos los valores no documentados están reservados para MAPI. Las aplicaciones cliente no deben definir nuevos valores y deben estar preparadas para tratar con un valor no documentado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -118,11 +118,11 @@ Si no se establece esta propiedad, el cliente debe asumir el tipo predeterminado
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para las plantillas de libreta de direcciones.
+> Especifica las propiedades y las operaciones permitidas para las plantillas de libreta de direcciones.
     
 [[MS-OXLDAP]](https://msdn.microsoft.com/library/727c090a-f05c-4eed-94aa-565724cfc550%28Office.15%29.aspx)
   
@@ -138,13 +138,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

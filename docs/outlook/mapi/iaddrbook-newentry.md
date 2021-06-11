@@ -40,39 +40,39 @@ HRESULT NewEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del cuadro de diálogo.
+> [in] Identificador de la ventana principal del cuadro de diálogo.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de texto que se usa. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de texto que se usa. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
  _cbEIDContainer_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEIDContainer._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEIDContainer._ 
     
  _lpEIDContainer_
   
-> [entrada] Puntero al identificador de entrada del contenedor al que se va a agregar el nuevo destinatario. Si el _parámetro cbEIDContainer_ es cero, el método **NewEntry** devuelve un identificador de entrada de destinatario y una lista de plantillas como si se hubiera llamado al método [IAddrBook::CreateOneOff.](iaddrbook-createoneoff.md) 
+> [in] Puntero al identificador de entrada del contenedor donde se va a agregar el nuevo destinatario. Si el _parámetro cbEIDContainer_ es cero, el método **NewEntry** devuelve un identificador de entrada de destinatario y una lista de plantillas como si se llamara al método [IAddrBook::CreateOneOff.](iaddrbook-createoneoff.md) 
     
  _cbEIDNewEntryTpl_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEIDNewEntryTpl._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEIDNewEntryTpl._ 
     
  _lpEIDNewEntryTpl_
   
-> [entrada] Puntero a una plantilla de uso único que se usará para crear el nuevo destinatario. Si  _cbEIDNewEntryTpl_ es cero y  _lpEIDNewEntryTpl_ es NULL, **NewEntry** muestra un cuadro de diálogo con el que el usuario puede seleccionar de una lista de plantillas para agregar nuevas entradas. 
+> [in] Puntero a una plantilla de uso único que se usará para crear el nuevo destinatario. Si  _cbEIDNewEntryTpl_ es cero y  _lpEIDNewEntryTpl_ es NULL, **NewEntry** muestra un cuadro de diálogo con el que el usuario puede seleccionar de una lista de plantillas para agregar nuevas entradas. 
     
  _lpcbEIDNewEntry_
   
-> [salida] Puntero al recuento de bytes en el identificador de entrada al que apunta el parámetro _lppEIDNewEntry._ 
+> [salida] Puntero al recuento de bytes en el identificador de entrada al que apunta el _parámetro lppEIDNewEntry._ 
     
  _lppEIDNewEntry_
   
@@ -86,29 +86,29 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método NewEntry** crea una nueva entrada de la libreta de direcciones, que se agregará directamente a un contenedor o que se usará para dirigir un mensaje saliente. 
+El **método NewEntry** crea una nueva entrada de libreta de direcciones, que se agregará directamente a un contenedor o se usará para dirigir un mensaje saliente. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si quieres agregar la nueva entrada a un contenedor específico, establece  _lpEIDContainer_ en el identificador de entrada del contenedor y  _cbEIDContainer_ en el recuento de bytes en el identificador de entrada. 
+Si desea agregar la nueva entrada a un contenedor específico, establezca  _lpEIDContainer_ en el identificador de entrada del contenedor y  _cbEIDContainer_ en el número de bytes del identificador de entrada. 
   
-Si quieres agregar la nueva entrada a la lista de destinatarios de un mensaje saliente, establece  _lpEIDContainer_ en NULL y  _cbEIDContainer_ en cero. 
+Si desea agregar la nueva entrada a la lista de destinatarios de un mensaje saliente, establezca  _lpEIDContainer_ en NULL y  _cbEIDContainer_ en cero. 
   
-Si desea permitir que el usuario de una aplicación cliente seleccione el tipo de entrada que se va a crear, pase cero en  _cbEIDNewEntryTpl_ y NULL en  _lpEIDNewEntryTpl_. El **método NewEntry** muestra la tabla de uso único mapi, una lista de plantillas admitidas por MAPI y por cada proveedor de libreta de direcciones en la sesión. Cada plantilla puede crear una entrada de destinatario para uno o varios tipos de dirección. 
+Si desea permitir que el usuario de una aplicación cliente seleccione el tipo de entrada que se va a crear, pase cero en  _cbEIDNewEntryTpl_ y NULL en  _lpEIDNewEntryTpl_. El **método NewEntry** muestra la tabla única MAPI, una lista de plantillas admitidas por MAPI y por cada proveedor de libreta de direcciones de la sesión. Cada plantilla puede crear una entrada de destinatario para uno o varios tipos de direcciones. 
   
-Si desea conservar el identificador de entrada de la nueva entrada, pase punteros válidos en los parámetros _lpcbEIDNewEntry_ e _lppEIDNewEntry._ Eres responsable de liberar este identificador de entrada cuando termines con él llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
+Si desea conservar el identificador de entrada de la nueva entrada, pase punteros válidos en los parámetros _lpcbEIDNewEntry_ y _lppEIDNewEntry._ Eres responsable de liberar este identificador de entrada cuando termines de hacerlo llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
 Para usar una plantilla determinada para agregar una nueva entrada a un contenedor modificable, use el siguiente procedimiento:
   
 1. Llame al [método IMAPISession::OpenEntry](imapisession-openentry.md) para abrir el contenedor de destino y establezca el parámetro  _lpEntryID_ en el identificador de entrada del contenedor. 
     
-2. Llame al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor de destino y establezca el parámetro  _ulPropTag_ en **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) y el parámetro  _lpiid_ en IID_IMAPITable. El contenedor devolverá una tabla de uso único que enumera todas las plantillas que admite para crear nuevas entradas. 
+2. Llame al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor de destino y establezca el parámetro  _ulPropTag_ **en PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) y el parámetro  _lpiid_ en IID_IMAPITable. El contenedor devolverá una tabla única que enumera todas las plantillas que admite para crear nuevas entradas. 
     
 3. Recupere la fila que representa la plantilla para el tipo concreto de entrada que desea crear. La **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) indica el tipo de dirección admitido por la plantilla.
     
-4. Llame al **método NewEntry** y establezca  _lpEIDNewEntryTpl en_ el identificador de entrada de la plantilla seleccionada. El identificador de entrada será **PR_ENTRYID** columna ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la fila de la plantilla en la tabla de un solo elemento. Pase cero en  _cbEIDContainer y_ NULL en  _lpEIDContainer_. Pase un puntero válido en el  _parámetro lppEIDNewEntry_ si desea conservar el identificador de entrada de la nueva entrada. 
+4. Llama al **método NewEntry** y establece  _lpEIDNewEntryTpl_ en el identificador de entrada de la plantilla seleccionada. El identificador de entrada será **la columna PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la fila de la plantilla en la tabla de un solo elemento. Pase cero en  _cbEIDContainer_ y NULL en  _lpEIDContainer_. Pase un puntero válido en el parámetro  _lppEIDNewEntry_ si desea conservar el identificador de entrada de la nueva entrada. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

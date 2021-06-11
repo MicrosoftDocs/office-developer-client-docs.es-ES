@@ -30,7 +30,7 @@ La interfaz [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Inter
 |[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Establece el nombre de archivo predeterminado de un formulario en el cuadro de diálogo **Guardar como**.  <br/> |
 |[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Establece la ubicación inicial desde la que empieza a examinar el cuadro de diálogo **Guardar como** al abrirlo.  <br/> |
 |[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Crea un nuevo mensaje de correo electrónico en la aplicación de correo electrónico predeterminada, con el formulario abierto actualmente adjunto al mensaje.  <br/> |
-|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Muestra un cuadro de diálogo modal basado en el archivo .html especificado y en los argumentos posicionales. Este método debe usarse si desea mostrar más que un mensaje simple al usuario y necesita recuperar algunos datos  del usuario (más allá de la simple confirmación proporcionada por el sí | **No** | **Botones** de cancelación mostrados por el **método Confirm).**  <br/> |
+|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Muestra un cuadro de diálogo modal basado en el archivo .html especificado y en los argumentos posicionales. Este método debe usarse si desea mostrar más que un mensaje simple al usuario y necesita recuperar algunos datos del usuario (más allá de la confirmación sencilla que proporciona el **sí** | **No** | **Botones** de cancelación mostrados por el **método Confirm).**  <br/> |
 |[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Muestra el cuadro de diálogo integrado **Firmas digitales**.  <br/> |
    
 ## <a name="using-the-uiobject-interface"></a>Uso de la interfaz UIObject
@@ -102,6 +102,6 @@ function BtnClick()
 ```
 
 > [!IMPORTANT]
-> [!IMPORTANTE] El método [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) requiere plena confianza para su ejecución o vista previa. Para obtener más información, vea [Vista previa y depurar plantillas de formulario que requieren plena confianza.](how-to-preview-and-debug-form-templates-that-require-full-trust.md) 
+> [!IMPORTANTE] El método [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) requiere plena confianza para su ejecución o vista previa. Para obtener más información, vea [Preview and Debug Form Templates that Require Full Trust](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
   
 

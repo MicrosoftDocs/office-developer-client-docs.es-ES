@@ -36,7 +36,7 @@ Contiene un número que se puede usar para calcular el aplazamiento del envío d
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para calcular la PR_DEFERRED_SEND_TIME **(** [PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) cuando no está presente. Cuando se aplaza el envío de un mensaje, la propiedad **PR_DEFERRED_SEND_NUMBER** debe establecerse junto con la propiedad **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), si la propiedad **PR_DEFERRED_SEND_TIME** no está presente. 
+Esta propiedad se usa para calcular la propiedad **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) cuando no está presente. Al enviar un mensaje se aplaza, la propiedad **PR_DEFERRED_SEND_NUMBER** debe establecerse junto con la propiedad **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), si la propiedad **PR_DEFERRED_SEND_TIME** está ausente. 
   
 El **PR_DEFERRED_SEND_NUMBER** debe establecerse entre 0 y 999. 
   
@@ -46,7 +46,7 @@ El **PR_DEFERRED_SEND_NUMBER** debe establecerse entre 0 y 999.
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -58,13 +58,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

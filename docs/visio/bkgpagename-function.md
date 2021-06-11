@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82253219
 localization_priority: Normal
 ms.assetid: f6e410ef-54d5-9c08-926b-97a2a9786622
-description: Devuelve un nombre de página de fondo como una cadena.
+description: Devuelve un nombre de página en segundo plano como una cadena.
 ms.openlocfilehash: 3b628315052117fe853c8f9c0fc36572de25d871
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33410318"
 ---
 # <a name="bkgpagename-function"></a>Función BKGPAGENAME
 
-Devuelve un nombre de página de fondo como una cadena.
+Devuelve un nombre de página en segundo plano como una cadena.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -32,11 +32,11 @@ BKGPAGENAME (** *langID_opt* ** )
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 
-Si la página para la que usa la función no tiene una página de fondo, se devuelve la cadena " \< sin \> fondo". 
+Si la página para la que está usando la función no tiene una página en segundo plano, se devuelve la cadena " \< sin \> fondo ". 
   
 Si el código de idioma indicado no es válido, se utiliza el idioma local. 
   

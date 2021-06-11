@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- functions [excel 2007], add-in manager,functions [Excel 2007], XLL interface
+- functions [excel 2007], add-in manager,functions [Excel 2007], interfaz XLL
 localization_priority: Normal
 ms.assetid: e22d425a-75b2-412c-a07f-fb1915d08615
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'

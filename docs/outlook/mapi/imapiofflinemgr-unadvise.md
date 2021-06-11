@@ -34,15 +34,15 @@ HRESULT COfflineObj::Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Marcas para cancelar la devolución de llamada. Solo se admite MAPIOFFLINE_UNADVISE_DEFAULT valor.
+> [in] Marcas para cancelar la devolución de llamada. Solo se admite MAPIOFFLINE_UNADVISE_DEFAULT valor.
     
  _ulAdviseToken_
   
-> [entrada] Un token de aviso que identifica el registro de devolución de llamada que se va a cancelar. 
+> [in] Un token de aviso que identifica el registro de devolución de llamada que se va a cancelar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -52,9 +52,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Quita el registro de la devolución de llamada asociada con  *ulAdviseToken*  devuelta de una llamada anterior a **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Hace que **el objeto IMAPIOfflineMgr** libere su referencia en el objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** asociado con  *ulAdviseToken*  . 
+Quita el registro de la devolución de llamada asociada con  *ulAdviseToken*  devuelto de una llamada anterior a **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Hace que **el objeto IMAPIOfflineMgr** libere su referencia en el objeto **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** asociado con  *ulAdviseToken*  . 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

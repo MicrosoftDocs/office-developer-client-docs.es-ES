@@ -25,13 +25,13 @@ Representa el número de puerto de un buzón de Internet general.
 |Identificador:  <br/> |0x0104  <br/> |
 |Tipo de propiedad:  <br/> |PT_DWORD  <br/> |
 |Etiqueta de propiedad:  <br/> |0x01040003  <br/> |
-|Acceso:  <br/> |Solo lectura  <br/> |
+|Access:  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Un ejemplo es 110 para cuentas POP.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

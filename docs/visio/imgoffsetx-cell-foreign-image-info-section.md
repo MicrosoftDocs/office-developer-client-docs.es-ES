@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251308
 localization_priority: Normal
 ms.assetid: c079fb10-4db7-4657-75d2-2fb953c86670
-description: Determina la distancia a la que el objeto está desplazado horizontalmente desde el origen del borde del objeto. El valor predeterminado es 0. Encuadrando el objeto con la herramienta Recortar, se puede cambiar su valor.
+description: Determina la distancia a la que el objeto está desplazado horizontalmente desde el origen del borde del objeto. El valor predeterminado es 0. Si desplaza el objeto con la herramienta Recortar, este valor cambia.
 ms.openlocfilehash: d9b3e97a07bc1cadc0276905c4199861ab0590ca
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT

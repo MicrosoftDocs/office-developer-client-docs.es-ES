@@ -36,9 +36,9 @@ Contiene TRUE si el remitente de un mensaje solicita la característica de corre
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para solicitar la correlación de los informes entrantes con el mensaje original enviado. Cuando un proveedor de transporte encuentra un mensaje enviado con **PR_CORRELATE** establecido en TRUE, establece la propiedad **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) en el identificador del sistema de transferencia de mensajes (MTS) para ese mensaje.
+Esta propiedad se usa para solicitar la correlación de los informes entrantes con el mensaje enviado original. Cuando un proveedor de transporte encuentra un mensaje enviado con **PR_CORRELATE** establecido en TRUE, establece la propiedad **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) en el identificador del sistema de transferencia de mensajes (MTS) para ese mensaje.
   
- **PR_CORRELATE** debe usarse con sistemas de mensajería compatibles con la correlación del identificador MTS, como X.400. 
+ **PR_CORRELATE** debe usarse con sistemas de mensajería que admitan la correlación mediante el identificador MTS, como X.400. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

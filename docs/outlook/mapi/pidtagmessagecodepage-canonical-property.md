@@ -25,7 +25,7 @@ ms.locfileid: "32358467"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la página de códigos que se usa para el mensaje.
+Contiene la página de código que se usa para el mensaje.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene la página de códigos que se usa para el mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-La página de códigos del objeto de carpeta se usa si esta propiedad está establecida en cero (0).
+La página de código de objeto de carpeta se usa si esta propiedad está establecida en cero (0).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,11 +48,11 @@ La página de códigos del objeto de carpeta se usa si esta propiedad está esta
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
   
-> Especifica el método para entregar datos de libreta de direcciones sin conexión (OAB) de servidor a cliente.
+> Especifica el método de entrega de datos de libreta de direcciones sin conexión (OAB) de servidor a cliente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

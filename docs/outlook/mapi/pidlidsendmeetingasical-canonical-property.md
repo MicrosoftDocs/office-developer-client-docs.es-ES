@@ -25,13 +25,13 @@ ms.locfileid: "32358880"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si se debe enviar una solicitud de reunión como un mensaje de iCal.
+Especifica si se debe enviar una solicitud de reunión como un mensaje iCal.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSendMtgAsICAL  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008200  <br/> |
+|Id. largo (LID):  <br/> |0x00008200  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Conferencias  <br/> |
    
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

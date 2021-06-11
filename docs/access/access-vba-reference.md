@@ -1,5 +1,5 @@
 ---
-title: '[Referencia de VBA de Access]'
+title: '[Referencia de VBA de access]'
 ms.date: 01/01/1900
 ms.audience: Developer
 localization_priority: Normal
@@ -12,7 +12,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406356"
 ---
-# <a name="access-vba-reference"></a>[Referencia de VBA de Access]
+# <a name="access-vba-reference"></a>[Referencia de VBA de access]
 
 {insertar resumen}
   

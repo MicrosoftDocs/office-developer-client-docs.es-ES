@@ -37,7 +37,7 @@ Contiene un valor de campo de encabezado Accept-Language [RFC3282].
    
 ## <a name="remarks"></a>Comentarios
 
-Para establecer el valor de esta propiedad, los clientes de Extensiones multipropósito a mensajes de Internet (MIME) deben escribir un campo de encabezado Accept-Language con el valor deseado. Los clientes MIME pueden escribir un campo de encabezado X-Accept-Language en su lugar. Los lectores MIME deben copiar el valor de cualquiera de los campos de encabezado en el valor de esta propiedad. Si ambos campos de encabezado están presentes, los lectores MIME deben usar el Accept-Language campo de encabezado.
+Para establecer el valor de esta propiedad, los clientes de Multipurpose Internet Message Extensions (MIME) deben escribir un campo Accept-Language encabezado con el valor deseado. En su lugar, los clientes MIME pueden escribir un campo de encabezado X-Accept-Language. Los lectores MIME deben copiar el valor de cualquier campo de encabezado en el valor de esta propiedad. Si ambos campos de encabezado están presentes, los lectores MIME deben usar el Accept-Language de encabezado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Para establecer el valor de esta propiedad, los clientes de Extensiones multipro
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

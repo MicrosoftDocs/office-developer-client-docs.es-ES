@@ -31,15 +31,15 @@ Indica el progreso que el usuario ha realizado en una tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidPercentComplete  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008102  <br/> |
+|Id. largo (LID):  <br/> |0x00008102  <br/> |
 |Tipo de datos:  <br/> |PT_R8  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 El valor de esta propiedad debe ser un número mayor o igual que 0,0 y menor o igual que 1,0, donde 1,0 indica que el trabajo se ha completado y 0,0 indica que el trabajo no ha comenzado.
   
-Para un objeto de mensaje con marca de tiempo, el valor de esta propiedad debe establecerse en 1,0 si el objeto se ha marcado como completado y, de lo contrario, debe establecerse en 0,0.
+Para un objeto de mensaje con marca de tiempo, el valor de esta propiedad debe establecerse en 1,0 si el objeto está marcado completado y debe establecerse en 0,0 en caso contrario.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,17 +49,17 @@ Para un objeto de mensaje con marca de tiempo, el valor de esta propiedad debe e
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
@@ -75,13 +75,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

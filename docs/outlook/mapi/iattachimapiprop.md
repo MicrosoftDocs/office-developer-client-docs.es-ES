@@ -25,19 +25,19 @@ ms.locfileid: "33409093"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Mantiene y proporciona acceso a las propiedades de los datos adjuntos de los mensajes. La **interfaz IAttach** no tiene métodos únicos propios. Para obtener más información acerca de cómo usar datos adjuntos, vea Datos adjuntos [mapi](mapi-attachments.md) y [tablas de datos adjuntos](attachment-tables.md). 
+Mantiene y proporciona acceso a las propiedades de los datos adjuntos de los mensajes. La **interfaz IAttach** no tiene métodos únicos propios. Para obtener más información sobre cómo usar datos adjuntos, vea [Datos adjuntos mapi](mapi-attachments.md) y [tablas de datos adjuntos](attachment-tables.md). 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Expuesto por:  <br/> |Objetos de datos adjuntos  <br/> |
-|Implementado por:  <br/> |Proveedores de al almacenamiento de mensajes  <br/> |
+|Expuesto por:  <br/> |Objetos Attachment  <br/> |
+|Implementado por:  <br/> |Proveedores de almacén de mensajes  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IAttachment  <br/> |
 |Tipo de puntero:  <br/> |LPATTACH  <br/> |
-|Modelo de transacción:  <br/> |Transacted  <br/> |
+|Modelo de transacciones:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 Esta interfaz no tiene ningún método único.
   
@@ -47,7 +47,7 @@ Esta interfaz no tiene ningún método único.
 |**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
 |**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

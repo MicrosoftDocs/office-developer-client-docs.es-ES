@@ -25,19 +25,19 @@ ms.locfileid: "33406125"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Administra operaciones de alto nivel en objetos contenedor como libretas de direcciones, listas de distribución y carpetas. Las [interfaces IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md), [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)e [IDistList : IMAPIContainer](idistlistimapicontainer.md) se derivan de **IMAPIContainer**.
+Administra operaciones de alto nivel en objetos contenedor, como libretas de direcciones, listas de distribución y carpetas. Las [interfaces IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md), [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)y [IDistList : IMAPIContainer](idistlistimapicontainer.md) se derivan de **IMAPIContainer**.
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuesto por:  <br/> |Carpeta, contenedor de libreta de direcciones y objetos de lista de distribución  <br/> |
-|Implementado por:  <br/> |Almacén de mensajes, libreta de direcciones y proveedores de transporte remoto  <br/> |
+|Implementado por:  <br/> |Proveedores de almacenamiento de mensajes, libreta de direcciones y transporte remoto  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIContainer  <br/> |
 |Tipo de puntero:  <br/> |LPMAPICONTAINER  <br/> |
-|Modelo de transacción:  <br/> |Clase abstracta, nunca implementada  <br/> |
+|Modelo de transacciones:  <br/> |Clase abstracta, nunca implementada  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -45,7 +45,7 @@ Administra operaciones de alto nivel en objetos contenedor como libretas de dire
 |[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Devuelve un puntero a la tabla de jerarquía del contenedor.  <br/> |
 |[OpenEntry](imapicontainer-openentry.md) <br/> |Abre un objeto en el contenedor y devuelve un puntero de interfaz para obtener más acceso.  <br/> |
 |[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Establece criterios de búsqueda para el contenedor.  <br/> |
-|[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtiene los criterios de búsqueda para el contenedor.  <br/> |
+|[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtiene los criterios de búsqueda del contenedor.  <br/> |
    
 |**Propiedades requeridas**|**Access**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ Administra operaciones de alto nivel en objetos contenedor como libretas de dire
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Lectura/escritura  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

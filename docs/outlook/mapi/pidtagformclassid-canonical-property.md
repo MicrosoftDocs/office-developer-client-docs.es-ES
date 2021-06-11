@@ -25,14 +25,14 @@ ms.locfileid: "33404760"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador único global (GUID) de vinculación e incrustación de objetos (OLE) de 128 bits de un formulario. 
+Contiene el identificador único global (GUID) de 128 bits Object Linking and Embedding (OLE) de un formulario. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_FORM_CLSID  <br/> |
 |Identificador:  <br/> |0x3302  <br/> |
 |Tipo de datos:  <br/> |PT_CLSID  <br/> |
-|Área:  <br/> |Mapi común  <br/> |
+|Área:  <br/> |MAPI común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

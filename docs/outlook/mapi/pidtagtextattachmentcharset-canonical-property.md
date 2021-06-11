@@ -25,7 +25,7 @@ ms.locfileid: "32358817"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor del juego de caracteres de un dato adjunto del mensaje.
+Contiene el valor del conjunto de caracteres de un archivo adjunto de mensaje.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene el valor del juego de caracteres de un dato adjunto del mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Los datos de esta propiedad se derivan de un campo de encabezado MIME de tipo de contenido que comienza con "text/", si hay un parámetro "charset".
+Los datos de esta propiedad se derivan de un campo de encabezado MIME de tipo de contenido que comienza por "text/", si hay un parámetro "charset".
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,7 +44,7 @@ Los datos de esta propiedad se derivan de un campo de encabezado MIME de tipo de
 
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

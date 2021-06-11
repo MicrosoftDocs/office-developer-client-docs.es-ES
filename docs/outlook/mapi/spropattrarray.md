@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -49,7 +49,7 @@ typedef struct
     
  **aPropAttr**
   
-> Matriz de atributos de propiedad. Los valores válidos para los atributos son los siguientes:
+> Una matriz de atributos de propiedad. Los valores válidos para los atributos son los siguientes:
     
     - PROPATTR_MANDATORY
     
@@ -61,9 +61,9 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura SPropAttrArray** la usan los objetos de datos de propiedad que implementan [la interfaz IPropData : IMAPIProp.](ipropdataimapiprop.md) También se usa en la implementación de MAPI de [IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md) que se basa en el almacenamiento estructurado. 
+La **estructura SPropAttrArray** la usan los objetos de datos de propiedad que implementan la [interfaz IPropData : IMAPIProp.](ipropdataimapiprop.md) También se usa mediante la implementación de [IMAPIMessageSite de MAPI: IUnknown](imapimessagesiteiunknown.md) que se basa en el almacenamiento estructurado. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

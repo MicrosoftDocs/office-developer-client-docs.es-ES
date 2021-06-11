@@ -25,7 +25,7 @@ ms.locfileid: "33406328"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción de subelemento que se usa para filtrar las filas de los datos adjuntos o la tabla de destinatarios de un mensaje.
+Describe una restricción de sub object que se usa para filtrar las filas de los datos adjuntos o la tabla de destinatarios de un mensaje.
   
 |||
 |:-----|:-----|
@@ -40,11 +40,11 @@ typedef struct _SSubRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulSubObject**
   
-> Tipo de sub object que sirve como destino de la restricción. Los valores posibles son los siguientes: 
+> Tipo de sub object que sirve como destino para la restricción. Los valores posibles son los siguientes: 
     
 PR_MESSAGE_RECIPIENTS 
   
@@ -52,7 +52,7 @@ PR_MESSAGE_RECIPIENTS
     
 PR_MESSAGE_ATTACHMENTS 
   
->  Aplicar la restricción a la tabla de datos adjuntos de un mensaje. 
+>  Aplique la restricción a la tabla de datos adjuntos de un mensaje. 
     
  **lpRes**
   
@@ -60,13 +60,13 @@ PR_MESSAGE_ATTACHMENTS
     
 ## <a name="remarks"></a>Comentarios
 
-Las restricciones de subelementos no son compatibles con todas las tablas. Normalmente, solo las tablas de contenido de carpetas y las carpetas de resultados de búsqueda las admiten. Por ejemplo, las restricciones de subelementos se usan para buscar un mensaje que tiene un tipo determinado de datos adjuntos o destinatarios. 
+Las restricciones de subelementos no son compatibles con todas las tablas. Normalmente, solo las tablas de contenido de carpetas y las carpetas de resultados de búsqueda las admiten. Por ejemplo, las restricciones de subelementos se usan para buscar un mensaje que tenga un tipo determinado de datos adjuntos o destinatarios. 
   
 Si una implementación no admite restricciones de subelementos, devuelve MAPI_E_TOO_COMPLEX de sus métodos [IMAPITable::Restrict](imapitable-restrict.md) o [IMAPITable::FindRow.](imapitable-findrow.md) 
   
-Para obtener una explicación general de cómo funcionan las [restricciones,](about-restrictions.md)vea Acerca de las restricciones . 
+Para obtener una explicación general de cómo funcionan las restricciones, vea [Acerca de las restricciones](about-restrictions.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

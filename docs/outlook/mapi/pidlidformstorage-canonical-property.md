@@ -25,13 +25,13 @@ ms.locfileid: "32357760"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa las propiedades del formulario asociado con el mensaje.
+Representa las propiedades del formulario que está asociado con el mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidFormStorage  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x0000850F  <br/> |
+|Id. largo (LID):  <br/> |0x0000850F  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
@@ -49,13 +49,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

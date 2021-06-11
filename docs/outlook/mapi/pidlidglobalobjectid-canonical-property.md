@@ -25,19 +25,19 @@ ms.locfileid: "32357767"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el identificador único del objeto de calendario.
+Especifica el identificador único del objeto calendar.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |LID_GLOBAL_OBJID  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Meeting  <br/> |
-|Long ID (LID):  <br/> |0x00000003  <br/> |
+|Id. largo (LID):  <br/> |0x00000003  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Una vez establecido para un objeto de calendario, el valor de esta propiedad no debe cambiar. Puede encontrar una descripción detallada del formato [en [MS-OXOCAL]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
+Una vez establecido para un objeto calendar, el valor de esta propiedad no debe cambiar. Encontrará una descripción detallada del formato en [[MS-OXOCAL]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Una vez establecido para un objeto de calendario, el valor de esta propiedad no 
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

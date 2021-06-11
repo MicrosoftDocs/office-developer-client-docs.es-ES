@@ -25,7 +25,7 @@ ms.locfileid: "32360777"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el tipo de una entrada, con respecto a cómo debe mostrarse la entrada en una fila de una tabla para la lista global de direcciones. 
+Contiene el tipo de una entrada, con respecto a cómo se debe mostrar la entrada en una fila de una tabla para la lista global de direcciones. 
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ Contiene el tipo de una entrada, con respecto a cómo debe mostrarse la entrada 
 Esta propiedad especifica el tipo de una entrada, con respecto a cómo debe mostrarse en la lista global de direcciones. Proporciona información adicional que no se puede representar **en PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
   
 > [!NOTE]
-> Los valores de **PR_DISPLAY_TYPE** y esta propiedad comienzan por "DT_" y se definen en Mapitags.h. Todos los valores no documentados están reservados para MAPI. Las aplicaciones cliente no deben definir valores nuevos y deben estar preparadas para tratar con un valor no documentado. 
+> Los valores de **PR_DISPLAY_TYPE** y esta propiedad comienzan por "DT_" y se definen en Mapitags.h. Todos los valores no documentados están reservados para MAPI. Las aplicaciones cliente no deben definir nuevos valores y deben estar preparadas para tratar con un valor no documentado. 
   
 Hay algunas macros que pueden ayudar a determinar los atributos de un objeto, como si es local, remoto o controlado por la seguridad. Estas macros incluyen: 
   
@@ -51,7 +51,7 @@ Hay algunas macros que pueden ayudar a determinar los atributos de un objeto, co
 |DTE_MASK_LOCAL  <br/> |0x000000ff  <br/> |
 |DTE_IS_REMOTE_VALID(v)  <br/> |(!! ((v) &amp; DTE_FLAG_REMOTE_VALID)  <br/> |
 |DTE_IS_ACL_CAPABLE(v)  <br/> |(!! ((v) &amp; DTE_FLAG_ACL_CAPABLE))  <br/> |
-|DTE_REMOTE(v)  <br/> |(((v) &amp; DTE_MASK_REMOTE) \> \> 8)  <br/> |
+|DTE_REMOTE(v)  <br/> |((v) &amp; DTE_MASK_REMOTE) \> \> 8)  <br/> |
 |DTE_LOCAL(v)  <br/> |((v) &amp; DTE_MASK_LOCAL)  <br/> |
 |DT_ROOM  <br/> |((ULONG) 0x00000007)  <br/> |
 |DT_EQUIPMENT  <br/> |((ULONG) 0x00000008)  <br/> |
@@ -59,15 +59,15 @@ Hay algunas macros que pueden ayudar a determinar los atributos de un objeto, co
    
 Las siguientes son algunas notas sobre cómo usar estas macros. 
   
-- Para comprobar si una entrada es una entrada remota en otro bosque, aplique la macro DTE_IS_REMOTE_VALID al valor de esta propiedad para comprobar si la marca DTE_FLAG_REMOTE_VALID está establecida en la entrada. Si se trata de una entrada remota, puede averiguar el tipo de la entrada remota mediante el uso de la DTE_REMOTE macro. 
+- Para comprobar si una entrada es una entrada remota en otro bosque, aplique la macro DTE_IS_REMOTE_VALID al valor de esta propiedad para comprobar si la marca DTE_FLAG_REMOTE_VALID está establecida en la entrada. Si se trata de una entrada remota, puede averiguar el tipo de la entrada remota mediante la macro DTE_REMOTE. 
     
 - En las configuraciones de bosque único y entre bosques, cuando **PR_DISPLAY_TYPE** tiene el valor de DT_DISTLIST y DTE_IS_REMOTE_VALID es false, aplicar el DTE_LOCAL de macro al valor de esta propiedad puede permitir identificar aún más el tipo del objeto como DT_DISTLIST (una lista de distribución) o DT_SEC_DISTLIST (una lista de distribución de seguridad). 
     
-- Si aplica la macro DTE_LOCAL al valor de **PR_DISPLAY_TYPE_EX** devuelve el tipo DT_REMOTE_MAILUSER, la entrada es una entrada remota. 
+- Si aplica la macro DTE_LOCAL al valor de **PR_DISPLAY_TYPE_EX** y devuelve el tipo DT_REMOTE_MAILUSER, la entrada es una entrada remota. 
     
-- En un solo bosque o en una configuración entre bosques donde la replicación está controlada por una lista de control de acceso (ACL), puede usar la macro DTE_IS_ACL_CAPABLE para determinar si una entrada es una entidad de seguridad.
+- En un único bosque o en una configuración entre bosques donde la replicación está controlada por una lista de control de acceso (ACL), puede usar la macro DTE_IS_ACL_CAPABLE para determinar si una entrada es una entidad de seguridad.
     
-En una configuración entre bosques, **PR_DISPLAY_TYPE** tiene el valor de DT_REMOTE_MAILUSER. Aplicar la macro DTE_REMOTE al valor de esta propiedad puede permitir obtener el tipo de la entrada remota. Los tipos posibles de entrada remota son los siguientes: 
+En una configuración entre bosques, **PR_DISPLAY_TYPE** tiene el valor de DT_REMOTE_MAILUSER. Aplicar la macro DTE_REMOTE al valor de esta propiedad puede permitir obtener el tipo de entrada remota. Los posibles tipos de entrada remota son los siguientes: 
   
 |**Tipo de entrada remota**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
@@ -79,7 +79,7 @@ En una configuración entre bosques, **PR_DISPLAY_TYPE** tiene el valor de DT_RE
 |DT_ROOM  <br/> |((ULONG) 0x00000007)  <br/> |Sala de conferencias.  <br/> |
 |DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Lista de distribución de seguridad.  <br/> |
    
-Tanto en un bosque único como en una configuración entre bosques, cuando **PR_DISPLAY_TYPE** tiene el valor de DT_DISTLIST y DTE_IS_REMOTE_VALID es false, aplicar la macro DTE_LOCAL al valor de esta propiedad puede permitir obtener el tipo de la lista de distribución. Los tipos posibles de lista de distribución son los siguientes: 
+Tanto en un solo bosque como en una configuración entre bosques, cuando **PR_DISPLAY_TYPE** tiene el valor de DT_DISTLIST y DTE_IS_REMOTE_VALID es false, aplicar la macro DTE_LOCAL al valor de esta propiedad puede permitir obtener el tipo de lista de distribución. Los posibles tipos de lista de distribución son los siguientes: 
   
 |**Tipo de lista de distribución**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
@@ -94,9 +94,9 @@ Tanto en un bosque único como en una configuración entre bosques, cuando **PR_
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -108,13 +108,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

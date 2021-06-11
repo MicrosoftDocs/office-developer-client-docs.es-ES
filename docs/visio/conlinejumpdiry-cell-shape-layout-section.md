@@ -23,8 +23,8 @@ Determina la dirección del salto de línea para los saltos de línea que se pro
 |**Valor**|**Dirección de salto de línea**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valor predeterminado de página  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1   <br/> | Hacia la izquierda  <br/> |**visLOJumpDirYLeft** <br/> |
-| 2   <br/> | Derecha  <br/> |**visLOJumpDirYRight** <br/> |
+| 1  <br/> | Hacia la izquierda  <br/> |**visLOJumpDirYLeft** <br/> |
+| 2  <br/> | Derecha  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

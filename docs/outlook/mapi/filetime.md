@@ -40,7 +40,7 @@ typedef struct _FILETIME
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **dwLowDateTime**
   
@@ -54,9 +54,9 @@ typedef struct _FILETIME
 
 Una propiedad de tipo PT_SYSTIME tiene una **estructura FILETIME** para su valor. Dicha propiedad tiene un tipo **de datos FILETIME** para el **miembro Value** en su definición en una [estructura SPropValue.](spropvalue.md) 
   
-La definición de la **estructura FILETIME** se encuentra en la Referencia del programador de  _Win32_ y en el archivo de encabezado MAPI Mapidefs.h. MAPI define la estructura condicionalmente para asegurarse de que está definida cuando la definición de Win32 no está disponible. 
+La definición de la **estructura FILETIME** se encuentra en la Referencia del programador de  _Win32_ y en el archivo de encabezado MAPI Mapidefs.h. MAPI define la estructura condicionalmente para asegurarse de que se define cuando la definición de Win32 no está disponible. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

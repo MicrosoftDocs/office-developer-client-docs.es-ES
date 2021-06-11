@@ -32,7 +32,7 @@ Contiene el nombre de un descriptor de vista.
 |Propiedades asociadas:  <br/> |PR_VD_NAME, PR_VD_NAME_A, PR_VD_NAME_W  <br/> |
 |Identificador:  <br/> |0x7006  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Transmitible definido por clase de mensaje  <br/> |
+|Área:  <br/> |Transmitible definida por la clase message  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -42,7 +42,7 @@ Estas propiedades deben establecerse en una cadena no vacía para un mensaje de 
 
 ### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
-[[MS-OCFGCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > Especifica la ubicación y las propiedades de los datos de configuración de cliente y servidor, como listas de categorías compartidas y horas laborables.
     
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

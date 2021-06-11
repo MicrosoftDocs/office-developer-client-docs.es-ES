@@ -25,7 +25,7 @@ ms.locfileid: "33405159"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Copia o mueve mensajes de una carpeta a otra.
+Copia o mueve mensajes de una carpeta a otra carpeta.
   
 ```cpp
 HRESULT CopyMessages(
@@ -40,39 +40,39 @@ HRESULT CopyMessages(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSrcInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la carpeta que contiene los mensajes que se van a copiar o mover.
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la carpeta que contiene los mensajes que se van a copiar o mover.
     
  _lpSrcFolder_
   
-> [entrada] Puntero a la carpeta que contiene los mensajes que se van a copiar o mover.
+> [in] Puntero a la carpeta que contiene los mensajes que se van a copiar o mover.
     
  _lpMsgList_
   
-> [entrada] Puntero a una matriz de identificadores de entrada que identifican los mensajes que se van a copiar o mover. 
+> [in] Puntero a una matriz de identificadores de entrada que identifican los mensajes que se van a copiar o mover. 
     
  _lpDestInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la carpeta de destino de los mensajes copiados o movidos.
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la carpeta de destino de los mensajes copiados o movidos.
     
  _lpDestFolder_
   
-> [entrada] Puntero a la carpeta de destino para los mensajes copiados o movidos. Esta carpeta debe estar abierta.
+> [in] Puntero a la carpeta de destino de los mensajes copiados o movidos. Esta carpeta debe estar abierta.
     
  _ulUIParam_
   
-> [entrada] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El  _parámetro lpProgress_ se omite a menos que MESSAGE_DIALOG marca esté establecida en  _ulFlags_.
+> [in] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El  _parámetro lpProgress_ se omite a menos que la marca MESSAGE_DIALOG esté establecida en  _ulFlags_.
     
  _lpProgress_
   
-> [entrada] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El  _parámetro lpProgress_ se omite a menos que MESSAGE_DIALOG marca esté establecida en  _ulFlags_.
+> [in] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El  _parámetro lpProgress_ se omite a menos que la marca MESSAGE_DIALOG esté establecida en  _ulFlags_.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se realiza la operación de copia o movimiento. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se realiza la operación de copiar o mover. Se pueden establecer las siguientes marcas:
     
 MESSAGE_DIALOG 
   
@@ -80,23 +80,23 @@ MESSAGE_DIALOG
     
 MESSAGE_MOVE 
   
-> Los mensajes deben moverse, en lugar de copiarse. Si MESSAGE_MOVE no está establecido, se copian los mensajes.
+> Los mensajes deben moverse, en lugar de copiarse. Si MESSAGE_MOVE no está establecido, los mensajes se copian.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La operación de copia o movimiento se ha realizado correctamente.
+> La operación de copiar o mover se ha realizado correctamente.
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón Cancelar** de un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::CopyMessages** se implementa para objetos de compatibilidad del proveedor de al almacenamiento de mensajes. Los proveedores de almacenamiento de mensajes pueden llamar a **IMAPISupport::CopyMessages** en su implementación de [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) para copiar o mover uno o más mensajes de una carpeta a otra. Como parte de la **llamada IMAPISupport::CopyMessages,** el proveedor del almacén de mensajes puede especificar que MAPI debe mostrar un indicador de progreso. 
+El **método IMAPISupport::CopyMessages** se implementa para objetos de soporte del proveedor del almacén de mensajes. Los proveedores de almacén de mensajes pueden llamar a **IMAPISupport::CopyMessages** en su implementación de [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) para copiar o mover uno o varios mensajes de una carpeta a otra. Como parte de la **llamada IMAPISupport::CopyMessages,** el proveedor del almacén de mensajes puede especificar que MAPI debe mostrar un indicador de progreso. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

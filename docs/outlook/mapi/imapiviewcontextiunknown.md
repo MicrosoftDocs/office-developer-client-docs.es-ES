@@ -36,7 +36,7 @@ Administra un formulario en el visor de formularios de una aplicación cliente.
 |Identificador de interfaz:  <br/> |IID_IMAPIViewContext  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIVIEWCONTEXT  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -44,10 +44,10 @@ Administra un formulario en el visor de formularios de una aplicación cliente.
 |[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Activa el mensaje siguiente o anterior en el visor de formularios.  <br/> |
 |[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Recupera la información de impresión actual.  <br/> |
 |[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Recupera una secuencia que se usará para guardar el mensaje actual.  <br/> |
-|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Recupera el estado del visor actual.  <br/> |
-|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de contexto de vista.  <br/> |
+|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Recupera el estado actual del visor.  <br/> |
+|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjo en el objeto de contexto de vista.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

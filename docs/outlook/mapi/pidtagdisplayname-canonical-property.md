@@ -32,13 +32,13 @@ Contiene el nombre para mostrar de un objeto MAPI determinado.
 |Propiedades asociadas:  <br/> |PR_DISPLAY_NAME, PR_DISPLAY_NAME_A, PR_DISPLAY_NAME_W  <br/> |
 |Identificador:  <br/> |0x3001  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Mapi común  <br/> |
+|Área:  <br/> |MAPI común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Las carpetas requieren que las subcarpetas del mismo nivel tengan nombres para mostrar únicos. Por ejemplo, si una carpeta contiene dos subcarpetas, las dos subcarpetas no pueden usar el mismo valor para esta propiedad. Esta restricción no se aplica a otros contenedores, como libretas de direcciones y listas de distribución. 
+Las carpetas requieren subcarpetas del mismo nivel para tener nombres para mostrar únicos. Por ejemplo, si una carpeta contiene dos subcarpetas, las dos subcarpetas no pueden usar el mismo valor para esta propiedad. Esta restricción no se aplica a otros contenedores, como libretas de direcciones y listas de distribución. 
   
-Los proveedores de servicios deben establecer el valor de esta propiedad para que contenga tanto el tipo de proveedor como la información de configuración. La información adicional ayuda a distinguir entre instancias de proveedores del mismo tipo. Los proveedores no configurados deben usar una cadena que nombra al proveedor. Los proveedores configurados deben usar la misma cadena seguida de una cadena distintiva entre paréntesis. Por ejemplo, un proveedor de almacenamiento de mensajes no configurado podría establecer estas propiedades en: 
+Los proveedores de servicios deben establecer el valor de esta propiedad para que contenga tanto el tipo de proveedor como la información de configuración. La información adicional ayuda a distinguir entre instancias de proveedores del mismo tipo. Los proveedores no configurados deben usar una cadena que nombra al proveedor. Los proveedores configurados deben usar la misma cadena seguida de una cadena distintiva entre paréntesis. Por ejemplo, un proveedor de almacén de mensajes no configurado puede establecer estas propiedades en: 
   
 Almacén de información personal
   
@@ -49,7 +49,7 @@ Almacén de información personal (6 de febrero de 1998)
 Para los objetos de estado, estas propiedades contienen el nombre del componente que puede mostrar la interfaz de usuario. 
   
 > [!NOTE]
-> Los punto y coma no se pueden usar dentro de los nombres de destinatario en la mensajería MAPI. 
+> Los puntos y coma no se pueden usar dentro de los nombres de destinatarios en la mensajería MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -61,7 +61,7 @@ Para los objetos de estado, estas propiedades contienen el nombre del componente
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
@@ -69,19 +69,19 @@ Para los objetos de estado, estas propiedades contienen el nombre del componente
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 [[MS-XWDVSEC]](https://msdn.microsoft.com/library/dc043d09-6b76-4392-aea3-68f8e81c64d8%28Office.15%29.aspx)
   
-> Amplía el protocolo WebDAV que especifica cómo solicitar y establecer el descriptor de seguridad de Exchange mediante métodos WebDAV.
+> Amplía el protocolo WebDAV que especifica cómo solicitar y establecer el descriptor de seguridad Exchange mediante métodos WebDAV.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -93,7 +93,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -102,7 +102,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

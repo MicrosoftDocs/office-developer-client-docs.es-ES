@@ -21,13 +21,13 @@ ms.locfileid: "33405355"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La tabla del almacén de mensajes contiene información acerca de los proveedores de al almacenamiento de mensajes en el perfil actual. Hay una tabla de almacenamiento de mensajes para cada sesión MAPI, implementada por MAPI y usada por los clientes. Los clientes pueden usar esta tabla, por ejemplo, para buscar todas las instancias de un proveedor determinado o para localizar un almacén de mensajes específico. 
+La tabla de almacén de mensajes contiene información sobre los proveedores de almacén de mensajes en el perfil actual. Hay una tabla de almacén de mensajes para cada sesión MAPI, implementada por MAPI y usada por los clientes. Los clientes pueden usar esta tabla, por ejemplo, para buscar todas las instancias de un proveedor determinado o para buscar un almacén de mensajes específico. 
   
-La tabla del almacén de mensajes es dinámica. Si el usuario de una aplicación cliente edita el perfil, cambiando el almacén de mensajes predeterminado, por ejemplo, los valores de las propiedades **PR_DEFAULT_STORE** de los almacenes de mensajes afectados se actualizan inmediatamente. 
+La tabla de almacén de mensajes es dinámica. Si el usuario de una aplicación cliente edita el perfil, cambiando el almacén de mensajes predeterminado, por ejemplo, los valores de las propiedades **PR_DEFAULT_STORE** para los almacenes de mensajes afectados se actualizan inmediatamente. 
   
-Los clientes tienen acceso a la tabla del almacén de mensajes llamando al [método IMAPISession::GetMsgStoresTable.](imapisession-getmsgstorestable.md) 
+Los clientes tienen acceso a la tabla de almacén de mensajes mediante una llamada [al método IMAPISession::GetMsgStoresTable.](imapisession-getmsgstorestable.md) 
   
-Las siguientes propiedades son la columna necesaria establecida en la tabla del almacén de mensajes:
+Las siguientes propiedades son la columna necesaria establecida en la tabla de almacén de mensajes:
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Las siguientes propiedades son la columna necesaria establecida en la tabla del 
 |**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |
 |**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

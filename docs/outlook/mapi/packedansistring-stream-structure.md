@@ -19,11 +19,11 @@ ms.locfileid: "33404508"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La estructura de secuencias PackedAnsiString contiene una representación ANSI de una cadena, basada en la página de códigos ANSI del equipo en el que se ejecuta Microsoft Outlook. Esta cadena no termina con un carácter nulo. Los elementos de datos de esta secuencia se almacenan en orden de bytes little-endian, siguiendo inmediatamente entre sí en el orden que se muestra a continuación. Los elementos de datos reales que existen dependen de la longitud de la cadena en la representación ANSI.
+La estructura de secuencia PackedAnsiString contiene una representación ANSI de una cadena, basada en la página de código ANSI del equipo en el que se ejecuta Microsoft Outlook. Esta cadena no termina con un carácter nulo. Los elementos de datos de esta secuencia se almacenan en orden de bytes little-endian, siguiendo inmediatamente entre sí en el orden que se muestra a continuación. Los elementos de datos reales que existen dependen de la longitud de la cadena en la representación ANSI.
   
 - Para una cadena cuya representación ANSI contiene menos de 255 bytes, los elementos de datos son los siguientes:
     
-  - Longitud: BYTE (1 byte), longitud, en número de bytes, de la representación ANSI de la cadena.
+  - Length: BYTE (1 byte), la longitud, en número de bytes, de la representación ANSI de la cadena.
     
   - Caracteres: una matriz de CHAR. El recuento de esta matriz es igual al elemento de datos Length. Los datos de la matriz son la representación ANSI de la cadena.
     
@@ -31,17 +31,17 @@ La estructura de secuencias PackedAnsiString contiene una representación ANSI d
     
   - Prefijo: BYTE (1 byte), el valor de 255 (0xff).
     
-  - Longitud: WORD (2 bytes), la longitud, en número de bytes, de la representación ANSI de la cadena.
+  - Length: WORD (2 bytes), la longitud, en número de bytes, de la representación ANSI de la cadena.
     
   - Caracteres: una matriz de CHAR. El recuento de esta matriz es igual al elemento de datos Length. Los datos de la matriz son la representación ANSI de la cadena.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
-[Elementos y campos de Outlook](outlook-items-and-fields.md)
+[Outlook Elementos y campos](outlook-items-and-fields.md)
   
-[Estructuras de flujo](stream-structures.md)
+[Estructuras de secuencias](stream-structures.md)
   
 [Estructura de secuencia FieldDefinition](fielddefinition-stream-structure.md)
 

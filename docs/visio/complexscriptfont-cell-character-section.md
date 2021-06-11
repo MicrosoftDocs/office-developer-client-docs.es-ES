@@ -22,7 +22,7 @@ Contiene el número de la fuente empleada para dar formato a un texto compuesto 
   
 ## <a name="remarks"></a>Comentarios
 
-Los tamaños de fuente  de script complejos aparecen en la  ficha Fuente del cuadro de diálogo Texto (haga clic en la flecha del grupo Fuente de la **ficha** Inicio).  Esta lista aparece solo si agregó un idioma que contiene caracteres de script complejos o asiáticos en el cuadro de diálogo **Preferencias de idioma de Microsoft Office**. (Haga clic en **Inicio**, **Todos los programas**, **Microsoft Office**, **Herramientas de Microsoft Office** y, a continuación, en **Preferencias de idioma de Microsoft Office**).
+Los tamaños de fuente de script complejos se enumeran en  la **ficha** Fuente del **cuadro** de diálogo Texto (haga clic en la flecha del grupo Fuente de la **ficha** Inicio). Esta lista aparece solo si agregó un idioma que contiene caracteres de script complejos o asiáticos en el cuadro de diálogo **Preferencias de idioma de Microsoft Office**. (Haga clic en **Inicio**, **Todos los programas**, **Microsoft Office**, **Herramientas de Microsoft Office** y, a continuación, en **Preferencias de idioma de Microsoft Office**).
   
 El número cero (0) indica que no hay ninguna fuente especificada. Se usará la fuente Latin o fuentes predeterminadas.
   

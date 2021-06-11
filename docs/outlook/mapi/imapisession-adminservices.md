@@ -34,7 +34,7 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -48,11 +48,11 @@ HRESULT AdminServices(
 
 S_OK 
   
-> Se devolvió correctamente un puntero a un objeto de administración del servicio de mensajes.
+> Se ha devuelto correctamente un puntero a un objeto de administración del servicio de mensajes.
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-El **método IMAPISession::AdminServices** crea un objeto de administración del servicio de mensajes, un objeto que admite la interfaz **IMsgServiceAdmin** y devuelve un puntero. Mediante este puntero, puede llamar a los métodos **IMsgServiceAdmin** para cambiar cualquiera de los servicios de mensajes en el perfil de sesión. Tenga en cuenta que estos cambios no tienen efecto hasta la siguiente sesión; la sesión actual no se ha afectado. 
+El **método IMAPISession::AdminServices** crea un objeto de administración del servicio de mensajes, un objeto que admite la interfaz **IMsgServiceAdmin** y devuelve un puntero. Con este puntero, puede llamar a **los métodos IMsgServiceAdmin** para cambiar cualquiera de los servicios de mensajes del perfil de sesión. Tenga en cuenta que estos cambios no tienen efecto hasta la siguiente sesión; la sesión actual no se ha afectado. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -60,9 +60,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI usa el **método IMAPISession::AdminServices** para tener acceso al perfil y leer el nombre del servidor.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI usa el **método IMAPISession::AdminServices** para obtener acceso al perfil para leer el nombre del servidor.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -41,17 +41,17 @@ SCODE ScCountProps(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cprop_
   
-> [entrada] Número de propiedades de la matriz indicada por el _parámetro rgprop._ 
+> [in] Recuento de propiedades en la matriz indicada por el _parámetro rgprop._ 
     
  _rgprop_
   
-> [entrada] Puntero a un rango en una matriz de [estructuras SPropValue](spropvalue.md) que define las propiedades cuyo tamaño se va a determinar. Este intervalo no comienza necesariamente al principio de la matriz. 
+> [in] Puntero a un rango de una matriz de [estructuras SPropValue](spropvalue.md) que define las propiedades cuyo tamaño se va a determinar. Este intervalo no se inicia necesariamente al principio de la matriz. 
     
- _indeste_
+ _pcb_
   
 > [salida] Puntero opcional al tamaño, en bytes, de la matriz de propiedades.
     
@@ -63,15 +63,15 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER 
   
-> Al menos una propiedad de la matriz de valores de propiedad tiene un identificador de PROP_ID_NULL o PROP_ID_INVALID, o la matriz de propiedades contiene una propiedad de varios valores sin valores de propiedad.
+> Al menos una propiedad de la matriz de valores de propiedad tiene un identificador de PROP_ID_NULL o PROP_ID_INVALID, o la matriz de propiedades contiene una propiedad multivalor sin valores de propiedad.
     
 ## <a name="remarks"></a>Comentarios
 
-Si se pasa NULL en el parámetro  _de bytes,_ la función **ScCountProps** valida la matriz de notificaciones, pero no se realiza ningún recuento. Si se pasa un valor que no es nulo en la celda _,_ la función **ScCountNotifications** determina el tamaño de la matriz y almacena la _causa._ El  _parámetrodimensional_ debe ser lo suficientemente grande como para contener toda la matriz. 
+Si se pasa NULL en el  _parámetro pcb,_ la función **ScCountProps** valida la matriz de notificaciones, pero no se realiza ningún recuento. Si se pasa un valor que no es nulo en  _pcb_, la función **ScCountNotifications** determina el tamaño de la matriz y almacena la  _causa pcb_. El  _parámetro pcb_ debe ser lo suficientemente grande como para contener toda la matriz. 
   
-A medida que se cuenta, **ScCountProps** valida la memoria asociada a la matriz. **ScCountProps** solo funciona con propiedades sobre las que MAPI tiene información. 
+Al contar, **ScCountProps** valida la memoria asociada a la matriz. **ScCountProps solo** funciona con propiedades sobre las que MAPI tiene información. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

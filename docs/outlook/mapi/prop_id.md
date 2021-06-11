@@ -36,7 +36,7 @@ Devuelve el identificador de propiedad de una etiqueta de propiedad especificada
 PROP_ID (ulPropTag)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   
@@ -44,11 +44,11 @@ PROP_ID (ulPropTag)
     
 ## <a name="remarks"></a>Comentarios
 
-Cada etiqueta de propiedad contiene el tipo de propiedad en la palabra de orden bajo (bits 0 a 15) y el identificador de propiedad en la palabra de orden alto (bits 16 a 31). La **PROP_ID** macro extrae el identificador de propiedad y lo coloca en bits del 0 al 15 del entero que se va a devolver. Los bits restantes del valor devuelto se establecen en ceros. 
+Cada etiqueta de propiedad contiene el tipo de propiedad en la palabra de orden bajo (bits 0 a 15) y el identificador de propiedad en la palabra de orden alto (bits 16 a 31). La **PROP_ID** extrae el identificador de propiedad y lo coloca en los bits 0 a 15 del entero que se va a devolver. Los bits restantes del valor devuelto se establecen en ceros. 
   
-La **PROP_ID** macro se puede usar, por ejemplo, para recuperar un identificador para pasar a [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). **GetNamesFromIDs** recupera el nombre de propiedad asociado a un identificador de una propiedad con nombre. 
+La **PROP_ID** puede usarse, por ejemplo, para recuperar un identificador para pasarlo a [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). **GetNamesFromIDs** recupera el nombre de propiedad asociado a un identificador de una propiedad con nombre. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

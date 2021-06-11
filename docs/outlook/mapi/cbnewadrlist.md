@@ -36,13 +36,13 @@ Calcula el número de bytes que se deben asignar para una nueva estructura [ADRL
 CbNewADRLIST (_centries)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _centries_
   
-> Número de **estructuras ADRENTRY** que se incluirán en la nueva **estructura ADRLIST.** 
+> Recuento de **estructuras ADRENTRY** que se incluirán en la nueva **estructura ADRLIST.** 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

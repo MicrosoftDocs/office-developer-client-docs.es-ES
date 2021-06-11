@@ -35,15 +35,15 @@ HRESULT InstallForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método. El _parámetro ulUIParam_ se omite a menos que la aplicación cliente MAPI_DIALOG marca en el _parámetro ulFlags._ El  _parámetro ulUIParam_ puede ser NULL si MAPI_DIALOG no se pasa. 
+> [in] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método. El _parámetro ulUIParam_ se omite a menos que la aplicación cliente MAPI_DIALOG marca en el _parámetro ulFlags._ El  _parámetro ulUIParam_ puede ser NULL si MAPI_DIALOG no se pasa. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla la instalación del formulario. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla la instalación del formulario. Se pueden establecer las siguientes marcas:
     
 MAPI_DIALOG 
   
@@ -51,7 +51,7 @@ MAPI_DIALOG
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
 MAPIFORM_INSTALL_OVERWRITEONCONFLICT 
   
@@ -59,7 +59,7 @@ MAPIFORM_INSTALL_OVERWRITEONCONFLICT
     
  _szCfgPathName_
   
-> [entrada] Ruta de acceso al archivo de configuración del formulario.
+> [in] Ruta de acceso al archivo de configuración del formulario.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -69,15 +69,15 @@ S_OK
     
 MAPI_E_EXTENDED_ERROR 
   
-> Se produjo un error de implementación. Para obtener la [estructura MAPIERROR](mapierror.md) asociada al error, llame al método [IMAPIFormContainer::GetLastError.](imapiformcontainer-getlasterror.md) 
+> Se ha producido un error de implementación. Para obtener la [estructura MAPIERROR](mapierror.md) asociada al error, llame al método [IMAPIFormContainer::GetLastError.](imapiformcontainer-getlasterror.md) 
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la instalación del formulario, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. 
+> El usuario canceló la instalación del formulario, normalmente haciendo clic en el **botón Cancelar** de un cuadro de diálogo. 
     
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Los proveedores de bibliotecas de formularios deben rellenar una **estructura MAPIERROR** y devolver MAPI_E_EXTENDED_ERROR si se produce alguna de las siguientes condiciones: 
+Los proveedores de bibliotecas de formularios deben rellenar una estructura **MAPIERROR** y devolver MAPI_E_EXTENDED_ERROR si se produce alguna de las siguientes condiciones: 
   
 - No se encuentra el archivo de configuración.
     
@@ -89,17 +89,17 @@ Los proveedores de bibliotecas de formularios deben rellenar una **estructura MA
 
 Las aplicaciones cliente llaman **al método IMAPIFormContainer::InstallForm** para instalar un formulario en un contenedor de formulario específico. El  _parámetro szCfgPathName_ debe contener la ruta de acceso de un archivo de configuración de formulario (es decir, un archivo con la extensión .cfg que describe el formulario y su implementación). Las marcas del parámetro  _ulFlags_ especifican lo siguiente: 
   
-- Si se MAPI_DIALOG marca, se muestra una interfaz de usuario, lo que permite al usuario que está instalando el formulario especificar los detalles de instalación.
+- Si se MAPI_DIALOG marca, se muestra una interfaz de usuario, lo que permite al usuario que está instalando el formulario especificar detalles de instalación.
     
-- Si se MAPIFORM_INSTALL_OVERWRITEONCONFLICT marca, cualquier formulario anterior para la misma clase de mensaje se reemplaza por el formulario que se está instalando. De lo contrario, la instalación del formulario se combina con la descripción del formulario actual, si existe.
+- Si se MAPIFORM_INSTALL_OVERWRITEONCONFLICT marca, cualquier formulario anterior para la misma clase de mensaje se reemplaza por el formulario que se va a instalar. De lo contrario, la instalación del formulario se combina con la descripción del formulario actual, si existe.
     
 - Si MAPI_DIALOG se establece, MAPIFORM_INSTALL_OVERWRITEONCONFLICT se omite.
     
-- La ausencia de MAPIFORM_INSTALL_OVERWRITEONCONFLICT en el conjunto de marcas significa que se realizará una combinación. Se instalarán las nuevas plataformas del archivo .cfg que no estén presentes actualmente en la descripción del formulario y no se producirán otros cambios.
+- La ausencia de MAPIFORM_INSTALL_OVERWRITEONCONFLICT en el conjunto de marcas significa que se realizará una combinación. Se instalarán todas las plataformas nuevas del archivo .cfg que no estén presentes actualmente en la descripción del formulario y no se producirán otros cambios.
     
 - Si se MAPI_UNICODE marca, la ruta de acceso del archivo de configuración del formulario es una cadena Unicode. 
     
-Los clientes deben llamar a [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) si **InstallForm** devuelve MAPI_E_EXTENDED_ERROR y deben comprobar la estructura [MAPIERROR](mapierror.md) devuelta para determinar la condición que ha producido el error. 
+Los clientes deben llamar a [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) si **InstallForm** devuelve MAPI_E_EXTENDED_ERROR y deben comprobar la estructura [MAPIERROR](mapierror.md) devuelta para determinar la condición que produjo el error. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -107,9 +107,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnInstallForm  <br/> |MFCMAPI usa el **método IMAPIFormContainer::InstallForm** para instalar un formulario en un contenedor de formularios.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnInstallForm  <br/> |MFCMAPI usa el **método IMAPIFormContainer::InstallForm** para instalar un formulario en un contenedor de formulario.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

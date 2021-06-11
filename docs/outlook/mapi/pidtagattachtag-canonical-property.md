@@ -38,11 +38,11 @@ Contiene un identificador de objeto ASN.1 que especifica la aplicación que prop
 
 Esta propiedad identifica la aplicación que generó originalmente los datos adjuntos.
   
- **Nota** Las **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) y **PR_ATTACH_TAG** propiedades no deben confundirse. No están emparejados ni relacionados. **PR_ATTACH_ENCODING** identifica el algoritmo usado para transformar los datos de un archivo adjunto. "Object" tiene un significado mucho más general en el identificador de objeto de término y en el uso de X.400, que en la programación orientada a objetos. 
+ **Nota** Las **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) y **PR_ATTACH_TAG** propiedades no deben confundirse. No están emparejados ni relacionados. **PR_ATTACH_ENCODING** identifica el algoritmo usado para transformar los datos de un archivo adjunto. "Object" tiene un significado mucho más general en el identificador de objeto de término, y en el uso de X.400, que en la programación orientada a objetos. 
   
-La sintaxis del identificador de objeto y los identificadores de objeto de ejemplo se definen en el MAPIOID. Archivo de encabezado H. Los valores **PR_ATTACH_TAG** no se limitan a los definidos en MAPIOID.H. 
+La sintaxis del identificador de objeto y los identificadores de objeto de ejemplo se definen en MAPIOID. Archivo de encabezado H. Los valores **PR_ATTACH_TAG** no se limitan a los definidos en MAPIOID.H. 
   
-Para obtener información completa sobre estos identificadores de objeto, consulte la documentación sobre ASN.1, X.208 y X.209. El identificador del objeto se encuentra en el elemento de referencia de la aplicación del entorno de la parte del cuerpo de transferencia de archivos (FTBP). 
+Para obtener información completa sobre estos identificadores de objeto, consulte la documentación de ASN.1, X.208 y X.209. El identificador de objeto se encuentra en el elemento de referencia de la aplicación del entorno de la parte del cuerpo de transferencia de archivos (FTBP). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Para obtener información completa sobre estos identificadores de objeto, consul
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -62,7 +62,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -71,7 +71,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

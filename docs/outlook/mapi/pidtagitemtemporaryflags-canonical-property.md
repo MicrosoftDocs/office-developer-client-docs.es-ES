@@ -25,7 +25,7 @@ ms.locfileid: "32357704"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una marca que indica que un mensaje se ha leído, pero no se ha marcado como leído.
+Contiene una marca que indica que se ha leído un mensaje, pero que no se ha marcado como leído.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene una marca que indica que un mensaje se ha leído, pero no se ha marcado
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa en la carpeta de búsqueda Mensajes no leídos de Outlook para realizar un seguimiento de los mensajes que se han leído sin marcarlos realmente como leídos, lo que los quitaría de la carpeta. Cuando la vista cambia, esta propiedad se quita y el elemento se marca como leído. Esta propiedad no se sincronizará con el Exchange Server.
+Esta propiedad se usa en la carpeta de búsqueda Mensajes no leídos de Outlook para realizar un seguimiento de los mensajes que se han leído sin marcarlos como leídos, lo que los quitaría de la carpeta. Cuando la vista cambia, esta propiedad se quita y el elemento se marca como leído. Esta propiedad no se sincronizará con el Exchange Server.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

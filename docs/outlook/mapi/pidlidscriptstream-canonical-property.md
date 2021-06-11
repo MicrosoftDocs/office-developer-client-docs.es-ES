@@ -31,7 +31,7 @@ Representa el código escrito en Visual Basic Scripting Edition (VBScript) detr�
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidScriptStream  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008541  <br/> |
+|Id. largo (LID):  <br/> |0x00008541  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
@@ -49,13 +49,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

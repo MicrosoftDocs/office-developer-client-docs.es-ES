@@ -29,15 +29,15 @@ BOOL MNLS_IsBadStringPtrW(
   UINT ucchMax);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
-> [entrada] Puntero a la cadena de caracteres anchos.
+> [in] Puntero a la cadena de caracteres ancho.
     
  _ucchMax_
   
-> [entrada] Longitud máxima de la cadena en caracteres incluido el terminador.
+> [in] Longitud máxima de la cadena en caracteres incluido el terminador.
     
 ## <a name="return-value"></a>Valor devuelto
 

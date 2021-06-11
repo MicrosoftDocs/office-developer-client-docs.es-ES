@@ -31,13 +31,13 @@ Especifica la hora de señal inicial de un aviso.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidReminderTime  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008502  <br/> |
+|Id. largo (LID):  <br/> |0x00008502  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para los objetos de calendario, esta propiedad representa la hora en que el usuario llegaría tarde, que es la hora de inicio de la cita. Los clientes deben establecer el valor en hora universal coordinada (UTC).
+Para los objetos de calendario, esta propiedad representa la hora en que el usuario llegaría tarde, que es la hora de inicio de la cita. Los clientes deben establecer el valor en Hora universal coordinada (UTC).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

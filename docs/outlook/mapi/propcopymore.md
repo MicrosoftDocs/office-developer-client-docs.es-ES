@@ -42,7 +42,7 @@ SCODE PropCopyMore(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSPropValueDest_
   
@@ -50,21 +50,21 @@ SCODE PropCopyMore(
     
  _lpSPropValueSrc_
   
-> [entrada] Puntero a la [estructura SPropValue](spropvalue.md) que contiene el valor de propiedad que se va a copiar. 
+> [in] Puntero a la [estructura SPropValue](spropvalue.md) que contiene el valor de la propiedad que se va a copiar. 
     
  _lpfAllocMore_
   
-> [entrada] Puntero a la [función MAPIAllocateMore](mapiallocatemore.md) que se usará para asignar memoria adicional si la ubicación de destino no es lo suficientemente grande como para contener la propiedad que se va a copiar. 
+> [in] Puntero a la [función MAPIAllocateMore](mapiallocatemore.md) que se usará para asignar memoria adicional si la ubicación de destino no es lo suficientemente grande como para contener la propiedad que se va a copiar. 
     
  _lpvObject_
   
-> [entrada] Puntero a un objeto para el que **MAPIAllocateMore** asignará espacio si es necesario. 
+> [in] Puntero a un objeto para el que **MAPIAllocateMore** asignará espacio si es necesario. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK
   
-> El valor de la propiedad única se copió correctamente.
+> El valor de propiedad única se copió correctamente.
     
 MAPI_E_NO_SUPPORT
   
@@ -72,10 +72,10 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentarios
 
-Una aplicación cliente o un proveedor de servicios puede usar la función **PropCopyMore** para copiar una propiedad de una tabla que está a punto de liberarse para usarla en otro lugar. 
+Una aplicación cliente o un proveedor de servicios pueden usar la función **PropCopyMore** para copiar una propiedad de una tabla que está a punto de liberarse para usarla en otro lugar. 
   
- **PropCopyMore** no necesita asignar memoria a menos que el valor de propiedad copiado sea de un tipo, como PT_STRING8, que no cabe en una estructura [SPropValue.](spropvalue.md) Para estas propiedades de gran tamaño, la función asigna memoria mediante la función [MAPIAllocateMore](mapiallocatemore.md) a la que se pasa un puntero en el parámetro _lpfAllocMore._ 
+ **PropCopyMore** no necesita asignar memoria a menos que el valor de propiedad copiado sea de un tipo, como PT_STRING8, que no cabe en una estructura [SPropValue.](spropvalue.md) Para estas propiedades grandes, la función asigna memoria mediante la función [MAPIAllocateMore](mapiallocatemore.md) a la que se pasa un puntero en el _parámetro lpfAllocMore._ 
   
-Uso injudioso de la memoria de fragmentos **propCopyMore;** considere la posibilidad de [usar la función ScCopyProps](sccopyprops.md) en su lugar. 
+Uso juicioso de la memoria de fragmentos **propCopyMore;** considere la posibilidad de [usar la función ScCopyProps](sccopyprops.md) en su lugar. 
   
 

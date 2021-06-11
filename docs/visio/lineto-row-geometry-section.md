@@ -18,13 +18,13 @@ ms.locfileid: "33404732"
 ---
 # <a name="lineto-row-geometry-section"></a>Fila LineTo (Sección de Geometría)
 
-Contiene  *las coordenadas x*  -e  *y*  del vértice final de un segmento de línea recta. 
+Contiene  *las coordenadas x*  *-e y*  del vértice final de un segmento de línea recta. 
   
 Las filas LineTo contienen las celdas siguientes.
   
 |**Cell**|**Descripción**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordenada  *x*  del vértice final de un segmento de línea recta.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |La coordenada  *x*  del vértice final de un segmento de línea recta.  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |*Coordenada y* del vértice final de un segmento de línea recta.  <br/> |
    
 

@@ -21,25 +21,25 @@ ms.locfileid: "33405257"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La recuperación de filas de una tabla implica lo siguiente:
+Recuperar filas de una tabla implica:
   
 - Obtener los valores de propiedad de todas las columnas.
     
 - Modificar la posición actual.
     
-Una de las columnas necesarias en la mayoría de las tablas es un identificador de entrada (la propiedad **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), que se puede usar para abrir el objeto que representa la fila. Este identificador de entrada suele ser un identificador de entrada a corto plazo, que no persiste más allá de la duración de la tabla. Sin embargo, puede ser un identificador a largo plazo si el proveedor de servicios que implementa la tabla solo admite un tipo de identificador de entrada.
+Una de las columnas necesarias en la mayoría de las tablas es un identificador de entrada **( la** propiedad PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) que se puede usar para abrir el objeto que representa la fila. Este identificador de entrada suele ser un identificador de entrada a corto plazo, que no persiste más allá de la duración de la tabla. Sin embargo, puede ser un identificador a largo plazo si el proveedor de servicios que implementa la tabla solo admite un tipo de identificador de entrada.
   
 Los clientes y proveedores de servicios pueden realizar una de las siguientes llamadas para recuperar filas:
   
 |||
 |:-----|:-----|
-|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Recupera un número especificado de filas empezando por la fila actual en dirección hacia delante o hacia atrás.  <br/> |
+|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Recupera un número especificado de filas a partir de la fila actual en una dirección hacia delante o hacia atrás.  <br/> |
 |[HrQueryAllRows](hrqueryallrows.md) <br/> |Recupera todas las filas de una tabla.  <br/> |
 |[ITableData::HrQueryRow](itabledata-hrqueryrow.md) <br/> |Recupera una fila de una tabla según el valor de su columna de índice. **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) suele ser la columna de índice de una tabla.  <br/> |
    
-Cuando se incluye una propiedad opcional como una de las columnas de una tabla, es posible que algunas de las filas tengan valores válidos para la columna, mientras que otras podrían no hacerlo. Si existe un valor válido para una columna depende de si el objeto que proporciona la información de la fila establece la propiedad. Según la implementación del objeto, una propiedad inexistente se puede representar en la tabla como **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) o un valor arbitrario. Los usuarios de tablas deben tener cuidado de diferenciar entre propiedades que no existen y que tienen valores y propiedades sin sentido que existen y tienen valores válidos. 
+Cuando se incluye una propiedad opcional como una de las columnas de una tabla, es posible que algunas de las filas tengan valores válidos para la columna, mientras que otras no. Si existe un valor válido para una columna depende de si el objeto que proporciona la información de la fila establece la propiedad. Según la implementación del objeto, una propiedad inexistente se puede representar en la tabla como **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) o un valor arbitrario. Los usuarios de tablas deben tener cuidado de diferenciar entre propiedades que no existen y que tienen valores y propiedades sin sentido que existen y tienen valores válidos. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

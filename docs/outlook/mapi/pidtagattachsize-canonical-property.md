@@ -36,7 +36,7 @@ Contiene la suma, en bytes, de los tamaños de todas las propiedades de un archi
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los subobjetos adjuntos **exponán la PR_ATTACH_SIZE** datos adjuntos. La suma contenida en **PR_ATTACH_SIZE** incluye el tamaño de la propiedad **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) o **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). En consecuencia, **PR_ATTACH_SIZE** suele ser mayor que el contenido de los datos adjuntos únicamente. 
+Se recomienda que los subobjetos adjuntos **exponán la PR_ATTACH_SIZE** propiedad. La suma contenida en **PR_ATTACH_SIZE** incluye el tamaño de la propiedad **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) o **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Por lo tanto, **PR_ATTACH_SIZE** suele ser mayor que el contenido de los datos adjuntos solo. 
   
 Esta propiedad se puede usar para comprobar el tamaño aproximado de los datos adjuntos antes de realizar una transferencia remota por módem y para mostrar indicadores de progreso al guardar los datos adjuntos en el disco. Es especialmente útil con objetos OLE adjuntos. 
   
@@ -46,7 +46,7 @@ Esta propiedad se puede usar para comprobar el tamaño aproximado de los datos a
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -58,7 +58,7 @@ mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -67,7 +67,7 @@ mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

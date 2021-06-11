@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm360
 localization_priority: Normal
 ms.assetid: 55834445-8619-f79a-aea0-0f6a1780e016
-description: Representa una cadena que pasa información que se utiliza en una dirección URL, como las coordenadas de un mapa de imagen. Por ejemplo, en la celda ExtraInfo, x=41 y=7 especifica las coordenadas &amp; de un mapa de imagen.
+description: Representa una cadena que pasa información que se utiliza en una dirección URL, como las coordenadas de un mapa de imagen. Por ejemplo, en la celda ExtraInfo, x=41 &amp; y=7 especifica las coordenadas de un mapa de imágenes.
 ms.openlocfilehash: df2886ef7911b484cc60e8a476bfa53369fbf646
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33409576"
 ---
 # <a name="extrainfo-cell-hyperlinks-section"></a>Celda ExtraInfo (Sección de hipervínculos)
 
-Representa una cadena que pasa información que se utiliza en una dirección URL, como las coordenadas de un mapa de imagen. Por ejemplo, en la celda ExtraInfo, "x=41 y=7" especifica las coordenadas &amp; de un mapa de imágenes.
+Representa una cadena que pasa información que se utiliza en una dirección URL, como las coordenadas de un mapa de imagen. Por ejemplo, en la celda ExtraInfo, "x=41 &amp; y=7" especifica las coordenadas de un mapa de imágenes.
   
 ## <a name="remarks"></a>Comentarios
 

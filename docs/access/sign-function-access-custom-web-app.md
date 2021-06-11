@@ -25,7 +25,7 @@ Devuelve el signo positivo (+1), cero (0) o negativo (-1) de la expresión espec
 
  **Sign** (*NumericExpression*) 
   
-La **función Sign** contiene el siguiente argumento. 
+La **función Sign** contiene el argumento siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|

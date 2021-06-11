@@ -37,7 +37,7 @@ S_OK
   
 > El proveedor MAPI está llevando a cabo acciones para evitar la pérdida de datos cuando se cierra el cliente MAPI.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -39,14 +39,14 @@ Representa el valor de la **propiedad dispidSharingFlavor** ([PidLidSharingFlavo
 
 La **propiedad dispidSharingFlavor** debe ser uno de los siguientes valores. 
   
-|**Valor**|**Tipo de mensaje para compartir**|
+|**Valor**|**Tipo de mensaje de uso compartido**|
 |:-----|:-----|
 |0x00020310  <br/> |Una invitación para compartir para una carpeta especial.  <br/> |
 |0x00000310  <br/> |Una invitación para compartir para una carpeta que no es una carpeta especial.  <br/> |
 |0x00020500  <br/> |Una solicitud de uso compartido.  <br/> |
 |0x00020710  <br/> |Tanto una invitación para compartir para una carpeta especial como una solicitud de uso compartido para la carpeta especial equivalente del destinatario.  <br/> |
-|0x00025100  <br/> |Respuesta para compartir que deniega una solicitud.  <br/> |
-|0x00023310  <br/> |Una respuesta para compartir que acepta una solicitud (también un tipo de invitación para compartir).  <br/> |
+|0x00025100  <br/> |Respuesta de uso compartido que niega una solicitud.  <br/> |
+|0x00023310  <br/> |Respuesta de uso compartido que acepta una solicitud (también un tipo de invitación para compartir).  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -66,13 +66,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -23,7 +23,7 @@ Determina la dirección de los caracteres de un bloque de texto.
 |**Valor**|**Dirección**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Horizontal.  <br/> |**visTxtBlkLeftToRight** <br/> |
-| 1   <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
+| 1  <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

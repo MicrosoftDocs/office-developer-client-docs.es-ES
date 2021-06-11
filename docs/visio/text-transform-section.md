@@ -22,6 +22,6 @@ Contiene información de posicionamiento acerca del bloque de texto de una forma
   
 ## <a name="remarks"></a>Comentarios
 
-Para agregar esta sección, use el cuadro de diálogo **Insertar sección** (haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección**). Establecer valores en la **sección Transformación** de texto es comparable a trabajar  con el bloque de texto mediante la herramienta **Bloque** de texto (el grupo Herramientas de la **ficha** Inicio). 
+Para agregar esta sección, use el cuadro de diálogo **Insertar sección** (haga clic con el botón secundario en la ventana ShapeSheet y haga clic en **Insertar sección**). Los valores de configuración de la **sección Transformación** de texto son comparables a trabajar con el bloque de texto mediante la herramienta **Bloque** de texto (el grupo Herramientas de la **ficha** Inicio).  
   
 

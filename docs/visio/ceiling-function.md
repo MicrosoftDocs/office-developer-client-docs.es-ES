@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251405
 localization_priority: Normal
 ms.assetid: 1a8d6d48-7ae3-5483-28d2-5b1706088a53
-description: Redondear un número de 0 (cero) a la siguiente instancia de múltiplo. Si no se especifica multiple, el número se redondea de 0 al siguiente entero.
+description: Redondear un número lejos de 0 (cero) a la siguiente instancia de varios. Si no se especifica multiple, el número se redondea de 0 al número entero siguiente.
 ms.openlocfilehash: 449f17d1b68c116cccb2635723a3f6277d0ac2a9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33404130"
 ---
 # <a name="ceiling-function"></a>Función CEILING
 
-Redondea un número de 0 (cero) a la siguiente instancia de  _varios_. Si  _no_ se especifica multiple, el número se redondea de 0 al siguiente entero. 
+Redondear un número lejos de 0 (cero) a la siguiente instancia de  _varios_. Si  _no_ se especifica multiple, el número se redondea de 0 al número entero siguiente. 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -29,11 +29,11 @@ CEILING(** *number* **, ** *multiple* ** )
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número que desea redondear.  <br/> |
-| _multiple_ <br/> |Obligatorio  <br/> |**Number** <br/> |Múltiplo al que redondear.  <br/> |
+| _multiple_ <br/> |Obligatorio  <br/> |**Number** <br/> |El múltiplo al que se redondea.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
- _El_ número  _y el_ múltiplo deben tener los mismos signos o un #NUM! se devuelve. Si no  _se_  _puede_ convertir un número o varios en un valor, #VALUE! se devuelve. Si el  _número_ o  _múltiplo_ es 0, el resultado es 0. 
+ _Número_ y  _múltiplo_ deben tener los mismos signos, o un #NUM! error se devuelve. Si no  _se_  _puede_ convertir un número o varios en un valor, #VALUE! error se devuelve. Si número  _o_  _múltiplo_ es 0, el resultado es 0. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

@@ -42,23 +42,23 @@ SCODE ScDupPropset(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cprop_
   
-> [entrada] Recuento de valores de propiedad en la matriz indicada por el _parámetro rgprop._ 
+> [in] Recuento de valores de propiedad en la matriz indicada por el _parámetro rgprop._ 
     
  _rgprop_
   
-> [entrada] Puntero a una matriz de [estructuras SPropValue](spropvalue.md) que definen los valores de propiedad que se duplicarán. 
+> [in] Puntero a una matriz de [estructuras SPropValue](spropvalue.md) que definen los valores de propiedad que se deben duplicar. 
     
  _lpAllocateBuffer_
   
-> [entrada] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria a la matriz duplicada. 
+> [in] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria a la matriz duplicada. 
     
  _prgprop_
   
-> [salida] Puntero a la posición inicial en la memoria donde se almacena la matriz duplicada devuelta de **estructuras SPropValue.** 
+> [salida] Puntero a la posición inicial en la memoria donde se almacena la matriz duplicada devuelta de estructuras **SPropValue.** 
     
 ## <a name="return-value"></a>Valor devuelto
 

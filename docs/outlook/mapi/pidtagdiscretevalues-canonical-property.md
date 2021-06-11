@@ -25,7 +25,7 @@ ms.locfileid: "33404844"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si un informe de no entrega se aplica solo a miembros discretos de una lista de distribución en lugar de a toda la lista. 
+Contiene TRUE si un informe de no entrega solo se aplica a miembros discretos de una lista de distribución en lugar de a toda la lista. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Contiene TRUE si un informe de no entrega se aplica solo a miembros discretos de
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa dentro de un informe de no entrega cuando no se pudo entregar el mensaje a uno o más miembros de una lista de distribución. Su objetivo es limitar los intentos de retransmisión solo a esos miembros individuales y no a la lista de distribución en su totalidad. 
+Esta propiedad se usa en un informe de no entrega cuando el mensaje no se pudo entregar a uno o varios miembros de una lista de distribución. Su objetivo es limitar los intentos de retransmisión solo a los miembros individuales y no a la lista de distribución en su conjunto. 
   
 La tabla de destinatarios de un informe de no entrega contiene entradas para todos los destinatarios a los que no se pudo entregar el mensaje y también para las listas de distribución, si las hay, a las que pertenecen. El proveedor de transporte debe establecer esta propiedad en TRUE para cada entrada de lista de distribución y debe copiar las propiedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) y **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de la lista de distribución a **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) y **PR_ORIGINAL_SEARCH_KEY** ([PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) para cada miembro de esa lista de distribución. 
   
- **PR_DISCRETE_VALUES** no se debe establecer para ninguna entrada de destinatario de informe de no entrega que no sea una lista de distribución. 
+ **PR_DISCRETE_VALUES** no debe establecerse para ninguna entrada de destinatario de informe de no entrega que no sea una lista de distribución. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,13 +54,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
