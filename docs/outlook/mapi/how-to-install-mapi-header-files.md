@@ -15,19 +15,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 11/13/2019
 ms.locfileid: "38303164"
 ---
-# <a name="install-mapi-header-files"></a><span data-ttu-id="59064-103">Instalar los archivos de encabezado MAPI</span><span class="sxs-lookup"><span data-stu-id="59064-103">Install MAPI header files</span></span>
+# <a name="install-mapi-header-files"></a><span data-ttu-id="f09e4-103">Instalar los archivos de encabezado MAPI</span><span class="sxs-lookup"><span data-stu-id="f09e4-103">Install MAPI header files</span></span>
 
-<span data-ttu-id="59064-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="59064-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f09e4-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f09e4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="59064-105">Este tema describe cómo obtener e instalar los archivos de encabezado MAPI y los archivos de la biblioteca.</span><span class="sxs-lookup"><span data-stu-id="59064-105">This topic describes how to obtain and install MAPI header files and library files.</span></span>
+<span data-ttu-id="f09e4-105">Este tema describe cómo obtener e instalar los archivos de encabezado MAPI y los archivos de la biblioteca.</span><span class="sxs-lookup"><span data-stu-id="f09e4-105">This topic describes how to obtain and install MAPI header files and library files.</span></span>
 
-<span data-ttu-id="59064-106">Los archivos de encabezado MAPI están disponibles para su descarga en [Outlook 2010: archivos de encabezado MAPI](https://www.microsoft.com/download/details.aspx?id=12905).</span><span class="sxs-lookup"><span data-stu-id="59064-106">MAPI header files are available as a download at [Outlook 2010: MAPI Header Files](https://www.microsoft.com/download/details.aspx?id=12905).</span></span> <span data-ttu-id="59064-107">Los archivos de encabezado MAPI se instalan por defecto en la siguiente carpeta: C:\Archivos de programa\Microsoft SDKs\Office\14.0\Incluir.</span><span class="sxs-lookup"><span data-stu-id="59064-107">By default, MAPI header files are installed in the following folder: C:\Program Files\Microsoft SDKs\Office\14.0\Include.</span></span>
+<span data-ttu-id="f09e4-106">Los archivos de encabezado MAPI están disponibles para su descarga en [Outlook 2010: archivos de encabezado MAPI](https://www.microsoft.com/download/details.aspx?id=12905).</span><span class="sxs-lookup"><span data-stu-id="f09e4-106">MAPI header files are available as a download at [Outlook 2010: MAPI Header Files](https://www.microsoft.com/download/details.aspx?id=12905).</span></span> <span data-ttu-id="f09e4-107">Los archivos de encabezado MAPI se instalan por defecto en la siguiente carpeta: C:\Archivos de programa\Microsoft SDKs\Office\14.0\Incluir.</span><span class="sxs-lookup"><span data-stu-id="f09e4-107">By default, MAPI header files are installed in the following folder: C:\Program Files\Microsoft SDKs\Office\14.0\Include.</span></span>
   
-<span data-ttu-id="59064-108">Para una lista de archivos de encabezado MAPI, vea [Archivos de encabezado de uso frecuente](commonly-used-header-files.md).</span><span class="sxs-lookup"><span data-stu-id="59064-108">For a list of MAPI header files, see [Commonly Used Header Files](commonly-used-header-files.md).</span></span>
+<span data-ttu-id="f09e4-108">Para una lista de archivos de encabezado MAPI, vea [Archivos de encabezado de uso frecuente](commonly-used-header-files.md).</span><span class="sxs-lookup"><span data-stu-id="f09e4-108">For a list of MAPI header files, see [Commonly Used Header Files](commonly-used-header-files.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="59064-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="59064-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f09e4-109">Vea también</span><span class="sxs-lookup"><span data-stu-id="f09e4-109">See also</span></span>
 
-- [<span data-ttu-id="59064-110">Información general sobre programación de MAPI</span><span class="sxs-lookup"><span data-stu-id="59064-110">MAPI Programming Overview</span></span>](mapi-programming-overview.md) 
-- [<span data-ttu-id="59064-111">Vínculo a funciones MAPI</span><span class="sxs-lookup"><span data-stu-id="59064-111">Link to MAPI Functions</span></span>](how-to-link-to-mapi-functions.md)
-- [<span data-ttu-id="59064-112">Archivos de encabezado de uso frecuente</span><span class="sxs-lookup"><span data-stu-id="59064-112">Commonly Used Header Files</span></span>](commonly-used-header-files.md)
+- [<span data-ttu-id="f09e4-110">Información general sobre programación de MAPI</span><span class="sxs-lookup"><span data-stu-id="f09e4-110">MAPI Programming Overview</span></span>](mapi-programming-overview.md) 
+- [<span data-ttu-id="f09e4-111">Vínculo a funciones MAPI</span><span class="sxs-lookup"><span data-stu-id="f09e4-111">Link to MAPI Functions</span></span>](how-to-link-to-mapi-functions.md)
+- [<span data-ttu-id="f09e4-112">Archivos de encabezado de uso frecuente</span><span class="sxs-lookup"><span data-stu-id="f09e4-112">Commonly Used Header Files</span></span>](commonly-used-header-files.md)
 
