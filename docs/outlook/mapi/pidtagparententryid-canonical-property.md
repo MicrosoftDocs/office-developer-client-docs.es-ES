@@ -19,83 +19,83 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32348233"
 ---
-# <a name="pidtagparententryid-canonical-property"></a><span data-ttu-id="50b4b-103">Propiedad canónica PidTagParentEntryId</span><span class="sxs-lookup"><span data-stu-id="50b4b-103">PidTagParentEntryId Canonical Property</span></span>
+# <a name="pidtagparententryid-canonical-property"></a><span data-ttu-id="2d7e7-103">Propiedad canónica PidTagParentEntryId</span><span class="sxs-lookup"><span data-stu-id="2d7e7-103">PidTagParentEntryId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="50b4b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="50b4b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2d7e7-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2d7e7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="50b4b-105">Contiene el identificador de entrada de la carpeta que contiene una carpeta o un mensaje.</span><span class="sxs-lookup"><span data-stu-id="50b4b-105">Contains the entry identifier of the folder that contains a folder or message.</span></span>
+<span data-ttu-id="2d7e7-105">Contiene el identificador de entrada de la carpeta que contiene una carpeta o mensaje.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-105">Contains the entry identifier of the folder that contains a folder or message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="50b4b-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="50b4b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="50b4b-107">PR_PARENT_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="50b4b-107">PR_PARENT_ENTRYID</span></span>  <br/> |
-|<span data-ttu-id="50b4b-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="50b4b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="50b4b-109">0x0E09</span><span class="sxs-lookup"><span data-stu-id="50b4b-109">0x0E09</span></span>  <br/> |
-|<span data-ttu-id="50b4b-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="50b4b-110">Data type:</span></span>  <br/> |<span data-ttu-id="50b4b-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="50b4b-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="50b4b-112">Área:</span><span class="sxs-lookup"><span data-stu-id="50b4b-112">Area:</span></span>  <br/> |<span data-ttu-id="50b4b-113">Propiedades de identificador</span><span class="sxs-lookup"><span data-stu-id="50b4b-113">ID properties</span></span>  <br/> |
+|<span data-ttu-id="2d7e7-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="2d7e7-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="2d7e7-107">PR_PARENT_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="2d7e7-107">PR_PARENT_ENTRYID</span></span>  <br/> |
+|<span data-ttu-id="2d7e7-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="2d7e7-108">Identifier:</span></span>  <br/> |<span data-ttu-id="2d7e7-109">0x0E09</span><span class="sxs-lookup"><span data-stu-id="2d7e7-109">0x0E09</span></span>  <br/> |
+|<span data-ttu-id="2d7e7-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="2d7e7-110">Data type:</span></span>  <br/> |<span data-ttu-id="2d7e7-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="2d7e7-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="2d7e7-112">Área:</span><span class="sxs-lookup"><span data-stu-id="2d7e7-112">Area:</span></span>  <br/> |<span data-ttu-id="2d7e7-113">Propiedades de id.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-113">ID properties</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="50b4b-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="50b4b-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2d7e7-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="2d7e7-114">Remarks</span></span>
 
-<span data-ttu-id="50b4b-115">Esta propiedad se calcula mediante almacenes de mensajes para todas las carpetas y mensajes.</span><span class="sxs-lookup"><span data-stu-id="50b4b-115">This property is computed by message stores for all folders and messages.</span></span>
+<span data-ttu-id="2d7e7-115">Esta propiedad se calcula mediante almacenes de mensajes para todas las carpetas y mensajes.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-115">This property is computed by message stores for all folders and messages.</span></span>
   
-<span data-ttu-id="50b4b-116">Para una carpeta raíz del almacén de mensajes, esta propiedad contiene el identificador de entrada de la carpeta.</span><span class="sxs-lookup"><span data-stu-id="50b4b-116">For a message store root folder, this property contains the folder's own entry identifier.</span></span>
+<span data-ttu-id="2d7e7-116">Para una carpeta raíz del almacén de mensajes, esta propiedad contiene el identificador de entrada de la carpeta.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-116">For a message store root folder, this property contains the folder's own entry identifier.</span></span>
   
- <span data-ttu-id="50b4b-117">**PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) y esta propiedad no están relacionadas entre sí.</span><span class="sxs-lookup"><span data-stu-id="50b4b-117">**PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) and this property are not related to each other.</span></span> <span data-ttu-id="50b4b-118">Pertenecen a contextos totalmente diferentes.</span><span class="sxs-lookup"><span data-stu-id="50b4b-118">They belong to entirely different contexts.</span></span>
+ <span data-ttu-id="2d7e7-117">**PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) y esta propiedad no están relacionadas entre sí.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-117">**PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) and this property are not related to each other.</span></span> <span data-ttu-id="2d7e7-118">Pertenecen a contextos totalmente diferentes.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-118">They belong to entirely different contexts.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="50b4b-119">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="50b4b-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="2d7e7-119">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="2d7e7-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="50b4b-120">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="50b4b-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="2d7e7-120">Especificaciones del protocolo</span><span class="sxs-lookup"><span data-stu-id="2d7e7-120">Protocol specifications</span></span>
 
-<span data-ttu-id="50b4b-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="50b4b-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2d7e7-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2d7e7-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="50b4b-122">Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.</span><span class="sxs-lookup"><span data-stu-id="50b4b-122">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="2d7e7-122">Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-122">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="50b4b-123">[[MS-OXCDATA]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="50b4b-123">[[MS-OXCDATA]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2d7e7-123">[[MS-OXCDATA]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2d7e7-123">[[MS-OXCDATA]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="50b4b-124">Define las estructuras de datos básicas que se usan en operaciones remotas.</span><span class="sxs-lookup"><span data-stu-id="50b4b-124">Defines the basic data structures that are used in remote operations.</span></span>
+> <span data-ttu-id="2d7e7-124">Define las estructuras de datos básicas que se usan en operaciones remotas.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-124">Defines the basic data structures that are used in remote operations.</span></span>
     
-<span data-ttu-id="50b4b-125">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="50b4b-125">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2d7e7-125">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2d7e7-125">[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="50b4b-126">Controla las operaciones de carpeta.</span><span class="sxs-lookup"><span data-stu-id="50b4b-126">Handles folder operations.</span></span>
+> <span data-ttu-id="2d7e7-126">Controla las operaciones de carpeta.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-126">Handles folder operations.</span></span>
     
-<span data-ttu-id="50b4b-127">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="50b4b-127">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2d7e7-127">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2d7e7-127">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="50b4b-128">Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.</span><span class="sxs-lookup"><span data-stu-id="50b4b-128">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="2d7e7-128">Convierte entre IETF RFC2445, RFC2446 y RFC2447, y objetos de cita y reunión.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-128">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-<span data-ttu-id="50b4b-129">[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="50b4b-129">[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2d7e7-129">[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2d7e7-129">[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="50b4b-130">Permite el control de listas de permitidos o bloqueados y la determinación de mensajes de correo no deseado.</span><span class="sxs-lookup"><span data-stu-id="50b4b-130">Enables the handling of allow/block lists and the determination of junk email messages.</span></span>
+> <span data-ttu-id="2d7e7-130">Permite el control de listas de permitidos o bloqueados y la determinación de mensajes de correo no deseado.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-130">Enables the handling of allow/block lists and the determination of junk email messages.</span></span>
     
-<span data-ttu-id="50b4b-131">[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="50b4b-131">[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2d7e7-131">[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2d7e7-131">[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="50b4b-132">Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.</span><span class="sxs-lookup"><span data-stu-id="50b4b-132">Specifies the properties and operations for creating and locating the special folders in a mailbox.</span></span>
+> <span data-ttu-id="2d7e7-132">Especifica las propiedades y las operaciones para crear y localizar las carpetas especiales en un buzón.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-132">Specifies the properties and operations for creating and locating the special folders in a mailbox.</span></span>
     
-<span data-ttu-id="50b4b-133">[[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="50b4b-133">[[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2d7e7-133">[[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2d7e7-133">[[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="50b4b-134">Especifica el método para entregar datos de libreta de direcciones sin conexión (OAB) de servidor a cliente.</span><span class="sxs-lookup"><span data-stu-id="50b4b-134">Specifies the method of delivering offline address book (OAB) data from server to client.</span></span>
+> <span data-ttu-id="2d7e7-134">Especifica el método de entrega de datos de libreta de direcciones sin conexión (OAB) de servidor a cliente.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-134">Specifies the method of delivering offline address book (OAB) data from server to client.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="50b4b-135">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="50b4b-135">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="2d7e7-135">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="2d7e7-135">Header files</span></span>
 
-<span data-ttu-id="50b4b-136">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="50b4b-136">Mapidefs.h</span></span>
+<span data-ttu-id="2d7e7-136">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="2d7e7-136">Mapidefs.h</span></span>
   
-> <span data-ttu-id="50b4b-137">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="50b4b-137">Provides data type definitions.</span></span>
+> <span data-ttu-id="2d7e7-137">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-137">Provides data type definitions.</span></span>
     
-<span data-ttu-id="50b4b-138">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="50b4b-138">Mapitags.h</span></span>
+<span data-ttu-id="2d7e7-138">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="2d7e7-138">Mapitags.h</span></span>
   
-> <span data-ttu-id="50b4b-139">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="50b4b-139">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="2d7e7-139">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="2d7e7-139">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="50b4b-140">Consulte también</span><span class="sxs-lookup"><span data-stu-id="50b4b-140">See also</span></span>
-
-
-
-[<span data-ttu-id="50b4b-141">Propiedad canónica PidTagFolderType</span><span class="sxs-lookup"><span data-stu-id="50b4b-141">PidTagFolderType Canonical Property</span></span>](pidtagfoldertype-canonical-property.md)
+## <a name="see-also"></a><span data-ttu-id="2d7e7-140">Vea también</span><span class="sxs-lookup"><span data-stu-id="2d7e7-140">See also</span></span>
 
 
-[<span data-ttu-id="50b4b-142">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="50b4b-142">MAPI Properties</span></span>](mapi-properties.md)
+
+[<span data-ttu-id="2d7e7-141">Propiedad canónica PidTagFolderType</span><span class="sxs-lookup"><span data-stu-id="2d7e7-141">PidTagFolderType Canonical Property</span></span>](pidtagfoldertype-canonical-property.md)
+
+
+[<span data-ttu-id="2d7e7-142">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="2d7e7-142">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="50b4b-143">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="50b4b-143">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="2d7e7-143">Propiedades canónicas MAPI</span><span class="sxs-lookup"><span data-stu-id="2d7e7-143">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="50b4b-144">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="50b4b-144">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="2d7e7-144">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="2d7e7-144">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="50b4b-145">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="50b4b-145">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="2d7e7-145">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="2d7e7-145">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
