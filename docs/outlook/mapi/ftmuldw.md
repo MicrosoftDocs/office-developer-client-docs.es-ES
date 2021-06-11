@@ -19,19 +19,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406349"
 ---
-# <a name="ftmuldw"></a><span data-ttu-id="3b064-103">FtMulDw</span><span class="sxs-lookup"><span data-stu-id="3b064-103">FtMulDw</span></span>
+# <a name="ftmuldw"></a><span data-ttu-id="2984c-103">FtMulDw</span><span class="sxs-lookup"><span data-stu-id="2984c-103">FtMulDw</span></span>
 
   
   
-<span data-ttu-id="3b064-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3b064-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2984c-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2984c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3b064-105">Multiplica un entero de 64 bits sin signo por un entero de 32 bits sin signo.</span><span class="sxs-lookup"><span data-stu-id="3b064-105">Multiplies an unsigned 64-bit integer by an unsigned 32-bit integer.</span></span>
+<span data-ttu-id="2984c-105">Multiplica un entero de 64 bits sin signo por un entero de 32 bits sin signo.</span><span class="sxs-lookup"><span data-stu-id="2984c-105">Multiplies an unsigned 64-bit integer by an unsigned 32-bit integer.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3b064-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="3b064-106">Header file:</span></span>  <br/> |<span data-ttu-id="3b064-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="3b064-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="3b064-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="3b064-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="3b064-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="3b064-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="3b064-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="3b064-110">Called by:</span></span>  <br/> |<span data-ttu-id="3b064-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="3b064-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="2984c-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="2984c-106">Header file:</span></span>  <br/> |<span data-ttu-id="2984c-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="2984c-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="2984c-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="2984c-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="2984c-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="2984c-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="2984c-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="2984c-110">Called by:</span></span>  <br/> |<span data-ttu-id="2984c-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="2984c-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 FILETIME FtMulDw(
@@ -40,18 +40,18 @@ FILETIME FtMulDw(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3b064-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="3b064-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2984c-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="2984c-112">Parameters</span></span>
 
- <span data-ttu-id="3b064-113">_Multiplicador_</span><span class="sxs-lookup"><span data-stu-id="3b064-113">_Multiplier_</span></span>
+ <span data-ttu-id="2984c-113">_Multiplicador_</span><span class="sxs-lookup"><span data-stu-id="2984c-113">_Multiplier_</span></span>
   
-> <span data-ttu-id="3b064-114">[entrada] Palabra doble que contiene el multiplicador entero de 32 bits sin signo.</span><span class="sxs-lookup"><span data-stu-id="3b064-114">[in] A double word that contains the unsigned 32-bit integer multiplier.</span></span> 
+> <span data-ttu-id="2984c-114">[in] Palabra doble que contiene el multiplicador entero sin signo de 32 bits.</span><span class="sxs-lookup"><span data-stu-id="2984c-114">[in] A double word that contains the unsigned 32-bit integer multiplier.</span></span> 
     
- <span data-ttu-id="3b064-115">_Multiplicand_</span><span class="sxs-lookup"><span data-stu-id="3b064-115">_Multiplicand_</span></span>
+ <span data-ttu-id="2984c-115">_Multiplicand_</span><span class="sxs-lookup"><span data-stu-id="2984c-115">_Multiplicand_</span></span>
   
-> <span data-ttu-id="3b064-116">[entrada] Estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo que se multiplicará por el valor del parámetro _Multiplicador._</span><span class="sxs-lookup"><span data-stu-id="3b064-116">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer to be multiplied by the value in the  _Multiplier_ parameter.</span></span> 
+> <span data-ttu-id="2984c-116">[in] Estructura [FILETIME](filetime.md) que contiene el entero de 64 bits sin signo que se va a multiplicar por el valor del parámetro _Multiplier._</span><span class="sxs-lookup"><span data-stu-id="2984c-116">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer to be multiplied by the value in the  _Multiplier_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="3b064-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="3b064-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2984c-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="2984c-117">Return value</span></span>
 
-<span data-ttu-id="3b064-118">La **función FtMulDw** devuelve una **estructura FILETIME** que contiene el producto de los dos enteros.</span><span class="sxs-lookup"><span data-stu-id="3b064-118">The **FtMulDw** function returns a **FILETIME** structure that contains the product of the two integers.</span></span> <span data-ttu-id="3b064-119">Los dos parámetros de entrada permanecen sin cambios.</span><span class="sxs-lookup"><span data-stu-id="3b064-119">The two input parameters remain unchanged.</span></span> 
+<span data-ttu-id="2984c-118">La **función FtMulDw** devuelve una **estructura FILETIME** que contiene el producto de los dos enteros.</span><span class="sxs-lookup"><span data-stu-id="2984c-118">The **FtMulDw** function returns a **FILETIME** structure that contains the product of the two integers.</span></span> <span data-ttu-id="2984c-119">Los dos parámetros de entrada permanecen sin cambios.</span><span class="sxs-lookup"><span data-stu-id="2984c-119">The two input parameters remain unchanged.</span></span> 
   
 

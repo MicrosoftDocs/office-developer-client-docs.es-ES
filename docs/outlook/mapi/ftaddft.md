@@ -19,19 +19,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404767"
 ---
-# <a name="ftaddft"></a><span data-ttu-id="904cf-103">FtAddFt</span><span class="sxs-lookup"><span data-stu-id="904cf-103">FtAddFt</span></span>
+# <a name="ftaddft"></a><span data-ttu-id="503eb-103">FtAddFt</span><span class="sxs-lookup"><span data-stu-id="503eb-103">FtAddFt</span></span>
 
   
   
-<span data-ttu-id="904cf-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="904cf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="503eb-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="503eb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="904cf-105">Agrega un entero de 64 bits sin signo a otro.</span><span class="sxs-lookup"><span data-stu-id="904cf-105">Adds one unsigned 64-bit integer to another.</span></span>
+<span data-ttu-id="503eb-105">Agrega un entero de 64 bits sin signo a otro.</span><span class="sxs-lookup"><span data-stu-id="503eb-105">Adds one unsigned 64-bit integer to another.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="904cf-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="904cf-106">Header file:</span></span>  <br/> |<span data-ttu-id="904cf-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="904cf-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="904cf-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="904cf-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="904cf-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="904cf-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="904cf-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="904cf-110">Called by:</span></span>  <br/> |<span data-ttu-id="904cf-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="904cf-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="503eb-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="503eb-106">Header file:</span></span>  <br/> |<span data-ttu-id="503eb-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="503eb-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="503eb-108">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="503eb-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="503eb-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="503eb-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="503eb-110">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="503eb-110">Called by:</span></span>  <br/> |<span data-ttu-id="503eb-111">Aplicaciones cliente y proveedores de servicios</span><span class="sxs-lookup"><span data-stu-id="503eb-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 FILETIME FtAddFt(
@@ -40,18 +40,18 @@ FILETIME FtAddFt(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="904cf-112">Parámetros</span><span class="sxs-lookup"><span data-stu-id="904cf-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="503eb-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="503eb-112">Parameters</span></span>
 
- <span data-ttu-id="904cf-113">_Addend1_</span><span class="sxs-lookup"><span data-stu-id="904cf-113">_Addend1_</span></span>
+ <span data-ttu-id="503eb-113">_Addend1_</span><span class="sxs-lookup"><span data-stu-id="503eb-113">_Addend1_</span></span>
   
-> <span data-ttu-id="904cf-114">[entrada] Estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar.</span><span class="sxs-lookup"><span data-stu-id="904cf-114">[in] A [FILETIME](filetime.md) structure that contains the first unsigned 64-bit integer to be added.</span></span> 
+> <span data-ttu-id="503eb-114">[in] Estructura [FILETIME](filetime.md) que contiene el primer entero de 64 bits sin signo que se va a agregar.</span><span class="sxs-lookup"><span data-stu-id="503eb-114">[in] A [FILETIME](filetime.md) structure that contains the first unsigned 64-bit integer to be added.</span></span> 
     
- <span data-ttu-id="904cf-115">_Addend2_</span><span class="sxs-lookup"><span data-stu-id="904cf-115">_Addend2_</span></span>
+ <span data-ttu-id="503eb-115">_Addend2_</span><span class="sxs-lookup"><span data-stu-id="503eb-115">_Addend2_</span></span>
   
-> <span data-ttu-id="904cf-116">[entrada] Estructura **FILETIME** que contiene el segundo entero de 64 bits sin signo que se va a agregar.</span><span class="sxs-lookup"><span data-stu-id="904cf-116">[in] A **FILETIME** structure that contains the second unsigned 64-bit integer to be added.</span></span> 
+> <span data-ttu-id="503eb-116">[in] Estructura **FILETIME** que contiene el segundo entero de 64 bits sin signo que se va a agregar.</span><span class="sxs-lookup"><span data-stu-id="503eb-116">[in] A **FILETIME** structure that contains the second unsigned 64-bit integer to be added.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="904cf-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="904cf-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="503eb-117">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="503eb-117">Return value</span></span>
 
-<span data-ttu-id="904cf-118">La **función FtAddFt** devuelve una **estructura FILETIME** que contiene la suma de los dos enteros.</span><span class="sxs-lookup"><span data-stu-id="904cf-118">The **FtAddFt** function returns a **FILETIME** structure that contains the sum of the two integers.</span></span> <span data-ttu-id="904cf-119">Los dos parámetros de entrada permanecen sin cambios.</span><span class="sxs-lookup"><span data-stu-id="904cf-119">The two input parameters remain unchanged.</span></span> 
+<span data-ttu-id="503eb-118">La **función FtAddFt** devuelve una **estructura FILETIME** que contiene la suma de los dos enteros.</span><span class="sxs-lookup"><span data-stu-id="503eb-118">The **FtAddFt** function returns a **FILETIME** structure that contains the sum of the two integers.</span></span> <span data-ttu-id="503eb-119">Los dos parámetros de entrada permanecen sin cambios.</span><span class="sxs-lookup"><span data-stu-id="503eb-119">The two input parameters remain unchanged.</span></span> 
   
 

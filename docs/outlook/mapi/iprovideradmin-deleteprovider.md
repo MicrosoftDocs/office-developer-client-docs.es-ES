@@ -19,13 +19,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404865"
 ---
-# <a name="iprovideradmindeleteprovider"></a><span data-ttu-id="1f0bd-103">IProviderAdmin::DeleteProvider</span><span class="sxs-lookup"><span data-stu-id="1f0bd-103">IProviderAdmin::DeleteProvider</span></span>
+# <a name="iprovideradmindeleteprovider"></a><span data-ttu-id="5ffd6-103">IProviderAdmin::DeleteProvider</span><span class="sxs-lookup"><span data-stu-id="5ffd6-103">IProviderAdmin::DeleteProvider</span></span>
 
   
   
-<span data-ttu-id="1f0bd-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1f0bd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5ffd6-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5ffd6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1f0bd-105">Elimina un proveedor de servicios del servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-105">Deletes a service provider from the message service.</span></span>
+<span data-ttu-id="5ffd6-105">Elimina un proveedor de servicios del servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-105">Deletes a service provider from the message service.</span></span>
   
 ```cpp
 HRESULT DeleteProvider(
@@ -33,43 +33,43 @@ HRESULT DeleteProvider(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1f0bd-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="1f0bd-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5ffd6-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="5ffd6-106">Parameters</span></span>
 
- <span data-ttu-id="1f0bd-107">_lpUID_</span><span class="sxs-lookup"><span data-stu-id="1f0bd-107">_lpUID_</span></span>
+ <span data-ttu-id="5ffd6-107">_lpUID_</span><span class="sxs-lookup"><span data-stu-id="5ffd6-107">_lpUID_</span></span>
   
-> <span data-ttu-id="1f0bd-108">[entrada, salida] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único que representa el proveedor que se debe eliminar.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-108">[in, out] A pointer to the [MAPIUID](mapiuid.md) structure that contains the unique identifier that represents the provider to delete.</span></span> 
+> <span data-ttu-id="5ffd6-108">[in, out] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único que representa el proveedor que se debe eliminar.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-108">[in, out] A pointer to the [MAPIUID](mapiuid.md) structure that contains the unique identifier that represents the provider to delete.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="1f0bd-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="1f0bd-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5ffd6-109">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="5ffd6-109">Return value</span></span>
 
-<span data-ttu-id="1f0bd-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="1f0bd-110">S_OK</span></span> 
+<span data-ttu-id="5ffd6-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="5ffd6-110">S_OK</span></span> 
   
-> <span data-ttu-id="1f0bd-111">El proveedor se eliminó correctamente del servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-111">The provider was successfully deleted from the message service.</span></span>
+> <span data-ttu-id="5ffd6-111">El proveedor se eliminó correctamente del servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-111">The provider was successfully deleted from the message service.</span></span>
     
-<span data-ttu-id="1f0bd-112">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="1f0bd-112">MAPI_E_NOT_FOUND</span></span> 
+<span data-ttu-id="5ffd6-112">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="5ffd6-112">MAPI_E_NOT_FOUND</span></span> 
   
-> <span data-ttu-id="1f0bd-113">No se ha reconocido el **MAPIUID** al que apunta el parámetro _lpUID._</span><span class="sxs-lookup"><span data-stu-id="1f0bd-113">The **MAPIUID** pointed to by the  _lpUID_ parameter was not recognized.</span></span> 
+> <span data-ttu-id="5ffd6-113">No se reconoció el **MAPIUID** al que apunta el _parámetro lpUID._</span><span class="sxs-lookup"><span data-stu-id="5ffd6-113">The **MAPIUID** pointed to by the  _lpUID_ parameter was not recognized.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="1f0bd-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="1f0bd-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5ffd6-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5ffd6-114">Remarks</span></span>
 
-<span data-ttu-id="1f0bd-115">El **método IProviderAdmin::D eleteProvider** elimina un proveedor de servicios del servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-115">The **IProviderAdmin::DeleteProvider** method deletes a service provider from the message service.</span></span> <span data-ttu-id="1f0bd-116">**DeleteProvider** determina el proveedor de servicios que se debe eliminar al hacer coincidir la estructura **MAPIUID** a la que apunta  _lpUID_ con el conjunto de identificadores registrados por los proveedores de servicios activos.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-116">**DeleteProvider** determines the service provider to delete by matching the **MAPIUID** structure pointed to by  _lpUID_ with the set of identifiers registered by the active service providers.</span></span> 
+<span data-ttu-id="5ffd6-115">El **método IProviderAdmin::D eleteProvider** elimina un proveedor de servicios del servicio de mensajes.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-115">The **IProviderAdmin::DeleteProvider** method deletes a service provider from the message service.</span></span> <span data-ttu-id="5ffd6-116">**DeleteProvider** determina el proveedor de servicios que se debe eliminar al coincidir la estructura **MAPIUID** a la que  _apunta lpUID_ con el conjunto de identificadores registrados por los proveedores de servicios activos.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-116">**DeleteProvider** determines the service provider to delete by matching the **MAPIUID** structure pointed to by  _lpUID_ with the set of identifiers registered by the active service providers.</span></span> 
   
-<span data-ttu-id="1f0bd-117">La mayoría de los servicios de mensajes no permiten que los proveedores se eliminen mientras el perfil está en uso.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-117">Most message services do not allow providers to be deleted while the profile is in use.</span></span> <span data-ttu-id="1f0bd-118">Si el proveedor que se va a eliminar está en uso, **DeleteProvider** lo marca para su eliminación en lugar de quitarlo inmediatamente y devuelve S_OK.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-118">If the provider to delete is in use, **DeleteProvider** marks it for deletion instead of removing it immediately and returns S_OK.</span></span> <span data-ttu-id="1f0bd-119">Cuando el proveedor ya no se usa, se elimina.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-119">When the provider is no longer being used, it is deleted.</span></span> 
+<span data-ttu-id="5ffd6-117">La mayoría de los servicios de mensajes no permiten que los proveedores se eliminen mientras el perfil está en uso.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-117">Most message services do not allow providers to be deleted while the profile is in use.</span></span> <span data-ttu-id="5ffd6-118">Si el proveedor que se va a eliminar está en uso, **DeleteProvider** lo marca para su eliminación en lugar de quitarlo inmediatamente y devuelve S_OK.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-118">If the provider to delete is in use, **DeleteProvider** marks it for deletion instead of removing it immediately and returns S_OK.</span></span> <span data-ttu-id="5ffd6-119">Cuando el proveedor ya no se usa, se elimina.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-119">When the provider is no longer being used, it is deleted.</span></span> 
   
- <span data-ttu-id="1f0bd-120">**DeleteProvider** llama a la función de punto de entrada del servicio de mensajes antes de quitar el proveedor del servicio.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-120">**DeleteProvider** calls the message service's entry point function before the provider is removed from the service.</span></span> <span data-ttu-id="1f0bd-121">El  _parámetro ulContext_ se establece en MSG_SERVICE_PROVIDER_DELETE.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-121">The  _ulContext_ parameter is set to MSG_SERVICE_PROVIDER_DELETE.</span></span> <span data-ttu-id="1f0bd-122">La función de punto de entrada del servicio de mensajes realiza las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="1f0bd-122">The message service entry point function performs the following tasks:</span></span> 
+ <span data-ttu-id="5ffd6-120">**DeleteProvider** llama a la función de punto de entrada del servicio de mensajes antes de que el proveedor se quite del servicio.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-120">**DeleteProvider** calls the message service's entry point function before the provider is removed from the service.</span></span> <span data-ttu-id="5ffd6-121">El  _parámetro ulContext_ se establece en MSG_SERVICE_PROVIDER_DELETE.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-121">The  _ulContext_ parameter is set to MSG_SERVICE_PROVIDER_DELETE.</span></span> <span data-ttu-id="5ffd6-122">La función de punto de entrada del servicio de mensajes realiza las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="5ffd6-122">The message service entry point function performs the following tasks:</span></span> 
   
-- <span data-ttu-id="1f0bd-123">Elimina el proveedor de servicios.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-123">Deletes the service provider.</span></span>
+- <span data-ttu-id="5ffd6-123">Elimina el proveedor de servicios.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-123">Deletes the service provider.</span></span>
     
-- <span data-ttu-id="1f0bd-124">Elimina la sección de perfil del proveedor de servicios.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-124">Deletes the service provider's profile section.</span></span>
+- <span data-ttu-id="5ffd6-124">Elimina la sección de perfil del proveedor de servicios.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-124">Deletes the service provider's profile section.</span></span>
     
-<span data-ttu-id="1f0bd-125">No se vuelve a llamar a la función de punto de entrada del servicio de mensajes después de eliminar el proveedor.</span><span class="sxs-lookup"><span data-stu-id="1f0bd-125">The message service entry point function is not called again after the provider has been deleted.</span></span>
+<span data-ttu-id="5ffd6-125">No se vuelve a llamar a la función de punto de entrada del servicio de mensajes después de eliminar el proveedor.</span><span class="sxs-lookup"><span data-stu-id="5ffd6-125">The message service entry point function is not called again after the provider has been deleted.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1f0bd-126">Consulte también</span><span class="sxs-lookup"><span data-stu-id="1f0bd-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5ffd6-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="5ffd6-126">See also</span></span>
 
 
 
-[<span data-ttu-id="1f0bd-127">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="1f0bd-127">MAPIUID</span></span>](mapiuid.md)
+[<span data-ttu-id="5ffd6-127">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="5ffd6-127">MAPIUID</span></span>](mapiuid.md)
   
-[<span data-ttu-id="1f0bd-128">MSGSERVICEENTRY</span><span class="sxs-lookup"><span data-stu-id="1f0bd-128">MSGSERVICEENTRY</span></span>](msgserviceentry.md)
+[<span data-ttu-id="5ffd6-128">MSGSERVICEENTRY</span><span class="sxs-lookup"><span data-stu-id="5ffd6-128">MSGSERVICEENTRY</span></span>](msgserviceentry.md)
   
-[<span data-ttu-id="1f0bd-129">IProviderAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1f0bd-129">IProviderAdmin : IUnknown</span></span>](iprovideradminiunknown.md)
+[<span data-ttu-id="5ffd6-129">IProviderAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="5ffd6-129">IProviderAdmin : IUnknown</span></span>](iprovideradminiunknown.md)
 

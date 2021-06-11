@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405684"
 ---
-# <a name="enter-an-empty-formula"></a><span data-ttu-id="96070-102">Escribir una fórmula vacía</span><span class="sxs-lookup"><span data-stu-id="96070-102">Enter an Empty Formula</span></span>
+# <a name="enter-an-empty-formula"></a><span data-ttu-id="1dcd4-102">Escribir una fórmula vacía</span><span class="sxs-lookup"><span data-stu-id="1dcd4-102">Enter an Empty Formula</span></span>
 
-1. <span data-ttu-id="96070-103">Seleccione la celda que contendrá la fórmula.</span><span class="sxs-lookup"><span data-stu-id="96070-103">Select the cell that will contain the formula.</span></span>
+1. <span data-ttu-id="1dcd4-103">Seleccione la celda que contendrá la fórmula.</span><span class="sxs-lookup"><span data-stu-id="1dcd4-103">Select the cell that will contain the formula.</span></span>
     
-2. <span data-ttu-id="96070-104">Presione Supr y, a continuación, Entrar.</span><span class="sxs-lookup"><span data-stu-id="96070-104">Press DELETE, and then press ENTER.</span></span>
+2. <span data-ttu-id="1dcd4-104">Presione Supr y, a continuación, Entrar.</span><span class="sxs-lookup"><span data-stu-id="1dcd4-104">Press DELETE, and then press ENTER.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="96070-105">Pruebe esto en una **celda Scratch** después de insertar una fórmula local.</span><span class="sxs-lookup"><span data-stu-id="96070-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="96070-106">La celda se revierte a "Sin fórmula", porque no hay ninguna fórmula para heredar del patrón.</span><span class="sxs-lookup"><span data-stu-id="96070-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
+> <span data-ttu-id="1dcd4-105">Pruébalo en una **celda Scratch** después de insertar una fórmula local.</span><span class="sxs-lookup"><span data-stu-id="1dcd4-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="1dcd4-106">La celda vuelve a "Sin fórmula", ya que no hay ninguna fórmula que heredar del patrón.</span><span class="sxs-lookup"><span data-stu-id="1dcd4-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
   
 

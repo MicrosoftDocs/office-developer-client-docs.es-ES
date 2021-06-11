@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356857"
 ---
-# <a name="mnls_isbadstringptrw"></a><span data-ttu-id="ef1da-103">MNLS_IsBadStringPtrW</span><span class="sxs-lookup"><span data-stu-id="ef1da-103">MNLS_IsBadStringPtrW</span></span>
+# <a name="mnls_isbadstringptrw"></a><span data-ttu-id="59744-103">MNLS_IsBadStringPtrW</span><span class="sxs-lookup"><span data-stu-id="59744-103">MNLS_IsBadStringPtrW</span></span>
 
   
   
-<span data-ttu-id="ef1da-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ef1da-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="59744-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="59744-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ef1da-105">Comprueba que un puntero a una cadena ancha es válido.</span><span class="sxs-lookup"><span data-stu-id="ef1da-105">Verifies that a pointer to a wide string is valid.</span></span>
+<span data-ttu-id="59744-105">Comprueba que un puntero a una cadena ancha es válido.</span><span class="sxs-lookup"><span data-stu-id="59744-105">Verifies that a pointer to a wide string is valid.</span></span>
   
 ```cpp
 BOOL MNLS_IsBadStringPtrW(
@@ -29,22 +29,22 @@ BOOL MNLS_IsBadStringPtrW(
   UINT ucchMax);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ef1da-106">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ef1da-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="59744-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="59744-106">Parameters</span></span>
 
- <span data-ttu-id="ef1da-107">_lpsz_</span><span class="sxs-lookup"><span data-stu-id="ef1da-107">_lpsz_</span></span>
+ <span data-ttu-id="59744-107">_lpsz_</span><span class="sxs-lookup"><span data-stu-id="59744-107">_lpsz_</span></span>
   
-> <span data-ttu-id="ef1da-108">[entrada] Puntero a la cadena de caracteres anchos.</span><span class="sxs-lookup"><span data-stu-id="ef1da-108">[in] A pointer to the wide character string.</span></span>
+> <span data-ttu-id="59744-108">[in] Puntero a la cadena de caracteres ancho.</span><span class="sxs-lookup"><span data-stu-id="59744-108">[in] A pointer to the wide character string.</span></span>
     
- <span data-ttu-id="ef1da-109">_ucchMax_</span><span class="sxs-lookup"><span data-stu-id="ef1da-109">_ucchMax_</span></span>
+ <span data-ttu-id="59744-109">_ucchMax_</span><span class="sxs-lookup"><span data-stu-id="59744-109">_ucchMax_</span></span>
   
-> <span data-ttu-id="ef1da-110">[entrada] Longitud máxima de la cadena en caracteres incluido el terminador.</span><span class="sxs-lookup"><span data-stu-id="ef1da-110">[in] The maximum length of the string in characters including terminator.</span></span>
+> <span data-ttu-id="59744-110">[in] Longitud máxima de la cadena en caracteres incluido el terminador.</span><span class="sxs-lookup"><span data-stu-id="59744-110">[in] The maximum length of the string in characters including terminator.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ef1da-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="ef1da-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="59744-111">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="59744-111">Return value</span></span>
 
-<span data-ttu-id="ef1da-112">Devuelve un valor Boolean que es true si la cadena es mala.</span><span class="sxs-lookup"><span data-stu-id="ef1da-112">Returns a Boolean that is true if the string is bad.</span></span>
+<span data-ttu-id="59744-112">Devuelve un valor Boolean que es true si la cadena es mala.</span><span class="sxs-lookup"><span data-stu-id="59744-112">Returns a Boolean that is true if the string is bad.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ef1da-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ef1da-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="59744-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="59744-113">Remarks</span></span>
 
-<span data-ttu-id="ef1da-114">Esta función ajusta [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="ef1da-114">This function wraps [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span></span> <span data-ttu-id="ef1da-115">Para obtener más información, [vea IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="ef1da-115">For more information, see [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="59744-114">Esta función ajusta [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="59744-114">This function wraps [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span></span> <span data-ttu-id="59744-115">Para obtener más información, [vea IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="59744-115">For more information, see [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span></span>
   
 

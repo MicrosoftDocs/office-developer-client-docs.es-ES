@@ -15,17 +15,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404347"
 ---
-# <a name="mapi-address-book-provider-objects"></a><span data-ttu-id="0672f-103">Objetos de proveedor de libreta de direcciones MAPI</span><span class="sxs-lookup"><span data-stu-id="0672f-103">MAPI address book provider objects</span></span>
+# <a name="mapi-address-book-provider-objects"></a><span data-ttu-id="02ebd-103">Objetos de proveedor de libreta de direcciones MAPI</span><span class="sxs-lookup"><span data-stu-id="02ebd-103">MAPI address book provider objects</span></span>
   
-<span data-ttu-id="0672f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0672f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="02ebd-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="02ebd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0672f-105">Además de los objetos de inicio de sesión y proveedor estándar, los proveedores de libretas de direcciones implementan contenedores de libretas de direcciones, listas de distribución, usuarios de mensajería, tablas, objetos de estado y controles.</span><span class="sxs-lookup"><span data-stu-id="0672f-105">In addition to the standard provider and logon objects, address book providers implement address book containers, distribution lists, messaging users, tables, status objects, and controls.</span></span>
+<span data-ttu-id="02ebd-105">Además del proveedor estándar y los objetos de inicio de sesión, los proveedores de libretas de direcciones implementan contenedores de libreta de direcciones, listas de distribución, usuarios de mensajería, tablas, objetos de estado y controles.</span><span class="sxs-lookup"><span data-stu-id="02ebd-105">In addition to the standard provider and logon objects, address book providers implement address book containers, distribution lists, messaging users, tables, status objects, and controls.</span></span>
   
-<span data-ttu-id="0672f-106">En la siguiente ilustración se muestran estos objetos, sus interfaces correspondientes y los componentes MAPI que los usan.</span><span class="sxs-lookup"><span data-stu-id="0672f-106">The following illustration shows these objects, their corresponding interfaces, and the MAPI components that use them.</span></span>
+<span data-ttu-id="02ebd-106">En la siguiente ilustración se muestran estos objetos, sus interfaces correspondientes y los componentes MAPI que los usan.</span><span class="sxs-lookup"><span data-stu-id="02ebd-106">The following illustration shows these objects, their corresponding interfaces, and the MAPI components that use them.</span></span>
   
-<span data-ttu-id="0672f-107">![Objetos que los proveedores de libretas de direcciones implementan](media/amapi_64.gif "objetos que implementan los proveedores de libretas de direcciones")</span><span class="sxs-lookup"><span data-stu-id="0672f-107">![Objects that address book providers implement](media/amapi_64.gif "Objects that address book providers implement")</span></span>
+<span data-ttu-id="02ebd-107">![Objetos que los proveedores de libretas de direcciones implementan](media/amapi_64.gif "Objetos que los proveedores de libretas de direcciones implementan")</span><span class="sxs-lookup"><span data-stu-id="02ebd-107">![Objects that address book providers implement](media/amapi_64.gif "Objects that address book providers implement")</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="0672f-108">Consulte también</span><span class="sxs-lookup"><span data-stu-id="0672f-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="02ebd-108">Vea también</span><span class="sxs-lookup"><span data-stu-id="02ebd-108">See also</span></span>
 
-- [<span data-ttu-id="0672f-109">Objetos del proveedor de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="0672f-109">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
+- [<span data-ttu-id="02ebd-109">Objetos del proveedor de servicios MAPI</span><span class="sxs-lookup"><span data-stu-id="02ebd-109">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
 

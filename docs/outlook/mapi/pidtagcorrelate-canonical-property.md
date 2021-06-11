@@ -19,48 +19,48 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405222"
 ---
-# <a name="pidtagcorrelate-canonical-property"></a><span data-ttu-id="dc709-103">Propiedad canónica PidTagCorrelate</span><span class="sxs-lookup"><span data-stu-id="dc709-103">PidTagCorrelate Canonical Property</span></span>
+# <a name="pidtagcorrelate-canonical-property"></a><span data-ttu-id="5cf53-103">Propiedad canónica PidTagCorrelate</span><span class="sxs-lookup"><span data-stu-id="5cf53-103">PidTagCorrelate Canonical Property</span></span>
 
   
   
-<span data-ttu-id="dc709-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dc709-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5cf53-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5cf53-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="dc709-105">Contiene TRUE si el remitente de un mensaje solicita la característica de correlación del sistema de mensajería.</span><span class="sxs-lookup"><span data-stu-id="dc709-105">Contains TRUE if the sender of a message requests the correlation feature of the messaging system.</span></span>
+<span data-ttu-id="5cf53-105">Contiene TRUE si el remitente de un mensaje solicita la característica de correlación del sistema de mensajería.</span><span class="sxs-lookup"><span data-stu-id="5cf53-105">Contains TRUE if the sender of a message requests the correlation feature of the messaging system.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="dc709-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="dc709-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="dc709-107">PR_CORRELATE</span><span class="sxs-lookup"><span data-stu-id="dc709-107">PR_CORRELATE</span></span>  <br/> |
-|<span data-ttu-id="dc709-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="dc709-108">Identifier:</span></span>  <br/> |<span data-ttu-id="dc709-109">0x0E0C</span><span class="sxs-lookup"><span data-stu-id="dc709-109">0x0E0C</span></span>  <br/> |
-|<span data-ttu-id="dc709-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="dc709-110">Data type:</span></span>  <br/> |<span data-ttu-id="dc709-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="dc709-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="dc709-112">Área:</span><span class="sxs-lookup"><span data-stu-id="dc709-112">Area:</span></span>  <br/> |<span data-ttu-id="dc709-113">Exchange</span><span class="sxs-lookup"><span data-stu-id="dc709-113">Exchange</span></span>  <br/> |
+|<span data-ttu-id="5cf53-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="5cf53-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5cf53-107">PR_CORRELATE</span><span class="sxs-lookup"><span data-stu-id="5cf53-107">PR_CORRELATE</span></span>  <br/> |
+|<span data-ttu-id="5cf53-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="5cf53-108">Identifier:</span></span>  <br/> |<span data-ttu-id="5cf53-109">0x0E0C</span><span class="sxs-lookup"><span data-stu-id="5cf53-109">0x0E0C</span></span>  <br/> |
+|<span data-ttu-id="5cf53-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="5cf53-110">Data type:</span></span>  <br/> |<span data-ttu-id="5cf53-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="5cf53-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="5cf53-112">Área:</span><span class="sxs-lookup"><span data-stu-id="5cf53-112">Area:</span></span>  <br/> |<span data-ttu-id="5cf53-113">Exchange</span><span class="sxs-lookup"><span data-stu-id="5cf53-113">Exchange</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="dc709-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="dc709-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5cf53-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5cf53-114">Remarks</span></span>
 
-<span data-ttu-id="dc709-115">Esta propiedad se usa para solicitar la correlación de los informes entrantes con el mensaje original enviado.</span><span class="sxs-lookup"><span data-stu-id="dc709-115">This property is used to request the correlation of incoming reports with the original sent message.</span></span> <span data-ttu-id="dc709-116">Cuando un proveedor de transporte encuentra un mensaje enviado con **PR_CORRELATE** establecido en TRUE, establece la propiedad **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) en el identificador del sistema de transferencia de mensajes (MTS) para ese mensaje.</span><span class="sxs-lookup"><span data-stu-id="dc709-116">When a transport provider encounters a submitted message with **PR_CORRELATE** set to TRUE, it sets the **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) property to the message transfer system (MTS) identifier for that message.</span></span>
+<span data-ttu-id="5cf53-115">Esta propiedad se usa para solicitar la correlación de los informes entrantes con el mensaje enviado original.</span><span class="sxs-lookup"><span data-stu-id="5cf53-115">This property is used to request the correlation of incoming reports with the original sent message.</span></span> <span data-ttu-id="5cf53-116">Cuando un proveedor de transporte encuentra un mensaje enviado con **PR_CORRELATE** establecido en TRUE, establece la propiedad **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) en el identificador del sistema de transferencia de mensajes (MTS) para ese mensaje.</span><span class="sxs-lookup"><span data-stu-id="5cf53-116">When a transport provider encounters a submitted message with **PR_CORRELATE** set to TRUE, it sets the **PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) property to the message transfer system (MTS) identifier for that message.</span></span>
   
- <span data-ttu-id="dc709-117">**PR_CORRELATE** debe usarse con sistemas de mensajería compatibles con la correlación del identificador MTS, como X.400.</span><span class="sxs-lookup"><span data-stu-id="dc709-117">**PR_CORRELATE** should be used with messaging systems that support correlation by MTS identifier, such as X.400.</span></span> 
+ <span data-ttu-id="5cf53-117">**PR_CORRELATE** debe usarse con sistemas de mensajería que admitan la correlación mediante el identificador MTS, como X.400.</span><span class="sxs-lookup"><span data-stu-id="5cf53-117">**PR_CORRELATE** should be used with messaging systems that support correlation by MTS identifier, such as X.400.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="dc709-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="dc709-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="5cf53-118">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="5cf53-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="dc709-119">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="dc709-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="5cf53-119">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="5cf53-119">Header files</span></span>
 
-<span data-ttu-id="dc709-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="dc709-120">Mapidefs.h</span></span>
+<span data-ttu-id="5cf53-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5cf53-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="dc709-121">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="dc709-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="5cf53-121">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="5cf53-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="dc709-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="dc709-122">Mapitags.h</span></span>
+<span data-ttu-id="5cf53-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="5cf53-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="dc709-123">Contiene definiciones de propiedades enumeradas como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="dc709-123">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="5cf53-123">Contiene definiciones de propiedades enumeradas como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="5cf53-123">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="dc709-124">Consulte también</span><span class="sxs-lookup"><span data-stu-id="dc709-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5cf53-124">Vea también</span><span class="sxs-lookup"><span data-stu-id="5cf53-124">See also</span></span>
 
 
 
-[<span data-ttu-id="dc709-125">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="dc709-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="5cf53-125">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="5cf53-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="dc709-126">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="dc709-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="5cf53-126">Propiedades canónicas MAPI</span><span class="sxs-lookup"><span data-stu-id="5cf53-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="dc709-127">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="dc709-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="5cf53-127">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="5cf53-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="dc709-128">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="dc709-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="5cf53-128">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="5cf53-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

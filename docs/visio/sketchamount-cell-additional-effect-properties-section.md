@@ -1,5 +1,5 @@
 ---
-title: Celda SketchAmount (Sección de propiedades de efecto adicional)
+title: Celda SketchAmount (sección Propiedades de efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,29 +14,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404424"
 ---
-# <a name="sketchamount-cell-additional-effect-properties-section"></a><span data-ttu-id="82db3-103">Celda SketchAmount (Sección de propiedades de efecto adicional)</span><span class="sxs-lookup"><span data-stu-id="82db3-103">SketchAmount Cell (Additional Effect Properties Section)</span></span>
+# <a name="sketchamount-cell-additional-effect-properties-section"></a><span data-ttu-id="5f5bf-103">Celda SketchAmount (sección Propiedades de efecto adicional)</span><span class="sxs-lookup"><span data-stu-id="5f5bf-103">SketchAmount Cell (Additional Effect Properties Section)</span></span>
 
-<span data-ttu-id="82db3-104">Determina la cantidad de distorsión de un efecto de boceto, como un entero entre 0 y 25.</span><span class="sxs-lookup"><span data-stu-id="82db3-104">Determines the amount of distortion for a sketch effect, as an integer between 0 and 25.</span></span> 
+<span data-ttu-id="5f5bf-104">Determina la cantidad de distorsión de un efecto de boceto, como un entero entre 0 y 25.</span><span class="sxs-lookup"><span data-stu-id="5f5bf-104">Determines the amount of distortion for a sketch effect, as an integer between 0 and 25.</span></span> 
   
-|<span data-ttu-id="82db3-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="82db3-105">**Value**</span></span>|<span data-ttu-id="82db3-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="82db3-106">**Description**</span></span>|
+|<span data-ttu-id="5f5bf-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="5f5bf-105">**Value**</span></span>|<span data-ttu-id="5f5bf-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="5f5bf-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="82db3-107">0</span><span class="sxs-lookup"><span data-stu-id="82db3-107">0</span></span>  <br/> |<span data-ttu-id="82db3-108">La forma no tiene ningún efecto de boceto aplicado.</span><span class="sxs-lookup"><span data-stu-id="82db3-108">The shape has no sketch effect applied to it.</span></span>  <br/> |
-|<span data-ttu-id="82db3-109">1-25</span><span class="sxs-lookup"><span data-stu-id="82db3-109">1-25</span></span>  <br/> |<span data-ttu-id="82db3-110">La forma tiene la distorsión de boceto aplicada, donde un valor de 1 es la distorsión más y 25 es la menos.</span><span class="sxs-lookup"><span data-stu-id="82db3-110">The shape has sketch distortion applied to it, where a value of 1 is the most distortion and 25 is the least.</span></span>  <br/> |
+|<span data-ttu-id="5f5bf-107">0</span><span class="sxs-lookup"><span data-stu-id="5f5bf-107">0</span></span>  <br/> |<span data-ttu-id="5f5bf-108">La forma no tiene ningún efecto de boceto aplicado.</span><span class="sxs-lookup"><span data-stu-id="5f5bf-108">The shape has no sketch effect applied to it.</span></span>  <br/> |
+|<span data-ttu-id="5f5bf-109">1-25</span><span class="sxs-lookup"><span data-stu-id="5f5bf-109">1-25</span></span>  <br/> |<span data-ttu-id="5f5bf-110">La forma tiene la distorsión de boceto aplicada, donde un valor de 1 es la distorsión más y 25 es el menor.</span><span class="sxs-lookup"><span data-stu-id="5f5bf-110">The shape has sketch distortion applied to it, where a value of 1 is the most distortion and 25 is the least.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="82db3-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="82db3-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5f5bf-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5f5bf-111">Remarks</span></span>
 
-<span data-ttu-id="82db3-112">Para obtener una referencia a la celda **SketchAmount** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice:</span><span class="sxs-lookup"><span data-stu-id="82db3-112">To get a reference to the **SketchAmount** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="5f5bf-112">Para obtener una referencia a la celda **SketchAmount** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la **propiedad CellsU,** use:</span><span class="sxs-lookup"><span data-stu-id="5f5bf-112">To get a reference to the **SketchAmount** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="82db3-113">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="82db3-113">Cell name:</span></span>  <br/> | <span data-ttu-id="82db3-114">SketchAmount</span><span class="sxs-lookup"><span data-stu-id="82db3-114">SketchAmount</span></span>  <br/> |
+| <span data-ttu-id="5f5bf-113">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="5f5bf-113">Cell name:</span></span>  <br/> | <span data-ttu-id="5f5bf-114">SketchAmount</span><span class="sxs-lookup"><span data-stu-id="5f5bf-114">SketchAmount</span></span>  <br/> |
    
-<span data-ttu-id="82db3-115">Para obtener una referencia desde un programa a la celda **SketchAmount** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="82db3-115">To get a reference to the **SketchAmount** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="5f5bf-115">Para obtener una referencia desde un programa a la celda **SketchAmount** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="5f5bf-115">To get a reference to the **SketchAmount** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="82db3-116">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="82db3-116">Section index:</span></span>  <br/> |<span data-ttu-id="82db3-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="82db3-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="82db3-118">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="82db3-118">Row index:</span></span>  <br/> |<span data-ttu-id="82db3-119">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="82db3-119">**visRowOtherEffectProperties**</span></span> <br/> |
-| <span data-ttu-id="82db3-120">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="82db3-120">Cell index:</span></span>  <br/> |<span data-ttu-id="82db3-121">**visSketchAmount**</span><span class="sxs-lookup"><span data-stu-id="82db3-121">**visSketchAmount**</span></span> <br/> |
+| <span data-ttu-id="5f5bf-116">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="5f5bf-116">Section index:</span></span>  <br/> |<span data-ttu-id="5f5bf-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="5f5bf-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="5f5bf-118">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="5f5bf-118">Row index:</span></span>  <br/> |<span data-ttu-id="5f5bf-119">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="5f5bf-119">**visRowOtherEffectProperties**</span></span> <br/> |
+| <span data-ttu-id="5f5bf-120">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="5f5bf-120">Cell index:</span></span>  <br/> |<span data-ttu-id="5f5bf-121">**visSketchAmount**</span><span class="sxs-lookup"><span data-stu-id="5f5bf-121">**visSketchAmount**</span></span> <br/> |
    
 

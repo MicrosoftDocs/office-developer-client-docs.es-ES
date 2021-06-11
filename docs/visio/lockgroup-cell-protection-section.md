@@ -16,31 +16,31 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404312"
 ---
-# <a name="lockgroup-cell-protection-section"></a><span data-ttu-id="9a6fe-103">Celda LockGroup (sección de protección)</span><span class="sxs-lookup"><span data-stu-id="9a6fe-103">LockGroup Cell (Protection Section)</span></span>
+# <a name="lockgroup-cell-protection-section"></a><span data-ttu-id="0a72d-103">Celda LockGroup (sección de protección)</span><span class="sxs-lookup"><span data-stu-id="0a72d-103">LockGroup Cell (Protection Section)</span></span>
 
-<span data-ttu-id="9a6fe-104">Bloquea un grupo de modo que no pueda desagruparse.</span><span class="sxs-lookup"><span data-stu-id="9a6fe-104">Locks a group so that it cannot be ungrouped.</span></span>
+<span data-ttu-id="0a72d-104">Bloquea un grupo de modo que no pueda desagruparse.</span><span class="sxs-lookup"><span data-stu-id="0a72d-104">Locks a group so that it cannot be ungrouped.</span></span>
   
-|<span data-ttu-id="9a6fe-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="9a6fe-105">**Value**</span></span>|<span data-ttu-id="9a6fe-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="9a6fe-106">**Description**</span></span>|
+|<span data-ttu-id="0a72d-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="0a72d-105">**Value**</span></span>|<span data-ttu-id="0a72d-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="0a72d-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="9a6fe-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="9a6fe-107">TRUE</span></span>  <br/> |<span data-ttu-id="9a6fe-108">El grupo no puede desagruparse.</span><span class="sxs-lookup"><span data-stu-id="9a6fe-108">Group cannot be ungrouped.</span></span>  <br/> |
-|<span data-ttu-id="9a6fe-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="9a6fe-109">FALSE</span></span>  <br/> |<span data-ttu-id="9a6fe-110">El grupo puede desagruparse.</span><span class="sxs-lookup"><span data-stu-id="9a6fe-110">Group can be ungrouped.</span></span>  <br/> |
+|<span data-ttu-id="0a72d-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="0a72d-107">TRUE</span></span>  <br/> |<span data-ttu-id="0a72d-108">El grupo no puede desagruparse.</span><span class="sxs-lookup"><span data-stu-id="0a72d-108">Group cannot be ungrouped.</span></span>  <br/> |
+|<span data-ttu-id="0a72d-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="0a72d-109">FALSE</span></span>  <br/> |<span data-ttu-id="0a72d-110">El grupo puede desagruparse.</span><span class="sxs-lookup"><span data-stu-id="0a72d-110">Group can be ungrouped.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="9a6fe-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="9a6fe-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0a72d-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="0a72d-111">Remarks</span></span>
 
-<span data-ttu-id="9a6fe-112">Al establecer el valor de LockGroupCell como TRUE también se evita la eliminación de las formas que son miembros del grupo.</span><span class="sxs-lookup"><span data-stu-id="9a6fe-112">Setting the LockGroupCell value to TRUE also prevents deletion of any shapes that are members of the group.</span></span>
+<span data-ttu-id="0a72d-112">Al establecer el valor de LockGroupCell como TRUE también se evita la eliminación de las formas que son miembros del grupo.</span><span class="sxs-lookup"><span data-stu-id="0a72d-112">Setting the LockGroupCell value to TRUE also prevents deletion of any shapes that are members of the group.</span></span>
   
-<span data-ttu-id="9a6fe-113">Para obtener una referencia a la celda LockGroup por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="9a6fe-113">To get a reference to the LockGroup cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="0a72d-113">Para obtener una referencia a la celda LockGroup por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="0a72d-113">To get a reference to the LockGroup cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9a6fe-114">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="9a6fe-114">Cell name:</span></span>  <br/> |<span data-ttu-id="9a6fe-115">LockGroup</span><span class="sxs-lookup"><span data-stu-id="9a6fe-115">LockGroup</span></span>  <br/> |
+|<span data-ttu-id="0a72d-114">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="0a72d-114">Cell name:</span></span>  <br/> |<span data-ttu-id="0a72d-115">LockGroup</span><span class="sxs-lookup"><span data-stu-id="0a72d-115">LockGroup</span></span>  <br/> |
    
-<span data-ttu-id="9a6fe-116">Para obtener una referencia desde un programa a la celda LockGroup por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="9a6fe-116">To get a reference to the LockGroup cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="0a72d-116">Para obtener una referencia desde un programa a la celda LockGroup por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="0a72d-116">To get a reference to the LockGroup cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9a6fe-117">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="9a6fe-117">Section index:</span></span>  <br/> |<span data-ttu-id="9a6fe-118">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="9a6fe-118">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="9a6fe-119">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="9a6fe-119">Row index:</span></span>  <br/> |<span data-ttu-id="9a6fe-120">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="9a6fe-120">**visRowLock**</span></span> <br/> |
-|<span data-ttu-id="9a6fe-121">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="9a6fe-121">Cell index:</span></span>  <br/> |<span data-ttu-id="9a6fe-122">**visLockGroup**</span><span class="sxs-lookup"><span data-stu-id="9a6fe-122">**visLockGroup**</span></span> <br/> |
+|<span data-ttu-id="0a72d-117">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="0a72d-117">Section index:</span></span>  <br/> |<span data-ttu-id="0a72d-118">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="0a72d-118">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="0a72d-119">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="0a72d-119">Row index:</span></span>  <br/> |<span data-ttu-id="0a72d-120">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="0a72d-120">**visRowLock**</span></span> <br/> |
+|<span data-ttu-id="0a72d-121">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="0a72d-121">Cell index:</span></span>  <br/> |<span data-ttu-id="0a72d-122">**visLockGroup**</span><span class="sxs-lookup"><span data-stu-id="0a72d-122">**visLockGroup**</span></span> <br/> |
    
 

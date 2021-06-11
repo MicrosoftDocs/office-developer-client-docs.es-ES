@@ -16,16 +16,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409352"
 ---
-# <a name="hyperlinkbase-function"></a><span data-ttu-id="1ccfb-103">Función HYPERLINKBASE</span><span class="sxs-lookup"><span data-stu-id="1ccfb-103">HYPERLINKBASE Function</span></span>
+# <a name="hyperlinkbase-function"></a><span data-ttu-id="026be-103">Función HYPERLINKBASE</span><span class="sxs-lookup"><span data-stu-id="026be-103">HYPERLINKBASE Function</span></span>
 
-<span data-ttu-id="1ccfb-104">Devuelve el texto del campo **base Hipervínculo** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="1ccfb-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
+<span data-ttu-id="026be-104">Devuelve el texto del campo **base Hipervínculo** de las propiedades de un documento.</span><span class="sxs-lookup"><span data-stu-id="026be-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="1ccfb-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1ccfb-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="026be-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="026be-105">Syntax</span></span>
 
-<span data-ttu-id="1ccfb-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="1ccfb-106">HYPERLINKBASE ()</span></span>
+<span data-ttu-id="026be-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="026be-106">HYPERLINKBASE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="1ccfb-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="1ccfb-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="026be-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="026be-107">Return value</span></span>
 
-<span data-ttu-id="1ccfb-108">String</span><span class="sxs-lookup"><span data-stu-id="1ccfb-108">String</span></span>
+<span data-ttu-id="026be-108">String</span><span class="sxs-lookup"><span data-stu-id="026be-108">String</span></span>
   
 

@@ -19,35 +19,35 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405597"
 ---
-# <a name="imapisync--iunknown"></a><span data-ttu-id="ffed8-103">IMAPISync : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ffed8-103">IMAPISync : IUnknown</span></span>
+# <a name="imapisync--iunknown"></a><span data-ttu-id="41dc3-103">IMAPISync : IUnknown</span><span class="sxs-lookup"><span data-stu-id="41dc3-103">IMAPISync : IUnknown</span></span>
 
   
   
-<span data-ttu-id="ffed8-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ffed8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="41dc3-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="41dc3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ffed8-105">Proporciona un mecanismo para sincronizar el correo electrónico en lugar de usar la API de transporte.</span><span class="sxs-lookup"><span data-stu-id="ffed8-105">Provides a mechanism for synchronizing email instead of using the Transport API.</span></span> <span data-ttu-id="ffed8-106">Esta interfaz se expone en un objeto de almacén.</span><span class="sxs-lookup"><span data-stu-id="ffed8-106">This interface is exposed on a store object.</span></span> <span data-ttu-id="ffed8-107">Mediante esta interfaz e [IMAPISyncProgressCallback : IUnknown,](imapisyncprogresscallbackiunknown.md)un proveedor de transporte puede proporcionar un mejor progreso y mensajes de error que los que aparecen en el cuadro de diálogo De envío o recepción en Microsoft Outlook.</span><span class="sxs-lookup"><span data-stu-id="ffed8-107">By using this interface and [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), a transport provider can provide better progress and error messages than those that appear in the Send/Receive dialog in Microsoft Outlook.</span></span>
+<span data-ttu-id="41dc3-105">Proporciona un mecanismo para sincronizar el correo electrónico en lugar de usar la API de transporte.</span><span class="sxs-lookup"><span data-stu-id="41dc3-105">Provides a mechanism for synchronizing email instead of using the Transport API.</span></span> <span data-ttu-id="41dc3-106">Esta interfaz se expone en un objeto store.</span><span class="sxs-lookup"><span data-stu-id="41dc3-106">This interface is exposed on a store object.</span></span> <span data-ttu-id="41dc3-107">Mediante esta interfaz e [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), un proveedor de transporte puede proporcionar mejores mensajes de progreso y error que los que aparecen en el cuadro de diálogo Enviar o recibir en Microsoft Outlook.</span><span class="sxs-lookup"><span data-stu-id="41dc3-107">By using this interface and [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), a transport provider can provide better progress and error messages than those that appear in the Send/Receive dialog in Microsoft Outlook.</span></span>
   
-<span data-ttu-id="ffed8-108">La bandeja de salida sigue estando en el almacén predeterminado.</span><span class="sxs-lookup"><span data-stu-id="ffed8-108">The outbox is still in the default store.</span></span> <span data-ttu-id="ffed8-109">Outlook seguirá usando las API de transporte para enviar correo porque el mensaje saliente no puede estar en el almacén externo.</span><span class="sxs-lookup"><span data-stu-id="ffed8-109">Outlook will continue to use the Transport APIs to send mail because the outgoing message cannot be in the external store.</span></span>
+<span data-ttu-id="41dc3-108">La bandeja de salida sigue estando en el almacén predeterminado.</span><span class="sxs-lookup"><span data-stu-id="41dc3-108">The outbox is still in the default store.</span></span> <span data-ttu-id="41dc3-109">Outlook seguirá usando las API de transporte para enviar correo porque el mensaje saliente no puede estar en el almacén externo.</span><span class="sxs-lookup"><span data-stu-id="41dc3-109">Outlook will continue to use the Transport APIs to send mail because the outgoing message cannot be in the external store.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ffed8-110">Expuesto por:</span><span class="sxs-lookup"><span data-stu-id="ffed8-110">Exposed by:</span></span>  <br/> |<span data-ttu-id="ffed8-111">Proveedores de almacenamiento y transporte</span><span class="sxs-lookup"><span data-stu-id="ffed8-111">Store and transport providers</span></span>  <br/> |
-|<span data-ttu-id="ffed8-112">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="ffed8-112">Implemented by:</span></span>  <br/> |<span data-ttu-id="ffed8-113">Outlook</span><span class="sxs-lookup"><span data-stu-id="ffed8-113">Outlook</span></span>  <br/> |
-|<span data-ttu-id="ffed8-114">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="ffed8-114">Called by:</span></span>  <br/> |<span data-ttu-id="ffed8-115">Proveedores de almacenamiento y transporte</span><span class="sxs-lookup"><span data-stu-id="ffed8-115">Store and Transport providers</span></span>  <br/> |
-|<span data-ttu-id="ffed8-116">Identificador de interfaz:</span><span class="sxs-lookup"><span data-stu-id="ffed8-116">Interface identifier:</span></span>  <br/> |<span data-ttu-id="ffed8-117">IID_IMAPISync</span><span class="sxs-lookup"><span data-stu-id="ffed8-117">IID_IMAPISync</span></span>  <br/> |
+|<span data-ttu-id="41dc3-110">Expuesto por:</span><span class="sxs-lookup"><span data-stu-id="41dc3-110">Exposed by:</span></span>  <br/> |<span data-ttu-id="41dc3-111">Proveedores de almacenamiento y transporte</span><span class="sxs-lookup"><span data-stu-id="41dc3-111">Store and transport providers</span></span>  <br/> |
+|<span data-ttu-id="41dc3-112">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="41dc3-112">Implemented by:</span></span>  <br/> |<span data-ttu-id="41dc3-113">Outlook</span><span class="sxs-lookup"><span data-stu-id="41dc3-113">Outlook</span></span>  <br/> |
+|<span data-ttu-id="41dc3-114">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="41dc3-114">Called by:</span></span>  <br/> |<span data-ttu-id="41dc3-115">Proveedores de almacenamiento y transporte</span><span class="sxs-lookup"><span data-stu-id="41dc3-115">Store and Transport providers</span></span>  <br/> |
+|<span data-ttu-id="41dc3-116">Identificador de interfaz:</span><span class="sxs-lookup"><span data-stu-id="41dc3-116">Interface identifier:</span></span>  <br/> |<span data-ttu-id="41dc3-117">IID_IMAPISync</span><span class="sxs-lookup"><span data-stu-id="41dc3-117">IID_IMAPISync</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="ffed8-118">Orden de tabla virtual</span><span class="sxs-lookup"><span data-stu-id="ffed8-118">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="41dc3-118">Orden de Vtable</span><span class="sxs-lookup"><span data-stu-id="41dc3-118">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="ffed8-119">SynchronizeInBackground</span><span class="sxs-lookup"><span data-stu-id="ffed8-119">SynchronizeInBackground</span></span>](imapisyncsynchronizeinbackground.md) <br/> |<span data-ttu-id="ffed8-120">Implementado por proveedores de almacén de mensajes.</span><span class="sxs-lookup"><span data-stu-id="ffed8-120">Implemented by message store providers.</span></span> <span data-ttu-id="ffed8-121">Outlook 2010 y Outlook 2013 llaman a este método para iniciar la sincronización.</span><span class="sxs-lookup"><span data-stu-id="ffed8-121">This method is called by Outlook 2010 and Outlook 2013 to start synchronization.</span></span>  <br/> |
+|[<span data-ttu-id="41dc3-119">SynchronizeInBackground</span><span class="sxs-lookup"><span data-stu-id="41dc3-119">SynchronizeInBackground</span></span>](imapisyncsynchronizeinbackground.md) <br/> |<span data-ttu-id="41dc3-120">Implementado por proveedores de almacén de mensajes.</span><span class="sxs-lookup"><span data-stu-id="41dc3-120">Implemented by message store providers.</span></span> <span data-ttu-id="41dc3-121">Se llama a este método Outlook 2010 y Outlook 2013 para iniciar la sincronización.</span><span class="sxs-lookup"><span data-stu-id="41dc3-121">This method is called by Outlook 2010 and Outlook 2013 to start synchronization.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ffed8-122">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ffed8-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="41dc3-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="41dc3-122">See also</span></span>
 
 
 
-[<span data-ttu-id="ffed8-123">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ffed8-123">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
+[<span data-ttu-id="41dc3-123">IMAPISyncProgressCallback : IUnknown</span><span class="sxs-lookup"><span data-stu-id="41dc3-123">IMAPISyncProgressCallback : IUnknown</span></span>](imapisyncprogresscallbackiunknown.md)
 
 
-[<span data-ttu-id="ffed8-124">Interfaces MAPI</span><span class="sxs-lookup"><span data-stu-id="ffed8-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
+[<span data-ttu-id="41dc3-124">Interfaces MAPI</span><span class="sxs-lookup"><span data-stu-id="41dc3-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
 

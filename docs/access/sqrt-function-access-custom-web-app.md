@@ -14,21 +14,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404795"
 ---
-# <a name="sqrt-function-access-custom-web-app"></a><span data-ttu-id="7d759-103">Función Sqrt (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="7d759-103">Sqrt Function (Access custom web app)</span></span>
+# <a name="sqrt-function-access-custom-web-app"></a><span data-ttu-id="5cf31-103">Función Sqrt (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="5cf31-103">Sqrt Function (Access custom web app)</span></span>
 
-<span data-ttu-id="7d759-104">Devuelve la raíz cuadrada del valor especificado.</span><span class="sxs-lookup"><span data-stu-id="7d759-104">Returns the square root of the specified value.</span></span>
+<span data-ttu-id="5cf31-104">Devuelve la raíz cuadrada del valor especificado.</span><span class="sxs-lookup"><span data-stu-id="5cf31-104">Returns the square root of the specified value.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="7d759-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="7d759-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="5cf31-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="5cf31-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="7d759-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7d759-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5cf31-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5cf31-107">Syntax</span></span>
 
- <span data-ttu-id="7d759-108">**Sqrt** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="7d759-108">**Sqrt** (*NumericExpression*)</span></span> 
+ <span data-ttu-id="5cf31-108">**Sqrt** (*NumericExpression*)</span><span class="sxs-lookup"><span data-stu-id="5cf31-108">**Sqrt** (*NumericExpression*)</span></span> 
   
-<span data-ttu-id="7d759-109">La **función Sqrt** contiene el siguiente argumento.</span><span class="sxs-lookup"><span data-stu-id="7d759-109">The **Sqrt** function contains the following argument.</span></span> 
+<span data-ttu-id="5cf31-109">La **función Sqrt** contiene el argumento siguiente.</span><span class="sxs-lookup"><span data-stu-id="5cf31-109">The **Sqrt** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="7d759-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="7d759-110">**Argument name**</span></span>|<span data-ttu-id="7d759-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7d759-111">**Description**</span></span>|
+|<span data-ttu-id="5cf31-110">**Nombre de argumento**</span><span class="sxs-lookup"><span data-stu-id="5cf31-110">**Argument name**</span></span>|<span data-ttu-id="5cf31-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="5cf31-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="7d759-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="7d759-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="7d759-113">Expresión numérica.</span><span class="sxs-lookup"><span data-stu-id="7d759-113">A numeric expression.</span></span>  <br/> |
+| <span data-ttu-id="5cf31-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="5cf31-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="5cf31-113">Expresión numérica.</span><span class="sxs-lookup"><span data-stu-id="5cf31-113">A numeric expression.</span></span>  <br/> |
    
 

@@ -16,26 +16,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409310"
 ---
-# <a name="txtheight-cell-text-transform-section"></a><span data-ttu-id="bf0bf-104">Celda TxtHeight (Sección de transformación de texto)</span><span class="sxs-lookup"><span data-stu-id="bf0bf-104">TxtHeight Cell (Text Transform Section)</span></span>
+# <a name="txtheight-cell-text-transform-section"></a><span data-ttu-id="b2249-104">Celda TxtHeight (Sección de transformación de texto)</span><span class="sxs-lookup"><span data-stu-id="b2249-104">TxtHeight Cell (Text Transform Section)</span></span>
 
-<span data-ttu-id="bf0bf-105">Determina el alto del bloque de texto.</span><span class="sxs-lookup"><span data-stu-id="bf0bf-105">Determines the height of the text block.</span></span> <span data-ttu-id="bf0bf-106">La fórmula predeterminada es:</span><span class="sxs-lookup"><span data-stu-id="bf0bf-106">The default formula is:</span></span>
+<span data-ttu-id="b2249-p102">Determina el alto del bloque de texto. La fórmula predeterminada es:</span><span class="sxs-lookup"><span data-stu-id="b2249-p102">Determines the height of the text block. The default formula is:</span></span>
   
-<span data-ttu-id="bf0bf-107">= Alto \* 1</span><span class="sxs-lookup"><span data-stu-id="bf0bf-107">= Height \* 1</span></span>
+<span data-ttu-id="b2249-107">= Alto \* 1</span><span class="sxs-lookup"><span data-stu-id="b2249-107">= Height \* 1</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="bf0bf-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="bf0bf-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b2249-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b2249-108">Remarks</span></span>
 
-<span data-ttu-id="bf0bf-109">Para obtener una referencia a la celda TxtHeight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="bf0bf-109">To get a reference to the TxtHeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="b2249-109">Para obtener una referencia a la celda TxtHeight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="b2249-109">To get a reference to the TxtHeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="bf0bf-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="bf0bf-110">Cell name:</span></span>  <br/> | <span data-ttu-id="bf0bf-111">TxtHeight</span><span class="sxs-lookup"><span data-stu-id="bf0bf-111">TxtHeight</span></span>  <br/> |
+| <span data-ttu-id="b2249-110">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="b2249-110">Cell name:</span></span>  <br/> | <span data-ttu-id="b2249-111">TxtHeight</span><span class="sxs-lookup"><span data-stu-id="b2249-111">TxtHeight</span></span>  <br/> |
    
-<span data-ttu-id="bf0bf-112">Para obtener una referencia desde un programa a la celda TxtHeight por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="bf0bf-112">To get a reference to the TxtHeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="b2249-112">Para obtener una referencia desde un programa a la celda TxtHeight por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="b2249-112">To get a reference to the TxtHeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="bf0bf-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="bf0bf-113">Section index:</span></span>  <br/> |<span data-ttu-id="bf0bf-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="bf0bf-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="bf0bf-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="bf0bf-115">Row index:</span></span>  <br/> |<span data-ttu-id="bf0bf-116">**visRowTextXForm**</span><span class="sxs-lookup"><span data-stu-id="bf0bf-116">**visRowTextXForm**</span></span> <br/> |
-| <span data-ttu-id="bf0bf-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="bf0bf-117">Cell index:</span></span>  <br/> |<span data-ttu-id="bf0bf-118">**visXFormHeight**</span><span class="sxs-lookup"><span data-stu-id="bf0bf-118">**visXFormHeight**</span></span> <br/> |
+| <span data-ttu-id="b2249-113">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="b2249-113">Section index:</span></span>  <br/> |<span data-ttu-id="b2249-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="b2249-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="b2249-115">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="b2249-115">Row index:</span></span>  <br/> |<span data-ttu-id="b2249-116">**visRowTextXForm**</span><span class="sxs-lookup"><span data-stu-id="b2249-116">**visRowTextXForm**</span></span> <br/> |
+| <span data-ttu-id="b2249-117">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="b2249-117">Cell index:</span></span>  <br/> |<span data-ttu-id="b2249-118">**visXFormHeight**</span><span class="sxs-lookup"><span data-stu-id="b2249-118">**visXFormHeight**</span></span> <br/> |
    
 
