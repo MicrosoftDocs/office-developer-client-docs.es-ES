@@ -32,24 +32,24 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 |Proporcionado por  <br/> |Consulta en [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Identificador de interfaz:  <br/> |IID_IPSTX  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|**[GetLastError](ipstx-getlasterror.md)** <br/> |Obtiene información ampliada sobre el último error.  <br/> |
+|**[GetLastError](ipstx-getlasterror.md)** <br/> |Obtiene información extendida sobre el último error.  <br/> |
 |**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Obtiene la interfaz **[IOSTX](iostxiunknown.md)** asociada.  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
-|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Establece un almacén local para emular el Administrador de protocolo de Outlook para colar mensajes salientes en un servidor.  <br/> |
+|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Establece un almacén local para emular el administrador Outlook de protocolo para colar mensajes salientes en un servidor.  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -28,21 +28,21 @@ HRESULT IOlkAccountManager::DeleteAccount (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwAcctID_
   
-> [entrada] El identificador de cuenta de la cuenta que se va a eliminar.
+> [in] El identificador de cuenta de la cuenta que se va a eliminar.
     
 ## <a name="return-values"></a>Valores devueltos
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |La llamada se ha realiza correctamente  <br/> |
+|S_OK  <br/> |La llamada se ha correctado  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |No se puede encontrar la cuenta especificada.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md)

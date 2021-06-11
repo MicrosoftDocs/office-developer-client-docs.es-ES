@@ -21,20 +21,20 @@ ms.locfileid: "33433160"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un proveedor de transporte es una biblioteca de vínculos dinámicos (DLL) que actúa como intermediario entre el subsistema MAPI y uno o más sistemas de mensajería subyacentes. Un sistema de mensajería es un mecanismo específico mediante el cual se envían y reciben mensajes. Algunos ejemplos de sistemas de mensajería son:
+Un proveedor de transporte es una biblioteca de vínculos dinámicos (DLL) que actúa como intermediario entre el subsistema MAPI y uno o varios sistemas de mensajería subyacentes. Un sistema de mensajería es un mecanismo específico por el que se envían y reciben mensajes. Algunos ejemplos de sistemas de mensajería son:
   
 - Un sistema de archivos de red compartido en el que el proveedor de transporte escribe mensajes directamente.
     
 - Una interfaz de red TCP/IP que el proveedor de transporte usa para conectarse a un servidor de mensajería.
     
-- Un servicio en línea al que se conectan los usuarios.
+- Un servicio en línea al que los usuarios se conectan.
     
-- Un sistema de automatización de office o mensajería basado en host.
+- Un sistema de automatización de office o mensajería basada en host.
     
-- Conjunto de llamadas de procedimiento remoto a un servidor de mensajería.
+- Un conjunto de llamadas de procedimiento remoto a un servidor de mensajería.
     
 - Cualquier cosa que se pueda usar para transferir datos de un equipo a otro.
     
-Una DLL del proveedor de transporte debe cumplir con la interfaz especificada por MAPI. Como desarrollador del proveedor de transporte, implementará esta interfaz en términos de la funcionalidad presente en el sistema de mensajería.
+Un DLL del proveedor de transporte debe cumplir con la interfaz especificada por MAPI. Como desarrollador del proveedor de transporte, implementará esta interfaz en términos de la funcionalidad presente en el sistema de mensajería.
   
 

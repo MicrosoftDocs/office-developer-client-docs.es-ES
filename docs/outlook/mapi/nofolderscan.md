@@ -27,17 +27,17 @@ Especifica si Microsoft Office Outlook examinar carpetas de contactos en un alma
 
 |||
 |:-----|:-----|
-|Expuesto en:  <br/> |[IMsgStore : IMAPIProp (objeto)](imsgstoreimapiprop.md)  <br/> |
-|Creado por:  <br/> |Proveedor de la Tienda  <br/> |
-|Acceso mediante:  <br/> |Outlook y otros clientes  <br/> |
+|Expuesto en:  <br/> |[IMsgStore : objeto IMAPIProp](imsgstoreimapiprop.md)  <br/> |
+|Creado por:  <br/> |Proveedor de la tienda  <br/> |
+|Al que se accede mediante:  <br/> |Outlook y otros clientes  <br/> |
 |Tipo de propiedad:  <br/> |PT_LONG  <br/> |
 |Tipo de acceso:  <br/> |Solo lectura o lectura y escritura según el proveedor de la tienda  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para proporcionar cualquiera de las funciones del almacén, el proveedor del almacén debe implementar [IMAPIProp : IUnknown](imapipropiunknown.md) y devolver una etiqueta de propiedad válida para cualquiera de estas propiedades pasadas a una llamada [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Cuando la etiqueta de propiedad de cualquiera de estas propiedades se pasa a [IMAPIProp::GetProps](imapiprop-getprops.md), el proveedor del almacén también debe devolver el valor de propiedad correcto. Los proveedores de almacén [pueden llamar a HrGetOneProp](hrgetoneprop.md) y [HrSetOneProp](hrsetoneprop.md) para obtener o establecer estas propiedades. 
+Para proporcionar cualquiera de las funciones del almacén, el proveedor de la tienda debe implementar [IMAPIProp : IUnknown](imapipropiunknown.md) y devolver una etiqueta de propiedad válida para cualquiera de estas propiedades pasadas a una llamada [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Cuando la etiqueta de propiedad de cualquiera de estas propiedades se pasa a [IMAPIProp::GetProps](imapiprop-getprops.md), el proveedor de almacenamiento también debe devolver el valor de propiedad correcto. Los proveedores de almacenamiento [pueden llamar a HrGetOneProp](hrgetoneprop.md) y [HrSetOneProp para](hrsetoneprop.md) obtener o establecer estas propiedades. 
   
-Para recuperar el valor de esta propiedad, el cliente primero debe usar [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad y, a continuación, especificar esta etiqueta de propiedad en [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor. Al llamar [a IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), especifique los siguientes valores para la estructura [MAPINAMEID](mapinameid.md) señalada por el parámetro de entrada  _lppPropNames_:
+Para recuperar el valor de esta propiedad, el cliente primero debe usar [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad y, a continuación, especificar esta etiqueta de propiedad en [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor. Al llamar [a IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), especifique los siguientes valores para la estructura [MAPINAMEID](mapinameid.md) apuntada por el parámetro de entrada  _lppPropNames_:
   
 |||
 |:-----|:-----|
@@ -45,12 +45,12 @@ Para recuperar el valor de esta propiedad, el cliente primero debe usar [IMAPIPr
 |ulKind:  <br/> |MNID_STRING  <br/> |
 |Kind.lpwstrName:  <br/> |L"NoFolderScan"  <br/> |
    
-Esta propiedad permite a los proveedores de almacenamiento especificar en Outlook que no se deben examinar las carpetas de contactos del almacén para evitar la degradación del rendimiento. Se usa en operaciones de combinación de correspondencia durante las cuales Outlook comprueba la presencia y el valor de esta propiedad antes de iniciar el examen.
+Esta propiedad proporciona una forma de que los proveedores de almacenes especifiquen Outlook para no examinar carpetas de contactos en el almacén para evitar la degradación del rendimiento. Se usa en operaciones de combinación de correspondencia durante las cuales Outlook comprueba la presencia y el valor de esta propiedad antes de iniciar el examen.
   
-De forma predeterminada, esta propiedad no se expone en un almacén, lo que significa que Outlook puede examinar la carpeta Contactos del almacén. Si se expone la propiedad, los valores posibles son los siguientes:
+De forma predeterminada, esta propiedad no se expone en un almacén, lo que significa Outlook puede examinar la carpeta Contactos en el almacén. Si se expone la propiedad, los siguientes son los valores posibles:
   
 - Cero (0): Outlook puede llevar a cabo el examen.
     
-- Valor distinto de cero: Outlook no debe examinar las carpetas de contactos del almacén.
+- Valor distinto de cero: Outlook no debe examinar carpetas de contactos en el almacén.
     
 

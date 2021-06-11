@@ -1,5 +1,5 @@
 ---
-title: Celda BevelBottomType (Sección de propiedades de bisel)
+title: Celda BevelBottomType (sección Propiedades de biselado)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,29 +14,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431753"
 ---
-# <a name="bevelbottomtype-cell-bevel-properties-section"></a>Celda BevelBottomType (Sección de propiedades de bisel)
+# <a name="bevelbottomtype-cell-bevel-properties-section"></a>Celda BevelBottomType (sección Propiedades de biselado)
 
 Especifica el tipo de bisel inferior del bisel de una forma.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
 |0  <br/> |Sin bisel  <br/> |
-|1   <br/> |Bisel circular  <br/> |
-|2   <br/> |Bisel inconjunto desenlazado  <br/> |
-|3   <br/> |Bisel cruzado  <br/> |
-|4   <br/> |Bisel inclinado frío  <br/> |
+|1  <br/> |Bisel circular  <br/> |
+|2  <br/> |Bisel de conjunto de entrada desenfasado  <br/> |
+|3  <br/> |Bisel cruzado  <br/> |
+|4   <br/> |Bisel Slant cool  <br/> |
 |5   <br/> |Bisel angular  <br/> |
-|6   <br/> |Bisel redondeado suave  <br/> |
+|6   <br/> |Bisel redondo suave  <br/> |
 |7   <br/> |Bisel convex  <br/> |
 |8   <br/> |Bisel de pendiente  <br/> |
 |9   <br/> |Bisel divot  <br/> |
-|10    <br/> |Bisel de canalé  <br/> |
-|11  <br/> |Bisel de borde duro  <br/> |
+|10  <br/> |Bisel de canalé  <br/> |
+|11  <br/> |Biselado perimetral duro  <br/> |
 |12   <br/> |Bisel Art Deco  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **BevelBottomType** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** en el formato de archivo .vsdx, o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **BevelBottomType** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** en el formato de archivo .vsdx o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|

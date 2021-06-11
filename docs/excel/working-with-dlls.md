@@ -18,23 +18,23 @@ ms.locfileid: "33431837"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-En esta sección se incluye información sobre cómo crear y llamar a archivos DLL que funcionan con Microsoft Excel.
+En esta sección se incluye información sobre cómo crear y llamar a dll que funcionan con Microsoft Excel.
   
 ## <a name="in-this-section"></a>En esta sección
 
 [Desarrollar DLL](developing-dlls.md)
   
-> Describe las ventajas de usar archivos DLL y cómo crearlos.
+> Describe las ventajas de usar dll y cómo crearlas.
     
 [Obtener acceso a las DLL en Excel](how-to-access-dlls-in-excel.md)
   
-> Describe cómo llamar a comandos y funciones DLL a través de un módulo de código Visual Basic para Aplicaciones (VBA), directamente desde una hoja de cálculo o desde la interfaz de usuario de Excel. 
+> Describe cómo llamar a funciones y comandos DLL a través de un módulo de código Visual Basic para Aplicaciones (VBA), directamente desde una hoja de cálculo o desde la interfaz Excel usuario. 
     
 [Llamar User-Defined funciones desde DLL](calling-user-defined-functions-from-dlls.md)
   
 > Describe cómo habilitar dll para llamar a funciones definidas por el usuario.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

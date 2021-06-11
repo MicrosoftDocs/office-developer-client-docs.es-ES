@@ -25,8 +25,8 @@ Las prioridades de los mensajes MAPI se asignan a valores TNEF para la compatibi
   
 |**Prioridad**|**Valor MAPI**|**Valor TNEF**|
 |:-----|:-----|:-----|
-|normal  <br/> |-1  <br/> |3   <br/> |
-|high  <br/> |0  <br/> |2   <br/> |
-|low  <br/> |1   <br/> |1   <br/> |
+|normal  <br/> |-1  <br/> |3  <br/> |
+|high  <br/> |0  <br/> |2  <br/> |
+|low  <br/> |1  <br/> |1  <br/> |
    
 

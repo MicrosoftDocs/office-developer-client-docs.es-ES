@@ -41,23 +41,23 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cb**
   
-> Número de bytes de la matriz descrita por el **miembro abEntry.** 
+> Recuento de bytes en la matriz descrita por el **miembro abEntry.** 
     
  **abEntry**
   
-> Matriz de bytes que contiene los datos del identificador de entrada mts.
+> Matriz de bytes que contiene los datos del identificador de entrada de MTS.
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura MTSID** solo se usa para asignaciones X.400 de identificadores de entrada MAPI. Corresponde a la estructura [FLATENTRY de](flatentry.md) MAPI. 
+La **estructura MTSID** solo se usa para asignaciones X.400 de identificadores de entrada MAPI. Corresponde a la estructura [DE MAPI FLATENTRY.](flatentry.md) 
   
-Un identificador MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de propiedad binaria. Los identificadores MTS pueden ser especialmente útiles para cancelar mensajes diferidos. 
+Un identificador MTS tiene el mismo formato que un identificador de entrada MAPI o un valor de propiedad binaria. Los identificadores mts pueden ser especialmente útiles para cancelar mensajes diferidos. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

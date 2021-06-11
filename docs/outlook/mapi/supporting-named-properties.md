@@ -23,16 +23,16 @@ ms.locfileid: "33434329"
   
 Any object that implements the [IMAPIProp: IUnknown](imapipropiunknown.md) interface can support named properties. Se requiere compatibilidad con propiedades con nombre para: 
   
-- Proveedores de libretas de direcciones que permiten que las entradas de otros proveedores se copien en sus contenedores.
+- Proveedores de libreta de direcciones que permiten copiar entradas de otros proveedores en sus contenedores.
     
-- Proveedores de almacenamiento de mensajes que se pueden usar para crear tipos de mensajes arbitrarios.
+- Proveedores de almacén de mensajes que se pueden usar para crear tipos de mensajes arbitrarios.
     
-La compatibilidad con propiedades con nombre es opcional para todos los demás proveedores de servicios. Los proveedores de servicios que admiten propiedades con nombre deben implementar la asignación de nombre a identificador en los métodos [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) e [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Los clientes llaman a **GetNamesFromIDs** para recuperar los nombres correspondientes de uno o más identificadores de propiedad en el intervalo de más de 0x8000 y **GetIDsFromNames** para crear o recuperar los identificadores de uno o más nombres. 
+La compatibilidad con propiedades con nombre es opcional para todos los demás proveedores de servicios. Los proveedores de servicios que admiten propiedades con nombre deben implementar la asignación de nombre a identificador en los [métodos IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) e [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Los clientes llaman a **GetNamesFromIDs** para recuperar los nombres correspondientes de uno o varios identificadores de propiedad en el intervalo de más de 0x8000 y **GetIDsFromNames** para crear o recuperar los identificadores de uno o varios nombres. 
   
 Los proveedores de servicios que no admiten propiedades con nombre deben:
   
-- Error en las llamadas a [IMAPIProp::SetProps](imapiprop-setprops.md) para establecer propiedades con identificadores de 0x8000 o superior devolviendo MAPI_E_UNEXPECTED_ID en la matriz [SPropProblem.](spropproblem.md) 
+- No se pueden llamar a [IMAPIProp::SetProps](imapiprop-setprops.md) para establecer propiedades con identificadores de 0x8000 o superiores al devolver MAPI_E_UNEXPECTED_ID la matriz [SPropProblem.](spropproblem.md) 
     
-- Devolver MAPI_E_NO_SUPPORT de los [métodos IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) e [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+- Devuelve MAPI_E_NO_SUPPORT de los [métodos IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) e [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
     
 

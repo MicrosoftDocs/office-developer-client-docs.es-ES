@@ -28,24 +28,24 @@ CY(** *value* **, ** *cyID* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Opcional  <br/> |**Número o cadena** <br/> |Número o cadena que incluye formato específico de moneda. Si no se especifica, el valor de moneda tiene el formato de acuerdo con el estilo de moneda en la configuración de región e idioma del sistema.  <br/> |
-| _cyID_ <br/> |Opcional  <br/> |**Number** <br/> |Un identificador de moneda numérico o una cadena entrecomillada de tres caracteres para la abreviatura ISO 4217.  <br/> |
+| _value_ <br/> |Opcional  <br/> |**Número o cadena** <br/> |Número o cadena que incluye formato específico de moneda. Si no se especifica, el valor de moneda tiene el formato de acuerdo con el estilo de moneda en la configuración región e idioma del sistema.  <br/> |
+| _cyID_ <br/> |Opcional  <br/> |**Number** <br/> |Un identificador numérico de moneda o una cadena entrecomillada de tres caracteres para la abreviatura ISO 4217.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Para especificar una moneda diferente, debe incluir un _cyID válido._ Para ver una lista, vea [Constantes de moneda](about-currency-constants.md).
   
-Si  _el_ valor no es compatible con el tipo de moneda designado o si se especifica un argumento no válido como "no es un número", se #VALUE! se devuelve. Si  el valor es mayor que 922.337.203.685.477,5807 o inferior a -922.337.203.685.477,5808, #VALUE! se devuelve. 
+Si  _el_ valor es incompatible con el tipo de moneda designado, o si se especifica un argumento no válido como "no es un número", se #VALUE! error se devuelve. Si  _el_ valor es mayor que 922.337.203.685.477.5807 o inferior a -922.337.203.685.477.5808, un #VALUE! error se devuelve. 
   
-Para obtener una mayor precisión con valores de moneda muy grandes que incluyan fracciones de una unidad, como 3,6 trillones, use argumentos de cadena para  _el valor_.
+Para obtener una mayor precisión con valores de moneda muy grandes que incluyen fracciones de una unidad, como 3,6 trillones, use argumentos de cadena para  _el valor_.
   
-Si se especifica un  _cyID no válido,_ se devuelve un error. 
+Especificar un  _cyID no válido_ devuelve un error. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
 Si la configuración regional y de idioma del usuario especifica dólares estadounidenses:
   
-CY(999998,993)
+CY(999998.993)
   
 Devuelve $999.998,99
   

@@ -23,7 +23,7 @@ Puede usar la acción **CuadroDeMensajes** para mostrar un cuadro de mensaje que
   
 ## <a name="setting"></a>Configuración
 
-La **acción Cuadro** De Mensaje tiene el siguiente argumento. 
+La **acción MessageBox** tiene el siguiente argumento. 
   
 |**Argumento de la acción**|**Descripción**|
 |:-----|:-----|

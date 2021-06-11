@@ -25,7 +25,7 @@ ms.locfileid: "33436877"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el identificador de entrada del contenedor de la libreta de direcciones inicial.
+Devuelve el identificador de entrada del contenedor de libreta de direcciones inicial.
   
 ```cpp
 HRESULT GetDefaultDir(
@@ -34,7 +34,7 @@ HRESULT GetDefaultDir(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpcbEntryID_
   
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente y los proveedores de servicios llaman al **método GetDefaultDir** para recuperar el identificador de entrada del contenedor de libreta de direcciones predeterminado. El contenedor predeterminado es lo que el usuario ve que se muestra en la libreta de direcciones cuando se abre la libreta de direcciones por primera vez. Si no se ha establecido un contenedor predeterminado mediante una llamada al método [IAddrBook::SetDefaultDir,](iaddrbook-setdefaultdir.md) MAPI asigna como contenedor predeterminado el primer contenedor con nombres que no son la libreta de direcciones personal (PAB). Si no se encuentra este contenedor, el PAB se convierte en el contenedor predeterminado. 
+Las aplicaciones cliente y los proveedores de servicios llaman al **método GetDefaultDir** para recuperar el identificador de entrada del contenedor de libreta de direcciones predeterminado. El contenedor predeterminado es lo que el usuario ve que se muestra en la libreta de direcciones cuando se abre por primera vez la libreta de direcciones. Si no se ha establecido un contenedor predeterminado mediante una llamada al método [IAddrBook::SetDefaultDir,](iaddrbook-setdefaultdir.md) MAPI asigna como contenedor predeterminado el primer contenedor con nombres que no son la libreta de direcciones personal (PAB). Si no se encuentra un contenedor de este tipo, el PAB se convierte en el contenedor predeterminado. 
   
 Para establecer el directorio predeterminado, un cliente o proveedor llama al **método SetDefaultDir.** Los clientes y proveedores no tienen que llamar al [método IMAPIProp::SaveChanges;](imapiprop-savechanges.md) dado que los cambios en la libreta de direcciones no se realizan, los cambios se realizan inmediatamente de forma permanente. 
   
@@ -64,7 +64,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnOpenDefaultDir  <br/> |MFCMAPI usa el **método GetDefaultDir** para obtener el identificador del contenedor de libreta de direcciones predeterminado.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

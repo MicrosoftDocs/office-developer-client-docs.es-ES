@@ -25,7 +25,7 @@ ms.locfileid: "33436653"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a la sesión MAPI actual asociada con el objeto de compatibilidad. Los proveedores MAPI pueden consultar su objeto de compatibilidad mapi para esta interfaz. Para obtener más información sobre los objetos de compatibilidad, vea [Información general sobre los objetos de soporte técnico.](support-object-overview.md)
+Proporciona acceso a la sesión MAPI actual asociada con el objeto de soporte técnico. Los proveedores MAPI pueden consultar su objeto de soporte técnico MAPI para esta interfaz. Para obtener más información sobre los objetos de soporte técnico, vea [Support Object Overview](support-object-overview.md).
   
 |||
 |:-----|:-----|
@@ -33,13 +33,13 @@ Proporciona acceso a la sesión MAPI actual asociada con el objeto de compatibil
 |Llamado por:  <br/> |Proveedores MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIGetSession  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Se llama para obtener un puntero a la sesión MAPI actual.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -50,5 +50,5 @@ Proporciona acceso a la sesión MAPI actual asociada con el objeto de compatibil
 
 [Interfaces MAPI](mapi-interfaces.md)
   
-[Información general sobre los objetos de soporte técnico](support-object-overview.md)
+[Introducción a los objetos de soporte](support-object-overview.md)
 

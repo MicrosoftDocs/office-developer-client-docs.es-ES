@@ -42,23 +42,23 @@ SCODE ScCopyNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cntf_
   
-> [entrada] Recuento de [estructuras notification](notification.md) en la matriz indicada por el _parámetro rgntf._ 
+> [in] Recuento de [estructuras NOTIFICATION](notification.md) en la matriz indicada por el _parámetro rgntf._ 
     
  _rgntf_
   
-> [entrada] Puntero a una matriz de **estructuras notification** que definen las notificaciones de eventos que se van a copiar. 
+> [in] Puntero a una matriz de **estructuras NOTIFICATION** que definen las notificaciones de eventos que se van a copiar. 
     
  _pvDst_
   
 > [salida] Puntero a las notificaciones devueltas. 
     
- _indeste_
+ _pcb_
   
-> [salida] Puntero opcional a una variable donde se almacena el tamaño, en bytes, de la matriz que apunta el parámetro _rgntf._ Si no es NULL, el parámetro _de byte_ se establece en el número de bytes almacenados en el _parámetro pvDst._ 
+> [salida] Puntero opcional a una variable donde se almacena el tamaño, en bytes, de la matriz apuntada por el parámetro _rgntf._ Si no es NULL, el _parámetro pcb_ se establece en el número de bytes almacenados en el _parámetro pvDst._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -72,6 +72,6 @@ E_INVALIDARG
     
 ## <a name="remarks"></a>Comentarios
 
-Si se pasa NULL en el parámetro  _deendo,_ no se realiza ninguna copia; si se pasa un valor que no es nulo en una celda  _,_ la función **ScCopyNotifications** copia el tamaño de la matriz y la propia matriz en un único bloque de memoria. Si _no_ es NULL, se establece en el número de bytes almacenados en el _parámetro pvDst._ El  _parámetro pvDst_ debe ser lo suficientemente grande como para contener toda la matriz. 
+Si se pasa NULL en el  _parámetro pcb,_ no se realiza ninguna copia; si se pasa un valor que no es nulo en  _pcb_, la función **ScCopyNotifications** copia el tamaño de la matriz y la matriz en sí en un único bloque de memoria. Si _pcb_ no es NULL, se establece en el número de bytes almacenados en el _parámetro pvDst._ El  _parámetro pvDst_ debe ser lo suficientemente grande como para contener toda la matriz. 
   
 

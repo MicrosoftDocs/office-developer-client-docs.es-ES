@@ -25,7 +25,7 @@ ms.locfileid: "33432950"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita de un mensaje la información preprocesada escrita por una función basada en [PreprocessMessage.](preprocessmessage.md) 
+Quita de un mensaje la información preprocesada escrita por una [función basada en PreprocessMessage.](preprocessmessage.md) 
   
 |||
 |:-----|:-----|
@@ -39,11 +39,11 @@ HRESULT RemovePreprocessInfo(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
-> [entrada] Puntero al mensaje preprocesado del que se va a quitar la información.
+> [in] Puntero al mensaje preprocesado del que se va a quitar la información.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -55,6 +55,6 @@ S_OK
 
 La cola MAPI llama a una función basada en **RemovePreprocessInfo**. Un proveedor de transporte registra la función basada **en RemovePreprocessInfo** al mismo tiempo que registra la función basada **en PreprocessMessage** paralela en una llamada al método [IMAPISupport::RegisterPreprocessor.](imapisupport-registerpreprocessor.md) 
   
-Una representación de imagen adecuada para la transmisión de fax es un ejemplo de información preprocesada escrita por una función definida por el prototipo de función [PreprocessMessage.](preprocessmessage.md) La cola MAPI normalmente llama a una **función RemovePreprocessInfo** después de enviar un mensaje que contiene información preprocesada. 
+Una representación de imágenes adecuada para la transmisión de fax es un ejemplo de información preprocesada escrita por una función definida por el prototipo de función [PreprocessMessage.](preprocessmessage.md) La cola MAPI normalmente llama a una **función RemovePreprocessInfo** después de enviar un mensaje que contiene información preprocesada. 
   
 

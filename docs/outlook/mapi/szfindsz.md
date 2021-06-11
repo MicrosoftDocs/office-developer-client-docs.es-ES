@@ -25,7 +25,7 @@ ms.locfileid: "33435225"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca la primera aparición de una subcadena terminada en null en una cadena terminada en null. 
+Localiza la primera aparición de una subcadena terminada en null en una cadena terminada en null. 
   
 |||
 |:-----|:-----|
@@ -40,22 +40,22 @@ LPSTR SzFindCh(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
-> [entrada] Puntero a la cadena terminada en null en la que se va a buscar. El  _parámetro lpsz_ no debe superar los 65536 caracteres. 
+> [in] Puntero a la cadena terminada en null que se va a buscar. El  _parámetro lpsz_ no debe superar los 65536 caracteres. 
     
  _lpszKey_
   
-> [entrada] Puntero a la subcadena terminada en null que se va a buscar. El  _parámetro lpszKey_ no debe superar los 65536 caracteres. 
+> [in] Puntero a la subcadena terminada en null que se va a buscar. El  _parámetro lpszKey_ no debe superar los 65536 caracteres. 
     
 ## <a name="return-value"></a>Valor devuelto
 
- **SzFindSz** devuelve un puntero al primer carácter de la primera aparición de la subcadena de la cadena. Si la subcadena no se produce en ningún lugar de la cadena, si  _lpszKey_ es mayor que  _lpsz_ o si cualquiera de los parámetros es NULL, se devuelve un valor NULL. 
+ **SzFindSz** devuelve un puntero al primer carácter de la primera aparición de la subcadena de la cadena. Si la subcadena no se produce en ninguna parte de la cadena, si  _lpszKey_ es mayor que  _lpsz_ o si cualquiera de los parámetros es NULL, se devuelve un valor de NULL. 
   
 ## <a name="remarks"></a>Comentarios
 
-La **función SzFindSz** solo busca una coincidencia exacta; es sensible a las diferencias entre mayúsculas y minúsculas. Se admiten búsquedas en formatos Unicode y DBCS. El límite de longitud de ambos parámetros está en caracteres, no necesariamente bytes. 
+La **función SzFindSz** solo busca una coincidencia exacta; es sensible a diferencias entre mayúsculas y minúsculas. Se admiten búsquedas en formatos Unicode y DBCS. El límite de longitud de ambos parámetros está en caracteres, no necesariamente bytes. 
   
 

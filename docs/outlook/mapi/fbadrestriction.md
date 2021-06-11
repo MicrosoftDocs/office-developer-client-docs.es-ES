@@ -43,13 +43,13 @@ ULONG FBadRestriction(
 
  _lpres_
   
-> [entrada] Estructura [SRestriction que](srestriction.md) define la restricción que se va a validar. 
+> [in] Estructura [SRestriction que](srestriction.md) define la restricción que se va a validar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 TRUE 
   
-> La restricción especificada, o una o varias de sus subrestricciones, no es válida. 
+> La restricción especificada, o una o más de sus subrestricciones, no es válida. 
     
 FALSE 
   
@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Una vez validada una restricción, se puede pasar en llamadas al método [IMAPITable::Restrict](imapitable-restrict.md) para restringir la tabla a determinadas filas, al método [IMAPITable::FindRow](imapitable-findrow.md) para localizar una fila de tabla y a los métodos de la interfaz [IMAPIContainer](imapicontainerimapiprop.md) para realizar una restricción en un objeto contenedor. 
+Una vez validada una restricción, se puede pasar en llamadas al método [IMAPITable::Restrict](imapitable-restrict.md) para restringir la tabla a determinadas filas, al método [IMAPITable::FindRow](imapitable-findrow.md) para buscar una fila de tabla y a los métodos de la interfaz [IMAPIContainer](imapicontainerimapiprop.md) para realizar una restricción en un objeto contenedor. 
   
 

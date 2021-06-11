@@ -31,7 +31,7 @@ HASCATEGORY(** *category* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _category_ <br/> |Obligatorio  <br/> |**String** <br/> |Categoría que se va a buscar.  <br/> |
+| _categoría_ <br/> |Obligatorio  <br/> |**String** <br/> |Categoría que se va a buscar.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 

@@ -26,6 +26,6 @@ La asignación de capas se muestra como un índice de la lista de capas de la p�
   
 Si una forma está asignada a varias capas, los índices de las capas aparecen en la celda Layer Membership separados por puntos y comas.
   
-Para hacer referencia al valor de la celda Layer Membership en una fórmula, use el nombre **LayerMember**.
+Para hacer referencia al valor de la celda Pertenencia a la capa en una fórmula, use el nombre **LayerMember**.
   
 

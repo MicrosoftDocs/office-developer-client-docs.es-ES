@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251464
 localization_priority: Normal
 ms.assetid: 5a90cb16-7eef-8876-8e25-408787b16f58
-description: Devuelve un entero de 0 a 59 que representa el componente de minutos de fecha y hora o expresión .
+description: Devuelve un entero de 0 a 59 que representa el componente de minutos de datetime o expresión .
 ms.openlocfilehash: 35fe1dc8d4026dd6c829a38504d9ba82d64edda2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33436569"
 ---
 # <a name="minute-function-visioshapesheet"></a>Función MINUTE (VisioShapeSheet)
 
-Devuelve un entero entre 0 y 59 que representa el componente de minutos de  *fecha y hora*  o  *expresión*  . 
+Devuelve un entero de 0 a 59 que representa el componente de minutos  *de datetime*  o  *expresión*  . 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -38,13 +38,13 @@ Entero
   
 ## <a name="remarks"></a>Comentarios
 
-Se descarta el componente de  _fecha y_ hora  _y la_ expresión. 
+El componente date en  _datetime_ y  _expresión_ se descarta. 
   
-No se realiza redondeo. Si  _falta fecha y_ hora o no se puede convertir en un resultado válido, la función devuelve un error. 
+No se realiza redondeo. Si  _falta datetime_ o no se puede convertir en un resultado válido, la función devuelve un error. 
   
 El formato del valor devuelto corresponde al estilo de hora establecido en la configuración regional actual del sistema.
   
-La función MINUTE también acepta un  valor numérico único para la expresión en la que la parte decimal representa la fracción de un día desde la medianoche. 
+La función MINUTE también acepta un único valor numérico para  _la_ expresión donde la parte decimal representa la fracción de un día desde la medianoche. 
   
 ## <a name="example-1"></a>Ejemplo 1
 
@@ -60,7 +60,7 @@ Devuelve 13.
   
 ## <a name="example-3"></a>Ejemplo 3
 
-MINUTE(0,575)
+MINUTE(0.575)
   
 Devuelve 48.
   

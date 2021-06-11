@@ -22,7 +22,7 @@ Determina el ancho de la página impresa en las unidades de dibujo.
   
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el ancho  de página  en la ficha Tamaño  de página  del cuadro de diálogo Configurar página (en la pestaña Diseño, haga clic en la flecha de configuración de página) o cambiar manualmente el tamaño de la página con el mouse. Para ello, arrastre el borde de la página mientras mantiene presionada la tecla CTRL. 
+También puede establecer el ancho  de página  en la pestaña Tamaño  de página  del cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en la flecha Configurar página) o redimensionando manualmente la página con el mouse. Para ello, arrastre el borde de la página mientras mantiene presionada la tecla CTRL. 
   
 Para obtener una referencia a la celda PageWidth por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

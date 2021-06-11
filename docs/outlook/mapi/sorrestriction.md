@@ -25,7 +25,7 @@ ms.locfileid: "33437934"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una restricción **OR** que se usa para aplicar una operación **lógica OR** a una restricción. 
+Describe una restricción **OR** que se usa para aplicar una operación **OR** lógica a una restricción. 
   
 |||
 |:-----|:-----|
@@ -40,21 +40,21 @@ typedef struct _SOrRestriction
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cRes**
   
-> Número de estructuras de la matriz a las que apunta el **miembro lpRes.** 
+> Recuento de estructuras en la matriz a la que apunta el **miembro lpRes.** 
     
  **lpRes**
   
-> Puntero a la [estructura SRestriction](srestriction.md) que describe la restricción que se unirá mediante la operación **lógica OR.** 
+> Puntero a la [estructura SRestriction](srestriction.md) que describe la restricción que se unirá mediante la operación **LÓGICA OR.** 
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca **de la estructura SOrRestriction,** vea [Acerca de las restricciones](about-restrictions.md). 
+Para obtener más información acerca **de la estructura SOrRestriction,** vea [About Restrictions](about-restrictions.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

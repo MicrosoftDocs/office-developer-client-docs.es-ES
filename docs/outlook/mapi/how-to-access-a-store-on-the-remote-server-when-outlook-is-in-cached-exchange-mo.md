@@ -1,11 +1,11 @@
 ---
-title: Obtener acceso a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange
+title: Acceder a un almacén en el servidor remoto cuando Outlook está en modo de almacenamiento Exchange caché
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
-description: 'Última modificación: 2 de julio de 2012'
+description: 'Last modified: July 02, 2012'
 ms.openlocfilehash: cfc20c1a9ca4510ffec86bf16666f1fc50822321
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -13,17 +13,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433867"
 ---
-# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Obtener acceso a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange
+# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Acceder a un almacén en el servidor remoto cuando Outlook está en modo de almacenamiento Exchange caché
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Este tema contiene un ejemplo de código en C++ que muestra cómo usar la marca **MAPI_NO_CACHE** para abrir una carpeta o un mensaje en un almacén de mensajes en el servidor remoto cuando Microsoft Office Outlook está en modo caché de Exchange. 
+Este tema contiene un ejemplo de código en C++ que muestra cómo usar la marca **MAPI_NO_CACHE** para abrir una carpeta o un mensaje en un almacén de mensajes en el servidor remoto cuando Microsoft Office Outlook está en modo caché Exchange. 
   
-El modo caché de Exchange permite a Outlook usar una copia local del buzón de un usuario mientras Outlook mantiene una conexión en línea a una copia remota del buzón del usuario en el servidor remoto de Exchange. Cuando Outlook se ejecuta en modo caché de Exchange, de forma predeterminada, cualquier solución MAPI que inicie sesión en la misma sesión también se conectará al almacén de mensajes almacenado en caché. Los datos a los que se accede y los cambios realizados se realizan en la copia local del buzón.
+El modo Exchange caché permite a Outlook usar una copia local del buzón de un usuario mientras Outlook mantiene una conexión en línea a una copia remota del buzón del usuario en el servidor Exchange remoto. Cuando Outlook se ejecuta en modo Exchange caché, de forma predeterminada, todas las soluciones MAPI que inicien sesión en la misma sesión también están conectadas al almacén de mensajes almacenado en caché. Los datos a los que se tiene acceso y los cambios que se realicen se realizan en la copia local del buzón.
   
-Un cliente o proveedor de servicios puede invalidar la conexión al almacén de mensajes local y abrir un mensaje o una carpeta en el almacén remoto estableciendo el bit para **MAPI_NO_CACHE** en el parámetro  *ulFlags*  al llamar a **[IMsgStore::OpenEntry](imsgstore-openentry.md)**. 
+Un cliente o proveedor de servicios puede invalidar la conexión al almacén de mensajes local y abrir un mensaje o una carpeta en el almacén remoto estableciendo el bit **para MAPI_NO_CACHE** en el  *parámetro ulFlags*  al llamar a **[IMsgStore::OpenEntry](imsgstore-openentry.md)**. 
   
-En el ejemplo de código siguiente se muestra cómo llamar a **IMsgStore::OpenEntry** con la marca **MAPI_NO_CACHE** establecida en el parámetro  *ulFlags*  para abrir la carpeta raíz en el almacén de mensajes remoto. 
+En el ejemplo de código siguiente se muestra cómo llamar a **IMsgStore::OpenEntry** con la marca **MAPI_NO_CACHE** establecida en el  *parámetro ulFlags*  para abrir la carpeta raíz en el almacén de mensajes remoto. 
   
 ```cpp
 HRESULT HrOpenRootFolder ( 
@@ -44,7 +44,7 @@ HRESULT HrOpenRootFolder (
 }
 ```
 
-Si abrió el almacén de mensajes con la **marca MDB_ONLINE** en el servidor remoto, no es necesario usar la **marca MAPI_NO_CACHE** cliente. 
+Si abrió el almacén de mensajes con la MDB_ONLINE **en** el servidor remoto, no tiene que usar la **marca MAPI_NO_CACHE.** 
   
 ## <a name="see-also"></a>Vea también
 

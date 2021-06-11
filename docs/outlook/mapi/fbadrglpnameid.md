@@ -44,11 +44,11 @@ BOOL FBadRglpNameID(
 
  _lppNameId_
   
-> [entrada] Puntero a una matriz [de estructuras MAPINAMEID](mapinameid.md) que describen las propiedades con nombre. 
+> [in] Puntero a una matriz de [estructuras MAPINAMEID](mapinameid.md) que describen las propiedades con nombre. 
     
  _cNames_
   
-> [entrada] Recuento de estructuras de propiedades con nombre en la matriz a la que apunta el parámetro _lppNameId._ 
+> [in] Recuento de estructuras de propiedades con nombre en la matriz a la que apunta el parámetro _lppNameId._ 
     
 ## <a name="return-value"></a>Valor devuelto
 

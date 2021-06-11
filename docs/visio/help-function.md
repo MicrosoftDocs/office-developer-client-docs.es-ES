@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251436
 localization_priority: Normal
 ms.assetid: 5b358c38-6ed1-3fbe-c1d1-1a56ebbaa870
-description: Abre un archivo de Ayuda HTML con la palabra clave especificada en el cuadro de búsqueda.
+description: Abre un archivo de ayuda HTML con la palabra clave especificada en el cuadro Búsqueda.
 ms.openlocfilehash: 639d10bf489d1ad09aef1522d3cbc743bbe66f6f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33431340"
 ---
 # <a name="help-function"></a>Función HELP
 
-Abre un archivo de Ayuda HTML con la palabra  *clave*  especificada en el **cuadro de** búsqueda. 
+Abre un archivo de ayuda HTML con la palabra  *clave*  especificada en el **cuadro** Búsqueda. 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -32,7 +32,7 @@ HELP(" ** *filename.chm!keyword* ** ")
    
 ## <a name="remarks"></a>Comentarios
 
-Si no  *se especifica*  ninguna palabra clave, la función HELP abre la página de contenido del archivo de Ayuda. 
+Si no  *se especifica*  ninguna palabra clave, la función HELP abre la página de contenido del archivo de ayuda. 
   
 ## <a name="example"></a>Ejemplo
 

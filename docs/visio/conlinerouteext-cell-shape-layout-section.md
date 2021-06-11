@@ -23,8 +23,8 @@ Determina la apariencia de un conector.
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valor predeterminado (se usa la configuración de página)  <br/> |**visLORouteExtDefault** <br/> |
-| 1   <br/> | Recta  <br/> |**visLORouteExtStraight** <br/> |
-| 2   <br/> | Curvado  <br/> |**visLORouteExtNURBS** <br/> |
+| 1  <br/> | Recto  <br/> |**visLORouteExtStraight** <br/> |
+| 2  <br/> | Curvado  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

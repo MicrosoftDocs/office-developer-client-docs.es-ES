@@ -48,7 +48,7 @@ MAPI_AB_PROVIDER
     
 MAPI_HOOK_PROVIDER 
   
-> Proveedor de enlaces de cola
+> Proveedor de enlaces de cola de cola
     
 MAPI_PROFILE_PROVIDER 
   
@@ -60,7 +60,7 @@ MAPI_SPOOLER
     
 MAPI_STORE_PROVIDER 
   
-> Proveedor de almacenamiento de mensajes
+> Proveedor de almacén de mensajes
     
 MAPI_SUBSYSTEM 
   
@@ -82,13 +82,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

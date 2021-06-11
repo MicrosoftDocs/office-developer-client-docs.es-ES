@@ -25,7 +25,7 @@ ms.locfileid: "33434077"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene una matriz binaria de métodos de entrega (proveedores de servicios), en el orden de preferencia de un remitente del mensaje.
+Esta propiedad contiene una matriz binaria de métodos de entrega (proveedores de servicios), en el orden de preferencia de un remitente de mensaje.
   
 |||
 |:-----|:-----|
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

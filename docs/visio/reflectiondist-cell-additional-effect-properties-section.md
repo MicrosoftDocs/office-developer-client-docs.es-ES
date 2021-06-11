@@ -1,5 +1,5 @@
 ---
-title: Celda ReflectionDist (Sección de propiedades de efecto adicional)
+title: Celda ReflectionDist (sección Propiedades de efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433027"
 ---
-# <a name="reflectiondist-cell-additional-effect-properties-section"></a>Celda ReflectionDist (Sección de propiedades de efecto adicional)
+# <a name="reflectiondist-cell-additional-effect-properties-section"></a>Celda ReflectionDist (sección Propiedades de efecto adicional)
 
 Determina la distancia que se desplaza un reflejo desde una forma, en puntos de 0,0 a 100,0. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **ReflectionDist** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la **celda ReflectionDist** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la propiedad **CellsU,** use: 
   
 |||
 |:-----|:-----|

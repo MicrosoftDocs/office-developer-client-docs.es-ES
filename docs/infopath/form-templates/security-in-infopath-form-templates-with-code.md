@@ -25,7 +25,7 @@ Esta sección se ocupa del modelo de seguridad para las plantillas de formulario
   
 > Describe el modelo de seguridad de las plantillas de formulario con código administrado.
     
-[Configuración de la seguridad de las plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
+[Configurar la seguridad Configuración plantillas de formulario con código](how-to-configure-security-settings-for-form-templates-with-code.md)
   
 > Describe cómo configurar las opciones de seguridad de .NET Framework en las plantillas de formulario con código administrado.
     

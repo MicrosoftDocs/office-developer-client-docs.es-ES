@@ -89,13 +89,13 @@ Para garantizar que la firma digital del archivo CAB se pueda comprobar, el arch
   
 ## <a name="best-practices-for-form-templates-sent-as-an-attachment-to-an-email-message"></a>Procedimientos recomendados para plantillas de formulario enviadas como datos adjuntos a un mensaje de correo electrónico
 
-InfoPath admite la implementación de plantillas de formulario como datos adjuntos a un mensaje de correo electrónico y el traslado de plantillas de formulario de una ubicación a otra. Es una buena práctica de seguridad firmar digitalmente una plantilla de formulario que diseñe y desea implementar como datos adjuntos en un mensaje de correo electrónico. Una firma digital en una plantilla de formulario implementada por mensaje de correo electrónico no solo garantiza la autenticidad de la plantilla. También tiene el beneficio adicional de permitir que la plantilla de formulario se actualice automáticamente.
+InfoPath admite la implementación de plantillas de formulario como datos adjuntos a un mensaje de correo electrónico y mover plantillas de formulario de una ubicación a otra. Es una buena práctica de seguridad firmar digitalmente una plantilla de formulario que diseñe e implementar como datos adjuntos en un mensaje de correo electrónico. Una firma digital en una plantilla de formulario implementada por mensaje de correo electrónico no solo garantiza la autenticidad de la plantilla. También tiene el beneficio adicional de permitir que la plantilla de formulario se actualice automáticamente.
   
 La plantilla de formulario se debería firmar con un certificado que tenga una cadena de confianza que conduzca a un certificado raíz de confianza. Si no se firma con un certificado de ese tipo, se producirá un error al comprobar la firma debido a que ésta no se podrá autenticar.
   
 > [!NOTE]
 > [!NOTA] Si una plantilla de formulario firmada solicita acceso a Dominio o Restringido, InfoPath no comprobará la firma excepto para determinar si InfoPath puede actualizar la plantilla automáticamente. 
   
-Puede encontrar más información sobre la implementación de correo electrónico en Niveles de seguridad, Implementación de [correo electrónico y Plantillas de formulario remotas.](security-levels-email-deployment-and-remote-form-templates.md)
+Encontrará más información sobre la implementación de correo electrónico en Niveles de seguridad, Implementación [de correo electrónico y Plantillas de formulario remotas.](security-levels-email-deployment-and-remote-form-templates.md)
   
 

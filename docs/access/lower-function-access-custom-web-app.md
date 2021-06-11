@@ -25,7 +25,7 @@ Devuelve una expresión de carácter después de convertir los datos de caracter
 
  **Lower** (*TextExpression*) 
   
-La **función Lower** contiene el siguiente argumento. 
+La **función Lower** contiene el argumento siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|

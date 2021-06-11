@@ -21,24 +21,24 @@ En este tema se describen escenarios para probar la capacidad del proveedor de O
   
 ## <a name="following-a-person"></a>Seguir a una persona
 
-Seguir a una persona es agregar a una persona como un amigo en la red social, usando la dirección SMTP proporcionada por el elemento de Outlook seleccionado. Seguir a alguien en una red social normalmente implica solicitar permiso a esa persona por un correo electrónico a esa dirección SMTP. Para conceder permiso, esa persona debe tener esa dirección SMTP ya incluida en su cuenta de red social o estar dispuesto a agregar ese SMTP a una cuenta de red social. Pruebe cada uno de los siguientes escenarios para comprobar que el proveedor de OSC se comporta correctamente.
+Seguir a una persona es agregar una persona como un amigo en la red social, usando la dirección SMTP proporcionada por el elemento Outlook seleccionado. Seguir a alguien en una red social suele implicar solicitar permiso a esa persona mediante un correo electrónico a esa dirección SMTP. Para conceder permiso, esa persona debe tener esa dirección SMTP ya incluida en su cuenta de red social o estar dispuesta a agregar ese SMTP a una cuenta de red social. Pruebe cada uno de los siguientes escenarios para comprobar que el proveedor de OSC se comporta correctamente.
   
 |**Escenario**|**Comportamiento esperado**|
 |:-----|:-----|
-|Intentar seguir a una persona de la red social que existe en la red social.  <br/> |Para una red social que no requiere permiso de la persona, la red social agrega inmediatamente a la persona como un amigo.  <br/> Para una red que requiere permiso de esa persona, la red social envía una notificación. El panel de personas de Outlook muestra un icono pendiente para esa persona.  <br/> |
-|Intentar seguir a una persona de la red social que no existe en la red social.  <br/> |El proveedor de OSC muestra el error adecuado en [ISocialSession::FollowPerson](isocialsession-followperson.md) o [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md).  <br/> |
-|Seguir a un amigo en la red social.  <br/> |Para el amigo seleccionado en el panel de personas, se muestran el distintivo de la red social y la imagen de perfil del amigo para esa red social.  <br/> |
+|Intentar seguir a una persona de la red social que existe en la red social.  <br/> |Para una red social que no requiere permiso de la persona, la red social agrega inmediatamente a la persona como un amigo.  <br/> Para una red que requiere permiso de esa persona, la red social envía una notificación. El Outlook de personas muestra un icono pendiente para esa persona.  <br/> |
+|Intentar seguir a una persona en la red social que no existe en la red social.  <br/> |El proveedor de OSC muestra el error adecuado en [ISocialSession::FollowPerson](isocialsession-followperson.md) o [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md).  <br/> |
+|Seguir a un amigo en la red social.  <br/> |Para el amigo seleccionado en el Panel de personas, se muestran el distintivo de la red social y la imagen de perfil del amigo para esa red social.  <br/> |
 |Seleccionar el vínculo a la página de perfil de un amigo.  <br/> |La página del amigo en la red social se abre en el explorador predeterminado del usuario que ha iniciado sesión.  <br/> |
    
 ## <a name="stop-following-a-person"></a>Dejar de seguir a una persona
 
-Dejar de seguir a una persona es quitar a esa persona como un amigo en la red social. Pruebe el siguiente escenario para comprobar que el proveedor de OSC deja de seguir a una persona correctamente.
+Para dejar de seguir a una persona es quitar a esa persona como un amigo en la red social. Pruebe el siguiente escenario para comprobar que el proveedor de OSC deja de seguir a una persona correctamente.
   
 |**Escenario**|**Comportamiento esperado**|
 |:-----|:-----|
-|Intentar quitar a una persona como un amigo en la red social.  <br/> |La red social ya no muestra a esa persona como un amigo en la cuenta del usuario que ha iniciado sesión.  <br/> |
+|Intentar quitar a una persona como un amigo en la red social.  <br/> |La red social ya no enumera a esa persona como un amigo en la cuenta del usuario que ha iniciado sesión.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Prepararse para publicar un proveedor de OSC](getting-ready-to-release-an-osc-provider.md)
+- [Prepararse para liberar un proveedor de OSC](getting-ready-to-release-an-osc-provider.md)
 

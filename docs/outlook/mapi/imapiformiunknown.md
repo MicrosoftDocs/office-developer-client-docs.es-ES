@@ -25,7 +25,7 @@ ms.locfileid: "33436387"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite a los visores de formularios trabajar con contextos de vista de formulario y notificación de formulario, para realizar verbos de formulario y para cerrar formularios.
+Permite a los visores de formulario trabajar con contextos de vista de formulario y notificación de formulario, realizar verbos de formulario y cerrar formularios.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Permite a los visores de formularios trabajar con contextos de vista de formular
 |Identificador de interfaz:  <br/> |IID_IMAPIForm  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIFORM  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ Permite a los visores de formularios trabajar con contextos de vista de formular
 |[GetViewContext](imapiform-getviewcontext.md) <br/> |Devuelve el contexto de vista actual del formulario.  <br/> |
 |[ShutdownForm](imapiform-shutdownform.md) <br/> |Cierra el formulario.  <br/> |
 |[DoVerb](imapiform-doverb.md) <br/> |Solicita que el formulario realice las tareas que asocie con un verbo específico.  <br/> |
-|[Aconsejar](imapiform-advise.md) <br/> |Registra un visor de formulario para notificaciones sobre eventos que afectan al formulario.  <br/> |
-|[Unadvise](imapiform-unadvise.md) <br/> |Cancela un registro de notificaciones con un visor de formulario establecido anteriormente llamando a **Advise**.  <br/> |
-|[GetLastError](imapiform-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de formulario.  <br/> |
+|[Aconsejar](imapiform-advise.md) <br/> |Registra un visor de formularios para notificaciones sobre eventos que afectan al formulario.  <br/> |
+|[Unadvise](imapiform-unadvise.md) <br/> |Cancela un registro para las notificaciones con un visor de formulario establecido anteriormente llamando a **Advise**.  <br/> |
+|[GetLastError](imapiform-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjo en el objeto de formulario.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

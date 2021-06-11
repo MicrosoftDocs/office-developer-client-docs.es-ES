@@ -45,23 +45,23 @@ typedef struct _DTBLLBX
 
  **ulFlags**
   
-> Máscara de bits de marcas usadas para eliminar una barra de desplazamiento horizontal o vertical de la lista. Se pueden establecer las siguientes marcas:
+> Máscara de bits de las marcas usadas para eliminar una barra de desplazamiento horizontal o vertical de la lista. Se pueden establecer las siguientes marcas:
     
 MAPI_NO_HBAR 
   
-> No debe mostrarse ninguna barra de desplazamiento horizontal con la lista.
+> No se debe mostrar ninguna barra de desplazamiento horizontal con la lista.
     
 MAPI_NO_VBAR 
   
-> No debe mostrarse ninguna barra de desplazamiento vertical con la lista.
+> No se debe mostrar ninguna barra de desplazamiento vertical con la lista.
     
  **ulPRSetProperty**
   
-> Etiqueta de propiedad de una propiedad de cualquier tipo. Esta propiedad es una de las columnas de la tabla identificadas por el **miembro ulPRTableTable.** 
+> Etiqueta de propiedad para una propiedad de cualquier tipo. Esta propiedad es una de las columnas de la tabla identificadas por el **miembro ulPRTableTable.** 
     
  **ulPRTableName**
   
-> Etiqueta de propiedad de una propiedad de tabla de tipo PT_OBJECT que se puede abrir mediante una llamada **a OpenProperty.** El número de columnas que debe tener la tabla depende de si la lista es una lista de selección única o múltiple. Si el **miembro ulPRSetProperty** está establecido en **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)), la lista permite la selección múltiple.
+> Etiqueta de propiedad para una propiedad table de tipo PT_OBJECT que se puede abrir mediante una **llamada OpenProperty.** El número de columnas que debe tener la tabla depende de si la lista es una lista de selección única o múltiple. Si el **miembro ulPRSetProperty** está establecido en **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)), la lista permite varias selecciones.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -69,9 +69,9 @@ Una **estructura DTBLLBX** describe una lista de un control que se usa para most
   
 El **miembro ulPRSetProperty** y **el miembro ulPRTableName** funcionan juntos; cuando se elige un valor de la tabla, se vuelve a escribir en **ulPRSetProperty** cuando se descarta el cuadro de diálogo. 
   
-El valor de marcas indica si se debe mostrar una barra de desplazamiento horizontal o vertical con la lista. El valor predeterminado es que aparezcan tipos de barras de desplazamiento si es necesario. Los proveedores de servicios pueden MAPI_NO_HBAR para suprimir una barra de desplazamiento horizontal y MAPI_NO_VBAR para suprimir una barra de desplazamiento vertical. 
+El valor de las marcas indica si se debe mostrar una barra de desplazamiento horizontal o vertical con la lista. El valor predeterminado es que aparezcan tipos de barras de desplazamiento si es necesario. Los proveedores de servicios pueden MAPI_NO_HBAR para suprimir una barra de desplazamiento horizontal MAPI_NO_VBAR suprimir una barra de desplazamiento vertical. 
   
-Los dos miembros de la etiqueta de propiedad trabajan juntos para mostrar los valores de la lista y establecer las propiedades correspondientes cuando se selecciona un elemento de la lista. Cuando MAPI muestra la lista por primera vez, llama al método **OpenProperty** de la implementación **IMAPIProp** para recuperar la tabla identificada en el **miembro ulPRTableName.** El número de columnas de la tabla depende del valor del **miembro ulPRSetProperty.** Si **ulPRSetProperty** se establece en **PR_NULL**, la lista es una lista de selección múltiple basada en un objeto que contiene destinatarios, como un contenedor de libreta de direcciones, una tabla de destinatarios para un mensaje o una tabla de contenido de lista de distribución. 
+Los dos miembros de la etiqueta de propiedad trabajan juntos para mostrar valores en la lista y establecer las propiedades correspondientes cuando se selecciona un elemento de la lista. Cuando MAPI muestra la lista por primera vez, llama al método **OpenProperty** de la implementación **IMAPIProp** para recuperar la tabla identificada en el **miembro ulPRTableName.** El número de columnas de la tabla depende del valor del **miembro ulPRSetProperty.** Si **ulPRSetProperty** se establece en **PR_NULL**, la lista es una lista de selección múltiple basada en un objeto que contiene destinatarios, como un contenedor de libreta de direcciones, una tabla de destinatarios para un mensaje o una tabla de contenido de lista de distribución. 
   
 Una tabla para una lista de selección múltiple debe incluir las siguientes columnas:
   
@@ -83,11 +83,11 @@ Una tabla para una lista de selección múltiple debe incluir las siguientes col
   
  **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) y un máximo de otras cinco propiedades de cadena multivalor también se pueden mostrar con las tres columnas necesarias. 
   
-Si el **miembro ulPRSetProperty** no está establecido en **PR_NULL**, la lista es una lista de selección única. El valor inicial de **ulPRSetProperty** determina la primera fila seleccionada. Cuando un usuario selecciona una de las filas, el miembro **ulPRSetProperty** se establece en el valor seleccionado y este valor se vuelve a escribir en la implementación de la interfaz de propiedades con una llamada a [IMAPIProp::SetProps](imapiprop-setprops.md). 
+Si el **miembro ulPRSetProperty** no está establecido en **PR_NULL**, la lista es una lista de selección única. El valor inicial de **ulPRSetProperty** determina la primera fila seleccionada. Cuando un usuario selecciona una de las filas, el miembro **ulPRSetProperty** se establece en el valor seleccionado y este valor se escribe de nuevo en la implementación de la interfaz de propiedades con una llamada a [IMAPIProp::SetProps](imapiprop-setprops.md). 
   
-Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información sobre cómo implementar una tabla para mostrar, vea [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

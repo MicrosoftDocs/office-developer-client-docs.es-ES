@@ -25,9 +25,9 @@ Representa la contraseña de la cuenta SMTP.
 |Identificador:  <br/> |0x0205  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |
 |Etiqueta de propiedad:  <br/> |0x2058001F  <br/> |
-|Acceso:  <br/> |Solo lectura  <br/> |
+|Access:  <br/> |Solo lectura  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Administrar la descarga de mensajes de las cuentas POP3](managing-message-downloads-for-pop3-accounts.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

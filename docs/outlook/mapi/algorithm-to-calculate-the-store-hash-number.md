@@ -17,18 +17,18 @@ ms.locfileid: "33436310"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Como parte de un localizador uniforme de recursos (URL) mapi, un proveedor de almacenamiento envía un número hash de almacén al controlador de protocolo MAPI para identificar un objeto que está listo para la indización. El controlador de protocolo MAPI usa este número hash de almacén para identificar un almacén. En general, un proveedor de almacén calcula el número hash del almacén en función de la firma de asignación del almacén, si el almacén tiene la propiedad **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida en la sección de perfil global. De lo contrario, el proveedor de la tienda usa el identificador de entrada del almacén. El algoritmo para calcular el número hash del almacén debe minimizar las ambigüedades que identifican los almacenes. 
+Como parte de un localizador uniforme de recursos (URL) MAPI, un proveedor de almacenamiento envía un número hash de almacén al controlador de protocolo MAPI para identificar un objeto que está listo para la indización. El controlador de protocolo MAPI usa este número hash de almacén para identificar un almacén. En general, un proveedor de almacenes calcula el número hash de la tienda en función de la firma de asignación de almacén, si el almacén tiene la propiedad **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** definida en la sección de perfil global. De lo contrario, el proveedor de la tienda usa el identificador de entrada de la tienda. El algoritmo para calcular el número hash del almacén debe minimizar las ambigüedades que identifican los almacenes. 
   
-En este tema se describe un algoritmo que Microsoft Office Outlook para calcular un número hash de almacén basado en la firma de asignación del almacén o el identificador de entrada y el nombre del archivo del almacén. 
+En este tema se describe un algoritmo que Microsoft Office Outlook para calcular un número hash de almacén en función de la firma de asignación de almacén o el identificador de entrada y el nombre del archivo de almacén. 
   
-El blob binario que se va a codificar es el PR_ENTRYID del almacén en la mayoría de los casos, pero para los almacenes de Exchange almacenados en caché, tanto públicos como privados, el blob binario debe ser el PR_MAPPING_SIGNATURE, que se encuentra en el perfil.
+El blob binario que se codificará es el PR_ENTRYID del almacén en la mayoría de los casos, pero para los almacenes Exchange almacenados en caché, tanto públicos como privados, el blob binario debe ser el PR_MAPPING_SIGNATURE, que se encuentra en el perfil.
   
-Después de calcular el hash para el blob binario de un almacén de carpetas públicas, pero antes de la aplicación de hash en la ruta de acceso OST, la constante 0x2E505542, que representa la cadena ". PUB", se aplica un hash para asegurarse de que es único, es decir, distinto del hash de la tienda privada.
+Después de calcular el hash para el blob binario de un almacén de carpetas públicas, pero antes de hashing-in en la ruta de acceso OST, la constante 0x2E505542, que representa la cadena ". PUB", se aplica hash para asegurarse de que es único, es decir, distinto del hash de la tienda privada.
   
-El código de compatibilidad anula los bits relevantes del perfil, que se pueden usar para determinar si un almacén es público o privado, si está almacenado en caché, y la ruta de acceso al OST. Para incorporar este código en un proyecto, llame a la función ComputeStoreHash, que toma como entrada el puntero de sesión, así como PR ENTRYID, PR SERVICE_UID y PR MDB_PROVIDER de la tabla del almacén de \_ \_ \_ mensajes. El resto de la información que necesita obtiene del perfil. Para los resultados, esta función devuelve el hash calculado desde PR MAPPING_SIGNATURE si el almacén es un almacén de Exchange almacenado en caché o el hash calculado a partir de \_ PR \_ ENTRYID.
+El código de soporte culls los bits relevantes del perfil, que se pueden usar para determinar si un almacén es público o privado, si está almacenado en caché, y la ruta de acceso a ost. Para incorporar este código en un proyecto, llame a la función ComputeStoreHash, que toma como entrada el puntero de sesión, así como PR ENTRYID, PR SERVICE_UID y PR MDB_PROVIDER de la tabla de almacén de \_ \_ \_ mensajes. El resto de la información que necesita obtiene del perfil. Para el resultado, esta función devuelve el hash calculado desde PR MAPPING_SIGNATURE si el almacén es un almacén de Exchange almacenado en caché o el hash calculado a partir de \_ PR \_ ENTRYID.
   
 > [!NOTE]
-> La función de soporte de HrEmsmdbUIDFromStore es un reemplazo compatible con varias cuentas de [Exchange](using-multiple-exchange-accounts.md)para usar pbGlobalProfileSectionGuid para abrir la sección de perfil de un buzón de Exchange. 
+> La función de soporte de HrEmsmdbUIDFromStore es un reemplazo compatible con varias cuentas [de Exchange](using-multiple-exchange-accounts.md)para usar pbGlobalProfileSectionGuid para abrir la sección de perfil de un buzón Exchange usuario. 
   
 ```cpp
 #define PR_PROFILE_OFFLINE_STORE_PATH_A PROP_TAG(PT_STRING8, 0x6610)
@@ -238,10 +238,10 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
 ```
 
 > [!TIP]
-> La función HrEmsmdbUIDFromStore funciona sin abrir realmente el almacén, por lo que es un buen enfoque de propósito general. Sin embargo, si ya tiene un puntero al objeto de almacén, también puede recuperar el GUID de sección de perfil directamente desde el almacén de mensajes mediante la lectura de la PR_EMSMDB_SECTION_UID de almacenamiento. 
+> La función HrEmsmdbUIDFromStore funciona sin abrir realmente el almacén, por lo que es un buen enfoque de propósito general. Sin embargo, si ya tiene un puntero al objeto store, también puede recuperar el GUID de la sección de perfil directamente desde el almacén de mensajes mediante la lectura de la propiedad PR_EMSMDB_SECTION_UID almacén. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Acerca Notification-Based indexación de la Tienda](about-notification-based-store-indexing.md)
+- [Acerca Notification-Based indexación de la tienda](about-notification-based-store-indexing.md)
 - [Acerca de las direcciones URL MAPI Notification-Based indexación](about-mapi-urls-for-notification-based-indexing.md)
 

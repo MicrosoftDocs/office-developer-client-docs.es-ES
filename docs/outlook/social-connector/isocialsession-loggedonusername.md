@@ -27,7 +27,7 @@ Devuelve una cadena que representa el nombre de usuario que se usa al iniciar se
 
 Cadena que representa el nombre de usuario del usuario que ha iniciado sesión.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ISocialSession::LoggedOnUserID](isocialsession-loggedonuserid.md)  
 - [ISocialSession : IUnknown](isocialsessioniunknown.md)

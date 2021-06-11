@@ -41,19 +41,19 @@ SCODE ScCountNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cntf_
   
-> [entrada] Recuento de [estructuras notification](notification.md) en la matriz indicada por el _parámetro rgntf._ 
+> [in] Recuento de [estructuras NOTIFICATION](notification.md) en la matriz indicada por el _parámetro rgntf._ 
     
  _rgntf_
   
-> [entrada] Puntero a la matriz de **estructuras notification** cuyo tamaño se va a determinar. 
+> [in] Puntero a la matriz de **estructuras NOTIFICATION** cuyo tamaño se va a determinar. 
     
- _indeste_
+ _pcb_
   
-> [salida] Puntero opcional al tamaño, en bytes, de la matriz a la que apunta el _parámetro rgntf._ Si es NULL, **ScCountNotifications** valida la matriz de notificaciones. 
+> [salida] Puntero opcional al tamaño, en bytes, de la matriz apuntada por el _parámetro rgntf._ Si es NULL, **ScCountNotifications** valida la matriz de notificaciones. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -67,6 +67,6 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentarios
 
-Si se pasa NULL en el parámetro _de botón,_ la función **ScCountNotifications** solo valida la matriz de notificaciones, pero no se realiza ningún recuento; si se pasa un valor que no es nulo en lugar de _bytes_, **ScCountNotifications** determina el tamaño de la matriz y almacena la _causa._ El  _parámetrodimensional_ debe ser lo suficientemente grande como para contener toda la matriz. 
+Si se pasa NULL en el  _parámetro pcb,_ la función **ScCountNotifications** solo valida la matriz de notificaciones, pero no se realiza ningún recuento; si se pasa un valor que no es nulo en  _pcb_, **ScCountNotifications** determina el tamaño de la matriz y almacena la  _causa pcb_. El  _parámetro pcb_ debe ser lo suficientemente grande como para contener toda la matriz. 
   
 

@@ -21,17 +21,17 @@ ms.locfileid: "33437577"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una tabla de cola saliente contiene información sobre todos los mensajes salientes de un almacén de mensajes. Los proveedores de almacenamiento de mensajes implementan tablas de cola salientes para que la cola MAPI la use. Los almacenes que no admiten el envío o la recepción de mensajes no necesitan implementar esta tabla. 
+Una tabla de cola saliente contiene información sobre todos los mensajes salientes de un almacén de mensajes. Los proveedores de almacén de mensajes implementan tablas de cola salientes para que la cola MAPI la use. Los almacenes que no admiten el envío o la recepción de mensajes no necesitan implementar esta tabla. 
   
-Para obtener acceso a una tabla de cola saliente, la cola MAPI llama al método [IMsgStore::GetOutgoingQueue.](imsgstore-getoutgoingqueue.md) 
+Para obtener acceso a una tabla de cola saliente, la cola MAPI llama al [método IMsgStore::GetOutgoingQueue.](imsgstore-getoutgoingqueue.md) 
   
-Es necesario que los mensajes se preprocesan y envíen al proveedor de transporte en el mismo orden en que los envió la aplicación cliente. La cola MAPI está diseñada para aceptar mensajes del almacén de mensajes en orden ascendente del tiempo de envío. Debido a este requisito, puede haber algún retraso antes de que algunos mensajes aparezcan en la tabla de cola saliente. 
+Existe el requisito de que los mensajes se preprocesan y se envíen al proveedor de transporte en el mismo orden en que se enviaron por la aplicación cliente. La cola MAPI está diseñada para aceptar mensajes del almacén de mensajes en orden ascendente de tiempo de envío. Debido a este requisito, puede haber algún retraso antes de que algunos mensajes aparezcan en la tabla de cola saliente. 
   
-Los almacenes de mensajes deben permitir la ordenación en la tabla de cola saliente para que la cola MAPI pueda ordenar los mensajes por hora de envío o el criterio de ordenación predeterminado debe ser por tiempo de envío ascendente. 
+Los almacenes de mensajes deben permitir la ordenación en la tabla de cola saliente para que la cola MAPI pueda ordenar los mensajes por tiempo de envío, o bien el criterio de ordenación predeterminado debe ser por tiempo de envío ascendente. 
   
-La tabla de colas salientes debe enviar notificaciones cuando cambia el contenido de la cola.
+La tabla de cola saliente debe enviar notificaciones cuando cambie el contenido de la cola.
   
-Las siguientes propiedades son la columna necesaria establecida en las tablas de cola salientes:
+Las siguientes propiedades son la columna necesaria establecida en las tablas de colas salientes:
   
 |||
 |:-----|:-----|
@@ -42,9 +42,9 @@ Las siguientes propiedades son la columna necesaria establecida en las tablas de
 |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
 |**PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md))  <br/> | <br/> |
    
-Para obtener más información acerca de cómo se usa la tabla de colas salientes, vea [Enviar mensajes mediante proveedores de almacén de mensajes.](sending-messages-by-using-message-store-providers.md)
+Para obtener más información acerca de cómo se usa la tabla de cola saliente, vea [Sending Messages by Using Message Store Providers](sending-messages-by-using-message-store-providers.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

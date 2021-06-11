@@ -22,9 +22,9 @@ Divide un número por otro.
   
 ## <a name="syntax"></a>Sintaxis
 
- *pago de dividendos*   /   *divisor* 
+ *dividendo*   /   *divisor* 
   
- *pago de dividendos*  Es la expresión numérica que se va a dividir. Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime. 
+ *dividendo*  Es la expresión numérica que se va a dividir. Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime. 
   
  *Divisor*  Es la expresión numérica por la que se divide el dividendo. Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime. 
   
@@ -32,7 +32,7 @@ Divide un número por otro.
 
 Devuelve el tipo de datos del argumento con mayor prioridad. 
   
-Si un entero  *se*  divide por un  *divisor*  de enteros, el resultado es un entero que tiene cualquier parte fraccionada del resultado truncada. 
+Si un dividendo  *entero*  está dividido por un  *divisor*  entero, el resultado es un entero que tiene truncada cualquier parte fraccional del resultado. 
   
 ## <a name="remarks"></a>Comentarios
 

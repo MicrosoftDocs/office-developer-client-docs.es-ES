@@ -33,11 +33,11 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
-> [entrada] Reservado; debe ser un puntero a cero.
+> [in] Reservado; debe ser un puntero a cero.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI llama al **método IMSProvider::Shutdown** justo antes de liberar el objeto del proveedor del almacén de mensajes. MAPI libera todos los objetos de inicio de sesión de un proveedor antes de llamar a **Shutdown** para ese proveedor. 
+MAPI llama al **método IMSProvider::Shutdown** justo antes de liberar el objeto de proveedor del almacén de mensajes. MAPI libera todos los objetos de inicio de sesión de un proveedor antes de llamar a **Shutdown** para ese proveedor. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

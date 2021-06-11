@@ -23,21 +23,21 @@ Obtiene una cadena que representa una o varias personas que coinciden con el _pa
 HRESULT _stdcall FindPerson([in] BSTR userId, [out, retval] BSTR* result);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _userId_
   
-> [entrada] Identificador de usuario de red social, dirección SMTP o nombre para mostrar de una persona.
+> [in] Id. de usuario de red social, dirección SMTP o nombre para mostrar de una persona.
     
 _result_
   
-> [salida] Cadena XML que representa una o varias personas que coinciden con la información de identificación especificada por el _parámetro userId._ 
+> [salida] Una cadena XML que representa una o varias personas que coinciden con la información de identificación especificada por el _parámetro userId._ 
     
 ## <a name="remarks"></a>Comentarios
 
-Si una o varias personas coinciden con la **solicitud FindPerson,** este método devuelve la información de esas personas en el  _parámetro de_ resultado. La  _cadena_ XML de resultado debe cumplir con la definición de esquema para **amigos,** tal como se define en el esquema para la extensibilidad del proveedor de Outlook Social Connector (OSC). 
+Si una o más personas coinciden con la **solicitud FindPerson,** este método devuelve la información de esas personas en el _parámetro result._ La _cadena_ XML de resultado debe cumplir con la definición de esquema para amigos **,** tal como se define en el esquema para la extensibilidad del proveedor Outlook Social Connector (OSC). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

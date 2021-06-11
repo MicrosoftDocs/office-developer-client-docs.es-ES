@@ -35,7 +35,7 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 4. En el **Asistente para la conexión de datos**, haga clic en **Enviar datos** y, a continuación, en **Siguiente**.
     
-5. En la página siguiente del asistente, haga clic en **Como mensaje de** correo electrónico y, a continuación, haga clic en **Siguiente.**
+5. En la página siguiente del asistente, haga clic **en Como mensaje de** correo electrónico y, a continuación, haga clic en **Siguiente**.
     
 6. En la siguiente página del asistente, escriba su dirección de correo electrónico en el **cuadro Para.** 
     
@@ -158,7 +158,7 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 6. Haga clic en **Enviar**. Verá un mensaje que le notifica que el formulario se ha enviado sin conexión y que se enviará cuando se conecte a la red.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Diseñar una plantilla de formulario para su uso sin conexión](https://support.office.com/en-us/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
 

@@ -24,6 +24,6 @@ Contiene las celdas que controlan el formato de la página de dibujo, es decir, 
 
 Use la **sección Propiedades de** impresión para controlar la impresión en el nivel de página. Esta configuración es por página y es independiente de la configuración de la página de dibujo, por ejemplo, una página de dibujo que usa orientación horizontal se puede imprimir con orientación vertical. Además, los documentos se pueden imprimir con una combinación de orientaciones. 
   
-La configuración  de la sección Propiedades de  impresión corresponde a  los valores establecidos  en la ficha Configurar impresión del cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en el iniciador de cuadros de diálogo en el grupo Configurar **página).** Vea la sección **Propiedades de** página para ver la configuración que se aplica a la página de dibujo. 
+La configuración  de la sección Propiedades de  impresión corresponde a  los valores establecidos  en la ficha Configurar impresión del cuadro de diálogo Configurar página (en la pestaña Diseño, haga clic en el iniciador de cuadros de diálogo en el grupo Configuración de **página).** Vea la **sección Propiedades de** página para obtener información sobre la configuración que se aplica a la página de dibujo. 
   
 

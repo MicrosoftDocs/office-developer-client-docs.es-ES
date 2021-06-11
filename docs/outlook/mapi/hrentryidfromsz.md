@@ -41,15 +41,15 @@ HRESULT HrEntryIDFromSz(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _sz_
   
-> [entrada] Puntero a la cadena ASCII desde la que se va a crear un identificador de entrada. 
+> [in] Puntero a la cadena ASCII desde la que se va a crear un identificador de entrada. 
     
- _indeste_
+ _pcb_
   
-> [salida] Puntero al tamaño, en bytes, del identificador de entrada al que apunta el _parámetro ppentry._ 
+> [salida] Puntero al tamaño, en bytes, del identificador de entrada señalado por el _parámetro ppentry._ 
     
  _ppentry_
   
@@ -63,7 +63,7 @@ S_OK
     
 MAPI_E_INVALID_ENTRYID
   
-> El identificador de entrada no era válido.
+> El identificador de entrada no es válido.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -71,6 +71,6 @@ Las **funciones HrEntryIDFromSz** y [HrSzFromEntryID](hrszfromentryid.md) propor
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La **función HrEntryIDFromSz** asigna memoria para la cadena ASCII mediante la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
+La **función HrEntryIDFromSz** asigna memoria a la cadena ASCII mediante la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 

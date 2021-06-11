@@ -31,13 +31,13 @@ Proporciona acceso a listas de distribución en contenedores modificables de lib
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuesto por:  <br/> |Objetos de lista de distribución  <br/> |
-|Implementado por:  <br/> |Proveedores de libretas de direcciones  <br/> |
+|Implementado por:  <br/> |Proveedores de libreta de direcciones  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IDistList  <br/> |
 |Tipo de puntero:  <br/> |LPDISTLIST  <br/> |
-|Modelo de transacción:  <br/> |Transacted  <br/> |
+|Modelo de transacciones:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 Esta interfaz no tiene ningún método único.
   
@@ -51,9 +51,9 @@ Esta interfaz no tiene ningún método único.
    
 ## <a name="remarks"></a>Comentarios
 
-La **interfaz IDistList** hereda de [IMAPIContainer](imapicontainerimapiprop.md) e incluye los mismos métodos que los contenedores de libreta de direcciones. Por lo tanto, dado que los métodos de la **interfaz IDistList** son idénticos a los de la interfaz [IABContainer,](iabcontainerimapicontainer.md) no se duplican aquí. 
+La **interfaz IDistList** hereda de [IMAPIContainer](imapicontainerimapiprop.md) e incluye los mismos métodos que los contenedores de libreta de direcciones. Por lo tanto, dado que los métodos de la **interfaz IDistList** son idénticos a los de la [interfaz IABContainer,](iabcontainerimapicontainer.md) no se duplican aquí. 
   
-Una lista de distribución u objeto que implementa **IDistList** es una colección de objetos de usuario de mensajería o destinatarios individuales. Una lista de distribución puede constar de todos los objetos de usuario de mensajería o de algunos usuarios de mensajería y algunas listas de distribución. 
+Una lista de distribución u objeto que implementa **IDistList** es una colección de objetos de usuario de mensajería o destinatarios individuales. Una lista de distribución puede estar formada por todos los objetos de usuario de mensajería, o algunos usuarios de mensajería y algunas listas de distribución. 
   
 Normalmente hay dos tipos de listas de distribución:
   
@@ -61,7 +61,7 @@ Normalmente hay dos tipos de listas de distribución:
     
 - Listas de distribución que existen en un contenedor local y que la aplicación cliente expande.
     
-Entre las propiedades opcionales de la lista de distribución se incluyen las siguientes:
+Entre las propiedades de lista de distribución opcionales se incluyen las siguientes:
   
 - **PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))
     
@@ -69,11 +69,11 @@ Entre las propiedades opcionales de la lista de distribución se incluyen las si
     
 - **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 
     
-Observe que **PR_ADDRTYPE** es necesario, pero **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) no lo es. Esto se debe a que una lista de distribución sin una dirección de correo electrónico aún puede recibir mensajes, pero su lista de miembros debe expandirse. Si la **PR_ADDRTYPE** se establece en MAPIPDL, MAPI realiza la expansión. Si **PR_ADDRTYPE** es un valor distinto de MAPIPDL, el proveedor de transporte realiza la expansión. 
+Observe que **PR_ADDRTYPE** es necesario, pero **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) no lo es. Esto se debe a que una lista de distribución sin una dirección de correo electrónico todavía puede recibir mensajes, pero su lista de miembros debe expandirse. Si la **PR_ADDRTYPE** está establecida en MAPIPDL, MAPI realiza la expansión. Si **PR_ADDRTYPE** es un valor distinto de MAPIPDL, el proveedor de transporte realiza la expansión. 
   
-Para obtener información adicional sobre cómo usar los **métodos IDistList,** consulta las entradas de referencia de los métodos paralelos de **IABContainer**.
+Para obtener información adicional acerca de cómo usar los **métodos IDistList,** vea las entradas de referencia para los métodos paralelos de **IABContainer**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

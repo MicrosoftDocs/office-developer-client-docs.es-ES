@@ -23,8 +23,8 @@ Determina el uso de mayúsculas y minúsculas en el texto de una forma. Las opci
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Uso normal de mayúsculas y minúsculas  <br/> |**visCaseNormal** <br/> |
-| 1   <br/> | Todo en mayúsculas  <br/> |**visCaseAllCaps** <br/> |
-| 2   <br/> | Sólo las letras iniciales en mayúsculas  <br/> |**visCaseInitialCaps** <br/> |
+| 1  <br/> | Todo en mayúsculas  <br/> |**visCaseAllCaps** <br/> |
+| 2  <br/> | Sólo las letras iniciales en mayúsculas  <br/> |**visCaseInitialCaps** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

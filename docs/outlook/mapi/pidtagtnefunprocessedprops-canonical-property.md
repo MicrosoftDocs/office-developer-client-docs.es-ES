@@ -25,7 +25,7 @@ ms.locfileid: "33431326"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Serializa las propiedades al filtrar el formato de encapsulamiento neutro para transporte (TNEF).
+Serializa las propiedades al filtrar el formato de encapsulación neutro de transporte (TNEF).
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Serializa las propiedades al filtrar el formato de encapsulamiento neutro para t
    
 ## <a name="remarks"></a>Comentarios
 
-Lo usan Microsoft Outlook y Outlook Web Access (OWA) para guardar el TNEF original en los casos en los que el TNEF contiene propiedades con nombre que no se pueden crear en el almacén.
+Microsoft Outlook y Outlook Web Access (OWA) para guardar el TNEF original en los casos en que el TNEF contiene propiedades con nombre que no se pueden crear en el almacén.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

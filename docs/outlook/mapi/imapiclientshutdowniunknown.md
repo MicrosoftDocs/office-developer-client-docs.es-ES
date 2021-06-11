@@ -25,7 +25,7 @@ ms.locfileid: "33435337"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Permite que un cliente MAPI realice un apagado rápido del proceso de cliente. 
+Permite que un cliente MAPI lleve a cabo el apagado rápido del proceso de cliente. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Permite que un cliente MAPI realice un apagado rápido del proceso de cliente.
 |Identificador de interfaz:  <br/> |IID_IMAPIClientShutdown  <br/> |
 |Tipo de puntero:  <br/> |LPMAPICLIENTSHUTDOWN  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -46,15 +46,15 @@ Permite que un cliente MAPI realice un apagado rápido del proceso de cliente.
    
 ## <a name="remarks"></a>Comentarios
 
-El propósito del apagado rápido es permitir que un cliente MAPI y cualquier proveedor MAPI cargado con el que el cliente MAPI tenga una sesión MAPI activa guarden la configuración y los datos de MAPI. Esto permite al cliente MAPI desconectar todas las referencias externas y salir sin causar ninguna pérdida de datos. Un cliente MAPI que necesite realizar un apagado rápido debe usar la **interfaz IMAPIClientShutdown.** El cliente MAPI puede obtener un puntero a esta interfaz llamando al método IUnknown::QueryInterface en cualquier [objeto IMAPISession.](imapisessioniunknown.md) 
+El propósito del apagado rápido es permitir que un cliente MAPI y cualquier proveedor MAPI cargado con el que el cliente MAPI tenga una sesión MAPI activa guarden la configuración y los datos mapi. Esto permite al cliente MAPI desconectar todas las referencias externas y salir sin causar ninguna pérdida de datos. Un cliente MAPI que necesita realizar un apagado rápido debe usar la **interfaz IMAPIClientShutdown.** El cliente MAPI puede obtener un puntero a esta interfaz llamando al método IUnknown::QueryInterface en cualquier [objeto IMAPISession.](imapisessioniunknown.md) 
   
-Un cliente MAPI siempre inicia un apagado rápido llamando al método **IMAPIClientShutdown::QueryFastShutdown.** El subsistema MAPI responde a la consulta del cliente MAPI comprobando si los proveedores MAPI cargados admiten el apagado rápido del cliente. El administrador puede usar la configuración del Registro de Windows para determinar el nivel de compatibilidad del proveedor necesario para que los clientes MAPI continúen con el apagado rápido. Para obtener más información, vea [Opciones de usuario de apagado rápido.](fast-shutdown-user-options.md)
+Un cliente MAPI siempre inicia un apagado rápido llamando al método **IMAPIClientShutdown::QueryFastShutdown.** El subsistema MAPI responde a la consulta del cliente MAPI comprobando si los proveedores MAPI cargados admiten el apagado rápido del cliente. El administrador puede usar la Windows del Registro para ayudar a determinar el nivel de compatibilidad del proveedor que es necesario para que los clientes MAPI continúen con el apagado rápido. Para obtener más información, vea [Fast Shutdown User Options](fast-shutdown-user-options.md).
   
-Para continuar con el apagado rápido, el cliente llama al método **IMAPIClientShutdown::NotifyProcessShutdown** para indicar al subsistema MAPI la intención de apagar. A continuación, el cliente llama al método **IMAPIClientShutdown::D oFastShutdown** para indicar que el proceso de cliente se está saliendo inmediatamente. 
+Para continuar con el apagado rápido, el cliente llama al método **IMAPIClientShutdown::NotifyProcessShutdown** para indicar al subsistema MAPI la intención de cerrar. A continuación, el cliente llama al método **IMAPIClientShutdown::D oFastShutdown** para indicar que el proceso de cliente se está saliendo inmediatamente. 
   
-Para obtener más información acerca del apagado rápido, vea [Información general sobre el apagado rápido.](fast-shutdown-overview.md) Para obtener información acerca de cómo realizar el apagado rápido correctamente, consulte [Procedimientos recomendados para el apagado rápido.](best-practices-for-fast-shutdown.md)
+Para obtener más información sobre el apagado rápido, vea [Fast Shutdown Overview](fast-shutdown-overview.md). Para obtener información sobre cómo realizar el apagado rápido correctamente, vea [Procedimientos recomendados para el apagado rápido](best-practices-for-fast-shutdown.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -46,27 +46,27 @@ STORE_ANSI_OK
     
 STORE_ATTACH_OK 
   
-> (32, 0x00000020) El almacén de mensajes admite la vinculación e incrustación de objetos (OLE) o datos adjuntos que no son OLE para los mensajes. 
+> (32, 0x00000020) El almacén de mensajes admite la vinculación e inserción de objetos (OLE) o datos adjuntos que no son OLE para los mensajes. 
     
 STORE_CATEGORIZE_OK 
   
-> (1024, 0x00000400) El almacén de mensajes admite vistas de tablas categorizadas. 
+> (1024, 0x00000400) El almacén de mensajes admite vistas categorizadas de tablas. 
     
 STORE_CREATE_OK 
   
-> (16, 0x00000010) El almacén de mensajes admite la creación de mensajes nuevos. 
+> (16, 0x00000010) El almacén de mensajes admite la creación de nuevos mensajes. 
     
 STORE_ENTRYID_UNIQUE 
   
-> (1, 0x00000001) Los identificadores de entrada de los objetos del almacén de mensajes son únicos, es decir, nunca se reutilizan durante la vida útil del almacén. 
+> (1, 0x00000001) Los identificadores de entrada de los objetos del almacén de mensajes son únicos, es decir, nunca se reutilizan durante la vida del almacén. 
     
 STORE_HTML_OK 
   
-> (65536, 0x00010000) El almacén de mensajes admite mensajes HTML, almacenados en **la PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)). Tenga en **cuenta STORE_HTML_OK** no se define en las versiones de MAPIDEFS. H que se incluyen con Microsoft Exchange 2000 Server y versiones anteriores. Si el entorno de desarrollo usa un MAPIDEFS. H file that does not include **STORE_HTML_OK**, use the value "0x00010000" instead. 
+> (65536, 0x00010000) El almacén de mensajes admite mensajes HTML, almacenados en **la propiedad PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)). Tenga en **cuenta STORE_HTML_OK** no se define en las versiones de MAPIDEFS. H que se incluyen con Microsoft Exchange 2000 Server y versiones anteriores. Si el entorno de desarrollo usa un MAPIDEFS. Archivo H que no incluye **STORE_HTML_OK**, use el valor "0x00010000". 
     
 STORE_ITEMPROC
   
-> (2097152, 0x00200000) En un almacén pst ajustado, indica que cuando llega un nuevo mensaje al almacén, el almacén realiza reglas y procesamiento de filtro de correo no deseado en el mensaje por separado. El almacén llama a [IMAPISupport::Notify](imapisupport-notify.md), configura **fnevNewMail** en la estructura [de](notification.md) notificación que se pasa como parámetro y, a continuación, pasa los detalles del nuevo mensaje al cliente de escucha. Posteriormente, cuando el cliente en escucha recibe la notificación, no procesa las reglas en el mensaje. 
+> (2097152, 0x00200000) En un almacén PST ajustado, indica que cuando llega un nuevo mensaje a la tienda, el almacén realiza reglas y el procesamiento del filtro de correo no deseado en el mensaje por separado. El almacén llama a [IMAPISupport::Notify](imapisupport-notify.md), **configurando fnevNewMail** en la estructura [NOTIFICATION](notification.md) que se pasa como parámetro y, a continuación, pasa los detalles del nuevo mensaje al cliente de escucha. Posteriormente, cuando el cliente en escucha recibe la notificación, no procesa las reglas en el mensaje. 
     
 STORE_LOCALSTORE
   
@@ -78,7 +78,7 @@ STORE_MODIFY_OK
     
 STORE_MV_PROPS_OK 
   
-> (512, 0x00000200) El almacén de mensajes admite propiedades multivalor, garantiza la estabilidad del orden de los valores en una propiedad multivalor durante una operación de guardado y admite la creación de instancias de propiedades multivalor en tablas. 
+> (512, 0x00000200) El almacén de mensajes admite propiedades multivalor, garantiza la estabilidad del orden de valor en una propiedad multivalor durante una operación de guardado y admite la creación de instancias de propiedades multivalor en tablas. 
     
 STORE_NOTIFY_OK 
   
@@ -86,15 +86,15 @@ STORE_NOTIFY_OK
     
 STORE_OLE_OK 
   
-> (64, 0x00000040) El almacén de mensajes admite datos adjuntos OLE. Se puede tener acceso a los datos OLE a través de una interfaz **IStorage,** como la disponible a través de **la** PR_ATTACH_DATA_OBJ ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). 
+> (64, 0x00000040) El almacén de mensajes admite datos adjuntos OLE. Los datos OLE son accesibles a través de una **interfaz IStorage,** como la disponible a través de **la propiedad PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). 
     
 STORE_PUBLIC_FOLDERS 
   
-> (16384, 0x00004000) Las carpetas de este almacén son públicas (de varios usuarios), no privadas (posiblemente de varias instancias, pero no de varios usuarios). 
+> (16384, 0x00004000) Las carpetas de este almacén son públicas (varios usuarios), no privadas (posiblemente de varias instancias, pero no de varios usuarios). 
     
 STORE_PUSHER_OK
   
-> (8388608, 0x00800000) El controlador de protocolo MAPI no rastreará el almacén y el almacén es responsable de enviar cualquier cambio a través de notificaciones al indizador para que los mensajes se indicen.
+> (8388608, 0x00800000) El controlador de protocolo MAPI no rastreará el almacén y el almacén es responsable de insertar cualquier cambio a través de notificaciones en el indizador para que los mensajes se indexe.
     
 STORE_READONLY 
   
@@ -106,7 +106,7 @@ STORE_RESTRICTION_OK
     
 STORE_RTF_OK 
   
-> (2048, 0x00000800) El almacén de mensajes admite mensajes con formato de texto enriquecido  (RTF), normalmente comprimidos, y el propio almacén mantiene PR_BODY y **PR_RTF_COMPRESSED** sincronizados. 
+> (2048, 0x00000800) El almacén de mensajes admite mensajes de formato de texto enriquecido  (RTF), normalmente comprimidos, y el propio almacén PR_BODY y **PR_RTF_COMPRESSED** sincronizados. 
     
 STORE_SEARCH_OK 
   
@@ -122,13 +122,13 @@ STORE_SUBMIT_OK
     
 STORE_UNCOMPRESSED_RTF 
   
-> (32768, 0x00008000) El almacén de mensajes admite el almacenamiento de mensajes de texto de formulario revisable (RTF) sin comprimir. Una secuencia RTF sin comprimir se identifica mediante el valor **dwMagicUncompressedRTF** en el encabezado de secuencia. El **valor dwMagicUncompressedRTF** se define en RTFLIB. Archivo H. 
+> (32768, 0x00008000) El almacén de mensajes admite el almacenamiento de mensajes de texto de formulario revisable (RTF) en un formulario sin comprimir. Una secuencia RTF sin comprimir se identifica mediante el valor **dwMagicUncompressedRTF** en el encabezado de secuencia. El **valor dwMagicUncompressedRTF** se define en RTFLIB. Archivo H. 
     
 STORE_UNICODE_OK
   
 > (262144, 0x00040000) El almacén de mensajes admite propiedades que contienen caracteres Unicode.
     
-Siempre se puede almacenar una versión RTF de un mensaje, incluso si el almacén de mensajes no es compatible con RTF. Si el bit STORE_RTF_OK no se establece para un almacén determinado, un cliente que mantiene versiones RTF debe llamar a la función [RTFSync](rtfsync.md) para mantener sincronizadas las versiones **PR_BODY** y **PR_RTF_COMPRESSED** para el contenido de texto. RTF siempre se almacena **en PR_RTF_COMPRESSED**, independientemente de si realmente está comprimido o no. 
+Una versión RTF de un mensaje siempre se puede almacenar, incluso si el almacén de mensajes no es compatible con RTF. Si el bit STORE_RTF_OK no está establecido para un almacén determinado, un cliente que mantiene versiones RTF debe llamar a la función [RTFSync](rtfsync.md) para mantener las versiones **PR_BODY** y **PR_RTF_COMPRESSED** sincronizadas para el contenido de texto. RTF siempre se almacena **en PR_RTF_COMPRESSED**, independientemente de si realmente está comprimido o no. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -142,13 +142,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

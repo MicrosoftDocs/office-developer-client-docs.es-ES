@@ -32,7 +32,7 @@ TRIM (** *text* ** )
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

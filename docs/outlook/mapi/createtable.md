@@ -47,23 +47,23 @@ SCODE CreateTable(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [entrada] Puntero a un identificador de interfaz (IID) para el objeto de datos de tabla. El identificador de interfaz válido es IID_IMAPITableData. Pasar NULL en el parámetro  _lpInterface_ también hace que el objeto de datos de tabla devuelto en el parámetro  _lppTableData_ se convierte en la interfaz estándar de un objeto de datos de tabla. 
+> [in] Puntero a un identificador de interfaz (IID) para el objeto de datos de tabla. El identificador de interfaz válido es IID_IMAPITableData. Si se pasa NULL en el parámetro  _lpInterface,_ también se convierte el objeto de datos de tabla devuelto en el parámetro  _lppTableData_ en la interfaz estándar de un objeto de datos de tabla. 
     
  _lpAllocateBuffer_
   
-> [entrada] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria. 
+> [in] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria. 
     
  _lpAllocateMore_
   
-> [entrada] Puntero a la [función MAPIAllocateMore,](mapiallocatemore.md) que se usará para asignar memoria adicional. 
+> [in] Puntero a la [función MAPIAllocateMore,](mapiallocatemore.md) que se usará para asignar memoria adicional. 
     
  _lpFreeBuffer_
   
-> [entrada] Puntero a la [función MAPIFreeBuffer,](mapifreebuffer.md) que se usará para liberar memoria. 
+> [in] Puntero a la [función MAPIFreeBuffer,](mapifreebuffer.md) que se usará para liberar memoria. 
     
  _lpvReserved_
   
@@ -71,7 +71,7 @@ SCODE CreateTable(
     
  _ulTableType_
   
-> [entrada] Un tipo de tabla que está disponible para una aplicación cliente o proveedor de servicios como parte de [IMAPITable::GetStatus](imapitable-getstatus.md) devuelve datos en sus vistas de tabla. Los valores posibles son: 
+> [in] Un tipo de tabla que está disponible para una aplicación cliente o un proveedor de servicios como parte de [imapitable::GetStatus](imapitable-getstatus.md) devuelven datos en sus vistas de tabla. Los valores posibles son: 
     
 TBLTYPE_DYNAMIC 
   
@@ -87,11 +87,11 @@ TBLTYPE_SNAPSHOT
     
  _ulPropTagIndexColumn_
   
-> [entrada] Número de índice de la columna que se va a usar al cambiar los datos de la tabla. 
+> [in] Número de índice de la columna para su uso al cambiar los datos de la tabla. 
     
  _lpSPropTagArrayColumns_
   
-> [entrada] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad que indica las propiedades necesarias en la tabla para la que el objeto contiene datos. 
+> [in] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad que indica las propiedades necesarias en la tabla para la que el objeto contiene datos. 
     
  _lppTableData_
   
@@ -105,9 +105,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los parámetros de entrada  _lpAllocateBuffer_,  _lpAllocateMore_ y  _lpFreeBuffer_ apuntan a las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)y [MAPIFreeBuffer,](mapifreebuffer.md) respectivamente. Una aplicación cliente que llama **a CreateTable** pasa punteros a las funciones MAPI que se acaba de nombrar; Un proveedor de servicios pasa los punteros a estas funciones que recibió en su llamada de inicialización o que recuperó con una llamada al método [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
+Los parámetros de entrada  _lpAllocateBuffer_,  _lpAllocateMore_ y  _lpFreeBuffer_ apuntan a las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)y [MAPIFreeBuffer,](mapifreebuffer.md) respectivamente. Una aplicación cliente que llama **a CreateTable** pasa punteros a las funciones MAPI que se han denominado; un proveedor de servicios pasa los punteros a estas funciones que recibió en su llamada de inicialización o recuperó con una llamada al método [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -35,19 +35,19 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
-> [entrada] Identificador del código de error generado en la llamada al método anterior.
+> [in] Identificador del código de error generado en la llamada al método anterior.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que indica el formato del texto devuelto en la estructura **MAPIERROR** a la que  _apunta lppMAPIError_. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que indica el formato del texto devuelto en la estructura **MAPIERROR** apuntada por  _lppMAPIError_. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas deben estar en formato Unicode. Si no MAPI_UNICODE marca, las cadenas deben estar en formato ANSI.
+> Las cadenas deben estar en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas deben tener el formato ANSI.
     
  _lppMAPIError_
   
@@ -61,27 +61,27 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
+> La marca MAPI_UNICODE se estableció y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPIProp::GetLastError** proporciona información acerca de una llamada de método anterior que ha fallado. Los clientes pueden proporcionar a sus usuarios información detallada sobre el error incluyendo los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
+El **método IMAPIProp::GetLastError** proporciona información acerca de una llamada al método anterior que falló. Los clientes pueden proporcionar a sus usuarios información detallada sobre el error al incluir los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
   
-Todas las implementaciones de **GetLastError** proporcionadas por MAPI son implementaciones ANSI, excepto para la implementación [de IAddrBook.](iaddrbookimapiprop.md) El **método GetLastError** incluido con **IAddrBook admite** Unicode. 
+Todas las implementaciones de **GetLastError** proporcionadas por MAPI son implementaciones ANSI, excepto para la [implementación de IAddrBook.](iaddrbookimapiprop.md) El **método GetLastError** incluido con **IAddrBook admite** Unicode. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Los detalles de la implementación de este método por parte de un proveedor de transporte remoto y los mensajes que devuelve este método están en función del proveedor de transporte, ya que las condiciones de error concretas que llevan a varios valores HRESULT serán diferentes para distintos proveedores de transporte.
+Los detalles de la implementación de este método por parte de un proveedor de transporte remoto y los mensajes que devuelve este método son del proveedor de transporte, ya que las condiciones de error particulares que llevan a varios valores HRESULT serán diferentes para los distintos proveedores de transporte.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar la estructura **MAPIERROR** a la que apunta el parámetro  _lppMAPIError,_ si **GetLastError** proporciona uno, solo si el valor devuelto es S_OK. A **veces, GetLastError** no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, se devuelve un puntero a NULL  _en lppMAPIError_ en su lugar. 
+Puede usar la estructura **MAPIERROR** a la que apunta el parámetro  _lppMAPIError,_ si **GetLastError** proporciona uno, solo si el valor devuelto es S_OK. A **veces GetLastError** no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, se devuelve un puntero a NULL en  _lppMAPIError_ en su lugar. 
   
 Para liberar la memoria de la **estructura MAPIERROR,** llame a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
-Para obtener más información acerca **del método GetLastError,** vea [errores extendidos de MAPI.](mapi-extended-errors.md)
+Para obtener más información acerca **del método GetLastError,** vea [Mapi Extended Errors](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -94,5 +94,5 @@ Para obtener más información acerca **del método GetLastError,** vea [errores
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[Errores extendidos de MAPI](mapi-extended-errors.md)
+[Errores extendidos mapi](mapi-extended-errors.md)
 

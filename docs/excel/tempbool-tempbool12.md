@@ -23,14 +23,14 @@ ms.locfileid: "33433720"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de marcos que crea un **XLOPER** /  **XLOPER12** temporal que **contiene Boolean** **TRUE** o **FALSE**.
+Función de biblioteca de marcos que crea un /  **XLOPER XLOPER12** temporal que contiene **booleanos** **TRUE** o **FALSE**.
   
 ```cs
 LPXLOPER TempBool(int b);
 LPXLOPER12 TempBool12(int b);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _b_ (**int**)
   
@@ -42,7 +42,7 @@ Devuelve un **valor booleano xltypeBool** **que** contiene el valor lógico pasa
   
 ## <a name="example"></a>Ejemplo
 
-En el siguiente ejemplo se usa **la función TempBool12** para borrar la barra de estado. La memoria temporal se libera cuando se llama a la función [Excel/Excel12f.](excel-excel12f.md) 
+En el ejemplo siguiente se usa **la función TempBool12** para borrar la barra de estado. La memoria temporal se libera [cuando se llama a la función Excel/Excel12f.](excel-excel12f.md) 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -54,7 +54,7 @@ short int WINAPI TempBoolExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

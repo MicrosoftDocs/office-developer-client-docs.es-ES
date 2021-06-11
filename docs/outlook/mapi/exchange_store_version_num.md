@@ -21,7 +21,7 @@ ms.locfileid: "33433727"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Almacena información de versión para el Microsoft Exchange Server al que están conectadas las Microsoft Office Outlook de un perfil.
+Almacena información de versión para el Microsoft Exchange Server a la que están conectadas las cuentas Microsoft Office Outlook un perfil de usuario.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -47,7 +47,7 @@ typedef struct {
     
  _wBuild_
   
-- Número de compilación principal que corresponde a números de versión principales y secundarias específicos y que generalmente se incrementa en una versión interna que contiene nuevas características o correcciones. Este valor también se incrementa cuando la versión es una rama o hito de código interno importante, como un candidato de versión.
+- Número de compilación principal que corresponde a números de versión principales y secundarias específicos y que generalmente se incrementa en una versión interna que contiene nuevas características o correcciones. Este valor también se incrementa cuando la versión es una rama o hito de código interno principal, como un candidato de versión.
     
  _wMinorBuild_
   

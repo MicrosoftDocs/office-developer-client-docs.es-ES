@@ -21,9 +21,9 @@ ms.locfileid: "33434469"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los problemas del sistema operativo y el entorno operativo son importantes cuando los desarrolladores de MAPI eligen un entorno de desarrollo y un entorno para la instalación de Windows SDK.
+Los problemas del sistema operativo y el entorno operativo son importantes cuando los desarrolladores MAPI eligen un entorno de desarrollo y un entorno para la Windows SDK.
   
-Los desarrolladores de MAPI deben tener en cuenta que estas opciones afectan al sistema operativo en el que se ejecutará su componente y al intervalo de componentes a los que podrán dirigirse.
+Los desarrolladores mapi deben ser conscientes de que estas opciones afectan al sistema operativo en el que se ejecutará su componente y al intervalo de componentes a los que podrán dirigirse.
   
 ## <a name="see-also"></a>Vea también
 

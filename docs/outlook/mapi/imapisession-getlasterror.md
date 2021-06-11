@@ -35,23 +35,23 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
-> [entrada] Identificador del valor de error generado en la llamada al método anterior.
+> [in] Identificador del valor de error generado en la llamada al método anterior.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
+> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI. 
     
  _lppMAPIError_
   
-> [salida] Puntero a un puntero a una estructura **MAPIERROR** que contiene información de versión, componente y contexto del error. El _parámetro lppMAPIError_ se puede establecer en NULL si MAPI no puede proporcionar la información adecuada para una **estructura MAPIERROR.** 
+> [salida] Puntero a un puntero a una **estructura MAPIERROR** que contiene información de versión, componente y contexto del error. El _parámetro lppMAPIError_ se puede establecer en NULL si MAPI no puede proporcionar información adecuada para una **estructura MAPIERROR.** 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,19 +61,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se MAPI_UNICODE marca y la sesión no admite Unicode.
+> La MAPI_UNICODE se estableció y la sesión no admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISession::GetLastError** recupera información sobre el último error devuelto por una llamada al método **IMAPISession.** Los clientes pueden proporcionar a sus usuarios información detallada sobre el error si incluyen esta información en un cuadro de diálogo. 
+El **método IMAPISession::GetLastError** recupera información sobre el último error devuelto por una llamada al método **IMAPISession.** Los clientes pueden proporcionar a sus usuarios información detallada sobre el error mediante la inclusión de esta información en un cuadro de diálogo. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar la estructura **MAPIERROR,** si MAPI proporciona una, a la que apunta el parámetro  _lppMAPIError_ solo si **GetLastError** devuelve S_OK. A veces MAPI no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, **GetLastError** devuelve un puntero a NULL  _en lppMAPIError_ en su lugar. 
+Puede usar la estructura **MAPIERROR,** si MAPI proporciona una, apuntada por el parámetro  _lppMAPIError_ solo si **GetLastError** devuelve S_OK. A veces MAPI no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, **GetLastError** devuelve un puntero a NULL en  _lppMAPIError en_ su lugar. 
   
-Para obtener más información acerca **del método GetLastError,** vea [Errores extendidos de MAPI](mapi-extended-errors.md).
+Para obtener más información acerca **del método GetLastError,** vea [Mapi Extended Errors](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -84,5 +84,5 @@ Para obtener más información acerca **del método GetLastError,** vea [Errores
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 
 
-[Errores extendidos de MAPI](mapi-extended-errors.md)
+[Errores extendidos mapi](mapi-extended-errors.md)
 

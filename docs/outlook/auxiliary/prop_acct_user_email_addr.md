@@ -27,13 +27,13 @@ Vea [IOlkAccount](iolkaccount.md).
 |Identificador:  <br/> |0x000C  <br/> |
 |Tipo de propiedad:  <br/> |PT_UNICODE  <br/> |
 |Etiqueta de propiedad:  <br/> |0x000C001F  <br/> |
-|Acceso:  <br/> |Lectura/escritura  <br/> |
+|Access:  <br/> |Lectura/escritura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
- **PROP_ACCT_USER_EMAIL_ADDR** se espera que exista en todas las cuentas. Por ejemplo, una cuenta [](prop_mapi_identity_entryid.md) de Exchange podría tener PROP_MAPI_IDENTITY_ENTRYID pero **no PROP_ACCT_USER_EMAIL_ADDR**, mientras que para una cuenta SMTP/POP3, la situación se invierte.
+ **PROP_ACCT_USER_EMAIL_ADDR** no se espera que exista en todas las cuentas. Por ejemplo, una cuenta Exchange [](prop_mapi_identity_entryid.md) puede tener PROP_MAPI_IDENTITY_ENTRYID pero no PROP_ACCT_USER_EMAIL_ADDR **,** mientras que para una cuenta SMTP/POP3, la situación se invierte.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

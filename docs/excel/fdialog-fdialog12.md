@@ -23,13 +23,13 @@ ms.locfileid: "33431529"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Ejemplo de comando definido por el usuario que muestra cómo crear una UDD de Microsoft Excel (cuadro de diálogo definido por el usuario) dentro de una DLL mediante las capacidades de cuadro de diálogo en la API de C. Cuando se carga GENERIC.xll, crea un menú definido por el usuario, Generic, a través del cual se tiene acceso a este comando.
+Ejemplo de comando definido por el usuario que muestra cómo crear una UDD de Microsoft Excel (cuadro de diálogo definido por el usuario) dentro de un ARCHIVO DLL mediante las funciones de cuadro de diálogo de la API de C. Cuando se carga GENERIC.xll, se crea un menú definido por el usuario, Generic, a través del cual se tiene acceso a este comando.
   
 ```cs
 int WINAPI fDialog(void);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 La función no toma ningún parámetro.
   
@@ -41,7 +41,7 @@ La función siempre devuelve 1.
 
 Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

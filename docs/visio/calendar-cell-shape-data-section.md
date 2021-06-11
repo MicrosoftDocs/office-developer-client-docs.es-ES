@@ -29,7 +29,7 @@ Para obtener una referencia a la celda Calendar por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Prop.  *nombre*  . Calendario donde Prop.  *nombre*  es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Prop.  *nombre*  . Calendario donde prop.  *nombre*  es el nombre de fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Calendar por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

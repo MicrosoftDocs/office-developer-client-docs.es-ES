@@ -30,15 +30,15 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _hr_
   
-> [entrada] Código de error que se debe buscar.
+> [in] Código de error para buscar.
     
 _ppwszError_
   
-> [salida] El mensaje de error que corresponde a  *hr*  . 
+> [salida] Mensaje de error que corresponde a  *hr*  . 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -47,7 +47,7 @@ _ppwszError_
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
 |E_INVALIDARG  <br/> |Uno o más argumentos no son válidos.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)
 

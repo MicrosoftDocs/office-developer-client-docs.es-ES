@@ -19,7 +19,7 @@ ms.locfileid: "33434147"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información ampliada para cargar el estado de lectura de un elemento durante el [estado de lectura de carga.](upload-read-status-state.md)
+Información extendida para cargar el estado de lectura de un elemento durante el [estado de lectura de carga.](upload-read-status-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -35,7 +35,7 @@ struct UPREADE
 
 _ulFlags_
   
->  [out]/[in] Marcas para determinar el comportamiento apropiado durante la carga. 
+>  [out]/[in] Marca para determinar el comportamiento adecuado durante la carga. 
     
   - UPR_ASSOC
     
@@ -47,17 +47,17 @@ _ulFlags_
     
   - UPR_OK
     
-    - [entrada] La carga se ha realizado correctamente. El cliente establece esto después de cargar información en el servidor.
+    - [in] Upload se ha realizado correctamente. El cliente lo establece después de cargar información en el servidor.
     
   - UPR_COMMIT
     
-    - [entrada] Cargue el estado de lectura del elemento ahora, [](upload-table-state.md) en lugar de esperar al final del estado de la tabla de carga para procesar por lotes más de un elemento. 
+    - [in] Upload estado de lectura del elemento ahora, en lugar de esperar al final del estado de la tabla [de](upload-table-state.md) carga para procesar por lotes más de un elemento. 
     
 _skey_
   
 > [salida] Clave de origen del elemento.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

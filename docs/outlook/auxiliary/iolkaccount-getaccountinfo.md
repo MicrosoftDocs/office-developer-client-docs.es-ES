@@ -16,7 +16,7 @@ ms.locfileid: "33437906"
 ---
 # <a name="iolkaccountgetaccountinfo"></a>IOlkAccount::GetAccountInfo
 
-Obtiene el tipo y la información de categorías de la cuenta especificada.
+Obtiene la información de tipo y categorías de la cuenta especificada.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -31,7 +31,7 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pclsidType_
   
@@ -49,11 +49,11 @@ _pclsidType_
     
 _pcCategories_
   
-> [salida] El número de categorías  _en prgclsidCategory_.
+> [salida] El número de categorías de  _prgclsidCategory_.
     
 _prgclsidCategory_
   
-> [salida] Matriz de categorías a las que está asociada esta cuenta. La matriz tiene el tamaño * _pcCategories_. El valor de cada categoría de la matriz debe ser uno de los siguientes:
+> [salida] Una matriz de categorías a las que está asociada esta cuenta. La matriz es de tamaño * _pcCategories_. El valor de cada categoría de la matriz debe ser uno de los siguientes:
     
    - CLSID_OlkMail
     
@@ -69,9 +69,9 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
 
 Después de que este método devuelve, debe liberar  *prgclsidCategory*  mediante [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
-**IOlkAccount::GetAccountInfo** no admite la categoría de libreta de direcciones para una cuenta de Exchange. Si la cuenta es una cuenta de Exchange (*pclsidType*  es **CLSID_OlkMAPIAccount** ) y la cuenta implementa la libreta de direcciones, llamar a **IOlkAccount::GetAccountInfo** no devolverá **CLSID_OlkAddressBook** como una categoría en  *prgclsidCategory*  . 
+**IOlkAccount::GetAccountInfo** no admite la categoría de libreta de direcciones para una Exchange cuenta. Si la cuenta es una cuenta de Exchange (*pclsidType* es **CLSID_OlkMAPIAccount** ), y la cuenta implementa la libreta de direcciones, llamar a **IOlkAccount::GetAccountInfo** no devolverá **CLSID_OlkAddressBook** como categoría en *prgclsidCategory* . 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccount::FreeMemory](iolkaccount-freememory.md)

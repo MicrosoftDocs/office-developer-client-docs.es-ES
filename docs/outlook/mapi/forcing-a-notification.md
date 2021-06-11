@@ -21,9 +21,9 @@ ms.locfileid: "33433286"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cuando los proveedores de servicios usan los [métodos IMAPISupport : IUnknown](imapisupportiunknown.md) para la notificación, MAPI entrega notificaciones mediante una ventana oculta y su procedimiento de ventana correspondiente. Para que cada proceso reciba una notificación, MAPI publica un mensaje especial en la ventana oculta. Este mensaje se denomina con la **constante szMAPINotificationMsg** que se define en MAPIDEFS.H. 
+Cuando los proveedores de servicios usan los métodos [IMAPISupport : IUnknown](imapisupportiunknown.md) para la notificación, MAPI entrega notificaciones mediante una ventana oculta y su procedimiento de ventana correspondiente. Para que cada proceso reciba una notificación, MAPI publica un mensaje especial en la ventana oculta. Este mensaje se denomina con la **constante szMAPINotificationMsg** que se define en MAPIDEFS.H. 
   
-Recibirá estas notificaciones cuando el procedimiento de ventana oculta de la ventana procese el **mensaje szMAPINotificationMsg.** Para garantizar que las notificaciones se entregan, es necesario esperar y enviar este **mensaje szMAPINotificationMsg.** La implementación de la lógica para lograr esto se puede hacer de forma bastante sencilla, pero MAPI proporciona un punto de entrada en el DLL de MAPI denominado [HrDispatchNotifications](hrdispatchnotifications.md) para que el procesamiento sea aún más sencillo. Llama **a HrDispatchNotifications** de la siguiente manera para recibir notificaciones en el cliente: 
+Estas notificaciones se reciben cuando el procedimiento de ventana oculta procesa el **mensaje szMAPINotificationMsg.** Para garantizar que las notificaciones se entregan, es necesario esperar y enviar este **mensaje szMAPINotificationMsg.** La implementación de la lógica para lograr esto se puede hacer de forma bastante sencilla, pero MAPI proporciona un punto de entrada en la DLL MAPI denominada [HrDispatchNotifications](hrdispatchnotifications.md) para que el procesamiento sea aún más sencillo. Llama **a HrDispatchNotifications** de la siguiente manera para recibir notificaciones en el cliente: 
   
 ```cpp
 HRESULT hr = HrDispatchNotifications(0);

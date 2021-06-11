@@ -1,5 +1,5 @@
 ---
-title: EjecutarMacro (acción de macro) (aplicación web personalizada de Access)
+title: Acción de macro RunMacro (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438445"
 ---
-# <a name="runmacro-macro-action-access-custom-web-app"></a>EjecutarMacro (acción de macro) (aplicación web personalizada de Access)
+# <a name="runmacro-macro-action-access-custom-web-app"></a>Acción de macro RunMacro (aplicación web personalizada de Access)
 
 Puede usar la acción **EjecutarMacro** para ejecutar una macro de interfaz de usuario (UI). 
   
@@ -31,6 +31,6 @@ La acción **EjecutarMacro** utiliza los siguientes argumentos.
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando se ejecuta una macro de interfaz de usuario que contiene la acción **EjecutarMacro** y llega a la acción **EjecutarMacro,** Access ejecuta la macro de interfaz de usuario denominada. Una vez finalizada la macro de interfaz de usuario llamada, Access vuelve a la macro de interfaz de usuario original y ejecuta la siguiente acción. 
+Cuando ejecutas una macro de interfaz de usuario que contiene la acción **RunMacro** y llega a la acción **RunMacro,** Access ejecuta la llamada macro de interfaz de usuario. Cuando la macro de interfaz de usuario llamada ha finalizado, Access vuelve a la macro de interfaz de usuario original y ejecuta la siguiente acción. 
   
 

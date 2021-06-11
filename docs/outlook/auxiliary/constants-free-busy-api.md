@@ -23,13 +23,13 @@ Este tema contiene definiciones de constantes, identificadores de clase e identi
 |**Constante**|**Definición**|
 |:-----|:-----|
 |E_NOTIMPL  <br/> | *Tal como se define en el archivo de encabezado winerror.h del Kit de desarrollo de software (SDK) de Microsoft Windows.*  <br/> |
-|E_OUTOFMEMORY  <br/> | *Tal como se define en el archivo de encabezado winerror.h de Windows SDK.*  <br/> |
-|S_FALSE  <br/> | *Tal como se define en el archivo de encabezado winerror.h de Windows SDK.*  <br/> |
-|S_OK  <br/> | *Tal como se define en el archivo de encabezado winerror.h de Windows SDK.*  <br/> |
+|E_OUTOFMEMORY  <br/> | *Como se define en el archivo de encabezado Windows SDK winerror.h.*  <br/> |
+|S_FALSE  <br/> | *Como se define en el archivo de encabezado Windows SDK winerror.h.*  <br/> |
+|S_OK  <br/> | *Como se define en el archivo de encabezado Windows SDK winerror.h.*  <br/> |
    
 ## <a name="interface-identifiers"></a>Identificadores de interfaz
 
-Para los siguientes identificadores de interfaz, supongamos que DEFINE_GUID macro definida en el archivo de encabezado guiddef.h de Windows SDK para asociar el nombre simbólico GUID con su valor.
+Para los siguientes identificadores de interfaz, suponga que la macro DEFINE_GUID definida en el archivo de encabezado del SDK de Windows guiddef.h para asociar el nombre simbólico GUID con su valor.
   
 {00067064-0000-0000-C000-000000000046}
   

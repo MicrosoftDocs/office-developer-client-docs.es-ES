@@ -31,19 +31,19 @@ Administra mensajes, datos adjuntos y destinatarios.
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuesto por:  <br/> |Objeto Message  <br/> |
-|Implementado por:  <br/> |Proveedores de al almacenamiento de mensajes  <br/> |
+|Implementado por:  <br/> |Proveedores de almacén de mensajes  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMessage  <br/> |
 |Tipo de puntero:  <br/> |LPMESSAGE  <br/> |
-|Modelo de transacción:  <br/> |Transacted  <br/> |
+|Modelo de transacciones:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Devuelve la tabla de datos adjuntos del mensaje.  <br/> |
 |[OpenAttach](imessage-openattach.md) <br/> |Abre un archivo adjunto.  <br/> |
-|[CreateAttach](imessage-createattach.md) <br/> |Crea un nuevo archivo adjunto.  <br/> |
+|[CreateAttach](imessage-createattach.md) <br/> |Crea un nuevo dato adjunto.  <br/> |
 |[DeleteAttach](imessage-deleteattach.md) <br/> |Elimina datos adjuntos.  <br/> |
 |[GetRecipientTable](imessage-getrecipienttable.md) <br/> |Devuelve la tabla de destinatarios del mensaje.  <br/> |
 |[ModifyRecipients](imessage-modifyrecipients.md) <br/> |Agrega, elimina o modifica a los destinatarios del mensaje.  <br/> |
@@ -80,7 +80,7 @@ Las siguientes propiedades son necesarias en los mensajes en algún momento dura
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Solo lectura  <br/> |
 |**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Solo lectura  <br/> |
    
-Las propiedades siguientes son de solo lectura para los clientes, con la excepción de **PR_BODY**. Los clientes construyen esta propiedad cuando procesan un informe.
+Todas las propiedades siguientes son de solo lectura para los clientes, a excepción de **PR_BODY**. Los clientes construyen esta propiedad cuando procesan un informe.
   
 |**Propiedades de los mensajes de informe**|
 |:-----|
@@ -102,7 +102,7 @@ Las propiedades siguientes son de solo lectura para los clientes, con la excepci
 |**PR_SENDER** propiedades  <br/> |
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
-|**Propiedades de destinatarios de mensajes**|**Access**|**Obligatorio u opcional**|
+|**Propiedades para destinatarios de mensajes**|**Access**|**Obligatorio u opcional**|
 |:-----|:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Solo lectura  <br/> |Obligatorio  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lectura/escritura  <br/> |Obligatorio  <br/> |

@@ -22,6 +22,6 @@ Contiene celdas que controlan los atributos de línea para una forma, como el pa
   
 ## <a name="remarks"></a>Comentarios
 
-Puede establecer formatos de línea mediante el  panel Formato  de forma (en la ficha Inicio, en el grupo Estilos de formas, haga clic en Línea **,** haga clic en Opciones de línea **),** aplicando un estilo de línea o especificando una fórmula en una celda Formato de línea. 
+Puede establecer formatos de línea mediante el  panel Formato  de forma (en la ficha Inicio, en el grupo Estilos de forma, haga clic en Línea **,** haga clic en Opciones de línea **),** aplicando un estilo de línea o especificando una fórmula en una celda Formato de línea. 
   
 

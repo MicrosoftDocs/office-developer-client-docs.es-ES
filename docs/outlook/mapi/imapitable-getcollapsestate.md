@@ -37,7 +37,7 @@ LPBYTE FAR * lppbCollapseState
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -45,15 +45,15 @@ LPBYTE FAR * lppbCollapseState
     
  _cbInstanceKey_
   
-> [entrada] Recuento de bytes en la clave de instancia a la que apunta el _parámetro lpbInstanceKey._ 
+> [in] Recuento de bytes en la clave de instancia a la que apunta el _parámetro lpbInstanceKey._ 
     
  _lpbInstanceKey_
   
-> [entrada] Puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la fila en la que se debe volver a generar el estado contraído o expandido actual. El  _parámetro lpbInstanceKey_ no puede ser NULL. 
+> [in] Puntero a la **propiedad PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la fila en la que se debe volver a generar el estado contraído o expandido actual. El  _parámetro lpbInstanceKey_ no puede ser NULL. 
     
  _lpcbCollapseState_
   
-> [salida] Puntero al recuento de estructuras a las que apunta el parámetro _lppbCollapseState._ 
+> [salida] Puntero al recuento de estructuras apuntadas por el _parámetro lppbCollapseState._ 
     
  _lppbCollapseState_
   
@@ -67,33 +67,33 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que impide que se inicie la operación. La operación en curso debe poder completarse o debe detenerse.
+> Hay otra operación en curso que impide que se inicie la operación. Debe permitirse completar la operación en curso o detenerse.
     
 MAPI_E_NO_SUPPORT 
   
-> La tabla no admite la categorización y las vistas expandida y contraida.
+> La tabla no admite categorización y vistas expandida y contraida.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPITable::GetCollapseState** funciona con el método [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md) para cambiar la vista del usuario de una tabla categorizada. **GetCollapseState** guarda los datos necesarios para que **SetCollapseState** lo use para volver a generar las vistas adecuadas de las categorías de una tabla categorizada. Los proveedores de servicios determinan los datos que se deben guardar. Sin embargo, la mayoría de los proveedores de **servicios que implementan GetCollapseState** guarda lo siguiente: 
+El **método IMAPITable::GetCollapseState** funciona con el método [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md) para cambiar la vista del usuario de una tabla categorizada. **GetCollapseState** guarda los datos necesarios para que **SetCollapseState** lo use para volver a generar las vistas adecuadas de las categorías de una tabla categorizada. Los proveedores de servicios determinan los datos que se guardarán. Sin embargo, la mayoría de los proveedores de servicios que **implementan GetCollapseState** guarda lo siguiente: 
   
 - Las claves de ordenación (columnas estándar y columnas de categoría).
     
 - Información sobre la fila que representa la clave de instancia.
     
-- Información para restaurar las categorías contray y expandida de la tabla.
+- Información para restaurar las categorías contraídos y expandido de la tabla.
     
-Para obtener más información acerca de las tablas categorizadas, vea [Ordenar y categorizar.](sorting-and-categorization.md)
+Para obtener más información acerca de las tablas categorizadas, vea [Sorting and Categorization](sorting-and-categorization.md).
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Almacene el estado actual de todos los nodos de una tabla en el parámetro _lppbCollapseState._ 
+Almacene el estado actual de todos los nodos de una tabla en el _parámetro lppbCollapseState._ 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame siempre **a GetCollapseState antes** de llamar **a SetCollapseState**. 
+Llame siempre **a GetCollapseState antes** de llamar a **SetCollapseState**. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -44,11 +44,11 @@ BOOL FBadRglpszW(
 
  _lppszW_
   
-> [entrada] Puntero a una matriz de cadenas Unicode terminadas en null. 
+> [in] Puntero a una matriz de cadenas Unicode terminadas en null. 
     
  _cStrings_
   
-> [entrada] Número de cadenas de la matriz a las que apunta el _parámetro lppszW._ 
+> [in] Recuento de cadenas en la matriz que apunta el _parámetro lppszW._ 
     
 ## <a name="return-value"></a>Valor devuelto
 

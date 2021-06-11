@@ -30,7 +30,7 @@ Describe una propiedad MAPI.
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
-|Macros relacionadas:  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
+|Macros relacionadas:  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md) [,](prop_type.md) PROP_TYPE <br/> |
    
 ```cpp
 typedef struct _SPropValue
@@ -42,11 +42,11 @@ typedef struct _SPropValue
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulPropTag**
   
-> Etiqueta de propiedad de la propiedad. Las etiquetas de propiedad son enteros sin signo de 32 bits formados por el identificador único de la propiedad en el orden alto de 16 bits y el tipo de la propiedad en orden bajo de 16 bits.
+> Etiqueta de propiedad de la propiedad. Las etiquetas de propiedad son enteros sin signo de 32 bits que constan del identificador único de la propiedad en el orden alto de 16 bits y el tipo de la propiedad en el orden bajo de 16 bits.
     
  **dwAlignPad**
   
@@ -54,9 +54,9 @@ typedef struct _SPropValue
     
  **Valor**
   
-> Unión de valores de datos, el valor específico determinado por el tipo de propiedad. En la tabla siguiente se enumeran cada tipo de propiedad, el miembro de la unión que se debe usar y su tipo de datos asociado.
+> Unión de valores de datos, el valor específico dictado por el tipo de propiedad. En la tabla siguiente se enumeran cada tipo de propiedad, el miembro de la unión que se debe usar y su tipo de datos asociado.
     
-|**Tipo de propiedad**|**Valor**|**Tipo de datos del valor**|
+|**Tipo de propiedad**|**Valor**|**Tipo de datos Value**|
 |:-----|:-----|:-----|
 |PT_I2 o PT_SHORT  <br/> |**i** <br/> |short int  <br/> |
 |PT_I4 o PT_LONG (firmado)  <br/> |**l** <br/> |LONG  <br/> |
@@ -90,23 +90,23 @@ typedef struct _SPropValue
    
 ## <a name="remarks"></a>Comentarios
 
-El **miembro ulPropTag** se conste de dos partes: 
+El **miembro ulPropTag** está hecho de dos partes: 
   
-- Un identificador de 16 bits de orden alto.
+- Un identificador en el orden alto de 16 bits.
     
-- Un tipo en orden bajo de 16 bits.
+- Tipo de 16 bits de orden bajo.
     
-El identificador es un valor numérico dentro de un intervalo determinado. MAPI define intervalos para que los identificadores describan para qué se usa la propiedad y quién es responsable de su mantenimiento. MAPI define restricciones para cada una de las etiquetas de propiedad que admite en el archivo de encabezado Mapitags.h.
+El identificador es un valor numérico dentro de un intervalo determinado. MAPI define intervalos de identificadores para describir para qué se usa la propiedad y quién es responsable de mantenerla. MAPI define restricciones para cada una de las etiquetas de propiedad que admite en el archivo de encabezado Mapitags.h.
   
 El tipo indica el formato del valor de la propiedad. MAPI define constantes para cada uno de los tipos de propiedad que admite en el archivo de encabezado Mapidefs.h. 
   
-Para obtener una lista completa de los intervalos de propiedades válidos para identificadores y tipos de propiedad, vea el apéndice Identificadores y [tipos de](property-identifiers-and-types.md) propiedad. 
+Para obtener una lista completa de los intervalos de propiedades válidos para identificadores y tipos de propiedad, vea el apéndice [Identificadores y tipos de](property-identifiers-and-types.md) propiedad. 
   
-El **miembro dwAlignPad** se usa como espaciado interno para garantizar la alineación correcta en equipos que requieren alineación de 8 bytes para valores de 8 bytes. Los desarrolladores que escriben código en estos equipos deben usar rutinas de asignación de memoria que asignen las matrices **SPropValue** en límites de 8 bytes. 
+El **miembro dwAlignPad** se usa como relleno para asegurarse de que la alineación adecuada en los equipos que requieren una alineación de 8 bytes para valores de 8 bytes. Los desarrolladores que escriben código en dichos equipos deben usar rutinas de asignación de memoria que asignen las matrices **SPropValue** en límites de 8 bytes. 
   
-Para obtener más información, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y actualización de propiedades [MAPI](updating-mapi-properties.md). 
+Para obtener más información, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md) y Actualización de propiedades [MAPI](updating-mapi-properties.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

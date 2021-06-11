@@ -35,19 +35,19 @@ HRESULT DoProgressDialog(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del indicador de progreso.
+> [in] Identificador de la ventana principal del indicador de progreso.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo debe calcular el progreso el objeto de progreso. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo debe calcularse el progreso el objeto de progreso. Se puede establecer la siguiente marca:
     
 MAPI_TOP_LEVEL 
   
-> El progreso se calcula para un elemento de nivel superior, como una carpeta principal. El objeto de progreso debe usar los valores de los parámetros _ulCount_ y _ulTotal_ del método [IMAPIProgress::P elemento](imapiprogress-progress.md) actual, que indican el elemento actual y el total de elementos de la operación, respectivamente, para incrementar el indicador de progreso de la operación. 
+> El progreso se calcula para un elemento de nivel superior, como una carpeta primaria. El objeto progress debe usar los valores de los parámetros _ulCount_ y _ulTotal_ del método [IMAPIProgress::P rogress,](imapiprogress-progress.md) que indican el elemento actual y el total de elementos de la operación, respectivamente, para incrementar el indicador de progreso de la operación. 
     
  _lppProgress_
   
@@ -57,15 +57,15 @@ MAPI_TOP_LEVEL
 
 S_OK 
   
-> El objeto de progreso se recuperó correctamente.
+> El objeto progress se recuperó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::D oProgressDialog** se implementa para objetos compatibles con la libreta de direcciones y el proveedor del almacén de mensajes. Estos proveedores llaman a **DoProgressDialog** para obtener acceso a la implementación MAPI de la interfaz [IMAPIProgress,](imapiprogressiunknown.md) que calcula la información de progreso y muestra un cuadro de diálogo estándar. 
+El **método IMAPISupport::D oProgressDialog** se implementa para objetos de soporte del proveedor de libreta de direcciones y almacén de mensajes. Estos proveedores llaman a **DoProgressDialog** para obtener acceso a la implementación MAPI de la interfaz [IMAPIProgress,](imapiprogressiunknown.md) que calcula la información de progreso y muestra un cuadro de diálogo estándar. 
   
-Para obtener información acerca de cómo usar un objeto de progreso y la **interfaz IMAPIProgress,** vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
+Para obtener información sobre cómo usar un objeto de progreso y la interfaz **IMAPIProgress,** vea [Mostrar un indicador de progreso](how-to-display-a-progress-indicator.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

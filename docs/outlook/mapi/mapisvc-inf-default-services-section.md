@@ -21,15 +21,15 @@ ms.locfileid: "33435323"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La **sección [Servicios predeterminados]** enumera todos los servicios de mensajes seleccionados como servicios de mensajes predeterminados. Estos servicios de mensajes predeterminados son un subconjunto de los servicios de mensaje enumerados en la **sección [Servicios].** Cuando un programa de configuración de perfil crea un perfil predeterminado, los servicios de mensajes de esta sección se incluyen automáticamente. 
+La **sección [Servicios predeterminados]** enumera todos los servicios de mensajes seleccionados como servicios de mensajes predeterminados. Estos servicios de mensajes predeterminados son un subconjunto de los servicios de mensajes enumerados en la **sección [Servicios].** Cuando un programa de configuración de perfil crea un perfil predeterminado, los servicios de mensajes de esta sección se incluyen automáticamente. 
   
 Las entradas usan el mismo formato que las entradas de la sección **[Servicios],** como se muestra a continuación: 
   
  **[Servicios predeterminados]**
   
- _nombre de la sección de servicio de mensajes_  =   _nombre del servicio de mensajes_
+ _nombre de la sección message-service_  =   _nombre del servicio de mensajes_
   
-Las siguientes entradas se incluirían en la sección **[Servicios predeterminados]** para mapisvc.inf que se muestra en la ilustración anterior: 
+Las siguientes entradas se incluirían en la sección **[Servicios predeterminados]** de mapisvc.inf que se muestra en la ilustración anterior: 
   
 ```cpp
 [Default Services]

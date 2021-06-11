@@ -34,7 +34,7 @@ ULONG FAR * lpulTableType
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulTableStatus_
   
@@ -42,7 +42,7 @@ ULONG FAR * lpulTableType
     
 TBLSTAT_COMPLETE 
   
-> No hay ninguna operación en curso.
+> No hay operaciones en curso.
     
 TBLSTAT_QCHANGED 
   
@@ -50,19 +50,19 @@ TBLSTAT_QCHANGED
     
 TBLSTAT_RESTRICT_ERROR 
   
-> Se produjo un error durante [una operación IMAPITable::Restrict.](imapitable-restrict.md) 
+> Se produjo un error [durante una operación IMAPITable::Restrict.](imapitable-restrict.md) 
     
 TBLSTAT_RESTRICTING 
   
-> Hay **una operación IMAPITable::Restrict** en curso. 
+> Una **operación IMAPITable::Restrict** está en curso. 
     
 TBLSTAT_SETCOL_ERROR 
   
-> Se produjo un error [durante una operación IMAPITable::SetColumns.](imapitable-setcolumns.md) 
+> Se produjo un error durante una [operación IMAPITable::SetColumns.](imapitable-setcolumns.md) 
     
 TBLSTAT_SETTING_COLS 
   
-> Hay **una operación IMAPITable::SetColumns** en curso. 
+> Una **operación IMAPITable::SetColumns** está en curso. 
     
 TBLSTAT_SORT_ERROR 
   
@@ -70,7 +70,7 @@ TBLSTAT_SORT_ERROR
     
 TBLSTAT_SORTING 
   
-> Hay **una operación IMAPITable::SortTable** en curso. 
+> Una **operación IMAPITable::SortTable** está en curso. 
     
  _lpulTableType_
   
@@ -78,11 +78,11 @@ TBLSTAT_SORTING
     
 TBLTYPE_DYNAMIC 
   
-> El contenido de la tabla es dinámico; los valores de filas y columnas pueden cambiar a medida que cambian los datos subyacentes.
+> El contenido de la tabla es dinámico; las filas y los valores de columna pueden cambiar a medida que cambian los datos subyacentes.
     
 TBLTYPE_KEYSET 
   
-> Las filas de la tabla son fijas, pero los valores de las columnas dentro de estas filas son dinámicos y pueden cambiar a medida que cambian los datos subyacentes.
+> Las filas dentro de la tabla son fijas, pero los valores de las columnas dentro de estas filas son dinámicos y pueden cambiar a medida que cambian los datos subyacentes.
     
 TBLTYPE_SNAPSHOT 
   
@@ -100,11 +100,11 @@ El **método IMAPTable::GetStatus** recupera información sobre el tipo y el est
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar **GetStatus junto** con otros tres métodos **IMAPITable** para supervisar el estado de esas operaciones y determinar el efecto en la tabla. Llame **a GetStatus** después de realizar una de las **siguientes llamadas IMAPITable:** 
+Puede usar **GetStatus junto** con otros tres métodos **IMAPITable** para supervisar el estado de esas operaciones y determinar el efecto en la tabla. Llama **a GetStatus** después de realizar una de las **siguientes llamadas IMAPITable:** 
   
 - [IMAPITable::Restrict](imapitable-restrict.md) para establecer una restricción. 
     
-- [IMAPITable::SortTable](imapitable-sorttable.md) para establecer un criterio de ordenación. 
+- [IMAPITable::SortTable para](imapitable-sorttable.md) establecer un criterio de ordenación. 
     
 - [IMAPITable::SetColumns](imapitable-setcolumns.md) para definir un conjunto de columnas. 
     
@@ -114,9 +114,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI usa el **método IMAPITable::GetStatus** para notificar el estado de una tabla.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI usa el **método IMAPITable::GetStatus** para informar del estado de una tabla.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

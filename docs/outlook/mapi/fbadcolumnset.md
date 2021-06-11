@@ -25,7 +25,7 @@ ms.locfileid: "33434721"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Comprueba la validez de un conjunto de columnas de tabla para que lo use un proveedor de servicios en una llamada posterior al método [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
+Comprueba la validez de un conjunto de columnas de tabla para su uso por un proveedor de servicios en una llamada posterior al método [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
   
 |||
 |:-----|:-----|
@@ -43,7 +43,7 @@ ULONG FBadColumnSet(
 
  _lpptaCols_
   
-> [entrada] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad que definen las columnas de tabla que se validarán. 
+> [in] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedades que definen las columnas de tabla que se va a validar. 
     
 ## <a name="return-value"></a>Valor devuelto
 

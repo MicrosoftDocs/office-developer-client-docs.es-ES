@@ -25,14 +25,14 @@ Versión añadida: Visio 2010
   
 ## <a name="syntax"></a>Sintaxis
 
-CONTAINERSHEETREF(** *index* ** *** [, category]* ** ) 
+CONTAINERSHEETREF(** *index* ** ** *[, category]* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _index_ <br/> |Obligatorio  <br/> |**Integer** <br/> |Índice basado en 1 del contenedor. Para obtener más información, vea los comentarios.  <br/> |
-| _category_ <br/> |Opcional  <br/> |**String** <br/> |Categoría del contenedor. Para obtener más información, vea los comentarios.  <br/> |
+| _categoría_ <br/> |Opcional  <br/> |**String** <br/> |Categoría del contenedor. Para obtener más información, vea los comentarios.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -48,7 +48,7 @@ Si la forma no es miembro de un contenedor o si no hay un contenedor que concuer
   
 ## <a name="example"></a>Ejemplo
 
-CONTAINERSHEETREF(1)! Height 
+CONTAINERSHEETREF(1)! Alto 
   
 Devuelve el valor de la celda Height del contenedor que se encuentra más hacia delante en la página a la que pertenece la forma. 
   

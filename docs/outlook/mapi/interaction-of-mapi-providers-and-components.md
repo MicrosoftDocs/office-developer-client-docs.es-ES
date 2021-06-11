@@ -23,19 +23,19 @@ ms.locfileid: "33434665"
   
 Los proveedores de servicios MAPI de cualquier tipo deben seguir determinadas directrices para trabajar con otros componentes MAPI. Cada proveedor de servicios debe:
   
-- Use el proveedor adecuado y los objetos de inicio de sesión para inicialización.
+- Use el proveedor y los objetos de inicio de sesión adecuados para la inicialización.
     
-- Devolver una tabla de envío de puntos de entrada del proveedor al sistema de mensajería tras la inicialización.
+- Devuelve una tabla de distribución de puntos de entrada del proveedor al sistema de mensajería tras la inicialización.
     
-- Registre una fila de tabla de estado MAPI para cada recurso que sea propiedad del proveedor y llame al método [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) en el momento adecuado. 
+- Registre una fila de tabla de estado MAPI para cada recurso propiedad del proveedor y llame al método [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) en el momento adecuado. 
     
-- Use el [método IMAPISupport::NewUID](imapisupport-newuid.md) para obtener identificadores únicos válidos (UID). 
+- Use el [método IMAPISupport::NewUID](imapisupport-newuid.md) para obtener identificadores únicos (UID) válidos. 
     
-- Admite las interfaces MAPI comunes en los objetos que devuelve.
+- Admite las interfaces MAPI comunes en objetos que devuelve.
     
-- Use las funciones de asignación de memoria MAPI para asignar la memoria devuelta a las aplicaciones cliente y liberar memoria asignada por otras partes del subsistema MAPI.
+- Use las funciones de asignación de memoria MAPI para asignar la memoria devuelta a las aplicaciones cliente y liberar la memoria asignada por otras partes del subsistema MAPI.
     
-- Mantenga una sección de perfil, si es necesario, para almacenar las credenciales en el sistema de mensajería subyacente.
+- Mantenga una sección de perfil, si es necesario, para almacenar credenciales en el sistema de mensajería subyacente.
     
 - Use el [método IMAPISupport::RegisterPreprocessor](imapisupport-registerpreprocessor.md) para registrar las funciones de preprocesamiento de mensajes. 
     

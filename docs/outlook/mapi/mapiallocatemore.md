@@ -25,7 +25,7 @@ ms.locfileid: "33435393"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Asigna un búfer de memoria que está vinculado a otro búfer asignado anteriormente con la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
+Asigna un búfer de memoria vinculado a otro búfer asignado anteriormente con la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 |||
 |:-----|:-----|
@@ -41,19 +41,19 @@ SCODE MAPIAllocateMore(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbSize_
   
-> [entrada] Tamaño, en bytes, del nuevo búfer que se asignará. 
+> [in] Tamaño, en bytes, del nuevo búfer que se va a asignar. 
     
  _lpObject_
   
-> [entrada] Puntero a un búfer MAPI existente asignado mediante **MAPIAllocateBuffer**.
+> [in] Puntero a un búfer MAPI existente asignado mediante **MAPIAllocateBuffer**.
     
  _lppBuffer_
   
-> [salida] Puntero al búfer recién asignado devuelto.
+> [salida] Puntero al búfer devuelto y recién asignado.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -63,8 +63,8 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Durante **el procesamiento de llamadas MAPIAllocateMore,** la implementación de llamada adquiere un bloque de memoria del sistema operativo. El búfer de memoria se asigna en una dirección de bytes par. En plataformas en las que el acceso entero largo es más eficaz, el sistema operativo asigna el búfer en una dirección cuyo tamaño en bytes es un múltiplo de cuatro. 
+Durante **el procesamiento de llamadas MAPIAllocateMore,** la implementación de llamada adquiere un bloque de memoria del sistema operativo. El búfer de memoria se asigna en una dirección de bytes numerada par. En plataformas donde el acceso a enteros largos es más eficaz, el sistema operativo asigna el búfer en una dirección cuyo tamaño en bytes es un múltiplo de cuatro. 
   
-La única forma de liberar un búfer asignado con **MAPIAllocateMore** es pasar el puntero del búfer especificado en el parámetro _lpObject_ a la [función MAPIFreeBuffer.](mapifreebuffer.md) El vínculo entre los búferes de memoria asignados con [MAPIAllocateBuffer](mapiallocatebuffer.md) y **MAPIAllocateMore** permite a **MAPIFreeBuffer** liberar ambos búferes con una sola llamada. 
+La única forma de liberar un búfer asignado con **MAPIAllocateMore** es pasar el puntero de búfer especificado en el parámetro _lpObject_ a la [función MAPIFreeBuffer.](mapifreebuffer.md) El vínculo entre los búferes de memoria asignados con [MAPIAllocateBuffer](mapiallocatebuffer.md) y **MAPIAllocateMore** permite a **MAPIFreeBuffer** liberar ambos búferes con una sola llamada. 
   
 

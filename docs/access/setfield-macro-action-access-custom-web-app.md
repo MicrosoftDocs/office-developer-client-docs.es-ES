@@ -24,14 +24,14 @@ La acción **EstablecerCampo** puede utilizarse para asignar un valor a un campo
 > [!NOTE]
 > La acción **EstablecerCampo** solo está disponible en macros de datos. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **EstablecerCampo** utiliza los argumentos enumerados en la tabla siguiente. 
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 |**Name** <br/> |Una cadena que identifica el campo.  <br/> |
-|**Valor** <br/> |Expresión que especifica el valor que se asignará al campo.  <br/> |
+|**Valor** <br/> |Expresión que especifica el valor que se debe asignar al campo.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

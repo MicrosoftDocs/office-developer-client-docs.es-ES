@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251592
 localization_priority: Normal
 ms.assetid: df88c55f-c098-dd4c-bf53-c7d7b60cf719
-description: Devuelve una cadena de formato de imagen que coincide con el código de formato de campo de texto interno de Microsoft Visio.
+description: Devuelve una cadena de formato de imagen que coincide con el código de formato Visio campo de texto interno de Microsoft.
 ms.openlocfilehash: 1ab24c602c7975cf6be22a564a8b9ee9aa0d6f46
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33431459"
 ---
 # <a name="fieldpicture-function"></a>Función FIELDPICTURE
 
-Devuelve una cadena de formato de imagen que coincide con el código de formato de campo de texto interno de Microsoft Visio.
+Devuelve una cadena de formato de imagen que coincide con el código de formato Visio campo de texto interno de Microsoft.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -32,7 +32,7 @@ FIELDPICTURE(** *code* ** )
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

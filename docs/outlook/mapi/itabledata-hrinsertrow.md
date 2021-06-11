@@ -34,21 +34,21 @@ HRESULT HrInsertRow(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _uliRow_
   
-> [entrada] Número de fila secuencial que representa una fila específica. La nueva fila se colocará después de la fila que indica el número. El  _parámetro uliRow_ puede contiene números de fila del 0 al n, donde n es el número total de filas de la tabla. Al pasar  _n en uliRow_ se anexa la fila al final de la tabla. 
+> [in] Número de fila secuencial que representa una fila específica. La nueva fila se colocará después de la fila que indica el número. El  _parámetro uliRow_ puede contiene números de fila de 0 a n, donde n es el número total de filas de la tabla. Al pasar n en  _uliRow_ se anexa la fila al final de la tabla. 
     
  _lpSRow_
   
-> [entrada] Puntero a una [estructura SRow](srow.md) que describe la fila que se va a insertar. 
+> [in] Puntero a una [estructura SRow](srow.md) que describe la fila que se va a insertar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La fila se ha insertado correctamente.
+> La fila se insertó correctamente.
     
 MAPI_E_INVALID_PARAMETER 
   
@@ -56,17 +56,17 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentarios
 
-El **método ITableData::HrInsertRow** inserta una fila en una tabla en una posición determinada. La nueva fila se inserta después de la fila que se encuentra en la posición especificada por _el parámetro uliRow._ 
+El **método ITableData::HrInsertRow** inserta una fila en una tabla en una posición determinada. La nueva fila se inserta después de la fila que se encuentra en la posición especificada por el _parámetro uliRow._ 
   
 Si  _uliRow_ se establece en el número de filas de la tabla, la nueva fila se anexa al final de la tabla. 
   
-La propiedad que actúa como columna de índice de la tabla debe incluirse en el miembro **lpProps** de la estructura [SRow](srow.md) a la que apunta el _parámetro lpSRow._ Esta propiedad de índice, normalmente **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), se usa para identificar de forma única la fila para tareas de mantenimiento futuras.
+La propiedad que actúa como columna de índice para la tabla debe incluirse en el **miembro lpProps** de la [estructura SRow](srow.md) a la que apunta el _parámetro lpSRow._ Esta propiedad index, normalmente **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), se usa para identificar de forma única la fila para tareas de mantenimiento futuras.
   
 Las columnas de propiedad de **la estructura SRow** no tienen que estar en el mismo orden que las columnas de propiedad de la tabla. 
   
-Después de insertar la fila, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable::Advise](imapitable-advise.md) de la tabla para registrarse para recibir notificaciones. No se envía ninguna notificación si la fila insertada no se incluye en la vista debido a una restricción. 
+Una vez insertada la fila, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable::Advise](imapitable-advise.md) de la tabla para registrarse en las notificaciones. No se envía ninguna notificación si la fila insertada no se incluye en la vista debido a una restricción. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

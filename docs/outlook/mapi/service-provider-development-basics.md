@@ -23,7 +23,7 @@ ms.locfileid: "33437808"
   
 Esta sección contiene información general que debe revisar antes de crear sus propios proveedores de servicios MAPI.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -35,5 +35,5 @@ Esta sección contiene información general que debe revisar antes de crear sus 
   
 [Proveedores de servicios MAPI](mapi-service-providers.md)
   
-[Información general sobre el proveedor de servicios MAPI](mapi-service-provider-overview.md)
+[Introducción al proveedor de servicios MAPI](mapi-service-provider-overview.md)
 

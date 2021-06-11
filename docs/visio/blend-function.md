@@ -28,7 +28,7 @@ BLEND(** *color1* **, ** *color2* **, ** *float[0,1]* ** )
 |:-----|:-----|:-----|:-----|
 | _color1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Visio o valor RGB del primer color.  <br/> |
 | _color2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Índice de color de Visio o valor RGB del segundo color.  <br/> |
-| _float[0,1]_ <br/> |Obligatorio  <br/> |**Float** <br/> |Proporción en la que se combinan  _color2_ y  _color1,_ respectivamente. Número real entre 0 y 1, ambos incluidos.  <br/> |
+| _float[0,1]_ <br/> |Obligatorio  <br/> |**Float** <br/> |Proporción en la que se  _mezclan color2_ y  _color1,_ respectivamente. Número real entre 0 y 1, ambos incluidos.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -36,8 +36,8 @@ BLEND(** *color1* **, ** *color2* **, ** *float[0,1]* ** )
   
 ## <a name="remarks"></a>Comentarios
 
-El color devuelto está determinado por las proporciones relativas en las que se combinan _color2_ y _color1,_ respectivamente, según lo especificado por el _parámetro float._ Por ejemplo, si  _float_ es 0,25, el color devuelto se compone del 75 % del  _color1_ y el 25 % del  _color2_. 
+El color devuelto está determinado por las proporciones relativas en las que se _mezclan color2_ y _color1,_ respectivamente, según lo especificado por el _parámetro float._ Por ejemplo, si  _float_ es 0,25, el color devuelto se compone del 75 % del  _color1_ y del 25 % del  _color2_. 
   
-Otra forma de pensarlo es que el valor  _flotante_ corresponde al punto a lo largo del espectro de colores de  _color1_  _a color2_. Por lo tanto, los números  más pequeños (más cercanos a cero) para los resultados flotantes se fusionan más cerca del _color1,_ mientras que los números más grandes (más cercanos a 1) producen mezclas más cercanas a _color2_.
+Otra forma de pensarlo es que el valor  _float_ corresponde al punto a lo largo del espectro de colores de  _color1_ a  _color2_. Por lo tanto, los números más pequeños (más cercanos a cero) para  _float_ producen mezclas más cercanas al  _color1,_ mientras que los números más grandes (más cercanos a 1) producen mezclas más cercanas a  _color2_.
   
 

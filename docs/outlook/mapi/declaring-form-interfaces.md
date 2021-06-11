@@ -21,7 +21,7 @@ ms.locfileid: "33437514"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Puede simplificar las declaraciones de las implementaciones de interfaces de formulario MAPI mediante las macros de MAPI_ _interface__METHOD, donde  _la_ interfaz es una interfaz de formulario definida en el archivo de encabezado Mapiform.h. No es necesario que use estas macros, pero si no lo hace, debe tener especial cuidado de que las declaraciones se ajustan a las declaraciones en el archivo de encabezado Mapiform.h. Por ejemplo, puede declarar la clase de objeto de formulario del servidor de formulario de la siguiente manera: 
+Puede simplificar las declaraciones de las implementaciones de interfaces de formulario MAPI mediante las macros de MAPI_ _interface__METHOD, donde  _interface_ es una interfaz de formulario definida en el archivo de encabezado Mapiform.h. No es necesario que use estas macros, pero si no lo hace, debe tener especial cuidado de que las declaraciones se ajusten a las declaraciones del archivo de encabezado Mapiform.h. Por ejemplo, podría declarar la clase de objeto de formulario del servidor de formulario como la siguiente: 
   
 ```cpp
 class CMyForm : public IPersistMessage, public IMAPIForm,
@@ -41,7 +41,7 @@ public:
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

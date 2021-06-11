@@ -32,11 +32,11 @@ RUNADDON(" *string*  ")
    
 ## <a name="remarks"></a>Comentarios
 
-Si el proyecto del documento que contiene la llamada a la función RUNADDON (u otro proyecto si se hace referencia a él) no tiene una macro (un procedimiento sin argumentos) con nombre, Microsoft Visio ejecuta la cadena con nombre del _complemento._ Si no se  encuentra ninguna cadena con nombre de complemento, Visio no hace nada y no informa de ningún error. (Puede usar la propiedad **TraceFlags** para supervisar los procedimientos y complementos que intente ejecutar Visio). 
+Si el proyecto del documento que contiene la llamada a la función RUNADDON (u otro proyecto si se hace referencia a él) no tiene una macro (un procedimiento sin argumentos) denominada _string_, Microsoft Visio ejecuta la cadena con nombre de complemento _._ Si no se encuentra ninguna _cadena_ con nombre de complemento, Visio no hace nada y no informa de ningún error. (Puede usar la propiedad **TraceFlags** para supervisar los procedimientos y complementos que intente ejecutar Visio). 
   
-Cuando se llama a un procedimiento en un módulo estándar, se recomienda agregar un prefijo a la cadena con el nombre del módulo que contiene el procedimiento (por ejemplo,  *moduleName.procName*), ya que más de un módulo puede tener un procedimiento con el mismo nombre. 
+Cuando se llama a un procedimiento en un módulo estándar, se recomienda que se asigne un prefijo a la cadena con el nombre del módulo que contiene el procedimiento (por ejemplo,  *moduleName.procName*), ya que más de un módulo puede tener un procedimiento con el mismo nombre. 
   
-Para llamar a un procedimiento de un proyecto distinto del proyecto del documento que contiene la llamada de función RUNADDON, use la sintaxis  *projName.modName.procName*  (debe haber establecido explícitamente una referencia a  *projName*  en el proyecto vba). 
+Para llamar a un procedimiento de un proyecto distinto del proyecto del documento que contiene la llamada a la función RUNADDON, use la sintaxis  *projName.modName.procName*  (debe haber establecido explícitamente una referencia a  *projName*  en el proyecto VBA). 
   
 > [!NOTE]
 >  A partir de Visio 2002, la función RUNADDON no es capaz de ejecutar una cadena que contenga código VBA arbitrario. El código pasado anteriormente a la función RUNADDON se puede mover a un procedimiento de un proyecto VBA de un documento, llamado desde la función RUNADDON. 
@@ -49,7 +49,7 @@ En versiones anteriores de Visio, esta función se denominaba _RUNADDON. La vers
 
 RUNADDON("Calendar.exe")
   
-Inicia un complemento llamado Calendar.exe.
+Inicia un complemento denominado Calendar.exe.
   
 ## <a name="example-2"></a>Ejemplo 2
 
@@ -70,6 +70,6 @@ Llama a la macro ReportStatistics del módulo **ThisDocument** en el proyecto de
 
 RUNADDON(" *ModuleName*  . ReportStatistics") 
   
-Llama a la macro ReportStatistics  *en ModuleName*  en el proyecto de documento que contiene esta llamada de función. 
+Llama a la macro ReportStatistics en  *ModuleName*  en el proyecto de documento que contiene esta llamada de función. 
   
 

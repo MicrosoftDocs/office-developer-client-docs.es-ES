@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251507
 localization_priority: Normal
 ms.assetid: 53579e0e-fcec-e745-0207-3861b5efa333
-description: Devuelve el valor de hora representado por fecha y hora o expresión, en función de la configuración regional y de idioma del sistema.
+description: Devuelve el valor de hora representado por fecha y hora o expresión, en función de la configuración de región e idioma del sistema.
 ms.openlocfilehash: 61eeafac64ce199eba0f9032c42474d2b44febce
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33432327"
 ---
 # <a name="timevalue-function-visioshapesheet"></a>Función TIMEVALUE (VisioShapeSheet)
 
-Devuelve el valor de hora representado por  _fecha y_  _hora_ o expresión, en función de la configuración regional y de idioma del sistema.
+Devuelve el valor de hora representado por  _datetime_ o  _expresión_, en función de la configuración de región e idioma del sistema.
   
 ## <a name="syntax"></a>Sintaxis
 
-TIMEVALUE(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+TIMEVALUE(" ** *datetime* ** "| ** *expresión* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -34,9 +34,9 @@ TIMEVALUE(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
    
 ## <a name="remarks"></a>Comentarios
 
-Se descarta cualquier componente de  _fecha y_ hora  _o_ expresión. 
+Cualquier componente de fecha  _en datetime_ o  _expresión_ se descarta. 
   
-Si  _falta fecha_ y hora o no se puede convertir en un resultado válido, esta función devuelve un #VALUE! error. 
+Si  _falta datetime_ o no se puede convertir en un resultado válido, esta función devuelve un #VALUE! error. 
   
 La función TIMEVALUE también acepta un  valor numérico único para la expresión donde la parte decimal del resultado representa la fracción de un día desde la medianoche. 
   

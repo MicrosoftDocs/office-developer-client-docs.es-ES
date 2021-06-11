@@ -23,11 +23,11 @@ ms.locfileid: "33434511"
   
  **Para configurar todos los proveedores de servicios en un servicio de mensajes**
   
-- Llame [a IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). Si todos los datos necesarios para la configuración están disponibles mediante programación, puede elegir si desea mostrar o no una interfaz de usuario. Sin embargo, si parte de la información de uno o más proveedores no está disponible, asegúrese de establecer la marca SERVICE_UI_ALLOWED o SERVICE_UI_ALWAYS proveedor. La supresión de una interfaz de usuario cuando los datos de configuración necesarios no están disponibles da como resultado un servicio de mensajes no configurado.
+- Llame [a IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). Si todos los datos necesarios para la configuración están disponibles mediante programación, puede elegir si desea mostrar o no una interfaz de usuario. Sin embargo, si parte de la información de uno o varios proveedores no está disponible, asegúrese de establecer la marca SERVICE_UI_ALLOWED o SERVICE_UI_ALWAYS proveedor. La supresión de una interfaz de usuario cuando los datos de configuración necesarios no están disponibles da como resultado un servicio de mensajes no configurado.
     
  **Para configurar un único proveedor de servicios en un servicio de mensajes**
   
-1. Llame [a IMAPISession::GetStatusTable](imapisession-getstatustable.md) para obtener acceso al objeto de estado del proveedor de servicios. 
+1. Llame [a IMAPISession::GetStatusTable para](imapisession-getstatustable.md) obtener acceso al objeto de estado del proveedor de servicios. 
     
 2. Llame [a IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) para mostrar la hoja de propiedades del proveedor de servicios. 
     

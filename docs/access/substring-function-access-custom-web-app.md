@@ -30,7 +30,7 @@ La **función SubString** contiene los argumentos siguientes.
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Expresión de texto.  <br/> |
-| *Start*  <br/> |Expresión de entero que especifica dónde comienzan los caracteres devueltos. Si el valor de start es menor que 1, la expresión devuelta empezará por el primer carácter especificado en la expresión. En este caso, el número de caracteres que se devuelve es el valor más grande de la suma de inicio + longitud- 1 o 0. Si start es mayor que el número de caracteres de la expresión de valor, se devuelve una expresión de longitud cero.  <br/> |
-| *Length*  <br/> |Expresión de entero positivo que especifica cuántos caracteres de la expresión se devolverán. Si la longitud es negativa, se genera un error y finaliza la instrucción. Si la suma de inicio y longitud es mayor que el número de caracteres de la expresión, se devuelve toda la expresión de valor que comienza al principio.  <br/> |
+| *Start*  <br/> |Expresión de entero que especifica dónde comienzan los caracteres devueltos. Si start es menor que 1, la expresión devuelta empezará en el primer carácter especificado en expresión. En este caso, el número de caracteres devueltos es el valor más grande de la suma de start + length- 1 o 0. Si start es mayor que el número de caracteres de la expresión de valor, se devuelve una expresión de longitud cero.  <br/> |
+| *Length*  <br/> |Expresión de entero positivo que especifica cuántos caracteres de la expresión se devolverán. Si la longitud es negativa, se genera un error y se termina la instrucción. Si la suma de inicio y longitud es mayor que el número de caracteres de expresión, se devuelve toda la expresión de valor que comienza al principio.  <br/> |
    
 

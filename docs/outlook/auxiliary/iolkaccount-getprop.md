@@ -29,11 +29,11 @@ ACCT_VARIANT *pVar
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwProp_
   
-> [entrada] La etiqueta de propiedad de la propiedad de cuenta que se debe obtener.
+> [in] Etiqueta de propiedad de la propiedad account que se debe obtener.
     
 _pVar_
   
@@ -49,9 +49,9 @@ _pVar_
    
 ## <a name="remarks"></a>Comentarios
 
-Después de que este método devuelve, si el valor de la propiedad de la cuenta es un tipo de cadena o binario, debe liberar  *pVar*  mediante [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+Después de que este método devuelva, si el valor de la propiedad account es un tipo binario o de cadena, debe liberar  *pVar*  mediante [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md) 
 - [IOlkAccount::FreeMemory](iolkaccount-freememory.md)  

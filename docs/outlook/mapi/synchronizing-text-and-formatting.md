@@ -21,7 +21,7 @@ ms.locfileid: "33435106"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El principal desafío al enviar mensajes de formato de texto enriquecido (RTF) es mantener el texto sincronizado con el formato. Para asegurarse de que cuando los mensajes lleguen a su destino sean los originados y se sincronicen el texto y el formato, MAPI proporciona la función [RTFSync.](rtfsync.md) **RtfSync** suele ser llamado por clientes con rtf antes de mostrar los mensajes entrantes y por la cola MAPI cuando descarga mensajes a un proveedor de transporte. Los autores de llamadas especifican el área de posible discrepancia pasando una o dos marcas **a RTFSync:**
+El principal desafío al enviar mensajes de formato de texto enriquecido (RTF) es mantener el texto sincronizado con el formato. Para asegurarse de que cuando los mensajes llegan a su destino son como sus originores están diseñados y que el texto y el formato están sincronizados, MAPI proporciona la [función RTFSync.](rtfsync.md) **RtfSync** suele ser llamado por los clientes con rtf antes de mostrar los mensajes entrantes y por la cola MAPI cuando descarga mensajes a un proveedor de transporte. Los autores de llamadas especifican el área de posible discrepancia pasando una o dos marcas a **RTFSync:**
   
 - RTF_SYNC_BODY_CHANGED para indicar una modificación en el texto del mensaje.
     
@@ -31,11 +31,11 @@ El proceso de sincronización que se produce en **RTFSync** es una comprobación
   
 |**Rtf (propiedad)**|**Descripción**|
 |:-----|:-----|
-|**PR_RTF_SYNC_BODY_TAG** ([PidTagRtfSyncBodyTag](pidtagrtfsyncbodytag-canonical-property.md))  <br/> |Indica el principio del texto real del mensaje.  <br/> |
+|**PR_RTF_SYNC_BODY_TAG** ([PidTagRtfSyncBodyTag](pidtagrtfsyncbodytag-canonical-property.md))  <br/> |Indica el principio del texto del mensaje real.  <br/> |
 |**PR_RTF_SYNC_BODY_CRC** ([PidTagRtfSyncBodyCrc](pidtagrtfsyncbodycrc-canonical-property.md))  <br/> |Contiene el resultado de la comprobación de redundancia cíclica del texto del mensaje.  <br/> |
 |**PR_RTF_SYNC_BODY_COUNT** ([PidTagRtfSyncBodyCount](pidtagrtfsyncbodycount-canonical-property.md))  <br/> |Contiene el número de caracteres de **PR_RTF_SYNC_BODY_CRC**.  <br/> |
 |**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md))  <br/> |Se establece en TRUE cuando se han sincronizado el texto y el formato del mensaje.  <br/> |
-|**PR_RTF_SYNC_PREFIX_COUNT** ([PidTagRtfSyncPrefixCount](pidtagrtfsyncprefixcount-canonical-property.md))  <br/> |Contiene el número de caracteres nowhitespace que preceedieron el texto del mensaje.  <br/> |
-|**PR_RTF_SYNC_TRAILING_COUNT** ([PidTagRtfSyncTrailingCount](pidtagrtfsynctrailingcount-canonical-property.md))  <br/> |Contiene el número de caracteres nowhitespace que se arrastran al texto del mensaje.  <br/> |
+|**PR_RTF_SYNC_PREFIX_COUNT** ([PidTagRtfSyncPrefixCount](pidtagrtfsyncprefixcount-canonical-property.md))  <br/> |Contiene el número de caracteres nowhitespace que preceieron el texto del mensaje.  <br/> |
+|**PR_RTF_SYNC_TRAILING_COUNT** ([PidTagRtfSyncTrailingCount](pidtagrtfsynctrailingcount-canonical-property.md))  <br/> |Contiene el número de caracteres que no sonwhitespace que arrastran el texto del mensaje.  <br/> |
    
 

@@ -31,13 +31,13 @@ La cola MAPI recibe el mensaje si se produce alguna de las siguientes situacione
     
 - El almacenamiento y el transporte de mensajes estrechamente acoplados no pueden controlar todos los destinatarios a los que se dirige el mensaje.
     
-Un almacén de mensajes estrechamente acoplado debe tener en cuenta el estado de un mensaje antes de presentarlo en la cola MAPI para que se descargue a un proveedor de transporte. Hay situaciones en las que puede parecer que un mensaje requiere la cola MAPI, pero la cola MAPI realmente no debería estar implicada.
+Un almacén de mensajes estrechamente acoplado debe tener en cuenta el estado de un mensaje antes de presentarlo en la cola MAPI para que se descargue en un proveedor de transporte. Hay situaciones en las que un mensaje puede parecer que requiere la cola MAPI, pero la cola MAPI realmente no debería estar implicada.
   
-Por ejemplo, considere la situación en la que un usuario envía un mensaje desde la Bandeja de entrada. El cliente usa un almacenamiento y transporte estrechamente acoplados. Si el almacén de mensajes estrechamente acoplado usa la ubicación del mensaje como único criterio para decidir si se va a permitir que la cola MAPI controle el mensaje, la cola MAPI siempre recibirá el mensaje. Para evitar este tipo de problema, un almacén de mensajes estrechamente acoplado debe comprobar el estado del mensaje además de la ubicación del mensaje. En concreto, el proveedor de transporte no debe solicitar que la cola MAPI descargue ningún mensaje enviado activamente.
+Por ejemplo, considere la situación en la que un usuario envía un mensaje desde la Bandeja de entrada. El cliente usa un almacenamiento y un transporte estrechamente acoplados. Si el almacén de mensajes estrechamente acoplado usa la ubicación del mensaje como único criterio para decidir si se permite o no que la cola MAPI controle el mensaje, la cola MAPI siempre recibirá el mensaje. Para evitar este tipo de problema, un almacén de mensajes estrechamente acoplado debe comprobar el estado del mensaje además de la ubicación del mensaje. En concreto, el proveedor de transporte no debe solicitar que la cola MAPI descargue ningún mensaje enviado activamente.
   
-El proceso de transmisión de mensajes implica el proveedor de almacenamiento de mensajes, uno o más proveedores de transporte y MAPI. Los temas de esta sección proporcionan información detallada sobre roles específicos en el proceso de transmisión de mensajes.
+El proceso de transmisión de mensajes implica al proveedor de almacén de mensajes, uno o varios proveedores de transporte y MAPI. Los temas de esta sección proporcionan información detallada sobre roles específicos en el proceso de transmisión de mensajes.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

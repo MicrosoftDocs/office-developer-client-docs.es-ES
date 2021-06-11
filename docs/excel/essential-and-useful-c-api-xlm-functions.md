@@ -1,5 +1,5 @@
 ---
-title: Funciones XLM esenciales y útiles de la API de C
+title: Funciones XLM de API de C esenciales y útiles
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434518"
 ---
-# <a name="essential-and-useful-c-api-xlm-functions"></a>Funciones XLM esenciales y útiles de la API de C
+# <a name="essential-and-useful-c-api-xlm-functions"></a>Funciones XLM de API de C esenciales y útiles
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Las funciones descritas en esta sección son funciones de devolución de llamada de Microsoft Excel que son especialmente útiles para los desarrolladores de DLL y XLL. De estos, la función **xlfRegister** es esencial para XLL y DLL que desean registrar sus funciones y comandos para que se pueda llamar directamente desde Excel. Las funciones **xlfUnregister** y **xlfSetName** se usan en combinación para anular el registro de funciones y comandos DLL y XLL. 
+Las funciones descritas en esta sección son Microsoft Excel de devolución de llamada que son especialmente útiles para los desarrolladores de DLL y XLL. De estos, la función **xlfRegister** es esencial para los XLL y DLL que desean registrar sus funciones y comandos para que se pueda llamar directamente desde Excel. Las funciones **xlfUnregister** y **xlfSetName** se usan en combinación para anular el registro de funciones y comandos DLL y XLL. 
   
-Excel expone muchas más funciones a través de la API de C que son útiles al desarrollar XLL. Corresponden a las funciones de hoja de cálculo de Excel, así como a las funciones y comandos disponibles en las hojas de macros XLM.
+Muchas más funciones se exponen mediante Excel a través de la API de C que son útiles al desarrollar XLL. Corresponden a las funciones Excel hoja de cálculo y funciones y comandos disponibles en hojas de macros XLM.
   
 ## <a name="in-this-section"></a>En esta sección
 

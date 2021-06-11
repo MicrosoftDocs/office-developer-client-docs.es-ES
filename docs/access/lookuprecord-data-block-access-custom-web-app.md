@@ -24,20 +24,20 @@ Un bloque de datos **BuscarRegistro** realiza un conjunto de acciones en un regi
 > [!NOTE]
 > El bloque de datos **BuscarRegistro** solo está disponible en macros de datos. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **EstablecerCampo** utiliza los siguientes argumentos. 
   
 |**Argumento**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
-| _In_ <br/> |Sí  <br/> |Una cadena que identifica el registro en el que se operará. El  *argumento In*  puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL lista.  <br/> |
-| _Where Condition_ <br/> |No  <br/> |Una expresión de cadena que se utiliza para restringir el intervalo de datos en el que se ejecuta el bloque de datos **BuscarRegistro**. Por ejemplo, los criterios a menudo equivalen a la cláusula WHERE en una expresión SQL, sin la palabra WHERE. Si se omiten criterios, el bloque de datos **LookupRecord** opera en todo el dominio especificado por el *argumento In.* Cualquier campo que se incluya en los criterios también debe ser un campo en  *In*  .  <br/> |
-| _Alias_ <br/> |No  <br/> |Cadena que proporciona un nombre alternativo para el registro especificado por el *argumento In.* Se utiliza a menudo para acortar el nombre de la tabla en referencias posteriores con el fin de evitar posibles referencias ambiguas. Si  *no*  se especifica Alias, el nombre de la tabla o consulta se usará como alias.  <br/> |
+| _In_ <br/> |Sí  <br/> |Una cadena que identifica el registro en el que se operará. El *argumento In* puede contener el nombre de la tabla, una consulta select o una instrucción SQL.  <br/> |
+| _Where Condition_ <br/> |No  <br/> |Una expresión de cadena que se utiliza para restringir el intervalo de datos en el que se ejecuta el bloque de datos **BuscarRegistro**. Por ejemplo, los criterios a menudo equivalen a la cláusula WHERE en una expresión SQL, sin la palabra WHERE. Si se omite criteria, el bloque de datos **LookupRecord** funciona en todo el dominio especificado por el *argumento In.* Cualquier campo que se incluya en criteria también debe ser un campo en  *In*  .  <br/> |
+| _Alias_ <br/> |No  <br/> |Cadena que proporciona un nombre alternativo para el registro especificado por el *argumento In.* Se utiliza a menudo para acortar el nombre de la tabla en referencias posteriores con el fin de evitar posibles referencias ambiguas. Si no se especifica  *Alias,*  se usará el nombre de la tabla o consulta como alias.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Si los criterios especificados por los argumentos  *En*  y  *Condición WHERE*  especifican más de un registro, el bloque de datos **BuscarRegistro** solo operará en el primer registro. 
   
-Si ningún registro cumple la condición  *Where*  o  *si In*  no contiene registros, **LookupRecord** crea un registro en blanco en el que todos los campos contienen un **valor** Null. 
+Si ningún registro satisface *Where Condition* o *si In* no contiene registros, **LookupRecord** crea un registro en blanco en el que todos los campos contienen un **valor Null.** 
   
 

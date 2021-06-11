@@ -20,7 +20,7 @@ ms.locfileid: "33438039"
 
 Especifica una dirección URL, un nombre de archivo o una ruta UNC a la que se va a saltar.
   
-Puede especificar Dirección como ruta de acceso relativa en función de la ruta de acceso  base definida para  el documento en el cuadro **base** Hipervínculo de la ficha Resumen del cuadro de diálogo Propiedades (haga clic en la pestaña Archivo, haga clic en **Información,** haga clic en ** Propiedades **y, a continuación, haga clic en Propiedades **avanzadas).**  Si el documento no tiene ruta de acceso base, la aplicación explorará basándose en la ruta de acceso del documento. Si éste no se ha guardado, el hipervínculo estará sin definir.
+Puede especificar Dirección como una ruta relativa en función de la ruta de acceso base  definida para el  documento en el cuadro **base** Hipervínculo de la ficha Resumen del cuadro de diálogo Propiedades (haga clic en la pestaña Archivo, haga clic en Información **,** haga clic en ** Propiedades **y, a continuación, haga clic en **Propiedades** avanzadas ).  Si el documento no tiene ruta de acceso base, la aplicación explorará basándose en la ruta de acceso del documento. Si éste no se ha guardado, el hipervínculo estará sin definir.
   
 ## <a name="remarks"></a>Comentarios
 
@@ -30,9 +30,9 @@ Para obtener una referencia a la celda Address por su índice desde un programa,
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Hipervínculo. *nombre*  . Dirección donde Hipervínculo. *es*  el nombre de la fila de hipervínculo  <br/> |
+|Nombre de celda:  <br/> |Hipervínculo. *nombre*  . Dirección donde Hyperlink. *nombre*  es el nombre de la fila de hipervínculo  <br/> |
    
-Para obtener una referencia a la celda Address por su nombre desde otra fórmula, o desde un programa, mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda Address por su nombre desde otra fórmula, o desde un programa, mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|

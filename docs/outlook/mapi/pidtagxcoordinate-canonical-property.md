@@ -25,7 +25,7 @@ ms.locfileid: "33436198"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la coordenada x de la posición inicial (la esquina superior izquierda) de un control de cuadro de diálogo, en unidades de diálogo estándar de Windows.
+Contiene la coordenada x de la posición inicial (la esquina superior izquierda) de un control de cuadro de diálogo, en las unidades Windows de diálogo estándar.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene la coordenada x de la posición inicial (la esquina superior izquierda)
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad, **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) y **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) posición y tamaño del control de cuadro de diálogo.
+Esta propiedad, **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) y **las** propiedades PR_DELTAY ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) posicionan y tamaño el control de cuadro de diálogo.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

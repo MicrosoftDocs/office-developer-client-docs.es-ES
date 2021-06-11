@@ -32,7 +32,7 @@ COS( *angle*)
    
 ## <a name="remarks"></a>Comentarios
 
-La función COS usa radianes a menos que especifique una unidad de medida diferente en *ángulo.* 
+La función COS usa radianes a menos que especifique una unidad de medida diferente en  *ángulo*  . 
   
 ## <a name="example"></a>Ejemplo
 

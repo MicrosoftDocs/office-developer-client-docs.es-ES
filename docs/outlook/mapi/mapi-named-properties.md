@@ -19,15 +19,15 @@ ms.locfileid: "33435050"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI proporciona una función para asignar nombres a propiedades, para asignar estos nombres a identificadores únicos y para hacer que esta asignación sea persistente. La asignación de nombre persistente a identificador garantiza que los nombres de propiedad sigan siendo válidos en todas las sesiones.
+MAPI proporciona una facilidad para asignar nombres a propiedades, para asignar estos nombres a identificadores únicos y para hacer que esta asignación sea persistente. La asignación de nombre persistente a identificador garantiza que los nombres de propiedad sigan siendo válidos en todas las sesiones.
   
-Para definir una propiedad con nombre, un cliente o proveedor de servicios forma un nombre y lo almacena en una [estructura MAPINAMEID.](mapinameid.md) Dado que los nombres están hechos de un identificador único global de 32 bits, o GUID, y una cadena de caracteres Unicode o un valor numérico, los creadores de propiedades con nombre pueden crear nombres significativos sin miedo a la duplicación. Los nombres son únicos y se pueden usar sin tener en cuenta el valor de sus identificadores. 
+Para definir una propiedad con nombre, un cliente o proveedor de servicios crea un nombre y lo almacena en una [estructura MAPINAMEID.](mapinameid.md) Dado que los nombres están hechos de un identificador único global de 32 bits, o GUID, y una cadena de caracteres Unicode o un valor numérico, los creadores de propiedades con nombre pueden crear nombres significativos sin miedo a la duplicación. Los nombres son únicos y se pueden usar sin tener en cuenta el valor de sus identificadores. 
   
-Para admitir propiedades con nombre, un proveedor de servicios implementa dos métodos [(IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) e [IMAPIProp::GetNamesFromIDs)](imapiprop-getnamesfromids.md) para traducir entre nombres e identificadores y para permitir que sus métodos [IMAPIProp::GetProps](imapiprop-getprops.md)[IMAPIProp::SetProps](imapiprop-setprops.md) recuperen y modifiquen propiedades con identificadores en el intervalo de propiedades con nombre. El intervalo de identificadores de propiedad con nombre está entre 0x8000 y 0xFFFE. 
+Para admitir propiedades con nombre, un proveedor de servicios implementa dos métodos [(IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) e [IMAPIProp::GetNamesFromIDs)](imapiprop-getnamesfromids.md) para traducir entre nombres e identificadores y permitir que sus métodos [IMAPIProp::GetProps](imapiprop-getprops.md)[IMAPIProp::SetProps](imapiprop-setprops.md) recuperen y modifiquen propiedades con identificadores en el intervalo de propiedades con nombre. El intervalo de identificadores de propiedades con nombre está entre 0x8000 y 0xFFFE. 
   
-Cualquier objeto que implemente la **interfaz IMAPIProp** puede admitir propiedades con nombre. Los proveedores de libretas de direcciones que permiten que las entradas de otros proveedores se copien en sus contenedores y proveedores de almacenamiento de mensajes que se pueden usar para crear tipos de mensajes arbitrarios son necesarios para proporcionar esta compatibilidad. Es una opción para todos los demás proveedores de servicios. Los proveedores que no admiten propiedades con nombre devuelven MAPI_E_NO_SUPPORT de los **métodos GetIDsFromNames** y **GetNamesFromIDs** y no establecen ninguna propiedad con identificadores de 0x8000 o superior, devolviendo MAPI_E_UNEXPECTED en **el SPropProblemarray**.
+Cualquier objeto que implemente la **interfaz IMAPIProp** puede admitir propiedades con nombre. Los proveedores de libreta de direcciones que permiten copiar entradas de otros proveedores en sus contenedores y proveedores de almacén de mensajes que se pueden usar para crear tipos de mensajes arbitrarios son necesarios para proporcionar esta compatibilidad. Es una opción para todos los demás proveedores de servicios. Los proveedores que no admiten propiedades con nombre devuelven MAPI_E_NO_SUPPORT de los **métodos GetIDsFromNames** y **GetNamesFromIDs** y rechazan establecer propiedades con identificadores de 0x8000 o superiores, devolviendo MAPI_E_UNEXPECTED en **el SPropProblemarray**.
   
-La creación de nombres para propiedades es una forma de que los clientes definan nuevas propiedades para las clases de mensajes existentes o personalizadas. Los proveedores de servicios pueden usar propiedades con nombre para exponer características únicas de sus sistemas de mensajería. Otro uso para las propiedades con nombre es proporcionar una forma alternativa de hacer referencia a propiedades con identificadores por debajo de 0x8000. 
+La creación de nombres para propiedades es una forma de que los clientes definan nuevas propiedades para las clases de mensajes existentes o personalizadas. Los proveedores de servicios pueden usar propiedades con nombre para exponer características únicas de sus sistemas de mensajería. Sin embargo, otro uso de las propiedades con nombre es proporcionar una forma alternativa de hacer referencia a propiedades con identificadores a continuación 0x8000. 
   
 Por ejemplo, un cliente podría usar código similar al siguiente código para recuperar los nombres de todas las propiedades con nombre de un objeto:
   
@@ -44,7 +44,7 @@ lpMAPIProp->GetNamesFromIDs (lppPropTags,
  
 ```
 
-Para solicitar todos los nombres del conjunto PS_PUBLIC_STRINGS propiedades, un cliente reemplazaría el valor NULL en el parámetro del conjunto de propiedades en PS_PUBLIC_STRINGS como se muestra a continuación: 
+Para solicitar todos los nombres del conjunto de propiedades PS_PUBLIC_STRINGS, un cliente reemplazaría el valor NULL en el parámetro de conjunto de propiedades en PS_PUBLIC_STRINGS como se muestra a continuación: 
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;

@@ -39,20 +39,20 @@ LPCSTR lpsz
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
-> [entrada] Puntero a la cadena terminada en null que se va a convertir. El  _parámetro lpsz_ no debe superar los 65536 caracteres. 
+> [in] Puntero a la cadena terminada en null que se va a convertir. El  _parámetro lpsz_ no debe superar los 65536 caracteres. 
     
 ## <a name="return-value"></a>Valor devuelto
 
- **UlFromSzHex devuelve** un entero largo sin signo. Si la cadena no comienza con al menos un dígito hexadecimal, se devuelve cero. 
+ **UlFromSzHex** devuelve un entero largo sin signo. Si la cadena no comienza con al menos un dígito hexadecimal, se devuelve cero. 
   
 ## <a name="remarks"></a>Comentarios
 
-La **función UlFromSzHex** deja de convertirse cuando alcanza el primer carácter de la cadena que no es un dígito hexadecimal. Por ejemplo, dado la cadena "5a", **UlFromSzHex** devuelve el valor entero 90. Dada la cadena "5g5h", la función devuelve el valor entero 5. Dado la cadena "g5h5", **UlFromSzHex** devuelve cero. 
+La **función UlFromSzHex** deja de convertir cuando alcanza el primer carácter de la cadena que no es un dígito hexadecimal. Por ejemplo, teniendo en cuenta la cadena "5a", **UlFromSzHex** devuelve el valor entero 90. Dada la cadena "5g5h", la función devuelve el valor entero 5. Dada la cadena "g5h5", **UlFromSzHex** devuelve cero. 
   
- **UlFromSzHex es** sensible a las diferencias diacríticas, pero permite tanto "a" a "f" como "A" a "F" para dígitos hexadecimales. Se admiten cadenas en los formatos Unicode y DBCS. El límite de longitud  _de lpsz_ está en caracteres, no necesariamente bytes. 
+ **UlFromSzHex** es sensible a las diferencias diacríticos, pero permite tanto 'a' a 'f' como 'A' a 'F' para dígitos hexadecimales. Se admiten cadenas en los formatos Unicode y DBCS. El límite de longitud de  _lpsz_ está en caracteres, no necesariamente bytes. 
   
 

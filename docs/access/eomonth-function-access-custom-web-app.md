@@ -29,12 +29,12 @@ El **EOMonth** contiene los argumentos siguientes.
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *Date*  <br/> |La fecha de inicio en formato fecha/hora, o en una representación de texto aceptada de una fecha.  <br/> |
-| *NumberOfMonth*  <br/> |Un número que representa el número de meses antes o después de la  *fecha*  .  <br/> |
+| *NumberOfMonth*  <br/> |Un número que representa el número de meses antes o después de  *la fecha*  .  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Si  *Date*  no es una fecha válida, **EOMonth** devuelve un error. 
   
-Si  *Date*  más  *NumberOfMonth produce*  una fecha no válida, **EOMonth** devuelve un error. 
+Si  *Date*  más  *NumberOfMonth*  produce una fecha no válida, **EOMonth** devuelve un error. 
   
 

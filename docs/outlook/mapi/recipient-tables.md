@@ -21,7 +21,7 @@ ms.locfileid: "33437290"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La tabla de destinatarios contiene información sobre todos los destinatarios de un mensaje. Los proveedores de almacenamiento de mensajes implementan tablas de destinatarios y las aplicaciones cliente las usan. Los clientes tienen acceso a una tabla de destinatarios mediante una llamada al método [IMessage::GetRecipientTable,](imessage-getrecipienttable.md) o si el proveedor del almacén de mensajes lo admite, al método [IMAPIProp::OpenProperty.](imapiprop-openproperty.md) Los clientes tienen acceso a las tablas de destinatarios con **OpenProperty** especificando **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) para la etiqueta de propiedad y IID_IMAPITable para el identificador de interfaz. Los cambios en una tabla de destinatarios se pueden realizar llamando al [método IMessage::ModifyRecipients.](imessage-modifyrecipients.md) 
+La tabla de destinatarios contiene información sobre todos los destinatarios de un mensaje. Los proveedores de almacén de mensajes implementan tablas de destinatarios y las aplicaciones cliente las usan. Los clientes tienen acceso a una tabla de destinatarios realizando una llamada al método [IMessage::GetRecipientTable,](imessage-getrecipienttable.md) o si el proveedor del almacén de mensajes la admite, al método [IMAPIProp::OpenProperty.](imapiprop-openproperty.md) Los clientes tienen acceso a tablas de destinatarios con **OpenProperty** especificando **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) para la etiqueta de propiedad y IID_IMAPITable para el identificador de interfaz. Los cambios en una tabla de destinatarios se pueden realizar llamando al [método IMessage::ModifyRecipients.](imessage-modifyrecipients.md) 
   
 Las tablas de destinatarios tienen un conjunto de columnas diferente en función de si se ha enviado el mensaje. Las siguientes propiedades son el conjunto de columnas requerido en las tablas de destinatarios:
   
@@ -47,9 +47,9 @@ Los mensajes enviados deben incluir estas propiedades adicionales en su conjunto
     
 - **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md))
     
-Según la implementación de un proveedor, las columnas adicionales, como **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) y [ENTRYID](entryid.md), pueden estar en la tabla.
+Según la implementación de un proveedor, las columnas adicionales, **como PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) y [ENTRYID](entryid.md), pueden estar en la tabla.
   
-Cualquier proveedor de almacén de mensajes que admita la transmisión de mensajes , como se indica mediante el bit STORE_SUBMIT_OK que se establece en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) del proveedor, debe ofrecer compatibilidad con un conjunto concreto de restricciones en una implementación de tabla de destinatarios. Las **restricciones and**, **OR** y de propiedad se encuentran entre los tipos de restricciones que deben estar disponibles para los usuarios de la tabla de destinatarios. Solo los operadores iguales y no iguales deben ser compatibles con la restricción de propiedad. Estas restricciones deben funcionar con las siguientes propiedades:
+Cualquier proveedor de almacén de mensajes que admita la transmisión de mensajes (como se indica en el bit STORE_SUBMIT_OK que se establece en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) del proveedor, debe ofrecer compatibilidad con un conjunto concreto de restricciones en una implementación de tabla de destinatarios. Las **restricciones AND**, **OR**, exist y property están entre los tipos de restricciones que deben estar disponibles para los usuarios de la tabla de destinatarios. Solo los operadores iguales y no iguales deben ser compatibles con la restricción de propiedades. Estas restricciones deben funcionar con las siguientes propiedades:
   
 - **PR_ADDRTYPE**
     
@@ -61,7 +61,7 @@ Cualquier proveedor de almacén de mensajes que admita la transmisión de mensaj
     
 - **PR_SPOOLER_STATUS**
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

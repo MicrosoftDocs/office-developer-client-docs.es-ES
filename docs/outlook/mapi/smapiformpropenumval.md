@@ -25,7 +25,7 @@ ms.locfileid: "33435414"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Asigna un valor entero enumerado a un nombre para mostrar para ese valor. 
+Mapas un valor entero enumerado en un nombre para mostrar para ese valor. 
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ typedef struct _SMAPIFormPropEnumVal
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **pszDisplayName**
   
@@ -48,13 +48,13 @@ typedef struct _SMAPIFormPropEnumVal
     
  **nVal**
   
-> Un valor de enumeración para el nombre para mostrar al que apunta el **miembro pszDisplayName.** 
+> Valor de enumeración para el nombre para mostrar al que apunta el **miembro pszDisplayName.** 
     
 ## <a name="remarks"></a>Comentarios
 
 Cuando un usuario selecciona un nombre para mostrar de un formulario, el valor de enumeración correspondiente del nombre se almacena mediante la implementación de la interfaz [IMAPIProp](imapipropiunknown.md) asociada al formulario. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

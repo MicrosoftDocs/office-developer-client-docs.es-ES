@@ -25,7 +25,7 @@ ms.locfileid: "33432201"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Quita un formulario determinado de un contenedor de formularios.
+Quita un formulario determinado de un contenedor de formulario.
   
 ```cpp
 HRESULT RemoveForm(
@@ -33,11 +33,11 @@ HRESULT RemoveForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _szMessageClass_
   
-> [entrada] Cadena que nombra la clase de mensaje del formulario que se va a quitar del contenedor de formularios. Los nombres de clase de mensaje siempre son cadenas ANSI, nunca Unicode.
+> [in] Cadena que nombra la clase de mensaje del formulario que se va a quitar del contenedor del formulario. Los nombres de clase de mensaje siempre son cadenas ANSI, nunca Unicode.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,7 +47,7 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La clase de mensaje pasada en  _el parámetro szMessageClass_ no coincide con la clase de mensaje de ningún formulario del contenedor de formularios. 
+> La clase de mensaje pasada en  _el parámetro szMessageClass_ no coincide con la clase de mensaje de ningún formulario del contenedor del formulario. 
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -57,7 +57,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el **método IMAPIFormContainer::RemoveForm** para eliminar un formulario de un contenedor de formularios.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

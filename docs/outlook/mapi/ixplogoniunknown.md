@@ -30,30 +30,30 @@ Proporciona a la cola MAPI acceso a un proveedor de transporte.
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapispi.h  <br/> |
-|Expuesto por:  <br/> |Objetos de inicio de sesión de transporte  <br/> |
+|Expuesto por:  <br/> |Transporte de objetos de inicio de sesión  <br/> |
 |Implementado por:  <br/> |Proveedores de transporte  <br/> |
 |Llamado por:  <br/> |La cola MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IXPLogon  <br/> |
-|Tipo de puntero:  <br/> |IXPLOGON  <br/> |
+|Tipo de puntero:  <br/> |LXPLOGON  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[AddressTypes](ixplogon-addresstypes.md) <br/> |Devuelve los tipos de destinatarios que controla el proveedor de transporte.  <br/> |
 |**RegisterOptions** <br/> | *No se admite ni se documenta.*  <br/> |
-|[TransportNotify](ixplogon-transportnotify.md) <br/> |Indica la ocurrencia de un evento sobre el que el proveedor de transporte solicitó la notificación.  <br/> |
-|[Inactivo](ixplogon-idle.md) <br/> |Indica que el sistema está inactivo, lo que permite al proveedor de transporte realizar operaciones de prioridad baja.  <br/> |
+|[TransportNotify](ixplogon-transportnotify.md) <br/> |Indica la aparición de un evento sobre el que el proveedor de transporte solicitó la notificación.  <br/> |
+|[Inactivo](ixplogon-idle.md) <br/> |Indica que el sistema está inactivo, lo que permite al proveedor de transporte realizar operaciones de baja prioridad.  <br/> |
 |[TransportLogoff](ixplogon-transportlogoff.md) <br/> |Inicia el proceso de cierre de sesión.  <br/> |
 |[SubmitMessage](ixplogon-submitmessage.md) <br/> |Indica que la cola MAPI tiene un mensaje para que el proveedor de transporte entregue.  <br/> |
 |[EndMessage](ixplogon-endmessage.md) <br/> |Informa al proveedor de transporte de que la cola MAPI completó su procesamiento en un mensaje saliente.  <br/> |
-|[Sondeo](ixplogon-poll.md) <br/> |Indica si el proveedor de transporte ha recibido uno o más mensajes entrantes.  <br/> |
+|[Sondeo](ixplogon-poll.md) <br/> |Indica si el proveedor de transporte ha recibido uno o varios mensajes entrantes.  <br/> |
 |[StartMessage](ixplogon-startmessage.md) <br/> |Inicia la transferencia de un mensaje entrante del proveedor de transporte a la cola MAPI.  <br/> |
 |[OpenStatusEntry](ixplogon-openstatusentry.md) <br/> |Abre el objeto de estado del proveedor de transporte.  <br/> |
 |[ValidateState](ixplogon-validatestate.md) <br/> |Comprueba el estado externo del proveedor de transporte.  <br/> |
 |[FlushQueues](ixplogon-flushqueues.md) <br/> |Solicita que el proveedor de transporte entregue inmediatamente todos los mensajes entrantes o salientes pendientes.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -22,13 +22,13 @@ Determina si la página se imprime con orientación vertical u horizontal.
   
 |**Valor**|**Orientación**|**Constante de automatización**|
 |:-----|:-----|:-----|
-| 0  <br/> | Igual que la impresora  <br/> |**visPOSSameAsPrinter** <br/> |
-| 1   <br/> | Portrait  <br/> |**visAGIPortrait** <br/> |
-|2   <br/> |Horizontal  <br/> |**visSCAPELandscape** <br/> |
+| 0  <br/> | Igual que la impresora  <br/> |**visPPOSameAsPrinter** <br/> |
+| 1  <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
+|2  <br/> |Panorama  <br/> |**visPPOLandscape** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Al insertar nuevas páginas en un documento, esta configuración se establece de forma predeterminada en la configuración de la página activa.
+Al insertar páginas nuevas en un documento, esta configuración se establece de forma predeterminada en la configuración de la página activa.
   
 Para obtener una referencia a la celda PrintPageOrientation por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

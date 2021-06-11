@@ -36,21 +36,21 @@ Funciona con proveedores de servicios en un servicio de mensajes.
 |Identificador de interfaz:  <br/> |IID_IProviderAdmin  <br/> |
 |Tipo de puntero:  <br/> |LPPROVIDERADMIN  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[GetLastError](iprovideradmin-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjo en el objeto de administración del proveedor.  <br/> |
-|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Proporciona acceso a la tabla de proveedores del servicio de mensajes, una lista de los proveedores de servicios en el servicio de mensajes.  <br/> |
+|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Proporciona acceso a la tabla de proveedor del servicio de mensajes, una lista de los proveedores de servicios en el servicio de mensajes.  <br/> |
 |[CreateProvider](iprovideradmin-createprovider.md) <br/> |Agrega un proveedor de servicios al servicio de mensajes.  <br/> |
 |[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Elimina un proveedor de servicios del servicio de mensajes.  <br/> |
 |[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Abre una sección de perfil del perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para obtener más acceso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Los clientes pueden obtener un puntero a una **interfaz IProviderAdmin** llamando al método [IMsgServiceAdmin::AdminProviders;](imsgserviceadmin-adminproviders.md) los proveedores de servicios se pasan un **puntero IProviderAdmin** cuando se llama a la función de punto de entrada del servicio de mensajes. 
+Los clientes pueden obtener un puntero a una **interfaz IProviderAdmin** llamando al [método IMsgServiceAdmin::AdminProviders;](imsgserviceadmin-adminproviders.md) los proveedores de servicios se pasan un **puntero IProviderAdmin** cuando se llama a la función de punto de entrada del servicio de mensajes. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

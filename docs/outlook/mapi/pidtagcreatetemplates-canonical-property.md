@@ -36,7 +36,7 @@ Contiene un objeto de tabla incrustado que contiene identificadores de entrada d
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener información sobre qué objetos de plantilla se pueden crear dentro de un contenedor, llame al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en esta propiedad. El objeto resultante es la tabla de uso único que proporciona los identificadores de entrada de todas las plantillas que puede crear dentro del contenedor. 
+Para obtener información sobre qué objetos de plantilla se pueden crear dentro de un contenedor, llame al [método IMAPIProp::OpenProperty](imapiprop-openproperty.md) en esta propiedad. El objeto resultante es la tabla de uso único que proporciona los identificadores de entrada para todas las plantillas que se pueden crear dentro del contenedor. 
   
 Para crear los objetos de plantilla, llame al método **CreateEntry** del objeto contenedor en los valores de columna **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la tabla de un solo elemento.
   
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

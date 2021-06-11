@@ -35,9 +35,9 @@ Proporciona la capacidad de recuperar y cambiar el acceso de las propiedades de 
 |Llamado por:  <br/> |Proveedores de servicios y aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIPropData  <br/> |
 |Tipo de puntero:  <br/> |LPPROPDATA  <br/> |
-|Modelo de transacción:  <br/> |Notransacted  <br/> |
+|Modelo de transacciones:  <br/> |No transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -50,9 +50,9 @@ Proporciona la capacidad de recuperar y cambiar el acceso de las propiedades de 
 
 MAPI implementa la interfaz **IPropData::IMAPIProp** y la usan principalmente los proveedores de servicios que tienen acceso a esta implementación llamando a la [función CreateIProp.](createiprop.md) 
   
-Para obtener más información acerca de los niveles de acceso en objetos y propiedades, vea [Permisos para objetos y propiedades](permissions-for-mapi-objects-and-properties.md).
+Para obtener más información acerca de los niveles de acceso en objetos y propiedades, vea [Permissions for Objects and Properties](permissions-for-mapi-objects-and-properties.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

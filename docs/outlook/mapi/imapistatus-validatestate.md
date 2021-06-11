@@ -23,7 +23,7 @@ ms.locfileid: "33438151"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Confirma la información de estado externo disponible para el recurso MAPI o el proveedor de servicios. Este método es compatible con todos los objetos de estado. 
+Confirma la información de estado externo disponible para el recurso MAPI o el proveedor de servicios. Este método se admite en todos los objetos de estado. 
   
 ```cpp
 HRESULT ValidateState(
@@ -32,21 +32,21 @@ HRESULT ValidateState(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
+> [in] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
     
 _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla la validación. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla la validación. Se pueden establecer las siguientes marcas:
     
 ABORT_XP_HEADER_OPERATION
   
-> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar del cuadro de diálogo correspondiente. El objeto de estado tiene dos opciones: 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón Cancelar** del cuadro de diálogo correspondiente. El objeto status tiene dos opciones: 
     
-   - Continúe trabajando en la operación.
+   - Siga trabajando en la operación.
     
    - Detenga la operación y devuelva MAPI_E_USER_CANCELED.
     
@@ -56,19 +56,19 @@ CONFIG_CHANGED
     
 FORCE_XP_CONNECT 
   
-> El objeto de estado debe realizar una conexión. Cuando esta marca se usa con la REFRESH_XP_HEADER_CACHE o PROCESS_XP_HEADER_CACHE, la conexión se produce sin almacenamiento en caché.
+> El objeto status debe realizar una conexión. Cuando esta marca se usa con la REFRESH_XP_HEADER_CACHE o PROCESS_XP_HEADER_CACHE, la conexión se produce sin almacenamiento en caché.
     
 FORCE_XP_DISCONNECT 
   
-> El objeto de estado debe realizar una operación de desconexión. Cuando esta marca se usa con REFRESH_XP_HEADER_CACHE o PROCESS_XP_HEADER_CACHE, la desconexión se produce sin almacenamiento en caché.
+> El objeto status debe realizar una operación de desconexión. Cuando esta marca se usa con la REFRESH_XP_HEADER_CACHE o PROCESS_XP_HEADER_CACHE, la desconexión se produce sin almacenamiento en caché.
     
 PROCESS_XP_HEADER_CACHE 
   
-> Las entradas de la tabla de caché de encabezados deben procesarse, se deben descargar todos los mensajes marcados con la marca MSGSTATUS_REMOTE_DOWNLOAD y todos los mensajes marcados con la marca MSGSTATUS_REMOTE_DELETE deben eliminarse. Los mensajes que tienen MSGSTATUS_REMOTE_DOWNLOAD y MSGSTATUS_REMOTE_DELETE deben moverse.
+> Se deben procesar las entradas de la tabla de caché de encabezado, descargar todos los mensajes marcados con la marca MSGSTATUS_REMOTE_DOWNLOAD y eliminar todos los mensajes marcados con la marca MSGSTATUS_REMOTE_DELETE. Los mensajes que tienen MSGSTATUS_REMOTE_DOWNLOAD y MSGSTATUS_REMOTE_DELETE deben moverse.
     
 REFRESH_XP_HEADER_CACHE 
   
-> Para un proveedor de transporte remoto, se debe descargar una nueva lista de encabezados de mensaje y deben borrarse todas las marcas que marcan el estado del mensaje.
+> Para un proveedor de transporte remoto, se debe descargar una nueva lista de encabezados de mensaje y se deben borrar todas las marcas que marcan el estado del mensaje.
     
 SUPPRESS_UI 
   
@@ -82,44 +82,44 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso; debe poder completarse o detenerse antes de iniciar esta operación.
+> Hay otra operación en curso; debe poder completarse, o debe detenerse, antes de iniciar esta operación.
     
 MAPI_E_NO_SUPPORT 
   
-> El objeto de estado no admite el método de validación, como se indica por la ausencia de la marca STATUS_VALIDATE_STATE en la **propiedad PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
+> El objeto status no admite el método de validación, como se indica por la ausencia de la marca STATUS_VALIDATE_STATE en la propiedad **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación de validación, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. Este valor solo lo devuelven los proveedores de transporte remoto. 
+> El usuario canceló la operación de validación, normalmente haciendo clic en el **botón Cancelar** de un cuadro de diálogo. Este valor solo lo devuelven los proveedores de transporte remoto. 
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPIStatus::ValidateState** comprueba el estado de un recurso asociado a un objeto de estado. **ValidateState** es el único método de la [interfaz IMAPIStatus](imapistatusimapiprop.md) que se requiere para todos los objetos de estado. El comportamiento exacto de este método depende de la implementación. En la tabla siguiente se describe la implementación de cada uno de los distintos tipos de objetos de estado. 
+El **método IMAPIStatus::ValidateState** comprueba el estado de un recurso asociado a un objeto status. **ValidateState** es el único método de la [interfaz IMAPIStatus](imapistatusimapiprop.md) que es necesario para todos los objetos de estado. El comportamiento exacto de este método depende de la implementación. En la tabla siguiente se describe la implementación de cada uno de los distintos tipos de objetos de estado. 
   
-|**Status (objeto)**|ValidateState** implementation**|
+|**Status (objeto)**|ValidateState** implementación**|
 |:-----|:-----|
-|Subsistema MAPI  <br/> |Valida el estado de todos los recursos que poseen los proveedores de servicios actualmente activos y el propio subsistema.  <br/> |
+|Subsistema MAPI  <br/> |Valida el estado de todos los recursos que poseen los proveedores de servicios activos actualmente y el propio subsistema.  <br/> |
 |Cola MAPI  <br/> |Realiza un inicio de sesión de todos los proveedores de transporte, independientemente de si ya han iniciado sesión.  <br/> |
 |Libreta de direcciones MAPI  <br/> |Comprueba las entradas de su sección de perfil.  <br/> |
-|Proveedor de servicios  <br/> |La implementación depende del tipo de proveedor y de las marcas establecidas en el _parámetro ulFlags._  <br/> |
+|Proveedor de servicios  <br/> |La implementación depende del tipo de proveedor y las marcas establecidas en el _parámetro ulFlags._  <br/> |
    
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Las aplicaciones cliente remotas llaman **al método ValidateState** para iniciar el procesamiento remoto para diversas acciones. Este método existe principalmente para establecer bits de estado para comunicarse con la cola MAPI, en lugar de realizar realmente cualquier trabajo. Normalmente, el proveedor de transporte establece marcas en su fila de estado que indican a la cola MAPI qué acciones deben iniciarse para completar la solicitud del cliente. 
+Las aplicaciones cliente remotas llaman **al método ValidateState** para iniciar el procesamiento remoto de varias acciones. Este método existe principalmente para establecer bits de estado para comunicarse con la cola MAPI, en lugar de realizar realmente cualquier trabajo. Normalmente, el proveedor de transporte establece marcas en su fila de estado que indican a la cola MAPI qué acciones deben iniciarse para completar la solicitud del cliente. 
 
-En este modelo de interacción de cola de transporte de cliente, las acciones solicitadas por el cliente son asincrónicas, ya que **ValidateState** devuelve antes de que se completen las acciones solicitadas. Sin embargo, las acciones que no implican necesariamente el sistema de mensajería subyacente, o que implican una interfaz específica del transporte, pueden ser sincrónicas. La aplicación cliente pasa una máscara de bits de las siguientes marcas para especificar qué acciones debe realizar el proveedor de transporte remoto. 
+En este modelo de interacción client-transport-spooler, las acciones solicitadas por el cliente son asincrónicas, ya que **ValidateState** devuelve antes de que se completen las acciones solicitadas. Sin embargo, las acciones que no implican necesariamente el sistema de mensajería subyacente, o que implican una interfaz específica del transporte, pueden ser sincrónicas. La aplicación cliente pasa una máscara de bits de las siguientes marcas para especificar qué acciones debe realizar el proveedor de transporte remoto. 
   
 ABORT_XP_HEADER_OPERATION 
   
 > Si es posible, el proveedor de transporte remoto debe cancelar las operaciones que impliquen la descarga de encabezados. Para ello, el proveedor de transporte debe establecer los siguientes valores de propiedad en la fila de estado del objeto de inicio de sesión:
     
-   - Borre los STATUS_INBOUND_ENABLED y STATUS_INBOUND_ACTIVE bits de la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) para que la cola MAPI detenga el proceso de vaciado entrante para este proveedor de transporte.
+   - Desactive los bits STATUS_INBOUND_ENABLED y STATUS_INBOUND_ACTIVE en la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) para que la cola MAPI detenga el proceso de vaciado entrante para este proveedor de transporte.
     
    - Establezca el STATUS_OFFLINE en la **PR_STATUS_CODE** propiedad. 
     
-   - Establezca la **PR_REMOTE_VALIDATE_OK** ([PidTagRemoteValidateOk](pidtagremotevalidateok-canonical-property.md)) en TRUE.
+   - Establezca la **propiedad PR_REMOTE_VALIDATE_OK** ([PidTagRemoteValidateOk](pidtagremotevalidateok-canonical-property.md)) en TRUE.
     
-   - Establezca la **PR_STATUS_STRING** ([PidTagStatusString](pidtagstatusstring-canonical-property.md)) en una cadena que indique el estado del proveedor de transporte al usuario.
+   - Establezca la **propiedad PR_STATUS_STRING** ([PidTagStatusString](pidtagstatusstring-canonical-property.md)) en una cadena que indique el estado del proveedor de transporte al usuario.
     
    - Devuelve S_OK. Sin embargo, si la operación en curso no se puede cancelar, **ValidateState** debe devolver MAPI_E_BUSY. 
     
@@ -127,19 +127,19 @@ FORCE_XP_CONNECT
   
 > Un proveedor de transporte remoto nunca debe establecer una conexión a un recurso compartido (por ejemplo, un módem o un puerto COM) fuera del contexto de la interacción de transporte de cola MAPI implicada en el método [IXPLogon::FlushQueues.](ixplogon-flushqueues.md) Si se llama a **ValidateState** con esta marca, el proveedor de transporte debe hacer lo siguiente: 
     
-   - Establezca una marca de estado interna para indicar que la conexión remota debe establecerse cuando se llama al método **IXPLogon::FlushQueues.** 
+   - Establezca una marca de estado interno para indicar que la conexión remota debe establecerse cuando se llama al método **IXPLogon::FlushQueues.** 
     
    - Establezca los valores correctos en la tabla de estado para que la cola MAPI inicie el proceso de vaciado de cola.
     
    - Cuando se complete el vaciado de colas, libere el recurso compartido.
     
-   - Borre el STATUS_OFFLINE en la **PR_STATUS_CODE** de datos. 
+   - Desactive el STATUS_OFFLINE en la **PR_STATUS_CODE** propiedad. 
     
    - Devuelve S_OK.
     
 FORCE_XP_DISCONNECT 
   
-> El proveedor de transporte remoto debe liberar su conexión a los recursos del sistema de mensajería. Después de hacerlo, debe establecer el bit STATUS_OFFLINE en la **PR_STATUS_CODE** y devolver S_OK. 
+> El proveedor de transporte remoto debe liberar su conexión a los recursos del sistema de mensajería. Después de hacerlo, debe establecer el STATUS_OFFLINE en la **propiedad PR_STATUS_CODE** y devolver S_OK. 
     
 PROCESS_XP_HEADER_CACHE 
   
@@ -149,25 +149,25 @@ PROCESS_XP_HEADER_CACHE
     
    - Establezca los STATUS_OUTBOUND_ENABLED y STATUS_OUTBOUND_ACTIVE bits en la **PR_STATUS_CODE** propiedad. 
     
-   - Establezca la **PR_REMOTE_VALIDATE_OK** en FALSE en la fila de estado del proveedor de transporte. 
+   - Establezca la **propiedad PR_REMOTE_VALIDATE_OK** en la fila de estado del proveedor de transporte en FALSE. 
     
-   - Si hay otra operación en curso (como descargar encabezados) cuando se llama **a ValidateState,** **ValidateState** debe devolver MAPI_E_BUSY. 
+   - Si hay otra operación en curso (como los encabezados de descarga) cuando se llama **a ValidateState,** **ValidateState** debe devolver MAPI_E_BUSY. 
     
-   - Ejecute también el código para procesar REFRESH_XP_HEADER_CACHE marca para satisfacer los requisitos del cliente de Microsoft Exchange.
+   - Ejecute el código para procesar la marca REFRESH_XP_HEADER_CACHE, así, para satisfacer los requisitos del cliente Exchange Microsoft.
     
 REFRESH_XP_HEADER_CACHE 
   
-> El proveedor de transporte remoto debe recuperar cualquier encabezado de mensaje nuevo del sistema de mensajería. Para ello, el proveedor de transporte debe hacer lo siguiente:
+> El proveedor de transporte remoto debe recuperar los nuevos encabezados de mensaje del sistema de mensajería. Para ello, el proveedor de transporte debe hacer lo siguiente:
     
    - Establezca la **PR_STATUS_STRING** propiedad en una cadena que indique el estado del proveedor de transporte al usuario. 
     
    - Establezca los STATUS_INBOUND_ENABLED y STATUS_INBOUND_ACTIVE bits en la **PR_STATUS_CODE** propiedad. 
     
-   - Borre el STATUS_OFFLINE en la **PR_STATUS_CODE** de datos. 
+   - Desactive el STATUS_OFFLINE en la **PR_STATUS_CODE** propiedad. 
     
-   - Establezca el STATUS_ONLINE en la **PR_STATUS_CODE** propiedad. 
+   - Establezca el STATUS_ONLINE bit en la **PR_STATUS_CODE** propiedad. 
     
-   - Establezca la **PR_REMOTE_VALIDATE_OK** en FALSE en la fila de estado del proveedor de transporte. 
+   - Establezca la **propiedad PR_REMOTE_VALIDATE_OK** en la fila de estado del proveedor de transporte en FALSE. 
     
 SHOW_XP_SESSION_UI 
   
@@ -175,19 +175,19 @@ SHOW_XP_SESSION_UI
     
 Si se pasan marcas que no sean estas, **ValidateState** debe devolver MAPI_E_UNKNOWN_FLAGS. 
   
-La llamada del cliente al proveedor de transporte suele ser al método **IMAPIStatus::ValidateState.** Durante el procesamiento de **ValidateState,** el proveedor de transporte no debe realizar ninguna acción que asigne recursos del sistema insuficientes, como un módem o un puerto COM. Esto se debe a que, en ocasiones, la cola MAPI necesitará vaciar las colas en más de un proveedor de transporte. Sin embargo, el cliente puede llamar al método **ValidateState** de cualquier proveedor de transporte en cualquier momento. Si el proveedor de transporte intenta asignar un recurso de dificultad durante el procesamiento de **ValidateState**, puede producirse un error debido a un conflicto con otro proveedor de transporte que la cola MAPI ha ordenado que vacíe sus colas. Si permite que todas las asignaciones de recursos difíciles se produzcan bajo la dirección de la cola MAPI, puede evitar estos conflictos. El proveedor de transporte debe admitir la propiedad **PR_REMOTE_VALIDATE_OK** para que las aplicaciones cliente puedan detectar cuándo el proveedor de transporte está ocupado o esperando a que la cola MAPI inicie una acción. 
+La llamada del cliente al proveedor de transporte suele ser al método **IMAPIStatus::ValidateState.** Durante el procesamiento de **ValidateState,** el proveedor de transporte no debe realizar ninguna acción que asigne recursos del sistema escasos, como un módem o un puerto COM. Esto se debe a que la cola MAPI a veces tendrá que vaciar colas en más de un proveedor de transporte. Sin embargo, el cliente puede llamar al método **ValidateState** de cualquier proveedor de transporte en cualquier momento. Si el proveedor de transporte intenta asignar un recurso escaso durante el procesamiento de **ValidateState**, puede producirse un error debido a un conflicto con otro proveedor de transporte que la cola MAPI ha ordenado vaciar sus colas. Si permite que todas las asignaciones de recursos escasos se produzcan bajo la dirección de la cola MAPI, puede evitar dichos conflictos. El proveedor de transporte debe admitir la **propiedad PR_REMOTE_VALIDATE_OK** para que las aplicaciones cliente puedan detectar cuándo el proveedor de transporte está ocupado o esperando que la cola MAPI inicie una acción. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
 Dado que este método puede provocar otras llamadas potencialmente largas, **ValidateState** puede devolver MAPI_E_BUSY para informarle de que este método está esperando la finalización de otra operación. Debe esperar hasta que se complete la operación pendiente antes de intentar otra tarea. 
   
-Tiene el mayor control sobre las llamadas a objetos de estado del proveedor de transporte. Puede pasar una o más marcas a **ValidateState** que afectan a las operaciones del proveedor de transporte. Por ejemplo, la marca ABORT_XP_HEADER_OPERATION indica que el usuario canceló la validación. Los proveedores de transporte pueden decidir anular, devolver MAPI_E_USER_CANCELED o continuar. 
+Tiene el mayor control sobre las llamadas a objetos de estado del proveedor de transporte. Puede pasar una o más marcas a **ValidateState** que afecten a las operaciones del proveedor de transporte. Por ejemplo, la marca ABORT_XP_HEADER_OPERATION indica que el usuario canceló la validación. Los proveedores de transporte pueden decidir anular, devolver MAPI_E_USER_CANCELED o pueden continuar. 
   
-Puede establecer la marca CONFIG_CHANGED en una llamada al objeto de estado de un proveedor de servicios o a la cola MAPI para indicar que se ha cambiado una opción de configuración. Puede usar CONFIG_CHANGED para volver a configurar dinámicamente un proveedor de transporte. Cuando se establece CONFIG_CHANGED en una llamada al objeto de estado de un proveedor de servicios, el proveedor responde con una llamada a [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) para avisar a la cola MAPI del cambio. Cuando se establece CONFIG_CHANGED una llamada al objeto de estado de la cola MAPI, la cola llama a [IXPLogon::AddressTypes](ixplogon-addresstypes.md) para cada proveedor de transporte activo. **AddressTypes informa** a la cola MAPI de los tipos de direcciones admitidos de un transporte. Algunos proveedores de servicios también muestran un indicador de progreso si se espera que la validación lleve mucho tiempo. Mostrar un indicador de progreso es útil, pero no es necesario. 
+Puede establecer la marca CONFIG_CHANGED en una llamada al objeto de estado de un proveedor de servicios o a la cola MAPI para indicar que se ha cambiado una opción de configuración. Puede usar CONFIG_CHANGED para volver a configurar dinámicamente un proveedor de transporte. Al establecer CONFIG_CHANGED en una llamada al objeto de estado de un proveedor de servicios, el proveedor responde con una llamada a [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) para alertar al colador MAPI del cambio. Al establecer CONFIG_CHANGED en una llamada al objeto de estado de la cola MAPI, la cola llama a [IXPLogon::AddressTypes](ixplogon-addresstypes.md) para cada proveedor de transporte activo. **AddressTypes** informa a la cola MAPI de los tipos de direcciones compatibles de un transporte. Algunos proveedores de servicios también muestran un indicador de progreso si se espera que la validación lleve mucho tiempo. Mostrar un indicador de progreso es útil, pero no necesario. 
   
 Cuando se SUPPRESS_UI marca, no se puede mostrar ninguna de las hojas de propiedades de configuración ni los cuadros de diálogo de progreso. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)
 - [IXPLogon::AddressTypes](ixplogon-addresstypes.md)

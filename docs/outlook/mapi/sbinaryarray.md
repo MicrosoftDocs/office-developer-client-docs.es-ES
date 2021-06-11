@@ -40,23 +40,23 @@ typedef struct _SBinaryArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
-> Recuento de valores en la matriz a la que apunta el **miembro lpbin.** 
+> Recuento de valores en la matriz apuntada por el **miembro lpbin.** 
     
  **lpbin**
   
-> Puntero a una matriz [de estructuras SBinary](sbinary.md) que contiene los valores binarios. 
+> Puntero a una matriz de [estructuras SBinary](sbinary.md) que contiene los valores binarios. 
     
 ## <a name="remarks"></a>Comentarios
 
 La **estructura SBinaryArray** se usa para describir propiedades de tipo PT_MV_BINARY. 
   
-Para obtener más información acerca PT_MV_BINARY, vea [Lista de tipos de propiedad](property-types.md).
+Para obtener más información acerca PT_MV_BINARY, [vea Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -39,35 +39,35 @@ HRESULT CopyMsgService(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
-> [entrada] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se debe copiar. 
+> [in] Puntero a la estructura [MAPIUID](mapiuid.md) que contiene el identificador único del servicio de mensajes que se debe copiar. 
     
  _lpszDisplayName_
   
-> [entrada] Este parámetro está en desuso. 
+> [in] Este parámetro ha quedado en desuso. 
     
  _lpInterfaceToCopy_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la sección de perfil del servicio de mensajes que se va a copiar. Si se pasa NULL, se usa la interfaz de sección de perfil estándar, [IProfSect.](iprofsectimapiprop.md)
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la sección de perfil del servicio de mensajes que se va a copiar. Si se pasa NULL, se usa la interfaz de sección de perfil [estándar, IProfSect.](iprofsectimapiprop.md)
     
  _lpInterfaceDst_
   
-> [entrada] Puntero al IID que representa la interfaz que se va a usar para tener acceso al objeto al que apunta el parámetro _lpObjectDst._ Pasar NULL da como resultado el uso de la interfaz de [sesión, IMAPISession.](imapisessioniunknown.md) El  _parámetro lpInterfaceDst_ también se puede establecer en IID_IMsgServiceAdmin. 
+> [in] Puntero al IID que representa la interfaz que se usará para tener acceso al objeto al que apunta el _parámetro lpObjectDst._ Si se pasa NULL, se usa la interfaz de [sesión, IMAPISession.](imapisessioniunknown.md) El  _parámetro lpInterfaceDst_ también se puede establecer en IID_IMsgServiceAdmin. 
     
  _lpObjectDst_
   
-> [entrada] Puntero a un puntero a un objeto de administración de sesión o servicio de mensajes. El tipo de objeto debe corresponder al identificador de interfaz pasado  _en lpInterfaceDst_. Los punteros de objeto válidos son LPMAPISESSION y LPSERVICEADMIN.
+> [in] Puntero a un puntero a un objeto de administración de servicio de mensajes o de sesión. El tipo de objeto debe corresponder al identificador de interfaz pasado  _en lpInterfaceDst_. Los punteros de objeto válidos son LPMAPISESSION y LPSERVICEADMIN.
     
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de cualquier cuadro de diálogo o ventana que muestra este método.
+> [in] Un identificador de la ventana principal de cualquier cuadro de diálogo o ventana que muestre este método.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se copia el servicio de mensajes. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se copia el servicio de mensajes. Se pueden establecer las siguientes marcas:
     
 SERVICE_UI_ALWAYS 
   
@@ -85,7 +85,7 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NOT_FOUND 
   
-> El **MAPIUID** al que apunta  _lpUID_ no hace referencia a un servicio de mensajes existente. 
+> El **MAPIUID al** que  _apunta lpUID_ no hace referencia a un servicio de mensajes existente. 
     
 ## <a name="remarks"></a>Comentarios
 
@@ -93,7 +93,7 @@ El **método IMsgServiceAdmin::CopyMsgService** copia un servicio de mensajes en
   
 No se llama a la función de punto de entrada del servicio de mensajes para una operación de copia. El servicio de mensajes copiado tiene las mismas opciones de configuración que su original. Para cambiar esta configuración, un cliente debe llamar al [método IMsgServiceAdmin::ConfigureMsgService.](imsgserviceadmin-configuremsgservice.md) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

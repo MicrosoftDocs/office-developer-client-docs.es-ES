@@ -1,5 +1,5 @@
 ---
-title: Celda SoftEdgesSize (Sección de propiedades de efecto adicional)
+title: Celda SoftEdgesSize (sección Propiedades de efecto adicional)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435918"
 ---
-# <a name="softedgessize-cell-additional-effect-properties-section"></a>Celda SoftEdgesSize (Sección de propiedades de efecto adicional)
+# <a name="softedgessize-cell-additional-effect-properties-section"></a>Celda SoftEdgesSize (sección Propiedades de efecto adicional)
 
 Determina el tamaño de un efecto de borde suave, en puntos de 0,00 a 100,00. Si la **celda SoftEdgesSize** tiene un valor de 0, la forma no tiene bordes suaves. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **SoftEdgesSize** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell,** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la **celda SoftEdgesSize** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: EstablecerVariable (acción de macro) (aplicación web personalizada de Access)
+title: Acción de macro SetVariable (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433923"
 ---
-# <a name="setvariable-macro-action-access-custom-web-app"></a>EstablecerVariable (acción de macro) (aplicación web personalizada de Access)
+# <a name="setvariable-macro-action-access-custom-web-app"></a>Acción de macro SetVariable (aplicación web personalizada de Access)
 
 Puede usar la acción **EstablecerVariable** para crear una variable temporal y establecerla en un valor específico. A continuación, la variable se puede usar como condición o argumento en acciones posteriores, o puede usar la variable en otra macro de interfaz de usuario (UI). 
   
@@ -23,11 +23,11 @@ Puede usar la acción **EstablecerVariable** para crear una variable temporal y 
   
 ## <a name="setting"></a>Configuración
 
-La **acción EstablecerVariable** tiene los argumentos siguientes. 
+La **acción SetVariable** tiene los argumentos siguientes. 
   
 |**Argumento de la acción**|**Descripción**|
 |:-----|:-----|
 |**Variable** <br/> |Especifique el nombre de la variable temporal.  <br/> |
-|**Value =** <br/> |Escriba una expresión que se usará para establecer el valor de esta variable temporal. No preceda la expresión con el signo igual ( **=** ). Puede hacer clic en el **botón Generar** ![fórmula](media/buildbut_ZA06047218.gif "para") usar el Generador de expresiones para establecer este argumento.  <br/> |
+|**Value =** <br/> |Escriba una expresión que se usará para establecer el valor de esta variable temporal. No anteponga la expresión con el signo igual ( **=** ) . Puede hacer clic en el **botón Generar** ![fórmula](media/buildbut_ZA06047218.gif "fórmula") para usar el Generador de expresiones para establecer este argumento.  <br/> |
    
 

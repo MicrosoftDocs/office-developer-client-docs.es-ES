@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251480
 localization_priority: Normal
 ms.assetid: d14a735c-0278-922f-7823-79adf6cb1e64
-description: Devuelve el punto representado por las coordenadas x e y como un valor único.
+description: Devuelve el punto representado por las coordenadas x e y como un único valor.
 ms.openlocfilehash: c0a12aa18f4c766ea1f5b0fa1d827804d766713c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33435715"
 ---
 # <a name="pnt-function"></a>Función PNT
 
-Devuelve el punto representado por las coordenadas  _x_ e  _y_ como un valor único. 
+Devuelve el punto representado por las coordenadas  _x_  _e y_ como un único valor. 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -36,7 +36,7 @@ Point
   
 ## <a name="remarks"></a>Comentarios
 
-La conversión de coordenadas en puntos permite cambiar la geometría de una forma sin tener que manipular las coordenadas  *x*  e  *y*  por separado. 
+La conversión de coordenadas en puntos permite cambiar la geometría de una forma sin tener que manipular las coordenadas  *x*  -  *e y*  por separado. 
   
 ## <a name="example"></a>Ejemplo
 

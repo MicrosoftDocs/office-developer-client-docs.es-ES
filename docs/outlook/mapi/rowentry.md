@@ -23,7 +23,7 @@ ms.locfileid: "33436037"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una fila y la operación que se realiza en esa fila de una tabla a través de la interfaz [IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
+Contiene una fila y la operación que se realiza en esa fila de una tabla a través de la [interfaz IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
   
 ```cpp
 typedef struct
@@ -34,27 +34,27 @@ typedef struct
 }  ROWENTRY, FAR * LPROWENTRY;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **ulRowFlags**
   
 > Una de las siguientes operaciones que se realizarán en los datos: 
     
-  - ROW_ADD: agregue los datos a la tabla como una fila nueva.
+  - ROW_ADD: Agregue los datos a la tabla como una nueva fila.
       
   - ROW_MODIFY: modifique esta fila de la tabla.
       
-  - ROW_REMOVE: quite esta fila de la tabla.
+  - ROW_REMOVE: Quite esta fila de la tabla.
       
   - ROW_EMPTY: no agregue los datos de fila a la tabla. (La fila está vacía).
     
 **cValues**
   
-> El número de valores de propiedad **en rgPropvals**.
+> El número de valores de propiedad en **rgPropvals**.
     
 **rgPropVals**
   
-> Matriz de [estructuras SPropValue](spropvalue.md) que representan los valores de las columnas que se insertarán en la tabla. 
+> Una matriz de [estructuras SPropValue](spropvalue.md) que representan los valores de columnas que se insertarán en la tabla. 
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -64,7 +64,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Se usa para crear una lista de reglas seleccionadas para acciones **de ModifyTable posteriores.**  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
   
 - [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
 - [Estructuras MAPI](mapi-structures.md)

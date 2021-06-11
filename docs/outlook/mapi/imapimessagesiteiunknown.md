@@ -25,7 +25,7 @@ ms.locfileid: "33433370"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Manipula los mensajes y lo implementa el código del visor de formularios (normalmente una aplicación cliente) que responde a dicha manipulación.
+Manipula los mensajes y se implementa mediante el código del visor de formularios (normalmente una aplicación cliente) que responde a dicha manipulación.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Manipula los mensajes y lo implementa el código del visor de formularios (norma
 |Identificador de interfaz:  <br/> |IID_IMAPIMessageSite  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIMESSAGESITE  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -44,17 +44,17 @@ Manipula los mensajes y lo implementa el código del visor de formularios (norma
 |[GetStore](imapimessagesite-getstore.md) <br/> |Devuelve el almacén de mensajes que contiene el mensaje actual, si existe dicho almacén.  <br/> |
 |[GetFolder](imapimessagesite-getfolder.md) <br/> |Devuelve la carpeta en la que se creó o abrió el mensaje actual, si existe dicha carpeta.  <br/> |
 |[GetMessage](imapimessagesite-getmessage.md) <br/> |Devuelve el mensaje actual.  <br/> |
-|[GetFormManager](imapimessagesite-getformmanager.md) <br/> |Devuelve una interfaz de administrador de formularios, que un servidor de formulario puede usar para abrir otro servidor de formularios.  <br/> |
+|[GetFormManager](imapimessagesite-getformmanager.md) <br/> |Devuelve una interfaz de administrador de formularios, que un servidor de formularios puede usar para abrir otro servidor de formularios.  <br/> |
 |[NewMessage](imapimessagesite-newmessage.md) <br/> |Crea un mensaje nuevo.  <br/> |
 |[CopyMessage](imapimessagesite-copymessage.md) <br/> |Copia el mensaje actual en una carpeta.  <br/> |
 |[MoveMessage](imapimessagesite-movemessage.md) <br/> |Mueve el mensaje actual a una carpeta.  <br/> |
 |[DeleteMessage](imapimessagesite-deletemessage.md) <br/> |Elimina el mensaje actual.  <br/> |
 |[SaveMessage](imapimessagesite-savemessage.md) <br/> |Solicita que se guarde el mensaje actual.  <br/> |
 |[SubmitMessage](imapimessagesite-submitmessage.md) <br/> |Solicita que el mensaje actual se pone en cola para su entrega.  <br/> |
-|[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Devuelve información de un objeto de sitio de mensaje acerca de las capacidades del sitio del mensaje para el mensaje actual.  <br/> |
-|[GetLastError](imapimessagesite-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se ha producido en el objeto de sitio del mensaje.  <br/> |
+|[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Devuelve información de un objeto de sitio de mensaje acerca de las capacidades del sitio de mensaje para el mensaje actual.  <br/> |
+|[GetLastError](imapimessagesite-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjo en el objeto de sitio del mensaje.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

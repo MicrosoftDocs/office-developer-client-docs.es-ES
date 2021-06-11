@@ -35,7 +35,7 @@ typedef LONG HRESULT;
 
 El **tipo de datos HRESULT** es el mismo que el tipo de datos [SCODE.](scode.md) 
   
-Un **valor HRESULT** consta de los siguientes campos: 
+Un **valor HRESULT** consta de los campos siguientes: 
   
 - Un código de 1 bit que indica la gravedad, donde cero representa el éxito y 1 representa el error.
     
@@ -43,14 +43,14 @@ Un **valor HRESULT** consta de los siguientes campos:
     
 - Un código de 11 bits que indica la responsabilidad del error o advertencia, también conocido como código de instalación.
     
-- Código de 16 bits que describe el error o advertencia.
+- Un código de 16 bits que describe el error o advertencia.
     
-La mayoría de los métodos y funciones de la interfaz MAPI **devuelven valores HRESULT** para proporcionar una causa detallada. **Los valores HRESULT** también se usan ampliamente en métodos de interfaz OLE. OLE proporciona varias macros para convertir entre **valores HRESULT** y **valores SCODE,** otro tipo de datos común para el control de errores. 
+La mayoría de los métodos y funciones de interfaz MAPI **devuelven valores HRESULT** para proporcionar una formación detallada de la causa. **Los valores HRESULT** también se usan ampliamente en los métodos de interfaz OLE. OLE proporciona varias macros para convertir entre **valores HRESULT** y **valores SCODE,** otro tipo de datos común para el control de errores. 
   
 > [!NOTE]
 > En MAPI de 64 bits, **HRESULT** sigue siendo un valor de 32 bits. 
   
-Para obtener información sobre el uso OLE de **valores HRESULT,** vea la referencia *del programador ole.* Para obtener más información sobre el uso de estos valores en MAPI, vea Control de [errores](error-handling-in-mapi.md) y cualquiera de los siguientes métodos de interfaz: 
+Para obtener información sobre el uso OLE de **valores HRESULT,** vea  *referencia del programador OLE*  . Para obtener más información sobre el uso de estos valores en MAPI, vea Control de [errores](error-handling-in-mapi.md) y cualquiera de los siguientes métodos de interfaz: 
   
 [IABLogon::GetLastError](iablogon-getlasterror.md)
   
@@ -64,7 +64,7 @@ Para obtener información sobre el uso OLE de **valores HRESULT,** vea la refere
   
 [IMAPIViewAdviseSink::OnPrint](imapiviewadvisesink-onprint.md)
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

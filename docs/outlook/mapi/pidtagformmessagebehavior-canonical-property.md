@@ -25,18 +25,18 @@ ms.locfileid: "33432887"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si un mensaje debe estar compuesto en la carpeta actual. 
+Contiene TRUE si se debe componer un mensaje en la carpeta actual. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_FORM_MESSAGE_BEHAVIOR  <br/> |
 |Identificador:  <br/> |0x330A  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Mapi común  <br/> |
+|Área:  <br/> |MAPI común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un valor FALSE indica que el mensaje debe estar compuesto como cualquier otro mensaje interpersonal, es decir, en la carpeta Bandeja de salida. 
+Un valor de FALSE indica que el mensaje debe estar compuesto como cualquier otro mensaje interpersonal, es decir, en la carpeta Bandeja de salida. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -36,7 +36,7 @@ Admite la administración de perfiles.
 |Identificador de interfaz:  <br/> |IID_IProfAdmin  <br/> |
 |Tipo de puntero:  <br/> |LPPROFADMIN  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -48,9 +48,9 @@ Admite la administración de perfiles.
 |[CopyProfile](iprofadmin-copyprofile.md) <br/> |Copia un perfil.  <br/> |
 |[RenameProfile](iprofadmin-renameprofile.md) <br/> |Asigna un nuevo nombre a un perfil.  <br/> |
 |[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |Establece o borra el perfil predeterminado de un cliente.  <br/> |
-|[AdminServices](iprofadmin-adminservices.md) <br/> |Proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en los servicios de mensajes de un perfil.  <br/> |
+|[AdminServices](iprofadmin-adminservices.md) <br/> |Proporciona acceso a un objeto de administración del servicio de mensajes para realizar cambios en los servicios de mensajes en un perfil.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

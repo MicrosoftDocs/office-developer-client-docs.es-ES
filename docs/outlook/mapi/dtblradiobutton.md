@@ -43,7 +43,7 @@ typedef struct _DTBLRADIOBUTTON
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   
@@ -51,19 +51,19 @@ typedef struct _DTBLRADIOBUTTON
     
  **ulFlags**
   
-> Máscara de bits de marcas usadas para designar el formato de la etiqueta a la que apunta el **miembro ulbLpszLabel.** Se puede establecer la siguiente marca: 
+> Máscara de bits de las marcas usadas para designar el formato de la etiqueta señalada por el **miembro ulbLpszLabel.** Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> La etiqueta está en formato Unicode. Si no MAPI_UNICODE marca, la etiqueta está en formato ANSI.
+> La etiqueta está en formato Unicode. Si la MAPI_UNICODE no está establecida, la etiqueta está en formato ANSI.
     
  **ulcButtons**
   
-> Número de botones del grupo de botones de radio. Las **estructuras DTBLRADIOBUTTON** para los demás botones del grupo deben estar contenidas en filas sucesivas de la tabla para mostrar. Cada una de estas filas debe contener el mismo valor para el **miembro ulcButtons.** 
+> Recuento de botones en el grupo de botones de radio. Las **estructuras DTBLRADIOBUTTON** para los demás botones del grupo deben estar contenidas en filas sucesivas de la tabla para mostrar. Cada una de estas filas debe contener el mismo valor para el **miembro ulcButtons.** 
     
  **ulPropTag**
   
-> Etiqueta de propiedad de una propiedad de tipo PT_LONG. La selección inicial en el grupo de botones de radio se basa en el valor inicial de esta propiedad. Cada botón del grupo debe tener **ulPropTag** establecido en la misma propiedad. 
+> Etiqueta de propiedad para una propiedad de tipo PT_LONG. La selección inicial en el grupo de botones de radio se basa en el valor inicial de esta propiedad. Cada botón del grupo debe tener **ulPropTag** establecido en la misma propiedad. 
     
  **lReturnValue**
   
@@ -71,13 +71,13 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura DTBLRADIOBUTTON** describe un botón de radio de un control de botón asociado a un grupo de botones. Solo se puede comprobar un botón del grupo; establecer un botón hace que los demás botones del grupo se desconjunte. 
+Una **estructura DTBLRADIOBUTTON** describe un botón de radio un control de botón asociado a un grupo de botones. Solo se puede comprobar un botón del grupo; al establecer un botón, se desaconsecerán los demás botones del grupo. 
   
-El recuento de botones es el número de botones de radio del grupo. Las estructuras de los demás botones de radio del grupo deben estar en filas posteriores de la tabla para mostrar. Cada una de estas estructuras debe tener el mismo valor para su recuento de botones.
+El número de botones es el número de botones de radio del grupo. Las estructuras de los demás botones de radio del grupo deben estar en filas posteriores de la tabla para mostrar. Cada una de estas estructuras debe tener el mismo valor para su recuento de botones.
   
-Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información acerca de cómo implementar una tabla para mostrar, vea [Implementar una tabla para mostrar.](display-table-implementation.md)
+Para obtener información general sobre las tablas para mostrar, vea [Tablas para mostrar.](display-tables.md) Para obtener información sobre cómo implementar una tabla para mostrar, vea [Implementing a Display Table](display-table-implementation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

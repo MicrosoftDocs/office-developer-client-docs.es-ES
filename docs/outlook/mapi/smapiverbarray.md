@@ -25,7 +25,7 @@ ms.locfileid: "33433916"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz [de estructuras SMAPIVerb](smapiverb.md) que describen verbos MAPI. 
+Contiene una matriz de [estructuras SMAPIVerb](smapiverb.md) que describen verbos MAPI. 
   
 |||
 |:-----|:-----|
@@ -41,11 +41,11 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cForms**
   
-> Número de verbos de la matriz.
+> Recuento de verbos en la matriz.
     
  **aFormInfo**
   
@@ -53,9 +53,9 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura SMAPIVerbArray** se pasa como parámetro en el método [IMAPIFormInfo::CalcVerbSet.](imapiforminfo-calcverbset.md) 
+La **estructura SMAPIVerbArray** se pasa como un parámetro en el [método IMAPIFormInfo::CalcVerbSet.](imapiforminfo-calcverbset.md) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

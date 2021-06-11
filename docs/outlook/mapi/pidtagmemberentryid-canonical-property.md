@@ -36,7 +36,7 @@ Contiene el identificador de entrada de objeto de directorio de un miembro de ta
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa en la interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) para identificar de forma única a una persona o rol al que se aplica el SACL. Después de crear un miembro en la tabla SACL, **el ENTRYID** no se puede cambiar. Para cambiarlo, debe eliminar el miembro de tabla y volver a crearlo con un **ENTRYID diferente.**
+La interfaz [IExchangeModifyTable](iexchangemodifytableiunknown.md) usa esta propiedad para identificar de forma única a una persona o rol a los que se aplica el SACL. Después de crear un miembro en la tabla SACL, **el ENTRYID** no se puede cambiar. Para cambiarlo, debe eliminar el miembro de la tabla y volver a crearlo con un **ENTRYID diferente.**
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

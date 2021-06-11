@@ -1,5 +1,5 @@
 ---
-title: Estructura de secuencia FirstSkipBlockContent
+title: Estructura de secuencias FirstSkipBlockContent
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,25 +13,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433930"
 ---
-# <a name="firstskipblockcontent-stream-structure"></a>Estructura de secuencia FirstSkipBlockContent
+# <a name="firstskipblockcontent-stream-structure"></a>Estructura de secuencias FirstSkipBlockContent
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La estructura de secuencias FirstSkipBlockContent es el contenido de la primera estructura [SkipBlock](skipblock-stream-structure.md) en el elemento de datos SkipBlocks de una [secuencia FieldDefinition.](fielddefinition-stream-structure.md) La secuencia FirstSkipBlockContent es simplemente un único elemento de datos, FieldName: 
+La estructura de secuencias FirstSkipBlockContent es el contenido de la primera estructura [SkipBlock](skipblock-stream-structure.md) del elemento de datos SkipBlocks de una [secuencia FieldDefinition.](fielddefinition-stream-structure.md) La secuencia FirstSkipBlockContent es simplemente un único elemento de datos, FieldName: 
   
 - FieldName: [PackedUnicodeString](packedunicodestring-stream-structure.md), el nombre del campo.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
-[Elementos y campos de Outlook](outlook-items-and-fields.md)
+[Outlook Elementos y campos](outlook-items-and-fields.md)
   
-[Estructuras de flujo](stream-structures.md)
+[Estructuras de secuencias](stream-structures.md)
   
-[Estructura de flujo SkipBlock](skipblock-stream-structure.md)
+[Estructura de secuencias SkipBlock](skipblock-stream-structure.md)
   
 [Estructura de secuencias PackedUnicodeString](packedunicodestring-stream-structure.md)
 

@@ -22,37 +22,37 @@ ms.locfileid: "33433594"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Ejemplo de comando definido por el usuario que carga y muestra un cuadro de diálogo nativo de Windows de ejemplo. Cuando se carga GENERIC.xll, crea un menú definido por el usuario, Generic, a través del cual se tiene acceso a este comando.
+Ejemplo de comando definido por el usuario que carga y muestra un cuadro de diálogo nativo Windows ejemplo. Cuando se carga GENERIC.xll, se crea un menú definido por el usuario, Generic, a través del cual se tiene acceso a este comando.
   
 ```cs
 int WINAPI fShowDialog(void);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 La función no toma ningún parámetro.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-La función devuelve un entero cero para indicar que se ha completado correctamente
+La función devuelve cero entero para indicar que se ha completado correctamente
   
 ## <a name="remarks"></a>Comentarios
 
-Los pasos para mostrar el cuadro de diálogo nativo de Windows son los siguientes:
+Los pasos para mostrar el cuadro Windows de diálogo nativo son los siguientes:
   
-1. Obtener el controlador principal de Windows de Microsoft Excel con **GetHwnd**.
+1. Obtener el Microsoft Excel principal Windows con **GetHwnd**.
     
-2. Enlazar la ventana principal de Excel mediante **HookExcelWindow**.
+2. Enlazar la Excel principal mediante **HookExcelWindow**.
     
 3. Mostrar el cuadro de diálogo mediante **DialogBox**.
     
-4. Desenlace la ventana principal de Excel **mediante UnhookExcelWindow**.
+4. Desenganche la Excel principal con **UnhookExcelWindow**.
     
 ### <a name="example"></a>Ejemplo
 
 Vea  `\SAMPLES\GENERIC\GENERIC.C` el código fuente de esta función. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

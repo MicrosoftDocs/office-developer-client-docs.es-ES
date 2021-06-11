@@ -23,13 +23,13 @@ ms.locfileid: "33436212"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se asegura de que el texto del mensaje de formato de texto enriquecido (RTF) coincida con la versión de texto sin formato. Es necesario llamar a esta función antes de leer la versión RTF y después de modificar la versión RTF. 
+Se asegura de que el texto del mensaje formato de texto enriquecido (RTF) coincida con la versión de texto sin formato. Es necesario llamar a esta función antes de leer la versión RTF y después de modificar la versión RTF. 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
-|Llamado por:  <br/> |Aplicaciones cliente compatible con RTF y proveedores de almacenamiento de mensajes  <br/> |
+|Llamado por:  <br/> |Proveedores de aplicaciones cliente y almacenes de mensajes compatible con RTF  <br/> |
    
 ```cpp
 HRESULT RTFSync(
@@ -39,21 +39,21 @@ HRESULT RTFSync(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _lpMessage_
   
-> [entrada] Puntero al mensaje que se va a actualizar.
+> [in] Puntero al mensaje que se va a actualizar.
     
 _ulFlags_
   
-> [entrada] La máscara de bits de las marcas usadas para indicar la versión rtf o de texto sin formato del mensaje ha cambiado. Se pueden establecer las siguientes marcas:
+> [in] La máscara de bits de las marcas usadas para indicar la versión RTF o de texto sin formato del mensaje ha cambiado. Se pueden establecer las siguientes marcas:
     
   - RTF_SYNC_BODY_CHANGED: la versión de texto sin formato del mensaje ha cambiado.
       
   - RTF_SYNC_RTF_CHANGED: la versión RTF del mensaje ha cambiado.
     
-  Todos los demás bits del  _parámetro ulFlags_ están reservados para su uso futuro. 
+  El resto de bits del  _parámetro ulFlags_ están reservados para su uso futuro. 
     
 _lpfMessageUpdated_
   
@@ -67,19 +67,19 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Si falta la propiedad **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) o es FALSE, antes de leer la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) se debe llamar a la función **RTFSync** con la marca RTF_SYNC_BODY_CHANGED establecida. 
+Si **falta** la propiedad PR_RTF_IN_SYNC ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) o es FALSE, antes de leer la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) se debe llamar a la función **RTFSync** con el conjunto de marcas RTF_SYNC_BODY_CHANGED. 
   
 Si la marca STORE_RTF_OK no está establecida en la propiedad **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), se debe llamar a esta función con la marca RTF_SYNC_RTF_CHANGED establecida después de modificar **PR_RTF_COMPRESSED**. 
   
-Si tanto **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) como **PR_RTF_COMPRESSED** han cambiado, se debe llamar a la función **RTFSync** con ambas marcas establecidas. 
+Si se **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) y **PR_RTF_COMPRESSED** han cambiado, se debe llamar a la función **RTFSync** con ambas marcas establecidas. 
   
 Si el valor del parámetro  _lpfMessageUpdated_ se establece en TRUE, se debe llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para el mensaje. Si no se llama a **SaveChanges,** las modificaciones no se guardarán en el mensaje. 
   
-Los proveedores de almacenamiento de mensajes **pueden usar RTFSync** para mantener las **propiedades PR_BODY** y **PR_RTF_COMPRESSED** personalizadas sincronizadas. 
+Los proveedores de almacén de mensajes **pueden usar RTFSync** para mantener las **propiedades PR_BODY** y **PR_RTF_COMPRESSED** sincronizadas. 
   
-Para obtener más información, vea [Compatibilidad de texto RTF para proveedores de al almacenamiento de mensajes.](supporting-rtf-text-for-message-store-providers.md) 
+Para obtener más información, [vea Supporting RTF Text for Message Store Providers](supporting-rtf-text-for-message-store-providers.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [WrapCompressedRTFStream](wrapcompressedrtfstream.md)
 

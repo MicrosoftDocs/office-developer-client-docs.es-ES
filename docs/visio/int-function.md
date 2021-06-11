@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251447
 localization_priority: Normal
 ms.assetid: d51120f7-df80-f0bb-8af9-751d3c59f045
-description: Redondear un número hacia abajo hasta el siguiente entero.
+description: Redondear un número hacia abajo hasta el número entero siguiente.
 ms.openlocfilehash: 6acc150e5291093bc7436c1d8e915b28e4840ca3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33436954"
 ---
 # <a name="int-function"></a>Función INT
 
-Redondear un número hacia abajo hasta el siguiente entero.
+Redondear un número hacia abajo hasta el número entero siguiente.
   
 ## <a name="syntax"></a>Sintaxis
 

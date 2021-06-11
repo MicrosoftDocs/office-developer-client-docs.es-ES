@@ -32,13 +32,13 @@ Contiene el identificador de entrada de la carpeta de vista común predefinida.
 |Propiedades asociadas:  <br/> |PR_COMMON_VIEWS_ENTRYID  <br/> |
 |Identificador:  <br/> |0x35E6  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Aplicación de Outlook  <br/> |
+|Área:  <br/> |Outlook aplicación  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 La carpeta de vista común contiene un conjunto predefinido de especificadores de vista estándar, mientras que la carpeta de vista contiene especificadores definidos por un usuario de mensajería. Estas carpetas, que no están visibles en la jerarquía de mensajes interpersonales (IPM), pueden contener muchos especificadores de vista, cada uno almacenado como mensaje. Una aplicación cliente puede elegir combinar los dos conjuntos de especificadores y hacer que ambos estén disponibles. 
   
-Para obtener más información sobre las vistas, vea [Ver carpetas.](mapi-view-folders.md)
+Para obtener más información sobre las vistas, vea [Ver carpetas](mapi-view-folders.md).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,7 +52,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -63,7 +63,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

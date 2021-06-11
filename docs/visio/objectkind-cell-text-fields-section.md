@@ -23,7 +23,7 @@ Indica el tipo de campo de texto.
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Estándar  <br/> |**visTFOKStandard** <br/> |
-| 1   <br/> |Horizontal en vertical  <br/> |**visTFOKHorizontaInVertical** <br/> |
+| 1  <br/> |Horizontal en vertical  <br/> |**visTFOKHorizontaInVertical** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

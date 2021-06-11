@@ -40,7 +40,7 @@ typedef struct _SLPSTRArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -52,9 +52,9 @@ typedef struct _SLPSTRArray
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca PT_MV_STRING8, vea [Lista de tipos de propiedad](property-types.md).
+Para obtener más información acerca PT_MV_STRING8, [vea Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

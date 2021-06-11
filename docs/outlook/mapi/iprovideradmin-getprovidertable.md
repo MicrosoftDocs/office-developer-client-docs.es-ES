@@ -25,7 +25,7 @@ ms.locfileid: "33434476"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a la tabla de proveedores del servicio de mensajes, una lista de los proveedores de servicios en el servicio de mensajes.
+Proporciona acceso a la tabla de proveedor del servicio de mensajes, una lista de los proveedores de servicios en el servicio de mensajes.
   
 ```cpp
 HRESULT GetProviderTable(
@@ -34,15 +34,15 @@ HRESULT GetProviderTable(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de cadenas devueltas en las columnas de la tabla del proveedor. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de cadenas devueltas en las columnas de la tabla del proveedor. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas tienen el formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si la MAPI_UNICODE no está establecida, las columnas tienen el formato ANSI.
     
  _lppTable_
   
@@ -52,27 +52,27 @@ MAPI_UNICODE
 
 S_OK 
   
-> La tabla del proveedor se devolvió correctamente.
+> La tabla de proveedor se ha devuelto correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IProviderAdmin::GetProviderTable** recupera un puntero a la tabla de proveedor del servicio de mensajes, una tabla que MAPI mantiene y que contiene información sobre cada proveedor de servicios en el servicio de mensajes. 
+El **método IProviderAdmin::GetProviderTable** recupera un puntero a la tabla de proveedor del servicio de mensajes, una tabla que MAPI mantiene que contiene información sobre cada proveedor de servicios en el servicio de mensajes. 
   
-A diferencia de la tabla de proveedor devuelta por el método [IMsgServiceAdmin::GetProviderTable,](imsgserviceadmin-getprovidertable.md) la tabla de proveedor devuelta por **IProviderAdmin::GetProviderTable** puede incluir filas adicionales que representan información asociada a uno o varios de los proveedores de servicios en el servicio de mensajes. Esta información adicional se agrega al perfil con la palabra clave "Sections" del archivo Mapisvc.inf. Cuando un proveedor tiene secciones de perfil adicionales, almacena las estructuras **MAPIUID** para estas secciones en la propiedad **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)). **PR_SERVICE_EXTRA_UIDS** se guarda en la sección perfil del servicio de mensajes. 
+A diferencia de la tabla de proveedor devuelta por el método [IMsgServiceAdmin::GetProviderTable,](imsgserviceadmin-getprovidertable.md) la tabla de proveedor devuelta por **IProviderAdmin::GetProviderTable** puede incluir filas adicionales que representen información asociada a uno o varios de los proveedores de servicios en el servicio de mensajes. Esta información adicional se agrega al perfil con la palabra clave "Secciones" del archivo Mapisvc.inf. Cuando un proveedor tiene secciones de perfil adicionales, almacena las estructuras **MAPIUID** para estas secciones en la propiedad **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)). **PR_SERVICE_EXTRA_UIDS** se guarda en la sección perfil de servicio de mensajes. 
   
-Los proveedores que se han eliminado o que están en uso pero que se han marcado para su eliminación no se incluyen en la tabla del proveedor. Las tablas de proveedor son estáticas, lo que significa que las adiciones o eliminaciones posteriores del servicio de mensajes no se reflejan en la tabla. 
+Los proveedores que se han eliminado o están en uso pero que se han marcado para su eliminación, no se incluyen en la tabla de proveedores. Las tablas de proveedor son estáticas, lo que significa que las adiciones o eliminaciones posteriores del servicio de mensajes no se reflejan en la tabla. 
   
-Si el servicio de mensajes no tiene proveedores, **IProviderAdmin::GetProviderTable** devuelve una tabla con cero filas y S_OK valor devuelto. 
+Si el servicio de mensajes no tiene proveedores, **IProviderAdmin::GetProviderTable** devuelve una tabla con cero filas y el S_OK valor devuelto. 
   
-Establecer el MAPI_UNICODE en el parámetro _ulFlags_ afecta al formato de las columnas devueltas de los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) 
+Establecer la marca MAPI_UNICODE en el _parámetro ulFlags_ afecta al formato de las columnas devueltas de los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) 
   
-Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el método [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
+Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el [método IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
   
-Para obtener una lista completa de las columnas de la tabla del proveedor, vea [Tabla de proveedores](provider-tables.md). 
+Para obtener una lista completa de las columnas de la tabla del proveedor, vea [Tabla del proveedor](provider-tables.md). 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para recuperar las filas de una tabla de proveedor en orden de transporte, ordene la tabla por la **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
+Para recuperar las filas de una tabla de proveedor en orden de transporte, ordene la tabla por la **columna PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
   
 Para recuperar solo las filas que representan proveedores de servicios (sin incluir filas adicionales), limite la recuperación a las filas que tienen un valor de PT_ERROR en su columna **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
   
@@ -82,9 +82,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-| MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI usa el **método IProviderAdmin::GetProviderTable** para obtener la tabla de proveedores que se representará en un cuadro de diálogo nuevo.  <br/> |
+| MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI usa el **método IProviderAdmin::GetProviderTable** para obtener la tabla de proveedores que se representará en un nuevo cuadro de diálogo.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

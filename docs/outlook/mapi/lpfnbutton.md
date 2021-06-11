@@ -25,7 +25,7 @@ ms.locfileid: "33431515"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una función de devolución de llamada a la que MAPI llama para activar un control de botón opcional en un cuadro de diálogo de libreta de direcciones. Este botón suele ser **un botón Detalles.** 
+Define una función de devolución de llamada que llama MAPI para activar un control de botón opcional en un cuadro de diálogo de libreta de direcciones. Este botón suele ser un **botón Detalles.** 
   
 |||
 |:-----|:-----|
@@ -43,23 +43,23 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de las ventanas primarias para los cuadros de diálogo o ventanas que muestra esta función.
+> [in] Identificador de las ventanas primarias de los cuadros de diálogo o ventanas que muestra esta función.
     
  _lpvContext_
   
-> [entrada] Puntero a un valor arbitrario pasado a la función de devolución de llamada cuando MAPI lo llama. Este valor puede representar una dirección significativa para la aplicación cliente. Normalmente, para el código C++,  _lpvContext representa_ un puntero a un objeto C++. 
+> [in] Puntero a un valor arbitrario pasado a la función de devolución de llamada cuando MAPI lo llama. Este valor puede representar una dirección de importancia para la aplicación cliente. Normalmente, para el código C++,  _lpvContext_ representa un puntero a un objeto C++. 
     
  _cbEntryID_
   
-> [entrada] Tamaño, en bytes, del identificador de entrada al que apunta el _parámetro lpSelection._ 
+> [in] Tamaño, en bytes, del identificador de entrada señalado por el _parámetro lpSelection._ 
     
  _lpSelection_
   
-> [entrada] Puntero al identificador de entrada que define la selección en el cuadro de diálogo.
+> [in] Puntero al identificador de entrada que define la selección en el cuadro de diálogo.
     
  _ulFlags_
   
@@ -79,7 +79,7 @@ Los proveedores de servicios llaman a una función de enlace basada en el **prot
   
 En ambos casos, cuando se muestra el cuadro de diálogo y el usuario elige el botón definido, MAPI llama **a LPFNBUTTON**. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

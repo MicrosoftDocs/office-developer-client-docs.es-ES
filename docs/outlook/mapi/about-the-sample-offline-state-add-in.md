@@ -19,7 +19,7 @@ ms.locfileid: "33431186"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-La API de estado sin conexión admite devoluciones de llamada que indican cambios en el estado de conexión de un usuario en Outlook, por ejemplo, desde estar en línea en Outlook hasta estar sin conexión. El complemento de estado sin conexión de ejemplo es un complemento COM escrito en C++ que muestra cómo recibir notificaciones de cambios de estado de conexión y cómo modificar el estado actual mediante la API de estado sin conexión. Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
+La API de estado sin conexión admite devoluciones de llamada que indican cambios en el estado de conexión de un usuario en Outlook, por ejemplo, desde estar en línea en Outlook a estar sin conexión. El complemento de estado sin conexión de ejemplo es un complemento COM escrito en C++ que muestra cómo recibir notificaciones de cambios de estado de conexión y cómo modificar el estado actual mediante la API de estado sin conexión. Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -29,7 +29,7 @@ La API de estado sin conexión admite devoluciones de llamada que indican cambio
     
 - [Configurar un complemento de estado sin conexión](setting-up-an-offline-state-add-in.md)
     
-- Describe cómo implementar funciones de conexión, inicialización y configuración para usar un complemento de estado sin conexión.
+- Describe cómo implementar las funciones de conexión, inicialización y configuración para usar un complemento de estado sin conexión.
     
 - [Supervisar los cambios de estado de conexión con un complemento de estado sin conexión](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
     
@@ -37,7 +37,7 @@ La API de estado sin conexión admite devoluciones de llamada que indican cambio
     
 - [Desconectar un complemento de estado sin conexión](disconnecting-an-offline-state-add-in.md)
     
-- Describe cómo finalizar y limpiar correctamente un complemento de estado sin conexión cuando se desconecta el complemento.
+- Describe cómo terminar y limpiar correctamente un complemento de estado sin conexión cuando se desconecta el complemento.
     
 ## <a name="see-also"></a>Vea también
 

@@ -19,8 +19,8 @@ ms.locfileid: "33432264"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Al obtener y establecer tantas propiedades como sea posible con el menor número de llamadas, la actividad remota se reduce y se reduce la sobrecarga que implica cada propiedad. Aunque los proveedores de servicios intentan recopilar propiedades antes de realizar una llamada de procedimiento remoto para la recuperación o modificación, puede optimizar este esfuerzo solicitando varias propiedades para empezar.
+Al obtener y establecer tantas propiedades como sea posible con el menor número de llamadas, se reduce la actividad remota y se reduce la sobrecarga que implica cada propiedad. Aunque los proveedores de servicios intentan recopilar propiedades antes de realizar una llamada de procedimiento remoto para la recuperación o modificación, puede optimizar este esfuerzo solicitando varias propiedades para empezar.
   
-Por ejemplo, si trabaja con listas de enrutamiento que describen destinatarios futuros con propiedades con nombre pertenecientes a conjuntos de propiedades concretos, procese a todos los destinatarios con dos llamadas. Use una llamada a [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para recuperar los identificadores de todas las propiedades del destinatario y la otra llamada a [IMAPIProp::GetProps](imapiprop-getprops.md) para recuperar todos los valores. La alternativa, realizar una llamada a **GetIDsFromNames** seguida de una llamada a **GetProps** para cada destinatario, es mucho menos eficaz. 
+Por ejemplo, si trabaja con listas de enrutamiento que describen destinatarios futuros con propiedades con nombre pertenecientes a determinados conjuntos de propiedades, procese todos los destinatarios con dos llamadas. Use una llamada a [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para recuperar los identificadores de todas las propiedades del destinatario y la otra llamada a [IMAPIProp::GetProps](imapiprop-getprops.md) para recuperar todos los valores. La alternativa, realizar una llamada a **GetIDsFromNames** seguida de una llamada a **GetProps** para cada destinatario, es mucho menos eficiente. 
   
 

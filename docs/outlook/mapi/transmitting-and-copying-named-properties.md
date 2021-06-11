@@ -21,13 +21,13 @@ ms.locfileid: "33437780"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Siempre que se envía, mueve o copia una propiedad con nombre, el nombre permanece constante, pero el identificador debe cambiar para cumplir con la asignación del objeto de destino. La única excepción a esta regla es cuando el origen y el destino tienen la misma firma de asignación, lo que hace que la asignación sea innecesaria.
+Siempre que se envía, mueve o copia una propiedad con nombre, el nombre permanece constante, pero el identificador debe cambiar para cumplir con la asignación del objeto de destino. La única excepción a esta regla es cuando el origen y el destino tienen la misma firma de asignación, lo que hace innecesaria la nueva asignación.
   
-Es responsabilidad del proveedor de transporte reasignar los nombres de las propiedades con nombre transmitidas a los identificadores adecuados que funcionan en el destino. El proveedor de transporte de envío no puede saber cuál es la asignación correcta en el destino; debe transmitir los nombres y confiar en el proveedor de transporte receptor para asignarlos a los identificadores que funcionan. La implementación MAPI de TNEF controla la reapping de propiedades con nombre para los proveedores de transporte. Los proveedores de transporte pueden controlar la reapping manualmente o usar la implementación de TNEF. 
+Es responsabilidad del proveedor de transporte volver a asignar los nombres de las propiedades con nombre transmitidas a los identificadores adecuados que funcionan en el destino. El proveedor de transporte de envío no puede saber cuál es la asignación correcta en el destino; debe transmitir los nombres y confiar en el proveedor de transporte de recepción para asignarlos a los identificadores que funcionan. La implementación MAPI de TNEF controla la remapping de propiedades con nombre para proveedores de transporte. Los proveedores de transporte pueden controlar la remapping manualmente o usar la implementación de TNEF. 
   
-Cuando estas propiedades se copian entre los almacenes de mensajes, debe producirse una nueva reapping similar de las propiedades con nombre. Sin embargo, dado que los proveedores de almacén de mensajes pueden recuperar el nombre a la asignación de identificadores del destino, pueden volver a asignar las propiedades inmediatamente y no tienen que depender del almacén de mensajes de destino. 
+Cuando estas propiedades se copian entre almacenes de mensajes, debe producirse una nueva remapping similar de propiedades con nombre. Sin embargo, como los proveedores de almacén de mensajes pueden recuperar el nombre a la asignación de identificadores del destino, pueden volver a asignar las propiedades de inmediato y no tienen que depender del almacén de mensajes de destino. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

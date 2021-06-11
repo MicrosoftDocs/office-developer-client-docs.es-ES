@@ -19,10 +19,10 @@ ms.locfileid: "33435897"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Como alternativa al registro directo con un objeto de origen de aviso, como una carpeta o un usuario de mensajería, un cliente puede registrarse para recibir notificaciones en una tabla de contenido o jerarquía. El seguimiento de los cambios en las entradas, carpetas y mensajes de la libreta de direcciones a través de una tabla de contenido o jerarquía puede ser más sencillo y sencillo que a través de objetos individuales. 
+Como alternativa a registrarse directamente con un objeto de origen de aviso, como una carpeta o un usuario de mensajería, un cliente puede registrarse para recibir notificaciones en una tabla de contenido o jerarquía. El seguimiento de los cambios en las entradas, carpetas y mensajes de la libreta de direcciones a través de una tabla de contenido o jerarquía puede ser más sencillo y sencillo que a través de objetos individuales. 
 
 Por ejemplo, puede llamar a [IMAPITable::Advise](imapitable-advise.md) en la tabla de jerarquía de una carpeta para detectar cuándo se producen cambios en una de sus subcarpetas. Si admite la visualización de mensajes remotos, regístrese en la tabla de estado para observar la actividad de los proveedores de transporte y la cola MAPI. 
   
-Sin embargo, no siempre es preferible usar notificaciones de tabla en lugar de notificaciones de objetos. La supervisión de los cambios en el número de mensajes de una carpeta es un ejemplo de cuándo es posible que el cliente necesite registrarse para recibir notificaciones de objetos en una carpeta en lugar de en una tabla implementada por la carpeta.
+Sin embargo, no siempre es preferible usar notificaciones de tabla en lugar de notificaciones de objetos. La supervisión de los cambios en el número de mensajes de una carpeta es un ejemplo de cuándo es posible que el cliente necesite registrarse para las notificaciones de objetos en una carpeta en lugar de en una tabla implementada por la carpeta.
   
 

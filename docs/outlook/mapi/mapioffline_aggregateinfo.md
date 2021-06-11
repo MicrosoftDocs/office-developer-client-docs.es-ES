@@ -32,11 +32,11 @@ typedef struct
 } MAPIOFFLINE_AGGREGATEINFO;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulSize**
   
-> Tamaño de la estructura.
+> El tamaño de la estructura.
     
  **pOuterObj**
   
@@ -46,7 +46,7 @@ typedef struct
   
 > Debe ser NULL.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

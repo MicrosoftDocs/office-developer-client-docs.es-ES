@@ -36,7 +36,7 @@ Contiene la fecha y hora en que se genera un informe de entrega.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad debe establecerla el proveedor de al almacenamiento de mensajes que recibe el mensaje original y genera el informe. 
+El proveedor del almacén de mensajes debe establecer esta propiedad al recibir el mensaje original y generar el informe. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

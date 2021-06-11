@@ -23,9 +23,9 @@ ms.locfileid: "33431284"
   
 Las bibliotecas de formularios locales se almacenan directamente en el equipo de un usuario, normalmente en un archivo denominado FRMCACHE.DAT. 
   
-Las aplicaciones cliente pueden tener acceso a los formularios de la biblioteca de formularios local sin tener acceso a los recursos de red. Las bibliotecas de formularios locales son una excepción a la regla en la que los formularios se almacenan en tablas de contenido asociadas, ya que la biblioteca de formularios local es simplemente un archivo en disco que no forma parte de ninguna jerarquía de carpetas MAPI.
+Las aplicaciones cliente pueden tener acceso a formularios en la biblioteca de formularios local sin tener acceso a recursos de red. Las bibliotecas de formularios locales son una excepción a la regla que los formularios se almacenan en tablas de contenido asociadas, ya que la biblioteca de formularios local es simplemente un archivo en el disco que no forma parte de ninguna jerarquía de carpetas MAPI.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

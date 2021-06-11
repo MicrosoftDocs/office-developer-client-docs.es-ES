@@ -29,7 +29,7 @@ La estrategia m�s com�n para hacerlo, ya que los clientes y el Administrador
   
 Este requisito que las tablas de contenido asociado se crea y rellena cuando se crea el propio almac�n de mensajes implica que tendr� su proveedor de almacenamiento de mensajes obtener informaci�n sobre el formato de los mensajes especiales que los clientes y la MAPI manager se usa para almacenar los formularios y vistas de formulario. �Qu� son los formatos depender� en el cliente y el Administrador de formularios MAPI se usan, por lo que no se puede proporcionar una descripci�n de ellos de aqu�.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

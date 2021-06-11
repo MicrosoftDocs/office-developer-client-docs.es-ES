@@ -37,27 +37,27 @@ HRESULTCopyProfile(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszOldProfileName_
   
-> [entrada] Puntero al nombre del perfil que se copiará.
+> [in] Puntero al nombre del perfil que se debe copiar.
     
  _lpszOldPassword_
   
-> [entrada] Puntero a la contraseña del perfil que se copiará.
+> [in] Puntero a la contraseña del perfil que se debe copiar.
     
  _lpszNewProfileName_
   
-> [entrada] Puntero al nuevo nombre del perfil copiado.
+> [in] Puntero al nuevo nombre del perfil copiado.
     
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
+> [in] Identificador de la ventana principal de los cuadros de diálogo o ventanas que muestra este método.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se copia el perfil. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se copia el perfil. Se pueden establecer las siguientes marcas:
     
 MAPI_DIALOG 
   
@@ -75,7 +75,7 @@ MAPI_E_ACCESS_DENIED
     
 MAPI_E_LOGON_FAILED 
   
-> La contraseña del perfil que se va a copiar es incorrecta y no se pudo mostrar un cuadro de diálogo al usuario para solicitar la contraseña correcta porque MAPI_DIALOG no se estableció en el parámetro _ulFlags._ 
+> La contraseña del perfil que se va a copiar es incorrecta y no se pudo mostrar un cuadro de diálogo al usuario para solicitar la contraseña correcta porque MAPI_DIALOG no se estableció en el _parámetro ulFlags._ 
     
 MAPI_E_NOT_FOUND 
   
@@ -83,13 +83,13 @@ MAPI_E_NOT_FOUND
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón Cancelar** de un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IProfAdmin::CopyProfile** hace una copia del perfil al que apunta  _lpszOldProfileName_, con el nombre que apunta  _lpszNewProfileName_. Copiar un perfil deja la copia con la misma contraseña que el original.
+El **método IProfAdmin::CopyProfile** realiza una copia del perfil al que  _apunta lpszOldProfileName_, dándole el nombre al que  _apunta lpszNewProfileName_. Copiar un perfil deja la copia con la misma contraseña que el original.
   
-El nombre del perfil original, su contraseña y la copia pueden tener una longitud de hasta 64 caracteres y pueden incluir los siguientes caracteres:
+El nombre del perfil original, su contraseña y la copia pueden tener hasta 64 caracteres y pueden incluir los siguientes caracteres:
   
 - Todos los caracteres alfanuméricos, incluidos los caracteres de énfrica y el carácter de subrayado.
     
@@ -97,9 +97,9 @@ El nombre del perfil original, su contraseña y la copia pueden tener una longit
     
 Las contraseñas de perfil no se admiten en todos los sistemas operativos. En sistemas operativos que no admiten contraseñas de perfil,  _lpszOldPassword_ puede ser NULL o un puntero a una cadena de longitud cero. 
   
-Si  _lpszOldPassword_ se establece en NULL, el perfil que se va a copiar requiere una contraseña y se MAPI_DIALOG marca predeterminada; Se muestra un cuadro de diálogo que solicita al usuario que proporcione la contraseña. Si se requiere una contraseña, pero  _lpszOldPassword_ se establece en NULL y no se establece la marca MAPI_DIALOG, **CopyProfile** devuelve MAPI_E_LOGON_FAILED. 
+Si  _lpszOldPassword_ se establece en NULL, el perfil que se va a copiar requiere una contraseña y se establece MAPI_DIALOG marca; se muestra un cuadro de diálogo que solicita al usuario que proporcione la contraseña. Si se requiere una contraseña, pero  _lpszOldPassword_ se establece en NULL y no se establece la marca MAPI_DIALOG, **CopyProfile** devuelve MAPI_E_LOGON_FAILED. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -21,7 +21,7 @@ ms.locfileid: "33436808"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información de los elementos que se han eliminado en un almacén local. Esta información se usa durante el estado [de eliminación de carga.](upload-delete-status-state.md)
+Información sobre los elementos que se han eliminado en un almacén local. Esta información se usa durante el estado [de eliminación de carga.](upload-delete-status-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -35,15 +35,15 @@ struct UPDEL
 
 ## <a name="members"></a>Miembros
 
- _indeste_
+ _pupde_
   
 >  [salida] Vector de [entradas UPDELE.](updele.md) 
     
  _cEnt_
   
-> [salida] Número de entradas en  *el archivo*  . 
+> [salida] Número de entradas en *el archivo .* 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

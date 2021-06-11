@@ -33,7 +33,7 @@ Para obtener una referencia a la celda Snap por su nombre desde otra fórmula, o
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Layers.Snap[ *i*  ] donde  *i*  = <1>, 2, 3...  <br/> |
+|Nombre de celda:  <br/> |Capas. Acoplar[ *i* ] donde *i* = <1>, 2, 3...  <br/> |
    
 Para obtener una referencia desde un programa a la celda Snap por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

@@ -29,7 +29,7 @@ Especifica si se imprime la cuadrícula al imprimir una página de documento.
 
 Este valor corresponde a la casilla **Cuadrícula** de la ficha **Configurar impresión** del cuadro de diálogo **Configurar página** (en la ficha **Diseño**, haga clic en la flecha de **Configurar página**). A excepción del color (se imprime en gris), la cuadrícula impresa coincide por completo con la que se ve en la ventana del dibujo de Microsoft Office Visio. 
   
-Puede elegir si desea imprimir la cuadrícula página por página. El estilo de la cuadrícula también se puede definir página por página en  el cuadro de  diálogo Cuadrícula de regla (en la ficha Ver, haga clic en la flecha Mostrar) cuando esté activa una página. **&amp;** 
+Puede elegir si desea imprimir la cuadrícula página por página. El estilo de cuadrícula también se puede definir página por página en el  cuadro de diálogo  Cuadrícula de regla (en la ficha Ver, haga clic en la flecha Mostrar) cuando una página esté activa. **&amp;** 
   
 Para obtener una referencia a la celda PrintGrid por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

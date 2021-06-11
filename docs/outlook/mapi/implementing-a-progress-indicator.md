@@ -21,30 +21,30 @@ ms.locfileid: "33435099"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Muchas de las operaciones iniciadas por los clientes llevan una cantidad de tiempo significativa. Uno de los parámetros de entrada para estas operaciones potencialmente largas es un puntero a un objeto de progreso, un objeto que implementa la interfaz [IMAPIProgress : IUnknown.](imapiprogressiunknown.md) Los objetos de progreso controlan la apariencia y la presentación de los indicadores de progreso y los implementan los clientes y MAPI. Puede elegir si desea implementar o no un objeto de progreso. La implementación MAPI está disponible para que los proveedores de servicios lo usen si opta por no proporcionar una implementación. 
+Muchas de las operaciones iniciadas por los clientes llevan una cantidad significativa de tiempo. Uno de los parámetros de entrada de estas operaciones potencialmente largas es un puntero a un objeto de progreso, un objeto que implementa la interfaz [IMAPIProgress : IUnknown.](imapiprogressiunknown.md) Los objetos progress controlan la apariencia y la presentación de los indicadores de progreso y los implementan los clientes y MAPI. Puede elegir si desea implementar o no un objeto de progreso. La implementación MAPI está disponible para que los proveedores de servicios lo usen si decide no proporcionar una implementación. 
   
-Los objetos de progreso funcionan con los siguientes datos:
+Los objetos Progress funcionan con los siguientes datos:
   
-- Un valor mínimo global que, cuando se llama al método [IMAPIProgress::P ess,](imapiprogress-progress.md) debe ser menor o igual que el valor del parámetro _ulValue._ Al principio de la operación,  _ulValue_ será igual a este valor mínimo. 
+- Valor mínimo global que, cuando se llama al método [IMAPIProgress::P rogress,](imapiprogress-progress.md) debe ser menor o igual que el valor del _parámetro ulValue._ Al principio de la operación,  _ulValue_ será igual a este valor mínimo. 
     
-- Valor máximo global que, cuando se llama al método **IMAPIProgress::P ess,** debe ser mayor o igual que el parámetro _ulValue._ Al final de la operación,  _ulValue_ será igual a este valor máximo. 
+- Valor máximo global que, cuando se llama al método **IMAPIProgress::P rogress,** debe ser mayor o igual que el _parámetro ulValue._ Al final de la operación,  _ulValue_ será igual a este valor máximo. 
     
-- Valor de marcas que indica si el progreso corresponde a un elemento de nivel superior o inferior.
+- Valor de marca que indica si el progreso corresponde a un elemento de nivel superior o inferior.
     
 - Valor que indica el nivel actual de progreso de la operación.
     
-- El número de elementos procesados actualmente en relación con el total.
+- Número de elementos procesados actualmente con relación al total.
     
 - El número total de elementos que se procesarán durante la operación.
     
-Los valores mínimos y máximos representan el principio y el final de la operación en forma numérica. Use 1 para el valor mínimo inicial y 1000 para el valor máximo inicial, pasando estos valores a los proveedores de servicios en los [métodos IMAPIProgress::GetMin](imapiprogress-getmin.md) e [IMAPIProgress::GetMax.](imapiprogress-getmax.md) Los proveedores de servicios restablecen estos valores cuando llaman [a IMAPIProgress::SetLimits](imapiprogress-setlimits.md). 
+Los valores mínimo y máximo representan el principio y el final de la operación en forma numérica. Use 1 para el valor mínimo inicial y 1000 para el valor máximo inicial, pasando estos valores a los proveedores de servicios en los [métodos IMAPIProgress::GetMin](imapiprogress-getmin.md) e [IMAPIProgress::GetMax.](imapiprogress-getmax.md) Los proveedores de servicios restablecen estos valores cuando llaman [a IMAPIProgress::SetLimits](imapiprogress-setlimits.md). 
   
-Los proveedores de servicios usan el valor de marcas para determinar cómo deben establecer los demás valores. Inicialice el valor de marcas MAPI_TOP_LEVEL y devuelva este valor en la implementación de **GetFlags** hasta que el proveedor de servicios lo restablezca llamando **a SetLimits**. 
+Los proveedores de servicios usan el valor de las marcas para determinar cómo deben establecer los otros valores. Inicialice el valor de las marcas MAPI_TOP_LEVEL y devuelva este valor en la implementación de **GetFlags** hasta que el proveedor de servicios lo restablezca llamando a **SetLimits**. 
   
-En la implementación del **método SetLimits,** guarde copias locales de cada uno de los parámetros:  _lpulMin_,  _lpulMax_ e  _lpulFlags_. Estos valores deben estar disponibles fácilmente cuando un proveedor de servicios llama a los **métodos GetMin**, **GetMax** o **GetFlags.** 
+En la implementación del **método SetLimits,** guarde copias locales de cada uno de los parámetros:  _lpulMin_,  _lpulMax_ y  _lpulFlags_. Estos valores deben estar disponibles fácilmente cuando un proveedor de servicios llama a los **métodos GetMin**, **GetMax** o **GetFlags.** 
   
-Para actualizar la presentación del indicador de progreso, los proveedores de servicios llaman al método **IMAPIProgress::P progress.** Hay tres parámetros para este método: un valor, un recuento y un total. Use el primer parámetro,  _ulValue_, para mostrar el indicador de progreso. El  _parámetro ulValue_ es el indicador de progreso y será igual a  _ulMin_ global solo al principio de la operación e igual a  _ulMax_ global solo al finalizar la operación. 
+Para actualizar la presentación del indicador de progreso, los proveedores de servicios llaman al **método IMAPIProgress::P rogress.** Este método tiene tres parámetros: un valor, un recuento y un total. Utilice el primer parámetro,  _ulValue_, para mostrar el indicador de progreso. El  _parámetro ulValue_ es el indicador de progreso y será igual a  _ulMin_ global solo al principio de la operación e igual a  _ulMax_ global solo al finalizar la operación. 
   
-Use el segundo y tercer parámetros,  _ulCount_ y  _ulTotal,_ si están disponibles, para mostrar un mensaje opcional como "5 elementos completados de 10". Si el segundo y tercer parámetros se establecen en 0, puede elegir si desea cambiar visualmente el indicador de progreso. Algunos proveedores de servicios establecen estos parámetros en ceros para indicar que están procesando un subobjeto cuyo progreso se supervisa en relación con un objeto primario. En esta situación, tiene sentido cambiar la presentación solo cuando el objeto primario informa del progreso. Algunos proveedores de servicios pasan ceros para estos parámetros cada vez. 
+Use los parámetros segundo y tercer,  _ulCount_ y  _ulTotal_, si está disponible, para mostrar un mensaje opcional como "5 elementos completados de 10". Si el segundo y tercer parámetros se establecen en 0, puede elegir si desea cambiar visualmente el indicador de progreso. Algunos proveedores de servicios establecen estos parámetros en ceros para indicar que están procesando un subobjeto cuyo progreso se supervisa con relación a un objeto primario. En esta situación, tiene sentido cambiar la presentación solo cuando el objeto primario notifica el progreso. Algunos proveedores de servicios pasan ceros para estos parámetros cada vez. 
   
 

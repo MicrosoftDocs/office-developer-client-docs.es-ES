@@ -35,6 +35,6 @@ TONE(** *color* **, ** *int* ** )
   
 ## <a name="remarks"></a>Comentarios
 
-Los límites superior o inferior de saturación son 0 y 240, respectivamente. No hay ningún límite en el tamaño del entero que puedes pasar para el parámetro  _int,_ pero la saturación nunca supera estos límites. 
+Los límites superior o inferior de saturación son 0 y 240, respectivamente. No hay ningún límite en el tamaño del entero que se puede pasar para el  _parámetro int,_ pero la saturación nunca supera estos límites. 
   
 

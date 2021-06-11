@@ -31,13 +31,13 @@ Proporciona acceso a las muchas propiedades asociadas con los usuarios de mensaj
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapidefs.h  <br/> |
 |Expuesto por:  <br/> |Objetos de usuario de mensajería  <br/> |
-|Implementado por:  <br/> |Proveedores de libretas de direcciones  <br/> |
+|Implementado por:  <br/> |Proveedores de libreta de direcciones  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMailUser  <br/> |
 |Tipo de puntero:  <br/> |LPMAILUSER  <br/> |
-|Modelo de transacción:  <br/> |Transacted  <br/> |
+|Modelo de transacciones:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 Esta interfaz no tiene ningún método único.
   
@@ -66,9 +66,9 @@ Cinco de las propiedades necesarias se conocen como propiedades de dirección ba
     
 - **PR_SEARCH_KEY**
     
-Estas propiedades se consideran especiales porque muchos otros grupos de propiedades similares se basan en este grupo base. Los demás grupos se usan para describir un destinatario en varios roles, como el remitente original o delegado de un mensaje. Para obtener más información acerca de estas propiedades y cómo usarlas, vea [Tipos de direcciones MAPI](mapi-address-types.md).
+Estas propiedades se consideran especiales porque muchos otros grupos de propiedades similares se basan en este grupo base. Los otros grupos se usan para describir un destinatario en varios roles, como el remitente original o delegado de un mensaje. Para obtener más información acerca de estas propiedades y cómo usarlas, vea [Tipos de direcciones MAPI](mapi-address-types.md).
   
-Los usuarios de mensajería pueden mostrar una colección de sus propiedades si admiten **la PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** es una tabla para mostrar que describe el diseño de un cuadro de diálogo de detalles o una página de propiedades con fichas que muestra la información de la propiedad del destinatario. MAPI crea cuadros de diálogo de detalles cuando un cliente llama al [método IAddrBook::D etails.](iaddrbook-details.md) 
+Los usuarios de mensajería pueden mostrar una colección de sus propiedades si admiten la **propiedad PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** es una tabla para mostrar que describe el diseño de un cuadro de diálogo de detalles o una página de propiedades con pestañas que muestra información de la propiedad de destinatario. MAPI crea cuadros de diálogo de detalles cuando un cliente llama al [método IAddrBook::D etails.](iaddrbook-details.md) 
   
 Los objetos de usuario de mensajería pueden tener otras propiedades opcionales asociadas. MAPI define muchas propiedades que proporcionan información de direccionamiento adicional sobre un usuario de mensajería. Todas estas propiedades son cadenas de caracteres. En la siguiente lista se muestran las propiedades más usadas:
   
@@ -86,9 +86,9 @@ Los objetos de usuario de mensajería pueden tener otras propiedades opcionales 
     
 - **PR_POSTAL_ADDRESS** ([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) 
     
-Para obtener una lista completa de propiedades, vea [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md).
+Para obtener una lista completa de propiedades, vea [Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

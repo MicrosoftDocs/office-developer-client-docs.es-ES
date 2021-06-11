@@ -25,7 +25,7 @@ ms.locfileid: "33435183"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información sobre un problema de procesamiento de propiedades o atributos que se produjo durante la codificación o decodificación de una secuencia de formato de encapsulamiento neutro de transporte (TNEF).
+Contiene información sobre un problema de procesamiento de atributos o propiedades que se produjo durante la codificación o decodificación de una secuencia de formato de encapsulación neutral de transporte (TNEF).
   
 |||
 |:-----|:-----|
@@ -42,11 +42,11 @@ typedef struct _STnefProblem
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulComponent**
   
-> Tipo de procesamiento durante el cual se produjo el problema. Si el problema se produjo durante el procesamiento de mensajes, el **miembro ulComponent** se establece en cero. Si el problema se produjo durante el procesamiento de datos adjuntos, **ulComponent** se establece igual al valor de PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) correspondiente.
+> Tipo de procesamiento durante el cual se produjo el problema. Si el problema se produjo durante el procesamiento de mensajes, **el miembro ulComponent** se establece en cero. Si el problema se produjo durante el procesamiento de datos adjuntos, **ulComponent** se establece igual al valor de los datos adjuntos **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
     
  **ulAttribute**
   
@@ -62,7 +62,7 @@ typedef struct _STnefProblem
     
  **ulPropTag**
   
-> Etiqueta de propiedad de la propiedad que provocó el problema de procesamiento TNEF, excepto cuando el problema se produce al decodificar un bloque de encapsulación, en cuyo caso **ulPropTag** se establece en cero. 
+> Etiqueta de propiedad de la propiedad que provocó el problema de procesamiento de TNEF, excepto cuando el problema se produce al decodificar un bloque de encapsulación, en cuyo caso **ulPropTag** se establece en cero. 
     
  **scode**
   
@@ -70,9 +70,9 @@ typedef struct _STnefProblem
     
 ## <a name="remarks"></a>Comentarios
 
-Si no se genera una estructura **STnefProblem** durante el procesamiento de un atributo o propiedad, la aplicación puede continuar con la suposición de que el procesamiento de ese atributo o propiedad se ha hecho correctamente. La única excepción se produce cuando el problema se produjo durante la decodificación de un bloque de encapsulación. En este caso, la decodificación del componente correspondiente al bloque se detiene y la decodificación continúa en otro componente. 
+Si no se genera una estructura **STnefProblem** durante el procesamiento de un atributo o una propiedad, la aplicación puede continuar bajo la suposición de que el procesamiento de ese atributo o propiedad se ha hecho correctamente. La única excepción se produce cuando el problema se originó durante la decodificación de un bloque de encapsulación. En este caso, la decodificación del componente correspondiente al bloque se detiene y la decodificación continúa en otro componente. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

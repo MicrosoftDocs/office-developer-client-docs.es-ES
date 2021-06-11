@@ -33,9 +33,9 @@ La **función Exp** contiene el argumento siguiente.
    
 ## <a name="remarks"></a>Comentarios
 
-La constante **e** (2,718281...), es la base de los logaritmos naturales. 
+La constante **e** (2.718281...), es la base de los logaritmos naturales. 
   
-El exponente de un número es la **constante e** elevado a la potencia del número. Por **ejemplo, Exp** (1.0) = e^1.0 = 2.71828182845905 y **Exp** (10) = e^10 = 22026.4657948067. 
+El exponente de un número es la **constante e** que se eleva a la potencia del número. Por **ejemplo, Exp** (1.0) = e^1.0 = 2.71828182845905 y **Exp** (10) = e^10 = 22026.4657948067. 
   
 El exponencial del logaritmo natural de un número es el número en sí: **Exp** (LOG (n)) = n. Y el logaritmo natural del exponencial de un número es el número en sí: LOG (**Exp** (n)) = n. 
   

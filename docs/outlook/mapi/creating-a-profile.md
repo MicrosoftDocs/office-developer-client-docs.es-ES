@@ -21,11 +21,11 @@ ms.locfileid: "33432691"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un cliente puede crear un perfil de una de estas dos maneras, mediante el Asistente para perfiles o escribiendo código personalizado.
+Un cliente puede crear un perfil de dos maneras, mediante el Asistente para perfiles o escribiendo código personalizado.
   
 ## <a name="in-this-section"></a>En esta sección
 
-[Creación de un perfil mediante el Asistente para perfiles](creating-a-profile-by-using-the-profile-wizard.md)
+[Crear un perfil mediante el Asistente para perfiles](creating-a-profile-by-using-the-profile-wizard.md)
   
 > Describe cómo invocar el Asistente para perfiles, una aplicación que crea un perfil al permitir al usuario elegir servicios de mensajes y proveedores de servicios de forma interactiva.
     

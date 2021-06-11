@@ -1,5 +1,5 @@
 ---
-title: Cargar estado de lectura
+title: Upload Estado de lectura
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431543"
 ---
-# <a name="upload-read-status-state"></a>Cargar estado de lectura
+# <a name="upload-read-status-state"></a>Upload Estado de lectura
 
   
   
@@ -26,20 +26,20 @@ ms.locfileid: "33431543"
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |
-|Estructura de datos relacionados:  <br/> |**[UPREAD](upread.md)** <br/> |
-|Desde este estado:  <br/> |[Cargar el estado de la tabla](upload-table-state.md) <br/> |
-|A este estado:  <br/> |Cargar el estado de la tabla  <br/> |
+|Estructura de datos relacionada:  <br/> |**[UPREAD](upread.md)** <br/> |
+|Desde este estado:  <br/> |[Upload de tabla](upload-table-state.md) <br/> |
+|A este estado:  <br/> |Upload de tabla  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que va de un estado a otro debe volver al primero desde el segundo. 
+> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que sale de un estado a otro debe volver al primero desde el segundo. 
   
-## <a name="description"></a>Description
+## <a name="description"></a>Descripción
 
-Este estado inicia la carga del estado de lectura de los elementos de una carpeta especificada en un estado de tabla de carga anterior. Durante este estado, Outlook inicializa la estructura de datos **UPREAD** asociada con información de los elementos de la carpeta cuyo estado de lectura ha cambiado. A continuación, el cliente actualiza el estado de lectura de estos elementos en el servidor como leídos o no leídos. 
+Este estado inicia la carga del estado de lectura de los elementos de una carpeta especificada en un estado de tabla de carga anterior. Durante este estado, Outlook la estructura de datos **UPREAD** asociada con la información de los elementos de la carpeta cuyo estado de lectura ha cambiado. A continuación, el cliente actualiza el estado de lectura de estos elementos en el servidor como leídos o no leídos. 
   
-Cuando finaliza este estado, Outlook borra la información interna sobre el estado de lectura del elemento, evitando que el estado de lectura del elemento vuelva a cargarse. El almacén local vuelve al estado de la tabla de carga.
+Cuando finaliza este estado, Outlook borra la información interna sobre el estado de lectura del elemento, lo que impide que el estado de lectura del elemento se cargue de nuevo. El almacén local vuelve al estado de la tabla de carga.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

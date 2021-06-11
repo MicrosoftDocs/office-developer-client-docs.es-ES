@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 89383b27-618c-4ccb-9e16-f66235c98bfe
-description: 'Última modificación: 8 de noviembre de 2011'
+description: 'Last modified: November 08, 2011'
 ms.openlocfilehash: 97fa9f9750174c112c431c62f6171f674856fa86
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -19,41 +19,41 @@ ms.locfileid: "33436744"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Después de abrir la libreta de direcciones integrada de MAPI, abra uno o más contenedores de libreta de direcciones para tener acceso a los destinatarios dentro de ellos.
+Después de abrir la libreta de direcciones integrada de MAPI, abra uno o varios contenedores de libreta de direcciones para tener acceso a los destinatarios dentro de ellos.
   
 Para abrir el contenedor de nivel superior de la libreta de direcciones, llame a [IAddrBook::OpenEntry](iaddrbook-openentry.md) con un identificador de entrada NULL. 
   
-Los contenedores de libreta de direcciones se pueden implementar con acceso de solo lectura o de lectura y escritura. Los contenedores de solo lectura solo se usan para la exploración. Los contenedores de lectura y escritura se pueden modificar, lo que permite a los clientes crear nuevas entradas y eliminar y modificar entradas existentes. Todos los contenedores de libretas de direcciones personales (PAB) se implementan como contenedores de lectura y escritura. 
+Los contenedores de libreta de direcciones se pueden implementar con acceso de solo lectura o de lectura y escritura. Los contenedores de solo lectura se usan solo para la exploración. Los contenedores de lectura y escritura se pueden modificar, lo que permite a los clientes crear nuevas entradas y eliminar y modificar las entradas existentes. Todos los contenedores de libreta de direcciones personales (PAB) se implementan como contenedores de lectura y escritura. 
   
 Para abrir cualquier contenedor de nivel inferior, llame **a OpenEntry** y especifique el identificador de entrada del contenedor que se va a abrir. 
   
 ## <a name="open-the-container-designated-as-the-pab"></a>Abrir el contenedor designado como PAB
   
-1. Llame [a IAddrBook::GetPAB](iaddrbook-getpab.md) para recuperar el identificador de entrada del PAB. 
+1. Llama [a IAddrBook::GetPAB](iaddrbook-getpab.md) para recuperar el identificador de entrada del PAB. 
     
-2. Pase este identificador de entrada [a IAddrBook::OpenEntry](iaddrbook-openentry.md).
+2. Pase este identificador de entrada a [IAddrBook::OpenEntry](iaddrbook-openentry.md).
     
 ## <a name="open-a-container-that-is-not-the-pab"></a>Abrir un contenedor que no sea el PAB
   
-1. Llame [a IAddrBook::OpenEntry con](iaddrbook-openentry.md) un identificador de entrada NULL para abrir el contenedor raíz de la libreta de direcciones. 
+1. Llama [a IAddrBook::OpenEntry con](iaddrbook-openentry.md) un identificador de entrada NULL para abrir el contenedor raíz de la libreta de direcciones. 
     
-2. Llama al método [IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md) del contenedor raíz para recuperar su tabla de jerarquía, una lista de todos los contenedores de nivel superior de la libreta de direcciones. 
+2. Llame al método [IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md) del contenedor raíz para recuperar su tabla de jerarquía, una lista de todos los contenedores de nivel superior de la libreta de direcciones. 
     
 3. Si el contenedor que se va a abrir es de un tipo específico:
     
    - Cree una **estructura SPropertyRestriction** con **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) para la etiqueta de propiedad, el tipo del contenedor para el valor de la propiedad y RELOP_EQ para la relación. **PR_DISPLAY_TYPE** puede establecerse en muchos valores, entre ellos: 
     
-   - DT_GLOBAL para limitar la tabla de jerarquía a contenedores que pertenecen a la lista global de direcciones.
+   - DT_GLOBAL limitar la tabla de jerarquía a los contenedores que pertenecen a la lista global de direcciones.
     
-   - DT_LOCAL para limitar la tabla a contenedores pertenecientes a una libreta de direcciones local.
+   - DT_LOCAL limitar la tabla a los contenedores que pertenecen a una libreta de direcciones local.
     
-   - DT_MODIFIABLE para limitar la tabla a los contenedores que se pueden modificar.
+   - DT_MODIFIABLE limitar la tabla a los contenedores que se pueden modificar.
     
    - Cree una [estructura SPropTagArray](sproptagarray.md) que incluya **PR_ENTRYID**, **PR_DISPLAY_TYPE** y cualquier otra columna de interés. 
     
-   - Llame [a HrQueryAllRows](hrqueryallrows.md)y pase la restricción de propiedad y la matriz de etiquetas de propiedad. **HrQueryAllRows** devolverá cero o más filas, una fila por cada contenedor que pertenezca al tipo especificado. Esté preparado para controlar la devolución de cualquier número de filas. 
+   - Llama [a HrQueryAllRows](hrqueryallrows.md)y pasa la restricción de propiedad y la matriz de etiquetas de propiedades. **HrQueryAllRows** devolverá cero o más filas, una fila por cada contenedor que pertenezca al tipo especificado. Esté preparado para controlar el retorno de cualquier número de filas. 
     
-   - Llame **a IAddrBook::OpenEntry** con  el identificador de entrada de PR_ENTRYID columna de la fila que representa el contenedor de interés. 
+   - Llama **a IAddrBook::OpenEntry con** el identificador de entrada de la **PR_ENTRYID** columna de la fila que representa el contenedor de interés. 
     
 4. Si el contenedor que se va a abrir pertenece a un proveedor de libreta de direcciones específico:
     
@@ -61,8 +61,8 @@ Para abrir cualquier contenedor de nivel inferior, llame **a OpenEntry** y espec
     
    - Cree una [estructura SPropTagArray](sproptagarray.md) que incluya **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_AB_PROVIDERS** y cualquier otra columna de interés. 
     
-   - Llame [a HrQueryAllRows](hrqueryallrows.md)y pase la restricción de propiedad y la matriz de etiquetas de propiedad. **HrQueryAllRows** devolverá cero filas si el proveedor de libreta de direcciones especificado no está en el perfil. Puede devolver una o más filas para los contenedores de nivel superior del proveedor, en función de cómo se organice el proveedor. 
+   - Llama [a HrQueryAllRows](hrqueryallrows.md)y pasa la restricción de propiedad y la matriz de etiquetas de propiedades. **HrQueryAllRows** devolverá cero filas si el proveedor de libreta de direcciones especificado no está en el perfil. Puede devolver una o más filas para los contenedores de nivel superior del proveedor, según cómo se organice el proveedor. 
     
-   - Llame [a IAddrBook::OpenEntry](iaddrbook-openentry.md) con  el identificador de entrada de PR_ENTRYID columna de la fila que representa el contenedor de interés. Si el contenedor que le interesa no es un contenedor de nivel superior, busque el contenedor de nivel superior y recoste la jerarquía. 
+   - Llama [a IAddrBook::OpenEntry con](iaddrbook-openentry.md) el identificador de entrada de la **PR_ENTRYID** columna de la fila que representa el contenedor de interés. Si el contenedor que le interesa no es un contenedor de nivel superior, busque el contenedor de nivel superior y atraviese la jerarquía. 
     
 

@@ -34,7 +34,7 @@ HRESULT HrSetPropAccess(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpPropTagArray_
   
@@ -71,7 +71,7 @@ El m�todo **IPropData::HrSetPropAccess** cambia el nivel de acceso y el estado
 
 Utilice **HrSetPropAccess** para determinar cuando cambia un valor de esa propiedad y cambiar el nivel de acceso para una o varias de las propiedades de un objeto. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

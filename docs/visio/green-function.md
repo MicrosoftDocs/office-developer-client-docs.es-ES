@@ -22,13 +22,13 @@ Devuelve el componente verde de un color.
   
 ## <a name="syntax"></a>Sintaxis
 
-GREEN(** *expression* ** ) 
+GREEN(** *expresión* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Índice de un color en la tabla de colores del documento, expresión que se resuelve en un color personalizado (como RGB o HSL) o una referencia a una celda que contiene un índice de color o un resultado de color.  <br/> |
+| _expression_ <br/> |Obligatorio  <br/> |**Varía** <br/> |Índice de un color en la tabla de colores del documento, una expresión que se resuelve en un color personalizado (como RGB o HSL) o una referencia a una celda que contiene un índice de color o un resultado de color.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -46,7 +46,7 @@ Devuelve el componente verde del color de relleno del primer plano en la Hoja.4.
   
 ## <a name="example-2"></a>Ejemplo 2
 
-GREEN(11)
+VERDE(11)
   
 Devuelve 128 si el documento utiliza la paleta de colores predeterminada de Visio, en la que el índice 11 está asignado al color amarillo oscuro.
   

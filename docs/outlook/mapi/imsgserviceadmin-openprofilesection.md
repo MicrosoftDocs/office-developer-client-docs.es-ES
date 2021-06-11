@@ -36,7 +36,7 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
@@ -44,11 +44,11 @@ HRESULT OpenProfileSection(
     
  _lpInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la sección de perfil. Si se pasa NULL, se devuelve un puntero a su interfaz estándar en el parámetro _lppProfSect._ La interfaz estándar para una sección de perfil **es IProfSect**.
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la sección de perfil. Si se pasa NULL, se devuelve un puntero a su interfaz estándar en el _parámetro lppProfSect._ La interfaz estándar para una sección de perfil es **IProfSect**.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el acceso a la sección de perfil. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla el acceso a la sección de perfil. Se pueden establecer las siguientes marcas:
     
 MAPI_DEFERRED_ERRORS 
   
@@ -56,11 +56,11 @@ MAPI_DEFERRED_ERRORS
     
 MAPI_MODIFY 
   
-> Solicita permiso de lectura y escritura. De forma predeterminada, las secciones de perfil se abren con permiso de solo lectura y los clientes no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. 
+> Solicitudes de permiso de lectura y escritura. De forma predeterminada, las secciones de perfil se abren con permiso de solo lectura y los clientes no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. 
     
 MAPI_FORCE_ACCESS
   
-> Permite el acceso a todas las secciones de perfil, incluso a las que pertenecen a proveedores de servicios individuales.
+> Permite el acceso a todas las secciones de perfil, incluso las que pertenecen a proveedores de servicios individuales.
     
  _lppProfSect_
   
@@ -78,21 +78,21 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NOT_FOUND 
   
-> La sección de perfil solicitada no existe.
+> La sección de perfil solicitado no existe.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMsgServiceAdmin::OpenProfileSection** abre una sección de perfil, un objeto que admite la [interfaz IProfSect.](iprofsectimapiprop.md) Las secciones de perfil se usan para leer y escribir información en el perfil de sesión. 
+El **método IMsgServiceAdmin::OpenProfileSection** abre una sección de perfil, un objeto que admite la [interfaz IProfSect.](iprofsectimapiprop.md) Las secciones de perfil se usan para leer información desde y escribir información en el perfil de sesión. 
   
- **OpenProfileSection** no se puede usar para abrir secciones de perfil propiedad de proveedores de servicios individuales a menos MAPI_FORCE_ACCESS se use. 
+ **OpenProfileSection** no se puede usar para abrir secciones de perfil propiedad de proveedores de servicios individuales a menos que MAPI_FORCE_ACCESS se use. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Varios clientes pueden abrir una sección de perfil con permiso de solo lectura, pero solo un cliente puede abrir una sección de perfil con permiso de lectura y escritura. Si otro cliente tiene abierta una sección de perfil que intenta abrir llamando a **OpenProfileSection** con la marca MAPI_MODIFY establecida, se producirá un error en la llamada, lo que MAPI_E_NO_ACCESS. 
+Varios clientes pueden abrir una sección de perfil con permiso de solo lectura, pero solo un cliente puede abrir una sección de perfil con permiso de lectura y escritura. Si otro cliente tiene abierta una sección de perfil que intenta abrir llamando a **OpenProfileSection** con la marca MAPI_MODIFY establecida, la llamada producirá un error, lo que devuelve MAPI_E_NO_ACCESS. 
   
-Se produce un error en una operación de apertura de solo lectura si la sección está abierta para escritura. 
+Si la sección está abierta para escritura, se produce un error en una operación abierta de solo lectura. 
   
-Puede crear una sección de perfil llamando a **OpenProfileSection** con la marca MAPI_MODIFY y una estructura [MAPIUID](mapiuid.md) inexistente en el _parámetro lpUID._ Asegúrese de especificar MAPI_MODIFY. Si establece  _lpUID_ para que apunte a un **MAPIUID** que no existe y **OpenProfileSection** está establecido para usar el modo de acceso predeterminado de solo lectura, la llamada producirá un error con MAPI_E_NOT_FOUND. 
+Puede crear una sección de perfil llamando a **OpenProfileSection** con la marca MAPI_MODIFY y una estructura [MAPIUID](mapiuid.md) inexistente en el _parámetro lpUID._ Asegúrese de especificar MAPI_MODIFY. Si establece  _lpUID_ para que apunte a un **MAPIUID** inexistente y **OpenProfileSection** se establece para usar el modo de acceso predeterminado de solo lectura, la llamada producirá un error con MAPI_E_NOT_FOUND. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -102,7 +102,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI usa el **método IMsgServiceAdmin::OpenProfileSection** para abrir una sección de perfil.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

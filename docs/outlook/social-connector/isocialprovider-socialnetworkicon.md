@@ -29,7 +29,7 @@ Puntero a una estructura que especifica una matriz de bytes que contiene el icon
   
 ## <a name="remarks"></a>Comentarios
 
-Los recursos de imagen admitidos son formatos .bmp, .jpeg y .png.
+Los recursos de imagen admitidos .bmp, .jpeg y .png formatos.
   
 ## <a name="see-also"></a>Vea también
 

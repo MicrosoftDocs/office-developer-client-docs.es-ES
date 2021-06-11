@@ -35,11 +35,11 @@ HRESULT GetTable(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Reservado; debe ser 0 (cero).
+> [in] Reservado; debe ser 0 (cero).
     
 ACLTABLE_FREEBUSY
   
@@ -47,7 +47,7 @@ ACLTABLE_FREEBUSY
     
 frightsFreeBusyDetailed
   
-> Cuando ACLTABLE_FREEBUSY se pasa, proporciona una visualización detallada de los nuevos derechos de disponibilidad.
+> Cuando ACLTABLE_FREEBUSY se pasa, proporciona una presentación detallada de los nuevos derechos de disponibilidad.
     
 frightsFreeBusySimple
   
@@ -55,7 +55,7 @@ frightsFreeBusySimple
     
  _lppTable_
   
-> [salida] Apunta a una [interfaz IMAPITable : IUnknown](imapitableiunknown.md) que contiene el objeto de tabla. 
+> [salida] Apunta a una [interfaz IMAPITable : IUnknown](imapitableiunknown.md) que contiene el objeto table. 
     
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -65,7 +65,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI usa el **método IExchangeModifyTable::GetTable** para obtener una tabla de reglas.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

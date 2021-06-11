@@ -43,15 +43,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Un objeto de formulario llama al método **IMAPIViewAdviseSink::OnSubmitted** después de que se haya devuelto correctamente una llamada a [IMAPIMessageSite::SubmitMessage.](imapimessagesite-submitmessage.md) 
+Un objeto form llama al método **IMAPIViewAdviseSink::OnSubmitted** después de que una llamada a [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) haya devuelto correctamente. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Después **de llamar a OnSubmitted,** puede continuar sugiendo que el mensaje se ha actualizado. Actualiza las ventanas para reflejar los cambios que se han producido. 
+Después **de llamar a OnSubmitted,** puede continuar con la suposición de que el mensaje se ha actualizado. Actualiza las ventanas para reflejar los cambios que se han producido. 
   
-Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario.](sending-and-receiving-form-notifications.md)
+Para obtener más información acerca de las notificaciones de formulario, vea [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

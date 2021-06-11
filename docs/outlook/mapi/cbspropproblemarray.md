@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [SPropProblemArray](spropproblemar
 CbSPropProblemArray (_lparray)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _lparray_
   
 > Puntero a la estructura **SPropProblemArray** existente. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

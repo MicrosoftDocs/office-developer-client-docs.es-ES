@@ -1,5 +1,5 @@
 ---
-title: Supervisar los cambios de estado de conexión mediante un complemento de estado sin conexión
+title: Supervisión de cambios de estado de conexión mediante un complemento de estado sin conexión
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,21 +13,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431305"
 ---
-# <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Supervisar los cambios de estado de conexión mediante un complemento de estado sin conexión
+# <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Supervisión de cambios de estado de conexión mediante un complemento de estado sin conexión
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para poder usar un complemento de estado sin conexión para supervisar los cambios de estado de conexión, debe implementar funciones para configurar e inicializar el complemento. Para obtener más información, vea [Configuración de un complemento de estado sin conexión.](setting-up-an-offline-state-add-in.md)
+Para poder usar un complemento de estado sin conexión para supervisar los cambios de estado de conexión, debe implementar funciones para configurar e inicializar el complemento. Para obtener más información, vea [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md).
   
 Después de configurar el complemento de estado sin conexión, debe usar la función **[HrOpenOfflineObj](hropenofflineobj.md)** para obtener un objeto sin conexión. Con este objeto sin conexión, puede inicializar el monitor de estado y, a continuación, obtener y establecer el estado actual. 
   
-En este tema, estas funciones de supervisión de estado se muestran mediante ejemplos de código del complemento de estado sin conexión de ejemplo. El complemento de estado sin conexión de ejemplo  es un complemento COM que agrega un menú de estado sin conexión a Outlook y usa la API de estado sin conexión. A través del **menú Estado sin** conexión, puede habilitar o deshabilitar la supervisión de estado, comprobar el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento estado sin conexión de muestra, vea [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
+En este tema, estas funciones de supervisión de estado se muestran mediante ejemplos de código del complemento de estado sin conexión de ejemplo. El complemento de estado sin conexión de ejemplo  es un complemento COM que agrega un menú Estado sin conexión a Outlook y usa la API de estado sin conexión. A través del **menú Estado sin** conexión, puede habilitar o deshabilitar la supervisión de estado, comprobar el estado actual y cambiar el estado actual. Para obtener más información sobre cómo descargar e instalar el complemento estado sin conexión de muestra, vea [Instalar el complemento de estado sin conexión de muestra](installing-the-sample-offline-state-add-in.md). Para obtener más información acerca de la API de estado sin conexión, vea [Información sobre la API de estado sin conexión](about-the-offline-state-api.md).
   
-Cuando el complemento de estado sin conexión está desconectado, deberá implementar funciones para finalizar correctamente y limpiar el complemento. Para obtener más información, vea [Desconectar un complemento de estado sin conexión.](disconnecting-an-offline-state-add-in.md)
+Cuando el complemento de estado sin conexión está desconectado, deberá implementar funciones para finalizar correctamente y limpiar el complemento. Para obtener más información, vea [Disconnecting an Offline State Add-in](disconnecting-an-offline-state-add-in.md).
   
 ## <a name="open-offline-object-routine"></a>Rutina Abrir objeto sin conexión
 
-Para que se notifique al cliente cuando se produzca un cambio de estado de conexión, debe llamar a la función **[HrOpenOfflineObj.](hropenofflineobj.md)** Esta función abre un objeto sin conexión que **[admite IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. La **función HrOpenOfflineObj** se define en el archivo de encabezado ConnectionState.h. 
+Para que se notifique al cliente cuando se produzca un cambio de estado de conexión, debe llamar a la **[función HrOpenOfflineObj.](hropenofflineobj.md)** Esta función abre un objeto sin conexión que **[admite IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. La **función HrOpenOfflineObj** se define en el archivo de encabezado ConnectionState.h. 
   
 > [!NOTE]
 > La **función HrOpenOfflineObj** se declara en el archivo de encabezado ImportProcs.h de la siguiente manera:  `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;` . 
@@ -46,7 +46,7 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ## <a name="initialize-monitor-routine"></a>Inicializar rutina de monitor
 
-La `InitMonitor` función llama a la función **HrOpenOfflineObj.** La  `InitMonitor` función llama a **CMyOfflineNotify** para que Outlook pueda enviar notificaciones de devolución de llamada al cliente y registra la devolución de llamada a través de la **[variable MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)**  `AdviseInfo` llamada.
+La `InitMonitor` función llama a la función **HrOpenOfflineObj.** La `InitMonitor` función llama a **CMyOfflineNotify** para que Outlook pueda enviar notificaciones de devolución de llamada al cliente y registre la devolución de llamada a través de la variable **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** `AdviseInfo` .
   
 ### <a name="initmonitor-example"></a>Ejemplo de InitMonitor()
 
@@ -241,7 +241,7 @@ HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState)
 
 ## <a name="notification-routine"></a>Rutina de notificación
 
-Outlook usa la función **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** para enviar notificaciones a un cliente cuando hay cambios en el estado de conexión. 
+La **[función IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** se usa Outlook para enviar notificaciones a un cliente cuando hay cambios en el estado de conexión. 
   
 ### <a name="cmyofflinenotifynotify-example"></a>Ejemplo de CMyOfflineNotify::Notify()
 

@@ -32,7 +32,7 @@ ISERR(** *cellreference* ** )
    
 ## <a name="example-1"></a>Ejemplo 1
 
-|**Cell**|**Formula**|**Valor devuelto**|
+|**Cell**|**Fórmula**|**Valor devuelto**|
 |:-----|:-----|:-----|
 |Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch.B1  <br/> |=ISERR(Scratch.A1)  <br/> |FALSE  <br/> |
@@ -41,7 +41,7 @@ Devuelve FALSE ya que #N/A! es un error que la función ISERR no reconoce. Utili
   
 ## <a name="example-2"></a>Ejemplo 2
 
-|**Cell**|**Formula**|**Valor devuelto**|
+|**Cell**|**Fórmula**|**Valor devuelto**|
 |:-----|:-----|:-----|
 |Scratch.X1  <br/> |="House"  <br/> |#VALUE!  <br/> |
 |Scratch.A1  <br/> |=ISERR(Scratch.X1)  <br/> |TRUE  <br/> |

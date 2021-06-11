@@ -1,5 +1,5 @@
 ---
-title: Uso de un cuadro de diálogo de búsqueda avanzada
+title: Uso de un cuadro de diálogo Búsqueda avanzada
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437304"
 ---
-# <a name="using-an-advanced-search-dialog-box"></a>Uso de un cuadro de diálogo de búsqueda avanzada
+# <a name="using-an-advanced-search-dialog-box"></a>Uso de un cuadro de diálogo Búsqueda avanzada
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Algunos contenedores de libreta de direcciones admiten una capacidad de búsqueda avanzada que permite a los clientes buscar en propiedades que **no PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Los contenedores de libreta de direcciones que admiten búsquedas avanzadas tienen una propiedad de objeto de contenedor **denominada PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Este objeto contenedor proporciona acceso a una tabla para mostrar que describe el cuadro de diálogo de búsqueda, un cuadro de diálogo que se usa para escribir y editar los criterios de búsqueda avanzada.
+Algunos contenedores de libreta de direcciones admiten una funcionalidad de búsqueda avanzada que permite a los clientes buscar en propiedades que **no PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Los contenedores de libreta de direcciones que admiten búsquedas avanzadas tienen una propiedad de objeto contenedor **denominada PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Este objeto contenedor proporciona acceso a una tabla para mostrar que describe el cuadro de diálogo de búsqueda, un cuadro de diálogo que se usa para escribir y editar los criterios de búsqueda avanzados.
   
  **Para realizar una búsqueda avanzada en un contenedor de libreta de direcciones**
   
-1. Llame al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del  contenedor, especificando PR_SEARCH para la etiqueta de propiedad y IID_IMAPIContainer para el identificador de interfaz. 
+1. Llama al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del  contenedor, especificando PR_SEARCH para la etiqueta de propiedad y IID_IMAPIContainer para el identificador de interfaz. 
     
-2. Llame al objeto de búsqueda 's **IMAPIProp::OpenProperty** método, **especificando PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) para la etiqueta de propiedad y IID_IMAPITable para el identificador de interfaz. 
+2. Llame al método **IMAPIProp::OpenProperty** del objeto de búsqueda, **especificando PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) para la etiqueta de propiedad y IID_IMAPITable para el identificador de interfaz. 
     
-3. Llame al método [IMAPIProp::SetProps](imapiprop-setprops.md) del objeto de búsqueda para establecer valores para las propiedades que se usarán en la búsqueda avanzada. 
+3. Llame al método [IMAPIProp::SetProps](imapiprop-setprops.md) del objeto de búsqueda para establecer los valores de las propiedades que se usarán en la búsqueda avanzada. 
     
-4. Llame al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del objeto de búsqueda para guardar los criterios de búsqueda avanzada. 
+4. Llame al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del objeto de búsqueda para guardar los criterios de búsqueda avanzados. 
     
-Esta secuencia de llamadas da como resultado una restricción que está disponible cuando un cliente llama al método **GetSearchCriteria del objeto** de búsqueda. 
+Esta secuencia de llamadas da como resultado una restricción que está disponible cuando un cliente llama al método **GetSearchCriteria del** objeto de búsqueda. 
   
 

@@ -23,7 +23,7 @@ ms.locfileid: "33437647"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura con nombre que incluye una [estructura DTBLEDIT](dtbledit.md) para describir un control de edición y el número máximo de caracteres que se pueden introducir en el control. 
+Crea una estructura con nombre que incluye una [estructura DTBLEDIT](dtbledit.md) para describir un control de edición y el número máximo de caracteres que se pueden especificar en el control. 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Crea una estructura con nombre que incluye una [estructura DTBLEDIT](dtbledit.md
 SizedDtblEdit (n, u)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _n_
   
@@ -46,7 +46,7 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblEdit** permite definir un control de edición cuando se conoce el número de caracteres habilitados. La nueva estructura se crea con los siguientes miembros: 
+La **macro SizedDtblEdit** permite definir un control de edición cuando se conoce el número de caracteres habilitados. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLEDIT dtbledit;
@@ -61,7 +61,7 @@ lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [DTBLEDIT](dtbledit.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

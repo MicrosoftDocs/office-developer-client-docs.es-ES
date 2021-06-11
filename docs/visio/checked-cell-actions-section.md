@@ -34,7 +34,7 @@ Para obtener una referencia a la celda Checked por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Acciones. *nombre*  . Se ha comprobado dónde se han activado las acciones. *es*  el nombre de la fila Actions  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*  . Se ha comprobado dónde se deben realizar las acciones. *nombre*  es el nombre de la fila Acciones  <br/> |
    
 Para obtener una referencia desde un programa a la celda Checked por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

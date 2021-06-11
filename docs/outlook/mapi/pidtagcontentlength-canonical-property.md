@@ -25,7 +25,7 @@ ms.locfileid: "33435155"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una longitud de mensaje, en bytes, pasada a una aplicación cliente o proveedor de servicios para determinar si se puede entregar un mensaje de esa longitud. 
+Contiene una longitud de mensaje, en bytes, que se pasa a una aplicación cliente o a un proveedor de servicios para determinar si se puede entregar un mensaje de esa longitud. 
   
 |||
 |:-----|:-----|
@@ -46,13 +46,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

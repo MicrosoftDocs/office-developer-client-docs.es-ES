@@ -29,9 +29,9 @@ NURBS(** *knotLast* **, ** *degree* **, ** *xType* **, ** *yType* **, ** *x1* **
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _knotLast_ <br/> |Obligatorio  <br/> |**string** <br/> | El último nodo.  <br/> |
-| _degree_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El grado de la spline.  <br/> |
-| _xType_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Especifica cómo interpretar los datos _de entrada x._ Si  _xType_ es 0, todos los  _datos de entrada x_ se interpretan como un porcentaje de Ancho. Si  _xType_ es 1, todos los  _datos de entrada x_ se interpretan como coordenadas locales.  <br/> |
-| _yType_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Especifica cómo interpretar los datos _de entrada y._ Si  _yType_ es 0, todos  _los datos de entrada de y_ se interpretan como un porcentaje de Height. Si  _yType_ es 1, todos los  _datos de entrada y_ se interpretan como coordenadas locales.  <br/> |
+| _grado_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El grado de la spline.  <br/> |
+| _xType_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Especifica cómo interpretar los datos _de entrada x._ Si  _xType_ es 0, todos  _los datos de entrada x_ se interpretan como un porcentaje de Width. Si  _xType_ es 1, todos los  _datos de entrada x_ se interpretan como coordenadas locales.  <br/> |
+| _yType_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Especifica cómo interpretar los datos _de entrada y._ Si  _yType_ es 0, todos  _los datos de entrada y_ se interpretan como un porcentaje de Height. Si  _yType_ es 1, todos  _los datos de entrada y_ se interpretan como coordenadas locales.  <br/> |
 | _x1_ <br/> |Obligatorio  <br/> |**String** <br/> |Una coordenada x.  <br/> |
 | _y1_ <br/> |Obligatorio  <br/> |**String** <br/> |Una coordenada y.  <br/> |
 | _knot1_ <br/> |Obligatorio  <br/> |**String** <br/> |Un nodo de la spline B.  <br/> |
@@ -41,6 +41,6 @@ NURBS(** *knotLast* **, ** *degree* **, ** *xType* **, ** *yType* **, ** *x1* **
 
 Para cada  *argumento x,*  debe haber un  *argumento y;*  de lo contrario, se devuelve un error. 
   
-Debe especificar al menos un  *argumento x*, *y*, *knot*  y  *weight;*  de lo contrario, Visio devuelve un error. 
+Debe especificar al menos un *argumento x*, *y*, *knot* y *weight;* de lo contrario, Visio devuelve un error. 
   
 

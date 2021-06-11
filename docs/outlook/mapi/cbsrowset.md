@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [SRowSet](srowset.md) existente.
 CbSRowSet (_lprowset)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _lprowset_
   
 > Puntero a la estructura **SRowSet** existente. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -36,11 +36,11 @@ Contiene el nombre del perfil.
    
 ## <a name="remarks"></a>Comentarios
 
-Estos proveedores de servicios calculan estas propiedades. La implementación de un proveedor de la **función ServiceEntry** puede usar estas propiedades para detectar el nombre del perfil. 
+Estos proveedores de servicios calculan estas propiedades. La implementación de la función **ServiceEntry** de un proveedor puede usar estas propiedades para detectar el nombre del perfil. 
   
-Las aplicaciones cliente pueden usar estas propiedades como alternativa conveniente para obtener el nombre del perfil examinando la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) en la fila de tabla de estado del subsistema MAPI.
+Las aplicaciones cliente pueden usar estas propiedades como una alternativa conveniente para obtener el nombre del perfil examinando la propiedad **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) en la fila de tabla de estado del subsistema MAPI.
   
-Es posible que estas propiedades no sean únicas a lo largo del tiempo, por ejemplo, cuando se elimina un perfil y se vuelve a crear posteriormente con el mismo nombre. MAPI proporciona una propiedad PR_SEARCH_KEY **(** [PidTagSearchKey](pidtagsearchkey-canonical-property.md)) totalmente única en una sección de perfil codificado de forma **MUID_PROFILE_INSTANCE.**
+Es posible que estas propiedades no sean únicas a lo largo del tiempo, por ejemplo, cuando se elimina un perfil y posteriormente se vuelve a crear con el mismo nombre. MAPI proporciona una propiedad **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) totalmente única en una sección de perfil codificado de forma **MUID_PROFILE_INSTANCE.**
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,13 +54,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -36,7 +36,7 @@ Numérico
   
 ## <a name="remarks"></a>Comentarios
 
-La función TAN usa radianes a menos que especifique una unidad de medida diferente en *ángulo.* 
+La función TAN usa radianes a menos que especifique una unidad de medida diferente en  *ángulo*  . 
   
 ## <a name="example"></a>Ejemplo
 

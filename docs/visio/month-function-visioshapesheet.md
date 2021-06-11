@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251467
 localization_priority: Normal
 ms.assetid: e099dbb3-c591-d934-5cfd-7728b10bd8dc
-description: Devuelve un entero comprendido entre 1 y 12 que representa un mes.
+description: Devuelve un entero de 1 a 12 que representa un mes.
 ms.openlocfilehash: 71ecc7992839c871780e9b703377db37279246e1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33431977"
 ---
 # <a name="month-function-visioshapesheet"></a>Función MONTH (VisioShapeSheet)
 
-Devuelve un entero comprendido entre 1 y 12 que representa un mes.
+Devuelve un entero de 1 a 12 que representa un mes.
   
 ## <a name="syntax"></a>Sintaxis
 
-MONTH(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+MONTH(" ** *datetime* ** "| ** *expresión* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -44,7 +44,7 @@ No se realiza redondeo. Si falta la cadena de entrada de datos o si ésta no se 
   
 El formato del valor devuelto corresponde al estilo corto de fecha establecido en la configuración regional actual del sistema.
   
-La función MONTH también acepta un  valor numérico único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
+La función MONTH también acepta un  valor de número único para la expresión donde la parte entera del resultado representa el número de días desde el 30 de diciembre de 1899. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

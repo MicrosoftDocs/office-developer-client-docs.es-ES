@@ -25,7 +25,7 @@ ms.locfileid: "33436975"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Matriz de identificadores de entrada que representan el objeto MAPI que usa la misma implementación que la [estructura SBinaryArray.](sbinaryarray.md) 
+Una matriz de identificadores de entrada que representan el objeto MAPI que usa la misma implementación que la [estructura SBinaryArray.](sbinaryarray.md) 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 Vea la **estructura SBinaryArry para** los miembros. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -46,61 +46,61 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **ulEventType**
   
-> Tipo de evento de notificación que se ha producido. El valor del **miembro ulEventType** corresponde a la estructura que se incluye en la unión **de** información. El **miembro ulEventType** se puede establecer en uno de los siguientes valores: 
+> Tipo de evento de notificación que se produjo. El valor del **miembro ulEventType** corresponde a la estructura que se incluye en la **unión de** información. El **miembro ulEventType** se puede establecer en uno de los siguientes valores: 
     
  _fnevCriticalError_
   
-> Se ha producido un error global, como un cierre de sesión en curso. El **miembro** de información contiene [una ERROR_NOTIFICATION](error_notification.md) de datos. 
+> Se ha producido un error global, como un cierre de sesión en curso. El **miembro** info contiene una [ERROR_NOTIFICATION](error_notification.md) estructura. 
     
  _fnevExtended_
   
-> Se ha producido un evento interno definido por un proveedor de servicios determinado. El **miembro** de información contiene [una EXTENDED_NOTIFICATION](extended_notification.md) datos. 
+> Se ha producido un evento interno definido por un proveedor de servicios determinado. El **miembro** info contiene una [EXTENDED_NOTIFICATION](extended_notification.md) estructura. 
     
  _fnevNewMail_
   
-> Se ha entregado un mensaje a la carpeta de recepción adecuada para la clase de mensaje y está esperando a ser procesado. El **miembro** de información contiene [una NEWMAIL_NOTIFICATION](newmail_notification.md) de datos. 
+> Se ha entregado un mensaje a la carpeta de recepción adecuada para la clase de mensaje y está esperando a que se procese. El **miembro** info contiene una [NEWMAIL_NOTIFICATION](newmail_notification.md) estructura. 
     
  _fnevObjectCopied_
   
-> Se ha copiado un objeto MAPI. El **miembro** de información contiene [una OBJECT_NOTIFICATION](object_notification.md) de datos. 
+> Se ha copiado un objeto MAPI. El **miembro** info contiene una [OBJECT_NOTIFICATION](object_notification.md) estructura. 
     
  _fnevObjectCreated_
   
-> Se ha creado un objeto MAPI. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
+> Se ha creado un objeto MAPI. El **miembro** info contiene una **OBJECT_NOTIFICATION** estructura. 
     
  _fnevObjectDeleted_
   
-> Se ha eliminado un objeto MAPI. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
+> Se ha eliminado un objeto MAPI. El **miembro** info contiene una **OBJECT_NOTIFICATION** estructura. 
     
  _fnevObjectModified_
   
-> Un objeto MAPI ha cambiado. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
+> Un objeto MAPI ha cambiado. El **miembro** info contiene una **OBJECT_NOTIFICATION** estructura. 
     
  _fnevObjectMoved_
   
-> Se ha movido un almacén de mensajes o un objeto de libreta de direcciones. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
+> Se ha movido un almacén de mensajes o un objeto de libreta de direcciones. El **miembro** info contiene una **OBJECT_NOTIFICATION** estructura. 
     
  _fnevSearchComplete_
   
-> Una operación de búsqueda ha finalizado y los resultados están disponibles. El **miembro** de información contiene **una OBJECT_NOTIFICATION** de datos. 
+> Una operación de búsqueda ha finalizado y los resultados están disponibles. El **miembro** info contiene una **OBJECT_NOTIFICATION** estructura. 
     
  _fnevTableModified_
   
-> La información de una tabla ha cambiado. El **miembro** de información contiene [una TABLE_NOTIFICATION](table_notification.md) de datos. 
+> La información de una tabla ha cambiado. El **miembro** info contiene una [TABLE_NOTIFICATION](table_notification.md) estructura. 
     
 **info**
   
-> Unión de estructuras de notificación que describen los datos afectados para un tipo determinado de evento. La estructura incluida en el **miembro de** información depende del valor del **miembro ulEventType.** 
+> Unión de estructuras de notificación que describen los datos afectados para un tipo determinado de evento. La estructura incluida en el **miembro info** depende del valor del **miembro ulEventType.** 
     
 ## <a name="remarks"></a>Comentarios
 
-Una o más estructuras **de** notificación se pasan como parámetros de entrada con cada llamada al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) de un receptor de aviso registrado. Las **estructuras notification** contienen información sobre los eventos concretos que se han producido y describen los objetos afectados. 
+Una o más estructuras **NOTIFICATION** se pasan como parámetros de entrada con cada llamada al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) de un receptor de notificaciones registrado. Las **estructuras NOTIFICATION** contienen información sobre los eventos concretos que se han producido y describen los objetos afectados. 
   
-Para que los clientes o proveedores de servicios que reciban una notificación puedan usar la estructura para procesar el evento, deben comprobar el tipo de evento tal como se indica en el **miembro ulEventType.** Por ejemplo, el ejemplo de código que se muestra aquí comprueba la llegada de un mensaje nuevo y, al detectar un evento de este tipo, imprime la clase de mensaje del mensaje. 
+Para que los clientes o proveedores de servicios que reciben una notificación puedan usar la estructura para procesar el evento, deben comprobar el tipo de evento tal como se indica en el **miembro ulEventType.** Por ejemplo, el ejemplo de código que se muestra aquí comprueba la llegada de un nuevo mensaje y al detectar un evento de este tipo, imprime la clase de mensaje del mensaje. 
   
 ```cpp
 if (pNotif -> ulEventType == fnevNewMail)
@@ -115,10 +115,10 @@ Para obtener más información acerca de la notificación, consulte los temas de
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo deben administrarse las notificaciones los clientes.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben administrar las notificaciones.  <br/> |
 |[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar [el método IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 - [ERROR_NOTIFICATION](error_notification.md)  

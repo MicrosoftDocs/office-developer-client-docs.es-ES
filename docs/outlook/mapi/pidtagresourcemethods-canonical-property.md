@@ -25,7 +25,7 @@ ms.locfileid: "33436338"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una máscara de bits de marcas que indican los métodos de la interfaz **IMAPIStatus** admitidos por el objeto de estado. 
+Contiene una máscara de bits de marcas que indican los métodos de la interfaz **IMAPIStatus** que son compatibles con el objeto status. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contiene una máscara de bits de marcas que indican los métodos de la interfaz 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad indica cuáles de los métodos de la implementación de **IMAPIStatus** de un objeto de estado son compatibles. Los objetos de estado pueden devolver MAPI_E_NO_SUPPORT de métodos no compatibles. 
+Esta propiedad indica cuál de los métodos de la implementación de **IMAPIStatus** de un objeto de estado es compatible. Los objetos status pueden devolver MAPI_E_NO_SUPPORT de métodos no admitidos. 
   
-Los clientes usan la propiedad PR_RESOURCE_METHODS **de** un objeto de estado para evitar realizar llamadas a métodos no compatibles. Si se establece la marca que corresponde a un método determinado, el método existe y puede llamarse. Si esa marca está clara, no se debe llamar al método. 
+Los clientes usan la propiedad PR_RESOURCE_METHODS de un objeto **de** estado para evitar realizar llamadas a métodos no compatibles. Si se establece la marca que corresponde a un método determinado, el método existe y se puede llamar. Si esa marca está clara, no se debe llamar al método. 
   
 Los objetos de estado implementados por MAPI admiten los métodos siguientes:
   
 |**Status (objeto)**|**Métodos admitidos**|
 |:-----|:-----|
-|Subsistema MAPI  <br/> |**Solo ValidateState**  <br/> |
-|Libreta de direcciones MAPI  <br/> |**Solo ValidateState**  <br/> |
+|Subsistema MAPI  <br/> |**ValidateState** only  <br/> |
+|Libreta de direcciones MAPI  <br/> |**ValidateState** only  <br/> |
 |Cola MAPI  <br/> |**ValidateState** y **FlushQueues** <br/> |
    
-Se pueden establecer una o varias de las siguientes marcas en **PR_RESOURCE_METHODS:**
+Una o varias de las siguientes marcas se pueden establecer en **PR_RESOURCE_METHODS**:
   
 STATUS_CHANGE_PASSWORD 
   
@@ -78,13 +78,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

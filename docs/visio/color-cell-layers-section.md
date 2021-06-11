@@ -24,7 +24,7 @@ Especifica el color utilizado para mostrar la capa.
 
 Para establecer el color, escriba un número entre el 0 y el 23.
   
-Este valor de celda corresponde a  la configuración de **color** de capa  en el  cuadro de diálogo Propiedades de capa (en el grupo Edición de la ficha Inicio, haga clic en Capas y, a continuación, haga clic en Propiedades **de capa).** 
+Este valor de celda corresponde a  la configuración **Color** de  capa del  cuadro de  diálogo Propiedades de capa (en el grupo Edición de la ficha Inicio, haga clic en Capas y, a continuación, en **Propiedades de capa).**
   
 Para especificar un color personalizado, utilice la función RGB o HSL. El valor de un color personalizado es su color RGB y RGB( *r, g, b*), en lugar de un número, se mostrará en la ventana ShapeSheet. Cuando se utilizan en operaciones numéricas, los colores personalizados tienen valores iguales o mayores que 24. Un valor de 255 indica que la capa no tiene color. 
   

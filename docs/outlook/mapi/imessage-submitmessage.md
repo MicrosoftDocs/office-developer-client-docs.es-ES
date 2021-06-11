@@ -33,11 +33,11 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas usadas para controlar cómo se envía un mensaje. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de las marcas usadas para controlar cómo se envía un mensaje. Se puede establecer la siguiente marca:
     
 FORCE_SUBMIT 
   
@@ -55,17 +55,17 @@ MAPI_E_NO_RECIPIENTS
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMessage::SubmitMessage** marca un mensaje como listo para transmitirse. MAPI pasa los mensajes al sistema de mensajería subyacente en el orden en que se marcan para su envío. Debido a esta funcionalidad, un mensaje puede permanecer en un almacén de mensajes durante algún tiempo antes de que el sistema de mensajería subyacente pueda asumir su responsabilidad. El orden de recepción en el destino está en el control del sistema de mensajería subyacente y no coincide necesariamente con el orden en que se enviaron los mensajes. 
+El **método IMessage::SubmitMessage** marca un mensaje como listo para transmitirse. MAPI pasa mensajes al sistema de mensajería subyacente en el orden en que se marcan para el envío. Debido a esta funcionalidad, un mensaje puede permanecer en un almacén de mensajes durante algún tiempo antes de que el sistema de mensajería subyacente pueda asumir su responsabilidad. El orden de recepción en el destino está en el control del sistema de mensajería subyacente y no coincide necesariamente con el orden en que se enviaron los mensajes. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Llame al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje para guardarlo y, a continuación, compruebe la propiedad PR_MESSAGE_FLAGS **(** [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje. Si se MSGFLAG_RESEND marca, llame a [IMAPISupport::P repareSubmit](imapisupport-preparesubmit.md). **PrepareSubmit actualiza** el tipo de destinatario y **PR_RESPONSIBILITY** propiedad ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) para todos los destinatarios del mensaje de reenvío.
+Llame al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje para guardarlo y, a continuación, compruebe la propiedad PR_MESSAGE_FLAGS **(** [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) del mensaje. Si se MSGFLAG_RESEND marca, llame a [IMAPISupport::P repareSubmit](imapisupport-preparesubmit.md). **PrepareSubmit actualiza** el tipo de destinatario y **la PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) para todos los destinatarios del mensaje de reenvío.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Cuando **SubmitMessage devuelve,** todos los punteros al mensaje y sus subobjetos asociados mensajes, carpetas, datos adjuntos, secuencias, tablas, entre otros, ya no son válidos. MAPI no permite ninguna otra operación en estos punteros, excepto para llamar a sus **métodos IUnknown::Release.** MAPI está diseñado de tal manera que, después de llamar **a SubmitMessage,** debe liberar el mensaje y todos los subobjetos asociados. Sin embargo, **si SubmitMessage** devuelve un valor de error que indica que falta información o que no es válida, el mensaje permanece abierto y los punteros siguen siendo válidos. 
+Cuando **SubmitMessage** devuelve, todos los punteros al mensaje y sus subobjetos asociados mensajes, carpetas, datos adjuntos, secuencias, tablas, entre otros, ya no son válidos. MAPI no permite ninguna otra operación en estos punteros, excepto para llamar a sus **métodos IUnknown::Release.** MAPI está diseñado de forma que, después de llamar **a SubmitMessage,** debe liberar el mensaje y todos los subobjetos asociados. Sin embargo, **si SubmitMessage** devuelve un valor de error que indica que falta información o que no es válida, el mensaje permanece abierto y los punteros siguen siendo válidos. 
   
-Para cancelar una operación de envío, obtenga y almacene un puntero a la propiedad **PR_ENTRYID** del mensaje ([PidTagEntryId](pidtagentryid-canonical-property.md)) antes de que se envíe el mensaje. Dado que el identificador de entrada de un mensaje se invalida después de que se haya enviado el mensaje, es necesario guardarlo antes de llamar **a SubmitMessage**. Para cancelar el envío, apunte el parámetro  _lpEntryId_ a este identificador de entrada y llame a [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md).
+Para cancelar una operación de envío, obtenga y almacene un puntero a la propiedad PR_ENTRYID **del** mensaje ([PidTagEntryId](pidtagentryid-canonical-property.md)) antes de enviar el mensaje. Dado que el identificador de entrada de un mensaje se invalida después de enviar el mensaje, es necesario guardarlo antes de llamar a **SubmitMessage**. Para cancelar el envío, señale el parámetro  _lpEntryId_ a este identificador de entrada y llame a [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -75,7 +75,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |**CFolderDlg::OnSubmitMessage** <br/> |MFCMAPI usa el **método IMessage::SubmitMessage** para enviar el mensaje seleccionado.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

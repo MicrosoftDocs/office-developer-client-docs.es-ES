@@ -23,16 +23,16 @@ Determina si el nombre de la página está visible en la interfaz de usuario.
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Muestra el nombre de la página en la interfaz de usuario (predeterminado).  <br/> |**visUIVNormal** <br/> |
-|1   <br/> |No muestra el nombre de la página en la interfaz de usuario.  <br/> |**visUIVHidden** <br/> |
+|1  <br/> |No muestra el nombre de la página en la interfaz de usuario.  <br/> |**visUIVHidden** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Al establecer la celda UIVisibility como **visUIVHidden**, se impide que la página aparezca en cualquier lugar de la interfaz donde se muestra la cadena que contiene el nombre de la página. Por ejemplo, la página no se mostraría como opción en el cuadro de diálogo Página (menú Edición, submenú Ir a), en el **Explorador de dibujos** o en las fichas de la página. Sin embargo, la página permanece accesible si usas rutas de automatización o de interfaz de usuario que no incluyen el nombre de página, por ejemplo, el **comando** Imprimir. 
+Al establecer la celda UIVisibility como **visUIVHidden**, se impide que la página aparezca en cualquier lugar de la interfaz donde se muestra la cadena que contiene el nombre de la página. Por ejemplo, la página no se mostraría como opción en el cuadro de diálogo Página (menú Edición, submenú Ir a), en el **Explorador de dibujos** o en las fichas de la página. Sin embargo, la página sigue siendo accesible si usas rutas de acceso de automatización o de interfaz de usuario que no incluyen el nombre de página, por ejemplo, el **comando** Imprimir. 
   
  Esta celda está concebida para usarse con páginas de documento, y no para páginas de superposición de revisiones, cuya celda UIVisibility está establecida en **visUIVHidden** de manera predeterminada y no debe cambiarse. 
   
 > [!NOTE]
-> Para ocultar una página del  comando Imprimir del documento, haga que sea una página de fondo (la propiedad **Type** es **visTypeBackground** ) que ninguna página usa como fondo (las formas de las páginas de fondo se imprimen cuando se imprime una página que la usa como fondo). El comando **Imprimir** del documento solo funciona con páginas indizadas y las páginas de fondo no se indizan. 
+> Para ocultar una página del  comando Imprimir del documento, haga que sea una página de fondo ( La propiedad **Type** es **visTypeBackground** ) que ninguna página usa como fondo (las formas de las páginas de fondo se imprimen cuando se imprime una página que la usa como fondo). El comando **Imprimir** del documento solo funciona con páginas indizadas y las páginas en segundo plano no se indizan. 
   
 Para obtener una referencia a la celda UIVisibility por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, use: 
   

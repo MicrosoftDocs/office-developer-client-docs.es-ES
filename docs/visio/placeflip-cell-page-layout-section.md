@@ -22,7 +22,7 @@ Determina de qué manera se voltean o rotan las formas colocables en una página
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|&amp;H0  <br/> |Éste es el valor predeterminado. No se voltea.  <br/> |**visLOFlipDefault** <br/> |
+|&amp;H0  <br/> |Valor predeterminado. No se voltea.  <br/> |**visLOFlipDefault** <br/> |
 |&amp;H1  <br/> |Se voltea horizontalmente.  <br/> |**visLOFlipX** <br/> |
 |&amp;H2  <br/> |Se voltea verticalmente.  <br/> |**visLOFlipY** <br/> |
 |&amp;H4  <br/> |Se voltea en incrementos de 90 grados.  <br/> |**visLOFlipRotate** <br/> |

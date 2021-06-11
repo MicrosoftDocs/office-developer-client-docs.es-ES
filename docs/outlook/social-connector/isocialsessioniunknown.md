@@ -19,31 +19,31 @@ ms.locfileid: "33437829"
 
 Representa una conexión a un sitio de red social.
   
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 En la tabla siguiente se muestran los miembros que están disponibles en la **interfaz ISocialSession.** 
   
 |**Nombre**|**Tipo de miembro**|**Descripción**|
 |:-----|:-----|:-----|
-|[FindPerson](isocialsession-findperson.md) <br/> |Method  <br/> |Obtiene una cadena que representa una o varias personas que coinciden con el _parámetro userID._  <br/> |
-|[FollowPerson](isocialsession-followperson.md) <br/> |Method  <br/> |Agrega la persona identificada por el parámetro  _emailAddress_ como un amigo del usuario que ha iniciado sesión en la red social.  <br/> |
-|[GetActivities](isocialsession-getactivities.md) <br/> |Method  <br/> |Este método ha quedado obsoleto en Outlook Social Connector (OSC) 1.1.  <br/> |
-|[GetLoggedOnUser](isocialsession-getloggedonuser.md) <br/> |Method  <br/> |Obtiene una [interfaz ISocialProfile](isocialprofileisocialperson.md) que representa al usuario que ha iniciado sesión.  <br/> |
-|[GetLogonUrl](isocialsession-getlogonurl.md) <br/> |Method  <br/> |Obtiene una cadena que representa una dirección URL que se usa para presentar un formulario basado en explorador al usuario durante la autenticación web.  <br/> |
-|[GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) <br/> |Method  <br/> |Obtiene una cadena que representa un identificador de red social único para una conexión de red social determinada.  <br/> |
-|[GetPerson](isocialsession-getperson.md) <br/> |Method  <br/> |Obtiene una [interfaz ISocialPerson](isocialpersoniunknown.md) basada en el _parámetro userID._  <br/> |
-|[LoggedOnUserID](isocialsession-loggedonuserid.md) <br/> |Propiedad  <br/> |Devuelve una cadena que representa el identificador de usuario de la red social del usuario que ha iniciado sesión.  <br/> |
+|[FindPerson](isocialsession-findperson.md) <br/> |Método  <br/> |Obtiene una cadena que representa una o varias personas que coinciden con el _parámetro userID._  <br/> |
+|[FollowPerson](isocialsession-followperson.md) <br/> |Método  <br/> |Agrega la persona identificada por el parámetro  _emailAddress_ como un amigo para el usuario que ha iniciado sesión en la red social.  <br/> |
+|[GetActivities](isocialsession-getactivities.md) <br/> |Método  <br/> |Este método ha quedado en desuso en Outlook Social Connector (OSC) 1.1.  <br/> |
+|[GetLoggedOnUser](isocialsession-getloggedonuser.md) <br/> |Método  <br/> |Obtiene una [interfaz ISocialProfile](isocialprofileisocialperson.md) que representa al usuario que ha iniciado sesión.  <br/> |
+|[GetLogonUrl](isocialsession-getlogonurl.md) <br/> |Método  <br/> |Obtiene una cadena que representa una dirección URL que se usa para presentar un formulario basado en explorador al usuario durante la autenticación web.  <br/> |
+|[GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) <br/> |Método  <br/> |Obtiene una cadena que representa un identificador de red social único para una conexión de red social determinada.  <br/> |
+|[GetPerson](isocialsession-getperson.md) <br/> |Método  <br/> |Obtiene una [interfaz ISocialPerson](isocialpersoniunknown.md) basada en el _parámetro userID._  <br/> |
+|[LoggedOnUserID](isocialsession-loggedonuserid.md) <br/> |Propiedad  <br/> |Devuelve una cadena que representa el identificador de usuario de la red social del usuario que ha iniciado sesión actualmente.  <br/> |
 |[LoggedOnUserName](isocialsession-loggedonusername.md) <br/> |Propiedad  <br/> |Devuelve una cadena que representa el nombre de usuario que se usa al iniciar sesión.  <br/> |
-|[Inicio de sesión](isocialsession-logon.md) <br/> |Method  <br/> |Inicia sesión en el sitio de la red social con el nombre de usuario y la contraseña especificados.  <br/> |
-|[LogonWeb](isocialsession-logonweb.md) <br/> |Method  <br/> |Inicia sesión en el sitio de la red social mediante la autenticación basada en formularios.  <br/> |
+|[Inicio de sesión](isocialsession-logon.md) <br/> |Método  <br/> |Inicia sesión en el sitio de red social con el nombre de usuario y la contraseña especificados.  <br/> |
+|[LogonWeb](isocialsession-logonweb.md) <br/> |Método  <br/> |Inicia sesión en el sitio de red social mediante la autenticación basada en formularios.  <br/> |
 |[SiteUrl](isocialsession-siteurl.md) <br/> |Propiedad  <br/> |Establece la dirección URL del sitio de red social.  <br/> |
-|[UnFollowPerson](isocialsession-unfollowperson.md) <br/> |Method  <br/> |Quita la persona identificada por el parámetro  _userID_ como un amigo en la red social.  <br/> |
+|[UnFollowPerson](isocialsession-unfollowperson.md) <br/> |Método  <br/> |Quita la persona identificada por el parámetro  _userID_ como un amigo en la red social.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Un proveedor de OSC debe implementar esta interfaz para comunicarse con el OSC.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Interfaces de proveedor de Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
+- [Outlook Interfaces de proveedor de Social Connector](outlook-social-connector-provider-interfaces.md)
 

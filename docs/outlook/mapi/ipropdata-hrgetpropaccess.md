@@ -34,7 +34,7 @@ HRESULT HrGetPropAccess(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lppPropTagArray_
   
@@ -73,7 +73,7 @@ Si se ha modificado una propiedad, su marca IPROP_DIRTY se establece en la entra
   
 Si una propiedad no se ha modificado o eliminado, se establecer� el indicador IPROP_READONLY o IPROP_READWRITE. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

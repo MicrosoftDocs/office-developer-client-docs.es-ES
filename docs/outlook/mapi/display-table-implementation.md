@@ -1,5 +1,5 @@
 ---
-title: Implementación de tabla de visualización
+title: Implementación de tabla para mostrar
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435267"
 ---
-# <a name="display-table-implementation"></a>Implementación de tabla de visualización
+# <a name="display-table-implementation"></a>Implementación de tabla para mostrar
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una tabla para mostrar se usa para mostrar una hoja de propiedades, un cuadro de diálogo especial que se compone de una o más páginas de propiedades con fichas dedicadas a mostrar y, posiblemente, editar una o más propiedades. Asociado a cada tabla para mostrar se encuentra [una implementación de interfaz IAttach : IMAPIProp.](iattachimapiprop.md) La [implementación imapiprop](imapipropiunknown.md) mantiene los datos de propiedad que se presentan en la hoja de propiedades. 
+Una tabla para mostrar se usa para mostrar una hoja de propiedades, un cuadro de diálogo especial compuesto por una o más páginas de propiedades con pestañas dedicadas a mostrar y, posiblemente, editar una o más propiedades. Asociado a cada tabla para mostrar se encuentra una [implementación de interfaz IAttach : IMAPIProp.](iattachimapiprop.md) La [implementación de IMAPIProp](imapipropiunknown.md) mantiene los datos de propiedad que se presentan en la hoja de propiedades. 
   
-Las filas de una tabla para mostrar representan los controles de la hoja de propiedades. La mayoría de los controles se pueden asociar con propiedades mantenidas con **la implementación imapiprop.** Cuando un usuario cambia el valor de un control modificable, se actualiza la propiedad correspondiente. 
+Las filas de una tabla para mostrar representan los controles de la hoja de propiedades. La mayoría de los controles se pueden asociar con propiedades mantenidas con la **implementación de IMAPIProp.** Cuando un usuario cambia el valor de un control modificable, se actualiza la propiedad correspondiente. 
   
-Las columnas de una tabla para mostrar representan propiedades del control, como su posición en la hoja de propiedades, su tipo, estructura asociada e identificador. Para obtener una lista completa de las columnas de tabla para mostrar necesarias, vea [Tablas para mostrar.](display-tables.md)
+Las columnas de una tabla para mostrar representan propiedades del control, como su posición en la hoja de propiedades, su tipo, estructura asociada e identificador. Para obtener una lista completa de las columnas de tabla para mostrar necesarias, vea [Mostrar tablas](display-tables.md).
   
-MAPI muestra una hoja de propiedades al usuario de una aplicación cliente mediante la lectura de los valores de propiedad de la **implementación IMAPIProp** asociada a la tabla para mostrar o de la tabla para mostrar directamente. Cuando el usuario trabaja con la hoja de propiedades, cambiando los valores de los controles, MAPI llama a [IMAPIProp::SetProps](imapiprop-setprops.md) para guardar un control cambiado si se establece la marca DT_SET_IMMEDIATE del control. Para los controles sin DT_SET_IMMEDIATE marca establecida, los cambios en las propiedades se  guardan cuando el usuario descarta el cuadro de diálogo haciendo clic en los botones **Aceptar** o Aplicar ahora. Cuando se hace clic en cualquiera de estos botones o en **el** botón Cancelar, MAPI quita la hoja de propiedades de la vista. 
+MAPI muestra una hoja de propiedades al usuario de una aplicación cliente al leer los valores de propiedad de la **implementación IMAPIProp** asociada a la tabla para mostrar o directamente desde la tabla para mostrar. A medida que el usuario trabaja con la hoja de propiedades, cambiando los valores de los controles, MAPI llama a [IMAPIProp::SetProps](imapiprop-setprops.md) para guardar un control modificado si se establece la marca de DT_SET_IMMEDIATE del control. Para los controles sin el conjunto DT_SET_IMMEDIATE marca, los cambios en las propiedades se guardan cuando el usuario descarta el cuadro de diálogo haciendo clic en **el botón Aceptar** o **Aplicar** ahora. Cuando se hace clic  en cualquiera de estos botones o en el botón Cancelar, MAPI quita la hoja de propiedades de la vista. 
   
-MAPI obtiene acceso a la tabla para mostrar llamando al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en la implementación **IMAPIProp** y solicitando la propiedad **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) o heredando en una llamada realizada a MAPI, como [IMAPISupport::D oConfigPropsheet](imapisupport-doconfigpropsheet.md).
+MAPI obtiene acceso a la tabla para mostrar llamando al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) en la implementación **imapiprop** y solicitando la propiedad **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) o heredando en una llamada realizada a MAPI, como [IMAPISupport::D oConfigPropsheet](imapisupport-doconfigpropsheet.md).
   
 La primera técnica de acceso se usa cuando se pide a los proveedores de libretas de direcciones que muestren detalles sobre los usuarios de mensajería o las listas de distribución. Se produce el siguiente procesamiento:
   
@@ -37,11 +37,11 @@ La primera técnica de acceso se usa cuando se pide a los proveedores de libreta
     
 2. MAPI llama al método [IABLogon::OpenEntry](iablogon-openentry.md) del proveedor de libreta de direcciones para obtener acceso al usuario de mensajería que representa la entrada seleccionada. 
     
-3. MAPI llama al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del usuario de mensajería para recuperar la propiedad **PR_DETAILS_TABLE,** la tabla para mostrar del cuadro de diálogo de detalles. 
+3. MAPI llama al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del usuario de mensajería para recuperar la propiedad **PR_DETAILS_TABLE,** la tabla para mostrar del cuadro de diálogo detalles. 
     
-4. MAPI muestra el cuadro de diálogo, controlando la interacción del usuario con la información, y la quita cuando el usuario ha terminado. 
+4. MAPI muestra el cuadro de diálogo, controlando la interacción del usuario con la información y la quita cuando el usuario ha terminado. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

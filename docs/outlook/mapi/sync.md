@@ -21,7 +21,7 @@ ms.locfileid: "33433811"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para iniciar la sincronización entre un almacén local y un servidor. Esta información se usa durante el [estado de sincronización.](synchronize-state.md)
+Información para iniciar la sincronización entre un almacén local y un servidor. Esta información se usa durante el [estado de sincronización](synchronize-state.md).
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -45,24 +45,24 @@ struct SYNC
     
 - UPS_UPLOAD_ONLY
     
-  - [entrada] El cliente solo realizará la carga. Outlook solo devuelve carpetas modificadas localmente.
+  - [in] El cliente solo realizará la carga. Outlook solo devuelve carpetas modificadas localmente.
     
 - UPS_DNLOAD_ONLY
     
-  - [entrada] El cliente solo realizará la descarga. Outlook no debe borrar los bits de carga de las carpetas.
+  - [in] El cliente solo realizará la descarga. Outlook borrar los bits de carga de las carpetas.
     
 - UPS_THESE_FOLDERS
     
-  - [entrada] El cliente sincronizará un conjunto especificado de carpetas con los identificadores de entrada proporcionados. Esta marca se puede combinar con la **UPS_UPLOAD_ONLY** o **UPS_DNLOAD_ONLY** marca. 
+  - [in] El cliente sincronizará un conjunto especificado de carpetas con los identificadores de entrada proporcionados. Esta marca se puede combinar con la **UPS_UPLOAD_ONLY** o **UPS_DNLOAD_ONLY** marca. 
     
 - UPS_OK
     
-  - [salida] La sincronización se ha realizado correctamente. El cliente establece esto después de cargar o de completar una sincronización completa.
+  - [salida] La sincronización se ha realizado correctamente. El cliente lo establece una vez que se carga o se completa una sincronización completa.
     
 - 
     
     > [!NOTE]
-    > Aunque el cliente puede cargar o sincronizar completamente (cargar y descargar) carpetas y elementos con la API de replicación, el cliente especifica *ulFlags* con una sola dirección de la replicación a la vez, ya sea la marca **UPS_UPLOAD_ONLY** o **UPS_DNLOAD_ONLY.** En el caso de una sincronización completa, el cliente primero realiza una carga con la marca **UPS_UPLOAD_ONLY** y, a continuación, una descarga con la **marca UPS_DNLOAD_ONLY** usuario. 
+    > Aunque el cliente puede cargar o sincronizar completamente (cargar después descargar) carpetas y elementos con la API de replicación, el cliente especifica *ulFlags* con una sola dirección de la replicación a la vez, ya sea la marca **UPS_UPLOAD_ONLY** o **UPS_DNLOAD_ONLY.** En el caso de una sincronización completa, el cliente primero realiza una carga con la marca **UPS_UPLOAD_ONLY** y, a continuación, una descarga con la marca **UPS_DNLOAD_ONLY.** 
   
  _pwzPath_
   
@@ -78,13 +78,13 @@ struct SYNC
     
  *pel* 
   
-- [entrada] Esta es la lista de identificadores de entrada de las carpetas que se sincronizarán **si UPS_THESE_FOLDERS** se ha establecido. Vea mapidefs.h para obtener la definición de tipo **de LPENTRYLIST**. 
+- [in] Esta es la lista de identificadores de entrada de las carpetas que se sincronizarán **si UPS_THESE_FOLDERS** se ha establecido. Vea mapidefs.h para obtener la definición de tipo **de LPENTRYLIST**. 
     
  _pulFolderOptions_
   
-- [entrada] Se trata de una matriz de opciones de carpeta para las carpetas  *correspondientes*  en pel **si UPS_THESE_FOLDERS** se ha establecido. Estas opciones de carpeta se usan al cargar cada una de las carpetas enumeradas en *pel* durante el estado [de carga de la carpeta.](upload-folder-state.md) Para obtener más información acerca de las opciones de carpeta, **[vea UPFLD](upfld.md)**. 
+- [in] Se trata de una matriz de opciones de carpeta para las carpetas correspondientes en  *pel* **si UPS_THESE_FOLDERS** se ha establecido. Estas opciones de carpeta se usan al cargar cada una de las carpetas enumeradas en *pel* durante el [estado de la carpeta de carga.](upload-folder-state.md) Para obtener más información acerca de las opciones de carpeta, **[vea UPFLD](upfld.md)**. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

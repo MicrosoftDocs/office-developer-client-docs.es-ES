@@ -28,7 +28,7 @@ Intenta convertir un **XLREF12** en **un XLREF**.
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pxRef12_ (**LPXLREF12**)
   
@@ -36,15 +36,15 @@ Puntero a la estructura de referencia de origen.
   
  _pxRef_ (**LPXLREF**)
   
-Puntero a la estructura de referencia de destino en la que se va a colocar el valor convertido.
+Puntero a la estructura de referencia de destino en la que se colocará el valor convertido.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
- **TRUE** si la conversión se ha hecho correctamente, **FALSE en** caso contrario. 
+ **TRUE** si la conversión se ha hecho correctamente, **FALSE** en caso contrario. 
   
 ## <a name="remarks"></a>Comentarios
 
-La conversión de **XLREF12** a **XLREF** produce un error si la referencia proporcionada hace referencia a parte de una hoja de cálculo de Excel 2007 que no es compatible con versiones anteriores. 
+La conversión de **XLREF12** a **XLREF** produce un error si la referencia proporcionada hace referencia a una parte de una hoja de cálculo de Excel 2007 que no se admite en versiones anteriores. 
   
 ## <a name="example"></a>Ejemplo
 

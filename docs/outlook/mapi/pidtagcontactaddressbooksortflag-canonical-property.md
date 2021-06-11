@@ -25,7 +25,7 @@ ms.locfileid: "33437234"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una marca que es TRUE cuando los contactos deben ordenarse por Archivo por debajo y FALSE cuando deben ordenarse por Nombre para mostrar. 
+Contiene una marca que es TRUE cuando los contactos deben ordenarse por File Under y FALSE cuando deben ordenarse por Nombre para mostrar. 
   
 |||
 |:-----|:-----|
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

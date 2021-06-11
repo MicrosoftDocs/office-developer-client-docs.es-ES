@@ -36,7 +36,7 @@ Para obtener una referencia a la celda ReadOnly por su nombre desde otra fórmul
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Acciones. *nombre*  . ReadOnlywhere Actions.  *es*  el nombre de la fila Actions  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*  . ReadOnlywhere Actions.  *nombre*  es el nombre de la fila Acciones  <br/> |
    
 Para obtener una referencia desde un programa a la celda ReadOnly por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

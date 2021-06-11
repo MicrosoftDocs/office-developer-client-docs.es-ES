@@ -25,7 +25,7 @@ ms.locfileid: "33438102"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una colección de claves de ordenación para una tabla que se usa para la ordenación estándar o por categorías.
+Define una colección de claves de ordenación para una tabla que se usa para la ordenación estándar o categorizada.
   
 |||
 |:-----|:-----|
@@ -43,15 +43,15 @@ typedef struct _SSortOrderSet
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cSorts**
   
-> Número de [estructuras de SSortOrder](ssortorder.md) que se incluyen en el **miembro de aSort.** 
+> Recuento de [estructuras SSortOrder](ssortorder.md) que se incluyen en el **miembro de aSort.** 
     
  **cCategories**
   
-> Número de columnas designadas como columnas de categoría. Los valores posibles oscilan entre cero, lo que indica una ordenación estándar o no categorizada, hasta el número indicado por el miembro **cSorts.** 
+> Recuento de columnas designadas como columnas de categoría. Los valores posibles oscilan entre cero, que indica una ordenación estándar o no categorizada, hasta el número indicado por el miembro **cSorts.** 
     
  **cExpanded**
   
@@ -59,21 +59,21 @@ typedef struct _SSortOrderSet
     
  **aSort**
   
-> Matriz de **estructuras SSortOrder** que definen un criterio de ordenación. 
+> Matriz de **estructuras SSortOrder,** cada una definiendo un criterio de ordenación. 
     
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura SSortOrderSet** se usa para definir varios pedidos de ordenación para la ordenación estándar y por categorías. 
+Se **usa una estructura SSortOrderSet** para definir varios pedidos de ordenación para la ordenación estándar y categorizada. 
   
-Cada **estructura SSortOrderSet** contiene al menos una estructura **SSortOrder** que define la dirección de la ordenación y la columna que se usará como clave de ordenación. Para la ordenación por categorías, esta columna se usa como categoría. Cuando el valor del miembro **cSorts** supera el valor del miembro **cCategories,** hay más claves de ordenación que categorías y se crean categorías a partir de las columnas que aparecen en primer lugar en la matriz **SSortOrder.** 
+Cada **estructura SSortOrderSet** contiene al menos una estructura **SSortOrder** que define la dirección del ordenación y la columna que se usará como clave de ordenación. Para la ordenación categorizada, esta columna se usa como categoría. Cuando el valor del miembro **cSorts** supera el valor del miembro **cCategories,** hay más claves de ordenación que categorías y las categorías se crean a partir de las columnas que aparecen primero en la matriz **SSortOrder.** 
   
 Por ejemplo, si **cSorts** se establece en 3 y **cCategories** se establece en 2, las columnas descritas por el **miembro ulPropTag** de las dos primeras entradas de la matriz **SSortOrder** se usan como columnas de categoría. La primera entrada sirve como agrupación de categorías de nivel superior; la segunda entrada como agrupación secundaria. Todas las filas que coinciden con las dos columnas de categoría se ordenan mediante la clave de ordenación definida en la tercera entrada. 
   
-El **miembro cExpanded** especifica el número de categorías que se expanden al principio. Cuando hay varias categorías, la implementación de la tabla comienza con la primera columna que se designa como categoría y continúa en orden secuencial con las columnas de categoría subsiguientes hasta que se supera el número de **cCategories.** Si hay más columnas de categoría que columnas expandida, las columnas de categoría se contraen. Si **cExpanded** es igual a cero, solo la fila de título de nivel superior está disponible para que se muestre el usuario de la tabla. Si **cExpanded** es igual a uno menos que el número de categorías, todas las filas de título y ninguna de las filas hoja están disponibles. Si **cExpanded** es igual al número de categorías, la tabla se expande completamente. 
+El **miembro cExpanded** especifica el número de categorías que se expanden al principio. Cuando hay varias categorías, la implementación de la tabla comienza con la primera columna que se designará como categoría y continúa en orden secuencial con las columnas de categorías subsiguientes hasta que se supere el número de **cCategories.** Si hay más columnas de categoría de las que hay expandida, las columnas de categoría se contraen. Si **cExpanded** es igual a cero, solo la fila de título de nivel superior está disponible para que se muestre el usuario de la tabla. Si **cExpanded** es igual a uno menos que el número de categorías, todas las filas de encabezado y ninguna de las filas hoja están disponibles. Si **cExpanded** es igual al número de categorías, la tabla se expande por completo. 
   
-Para obtener más información acerca de la ordenación estándar y categorizada, vea [Ordenar y categorizar.](sorting-and-categorization.md)
+Para obtener más información acerca de la ordenación estándar y categorizada, vea [Ordenación y categorización](sorting-and-categorization.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

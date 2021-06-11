@@ -18,6 +18,6 @@ ms.locfileid: "33436520"
 ---
 # <a name="alignment-section"></a>Sección de alineación
 
-Indica la alineación de una forma con respecto a la guía o el punto de guía al que está pegada. La **sección** alineación aparece solo para las formas pegadas a las guías. 
+Indica la alineación de una forma con respecto a la guía o el punto de guía al que está pegada. La **sección Alineación** solo aparece para las formas pegadas a las guías. 
   
 

@@ -21,7 +21,7 @@ ms.locfileid: "33435288"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Realloca un búfer de memoria. Se usa con la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
+Reallocates a un búfer de memoria. Se usa con la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ LPVOID * lppv
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpv_
   
@@ -55,7 +55,7 @@ LPVOID * lppv
 
  **MAPIReallocateBuffer** asigna un nuevo bloque de memoria del tamaño solicitado y copia el contenido del búfer que se pasa a este nuevo bloque de memoria. Si el bloque de memoria que se pasa contiene punteros internos, los punteros no cambian para que coincidan con la nueva ubicación. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

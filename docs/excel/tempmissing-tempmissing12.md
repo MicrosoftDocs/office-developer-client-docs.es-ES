@@ -23,14 +23,14 @@ ms.locfileid: "33435960"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de marcos que crea un **XLOPER** /  **XLOPER12** temporal de tipo **xltypeMissing**.
+Función de biblioteca de marcos que crea un  /  **XLOPER XLOPER12** temporal de tipo **xltypeMissing**.
   
 ```cs
 LPXLOPER TempMissing(void);
 LPXLOPER12 TempMissing12(void);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 Esta función no toma ningún parámetro.
   
@@ -40,7 +40,7 @@ Devuelve un puntero a **un xltypeMissing** **XLOPER** /  **XLOPER12**.
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se **usa TempMissing12** para proporcionar tres argumentos que faltan a **xlcWorkspace** seguidos de **un valor** **FALSE** booleano para suprimir la presentación de las barras de desplazamiento de la hoja de cálculo. Los tres primeros argumentos corresponden a otras configuraciones de área de trabajo que no se ven afectadas. 
+En este ejemplo se **usa TempMissing12** para proporcionar tres argumentos que faltan a **xlcWorkspace** seguidos de **un booleano** **FALSE** para suprimir la presentación de las barras de desplazamiento de la hoja de cálculo. Los tres primeros argumentos corresponden a otras opciones de configuración del área de trabajo que no se ven afectadas. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,7 +56,7 @@ short WINAPI TempMissingExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

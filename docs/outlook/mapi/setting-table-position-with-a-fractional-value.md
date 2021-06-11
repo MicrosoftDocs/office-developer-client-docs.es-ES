@@ -21,7 +21,7 @@ ms.locfileid: "33437339"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los usuarios de la tabla pueden moverse a una posición que representa un porcentaje aproximado de filas en relación con el total. En lugar de pasar a una fila exacta, este método de posicionamiento divide la tabla en partes basadas en fracciones. Los usuarios de la tabla pueden moverse, por ejemplo, al punto medio de una tabla o a la fila 7/8 del camino a través de la tabla. 
+Los usuarios de tabla pueden moverse a una posición que representa un porcentaje aproximado de filas en relación con el total. En lugar de pasar a una fila exacta, este método de posicionamiento divide la tabla en partes basadas en fracciones. Los usuarios de la tabla pueden moverse, por ejemplo, al punto medio de una tabla o a la fila que es 7/8 del camino a través de la tabla. 
   
  **Para mover el cursor un número aproximado de filas**
   
@@ -29,9 +29,9 @@ Los usuarios de la tabla pueden moverse a una posición que representa un porcen
     
  **Para determinar la posición aproximada de una tabla**
   
-- Llame [a IMAPITable::QueryPosition](imapitable-queryposition.md). **QueryPosition** puede usarse para informar al usuario de la posición actual. Establece un valor fraccionrio en función del número de filas de la tabla y del número de la fila actual. Se espera que este valor represente una aproximación. Se recomienda que los implementadores de tablas no calculen la posición exacta porque las implementaciones precisas pueden resultar costosas de invocar, especialmente en tablas categorizadas. 
+- Llame [a IMAPITable::QueryPosition](imapitable-queryposition.md). **QueryPosition** se puede usar para informar al usuario de la posición actual. Establece un valor fraccional según el número de filas de la tabla y el número de la fila actual. Espere que este valor represente una aproximación. Se recomienda a los implementadores de tablas que no calculen la posición exacta porque las implementaciones precisas pueden resultar costosas de invocar, especialmente en tablas categorizadas. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

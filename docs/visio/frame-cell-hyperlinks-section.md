@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Frame por su nombre desde otra fórmula, 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Hipervínculo.  *nombre*  . Marco donde Hipervínculo.  *nombre*  es el nombre de fila  <br/> |
+| Nombre de celda:  <br/> | Hipervínculo.  *nombre*  . Marco donde Hyperlink.  *nombre*  es el nombre de fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Frame por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

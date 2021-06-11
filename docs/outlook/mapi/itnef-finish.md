@@ -25,7 +25,7 @@ ms.locfileid: "33435680"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Finaliza el procesamiento de todas las Transport-Neutral de formato de encapsulamiento automático (TNEF) que están en cola y en espera. 
+Finaliza el procesamiento de todas las Transport-Neutral de formato de encapsulación (TNEF) que están en cola y en espera. 
   
 ```cpp
 HRESULT Finish(
@@ -35,7 +35,7 @@ HRESULT Finish(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,7 +43,7 @@ HRESULT Finish(
     
  _lpKey_
   
-> [salida] Puntero a la propiedad **PR_ATTACH_NUM** clave ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de un archivo adjunto. El objeto de encapsulación TNEF usa esta clave para hacer coincidir datos adjuntos con su etiqueta de ubicación de datos adjuntos en un mensaje. Esta clave debe ser única para cada dato adjunto.
+> [salida] Puntero a la **propiedad PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) de un archivo adjunto. El objeto de encapsulación TNEF usa esta clave para hacer coincidir los datos adjuntos con su etiqueta de ubicación de datos adjuntos en un mensaje. Esta clave debe ser única para cada dato adjunto.
     
  _lpProblem_
   
@@ -57,15 +57,15 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace llaman al método **ITnef::Finish** para realizar la codificación de todas las propiedades para las que se solicitó codificación en llamadas a los [métodos ITnef::AddProps](itnef-addprops.md) e [ITnef::SetProps.](itnef-setprops.md) Si el objeto TNEF se abrió con la marca TNEF_ENCODE para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx,](opentnefstreamex.md) el método **Finish** codifica las propiedades solicitadas en la secuencia de encapsulación pasada a ese objeto. Si el objeto TNEF se abrió con la marca TNEF_DECODE, el método **Finish** descodifica las propiedades de la secuencia TNEF y las vuelve a escribir en el mensaje al que pertenecen. 
+Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace llaman al método **ITnef::Finish** para realizar la codificación de todas las propiedades para las que se solicitó la codificación en llamadas a los [métodos ITnef::AddProps](itnef-addprops.md) e [ITnef::SetProps.](itnef-setprops.md) Si el objeto TNEF se abrió con la marca TNEF_ENCODE para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx,](opentnefstreamex.md) el método **Finish** codifica las propiedades solicitadas en la secuencia de encapsulación pasada a ese objeto. Si el objeto TNEF se abrió con la marca TNEF_DECODE, el método **Finish** descodifica las propiedades de la secuencia TNEF y las escribe de nuevo en el mensaje al que pertenecen. 
   
-Después de **la llamada Finish,** el puntero a la secuencia de encapsulación apunta al final de los datos TNEF. Si el proveedor o la puerta de enlace necesitan usar los datos de la secuencia TNEF después de la llamada **Finish,** debe restablecer el puntero de la secuencia al principio de los datos de la secuencia TNEF. 
+Después de **la llamada Finish,** el puntero a la secuencia de encapsulación apunta al final de los datos TNEF. Si el proveedor o la puerta de enlace  necesita usar los datos de secuencia de TNEF después de la llamada de fin, debe restablecer el puntero de secuencia al principio de los datos de secuencia de TNEF. 
   
-La implementación de TNEF informa de problemas de codificación de secuencias TNEF sin detener el **proceso finalizar.** La [estructura STnefProblemArray](stnefproblemarray.md) devuelta en el parámetro  _lpProblem_ indica qué atributos TNEF o propiedades MAPI, si las hay, no se pudieron procesar. El valor devuelto en el **miembro scode** de una de las estructuras **STnefProblem** contenidas en **STnefProblemArray** indica el problema específico. El proveedor o la puerta de enlace pueden trabajar en la suposición de que todas las propiedades o atributos para los que **Finish** no devuelve un informe de problemas se procesaron correctamente. 
+La implementación de TNEF informa de problemas de codificación de secuencias TNEF sin detener el **proceso finalizar.** La [estructura STnefProblemArray](stnefproblemarray.md) devuelta en el parámetro  _lpProblem_ indica qué atributos TNEF o propiedades MAPI, si las hubiera, no se pudieron procesar. El valor devuelto en el **miembro scode** de una de las estructuras **STnefProblem** contenidas en **STnefProblemArray** indica el problema específico. El proveedor o la puerta de enlace pueden trabajar en la suposición de que todas las propiedades o atributos para los que **Finish** no devuelve un informe de problemas se procesaron correctamente. 
   
-Si un proveedor o puerta de enlace no funciona con matrices de problemas, puede pasar NULL en  _lpProblem_; En este caso, no se devuelve ninguna matriz problemática. 
+Si un proveedor o puerta de enlace no funciona con matrices problemáticas, puede pasar NULL en  _lpProblem_; en este caso, no se devuelve ninguna matriz de problemas. 
   
-El valor devuelto en  _lpProblem_ solo es válido si la llamada devuelve S_OK. Cuando S_OK se devuelve, el proveedor o la puerta de enlace deben comprobar los valores devueltos en la estructura **STnefProblemArray.** Si se produce un error en la llamada, la estructura **STnefProblemArray** no se rellena y el proveedor de llamadas o la puerta de enlace no deben usar ni liberar la estructura. Si no se produce ningún error en la llamada, el proveedor de llamadas o la puerta de enlace debe liberar la memoria de **STnefProblemArray** llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
+El valor devuelto en  _lpProblem_ solo es válido si la llamada devuelve S_OK. Cuando S_OK, el proveedor o la puerta de enlace deben comprobar los valores devueltos en la estructura **STnefProblemArray.** Si se produce un error en la llamada, la estructura **STnefProblemArray** no se rellena y el proveedor de llamadas o la puerta de enlace no debe usar ni liberar la estructura. Si no se produce ningún error en la llamada, el proveedor de llamadas o la puerta de enlace debe liberar la memoria de **STnefProblemArray** llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -75,7 +75,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI usa el **método ITnef::Finish** para finalizar el procesamiento de la nueva secuencia TNEF.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

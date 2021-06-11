@@ -35,15 +35,15 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pfrminfoarray_
   
-> [entrada] Puntero a una matriz de objetos de información de formulario que identifican los formularios para los que se devuelven propiedades.
+> [in] Puntero a una matriz de objetos de información de formulario que identifican los formularios para los que se devuelven propiedades.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se devuelve la matriz de propiedades en el parámetro _ppResults._ Se pueden establecer las siguientes marcas: 
+> [in] Máscara de bits de marcas que controla cómo se devuelve la matriz de propiedades en el _parámetro ppResults._ Se pueden establecer las siguientes marcas: 
     
 FORMPROPSET_INTERSECTION 
   
@@ -55,7 +55,7 @@ FORMPROPSET_UNION
     
 MAPI_UNICODE 
   
-> Las cadenas devueltas en la matriz están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas devueltas en la matriz están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
  _ppResults_
   
@@ -69,7 +69,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
+> La marca MAPI_UNICODE se estableció y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -77,9 +77,9 @@ Los visores de formularios llaman al método **IMAPIFormMgr::CalcFormPropSet** p
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si un visor de formularios pasa MAPI_UNICODE marca en el parámetro  _ulFlags,_ todas las cadenas deben devolverse como cadenas Unicode. Los proveedores de bibliotecas de formularios que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE se pasa. 
+Si un visor de formulario pasa la marca MAPI_UNICODE en el parámetro  _ulFlags,_ todas las cadenas deben devolverse como cadenas Unicode. Los proveedores de bibliotecas de formularios que no admiten cadenas Unicode deben devolver MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE se pasa. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

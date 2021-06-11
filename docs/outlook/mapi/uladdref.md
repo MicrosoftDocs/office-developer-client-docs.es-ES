@@ -39,11 +39,11 @@ ULONG UlAddRef(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _tordo_
+ _punk_
   
-> [entrada] Puntero a una interfaz derivada de la **interfaz IUnknown,** es decir, cualquier interfaz MAPI. 
+> [in] Puntero a una interfaz derivada de la **interfaz IUnknown,** es decir, cualquier interfaz MAPI. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -59,6 +59,6 @@ MAPI_E_CALL_FAILED
 
  **UlAddRef devuelve** el valor devuelto por el método **IUnknown::AddRef,** que es el nuevo valor del recuento de referencias para la interfaz. El valor es distinto de cero. 
   
-Para obtener más información **acerca de IUnknown::AddRef**, vea [Implementar la interfaz IUnknown](implementing-the-iunknown-interface.md). 
+Para obtener más información **acerca de IUnknown::AddRef**, vea [Implementing the IUnknown Interface](implementing-the-iunknown-interface.md). 
   
 

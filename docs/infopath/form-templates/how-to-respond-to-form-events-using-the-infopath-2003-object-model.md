@@ -21,7 +21,7 @@ Es posible escribir código para responder a diversos eventos que pueden ocurrir
   
 Los controladores de eventos de InfoPath se deben crear en el diseñador de InfoPath, ya que, al usar el modelo de objetos compatible con InfoPath 2003, InfoPath agrega automáticamente la declaración correcta y aplica un atributo ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) al archivo de código del formulario (FormCode.cs o FormCode.vb) para identificar y recibir el controlador de eventos. Una vez creado un controlador de eventos, no se debe modificar su declaración ni su atributo en el archivo de código del formulario. 
   
-Para obtener información acerca de cómo crear los controladores de eventos de InfoPath, vea Agregar un controlador de eventos mediante el modelo de objetos de [InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Para obtener información sobre cómo crear los controladores de eventos de InfoPath, vea [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="overview-of-the-event-objects"></a>Información general sobre los objetos de eventos
 

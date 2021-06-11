@@ -1,5 +1,5 @@
 ---
-title: Celda XRulerOrigin (Sección &amp; de cuadrícula de regla)
+title: Celda XRulerOrigin (sección Cuadrícula &amp; de regla)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435330"
 ---
-# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>Celda XRulerOrigin (Sección &amp; de cuadrícula de regla)
+# <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>Celda XRulerOrigin (sección Cuadrícula &amp; de regla)
 
 Especifica el punto cero de la regla del eje x en la página.
   
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción horizontal **Regla cero** en  el cuadro de diálogo Cuadrícula de regla (en la ficha Ver, haga clic en la **flecha Mostrar).** **&amp;** 
+Esta celda corresponde a la opción horizontal **Regla cero** en el cuadro de diálogo Cuadrícula de reglas (en la ficha **Ver,** haga clic en **la flecha** Mostrar). **&amp;** 
   
 Para obtener una referencia a la celda XRulerOrigin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

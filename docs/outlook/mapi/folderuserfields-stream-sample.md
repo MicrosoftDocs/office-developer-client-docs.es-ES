@@ -1,5 +1,5 @@
 ---
-title: Ejemplo de secuencia folderUserFields
+title: Ejemplo de secuencia FolderUserFields
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433979"
 ---
-# <a name="folderuserfields-stream-sample"></a>Ejemplo de secuencia folderUserFields
+# <a name="folderuserfields-stream-sample"></a>Ejemplo de secuencia FolderUserFields
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En este tema se describe un ejemplo de una secuencia FolderUserFields. La secuencia contiene una definición de un campo definido por el usuario,  `TextField1` . El tipo es **Texto** y la secuencia FolderUserFields contiene las partes FolderUserFieldsAnsi y FolderUserFieldsUnicode. Para obtener más información, [vea Estructuras de secuencia de campos de carpeta.](folder-fields-stream-structures.md)
+En este tema se describe un ejemplo de una secuencia FolderUserFields. La secuencia contiene una definición de un campo definido por el usuario,  `TextField1` . El tipo es **Text** y la secuencia FolderUserFields contiene los elementos FolderUserFieldsAnsi y FolderUserFieldsUnicode. Para obtener más información, [vea Folder Fields Stream Structures](folder-fields-stream-structures.md).
   
 ## <a name="data-dump"></a>Volcado de datos
 
 A continuación se muestra un volcado de datos de la secuencia tal como se mostraría en un editor binario.
   
-|Desplazamiento de la secuencia|Bytes de datos|Datos ASCII|
+|Desplazamiento de secuencia|Bytes de datos|Datos ASCII|
 |:-----|:-----|:-----|
 | `0000000000` <br/> | `02 00 00 00 01 00 00 00 0A 00 54 65 78 74 46 69` <br/> | `..........TextFi` <br/> |
 | `0000000010` <br/> | `65 6C 64 31 29 03 02 00 00 00 00 00 C0 00 00 00` <br/> | `eld1).......A...` <br/> |
@@ -49,17 +49,17 @@ A continuación se muestra un análisis de los datos de ejemplo para la secuenci
     
   - FieldDefinitions: desplazamiento 0x4, matriz de 2 secuencias FolderFieldDefinitionA.
     
-    **Primer elemento de matriz:**
+    **Primer elemento de matriz**:
     
     - FieldType: desplazamiento 0x4, 4 bytes: 0x00000001 (ftString).
       
     - FieldNameLength: desplazamiento 0x8, 2 bytes: 0x000A (10)
       
-    - FieldName: desplazamiento 0xA, matriz de 10 MATRIZ. Valor de cadena ANSI: "TextField1".
+    - FieldName: Offset 0xA, matriz de 10 RS. Valor de cadena ANSI: "TextField1".
       
     - Común: desplazamiento 0x14.
     
-      - PropSetGuid: desplazamiento 0x14, 16 bytes: {00020329-0000-0000-C000-000000000046} (PS_PUBLIC_STRINGS).
+      - PropSetGuid: Desplazamiento 0x14, 16 bytes: {00020329-0000-0000-C000-000000000046} (PS_PUBLIC_STRINGS).
         
       - fcapm: desplazamiento 0x24, 4 bytes: 0x80000007 (FCAPM_CAN_EDIT| FCAPM_CAN_SORT| FCAPM_CAN_GROUP| FCAPM_CAN_EDIT_IN_ITEM).
         
@@ -81,7 +81,7 @@ A continuación se muestra un análisis de los datos de ejemplo para la secuenci
       
     - FieldNameLength: desplazamiento 0x3E, 2 bytes: 0x0000 (0).
       
-    - FieldName: desplazamiento 0x40, matriz de 0 CHAR. Valor de cadena vacío.
+    - FieldName: Offset 0x40, matriz de 0 CHAR. Valor de cadena vacío.
       
     - Común: desplazamiento 0x40.
     
@@ -107,17 +107,17 @@ A continuación se muestra un análisis de los datos de ejemplo para la secuenci
     
   - FieldDefinitions: desplazamiento 0x6A, matriz de 2 secuencias FolderFieldDefinitionW.
     
-    **Primer elemento de matriz:**
+    **Primer elemento de matriz**:
     
     - FieldType: desplazamiento 0x6A, 4 bytes: 0x00000001 (ftString).
       
     - FieldNameLength: desplazamiento 0x6E, 2 bytes: 0x000A (10).
       
-    - FieldName: desplazamiento 0x70, matriz de 10 WCHARs. Valor de cadena Unicode: "TextField1".
+    - FieldName: offset 0x70, matriz de 10 WCHARs. Valor de cadena Unicode: "TextField1".
       
     - Común: desplazamiento 0x84.
     
-      - PropSetGuid: desplazamiento 0x84, 16 bytes: {00020329-0000-0000-C000-000000000046} (PS_PUBLIC_STRINGS).
+      - PropSetGuid: Desplazamiento 0x84, 16 bytes: {00020329-0000-0000-C000-000000000046} (PS_PUBLIC_STRINGS).
         
       - fcapm: desplazamiento 0x94, 4 bytes: 0x80000007 (FCAPM_CAN_EDIT| FCAPM_CAN_SORT| FCAPM_CAN_GROUP| FCAPM_CAN_EDIT_IN_ITEM).
         
@@ -135,11 +135,11 @@ A continuación se muestra un análisis de los datos de ejemplo para la secuenci
     
     **Segundo elemento de matriz:**
     
-    - FieldType: desplazamiento 0xAA, 4 bytes: 0x00000000 (ftNone).
+    - FieldType: Offset 0xAA, 4 bytes: 0x00000000 (ftNone).
       
     - FieldNameLength: desplazamiento 0xAE, 2 bytes: 0x0000 (0).
       
-    - FieldName: desplazamiento 0xB0, matriz de 0 WCHARs. Valor de cadena vacío.
+    - FieldName: Offset 0xB0, matriz de 0 WCHARs. Valor de cadena vacío.
       
     - Común: desplazamiento 0xB0.
     
@@ -159,13 +159,13 @@ A continuación se muestra un análisis de los datos de ejemplo para la secuenci
         
       - wszFormula: desplazamiento 0xD6, matriz de 0 WCHARs. Valor de cadena vacío.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Elementos y campos de Outlook](outlook-items-and-fields.md)
+- [Outlook Elementos y campos](outlook-items-and-fields.md)
 - [Estructura de secuencia PropertyDefinition](propertydefinition-stream-structure.md)
 - [Estructura de secuencia FieldDefinition](fielddefinition-stream-structure.md)
-- [Estructura de flujo SkipBlock](skipblock-stream-structure.md)
-- [Estructura de secuencia FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
+- [Estructura de secuencias SkipBlock](skipblock-stream-structure.md)
+- [Estructura de secuencias FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
 - [Estructura de secuencias PackedAnsiString](packedansistring-stream-structure.md)
 - [Estructura de secuencias PackedUnicodeString](packedunicodestring-stream-structure.md)
 

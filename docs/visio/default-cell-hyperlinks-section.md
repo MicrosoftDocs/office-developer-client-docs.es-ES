@@ -29,7 +29,7 @@ Para obtener una referencia a la celda Default por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Hipervínculo. *Nombre*  . Valor predeterminado donde Hyperlink. *El*  nombre es el nombre de fila  <br/> |
+|Nombre de celda:  <br/> |Hipervínculo. *Nombre*  . Valor predeterminado donde Hyperlink. *Name*  es el nombre de fila  <br/> |
    
 Para obtener una referencia desde un programa a la celda Default por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   
