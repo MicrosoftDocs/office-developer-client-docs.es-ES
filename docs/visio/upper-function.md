@@ -22,7 +22,7 @@ Devuelve una cadena convertida en mayúsculas.
   
 ## <a name="syntax"></a>Sintaxis
 
-UPPER(** *expression* ** ) 
+UPPER(** *expresión* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

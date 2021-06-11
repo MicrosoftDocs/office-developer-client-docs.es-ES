@@ -25,7 +25,7 @@ ms.locfileid: "33415729"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de comprobación de integridad de contenido ASN.1 que permite al remitente del mensaje proteger el contenido del mensaje de la divulgación a destinatarios no autorizados.
+Contiene un valor de comprobación de integridad de contenido ASN.1 que permite a un remitente proteger el contenido del mensaje de la divulgación a destinatarios no autorizados.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene un valor de comprobación de integridad de contenido ASN.1 que permite 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad proporciona no rechazo del contenido del mensaje. Junto con **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), garantiza que el contenido de un mensaje llegue a su destino sin cambios.
+Esta propiedad proporciona no repudio al contenido del mensaje. Junto con **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)), garantiza que el contenido de un mensaje llegue a su destino sin cambios.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

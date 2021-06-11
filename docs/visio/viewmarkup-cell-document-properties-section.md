@@ -27,7 +27,7 @@ Determina si la marca de revisión aparece en la ventana de dibujo.
    
 ## <a name="remarks"></a>Comentarios
 
- Cuando el seguimiento de marcado está activado (la celda AddMarkup es TRUE), la celda ViewMarkup se establece automáticamente en TRUE y permanece TRUE incluso después de que se haya desactivado el seguimiento de marcado (la celda AddMarkup es FALSE). Se omite el valor de la celda ViewMarkup cuando el valor de AddMarkup es TRUE. 
+ Cuando se activa el seguimiento de marcado (la celda AddMarkup es TRUE), la celda ViewMarkup se establece automáticamente en TRUE y permanece en TRUE incluso después de desactivar el seguimiento de marcado (la celda AddMarkup es FALSE). Se omite el valor de la celda ViewMarkup cuando el valor de AddMarkup es TRUE. 
   
 La celda ViewMarkup también se establece en TRUE cuando se insertan comentarios en un dibujo (con independencia de que estén o no activadas las marcas de revisión), y es necesario que sea TRUE para ver los comentarios en el dibujo.
   

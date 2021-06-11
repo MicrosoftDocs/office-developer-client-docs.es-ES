@@ -23,8 +23,8 @@ Determina la posición del texto de la forma con respecto a la línea base.
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Posición normal  <br/> |**visPosNormal** <br/> |
-| 1   <br/> | Superscript  <br/> |**visPosSuper** <br/> |
-| 2   <br/> | Subscript  <br/> |**visPosSub** <br/> |
+| 1  <br/> | Superscript  <br/> |**visPosSuper** <br/> |
+| 2  <br/> | Subscript  <br/> |**visPosSub** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

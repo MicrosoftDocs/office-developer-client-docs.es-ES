@@ -1,5 +1,5 @@
 ---
-title: Sección de propiedades de degradado
+title: Sección Propiedades de degradado
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417318"
 ---
-# <a name="gradient-properties-section"></a>Sección de propiedades de degradado
+# <a name="gradient-properties-section"></a>Sección Propiedades de degradado
 
 Muestra las propiedades de los efectos de relleno degradado o de color de línea aplicados a la forma. Esta sección también incluye celdas que controlan si el degradado de una forma gira con la forma o si la forma asume un degradado aplicado cuando se agrupa con otras formas. 
   
 ## <a name="remarks"></a>Comentarios
 
-Puede establecer la configuración de degradado en el cuadro de diálogo **Formato** de forma (Página **principal** Estilos de relleno Opciones de relleno  >    >    >  **Relleno**  >    >  **degradado**). 
+Puede establecer la configuración de degradado en el cuadro de diálogo **Formato de forma** (**Relleno** de opciones de relleno estilos de forma principal  >    >    >    >  **Relleno**  >  ). 
   
 

@@ -30,12 +30,12 @@ REPLACE (** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* *
 |:-----|:-----|:-----|:-----|
 | _old_text_ <br/> |Obligatorio  <br/> |**String** <br/> |El texto en el que desea reemplazar algunos caracteres.  <br/> |
 | _start_num_ <br/> |Obligatorio  <br/> |**Number** <br/> |La posición del carácter en  _old_text_ que desea reemplazar por  _new_text_. El primer carácter de la cadena ocupa la posición 1.  <br/> |
-| _num_chars_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número de caracteres  _old_text_ caracteres que desea reemplazar  <br/> |
+| _num_chars_ <br/> |Obligatorio  <br/> |**Number** <br/> |El número de caracteres  _de old_text_ que desea reemplazar  <br/> |
 | _new_text_ <br/> |Obligatorio  <br/> |**String** <br/> |Texto que reemplazará los caracteres de  _old_text_.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

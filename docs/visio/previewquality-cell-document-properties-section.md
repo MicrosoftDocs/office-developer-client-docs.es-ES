@@ -23,11 +23,11 @@ Determina si la vista previa del dibujo tiene calidad de borrador o de detalle.
 |**Valor**|**Calidad de la vista previa**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Borrador  <br/> |**visDocPreviewQualityDraft** <br/> |
-| 1   <br/> | Detallado  <br/> |**visDocPreviewQualityDetailed** <br/> |
+| 1  <br/> | Detallado  <br/> |**visDocPreviewQualityDetailed** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer este  valor en la  ficha Resumen del cuadro de  diálogo Propiedades (haga clic en el botón **De Office,** haga clic en la pestaña Información, en Propiedades del documento y, a continuación, en **Propiedades avanzadas).** 
+También puede establecer este valor en la ficha Resumen del cuadro de diálogo Propiedades  (haga clic en el botón **Office,** haga clic en la pestaña Información, haga clic en Propiedades del documento y, a continuación, en **Propiedades avanzadas**).  
   
 Para obtener una referencia a la celda PreviewQuality por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

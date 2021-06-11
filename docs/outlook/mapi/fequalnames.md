@@ -40,15 +40,15 @@ BOOL FEqualNames(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpName1_
   
-> [entrada] Puntero a una [estructura MAPINAMEID](mapinameid.md) que describe la primera propiedad con nombre. 
+> [in] Puntero a una [estructura MAPINAMEID](mapinameid.md) que describe la primera propiedad con nombre. 
     
  _lpName2_
   
-> [entrada] Puntero a una **estructura MAPINAMEID** que describe la segunda propiedad con nombre. 
+> [in] Puntero a una **estructura MAPINAMEID** que describe la segunda propiedad con nombre. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,7 +62,7 @@ FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-La **función FEqualNames** es útil porque la estructura **MAPINAMEID** contiene un [GUID](guid.md) y puede representar el propio nombre de propiedad en más de una forma. Esto significa que los métodos binarios simples no pueden comparar las dos estructuras. 
+La **función FEqualNames** es útil porque la estructura **MAPINAMEID** contiene un [GUID](guid.md) y puede representar el propio nombre de la propiedad de varias maneras. Esto significa que los métodos binarios simples no pueden comparar las dos estructuras. 
   
 El proceso de prueba distingue mayúsculas de minúsculas para las cadenas de nombre de propiedad. 
   

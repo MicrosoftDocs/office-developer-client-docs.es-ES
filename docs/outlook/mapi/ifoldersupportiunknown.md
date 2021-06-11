@@ -29,10 +29,10 @@ Proporciona información sobre la compatibilidad de una carpeta para compartir.
   
 |||
 |:-----|:-----|
-|Suministrado por:  <br/> |Proveedor de almacenamiento de mensajes  <br/> |
+|Suministrado por:  <br/> |Proveedor de almacén de mensajes  <br/> |
 |Identificador de interfaz:  <br/> |IID_IFolderSupport  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -40,8 +40,8 @@ Proporciona información sobre la compatibilidad de una carpeta para compartir.
    
 ## <a name="remarks"></a>Comentarios
 
-Por lo general, Microsoft Office Outlook un proveedor de almacén MAPI para implementar esta interfaz si el proveedor desea compartir una carpeta. La excepción es el Exchange Server de almacenamiento, que puede compartir carpetas sin implementar esta interfaz.
+Por lo general, Microsoft Office Outlook un proveedor de almacenamiento MAPI para implementar esta interfaz si el proveedor desea compartir una carpeta. La excepción es el Exchange Server de almacenamiento, que puede compartir carpetas sin implementar esta interfaz.
   
-Un cliente puede consultar un **[IMAPIFolder](imapifolderimapicontainer.md)** para **IFolderSupport**. Si esto se realiza correctamente, llame a **IFolderSupport::GetSupportMask** y compruebe si se **FS_SUPPORTS_SHARING** bit que se va a establecer. 
+Un cliente puede consultar un **[IMAPIFolder](imapifolderimapicontainer.md)** para **IFolderSupport**. Si esto se realiza correctamente, llama a **IFolderSupport::GetSupportMask** y comprueba si el FS_SUPPORTS_SHARING **se** va a establecer. 
   
 

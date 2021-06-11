@@ -36,7 +36,7 @@ Contiene un identificador único para un control usado en un cuadro de diálogo.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad contiene un identificador único para el control. Este identificador debe contener una [estructura GUID](guid.md) y un valor binario de tipo **LONG**. Todos los controles del cuadro de diálogo deben usar el mismo **GUID** para identificar el proveedor de servicios y cada control debe usar un valor **LONG** único para garantizar que los controles no entren en colisión. 
+Esta propiedad contiene un identificador único para el control. Este identificador debe contener una [estructura GUID](guid.md) y un valor binario de tipo **LONG**. Todos los controles del cuadro de diálogo deben usar el mismo **GUID** para identificar el proveedor de servicios y cada control debe usar un valor **LONG** único para garantizar que los controles no colisionan. 
   
 Esta propiedad se usa en las notificaciones. Por ejemplo, las notificaciones enviadas en la tabla para mostrar deben establecer esta propiedad para identificar de forma única el control que se va a actualizar. 
   
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

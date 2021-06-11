@@ -25,7 +25,7 @@ ms.locfileid: "33414623"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Aplica un filtro a una tabla, lo que reduce el conjunto de filas a solo aquellas filas que coinciden con los criterios especificados.
+Aplica un filtro a una tabla, lo que reduce el conjunto de filas a solo aquellas filas que coincidan con los criterios especificados.
   
 ```cpp
 HRESULT Restrict(
@@ -34,19 +34,19 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpRestriction_
   
-> [entrada] Puntero a una [estructura SRestriction](srestriction.md) que define las condiciones del filtro. Pasar NULL en  _el parámetro lpRestriction_ quita el filtro actual. 
+> [in] Puntero a una [estructura SRestriction](srestriction.md) que define las condiciones del filtro. Si se pasa NULL en el  _parámetro lpRestriction,_ se quita el filtro actual. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tiempo de la operación de restricción. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla el tiempo de la operación de restricción. Se pueden establecer las siguientes marcas:
     
 TBL_ASYNC 
   
-> Inicia la operación de forma asincrónica y vuelve antes de que finalice la operación.
+> Inicia la operación de forma asincrónica y devuelve antes de que finalice la operación.
     
 TBL_BATCH 
   
@@ -60,21 +60,21 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que impide que se inicie la operación de restricción. La operación en curso debe poder completarse o debe detenerse.
+> Hay otra operación en curso que impide que se inicie la operación de restricción. Debe permitirse completar la operación en curso o detenerse.
     
 MAPI_E_TOO_COMPLEX 
   
-> La tabla no puede realizar la operación porque el filtro concreto al que apunta el parámetro  _lpRestriction_ es demasiado complicado. 
+> La tabla no puede realizar la operación porque el filtro determinado al que apunta el parámetro  _lpRestriction_ es demasiado complicado. 
     
 ## <a name="remarks"></a>Comentarios
 
 El **método IMAPITable::Restrict** establece una restricción o filtro en una tabla. Si hay una restricción anterior, se descarta y se aplica la nueva. Aplicar una restricción no afecta a los datos subyacentes de una tabla; simplemente modifica la vista limitando las filas que se pueden recuperar a filas que contienen datos que satisfacen la restricción. 
   
-Hay varios tipos diferentes de restricciones, cada uno descrito con una estructura diferente. La [estructura SRestriction](srestriction.md) contiene dos miembros: un valor que indica el tipo de restricción y la estructura específica aplicable a ese tipo. 
+Hay varios tipos diferentes de restricciones, cada una descrita con una estructura diferente. La [estructura SRestriction](srestriction.md) contiene dos miembros: un valor que indica el tipo de restricción y la estructura específica aplicable a ese tipo. 
   
-Las notificaciones de las filas de tabla ocultas de la vista por llamadas **a Restrict** nunca se generan. 
+Las notificaciones de las filas de tabla ocultas de la vista por llamadas a **Restrict** nunca se generan. 
   
-Una restricción de propiedad en una propiedad multivalor funciona como una restricción en una propiedad de un solo valor. Una propiedad multivalor que se va a usar en una restricción de propiedad debe tener el MVI_FLAG marca establecida. Si no tiene esta marca establecida, se trata como una tupla totalmente ordenada. Una comparación de dos columnas multivalor compara los elementos de columna en orden, informando de la relación de las columnas en la primera diferencia. La igualdad solo se devuelve si las columnas comparadas contienen los mismos valores en el mismo orden. Si una columna tiene menos valores que la otra, la relación notificada es la de un valor nulo con el otro valor.
+Una restricción de propiedad en una propiedad multivalor funciona como una restricción en una propiedad de un solo valor. Una propiedad multivalor que se va a usar en una restricción de propiedad debe tener el MVI_FLAG de marca. Si no tiene esta marca establecida, se trata como una tupla totalmente ordenada. Una comparación de dos columnas multivalor compara los elementos de columna en orden, informando de la relación de las columnas en la primera desigualdad. La igualdad solo se devuelve si las columnas comparadas contienen los mismos valores en el mismo orden. Si una columna tiene menos valores que la otra, la relación notificada es la de un valor nulo con el otro valor.
   
 Para obtener más información acerca de las restricciones, vea [Acerca de las restricciones](about-restrictions.md).
   
@@ -85,15 +85,15 @@ Para obtener más información acerca de las restricciones, vea [Acerca de las r
 
 Para descartar la restricción actual sin crear una nueva, pase NULL en  _lpRestriction_.
   
-Si hay otra llamada de tabla asincrónica en curso, lo que provoca que **Restrict** devuelva MAPI_E_BUSY, puede llamar a [IMAPITable::Abort](imapitable-abort.md) para detener la llamada. 
+Si hay otra llamada de tabla asincrónica en curso, lo que hace que **Restrict** devuelva MAPI_E_BUSY, puede llamar a [IMAPITable::Abort](imapitable-abort.md) para detener la llamada. 
   
- **La** restricción funciona de forma sincrónica a menos que establezcas una de las marcas. Si establece la marca TBL_BATCH, **Restrict** pospone la evaluación de la restricción a menos que solicite los datos. Si se TBL_ASYNC marca, **Restrict** funciona de forma asincrónica, lo que puede devolverse antes de que finalice la operación.
+ **Restrict** funciona de forma sincrónica a menos que establezca una de las marcas. Si establece la marca TBL_BATCH, **Restrict** pospone la evaluación de la restricción a menos que solicite los datos. Si se TBL_ASYNC marca, **Restrict** funciona de forma asincrónica, lo que podría devolverse antes de finalizar la operación.
   
 Todos los marcadores de una tabla se descartan cuando se realiza una llamada a **Restrict** y BOOKMARK_CURRENT, la posición actual del cursor, se establece en el principio de la tabla. 
   
-Si intenta imponer una restricción de propiedad a una propiedad que no está en el conjunto de columnas de la tabla, los resultados son indefinidos. Siempre que no esté seguro de si una propiedad es compatible con una tabla, combine la restricción de propiedad con una restricción existente. La restricción existente comprueba la existencia de la propiedad antes de intentar imponer la restricción de propiedad. 
+Si intenta imponer una restricción de propiedad a una propiedad que no está en el conjunto de columnas de la tabla, los resultados no están definidos. Siempre que no esté seguro de si se admite una propiedad en una tabla, combine la restricción de propiedad con una restricción existente. La restricción existe comprueba la existencia de la propiedad antes de intentar imponer la restricción de propiedad. 
   
-No espere recibir una notificación de tabla en una fila filtrada de una tabla debido a una restricción.
+No espere recibir una notificación de tabla en una fila que se haya filtrado de una tabla debido a una restricción.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -103,7 +103,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::ApplyRestriction  <br/> |MFCMAPI usa el **método IMAPITable::Restrict** para establecer una restricción en una tabla.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

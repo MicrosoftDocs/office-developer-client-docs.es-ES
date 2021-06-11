@@ -18,7 +18,7 @@ ms.locfileid: "33412712"
 ---
 # <a name="category-function"></a>Función CATEGORY
 
-Devuelve el texto del campo **Categoría** de las propiedades de un documento. 
+Devuelve el texto del **campo Categoría** de las propiedades de un documento. 
   
 ## <a name="syntax"></a>Sintaxis
 

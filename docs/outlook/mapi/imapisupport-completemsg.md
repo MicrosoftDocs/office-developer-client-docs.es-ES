@@ -25,7 +25,7 @@ ms.locfileid: "33411193"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Realiza el posprocesamiento en un mensaje. 
+Realiza el postprocesamiento en un mensaje. 
   
 ```cpp
 HRESULT CompleteMsg(
@@ -35,7 +35,7 @@ HRESULT CompleteMsg(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,31 +43,31 @@ HRESULT CompleteMsg(
     
  _cbEntryID_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> [entrada] Puntero al identificador de entrada del mensaje que se debe procesar.
+> [in] Puntero al identificador de entrada del mensaje que se procesará.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El posprocesamiento se ha realizado correctamente.
+> El postprocesamiento se ha realizado correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::CompleteMsg** se implementa para los objetos de soporte del proveedor de al almacenamiento de mensajes y solo lo llaman los proveedores de almacenamiento de mensajes estrechamente asociados con los proveedores de transporte. Los proveedores de almacenamiento estrechamente acoplados llaman a **IMAPISupport::CompleteMsg** para indicar a la cola MAPI que postprocese un mensaje. 
+El **método IMAPISupport::CompleteMsg** se implementa para objetos de soporte del proveedor de almacén de mensajes y solo los proveedores de almacenamiento de mensajes que están estrechamente unidos a los proveedores de transporte. Los proveedores de almacenamiento estrechamente acoplados llaman a **IMAPISupport::CompleteMsg** para indicar a la cola MAPI que postprocese un mensaje. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame **a CompleteMsg** solo cuando esté estrechamente emparejado con un proveedor de transporte, puede controlar todos los destinatarios del mensaje y existe una de las siguientes condiciones: 
+Llame a **CompleteMsg** solo cuando esté estrechamente unido a un proveedor de transporte, puede controlar todos los destinatarios del mensaje y existe una de las siguientes condiciones: 
   
 - El mensaje se preprocesó.
     
-- El mensaje requiere el posprocesamiento mediante la cola MAPI.
+- El mensaje requiere el posprocesamiento de la cola MAPI.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

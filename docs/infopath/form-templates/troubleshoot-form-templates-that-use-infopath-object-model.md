@@ -21,16 +21,16 @@ Esta sección contiene sugerencias para resolver los problemas más comunes que 
   
 ## <a name="in-this-section"></a>En esta sección
 
-Solución de problemas de plantillas de formulario que usan el modelo de objetos de [InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md)en tiempo de ejecución: describe los problemas que pueden surgir al crear y obtener una vista previa de las plantillas de formulario con código administrado de InfoPath que usan el modelo de objetos compatible con InfoPath 2003.
+Solución de problemas de plantillas de formulario que usan el modelo de objetos de [InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md)en tiempo de ejecución: describe los problemas que pueden surgir al crear y obtener una vista previa de las plantillas de formulario de código administrado de InfoPath que usan el modelo de objetos compatible con InfoPath 2003.
     
-Solución de problemas de plantillas de formulario que usan el modelo de objetos de [InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md)en tiempo de diseño: describe los problemas que pueden surgir al diseñar plantillas de formulario con código administrado que usan el modelo de objetos compatible con InfoPath 2003.
+Solución de problemas de plantillas de formulario que usan el modelo de objetos de [InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md)en tiempo de diseño: describe los problemas que pueden surgir al diseñar plantillas de formulario de código administrado que usan el modelo de objetos compatible con InfoPath 2003.
     
 ## <a name="related-sections"></a>Secciones relacionadas
 
 [Implementar plantillas de formulario](how-to-deploy-infopath-form-templates-with-code.md)de InfoPath con código: proporciona información sobre la implementación de las soluciones, incluidos los problemas de seguridad, así como los problemas que se deben tener en cuenta al elegir un modelo de implementación.
     
-Controlar errores mediante el modelo de objetos de [InfoPath 2003:](how-to-handle-errors-using-the-infopath-2003-object-model.md)explica cómo controlar los errores en las soluciones de código administrado de InfoPath.
+Controlar errores mediante el modelo de objetos de [InfoPath 2003:](how-to-handle-errors-using-the-infopath-2003-object-model.md)explica cómo controlar errores en las soluciones de código administrado de InfoPath.
     
-Tareas comunes para desarrollar plantillas de formulario mediante el modelo de objetos de [InfoPath 2003:](common-tasks-for-developing-form-templates-using-infopath-object-model.md)enumera las preguntas más frecuentes acerca de la programación con el modelo de objetos compatible con InfoPath 2003 y proporciona vínculos a temas que pueden ayudar a resolver problemas comunes.
+Tareas comunes para desarrollar plantillas de formulario mediante el modelo de objetos de [InfoPath 2003:](common-tasks-for-developing-form-templates-using-infopath-object-model.md)enumera las preguntas más frecuentes sobre la programación con el modelo de objetos compatible con InfoPath 2003 y proporciona vínculos a temas que pueden ayudar a resolver problemas comunes.
     
 

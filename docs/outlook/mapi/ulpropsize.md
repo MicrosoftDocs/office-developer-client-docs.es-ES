@@ -25,7 +25,7 @@ ms.locfileid: "33416905"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve el tamaño de un solo valor de propiedad. 
+Devuelve el tamaño de un único valor de propiedad. 
   
 |||
 |:-----|:-----|
@@ -39,11 +39,11 @@ ULONG UlPropSize(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSPropValue_
   
-> [entrada] Puntero a una [estructura SPropValue](spropvalue.md) que define la propiedad que se va a medir. 
+> [in] Puntero a una [estructura SPropValue](spropvalue.md) que define la propiedad que se va a medir. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,6 +57,6 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Comentarios
 
-La **función UlPropSize** devuelve el tamaño, en bytes, del valor de propiedad de la propiedad especificada. Ignora el tamaño del resto de la estructura **SPropValue.** 
+La **función UlPropSize** devuelve el tamaño, en bytes, del valor de la propiedad de la propiedad especificada. No tiene en cuenta el tamaño del resto de la **estructura SPropValue.** 
   
 

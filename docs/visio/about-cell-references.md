@@ -36,15 +36,15 @@ La sintaxis utilizada y la posibilidad de hacer referencia a una forma por su no
     
 - Los nombres que contienen caracteres no estándar deben encerrarse entre comillas simples. Los caracteres de comillas simples incluidos en nombres no estándar deben ir precedidos de una comilla simple.
     
-|**Para hacer referencia a una celda de**|**Use esta sintaxis**|**Ejemplo**|
+|**Para hacer referencia a una celda de**|**Usar esta sintaxis**|**Ejemplo**|
 |:-----|:-----|:-----|
 |La misma forma  <br/> | CellName  <br/> | Width  <br/> |
 | Una forma, grupo o guía  <br/> | Shapename! CellName  <br/> | ¡Estrella! Ángulo  <br/> |
-| Forma, grupo o guía en que hay más de una forma en el mismo nivel con el mismo nombre  <br/> | Shapename.ID! CellName  <br/> | ¡Executive.2! Height  <br/> |
+| Forma, grupo o guía en que hay más de una forma en el mismo nivel con el mismo nombre  <br/> | Shapename.ID! CellName  <br/> | ¡Executive.2! Alto  <br/> |
 | Columna con nombre con filas indizadas  <br/> | Section.Column[index]  <br/> | Char.Font[3]  <br/> |
 | Columna sin nombre con filas indizadas  <br/> | Section.ColumnIndex  <br/> | Scratch.A5  <br/> |
 | Cualquier forma, página, patrón o estilo  <br/> | Sheet.ID! CellName  <br/> | Sheet.8! FillForegnd  <br/> |
-| Patrón  <br/> | Masters[MasterName]! SheetName! CellReference  <br/> | Masters[Gear]! ¡Resalte! Geometry1.X1  <br/> |
+| Patrón  <br/> | Masters[MasterName]! SheetName! CellReference  <br/> | Masters[Gear]! ¡Eje! Geometry1.X1  <br/> |
 | Página o página patrón en la que se encuentra el objeto  <br/> | ThePage! CellReference  <br/> | ThePage! User.Vanishing_Point  <br/> |
 | Otra página del documento  <br/> | Pages[PageName]! SheetName! CellReference  <br/> | Pages[Page-3]! Sheet.4! BeginX  <br/> |
 | Estilo  <br/> | Styles! SheetName! CellReference  <br/> | Styles! ¡Administrador! LineColor  <br/> |

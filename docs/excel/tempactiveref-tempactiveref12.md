@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveRef
 - TempActiveRef12
 keywords:
-- Función tempactiveref [excel 2007],Función TempActiveRef12 [Excel 2007]
+- función tempactiveref [excel 2007],Función TempActiveRef12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,24 +23,24 @@ ms.locfileid: "33415547"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de marcos que crea un **XLOPER** /  **XLOPER12** temporal que contiene una referencia externa al bloque rectangular de celdas de la hoja activa. 
+Función de biblioteca de marcos que crea un /  **XLOPER XLOPER12** temporal que contiene una referencia externa al bloque rectangular de celdas de la hoja activa. 
   
 ```cs
 LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
 LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _rwFirst_
   
-Fila inicial de la referencia.
+La fila inicial de la referencia.
   
  _rwLast_
   
 Fila final de la referencia.
   
-Los argumentos de fila se basan en cero para que la fila 1 se pase como 0. En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 65.535 = 2^16 - 1 y es el valor máximo que puede tomar un entero de WORD. A partir de Excel 2007 que ejecuta un libro, el valor máximo es 1.048.575 = 2^20 - 1. RW se define como un entero con signo de 32 bits en XLCALL.H.
+Los argumentos row están basados en cero para que la fila 1 se pase como 0. En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 65.535 = 2^16 - 1 y es el valor máximo que puede tomar un entero de WORD. A partir Excel 2007 que ejecuta un libro, el valor máximo es 1.048.575 = 2^20 - 1. RW se define como un entero con signo de 32 bits en XLCALL.H.
   
  _colFirst_
   
@@ -50,7 +50,7 @@ Número de columna inicial de la referencia.
   
 Número de columna final de la referencia.
   
-Los argumentos de columna se basan en cero para que la columna A se pase como 0. En Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 255 = 2^8 - 1 y es el valor máximo que puede tomar un entero BYTE. A partir de Excel 2007 que ejecuta un libro, el valor máximo es 16.383 = 2^14 - 1. COL se define como un entero con signo de 32 bits en XLCALL.H.
+Los argumentos column están basados en cero para que la columna A se pase como 0. En Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 255 = 2^8 - 1 y es el valor máximo que puede tomar un entero BYTE. A partir Excel 2007 que ejecuta un libro, el valor máximo es 16.383 = 2^14 - 1. COL se define como un entero con signo de 32 bits en XLCALL.H.
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -70,7 +70,7 @@ short WINAPI TempActiveRefExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

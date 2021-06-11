@@ -42,11 +42,11 @@ enum OlFlagIcon {
 
  _olNoFlagIcon_
   
-> No se ha asociado ninguna marca con el elemento.
+> No se ha asociado ninguna marca al elemento.
     
  _olPurpleFlagIcon_
   
-> El color púrpura se ha asociado con el elemento marcado.
+> Púrpura se ha asociado con el elemento marcado.
     
  _olOrangeFlagIcon_
   
@@ -54,21 +54,21 @@ enum OlFlagIcon {
     
  _olGreenFlagIcon_
   
-> El color verde se ha asociado al elemento marcado.
+> El verde se ha asociado con el elemento marcado.
     
  _olYellowFlagIcon_
   
-> El color amarillo se ha asociado al elemento marcado.
+> El color amarillo se ha asociado con el elemento marcado.
     
  _olBlueFlagIcon_
   
-> El color azul se ha asociado al elemento marcado.
+> El azul se ha asociado con el elemento marcado.
     
  _olRedFlagIcon_
   
-> El color rojo se ha asociado al elemento marcado.
+> El rojo se ha asociado con el elemento marcado.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

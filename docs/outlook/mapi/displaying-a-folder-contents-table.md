@@ -23,19 +23,19 @@ La tabla de contenido de una carpeta contiene información resumida sobre todos 
   
 **Para mostrar una tabla de contenido de carpeta**
   
-1. Llame [a IMsgStore::OpenEntry](imsgstore-openentry.md)y pase el identificador de entrada de la carpeta que contiene la tabla.
+1. Llama [a IMsgStore::OpenEntry](imsgstore-openentry.md)y pasa el identificador de entrada de la carpeta que contiene la tabla.
     
 2. Llame al método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la carpeta para abrir su tabla de contenido. 
     
 3. Limite la vista de la tabla de contenido si lo desea llamando al método [IMAPITable::SetColumns](imapitable-setcolumns.md) de la tabla para especificar columnas concretas. 
     
-4. Limite la vista de la tabla de contenido si lo desea llamando al método [IMAPITable::Restrict](imapitable-restrict.md) de la tabla para filtrar filas concretas. Si, por ejemplo, desea mostrar solo los mensajes con una clase de mensaje específica que aún no se han leído: 
+4. Limite la vista de la tabla de contenido si lo desea llamando al método [IMAPITable::Restrict](imapitable-restrict.md) de la tabla para filtrar determinadas filas. Si, por ejemplo, desea mostrar solo mensajes con una clase de mensaje específica que aún no se han leído: 
     
-    1. Cree una restricción de propiedad en una [estructura SPropertyRestriction](spropertyrestriction.md) que coincida **con la propiedad PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) con la clase de mensaje deseada. 
+    1. Cree una restricción de propiedad en una estructura [SPropertyRestriction](spropertyrestriction.md) que coincida con la **propiedad PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) con la clase de mensaje deseada. 
         
-    2. Crea una restricción de máscara de bits en una estructura [SBitMaskRestriction](sbitmaskrestriction.md) que use **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) como etiqueta de propiedad y el valor MSGFLAG_UNREAD como máscara.
+    2. Cree una restricción de máscara de bits en una estructura [SBitMaskRestriction](sbitmaskrestriction.md) que use **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) como etiqueta de propiedad y el valor MSGFLAG_UNREAD como máscara.
         
-    3. Cree una restricción en una [estructura SAndRestriction](sandrestriction.md) que una las restricciones de propiedad y máscara de bits. 
+    3. Cree una restricción en una [estructura SAndRestriction](sandrestriction.md) que se una a las restricciones de la propiedad y la máscara de bits. 
     
 5. Ordene la tabla de contenido si lo desea llamando al método [IMAPITable::SortTable de la](imapitable-sorttable.md) tabla. 
     

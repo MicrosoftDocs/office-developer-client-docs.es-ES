@@ -22,9 +22,9 @@ ms.locfileid: "33416044"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Se puede llamar desde un comando DLL o XLL que microsoft Excel haya llamado a sí mismo. Esto equivale a llamar **a REGISTER** desde una hoja de macros XLM de Excel. 
+Se puede llamar desde un comando DLL o XLL al que ha llamado Microsoft Excel. Esto equivale a llamar a **REGISTER** desde una Excel de macros XLM. 
   
-Se puede llamar a la función **xlfRegister** de dos formas: 
+Se puede llamar a la función **xlfRegister** en dos formularios: 
   
 - [xlfRegister (formulario 1):](xlfregister-form-1.md)registra un comando o función individual.
     
@@ -36,7 +36,7 @@ Llamada en el formulario 2, esta función solo se puede usar para cargar y activ
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pxModuleText_ (**xltypeStr**)
   
@@ -46,7 +46,7 @@ Nombre de la DLL que se va a cargar y activar.
 
 Si se realiza correctamente, devuelve el nombre de la DLL (**xltypeStr**). De lo contrario, devuelve un #VALUE! error.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

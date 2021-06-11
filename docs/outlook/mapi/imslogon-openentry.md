@@ -25,7 +25,7 @@ ms.locfileid: "33416303"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Abre una carpeta o un objeto de mensaje y devuelve un puntero al objeto para proporcionar más acceso. 
+Abre una carpeta o un objeto de mensaje y devuelve un puntero al objeto para proporcionar acceso adicional. 
   
 ```cpp
 HRESULT OpenEntry(
@@ -38,35 +38,35 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] Tamaño, en bytes, del identificador de entrada al que apunta el _parámetro lpEntryID._ 
+> [in] Tamaño, en bytes, del identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> [entrada] Puntero a la dirección del identificador de entrada de la carpeta o el objeto de mensaje que se abrirá. 
+> [in] Puntero a la dirección del identificador de entrada de la carpeta o el objeto de mensaje que se debe abrir. 
     
  _lpInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) del objeto. Pasar NULL indica que el objeto se convierte en la interfaz estándar para dicho objeto. El  _parámetro lpInterface_ también se puede establecer en un identificador para una interfaz adecuada para el objeto. 
+> [in] Puntero al identificador de interfaz (IID) del objeto. Pasar NULL indica que el objeto se convierte en la interfaz estándar para dicho objeto. El  _parámetro lpInterface_ también se puede establecer en un identificador para una interfaz adecuada para el objeto. 
     
  _ulOpenFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se abre el objeto. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se abre el objeto. Se pueden establecer las siguientes marcas:
     
 MAPI_BEST_ACCESS 
   
-> El objeto debe abrirse con los permisos máximos permitidos para el usuario y los permisos máximos de la aplicación cliente. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el objeto se abre con permiso de lectura y escritura; si el cliente tiene permiso de solo lectura, el objeto se abre con permiso de solo lectura. El cliente puede recuperar el nivel de permisos obteniendo **la PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+> El objeto debe abrirse con los permisos máximos permitidos para el usuario y los permisos máximos de la aplicación cliente. Por ejemplo, si el cliente tiene permiso de lectura y escritura, el objeto se abre con permiso de lectura y escritura; si el cliente tiene permiso de solo lectura, el objeto se abre con permiso de solo lectura. El cliente puede recuperar el nivel de permisos **obteniendo la propiedad PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
     
 MAPI_DEFERRED_ERRORS 
   
-> La llamada puede ser correcta incluso si el objeto subyacente no está disponible para la aplicación que realiza la llamada. Si el objeto no está disponible, una llamada posterior al objeto puede devolver un error.
+> Se permite que la llamada se realiza correctamente incluso si el objeto subyacente no está disponible para la aplicación que realiza la llamada. Si el objeto no está disponible, una llamada posterior al objeto puede devolver un error.
     
 MAPI_MODIFY 
   
-> Solicita permiso de lectura y escritura. De forma predeterminada, los objetos se crean con permiso de solo lectura y los clientes no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. 
+> Solicitudes de permiso de lectura y escritura. De forma predeterminada, los objetos se crean con permiso de solo lectura y los clientes no deben trabajar en la suposición de que se ha concedido permiso de lectura y escritura. 
     
  _lpulObjType_
   
@@ -84,13 +84,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI llama al **método IMSLogon::OpenEntry** para abrir una carpeta o un mensaje en un almacén de mensajes. MAPI pasa el identificador de entrada del objeto que se debe abrir. El proveedor del almacén de mensajes debe devolver un puntero que permita obtener más acceso al objeto especificado en el _parámetro lppUnk._ 
+MAPI llama al **método IMSLogon::OpenEntry** para abrir una carpeta o un mensaje en un almacén de mensajes. MAPI pasa el identificador de entrada del objeto que se debe abrir. El proveedor del almacén de mensajes debe devolver un puntero que permita un acceso adicional al objeto especificado en el _parámetro lppUnk._ 
   
-Antes de que MAPI llame a **IMSLogon::OpenEntry**, primero determina que el identificador de entrada de carpeta o mensaje determinado coincide con uno registrado por este proveedor de almacenamiento de mensajes. Para obtener más información acerca de cómo los proveedores de almacenamiento registran identificadores de entrada, [vea IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).
+Antes de que MAPI llame a **IMSLogon::OpenEntry,** primero determina que el identificador de entrada de carpeta o mensaje determinado coincide con uno registrado por este proveedor de almacén de mensajes. Para obtener más información acerca de cómo los proveedores de almacenamiento registran identificadores de entrada, vea [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).
   
- **IMSLogon::OpenEntry** es idéntico al método [IMsgStore::OpenEntry](imsgstore-openentry.md) del objeto de almacén de mensajes, excepto que el cliente no llama a **IMSLogon::OpenEntry**; MAPI llama **a IMSLogon::OpenEntry cuando** procesa un **método IMAPISession::OpenEntry.** Los objetos abiertos mediante **IMSLogon::OpenEntry** deben tratarse exactamente igual que los objetos abiertos mediante el objeto de almacén de mensajes; en particular, los objetos abiertos mediante esta llamada deben invalidarse cuando se libera el objeto del almacén de mensajes. 
+ **IMSLogon::OpenEntry** es idéntico al método [IMsgStore::OpenEntry](imsgstore-openentry.md) del objeto de almacén de mensajes, excepto que el cliente no llama a **IMSLogon::OpenEntry**; MAPI llama **a IMSLogon::OpenEntry** cuando procesa un **método IMAPISession::OpenEntry.** Los objetos abiertos mediante **IMSLogon::OpenEntry** deben tratarse exactamente igual que los objetos abiertos mediante el objeto de almacén de mensajes; en particular, los objetos abiertos mediante esta llamada deben invalidarse cuando se libera el objeto de almacén de mensajes. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

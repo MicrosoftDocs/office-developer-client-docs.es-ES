@@ -40,11 +40,11 @@ HRESULT MAPIAdminProfiles(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que indica las opciones de la función de entrada de servicio. 
+> [in] Máscara de bits de marcas que indican las opciones de la función de entrada de servicio. 
     
  _lppProfAdmin_
   
@@ -64,7 +64,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI usa el **método MAPIAdminProfiles** para obtener el objeto de administración de perfiles.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

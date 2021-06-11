@@ -17,7 +17,7 @@ ms.locfileid: "33415295"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las adiciones de MAPI son API que pertenecen a interfaz de programación de aplicaciones de mensajería (MAPI), como tipos de datos, funciones y propiedades, que anteriormente no estaban expuestas y documentadas como parte de la referencia del programador de MAPI. Incluyen las siguientes definiciones y propiedades.
+Las adiciones MAPI son API que pertenecen a la Interfaz de programación de aplicaciones de mensajería (MAPI), como tipos de datos, funciones y propiedades, que anteriormente no estaban expuestas y documentadas como parte de la referencia del programador MAPI. Incluyen las siguientes definiciones y propiedades.
   
 ## <a name="constant-definitions"></a>Definiciones de constantes
 
@@ -29,7 +29,7 @@ Las adiciones de MAPI son API que pertenecen a interfaz de programación de apli
     
 - **[FollowUpStatus](followupstatus.md)**
     
-- **[Género](gender.md)**
+- **[Gender](gender.md)**
     
 - **[OlFlagIcon](olflagicon.md)**
     
@@ -39,7 +39,7 @@ Las adiciones de MAPI son API que pertenecen a interfaz de programación de apli
     
 ## <a name="properties"></a>Propiedades
 
-Generalmente, los objetos de mensaje exponen las siguientes propiedades.
+Normalmente, los objetos de mensaje exponen las siguientes propiedades.
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -83,7 +83,7 @@ Los objetos de la tabla de contenido de la libreta de direcciones exponen las si
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-Los objetos contenedor de la libreta de direcciones exponen las siguientes propiedades.
+Los objetos contenedor de libreta de direcciones exponen las siguientes propiedades.
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -207,7 +207,7 @@ Los objetos de sección de perfil exponen las siguientes propiedades.
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-Los objetos de almacenamiento exponen las siguientes propiedades.
+Los objetos de almacén exponen las siguientes propiedades.
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -231,10 +231,10 @@ Los objetos de almacén exponen las siguientes propiedades y se usan para buscar
     
 - **[PR_SEARCH_RECIP_EMAIL_TO_W](pidtagsearchrecipientemailto-canonical-property.md)**
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acceder a un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
-- [Detectar la versión de Exchange Server en un perfil de Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [Detectar la versión de Exchange Server en un perfil Outlook usuario](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
 - [Abrir un almacén en el servidor remoto cuando Outlook está en modo caché de Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [Administrar un mensaje en un OST sin invocar una sincronización en el modo de intercambio en caché](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

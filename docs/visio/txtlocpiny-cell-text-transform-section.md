@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251276
 localization_priority: Normal
 ms.assetid: 3f46cfcf-7eac-4a37-e782-39f4e7f8fc43
-description: 'Determina la coordenada y del centro de rotación del bloque de texto en relación con el origen del bloque de texto. La fórmula predeterminada es:'
+description: 'Determina la coordenada y del centro de rotación del bloque de texto con relación al origen del bloque de texto. La fórmula predeterminada es:'
 ms.openlocfilehash: 937c4e9928d32d55e8336d192b1ecc6140fd8381
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33414063"
 ---
 # <a name="txtlocpiny-cell-text-transform-section"></a>Celda TxtLocPinY (Sección de transformación de texto)
 
-Determina la  *coordenada y*  del centro de rotación del bloque de texto en relación con el origen del bloque de texto. La fórmula predeterminada es: 
+Determina la  *coordenada y*  del centro de rotación del bloque de texto con relación al origen del bloque de texto. La fórmula predeterminada es: 
   
 = TxtHeight \* 0.5
   

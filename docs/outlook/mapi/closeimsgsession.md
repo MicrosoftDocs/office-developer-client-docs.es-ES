@@ -39,11 +39,11 @@ VOID CloseIMsgSession(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMsgSess_
   
-> [entrada] Puntero al objeto de sesión de mensaje obtenido mediante la [función OpenIMsgSession](openimsgsession.md) al inicio de la sesión del mensaje. 
+> [in] Puntero al objeto de sesión de mensaje obtenido mediante la [función OpenIMsgSession](openimsgsession.md) al inicio de la sesión del mensaje. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,8 +51,8 @@ Ninguno.
   
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente y los proveedores de servicios que desean tratar con varios objetos **MAPI IMessage** relacionados basados en objetos OLE **IStorage** subyacentes usan una sesión de mensaje. El cliente o el proveedor usa las funciones [OpenIMsgSession](openimsgsession.md) y **CloseIMsgSession** para encapsular la creación de estos mensajes dentro de una sesión de mensaje. Una vez abierta la sesión del mensaje, el cliente o el proveedor le pasa un puntero en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo **objeto IMessage**-on- **IStorage.** 
+Las aplicaciones cliente y los proveedores de servicios que desean tratar varios objetos **IMessage** MAPI relacionados basados en objetos OLE **IStorage** subyacentes usan una sesión de mensaje. El cliente o el proveedor usa las [funciones OpenIMsgSession](openimsgsession.md) y **CloseIMsgSession** para encapsular la creación de dichos mensajes dentro de una sesión de mensaje. Una vez abierta la sesión del mensaje, el cliente o el proveedor le pasa un puntero en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo **objeto IMessage**-on- **IStorage.** 
   
-Una sesión de mensaje realiza un seguimiento de todos los objetos **IMessage**-on- **IStorage** abiertos durante la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o proveedor llama **a CloseIMsgSession,** cierra todos estos objetos. Llamar **a CloseIMsgSession** es la única forma de cerrar **objetos IMessage**-on- **IStorage.** 
+Una sesión de mensaje realiza un seguimiento de todos los objetos **IMessage**-on- **IStorage** abiertos durante la duración de la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o proveedor llama **a CloseIMsgSession**, cierra todos estos objetos. Llamar **a CloseIMsgSession** es la única forma de cerrar **objetos IMessage**-on- **IStorage.** 
   
 

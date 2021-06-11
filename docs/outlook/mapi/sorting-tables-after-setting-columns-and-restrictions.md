@@ -25,10 +25,10 @@ Cuando necesite limitar la vista de una tabla ordenada, realice siempre las sigu
   
 1. [IMAPITable::SetColumns](imapitable-setcolumns.md) para definir el conjunto de columnas. 
     
-2. [IMAPITable::Restrict](imapitable-restrict.md) para imponer la restricción. 
+2. [IMAPITable::Restrict para](imapitable-restrict.md) imponer la restricción. 
     
 3. [IMAPITable::SortTable](imapitable-sorttable.md) para realizar la ordenación. 
     
-Si la tabla ordenada está categorizada, realice una llamada a [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md), si es necesario, después de la **llamada a SortTable.** Este orden de llamadas es importante porque la mayoría de los proveedores de servicios ordenan una tabla como la última tarea para lograr el mejor rendimiento. Si, por ejemplo, un proveedor de almacenamiento de mensajes debe clasificar una tabla de contenido de carpeta para poder imponer una restricción, esta categorización se quitará durante el procesamiento de la restricción. Será necesaria una segunda categorización. 
+Si la tabla ordenada está categorizada, realice una llamada a [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md), si es necesario, después de la **llamada SortTable.** Este orden de llamadas es importante porque la mayoría de los proveedores de servicios ordenan una tabla como la última tarea para lograr el mejor rendimiento. Si, por ejemplo, un proveedor de almacén de mensajes debe clasificar una tabla de contenido de carpeta antes de que se pueda imponer una restricción, esta categorización se quitará durante el procesamiento de la restricción. Será necesaria una segunda categorización. 
   
 

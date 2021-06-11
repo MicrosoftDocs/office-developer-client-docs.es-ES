@@ -43,7 +43,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **lVerb**
   
@@ -51,7 +51,7 @@ typedef struct
     
  **szVerbname**
   
-> Nombre para mostrar del verbo tal como aparece en el menú del formulario.
+> Mostrar el nombre del verbo tal como aparece en el menú del formulario.
     
  **fuFlags**
   
@@ -67,17 +67,17 @@ typedef struct
     
 MAPI_UNICODE 
   
-> El nombre para mostrar está en formato Unicode. Si no MAPI_UNICODE marca predeterminada, el nombre para mostrar está en formato ANSI.
+> El nombre para mostrar está en formato Unicode. Si la MAPI_UNICODE no está establecida, el nombre para mostrar está en formato ANSI.
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura SMAPIVerb** se pasa como parámetro en los métodos siguientes: 
+La **estructura SMAPIVerb** se pasa como parámetro en los siguientes métodos: 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

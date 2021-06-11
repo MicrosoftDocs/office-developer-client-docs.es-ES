@@ -25,7 +25,7 @@ ms.locfileid: "33414280"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Prepara una lista de destinatarios para su uso posterior por parte del sistema de mensajería. 
+Prepara una lista de destinatarios para su uso posterior por el sistema de mensajería. 
   
 ```cpp
 HRESULT PrepareRecips(
@@ -35,23 +35,23 @@ HRESULT PrepareRecips(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se abre la entrada. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se abre la entrada. Se puede establecer la siguiente marca:
     
 MAPI_CACHE_ONLY
   
-> Use solo la libreta de direcciones sin conexión para realizar la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente abra la lista global de direcciones (GAL) en modo caché de Exchange y para tener acceso a una entrada de esa libreta de direcciones desde la memoria caché sin crear tráfico entre el cliente y el servidor. Esta marca solo es compatible con el proveedor de libretas de direcciones de Exchange.
+> Use solo la libreta de direcciones sin conexión para realizar la resolución de nombres. Por ejemplo, puede usar esta marca para permitir que una aplicación cliente abra la lista global de direcciones (GAL) en modo de intercambio en caché y para obtener acceso a una entrada de esa libreta de direcciones desde la memoria caché sin crear tráfico entre el cliente y el servidor. Esta marca solo es compatible con el Exchange libreta de direcciones.
     
  _lpSPropTagArray_
   
-> [entrada] Puntero a una estructura [SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad que indican las propiedades, si las hay, que requieren actualización. El  _parámetro lpSPropTagArray_ puede ser NULL. 
+> [in] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad que indican las propiedades, si las hay, que requieren actualización. El  _parámetro lpSPropTagArray_ puede ser NULL. 
     
  _lpRecipList_
   
-> [entrada] Puntero a una [estructura ADRLIST](adrlist.md) que contiene la lista de destinatarios. 
+> [in] Puntero a una [estructura ADRLIST](adrlist.md) que contiene la lista de destinatarios. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -63,17 +63,17 @@ S_OK
 
 Los clientes y proveedores de servicios llaman **al método PrepareRecips** para hacer lo siguiente: 
   
-- Asegúrese de que todos los destinatarios del  _parámetro lpRecipList_ tengan identificadores de entrada a largo plazo. 
+- Asegúrese de que todos los destinatarios del  _parámetro lpRecipList_ tienen identificadores de entrada a largo plazo. 
     
-- Asegúrese de que cada destinatario del parámetro  _lpRecipList_ tenga las propiedades enumeradas en el parámetro  _lpSPropTagArray_ y que estas propiedades aparezcan al principio de la lista de destinatarios. 
+- Asegúrese de que cada destinatario del parámetro  _lpRecipList_ tenga las propiedades enumeradas en el parámetro  _lpSPropTagArray_ y de que estas propiedades aparezcan al principio de la lista de destinatarios. 
     
 MAPI convierte los identificadores de entrada a corto plazo de cada destinatario en identificadores de entrada a largo plazo. Si es necesario, los identificadores de entrada a largo plazo de los destinatarios se recuperan del proveedor de libreta de direcciones adecuado y se solicitan propiedades adicionales.
   
-En una entrada de destinatario individual, las propiedades solicitadas se ordenan primero, seguidas de las propiedades que ya estaban presentes para la entrada. Si una o varias de las propiedades solicitadas en el parámetro  _lpSPropTagArray_ no son administradas por el proveedor de libreta de direcciones adecuado, sus tipos de propiedad se establecerán en PT_ERROR. Sus valores de propiedad se establecerán en MAPI_E_NOT_FOUND o en otro valor que da una razón más específica por la que las propiedades no están disponibles. Cada [estructura SPropValue](spropvalue.md) incluida en el parámetro  _lpRecipList_ debe asignarse por separado mediante las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIAllocateMore](mapiallocatemore.md) para que se pueda liberar individualmente. 
+En una entrada de destinatario individual, las propiedades solicitadas se ordenan primero, seguidas de las propiedades que ya estaban presentes para la entrada. Si el proveedor de libreta de direcciones adecuado no controla una o varias de las propiedades solicitadas en el parámetro  _lpSPropTagArray,_ sus tipos de propiedades se establecerán en PT_ERROR. Sus valores de propiedad se establecerán en MAPI_E_NOT_FOUND o en otro valor que da una razón más específica por la que las propiedades no están disponibles. Cada [estructura SPropValue](spropvalue.md) incluida en el parámetro  _lpRecipList_ debe asignarse por separado mediante las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIAllocateMore](mapiallocatemore.md) para que se pueda liberar individualmente. 
   
-Para obtener información acerca PT_ERROR, vea [Tipos de propiedad](property-types.md).
+Para obtener información sobre PT_ERROR, vea [Tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -4,10 +4,10 @@ manager: soliver
 ms.date: 01/13/2015
 ms.audience: Developer
 keywords:
-- form templates [infopath 2007], walkthroughs,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2003-compatible form templates, walkthroughs
+- plantillas de formulario [infopath 2007], tutoriales,plantillas de formulario [InfoPath 2007], creación de plantillas de formulario compatibles con InfoPath 2003, plantillas de formulario compatibles con InfoPath 2003, tutoriales
 localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
-description: En este tema se proporciona un tutorial sobre la creación de una plantilla de formulario de código administrado de InfoPath básica que funciona con el modelo de objetos compatible con InfoPath 2003 proporcionado por el espacio de nombres Microsoft.Office.Interop.InfoPath.SemiTrust.
+description: En este tema se proporciona un tutorial sobre cómo crear una plantilla de formulario de código administrado de InfoPath básica que funcione con el modelo de objetos compatible con InfoPath 2003 proporcionado por Microsoft. Office espacio de nombres.Interop.InfoPath.SemiTrust.
 ms.openlocfilehash: c559aedad5c62134c796196c63c1a84f70c4dc3e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33414343"
 ---
 # <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>Tutorial: Crear y depurar una plantilla de formulario básica con el modelo de objetos de InfoPath
 
-En este tema se proporciona un tutorial sobre la creación de una plantilla de formulario con código administrado de InfoPath básica que funciona con el modelo de objetos compatible con InfoPath 2003 proporcionado por el espacio de nombres [Microsoft.Office.Interop.InfoPath.SemiTrust.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 
+En este tema se proporciona un tutorial sobre cómo crear una plantilla de formulario de código administrado de InfoPath básica que funcione con el modelo de objetos compatible con InfoPath 2003 proporcionado por el espacio de nombres [Microsoft.Office.Interop.InfoPath.SemiTrust.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 
   
 ## <a name="hello-world"></a>Hola a todos
 
@@ -25,7 +25,7 @@ En el siguiente ejemplo, aprenderá a mostrar un cuadro de diálogo de alerta si
   
 ### <a name="create-a-new-infopath-form-template-that-works-with-the-infopath-2003-compatible-object-model"></a>Crear una plantilla de formulario de InfoPath que funciona con el modelo de objetos compatible con InfoPath 2003
 
-1. Cree una nueva plantilla de formulario que funcione con el modelo de objetos compatible con InfoPath 2003, tal como se describe en Crear una plantilla de formulario mediante el modelo de objetos de [InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
+1. Cree una nueva plantilla de formulario que funcione con el modelo de objetos compatible con InfoPath 2003, tal como se describe en Crear una plantilla de formulario con el modelo de objetos de [InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
     
 2. Asigne al proyecto de plantilla de formulario el nombre HelloWorld y guárdelo. 
     
@@ -43,7 +43,7 @@ En el siguiente ejemplo, aprenderá a mostrar un cuadro de diálogo de alerta si
     
 5. Haga clic en **Editar código del formulario**.
     
-   Se crea un esqueleto del controlador de eventos para el evento [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) y el foco se mueve al editor de código Visual Studio 2012. Para obtener más información sobre cómo trabajar con controladores de eventos, vea Agregar un controlador de eventos mediante el modelo de objetos de [InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
+   Se crea un esqueleto del controlador de eventos para el evento [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) y el foco se mueve al editor de código en Visual Studio 2012. Para obtener más información sobre cómo trabajar con controladores de eventos, vea [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
     
    Ya está todo preparado para agregar el código de formulario al controlador de eventos del botón.
     
@@ -77,7 +77,7 @@ En el siguiente ejemplo, aprenderá a mostrar un cuadro de diálogo de alerta si
    ```
 
    > [!NOTE]
-   > Como alternativa al método **Alert**, puede utilizar el método **MessageBox.Show** del espacio de nombres **System.Windows.Forms** para mostrar un cuadro de mensajes. Para ello, debe agregar una referencia al ensamblado System.Windows.Forms, agregar o a las directivas al principio del archivo de código y, a continuación, escribir una línea de código como la  `using System.Windows.Forms;`  `Imports System.Windows.Forms` siguiente:  `MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
+   > Como alternativa al método **Alert**, puede utilizar el método **MessageBox.Show** del espacio de nombres **System.Windows.Forms** para mostrar un cuadro de mensajes. Para ello, debe agregar una referencia al sistema. Windows. Ensamblado de formularios, agregue o a las directivas al principio del archivo de código y, a continuación, escriba una línea de `using System.Windows.Forms;` `Imports System.Windows.Forms` código como la siguiente:`MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
   
 2. Cambie a la ventana de modo de diseño de InfoPath y haga clic en el botón **Vista previa** de la ficha **Inicio**. 
     
@@ -109,7 +109,7 @@ En el siguiente ejemplo, aprenderá a mostrar un cuadro de diálogo de alerta si
     
 4. En el menú **Depurar**, haga clic en **Paso a paso por procedimientos** (o presione Mayús+F8) para continuar depurando el código paso a paso. 
     
-   Se **ejecuta** el código del método Alert y "Hello World!". se muestra en la ventana vista previa **de** InfoPath. 
+   El código del método **Alert** se ejecuta y aparece el aviso "Hello World" en la ventana **Vista previa** de InfoPath. 
     
 ## <a name="getting-the-current-users-name"></a>Obtener el nombre del usuario actual
 
@@ -166,9 +166,9 @@ Puede utilizar las clases de .NET Framework para obtener acceso a funciones de l
     
    El nombre de usuario debería aparecer ahora en el cuadro de texto Empleado. 
     
-Para obtener información acerca de cómo implementar una plantilla de formulario con código administrado, vea Implementar plantillas de formulario [de InfoPath con código.](how-to-deploy-infopath-form-templates-with-code.md) Para obtener información sobre el modelo de objetos de InfoPath y las tareas de programación comunes en plantillas de formulario con código administrado que funcionan con el modelo de objetos compatible con InfoPath 2003, vea Descripción del modelo de objetos de [InfoPath 2003](understanding-the-infopath-2003-object-model.md). 
+Para obtener información sobre cómo implementar una plantilla de formulario de código administrado, vea [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md). Para obtener información sobre el modelo de objetos de InfoPath y las tareas comunes de programación en plantillas de formulario de código administrado que funcionan con el modelo de objetos compatible con InfoPath 2003, vea [Understanding the InfoPath 2003 Object Model](understanding-the-infopath-2003-object-model.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Utilizar código de limpieza e inicialización mediante el modelo de objetos de InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
 - [Modelos de objetos compatibles con InfoPath 2003](infopath-2003-compatible-object-models.md)

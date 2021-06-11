@@ -32,11 +32,11 @@ Contiene la categoría de un formulario.
 |Propiedades asociadas:  <br/> |PR_FORM_CATEGORY, PR_FORM_CATEGORY_A, PR_FORM_CATEGORY_W  <br/> |
 |Identificador:  <br/> |0x3304  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Mapi común  <br/> |
+|Área:  <br/> |MAPI común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El nombre de categoría se define mediante una aplicación cliente de forma que sea adecuada para la aplicación. 
+El nombre de categoría lo define una aplicación cliente de una manera adecuada para la aplicación. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

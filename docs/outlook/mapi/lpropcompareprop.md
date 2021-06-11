@@ -40,19 +40,19 @@ LONG LPropCompareProp(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSPropValueA_
   
-> [entrada] Puntero a una [estructura SPropValue](spropvalue.md) que define el primer valor de propiedad que se va a comparar. 
+> [in] Puntero a una [estructura SPropValue](spropvalue.md) que define el primer valor de propiedad que se va a comparar. 
     
  _lpSPropValueB_
   
-> [entrada] Puntero a una **estructura SPropValue** que define el segundo valor de propiedad que se va a comparar. 
+> [in] Puntero a una **estructura SPropValue** que define el segundo valor de propiedad que se va a comparar. 
     
 ## <a name="return-value"></a>Valor devuelto
 
- **LPropCompareProp** devuelve uno de los siguientes valores para la mayoría de los tipos de propiedad: 
+ **LPropCompareProp** devuelve uno de los siguientes valores para la mayoría de los tipos de propiedades: 
   
 - Menor que cero si el valor indicado por el parámetro _lpSPropValueA_ es menor que el indicado por el parámetro _lpSPropValueB._ 
     
@@ -60,13 +60,13 @@ LONG LPropCompareProp(
     
 - Cero si el valor indicado por  _lpSPropValueA_ es igual al valor indicado por  _lpSPropValueB_. 
     
-Para los tipos de propiedades que no tienen orden intrínseco, como los tipos booleanos o de error, la función **LPropCompareProp** devuelve un valor no definido si los dos valores de propiedad no son iguales. Este valor no definido es distinto de cero y es coherente en todas las llamadas. 
+Para los tipos de propiedad que no tienen orden intrínseco, como booleanos o tipos de error, la función **LPropCompareProp** devuelve un valor no definido si los dos valores de propiedad no son iguales. Este valor no definido es distinto de cero y coherente entre llamadas. 
   
 ## <a name="remarks"></a>Comentarios
 
 Use la **función LPropCompareProp** solo si los tipos de las dos propiedades que se van a comparar son los mismos. 
   
-Antes de llamar a **LPropCompareProp**, una aplicación cliente o un proveedor de servicios debe recuperar primero las propiedades para comparar con una llamada al método [IMAPIProp::GetProps.](imapiprop-getprops.md) Cuando un cliente o proveedor llama a **LPropCompareProp**, la función examina primero las etiquetas de propiedad para asegurarse de que la comparación de valores de propiedad es válida. A continuación, la función compara los valores de propiedad y devuelve un valor adecuado. 
+Antes de llamar a **LPropCompareProp,** una aplicación cliente o un proveedor de servicios debe recuperar primero las propiedades para compararla con una llamada al método [IMAPIProp::GetProps.](imapiprop-getprops.md) Cuando un cliente o proveedor llama a **LPropCompareProp**, la función examina primero las etiquetas de propiedad para asegurarse de que la comparación de valores de propiedad es válida. A continuación, la función compara los valores de la propiedad y devuelve un valor adecuado. 
   
 Si los valores de propiedad no son iguales, **LPropCompareProp** determina cuál es el mayor. Las propiedades que **compara LPropCompareProp** no tienen que pertenecer al mismo objeto. 
   

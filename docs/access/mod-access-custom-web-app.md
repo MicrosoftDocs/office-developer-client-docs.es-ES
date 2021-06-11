@@ -23,9 +23,9 @@ Devuelve el resto de un número dividido por otro.
   
 ## <a name="syntax"></a>Sintaxis
 
- *divisor de mod*  *de dividendos* 
+ *divisor de dividend* **Mod**  
   
- *pago de dividendos*  Es la expresión numérica que se va a dividir. 
+ *dividendo*  Es la expresión numérica que se va a dividir. 
   
  *Divisor*  Es la expresión numérica por la que se divide el dividendo. 
   

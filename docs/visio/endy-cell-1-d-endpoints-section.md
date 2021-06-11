@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm340
 localization_priority: Normal
 ms.assetid: 3fbfa4bc-7792-b6d9-d549-4602d252c293
-description: Representa la coordenada y del extremo de la forma 1D, en relación con el origen de su forma principal.
+description: Representa la coordenada y del extremo de la forma 1D, en relación con el origen de su elemento primario.
 ms.openlocfilehash: e75355ad333b7f6398618c974f7c49e5c26c41d6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33414196"
 ---
 # <a name="endy-cell-1-d-endpoints-section"></a>Celda EndY (Sección de extremos 1D)
 
-Representa la  *coordenada y*  del extremo de la forma 1D, en relación con el origen de su forma principal. 
+Representa la  *coordenada y*  del extremo de la forma 1D, en relación con el origen de su elemento primario. 
   
 ## <a name="remarks"></a>Comentarios
 

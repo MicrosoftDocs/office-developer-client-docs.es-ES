@@ -25,10 +25,10 @@ ms.locfileid: "33412390"
   
 1. Cree una matriz de etiquetas de propiedad de tamaño con las propiedades de los miembros que desea recuperar, como **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) y **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
     
-2. Llame [a IAddrBook::OpenEntry](iaddrbook-openentry.md) para abrir la lista de distribución. 
+2. Llama [a IAddrBook::OpenEntry](iaddrbook-openentry.md) para abrir la lista de distribución. 
     
-3. Llama al método **IABContainer::GetContentsTable** de la lista de distribución para obtener acceso a su tabla de contenido. 
+3. Llame al método **IABContainer::GetContentsTable** de la lista de distribución para obtener acceso a su tabla de contenido. 
     
-4. Llame [a HrQueryAllRows](hrqueryallrows.md) para recuperar todas las filas de la tabla que representan a los miembros de la lista de distribución. 
+4. Llame [a HrQueryAllRows](hrqueryallrows.md) para recuperar todas las filas de la tabla que representan los miembros de la lista de distribución. 
     
 

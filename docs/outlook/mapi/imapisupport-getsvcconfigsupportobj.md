@@ -25,7 +25,7 @@ ms.locfileid: "33411312"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea un objeto de soporte técnico del servicio de mensajes.
+Crea un objeto de soporte técnico de servicio de mensajes.
   
 ```cpp
 HRESULT GetSvcConfigSupportObj(
@@ -34,7 +34,7 @@ HRESULT GetSvcConfigSupportObj(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -48,15 +48,15 @@ HRESULT GetSvcConfigSupportObj(
 
 S_OK 
   
-> El objeto de compatibilidad con la configuración se creó correctamente.
+> El objeto de soporte de configuración se creó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::GetSvcConfigSupportObj** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios llaman a **GetSvcConfigSupportObj para** crear un objeto de compatibilidad de configuración para pasar a una función de punto de entrada del servicio de mensajes. 
+El **método IMAPISupport::GetSvcConfigSupportObj** se implementa para todos los objetos de soporte técnico. Los proveedores de servicios llaman a **GetSvcConfigSupportObj para** crear un objeto de soporte de configuración que se pase a una función de punto de entrada de servicio de mensajes. 
   
-Una función de punto de entrada del servicio de mensajes se basa en el prototipo [MSGSERVICEENTRY](msgserviceentry.md) y la llaman los métodos de la [interfaz IMsgServiceAdmin.](imsgserviceadminiunknown.md) Una función de punto de entrada del servicio de mensajes permite que los servicios de mensajes se configuren a sí mismos o realicen otras acciones cuando se cambia el perfil. Las funciones de punto de entrada del servicio de mensajes pueden admitir cambios de configuración mostrando una hoja de propiedades o a través de una matriz de valores de propiedad pasada al método [IMsgServiceAdmin::ConfigureMsgService.](imsgserviceadmin-configuremsgservice.md) 
+Una función de punto de entrada de servicio de mensajes se basa en el prototipo [MSGSERVICEENTRY](msgserviceentry.md) y se llama mediante métodos de la [interfaz IMsgServiceAdmin.](imsgserviceadminiunknown.md) Una función de punto de entrada de servicio de mensajes permite a los servicios de mensajes configurarse a sí mismos o realizar otras acciones cuando se cambia el perfil. Las funciones de punto de entrada del servicio de mensajes pueden admitir cambios de configuración mostrando una hoja de propiedades o a través de una matriz de valores de propiedad pasada al método [IMsgServiceAdmin::ConfigureMsgService.](imsgserviceadmin-configuremsgservice.md) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

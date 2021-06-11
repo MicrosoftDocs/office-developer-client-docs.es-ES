@@ -25,13 +25,13 @@ ms.locfileid: "33415792"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica los elementos del Protocolo de acceso al correo de Internet (IMAP) marcados para su eliminación.
+Indica los elementos del Protocolo de acceso a correo de Internet (IMAP) marcados para su eliminación.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidImapDeleted  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008570  <br/> |
+|Id. largo (LID):  <br/> |0x00008570  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |IMAP  <br/> |
    
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

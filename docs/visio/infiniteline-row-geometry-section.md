@@ -24,10 +24,10 @@ Las filas InfiniteLine contienen las celdas siguientes.
   
 |**Cell**|**Descripción**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordenada  *x*  de un punto de la línea infinita; emparejado con  *coordenada y*  representada por la celda Y.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Coordenada  *y*  de un punto de la línea infinita; emparejado con coordenada  *x*  representada por la celda X.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |Coordenada  *x*  de un punto de la línea infinita; emparejado con  *coordenada y*  representada por la celda B.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |Coordenada  *y*  de un punto en una línea infinita; emparejado con coordenada  *x*  representada por la celda A.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Una coordenada  *x*  de un punto en la línea infinita; emparejado con  *y*  -coordinate representado por la celda Y.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Una coordenada  *y*  de un punto en la línea infinita; emparejado con  *x*  -coordinate representado por la celda X.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |Una coordenada  *x*  de un punto en la línea infinita; emparejado con  *y*  -coordinate representado por la celda B.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |Una coordenada  *y*  de un punto en una línea infinita; emparejado con  *x*  -coordinate representado por la celda A.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

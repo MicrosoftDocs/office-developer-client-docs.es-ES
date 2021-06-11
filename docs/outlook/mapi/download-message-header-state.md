@@ -1,5 +1,5 @@
 ---
-title: Descargar estado del encabezado del mensaje
+title: Descargar estado de encabezado de mensaje
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417122"
 ---
-# <a name="download-message-header-state"></a>Descargar estado del encabezado del mensaje
+# <a name="download-message-header-state"></a>Descargar estado de encabezado de mensaje
 
   
   
@@ -26,20 +26,20 @@ ms.locfileid: "33417122"
 |||
 |:-----|:-----|
 |Identificador de estado:  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |
-|Estructura de datos relacionados:  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
+|Estructura de datos relacionada:  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
 |Desde este estado:  <br/> |[Estado inactivo](idle-state.md) <br/> |
 |A este estado:  <br/> |Estado inactivo  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que va de un estado a otro debe volver al primero desde el segundo. 
+> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que sale de un estado a otro debe volver al primero desde el segundo. 
   
-## <a name="description"></a>Description
+## <a name="description"></a>Descripción
 
 Durante este estado, el cliente actualiza el encabezado de un mensaje en un almacén local. El almacén local entra en este estado en **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** y sale cuando se llama a **[IOSTX::SyncHdrEnd.](iostx-synchdrend.md)** Durante este estado, Outlook inicializa los miembros de la estructura de datos **HDRSYNC** asociada con información sobre el encabezado de un mensaje. El cliente primero descarga el elemento de mensaje completo del servidor y, a continuación, actualiza el encabezado del elemento de mensaje localmente. 
   
-Cuando finaliza la sincronización, el cliente establece los resultados de la descarga. El almacén local vuelve al estado inactivo.
+Cuando finaliza la sincronización, el cliente establece los resultados de descarga. El almacén local vuelve al estado de inactividad.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

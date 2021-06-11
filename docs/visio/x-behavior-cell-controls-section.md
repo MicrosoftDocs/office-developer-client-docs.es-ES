@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251285
 localization_priority: Normal
 ms.assetid: 82423d08-b6ce-0f23-8b61-354c3e5f323e
-description: Controla el tipo de comportamiento que mostrará la coordenada x del controlador después de mover el controlador.
+description: Controla el tipo de comportamiento que la coordenada x del controlador de control mostrará después de mover el controlador.
 ms.openlocfilehash: 50b08664deec69659ff70a0bf9a17a148ed0e110
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,14 +18,14 @@ ms.locfileid: "33413951"
 ---
 # <a name="x-behavior-cell-controls-section"></a>Celda X Behavior (Sección de controles)
 
-Controla el tipo de comportamiento que mostrará la coordenada  *x*  del controlador después de mover el controlador. 
+Controla el tipo de comportamiento que la coordenada  *x*  del controlador de control mostrará después de mover el controlador. 
   
 |**Valor**|**Comportamiento**|**Definición**|**Constante de automatización**|
 |:-----|:-----|:-----|:-----|
 | 0  <br/> | Proporcional  <br/> | El controlador puede moverse; también se mueve de forma proporcional con la forma al estirarla.  <br/> |**visCtlProportional** <br/> |
-| 1   <br/> | Proporcional bloqueado  <br/> | El controlador se mueve en proporción con la forma, pero no es posible moverlo por sí mismo.  <br/> |**visCtlLocked** <br/> |
-| 2   <br/> | Desplazamiento respecto al borde izquierdo  <br/> | El desplazamiento del controlador es constante respecto al lado izquierdo de la forma.  <br/> |**visCtlOffsetMin** <br/> |
-| 3   <br/> | Desplazamiento respecto al centro  <br/> | El desplazamiento del controlador es constante respecto al centro de la forma.  <br/> |**visCtlOffsetMid** <br/> |
+| 1  <br/> | Proporcional bloqueado  <br/> | El controlador se mueve en proporción con la forma, pero no es posible moverlo por sí mismo.  <br/> |**visCtlLocked** <br/> |
+| 2  <br/> | Desplazamiento respecto al borde izquierdo  <br/> | El desplazamiento del controlador es constante respecto al lado izquierdo de la forma.  <br/> |**visCtlOffsetMin** <br/> |
+| 3  <br/> | Desplazamiento respecto al centro  <br/> | El desplazamiento del controlador es constante respecto al centro de la forma.  <br/> |**visCtlOffsetMid** <br/> |
 | 4   <br/> | Desplazamiento respecto al borde derecho  <br/> | El desplazamiento del controlador es constante respecto al lado derecho de la forma.  <br/> |**visCtlOffsetMax** <br/> |
 | 5   <br/> | Proporcional, oculto  <br/> | El mismo efecto que 0, pero el controlador no es visible.  <br/> |**visCtlProportionalHidden** <br/> |
 | 6   <br/> | Proporcional bloqueado, oculto  <br/> | El mismo efecto que 1, pero el controlador no es visible.  <br/> |**visCtlLockedHiddenv** <br/> |
@@ -39,7 +39,7 @@ Para obtener una referencia a la celda X Behavior por su nombre desde otra fórm
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Controles.  *nombre*  . Controles XConwhere.  *es*  el nombre de la fila de controles.  <br/> |
+| Nombre de celda:  <br/> | Controles.  *nombre*  . Controles XConwhere.  *nombre*  es el nombre de la fila de controles.  <br/> |
    
 Para obtener una referencia desde un programa a la celda X Behavior por su índice, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

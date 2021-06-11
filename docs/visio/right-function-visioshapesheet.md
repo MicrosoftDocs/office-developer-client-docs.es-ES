@@ -33,13 +33,13 @@ RIGHT(** *text* ** [, ** *num_chars_opt* ** ])
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 
 El valor de  _num_chars_opt_ debe ser mayor o igual que cero (0). 
   
-Si  _num_chars_opt_ mayor que la longitud del texto, RIGHT devuelve todo el texto. Si  _num_chars_opt_ se omite, se supone que es 1. 
+Si  _num_chars_opt_ es mayor que la longitud del texto, RIGHT devuelve todo el texto. Si  _num_chars_opt_ se omite, se supone que es 1. 
   
 ## <a name="example"></a>Ejemplo
 

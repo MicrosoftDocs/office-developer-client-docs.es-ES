@@ -25,7 +25,7 @@ ms.locfileid: "33417129"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si se prohíbe que un agente de transferencia de mensajes (MTA) haga conversiones de texto de mensajes que pierdan información. 
+Contiene TRUE si se prohíbe a un agente de transferencia de mensajes (MTA) realizar conversiones de texto de mensajes que pierdan información. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene TRUE si se prohíbe que un agente de transferencia de mensajes (MTA) ha
    
 ## <a name="remarks"></a>Comentarios
 
-Un ejemplo del tipo de conversión prohibido es la asignación de "pérdida" de Unicode (dos bytes por carácter) a un juego de caracteres de un byte. 
+Un ejemplo del tipo de conversión prohibido es la asignación de "pérdida" de Unicode (dos bytes por carácter) a un conjunto de caracteres de un solo byte. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

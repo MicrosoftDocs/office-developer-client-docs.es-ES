@@ -25,7 +25,7 @@ ms.locfileid: "33410360"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Modifica la contraseña de un proveedor de servicios sin mostrar una interfaz de usuario. Opcionalmente, este método es compatible con objetos de estado que implementan los proveedores de servicios.
+Modifica la contraseña de un proveedor de servicios sin mostrar una interfaz de usuario. Este método se admite opcionalmente en objetos de estado que los proveedores de servicios implementan.
   
 ```cpp
 HRESULT ChangePassword(
@@ -35,23 +35,23 @@ HRESULT ChangePassword(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpOldPass_
   
-> [entrada] Un puntero a la contraseña antigua.
+> [in] Puntero a la contraseña antigua.
     
  _lpNewPass_
   
-> [entrada] Un puntero a la nueva contraseña.
+> [in] Puntero a la nueva contraseña.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el formato de las contraseñas. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el formato de las contraseñas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las contraseñas están en formato Unicode. Si no MAPI_UNICODE marca, las contraseñas están en formato ANSI.
+> Las contraseñas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las contraseñas están en formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -65,19 +65,19 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NO_SUPPORT 
   
-> El objeto de estado no admite esta operación, como se indica por la ausencia de la marca STATUS_CHANGE_PASSWORD en la propiedad **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) del objeto de estado.
+> El objeto status no admite esta operación, como se indica por la ausencia de la marca STATUS_CHANGE_PASSWORD en la propiedad PR_RESOURCE_METHODS **(** [PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) del objeto de estado.
     
 ## <a name="remarks"></a>Comentarios
 
-No todos los objetos de estado admiten **el método IMAPIStatus::ChangePassword.** Solo lo admiten los proveedores de servicios que requieren que los clientes escriban una contraseña. Ninguno de los objetos de estado que mapi implementa admite la operación de cambio de contraseña. 
+No todos los objetos de estado admiten el método **IMAPIStatus::ChangePassword.** Solo son compatibles con los proveedores de servicios que requieren que los clientes escriban una contraseña. Ninguno de los objetos de estado que implementa MAPI admiten la operación de cambio de contraseña. 
   
- **ChangePassword** modifica una contraseña mediante programación, sin la interacción del usuario. 
+ **ChangePassword** modifica una contraseña mediante programación, sin interacción del usuario. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Los proveedores de transporte remoto **implementan ChangePassword** como se especifica aquí. No hay consideraciones especiales. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm240
 localization_priority: Normal
 ms.assetid: d951c57d-2c22-0289-35af-44e3c2877b2c
-description: Determina el componente y para el vector de alineación necesario de un punto de conexión correspondiente. También se utiliza para orientar el segmento adjunto de un conector dinámico. Esta celda acepta valores de punto flotante.
+description: Determina el y -component para el vector de alineación necesario de un punto de conexión que coincida. También se utiliza para orientar el segmento adjunto de un conector dinámico. Esta celda acepta valores de punto flotante.
 ms.openlocfilehash: b0dc3c9f7e1a9e87b2ecdace21c8fa1658b1388d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33417094"
 ---
 # <a name="diry--b-cell-connection-points-section"></a>Celda DirY / B (Sección de puntos de conexión)
 
-Determina el componente  *y para*  el vector de alineación necesario de un punto de conexión correspondiente. También se utiliza para orientar el segmento adjunto de un conector dinámico. Esta celda toma valores de punto flotante. 
+Determina el  *y*  -component para el vector de alineación necesario de un punto de conexión que coincida. También se utiliza para orientar el segmento adjunto de un conector dinámico. Esta celda toma valores de punto flotante. 
   
 ## <a name="remarks"></a>Comentarios
 

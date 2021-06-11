@@ -24,7 +24,7 @@ Informa al conector de clúster de que se ha cancelado un cálculo de Excel y, p
 int CancelOutstandingRequests(int SessionId)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _SessionID_
   
@@ -32,13 +32,13 @@ _SessionID_
     
 ## <a name="return-value"></a>Valor devuelto
 
-**xlHpcRetSuccess** si el  _argumento SessionId_ es válido; **xlHpcRetInvalidSessionId** si el  _argumento SessionId_ no es válido; **xlHpcRetCallFailed** en otros errores. 
+**xlHpcRetSuccess** si el  _argumento SessionId_ es válido; **xlHpcRetInvalidSessionId** si el  _argumento SessionId_ no es válido; **xlHpcRetCallFailed en** otros errores. 
   
 ## <a name="remarks"></a>Comentarios
 
-Los implementadores deben detener todos los procesos de la sesión para mejorar el rendimiento, ya que Excel descartará los resultados recibidos después de esta llamada.
+Los implementadores deben detener todos los procesos de la sesión para mejorar el rendimiento, ya que los resultados recibidos después de esta llamada se descartarán Excel.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Funciones de conectores clúster de Excel](excel-cluster-connector-functions.md)
 

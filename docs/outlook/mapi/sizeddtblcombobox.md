@@ -34,7 +34,7 @@ Crea una estructura con nombre que incluye una estructura [DTBLCOMBOBOX](dtblcom
 SizedDtblComboBox (n, u)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _n_
   
@@ -46,7 +46,7 @@ _s_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **SizedDtblComboBox** permite definir un cuadro combinado cuando se conoce la longitud de la cadena de caracteres habilitados. La nueva estructura se crea con los siguientes miembros: 
+La **macro SizedDtblComboBox** permite definir un cuadro combinado cuando se conoce la longitud de la cadena de caracteres habilitada. La nueva estructura se crea con los siguientes miembros: 
   
 ```cpp
 DTBLCOMBOBOX dtblcombobox;
@@ -61,7 +61,7 @@ lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [DTBLCOMBOBOX](dtblcombobox.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

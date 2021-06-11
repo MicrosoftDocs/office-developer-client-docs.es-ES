@@ -40,18 +40,18 @@ FILETIME FtMulDwDw(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _Multiplicand_
   
-> [entrada] Palabra doble que contiene el entero de 32 bits sin signo que se multiplicará por el valor del parámetro _Multiplicador._ 
+> [in] Palabra doble que contiene el entero de 32 bits sin signo que se va a multiplicar por el valor del parámetro _Multiplier._ 
     
  _Multiplicador_
   
-> [entrada] Palabra doble que contiene el multiplicador entero de 32 bits sin signo.
+> [in] Palabra doble que contiene el multiplicador entero sin signo de 32 bits.
     
 ## <a name="return-value"></a>Valor devuelto
 
-La **función FtMulDwDw devuelve** una estructura [FILETIME](filetime.md) que contiene el producto de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
+La **función FtMulDwDw** devuelve una [estructura FILETIME](filetime.md) que contiene el producto de los dos enteros. Los dos parámetros de entrada permanecen sin cambios. 
   
 

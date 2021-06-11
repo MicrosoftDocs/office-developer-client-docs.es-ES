@@ -22,7 +22,7 @@ Devuelve el componente rojo de un color.
   
 ## <a name="syntax"></a>Sintaxis
 
-RED(** *expression* ** ) 
+RED(** *expresión* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

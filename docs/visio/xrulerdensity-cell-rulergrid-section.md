@@ -1,5 +1,5 @@
 ---
-title: Celda XRulerDensity (Sección &amp; de cuadrícula de regla)
+title: Celda XRulerDensity (sección Cuadrícula &amp; de regla)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411473"
 ---
-# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Celda XRulerDensity (Sección &amp; de cuadrícula de regla)
+# <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Celda XRulerDensity (sección Cuadrícula &amp; de regla)
 
 Especifica las subdivisiones horizontales de la regla en la página.
   
@@ -29,7 +29,7 @@ Especifica las subdivisiones horizontales de la regla en la página.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción **Subdivisiones** horizontales del  cuadro de diálogo Cuadrícula de regla (en la ficha Ver, haga clic en **la flecha** Mostrar). **&amp;** 
+Esta celda corresponde a la opción **Subdivisiones** horizontales del cuadro de diálogo Cuadrícula de regla (en la ficha **Ver,** haga clic en **la flecha** Mostrar). **&amp;** 
   
 Para obtener una referencia a la celda XRulerDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

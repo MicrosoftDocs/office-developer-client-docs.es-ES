@@ -25,13 +25,13 @@ ms.locfileid: "33413832"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define un nivel de compresión que se aplicará a los datos adjuntos de la imagen.
+Define un nivel de compresión que se aplicará a los datos adjuntos de imagen.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidImgAttchmtsCompressLevel  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008593  <br/> |
+|Id. largo (LID):  <br/> |0x00008593  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
@@ -63,13 +63,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

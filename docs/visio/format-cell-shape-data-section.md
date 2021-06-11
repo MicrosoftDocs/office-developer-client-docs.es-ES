@@ -24,13 +24,13 @@ Especifica el formato de un elemento de datos de formas que puede ser una cadena
 
 |**Tipo de elemento de datos de formas**|**Valor**|**Contenido de la celda Format**|
 |:-----|:-----|:-----|
-| String  <br/> | 0  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
-| Lista fija  <br/> | 1   <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
-| Número  <br/> | 2   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Cadena  <br/> | 0  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Lista fija  <br/> | 1  <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
+| Número  <br/> | 2  <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
 | Lista variable  <br/> | 4   <br/> | Elementos que aparecen en la lista, separados mediante signos de punto y coma.  <br/> |
 | Fecha u hora  <br/> | 5   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
 | Duración  <br/> | 6   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
-| Divisa  <br/> | 7   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
+| Moneda  <br/> | 7   <br/> | Imagen de formato adecuado para el tipo de datos.  <br/> |
    
 Como ejemplo para especificar una imagen de formato adecuado para el tipo de datos, la imagen de formato "# #/4 UU" muestra el número 12,43 pulgadas como 12 2/4 PULGADAS. Para obtener más información sobre cómo especificar una imagen de formato, vea [Imágenes de formato](about-format-pictures.md).
   

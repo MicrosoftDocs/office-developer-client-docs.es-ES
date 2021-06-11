@@ -19,7 +19,7 @@ ms.locfileid: "33414924"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para sincronizar una jerarquía de carpetas durante el estado [de la jerarquía de carga.](upload-hierarchy-state.md)
+Información para sincronizar una jerarquía de carpetas durante el [estado de jerarquía de carga](upload-hierarchy-state.md).
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -37,27 +37,27 @@ struct UPHIER
 
 _ulFlags_
   
-> [entrada] Marcas para modificar el comportamiento al sincronizar la jerarquía de carpetas.
+> [in] Marca para modificar el comportamiento al sincronizar la jerarquía de carpetas.
     
   - UPH_OK
     
-    - [entrada] La carga se ha realizado correctamente. El cliente establece esto después de cargar correctamente la información en el servidor. Al ver esta marca, Outlook borra la información de contabilidad interna que indicaba la jerarquía de carpetas necesaria para la actualización. 
+    - [in] Upload se ha realizado correctamente. El cliente establece esto después de cargar correctamente información en el servidor. Al ver esta marca, Outlook borra la información de contabilidad interna que indicaba la jerarquía de carpetas necesaria para actualizarse. 
     
     - El cliente pasa el HRESULT si la carga no se ha realizado correctamente.
     
 _pstmReserved_
   
-> [salida] Este miembro está reservado para uso interno de Outlook y no es compatible.
+> [salida] Este miembro está reservado para Outlook uso interno y no es compatible.
     
 _iEnt_
   
-> [salida] Índice para realizar un seguimiento de la sincronización del número de carpetas especificadas por  *cEnt*  . 
+> [salida] Index para realizar un seguimiento de la sincronización del número de carpetas especificadas por  *cEnt*  . 
     
 _cEnt_
   
 > [salida] Número de carpetas que no están sincronizadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

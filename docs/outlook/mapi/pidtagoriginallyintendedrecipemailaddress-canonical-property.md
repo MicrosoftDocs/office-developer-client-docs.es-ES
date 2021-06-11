@@ -25,7 +25,7 @@ ms.locfileid: "33411375"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la dirección de correo electrónico del destinatario originalmente deseado de un mensaje de destino automático.
+Contiene la dirección de correo electrónico del destinatario original de un mensaje autoaforado.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contiene la dirección de correo electrónico del destinatario originalmente des
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades son ejemplos de las propiedades de dirección para el destinatario del mensaje originalmente previsto. Deben ser establecidas por el agente automático que reenvía el mensaje.
+Estas propiedades son ejemplos de las propiedades de dirección del destinatario del mensaje originalmente previsto. Deben ser establecidas por el agente automático que reenvía el mensaje.
   
-Estas propiedades corresponden al atributo de informe por destinatario X.400.
+Estas propiedades corresponden al atributo X.400 report per-recipient.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

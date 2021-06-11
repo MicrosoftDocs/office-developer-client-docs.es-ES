@@ -25,7 +25,7 @@ ms.locfileid: "33414539"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Busca un equivalente de ruta de acceso de convención de nomenclatura universal (UNC) a la ruta de acceso local especificada.
+Busca un equivalente de ruta de acceso de convención de nomenclatura universal (UNC) a la ruta de acceso local determinada.
   
 |||
 |:-----|:-----|
@@ -41,19 +41,19 @@ SCODE ScUNCFromLocalPath(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _szLocal_
   
-> [entrada] Una ruta de acceso en el formato [ _unidad:_] \[ _ruta_ de acceso] de un archivo o directorio.
+> [in] Ruta de acceso con el formato [ _unidad:_] \[ _ruta_] de un archivo o directorio.
     
  _szUNC_
   
-> [salida] Una ruta de acceso con el formato [ servidor ] compartir ] ruta de acceso] del mismo archivo \\ o directorio que para el parámetro  \[  \[  _szLocal._ 
+> [salida] Una ruta de acceso con el formato [ servidor ] compartir ] ruta ] del \\ mismo archivo o directorio que para el parámetro  \[  \[  _szLocal._ 
     
  _cchUNC_
   
-> [entrada] Tamaño del búfer de la cadena de salida.
+> [in] Tamaño del búfer de la cadena de salida.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -73,7 +73,7 @@ S_FALSE
   
 > La ruta de acceso local ya era una cadena UNC.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

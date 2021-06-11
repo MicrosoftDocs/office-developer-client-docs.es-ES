@@ -23,9 +23,9 @@ Determina qué conectores dinámicos separa la aplicación si se enrutan de mane
 |**Valor**|**Ajuste**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Líneas no relacionadas  <br/> |**visPLOLineAdjustFromNotRelated** <br/> |
-|1   <br/> |Todas las líneas  <br/> |**visPLOLineAdjustFromAll** <br/> |
-|2   <br/> |Sin líneas  <br/> |**visPLOLineAdjustFromNone** <br/> |
-|3   <br/> |Predeterminado para el estilo de enrutamiento  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
+|1  <br/> |Todas las líneas  <br/> |**visPLOLineAdjustFromAll** <br/> |
+|2  <br/> |Sin líneas  <br/> |**visPLOLineAdjustFromNone** <br/> |
+|3  <br/> |Predeterminado para el estilo de enrutamiento  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

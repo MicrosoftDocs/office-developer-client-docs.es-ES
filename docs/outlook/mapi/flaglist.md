@@ -40,7 +40,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cFlags**
   
@@ -48,7 +48,7 @@ typedef struct
     
  **ulFlags**
   
-> Matriz de marcas que proporciona el estado de la operación de resolución de nombres para un destinatario. Se pueden establecer las siguientes marcas:
+> Una matriz de marcas que proporciona el estado de la operación de resolución de nombres para un destinatario. Se pueden establecer las siguientes marcas:
     
 MAPI_AMBIGUOUS 
   
@@ -64,9 +64,9 @@ MAPI_UNRESOLVED
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura FLAGLIST** se usa como parámetro para [IABContainer::ResolveNames](iabcontainer-resolvenames.md). Cada uno de los destinatarios que se va a resolver se incluye en una [estructura ADRLIST.](adrlist.md) Cuando el contenedor de la libreta de direcciones intenta resolver cada destinatario, establece la marca adecuada en la entrada correspondiente en la **estructura FLAGLIST.** Todas las entradas de la estructura **FLAGLIST** están en el mismo orden que las entradas de la **estructura ADRLIST.** Esto facilita la asociación de una configuración de marca con un destinatario. 
+La **estructura FLAGLIST** se usa como parámetro para [IABContainer::ResolveNames](iabcontainer-resolvenames.md). Cada uno de los destinatarios que se va a resolver se incluye en una [estructura ADRLIST.](adrlist.md) A medida que el contenedor de libreta de direcciones intenta resolver cada destinatario, establece la marca adecuada en la entrada correspondiente en la **estructura FLAGLIST.** Todas las entradas de la estructura **FLAGLIST** están en el mismo orden que las entradas de la **estructura ADRLIST.** Esto facilita la asociación de una configuración de marca con un destinatario. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -43,25 +43,25 @@ SCODE ScRelocNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cntf_
   
-> [entrada] Recuento de [estructuras notification](notification.md) en la matriz indicada por el _parámetro rgntf._ 
+> [in] Recuento de [estructuras NOTIFICATION](notification.md) en la matriz indicada por el _parámetro rgntf._ 
     
  _rgntf_
   
-> [entrada] Puntero a la matriz de **estructuras notification** que definen las notificaciones de eventos dentro de las cuales se ajustará un puntero. 
+> [in] Puntero a la matriz de estructuras **NOTIFICATION** que definen las notificaciones de eventos en las que se va a ajustar un puntero. 
     
  _pvBaseOld_
   
-> [entrada] Puntero a la dirección base original de la matriz indicada por el _parámetro rgntf._ 
+> [in] Puntero a la dirección base original de la matriz indicada por el _parámetro rgntf._ 
     
  _pvBaseNew_
   
-> [entrada] Ubicación en la que **ScRelocNotifications** escribe la nueva dirección base de la matriz indicada por el _parámetro rgntf._ 
+> [in] La ubicación en la **que ScRelocNotifications** escribe la nueva dirección base de la matriz indicada por el _parámetro rgntf._ 
     
- _indeste_
+ _pcb_
   
 > [salida] Puntero al tamaño, en bytes, de la matriz indicada por el _parámetro pvBaseNew._ 
     
@@ -69,7 +69,7 @@ SCODE ScRelocNotifications(
 
 S_OK
   
-> Un puntero se ha ajustado correctamente.
+> Un puntero se ajustó correctamente.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -77,9 +77,9 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentarios
 
-El  _parámetro para_ la función **ScRelocNotifications** es opcional. 
+El  _parámetro pcb_ de la función **ScRelocNotifications** es opcional. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

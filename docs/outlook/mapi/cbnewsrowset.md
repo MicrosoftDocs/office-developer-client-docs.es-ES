@@ -25,7 +25,7 @@ ms.locfileid: "33411893"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes que se asignarán a una nueva estructura [SRowSet](srowset.md) que contiene un número especificado de filas representadas por estructuras [SRow.](srow.md) 
+Calcula el número de bytes que se asignarán para una nueva estructura [SRowSet](srowset.md) que contiene un número especificado de filas representadas por estructuras [de SRow.](srow.md) 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Calcula el número de bytes que se asignarán a una nueva estructura [SRowSet](s
 CbNewSRowSet (_crow)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _ _rejo_
+ _ _crow_
   
-> Recuento de **estructuras SRow** que indican el número de filas que se incluirán en la nueva **estructura SRowSet.** 
+> Recuento de **estructuras SRow** que indican el número de filas que se incluirán en la nueva **estructura de SRowSet.** 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

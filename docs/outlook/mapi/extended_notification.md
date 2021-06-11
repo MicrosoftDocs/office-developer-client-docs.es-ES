@@ -41,7 +41,7 @@ typedef struct _EXTENDED_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulEvent**
   
@@ -49,29 +49,29 @@ typedef struct _EXTENDED_NOTIFICATION
     
  **cb**
   
-> Recuento de bytes en los parámetros específicos del evento a los que apunta **pbEventParameters**. 
+> Recuento de bytes en los parámetros específicos del evento señalados por **pbEventParameters**. 
     
  **pbEventParameters**
   
-> Puntero a parámetros específicos del evento. El tipo de parámetros que se usan depende del valor del **miembro ulEvent;** estos parámetros los documenta el proveedor que emitió el evento. 
+> Puntero a parámetros específicos del evento. El tipo de parámetros que se usan depende del valor del **miembro ulEvent;** el proveedor que emitió el evento documenta estos parámetros. 
     
 ## <a name="remarks"></a>Comentarios
 
-La **EXTENDED_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de** información de la [estructura notification.](notification.md) Cuando el miembro  **de** información de una estructura notification contiene una estructura **EXTENDED_NOTIFICATION,** el miembro **ulEventType** de la estructura **NOTIFICATION** se establece en _fnevExtended_.
+La **EXTENDED_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el **miembro de información** de la estructura [notification.](notification.md) Cuando el **miembro info** de una estructura **NOTIFICATION** contiene una estructura **EXTENDED_NOTIFICATION,** **el miembro ulEventType** de la estructura **NOTIFICATION** se establece en  _fnevExtended_.
   
-El evento extendido lo define un proveedor de servicios para representar un tipo de cambio que no puede estar cubierto por ninguno de los demás eventos predefinidos. Solo los clientes que sepan antes de registrar que un proveedor de servicios admite un evento extendido pueden registrarse para ese evento. No es posible que los clientes determinen sin conocimientos avanzados si un proveedor de servicios admite un evento extendido. Si un proveedor de servicios admite un evento extendido, muestra cómo controlar dicho evento cuando se recibe.
+Un proveedor de servicios define el evento extendido para representar un tipo de cambio que no se puede cubrir con ninguno de los demás eventos predefinidos. Solo los clientes que sepan antes de registrar que un proveedor de servicios admite un evento extendido pueden registrarse para ese evento. No es posible que los clientes determinen sin conocimientos avanzados si un proveedor de servicios admite un evento extendido. Si un proveedor de servicios admite un evento extendido, muestra cómo controlar dicho evento cuando se recibe.
   
-La sesión envía una notificación extendida cuando un cliente cierra sesión. Regístrese para esta notificación llamando a [IMAPISession::Advise](imapisession-advise.md) con el parámetro  _lpEntryID_ establecido en NULL y el parámetro  _cbEntryID_ establecido en cero. 
+La sesión envía una notificación extendida cuando un cliente cierra sesión. Regístrese para esta notificación llamando a [IMAPISession::Advise](imapisession-advise.md) con el parámetro  _lpEntryID_ establecido en NULL y el  _parámetro cbEntryID_ establecido en cero. 
   
 Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo deben administrarse las notificaciones los clientes.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben administrar las notificaciones.  <br/> |
 |[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar [los métodos IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

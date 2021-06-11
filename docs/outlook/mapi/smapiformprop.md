@@ -56,11 +56,11 @@ typedef struct _SMAPIFormProp
 
  **ulFlags**
   
-> Marcas usadas para distinguir el formato de las cadenas en la **estructura SMAPIFormProp.** Se puede establecer la siguiente marca: 
+> Marcas usadas para distinguir el formato de las cadenas de la **estructura SMAPIFormProp.** Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> Las cadenas devueltas están en formato Unicode. Si MAPI_UNICODE no se establece, las cadenas están en formato ANSI.
+> Las cadenas devueltas están en formato Unicode. Si MAPI_UNICODE no está establecido, las cadenas tienen el formato ANSI.
     
  **nPropType**
   
@@ -88,7 +88,7 @@ FPST_ENUM_PROP
     
  **s**
   
-> Unión que describe la asociación entre el nombre y el número de la propiedad con nombre. Al usar algunas propiedades, el **miembro u** está vacío. Con otras propiedades, se representa en una estructura formada por los siguientes miembros: 
+> Union que describe la asociación entre el nombre y el número de la propiedad con nombre. Al usar algunas propiedades, el **miembro u** está vacío. Con otras propiedades, se representa en una estructura formada por los siguientes miembros: 
     
  **nmidIdx**
   
@@ -96,7 +96,7 @@ FPST_ENUM_PROP
     
  **cfpevAvailable**
   
-> Recuento de [estructuras SMAPIFormPropEnumVal](smapiformpropenumval.md) en la matriz a la que apunta el **miembro pfpevAvailable.** 
+> Recuento de [estructuras SMAPIFormPropEnumVal](smapiformpropenumval.md) en la matriz señalada por el **miembro pfpevAvailable.** 
     
  **pfpevAvailable**
   
@@ -104,9 +104,9 @@ FPST_ENUM_PROP
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura SMAPIFormProp** contiene información sobre una propiedad de formulario usada como parte de las definiciones de la interfaz [IMAPIFormInfo;](imapiforminfoimapiprop.md) **nSpecialType** contiene una etiqueta que se aplica a la **unión u** que forma parte de **SMAPIFormProp**.
+La **estructura SMAPIFormProp** contiene información sobre una propiedad de formulario usada como parte de las definiciones de la [interfaz IMAPIFormInfo;](imapiforminfoimapiprop.md) **nSpecialType** contiene una etiqueta que se aplica a la **unión u** que forma parte de **SMAPIFormProp**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

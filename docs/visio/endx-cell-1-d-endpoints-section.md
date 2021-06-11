@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm335
 localization_priority: Normal
 ms.assetid: 24261b77-e3e8-7434-a503-9f23798bdab1
-description: Representa la coordenada x del extremo de la forma 1D, en relación con el origen de su forma principal.
+description: Representa la coordenada x del extremo de la forma 1D, en relación con el origen de su elemento primario.
 ms.openlocfilehash: 4bd3099b2c13572023b0b813b1cc69a7b211546b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33411571"
 ---
 # <a name="endx-cell-1-d-endpoints-section"></a>Celda EndX (Sección de extremos 1D)
 
-Representa la coordenada  *x*  del extremo de la forma 1D, en relación con el origen de su forma principal. 
+Representa la coordenada  *x*  del extremo de la forma 1D, en relación con el origen de su elemento primario. 
   
 ## <a name="remarks"></a>Comentarios
 

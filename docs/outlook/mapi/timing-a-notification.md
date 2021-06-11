@@ -21,9 +21,9 @@ ms.locfileid: "33411151"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Dado que la notificación de eventos es un proceso asincrónico, puedes recibir una notificación en cualquier momento, no necesariamente inmediatamente después de que se haya producido el evento.
+Dado que la notificación de eventos es un proceso asincrónico, puede recibir una notificación en cualquier momento, no necesariamente inmediatamente después de que se haya producido el evento.
   
- El intervalo de llamadas al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) varía en función del proveedor de servicios que implemente el origen del aviso. Los proveedores de servicios pueden notificar al cliente: 
+ El tiempo de las llamadas a su [método IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) varía en función del proveedor de servicios que implemente el origen del aviso. Los proveedores de servicios pueden notificar a su cliente: 
   
 - Simultáneamente con el evento.
     
@@ -31,8 +31,8 @@ Dado que la notificación de eventos es un proceso asincrónico, puedes recibir 
     
 - En algún momento posterior después del evento, posiblemente después de una **llamada Unadvise.** 
     
-La mayoría de los proveedores **de servicios llaman a OnNotify** después de que el método MAPI responsable del evento haya devuelto al autor de la llamada. Por ejemplo, las notificaciones de los mensajes se envían cuando se guardan los cambios realizados en el mensaje, después de la llamada [IMAPIProp::SaveChanges](imapiprop-savechanges.md) o cuando se libera el mensaje, después de la llamada **IUnknown::Release.** Hasta que se envía la notificación, no hay cambios visibles en el almacén de mensajes. 
+La mayoría de los proveedores de servicios llaman a **OnNotify** después de que el método MAPI responsable del evento haya devuelto a su autor de la llamada. Por ejemplo, las notificaciones en los mensajes se envían cuando se guardan los cambios realizados en el mensaje, después de la llamada [IMAPIProp::SaveChanges](imapiprop-savechanges.md) o cuando se libera el mensaje, después de la llamada **IUnknown::Release.** Hasta que se envía la notificación, no hay cambios visibles en el almacén de mensajes. 
   
-Puedes recibir notificaciones de un origen de aviso después de llamar a **Unadvise** para cancelar un registro. Asegúrese de liberar el receptor de avisos solo después de que su recuento de referencias haya caído a cero, no después de una llamada **Unadvise correcta.** No suponga que, como ha llamado **a Unadvise,** el receptor de avisos ya no es necesario. 
+Puede recibir notificaciones de un origen de aviso después de haber llamado **a Unadvise** para cancelar un registro. Asegúrese de liberar el receptor de avisos solo después de que su recuento de referencias haya caído a cero, no después de una llamada **de Unadvise correcta.** No suponga que, dado que ha llamado **a Unadvise,** el receptor de avisos ya no es necesario. 
   
 

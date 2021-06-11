@@ -26,7 +26,7 @@ ms.locfileid: "33412845"
     
 - [\<\> (No igual a) (Aplicación web personalizada de Access)](not-equal-toaccess-custom-web-app.md)
     
-- [= (es igual a) (aplicación web personalizada de Access)](equalsequalsaccess-custom-web-app.md)
+- [= (Es igual) (aplicación web personalizada de Access)](equalsequalsaccess-custom-web-app.md)
     
 - [\> (Mayor que) (Aplicación web personalizada de Access)](greater-thanaccess-custom-web-app.md)
     

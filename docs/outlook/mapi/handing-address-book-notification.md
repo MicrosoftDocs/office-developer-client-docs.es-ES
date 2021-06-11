@@ -19,7 +19,7 @@ ms.locfileid: "33413538"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las notificaciones de la libreta de direcciones permiten a un cliente conocer los eventos que se producen en cualquier entrada de la libreta de direcciones o en una entrada determinada. Puede registrarse para estas notificaciones a través de la libreta de direcciones MAPI llamando a [IAddrBook::Advise](iaddrbook-advise.md) o a través de la jerarquía o la tabla de contenido de un contenedor de libreta de direcciones llamando a [IMAPITable::Advise](imapitable-advise.md). 
+Las notificaciones de libreta de direcciones permiten a un cliente conocer los eventos que se producen en cualquier entrada de la libreta de direcciones o en una entrada determinada. Puede registrarse para estas notificaciones a través de la libreta de direcciones MAPI llamando a [IAddrBook::Advise](iaddrbook-advise.md) o a través de la jerarquía o la tabla de contenido de un contenedor de libreta de direcciones llamando a [IMAPITable::Advise](imapitable-advise.md). 
   
 Especifique el identificador de entrada de un contenedor de libreta de direcciones, una lista de distribución o un usuario de mensajería si está registrando notificaciones en una entrada determinada y NULL si se registra para notificaciones en toda la libreta de direcciones. El identificador de entrada debe representar un usuario de mensajería o una lista de distribución en un contenedor de libreta de direcciones. **IAddrBook::Advise** examina este identificador de entrada para determinar qué proveedor de libreta de direcciones es responsable del objeto correspondiente y reenvía la llamada al método [IABLogon::Advise](iablogon-advise.md) del proveedor de libreta de direcciones correspondiente. 
   
@@ -27,13 +27,13 @@ Los clientes pueden registrarse para los siguientes tipos de eventos en las entr
   
 - Error crítico
     
-- Cualquiera de los eventos de objeto (creado, modificado, eliminado, movido o copiado)
+- Cualquiera de los eventos de objeto (creados, modificados, eliminados, movidos o copiados)
     
 - Tabla modificada
     
-Normalmente, el registro solo se produce en el contenido del contenedor de la libreta de direcciones y en las tablas de jerarquía. Es raro que los clientes se registren con los objetos de lista de distribución y usuario de mensajería de nivel inferior. Esto se debe a:
+Normalmente, el registro solo se produce en el contenido del contenedor de libreta de direcciones y en las tablas de jerarquía. Es raro que los clientes se registren con los objetos de lista de distribución y usuario de mensajería de nivel inferior. Esto se debe a:
   
-- Muchos proveedores de libretas de direcciones no admiten notificaciones en sus listas de distribución y usuarios de mensajería.
+- Muchos proveedores de libreta de direcciones no admiten notificaciones en sus listas de distribución y usuarios de mensajería.
     
 - Las notificaciones de tabla son suficientes para realizar un seguimiento de los cambios y notificarlos a los usuarios.
     

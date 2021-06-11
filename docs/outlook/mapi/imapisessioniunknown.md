@@ -30,37 +30,37 @@ Administra objetos asociados a una sesión de inicio de sesión MAPI.
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapix.h  <br/> |
-|Expuesto por:  <br/> |Objetos de sesión  <br/> |
+|Expuesto por:  <br/> |Objetos Session  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Aplicaciones cliente y MAPI  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPISession  <br/> |
 |Tipo de puntero:  <br/> |LPMAPISESSION  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[GetLastError](imapisession-getlasterror.md) <br/> |Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error de sesión anterior.  <br/> |
-|[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Proporciona acceso a la tabla del almacén de mensajes que contiene información sobre todos los almacenes de mensajes en el perfil de sesión.  <br/> |
+|[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Proporciona acceso a la tabla de almacén de mensajes que contiene información sobre todos los almacenes de mensajes del perfil de sesión.  <br/> |
 |[OpenMsgStore](imapisession-openmsgstore.md) <br/> |Abre un almacén de mensajes y devuelve un puntero [IMsgStore](imsgstoreimapiprop.md) para obtener más acceso.  <br/> |
-|[OpenAddressBook](imapisession-openaddressbook.md) <br/> |Abre la libreta de direcciones integrada mapi y devuelve un [puntero IAddrBook](iaddrbookimapiprop.md) para obtener más acceso.  <br/> |
+|[OpenAddressBook](imapisession-openaddressbook.md) <br/> |Abre la libreta de direcciones integrada MAPI y devuelve un puntero [IAddrBook](iaddrbookimapiprop.md) para obtener más acceso.  <br/> |
 |[OpenProfileSection](imapisession-openprofilesection.md) <br/> |Abre una sección del perfil actual y devuelve un puntero [IProfSect](iprofsectimapiprop.md) para obtener más acceso.  <br/> |
 |[GetStatusTable](imapisession-getstatustable.md) <br/> |Proporciona acceso a la tabla de estado, una tabla que contiene información sobre todos los recursos MAPI de la sesión.  <br/> |
 |[OpenEntry](imapisession-openentry.md) <br/> |Abre un objeto y devuelve un puntero de interfaz para obtener más acceso.  <br/> |
 |[CompareEntryIDs](imapisession-compareentryids.md) <br/> |Compara dos identificadores de entrada para determinar si hacen referencia al mismo objeto.  <br/> |
 |[Aconsejar](imapisession-advise.md) <br/> |Se registra para recibir una notificación de eventos especificados que afectan a la sesión.  <br/> |
-|[Unadvise](imapisession-unadvise.md) <br/> |Cancela el envío de notificaciones previamente configuradas con una llamada al **método Advise.**  <br/> |
+|[Unadvise](imapisession-unadvise.md) <br/> |Cancela el envío de notificaciones configuradas anteriormente con una llamada al **método Advise.**  <br/> |
 |**MessageOptions** <br/> | *No se admite ni se documenta.*  <br/> |
 |**QueryDefaultMessageOpt** <br/> | *No se admite ni se documenta.*  <br/> |
-|[EnumAdrTypes](imapisession-enumadrtypes.md) <br/> |Obsoleto. Devuelve los tipos de dirección que pueden controlar todos los proveedores de transporte de la sesión.  <br/> |
+|[EnumAdrTypes](imapisession-enumadrtypes.md) <br/> |Obsoleto. Devuelve los tipos de direcciones que pueden controlar todos los proveedores de transporte de la sesión.  <br/> |
 |[QueryIdentity](imapisession-queryidentity.md) <br/> |Devuelve el identificador de entrada del objeto que proporciona la identidad principal de la sesión.  <br/> |
 |[Cierre de sesión](imapisession-logoff.md) <br/> |Finaliza una sesión MAPI.  <br/> |
 |[SetDefaultStore](imapisession-setdefaultstore.md) <br/> |Establece un almacén de mensajes como almacén de mensajes predeterminado para la sesión.  <br/> |
 |[AdminServices](imapisession-adminservices.md) <br/> |Devuelve un [puntero IMsgServiceAdmin](imsgserviceadminiunknown.md) para realizar cambios en los servicios de mensajes.  <br/> |
 |[ShowForm](imapisession-showform.md) <br/> |Muestra un formulario.  <br/> |
-|[PrepareForm](imapisession-prepareform.md) <br/> |Crea un token numérico que el **método ShowForm** usa para tener acceso a un mensaje.  <br/> |
+|[PrepareForm](imapisession-prepareform.md) <br/> |Crea un token numérico que el **método ShowForm** usa para obtener acceso a un mensaje.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

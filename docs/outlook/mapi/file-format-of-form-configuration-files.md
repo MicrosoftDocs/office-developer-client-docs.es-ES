@@ -19,10 +19,10 @@ ms.locfileid: "33415554"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un archivo de configuración de formulario es un archivo con formato creado por programadores de formularios para definir un formulario.
+Un archivo de configuración de formulario es un archivo con formato creado por desarrolladores de formularios para definir un formulario.
   
-Dado que los administradores de formularios usan los archivos de configuración de formulario para cargar formularios, cada formulario debe definirse mediante un archivo de configuración de formulario. Los archivos de configuración del formulario deben tener la extensión de nombre de archivo .cfg. El archivo sigue la sintaxis general de un archivo de inicialización de Windows (archivo .ini). 
+Dado que los administradores de formularios usan los archivos de configuración de formulario para cargar formularios, cada formulario debe definirse mediante un archivo de configuración de formulario. Los archivos de configuración del formulario deben tener la extensión de nombre de archivo .cfg. El archivo sigue la sintaxis general de un Windows de inicialización (.ini archivo). 
 
-Se divide en secciones con nombre y cada sección contiene una serie de entradas y valores. Los valores tienen uno de los siguientes tipos: cadena, cadena mostrada, cadena de plataforma, ruta de acceso, entero o identificador único global, **GUID**. Los archivos de configuración de formularios se pueden crear con cualquier editor de texto o procesador de texto que sea capaz de guardar archivos de texto.
+Se divide en secciones con nombre y cada sección contiene una serie de entradas y valores. Los valores tienen uno de los siguientes tipos: cadena, cadena mostrada, cadena de plataforma, ruta de acceso, entero o identificador único global, **GUID**. Los archivos de configuración de formulario se pueden crear con cualquier editor de texto o procesador de texto que sea capaz de guardar archivos de texto.
   
 

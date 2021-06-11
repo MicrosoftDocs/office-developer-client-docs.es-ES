@@ -25,7 +25,7 @@ ms.locfileid: "33416527"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Asigna un valor devuelto de SCODE de un objeto de almacenamiento OLE a un tipo HRESULT. 
+Mapas un valor devuelto por SCODE de un objeto de almacenamiento OLE a un tipo HRESULT. 
   
 |||
 |:-----|:-----|
@@ -39,11 +39,11 @@ SCODE MapStorageSCode(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _StgSCode_
   
-> [entrada] MAPI SCODE devuelve el valor de un objeto de almacenamiento OLE que se asignará a un valor HRESULT.
+> [in] MAPI SCODE devuelve el valor de un objeto de almacenamiento OLE que se va a asignar a un valor HRESULT.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -57,8 +57,8 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI proporciona la **función MapStorageSCode** para el uso interno de componentes MAPI que basan sus implementaciones de mensajes en la DLL del mensaje. Dado que estos componentes abren el almacenamiento OLE por sí mismos, deben ser capaces de asignar valores de error devueltos para problemas con el almacenamiento OLE a un valor HRESULT. 
+MAPI proporciona la **función MapStorageSCode** para el uso interno de componentes MAPI que basan sus implementaciones de mensajes en la DLL de mensajes. Dado que estos componentes abren el almacenamiento OLE por sí mismos, deben poder asignar valores de error devueltos para problemas con el almacenamiento OLE a un valor HRESULT. 
   
-Para obtener más información, vea [Almacenamiento estructurado.](structured-storage-in-mapi.md) 
+Para obtener más información, vea [Structured Storage](structured-storage-in-mapi.md). 
   
 

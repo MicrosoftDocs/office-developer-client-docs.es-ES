@@ -28,7 +28,7 @@ SINH(** *angle* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que se obtiene el seno hiperbólico.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del cual se obtiene el seno hiperbólico.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -36,7 +36,7 @@ Número
   
 ## <a name="remarks"></a>Comentarios
 
-La función SINH usa radianes a menos que especifique una unidad de medida diferente en _ángulo._
+La función SINH usa radianes a menos que especifique una unidad de medida diferente en  _ángulo_.
   
 ## <a name="example"></a>Ejemplo
 

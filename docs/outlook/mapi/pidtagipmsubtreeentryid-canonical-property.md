@@ -25,18 +25,18 @@ ms.locfileid: "33412733"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de entrada de la raíz del subárbol de carpeta de mensajes interpersonales (IPM) en el árbol de carpetas del almacén de mensajes. 
+Contiene el identificador de entrada de la raíz del subárbol de carpeta del mensaje interpersonal (IPM) en el árbol de carpetas del almacén de mensajes. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_IPM_SUBTREE_ENTRYID  <br/> |
 |Identificador:  <br/> |0x35E0  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Folder  <br/> |
+|Área:  <br/> |Carpeta  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad representa la raíz de la jerarquía IPM. Los clientes IPM no deben mostrar ninguna carpeta que no sea subcarpeta de la carpeta representada por esta propiedad.
+Esta propiedad representa la raíz de la jerarquía IPM. Los clientes IPM no deben mostrar carpetas que no sean subcarpetas de la carpeta representada por esta propiedad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

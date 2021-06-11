@@ -43,7 +43,7 @@ BOOL FBadRowSet(
 
  _lpRowSet_
   
-> [entrada] Puntero a una [estructura SRowSet](srowset.md) que identifica el conjunto de filas que se va a validar. Si el puntero es NULL, la estructura no es válida. 
+> [in] Puntero a una [estructura SRowSet](srowset.md) que identifica el conjunto de filas que se va a validar. Si el puntero es NULL, la estructura no es válida. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -55,7 +55,7 @@ FALSE
   
 > Todas las filas del conjunto de filas especificado y el propio conjunto de filas son válidas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

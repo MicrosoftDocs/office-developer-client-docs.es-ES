@@ -1,5 +1,5 @@
 ---
-title: Celda QuickStyleLineMatrix (Sección de estilo rápido)
+title: Celda QuickStyleLineMatrix (sección Estilo rápido)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410822"
 ---
-# <a name="quickstylelinematrix-cell-quick-style-section"></a>Celda QuickStyleLineMatrix (Sección de estilo rápido)
+# <a name="quickstylelinematrix-cell-quick-style-section"></a>Celda QuickStyleLineMatrix (sección Estilo rápido)
 
 Determina el estilo de línea estilo rápido que hereda la forma, como un entero de 0 a 6. 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **QuickStyleLineMatrix** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **QuickStyleLineMatrix** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la propiedad **CellsU,** use: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | QuickStyleLineMatrix  <br/> |
    
-Para obtener una referencia desde un programa a la **celda QuickStyleLineMatrix** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **QuickStyleLineMatrix** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

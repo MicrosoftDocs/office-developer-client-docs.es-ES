@@ -23,11 +23,11 @@ Determina el tamaño de la punta de flecha que aparece en la parte inicial de la
 |**Valor**|**Tamaño**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Muy pequeño  <br/> |**visArrowSizeVerySmall** <br/> |
-| 1   <br/> | Pequeño  <br/> |**visArrowSizeSmall** <br/> |
-| 2   <br/> | Mediano  <br/> |**visArrowSizeMedium** <br/> |
-| 3   <br/> | Grande  <br/> |**visArrowSizeLarge** <br/> |
+| 1  <br/> | Pequeño  <br/> |**visArrowSizeSmall** <br/> |
+| 2  <br/> | Mediano  <br/> |**visArrowSizeMedium** <br/> |
+| 3  <br/> | Grande  <br/> |**visArrowSizeLarge** <br/> |
 | 4   <br/> | Muy grande  <br/> |**visArrowSizeVeryLarge** <br/> |
-| 5   <br/> | Gigantes  <br/> |**visArrowSizeJumbo** <br/> |
+| 5   <br/> | Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
 | 6   <br/> | Colosal  <br/> |**visArrowSizeColossal** <br/> |
    
 ## <a name="remarks"></a>Comentarios

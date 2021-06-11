@@ -1,5 +1,5 @@
 ---
-title: Implementación de una interfaz de configuración para proveedores de almacenamiento de mensajes
+title: Implementación de una interfaz de configuración para proveedores de almacén de mensajes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415890"
 ---
-# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>Implementación de una interfaz de configuración para proveedores de almacenamiento de mensajes
+# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>Implementación de una interfaz de configuración para proveedores de almacén de mensajes
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de al almacenamiento de mensajes son necesarios para implementar una interfaz que permita al usuario configurar el proveedor de almacenamiento de mensajes para que se ejecute en el equipo del usuario. Normalmente, el proveedor de almacenamiento de mensajes se configura cuando se agrega el proveedor de al almacenamiento de mensajes al perfil de un usuario. Por lo general, la interfaz de configuración del proveedor del almacén de mensajes administra tareas como establecer nombres de usuario y contraseñas para almacenes de mensajes protegidos, elegir rutas de acceso a los archivos necesarios y crear el mecanismo de almacenamiento subyacente que usará, si es necesario.
+Los proveedores de almacén de mensajes son necesarios para implementar una interfaz que permita al usuario configurar el proveedor del almacén de mensajes para que se ejecute en el equipo de ese usuario. Normalmente, el proveedor del almacén de mensajes se configura cuando el proveedor del almacén de mensajes se agrega al perfil de un usuario. La interfaz de configuración del proveedor del almacén de mensajes generalmente administra tareas como establecer nombres de usuario y contraseñas para almacenes de mensajes protegidos, elegir rutas de acceso a los archivos necesarios y crear el mecanismo de almacenamiento subyacente que usará, si es necesario.
   
-Se tiene acceso a la interfaz de configuración que implemente a través de puntos de entrada adicionales en la DLL del proveedor de servicios de mensajes. Para obtener más información, vea [Configuración de un servicio de mensajes.](configuring-a-message-service.md) La interfaz de configuración del proveedor del almacén de mensajes es la única interfaz de usuario que debe implementar un proveedor de almacenamiento de mensajes.
+Se tiene acceso a la interfaz de configuración que implemente a través de puntos de entrada adicionales en la DLL del proveedor de servicios de mensajes. Para obtener más información, vea [Configuring a Message Service](configuring-a-message-service.md). La interfaz de configuración del proveedor del almacén de mensajes es la única interfaz de usuario que debe implementar un proveedor de almacén de mensajes.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

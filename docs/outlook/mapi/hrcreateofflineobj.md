@@ -19,11 +19,11 @@ ms.locfileid: "33414392"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- Crea un objeto MAPI sin conexión que usa el proveedor y el almacén para notificar a MAPI cuando el objeto está en línea y sin conexión. 
+ Crea un objeto sin conexión MAPI que usa el proveedor y el almacén para notificar a MAPI cuando el objeto se en línea y sin conexión, 
   
 |||
 |:-----|:-----|
-|Exportado por:  <br/> |Msmapi32.dll  <br/> |
+|Exportada por:  <br/> |Msmapi32.dll  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
    
@@ -35,19 +35,19 @@ IMAPIOfflineMgr** ppOffline
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ulFlags_
   
-> [entrada] Debe ser 0.
+> [in] Debe ser 0.
     
 _pCreateInfo_
   
-> [entrada] Puntero a una estructura **MAPIOFFLINE_CREATEINFO** que contiene la información necesaria para crear el objeto sin conexión. 
+> [in] Puntero a una estructura **MAPIOFFLINE_CREATEINFO** que contiene la información necesaria para crear el objeto sin conexión. 
     
 _ppOffline_
   
-> [salida] Puntero a la interfaz **IMAPIOfflineMgr.** 
+> [salida] Puntero a la **interfaz IMAPIOfflineMgr.** 
     
 ## <a name="return-value"></a>Valor devuelto
 

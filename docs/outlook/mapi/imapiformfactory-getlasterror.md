@@ -25,7 +25,7 @@ ms.locfileid: "33417013"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produce en el objeto de fábrica de formularios. 
+Devuelve una [estructura MAPIERROR](mapierror.md) que contiene información sobre el error anterior que se produjo en el objeto de fábrica de formularios. 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,19 +35,19 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
-> [entrada] Un tipo de datos HRESULT que contiene el valor de error generado en la llamada al método anterior.
+> [in] Tipo de datos HRESULT que contiene el valor de error generado en la llamada al método anterior.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca: 
+> [in] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca: 
     
 MAPI_UNICODE 
   
-> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
+> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI. 
     
  _lppMAPIError_
   
@@ -61,19 +61,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció MAPI_UNICODE marca y **GetLastError** no admite Unicode o MAPI_UNICODE no se estableció **y GetLastError solo** admite Unicode. 
+> La marca MAPI_UNICODE se estableció y **GetLastError** no admite Unicode o MAPI_UNICODE no se estableció y **GetLastError** solo admite Unicode. 
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPIFormFactory::GetLastError** proporciona información acerca de una llamada de método anterior que ha fallado. Los autores de llamadas pueden proporcionar a sus usuarios información detallada sobre el error incluyendo los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
+El **método IMAPIFormFactory::GetLastError** proporciona información sobre una llamada de método anterior que falló. Los autores de llamadas pueden proporcionar a sus usuarios información detallada sobre el error al incluir los datos de la estructura **MAPIERROR** en un cuadro de diálogo. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar la estructura **MAPIERROR** a la que apunta el parámetro  _lppMAPIError_ si MAPI proporciona uno solo si **GetLastError** devuelve S_OK. A veces MAPI no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, se devuelve un puntero a NULL  _en lppMAPIError_ en su lugar. 
+Puede usar la estructura **MAPIERROR** a la que apunta el parámetro  _lppMAPIError_ si MAPI proporciona uno solo si **GetLastError** devuelve S_OK. A veces MAPI no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, se devuelve un puntero a NULL en  _lppMAPIError_ en su lugar. 
   
-Para obtener más información acerca **del método GetLastError,** vea [El uso de errores extendidos.](mapi-extended-errors.md)
+Para obtener más información sobre el **método GetLastError,** vea [Using Extended Errors](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

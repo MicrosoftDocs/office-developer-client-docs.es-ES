@@ -33,11 +33,11 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se envía un mensaje. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se envía un mensaje. Se puede establecer la siguiente marca:
     
 FORCE_SUBMIT 
   
@@ -51,9 +51,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman **al método IMAPIMessageSite::SubmitMessage** para solicitar que un mensaje se pone en cola para su entrega. El sitio del mensaje debe llamar al [método IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) antes de enviar el mensaje. No es necesario que el mensaje se haya guardado previamente, porque **SubmitMessage** debe hacer que el mensaje se guarde si se ha modificado. Después de la devolución **de SubmitMessage**, el formulario debe buscar un mensaje actual y, a continuación, descartarse si no existe ninguno. 
+Los objetos Form llaman **al método IMAPIMessageSite::SubmitMessage** para solicitar que se haga cola un mensaje para su entrega. El sitio del mensaje debe llamar al [método IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) antes de enviar el mensaje. No es necesario que el mensaje se haya guardado previamente, ya que **SubmitMessage** debe hacer que el mensaje se guarde si el mensaje se ha modificado. Después de devolver **SubmitMessage,** el formulario debe buscar un mensaje actual y, a continuación, descartarse si no existe ninguno. 
   
-Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -63,7 +63,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SubmitMessage  <br/> |MFCMAPI usa el **método IMAPIMessageSite::SubmitMessage** para guardar el mensaje. En primer lugar, llama al **método IPersistMessage::HandsOffMessage** y, a continuación, llama **a SubmitMessage**.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

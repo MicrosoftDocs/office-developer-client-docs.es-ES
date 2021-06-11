@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [SSortOrderSet](ssortorderset.md) 
 CbSSortOrderSet (_lpset)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _lpset_
   
-> Puntero a la estructura **existente de SSortOrderSet.** 
+> Puntero a la estructura **SSortOrderSet** existente. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -42,35 +42,35 @@ HRESULT HrIStorageFromStream(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpUnkIn_
   
-> [entrada] Puntero al **objeto IUnknown** que implementa **IStream**. 
+> [in] Puntero al **objeto IUnknown** que implementa **IStream**. 
     
  _lpInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) del objeto de secuencia. Cualquiera de los siguientes valores se puede pasar en el parámetro  _lpInterface:_ NULL, IID_IStream o IID_ILockBytes. Pasar NULL en  _lpInterface_ es lo mismo que pasar IID_IStream. 
+> [in] Puntero al identificador de interfaz (IID) del objeto stream. Cualquiera de los siguientes valores se puede pasar en el parámetro  _lpInterface:_ NULL, IID_IStream o IID_ILockBytes. Pasar NULL en  _lpInterface_ es lo mismo que pasar IID_IStream. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se va a crear el objeto de almacenamiento en relación con la secuencia. El valor predeterminado es STGSTRM_RESET, que proporciona al objeto de almacenamiento acceso de solo lectura y lo inicia en la posición cero de la secuencia. Las siguientes marcas se pueden establecer en cualquier combinación, excepto como se indica:
+> [in] Máscara de bits de marcas que controla cómo se va a crear el objeto de almacenamiento con relación a la secuencia. El valor predeterminado es STGSTRM_RESET, que proporciona al objeto de almacenamiento acceso de solo lectura e inicia en la posición cero de la secuencia. Las siguientes marcas se pueden establecer en cualquier combinación, excepto como se indica:
     
 STGSTRM_CREATE 
   
-> Crea un nuevo objeto de almacenamiento para el objeto de secuencia. Esta marca no se puede establecer si se STGSTRM_RESET marca. 
+> Crea un nuevo objeto de almacenamiento para el objeto stream. Esta marca no se puede establecer si STGSTRM_RESET marca está establecida. 
     
 STGSTRM_CURRENT 
   
-> Inicia el almacenamiento en la posición actual de la secuencia. Esta marca no se puede establecer si se STGSTRM_RESET marca. 
+> Inicia el almacenamiento en la posición actual de la secuencia. Esta marca no se puede establecer si STGSTRM_RESET marca está establecida. 
     
 STGSTRM_MODIFY 
   
-> Permite al proveedor de servicios de llamadas escribir en el almacenamiento devuelto. Esta marca no se puede establecer si se STGSTRM_RESET marca. 
+> Permite al proveedor de servicios de llamadas escribir en el almacenamiento devuelto. Esta marca no se puede establecer si STGSTRM_RESET marca está establecida. 
     
 STGSTRM_RESET 
   
-> Inicia el almacenamiento en la posición cero. Esta marca no se puede establecer si se establece cualquier otra marca. 
+> Inicia el almacenamiento en la posición cero. Esta marca no se puede establecer si se establece otra marca. 
     
  _lppStorageOut_
   
@@ -84,6 +84,6 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacenamiento de mensajes admiten la función **HrIStorageFromStream** mediante la **interfaz IStorage** para datos adjuntos. Los proveedores de la Tienda deben implementar la **interfaz IStream.** **HrIStorageFromStream** proporciona la **interfaz IStorage** para el **objeto IStream.** Es posible pasar una interfaz **ILockBytes** o **IStream**  _en lpUnkIn_. 
+Los proveedores de almacén de mensajes **admiten la función HrIStorageFromStream** mediante la **interfaz IStorage** para datos adjuntos. Los proveedores de almacenamiento deben implementar la **interfaz IStream.** **HrIStorageFromStream proporciona** la **interfaz IStorage** para el **objeto IStream.** Es posible pasar un **ILockBytes** o una **interfaz IStream** en  _lpUnkIn_. 
   
 

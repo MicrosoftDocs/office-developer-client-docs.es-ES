@@ -32,11 +32,11 @@ Contiene una estructura [MAPIUID](mapiuid.md) definida por el proveedor que indi
 |Propiedades asociadas:  <br/> |PR_MDB_PROVIDER  <br/> |
 |Identificador:  <br/> |0x3414  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propiedades de identificador  <br/> |
+|Área:  <br/> |Propiedades de id.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La [estructura MAPIUID](mapiuid.md) identifica el tipo de almacén de mensajes. El valor lo calculan los proveedores de almacén de mensajes en objetos de almacén de mensajes y es único para cada proveedor. Normalmente se usa para explorar la tabla del almacén de mensajes para buscar un almacén del tipo deseado, como las carpetas públicas. 
+La [estructura MAPIUID](mapiuid.md) identifica el tipo de almacén de mensajes. El valor lo calculan los proveedores de almacén de mensajes en objetos de almacén de mensajes y es único para cada proveedor. Normalmente se usa para examinar la tabla de almacén de mensajes para buscar un almacén del tipo deseado, como carpetas públicas. 
   
 Esta propiedad es análoga a la **propiedad PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)) para las libretas de direcciones. 
   
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

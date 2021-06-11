@@ -23,8 +23,8 @@ Determina el tipo de punto de conexión.
 |**Valor**|**Tipo**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Hacia dentro  <br/> |**visCnnctTypeInward** <br/> |
-|1   <br/> |Salida  <br/> |**visCnnctTypeOutward** <br/> |
-|2   <br/> |Hacia dentro &amp; hacia afuera  <br/> |**visCnnctTypeInwardOutward** <br/> |
+|1  <br/> |Exterior  <br/> |**visCnnctTypeOutward** <br/> |
+|2  <br/> |Hacia dentro &amp; hacia fuera  <br/> |**visCnnctTypeInwardOutward** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

@@ -21,10 +21,10 @@ ms.locfileid: "33411690"
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [EjecutarMacroDeDatos (aplicación web personalizada de Access)](rundatamacro-macro-action-access-custom-web-app.md)
+- [Acción de macro RunDataMacro (aplicación web personalizada de Access)](rundatamacro-macro-action-access-custom-web-app.md)
     
-- [EjecutarMacro (acción de macro) (aplicación web personalizada de Access)](runmacro-macro-action-access-custom-web-app.md)
+- [Acción de macro RunMacro (aplicación web personalizada de Access)](runmacro-macro-action-access-custom-web-app.md)
     
-- [EstablecerVariable (acción de macro) (aplicación web personalizada de Access)](setvariable-macro-action-access-custom-web-app.md)
+- [Acción de macro SetVariable (aplicación web personalizada de Access)](setvariable-macro-action-access-custom-web-app.md)
     
 

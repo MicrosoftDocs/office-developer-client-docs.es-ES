@@ -32,36 +32,36 @@ HRESULT LoadFreeBusyData(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _cMax_
   
-> [entrada] Número de interfaces [IFreeBusyData](ifreebusydata.md) que se devolverán. 
+> [in] Número de interfaces [IFreeBusyData](ifreebusydata.md) que se devolverán. 
     
 _rgfbuser_
   
-> [entrada] Matriz de usuarios de disponibilidad para los que recuperar datos.
+> [in] La matriz de usuarios de disponibilidad para la que se recuperarán los datos.
     
 _prgfbdata_
   
-> [entrada] [salida] Matriz de **interfaces IFreeBusyData** que corresponden a la matriz _rgfbuser_ de las [estructuras FBUser.](fbuser.md) 
+> [in] [salida] Matriz de **interfaces IFreeBusyData** que corresponden a la matriz _rgfbuser_ de [estructuras FBUser.](fbuser.md) 
     
    > [!NOTE]
-   > Esta matriz de punteros la asigna el autor de la llamada y la libera. Las interfaces reales a las que apunta se liberan cuando el autor de la llamada ha terminado con ellas. 
+   > Esta matriz de punteros la asigna el autor de la llamada y la libera el autor de la llamada. Las interfaces reales a las que se apunta se liberan cuando el autor de la llamada ha terminado con ellas. 
   
 _phrStatus_
   
-> [salida] Matriz de **resultados HRESULT** para recuperar cada interfaz **IFreeBusyData** correspondiente. El valor puede ser NULL. Un resultado se establece en S_OK si el  _prgfbdata correspondiente_ es válido. 
+> [salida] Matriz de **resultados HRESULT** para recuperar cada interfaz **IFreeBusyData** correspondiente. El valor puede ser NULL. Un resultado se establece en S_OK si  _prgfbdata correspondiente_ es válido. 
     
 _pcRead_
   
->  [salida] Número real de usuarios para los que se ha encontrado una **interfaz IFreeBusyData.** 
+>  [salida] Número real de usuarios para los que se ha encontrado una interfaz **IFreeBusyData.** 
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 

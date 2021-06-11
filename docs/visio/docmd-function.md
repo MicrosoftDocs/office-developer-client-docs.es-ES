@@ -32,7 +32,7 @@ Realiza el comando identificado.
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una lista de los comandos compatibles con la función DOCMD, consulte el tema "Comandos DoCmd/DOCMD" en la Referencia de automatización de Microsoft Visio 2013. 
+Para obtener una lista de comandos compatibles con la función DOCMD, vea el tema "Comandos DoCmd/DOCMD" en la Referencia de automatización de Microsoft Visio 2013. 
   
 ## <a name="example"></a>Ejemplo
 

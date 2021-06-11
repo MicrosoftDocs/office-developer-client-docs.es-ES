@@ -25,7 +25,7 @@ ms.locfileid: "33411879"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una tabla de plantillas de uso único para crear destinatarios que se agregarán a la lista de destinatarios de un mensaje saliente.
+Devuelve una tabla de plantillas únicas para crear destinatarios que se agregarán a la lista de destinatarios de un mensaje saliente.
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -34,15 +34,15 @@ HRESULT GetOneOffTable(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de columnas de cadena incluidas en la tabla. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de columnas de cadena incluidas en la tabla. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena están en formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena tienen el formato ANSI.
     
  _lppTable_
   
@@ -52,7 +52,7 @@ MAPI_UNICODE
 
 S_OK 
   
-> La tabla de un solo juego se recuperó correctamente.
+> La tabla única se recuperó correctamente.
     
 MAPI_E_BAD_CHARWIDTH 
   
@@ -60,17 +60,17 @@ MAPI_E_BAD_CHARWIDTH
     
 MAPI_E_NO_SUPPORT 
   
-> El proveedor de libreta de direcciones no proporciona ninguna plantilla de pago único.
+> El proveedor de libreta de direcciones no proporciona plantillas únicas.
     
 ## <a name="remarks"></a>Comentarios
 
-MAPI llama al **método GetOneOffTable** para que las plantillas de uso único estén disponibles para crear destinatarios. Los nuevos destinatarios se agregan a la lista de destinatarios de un mensaje saliente. Los proveedores de libretas de direcciones deben admitir notificaciones en su tabla de uso único para informar a MAPI de las modificaciones de plantilla. MAPI mantiene abierta la tabla de uso único para habilitar la actualización dinámica. 
+MAPI llama al **método GetOneOffTable** para que las plantillas únicas estén disponibles para crear destinatarios. Los nuevos destinatarios se agregan a la lista de destinatarios de un mensaje saliente. Los proveedores de libreta de direcciones deben admitir la notificación en su tabla de uso único para informar a MAPI de las modificaciones de plantilla. MAPI mantiene abierta la tabla de uso único para habilitar la actualización dinámica. 
   
-Los proveedores de libretas de direcciones también pueden admitir una tabla de uso único para cada uno de sus contenedores. Los autores de llamadas recuperan esta tabla de uso único llamando al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor y solicitando la **propiedad PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Las plantillas disponibles a través de esta tabla se usan para agregar destinatarios al contenedor. Para obtener una explicación de las diferencias entre los dos tipos de tablas de uso único, vea Implementar One-Off [tablas.](implementing-one-off-tables.md)
+Los proveedores de libreta de direcciones también pueden admitir una tabla de uso único para cada uno de sus contenedores. Los autores de llamadas recuperan esta tabla única llamando al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor y solicitando la propiedad **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Las plantillas disponibles a través de esta tabla se usan para agregar destinatarios al contenedor. Para obtener una explicación de las diferencias entre los dos tipos de tablas únicas, vea [Implementing One-Off Tables](implementing-one-off-tables.md).
   
-Para obtener una lista de las columnas necesarias en la tabla de uso único de un proveedor de libreta de direcciones, vea [Tablas de uso único.](one-off-tables.md)
+Para obtener una lista de las columnas necesarias en la tabla única de un proveedor de libreta de direcciones, vea [One-Off Tables](one-off-tables.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

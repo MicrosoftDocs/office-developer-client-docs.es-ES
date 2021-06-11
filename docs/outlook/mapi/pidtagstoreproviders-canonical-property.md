@@ -25,7 +25,7 @@ ms.locfileid: "33415841"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una lista de identificadores de proveedores de al almacenamiento de mensajes en el perfil actual.
+Contiene una lista de identificadores de proveedores de almacén de mensajes en el perfil actual.
   
 |||
 |:-----|:-----|
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

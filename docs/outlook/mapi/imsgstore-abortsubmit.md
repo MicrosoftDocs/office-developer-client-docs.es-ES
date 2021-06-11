@@ -35,15 +35,15 @@ AbortSubmit(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> [entrada] Puntero al identificador de entrada del mensaje que se quitará de la cola saliente. 
+> [in] Puntero al identificador de entrada del mensaje que se quitará de la cola saliente. 
     
  _ulFlags_
   
@@ -61,7 +61,7 @@ MAPI_E_NOT_IN_QUEUE
     
 MAPI_E_UNABLE_TO_ABORT 
   
-> El mensaje identificado por  _lpEntryID_ está bloqueado por la cola MAPI y la operación no se puede anular. 
+> El mensaje identificado por  _lpEntryID_ está bloqueado por la cola MAPI y la operación no se puede abortar. 
     
 ## <a name="remarks"></a>Comentarios
 
@@ -79,7 +79,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI usa el **método IMsgStore::AbortSubmit** para anular el envío del mensaje seleccionado.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

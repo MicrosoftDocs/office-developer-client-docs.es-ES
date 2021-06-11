@@ -25,7 +25,7 @@ ms.locfileid: "33415540"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Recupera las direcciones de las funciones de asignación y desasignación de memoria MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)y [MAPIFreeBuffer](mapifreebuffer.md)).
+Recupera las direcciones de las funciones de asignación y asignación de memoria MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)y [MAPIFreeBuffer](mapifreebuffer.md)).
   
 ```cpp
 HRESULT GetMemAllocRoutines(
@@ -35,7 +35,7 @@ HRESULT GetMemAllocRoutines(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lppAllocateBuffer_
   
@@ -57,9 +57,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::GetMemAllocRoutines** se implementa para todos los objetos de compatibilidad. Los proveedores de servicios llaman a **GetMemAllocRoutines** para obtener las direcciones de las tres funciones de asignación de memoria que se pasan a su función de inicialización ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)o [XPProviderInit](xpproviderinit.md)). 
+El **método IMAPISupport::GetMemAllocRoutines** se implementa para todos los objetos de soporte técnico. Los proveedores de servicios llaman a **GetMemAllocRoutines** para obtener las direcciones de las tres funciones de asignación de memoria que se pasan a su función de inicialización ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)o [XPProviderInit](xpproviderinit.md)). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

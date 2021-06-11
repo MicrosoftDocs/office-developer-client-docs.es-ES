@@ -36,9 +36,9 @@ Contiene un valor de comprobación de redundancia cíclica (CRC) en el texto del
    
 ## <a name="remarks"></a>Comentarios
 
-El almacén de mensajes puede usar cualquier algoritmo CRC que genere un valor PT_LONG mensaje. Debe calcular esta propiedad como parte del método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) cuando la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) se ha establecido por primera vez y siempre que se haya modificado posteriormente.
+El almacén de mensajes puede usar cualquier algoritmo CRC que genere un PT_LONG valor. Debe calcular esta propiedad como parte del método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) cuando la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) se haya establecido por primera vez y siempre que se haya modificado posteriormente.
   
-Una aplicación cliente usa **PR_BODY_CRC** ayuda a comparar las cadenas de texto del mensaje contenidas **en PR_BODY** propiedades o sus variantes. Con esta propiedad, el cliente puede detectar rápida y fácilmente cuándo ha cambiado el texto del mensaje. Puede obtener mejoras significativas en el rendimiento mediante  **PR_BODY_CRC** en lugar de obtener PR_BODY del almacén de mensajes y compararlo con una versión local. 
+Una aplicación cliente usa **PR_BODY_CRC** para ayudar a comparar cadenas de texto de mensaje contenidas **en PR_BODY** propiedades o sus variantes. Con esta propiedad, el cliente puede detectar de forma rápida y sencilla cuándo ha cambiado el texto del mensaje. Puede obtener ganancias significativas de rendimiento mediante  **PR_BODY_CRC** en lugar de obtener PR_BODY del almacén de mensajes y compararlo con una versión local. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

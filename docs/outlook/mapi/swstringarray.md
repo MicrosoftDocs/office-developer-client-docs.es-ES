@@ -40,11 +40,11 @@ typedef struct _SWStringArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
-> Número de cadenas de la matriz a las que apunta el **miembro lppszW.** 
+> Recuento de cadenas en la matriz que apunta el **miembro lppszW.** 
     
  **lppszW**
   
@@ -52,9 +52,9 @@ typedef struct _SWStringArray
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca PT_MV_UNICODE, vea [Tipos de propiedad](property-types.md).
+Para obtener más información sobre PT_MV_UNICODE, vea [Tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -41,11 +41,11 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
-> Número de punteros de cadena de clase de mensaje en la matriz.
+> Recuento de punteros de cadena de clase de mensaje en la matriz.
     
  **aMessageClass**
   
@@ -53,13 +53,13 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura SMessageClassArray** se pasa como parámetro en los métodos siguientes: 
+La **estructura SMessageClassArray** se pasa como un parámetro en los métodos siguientes: 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

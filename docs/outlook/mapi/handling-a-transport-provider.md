@@ -19,13 +19,13 @@ ms.locfileid: "33416541"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los clientes se comunican con proveedores de transporte a través de objetos de estado proporcionados por proveedores de transporte y la cola MAPI. Los clientes tienen acceso a objetos de estado llamando [a IMAPISession::GetStatusTable](imapisession-getstatustable.md) para recuperar la tabla de estado. Los objetos de estado implementan la interfaz [IMAPIStatus : IMAPIProp,](imapistatusimapiprop.md) que tiene métodos para configurar proveedores, vaciar colas de mensajes entrantes y salientes, establecer contraseñas y validación de estado. Para obtener más información acerca de los objetos de estado, vea [Tabla de estado y Objetos de estado](status-table-and-status-objects.md).
+Los clientes se comunican con proveedores de transporte a través de objetos de estado proporcionados por proveedores de transporte y la cola MAPI. Los clientes obtienen acceso a objetos de estado [llamando a IMAPISession::GetStatusTable para](imapisession-getstatustable.md) recuperar la tabla de estado. Los objetos status implementan la interfaz [IMAPIStatus : IMAPIProp,](imapistatusimapiprop.md) que tiene métodos para configurar proveedores, vaciar colas de mensajes entrantes y salientes, establecer contraseñas y validación de estado. Para obtener más información acerca de los objetos de estado, vea [Tabla de estado y Objetos de estado](status-table-and-status-objects.md).
 
 
 - [Enviar o recibir un mensaje a petición:](sending-or-receiving-a-message-on-demand.md)describe cómo enviar o recibir un mensaje a petición.
     
 - [Configuración del orden de](setting-transport-order.md)transporte: describe cómo establecer el orden de transporte.
     
-- [Reconfiguración de un proveedor de transporte:](reconfiguring-a-transport-provider.md)describe cómo volver a configurar un proveedor de transporte y qué propiedades están disponibles para establecer.
+- [Reconfigurar un proveedor de transporte:](reconfiguring-a-transport-provider.md)describe cómo reconfigurar un proveedor de transporte y qué propiedades están disponibles para establecer.
     
 

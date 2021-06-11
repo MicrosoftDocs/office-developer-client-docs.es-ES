@@ -42,15 +42,15 @@ SCODE ScCreateConversationIndex(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbParent_
   
-> [entrada] Número de bytes en el índice de conversación principal.
+> [in] Recuento de bytes en el índice de conversación principal.
     
  _lpbParent_
   
-> [entrada] Puntero a bytes en el índice de conversación principal. Puede ser NULL si  _cbParent_ es cero. 
+> [in] Puntero a bytes en el índice de conversación principal. Puede ser NULL si  _cbParent_ es cero. 
     
  _lpcbIndex_
   

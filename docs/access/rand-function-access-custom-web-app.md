@@ -29,10 +29,10 @@ La **función Rand** contiene el argumento siguiente.
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *Seed*  <br/> |Expresión de entero que proporciona el valor de ed. Si  *no se especifica*  La ed.  <br/> |
+| *Seed*  <br/> |Expresión de entero que proporciona el valor de ed. Si  *no se especifica Seed,*  se asigna un valor de ed. aleatorio.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Las llamadas repetitivas de **la función Rand** con la misma edr devuelven los mismos resultados. 
+Las llamadas repetitivas de la **función Rand** con la misma ed. devuelven los mismos resultados. 
   
 

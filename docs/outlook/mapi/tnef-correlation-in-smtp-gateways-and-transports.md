@@ -1,5 +1,5 @@
 ---
-title: Correlación TNEF en puertas de enlace y transportes SMTP
+title: Correlación de TNEF en puertas de enlace SMTP y transportes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413671"
 ---
-# <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>Correlación TNEF en puertas de enlace y transportes SMTP
+# <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>Correlación de TNEF en puertas de enlace SMTP y transportes
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las puertas de enlace y los transportes que se conectan a sistemas basados en Internet, aquellos que usan SMTP, usan el valor del encabezado SMTP MessageID y la propiedad **PR_TNEF_CORRELATION_KEY** para implementar la correlación TNEF. 
+Las puertas de enlace y los transportes que se conectan a sistemas basados en Internet, los que usan SMTP, usan el valor del encabezado SMTP MessageID y la propiedad **PR_TNEF_CORRELATION_KEY** para implementar la correlación TNEF. 
   
-El valor del encabezado MessageID del mensaje saliente debe copiarse a la propiedad **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) y codificarse en el atributo [attMAPIProps](attmapiprops.md) de la secuencia TNEF. Tenga en **PR_TNEF_CORRELATION_KEY** es una propiedad binaria, mientras que MessageID es una cadena; el terminador nulo debe incluirse en la copia y en la comparación. 
+El valor del encabezado MessageID del mensaje saliente debe copiarse en la propiedad **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) y codificarse en el atributo [attMAPIProps](attmapiprops.md) de la secuencia TNEF. Tenga en **cuenta PR_TNEF_CORRELATION_KEY** es una propiedad binaria, mientras que MessageID es una cadena; el terminador nulo debe incluirse en la copia y en la comparación. 
   
-Esta técnica se usa en todo el software de Microsoft que conecta sistemas de mensajería basados en MAPI a Internet, como Microsoft Exchange Server. Esta técnica debe ser usada por las puertas de enlace SMTP y los transportes que se conectan a sistemas que admiten clientes MAPI para maximizar la interoperabilidad.
+Esta técnica la usa todo el software de Microsoft que conecta sistemas de mensajería basados en MAPI a Internet, como Microsoft Exchange Server. Esta técnica debe ser usada por las puertas de enlace SMTP y los transportes que se conectan a sistemas que admiten clientes MAPI para maximizar la interoperabilidad.
   
 

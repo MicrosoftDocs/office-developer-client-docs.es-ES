@@ -21,17 +21,17 @@ ms.locfileid: "33410080"
   
 MAPI define una arquitectura modular, como se muestra en la siguiente ilustración.  
   
-![Arquitectura de Outlook 2010](media/amapi_43.gif "Arquitectura de Outlook 2010")
+![Outlook arquitectura de 2010 Outlook](media/amapi_43.gif "arquitectura de 2010")
   
-La aplicación MAPI se conoce como aplicación cliente porque es un cliente del subsistema MAPI. Las aplicaciones basadas en mensajería emplean la mensajería como parte central de su procesamiento y ofrecen amplias características de mensajería, como el intercambio de información de varios tipos en varios formatos y la capacidad de guardar y organizar la información localmente. Las aplicaciones de flujo de trabajo, programación y correo electrónico son ejemplos de aplicaciones basadas en mensajería.
+La aplicación MAPI se conoce como una aplicación cliente porque es un cliente del subsistema MAPI. Las aplicaciones basadas en mensajería emplean la mensajería como parte central de su procesamiento y ofrecen amplias características de mensajería, como el intercambio de información de varios tipos en varios formatos y la capacidad de guardar y organizar la información localmente. Las aplicaciones de correo electrónico, programación y flujo de trabajo son ejemplos de aplicaciones basadas en mensajería.
   
-El subsistema MAPI está configurado por una interfaz de usuario común y las interfaces de programación. La interfaz de usuario común es un conjunto de cuadros de diálogo que ofrece a las aplicaciones cliente una apariencia coherente y a los usuarios una forma coherente de trabajar.
+El subsistema MAPI está hecho de una interfaz de usuario común y las interfaces de programación. La interfaz de usuario común es un conjunto de cuadros de diálogo que proporciona a las aplicaciones cliente una apariencia coherente y a los usuarios una forma coherente de trabajar.
   
-MAPI tiene interfaces de programación que usan el subsistema MAPI, los programadores de software cliente y los desarrolladores de proveedores de servicios. La interfaz de programación MAPI es la interfaz de programación principal basada en objetos. La interfaz de programación MAPI es similar al modelo de objetos de componentes OLE y la usan el subsistema MAPI y las aplicaciones cliente basadas en mensajería escritas en C o C++. 
+MAPI tiene interfaces de programación que usan el subsistema MAPI, los programadores de software cliente y los desarrolladores de proveedores de servicios. La interfaz de programación MAPI es la interfaz de programación principal basada en objetos. La interfaz de programación MAPI es similar al modelo de objetos de componente OLE y la usan el subsistema MAPI y las aplicaciones cliente basadas en mensajería escritas en C o C++. 
   
 Como desarrollador de software cliente, realiza llamadas MAPI directamente a través de la interfaz de programación MAPI. Puede implementar la mensajería con una única interfaz de cliente MAPI o una combinación de interfaces. Una sola aplicación puede realizar llamadas a métodos o funciones pertenecientes a cualquiera de las interfaces.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
--[Arquitectura y características mapi](mapi-features-and-architecture.md)
+-[Características y arquitectura mapi](mapi-features-and-architecture.md)
 

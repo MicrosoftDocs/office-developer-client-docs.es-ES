@@ -23,9 +23,9 @@ Determina qué conectores dinámicos se alinean uno encima de otro.
 |**Valor**|**Ajuste**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Predeterminado para el estilo de enrutamiento  <br/> |**visPLOLineAdjustToDefault** <br/> |
-|1   <br/> |Líneas cercanas entre sí  <br/> |**visPLOLineAdjustToAll** <br/> |
-|2   <br/> |Sin líneas  <br/> |**visPLOLineAdjustToNone** <br/> |
-|3   <br/> |Líneas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
+|1  <br/> |Líneas cercanas entre sí  <br/> |**visPLOLineAdjustToAll** <br/> |
+|2  <br/> |Sin líneas  <br/> |**visPLOLineAdjustToNone** <br/> |
+|3  <br/> |Líneas relacionadas  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

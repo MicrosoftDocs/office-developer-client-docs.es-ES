@@ -25,7 +25,7 @@ ms.locfileid: "33414007"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un puntero al contenedor de formularios en el que está instalado un formulario determinado.
+Devuelve un puntero al contenedor de formularios en el que se instala un formulario determinado.
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -33,7 +33,7 @@ HRESULT OpenFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppformcontainer_
   
@@ -45,7 +45,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

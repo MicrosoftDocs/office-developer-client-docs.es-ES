@@ -41,15 +41,15 @@ HrSzFromEntryID(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cb_
   
-> [entrada] Tamaño, en bytes, del identificador de entrada al que apunta el _parámetro pentry._ 
+> [in] Tamaño, en bytes, del identificador de entrada al que apunta el _parámetro pentry._ 
     
  _pentry_
   
-> [entrada] Puntero a una [estructura ENTRYID](entryid.md) que contiene el identificador de entrada que se va a codificar. 
+> [in] Puntero a una [estructura ENTRYID](entryid.md) que contiene el identificador de entrada que se va a codificar. 
     
  _psz_
   
@@ -65,6 +65,6 @@ Las [funciones HrEntryIDFromSz](hrentryidfromsz.md) y **HrSzFromEntryID** propor
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La **función HrSzFromEntryID** asigna memoria para la cadena ASCII mediante la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
+La **función HrSzFromEntryID** asigna memoria a la cadena ASCII mediante la [función MAPIAllocateBuffer.](mapiallocatebuffer.md) 
   
 

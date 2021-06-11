@@ -18,9 +18,9 @@ ms.locfileid: "33414469"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Un control adecuado de la memoria es fundamental para crear complementos XLL confiables para Microsoft Excel. Si no se asignan búferes de memoria adecuados y se liberan cuando ya no son necesarios, se reduce el rendimiento, se crea contención de recursos y se desestabiliza Excel.
+El control adecuado de la memoria es fundamental para crear complementos XLL confiables para Microsoft Excel. Si no se asignan los búferes de memoria adecuados y se liberan cuando ya no son necesarios, se reduce el rendimiento, se crea contención de recursos y se desestabiliza Excel.
   
-A partir Microsoft Office Excel 2007, puede configurar Excel para que use hasta 1.024 subprocesos simultáneos al recalcular. En algunos casos, especialmente cuando hay varios procesadores disponibles o con funciones definidas por el usuario que se ejecutan en servidores en clúster, el multithreading puede mejorar el rendimiento.
+A partir Microsoft Office Excel 2007, puede configurar Excel para usar hasta 1.024 subprocesos simultáneos al volver a calcular. En algunos casos, especialmente cuando hay varios procesadores disponibles o con funciones definidas por el usuario que se ejecutan en servidores agrupados, el multithreading puede mejorar el rendimiento.
   
 En los siguientes temas se describe cómo administrar la memoria y los subprocesos en XLL:
   
@@ -30,7 +30,7 @@ En los siguientes temas se describe cómo administrar la memoria y los subproces
     
 - [Actualización multiproceso en Excel](multithreaded-recalculation-in-excel.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

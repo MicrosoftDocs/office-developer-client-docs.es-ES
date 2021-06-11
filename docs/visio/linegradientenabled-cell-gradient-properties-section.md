@@ -1,5 +1,5 @@
 ---
-title: Celda LineGradientEnabled (Sección de propiedades de degradado)
+title: Celda LineGradientEnabled (sección Propiedades de degradado)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,24 +14,24 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416380"
 ---
-# <a name="linegradientenabled-cell-gradient-properties-section"></a>Celda LineGradientEnabled (Sección de propiedades de degradado)
+# <a name="linegradientenabled-cell-gradient-properties-section"></a>Celda LineGradientEnabled (sección Propiedades de degradado)
 
 Determina si un degradado de línea está habilitado para una línea o borde de una forma. 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|TRUE  <br/> |El degradado se muestra en la línea o el borde de una forma.  <br/> |
-|FALSE  <br/> |Los degradados no se muestran en la línea o el borde de una forma.  <br/> |
+|TRUE  <br/> |El degradado se muestra en la línea o borde de una forma.  <br/> |
+|FALSE  <br/> |Los degradados no se muestran en la línea o borde de una forma.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **LineGradientEnabled** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **LineGradientEnabled** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la propiedad **CellsU,** use: 
   
 |||
 |:-----|:-----|
 | Nombre de celda:  <br/> | LineGradientEnabled  <br/> |
    
-Para obtener una referencia desde un programa a **la celda LineGradientEnabled** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
+Para obtener una referencia desde un programa a la celda **LineGradientEnabled** por su índice, utilice la **propiedad CellsSRC** con los argumentos siguientes: 
   
 |||
 |:-----|:-----|

@@ -45,7 +45,7 @@ typedef struct _MAPINAMEID
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **lpguid**
   
@@ -83,11 +83,11 @@ MNID_STRING
 
 La **estructura MAPINAMEID** se usa para describir propiedades con nombre que tienen identificadores en 0x8000. Un conjunto de propiedades es una parte importante de una propiedad con nombre. Por ejemplo PS_PUBLIC_STRINGS o PS_ROUTING_ADDRTYPE son conjuntos de propiedades definidos por MAPI. 
   
-Las propiedades con nombre permiten a los clientes definir propiedades personalizadas en un espacio de nombres más grande del que está disponible en el intervalo de identificadores de propiedades definido por MAPI. Los nombres de propiedad no se pueden usar para obtener los valores de propiedad directamente; primero deben asignarse a identificadores de propiedad mediante el método [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Para objetos concretos, como mensajes, MAPI reserva un intervalo de identificadores de propiedad para propiedades personalizadas. Por lo tanto, para estos objetos, los clientes no tienen que usar propiedades con nombre y pueden guardar la sobrecarga asociada. 
+Las propiedades con nombre permiten a los clientes definir propiedades personalizadas en un espacio de nombres más grande del que está disponible en el intervalo de identificadores de propiedades definido por MAPI. Los nombres de propiedad no se pueden usar para obtener los valores de propiedad directamente; primero deben asignarse a identificadores de propiedades mediante el método [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Para objetos concretos, como mensajes, MAPI reserva un intervalo de identificadores de propiedad para propiedades personalizadas. Por lo tanto, para estos objetos, los clientes no tienen que usar propiedades con nombre y pueden guardar la sobrecarga asociada. 
   
-Para obtener más información acerca de las propiedades con nombre, vea [Propiedades con nombre.](mapi-named-properties.md)
+Para obtener más información acerca de las propiedades con nombre, vea [Named Properties](mapi-named-properties.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

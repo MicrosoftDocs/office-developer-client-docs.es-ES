@@ -24,7 +24,7 @@ Determina el grosor de línea de una forma. Para establecer el grosor de línea,
 
 También puede establecer este valor de LineWeight en el cuadro de diálogo **Línea** (haga clic en la pestaña **Inicio** del grupo **Forma**, haga clic en **Línea**, vaya a **Grosor** y, a continuación, haga clic en **Más líneas**).
   
-Si no se especifica la unidad de medida, se usa la unidad de medida  del texto especificado en el cuadro de diálogo Opciones de **Visio** (haga clic en la ficha Archivo y, a continuación, haga clic en **Opciones).** El grosor de línea no depende de la escala del dibujo. Si se cambia la escala del dibujo, el grosor de línea permanece igual. 
+Si no se especifica la unidad de medida, se usa la unidad de medida del  texto especificado en el cuadro de diálogo Opciones de **Visio** (haga clic en la pestaña Archivo y, a continuación, haga clic en **Opciones**). El grosor de línea no depende de la escala del dibujo. Si se cambia la escala del dibujo, el grosor de línea permanece igual. 
   
 Para obtener una referencia a la celda LineWeight por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

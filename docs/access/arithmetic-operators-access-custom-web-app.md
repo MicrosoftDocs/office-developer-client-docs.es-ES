@@ -20,7 +20,7 @@ ms.locfileid: "33411844"
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [- (Resta) (aplicación web personalizada de Access)](subtractaccess-custom-web-app.md)
+- [- (Restar) (aplicación web personalizada de Access)](subtractaccess-custom-web-app.md)
     
 - [\* (Multiplicar) (Aplicación web personalizada de Access)](multiplyaccess-custom-web-app.md)
     

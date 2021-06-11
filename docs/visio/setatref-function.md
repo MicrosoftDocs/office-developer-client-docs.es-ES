@@ -22,29 +22,29 @@ Redirige los valores actualizados resultantes de acciones en la interfaz de usua
   
 ## <a name="syntax"></a>Sintaxis
 
-SETATREF(** *reference* ** [, ** *set_expression* ** [, ** *ignore_eval* ** ]]) 
+REFERENCIA SETATREF(**  ** [, ** *set_expression* ** [, ** *ignore_eval* ** ]]) 
   
 ### <a name="parameters"></a>Parámetros
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _reference_ <br/> |Obligatorio  <br/> |**String** <br/> |Referencia a la celda adonde se redirigen las actualizaciones.  <br/> |
-| _set_expression_ <br/> |Opcional  <br/> |**String** <br/> |Expresión asignada a la  _referencia_.  <br/> |
-| _ignore_eval_ <br/> |Opcional  <br/> |**Boolean** <br/> |Si es TRUE, la función SETATREF se evalúa como (0) cero; si es FALSE (valor predeterminado) la función SETATREF se evalúa como el valor de  _referencia_.  <br/> |
+| _set_expression_ <br/> |Opcional  <br/> |**String** <br/> |Expresión que se asigna a  _la referencia_.  <br/> |
+| _ignore_eval_ <br/> |Opcional  <br/> |**Boolean** <br/> |Si es TRUE, la función SETATREF se evalúa en (0) cero; si FALSE (valor predeterminado) la función SETATREF evalúa el valor de  _referencia_.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando una acción del usuario en la ventana de dibujo, o un método de automatización, hace que Microsoft Visio actualice una celda que contiene una fórmula SETATREF, el valor se redirige en su lugar a la celda a la que hace referencia la fórmula SETATREF _(_ referencia ). La fórmula de la celda que contiene la función SETATREF permanece intacta.
+Cuando una acción del usuario en la ventana de dibujo o un método de automatización hace que Microsoft Visio actualice una celda que contiene una fórmula SETATREF, el valor se redirige en su lugar a la celda a la que hace referencia la fórmula SETATREF _(_ referencia ). La fórmula de la celda que contiene la función SETATREF permanece intacta.
   
 Si  _set_expression_ se omite, el valor establecido en la interfaz de usuario o mediante automatización se asigna a la celda a la que se hace referencia; de lo contrario, el  _contenido set_expression_ se asigna a la celda a la que se hace referencia. Esto permite modificar o transformar el nuevo valor antes de asignarlo a la celda de referencia. 
   
 La función SETATREF cuenta con dos funciones relacionadas: 
   
-- La función SETATREFEXPR, que puede usar para representar el nuevo valor dentro de  _set_expression_. Por ejemplo, una  _set_expression_ de SETATREFEXPR()-2 pda. podría usarse para restar 2 pulgadas del resultado SETATREFEXPR. 
+- La función SETATREFEXPR, que puede usar para representar el nuevo valor dentro de  _set_expression_. Por ejemplo, una  _set_expression_ de SETATREFEXPR()-2 in. podría usarse para restar 2 pulgadas del resultado SETATREFEXPR. 
     
-- La función SETATREFEVAL, que puedes usar para  indicar que parte de set_expression debe evaluarse y reemplazarse por su resultado. 
+- La función SETATREFEVAL, que puede usar para  indicar que una parte de set_expression debe evaluarse y reemplazarse por su resultado. 
     
-La función SETATREF está diseñada para su uso en celdas que pueden cambiarse mediante acciones del usuario en la ventana de dibujo. Se admiten las siguientes celdas:
+La función SETATREF está diseñada para su uso en celdas que pueden cambiar las acciones del usuario en la ventana de dibujo. Se admiten las siguientes celdas:
   
 - Sección de transformación de forma: celdas Width, Height, Angle, PinX y PinY
     
@@ -70,15 +70,15 @@ A continuación se describen algunos puntos adicionales que conviene tener en cu
     
 - Al igual que ocurre con GUARD, SETATREF no protege las celdas de los cambios realizados mediante la función SETF en ShapeSheet.
     
-## <a name="example1"></a>Ejemplo 1
+## <a name="example1"></a>Ejemplo1
 
 Supongamos que una forma posee una propiedad personalizada llamada Width, y la celda Width de la sección de transformación de forma contiene la siguiente fórmula:
   
 =SETATREF(Prop.Width)
   
-Si un usuario cambiara el ancho de la forma en la interfaz de usuario, el nuevo valor se asigna a la celda Prop.Width, no a la celda Width de la sección ShapeTransform; la fórmula de la celda Width no cambia. También es posible establecer el ancho de la forma mediante los datos de formas.
+Si un usuario cambiara el ancho de la forma en la interfaz de usuario, el nuevo valor se asigna a la celda Prop.Width, no a la celda Width de la sección ShapeTransform; la fórmula de la celda Width permanece sin cambios. También es posible establecer el ancho de la forma mediante los datos de formas.
   
-## <a name="example2"></a>Ejemplo 2
+## <a name="example2"></a>Ejemplo2
 
 Las soluciones de Visio suelen contar con formas relacionadas jerárquicamente, y así se precisa que las formas secundarias se muevan cuando lo hace una principal. A continuación se muestra un ejemplo de cómo se puede administrar esta relación con la función SETATREF en ShapeSheet. 
   
@@ -88,6 +88,6 @@ PinX =SETATREF(Usuario.DeltaX; SETATREFEVAL(SETATREFEXPR() - ParentShape!PinX)) 
   
 PinY =SETATREF(Usuario.DeltaY; SETATREFEVAL(SETATREFEXPR() - ParentShape!PinY)) + ParentShape!PinY
   
-Cuando la forma secundaria se mueve mediante la interfaz de usuario, los nuevos valores PinX y PinY se establecen como parámetro en la función SETATREFEXPR. La función SETATREF evalúa la fórmula incluida en SETATREFEVAL y reemplaza PinX y PinY por sus resultados y, a continuación, la fórmula resultante se asigna a las celdas de usuario a las que se hace referencia en la función SETATREF: User.DeltaX y User.DeltaY. Por último, los valores devueltos por SETATREF (User.DeltaX o User.DeltaY) se agregan a la ubicación de patilla de ParentShape para calcular la ubicación del pin de la forma secundaria.
+Cuando la forma secundaria se mueve mediante la interfaz de usuario, los nuevos valores PinX y PinY se establecen como parámetro en la función SETATREFEXPR. La función SETATREF evalúa la fórmula incluida en SETATREFEVAL y reemplaza PinX y PinY con sus resultados y, a continuación, la fórmula resultante se asigna a las celdas de usuario a las que se hace referencia en la función SETATREF: User.DeltaX y User.DeltaY. Por último, los valores devueltos por SETATREF (User.DeltaX o User.DeltaY) se agregan a la ubicación de patillas de ParentShape para calcular la ubicación del pin de la forma secundaria.
   
 

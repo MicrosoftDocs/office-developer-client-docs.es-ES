@@ -30,11 +30,11 @@ LPXLOPER TempActiveRow(WORD row);
 LPXLOPER12 TempActiveRow12(ROW row);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _row_
+ _fila_
   
-Fila a la que se va a hacer referencia. Los argumentos de fila se basan en cero para que la fila 1 se pase como 0. En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 65.535 = 2^16 - 1 y es el valor máximo que puede tomar un entero de WORD. A partir de Excel 2007 que ejecuta un libro, el valor máximo es 1.048.575 = 2^20 - 1. RW se define como un entero con signo de 32 bits en XLCALL.H.
+Fila a la que se va a hacer referencia. Los argumentos row están basados en cero para que la fila 1 se pase como 0. En Microsoft Office Excel 2003 y versiones anteriores, y a partir de Excel 2007 ejecutando un libro en modo de compatibilidad, el valor máximo es 65.535 = 2^16 - 1 y es el valor máximo que puede tomar un entero de WORD. A partir Excel 2007 que ejecuta un libro, el valor máximo es 1.048.575 = 2^20 - 1. RW se define como un entero con signo de 32 bits en XLCALL.H.
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -54,7 +54,7 @@ short WINAPI TempActiveRowExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

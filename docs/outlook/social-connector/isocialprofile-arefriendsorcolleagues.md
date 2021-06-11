@@ -23,11 +23,11 @@ Determina si los usuarios especificados son amigos.
 HRESULT _stdcall AreFriendsOrColleagues(SAFEARRAY(BSTR) userIds, [out, retval] SAFEARRAY(VARIANT_BOOL)* results);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _userIds_
   
-> [entrada] Estructura que especifica una matriz de valores de identificador de usuario que corresponden a un conjunto de personas en la red social.
+> [in] Estructura que especifica una matriz de valores de id. de usuario que corresponden a un conjunto de personas en la red social.
     
 _resultados_
   
@@ -35,9 +35,9 @@ _resultados_
     
 ## <a name="remarks"></a>Comentarios
 
-Para cada persona representada en la matriz de entrada del parámetro  _userIds,_ este método establece el elemento correspondiente en la matriz de salida del parámetro  _de_ resultados. **true** indica que la persona es un amigo y **false** indica que la persona no es un amigo. 
+Para cada persona representada en la matriz de entrada del parámetro _userIds,_ este método establece el elemento correspondiente en la matriz de salida del _parámetro results._ **true** indica que la persona es un amigo y **false** indica que la persona no es un amigo. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
 

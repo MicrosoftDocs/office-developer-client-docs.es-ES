@@ -36,7 +36,7 @@ Si todos los argumentos son NULL, **Coalesce** devuelve NULL.
   
 ## <a name="example"></a>Ejemplo
 
-La siguiente expresión se usa como regla de validación para una tabla. La expresión garantiza que las entradas se realizan en los campos Nombre, Apellidos, Correo electrónico, Teléfono móvil, Teléfono del trabajo, Teléfono principal y Compañía antes de que se confirma un registro. Si alguno de los campos enumerados se deja en blanco, la función **Coalesce** devuelve Null, lo que infringe la regla de validación. 
+La siguiente expresión se usa como regla de validación para una tabla. La expresión garantiza que las entradas se realizan en los campos Nombre, Apellido, Correo electrónico, Teléfono móvil, Trabajo Teléfono, Inicio Teléfono y Empresa antes de que se confirma un registro. Si alguno de los campos enumerados se deja en blanco, la función **Coalesce** devuelve Null, lo que infringe la regla de validación. 
   
 ```vb
 Coalesce([First Name],[Last Name],[Email],[Mobile Phone],[Work Phone],[Home Phone],[Company]) Is Not Null

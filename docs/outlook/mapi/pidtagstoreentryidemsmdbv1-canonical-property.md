@@ -21,22 +21,22 @@ ms.locfileid: "33415155"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el estilo antiguo (Microsoft Outlook 2002 y versiones anteriores) del identificador de entrada de un almacén de mensajes de Microsoft Exchange Server 2010 o Exchange Server 2013.
+Contiene el estilo antiguo (Microsoft Outlook 2002 y versiones anteriores) del identificador de entrada de un almacén de mensajes de Microsoft Exchange Server 2010 Exchange Server 2013.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_STORE_ENTRYID_EMSMDB_V1  <br/> |
 |Identificador:  <br/> |0x65F60102  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Propiedades de identificador  <br/> |
+|Área:  <br/> |Propiedades de id.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-A partir de Microsoft Outlook 2003, los FQDN del servidor se integraban en los identificadores de entrada, lo que evitaba los RPC adicionales para las referencias. Sin embargo, esto hace que los identificadores de entrada sean más largos e introduce más escenarios en los que se debe usar el método **CompareEntryIDs** para determinar si dos identificadores de entrada son equivalentes. La propiedad PR_STORE_ENTRYID_EMSMDB_V1 (PidTagStoreIdEmsbdbV1) tiene acceso al formato anterior del identificador de entrada Exchange Server usado por Microsoft Outlook 2002 (Microsoft Office XP) y versiones anteriores. Esto puede ahorrar espacio y también reducir el número de llamadas **CompareEntryIDs** necesarias para determinar cuándo los identificadores de entrada son equivalentes. Tenga en cuenta que el uso de los identificadores de entrada más antiguos para abrir un buzón puede implicar algunos RPC adicionales si se requiere una referencia. 
+A partir de Microsoft Outlook 2003, los FQDN del servidor se integraban en los identificadores de entrada, lo que evitaba los RPC adicionales para referencias. Sin embargo, esto hace que los identificadores de entrada sean más largos e introduce más escenarios en los que el método **CompareEntryIDs** debe usarse para determinar si dos identificadores de entrada son equivalentes. La propiedad PR_STORE_ENTRYID_EMSMDB_V1 (PidTagStoreIdEmsbdbV1) tiene acceso al formato anterior del identificador de entrada de Exchange Server usado por Microsoft Outlook 2002 (Microsoft Office XP) y versiones anteriores. Esto puede ahorrar espacio y también reducir el número de **llamadas CompareEntryID necesarias** para determinar cuándo los identificadores de entrada son equivalentes. Tenga en cuenta que el uso de los identificadores de entrada más antiguos para abrir un buzón puede incurrir en algunos RPC adicionales si se requiere una referencia. 
   
-Para obtener acceso PR_STORE_ENTRYID_EMSMDB_V1 propiedad en modo caché, debe omitir la memoria caché mediante la marca MAPI_NO_CACHE con el método [IMAPIProp::GetProps.](imapiprop-getprops.md) Si **PR_STORE_ENTRYID_EMSMDB_V1** no está disponible, el código debe volver a PR_STORE_ENTRYID. Solo Outlook 2003 a Microsoft Outlook 2013 admite la PR_STORE_ENTRYID_EMSMDB_V1 propiedad. 
+Para obtener acceso PR_STORE_ENTRYID_EMSMDB_V1 propiedad mientras está en modo caché, debe omitir la memoria caché mediante la marca MAPI_NO_CACHE con el método [IMAPIProp::GetProps.](imapiprop-getprops.md) Si **PR_STORE_ENTRYID_EMSMDB_V1** no está disponible, el código debe volver a PR_STORE_ENTRYID. Solo Outlook 2003 a través Microsoft Outlook 2013 admiten la PR_STORE_ENTRYID_EMSMDB_V1 propiedad. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -45,7 +45,7 @@ Para obtener acceso PR_STORE_ENTRYID_EMSMDB_V1 propiedad en modo caché, debe om
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

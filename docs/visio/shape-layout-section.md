@@ -24,6 +24,6 @@ Contiene celdas que controlan la configuración de la posición de las formas y 
 
 También puede establecer los valores de las celdas específicas de las formas en esta sección con la ficha **Colocación** del cuadro de diálogo **Comportamiento** (en la ficha [Programador](run-in-developer-mode-display-the-developer-tab.md), en el grupo **Diseño de formas**, haga clic en **Comportamiento**). Puede establecer los valores de las celdas específicas de los conectores en esta sección con la ficha **Conector** del cuadro de diálogo **Comportamiento**. (Para ver la ficha **Conector**, seleccione el conector en la ventana de dibujo y, a continuación, muestre el cuadro de diálogo **Comportamiento**.) 
   
-Puede usar los valores de la sección **Diseño de** forma para invalidar los valores predeterminados contenidos en la sección **Diseño de** página. 
+Puede usar valores en la sección **Diseño de** formas para invalidar los valores predeterminados contenidos en la sección **Diseño de** página. 
   
 

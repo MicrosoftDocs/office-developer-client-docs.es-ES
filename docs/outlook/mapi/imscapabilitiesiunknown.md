@@ -25,24 +25,24 @@ ms.locfileid: "33414784"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona información sobre lo que puede admitir un almacén.
+Proporciona información sobre lo que un almacén puede admitir.
   
 |||
 |:-----|:-----|
-|Suministrado por:  <br/> |Proveedor de almacenamiento de mensajes  <br/> |
+|Suministrado por:  <br/> |Proveedor de almacén de mensajes  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMSCapabilities  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Devuelve funcionalidades de un almacén basándose en la selección especificada.  <br/> |
+|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Devuelve las capacidades de un almacén según la selección especificada.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
- **IMSCapabilities proporciona** información sobre lo que una tienda puede admitir si la tienda admite esta interfaz. 
+ **IMSCapabilities proporciona** información sobre lo que un almacén puede admitir si el almacén admite esta interfaz. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -32,6 +32,6 @@ La **función Day** contiene el argumento siguiente.
    
 ## <a name="remarks"></a>Comentarios
 
-**Day** devuelve el mismo valor que **Datepart** (day, date). 
+**Day** devuelve el mismo valor que **Datepart** (día, fecha). 
   
 

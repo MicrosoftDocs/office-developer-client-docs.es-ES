@@ -40,27 +40,27 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 **cEntries**
   
-> Número de **estructuras FLATENTRY** en la matriz descrita por el **miembro abEntries.** 
+> Recuento de **estructuras FLATENTRY** en la matriz descrita por el **miembro abEntries.** 
     
 **cbEntries**
   
-> Número de bytes de la matriz descrita por **abEntries**. 
+> Recuento de bytes en la matriz descrita por **abEntries**. 
     
 **abEntries**
   
-> Matriz de bytes que contiene una o más **estructuras FLATENTRY,** organizadas de un extremo a otro. 
+> Matriz de bytes que contiene una o más estructuras **FLATENTRY,** dispuestas de extremo a extremo. 
     
 ## <a name="remarks"></a>Comentarios
 
-En la **matriz abEntries,** cada **estructura FLATENTRY** se alinea en un límite alineado de forma natural. Se incluyen bytes adicionales como relleno para garantizar la alineación natural entre cualquiera de las dos **estructuras FLATENTRY.** La primera **estructura FLATENTRY** de la matriz siempre se alinea correctamente porque el desplazamiento del miembro **abEntries** es 8. Para calcular el desplazamiento de la siguiente estructura, use el tamaño de la primera entrada redondeada al múltiplo siguiente de 4. Utilice la [macro CbFLATENTRY](cbflatentry.md) para calcular el tamaño de una **estructura FLATENTRY.** 
+En la **matriz abEntries,** cada **estructura FLATENTRY** se alinea en un límite alineado de forma natural. Se incluyen bytes adicionales como relleno para asegurarse de que la alineación natural entre las dos estructuras **FLATENTRY.** La primera **estructura FLATENTRY** de la matriz siempre se alinea correctamente porque el desplazamiento del **miembro abEntries** es 8. Para calcular el desplazamiento de la siguiente estructura, use el tamaño de la primera entrada redondeada hasta el múltiplo siguiente de 4. Use la [macro CbFLATENTRY](cbflatentry.md) para calcular el tamaño de una **estructura FLATENTRY.** 
   
-Por ejemplo, la segunda estructura **FLATENTRY** comienza con un desplazamiento que consiste en el desplazamiento de la primera entrada más la longitud de la primera entrada redondeada a los cuatro bytes siguientes. La longitud de la primera entrada es la longitud de su **miembro cb** más la longitud de su **miembro abEntry.** 
+Por ejemplo, la segunda estructura **FLATENTRY** comienza en un desplazamiento que consiste en el desplazamiento de la primera entrada más la longitud de la primera entrada redondeada a los cuatro bytes siguientes. La longitud de la primera entrada es la longitud de su **miembro cb** más la longitud de su **miembro abEntry.** 
   
-En el ejemplo de código siguiente se indica cómo calcular los desplazamientos en una **estructura FLATENTRYLIST.** Supongamos que  _lpFlatEntry_ es un puntero a la primera estructura de la lista. 
+El ejemplo de código siguiente indica cómo calcular desplazamientos en una **estructura FLATENTRYLIST.** Suponga que  _lpFlatEntry_ es un puntero a la primera estructura de la lista. 
   
 ```cpp
 (offsetof(lpFlatEntry->ab) // for example, 4
@@ -68,7 +68,7 @@ En el ejemplo de código siguiente se indica cómo calcular los desplazamientos 
 + 4) & ~3 // round to next 4 byte boundary
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [FLATENTRY](flatentry.md)
 - [Propiedad canónica PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)

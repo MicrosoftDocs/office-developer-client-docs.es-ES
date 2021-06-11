@@ -23,7 +23,7 @@ ms.locfileid: "33412383"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una rutina inactiva a la que el motor de inactividad MAPI llama periódicamente según la prioridad. 
+Define una rutina de inactividad a la que el motor de inactividad MAPI llama periódicamente según la prioridad. 
   
 |||
 |:-----|:-----|
@@ -38,36 +38,36 @@ BOOL (STDAPICALLTYPE FNIDLE)(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpvContext_
   
-> [entrada] Puntero a un bloque de memoria que MAPI pasa a la rutina inactiva cada vez que lo llama. Este puntero se pasa al motor inactivo MAPI en el parámetro  _pvIdleParam_ [mediante FtgRegisterIdleRoutine](ftgregisteridleroutine.md). Los datos del bloque de memoria pueden proporcionar contexto para la llamada a la rutina inactiva, como el objeto en el que se va a operar o el estado actual de una operación larga.
+> [in] Puntero a un bloque de memoria que MAPI pasa a la rutina de inactividad cada vez que lo llama. Este puntero se pasa al motor de inactividad MAPI en el  _parámetro pvIdleParam_ [mediante FtgRegisterIdleRoutine](ftgregisteridleroutine.md). Los datos del bloque de memoria pueden proporcionar contexto para la llamada a la rutina de inactividad, como el objeto en el que se va a operar o el estado actual de una operación larga.
     
 ## <a name="return-value"></a>Valor devuelto
 
 FALSE 
   
-> Una rutina inactiva con el **prototipo FNIDLE** siempre debe devolver FALSE. 
+> Una rutina de inactividad con el **prototipo FNIDLE** siempre debe devolver FALSE. 
     
 ## <a name="remarks"></a>Comentarios
 
-La funcionalidad específica de la rutina inactiva la determina la aplicación cliente o el proveedor de servicios de implementación. 
+La funcionalidad específica de la rutina de inactividad la determina la aplicación cliente de implementación o el proveedor de servicios. 
   
-El cliente o proveedor debe limitar el tiempo de ejecución de cada estado de una rutina inactiva. Cada estado debe realizar una cantidad mínima de procesamiento, actualizar el estado actual en los datos de contexto a los que apunta  _lpvContext_ y volver al motor inactivo MAPI. 
+El cliente o el proveedor deben limitar el tiempo de ejecución de cada estado de una rutina de inactividad. Cada estado debe realizar una cantidad mínima de procesamiento, actualizar el estado actual en los datos de contexto señalados por  _lpvContext_ y volver al motor de inactividad MAPI. 
   
-El cliente o proveedor debe llamar a la función [MAPI MAPIInitIdle](mapiinitidle.md) para poder registrar su propia rutina inactiva con una llamada a la función [FtgRegisterIdleRoutine.](ftgregisteridleroutine.md) 
+El cliente o el proveedor deben llamar a la función [MAPIInitIdle](mapiinitidle.md) para poder registrar su propia rutina de inactividad con una llamada a la función [FtgRegisterIdleRoutine.](ftgregisteridleroutine.md) 
   
-Las siguientes funciones tratan con el motor de inactividad MAPI y con rutinas inactivas basadas en el prototipo de función FNIDLE: 
+Las siguientes funciones tratan con el motor de inactividad MAPI y con rutinas de inactividad basadas en el prototipo de función FNIDLE: 
   
-|**Función de rutina inactiva**|**Uso**|
+|**Función de rutina de inactividad**|**Uso**|
 |:-----|:-----|
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |Cambia las características de una rutina de inactividad registrada.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Quita una rutina de inactividad registrada del sistema MAPI.  <br/> |
 |[EnableIdleRoutine](enableidleroutine.md) <br/> |Deshabilita o vuelve a habilitar una rutina de inactividad registrada sin quitarla del sistema MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina inactiva al sistema MAPI, con o sin habilitarla.  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Cierra el motor de inactividad MAPI para la aplicación que realiza la llamada.  <br/> |
-|[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa el motor de inactividad MAPI para la aplicación que llama.  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Agrega una rutina de inactividad al sistema MAPI, con o sin habilitarlo.  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Apaga el motor de inactividad MAPI para la aplicación de llamada.  <br/> |
+|[MAPIInitIdle](mapiinitidle.md) <br/> |Inicializa el motor de inactividad MAPI para la aplicación de llamada.  <br/> |
    
 **ChangeIdleRoutine**, **DeregisterIdleRoutine** y **EnableIdleRoutine** toman como parámetro de entrada la etiqueta de función devuelta por **FtgRegisterIdleRoutine**. 
   

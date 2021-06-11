@@ -29,11 +29,11 @@ La **función Parse** contiene los argumentos siguientes.
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Expresión de texto que representa el valor con formato que se debe analizar en el tipo de datos especificado.  <br/> |
+| *TextExpression*  <br/> |Expresión de texto que representa el valor con formato para analizar en el tipo de datos especificado.  <br/> |
 | *DataType*  <br/> |Valor literal que representa el tipo de datos solicitado para el resultado.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Use **El análisis solo** para convertir de cadena a tipos de fecha y hora y números. Para conversiones de tipos generales, use la **función** Convert. Tenga en cuenta que hay una sobrecarga de rendimiento determinada al analizar el valor de la cadena. 
+Use **El análisis** solo para convertir de cadena a fecha/hora y tipos de números. Para las conversiones de tipos generales, use la **función** Convert. Tenga en cuenta que hay una sobrecarga de rendimiento determinada en el análisis del valor de cadena. 
   
 

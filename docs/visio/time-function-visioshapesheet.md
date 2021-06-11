@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251506
 localization_priority: Normal
 ms.assetid: 2e662230-0760-5f43-52dc-927f499715f6
-description: Devuelve la hora representada por hora, minuto y segundo.
+description: Devuelve el tiempo representado por hora, minuto y segundo.
 ms.openlocfilehash: f5be55d7e63a70d15da49c68b924cc5b03c5ca88
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33414476"
 ---
 # <a name="time-function-visioshapesheet"></a>Función TIME (VisioShapeSheet)
 
-Devuelve la hora representada por  _hora_,  _minuto_ y  _segundo_.
+Devuelve el tiempo representado por  _hora,_  _minuto_ y  _segundo_.
   
 ## <a name="syntax"></a>Sintaxis
 

@@ -27,7 +27,7 @@ Establece la dirección URL del sitio de red social.
 
 Cadena que representa una dirección URL de sitio de red social.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "33410206"
   
 - Llame [a IProfAdmin::D eleteProfile](iprofadmin-deleteprofile.md).
     
- **DeleteProfile** marca el perfil para su eliminación si se está utilizando actualmente, esperando hasta que ya no esté activo para quitarlo. El perfil no desaparece realmente hasta que todos los clientes con una sesión activa se desconectan. 
+ **DeleteProfile** marca el perfil para su eliminación si se está utilizando actualmente, esperando hasta que ya no esté activo para quitarlo. El perfil no desaparece hasta que todos los clientes con una sesión activa se desconectan. 
   
  **DeleteProfile** llama a la función de punto de entrada de todos los servicios de mensajes del perfil con el parámetro  _ulContext_ establecido en MSG_SERVICE_DELETE. Las llamadas a las funciones de punto de entrada se producen antes de que los servicios se quiten físicamente del perfil. 
   

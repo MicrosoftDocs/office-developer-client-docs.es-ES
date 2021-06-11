@@ -20,7 +20,7 @@ En esta sección se describen las interfaces de la API de disponibilidad.
   
 |**Interfaz**|**Descripción**|
 |:-----|:-----|
-|[IEnumFBBlock](ienumfbblock.md) <br/> |Admite el acceso y la enumeración de bloques de datos de disponibilidad de un usuario dentro de un intervalo de tiempo.  <br/> |
+|[IEnumFBBlock](ienumfbblock.md) <br/> |Admite el acceso y la enumeración de bloques de datos de disponibilidad para un usuario dentro de un intervalo de tiempo.  <br/> |
 |[IFreeBusyData](ifreebusydata.md) <br/> |Para un usuario determinado, obtiene y establece un intervalo de tiempo y devuelve una interfaz para enumerar bloques de datos de disponibilidad dentro de este intervalo de tiempo.  <br/> |
 |[IFreeBusySupport](ifreebusysupport.md) <br/> |Admite la especificación de interfaces que tienen acceso a datos de disponibilidad para usuarios especificados.  <br/> |
    

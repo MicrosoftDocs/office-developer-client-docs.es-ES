@@ -33,7 +33,7 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -47,17 +47,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El proceso de cierre de sesión suele iniciarse cuando un cliente llama al método [IMAPISession::Logoff](imapisession-logoff.md) para finalizar una sesión. MAPI llama al método **IABLogon::Logoff** de cada proveedor de libreta de direcciones para iniciar el proceso de cierre de sesión. 
+El proceso de cierre de sesión normalmente se inicia cuando un cliente llama al método [IMAPISession::Logoff](imapisession-logoff.md) para finalizar una sesión. A continuación, MAPI llama al método **IABLogon::Logoff** de cada proveedor de libreta de direcciones para iniciar el proceso de cierre de sesión. 
   
 El **método IABLogon::Logoff** hace lo siguiente: 
   
-- Libera todos los objetos abiertos, como los subobjetos o el objeto de estado.
+- Libera todos los objetos abiertos, como cualquier subobjeto o el objeto status.
     
-- Libera el objeto de compatibilidad del proveedor.
+- Libera el objeto de soporte técnico del proveedor.
     
-Para obtener más información acerca del proceso de cierre de sesión de los proveedores de libretas de direcciones, vea [Apagar un proveedor de servicios.](shutting-down-a-service-provider.md)
+Para obtener más información sobre el proceso de cierre de sesión de los proveedores de libreta de direcciones, vea [Shutting Down a Service Provider](shutting-down-a-service-provider.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

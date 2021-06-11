@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251446
 localization_priority: Normal
 ms.assetid: ce193ce1-c7fd-6609-ad37-a3a28b30a1bd
-description: Redondear un número hacia arriba hasta el siguiente entero.
+description: Redondear un número hasta el número entero siguiente.
 ms.openlocfilehash: 405345ae1d22d599df85e2a640445c8c681ec2f6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33416142"
 ---
 # <a name="intup-function"></a>Función INTUP
 
-Redondear un número hacia arriba hasta el siguiente entero.
+Redondear un número hasta el número entero siguiente.
   
 ## <a name="syntax"></a>Sintaxis
 

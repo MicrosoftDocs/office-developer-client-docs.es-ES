@@ -25,7 +25,7 @@ ms.locfileid: "33413125"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Calcula el número de bytes de una estructura [SMessageClassArray](smessageclassarray.md) existente que contiene un número especificado de punteros de cadena a clases de mensaje. 
+Calcula el número de bytes de una estructura [SMessageClassArray](smessageclassarray.md) existente que contiene un número especificado de punteros de cadena a las clases de mensaje. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [SMessageClassArray](smessageclass
 CbMessageClassArray (_c)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _c_
   
-> Recuento de punteros a las clases de mensaje que se incluyen en **el SMessageClassArray existente.**
+> Recuento de los punteros a las clases de mensaje que se incluyen en **el SMessageClassArray existente.**
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

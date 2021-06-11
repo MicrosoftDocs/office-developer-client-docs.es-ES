@@ -36,7 +36,7 @@ Devuelve el tipo de propiedad de una etiqueta de propiedad especificada.
 PROP_TYPE (ulPropTag)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   
@@ -46,9 +46,9 @@ PROP_TYPE (ulPropTag)
 
 La **PROP_TYPE** macro puede usarse para determinar el tipo de una propiedad. Por ejemplo, al llamar PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) se devuelve el valor PT_BINARY.
   
-Cada etiqueta de propiedad contiene el tipo de propiedad en la palabra de orden bajo (bits 0 a 15) y el identificador de propiedad en la palabra de orden alto (bits 16 a 31). La **PROP_TYPE** macro extrae el tipo de propiedad y la coloca en bits del 0 al 15 del entero que se va a devolver. Los bits restantes del valor devuelto se establecen en ceros. 
+Cada etiqueta de propiedad contiene el tipo de propiedad en la palabra de orden bajo (bits 0 a 15) y el identificador de propiedad en la palabra de orden alto (bits 16 a 31). La **PROP_TYPE** extrae el tipo de propiedad y la coloca en los bits 0 a 15 del entero que se va a devolver. Los bits restantes del valor devuelto se establecen en ceros. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -41,11 +41,11 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cForms**
   
-> Número de punteros en la matriz a los que apunta el **miembro aFormInfo.** 
+> Recuento de punteros en la matriz apuntada por el **miembro aFormInfo.** 
     
  **aFormInfo**
   
@@ -53,7 +53,7 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura SMAPIFormInfoArray** se pasa como parámetro en los métodos siguientes: 
+La **estructura SMAPIFormInfoArray** se pasa como parámetro en los siguientes métodos: 
   
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     
@@ -63,7 +63,7 @@ La **estructura SMAPIFormInfoArray** se pasa como parámetro en los métodos sig
     
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

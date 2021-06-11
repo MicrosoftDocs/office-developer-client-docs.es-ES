@@ -25,7 +25,7 @@ ms.locfileid: "33416653"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Descarga un formulario para abrirlo.
+Descarga un formulario para su apertura.
   
 ```cpp
 HRESULT PrepareForm(
@@ -35,23 +35,23 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana primaria del indicador de progreso que se muestra mientras se descarga el formulario. El _parámetro ulUIParam_ se omite a menos que MAPI_DIALOG marca esté establecida en el _parámetro ulFlags._ 
+> [in] Identificador de la ventana principal del indicador de progreso que se muestra mientras se descarga el formulario. El _parámetro ulUIParam_ se omite a menos que MAPI_DIALOG marca esté establecida en el _parámetro ulFlags._ 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se descarga el formulario. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se descarga el formulario. Se puede establecer la siguiente marca:
     
 MAPI_DIALOG 
   
 > Muestra una interfaz de usuario para proporcionar estado o solicitar al usuario más información. Si no se establece esta marca, no se muestra ninguna interfaz de usuario.
     
- _pfinfo_
+ _pfrmiInfo_
   
-> [entrada] Puntero a un objeto de información de formulario para el formulario que se va a descargar.
+> [in] Puntero a un objeto de información de formulario para el formulario que se va a descargar.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,11 +61,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIFormMgr::P repareForm** para descargar un formulario desde un contenedor de formularios para abrirlo. La mayoría de los visores de formularios no necesitan llamar **a PrepareForm**, porque los métodos [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) e [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) llaman a **PrepareForm**, si es necesario. 
+Los visores de formularios llaman al método **IMAPIFormMgr::P repareForm** para descargar un formulario de un contenedor de formularios para su apertura. La mayoría de los visores de formulario no necesitan llamar a **PrepareForm**, porque los métodos [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) e [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) llaman a **PrepareForm**, si es necesario. 
   
-Puede usar **PrepareForm para** obtener las bibliotecas de vínculos dinámicos (DLL) y otros archivos asociados con un formulario para modificarlas. Si el formulario modificado se vuelve a cargar en su contenedor de formularios, debe volver a instalarse. 
+Puede usar **PrepareForm para** obtener las bibliotecas de vínculos dinámicos (DLL) y otros archivos asociados con un formulario para modificarlas. Si el formulario modificado se vuelve a cargar en el contenedor del formulario, debe volver a instalarse. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

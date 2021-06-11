@@ -35,7 +35,7 @@ ms.locfileid: "33411487"
     
 - [Función Now (aplicación web personalizada de Access)](now-function-access-custom-web-app.md)
     
-- [Función Today (aplicación web personalizada de Access)](today-function-access-custom-web-app.md)
+- [Función Hoy (aplicación web personalizada de Access)](today-function-access-custom-web-app.md)
     
 - [Función Year (aplicación web personalizada de Access)](year-function-access-custom-web-app.md)
     

@@ -25,13 +25,13 @@ ms.locfileid: "33415281"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica si Microsoft Outlook ha descargado en el equipo cliente solo el encabezado de un mensaje, o tanto el encabezado como el cuerpo del mensaje, cuando Outlook está configurado en modo caché de Exchange.
+Especifica si Microsoft Outlook ha descargado en el equipo cliente solo el encabezado de un mensaje, o el encabezado y el cuerpo del mensaje, cuando Outlook está configurado en modo de Exchange caché.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidHeaderItem  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008578  <br/> |
+|Id. largo (LID):  <br/> |0x00008578  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
@@ -49,13 +49,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

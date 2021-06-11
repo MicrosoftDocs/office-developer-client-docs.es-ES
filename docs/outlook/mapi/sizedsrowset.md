@@ -34,9 +34,9 @@ Crea una estructura [SRowSet con](srowset.md) nombre que contiene un número esp
 SizedSRowSet (_crow, _name)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
-_ _resalte_
+_ _crow_
   
 > Recuento del número de filas que se incluirán en la nueva estructura.
     
@@ -53,7 +53,7 @@ lpSRowSet = (LPSRowSet) &SizedSRowSet;
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [SRowSet](srowset.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

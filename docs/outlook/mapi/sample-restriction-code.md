@@ -19,9 +19,9 @@ ms.locfileid: "33411018"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En el siguiente código de ejemplo se muestra cómo crear una restricción que filtra todos los mensajes que no contienen la palabra "remanso" en la línea de asunto y que no se enviaron a Sue desde Sam. Se requiere un [árbol de estructuras SRestriction,](srestriction.md) donde el nodo superior es una restricción **AND** implementada con una [estructura SAndRestriction.](sandrestriction.md) Las tres restricciones que se unen a la operación **AND** son una restricción de subobjetos que busca mensajes enviados a Sue, una restricción de contenido que busca mensajes de Sam y otra restricción **AND** que busca mensajes que tienen un asunto que contiene "reenfoco". Dado **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) no es una  propiedad obligatoria, debe incluirse una restricción Exist. 
+El siguiente código de ejemplo muestra cómo crear una restricción que filtra todos los mensajes que no contienen la palabra "volea" en la línea de asunto y que no se enviaron a Sue desde Sam. Se requiere un [árbol de estructuras SRestriction,](srestriction.md) con el nodo superior como una restricción **AND** implementada con una [estructura SAndRestriction.](sandrestriction.md) Las tres restricciones que se unen a la operación **AND** son una restricción de subobjetos que busca mensajes enviados a Sue, una restricción de contenido que busca mensajes de Sam y otra restricción **AND** que busca mensajes que tienen un asunto que contiene "volea". Dado **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) no es una propiedad obligatoria, debe incluirse una restricción **Exist.** 
   
-Este código usa la asignación dinámica y la inicialización; también es posible asignar e inicializar estáticamente. En a interés de brevedad, la comprobación de errores que debe producirse después de las llamadas de asignación no se incluye en el ejemplo. 
+Este código usa la asignación dinámica y la inicialización; también es posible asignar e inicializar estáticamente. En interés de la brevedad, la comprobación de errores que debe producirse después de las llamadas de asignación no se incluye en el ejemplo. 
   
 ```cpp
 HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,
@@ -96,7 +96,7 @@ HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,
  
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Tablas MAPI](mapi-tables.md)
 

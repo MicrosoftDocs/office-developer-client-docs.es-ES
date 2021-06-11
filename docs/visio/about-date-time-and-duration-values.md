@@ -53,7 +53,7 @@ Para utilizar fechas y horas en una expresión (en lugar de utilizar una constan
 |[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | Convierte una cadena en un valor de hora.  <br/> |
 |[DAY](day-function-visioshapesheet.md) <br/> | Devuelve el componente de día de una expresión de fecha y hora.  <br/> |
 |[DAYOFYEAR](dayofyear-function.md) <br/> | Devuelve el número de día del año de una expresión de fecha y hora.  <br/> |
-|[HOUR](hour-function-visioshapesheet.md) <br/> | Devuelve el componente de hora de una expresión de fecha y hora.  <br/> |
+|[HORA](hour-function-visioshapesheet.md) <br/> | Devuelve el componente de hora de una expresión de fecha y hora.  <br/> |
 |[MINUTE](minute-function-visioshapesheet.md) <br/> | Devuelve el componente de minutos de una expresión de fecha y hora.  <br/> |
 |[MONTH](month-function-visioshapesheet.md) <br/> | Devuelve el componente de mes de una expresión de fecha y hora.  <br/> |
 |[SECOND](second-function-visioshapesheet.md) <br/> | Devuelve el componente de segundos de una expresión de fecha y hora.  <br/> |

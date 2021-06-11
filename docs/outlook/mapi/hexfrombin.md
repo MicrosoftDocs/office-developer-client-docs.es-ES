@@ -41,15 +41,15 @@ void HexFromBin(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pb_
   
-> [entrada] Puntero a los datos binarios que se convertirán. 
+> [in] Puntero a los datos binarios que se convertirán. 
     
  _cb_
   
-> [entrada] Tamaño, en bytes, de los datos binarios a los que apunta el _parámetro pb._ 
+> [in] Tamaño, en bytes, de los datos binarios señalados por el _parámetro pb._ 
     
  _sz_
   

@@ -33,13 +33,13 @@ HRESULT InitSync(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Marcas para determinar el comportamiento adecuado durante la sincronización. Outlook usa estas marcas en cada estado de la máquina de estado de replicación para determinar la información que debe proporcionar al cliente. Por ejemplo, si el cliente pasa SYNC_ONLY_ASSOCIATED **,** Outlook solo devolverá información relacionada con elementos asociados (u ocultos). 
+> [in] Marcas para determinar el comportamiento adecuado durante la sincronización. Outlook usa estas marcas en cada estado de la máquina de estado de replicación para determinar la información que debe proporcionar al cliente. Por ejemplo, si el cliente pasa SYNC_ONLY_ASSOCIATED **,** Outlook solo devolverá información relacionada con elementos asociados (u ocultos). 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

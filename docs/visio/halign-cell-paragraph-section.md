@@ -23,9 +23,9 @@ Determina la alineación horizontal de los caracteres del bloque de texto de una
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Alinear a la izquierda  <br/> |**visHorzLeft** <br/> |
-| 1   <br/> | Hacia el centro  <br/> |**visHorzCenter** <br/> |
-| 2   <br/> | Alinear a la derecha  <br/> |**visHorzRight** <br/> |
-| 3   <br/> | Justify  <br/> |**visHorzJustify** <br/> |
+| 1  <br/> | Hacia el centro  <br/> |**visHorzCenter** <br/> |
+| 2  <br/> | Alinear a la derecha  <br/> |**visHorzRight** <br/> |
+| 3  <br/> | Justify  <br/> |**visHorzJustify** <br/> |
 | 4   <br/> | Forzar justificar  <br/> |**visHorzForce** <br/> |
    
 ## <a name="remarks"></a>Comentarios

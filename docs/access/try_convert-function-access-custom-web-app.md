@@ -34,6 +34,6 @@ La **Try_Convert** contiene los argumentos siguientes.
    
 ## <a name="remarks"></a>Comentarios
 
- **Try_Convert** toma el valor pasado e intenta convertirlo al *datatype especificado.* Si la conversión se realiza **correctamente, Try_Convert** devuelve el valor como  *datatype especificado*  ; si se produce un error, se devuelve null. Sin embargo, si solicita una conversión que no se permite explícitamente, Try_Convert **error.** 
+ **Try_Convert** toma el valor que se le ha pasado e intenta convertirlo en el *DataType especificado.* Si la conversión se realiza **correctamente, Try_Convert** devuelve el valor como  *datatype especificado*  ; si se produce un error, se devuelve null. Sin embargo, si solicita una conversión que no está permitida explícitamente, **Try_Convert** error. 
   
 

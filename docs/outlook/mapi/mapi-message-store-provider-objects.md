@@ -1,5 +1,5 @@
 ---
-title: Objetos de proveedor de almacenamiento de mensajes MAPI
+title: Objetos de proveedor de almacén de mensajes MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413300"
 ---
-# <a name="mapi-message-store-provider-objects"></a>Objetos de proveedor de almacenamiento de mensajes MAPI
+# <a name="mapi-message-store-provider-objects"></a>Objetos de proveedor de almacén de mensajes MAPI
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de almacenamiento de mensajes implementan objetos de proveedor y de inicio de sesión, al igual que todos los proveedores de servicios. También implementan un objeto de almacén de mensajes, carpetas, mensajes, datos adjuntos y tablas. Como opción, algunos proveedores de almacenamiento de mensajes implementan objetos de estado.
+Los proveedores de almacén de mensajes implementan objetos de inicio de sesión y proveedor, al igual que todos los proveedores de servicios. También implementan un objeto de almacén de mensajes, carpetas, mensajes, datos adjuntos y tablas. Como opción, algunos proveedores de almacén de mensajes implementan objetos de estado.
   
 En la siguiente ilustración se muestra cada objeto de almacén de mensajes con su interfaz correspondiente y el componente MAPI que lo usa.
   
-![Objetos que los proveedores de al almacenamiento de mensajes implementan]objetos que implementan los proveedores de al almacenamiento de(media/amapi_63.gif "mensajes")
+![Objetos que los proveedores de almacén de mensajes implementan]Objetos que los proveedores de almacén de mensajes(media/amapi_63.gif "implementan")
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Objetos del proveedor de servicios MAPI](mapi-service-provider-objects.md)
 

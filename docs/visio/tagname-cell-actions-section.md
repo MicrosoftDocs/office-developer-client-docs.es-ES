@@ -29,9 +29,9 @@ Mediante la celda TagName de la sección de acciones y la celda TagName de la se
   
 - Si la celda TagName de una fila Actions está en blanco, la acción aparece en un menú contextual, no en un menú de etiquetas de acción.
     
-- Si un valor de celda TagName de la fila Actions coincide con el valor de la celda TagName de una fila de etiquetas inteligentes, la acción aparece en el menú de etiquetas de acción.
+- Si un valor de celda TagName de la fila Actions coincide con el valor de la celda TagName en una fila etiquetas inteligentes, la acción aparecerá en el menú de etiquetas de acción.
     
-- Si la celda TagName de una acción tiene un valor pero no coincide con el valor TagName de ninguna fila de etiqueta de forma, dicha acción no aparece en ningún menú de etiquetas de acción ni menús contextuales.
+- Si la celda TagName de una acción tiene un valor pero no coincide con el valor TagName en ninguna fila de etiqueta de forma, esa acción no aparece en ningún menú de etiquetas de acción ni menús contextuales.
     
 - Si varias filas de etiquetas inteligentes tienen el mismo valor de TagName, todas mostrarán las mismas acciones.
     
@@ -39,7 +39,7 @@ Para obtener una referencia a la celda TagName por su nombre desde otra fórmula
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Acciones. *nombre*  . TagNamewhere Actions.  *es*  el nombre de la fila Actions  <br/> |
+|Nombre de celda:  <br/> |Acciones. *nombre*  . TagNamewhere Actions.  *nombre*  es el nombre de la fila Acciones  <br/> |
    
 Para obtener una referencia a la celda TagName por su índice
  desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 

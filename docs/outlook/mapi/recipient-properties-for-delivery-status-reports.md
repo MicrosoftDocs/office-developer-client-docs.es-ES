@@ -1,5 +1,5 @@
 ---
-title: Propiedades de destinatario para informes de estado de entrega
+title: Propiedades del destinatario para informes de estado de entrega
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411088"
 ---
-# <a name="recipient-properties-for-delivery-status-reports"></a>Propiedades de destinatario para informes de estado de entrega
+# <a name="recipient-properties-for-delivery-status-reports"></a>Propiedades del destinatario para informes de estado de entrega
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las siguientes propiedades están presentes para los informes de estado de entrega para los destinatarios. **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) no se usa en informes de no entrega. **PR_NDR_DIAG_CODE** ([PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md)) y **PR_NDR_REASON_CODE** ([PidTagNonDeliveryReportReasonCode](pidtagnondeliveryreportreasoncode-canonical-property.md)) solo se usan en informes de no entrega.
+Las siguientes propiedades están presentes para los informes de estado de entrega de los destinatarios. **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) no se usa en informes de no entrega. **PR_NDR_DIAG_CODE** ([PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md)) y **PR_NDR_REASON_CODE** ([PidTagNonDeliveryReportReasonCode](pidtagnondeliveryreportreasoncode-canonical-property.md)) solo se usan en informes de no entrega.
   
 **Título de tabla**
 
-|**Propiedad**|**Decription**|
+|**Property**|**Decription**|
 |:-----|:-----|
-|**PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md))  <br/> |Contiene la fecha y la hora en que se entregó el mensaje original.  <br/> |
+|**PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md))  <br/> |Contiene la fecha y hora en que se entregó el mensaje original.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contiene el nombre para mostrar de un objeto MAPI determinado.  <br/> |
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Contiene un identificador de entrada MAPI usado para abrir y editar propiedades de un objeto MAPI determinado.  <br/> |
 |**PR_NDR_DIAG_CODE** ([PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md))  <br/> |Contiene un código de diagnóstico que forma parte de un informe de no entrega.  <br/> |
@@ -38,9 +38,9 @@ Las siguientes propiedades están presentes para los informes de estado de entre
 |**PR_ORIGINAL_SEARCH_KEY** ([PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md))  <br/> |Contiene la clave de búsqueda original de una entrada copiada de una libreta de direcciones a una libreta de direcciones personal u otra libreta de direcciones que se puede escribir.  <br/> |
 |**PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))  <br/> |Contiene el tipo de destinatario de un destinatario de mensaje.  <br/> |
 |**PR_REPORT_TEXT** ([PidTagReportText](pidtagreporttext-canonical-property.md))  <br/> |Contiene texto opcional para un informe generado por el sistema de mensajería.  <br/> |
-|**PR_REPORT_TIME** ([PidTagReportTime](pidtagreporttime-canonical-property.md))  <br/> |Contiene la fecha y la hora en que el sistema de mensajería generó un informe.  <br/> |
+|**PR_REPORT_TIME** ([PidTagReportTime](pidtagreporttime-canonical-property.md))  <br/> |Contiene la fecha y hora en que el sistema de mensajería generó un informe.  <br/> |
 |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Contiene una clave binaria comparable que identifica objetos correlacionados para una búsqueda.  <br/> |
 |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Contiene un valor usado para asociar un icono a una fila determinada de una tabla.  <br/> |
-|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Contiene el tipo de un objeto.  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Contiene el tipo de objeto.  <br/> |
    
 

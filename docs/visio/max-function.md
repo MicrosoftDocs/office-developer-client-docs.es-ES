@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251462
 localization_priority: Normal
 ms.assetid: a17369b1-f366-3010-9e60-ae5cc101ecc8
-description: Devuelve el número más grande de una lista. Mayor significa más cercano al infinito positivo.
+description: Devuelve el número más grande de una lista. Mayor significa más cerca del infinito positivo.
 ms.openlocfilehash: ed8afbcba7f4fbf60c77f6a281389132a12a8a55
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33412292"
 ---
 # <a name="max-function"></a>Función MAX
 
-Devuelve el número más grande de una lista. Mayor significa más cercano al infinito positivo.
+Devuelve el número más grande de una lista. Mayor significa más cerca del infinito positivo.
   
 ## <a name="syntax"></a>Sintaxis
 

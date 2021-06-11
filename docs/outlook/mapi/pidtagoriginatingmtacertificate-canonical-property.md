@@ -38,7 +38,7 @@ Contiene un identificador para el agente de transferencia de mensajes (MTA) que 
 
 Esta propiedad, si se establece, está disponible en los mensajes enviados en la carpeta Elementos enviados.
   
-Esta propiedad corresponde al atributo de informe por mensaje X.400.
+Esta propiedad corresponde al atributo X.400 report per-message.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

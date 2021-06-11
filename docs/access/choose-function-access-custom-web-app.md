@@ -28,12 +28,12 @@ La **función Choose** contiene los argumentos siguientes.
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *IndexNumber*  <br/> |Expresión de entero que representa un índice basado en 1 en la lista de los elementos que le sigue.  <br/> |
+| *IndexNumber*  <br/> |Expresión de entero que representa un índice basado en 1 en la lista de los elementos siguientes.  <br/> |
 | *Valor*  <br/> |Lista de valores de cualquier tipo de datos.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si  *indexNumber proporcionado*  no es un entero, el valor se convierte implícitamente en un entero. 
+Si el  *indexnumber proporcionado*  no es un número entero, el valor se convierte implícitamente en un entero. 
   
 Si el valor de índice supera los límites de la matriz de valores, **Choose** devuelve NULL. 
   

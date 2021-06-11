@@ -22,7 +22,7 @@ Muestra los atributos de formato de párrafo del texto de una forma, como la san
   
 ## <a name="remarks"></a>Comentarios
 
-Los formatos de párrafo se pueden establecer realizando una entrada en una celda de  sección de párrafo  aplicando un estilo de texto  o especificando valores en el cuadro de diálogo Texto (en la ficha Inicio, haga clic en el iniciador de cuadros de diálogo en el grupo Fuente).  
+Los formatos de párrafo se  pueden establecer haciendo una entrada en una celda de sección Párrafo aplicando  un estilo de texto o  especificando valores en el cuadro de diálogo Texto (en la ficha Inicio, haga clic en el iniciador del cuadro de diálogo en el grupo Fuente).  
   
 La **sección Párrafo** no incluye celdas para la configuración de tabulación. Para establecer los tabuladores del texto de una forma, utilice el cuadro de diálogo **Texto**. 
   

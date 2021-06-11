@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251477
 localization_priority: Normal
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
-description: Devuelve las coordenadas x,y de un punto del sistema de coordenadas del elemento primario de la forma.
+description: Devuelve las coordenadas x,y de un punto en el sistema de coordenadas del elemento primario de la forma.
 ms.openlocfilehash: 4e7517c4210db31f1c3f5dc8bf98185b6f4104aa
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33414511"
 ---
 # <a name="par-function"></a>Función PAR
 
-Devuelve las  _coordenadas x,y_ de un punto del sistema de coordenadas del elemento primario de la forma. 
+Devuelve las  _coordenadas x,y_ de un punto en el sistema de coordenadas del elemento primario de la forma. 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -28,7 +28,7 @@ PAR(** *point* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Obligatorio  <br/> |**Number, Number** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
+| _punto_ <br/> |Obligatorio  <br/> |**Number, Number** <br/> |Coordenadas del punto en el sistema de coordenadas de la forma actual.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

@@ -35,23 +35,23 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cValues_
   
-> [entrada] Recuento de propiedades que se incluirán en la fila de tabla de estado nueva o modificada. 
+> [in] Recuento de propiedades que se incluirán en la fila de tabla de estado nueva o modificada. 
     
  _lpColumnVals_
   
-> [entrada] Puntero a una matriz de valores de propiedad que describen las propiedades que se incluirán como columnas en la fila de tabla de estado nueva o modificada.
+> [in] Puntero a una matriz de valores de propiedad que describen las propiedades que se incluirán como columnas en la fila de tabla de estado nueva o modificada.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se procesa la información que define la fila de la tabla de estado. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se procesa la información que define la fila de tabla de estado. Se puede establecer la siguiente marca:
     
 STATUSROW_UPDATE 
   
-> Dirige a MAPI para combinar las propiedades incluidas en la matriz a la que apunta  _lpColumnVals_ con una fila de tabla de estado existente, en lugar de en una fila nueva. 
+> Dirige a MAPI a combinar las propiedades incluidas en la matriz señalada por  _lpColumnVals_ con una fila de tabla de estado existente, en lugar de en una fila nueva. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,17 +61,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::ModifyStatusRow** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios llaman a **ModifyStatusRow** durante el inicio de sesión para agregar una fila a la tabla de estado y en otras ocasiones durante la sesión para actualizar la fila. **ModifyStatusRow proporciona** a MAPI la información necesaria para crear la tabla de estado. 
+El **método IMAPISupport::ModifyStatusRow** se implementa para todos los objetos de soporte del proveedor de servicios. Los proveedores de servicios llaman a **ModifyStatusRow** en el momento del inicio de sesión para agregar una fila a la tabla de estado y en otras ocasiones durante la sesión para actualizar la fila. **ModifyStatusRow proporciona** MAPI con la información necesaria para crear la tabla de estado. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Establezca el STATUSROW_UPDATE marca cuando llame a **ModifyStatusRow** para realizar cambios en las propiedades de la fila de la tabla de estado existente. Al hacerlo, se informa a MAPI de que solo se pasan las columnas que se van a cambiar en el _parámetro lpColumnVals._ 
+Establezca la STATUSROW_UPDATE cuando llame a **ModifyStatusRow** para realizar cambios en las propiedades de la fila de tabla de estado existente. Al hacerlo, se informa a MAPI de que solo se pasan las columnas que se van a cambiar en el _parámetro lpColumnVals._ 
   
 Los clientes pueden usar la información de la tabla de estado para obtener acceso al objeto de estado. 
   
-Para obtener una lista completa de las columnas que debe incluir en la fila de la tabla de estado, vea [Tablas de estado](status-tables.md).
+Para obtener una lista completa de columnas que debe incluir en la fila de la tabla de estado, vea [Tablas de estado](status-tables.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

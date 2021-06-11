@@ -28,7 +28,7 @@ TANH(** *angle* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que se obtiene la tangente hiperbólica.  <br/> |
+| _ángulo_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Ángulo del que se obtiene la tangente hipbólica.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -36,7 +36,7 @@ Numérico
   
 ## <a name="remarks"></a>Comentarios
 
-La función TANH usa radianes a menos que especifique una unidad de medida diferente en *ángulo.* 
+La función TANH usa radianes a menos que especifique una unidad de medida diferente en  *ángulo*  . 
   
 ## <a name="example"></a>Ejemplo
 

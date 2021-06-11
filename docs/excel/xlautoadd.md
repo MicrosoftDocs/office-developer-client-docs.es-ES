@@ -22,11 +22,11 @@ ms.locfileid: "33413762"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Agregado por Microsoft Excel cada vez que el usuario activa el XLL durante una sesión de Excel mediante el Administrador de Add-In. No se llama a esta función cuando Excel se inicia y carga un complemento preinstalado.
+Se agrega mediante Microsoft Excel cuando el usuario activa el XLL durante una sesión Excel mediante el administrador de Add-In usuario. No se llama a esta función Excel se inicia y se carga un complemento preinstalado.
   
 Esta función se puede usar para mostrar un cuadro de diálogo personalizado que indica al usuario que el complemento se ha activado, leer o escribir en el Registro, o comprobar la información de licencias, por ejemplo.
   
-Excel no requiere un XLL para implementar y exportar esta función.
+Excel requiere un XLL para implementar y exportar esta función.
   
 ```cs
 int WINAPI xlAutoAdd(void);
@@ -42,7 +42,7 @@ La implementación de esta función debe devolver 1. (**int**).
   
 ## <a name="remarks"></a>Comentarios
 
-Usa esta función si hay algo que el XLL necesita hacer cuando el administrador de Add-In agrega.
+Use esta función si hay algo que el XLL necesita hacer cuando la agrega el administrador de Add-In.
   
 ## <a name="example"></a>Ejemplo
 

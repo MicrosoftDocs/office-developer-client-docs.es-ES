@@ -1,5 +1,5 @@
 ---
-title: Propiedades necesarias del mensaje de informe
+title: Propiedades del mensaje de informe obligatorio
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416205"
 ---
-# <a name="required-report-message-properties"></a>Propiedades necesarias del mensaje de informe
+# <a name="required-report-message-properties"></a>Propiedades del mensaje de informe obligatorio
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En la tabla siguiente se describen las propiedades que los clientes pueden esperar ver compatibles con los mensajes de informe.
+En la tabla siguiente se describen las propiedades que los clientes pueden esperar ver admitidas en los mensajes de informe.
   
 |**Propiedad**|**Descripción**|
 |:-----|:-----|

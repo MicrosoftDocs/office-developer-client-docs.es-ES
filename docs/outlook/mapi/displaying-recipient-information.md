@@ -19,15 +19,15 @@ ms.locfileid: "33412958"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI proporciona un cuadro de diálogo común para mostrar los detalles del destinatario. El cuadro de diálogo de detalles se crea a partir de una tabla para mostrar y una **implementación imapiprop.** La tabla para mostrar describe la apariencia de la presentación de detalles y la **implementación imapiprop** controla los datos del destinatario. El proveedor es responsable de suministrar la tabla para mostrar y la **implementación de IMAPIProp** para cada destinatario. 
+MAPI proporciona un cuadro de diálogo común para mostrar los detalles del destinatario. El cuadro de diálogo de detalles se crea a partir de una tabla para mostrar y una **implementación de IMAPIProp.** La tabla para mostrar describe la apariencia de la presentación de detalles y la implementación **de IMAPIProp** controla los datos del destinatario. El proveedor es responsable de proporcionar la tabla para mostrar y la **implementación de IMAPIProp** para cada destinatario. 
   
-La forma más sencilla de crear la tabla para mostrar es definir una [estructura DTPAGE](dtpage.md) y llamar a [BuildDisplayTable](builddisplaytable.md). Sin embargo, algunos proveedores, específicamente proveedores de solo lectura que permiten la creación de destinatarios de uso único, usan **IPropData**. La **implementación de IMAPIProp** puede ser cualquier tipo de objeto de propiedad. 
+La forma más sencilla de crear la tabla para mostrar es definir una [estructura DTPAGE](dtpage.md) y llamar a [BuildDisplayTable](builddisplaytable.md). Sin embargo, algunos proveedores, específicamente proveedores de solo lectura que permiten la creación de destinatarios únicos, usan **IPropData**. La **implementación de IMAPIProp** puede ser cualquier tipo de objeto de propiedad. 
   
-Hay dos métodos para invocar este cuadro de diálogo: [IAddrBook::D etails](iaddrbook-details.md) e [IMAPISupport::D etails](imapisupport-details.md). Cuando el proveedor llama a uno de estos métodos para solicitar detalles para un destinatario, MAPI abre primero el destinatario llamando al método [IMAPIContainer::OpenEntry de](imapicontainer-openentry.md) su contenedor. A continuación, llama al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del destinatario para solicitar la **propiedad PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** es la propiedad que representa la tabla para mostrar detalles de un destinatario. 
+Hay dos métodos para invocar este cuadro de diálogo: [IAddrBook::D etails](iaddrbook-details.md) e [IMAPISupport::D etails](imapisupport-details.md). Cuando el proveedor llama a uno de estos métodos para solicitar detalles para un destinatario, MAPI primero abre el destinatario llamando al método [IMAPIContainer::OpenEntry de](imapicontainer-openentry.md) su contenedor. A continuación, llama al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del destinatario para solicitar la **propiedad PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** es la propiedad que representa la tabla para mostrar detalles de un destinatario. 
   
-La [interfaz IPropData : IMAPIProp](ipropdataimapiprop.md) se puede usar para supervisar los cambios en los controles de la tabla de presentación, tal como se describe en el siguiente procedimiento. 
+La [interfaz IPropData : IMAPIProp](ipropdataimapiprop.md) se puede usar para supervisar los cambios en los controles de tabla para mostrar, tal como se describe en el siguiente procedimiento. 
   
-## <a name="monitor-changes-to-a-control"></a>Supervisar los cambios en un control
+## <a name="monitor-changes-to-a-control"></a>Supervisar cambios en un control
   
 1. Antes de que el usuario obtenga acceso al control, llame a [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) para establecer el acceso del control a IPROP_CLEAN. 
     
@@ -41,8 +41,8 @@ La [interfaz IPropData : IMAPIProp](ipropdataimapiprop.md) se puede usar para su
     
    - Llame al método [IMAPIProp::GetProps](imapiprop-getprops.md) del objeto de datos de propiedad para recuperar la propiedad modificada y actualizarla llamando a [IMAPIProp::SetProps](imapiprop-setprops.md).
     
-5. Si el nivel de acceso sigue IPROP_CLEAN, no se ha modificado el control. 
+5. Si el nivel de acceso sigue IPROP_CLEAN, el control no se ha modificado. 
     
-Para obtener más información acerca de la creación de tablas para mostrar, vea [Tablas para mostrar.](display-tables.md)
+Para obtener más información acerca de la creación de tablas para mostrar, vea [Mostrar tablas](display-tables.md).
   
 

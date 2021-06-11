@@ -32,17 +32,17 @@ LPCRECT prcPosRect
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ulDir_
   
-> [entrada] Marcas de estado que dan información sobre el mensaje que se activará. Las opciones de marca válidas son:
+> [in] Marcas de estado que dan información sobre el mensaje que se va a activar. La configuración de marca válida es:
     
-  - VCDIR_CATEGORY: el visor debe activar un mensaje en otra categoría de la vista. El mensaje que se activará es: 
+  - VCDIR_CATEGORY: el visor debe activar un mensaje en otra categoría de la vista. El mensaje que se va a activar es: 
         
     - El primer mensaje de la siguiente categoría de vista si esta marca es **OR** ed con VCDIR_NEXT. 
         
-    - El último mensaje de la categoría de vista anterior si esta marca es **OR** con VCDIR_PREV y se expande la categoría anterior. 
+    - El último mensaje de la categoría de vista anterior si esta marca es **OR** ed con VCDIR_PREV y se expande la categoría anterior. 
         
     - El primer mensaje de la categoría de vista anterior si esta marca es **OR** ed con VCDIR_PREV y la categoría anterior no se expande. En este caso, la categoría anterior se somete a una expansión automática. 
         
@@ -58,7 +58,7 @@ _ulDir_
     
 _prcPosRect_
   
-> [entrada] Puntero a una estructura **RECT** de Windows que contiene el tamaño y la posición de la ventana que se va a usar para mostrar el mensaje activado. 
+> [in] Puntero a una Windows **RECT** que contiene el tamaño y la posición de la ventana que se va a usar para mostrar el mensaje activado. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -72,17 +72,17 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman **al método IMAPIViewContext::ActivateNext** para cambiar el mensaje que se muestra al usuario. El valor pasado en el  _parámetro ulDir_ indica qué mensaje debe activarse y, en algunos casos, por qué. Las VCDIR_NEXT y VCDIR_PREVIOUS correspondientes a los usuarios que  eligen  el comando Siguiente o Anterior en una vista, respectivamente. Estas operaciones normalmente corresponden a mover hacia arriba o hacia abajo un mensaje en la lista de mensajes del visor de formularios. 
+Los objetos Form llaman **al método IMAPIViewContext::ActivateNext** para cambiar el mensaje que se muestra al usuario. El valor pasado en el  _parámetro ulDir_ indica qué mensaje se debe activar y, en algunos casos, por qué. Las VCDIR_NEXT y VCDIR_PREVIOUS corresponden a los usuarios que eligen  el comando **Siguiente** o Anterior en una vista, respectivamente. Estas operaciones normalmente corresponden a mover hacia arriba o hacia abajo un mensaje en la lista de mensajes del visor de formularios. 
   
-Los VCDIR_DELETE VCDIR_MOVE [imapiMessageSite::D los métodos IMAPIMessageSite::D e](imapimessagesite-deletemessage.md) [IMAPIMessageSite::MoveMessage](imapimessagesite-movemessage.md) se establecen respectivamente. Las implementaciones de estos métodos llaman a **ActivateNext** con la  dirección adecuada y, a continuación, realizan la operación solicitada en el mensaje si no se ha producir un error en la llamada ActivateNext. Los visores de formularios normalmente permiten a los usuarios especificar la dirección para moverse en la lista de mensajes. 
+Los VCDIR_DELETE de VCDIR_MOVE y de VCDIR_MOVE se establecen mediante los métodos [IMAPIMessageSite::D eleteMessage](imapimessagesite-deletemessage.md) e [IMAPIMessageSite::MoveMessage,](imapimessagesite-movemessage.md) respectivamente. Las implementaciones de estos métodos llaman a **ActivateNext** con la dirección adecuada y, a continuación, realizan la operación solicitada en el mensaje si la **llamada ActivateNext** no falla. Los visores de formularios normalmente permiten a los usuarios especificar la dirección para moverse en la lista de mensajes. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La implementación de [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) hace que el mensaje siguiente o anterior en la carpeta, según el valor de  _ulDir_, el mensaje actual. Después **de que ActivateNext** vuelva, llame a [IMAPIMessageSite::GetMessage](imapimessagesite-getmessage.md) para obtener un puntero al mensaje recién activado. 
+La implementación de [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) convierte el mensaje siguiente o anterior en la carpeta, según el valor de  _ulDir_, el mensaje actual. Después **de que ActivateNext** devuelve, llama a [IMAPIMessageSite::GetMessage](imapimessagesite-getmessage.md) para obtener un puntero al mensaje recién activado. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si **ActivateNext** devuelve S_FALSE, o si un mensaje actual no está presente, realice el procedimiento de cierre normal que debe incluir llamar al método [IMAPIForm::ShutdownForm del](imapiform-shutdownform.md) formulario. Si se muestra un mensaje siguiente o anterior, use el rectángulo de ventana pasado en el  _parámetro prcPosRect_ para mostrarlo. 
+Si **ActivateNext** devuelve S_FALSE, o si un mensaje actual no está presente, realice el procedimiento de apagado normal, que debe incluir llamar al método [IMAPIForm::ShutdownForm del](imapiform-shutdownform.md) formulario. Si se muestra un mensaje siguiente o anterior, use el rectángulo de ventana pasado en el  _parámetro prcPosRect_ para mostrarlo. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -90,9 +90,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI implementa el **método IMAPIViewContext::ActivateNext** en esta función.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI implementa el método **IMAPIViewContext::ActivateNext** en esta función.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)
 - [IMAPIViewContext : IUnknown](imapiviewcontextiunknown.md)

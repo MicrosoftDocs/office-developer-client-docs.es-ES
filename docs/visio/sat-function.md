@@ -22,7 +22,7 @@ Devuelve el valor del componente de saturación de un color.
   
 ## <a name="syntax"></a>Sintaxis
 
-SAT(** *expression* ** ) 
+SAT(** *expresión* ** ) 
   
 ### <a name="parameters"></a>Parámetros
 

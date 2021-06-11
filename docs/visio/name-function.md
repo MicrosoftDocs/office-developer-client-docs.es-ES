@@ -32,7 +32,7 @@ NAME (** *langID_opt* ** )
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

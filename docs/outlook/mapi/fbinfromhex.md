@@ -40,11 +40,11 @@ BOOL FBinFromHex(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _sz_
   
-> [entrada] Puntero a la cadena ASCII terminada en null que se va a convertir. No es una cadena Unicode. Los caracteres válidos incluyen los caracteres hexadecimales de cero a nueve y los caracteres en mayúsculas y minúsculas A a F.
+> [in] Puntero a la cadena ASCII terminada en null que se va a convertir. No es una cadena Unicode. Los caracteres válidos incluyen los caracteres hexadecimales de cero a nueve y los caracteres en mayúsculas y minúsculas A a F.
     
  _pb_
   
@@ -60,7 +60,7 @@ FALSE
   
 > La cadena de entrada contiene caracteres hexadecimales ASCII no válidos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

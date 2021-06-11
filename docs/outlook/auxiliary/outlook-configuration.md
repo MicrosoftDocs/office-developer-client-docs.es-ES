@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ff1a6843-6dd6-4527-9fc1-70da288cb9e7
-description: En esta sección se describe cómo configurar Outlook para resolver conflictos de elementos, determinar el tiempo de actualización de una libreta de direcciones sin conexión y registrar un dominio para la configuración automática.
+description: En esta sección se describe cómo configurar Outlook para resolver conflictos de elementos, determinar la hora de actualización de una libreta de direcciones sin conexión y registrar un dominio para la configuración automática.
 ms.openlocfilehash: 781d1fe34a8918fdb96900e4f191ea36cf1b732c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33411025"
 ---
 # <a name="outlook-configuration"></a>Configuración de Outlook
 
-En esta sección se describe cómo configurar Outlook para resolver conflictos de elementos, determinar el tiempo de actualización de una libreta de direcciones sin conexión y registrar un dominio para la configuración automática.
+En esta sección se describe cómo configurar Outlook para resolver conflictos de elementos, determinar la hora de actualización de una libreta de direcciones sin conexión y registrar un dominio para la configuración automática.
 
 - [Información sobre la resolución de conflictos para tipos de elementos personalizados](about-conflict-resolution-for-custom-item-types.md)
     

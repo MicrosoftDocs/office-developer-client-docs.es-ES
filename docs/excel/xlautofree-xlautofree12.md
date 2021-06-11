@@ -22,20 +22,20 @@ ms.locfileid: "33413293"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Llamado por Microsoft Excel justo después de que una función de hoja de cálculo XLL devuelva un /  **XLOPER XLOPER12** con un conjunto de marcas que le indica que hay memoria que el XLL aún necesita liberar. Esto permite al XLL devolver matrices, cadenas y referencias externas asignadas dinámicamente a la hoja de cálculo sin pérdidas de memoria. Para obtener más información, consulte [Administración de memoria en Excel](memory-management-in-excel.md).
+Llamado por Microsoft Excel justo después de que una función de hoja de cálculo XLL devuelva un /  **XLOPER XLOPER12** con un conjunto de marcas que le indica que hay memoria que XLL todavía necesita liberar. Esto permite al XLL devolver matrices, cadenas y referencias externas asignadas dinámicamente a la hoja de cálculo sin pérdidas de memoria. Para obtener más información, consulte [Administración de memoria en Excel](memory-management-in-excel.md).
   
-A partir de Excel 2007, se admiten la función **xlAutoFree12** y el tipo de datos **XLOPER12.** 
+A partir Excel 2007, se admiten la función **xlAutoFree12** y el tipo de datos **XLOPER12.** 
   
-Excel no requiere un XLL para implementar y exportar ninguna de estas funciones. Sin embargo, debe hacerlo si las funciones XLL devuelven un XLOPER o XLOPER12 que se ha asignado dinámicamente o que contiene punteros a la memoria asignada dinámicamente. Asegúrese de que la elección de cómo administrar la memoria para estos tipos es coherente en todo el XLL y en la forma en que implementó **xlAutoFree** y **xlAutoFree12**.
+Excel requiere un XLL para implementar y exportar ninguna de estas funciones. Sin embargo, debe hacerlo si las funciones XLL devuelven un XLOPER o XLOPER12 que se ha asignado dinámicamente o que contiene punteros a la memoria asignada dinámicamente. Asegúrese de que la elección de cómo administrar la memoria para estos tipos sea coherente en todo el XLL y en la forma en que implementó **xlAutoFree** y **xlAutoFree12**.
   
-Dentro de la función **xlAutoFree** /  **xlAutoFree12,** las devoluciones de llamada a Excel están deshabilitadas, con una excepción: se puede llamar a **xlFree** para liberar memoria asignada a Excel. 
+Dentro de la función **xlAutoFree** /  **xlAutoFree12,** las devoluciones de llamada a Excel están deshabilitadas, con una excepción: se puede llamar a **xlFree** para liberar Excel de memoria asignada. 
   
 ```cs
 void WINAPI xlAutoFree(LPXLOPER pxFree);
 void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pxFree_ (**LPXLOPER en el caso de xlAutoFree**)
   
@@ -45,27 +45,27 @@ Puntero a **XLOPER** o **XLOPER12** que tiene memoria que debe liberarse.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Esta función no devuelve un valor y debe declararse como nula de devolución.
+Esta función no devuelve un valor y debe declararse como void de devolución.
   
 ## <a name="remarks"></a>Comentarios
 
-Cuando Excel está configurado para usar la actualización de libros multiproceso, se llama a **xlAutoFree** /  **xlAutoFree12** en el mismo subproceso usado para llamar a la función que la devolvió. La llamada a **xlAutoFree**/ **xlAutoFree12** siempre se realiza antes de que las celdas de la hoja de cálculo siguientes se evalúen en dicho subproceso. Esto simplifica el diseño de subprocesos seguros en tu XLL. 
+Cuando Excel está configurado para usar el recálculo del libro multiproceso, se llama a **xlAutoFree** /  **xlAutoFree12** en el mismo subproceso usado para llamar a la función que la devolvió. La llamada a **xlAutoFree**/ **xlAutoFree12** siempre se realiza antes de que las celdas de la hoja de cálculo siguientes se evalúen en dicho subproceso. Esto simplifica el diseño de subprocesos seguros en tu XLL. 
   
-Si la **función xlAutoFree** /  **xlAutoFree12** que proporcionas examina el campo **xltype** de _pxFree,_ recuerda que el bit **xlbitDLLFree** seguirá estando establecido. 
+Si la **función xlAutoFree** /  **xlAutoFree12** que proporcionas busca en el campo **xltype** _de pxFree_, recuerda que el bit **xlbitDLLFree** seguirá estando establecido. 
   
 ## <a name="example"></a>Ejemplo
 
  **Ejemplo de implementación 1**
   
-El primer código de muestra una implementación muy específica de xlAutoFree , que está diseñada para funcionar con una sola `\SAMPLES\EXAMPLE\EXAMPLE.C` función, **fArray**.  En general, el XLL tendrá más de una función que devuelve memoria que debe liberarse, en cuyo caso se requiere una implementación menos restringida. 
+El primer código  `\SAMPLES\EXAMPLE\EXAMPLE.C` de muestra una implementación muy específica de **xlAutoFree**, que está diseñada para funcionar con una sola función, **fArray**. En general, el XLL tendrá más de una función que devuelve memoria que necesita liberarse, en cuyo caso se requiere una implementación menos restringida. 
   
  **Ejemplo de implementación 2**
   
-La segunda implementación de ejemplo es coherente con las suposiciones usadas en los ejemplos de creación de **XLOPER12** de la sección 1.6.3, xl12_Str_example, xl12_Ref_example y xl12_Multi_example. Se supone que, cuando se ha establecido el bit **xlbitDLLFree,** toda la cadena, matriz y memoria de referencia externa se ha asignado dinámicamente mediante **malloc,** por lo que debe liberarse en una llamada para liberar.
+La segunda implementación de ejemplo es coherente con los supuestos usados en los ejemplos de creación de **XLOPER12** de la sección 1.6.3, xl12_Str_example, xl12_Ref_example y xl12_Multi_example. Se supone que, cuando se ha establecido el bit **xlbitDLLFree,** toda la cadena, matriz y memoria de referencia externa se ha asignado dinámicamente mediante **malloc,** por lo que debe liberarse en una llamada a free.
   
  **Ejemplo de implementación 3**
   
-La tercera implementación de ejemplo es coherente con un XLL donde las funciones exportadas que devuelven **XLOPER12** asignan cadenas, referencias externas y matrices mediante **malloc,** y donde el propio **XLOPER12** también se asigna dinámicamente. Devolver un puntero a un **XLOPER12** asignado dinámicamente es una forma de garantizar que la función es segura para subprocesos. 
+La tercera implementación de ejemplo es coherente con un XLL donde las funciones exportadas que **devuelven XLOPER12** s asignan cadenas, referencias externas y matrices con **malloc** y donde el propio **XLOPER12** también se asigna dinámicamente. Devolver un puntero a un **XLOPER12** asignado dinámicamente es una forma de garantizar que la función es segura para subprocesos. 
   
 ```cs
 //////////////////////////////////////////
@@ -175,7 +175,7 @@ void WINAPI xlAutoFree12(LPXLOPER pxFree)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

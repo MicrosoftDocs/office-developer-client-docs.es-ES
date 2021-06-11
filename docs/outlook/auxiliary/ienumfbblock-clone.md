@@ -20,7 +20,7 @@ Crea una copia del enumerador, con la misma restricción de tiempo pero establec
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulta [IEnumFBBlock](ienumfbblock.md).
+Vea [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Clone(  
@@ -28,11 +28,11 @@ HRESULT Clone(
 ); 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ppclone_
   
-> [salida] Puntero a la copia de la interfaz [IEnumFBBlock.](ienumfbblock.md) 
+> [salida] Puntero a la copia de la [interfaz IEnumFBBlock.](ienumfbblock.md) 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -41,7 +41,7 @@ _ppclone_
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
 |E_OUTOFMEMORY  <br/> |No hay memoria suficiente para realizar la copia.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  

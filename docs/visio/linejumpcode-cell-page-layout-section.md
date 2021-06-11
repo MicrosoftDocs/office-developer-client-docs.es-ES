@@ -23,11 +23,11 @@ Determina los conectores a los que desea agregar saltos.
 |**Valor**|**Conectores a los que desea agregar saltos**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Ninguno  <br/> |**visPLOJumpNone** <br/> |
-|1   <br/> |Líneas horizontales  <br/> |**visPLOJumpHorizontal** <br/> |
-|2   <br/> |Líneas verticales  <br/> |**visPLOJumpVertical** <br/> |
-|3   <br/> |Última línea enrutada  <br/> |**visPLOJumpLastRouted** <br/> |
-|4   <br/> |Última línea mostrada (forma superior en el *orden z)*  <br/> |**visPLOJumpDisplayOrder** <br/> |
-|5   <br/> |Primera línea mostrada (forma en la parte inferior del orden *z)*  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
+|1  <br/> |Líneas horizontales  <br/> |**visPLOJumpHorizontal** <br/> |
+|2  <br/> |Líneas verticales  <br/> |**visPLOJumpVertical** <br/> |
+|3  <br/> |Última línea enrutada  <br/> |**visPLOJumpLastRouted** <br/> |
+|4   <br/> |Última línea mostrada (forma superior en *el orden z)*  <br/> |**visPLOJumpDisplayOrder** <br/> |
+|5   <br/> |Primera línea mostrada (forma en la parte inferior del *orden z)*  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

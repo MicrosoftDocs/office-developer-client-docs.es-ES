@@ -34,15 +34,15 @@ HRESULT HrAddObjProps(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpPropTagArray_
   
-> [entrada] Puntero a una matriz de etiquetas de propiedad que indican las propiedades que se agregarán.
+> [in] Puntero a una matriz de etiquetas de propiedades que indican las propiedades que se agregarán.
     
  _lppProblems_
   
-> [entrada, salida] En la entrada, un puntero válido a una [estructura SPropProblemArray](spropproblemarray.md) o NULL. En el resultado, un puntero a un puntero a una estructura que contiene información acerca de las propiedades que no se pudieron agregar o NULL. Solo se devuelve un puntero a una estructura de matriz de problemas de propiedad si se pasa un puntero válido. 
+> [in, out] En la entrada, un puntero válido a una [estructura SPropProblemArray](spropproblemarray.md) o NULL. En el resultado, un puntero a un puntero a una estructura que contiene información sobre las propiedades que no se pudieron agregar o NULL. Solo se devuelve un puntero a una estructura de matriz de problemas de propiedad si se pasa un puntero válido. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -60,19 +60,19 @@ MAPI_E_NO_ACCESS
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> Se agregaron algunas de las propiedades, pero no todas.
+> Algunas, pero no todas, de las propiedades se agregaron.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IPropData::HrAddObjProps** agrega una o más propiedades de tipo PT_OBJECT al objeto. **HrAddObjProps proporciona** una alternativa al método [IMAPIProp::SetProps](imapiprop-setprops.md) para las propiedades de objeto, ya que las propiedades de objeto no se pueden crear llamando **a SetProps**. Agregar una propiedad de objeto da como resultado que la etiqueta de propiedad se incluya en la lista de etiquetas de propiedad que devuelve el método [IMAPIProp::GetPropList](imapiprop-getproplist.md) . 
+El **método IPropData::HrAddObjProps** agrega una o más propiedades de tipo PT_OBJECT al objeto. **HrAddObjProps proporciona** una alternativa al método [IMAPIProp::SetProps](imapiprop-setprops.md) para las propiedades de objeto, ya que no se pueden crear propiedades de objeto llamando a **SetProps**. Al agregar una propiedad de objeto, la etiqueta de propiedad se incluye en la lista de etiquetas de propiedad que devuelve el método [IMAPIProp::GetPropList.](imapiprop-getproplist.md) 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si **HrAddObjProps** devuelve MAPI_W_PARTIAL_COMPLETION y ha establecido  _lppProblems_ en un puntero válido, compruebe la estructura [SPropProblemArray](spropproblemarray.md) devuelta para averiguar qué propiedades no se agregaron. Normalmente, el único problema que se produce es la falta de memoria. Libera la **estructura SPropProblemArray** llamando a la [función MAPIFreeBuffer](mapifreebuffer.md) cuando termines con ella. 
+Si **HrAddObjProps** devuelve MAPI_W_PARTIAL_COMPLETION y ha establecido  _lppProblems_ en un puntero válido, compruebe la estructura [SPropProblemArray](spropproblemarray.md) devuelta para averiguar qué propiedades no se agregaron. Normalmente, el único problema que se produce es la falta de memoria. Libera la **estructura SPropProblemArray** llamando a la [función MAPIFreeBuffer](mapifreebuffer.md) cuando termines de hacerlo. 
   
 Para agregar una propiedad, el objeto de destino debe tener permiso de lectura y escritura. Si **HrAddObjProps** devuelve MAPI_E_NO_ACCESS, no puede agregar propiedades al objeto porque no permite la modificación. Para obtener permiso de lectura y escritura en un objeto antes de llamar a **HrAddObjProps**, llame a [IPropData::HrSetObjAccess](ipropdata-hrsetobjaccess.md) y establezca el parámetro  _ulAccess_ en IPROP_READWRITE. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

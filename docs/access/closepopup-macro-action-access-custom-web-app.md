@@ -15,13 +15,13 @@ ms.locfileid: "33417570"
 ---
 # <a name="closepopup-macro-action-access-custom-web-app"></a>Acción de macro ClosePopup (aplicación web personalizada de Access)
 
-Puede usar la acción **ClosePopup para** cerrar la vista emergente del documento activo. 
+Puede usar la acción **ClosePopup** para cerrar la vista emergente del documento activo. 
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="remarks"></a>Comentarios
 
-Si el registro actual de la vista emergente está en modo de edición, los cambios realizados en el registro se guardan automáticamente.
+Si el registro actual de la vista emergente está en modo de edición, los cambios en el registro se guardan automáticamente.
   
 

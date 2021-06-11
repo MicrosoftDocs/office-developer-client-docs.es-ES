@@ -35,11 +35,11 @@ HRESULT HrDeleteRows(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla la eliminación. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla la eliminación. Se puede establecer la siguiente marca:
     
 TAD_ALL_ROWS 
   
@@ -47,29 +47,29 @@ TAD_ALL_ROWS
     
  _lprowsetToDelete_
   
-> [entrada] Puntero a un conjunto de filas que describe las filas que se eliminarán. El _parámetro lprowsetToDelete_ puede ser NULL si la marca TAD_ALL_ROWS está establecida en el _parámetro ulFlags._ 
+> [in] Puntero a un conjunto de filas que describe las filas que se eliminarán. El _parámetro lprowsetToDelete_ puede ser NULL si la marca TAD_ALL_ROWS se establece en el _parámetro ulFlags._ 
     
  _cRowsDeleted_
   
-> [salida] Recuento de las filas eliminadas.
+> [salida] Recuento de filas eliminadas.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Las filas de la tabla se eliminaron correctamente.
+> Las filas de tabla se eliminaron correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método ITableData::HrDeleteRows** busca y quita las filas de tabla que contienen las columnas que coinciden con la propiedad a la que apunta el miembro **lpProps** de cada entrada **aRow** del conjunto de filas. Se usa una columna de índice para identificar cada fila; Esta columna debe tener la misma etiqueta de propiedad que la etiqueta de propiedad pasada en el parámetro _ulPropTagIndexColumn_ en la llamada a la [función CreateTable.](createtable.md) 
+El **método ITableData::HrDeleteRows** busca y quita las filas de tabla que contienen las columnas que coinciden con la propiedad señalada por el miembro **lpProps** de cada entrada **de aRow** del conjunto de filas. Se usa una columna de índice para identificar cada fila; esta columna debe tener la misma etiqueta de propiedad que la etiqueta de propiedad pasada en el _parámetro ulPropTagIndexColumn_ en la llamada a la [función CreateTable.](createtable.md) 
   
-El número de filas que se eliminaron realmente se devuelve  _en cRowsDeleted_. No se devuelve ningún error si no se pudo encontrar una o más filas. 
+El número de filas que se eliminaron realmente se devuelve en  _cRowsDeleted_. No se devuelve ningún error si no se pudo encontrar una o más filas. 
   
-Después de eliminar las filas, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable::Advise](imapitable-advise.md) de la tabla para registrarse para recibir notificaciones. 
+Una vez eliminadas las filas, se envían notificaciones a todos los clientes o proveedores de servicios que tienen una vista de la tabla y que han llamado al método [IMAPITable::Advise](imapitable-advise.md) de la tabla para registrar las notificaciones. 
   
 La eliminación de filas no reduce las columnas disponibles para las vistas de tabla existentes o las vistas de tabla abiertas posteriormente, incluso si las filas eliminadas son las últimas que tienen valores para una columna específica.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

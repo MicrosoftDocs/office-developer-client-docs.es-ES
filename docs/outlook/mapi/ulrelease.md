@@ -39,11 +39,11 @@ ULONG UlRelease(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _tordo_
+ _punk_
   
-> [entrada] Puntero a una interfaz derivada de la **interfaz IUnknown,** es decir, cualquier interfaz MAPI. 
+> [in] Puntero a una interfaz derivada de la **interfaz IUnknown,** es decir, cualquier interfaz MAPI. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -59,10 +59,10 @@ MAPI_E_CALL_FAILED
 
 El recuento de referencias es el número de punteros existentes al objeto que se va a liberar. 
   
-Si el  _parámetro lambda_ es NULL, la función devuelve inmediatamente sin llamar a **IUnknown::Release**
+Si el  _parámetro punk_ es NULL, la función devuelve inmediatamente sin llamar a **IUnknown::Release**
   
- **UlRelease** devuelve el valor devuelto por el método **IUnknown::Release,** que puede ser igual al recuento de referencias para el objeto que se va a liberar. 
+ **UlRelease devuelve** el valor devuelto por el método **IUnknown::Release,** que puede ser igual al recuento de referencias para el objeto que se va a liberar. 
   
-Para obtener más información **acerca de IUnknown::Release,** vea [Implementar la interfaz IUnknown](implementing-the-iunknown-interface.md). 
+Para obtener más información **acerca de IUnknown::Release,** vea [Implementing the IUnknown Interface](implementing-the-iunknown-interface.md). 
   
 

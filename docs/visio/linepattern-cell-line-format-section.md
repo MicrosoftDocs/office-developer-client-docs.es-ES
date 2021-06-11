@@ -23,7 +23,7 @@ Determina la trama de línea de la forma. El valor especificado en la celda Line
 |**Valor**|**Descripción**|
 |:-----|:-----|
 |0  <br/> |Sin trama de línea  <br/> |
-|1   <br/> |Sólido  <br/> |
+|1  <br/> |Sólido  <br/> |
 |2 -23  <br/> |Varias tramas de línea  <br/> |
    
 ## <a name="remarks"></a>Comentarios

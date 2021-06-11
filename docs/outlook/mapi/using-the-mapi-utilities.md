@@ -21,9 +21,9 @@ ms.locfileid: "33409989"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las utilidades MAPI están hechas de datos de tabla y objetos de datos de propiedades y una variedad de funciones para admitir características diversas. Es posible que un cliente solo necesite estas utilidades y no tenga que iniciar sesión en el subsistema MAPI para establecer una conexión con los proveedores de servicios. Si el cliente se ajusta a esta categoría, llame a la función DE API [ScInitMapiUtil](scinitmapiutil.md) en lugar de a la [función MAPIInitialize](mapiinitialize.md) en el momento de inicialización. 
+Las utilidades MAPI están hechas de datos de tabla y objetos de datos de propiedades y una variedad de funciones para admitir características diversas. Es posible que un cliente solo necesite estas utilidades y no tenga que iniciar sesión en el subsistema MAPI para establecer una conexión con los proveedores de servicios. Si el cliente se ajusta a esta categoría, llame a la función de API [ScInitMapiUtil](scinitmapiutil.md) en lugar de a la [función MAPIInitialize](mapiinitialize.md) en el momento de la inicialización. 
   
- **ScInitMapiUtil** permite a los clientes usar funciones de utilidad que requieren asignadores MAPI, pero que no solicitan los asignadores explícitamente. Cuando llegue el momento de apagarse, llame [a DeinitMapiUtil](deinitmapiutil.md) para liberar recursos en lugar de [MAPIUninitialize](mapiuninitialize.md). Los clientes que nunca **llamen a MAPIInitialize** no deben llamar **a MAPIUninitialize**.
+ **ScInitMapiUtil** permite a los clientes usar funciones de utilidad que requieren asignadores MAPI, pero que no solicitan los asignadores explícitamente. Cuando sea el momento de cerrar, llame [a DeinitMapiUtil](deinitmapiutil.md) para liberar recursos en lugar de [MAPIUninitialize](mapiuninitialize.md). Los clientes que nunca llamen **a MAPIInitialize** no deben llamar **a MAPIUninitialize**.
   
 Si ha llamado **a ScInitMapiUtil** en lugar de **MAPIInitialize** y usa tablas a través de los métodos **ITableData** en lugar de a través de los métodos **IMAPITable,** tenga en cuenta que las notificaciones de tabla no funcionarán. Las notificaciones requieren el uso de las bibliotecas MAPI e [IMAPITable : IUnknown](imapitableiunknown.md).
   

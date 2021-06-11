@@ -36,9 +36,9 @@ Contiene una lista de los archivos que pertenecen al servicio de mensajes.
    
 ## <a name="remarks"></a>Comentarios
 
-Mediante un cuadro de diálogo en el applet del panel de control, un usuario puede obtener la lista de archivos que pertenecen al servicio de mensajes. Por ejemplo, el usuario puede obtener los nombres de todas las bibliotecas de vínculos dinámicos (DLL) que pertenecen al servicio. A continuación, el usuario puede buscar detalles adicionales sobre los archivos especificados, como los nombres y números de versión de todas las DLL. MAPI usa estas propiedades para crear una lista de archivos de compatibilidad en un cuadro de diálogo para la selección del usuario de mensajería.
+Mediante un cuadro de diálogo en el applet del panel de control, un usuario puede obtener la lista de archivos que pertenecen al servicio de mensajes. Por ejemplo, el usuario puede obtener los nombres de todas las bibliotecas de vínculos dinámicos (DLL) que pertenecen al servicio. A continuación, el usuario puede buscar detalles adicionales sobre los archivos especificados, como los nombres y los números de versión de todas las DLL. MAPI usa estas propiedades para crear una lista de archivos de soporte técnico en un cuadro de diálogo para la selección de usuarios de mensajería.
   
-MAPI sólo funciona con nombres de archivo y otras cadenas pasadas en el juego de caracteres de interfaces de servicio de Active Directory (ANSI). Las aplicaciones cliente que usan nombres de archivo en un juego de caracteres oem (fabricante de equipos originales) deben convertirlos en ANSI antes de llamar a MAPI.
+MAPI solo funciona con nombres de archivo y otras cadenas que se le pasan en el juego de caracteres interfaces de servicio (ANSI) de Active Directory. Las aplicaciones cliente que usan nombres de archivo en un juego de caracteres del fabricante de equipos originales (OEM) deben convertirlos en ANSI antes de llamar a MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

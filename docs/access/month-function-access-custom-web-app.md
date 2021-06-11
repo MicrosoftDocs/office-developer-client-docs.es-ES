@@ -35,6 +35,6 @@ La **función Month** contiene el argumento siguiente.
 
  **Month** devuelve el mismo valor que **DatePart** (mes, fecha). 
   
-Si  *Date*  contiene solo una parte de hora, el valor devuelto es 1, el mes base. 
+Si  *Date*  solo contiene una parte de tiempo, el valor devuelto es 1, el mes base. 
   
 

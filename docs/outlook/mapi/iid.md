@@ -25,7 +25,7 @@ ms.locfileid: "33411599"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Describe una estructura [GUID](guid.md) usada para describir un identificador para una interfaz MAPI. 
+Describe una [estructura GUID](guid.md) usada para describir un identificador para una interfaz MAPI. 
   
 ```cpp
 typedef struct _GUID
@@ -38,17 +38,17 @@ typedef struct _GUID
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
 Vea la **estructura GUID.** 
   
 ## <a name="remarks"></a>Comentarios
 
-Una **estructura IID** se usa para identificar de forma única una interfaz MAPI y para asociar una interfaz determinada con un objeto. Por ejemplo, cuando un cliente llama a [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir una carpeta, el cliente establece el parámetro _lpInterface_ para que apunte a un **IID** que representa la interfaz [IMAPIFolder.](imapifolderimapicontainer.md) MAPI define el **IMAPIFolderIID que** se va a IID_IMAPIFolder. **Las estructuras IID** también se usan para identificar de forma única interfaces OLE. 
+Una **estructura IID** se usa para identificar de forma única una interfaz MAPI y asociar una interfaz determinada con un objeto. Por ejemplo, cuando un cliente llama a [IMAPISession::OpenEntry](imapisession-openentry.md) para abrir una carpeta, el cliente establece el parámetro _lpInterface_ para que apunte a un **IID** que representa la [interfaz IMAPIFolder.](imapifolderimapicontainer.md) MAPI define el **IMAPIFolderIID para** que se IID_IMAPIFolder. **Las estructuras IID** también se usan para identificar de forma única interfaces OLE. 
   
-Todas las estructuras **IID** específicas para las interfaces MAPI se definen en el archivo de encabezado Mapiguid.h. 
+Todas las estructuras **de IID** específicas para las interfaces MAPI se definen en el archivo de encabezado Mapiguid.h. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

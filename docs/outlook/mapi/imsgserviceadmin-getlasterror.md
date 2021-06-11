@@ -35,19 +35,19 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
-> [entrada] Un tipo de datos HRESULT que contiene el valor de error generado por la llamada al método anterior.
+> [in] Tipo de datos HRESULT que contiene el valor de error generado por la llamada al método anterior.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
+> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI. 
     
  _lppMAPIError_
   
@@ -61,19 +61,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se MAPI_UNICODE marca y el objeto de administración del servicio de mensajes no admite Unicode.
+> El MAPI_UNICODE se estableció y el objeto de administración del servicio de mensajes no admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMsgServiceAdmin::GetLastError** recupera información sobre el último error devuelto por una llamada al método [IMsgServiceAdmin.](imsgserviceadminiunknown.md) Los clientes pueden proporcionar a sus usuarios información detallada sobre el error si incluyen esta información en un cuadro de diálogo. 
+El **método IMsgServiceAdmin::GetLastError** recupera información sobre el último error devuelto por una llamada al método [IMsgServiceAdmin.](imsgserviceadminiunknown.md) Los clientes pueden proporcionar a sus usuarios información detallada sobre el error mediante la inclusión de esta información en un cuadro de diálogo. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar la estructura **MAPIERROR,** si MAPI proporciona una, apuntada por el parámetro  _lppMAPIError_ sólo si **GetLastError** devuelve S_OK. A veces MAPI no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, **GetLastError** devuelve un puntero a NULL  _en lppMAPIError_ en su lugar. 
+Puede usar la estructura **MAPIERROR,** si MAPI proporciona una, apuntada por el parámetro  _lppMAPIError_ solo si **GetLastError** devuelve S_OK. A veces MAPI no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, **GetLastError** devuelve un puntero a NULL en  _lppMAPIError en_ su lugar. 
   
-Para obtener más información acerca **del método GetLastError,** vea [El uso de errores extendidos.](mapi-extended-errors.md)
+Para obtener más información sobre el **método GetLastError,** vea [Using Extended Errors](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

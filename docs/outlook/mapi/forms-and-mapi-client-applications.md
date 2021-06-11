@@ -19,13 +19,13 @@ ms.locfileid: "33415449"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Dado que todos los mensajes MAPI son instancias de formularios, las aplicaciones cliente muestran e interactúan con los objetos de formulario del mismo modo que con otros objetos de mensaje.
+Dado que todos los mensajes MAPI son instancias de formularios, las aplicaciones cliente muestran e interactúan con objetos de formulario del mismo modo que con otros objetos de mensaje.
   
-Las aplicaciones cliente que usan las interfaces de formulario MAPI pueden proporcionar interacción adicional con objetos de formulario. Las aplicaciones cliente pueden usar verbos especiales definidos por un formulario para proporcionar a los usuarios toda la gama de interacciones previstas por el diseñador del formulario. Los clientes también pueden usar las propiedades personalizadas que expone el servidor de formularios para ayudar a los usuarios a ordenar, obtener una vista previa o administrar formularios en la interfaz del cliente.
+Las aplicaciones cliente que usan las interfaces de formulario MAPI pueden proporcionar una interacción adicional con objetos de formulario. Las aplicaciones cliente pueden usar cualquier verbo especial definido por un formulario para proporcionar a los usuarios toda la gama de interacciones previstas por el diseñador del formulario. Los clientes también pueden usar las propiedades personalizadas que expone el servidor de formularios para ayudar a los usuarios a ordenar, obtener una vista previa o administrar formularios en la interfaz del cliente.
   
-Para obtener más información, vea [Control de formularios MAPI](handling-mapi-forms.md).
+Para obtener más información, vea [Handling MAPI Forms](handling-mapi-forms.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Formularios MAPI](mapi-forms.md)
 

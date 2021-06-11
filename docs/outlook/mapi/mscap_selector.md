@@ -56,6 +56,6 @@ typedef enum
     
  *MSCAP_SEL_RESTRICTION* 
   
-> Funcionalidades sobre compatibilidad con restricciones en un almacén.
+> Funcionalidades sobre cómo admitir restricciones en un almacén.
     
 

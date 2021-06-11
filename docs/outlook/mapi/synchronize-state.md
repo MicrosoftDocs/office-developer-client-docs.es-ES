@@ -1,5 +1,5 @@
 ---
-title: Estado de sincronización
+title: Sincronizar estado
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414630"
 ---
-# <a name="synchronize-state"></a>Estado de sincronización
+# <a name="synchronize-state"></a>Sincronizar estado
 
   
   
@@ -28,20 +28,20 @@ ms.locfileid: "33414630"
 |Identificador de estado:  <br/> |**LR_SYNC** <br/> |
 |Estructura de datos relacionada:  <br/> |**[Sincronizar](sync.md)** <br/> |
 |Desde este estado:  <br/> |[Estado inactivo](idle-state.md) <br/> |
-|A este estado:  <br/> |[Descargar estado de jerarquía,](download-hierarchy-state.md) [estado de sincronización de contenido,](synchronize-contents-state.md)estado de carga de [jerarquía](upload-hierarchy-state.md)o estado inactivo  <br/> |
+|A este estado:  <br/> |[Estado de la jerarquía de descarga,](download-hierarchy-state.md) [estado de sincronización de contenido,](synchronize-contents-state.md)estado de la jerarquía [de](upload-hierarchy-state.md)carga o estado de inactividad  <br/> |
    
 > [!NOTE]
-> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que va de un estado a otro debe volver al primero desde el segundo. 
+> La máquina de estado de replicación es una máquina de estado determinista. Un cliente que sale de un estado a otro debe volver al primero desde el segundo. 
   
-## <a name="description"></a>Description
+## <a name="description"></a>Descripción
 
-Este estado inicia la sincronización. Una tienda local puede pasar a un estado de carga o descarga desde aquí. Por ejemplo, un almacén local puede moverse al estado de la jerarquía de carga para cargar una jerarquía de carpetas en el servidor, o bien puede realizar una sincronización completa cargando primero la jerarquía y, a continuación, descargando la jerarquía desde el servidor.
+Este estado inicia la sincronización. Un almacén local puede realizar la transición a un estado de carga o descarga desde aquí. Por ejemplo, un almacén local puede moverse al estado de la jerarquía de carga para cargar una jerarquía de carpetas en el servidor, o bien puede realizar una sincronización completa cargando primero la jerarquía y, a continuación, descargando la jerarquía del servidor.
   
-Durante este estado, Outlook inicializa la estructura de datos **sync** asociada con la ruta de acceso al almacén local, para que Outlook vea modificaciones en otros estados. 
+Durante este estado, Outlook la estructura de datos **SYNC** asociada con la ruta de acceso al almacén local, de modo que Outlook modificaciones durante otros estados. 
   
-El cliente establece los miembros [entrada] de **SYNC**, que indica a Outlook cómo controlar otros estados. Por ejemplo, el cliente puede establecer  *ulFlags*  en **UPS_UPLOAD_ONLY** y **UPS_THESE_FOLDERS** y  *pel*  en una lista de identificadores de entrada de las carpetas para decir a Outlook que solo se cargarán estas carpetas. Cuando finaliza este estado, el almacén local vuelve al estado inactivo. 
+El cliente establece los miembros [en] de **SYNC**, lo que indica Outlook cómo controlar otros estados. Por ejemplo, el cliente puede establecer *ulFlags* en **UPS_UPLOAD_ONLY** y UPS_THESE_FOLDERS y *pel* **en** una lista de identificadores de entrada de las carpetas para decir Outlook que solo se cargarán estas carpetas. Cuando finaliza este estado, el almacén local vuelve al estado de inactividad. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

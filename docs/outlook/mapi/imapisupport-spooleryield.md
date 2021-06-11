@@ -25,7 +25,7 @@ ms.locfileid: "33409912"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona control de la CPU a la cola MAPI para que pueda realizar las tareas que considere necesarias.
+Proporciona el control de la CPU a la cola MAPI para que pueda realizar las tareas que considere necesarias.
   
 ```cpp
 HRESULT SpoolerYield(
@@ -33,7 +33,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,7 +43,7 @@ ULONG ulFlags
 
 S_OK 
   
-> El proveedor de transporte publicó correctamente la CPU.
+> El proveedor de transporte liberó correctamente la CPU.
     
 MAPI_W_CANCEL_MESSAGE 
   
@@ -51,17 +51,17 @@ MAPI_W_CANCEL_MESSAGE
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::SpoolerYield** se implementa para objetos de compatibilidad del proveedor de transporte. Los proveedores de transporte **llaman a SpoolerYield para** permitir que la cola MAPI pueda realizar cualquier procesamiento necesario. 
+El **método IMAPISupport::SpoolerYield** se implementa para objetos de soporte del proveedor de transporte. Los proveedores de transporte **llaman a SpoolerYield** para permitir que la cola MAPI pueda realizar cualquier procesamiento necesario. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame **a SpoolerYield** cuando realice operaciones largas que se puedan pausar. Esto permite que las aplicaciones en primer plano se ejecuten durante una operación larga, como la entrega a una lista de destinatarios de gran tamaño a través de una red ocupada. 
+Llama **a SpoolerYield** cuando realices operaciones largas que se pueden pausar. Esto permite que las aplicaciones en primer plano se ejecuten durante una operación larga, como la entrega a una lista de destinatarios de gran tamaño en una red de disponibilidad. 
   
-Si **SpoolerYield** vuelve con MAPI_W_CANCEL_MESSAGE, la cola MAPI ha determinado que el mensaje ya no se debe enviar. Vuelva MAPI_E_USER_CANCEL al proceso de llamada y salga, si es posible. 
+Si **SpoolerYield** devuelve con MAPI_W_CANCEL_MESSAGE, la cola MAPI ha determinado que el mensaje ya no se debe enviar. Devuelve MAPI_E_USER_CANCEL al proceso de llamada y sal, si es posible. 
   
-Para obtener más información acerca del rendimiento de la cola MAPI, vea [Interactuar con la cola MAPI.](interacting-with-the-mapi-spooler.md)
+Para obtener más información acerca del rendimiento de la cola MAPI, vea [Interacting with the MAPI Spooler](interacting-with-the-mapi-spooler.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

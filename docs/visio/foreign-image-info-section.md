@@ -22,6 +22,6 @@ Contiene el ancho y el alto de un objeto de otro programa que se usa en un dibuj
   
 ## <a name="remarks"></a>Comentarios
 
-En versiones de Productos de Visio anteriores a la versión 2000, esta sección se llamaba **Información de imagen**.
+En versiones de Visio anteriores a la versión 2000, esta sección se llamaba **Información de imagen**.
   
 

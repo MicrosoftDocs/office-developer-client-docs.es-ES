@@ -21,13 +21,13 @@ ms.locfileid: "33412747"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si el modo caché de Exchange para el almacén de Exchange privado está habilitado y si esto se aplica mediante la directiva.
+Indica si el modo Exchange caché para el almacén de Exchange privado está habilitado y si se aplica mediante directiva.
   
 ## <a name="quick-info"></a>Información rápida
 
 |||
 |:-----|:-----|
-|Exportado por:  <br/> |msmapi32.dll  <br/> |
+|Exportada por:  <br/> |msmapi32.dll  <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
@@ -36,7 +36,7 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pfPolicy_
   
@@ -52,7 +52,7 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
   
 - El almacenamiento en caché está deshabilitado.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

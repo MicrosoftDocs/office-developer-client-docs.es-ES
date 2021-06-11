@@ -35,11 +35,11 @@ HRESULT CreateClassFactory(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _clsidForm_
   
-> [entrada] Identificador de clase para el formulario que va a crear la fábrica de clases.
+> [in] Identificador de clase para el formulario que va a crear la fábrica de clases.
     
  _ulFlags_
   
@@ -59,15 +59,15 @@ S_OK
 
 Los visores de formularios llaman al **método IMAPIFormFactory::CreateClassFactory** para obtener una fábrica de clases para un formulario específico. La fábrica de clases se usa para crear instancias de un formulario que controla los mensajes de una clase específica y para controlar el acceso a estas instancias. 
   
-Los visores de formularios llaman al método **CreateClassFactory** para obtener un objeto de fábrica de clase para servidores de formulario que implementan varias clases de mensajes. Este método recibe un identificador de clase (CLSID) como parámetro. En función de ese parámetro, este método puede determinar el tipo específico de objeto de fábrica de clase que se va a devolver. 
+Los visores de formularios llaman al método **CreateClassFactory** para obtener un objeto de fábrica de clases para servidores de formulario que implementan varias clases de mensaje. Este método recibe un identificador de clase (CLSID) como parámetro. En función de ese parámetro, este método puede determinar el tipo específico de objeto de fábrica de clase que se va a devolver. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Puede devolver de la implementación **CreateClassFactory** el mismo objeto de fábrica de clase en varias llamadas para el mismo identificador de clase. No es necesario crear una nueva instancia de fábrica de clase. 
+Puede devolver de la implementación **CreateClassFactory** el mismo objeto de fábrica de clase en varias llamadas para el mismo identificador de clase. No es necesario crear una nueva instancia de fábrica de clases. 
   
-Puedes tener una implementación de fábrica de una sola clase que cree instancias de fábrica de clase adecuadas a petición, o varias implementaciones de fábrica de clases, una para cada clase de mensaje.
+Puede tener una implementación de fábrica de una sola clase que cree instancias de fábrica de clases adecuadas a petición, o varias implementaciones de fábrica de clase, una para cada clase de mensaje.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

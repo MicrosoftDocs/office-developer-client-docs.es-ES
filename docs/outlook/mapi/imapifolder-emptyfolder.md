@@ -35,23 +35,23 @@ HRESULT EmptyFolder(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del indicador de progreso. El _parámetro ulUIParam_ se omite a menos FOLDER_DIALOG marca esté establecida en el _parámetro ulFlags._ 
+> [in] Identificador de la ventana principal del indicador de progreso. El _parámetro ulUIParam_ se omite a menos que FOLDER_DIALOG marca esté establecida en _el parámetro ulFlags._ 
     
  _lpProgress_
   
-> [entrada] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El _parámetro lpProgress_ se omite a menos que FOLDER_DIALOG marca esté establecida en el _parámetro ulFlags._ 
+> [in] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El _parámetro lpProgress_ se omite a menos que FOLDER_DIALOG marca se establezca en _el parámetro ulFlags._ 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se vacía la carpeta. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se vacía la carpeta. Se pueden establecer las siguientes marcas:
     
 DEL_ASSOCIATED 
   
-> Elimina todas las subcarpetas, incluidas las subcarpetas que contienen mensajes con contenido asociado. El DEL_ASSOCIATED marca solo tiene significado para la carpeta de nivel superior en la que actúa la llamada.
+> Elimina todas las subcarpetas, incluidas las subcarpetas que contienen mensajes con contenido asociado. La marca DEL_ASSOCIATED solo significa para la carpeta de nivel superior en la que actúa la llamada.
     
 DELETE_HARD_DELETE
   
@@ -65,11 +65,11 @@ FOLDER_DIALOG
 
 S_OK 
   
-> La carpeta se ha vaciado correctamente.
+> La carpeta se vació correctamente.
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> La llamada se ha hecho correctamente, pero la carpeta no se ha vaciado por completo. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
+> La llamada se ha hecho correctamente, pero la carpeta no se ha vaciado completamente. Cuando se devuelve esta advertencia, la llamada debe controlarse como correcta. Para probar esta advertencia, use la **HR_FAILED** macro. Para obtener más información, vea [Using Macros for Error Handling](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
@@ -103,7 +103,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI usa el **método IMAPIFolder::EmptyFolder** para eliminar el contenido de la carpeta especificada.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

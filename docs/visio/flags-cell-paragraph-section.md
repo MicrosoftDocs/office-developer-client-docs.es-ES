@@ -23,11 +23,11 @@ Indica si el texto se lee de izquierda a derecha o al revés.
 |**Valor**|**Descripción**|
 |:-----|:-----|
 |0  <br/> |El texto se lee de izquierda a derecha (predeterminado).  <br/> |
-|1   <br/> |El texto se lee de derecha a izquierda.  <br/> |
+|1  <br/> |El texto se lee de derecha a izquierda.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de esta celda  corresponde a  la configuración  Dirección de la  ficha Párrafo del cuadro de diálogo Texto (en la ficha Inicio, haga clic en la flecha Fuente), que aparece solo si se ha agregado un idioma que usa texto de scripts complejos en el cuadro de diálogo Preferencias de idioma de **Microsoft Office.**  (Haga **clic en Inicio**, **todos** los programas, **Microsoft Office**, **Microsoft Office Herramientas** y, a continuación, haga clic Microsoft Office **Preferencias de idioma).** 
+El valor de esta celda  corresponde a  la configuración  Dirección de la  ficha Párrafo del cuadro de diálogo Texto (en la ficha Inicio, haga clic en la flecha Fuente), que solo aparece si se ha agregado un idioma que usa texto de scripts complejos en el cuadro de diálogo Preferencias de idioma de **Microsoft Office.**  (Haga clic **en Inicio**, **en Todos** los programas, haga clic en **Microsoft Office**, haga clic en **Microsoft Office Herramientas** y, a continuación, haga clic **Microsoft Office Preferencias de idioma**.) 
   
 Para obtener una referencia a la celda Flags por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

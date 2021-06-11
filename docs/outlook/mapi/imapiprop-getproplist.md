@@ -34,15 +34,15 @@ HRESULT GetPropList(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el formato de las cadenas de las etiquetas de propiedad devueltas. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el formato de las cadenas de las etiquetas de propiedad devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas devueltas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas devueltas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
  _lppPropTagArray_
   
@@ -56,23 +56,23 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
+> La marca MAPI_UNICODE se estableció y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
 El **método IMAPIProp::GetPropList** recupera la etiqueta de propiedad de cada propiedad admitida actualmente por un objeto. Si el objeto no admite actualmente ninguna propiedad, **GetPropList** devuelve una matriz de etiquetas de propiedad con el miembro **cValues** establecido en 0. 
   
-El ámbito de las propiedades devueltas **por GetPropList** varía de un proveedor a otro. Algunos proveedores de servicios excluyen aquellas propiedades para las que el autor de la llamada no tiene acceso. Todos los proveedores devuelven propiedades de **tipo PT_OBJECT**.
+El ámbito de las propiedades devueltas **por GetPropList** varía de proveedor a proveedor. Algunos proveedores de servicios excluyen aquellas propiedades a las que el autor de la llamada no tiene acceso. Todos los proveedores devuelven propiedades de **tipo PT_OBJECT**.
   
-Si el objeto no admite Unicode, **GetPropList** devuelve MAPI_E_BAD_CHARWIDTH, incluso si no hay ninguna propiedad de cadena definida para el objeto. 
+Si el objeto no admite Unicode, **GetPropList** devuelve MAPI_E_BAD_CHARWIDTH, incluso si no hay propiedades de cadena definidas para el objeto. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Los proveedores de transporte remoto **implementan GetPropList** exactamente como se especifica aquí. No hay ningún problema especial. Por supuesto, la implementación debe devolver la misma lista de propiedades que admite el método [IMAPIProp::GetProps.](imapiprop-getprops.md) 
+Los proveedores de transporte remoto **implementan GetPropList** exactamente como se especifica aquí. No hay ninguna preocupación especial. Por supuesto, la implementación debe devolver la misma lista de propiedades admitidas por el método [IMAPIProp::GetProps.](imapiprop-getprops.md) 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Llame a [la función MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de etiquetas de propiedad a la que  _apunta lppPropTagArray_. 
+Llame a [la función MAPIFreeBuffer](mapifreebuffer.md) para liberar la matriz de etiquetas de propiedad apuntada  _por lppPropTagArray_. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -82,7 +82,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI usa el **método IMAPIProp::GetPropList** para obtener una lista de propiedades para pasar a **GetProps**.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

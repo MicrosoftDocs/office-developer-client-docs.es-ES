@@ -21,26 +21,26 @@ ms.locfileid: "33410038"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las aplicaciones cliente MAPI se escriben con la interfaz de cliente MAPI orientada a objetos. Los clientes MAPI interactúan con uno o más sistemas de mensajería a través del subsistema MAPI y los proveedores de servicios compatibles con MAPI. Esta interacción puede producirse de muchas maneras diferentes; hay una gran variedad en las aplicaciones cliente. La mayoría de los clientes son clientes de mensajería, ya sea integrando la mensajería en su conjunto de características establecido o realizando la mensajería como su característica principal. Otras características que los clientes MAPI pueden proporcionar incluyen la administración de perfiles o la libreta de direcciones y la administración del almacén de mensajes.
+Las aplicaciones cliente MAPI se escriben con la interfaz de cliente MAPI orientada a objetos. Los clientes MAPI interactúan con uno o varios sistemas de mensajería a través del subsistema MAPI y los proveedores de servicios compatibles con MAPI. Esta interacción puede producirse de muchas maneras diferentes; hay una gran variedad en las aplicaciones cliente. La mayoría de los clientes son clientes de mensajería, ya sea integrando la mensajería en su conjunto de características establecido o realizando la mensajería como su característica principal. Otras características que pueden proporcionar los clientes MAPI son la administración de perfiles o la libreta de direcciones y la administración del almacén de mensajes.
   
-Todos los clientes de mensajería inicializan las bibliotecas MAPI e inician una **sesión** con el subsistema MAPI. Para obtener más información, vea [Obtener acceso a objetos mediante el uso de la sesión](accessing-objects-by-using-the-session.md). Una vez establecida una sesión, un cliente puede:
+Todos los clientes de mensajería inicializan las bibliotecas MAPI e inician una **sesión** con el subsistema MAPI. Para obtener más información, vea [Accessing Objects by Using the Session](accessing-objects-by-using-the-session.md). Una vez establecida una sesión, un cliente puede:
   
-- Controlar los mensajes salientes, incluidas las respuestas, los mensajes reenviados y las retransmisiones.
+- Controla los mensajes salientes, incluidas las respuestas, los mensajes reenviados y las retransmisiones.
     
 - Controlar los mensajes entrantes.
     
-- Controle el almacén de mensajes abriendo carpetas y mensajes, creando, modificando, copiando y enviando mensajes, controlando conversaciones y buscando una o más carpetas.
+- Controla el almacén de mensajes abriendo carpetas y mensajes, creando, modificando, copiando y enviando mensajes, rastreando conversaciones y buscando una o varias carpetas.
     
-- Controle la libreta de direcciones creando y modificando destinatarios, localizando entradas y recorriendo la jerarquía de contenedores.
+- Controla la libreta de direcciones creando y modificando destinatarios, localizando entradas y recorriendo la jerarquía de contenedores.
     
-- Controla un proveedor de transporte mediante la reconfiguración, la configuración de opciones y el orden de transporte, y el envío de mensajes a petición.
+- Controla un proveedor de transporte mediante la reconfiguración, la configuración de opciones y el orden de transporte y el envío de mensajes a petición.
     
 - Controlar la notificación de eventos.
     
 - Controlar formularios.
     
-- Controlar perfiles y servicios de mensajes.
+- Controlar los perfiles y los servicios de mensajes.
     
-Use los temas de esta sección para ayudarle a implementar estas tareas básicas y las características específicas que harán que el cliente MAPI sea único.
+Use los temas de esta sección para ayudarle a implementar estas tareas básicas y las características específicas que harán que su cliente MAPI sea único.
   
 

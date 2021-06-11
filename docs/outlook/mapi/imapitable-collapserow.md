@@ -36,15 +36,15 @@ ULONG FAR * lpulRowCount
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbInstanceKey_
   
-> [entrada] El recuento de bytes en la PR_INSTANCE_KEY propiedad que apunta el _parámetro pbInstanceKey._ 
+> [in] Recuento de bytes en la propiedad PR_INSTANCE_KEY señalada por el _parámetro pbInstanceKey._ 
     
  _pbInstanceKey_
   
-> [entrada] Puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica la fila de título de la categoría. 
+> [in] Puntero a la **propiedad PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica la fila de título de la categoría. 
     
  _ulFlags_
   
@@ -52,13 +52,13 @@ ULONG FAR * lpulRowCount
     
  _lpulRowCount_
   
-> [salida] Puntero al número total de filas que se están quitando de la vista de tabla.
+> [salida] Puntero al número total de filas que se quitan de la vista de tabla.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La operación de con contraer se ha hecho correctamente.
+> La operación de contraer se ha hecho correctamente.
     
 MAPI_E_NOT_FOUND 
   
@@ -70,13 +70,13 @@ MAPI_E_INVALID_ENTRYID
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPITable::CollapseRow** contrae una categoría de tabla y la quita de la vista de tabla. Las filas se contraen empezando por la fila identificada por **la PR_INSTANCE_KEY** que apunta el _parámetro pbInstanceKey._ El número de filas que se quitan de la vista se devuelve en el contenido del parámetro _lpulRowCount._ 
+El **método IMAPITable::CollapseRow** contrae una categoría de tabla y la quita de la vista de tabla. Las filas se contraen a partir de la fila identificada por la **PR_INSTANCE_KEY** que apunta el _parámetro pbInstanceKey._ El número de filas que se quitan de la vista se devuelve en el contenido del parámetro _lpulRowCount._ 
   
-Las notificaciones nunca se generan para las filas de tabla que se quitan de una vista como resultado de una operación de con contraer. 
+Las notificaciones nunca se generan para las filas de tabla que se quitan de una vista como resultado de una operación de contraer. 
   
 Cuando una fila definida por un marcador se contrae fuera de la vista, el marcador se mueve para apuntar a la siguiente fila visible. 
   
-Para obtener más información acerca de las tablas categorizadas, vea [Ordenar y categorizar.](sorting-and-categorization.md)
+Para obtener más información acerca de las tablas categorizadas, vea [Sorting and Categorization](sorting-and-categorization.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -86,7 +86,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI usa el **método IMAPITable::CollapseRow** para contraer una categoría de tabla.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

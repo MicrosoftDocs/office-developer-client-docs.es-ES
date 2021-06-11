@@ -34,19 +34,19 @@ HRESULT SaveContentsSort(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpSortCriteria_
   
-> [entrada] Puntero a una [estructura SSortOrderSet](ssortorderset.md) que contiene el criterio de ordenación predeterminado. 
+> [in] Puntero a una [estructura SSortOrderSet](ssortorderset.md) que contiene el criterio de ordenación predeterminado. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se establece el criterio de ordenación predeterminado. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se establece el criterio de ordenación predeterminado. Se puede establecer la siguiente marca:
     
 RECURSIVE_SORT 
   
-> El conjunto de criterios de ordenación predeterminado se aplica a la carpeta indicada y a todas sus subcarpetas.
+> El conjunto de ordenación predeterminado se aplica a la carpeta indicada y a todas sus subcarpetas.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,15 +56,15 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> El proveedor de almacenamiento de mensajes no admite el almacenamiento de un criterio de ordenación para sus tablas de contenido de carpeta.
+> El proveedor del almacén de mensajes no admite guardar un criterio de ordenación para sus tablas de contenido de carpeta.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPIFolder::SaveContentsSort** establece un criterio de ordenación predeterminado para la tabla de contenido de una carpeta. Es decir, cuando un cliente llama al método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la carpeta después de que el código llama a **SaveContentsSort**, las filas de la tabla de contenido devuelta aparecerán en el orden establecido por **SaveContentsSort**.
+El **método IMAPIFolder::SaveContentsSort** establece un criterio de ordenación predeterminado para la tabla de contenido de una carpeta. Es decir, cuando un cliente llama al método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la carpeta después de que el código llama a **SaveContentsSort,** las filas de la tabla de contenido devuelta aparecerán en el orden establecido por **SaveContentsSort**.
   
-No todos los proveedores de almacenamiento de mensajes **admiten SaveContentsSort**; es aceptable que los proveedores de almacén de mensajes devuelvan MAPI_E_NO_SUPPORT del **método SaveContentsSort.** 
+No todos los proveedores de almacén de mensajes **admiten SaveContentsSort**; es aceptable que los proveedores de almacenes de mensajes devuelvan MAPI_E_NO_SUPPORT del **método SaveContentsSort.** 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

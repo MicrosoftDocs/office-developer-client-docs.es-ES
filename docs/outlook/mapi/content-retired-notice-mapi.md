@@ -19,7 +19,7 @@ ms.locfileid: "33409996"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El contenido que intenta ver ya no se encuentra disponible. Quizás haya sido eliminado o sustituido por una versión más reciente. Explore este conjunto de vínculos para que se encuentre al día.
+El contenido que intenta ver ya no se encuentra disponible. Quizás haya sido eliminado o sustituido por una versión más reciente. Explora este conjunto de vínculos para ponerte al día.
   
 ## <a name="microsoft-outlook-2013-messaging-api-mapi-reference"></a>Referencia de API de mensajería (MAPI) Microsoft Outlook 2013
 

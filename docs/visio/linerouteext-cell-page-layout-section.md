@@ -23,8 +23,8 @@ Determina la apariencia predeterminada para todos los conectores de una página 
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valor predeterminado (recta)  <br/> |**visLORouteExtDefault** <br/> |
-| 1   <br/> | Recta  <br/> |**visLORouteExtStraight** <br/> |
-| 2   <br/> | Curvado  <br/> |**visLORouteExtNURBS** <br/> |
+| 1  <br/> | Recto  <br/> |**visLORouteExtStraight** <br/> |
+| 2  <br/> | Curvado  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

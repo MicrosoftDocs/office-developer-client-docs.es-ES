@@ -36,21 +36,21 @@ Establece el MVI_FLAG para una propiedad especificada.
 MVI_PROP (tag)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
- _tag_
+ _etiqueta_
   
 > Etiqueta de propiedad que se va a modificar.
     
 ## <a name="remarks"></a>Comentarios
 
-El MVI_FLAG combina la configuración de MV_FLAG, identificando una propiedad como multivalor y MV_INSTANCE, solicitando que se muestre una propiedad de varios valores en una tabla en varias filas. Se modifica el tipo de propiedad de la propiedad afectada, pero el identificador no cambia. 
+El MVI_FLAG combina la configuración de MV_FLAG, identificando una propiedad como multivalor y MV_INSTANCE, solicitando que una propiedad de varios valores se muestre en una tabla en varias filas. El tipo de propiedad de la propiedad afectada se modifica, pero el identificador permanece sin cambios. 
   
 Por ejemplo, cuando la macro MVI_PROP se aplica a una propiedad de tipo PT_FLOAT, su tipo se cambia a PT_MV_FLOAT. Cuando se incluye en una tabla, se usan varias filas para representar la propiedad que tiene una fila por cada valor. Las propiedades de las otras columnas se repiten. 
   
-Para obtener más información acerca de estas marcas, vea Información general sobre el tipo de [propiedad MAPI](mapi-property-type-overview.md) y Trabajar con [columnas multivalor.](working-with-multivalued-columns.md)
+Para obtener más información acerca de estas marcas, vea Información general sobre el tipo de propiedad [MAPI](mapi-property-type-overview.md) y [Trabajar con columnas multivalor](working-with-multivalued-columns.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -21,6 +21,6 @@ ms.locfileid: "33416912"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Debe estar familiarizado con la arquitectura del subsistema MAPI, el lenguaje C++ y con la escritura de bibliotecas de vínculos dinámicos (DLL) para las distintas plataformas windows antes de desarrollar un proveedor de transporte.
+Debe estar familiarizado con la arquitectura del subsistema MAPI, el lenguaje C++ y con la escritura de bibliotecas de vínculos dinámicos (DLL) para las distintas plataformas Windows antes de desarrollar un proveedor de transporte.
   
 

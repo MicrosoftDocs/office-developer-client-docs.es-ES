@@ -23,9 +23,9 @@ Determina el estilo de salto de línea para los saltos de línea en un conector 
 |**Valor**|**Estilo de salto de línea**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Valor predeterminado de página  <br/> |**visLOJumpStyleDefault** <br/> |
-|1   <br/> |Arco  <br/> |**visLOJumpStyleArc** <br/> |
-|2   <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
-|3   <br/> |Cuadrado  <br/> |**visLOJumpStyleSquare** <br/> |
+|1  <br/> |Arco  <br/> |**visLOJumpStyleArc** <br/> |
+|2  <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
+|3  <br/> |Cuadrado  <br/> |**visLOJumpStyleSquare** <br/> |
 |4   <br/> |Triángulo  <br/> |**visLOJumpStyleTriangle** <br/> |
 |5   <br/> |3 lados  <br/> |**visLOJumpStyle2Point** <br/> |
 |6   <br/> |4 lados  <br/> |**visLOJumpStyle3Point** <br/> |
@@ -41,7 +41,7 @@ Determina el estilo de salto de línea para los saltos de línea en un conector 
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda seleccionando un  conector dinámico, [](run-in-developer-mode-display-the-developer-tab.md) haciendo clic en Comportamiento en el grupo Diseño de formas de la ficha Programador y, a continuación, haciendo clic en la **pestaña** Conector.  
+También puede establecer el valor de esta celda seleccionando un conector dinámico, [](run-in-developer-mode-display-the-developer-tab.md) haciendo clic en Comportamiento en el grupo **Diseño** de formas de la ficha Programador y, a continuación, haciendo clic en **la pestaña Conector.**  
   
 Para obtener una referencia a la celda ConLineJumpStyle por su nombre desde otra fórmula, o desde un programa mediante la propiedad
  **CellsU**, use: 

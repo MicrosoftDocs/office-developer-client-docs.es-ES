@@ -25,7 +25,7 @@ En esta sección, se trata el modelo de objeto de las soluciones de código admi
   
 > Ofrece información general sobre los modelos de objetos que se utilizan en los proyectos de código administrado de InfoPath.
     
-[Obtener acceso a datos de la aplicación mediante el modelo de objetos de InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+[Obtener acceso a datos de aplicación mediante el modelo de objetos de InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
   
 > Trata de cómo obtener acceso a información sobre la aplicación InfoPath, el documento XML subyacente del formulario y el archivo de definición de formularios (.xsf).
     
@@ -49,7 +49,7 @@ En esta sección, se trata el modelo de objeto de las soluciones de código admi
   
 > Trata de cómo crear controladores de eventos que respondan a los eventos que se producen mientras el usuario rellena el formulario.
     
-[Trabajar con ventanas de formulario mediante el modelo de objetos de InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+[Trabajar con formularios Windows el modelo de objetos de InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
   
 > Trata de cómo trabajar con ventanas de formularios.
     
@@ -57,7 +57,7 @@ En esta sección, se trata el modelo de objeto de las soluciones de código admi
   
 > Trata de cómo trabajar con vistas.
     
-[Trabajar con firmas digitales mediante el modelo de objetos de InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
+[Trabajar con firmas digitales con el modelo de objetos de InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
   
 > Trata de cómo trabajar con firmas digitales.
     

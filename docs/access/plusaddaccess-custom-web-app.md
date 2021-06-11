@@ -25,7 +25,7 @@ Agrega dos números. Este operador aritmético de adición también puede agrega
 
  *expresión*   +   *expresión* 
   
- *expresión*  Cualquier expresión válida de cualquiera de los tipos de datos de la categoría numérica excepto el tipo de **datos de** bits. No se puede usar con tipos de datos de fecha u hora. 
+ *expresión*  Cualquier expresión válida de cualquiera de los tipos de datos de la categoría numérica excepto el tipo **de datos de** bits. No se puede usar con tipos de datos de fecha u hora. 
   
 ## <a name="return-value"></a>Valor devuelto
 

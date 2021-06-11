@@ -25,7 +25,7 @@ ms.locfileid: "33412761"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve un puntero a la tabla de uso único mapi (una lista de plantillas que todos los proveedores de libretas de direcciones admiten para crear nuevos destinatarios).
+Devuelve un puntero a la tabla única MAPI (una lista de plantillas que todos los proveedores de libretas de direcciones admiten para crear nuevos destinatarios).
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -34,15 +34,15 @@ HRESULT GetOneOffTable(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de las columnas de cadena. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de las columnas de cadena. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena están en formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena tienen el formato ANSI.
     
  _lppTable_
   
@@ -52,23 +52,23 @@ MAPI_UNICODE
 
 S_OK 
   
-> La tabla de un solo juego se recuperó correctamente.
+> La tabla única se recuperó correctamente.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::GetOneOffTable** se implementa para objetos de compatibilidad del proveedor de libreta de direcciones. Los proveedores de libretas de direcciones **llaman a GetOneOffTable** para recuperar la lista completa de plantillas para crear nuevos destinatarios. Esta tabla incluye plantillas que abordan proveedores de libretas que están activos en la compatibilidad con sesiones, así como plantillas compatibles con MAPI. 
+El **método IMAPISupport::GetOneOffTable** se implementa para objetos de soporte del proveedor de libreta de direcciones. Los proveedores de libreta de direcciones **llaman a GetOneOffTable para** recuperar la lista completa de plantillas para crear nuevos destinatarios. Esta tabla incluye plantillas que abordan proveedores de libretas que están activas en la compatibilidad con sesiones, así como plantillas compatibles con MAPI. 
   
 Los destinatarios recién creados se pueden usar para dirigir un mensaje o se pueden agregar a un contenedor de libreta de direcciones.
   
-Para obtener una lista de las propiedades que forma la columna necesaria establecida en tablas de uso único, vea [Tablas de uso único.](one-off-tables.md)
+Para obtener una lista de las propiedades que forme la columna necesaria establecida en tablas de uso único, vea [One-Off Tables](one-off-tables.md).
   
-Establecer el MAPI_UNICODE en el parámetro _ulFlags_ afecta al formato de las columnas devueltas de los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el método [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
+Establecer la marca MAPI_UNICODE en el _parámetro ulFlags_ afecta al formato de las columnas devueltas de los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el [método IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Si está registrado para recibir notificaciones de cambios en esta tabla de uso único, también recibirá notificaciones de cambios en las tablas de uso único de otros proveedores. En función de estas notificaciones, puede admitir nuevos tipos de direcciones que se agregan durante la sesión actual.
+Si está registrado para recibir notificaciones de cambios en esta tabla de uso único, también recibirá notificaciones de cambios en las tablas únicas de otros proveedores. En función de estas notificaciones, puede admitir nuevos tipos de direcciones que se agregan durante la sesión actual.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

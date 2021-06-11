@@ -25,7 +25,7 @@ ms.locfileid: "33415169"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Expande una categoría de tabla contrayendo, agregando las filas de título hoja o de nivel inferior que pertenecen a la categoría a la vista de tabla.
+Expande una categoría de tabla contrae, agregando las filas de encabezado de hoja o de nivel inferior que pertenecen a la categoría a la vista de tabla.
   
 ```cpp
 HRESULT ExpandRow(
@@ -38,19 +38,19 @@ ULONG FAR * lpulMoreRows
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbInstanceKey_
   
-> [entrada] El recuento de bytes de la PR_INSTANCE_KEY que apunta el _parámetro pbInstanceKey._ 
+> [in] Recuento de bytes en la propiedad PR_INSTANCE_KEY señalada por el _parámetro pbInstanceKey._ 
     
  _pbInstanceKey_
   
-> [entrada] Puntero a la propiedad **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica la fila de título de la categoría. 
+> [in] Puntero a la **propiedad PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) que identifica la fila de título de la categoría. 
     
  _ulRowCount_
   
-> [entrada] Número máximo de filas que se devolverán en el _parámetro lppRows._ 
+> [in] Número máximo de filas que se devolverán en el _parámetro lppRows._ 
     
  _ulFlags_
   
@@ -58,7 +58,7 @@ ULONG FAR * lpulMoreRows
     
  _lppRows_
   
-> [salida] Puntero a una estructura [SRowSet](srowset.md) que recibe las primeras filas (hasta  _ulRowCount_) que se han insertado en la vista de tabla como resultado de la expansión. Estas filas se insertan después de la fila de título identificada por el _parámetro pbInstanceKey._ El  _parámetro lppRows_ puede ser NULL si  _el parámetro ulRowCount_ es cero. 
+> [salida] Puntero a una [estructura SRowSet](srowset.md) que recibe las primeras filas (hasta  _ulRowCount)_ que se han insertado en la vista de tabla como resultado de la expansión. Estas filas se insertan después de la fila de encabezado identificada por el _parámetro pbInstanceKey._ El  _parámetro lppRows_ puede ser NULL si  _el parámetro ulRowCount_ es cero. 
     
  _lpulMoreRows_
   
@@ -76,9 +76,9 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPITable::ExpandRow** expande una categoría de tabla contrae, agregando las filas de título hoja o de nivel inferior que pertenecen a la categoría a la vista de tabla. Se puede especificar un límite en el número de filas que se devolverán en el parámetro _lppRows_ en el _parámetro ulRowCount._ Cuando  _ulRowCount_ se establece en un valor mayor que cero y se devuelve una o más filas en el conjunto de filas señalado por  _lppRows_, la posición del marcador BOOKMARK_CURRENT se mueve a la fila inmediatamente posterior a la última fila del conjunto de filas.
+El **método IMAPITable::ExpandRow** expande una categoría de tabla contrae, agregando las filas de encabezado de hoja o de nivel inferior que pertenecen a la categoría a la vista de tabla. Se puede especificar un límite en el número de filas que se devolverán en el parámetro _lppRows_ en _el parámetro ulRowCount._ Cuando  _ulRowCount_ se establece en un valor mayor que cero y se devuelve una o más filas en el conjunto de filas señalado por  _lppRows,_ la posición del marcador BOOKMARK_CURRENT se mueve a la fila inmediatamente después de la última fila del conjunto de filas.
   
-Cuando  _ulRowCount_ se establece en cero, solicitando que las filas de título de hoja cero o de nivel inferior se agregan a la categoría, o se devuelven cero filas porque no hay filas de encabezado de hoja o de nivel inferior en la categoría, la posición de BOOKMARK_CURRENT se establece en la fila que sigue a la fila identificada por  _pbInstanceKey_. 
+Cuando  _ulRowCount_ se establece en cero, solicitando que se agregó ninguna hoja o filas de encabezado de nivel inferior a la categoría, o se devuelven cero filas porque no hay filas de encabezado de hoja o de nivel inferior en la categoría, la posición de BOOKMARK_CURRENT se establece en la fila que sigue a la fila identificada por  _pbInstanceKey_. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
@@ -86,11 +86,11 @@ No genere notificaciones en filas que se agregan a una vista de tabla debido a l
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Es posible que el número de filas del conjunto de filas al que apunta el parámetro  _lppRows_ no sea igual al número de filas que se agregaron realmente a la tabla, todo el conjunto de filas de título hoja o de nivel inferior de la categoría. Pueden producirse errores, como memoria insuficiente o el número de filas de la categoría que supera el número especificado en el _parámetro ulRowCount._ En cualquier caso, BOOKMARK_CURRENT se colocará en la última fila devuelta. Para recuperar inmediatamente el resto de las filas de la categoría, llame a [IMAPITable::QueryRows](imapitable-queryrows.md).
+Es posible que el número de filas del conjunto de filas señalado por el parámetro  _lppRows_ no sea igual al número de filas que se agregaron realmente a la tabla, todo el conjunto de filas de encabezado de hoja o de nivel inferior de la categoría. Pueden producirse errores, como memoria insuficiente, o el número de filas de la categoría que supera el número especificado en _el parámetro ulRowCount._ En cualquier caso, BOOKMARK_CURRENT se colocará en la última fila devuelta. Para recuperar inmediatamente el resto de las filas de la categoría, llame a [IMAPITable::QueryRows](imapitable-queryrows.md).
   
-No espere recibir una notificación de tabla cuando una categoría cambie su estado. Puede mantener una caché local de filas que se pueden actualizar con cada **llamada ExpandRow** o **CollapseRow.** 
+No espere recibir una notificación de tabla cuando una categoría cambie su estado. Puede mantener una memoria caché local de filas que se puede actualizar con cada **llamada a ExpandRow** **o CollapseRow.** 
   
-Para obtener más información acerca de las tablas categorizadas, vea [Ordenar y categorizar.](sorting-and-categorization.md)
+Para obtener más información acerca de las tablas categorizadas, vea [Sorting and Categorization](sorting-and-categorization.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -100,7 +100,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI usa el **método IMAPITable::ExpandRow** para expandir una categoría de tabla contrae.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

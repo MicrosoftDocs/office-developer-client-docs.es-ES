@@ -1,5 +1,5 @@
 ---
-title: Función ceiling (aplicación web personalizada de Access)
+title: Función Ceiling (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414210"
 ---
-# <a name="ceiling-function-access-custom-web-app"></a>Función ceiling (aplicación web personalizada de Access)
+# <a name="ceiling-function-access-custom-web-app"></a>Función Ceiling (aplicación web personalizada de Access)
 
 Devuelve el entero más pequeño mayor o igual que la expresión numérica especificada.
   

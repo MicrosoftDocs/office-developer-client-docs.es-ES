@@ -36,7 +36,7 @@ Especifica un identificador para una carpeta o un elemento de un almacén.
    
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de almacén pueden especificar un valor para esta propiedad para una carpeta o un elemento, pero deben mantener el mismo valor entre sesiones. Los proveedores de almacén usan esta propiedad para identificar los resultados de búsqueda devueltos por un motor de búsqueda.
+Los proveedores de almacenamiento pueden especificar un valor para esta propiedad para una carpeta o un elemento, pero deben mantener el mismo valor entre sesiones. Los proveedores de almacenamiento usan esta propiedad para identificar los resultados de búsqueda devueltos desde un motor de búsqueda.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

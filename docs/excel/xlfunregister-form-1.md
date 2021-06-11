@@ -22,23 +22,23 @@ ms.locfileid: "33410087"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Se puede llamar desde un comando DLL o XLL que microsoft Excel haya llamado a sí mismo. Esto equivale a llamar **a UNREGISTER** desde una hoja de macros XLM de Excel. 
+Se puede llamar desde un comando DLL o XLL al que ha llamado Microsoft Excel. Esto equivale a llamar a **UNREGISTER** desde una Excel de macros XLM. 
   
-Se puede llamar a **xlfUnregister** de dos formas: 
+**xlfUnregister** se puede llamar de dos formas: 
   
-- Formulario 1: anula el registro de un comando o función individuales.
+- Formulario 1: Anula el registro de un comando o función individual.
     
-- Formulario 2: descarga y desactiva un XLL.
+- Formulario 2: Descarga y desactiva un XLL.
     
-Llamada en el formulario 1, esta función reduce el recuento de uso de una función o comando DLL que se registró anteriormente mediante **xlfRegister** o **REGISTER**. Si el recuento de uso ya es cero, esta función no tiene ningún efecto. Cuando el recuento de uso de todas las funciones de una DLL alcanza cero, la DLL se descarga de la memoria.
+Llamada en el formulario 1, esta función reduce el recuento de uso de una función o comando DLL que se registró anteriormente mediante **xlfRegister** o **REGISTER**. Si el recuento de uso ya es cero, esta función no tiene ningún efecto. Cuando el recuento de uso de todas las funciones de un ARCHIVO DLL alcanza cero, la DLL se descarga de la memoria.
   
-**xlfRegister** (Formulario 1) también define un nombre oculto que es el argumento de texto de la función,  _pxFunctionText_, y que se evalúa como el identificador de registro de la función o comando. Al anular el registro de la función, este nombre debe eliminarse con **xlfSetName** para que el Asistente para funciones ya no aparezca en la lista del nombre de la función. Para obtener más información, consulta [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
+**xlfRegister** (formulario 1) también define un nombre oculto que es el argumento de texto de función,  _pxFunctionText_, y que evalúa el identificador de registro de la función o comando. Al anular el registro de la función, este nombre debe eliminarse con **xlfSetName** para que el Asistente para funciones ya no aparezca el nombre de la función. Para obtener más información, consulta [Problemas conocidos en el desarrollo de XLL de Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pxRegisterId_ (**xltypeNum**)
   
@@ -50,7 +50,7 @@ Si se realiza **correctamente, devuelve TRUE** (**xltypeBool**), de lo contrario
   
 ## <a name="remarks"></a>Comentarios
 
-**XlfRegister** devuelve el identificador de registro de la función cuando se registra la función por primera vez. También se puede obtener llamando a la función [xlfRegisterId](xlfregisterid.md) o [a la función xlfEvaluate](xlfevaluate.md). Tenga en cuenta que xlfRegisterId intenta registrar la función si aún no se ha registrado. Por este motivo, si solo está intentando obtener el identificador para poder anular el registro de la función, es mejor obtenerla pasando el nombre registrado a **xlfEvaluate**. Si la función no se ha registrado, **xlfEvaluate** genera un error con #NAME? error. 
+**XlfRegister** devuelve el identificador de registro de la función cuando se registra por primera vez la función. También se puede obtener llamando a la [función xlfRegisterId](xlfregisterid.md) o a la [función xlfEvaluate](xlfevaluate.md). Tenga en cuenta que xlfRegisterId intenta registrar la función si aún no se ha registrado. Por este motivo, si solo intenta obtener el identificador para anular el registro de la función, es mejor obtenerla pasando el nombre registrado a **xlfEvaluate**. Si la función no se ha registrado, **xlfEvaluate** falla con un #NAME? error. 
   
 ## <a name="example"></a>Ejemplo
 

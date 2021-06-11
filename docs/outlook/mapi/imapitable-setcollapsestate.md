@@ -25,7 +25,7 @@ ms.locfileid: "33414070"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Vuelve a generar el estado expandido o contraído actual de una tabla categorizada mediante datos guardados por una llamada anterior al método [IMAPITable::GetCollapseState.](imapitable-getcollapsestate.md) 
+Vuelve a generar el estado expandido o contraído actual de una tabla categorizada con datos guardados mediante una llamada anterior al método [IMAPITable::GetCollapseState.](imapitable-getcollapsestate.md) 
   
 ```cpp
 HRESULT SetCollapseState(
@@ -36,7 +36,7 @@ BOOKMARK FAR * lpbkLocation
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -44,15 +44,15 @@ BOOKMARK FAR * lpbkLocation
     
  _cbCollapseState_
   
-> [entrada] Número de bytes en la estructura a la que apunta el _parámetro pbCollapseState._ 
+> [in] Recuento de bytes en la estructura a la que apunta el _parámetro pbCollapseState._ 
     
  _pbCollapseState_
   
-> [entrada] Puntero a las estructuras que contienen los datos necesarios para volver a generar la vista de tabla.
+> [in] Puntero a las estructuras que contienen los datos necesarios para volver a generar la vista de tabla.
     
  _lpbkLocation_
   
-> [salida] Puntero a un marcador que identifica la fila de la tabla en la que se debe volver a generar el estado contraído o expandido. Este marcador y la clave de instancia pasados en el parámetro  _lpbInstanceKey_ en la llamada a [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identifican la misma fila. 
+> [salida] Puntero a un marcador que identifica la fila de la tabla en la que se debe volver a generar el estado contraído o expandido. Este marcador y la clave de instancia pasada en el parámetro  _lpbInstanceKey_ en la llamada a [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identifican la misma fila. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,7 +62,7 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que impide que se inicie la operación. La operación en curso debe poder completarse o debe detenerse.
+> Hay otra operación en curso que impide que se inicie la operación. Debe permitirse completar la operación en curso o detenerse.
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
@@ -74,21 +74,21 @@ El **método IMAPITable::SetCollapseState** restablece el estado expandido o con
   
 1. Cuando el estado de una tabla categorizada está a punto de cambiar, se llama a [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) para guardar todos los datos relacionados con el estado anterior al cambio. 
     
-2. Para restaurar la vista de la tabla a su estado guardado, se llama **a SetCollapseState.** Los datos guardados **por GetCollapseState** se pasan **a SetCollapseState**. **SetCollapseState** es capaz de usar estos datos para restaurar el estado. 
+2. Para restaurar la vista de la tabla a su estado guardado, se llama **a SetCollapseState.** Los datos guardados **por GetCollapseState** se pasan a **SetCollapseState**. **SetCollapseState** puede usar los datos para restaurar el estado. 
     
-3. **SetCollapseState devuelve** como parámetro de salida un marcador que identifica la misma fila que la clave de instancia pasada como entrada a **GetCollapseState**.
+3. **SetCollapseState** devuelve como parámetro de salida un marcador que identifica la misma fila que la clave de instancia pasada como entrada a **GetCollapseState**.
     
-Para obtener más información acerca de las tablas categorizadas, vea [Ordenar y categorizar.](sorting-and-categorization.md) 
+Para obtener más información acerca de las tablas categorizadas, vea [Sorting and Categorization](sorting-and-categorization.md). 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Usted es responsable de comprobar que el criterio de ordenación y las restricciones son exactamente iguales que en el momento de la llamada **GetCollapseState.** Si se ha realizado un cambio, no se debe llamar a **SetCollapseState** porque los resultados pueden ser impredecibles. Esto puede suceder si, por ejemplo, un cliente llama a **GetCollapseState** y, a continuación, **a SortTable** para cambiar la clave de ordenación antes de llamar a **SetCollapseState**. Para que sea seguro, compruebe que los datos guardados siguen siendo válidos antes de continuar con la restauración. 
+Es responsable de comprobar que el criterio de ordenación y las restricciones son exactamente los mismos que en el momento de la llamada **a GetCollapseState.** Si se ha realizado un cambio, no se debe llamar a **SetCollapseState** porque los resultados pueden ser impredecibles. Esto puede ocurrir si, por ejemplo, un cliente llama a **GetCollapseState** y, a continuación, **SortTable** para cambiar la clave de ordenación antes de llamar a **SetCollapseState**. Para que sea seguro, compruebe que los datos guardados siguen siendo válidos antes de continuar con la restauración. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Para llamar **a SetCollapseState**, debe haber llamado previamente **a GetCollapseState**. El criterio de ordenación que establece las categorías debe ser el mismo para ambos métodos. Si el criterio de ordenación difiere, los resultados de **la operación SetCollapseState** son impredecibles. 
+Para llamar **a SetCollapseState**, debe haber llamado previamente a **GetCollapseState**. El criterio de ordenación que establece las categorías debe ser el mismo para ambos métodos. Si los pedidos de ordenación difieren, los resultados de la **operación SetCollapseState** son impredecibles. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

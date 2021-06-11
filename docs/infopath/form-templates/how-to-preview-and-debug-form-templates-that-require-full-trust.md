@@ -1,5 +1,5 @@
 ---
-title: Vista previa y depuración de plantillas de formulario que requieren plena confianza
+title: Obtener una vista previa y depurar plantillas de formulario que requieren plena confianza
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411263"
 ---
-# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Vista previa y depuración de plantillas de formulario que requieren plena confianza
+# <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Obtener una vista previa y depurar plantillas de formulario que requieren plena confianza
 
 De manera predeterminada, si intenta depurar u obtener una vista previa de un proyecto de código administrado que tiene código que llama a un miembro del modelo de objetos que requiere plena confianza, como la propiedad **LoginName** que requiere acceso a la información sobre el dominio de inicio de sesión del usuario, Microsoft InfoPath mostrará los mensajes siguientes. 
   
@@ -43,12 +43,12 @@ Para permitir que la lógica empresarial llame a este miembro cuando se está de
     
 5. Seleccione **Plena confianza** y, a continuación, haga clic en **Aceptar**.
     
-Una vez realizado este procedimiento, puede depurar el proyecto tal como se describe en Vista previa y depurar plantillas de formulario de [InfoPath con código.](how-to-preview-and-debug-infopath-form-templates-with-code.md)
+Después de realizar este procedimiento, puede depurar el proyecto tal como se describe en [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).
   
 > [!NOTE]
-> [!NOTA] Para implementar correctamente una plantilla de formulario con código administrado que requiera plena confianza, hay que llevar a cabo unos pasos adicionales, como una firma digital o instalar y registrar la plantilla de formulario. Para obtener información sobre cómo implementar una plantilla de formulario con código administrado después de depurarla, vea Implementar plantillas de formulario de [InfoPath con código.](how-to-deploy-infopath-form-templates-with-code.md) 
+> [!NOTA] Para implementar correctamente una plantilla de formulario con código administrado que requiera plena confianza, hay que llevar a cabo unos pasos adicionales, como una firma digital o instalar y registrar la plantilla de formulario. Para obtener información sobre cómo implementar una plantilla de formulario de código administrado después de depurarla, vea [Deploy InfoPath Form Templates with Code](how-to-deploy-infopath-form-templates-with-code.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

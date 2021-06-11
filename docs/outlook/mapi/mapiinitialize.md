@@ -25,7 +25,7 @@ ms.locfileid: "33411179"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Incrementa el recuento de referencias de subsistema MAPI e inicializa los datos globales para la DLL de MAPI. 
+Incrementa el recuento de referencias de subsistema MAPI e inicializa los datos globales de la DLL MAPI. 
   
 |||
 |:-----|:-----|
@@ -39,11 +39,11 @@ HRESULT MAPIInitialize(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMapiInit_
   
-> [entrada] Puntero a una [MAPIINIT_0](mapiinit_0.md) de datos. El  _parámetro lpMapiInit_ se puede establecer en NULL. 
+> [in] Puntero a una [MAPIINIT_0](mapiinit_0.md) estructura. El  _parámetro lpMapiInit_ se puede establecer en NULL. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -55,30 +55,30 @@ S_OK
 
 La **función MAPIInitialize** incrementa el recuento de referencias MAPI para el subsistema MAPI y la función [MAPIUninitialize](mapiuninitialize.md) disminuye el recuento de referencias internas. Por lo tanto, el número de llamadas a una función debe ser igual al número de llamadas a la otra. **MAPIInitialize** devuelve S_OK si MAPI no se ha inicializado previamente. 
   
-Un cliente o proveedor de servicios debe llamar **a MAPIInitialize antes** de realizar cualquier otra llamada MAPI. Si no lo hace, las llamadas de cliente o proveedor de servicios devolverán el MAPI_E_NOT_INITIALIZED servicio. 
+Un cliente o proveedor de servicios debe llamar **a MAPIInitialize antes** de realizar cualquier otra llamada MAPI. Si no lo hace, las llamadas de cliente o proveedor de servicios devuelven el MAPI_E_NOT_INITIALIZED valor. 
   
-Al llamar **a MAPIInitialize** desde una aplicación multiproceso, establezca el parámetro  _lpMapiInit_ en una estructura [MAPIINIT_0](mapiinit_0.md) que se declare de la siguiente manera: 
+Al llamar a **MAPIInitialize** desde una aplicación multiproceso, establezca el parámetro  _lpMapiInit_ en una [estructura](mapiinit_0.md) MAPIINIT_0 que se declara de la siguiente manera: 
   
  **MAPIINIT_0** MAPIINIT= { 0, MAPI_MULTITHREAD_NOTIFICATIONS} 
   
-y llame a: 
+y llama a: 
   
  **MAPIInitialize** ( &amp; MAPIINIT); 
   
-Cuando se declara esta estructura, MAPI crea un subproceso independiente para controlar la ventana de notificación, que continúa hasta que el recuento de referencias de inicialización cae a cero. Un servicio de Windows debe establecer el **miembro ulflags** de la **MAPIINIT_0** que  _apunta lpMapiInit_ en MAPI_NT_SERVICE. 
+Cuando se declara esta estructura, MAPI crea un subproceso independiente para controlar la ventana de notificación, que continúa hasta que el recuento de referencias de inicialización cae a cero. Un Windows debe establecer el **miembro ulflags** de la **estructura MAPIINIT_0** apuntada por _lpMapiInit_ en MAPI_NT_SERVICE. 
   
 > [!NOTE]
-> No puede llamar a **MAPIInitialize** o **MAPIUninitialize** desde dentro de una función **DllMain** de Win32 o cualquier otra función que cree o finalice subprocesos. Para obtener más información, vea [Utilizar Thread-Safe objetos](using-thread-safe-objects.md). 
+> No se puede llamar a **MAPIInitialize** o **MAPIUninitialize** desde dentro de una función **DllMain** de Win32 o cualquier otra función que cree o termine subprocesos. Para obtener más información, vea [Using Thread-Safe Objects](using-thread-safe-objects.md). 
   
- **MAPIInitialize** no devuelve ninguna información de error extendida. A diferencia de la mayoría de las demás llamadas MAPI, los significados de sus valores devueltos se definen estrictamente para que se correspondan con el paso concreto de la inicialización que ha fallado: 
+ **MAPIInitialize** no devuelve ninguna información de error extendida. A diferencia de la mayoría de las demás llamadas MAPI, los significados de sus valores devueltos están estrictamente definidos para corresponder al paso concreto de la inicialización que ha fallado: 
   
 1. Comprueba los parámetros y las marcas.
     
     MAPI_E_INVALID_PARAMETER o MAPI_E_UNKNOWN_FLAGS. El autor de la llamada ha pasado un parámetro o una marca no válidos.
     
-2. Inicializa las claves del Registro requeridas por MAPI y confirma el tipo de sistema operativo. Este paso solo se produce si el proceso de cliente se ejecuta como un servicio en Windows y establece la marca MAPI_NT SERVICE en la **MAPIINIT_0** de servicio. 
+2. Inicializa las claves del Registro necesarias para MAPI y confirma el tipo de sistema operativo. Este paso solo se produce si el proceso de cliente se ejecuta como un servicio en Windows y establece el MAPI_NT service en la **MAPIINIT_0** estructura. 
     
-    MAPI_E_TOO_COMPLEX. El proceso de llamada es un servicio de Windows y no se pudieron inicializar las claves del Registro requeridas por MAPI. 
+    MAPI_E_TOO_COMPLEX. El proceso de llamada es un Windows y las claves del Registro requeridas por MAPI no se pudieron inicializar. 
     
     Es posible que haya información adicional disponible en el registro de eventos de la aplicación.
     
@@ -90,7 +90,7 @@ Cuando se declara esta estructura, MAPI crea un subproceso independiente para co
     
 2. Inicializa OLE. 
     
-    Solo durante este paso, esta función puede devolver un código de error que no se muestra aquí. Se debe  _suponer que_ cualquier error que no aparezca aquí procede de la función OLE **CoInitialize**.
+    Solo durante este paso, esta función puede devolver un código de error que no aparece aquí. Cualquier error  _que_ no aparezca aquí debe asumirse que procede de la función OLE **CoInitialize**.
     
 4. Inicializa variables globales por proceso.
     
@@ -100,9 +100,9 @@ Cuando se declara esta estructura, MAPI crea un subproceso independiente para co
     
     MAPI_E_NOT_ENOUGH_RESOURCES. No había suficientes recursos del sistema disponibles para completar la operación.
     
-6. Inicializa el motor de notificación, crea su ventana y su subproceso si lo solicita la marca MAPI_MULTITHREAD_NOTIFICATIONS usuario. 
+6. Inicializa el motor de notificaciones, crea su ventana y su subproceso si la marca MAPI_MULTITHREAD_NOTIFICATIONS. 
     
-    MAPI_E_INVALID_OBJECT. Puede producirse un error si los recursos del sistema se agotan. 
+    MAPI_E_INVALID_OBJECT. Puede producirse un error si se agotan los recursos del sistema. 
     
 7. Carga e inicializa el proveedor de perfiles. Comprueba que **MAPIInitialize** puede tener acceso a la clave del Registro donde se almacenan los datos de perfil. 
     
@@ -116,7 +116,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> ||MFCMAPI usa el **método MAPIInitialize** para inicializar MAPI en un subproceso en segundo plano para realizar algún procesamiento de tabla.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

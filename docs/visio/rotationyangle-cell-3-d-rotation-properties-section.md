@@ -1,12 +1,12 @@
 ---
-title: Celda RotationYAngle (Sección de propiedades de rotación 3D)
+title: Celda RotationYAngle (sección Propiedades de rotación 3D)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 642d5931-aba3-443d-8c11-d12aa8e56d05
-description: Determina el ángulo de rotación a lo largo del eje Y, en grados (0,0 - 359,9).
+description: Determina el ángulo de giro a lo largo del eje Y, en grados (0,0 - 359,9).
 ms.openlocfilehash: a0ec330ded88aace6c8e4ab658fceca79eb94570
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411109"
 ---
-# <a name="rotationyangle-cell-3-d-rotation-properties-section"></a>Celda RotationYAngle (Sección de propiedades de rotación 3D)
+# <a name="rotationyangle-cell-3-d-rotation-properties-section"></a>Celda RotationYAngle (sección Propiedades de rotación 3D)
 
-Determina el ángulo de rotación a lo largo del eje Y, en grados (0,0 - 359,9).
+Determina el ángulo de giro a lo largo del eje Y, en grados (0,0 - 359,9).
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la **celda RotationYAngle** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a **la celda RotationYAngle** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|

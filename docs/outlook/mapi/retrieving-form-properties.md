@@ -29,9 +29,9 @@ hr = pfrmmgr->ResolveMessageClass("IPM.Demo", 0L, NULL, &amp;pfrminf);
 
 ```
 
-Tenga en cuenta que el tercer argumento de **ResolveMessageClass** es la carpeta que contiene la tabla de contenido asociada en la que la consulta buscará servidores de formulario. NULL indica que el administrador de formularios debe buscar en todos los contenedores de formulario disponibles. Si la consulta se va a ejecutar en una carpeta determinada, es mejor incluir el puntero [IMAPIFolder](imapifolderimapicontainer.md) adecuado en su lugar. 
+Tenga en cuenta que el tercer argumento de **ResolveMessageClass** es la carpeta que contiene la tabla de contenido asociada que la consulta buscará en servidores de formulario. NULL indica que el administrador de formularios debe buscar en todos los contenedores de formulario disponibles. Si la consulta se va a ejecutar en una carpeta determinada, es mejor incluir el puntero [IMAPIFolder](imapifolderimapicontainer.md) adecuado en su lugar. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

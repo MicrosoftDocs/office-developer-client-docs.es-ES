@@ -42,23 +42,23 @@ SCODE ScCopyProps(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cprop_
   
-> [entrada] Número de propiedades que se van a copiar. 
+> [in] Recuento de propiedades que se van a copiar. 
     
  _rgprop_
   
-> [entrada] Puntero a una matriz de [estructuras SPropValue](spropvalue.md) que definen las propiedades que se van a copiar. El  _parámetro rgprop_ no tiene que apuntar al principio de la matriz, pero debe apuntar al principio de una de las estructuras **SPropValue** de la matriz. 
+> [in] Puntero a una matriz de [estructuras SPropValue](spropvalue.md) que definen las propiedades que se van a copiar. El  _parámetro rgprop_ no tiene que apuntar al principio de la matriz, pero debe apuntar al principio de una de las estructuras **SPropValue** de la matriz. 
     
  _pvDst_
   
-> [entrada] Puntero a la posición inicial en la memoria en la que esta función copia las propiedades. 
+> [in] Puntero a la posición inicial en la memoria a la que esta función copia las propiedades. 
     
- _indeste_
+ _pcb_
   
-> [salida] Puntero opcional al tamaño, en bytes, del bloque de memoria al que apunta el _parámetro pvDst._ 
+> [salida] Puntero opcional al tamaño, en bytes, del bloque de memoria señalado por el _parámetro pvDst._ 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -72,13 +72,13 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Comentarios
 
-La nueva matriz y sus datos residen en un búfer creado con una única asignación, y la función [ScRelocProps](screlocprops.md) se puede usar para ajustar los punteros en las estructuras [SPropValue](spropvalue.md) individuales. Antes de este ajuste, los punteros son válidos. 
+La nueva matriz y sus datos residen en un búfer creado con una sola asignación y la función [ScRelocProps](screlocprops.md) se puede usar para ajustar los punteros de las estructuras [SPropValue](spropvalue.md) individuales. Antes de este ajuste, los punteros son válidos. 
   
  **ScCopyProps** mantiene el orden de propiedad original de la matriz de propiedades copiada. 
   
-El _parámetro pbc_ es opcional; si no es NULL, se establece en el número de bytes almacenados en el _parámetro pvDst._ 
+El _parámetro pcb_ es opcional; si no es NULL, se establece en el número de bytes almacenados en el _parámetro pvDst._ 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

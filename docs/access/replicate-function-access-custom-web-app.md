@@ -30,6 +30,6 @@ La **función Replicate** contiene los argumentos siguientes.
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Expresión de texto.  <br/> |
-| *NumberOfTimes*  <br/> |Número entero que especifica el número de veces que se debe repetir  *la expresión de texto*  .  <br/> |
+| *NumberOfTimes*  <br/> |Entero que especifica el número de veces que se debe repetir  *textexpression*  .  <br/> |
    
 

@@ -26,7 +26,7 @@ ms.locfileid: "33415883"
     
 - [Función Format (aplicación web personalizada de Access)](format-function-access-custom-web-app.md)
     
-- [Función Parse (aplicación web personalizada de Access)](parse-function-access-custom-web-app.md)
+- [Función De análisis (aplicación web personalizada de Access)](parse-function-access-custom-web-app.md)
     
 - [Función TimeFromParts (aplicación web personalizada de Access)](timefromparts-functionaccess-custom-web-app.md)
     

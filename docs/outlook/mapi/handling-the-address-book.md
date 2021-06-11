@@ -29,23 +29,23 @@ Controlar la libreta de direcciones MAPI puede incluir la extracci�n de entrad
     
 - [Configuración de opciones de libreta](setting-address-book-options.md)de direcciones: describe cómo establecer las propiedades que describen las opciones para usar la libreta de direcciones.
     
-- [Crear un destinatario:](creating-a-recipient.md)describe cómo crear destinatarios al direccionamiento de mensajes y agregar entradas a contenedores modificables de la libreta de direcciones.
+- [Creación de un destinatario:](creating-a-recipient.md)describe cómo crear destinatarios al dirigir mensajes y agregar entradas a contenedores modificables de libreta de direcciones.
     
-- [Creación de una lista de](creating-a-distribution-list.md)distribución: describe cómo crear una lista de distribución en un contenedor modificable.
+- [Creación de una lista de distribución:](creating-a-distribution-list.md)describe cómo crear una lista de distribución en un contenedor modificable.
     
 - [Copiar un destinatario:](copying-a-recipient.md)describe cómo copiar destinatarios de un contenedor en otro o en el mismo contenedor.
     
-- [Eliminar un destinatario:](deleting-a-recipient.md)describe cómo quitar una o más entradas de la libreta de direcciones de un contenedor modificable.
+- [Eliminar un destinatario:](deleting-a-recipient.md)describe cómo quitar una o más entradas de libreta de direcciones de un contenedor modificable.
     
 - [Preparar un](preparing-a-recipient.md)destinatario: describe cómo preparar a los destinatarios convirtiendo sus identificadores de entrada a corto plazo en identificadores de entrada a largo plazo y, posiblemente, agregando, cambiando o reordenando propiedades.
     
 - [Acceso a los miembros de una lista de distribución:](accessing-the-members-of-a-distribution-list.md)describe cómo obtener acceso a los miembros de una lista de distribución.
     
-- [Recuperación de propiedades de destinatario:](retrieving-recipient-properties.md)describe cómo obtener acceso a una o varias propiedades de una entrada de la libreta de direcciones del destinatario.
+- [Recuperación de propiedades de destinatario:](retrieving-recipient-properties.md)describe cómo obtener acceso a una o más propiedades de una entrada de libreta de direcciones de destinatarios.
     
-- [Buscar en la Libreta de direcciones:](searching-the-address-book.md)describe los dos niveles de la funcionalidad de búsqueda MAPI. 
+- [Buscar en la libreta de direcciones:](searching-the-address-book.md)describe los dos niveles de funcionalidad de búsqueda MAPI. 
     
-- [Uso de un cuadro de diálogo de búsqueda](using-an-advanced-search-dialog-box.md)avanzada: describe cómo ejecutar una funcionalidad de búsqueda avanzada en un contenedor de libreta de direcciones.
+- [Uso de un cuadro de diálogo Búsqueda avanzada:](using-an-advanced-search-dialog-box.md)describe cómo ejecutar una funcionalidad de búsqueda avanzada en un contenedor de libreta de direcciones.
     
 - [Resolución de un nombre de destinatario:](resolving-a-recipient-name.md)describe cómo resolver un nombre en una libreta de direcciones.
     

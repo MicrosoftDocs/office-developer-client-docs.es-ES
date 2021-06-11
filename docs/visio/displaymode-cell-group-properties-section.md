@@ -20,15 +20,15 @@ ms.locfileid: "33413188"
 
 Determina cómo se muestran la forma de grupo y sus miembros.
   
-|**Valor**|**Modo de presentación**|**Constante de automatización**|
+|**Valor**|**Modo de visualización**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Oculta la forma de grupo y el texto.  <br/> |**visGrpDispModeNone** <br/> |
-|1   <br/> |Muestra la forma de grupo detrás de las formas pertenecientes.  <br/> |**visGrpDispModeBack** <br/> |
-|2   <br/> |Muestra la forma de grupo delante de las formas pertenecientes.  <br/> |**visGrpDispModeFront** <br/> |
+|1  <br/> |Muestra la forma de grupo detrás de las formas pertenecientes.  <br/> |**visGrpDispModeBack** <br/> |
+|2  <br/> |Muestra la forma de grupo delante de las formas pertenecientes.  <br/> |**visGrpDispModeFront** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer este valor seleccionando  el grupo, haciendo clic [](run-in-developer-mode-display-the-developer-tab.md) en Comportamiento en el grupo Diseño de formas de la ficha Programador y, a continuación, seleccionando un modo de presentación en la lista de datos **de** grupo.  
+También puede establecer este valor seleccionando  el grupo, haciendo clic [](run-in-developer-mode-display-the-developer-tab.md) en Comportamiento en el grupo **Diseño** de formas de la ficha Programador y, a continuación, seleccionando un modo de presentación en la lista Datos **de** grupo. 
   
 Para obtener una referencia a la celda DisplayMode por su nombre desde otra fórmula, o desde un programa mediante la propiedad
  **CellsU**, use: 
