@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431704"
 ---
-# <a name="iolkerrorunknowngetlasterror"></a><span data-ttu-id="1238a-103">IOlkErrorUnknown::GetLastError</span><span class="sxs-lookup"><span data-stu-id="1238a-103">IOlkErrorUnknown::GetLastError</span></span>
+# <a name="iolkerrorunknowngetlasterror"></a><span data-ttu-id="3ae99-103">IOlkErrorUnknown::GetLastError</span><span class="sxs-lookup"><span data-stu-id="3ae99-103">IOlkErrorUnknown::GetLastError</span></span>
 
-<span data-ttu-id="1238a-104">Obtiene una cadena de mensaje para el error especificado.</span><span class="sxs-lookup"><span data-stu-id="1238a-104">Gets a message string for the specified error.</span></span> 
+<span data-ttu-id="3ae99-104">Obtiene una cadena de mensaje para el error especificado.</span><span class="sxs-lookup"><span data-stu-id="3ae99-104">Gets a message string for the specified error.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="1238a-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="1238a-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="3ae99-105">Información rápida</span><span class="sxs-lookup"><span data-stu-id="3ae99-105">Quick info</span></span>
 
-<span data-ttu-id="1238a-106">Vea [IOlkErrorUnknown](iolkerrorunknown.md).</span><span class="sxs-lookup"><span data-stu-id="1238a-106">See [IOlkErrorUnknown](iolkerrorunknown.md).</span></span>
+<span data-ttu-id="3ae99-106">Vea [IOlkErrorUnknown](iolkerrorunknown.md).</span><span class="sxs-lookup"><span data-stu-id="3ae99-106">See [IOlkErrorUnknown](iolkerrorunknown.md).</span></span>
   
 ```cpp
 HRESULT IOlkErrorUnknown::GetLastError(  
@@ -30,24 +30,24 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1238a-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="1238a-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3ae99-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="3ae99-107">Parameters</span></span>
 
-<span data-ttu-id="1238a-108">_hr_</span><span class="sxs-lookup"><span data-stu-id="1238a-108">_hr_</span></span>
+<span data-ttu-id="3ae99-108">_hr_</span><span class="sxs-lookup"><span data-stu-id="3ae99-108">_hr_</span></span>
   
-> <span data-ttu-id="1238a-109">[entrada] Código de error que se debe buscar.</span><span class="sxs-lookup"><span data-stu-id="1238a-109">[in] The error code to look up.</span></span>
+> <span data-ttu-id="3ae99-109">[in] Código de error para buscar.</span><span class="sxs-lookup"><span data-stu-id="3ae99-109">[in] The error code to look up.</span></span>
     
-<span data-ttu-id="1238a-110">_ppwszError_</span><span class="sxs-lookup"><span data-stu-id="1238a-110">_ppwszError_</span></span>
+<span data-ttu-id="3ae99-110">_ppwszError_</span><span class="sxs-lookup"><span data-stu-id="3ae99-110">_ppwszError_</span></span>
   
-> <span data-ttu-id="1238a-111">[salida] El mensaje de error que corresponde a  *hr*  .</span><span class="sxs-lookup"><span data-stu-id="1238a-111">[out] The error message that corresponds to  *hr*  .</span></span> 
+> <span data-ttu-id="3ae99-111">[salida] Mensaje de error que corresponde a  *hr*  .</span><span class="sxs-lookup"><span data-stu-id="3ae99-111">[out] The error message that corresponds to  *hr*  .</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="1238a-112">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="1238a-112">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="3ae99-112">Valores devueltos</span><span class="sxs-lookup"><span data-stu-id="3ae99-112">Return values</span></span>
 
-|<span data-ttu-id="1238a-113">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="1238a-113">**HRESULT**</span></span>|<span data-ttu-id="1238a-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="1238a-114">**Description**</span></span>|
+|<span data-ttu-id="3ae99-113">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="3ae99-113">**HRESULT**</span></span>|<span data-ttu-id="3ae99-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="3ae99-114">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="1238a-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="1238a-115">S_OK</span></span>  <br/> |<span data-ttu-id="1238a-116">La llamada ha sido correcta.</span><span class="sxs-lookup"><span data-stu-id="1238a-116">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="1238a-117">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="1238a-117">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="1238a-118">Uno o más argumentos no son válidos.</span><span class="sxs-lookup"><span data-stu-id="1238a-118">One or more arguments are invalid.</span></span>  <br/> |
+|<span data-ttu-id="3ae99-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="3ae99-115">S_OK</span></span>  <br/> |<span data-ttu-id="3ae99-116">La llamada ha sido correcta.</span><span class="sxs-lookup"><span data-stu-id="3ae99-116">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="3ae99-117">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="3ae99-117">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="3ae99-118">Uno o más argumentos no son válidos.</span><span class="sxs-lookup"><span data-stu-id="3ae99-118">One or more arguments are invalid.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="1238a-119">Consulte también</span><span class="sxs-lookup"><span data-stu-id="1238a-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3ae99-119">Vea también</span><span class="sxs-lookup"><span data-stu-id="3ae99-119">See also</span></span>
 
-- [<span data-ttu-id="1238a-120">Constantes (API de administración de cuenta)</span><span class="sxs-lookup"><span data-stu-id="1238a-120">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="3ae99-120">Constantes (API de administración de cuenta)</span><span class="sxs-lookup"><span data-stu-id="3ae99-120">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

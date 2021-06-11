@@ -15,22 +15,22 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432691"
 ---
-# <a name="creating-a-profile"></a><span data-ttu-id="97f6e-103">Creación de un perfil</span><span class="sxs-lookup"><span data-stu-id="97f6e-103">Creating a Profile</span></span>
+# <a name="creating-a-profile"></a><span data-ttu-id="c70df-103">Creación de un perfil</span><span class="sxs-lookup"><span data-stu-id="c70df-103">Creating a Profile</span></span>
 
   
   
-<span data-ttu-id="97f6e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="97f6e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c70df-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c70df-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="97f6e-105">Un cliente puede crear un perfil de una de estas dos maneras, mediante el Asistente para perfiles o escribiendo código personalizado.</span><span class="sxs-lookup"><span data-stu-id="97f6e-105">A client can create a profile in one of two ways, by using the Profile Wizard, or by writing custom code.</span></span>
+<span data-ttu-id="c70df-105">Un cliente puede crear un perfil de dos maneras, mediante el Asistente para perfiles o escribiendo código personalizado.</span><span class="sxs-lookup"><span data-stu-id="c70df-105">A client can create a profile in one of two ways, by using the Profile Wizard, or by writing custom code.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="97f6e-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="97f6e-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c70df-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c70df-106">In this section</span></span>
 
-[<span data-ttu-id="97f6e-107">Creación de un perfil mediante el Asistente para perfiles</span><span class="sxs-lookup"><span data-stu-id="97f6e-107">Creating a Profile by Using the Profile Wizard</span></span>](creating-a-profile-by-using-the-profile-wizard.md)
+[<span data-ttu-id="c70df-107">Crear un perfil mediante el Asistente para perfiles</span><span class="sxs-lookup"><span data-stu-id="c70df-107">Creating a Profile by Using the Profile Wizard</span></span>](creating-a-profile-by-using-the-profile-wizard.md)
   
-> <span data-ttu-id="97f6e-108">Describe cómo invocar el Asistente para perfiles, una aplicación que crea un perfil al permitir al usuario elegir servicios de mensajes y proveedores de servicios de forma interactiva.</span><span class="sxs-lookup"><span data-stu-id="97f6e-108">Describes how to invoke the Profile Wizard, an application that creates a profile by enabling the user to choose message services and service providers interactively.</span></span>
+> <span data-ttu-id="c70df-108">Describe cómo invocar el Asistente para perfiles, una aplicación que crea un perfil al permitir al usuario elegir servicios de mensajes y proveedores de servicios de forma interactiva.</span><span class="sxs-lookup"><span data-stu-id="c70df-108">Describes how to invoke the Profile Wizard, an application that creates a profile by enabling the user to choose message services and service providers interactively.</span></span>
     
-[<span data-ttu-id="97f6e-109">Creación de un perfil mediante código personalizado</span><span class="sxs-lookup"><span data-stu-id="97f6e-109">Creating a Profile by Using Custom Code</span></span>](creating-a-profile-by-using-custom-code.md)
+[<span data-ttu-id="c70df-109">Creación de un perfil mediante código personalizado</span><span class="sxs-lookup"><span data-stu-id="c70df-109">Creating a Profile by Using Custom Code</span></span>](creating-a-profile-by-using-custom-code.md)
   
-> <span data-ttu-id="97f6e-110">Describe cómo escribir código C o C++, a menudo la mejor opción para aplicaciones cliente no inactivas que requieren un conjunto específico de servicios de mensajes.</span><span class="sxs-lookup"><span data-stu-id="97f6e-110">Describes how to write C or C++ code, often the best choice for noninteractive client applications which require a specific set of message services.</span></span>
+> <span data-ttu-id="c70df-110">Describe cómo escribir código C o C++, a menudo la mejor opción para aplicaciones cliente no inactivas que requieren un conjunto específico de servicios de mensajes.</span><span class="sxs-lookup"><span data-stu-id="c70df-110">Describes how to write C or C++ code, often the best choice for noninteractive client applications which require a specific set of message services.</span></span>
     
 

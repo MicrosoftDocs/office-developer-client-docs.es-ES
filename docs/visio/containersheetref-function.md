@@ -14,42 +14,42 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437269"
 ---
-# <a name="containersheetref-function"></a><span data-ttu-id="57eb3-103">Función CONTAINERSHEETREF</span><span class="sxs-lookup"><span data-stu-id="57eb3-103">CONTAINERSHEETREF Function</span></span>
+# <a name="containersheetref-function"></a><span data-ttu-id="e2eec-103">Función CONTAINERSHEETREF</span><span class="sxs-lookup"><span data-stu-id="e2eec-103">CONTAINERSHEETREF Function</span></span>
 
-<span data-ttu-id="57eb3-104">Devuelve una hoja de referencia al contenedor especificado que contiene la forma.</span><span class="sxs-lookup"><span data-stu-id="57eb3-104">Returns a sheet reference to the specified container that contains the shape.</span></span>
+<span data-ttu-id="e2eec-104">Devuelve una hoja de referencia al contenedor especificado que contiene la forma.</span><span class="sxs-lookup"><span data-stu-id="e2eec-104">Returns a sheet reference to the specified container that contains the shape.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="57eb3-105">Información de versión</span><span class="sxs-lookup"><span data-stu-id="57eb3-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="e2eec-105">Información de versión</span><span class="sxs-lookup"><span data-stu-id="e2eec-105">Version Information</span></span>
 
-<span data-ttu-id="57eb3-106">Versión añadida: Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="57eb3-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="e2eec-106">Versión añadida: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="e2eec-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="57eb3-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="57eb3-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e2eec-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e2eec-107">Syntax</span></span>
 
-<span data-ttu-id="57eb3-108">CONTAINERSHEETREF(\*\* *index* \*\* \*\*\* [, category]\* \*\* )</span><span class="sxs-lookup"><span data-stu-id="57eb3-108">CONTAINERSHEETREF(\*\* *index* \*\* \*\* *[, category]* \*\* )</span></span> 
+<span data-ttu-id="e2eec-108">CONTAINERSHEETREF(\*\* *index* \*\* \*\* *[, category]* \*\* )</span><span class="sxs-lookup"><span data-stu-id="e2eec-108">CONTAINERSHEETREF(\*\* *index* \*\* \*\* *[, category]* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="57eb3-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="57eb3-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="e2eec-109">Parámetros</span><span class="sxs-lookup"><span data-stu-id="e2eec-109">Parameters</span></span>
 
-|<span data-ttu-id="57eb3-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="57eb3-110">**Name**</span></span>|<span data-ttu-id="57eb3-111">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="57eb3-111">**Required/Optional**</span></span>|<span data-ttu-id="57eb3-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="57eb3-112">**Data Type**</span></span>|<span data-ttu-id="57eb3-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="57eb3-113">**Description**</span></span>|
+|<span data-ttu-id="e2eec-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="e2eec-110">**Name**</span></span>|<span data-ttu-id="e2eec-111">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="e2eec-111">**Required/Optional**</span></span>|<span data-ttu-id="e2eec-112">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="e2eec-112">**Data Type**</span></span>|<span data-ttu-id="e2eec-113">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e2eec-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="57eb3-114">_index_</span><span class="sxs-lookup"><span data-stu-id="57eb3-114">_index_</span></span> <br/> |<span data-ttu-id="57eb3-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="57eb3-115">Required</span></span>  <br/> |<span data-ttu-id="57eb3-116">**Integer**</span><span class="sxs-lookup"><span data-stu-id="57eb3-116">**Integer**</span></span> <br/> |<span data-ttu-id="57eb3-117">Índice basado en 1 del contenedor.</span><span class="sxs-lookup"><span data-stu-id="57eb3-117">The 1-based index of the container.</span></span> <span data-ttu-id="57eb3-118">Para obtener más información, vea los comentarios.</span><span class="sxs-lookup"><span data-stu-id="57eb3-118">See Remarks for more information.</span></span>  <br/> |
-| <span data-ttu-id="57eb3-119">_category_</span><span class="sxs-lookup"><span data-stu-id="57eb3-119">_category_</span></span> <br/> |<span data-ttu-id="57eb3-120">Opcional</span><span class="sxs-lookup"><span data-stu-id="57eb3-120">Optional</span></span>  <br/> |<span data-ttu-id="57eb3-121">**String**</span><span class="sxs-lookup"><span data-stu-id="57eb3-121">**String**</span></span> <br/> |<span data-ttu-id="57eb3-122">Categoría del contenedor.</span><span class="sxs-lookup"><span data-stu-id="57eb3-122">The category of the container.</span></span> <span data-ttu-id="57eb3-123">Para obtener más información, vea los comentarios.</span><span class="sxs-lookup"><span data-stu-id="57eb3-123">See Remarks for more information.</span></span>  <br/> |
+| <span data-ttu-id="e2eec-114">_index_</span><span class="sxs-lookup"><span data-stu-id="e2eec-114">_index_</span></span> <br/> |<span data-ttu-id="e2eec-115">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="e2eec-115">Required</span></span>  <br/> |<span data-ttu-id="e2eec-116">**Integer**</span><span class="sxs-lookup"><span data-stu-id="e2eec-116">**Integer**</span></span> <br/> |<span data-ttu-id="e2eec-p101">Índice basado en 1 del contenedor. Para obtener más información, vea los comentarios.</span><span class="sxs-lookup"><span data-stu-id="e2eec-p101">The 1-based index of the container. See Remarks for more information.</span></span>  <br/> |
+| <span data-ttu-id="e2eec-119">_categoría_</span><span class="sxs-lookup"><span data-stu-id="e2eec-119">_category_</span></span> <br/> |<span data-ttu-id="e2eec-120">Opcional</span><span class="sxs-lookup"><span data-stu-id="e2eec-120">Optional</span></span>  <br/> |<span data-ttu-id="e2eec-121">**String**</span><span class="sxs-lookup"><span data-stu-id="e2eec-121">**String**</span></span> <br/> |<span data-ttu-id="e2eec-p102">Categoría del contenedor. Para obtener más información, vea los comentarios.</span><span class="sxs-lookup"><span data-stu-id="e2eec-p102">The category of the container. See Remarks for more information.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="57eb3-124">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="57eb3-124">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="e2eec-124">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="e2eec-124">Return value</span></span>
 
-<span data-ttu-id="57eb3-125">Referencia de ShapeSheet</span><span class="sxs-lookup"><span data-stu-id="57eb3-125">ShapeSheet reference</span></span>
+<span data-ttu-id="e2eec-125">Referencia de ShapeSheet</span><span class="sxs-lookup"><span data-stu-id="e2eec-125">ShapeSheet reference</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="57eb3-126">Comentarios</span><span class="sxs-lookup"><span data-stu-id="57eb3-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e2eec-126">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e2eec-126">Remarks</span></span>
 
-<span data-ttu-id="57eb3-127">El índice de un contenedor se calcula a partir del orden Z de los contenedores, de delante hacia atrás.</span><span class="sxs-lookup"><span data-stu-id="57eb3-127">The index of a container is calculated based on the z-order of containers from front to back.</span></span>
+<span data-ttu-id="e2eec-127">El índice de un contenedor se calcula a partir del orden Z de los contenedores, de delante hacia atrás.</span><span class="sxs-lookup"><span data-stu-id="e2eec-127">The index of a container is calculated based on the z-order of containers from front to back.</span></span>
   
- <span data-ttu-id="57eb3-128">*Las*  categorías son cadenas definidas por el usuario que puede usar para clasificar las formas.</span><span class="sxs-lookup"><span data-stu-id="57eb3-128">*Categories*  are user-defined strings that you can use to categorize shapes.</span></span> <span data-ttu-id="57eb3-129">Las categorías se pueden definir en la celda User.msvShapeCategories, en la ShapeSheet de una forma.</span><span class="sxs-lookup"><span data-stu-id="57eb3-129">You can define categories in the User.msvShapeCategories cell in the ShapeSheet for a shape.</span></span> <span data-ttu-id="57eb3-130">Puede definir varias categorías para una forma si las separa con punto y coma.</span><span class="sxs-lookup"><span data-stu-id="57eb3-130">You can define multiple categories for a shape by separating the categories with semi-colons.</span></span> 
+ <span data-ttu-id="e2eec-128">*Las*  categorías son cadenas definidas por el usuario que puede usar para clasificar las formas.</span><span class="sxs-lookup"><span data-stu-id="e2eec-128">*Categories*  are user-defined strings that you can use to categorize shapes.</span></span> <span data-ttu-id="e2eec-129">Las categorías se pueden definir en la celda User.msvShapeCategories, en la ShapeSheet de una forma.</span><span class="sxs-lookup"><span data-stu-id="e2eec-129">You can define categories in the User.msvShapeCategories cell in the ShapeSheet for a shape.</span></span> <span data-ttu-id="e2eec-130">Puede definir varias categorías para una forma si las separa con punto y coma.</span><span class="sxs-lookup"><span data-stu-id="e2eec-130">You can define multiple categories for a shape by separating the categories with semi-colons.</span></span> 
   
-<span data-ttu-id="57eb3-131">Si la forma no es miembro de un contenedor o si no hay un contenedor que concuerde tanto con la categoría como con el número de índice especificados, CONTAINERSHEETREF devuelve #REF!.</span><span class="sxs-lookup"><span data-stu-id="57eb3-131">If the shape is not a member of a container, or if there is no container that matches both the specified index number and the category, CONTAINERSHEETREF returns #REF!.</span></span>
+<span data-ttu-id="e2eec-131">Si la forma no es miembro de un contenedor o si no hay un contenedor que concuerde tanto con la categoría como con el número de índice especificados, CONTAINERSHEETREF devuelve #REF!.</span><span class="sxs-lookup"><span data-stu-id="e2eec-131">If the shape is not a member of a container, or if there is no container that matches both the specified index number and the category, CONTAINERSHEETREF returns #REF!.</span></span>
   
-## <a name="example"></a><span data-ttu-id="57eb3-132">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="57eb3-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e2eec-132">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e2eec-132">Example</span></span>
 
-<span data-ttu-id="57eb3-133">CONTAINERSHEETREF(1)! Height</span><span class="sxs-lookup"><span data-stu-id="57eb3-133">CONTAINERSHEETREF(1)!Height</span></span> 
+<span data-ttu-id="e2eec-133">CONTAINERSHEETREF(1)! Alto</span><span class="sxs-lookup"><span data-stu-id="e2eec-133">CONTAINERSHEETREF(1)!Height</span></span> 
   
-<span data-ttu-id="57eb3-134">Devuelve el valor de la celda Height del contenedor que se encuentra más hacia delante en la página a la que pertenece la forma.</span><span class="sxs-lookup"><span data-stu-id="57eb3-134">Returns the value in the Height cell of the container that is most forward on the page to which the shape belongs.</span></span> 
+<span data-ttu-id="e2eec-134">Devuelve el valor de la celda Height del contenedor que se encuentra más hacia delante en la página a la que pertenece la forma.</span><span class="sxs-lookup"><span data-stu-id="e2eec-134">Returns the value in the Height cell of the container that is most forward on the page to which the shape belongs.</span></span> 
   
 

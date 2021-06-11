@@ -16,29 +16,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435883"
 ---
-# <a name="noalignbox-cell-miscellaneous-section"></a><span data-ttu-id="cc4d4-103">Celda NoAlignBox (sección de varios)</span><span class="sxs-lookup"><span data-stu-id="cc4d4-103">NoAlignBox Cell (Miscellaneous Section)</span></span>
+# <a name="noalignbox-cell-miscellaneous-section"></a><span data-ttu-id="373ea-103">Celda NoAlignBox (sección de varios)</span><span class="sxs-lookup"><span data-stu-id="373ea-103">NoAlignBox Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="cc4d4-104">Habilita y deshabilita la presentación del rectángulo de selección para la forma seleccionada.</span><span class="sxs-lookup"><span data-stu-id="cc4d4-104">Switches the display of the selection rectangle on and off for the selected shape.</span></span>
+<span data-ttu-id="373ea-104">Habilita y deshabilita la presentación del rectángulo de selección para la forma seleccionada.</span><span class="sxs-lookup"><span data-stu-id="373ea-104">Switches the display of the selection rectangle on and off for the selected shape.</span></span>
   
-|<span data-ttu-id="cc4d4-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="cc4d4-105">**Value**</span></span>|<span data-ttu-id="cc4d4-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="cc4d4-106">**Description**</span></span>|
+|<span data-ttu-id="373ea-105">**Valor**</span><span class="sxs-lookup"><span data-stu-id="373ea-105">**Value**</span></span>|<span data-ttu-id="373ea-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="373ea-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="cc4d4-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="cc4d4-107">TRUE</span></span>  <br/> | <span data-ttu-id="cc4d4-108">El rectángulo de selección no se muestra cuando se selecciona la forma.</span><span class="sxs-lookup"><span data-stu-id="cc4d4-108">Selection rectangle is not displayed when the shape is selected.</span></span>  <br/> |
-| <span data-ttu-id="cc4d4-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="cc4d4-109">FALSE</span></span>  <br/> | <span data-ttu-id="cc4d4-110">El rectángulo de selección no se muestra cuando se selecciona la forma.</span><span class="sxs-lookup"><span data-stu-id="cc4d4-110">Selection rectangle is displayed when the shape is selected.</span></span>  <br/> |
+| <span data-ttu-id="373ea-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="373ea-107">TRUE</span></span>  <br/> | <span data-ttu-id="373ea-108">El rectángulo de selección no se muestra cuando se selecciona la forma.</span><span class="sxs-lookup"><span data-stu-id="373ea-108">Selection rectangle is not displayed when the shape is selected.</span></span>  <br/> |
+| <span data-ttu-id="373ea-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="373ea-109">FALSE</span></span>  <br/> | <span data-ttu-id="373ea-110">El rectángulo de selección no se muestra cuando se selecciona la forma.</span><span class="sxs-lookup"><span data-stu-id="373ea-110">Selection rectangle is displayed when the shape is selected.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="cc4d4-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="cc4d4-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="373ea-111">Comentarios</span><span class="sxs-lookup"><span data-stu-id="373ea-111">Remarks</span></span>
 
-<span data-ttu-id="cc4d4-112">Para obtener una referencia a la celda NoAlignBox por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="cc4d4-112">To get a reference to the NoAlignBox cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="373ea-112">Para obtener una referencia a la celda NoAlignBox por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="373ea-112">To get a reference to the NoAlignBox cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="cc4d4-113">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="cc4d4-113">Cell name:</span></span>  <br/> | <span data-ttu-id="cc4d4-114">NoAlignBox</span><span class="sxs-lookup"><span data-stu-id="cc4d4-114">NoAlignBox</span></span>  <br/> |
+| <span data-ttu-id="373ea-113">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="373ea-113">Cell name:</span></span>  <br/> | <span data-ttu-id="373ea-114">NoAlignBox</span><span class="sxs-lookup"><span data-stu-id="373ea-114">NoAlignBox</span></span>  <br/> |
    
-<span data-ttu-id="cc4d4-115">Para obtener una referencia a la celda NoAlignBox por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="cc4d4-115">To get a reference to the NoAlignBox cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="373ea-115">Para obtener una referencia a la celda NoAlignBox por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="373ea-115">To get a reference to the NoAlignBox cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="cc4d4-116">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="cc4d4-116">Section index:</span></span>  <br/> |<span data-ttu-id="cc4d4-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cc4d4-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="cc4d4-118">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="cc4d4-118">Row index:</span></span>  <br/> |<span data-ttu-id="cc4d4-119">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="cc4d4-119">**visRowMisc**</span></span> <br/> |
-| <span data-ttu-id="cc4d4-120">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="cc4d4-120">Cell index:</span></span>  <br/> |<span data-ttu-id="cc4d4-121">**visNoAlignBox**</span><span class="sxs-lookup"><span data-stu-id="cc4d4-121">**visNoAlignBox**</span></span> <br/> |
+| <span data-ttu-id="373ea-116">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="373ea-116">Section index:</span></span>  <br/> |<span data-ttu-id="373ea-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="373ea-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="373ea-118">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="373ea-118">Row index:</span></span>  <br/> |<span data-ttu-id="373ea-119">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="373ea-119">**visRowMisc**</span></span> <br/> |
+| <span data-ttu-id="373ea-120">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="373ea-120">Cell index:</span></span>  <br/> |<span data-ttu-id="373ea-121">**visNoAlignBox**</span><span class="sxs-lookup"><span data-stu-id="373ea-121">**visNoAlignBox**</span></span> <br/> |
    
 

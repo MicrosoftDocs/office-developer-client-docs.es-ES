@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251578
 localization_priority: Normal
 ms.assetid: a8c6c1d9-3452-a31e-ec91-345d201a4b82
-description: Devuelve el número de páginas de primer plano de un documento.
+description: Devuelve el número de páginas en primer plano de un documento.
 ms.openlocfilehash: f862f8285a30531a64f995dfbfd7070a6de9509f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431298"
 ---
-# <a name="pagecount-function"></a><span data-ttu-id="cd187-103">Función PAGECOUNT</span><span class="sxs-lookup"><span data-stu-id="cd187-103">PAGECOUNT Function</span></span>
+# <a name="pagecount-function"></a><span data-ttu-id="6e185-103">Función PAGECOUNT</span><span class="sxs-lookup"><span data-stu-id="6e185-103">PAGECOUNT Function</span></span>
 
-<span data-ttu-id="cd187-104">Devuelve el número de páginas de primer plano de un documento.</span><span class="sxs-lookup"><span data-stu-id="cd187-104">Returns the number of foreground pages in a document.</span></span> 
+<span data-ttu-id="6e185-104">Devuelve el número de páginas en primer plano de un documento.</span><span class="sxs-lookup"><span data-stu-id="6e185-104">Returns the number of foreground pages in a document.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="cd187-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="cd187-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6e185-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="6e185-105">Syntax</span></span>
 
-<span data-ttu-id="cd187-106">PAGECOUNT ()</span><span class="sxs-lookup"><span data-stu-id="cd187-106">PAGECOUNT ()</span></span>
+<span data-ttu-id="6e185-106">PAGECOUNT ()</span><span class="sxs-lookup"><span data-stu-id="6e185-106">PAGECOUNT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="cd187-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="cd187-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="6e185-107">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="6e185-107">Return value</span></span>
 
-<span data-ttu-id="cd187-108">Número</span><span class="sxs-lookup"><span data-stu-id="cd187-108">Number</span></span>
+<span data-ttu-id="6e185-108">Número</span><span class="sxs-lookup"><span data-stu-id="6e185-108">Number</span></span>
   
 

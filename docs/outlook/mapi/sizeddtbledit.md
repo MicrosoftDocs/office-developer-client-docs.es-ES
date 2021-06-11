@@ -19,34 +19,34 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437647"
 ---
-# <a name="sizeddtbledit"></a><span data-ttu-id="4bc78-103">SizedDtblEdit</span><span class="sxs-lookup"><span data-stu-id="4bc78-103">SizedDtblEdit</span></span>
+# <a name="sizeddtbledit"></a><span data-ttu-id="d07fb-103">SizedDtblEdit</span><span class="sxs-lookup"><span data-stu-id="d07fb-103">SizedDtblEdit</span></span>
 
-<span data-ttu-id="4bc78-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4bc78-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d07fb-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d07fb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4bc78-105">Crea una estructura con nombre que incluye una [estructura DTBLEDIT](dtbledit.md) para describir un control de edición y el número máximo de caracteres que se pueden introducir en el control.</span><span class="sxs-lookup"><span data-stu-id="4bc78-105">Creates a named structure that includes a [DTBLEDIT](dtbledit.md) structure for describing an edit control and the maximum number of characters that can be entered in the control.</span></span> 
+<span data-ttu-id="d07fb-105">Crea una estructura con nombre que incluye una [estructura DTBLEDIT](dtbledit.md) para describir un control de edición y el número máximo de caracteres que se pueden especificar en el control.</span><span class="sxs-lookup"><span data-stu-id="d07fb-105">Creates a named structure that includes a [DTBLEDIT](dtbledit.md) structure for describing an edit control and the maximum number of characters that can be entered in the control.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4bc78-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="4bc78-106">Header file:</span></span>  <br/> |<span data-ttu-id="4bc78-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4bc78-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="4bc78-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="4bc78-108">Related structure:</span></span>  <br/> |<span data-ttu-id="4bc78-109">**DTBLEDIT**</span><span class="sxs-lookup"><span data-stu-id="4bc78-109">**DTBLEDIT**</span></span> <br/> |
+|<span data-ttu-id="d07fb-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="d07fb-106">Header file:</span></span>  <br/> |<span data-ttu-id="d07fb-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="d07fb-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="d07fb-108">Estructura relacionada:</span><span class="sxs-lookup"><span data-stu-id="d07fb-108">Related structure:</span></span>  <br/> |<span data-ttu-id="d07fb-109">**DTBLEDIT**</span><span class="sxs-lookup"><span data-stu-id="d07fb-109">**DTBLEDIT**</span></span> <br/> |
    
 ```cpp
 SizedDtblEdit (n, u)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4bc78-110">Parámetros</span><span class="sxs-lookup"><span data-stu-id="4bc78-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d07fb-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="d07fb-110">Parameters</span></span>
 
-<span data-ttu-id="4bc78-111">_n_</span><span class="sxs-lookup"><span data-stu-id="4bc78-111">_n_</span></span>
+<span data-ttu-id="d07fb-111">_n_</span><span class="sxs-lookup"><span data-stu-id="d07fb-111">_n_</span></span>
   
-> <span data-ttu-id="4bc78-112">Número máximo de caracteres que se pueden especificar en el control de edición.</span><span class="sxs-lookup"><span data-stu-id="4bc78-112">Maximum number of characters that can be entered in the edit control.</span></span>
+> <span data-ttu-id="d07fb-112">Número máximo de caracteres que se pueden especificar en el control de edición.</span><span class="sxs-lookup"><span data-stu-id="d07fb-112">Maximum number of characters that can be entered in the edit control.</span></span>
     
-<span data-ttu-id="4bc78-113">_s_</span><span class="sxs-lookup"><span data-stu-id="4bc78-113">_u_</span></span>
+<span data-ttu-id="d07fb-113">_s_</span><span class="sxs-lookup"><span data-stu-id="d07fb-113">_u_</span></span>
   
-> <span data-ttu-id="4bc78-114">Nombre de la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="4bc78-114">Name for the new structure.</span></span>
+> <span data-ttu-id="d07fb-114">Nombre de la nueva estructura.</span><span class="sxs-lookup"><span data-stu-id="d07fb-114">Name for the new structure.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4bc78-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4bc78-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d07fb-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="d07fb-115">Remarks</span></span>
 
-<span data-ttu-id="4bc78-116">La macro **SizedDtblEdit** permite definir un control de edición cuando se conoce el número de caracteres habilitados.</span><span class="sxs-lookup"><span data-stu-id="4bc78-116">The **SizedDtblEdit** macro lets you define an edit control when the number of enabled characters is known.</span></span> <span data-ttu-id="4bc78-117">La nueva estructura se crea con los siguientes miembros:</span><span class="sxs-lookup"><span data-stu-id="4bc78-117">The new structure is created with the following members:</span></span> 
+<span data-ttu-id="d07fb-116">La **macro SizedDtblEdit** permite definir un control de edición cuando se conoce el número de caracteres habilitados.</span><span class="sxs-lookup"><span data-stu-id="d07fb-116">The **SizedDtblEdit** macro lets you define an edit control when the number of enabled characters is known.</span></span> <span data-ttu-id="d07fb-117">La nueva estructura se crea con los siguientes miembros:</span><span class="sxs-lookup"><span data-stu-id="d07fb-117">The new structure is created with the following members:</span></span> 
   
 ```cpp
 DTBLEDIT dtbledit;
@@ -54,15 +54,15 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-<span data-ttu-id="4bc78-118">Para usar un puntero a la estructura resultante de la macro **SizedDtblEdit** como puntero de estructura **DTBLEDIT,** realice la conversión siguiente:</span><span class="sxs-lookup"><span data-stu-id="4bc78-118">To use a pointer to the resulting structure from the **SizedDtblEdit** macro as a **DTBLEDIT** structure pointer, perform the following cast:</span></span> 
+<span data-ttu-id="d07fb-118">Para usar un puntero a la estructura resultante de la macro **SizedDtblEdit** como puntero de estructura **DTBLEDIT,** realice la conversión siguiente:</span><span class="sxs-lookup"><span data-stu-id="d07fb-118">To use a pointer to the resulting structure from the **SizedDtblEdit** macro as a **DTBLEDIT** structure pointer, perform the following cast:</span></span> 
   
 ```cpp
 lpDtblEdit = (LPDTBLEDIT) &SizedDtblEdit;
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="4bc78-119">Consulte también</span><span class="sxs-lookup"><span data-stu-id="4bc78-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d07fb-119">Vea también</span><span class="sxs-lookup"><span data-stu-id="d07fb-119">See also</span></span>
 
-- [<span data-ttu-id="4bc78-120">DTBLEDIT</span><span class="sxs-lookup"><span data-stu-id="4bc78-120">DTBLEDIT</span></span>](dtbledit.md)
-- [<span data-ttu-id="4bc78-121">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="4bc78-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+- [<span data-ttu-id="d07fb-120">DTBLEDIT</span><span class="sxs-lookup"><span data-stu-id="d07fb-120">DTBLEDIT</span></span>](dtbledit.md)
+- [<span data-ttu-id="d07fb-121">Macros relacionadas con estructuras</span><span class="sxs-lookup"><span data-stu-id="d07fb-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

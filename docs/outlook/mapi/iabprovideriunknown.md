@@ -19,33 +19,33 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431473"
 ---
-# <a name="iabprovider--iunknown"></a><span data-ttu-id="3a31b-103">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3a31b-103">IABProvider : IUnknown</span></span>
+# <a name="iabprovider--iunknown"></a><span data-ttu-id="edcac-103">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="edcac-103">IABProvider : IUnknown</span></span>
 
   
   
-<span data-ttu-id="3a31b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3a31b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="edcac-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="edcac-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3a31b-105">Proporciona un método para iniciar sesión en un objeto de proveedor de libreta de direcciones y un método para invalidar un objeto de proveedor de libreta de direcciones.</span><span class="sxs-lookup"><span data-stu-id="3a31b-105">Provides a method to log on to an address book provider object and a method to invalidate an address book provider object.</span></span>
+<span data-ttu-id="edcac-105">Proporciona un método para iniciar sesión en un objeto de proveedor de libreta de direcciones y un método para invalidar un objeto de proveedor de libreta de direcciones.</span><span class="sxs-lookup"><span data-stu-id="edcac-105">Provides a method to log on to an address book provider object and a method to invalidate an address book provider object.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3a31b-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="3a31b-106">Header file:</span></span>  <br/> |<span data-ttu-id="3a31b-107">Mapispi.h</span><span class="sxs-lookup"><span data-stu-id="3a31b-107">Mapispi.h</span></span>  <br/> |
-|<span data-ttu-id="3a31b-108">Expuesto por:</span><span class="sxs-lookup"><span data-stu-id="3a31b-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="3a31b-109">Objetos de proveedor de la libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="3a31b-109">Address book provider objects</span></span>  <br/> |
-|<span data-ttu-id="3a31b-110">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="3a31b-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="3a31b-111">Proveedores de libretas de direcciones</span><span class="sxs-lookup"><span data-stu-id="3a31b-111">Address book providers</span></span>  <br/> |
-|<span data-ttu-id="3a31b-112">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="3a31b-112">Called by:</span></span>  <br/> |<span data-ttu-id="3a31b-113">MAPI</span><span class="sxs-lookup"><span data-stu-id="3a31b-113">MAPI</span></span>  <br/> |
-|<span data-ttu-id="3a31b-114">Identificador de interfaz:</span><span class="sxs-lookup"><span data-stu-id="3a31b-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="3a31b-115">IID_IABProvider</span><span class="sxs-lookup"><span data-stu-id="3a31b-115">IID_IABProvider</span></span>  <br/> |
-|<span data-ttu-id="3a31b-116">Tipo de puntero:</span><span class="sxs-lookup"><span data-stu-id="3a31b-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="3a31b-117">LPABPROVIDER</span><span class="sxs-lookup"><span data-stu-id="3a31b-117">LPABPROVIDER</span></span>  <br/> |
+|<span data-ttu-id="edcac-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="edcac-106">Header file:</span></span>  <br/> |<span data-ttu-id="edcac-107">Mapispi.h</span><span class="sxs-lookup"><span data-stu-id="edcac-107">Mapispi.h</span></span>  <br/> |
+|<span data-ttu-id="edcac-108">Expuesto por:</span><span class="sxs-lookup"><span data-stu-id="edcac-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="edcac-109">Objetos de proveedor de la libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="edcac-109">Address book provider objects</span></span>  <br/> |
+|<span data-ttu-id="edcac-110">Implementado por:</span><span class="sxs-lookup"><span data-stu-id="edcac-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="edcac-111">Proveedores de libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="edcac-111">Address book providers</span></span>  <br/> |
+|<span data-ttu-id="edcac-112">Llamado por:</span><span class="sxs-lookup"><span data-stu-id="edcac-112">Called by:</span></span>  <br/> |<span data-ttu-id="edcac-113">MAPI</span><span class="sxs-lookup"><span data-stu-id="edcac-113">MAPI</span></span>  <br/> |
+|<span data-ttu-id="edcac-114">Identificador de interfaz:</span><span class="sxs-lookup"><span data-stu-id="edcac-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="edcac-115">IID_IABProvider</span><span class="sxs-lookup"><span data-stu-id="edcac-115">IID_IABProvider</span></span>  <br/> |
+|<span data-ttu-id="edcac-116">Tipo de puntero:</span><span class="sxs-lookup"><span data-stu-id="edcac-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="edcac-117">LPABPROVIDER</span><span class="sxs-lookup"><span data-stu-id="edcac-117">LPABPROVIDER</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="3a31b-118">Orden de tabla virtual</span><span class="sxs-lookup"><span data-stu-id="3a31b-118">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="edcac-118">Orden de Vtable</span><span class="sxs-lookup"><span data-stu-id="edcac-118">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="3a31b-119">Inicio de sesión</span><span class="sxs-lookup"><span data-stu-id="3a31b-119">Logon</span></span>](iabprovider-logon.md) <br/> |<span data-ttu-id="3a31b-120">Establece una conexión a una sesión activa.</span><span class="sxs-lookup"><span data-stu-id="3a31b-120">Establishes a connection to an active session.</span></span>  <br/> |
-|[<span data-ttu-id="3a31b-121">Apagado</span><span class="sxs-lookup"><span data-stu-id="3a31b-121">Shutdown</span></span>](iabprovider-shutdown.md) <br/> |<span data-ttu-id="3a31b-122">Cancela una conexión a una sesión activa.</span><span class="sxs-lookup"><span data-stu-id="3a31b-122">Cancels a connection to an active session.</span></span>  <br/> |
+|[<span data-ttu-id="edcac-119">Inicio de sesión</span><span class="sxs-lookup"><span data-stu-id="edcac-119">Logon</span></span>](iabprovider-logon.md) <br/> |<span data-ttu-id="edcac-120">Establece una conexión a una sesión activa.</span><span class="sxs-lookup"><span data-stu-id="edcac-120">Establishes a connection to an active session.</span></span>  <br/> |
+|[<span data-ttu-id="edcac-121">Apagado</span><span class="sxs-lookup"><span data-stu-id="edcac-121">Shutdown</span></span>](iabprovider-shutdown.md) <br/> |<span data-ttu-id="edcac-122">Cancela una conexión a una sesión activa.</span><span class="sxs-lookup"><span data-stu-id="edcac-122">Cancels a connection to an active session.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="3a31b-123">Consulte también</span><span class="sxs-lookup"><span data-stu-id="3a31b-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="edcac-123">Vea también</span><span class="sxs-lookup"><span data-stu-id="edcac-123">See also</span></span>
 
 
 
-[<span data-ttu-id="3a31b-124">Interfaces MAPI</span><span class="sxs-lookup"><span data-stu-id="3a31b-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
+[<span data-ttu-id="edcac-124">Interfaces MAPI</span><span class="sxs-lookup"><span data-stu-id="edcac-124">MAPI Interfaces</span></span>](mapi-interfaces.md)
 

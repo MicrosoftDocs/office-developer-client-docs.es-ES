@@ -16,14 +16,14 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434952"
 ---
-# <a name="text-fields-section"></a><span data-ttu-id="084d3-103">Sección de campos de texto</span><span class="sxs-lookup"><span data-stu-id="084d3-103">Text Fields Section</span></span>
+# <a name="text-fields-section"></a><span data-ttu-id="ee772-103">Sección de campos de texto</span><span class="sxs-lookup"><span data-stu-id="ee772-103">Text Fields Section</span></span>
 
-<span data-ttu-id="084d3-104">Presenta funciones y fórmulas insertadas en el texto de una forma con el cuadro de diálogo **Campo**.</span><span class="sxs-lookup"><span data-stu-id="084d3-104">Displays functions and formulas inserted in the shape's text by using the **Field** dialog box.</span></span> 
+<span data-ttu-id="ee772-104">Presenta funciones y fórmulas insertadas en el texto de una forma con el cuadro de diálogo **Campo**.</span><span class="sxs-lookup"><span data-stu-id="ee772-104">Displays functions and formulas inserted in the shape's text by using the **Field** dialog box.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="084d3-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="084d3-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ee772-105">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ee772-105">Remarks</span></span>
 
-<span data-ttu-id="084d3-106">La única forma de agregar esta sección es insertar un campo en una forma mediante el cuadro de diálogo **Campo** (ficha **Insertar**).</span><span class="sxs-lookup"><span data-stu-id="084d3-106">The only way to add this section is to insert a field into a shape by using the **Field** dialog box (**Insert** tab).</span></span> 
+<span data-ttu-id="ee772-106">La única forma de agregar esta sección es insertar un campo en una forma mediante el cuadro de diálogo **Campo** (ficha **Insertar**).</span><span class="sxs-lookup"><span data-stu-id="ee772-106">The only way to add this section is to insert a field into a shape by using the **Field** dialog box (**Insert** tab).</span></span> 
   
-<span data-ttu-id="084d3-p101">Cada campo de texto de un bloque de texto tiene una fila correspondiente en la ventana ShapeSheet. El nombre de la fila representa el número de caracteres que contiene el campo.</span><span class="sxs-lookup"><span data-stu-id="084d3-p101">Each text field in a text block has a corresponding row in the ShapeSheet window. The name of the row represents the number of characters the field contains.</span></span>
+<span data-ttu-id="ee772-p101">Cada campo de texto de un bloque de texto tiene una fila correspondiente en la ventana ShapeSheet. El nombre de la fila representa el número de caracteres que contiene el campo.</span><span class="sxs-lookup"><span data-stu-id="ee772-p101">Each text field in a text block has a corresponding row in the ShapeSheet window. The name of the row represents the number of characters the field contains.</span></span>
   
 

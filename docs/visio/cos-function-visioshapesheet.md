@@ -16,28 +16,28 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432740"
 ---
-# <a name="cos-function-visioshapesheet"></a><span data-ttu-id="7d363-103">Función COS (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="7d363-103">COS Function (VisioShapeSheet)</span></span>
+# <a name="cos-function-visioshapesheet"></a><span data-ttu-id="389e8-103">Función COS (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="389e8-103">COS Function (VisioShapeSheet)</span></span>
 
-<span data-ttu-id="7d363-104">Devuelve el coseno de un ángulo.</span><span class="sxs-lookup"><span data-stu-id="7d363-104">Returns the cosine of an angle.</span></span> 
+<span data-ttu-id="389e8-104">Devuelve el coseno de un ángulo.</span><span class="sxs-lookup"><span data-stu-id="389e8-104">Returns the cosine of an angle.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="7d363-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="7d363-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="389e8-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="389e8-105">Syntax</span></span>
 
-<span data-ttu-id="7d363-106">COS( *angle*)</span><span class="sxs-lookup"><span data-stu-id="7d363-106">COS( *angle*)</span></span> 
+<span data-ttu-id="389e8-106">COS( *angle*)</span><span class="sxs-lookup"><span data-stu-id="389e8-106">COS( *angle*)</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="7d363-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="7d363-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="389e8-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="389e8-107">Parameters</span></span>
 
-|<span data-ttu-id="7d363-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="7d363-108">**Name**</span></span>|<span data-ttu-id="7d363-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="7d363-109">**Required/Optional**</span></span>|<span data-ttu-id="7d363-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="7d363-110">**Data Type**</span></span>|<span data-ttu-id="7d363-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7d363-111">**Description**</span></span>|
+|<span data-ttu-id="389e8-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="389e8-108">**Name**</span></span>|<span data-ttu-id="389e8-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="389e8-109">**Required/Optional**</span></span>|<span data-ttu-id="389e8-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="389e8-110">**Data Type**</span></span>|<span data-ttu-id="389e8-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="389e8-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="7d363-112">_ángulo_</span><span class="sxs-lookup"><span data-stu-id="7d363-112">_angle_</span></span> <br/> |<span data-ttu-id="7d363-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="7d363-113">Required</span></span>  <br/> |<span data-ttu-id="7d363-114">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="7d363-114">**Numeric**</span></span> <br/> |<span data-ttu-id="7d363-115">Ángulo del que obtener el coseno.</span><span class="sxs-lookup"><span data-stu-id="7d363-115">The angle of which to get the cosine.</span></span>  <br/> |
+| <span data-ttu-id="389e8-112">_ángulo_</span><span class="sxs-lookup"><span data-stu-id="389e8-112">_angle_</span></span> <br/> |<span data-ttu-id="389e8-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="389e8-113">Required</span></span>  <br/> |<span data-ttu-id="389e8-114">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="389e8-114">**Numeric**</span></span> <br/> |<span data-ttu-id="389e8-115">Ángulo del que obtener el coseno.</span><span class="sxs-lookup"><span data-stu-id="389e8-115">The angle of which to get the cosine.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7d363-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="7d363-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="389e8-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="389e8-116">Remarks</span></span>
 
-<span data-ttu-id="7d363-117">La función COS usa radianes a menos que especifique una unidad de medida diferente en *ángulo.*</span><span class="sxs-lookup"><span data-stu-id="7d363-117">The COS function uses radians unless you specify a different unit of measure in  *angle*  .</span></span> 
+<span data-ttu-id="389e8-117">La función COS usa radianes a menos que especifique una unidad de medida diferente en  *ángulo*  .</span><span class="sxs-lookup"><span data-stu-id="389e8-117">The COS function uses radians unless you specify a different unit of measure in  *angle*  .</span></span> 
   
-## <a name="example"></a><span data-ttu-id="7d363-118">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="7d363-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="389e8-118">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="389e8-118">Example</span></span>
 
-<span data-ttu-id="7d363-119">COS(45 grados)</span><span class="sxs-lookup"><span data-stu-id="7d363-119">COS(45 deg)</span></span> 
+<span data-ttu-id="389e8-119">COS(45 grados)</span><span class="sxs-lookup"><span data-stu-id="389e8-119">COS(45 deg)</span></span> 
   
-<span data-ttu-id="7d363-120">Devuelve 0,7071.</span><span class="sxs-lookup"><span data-stu-id="7d363-120">Returns 0.7071.</span></span> 
+<span data-ttu-id="389e8-120">Devuelve 0,7071.</span><span class="sxs-lookup"><span data-stu-id="389e8-120">Returns 0.7071.</span></span> 
   
 

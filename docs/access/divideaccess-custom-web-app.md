@@ -13,29 +13,29 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435190"
 ---
-# <a name="-divide-access-custom-web-app"></a><span data-ttu-id="5c764-103">/ (Dividir) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="5c764-103">/ (Divide) (Access custom web app)</span></span>
+# <a name="-divide-access-custom-web-app"></a><span data-ttu-id="b9da4-103">/ (Dividir) (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="b9da4-103">/ (Divide) (Access custom web app)</span></span>
 
-<span data-ttu-id="5c764-104">Divide un número por otro.</span><span class="sxs-lookup"><span data-stu-id="5c764-104">Divides one number by another.</span></span>
+<span data-ttu-id="b9da4-104">Divide un número por otro.</span><span class="sxs-lookup"><span data-stu-id="b9da4-104">Divides one number by another.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="5c764-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="5c764-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="b9da4-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="b9da4-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="5c764-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="5c764-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b9da4-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b9da4-107">Syntax</span></span>
 
- <span data-ttu-id="5c764-108">*pago de dividendos*   /   *divisor*</span><span class="sxs-lookup"><span data-stu-id="5c764-108">*dividend*  /  *divisor*</span></span> 
+ <span data-ttu-id="b9da4-108">*dividendo*   /   *divisor*</span><span class="sxs-lookup"><span data-stu-id="b9da4-108">*dividend*  /  *divisor*</span></span> 
   
- <span data-ttu-id="5c764-109">*pago de dividendos*  Es la expresión numérica que se va a dividir.</span><span class="sxs-lookup"><span data-stu-id="5c764-109">*dividend*  Is the numeric expression to divide.</span></span> <span data-ttu-id="5c764-110">Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime.</span><span class="sxs-lookup"><span data-stu-id="5c764-110">Can be any valid expression of any one of the data types of the numeric data type category, except the datetime data type.</span></span> 
+ <span data-ttu-id="b9da4-109">*dividendo*  Es la expresión numérica que se va a dividir.</span><span class="sxs-lookup"><span data-stu-id="b9da4-109">*dividend*  Is the numeric expression to divide.</span></span> <span data-ttu-id="b9da4-110">Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime.</span><span class="sxs-lookup"><span data-stu-id="b9da4-110">Can be any valid expression of any one of the data types of the numeric data type category, except the datetime data type.</span></span> 
   
- <span data-ttu-id="5c764-111">*Divisor*  Es la expresión numérica por la que se divide el dividendo.</span><span class="sxs-lookup"><span data-stu-id="5c764-111">*Divisor*  Is the numeric expression by which to divide the dividend.</span></span> <span data-ttu-id="5c764-112">Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime.</span><span class="sxs-lookup"><span data-stu-id="5c764-112">Can be any valid expression of any one of the data types of the numeric data type category, except the datetime data type.</span></span> 
+ <span data-ttu-id="b9da4-111">*Divisor*  Es la expresión numérica por la que se divide el dividendo.</span><span class="sxs-lookup"><span data-stu-id="b9da4-111">*Divisor*  Is the numeric expression by which to divide the dividend.</span></span> <span data-ttu-id="b9da4-112">Puede ser cualquier expresión válida de cualquiera de los tipos de datos de la categoría de tipo de datos numéricos, excepto el tipo de datos datetime.</span><span class="sxs-lookup"><span data-stu-id="b9da4-112">Can be any valid expression of any one of the data types of the numeric data type category, except the datetime data type.</span></span> 
   
-## <a name="return-type"></a><span data-ttu-id="5c764-113">Tipo de valor devuelto</span><span class="sxs-lookup"><span data-stu-id="5c764-113">Return Type</span></span>
+## <a name="return-type"></a><span data-ttu-id="b9da4-113">Tipo de valor devuelto</span><span class="sxs-lookup"><span data-stu-id="b9da4-113">Return Type</span></span>
 
-<span data-ttu-id="5c764-114">Devuelve el tipo de datos del argumento con mayor prioridad.</span><span class="sxs-lookup"><span data-stu-id="5c764-114">Returns the data type of the argument with the higher precedence.</span></span> 
+<span data-ttu-id="b9da4-114">Devuelve el tipo de datos del argumento con mayor prioridad.</span><span class="sxs-lookup"><span data-stu-id="b9da4-114">Returns the data type of the argument with the higher precedence.</span></span> 
   
-<span data-ttu-id="5c764-115">Si un entero  *se*  divide por un  *divisor*  de enteros, el resultado es un entero que tiene cualquier parte fraccionada del resultado truncada.</span><span class="sxs-lookup"><span data-stu-id="5c764-115">If an integer  *dividend*  is divided by an integer  *divisor*  , the result is an integer that has any fractional part of the result truncated.</span></span> 
+<span data-ttu-id="b9da4-115">Si un dividendo  *entero*  está dividido por un  *divisor*  entero, el resultado es un entero que tiene truncada cualquier parte fraccional del resultado.</span><span class="sxs-lookup"><span data-stu-id="b9da4-115">If an integer  *dividend*  is divided by an integer  *divisor*  , the result is an integer that has any fractional part of the result truncated.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="5c764-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5c764-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b9da4-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b9da4-116">Remarks</span></span>
 
-<span data-ttu-id="5c764-117">El valor real devuelto por el operador / es el cociente de la primera expresión dividida por la segunda expresión.</span><span class="sxs-lookup"><span data-stu-id="5c764-117">The actual value returned by the / operator is the quotient of the first expression divided by the second expression.</span></span>
+<span data-ttu-id="b9da4-117">El valor real devuelto por el operador / es el cociente de la primera expresión dividida por la segunda expresión.</span><span class="sxs-lookup"><span data-stu-id="b9da4-117">The actual value returned by the / operator is the quotient of the first expression divided by the second expression.</span></span>
   
 
