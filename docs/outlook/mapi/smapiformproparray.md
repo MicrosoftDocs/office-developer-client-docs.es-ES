@@ -19,18 +19,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420069"
 ---
-# <a name="smapiformproparray"></a><span data-ttu-id="4007f-103">SMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="4007f-103">SMAPIFormPropArray</span></span>
+# <a name="smapiformproparray"></a><span data-ttu-id="f1e22-103">SMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="f1e22-103">SMAPIFormPropArray</span></span>
 
   
   
-<span data-ttu-id="4007f-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4007f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f1e22-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f1e22-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4007f-105">Contiene una matriz [de estructuras SMAPIFormProp.](smapiformprop.md)</span><span class="sxs-lookup"><span data-stu-id="4007f-105">Contains an array of [SMAPIFormProp](smapiformprop.md) structures.</span></span> 
+<span data-ttu-id="f1e22-105">Contiene una matriz de [estructuras SMAPIFormProp.](smapiformprop.md)</span><span class="sxs-lookup"><span data-stu-id="f1e22-105">Contains an array of [SMAPIFormProp](smapiformprop.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4007f-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="4007f-106">Header file:</span></span>  <br/> |<span data-ttu-id="4007f-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="4007f-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="4007f-108">Macro relacionada:</span><span class="sxs-lookup"><span data-stu-id="4007f-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="4007f-109">CbMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="4007f-109">CbMAPIFormPropArray</span></span>](cbmapiformproparray.md) <br/> |
+|<span data-ttu-id="f1e22-106">Archivo de encabezado:</span><span class="sxs-lookup"><span data-stu-id="f1e22-106">Header file:</span></span>  <br/> |<span data-ttu-id="f1e22-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="f1e22-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="f1e22-108">Macro relacionada:</span><span class="sxs-lookup"><span data-stu-id="f1e22-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="f1e22-109">CbMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="f1e22-109">CbMAPIFormPropArray</span></span>](cbmapiformproparray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -42,38 +42,38 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="4007f-110">Miembros</span><span class="sxs-lookup"><span data-stu-id="4007f-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="f1e22-110">Members</span><span class="sxs-lookup"><span data-stu-id="f1e22-110">Members</span></span>
 
- <span data-ttu-id="4007f-111">**cProps**</span><span class="sxs-lookup"><span data-stu-id="4007f-111">**cProps**</span></span>
+ <span data-ttu-id="f1e22-111">**cProps**</span><span class="sxs-lookup"><span data-stu-id="f1e22-111">**cProps**</span></span>
   
-> <span data-ttu-id="4007f-112">Recuento de propiedades con nombre en la matriz en el **miembro aFormProp.**</span><span class="sxs-lookup"><span data-stu-id="4007f-112">Count of named properties in the array in the **aFormProp** member.</span></span> 
+> <span data-ttu-id="f1e22-112">Recuento de propiedades con nombre en la matriz en el **miembro aFormProp.**</span><span class="sxs-lookup"><span data-stu-id="f1e22-112">Count of named properties in the array in the **aFormProp** member.</span></span> 
     
- <span data-ttu-id="4007f-113">**ulPad**</span><span class="sxs-lookup"><span data-stu-id="4007f-113">**ulPad**</span></span>
+ <span data-ttu-id="f1e22-113">**ulPad**</span><span class="sxs-lookup"><span data-stu-id="f1e22-113">**ulPad**</span></span>
   
->  <span data-ttu-id="4007f-114">Ocho bytes de espaciado interno usados para garantizar una alineación correcta.</span><span class="sxs-lookup"><span data-stu-id="4007f-114">Eight bytes of padding used to guarantee correct alignment.</span></span> 
+>  <span data-ttu-id="f1e22-114">Ocho bytes de relleno usados para garantizar la alineación correcta.</span><span class="sxs-lookup"><span data-stu-id="f1e22-114">Eight bytes of padding used to guarantee correct alignment.</span></span> 
     
- <span data-ttu-id="4007f-115">**aFormProp**</span><span class="sxs-lookup"><span data-stu-id="4007f-115">**aFormProp**</span></span>
+ <span data-ttu-id="f1e22-115">**aFormProp**</span><span class="sxs-lookup"><span data-stu-id="f1e22-115">**aFormProp**</span></span>
   
-> <span data-ttu-id="4007f-116">Matriz de propiedades de formulario.</span><span class="sxs-lookup"><span data-stu-id="4007f-116">Array of form properties.</span></span>
+> <span data-ttu-id="f1e22-116">Matriz de propiedades de formulario.</span><span class="sxs-lookup"><span data-stu-id="f1e22-116">Array of form properties.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4007f-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4007f-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f1e22-117">Comentarios</span><span class="sxs-lookup"><span data-stu-id="f1e22-117">Remarks</span></span>
 
-<span data-ttu-id="4007f-118">La **estructura SMAPIFormPropArray** se pasa como parámetro a los métodos siguientes:</span><span class="sxs-lookup"><span data-stu-id="4007f-118">The **SMAPIFormPropArray** structure is passed as a parameter to the following methods:</span></span> 
+<span data-ttu-id="f1e22-118">La **estructura SMAPIFormPropArray** se pasa como parámetro a los métodos siguientes:</span><span class="sxs-lookup"><span data-stu-id="f1e22-118">The **SMAPIFormPropArray** structure is passed as a parameter to the following methods:</span></span> 
   
-- [<span data-ttu-id="4007f-119">IMAPIFormInfo::CalcFormPropSet</span><span class="sxs-lookup"><span data-stu-id="4007f-119">IMAPIFormInfo::CalcFormPropSet</span></span>](imapiforminfo-calcformpropset.md)
+- [<span data-ttu-id="f1e22-119">IMAPIFormInfo::CalcFormPropSet</span><span class="sxs-lookup"><span data-stu-id="f1e22-119">IMAPIFormInfo::CalcFormPropSet</span></span>](imapiforminfo-calcformpropset.md)
     
-- [<span data-ttu-id="4007f-120">IMAPIFormMgr::CalcFormPropSet</span><span class="sxs-lookup"><span data-stu-id="4007f-120">IMAPIFormMgr::CalcFormPropSet</span></span>](imapiformmgr-calcformpropset.md)
+- [<span data-ttu-id="f1e22-120">IMAPIFormMgr::CalcFormPropSet</span><span class="sxs-lookup"><span data-stu-id="f1e22-120">IMAPIFormMgr::CalcFormPropSet</span></span>](imapiformmgr-calcformpropset.md)
     
-- [<span data-ttu-id="4007f-121">IMAPIFormContainer::CalcFormPropSet</span><span class="sxs-lookup"><span data-stu-id="4007f-121">IMAPIFormContainer::CalcFormPropSet</span></span>](imapiformcontainer-calcformpropset.md)
+- [<span data-ttu-id="f1e22-121">IMAPIFormContainer::CalcFormPropSet</span><span class="sxs-lookup"><span data-stu-id="f1e22-121">IMAPIFormContainer::CalcFormPropSet</span></span>](imapiformcontainer-calcformpropset.md)
     
-## <a name="see-also"></a><span data-ttu-id="4007f-122">Consulte también</span><span class="sxs-lookup"><span data-stu-id="4007f-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f1e22-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="f1e22-122">See also</span></span>
 
 
 
-[<span data-ttu-id="4007f-123">CbMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="4007f-123">CbMAPIFormPropArray</span></span>](cbmapiformproparray.md)
+[<span data-ttu-id="f1e22-123">CbMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="f1e22-123">CbMAPIFormPropArray</span></span>](cbmapiformproparray.md)
   
-[<span data-ttu-id="4007f-124">SMAPIFormProp</span><span class="sxs-lookup"><span data-stu-id="4007f-124">SMAPIFormProp</span></span>](smapiformprop.md)
+[<span data-ttu-id="f1e22-124">SMAPIFormProp</span><span class="sxs-lookup"><span data-stu-id="f1e22-124">SMAPIFormProp</span></span>](smapiformprop.md)
 
 
-[<span data-ttu-id="4007f-125">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="4007f-125">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="f1e22-125">Estructuras MAPI</span><span class="sxs-lookup"><span data-stu-id="f1e22-125">MAPI Structures</span></span>](mapi-structures.md)
 

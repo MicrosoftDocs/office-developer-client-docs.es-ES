@@ -19,51 +19,51 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421567"
 ---
-# <a name="pidtagstatusstring-canonical-property"></a><span data-ttu-id="4ca0e-103">Propiedad canónica PidTagStatusString</span><span class="sxs-lookup"><span data-stu-id="4ca0e-103">PidTagStatusString Canonical Property</span></span>
+# <a name="pidtagstatusstring-canonical-property"></a><span data-ttu-id="4c8e0-103">Propiedad canónica PidTagStatusString</span><span class="sxs-lookup"><span data-stu-id="4c8e0-103">PidTagStatusString Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4ca0e-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4ca0e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4c8e0-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4c8e0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4ca0e-105">Contiene un mensaje que indica el estado actual de un recurso de sesión.</span><span class="sxs-lookup"><span data-stu-id="4ca0e-105">Contains a message that indicates the current status of a session resource.</span></span> 
+<span data-ttu-id="4c8e0-105">Contiene un mensaje que indica el estado actual de un recurso de sesión.</span><span class="sxs-lookup"><span data-stu-id="4c8e0-105">Contains a message that indicates the current status of a session resource.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4ca0e-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="4ca0e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4ca0e-107">PR_STATUS_STRING, PR_STATUS_STRING_A, PR_STATUS_STRING_W</span><span class="sxs-lookup"><span data-stu-id="4ca0e-107">PR_STATUS_STRING, PR_STATUS_STRING_A, PR_STATUS_STRING_W</span></span>  <br/> |
-|<span data-ttu-id="4ca0e-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="4ca0e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="4ca0e-109">0x3E08</span><span class="sxs-lookup"><span data-stu-id="4ca0e-109">0x3E08</span></span>  <br/> |
-|<span data-ttu-id="4ca0e-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="4ca0e-110">Data type:</span></span>  <br/> |<span data-ttu-id="4ca0e-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="4ca0e-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="4ca0e-112">Área:</span><span class="sxs-lookup"><span data-stu-id="4ca0e-112">Area:</span></span>  <br/> |<span data-ttu-id="4ca0e-113">Estado MAPI</span><span class="sxs-lookup"><span data-stu-id="4ca0e-113">MAPI status</span></span>  <br/> |
+|<span data-ttu-id="4c8e0-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="4c8e0-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4c8e0-107">PR_STATUS_STRING, PR_STATUS_STRING_A, PR_STATUS_STRING_W</span><span class="sxs-lookup"><span data-stu-id="4c8e0-107">PR_STATUS_STRING, PR_STATUS_STRING_A, PR_STATUS_STRING_W</span></span>  <br/> |
+|<span data-ttu-id="4c8e0-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="4c8e0-108">Identifier:</span></span>  <br/> |<span data-ttu-id="4c8e0-109">0x3E08</span><span class="sxs-lookup"><span data-stu-id="4c8e0-109">0x3E08</span></span>  <br/> |
+|<span data-ttu-id="4c8e0-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="4c8e0-110">Data type:</span></span>  <br/> |<span data-ttu-id="4c8e0-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="4c8e0-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="4c8e0-112">Área:</span><span class="sxs-lookup"><span data-stu-id="4c8e0-112">Area:</span></span>  <br/> |<span data-ttu-id="4c8e0-113">Estado MAPI</span><span class="sxs-lookup"><span data-stu-id="4c8e0-113">MAPI status</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4ca0e-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4ca0e-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4c8e0-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="4c8e0-114">Remarks</span></span>
 
-<span data-ttu-id="4ca0e-115">Estas propiedades ofrecen a los proveedores de servicios y MAPI la oportunidad de proporcionar información específica sobre el estado de un recurso de sesión, como la libreta de direcciones integrada o un proveedor de servicios determinado.</span><span class="sxs-lookup"><span data-stu-id="4ca0e-115">These properties give service providers and MAPI the opportunity to supply specific information about the status of a session resource, such as the integrated address book or a particular service provider.</span></span> <span data-ttu-id="4ca0e-116">Esta propiedad explica y proporciona información adicional sobre un código de estado o la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="4ca0e-116">This property explains and provides additional information about a status code, or the **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) property.</span></span> <span data-ttu-id="4ca0e-117">Mientras que **PR_STATUS_CODE** para todos los objetos de estado, **PR_STATUS_STRING** propiedades asociadas son opcionales.</span><span class="sxs-lookup"><span data-stu-id="4ca0e-117">Whereas **PR_STATUS_CODE** is required for all status objects, **PR_STATUS_STRING** and associated properties are optional.</span></span> <span data-ttu-id="4ca0e-118">Cuando el proveedor de transporte no proporciona un valor, la cola MAPI proporciona un valor predeterminado.</span><span class="sxs-lookup"><span data-stu-id="4ca0e-118">When the transport provider does not supply a value, the MAPI spooler supplies a default value.</span></span> 
+<span data-ttu-id="4c8e0-115">Estas propiedades ofrecen a los proveedores de servicios y MAPI la oportunidad de proporcionar información específica sobre el estado de un recurso de sesión, como la libreta de direcciones integrada o un proveedor de servicios en particular.</span><span class="sxs-lookup"><span data-stu-id="4c8e0-115">These properties give service providers and MAPI the opportunity to supply specific information about the status of a session resource, such as the integrated address book or a particular service provider.</span></span> <span data-ttu-id="4c8e0-116">Esta propiedad explica y proporciona información adicional sobre un código de estado o la propiedad **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="4c8e0-116">This property explains and provides additional information about a status code, or the **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) property.</span></span> <span data-ttu-id="4c8e0-117">Mientras que **PR_STATUS_CODE** es necesario para todos los objetos de **estado,** PR_STATUS_STRING y las propiedades asociadas son opcionales.</span><span class="sxs-lookup"><span data-stu-id="4c8e0-117">Whereas **PR_STATUS_CODE** is required for all status objects, **PR_STATUS_STRING** and associated properties are optional.</span></span> <span data-ttu-id="4c8e0-118">Cuando el proveedor de transporte no proporciona un valor, la cola MAPI proporciona un valor predeterminado.</span><span class="sxs-lookup"><span data-stu-id="4c8e0-118">When the transport provider does not supply a value, the MAPI spooler supplies a default value.</span></span> 
   
-<span data-ttu-id="4ca0e-119">La cadena se genera en el mismo lado de la llamada a procedimiento remoto que la cola MAPI; viaja a través de la memoria compartida en lugar de calcular las referencias a través de un límite de proceso.</span><span class="sxs-lookup"><span data-stu-id="4ca0e-119">The string is generated on the same side of the remote procedure call as the MAPI spooler; it travels through shared memory rather than being marshaled across a process boundary.</span></span>
+<span data-ttu-id="4c8e0-119">La cadena se genera en el mismo lado de la llamada de procedimiento remoto que la cola MAPI; viaja a través de la memoria compartida en lugar de ser serializada a través de un límite de proceso.</span><span class="sxs-lookup"><span data-stu-id="4c8e0-119">The string is generated on the same side of the remote procedure call as the MAPI spooler; it travels through shared memory rather than being marshaled across a process boundary.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="4ca0e-120">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="4ca0e-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="4c8e0-120">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="4c8e0-120">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="4ca0e-121">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="4ca0e-121">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="4c8e0-121">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="4c8e0-121">Header files</span></span>
 
-<span data-ttu-id="4ca0e-122">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4ca0e-122">Mapidefs.h</span></span>
+<span data-ttu-id="4c8e0-122">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4c8e0-122">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4ca0e-123">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="4ca0e-123">Provides data type definitions.</span></span>
+> <span data-ttu-id="4c8e0-123">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="4c8e0-123">Provides data type definitions.</span></span>
     
-<span data-ttu-id="4ca0e-124">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="4ca0e-124">Mapitags.h</span></span>
+<span data-ttu-id="4c8e0-124">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="4c8e0-124">Mapitags.h</span></span>
   
-> <span data-ttu-id="4ca0e-125">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="4ca0e-125">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="4c8e0-125">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="4c8e0-125">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4ca0e-126">Consulte también</span><span class="sxs-lookup"><span data-stu-id="4ca0e-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4c8e0-126">Vea también</span><span class="sxs-lookup"><span data-stu-id="4c8e0-126">See also</span></span>
 
 
 
-[<span data-ttu-id="4ca0e-127">Propiedad canónica PidTagStatusCode</span><span class="sxs-lookup"><span data-stu-id="4ca0e-127">PidTagStatusCode Canonical Property</span></span>](pidtagstatuscode-canonical-property.md)
+[<span data-ttu-id="4c8e0-127">Propiedad canónica PidTagStatusCode</span><span class="sxs-lookup"><span data-stu-id="4c8e0-127">PidTagStatusCode Canonical Property</span></span>](pidtagstatuscode-canonical-property.md)
 
 
-[<span data-ttu-id="4ca0e-128">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="4ca0e-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="4c8e0-128">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="4c8e0-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4ca0e-129">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="4ca0e-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="4c8e0-129">Propiedades canónicas MAPI</span><span class="sxs-lookup"><span data-stu-id="4c8e0-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4ca0e-130">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="4ca0e-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="4c8e0-130">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="4c8e0-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4ca0e-131">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="4ca0e-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="4c8e0-131">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="4c8e0-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -14,12 +14,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420489"
 ---
-# <a name="functions-data-degradation-layer-api"></a><span data-ttu-id="e9828-103">Funciones (API de capa de degradación de datos)</span><span class="sxs-lookup"><span data-stu-id="e9828-103">Functions (Data degradation layer API)</span></span>
+# <a name="functions-data-degradation-layer-api"></a><span data-ttu-id="41393-103">Funciones (API de capa de degradación de datos)</span><span class="sxs-lookup"><span data-stu-id="41393-103">Functions (Data degradation layer API)</span></span>
 
-<span data-ttu-id="e9828-104">En esta sección se describen las funciones de la API de capa de degradación de datos.</span><span class="sxs-lookup"><span data-stu-id="e9828-104">This section describes the functions in the Data Degradation Layer API.</span></span>
+<span data-ttu-id="41393-104">En esta sección se describen las funciones de la API de capa de degradación de datos.</span><span class="sxs-lookup"><span data-stu-id="41393-104">This section describes the functions in the Data Degradation Layer API.</span></span>
   
-|<span data-ttu-id="e9828-105">**Función**</span><span class="sxs-lookup"><span data-stu-id="e9828-105">**Function**</span></span>|<span data-ttu-id="e9828-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e9828-106">**Description**</span></span>|
+|<span data-ttu-id="41393-105">**Función**</span><span class="sxs-lookup"><span data-stu-id="41393-105">**Function**</span></span>|<span data-ttu-id="41393-106">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="41393-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e9828-107">HrCreateNewWrappedObject</span><span class="sxs-lookup"><span data-stu-id="e9828-107">HrCreateNewWrappedObject</span></span>](hrcreatenewwrappedobject.md) <br/> |<span data-ttu-id="e9828-108">Crea un objeto al que un cliente puede tener acceso en un formato de carácter preferido.</span><span class="sxs-lookup"><span data-stu-id="e9828-108">Creates an object that a client can access in a preferred character format.</span></span>  <br/> |
+|[<span data-ttu-id="41393-107">HrCreateNewWrappedObject</span><span class="sxs-lookup"><span data-stu-id="41393-107">HrCreateNewWrappedObject</span></span>](hrcreatenewwrappedobject.md) <br/> |<span data-ttu-id="41393-108">Crea un objeto al que un cliente puede tener acceso en un formato de carácter preferido.</span><span class="sxs-lookup"><span data-stu-id="41393-108">Creates an object that a client can access in a preferred character format.</span></span>  <br/> |
    
 

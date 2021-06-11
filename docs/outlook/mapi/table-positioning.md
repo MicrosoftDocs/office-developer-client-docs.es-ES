@@ -15,18 +15,18 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418592"
 ---
-# <a name="table-positioning"></a><span data-ttu-id="b40c1-103">Posicionamiento de tabla</span><span class="sxs-lookup"><span data-stu-id="b40c1-103">Table Positioning</span></span>
+# <a name="table-positioning"></a><span data-ttu-id="552da-103">Posicionamiento de tabla</span><span class="sxs-lookup"><span data-stu-id="552da-103">Table Positioning</span></span>
 
   
   
-<span data-ttu-id="b40c1-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b40c1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="552da-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="552da-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b40c1-105">La posición actual dentro de una tabla siempre se indica mediante un cursor.</span><span class="sxs-lookup"><span data-stu-id="b40c1-105">The current position within a table is always indicated by a cursor.</span></span> <span data-ttu-id="b40c1-106">Hay un cursor para cada vista de una tabla; su valor lo establece el implementador de la tabla.</span><span class="sxs-lookup"><span data-stu-id="b40c1-106">There is one cursor for each view of a table; its value is set by the table's implementer.</span></span> <span data-ttu-id="b40c1-107">Cuando un cliente o proveedor de servicios que usa la tabla realiza una llamada para cambiar la posición de la tabla, se restablece el valor del cursor.</span><span class="sxs-lookup"><span data-stu-id="b40c1-107">When a client or service provider using the table makes a call to change the position of the table, the value of the cursor is reset.</span></span> <span data-ttu-id="b40c1-108">La posición de una tabla se puede cambiar con:</span><span class="sxs-lookup"><span data-stu-id="b40c1-108">A table's position can be changed with:</span></span>
+<span data-ttu-id="552da-105">La posición actual dentro de una tabla siempre se indica mediante un cursor.</span><span class="sxs-lookup"><span data-stu-id="552da-105">The current position within a table is always indicated by a cursor.</span></span> <span data-ttu-id="552da-106">Hay un cursor para cada vista de una tabla; su valor lo establece el implementador de la tabla.</span><span class="sxs-lookup"><span data-stu-id="552da-106">There is one cursor for each view of a table; its value is set by the table's implementer.</span></span> <span data-ttu-id="552da-107">Cuando un cliente o proveedor de servicios que usa la tabla realiza una llamada para cambiar la posición de la tabla, se restablece el valor del cursor.</span><span class="sxs-lookup"><span data-stu-id="552da-107">When a client or service provider using the table makes a call to change the position of the table, the value of the cursor is reset.</span></span> <span data-ttu-id="552da-108">La posición de una tabla se puede cambiar con:</span><span class="sxs-lookup"><span data-stu-id="552da-108">A table's position can be changed with:</span></span>
   
-- <span data-ttu-id="b40c1-109">Un marcador.</span><span class="sxs-lookup"><span data-stu-id="b40c1-109">A bookmark.</span></span>
+- <span data-ttu-id="552da-109">Un marcador.</span><span class="sxs-lookup"><span data-stu-id="552da-109">A bookmark.</span></span>
     
-- <span data-ttu-id="b40c1-110">Valor fraccional.</span><span class="sxs-lookup"><span data-stu-id="b40c1-110">A fractional value.</span></span>
+- <span data-ttu-id="552da-110">Valor fraccional.</span><span class="sxs-lookup"><span data-stu-id="552da-110">A fractional value.</span></span>
     
-- <span data-ttu-id="b40c1-111">Un filtro.</span><span class="sxs-lookup"><span data-stu-id="b40c1-111">A filter.</span></span>
+- <span data-ttu-id="552da-111">Un filtro.</span><span class="sxs-lookup"><span data-stu-id="552da-111">A filter.</span></span>
     
 

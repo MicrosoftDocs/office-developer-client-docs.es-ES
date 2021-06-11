@@ -15,12 +15,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417612"
 ---
-# <a name="mapi-application-development"></a><span data-ttu-id="7d150-103">Desarrollo de aplicaciones de MAPI</span><span class="sxs-lookup"><span data-stu-id="7d150-103">MAPI Application Development</span></span>
+# <a name="mapi-application-development"></a><span data-ttu-id="bcadf-103">Desarrollo de aplicaciones de MAPI</span><span class="sxs-lookup"><span data-stu-id="bcadf-103">MAPI Application Development</span></span>
 
   
   
-<span data-ttu-id="7d150-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7d150-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bcadf-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bcadf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7d150-105">Los temas de esta sección se aplican a los desarrolladores de aplicaciones cliente y proveedores de servicios.</span><span class="sxs-lookup"><span data-stu-id="7d150-105">The topics in this section apply to developers of client applications and service providers.</span></span> <span data-ttu-id="7d150-106">Estos temas se organizan en orden de importancia.</span><span class="sxs-lookup"><span data-stu-id="7d150-106">These topics are arranged in order of importance.</span></span> <span data-ttu-id="7d150-107">Es decir, los temas que son fundamentales para todos los programadores aparecen en primer lugar y los que tienen una importancia mínima o no se aplican a todos los programadores aparecen en último lugar.</span><span class="sxs-lookup"><span data-stu-id="7d150-107">That is, topics that are critical to all programmers appear first and topics that are either of minimal importance or do not apply to all programmers appear last.</span></span>
+<span data-ttu-id="bcadf-105">Los temas de esta sección se aplican a desarrolladores de aplicaciones cliente y proveedores de servicios.</span><span class="sxs-lookup"><span data-stu-id="bcadf-105">The topics in this section apply to developers of client applications and service providers.</span></span> <span data-ttu-id="bcadf-106">Estos temas se organizan en orden de importancia.</span><span class="sxs-lookup"><span data-stu-id="bcadf-106">These topics are arranged in order of importance.</span></span> <span data-ttu-id="bcadf-107">Es decir, los temas que son críticos para todos los programadores aparecen primero y los temas que son de importancia mínima o no se aplican a todos los programadores aparecen en último lugar.</span><span class="sxs-lookup"><span data-stu-id="bcadf-107">That is, topics that are critical to all programmers appear first and topics that are either of minimal importance or do not apply to all programmers appear last.</span></span>
   
 

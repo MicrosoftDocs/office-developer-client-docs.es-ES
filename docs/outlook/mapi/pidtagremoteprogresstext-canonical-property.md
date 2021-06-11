@@ -19,46 +19,46 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417017"
 ---
-# <a name="pidtagremoteprogresstext-canonical-property"></a><span data-ttu-id="a8bc6-103">Propiedad canónica PidTagRemoteProgressText</span><span class="sxs-lookup"><span data-stu-id="a8bc6-103">PidTagRemoteProgressText Canonical Property</span></span>
+# <a name="pidtagremoteprogresstext-canonical-property"></a><span data-ttu-id="5ad23-103">Propiedad canónica PidTagRemoteProgressText</span><span class="sxs-lookup"><span data-stu-id="5ad23-103">PidTagRemoteProgressText Canonical Property</span></span>
 
   
   
-<span data-ttu-id="a8bc6-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a8bc6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5ad23-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5ad23-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a8bc6-105">Esta propiedad contiene una cadena que indica el estado de una transferencia remota.</span><span class="sxs-lookup"><span data-stu-id="a8bc6-105">This property contains a string that indicates the status of a remote transfer.</span></span>
+<span data-ttu-id="5ad23-105">Esta propiedad contiene una cadena que indica el estado de una transferencia remota.</span><span class="sxs-lookup"><span data-stu-id="5ad23-105">This property contains a string that indicates the status of a remote transfer.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a8bc6-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="a8bc6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a8bc6-107">PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W</span><span class="sxs-lookup"><span data-stu-id="a8bc6-107">PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W</span></span>  <br/> |
-|<span data-ttu-id="a8bc6-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="a8bc6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="a8bc6-109">0x3E0C</span><span class="sxs-lookup"><span data-stu-id="a8bc6-109">0x3E0C</span></span>  <br/> |
-|<span data-ttu-id="a8bc6-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="a8bc6-110">Data type:</span></span>  <br/> |<span data-ttu-id="a8bc6-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="a8bc6-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="a8bc6-112">Área:</span><span class="sxs-lookup"><span data-stu-id="a8bc6-112">Area:</span></span>  <br/> |<span data-ttu-id="a8bc6-113">Estado MAPI</span><span class="sxs-lookup"><span data-stu-id="a8bc6-113">MAPI Status</span></span>  <br/> |
+|<span data-ttu-id="5ad23-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="5ad23-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5ad23-107">PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W</span><span class="sxs-lookup"><span data-stu-id="5ad23-107">PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W</span></span>  <br/> |
+|<span data-ttu-id="5ad23-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="5ad23-108">Identifier:</span></span>  <br/> |<span data-ttu-id="5ad23-109">0x3E0C</span><span class="sxs-lookup"><span data-stu-id="5ad23-109">0x3E0C</span></span>  <br/> |
+|<span data-ttu-id="5ad23-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="5ad23-110">Data type:</span></span>  <br/> |<span data-ttu-id="5ad23-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="5ad23-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="5ad23-112">Área:</span><span class="sxs-lookup"><span data-stu-id="5ad23-112">Area:</span></span>  <br/> |<span data-ttu-id="5ad23-113">Estado MAPI</span><span class="sxs-lookup"><span data-stu-id="5ad23-113">MAPI Status</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a8bc6-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a8bc6-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5ad23-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="5ad23-114">Remarks</span></span>
 
-<span data-ttu-id="a8bc6-115">Se pasa un código numérico asociado a este texto en **la PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="a8bc6-115">A numeric code associated with this text is passed in the **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)) property.</span></span>
+<span data-ttu-id="5ad23-115">Se pasa un código numérico asociado a este texto en **la propiedad PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="5ad23-115">A numeric code associated with this text is passed in the **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)) property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="a8bc6-116">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="a8bc6-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="5ad23-116">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="5ad23-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="a8bc6-117">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="a8bc6-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="5ad23-117">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="5ad23-117">Header files</span></span>
 
-<span data-ttu-id="a8bc6-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="a8bc6-118">Mapidefs.h</span></span>
+<span data-ttu-id="5ad23-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5ad23-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="a8bc6-119">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="a8bc6-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="5ad23-119">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="5ad23-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="a8bc6-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="a8bc6-120">Mapitags.h</span></span>
+<span data-ttu-id="5ad23-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="5ad23-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="a8bc6-121">Contiene definiciones de propiedades enumeradas como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="a8bc6-121">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="5ad23-121">Contiene definiciones de propiedades enumeradas como propiedades asociadas.</span><span class="sxs-lookup"><span data-stu-id="5ad23-121">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="a8bc6-122">Consulte también</span><span class="sxs-lookup"><span data-stu-id="a8bc6-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5ad23-122">Vea también</span><span class="sxs-lookup"><span data-stu-id="5ad23-122">See also</span></span>
 
 
 
-[<span data-ttu-id="a8bc6-123">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="a8bc6-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="5ad23-123">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="5ad23-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="a8bc6-124">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="a8bc6-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="5ad23-124">Propiedades canónicas MAPI</span><span class="sxs-lookup"><span data-stu-id="5ad23-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="a8bc6-125">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="a8bc6-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="5ad23-125">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="5ad23-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="a8bc6-126">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="a8bc6-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="5ad23-126">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="5ad23-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

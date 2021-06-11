@@ -15,15 +15,15 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419439"
 ---
-# <a name="ltid"></a><span data-ttu-id="85e93-103">LTID</span><span class="sxs-lookup"><span data-stu-id="85e93-103">LTID</span></span>
+# <a name="ltid"></a><span data-ttu-id="82e54-103">LTID</span><span class="sxs-lookup"><span data-stu-id="82e54-103">LTID</span></span>
 
   
   
-<span data-ttu-id="85e93-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="85e93-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="82e54-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="82e54-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="85e93-105">Identificador genérico a largo plazo de un objeto en un almacén de Outlook.</span><span class="sxs-lookup"><span data-stu-id="85e93-105">Generic Long Term ID of an object in an Outlook store.</span></span>
+<span data-ttu-id="82e54-105">Identificador de largo plazo genérico de un objeto en un Outlook almacén.</span><span class="sxs-lookup"><span data-stu-id="82e54-105">Generic Long Term ID of an object in an Outlook store.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="85e93-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="85e93-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="82e54-106">Información rápida</span><span class="sxs-lookup"><span data-stu-id="82e54-106">Quick info</span></span>
 
 ```cpp
 struct LTID 
@@ -34,27 +34,27 @@ struct LTID
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="85e93-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="85e93-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="82e54-107">Miembros</span><span class="sxs-lookup"><span data-stu-id="82e54-107">Members</span></span>
 
- <span data-ttu-id="85e93-108">_guid_</span><span class="sxs-lookup"><span data-stu-id="85e93-108">_guid_</span></span>
+ <span data-ttu-id="82e54-108">_guid_</span><span class="sxs-lookup"><span data-stu-id="82e54-108">_guid_</span></span>
   
-- <span data-ttu-id="85e93-109">[salida] GUID del servidor que creó el objeto.</span><span class="sxs-lookup"><span data-stu-id="85e93-109">[out] The GUID of the server that created the object.</span></span>
+- <span data-ttu-id="82e54-109">[salida] GUID del servidor que creó el objeto.</span><span class="sxs-lookup"><span data-stu-id="82e54-109">[out] The GUID of the server that created the object.</span></span>
     
- <span data-ttu-id="85e93-110">_globcnt_</span><span class="sxs-lookup"><span data-stu-id="85e93-110">_globcnt_</span></span>
+ <span data-ttu-id="82e54-110">_globcnt_</span><span class="sxs-lookup"><span data-stu-id="82e54-110">_globcnt_</span></span>
   
-- <span data-ttu-id="85e93-111">[salida] Un número único de 6 bytes que identifica el objeto dentro del almacén de Outlook.</span><span class="sxs-lookup"><span data-stu-id="85e93-111">[out] A 6-byte unique number that identifies the object within the Outlook store.</span></span>
+- <span data-ttu-id="82e54-111">[salida] Un número único de 6 bytes que identifica el objeto dentro del Outlook almacén.</span><span class="sxs-lookup"><span data-stu-id="82e54-111">[out] A 6-byte unique number that identifies the object within the Outlook store.</span></span>
     
- <span data-ttu-id="85e93-112">_wLevel_</span><span class="sxs-lookup"><span data-stu-id="85e93-112">_wLevel_</span></span>
+ <span data-ttu-id="82e54-112">_wLevel_</span><span class="sxs-lookup"><span data-stu-id="82e54-112">_wLevel_</span></span>
   
-- <span data-ttu-id="85e93-113">[salida] Nivel de jerarquía del identificador de entrada de una carpeta pública favorita de Exchange.</span><span class="sxs-lookup"><span data-stu-id="85e93-113">[out] The hierarchy level of the entry ID for an Exchange Favorite Public folder.</span></span>
+- <span data-ttu-id="82e54-113">[salida] Nivel de jerarquía del identificador de entrada de una Exchange carpeta pública favorita.</span><span class="sxs-lookup"><span data-stu-id="82e54-113">[out] The hierarchy level of the entry ID for an Exchange Favorite Public folder.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="85e93-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="85e93-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="82e54-114">Vea también</span><span class="sxs-lookup"><span data-stu-id="82e54-114">See also</span></span>
 
 
 
-[<span data-ttu-id="85e93-115">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="85e93-115">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="82e54-115">Información sobre la API de replicación</span><span class="sxs-lookup"><span data-stu-id="82e54-115">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="85e93-116">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="85e93-116">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="82e54-116">Información sobre la máquina de estados de replicación</span><span class="sxs-lookup"><span data-stu-id="82e54-116">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="85e93-117">FEID</span><span class="sxs-lookup"><span data-stu-id="85e93-117">FEID</span></span>](feid.md)
+[<span data-ttu-id="82e54-117">FEID</span><span class="sxs-lookup"><span data-stu-id="82e54-117">FEID</span></span>](feid.md)
 

@@ -1,5 +1,5 @@
 ---
-title: EditarRegistro (aplicación web personalizada de Access)
+title: Acción de macro EditRecord (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,21 +13,21 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421749"
 ---
-# <a name="editrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="a4723-103">EditarRegistro (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="a4723-103">EditRecord Macro Action (Access custom web app)</span></span>
+# <a name="editrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="b5870-103">Acción de macro EditRecord (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="b5870-103">EditRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="a4723-104">Coloca el registro actual en modo de edición.</span><span class="sxs-lookup"><span data-stu-id="a4723-104">Places the current record into edit mode.</span></span>
+<span data-ttu-id="b5870-104">Coloca el registro actual en modo de edición.</span><span class="sxs-lookup"><span data-stu-id="b5870-104">Places the current record into edit mode.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="a4723-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="a4723-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="b5870-p101">Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="b5870-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="a4723-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a4723-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b5870-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b5870-107">Syntax</span></span>
 
- <span data-ttu-id="a4723-108">**EditRecord**</span><span class="sxs-lookup"><span data-stu-id="a4723-108">**EditRecord**</span></span>
+ <span data-ttu-id="b5870-108">**EditRecord**</span><span class="sxs-lookup"><span data-stu-id="b5870-108">**EditRecord**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a4723-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="a4723-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5870-109">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b5870-109">Remarks</span></span>
 
-<span data-ttu-id="a4723-110">Use la **acción GuardarRegistro** para guardar los cambios realizados en el registro o la acción **DeshacerRegistro** para descartar los cambios.</span><span class="sxs-lookup"><span data-stu-id="a4723-110">Use the **SaveRecord** action to save changes made to the record, or the **UndoRecord** action to discard the changes.</span></span> 
+<span data-ttu-id="b5870-110">Use la **acción GuardarRegistro** para guardar los cambios realizados en el registro o la acción **UndoRecord** para descartar los cambios.</span><span class="sxs-lookup"><span data-stu-id="b5870-110">Use the **SaveRecord** action to save changes made to the record, or the **UndoRecord** action to discard the changes.</span></span> 
   
-<span data-ttu-id="a4723-111">La **acción EditarRegistro** equivale a seleccionar el **botón** Editar en la barra de acciones.</span><span class="sxs-lookup"><span data-stu-id="a4723-111">The **EditRecord** action is equivalent to selecting the **Edit** button on the action bar.</span></span> 
+<span data-ttu-id="b5870-111">La **acción EditarRegistro** equivale a seleccionar el **botón Editar** en la barra de acciones.</span><span class="sxs-lookup"><span data-stu-id="b5870-111">The **EditRecord** action is equivalent to selecting the **Edit** button on the action bar.</span></span> 
   
 

@@ -16,12 +16,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424647"
 ---
-# <a name="reference-a-cell-in-a-formula"></a><span data-ttu-id="05b76-102">Hacer referencia a una celda en una fórmula</span><span class="sxs-lookup"><span data-stu-id="05b76-102">Reference a Cell in a Formula</span></span>
+# <a name="reference-a-cell-in-a-formula"></a><span data-ttu-id="ce455-102">Hacer referencia a una celda en una fórmula</span><span class="sxs-lookup"><span data-stu-id="ce455-102">Reference a Cell in a Formula</span></span>
 
-1. <span data-ttu-id="05b76-103">Haga doble clic en la celda en la que desee colocar la referencia y, a continuación, sitúe el punto de inserción en el lugar que desee dentro de la fórmula.</span><span class="sxs-lookup"><span data-stu-id="05b76-103">Double-click the cell in which you want to place the reference, and then place the insertion point at the location you want in the formula.</span></span>
+1. <span data-ttu-id="ce455-103">Haga doble clic en la celda en la que desee colocar la referencia y, a continuación, sitúe el punto de inserción en el lugar que desee dentro de la fórmula.</span><span class="sxs-lookup"><span data-stu-id="ce455-103">Double-click the cell in which you want to place the reference, and then place the insertion point at the location you want in the formula.</span></span>
     
-2. <span data-ttu-id="05b76-104">Haga clic en la celda de la lista a la que desee hacer referencia.</span><span class="sxs-lookup"><span data-stu-id="05b76-104">Click the cell you want to reference.</span></span>
+2. <span data-ttu-id="ce455-104">Haga clic en la celda de la lista a la que desee hacer referencia.</span><span class="sxs-lookup"><span data-stu-id="ce455-104">Click the cell you want to reference.</span></span>
     
-3. <span data-ttu-id="05b76-p101">Presione ENTRAR para aceptar la fórmula. O presione ESC para cancelar los cambios.</span><span class="sxs-lookup"><span data-stu-id="05b76-p101">Press ENTER to accept the formula. Or press ESC to cancel the changes.</span></span>
+3. <span data-ttu-id="ce455-p101">Presione ENTRAR para aceptar la fórmula. O presione ESC para cancelar los cambios.</span><span class="sxs-lookup"><span data-stu-id="ce455-p101">Press ENTER to accept the formula. Or press ESC to cancel the changes.</span></span>
     
 

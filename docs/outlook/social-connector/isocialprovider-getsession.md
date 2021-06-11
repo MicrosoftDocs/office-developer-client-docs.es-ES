@@ -15,25 +15,25 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419551"
 ---
-# <a name="isocialprovidergetsession"></a><span data-ttu-id="63a87-103">ISocialProvider::GetSession</span><span class="sxs-lookup"><span data-stu-id="63a87-103">ISocialProvider::GetSession</span></span>
+# <a name="isocialprovidergetsession"></a><span data-ttu-id="2bfe8-103">ISocialProvider::GetSession</span><span class="sxs-lookup"><span data-stu-id="2bfe8-103">ISocialProvider::GetSession</span></span>
 
-<span data-ttu-id="63a87-104">Obtiene una [interfaz ISocialSession.](isocialsessioniunknown.md)</span><span class="sxs-lookup"><span data-stu-id="63a87-104">Gets an [ISocialSession](isocialsessioniunknown.md) interface.</span></span> 
+<span data-ttu-id="2bfe8-104">Obtiene una [interfaz ISocialSession.](isocialsessioniunknown.md)</span><span class="sxs-lookup"><span data-stu-id="2bfe8-104">Gets an [ISocialSession](isocialsessioniunknown.md) interface.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetSession([out, retval] ISocialSession** session);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="63a87-105">Parámetros</span><span class="sxs-lookup"><span data-stu-id="63a87-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2bfe8-105">Parámetros</span><span class="sxs-lookup"><span data-stu-id="2bfe8-105">Parameters</span></span>
 
-<span data-ttu-id="63a87-106">_session_</span><span class="sxs-lookup"><span data-stu-id="63a87-106">_session_</span></span>
+<span data-ttu-id="2bfe8-106">_session_</span><span class="sxs-lookup"><span data-stu-id="2bfe8-106">_session_</span></span>
   
-> <span data-ttu-id="63a87-107">[salida] Una interfaz **ISocialSession**.</span><span class="sxs-lookup"><span data-stu-id="63a87-107">[out] An **ISocialSession** interface.</span></span> 
+> <span data-ttu-id="2bfe8-107">[salida] Una interfaz **ISocialSession**.</span><span class="sxs-lookup"><span data-stu-id="2bfe8-107">[out] An **ISocialSession** interface.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="63a87-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="63a87-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2bfe8-108">Comentarios</span><span class="sxs-lookup"><span data-stu-id="2bfe8-108">Remarks</span></span>
 
-<span data-ttu-id="63a87-109">Outlook Social Connector (OSC) usa la **interfaz ISocialSession** para iniciar sesión en la red social.</span><span class="sxs-lookup"><span data-stu-id="63a87-109">The Outlook Social Connector (OSC) uses the **ISocialSession** interface to log on to the social network.</span></span> 
+<span data-ttu-id="2bfe8-109">El Outlook Social Connector (OSC) usa la interfaz **ISocialSession** para iniciar sesión en la red social.</span><span class="sxs-lookup"><span data-stu-id="2bfe8-109">The Outlook Social Connector (OSC) uses the **ISocialSession** interface to log on to the social network.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="63a87-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="63a87-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2bfe8-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="2bfe8-110">See also</span></span>
 
-- [<span data-ttu-id="63a87-111">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="63a87-111">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="2bfe8-111">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="2bfe8-111">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

@@ -16,31 +16,31 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417437"
 ---
-# <a name="active-cell-layers-section"></a><span data-ttu-id="82cc1-104">Celda Active (Sección de capas)</span><span class="sxs-lookup"><span data-stu-id="82cc1-104">Active Cell (Layers Section)</span></span>
+# <a name="active-cell-layers-section"></a><span data-ttu-id="3c719-104">Celda Active (Sección de capas)</span><span class="sxs-lookup"><span data-stu-id="3c719-104">Active Cell (Layers Section)</span></span>
 
-<span data-ttu-id="82cc1-p102">Especifica si la capa está activa. Las formas sin capas preasignadas se asignan a las capas activas cuando se colocan en la página de dibujo.</span><span class="sxs-lookup"><span data-stu-id="82cc1-p102">Specifies whether the layer is active. Shapes without pre-assigned layers are assigned to the active layer(s) when you drag them onto the drawing page.</span></span>
+<span data-ttu-id="3c719-p102">Especifica si la capa está activa. Las formas sin capas preasignadas se asignan a las capas activas cuando se colocan en la página de dibujo.</span><span class="sxs-lookup"><span data-stu-id="3c719-p102">Specifies whether the layer is active. Shapes without pre-assigned layers are assigned to the active layer(s) when you drag them onto the drawing page.</span></span>
   
-|<span data-ttu-id="82cc1-107">**Valor**</span><span class="sxs-lookup"><span data-stu-id="82cc1-107">**Value**</span></span>|<span data-ttu-id="82cc1-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="82cc1-108">**Description**</span></span>|
+|<span data-ttu-id="3c719-107">**Valor**</span><span class="sxs-lookup"><span data-stu-id="3c719-107">**Value**</span></span>|<span data-ttu-id="3c719-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="3c719-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="82cc1-109">TRUE</span><span class="sxs-lookup"><span data-stu-id="82cc1-109">TRUE</span></span>  <br/> |<span data-ttu-id="82cc1-110">La capa está activa.</span><span class="sxs-lookup"><span data-stu-id="82cc1-110">Layer is active.</span></span>  <br/> |
-|<span data-ttu-id="82cc1-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="82cc1-111">FALSE</span></span>  <br/> |<span data-ttu-id="82cc1-112">La capa no está activa.</span><span class="sxs-lookup"><span data-stu-id="82cc1-112">Layer is not active.</span></span>  <br/> |
+|<span data-ttu-id="3c719-109">TRUE</span><span class="sxs-lookup"><span data-stu-id="3c719-109">TRUE</span></span>  <br/> |<span data-ttu-id="3c719-110">La capa está activa.</span><span class="sxs-lookup"><span data-stu-id="3c719-110">Layer is active.</span></span>  <br/> |
+|<span data-ttu-id="3c719-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="3c719-111">FALSE</span></span>  <br/> |<span data-ttu-id="3c719-112">La capa no está activa.</span><span class="sxs-lookup"><span data-stu-id="3c719-112">Layer is not active.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="82cc1-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="82cc1-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3c719-113">Comentarios</span><span class="sxs-lookup"><span data-stu-id="3c719-113">Remarks</span></span>
 
-<span data-ttu-id="82cc1-114">El valor de esta celda corresponde a la opción **Activar** del cuadro de diálogo **Propiedades de las capas** (en el grupo **Edición**, en la ficha **Inicio**, haga clic en **Capas** y, a continuación, en **Propiedades de las capas**).</span><span class="sxs-lookup"><span data-stu-id="82cc1-114">The value in this cell corresponds to the **Active** setting in the **Layer Properties** dialog box (in the **Editing** group on the **Home** tab, click **Layers**, and then click **Layer Properties**).</span></span>
+<span data-ttu-id="3c719-114">El valor de esta celda corresponde a la opción **Activar** del cuadro de diálogo **Propiedades de las capas** (en el grupo **Edición**, en la ficha **Inicio**, haga clic en **Capas** y, a continuación, en **Propiedades de las capas**).</span><span class="sxs-lookup"><span data-stu-id="3c719-114">The value in this cell corresponds to the **Active** setting in the **Layer Properties** dialog box (in the **Editing** group on the **Home** tab, click **Layers**, and then click **Layer Properties**).</span></span>
   
-<span data-ttu-id="82cc1-115">Para obtener una referencia a la celda Active por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="82cc1-115">To get a reference to the Active cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="3c719-115">Para obtener una referencia a la celda Active por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice:</span><span class="sxs-lookup"><span data-stu-id="3c719-115">To get a reference to the Active cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="82cc1-116">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="82cc1-116">Cell name:</span></span>  <br/> |<span data-ttu-id="82cc1-117">Layers.Active[ *i*  ] donde  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="82cc1-117">Layers.Active[ *i*  ]           where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="3c719-116">Nombre de celda:</span><span class="sxs-lookup"><span data-stu-id="3c719-116">Cell name:</span></span>  <br/> |<span data-ttu-id="3c719-117">Layers.Active[ *i*  ] donde  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="3c719-117">Layers.Active[ *i*  ]           where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="82cc1-118">Para obtener una referencia a la celda Active por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="82cc1-118">To get a reference to the Active cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="3c719-118">Para obtener una referencia a la celda Active por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes:</span><span class="sxs-lookup"><span data-stu-id="3c719-118">To get a reference to the Active cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="82cc1-119">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="82cc1-119">Section index:</span></span>  <br/> |<span data-ttu-id="82cc1-120">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="82cc1-120">**visSectionLayer**</span></span> <br/> |
-|<span data-ttu-id="82cc1-121">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="82cc1-121">Row index:</span></span>  <br/> |<span data-ttu-id="82cc1-122">**visRowLayer**  +   *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="82cc1-122">**visRowLayer** +  *i*           where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="82cc1-123">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="82cc1-123">Cell index:</span></span>  <br/> |<span data-ttu-id="82cc1-124">**visLayerActive**</span><span class="sxs-lookup"><span data-stu-id="82cc1-124">**visLayerActive**</span></span> <br/> |
+|<span data-ttu-id="3c719-119">Índice de sección:</span><span class="sxs-lookup"><span data-stu-id="3c719-119">Section index:</span></span>  <br/> |<span data-ttu-id="3c719-120">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="3c719-120">**visSectionLayer**</span></span> <br/> |
+|<span data-ttu-id="3c719-121">Índice de fila:</span><span class="sxs-lookup"><span data-stu-id="3c719-121">Row index:</span></span>  <br/> |<span data-ttu-id="3c719-122">**visRowLayer**  +   *i* donde *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="3c719-122">**visRowLayer** +  *i*           where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="3c719-123">Índice de celda:</span><span class="sxs-lookup"><span data-stu-id="3c719-123">Cell index:</span></span>  <br/> |<span data-ttu-id="3c719-124">**visLayerActive**</span><span class="sxs-lookup"><span data-stu-id="3c719-124">**visLayerActive**</span></span> <br/> |
    
 

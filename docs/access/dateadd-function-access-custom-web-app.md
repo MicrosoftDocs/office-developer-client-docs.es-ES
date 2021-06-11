@@ -13,49 +13,49 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423205"
 ---
-# <a name="dateadd-function-access-custom-web-app"></a><span data-ttu-id="e8ccc-103">Función DateAdd (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="e8ccc-103">DateAdd function (Access custom web app)</span></span>
+# <a name="dateadd-function-access-custom-web-app"></a><span data-ttu-id="50c84-103">Función DateAdd (aplicación web personalizada de Access)</span><span class="sxs-lookup"><span data-stu-id="50c84-103">DateAdd function (Access custom web app)</span></span>
 
-<span data-ttu-id="e8ccc-104">Devuelve una fecha especificada con el intervalo especificado de número (entero positivo o negativo) que se agrega a una parte de fecha especificada de la fecha.</span><span class="sxs-lookup"><span data-stu-id="e8ccc-104">Returns a specified date with the specified number interval (positive or negative integer) added to a specified date part of that date.</span></span>
+<span data-ttu-id="50c84-104">Devuelve una fecha especificada con el intervalo especificado de número (entero positivo o negativo) que se agrega a una parte de fecha especificada de la fecha.</span><span class="sxs-lookup"><span data-stu-id="50c84-104">Returns a specified date with the specified number interval (positive or negative integer) added to a specified date part of that date.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="e8ccc-p101">La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span><span class="sxs-lookup"><span data-stu-id="e8ccc-p101">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
+> <span data-ttu-id="50c84-p101">La característica de almacenamiento en la nube descrita en este artículo no es compatible con Office 2013 ni Office 2016 y puede provocar el siguiente error: >  *Estamos teniendo problemas con el servidor, por lo que ahora mismo no podemos agregar \< servicio \>. Inténtelo de nuevo más tarde.* > En el caso del almacenamiento en la nube para Office Online, Office para iOS y Office para Android, puede buscar en nuestro [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span><span class="sxs-lookup"><span data-stu-id="50c84-p101">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="e8ccc-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e8ccc-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="50c84-107">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="50c84-107">Syntax</span></span>
 
-<span data-ttu-id="e8ccc-108">**DateAdd** (*DatePart*, *Number*, *Date*)</span><span class="sxs-lookup"><span data-stu-id="e8ccc-108">**DateAdd** (*DatePart*, *Number*, *Date*)</span></span> 
+<span data-ttu-id="50c84-108">**DateAdd** (*DatePart*, *Number*, *Date*)</span><span class="sxs-lookup"><span data-stu-id="50c84-108">**DateAdd** (*DatePart*, *Number*, *Date*)</span></span> 
   
-<span data-ttu-id="e8ccc-109">La función **DateAdd** contiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="e8ccc-109">The **DateAdd** function contains the following arguments.</span></span> 
+<span data-ttu-id="50c84-109">La función **DateAdd** contiene los siguientes argumentos.</span><span class="sxs-lookup"><span data-stu-id="50c84-109">The **DateAdd** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="e8ccc-110">**Nombre del argumento**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-110">**Argument name**</span></span>|<span data-ttu-id="e8ccc-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-111">**Description**</span></span>|
+|<span data-ttu-id="50c84-110">**Nombre del argumento**</span><span class="sxs-lookup"><span data-stu-id="50c84-110">**Argument name**</span></span>|<span data-ttu-id="50c84-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="50c84-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="e8ccc-112">*DatePart*</span><span class="sxs-lookup"><span data-stu-id="e8ccc-112">*DatePart*</span></span>  <br/> |<span data-ttu-id="e8ccc-p102">La parte de la  *Fecha*  a la que se agrega un entero. Consulte la sección Comentarios para obtener una lista de configuraciones válidas.  </span><span class="sxs-lookup"><span data-stu-id="e8ccc-p102">The part of  *Date*  to which an integer number is added. Refer to the Remarks section for the list of valid settings.  </span></span><br/> |
-| <span data-ttu-id="e8ccc-115">*Número*</span><span class="sxs-lookup"><span data-stu-id="e8ccc-115">*Number*</span></span>  <br/> |<span data-ttu-id="e8ccc-p103">Es una expresión que se puede resolver en un entero que se agrega a  *ParcFecha*  de  *Fecha*  . Si especifica un valor con una fracción decimal, la fracción se trunca.  </span><span class="sxs-lookup"><span data-stu-id="e8ccc-p103">Is an expression that can be resolved to an integer that is added to a  *DatePart*  of  *Date*  . If you specify a value with a decimal fraction, the fraction is truncated.  </span></span><br/> |
-| <span data-ttu-id="e8ccc-118">*Fecha*</span><span class="sxs-lookup"><span data-stu-id="e8ccc-118">*Date*</span></span>  <br/> |<span data-ttu-id="e8ccc-p104">Una expresión que se puede resolver en un valor Fecha/Hora. La expresión de argumento  *Fecha*  , la expresión de columna, la variable definida por el usuario o el literal de cadena.  </span><span class="sxs-lookup"><span data-stu-id="e8ccc-p104">An expression that can be resolved to a Date/Time value. The  *Date*  argument expression, column expression, user-defined variable or string literal.  </span></span><br/> |
+| <span data-ttu-id="50c84-112">*DatePart*</span><span class="sxs-lookup"><span data-stu-id="50c84-112">*DatePart*</span></span>  <br/> |<span data-ttu-id="50c84-p102">La parte de la  *Fecha*  a la que se agrega un entero. Consulte la sección Comentarios para obtener una lista de configuraciones válidas.  </span><span class="sxs-lookup"><span data-stu-id="50c84-p102">The part of  *Date*  to which an integer number is added. Refer to the Remarks section for the list of valid settings.  </span></span><br/> |
+| <span data-ttu-id="50c84-115">*Número*</span><span class="sxs-lookup"><span data-stu-id="50c84-115">*Number*</span></span>  <br/> |<span data-ttu-id="50c84-p103">Es una expresión que se puede resolver en un entero que se agrega a  *ParcFecha*  de  *Fecha*  . Si especifica un valor con una fracción decimal, la fracción se trunca.  </span><span class="sxs-lookup"><span data-stu-id="50c84-p103">Is an expression that can be resolved to an integer that is added to a  *DatePart*  of  *Date*  . If you specify a value with a decimal fraction, the fraction is truncated.  </span></span><br/> |
+| <span data-ttu-id="50c84-118">*Fecha*</span><span class="sxs-lookup"><span data-stu-id="50c84-118">*Date*</span></span>  <br/> |<span data-ttu-id="50c84-p104">Una expresión que se puede resolver en un valor Fecha/Hora. La expresión de argumento  *Fecha*  , la expresión de columna, la variable definida por el usuario o el literal de cadena.  </span><span class="sxs-lookup"><span data-stu-id="50c84-p104">An expression that can be resolved to a Date/Time value. The  *Date*  argument expression, column expression, user-defined variable or string literal.  </span></span><br/> |
    
-## <a name="remarks"></a><span data-ttu-id="e8ccc-121">Comentarios</span><span class="sxs-lookup"><span data-stu-id="e8ccc-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="50c84-121">Comentarios</span><span class="sxs-lookup"><span data-stu-id="50c84-121">Remarks</span></span>
 
-<span data-ttu-id="e8ccc-122">La siguiente tabla muestra todos los argumentos  *ParcFecha*  válidos.</span><span class="sxs-lookup"><span data-stu-id="e8ccc-122">The following table lists all valid  *DatePart*  arguments.</span></span> 
+<span data-ttu-id="50c84-122">La siguiente tabla muestra todos los argumentos  *ParcFecha*  válidos.</span><span class="sxs-lookup"><span data-stu-id="50c84-122">The following table lists all valid  *DatePart*  arguments.</span></span> 
   
-|<span data-ttu-id="e8ccc-123">***DatePart***</span><span class="sxs-lookup"><span data-stu-id="e8ccc-123">***DatePart***</span></span>|
+|<span data-ttu-id="50c84-123">***DatePart***</span><span class="sxs-lookup"><span data-stu-id="50c84-123">***DatePart***</span></span>|
 |:-----|
-|<span data-ttu-id="e8ccc-124">**year**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-124">**year**</span></span> <br/> |
-|<span data-ttu-id="e8ccc-125">**quarter**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-125">**quarter**</span></span> <br/> |
-|<span data-ttu-id="e8ccc-126">**month**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-126">**month**</span></span> <br/> |
-|<span data-ttu-id="e8ccc-127">**dayofyear**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-127">**dayofyear**</span></span> <br/> |
-|<span data-ttu-id="e8ccc-128">**day**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-128">**day**</span></span> <br/> |
-|<span data-ttu-id="e8ccc-129">**week**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-129">**week**</span></span> <br/> |
-|<span data-ttu-id="e8ccc-130">**hour**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-130">**hour**</span></span> <br/> |
-|<span data-ttu-id="e8ccc-131">**minute**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-131">**minute**</span></span> <br/> |
-|<span data-ttu-id="e8ccc-132">**second**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-132">**second**</span></span> <br/> |
-|<span data-ttu-id="e8ccc-133">**millisecond**</span><span class="sxs-lookup"><span data-stu-id="e8ccc-133">**millisecond**</span></span> <br/> |
+|<span data-ttu-id="50c84-124">**year**</span><span class="sxs-lookup"><span data-stu-id="50c84-124">**year**</span></span> <br/> |
+|<span data-ttu-id="50c84-125">**quarter**</span><span class="sxs-lookup"><span data-stu-id="50c84-125">**quarter**</span></span> <br/> |
+|<span data-ttu-id="50c84-126">**month**</span><span class="sxs-lookup"><span data-stu-id="50c84-126">**month**</span></span> <br/> |
+|<span data-ttu-id="50c84-127">**dayofyear**</span><span class="sxs-lookup"><span data-stu-id="50c84-127">**dayofyear**</span></span> <br/> |
+|<span data-ttu-id="50c84-128">**day**</span><span class="sxs-lookup"><span data-stu-id="50c84-128">**day**</span></span> <br/> |
+|<span data-ttu-id="50c84-129">**week**</span><span class="sxs-lookup"><span data-stu-id="50c84-129">**week**</span></span> <br/> |
+|<span data-ttu-id="50c84-130">**hour**</span><span class="sxs-lookup"><span data-stu-id="50c84-130">**hour**</span></span> <br/> |
+|<span data-ttu-id="50c84-131">**minute**</span><span class="sxs-lookup"><span data-stu-id="50c84-131">**minute**</span></span> <br/> |
+|<span data-ttu-id="50c84-132">**second**</span><span class="sxs-lookup"><span data-stu-id="50c84-132">**second**</span></span> <br/> |
+|<span data-ttu-id="50c84-133">**millisecond**</span><span class="sxs-lookup"><span data-stu-id="50c84-133">**millisecond**</span></span> <br/> |
    
-## <a name="example"></a><span data-ttu-id="e8ccc-134">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e8ccc-134">Example</span></span>
+## <a name="example"></a><span data-ttu-id="50c84-134">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="50c84-134">Example</span></span>
 
-<span data-ttu-id="e8ccc-135">La siguiente expresión calcula el último día del mes actual.</span><span class="sxs-lookup"><span data-stu-id="e8ccc-135">The following expression calculates the last day of the current month.</span></span>
+<span data-ttu-id="50c84-135">La siguiente expresión calcula el último día del mes actual.</span><span class="sxs-lookup"><span data-stu-id="50c84-135">The following expression calculates the last day of the current month.</span></span>
   
 `DateAdd(Day,-1,DateAdd(Month,DateDiff(Month,0,Today())+1,0))`
 
-<span data-ttu-id="e8ccc-136">La siguiente expresión calcula el último día del mes anterior.</span><span class="sxs-lookup"><span data-stu-id="e8ccc-136">The following expression calculates the last day of the previous month.</span></span>
+<span data-ttu-id="50c84-136">La siguiente expresión calcula el último día del mes anterior.</span><span class="sxs-lookup"><span data-stu-id="50c84-136">The following expression calculates the last day of the previous month.</span></span>
   
 `DateAdd(Day,-1,DateAdd(Month,DateDiff(Month,0,Today()),0))`
 
