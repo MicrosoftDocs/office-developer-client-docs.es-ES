@@ -16,34 +16,34 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438361"
 ---
-# <a name="evaltext-function"></a><span data-ttu-id="b0fc3-103">Función EVALTEXT</span><span class="sxs-lookup"><span data-stu-id="b0fc3-103">EVALTEXT Function</span></span>
+# <a name="evaltext-function"></a><span data-ttu-id="30295-103">Función EVALTEXT</span><span class="sxs-lookup"><span data-stu-id="30295-103">EVALTEXT Function</span></span>
 
-<span data-ttu-id="b0fc3-104">Evalúa el texto en  _shapename_ como si fuera una fórmula y devuelve el resultado.</span><span class="sxs-lookup"><span data-stu-id="b0fc3-104">Evaluates the text in  _shapename_ as if it were a formula and returns the result.</span></span> 
+<span data-ttu-id="30295-104">Evalúa el texto en  _shapename_ como si fuera una fórmula y devuelve el resultado.</span><span class="sxs-lookup"><span data-stu-id="30295-104">Evaluates the text in  _shapename_ as if it were a formula and returns the result.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="b0fc3-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="b0fc3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="30295-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="30295-105">Syntax</span></span>
 
-<span data-ttu-id="b0fc3-106">EVALTEXT(\*\* *shapename!theText* \*\* )</span><span class="sxs-lookup"><span data-stu-id="b0fc3-106">EVALTEXT(\*\* *shapename!theText* \*\* )</span></span> 
+<span data-ttu-id="30295-106">EVALTEXT(\*\* *shapename!theText* \*\* )</span><span class="sxs-lookup"><span data-stu-id="30295-106">EVALTEXT(\*\* *shapename!theText* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="b0fc3-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="b0fc3-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="30295-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="30295-107">Parameters</span></span>
 
-|<span data-ttu-id="b0fc3-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="b0fc3-108">**Name**</span></span>|<span data-ttu-id="b0fc3-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="b0fc3-109">**Required/Optional**</span></span>|<span data-ttu-id="b0fc3-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="b0fc3-110">**Data Type**</span></span>|<span data-ttu-id="b0fc3-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="b0fc3-111">**Description**</span></span>|
+|<span data-ttu-id="30295-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="30295-108">**Name**</span></span>|<span data-ttu-id="30295-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="30295-109">**Required/Optional**</span></span>|<span data-ttu-id="30295-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="30295-110">**Data Type**</span></span>|<span data-ttu-id="30295-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="30295-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="b0fc3-112">_shapename!theText_</span><span class="sxs-lookup"><span data-stu-id="b0fc3-112">_shapename!theText_</span></span> <br/> |<span data-ttu-id="b0fc3-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="b0fc3-113">Required</span></span>  <br/> |<span data-ttu-id="b0fc3-114">**String**</span><span class="sxs-lookup"><span data-stu-id="b0fc3-114">**String**</span></span> <br/> |<span data-ttu-id="b0fc3-115">Una celda que se desencadena cuando cambia la composición texto de la forma asociada.</span><span class="sxs-lookup"><span data-stu-id="b0fc3-115">A cell that is triggered when the associated shape's text composition changes.</span></span>  <br/> |
+| <span data-ttu-id="30295-112">_shapename!theText_</span><span class="sxs-lookup"><span data-stu-id="30295-112">_shapename!theText_</span></span> <br/> |<span data-ttu-id="30295-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="30295-113">Required</span></span>  <br/> |<span data-ttu-id="30295-114">**String**</span><span class="sxs-lookup"><span data-stu-id="30295-114">**String**</span></span> <br/> |<span data-ttu-id="30295-115">Una celda que se desencadena cuando cambia la composición texto de la forma asociada.</span><span class="sxs-lookup"><span data-stu-id="30295-115">A cell that is triggered when the associated shape's text composition changes.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="b0fc3-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="b0fc3-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="30295-116">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="30295-116">Return value</span></span>
 
-<span data-ttu-id="b0fc3-117">String</span><span class="sxs-lookup"><span data-stu-id="b0fc3-117">String</span></span>
+<span data-ttu-id="30295-117">Cadena</span><span class="sxs-lookup"><span data-stu-id="30295-117">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="b0fc3-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b0fc3-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="30295-118">Comentarios</span><span class="sxs-lookup"><span data-stu-id="30295-118">Remarks</span></span>
 
- <span data-ttu-id="b0fc3-119">_nombreDeForma_ se puede usar para hacer referencia al texto de una forma que no es la actual.</span><span class="sxs-lookup"><span data-stu-id="b0fc3-119">_shapename_ can be used to refer to the text of a shape other than the current shape.</span></span> 
+ <span data-ttu-id="30295-119">_nombreDeForma_ se puede usar para hacer referencia al texto de una forma que no es la actual.</span><span class="sxs-lookup"><span data-stu-id="30295-119">_shapename_ can be used to refer to the text of a shape other than the current shape.</span></span> 
   
-<span data-ttu-id="b0fc3-120">Si no hay ningún texto, el resultado es cero.</span><span class="sxs-lookup"><span data-stu-id="b0fc3-120">If there is no text, the result is zero.</span></span> <span data-ttu-id="b0fc3-121">Si el texto no se puede evaluar, la función devuelve un error.</span><span class="sxs-lookup"><span data-stu-id="b0fc3-121">If the text cannot be evaluated, the function returns an error.</span></span>
+<span data-ttu-id="30295-p101">Si no hay ningún texto, el resultado es cero. Si el texto no se puede evaluar, la función devuelve un error.</span><span class="sxs-lookup"><span data-stu-id="30295-p101">If there is no text, the result is zero. If the text cannot be evaluated, the function returns an error.</span></span>
   
-## <a name="example"></a><span data-ttu-id="b0fc3-122">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="b0fc3-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="30295-122">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="30295-122">Example</span></span>
 
-<span data-ttu-id="b0fc3-123">EVALTEXT(Line.2!theText)</span><span class="sxs-lookup"><span data-stu-id="b0fc3-123">EVALTEXT(Line.2!theText)</span></span> 
+<span data-ttu-id="30295-123">EVALTEXT(Line.2!theText)</span><span class="sxs-lookup"><span data-stu-id="30295-123">EVALTEXT(Line.2!theText)</span></span> 
   
-<span data-ttu-id="b0fc3-p102">Evalúa el texto que contiene la forma Línea.2. Por ejemplo, si Línea.2 contiene "4 cm + 0,5 cm", devuelve el valor 4,5 cm.</span><span class="sxs-lookup"><span data-stu-id="b0fc3-p102">Evaluates the text contained in the shape Line.2. For example, if Line.2 contains "4 ft + 0.5 ft", returns the value 4.5 ft.</span></span> 
+<span data-ttu-id="30295-p102">Evalúa el texto que contiene la forma Línea.2. Por ejemplo, si Línea.2 contiene "4 cm + 0,5 cm", devuelve el valor 4,5 cm.</span><span class="sxs-lookup"><span data-stu-id="30295-p102">Evaluates the text contained in the shape Line.2. For example, if Line.2 contains "4 ft + 0.5 ft", returns the value 4.5 ft.</span></span> 
   
 

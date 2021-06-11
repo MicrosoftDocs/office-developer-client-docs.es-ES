@@ -20,38 +20,38 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52062014"
 ---
-# <a name="imapiinitmonitorwait"></a><span data-ttu-id="74c4b-103">IMAPIInitMonitor::Wait</span><span class="sxs-lookup"><span data-stu-id="74c4b-103">IMAPIInitMonitor::Wait</span></span>
+# <a name="imapiinitmonitorwait"></a><span data-ttu-id="0e048-103">IMAPIInitMonitor::Wait</span><span class="sxs-lookup"><span data-stu-id="0e048-103">IMAPIInitMonitor::Wait</span></span>
   
-<span data-ttu-id="74c4b-104">**Se aplica a**: Outlook 2013 | Outlook 2016 | 2019</span><span class="sxs-lookup"><span data-stu-id="74c4b-104">**Applies to**: Outlook 2013 | Outlook 2016 | 2019</span></span>
+<span data-ttu-id="0e048-104">**Se aplica a**: Outlook 2013 | Outlook 2016 | 2019</span><span class="sxs-lookup"><span data-stu-id="0e048-104">**Applies to**: Outlook 2013 | Outlook 2016 | 2019</span></span>
   
-<span data-ttu-id="74c4b-105">Inicia una llamada BLOCKING en este subproceso, que devolverá cuando haya transcurrido el número especificado de milisegundos o cuando se haya inicializado MAPI.</span><span class="sxs-lookup"><span data-stu-id="74c4b-105">Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized.</span></span> <span data-ttu-id="74c4b-106">INFINITE se puede usar para una espera infinita.</span><span class="sxs-lookup"><span data-stu-id="74c4b-106">INFINITE can be used to for an infinite wait.</span></span>
+<span data-ttu-id="0e048-105">Inicia una llamada BLOCKING en este subproceso, que devolverá cuando haya transcurrido el número especificado de milisegundos o cuando se haya inicializado MAPI.</span><span class="sxs-lookup"><span data-stu-id="0e048-105">Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized.</span></span> <span data-ttu-id="0e048-106">INFINITE se puede usar para una espera infinita.</span><span class="sxs-lookup"><span data-stu-id="0e048-106">INFINITE can be used to for an infinite wait.</span></span>
 
 ```cpp
 HRESULT IMAPIInitMonitor::Wait(DWORD timeout)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="74c4b-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="74c4b-107">Parameters</span></span>
-<span data-ttu-id="74c4b-108">_tiempo de espera_</span><span class="sxs-lookup"><span data-stu-id="74c4b-108">_timeout_</span></span>
-> <span data-ttu-id="74c4b-109">[in] El número de milisegundos que hay que esperar a que se inicialice MAPI, puede pasar INFINITE (0xFFFFFFFF) para esperar para siempre.</span><span class="sxs-lookup"><span data-stu-id="74c4b-109">[in] The number of milliseconds to wait for MAPI to be initialized, you can pass INFINITE (0xFFFFFFFF) to wait forever.</span></span>
+## <a name="parameters"></a><span data-ttu-id="0e048-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="0e048-107">Parameters</span></span>
+<span data-ttu-id="0e048-108">_tiempo de espera_</span><span class="sxs-lookup"><span data-stu-id="0e048-108">_timeout_</span></span>
+> <span data-ttu-id="0e048-109">[in] El número de milisegundos que hay que esperar a que se inicialice MAPI, puede pasar INFINITE (0xFFFFFFFF) para esperar para siempre.</span><span class="sxs-lookup"><span data-stu-id="0e048-109">[in] The number of milliseconds to wait for MAPI to be initialized, you can pass INFINITE (0xFFFFFFFF) to wait forever.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="74c4b-110">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="74c4b-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0e048-110">Valor devuelto</span><span class="sxs-lookup"><span data-stu-id="0e048-110">Return value</span></span>
 
-<span data-ttu-id="74c4b-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="74c4b-111">S_OK</span></span>
-> <span data-ttu-id="74c4b-112">MAPI se ha inicializado correctamente.</span><span class="sxs-lookup"><span data-stu-id="74c4b-112">MAPI has been initialized successfully.</span></span>
+<span data-ttu-id="0e048-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="0e048-111">S_OK</span></span>
+> <span data-ttu-id="0e048-112">MAPI se ha inicializado correctamente.</span><span class="sxs-lookup"><span data-stu-id="0e048-112">MAPI has been initialized successfully.</span></span>
 
-<span data-ttu-id="74c4b-113">HRESULT_FROM_WIN32(ERROR_TIMEOUT)</span><span class="sxs-lookup"><span data-stu-id="74c4b-113">HRESULT_FROM_WIN32(ERROR_TIMEOUT)</span></span>
-> <span data-ttu-id="74c4b-114">Cuando se le da un tiempo de espera no infinito, esto indica que MAPI no se inicializó durante ese período.</span><span class="sxs-lookup"><span data-stu-id="74c4b-114">When given a non-infinite timeout this indicates MAPI was not initialized during that period.</span></span>
+<span data-ttu-id="0e048-113">HRESULT_FROM_WIN32(ERROR_TIMEOUT)</span><span class="sxs-lookup"><span data-stu-id="0e048-113">HRESULT_FROM_WIN32(ERROR_TIMEOUT)</span></span>
+> <span data-ttu-id="0e048-114">Cuando se le da un tiempo de espera no infinito, esto indica que MAPI no se inicializó durante ese período.</span><span class="sxs-lookup"><span data-stu-id="0e048-114">When given a non-infinite timeout this indicates MAPI was not initialized during that period.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="74c4b-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="74c4b-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0e048-115">Comentarios</span><span class="sxs-lookup"><span data-stu-id="0e048-115">Remarks</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="74c4b-116">Vea también</span><span class="sxs-lookup"><span data-stu-id="74c4b-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0e048-116">Vea también</span><span class="sxs-lookup"><span data-stu-id="0e048-116">See also</span></span>
 
-[<span data-ttu-id="74c4b-117">IMAPIInitMonitor</span><span class="sxs-lookup"><span data-stu-id="74c4b-117">IMAPIInitMonitor</span></span>](imapiinitmonitoriunknown.md)
+[<span data-ttu-id="0e048-117">IMAPIInitMonitor</span><span class="sxs-lookup"><span data-stu-id="0e048-117">IMAPIInitMonitor</span></span>](imapiinitmonitoriunknown.md)
 
-[<span data-ttu-id="74c4b-118">IMAPIInitMonitor::IsInitialized</span><span class="sxs-lookup"><span data-stu-id="74c4b-118">IMAPIInitMonitor::IsInitialized</span></span>](imapiinitmonitor-isinitialized.md)
+[<span data-ttu-id="0e048-118">IMAPIInitMonitor::IsInitialized</span><span class="sxs-lookup"><span data-stu-id="0e048-118">IMAPIInitMonitor::IsInitialized</span></span>](imapiinitmonitor-isinitialized.md)
 
-[<span data-ttu-id="74c4b-119">IMAPIInitMonitor::BeginWait</span><span class="sxs-lookup"><span data-stu-id="74c4b-119">IMAPIInitMonitor::BeginWait</span></span>](imapiinitmonitor-beginwait.md)
+[<span data-ttu-id="0e048-119">IMAPIInitMonitor::BeginWait</span><span class="sxs-lookup"><span data-stu-id="0e048-119">IMAPIInitMonitor::BeginWait</span></span>](imapiinitmonitor-beginwait.md)
 
-[<span data-ttu-id="74c4b-120">CreateMAPIInitializationMonitor</span><span class="sxs-lookup"><span data-stu-id="74c4b-120">CreateMAPIInitializationMonitor</span></span>](createmapiinitializationmonitor.md)
+[<span data-ttu-id="0e048-120">CreateMAPIInitializationMonitor</span><span class="sxs-lookup"><span data-stu-id="0e048-120">CreateMAPIInitializationMonitor</span></span>](createmapiinitializationmonitor.md)
 
-[<span data-ttu-id="74c4b-121">IMAPIWaitResult</span><span class="sxs-lookup"><span data-stu-id="74c4b-121">IMAPIWaitResult</span></span>](imapiwaitresultiunknown.md)
+[<span data-ttu-id="0e048-121">IMAPIWaitResult</span><span class="sxs-lookup"><span data-stu-id="0e048-121">IMAPIWaitResult</span></span>](imapiwaitresultiunknown.md)

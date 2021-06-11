@@ -19,42 +19,42 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439159"
 ---
-# <a name="pidtagcontactaddresstypes-canonical-property"></a><span data-ttu-id="782aa-103">Propiedad canónica PidTagContactAddressTypes</span><span class="sxs-lookup"><span data-stu-id="782aa-103">PidTagContactAddressTypes Canonical Property</span></span>
+# <a name="pidtagcontactaddresstypes-canonical-property"></a><span data-ttu-id="c93cf-103">Propiedad canónica PidTagContactAddressTypes</span><span class="sxs-lookup"><span data-stu-id="c93cf-103">PidTagContactAddressTypes Canonical Property</span></span>
 
   
   
-<span data-ttu-id="782aa-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="782aa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c93cf-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c93cf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="782aa-105">Contiene una lista de tipos de dirección para un contacto.</span><span class="sxs-lookup"><span data-stu-id="782aa-105">Contains a list of address types for a contact.</span></span>
+<span data-ttu-id="c93cf-105">Contiene una lista de tipos de direcciones para un contacto.</span><span class="sxs-lookup"><span data-stu-id="c93cf-105">Contains a list of address types for a contact.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="782aa-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="782aa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="782aa-107">PR_CONTACT_ADDRTYPES, PR_CONTACT_ADDRTYPES_A, PR_CONTACT_ADDRTYPES_W</span><span class="sxs-lookup"><span data-stu-id="782aa-107">PR_CONTACT_ADDRTYPES, PR_CONTACT_ADDRTYPES_A, PR_CONTACT_ADDRTYPES_W</span></span>  <br/> |
-|<span data-ttu-id="782aa-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="782aa-108">Identifier:</span></span>  <br/> |<span data-ttu-id="782aa-109">0x3A54</span><span class="sxs-lookup"><span data-stu-id="782aa-109">0x3A54</span></span>  <br/> |
-|<span data-ttu-id="782aa-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="782aa-110">Data type:</span></span>  <br/> |<span data-ttu-id="782aa-111">PT_MV_UNICODE, PT_MV_STRING8</span><span class="sxs-lookup"><span data-stu-id="782aa-111">PT_MV_UNICODE, PT_MV_STRING8</span></span>  <br/> |
-|<span data-ttu-id="782aa-112">Área:</span><span class="sxs-lookup"><span data-stu-id="782aa-112">Area:</span></span>  <br/> |<span data-ttu-id="782aa-113">Contacto</span><span class="sxs-lookup"><span data-stu-id="782aa-113">Contact</span></span>  <br/> |
+|<span data-ttu-id="c93cf-106">Propiedades asociadas:</span><span class="sxs-lookup"><span data-stu-id="c93cf-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c93cf-107">PR_CONTACT_ADDRTYPES, PR_CONTACT_ADDRTYPES_A, PR_CONTACT_ADDRTYPES_W</span><span class="sxs-lookup"><span data-stu-id="c93cf-107">PR_CONTACT_ADDRTYPES, PR_CONTACT_ADDRTYPES_A, PR_CONTACT_ADDRTYPES_W</span></span>  <br/> |
+|<span data-ttu-id="c93cf-108">Identificador:</span><span class="sxs-lookup"><span data-stu-id="c93cf-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c93cf-109">0x3A54</span><span class="sxs-lookup"><span data-stu-id="c93cf-109">0x3A54</span></span>  <br/> |
+|<span data-ttu-id="c93cf-110">Tipo de datos:</span><span class="sxs-lookup"><span data-stu-id="c93cf-110">Data type:</span></span>  <br/> |<span data-ttu-id="c93cf-111">PT_MV_UNICODE, PT_MV_STRING8</span><span class="sxs-lookup"><span data-stu-id="c93cf-111">PT_MV_UNICODE, PT_MV_STRING8</span></span>  <br/> |
+|<span data-ttu-id="c93cf-112">Área:</span><span class="sxs-lookup"><span data-stu-id="c93cf-112">Area:</span></span>  <br/> |<span data-ttu-id="c93cf-113">Contacto</span><span class="sxs-lookup"><span data-stu-id="c93cf-113">Contact</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="782aa-114">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="782aa-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c93cf-114">Recursos relacionados</span><span class="sxs-lookup"><span data-stu-id="c93cf-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="782aa-115">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="782aa-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c93cf-115">Archivos de encabezado</span><span class="sxs-lookup"><span data-stu-id="c93cf-115">Header files</span></span>
 
-<span data-ttu-id="782aa-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="782aa-116">Mapidefs.h</span></span>
+<span data-ttu-id="c93cf-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c93cf-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="782aa-117">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="782aa-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="c93cf-117">Proporciona definiciones de tipo de datos.</span><span class="sxs-lookup"><span data-stu-id="c93cf-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="782aa-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="782aa-118">Mapitags.h</span></span>
+<span data-ttu-id="c93cf-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="c93cf-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="782aa-119">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="782aa-119">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="c93cf-119">Contiene definiciones de propiedades enumeradas como nombres alternativos.</span><span class="sxs-lookup"><span data-stu-id="c93cf-119">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="782aa-120">Consulte también</span><span class="sxs-lookup"><span data-stu-id="782aa-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c93cf-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="c93cf-120">See also</span></span>
 
 
 
-[<span data-ttu-id="782aa-121">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="782aa-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c93cf-121">Propiedades MAPI</span><span class="sxs-lookup"><span data-stu-id="c93cf-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="782aa-122">Propiedades canónicas de MAPI</span><span class="sxs-lookup"><span data-stu-id="782aa-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c93cf-122">Propiedades canónicas MAPI</span><span class="sxs-lookup"><span data-stu-id="c93cf-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="782aa-123">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="782aa-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c93cf-123">Asignación de nombres de propiedades canónicas a nombres MAPI</span><span class="sxs-lookup"><span data-stu-id="c93cf-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="782aa-124">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="782aa-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c93cf-124">Asignación de nombres MAPI a nombres de propiedades canónicas</span><span class="sxs-lookup"><span data-stu-id="c93cf-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

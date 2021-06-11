@@ -1,5 +1,5 @@
 ---
-title: Elemento SnapAngles (Window_Type complexType) (VISIO XML)
+title: Elemento SnapAngles (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,44 +14,44 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540367"
 ---
-# <a name="snapangles-element-window_type-complextype-visio-xml"></a><span data-ttu-id="cf697-103">Elemento SnapAngles (Window_Type complexType) (VISIO XML)</span><span class="sxs-lookup"><span data-stu-id="cf697-103">SnapAngles element (Window_Type complexType) (Visio XML)</span></span>
+# <a name="snapangles-element-window_type-complextype-visio-xml"></a><span data-ttu-id="15062-103">Elemento SnapAngles (Window_Type complexType) (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="15062-103">SnapAngles element (Window_Type complexType) (Visio XML)</span></span>
 
-<span data-ttu-id="cf697-104">Contiene una colección de **elementos SnapAngle.**</span><span class="sxs-lookup"><span data-stu-id="cf697-104">Contains a collection of **SnapAngle** elements.</span></span> 
+<span data-ttu-id="15062-104">Contiene una colección de **elementos SnapAngle.**</span><span class="sxs-lookup"><span data-stu-id="15062-104">Contains a collection of **SnapAngle** elements.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="cf697-105">Información del elemento</span><span class="sxs-lookup"><span data-stu-id="cf697-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="15062-105">Información del elemento</span><span class="sxs-lookup"><span data-stu-id="15062-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="cf697-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="cf697-106">**Element type**</span></span> <br/> |[<span data-ttu-id="cf697-107">SnapAngles_Type</span><span class="sxs-lookup"><span data-stu-id="cf697-107">SnapAngles_Type</span></span>](snapangles_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="cf697-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="cf697-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="cf697-109">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="cf697-109">**Schema file**</span></span> <br/> |<span data-ttu-id="cf697-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="cf697-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="cf697-111">**Elementos de documento**</span><span class="sxs-lookup"><span data-stu-id="cf697-111">**Document parts**</span></span> <br/> |<span data-ttu-id="cf697-112">windows.xml</span><span class="sxs-lookup"><span data-stu-id="cf697-112">windows.xml</span></span>  <br/> |
+|<span data-ttu-id="15062-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="15062-106">**Element type**</span></span> <br/> |[<span data-ttu-id="15062-107">SnapAngles_Type</span><span class="sxs-lookup"><span data-stu-id="15062-107">SnapAngles_Type</span></span>](snapangles_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="15062-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="15062-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="15062-109">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="15062-109">**Schema file**</span></span> <br/> |<span data-ttu-id="15062-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="15062-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="15062-111">**Elementos de documento**</span><span class="sxs-lookup"><span data-stu-id="15062-111">**Document parts**</span></span> <br/> |<span data-ttu-id="15062-112">windows.xml</span><span class="sxs-lookup"><span data-stu-id="15062-112">windows.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="cf697-113">Definición</span><span class="sxs-lookup"><span data-stu-id="cf697-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="15062-113">Definición</span><span class="sxs-lookup"><span data-stu-id="15062-113">Definition</span></span>
 
 ```XML
 < xs:element name="SnapAngles" type="SnapAngles_Type" minOccurs="0" maxOccurs="1" >
 </xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="cf697-114">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="cf697-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="15062-114">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="15062-114">Elements and attributes</span></span>
 
-<span data-ttu-id="cf697-115">Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="cf697-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="15062-115">Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="15062-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="cf697-116">Elementos principales</span><span class="sxs-lookup"><span data-stu-id="cf697-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="15062-116">Elementos principales</span><span class="sxs-lookup"><span data-stu-id="15062-116">Parent elements</span></span>
 
-|<span data-ttu-id="cf697-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="cf697-117">**Element**</span></span>|<span data-ttu-id="cf697-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="cf697-118">**Type**</span></span>|<span data-ttu-id="cf697-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="cf697-119">**Description**</span></span>|
+|<span data-ttu-id="15062-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="15062-117">**Element**</span></span>|<span data-ttu-id="15062-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="15062-118">**Type**</span></span>|<span data-ttu-id="15062-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="15062-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="cf697-120">Window</span><span class="sxs-lookup"><span data-stu-id="cf697-120">Window</span></span>](window-element-windows_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="cf697-121">Window_Type</span><span class="sxs-lookup"><span data-stu-id="cf697-121">Window_Type</span></span>](window_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="cf697-122">Representa una ventana abierta en una instancia de Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="cf697-122">Represents an open window in a Microsoft Visio instance.</span></span>  <br/> |
+|[<span data-ttu-id="15062-120">Window</span><span class="sxs-lookup"><span data-stu-id="15062-120">Window</span></span>](window-element-windows_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="15062-121">Window_Type</span><span class="sxs-lookup"><span data-stu-id="15062-121">Window_Type</span></span>](window_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="15062-122">Representa una ventana abierta en una instancia de Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="15062-122">Represents an open window in a Microsoft Visio instance.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="cf697-123">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="cf697-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="15062-123">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="15062-123">Child elements</span></span>
 
-|<span data-ttu-id="cf697-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="cf697-124">**Element**</span></span>|<span data-ttu-id="cf697-125">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="cf697-125">**Type**</span></span>|<span data-ttu-id="cf697-126">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="cf697-126">**Description**</span></span>|
+|<span data-ttu-id="15062-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="15062-124">**Element**</span></span>|<span data-ttu-id="15062-125">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="15062-125">**Type**</span></span>|<span data-ttu-id="15062-126">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="15062-126">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="cf697-127">SnapAngle</span><span class="sxs-lookup"><span data-stu-id="cf697-127">SnapAngle</span></span>](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="cf697-128">SnapAngle_Type</span><span class="sxs-lookup"><span data-stu-id="cf697-128">SnapAngle_Type</span></span>](snapangle_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="cf697-129">Contiene un número de punto flotante que especifica un ángulo de ajuste en grados.</span><span class="sxs-lookup"><span data-stu-id="cf697-129">Contains a floating point number that specifies a snap angle in degrees.</span></span>  <br/> |
+|[<span data-ttu-id="15062-127">SnapAngle</span><span class="sxs-lookup"><span data-stu-id="15062-127">SnapAngle</span></span>](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="15062-128">SnapAngle_Type</span><span class="sxs-lookup"><span data-stu-id="15062-128">SnapAngle_Type</span></span>](snapangle_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="15062-129">Contiene un número de punto flotante que especifica un ángulo de ajuste en grados.</span><span class="sxs-lookup"><span data-stu-id="15062-129">Contains a floating point number that specifies a snap angle in degrees.</span></span>  <br/> |
    
-### <a name="attributes"></a><span data-ttu-id="cf697-130">Atributos</span><span class="sxs-lookup"><span data-stu-id="cf697-130">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="15062-130">Atributos</span><span class="sxs-lookup"><span data-stu-id="15062-130">Attributes</span></span>
 
-<span data-ttu-id="cf697-131">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="cf697-131">None.</span></span>
+<span data-ttu-id="15062-131">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="15062-131">None.</span></span>
   
 

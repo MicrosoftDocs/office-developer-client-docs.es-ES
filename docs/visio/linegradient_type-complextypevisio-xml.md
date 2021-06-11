@@ -13,17 +13,17 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541172"
 ---
-# <a name="linegradient_type-complextype-visio-xml"></a><span data-ttu-id="531a3-102">LineGradient_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="531a3-102">LineGradient_Type complexType (Visio XML)</span></span>
+# <a name="linegradient_type-complextype-visio-xml"></a><span data-ttu-id="636ef-102">LineGradient_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="636ef-102">LineGradient_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="531a3-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="531a3-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="636ef-103">Información de tipos</span><span class="sxs-lookup"><span data-stu-id="636ef-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="531a3-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="531a3-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="531a3-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="531a3-105">**Schema file**</span></span> <br/> |<span data-ttu-id="531a3-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="531a3-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="531a3-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="531a3-107">**Extension base**</span></span> <br/> |<span data-ttu-id="531a3-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="531a3-108">Section_Type</span></span>  <br/> |
+|<span data-ttu-id="636ef-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="636ef-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="636ef-105">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="636ef-105">**Schema file**</span></span> <br/> |<span data-ttu-id="636ef-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="636ef-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="636ef-107">**Base de extensión**</span><span class="sxs-lookup"><span data-stu-id="636ef-107">**Extension base**</span></span> <br/> |<span data-ttu-id="636ef-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="636ef-108">Section_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="531a3-109">Definición</span><span class="sxs-lookup"><span data-stu-id="531a3-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="636ef-109">Definición</span><span class="sxs-lookup"><span data-stu-id="636ef-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="LineGradient_Type">
@@ -42,18 +42,18 @@ ms.locfileid: "34541172"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="531a3-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="531a3-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="636ef-110">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="636ef-110">Elements and attributes</span></span>
 
-<span data-ttu-id="531a3-111">Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="531a3-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="636ef-111">Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="636ef-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="531a3-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="531a3-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="636ef-112">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="636ef-112">Child elements</span></span>
 
-|<span data-ttu-id="531a3-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="531a3-113">**Element**</span></span>|<span data-ttu-id="531a3-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="531a3-114">**Type**</span></span>|<span data-ttu-id="531a3-115">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="531a3-115">**Description**</span></span>|
+|<span data-ttu-id="636ef-113">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="636ef-113">**Element**</span></span>|<span data-ttu-id="636ef-114">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="636ef-114">**Type**</span></span>|<span data-ttu-id="636ef-115">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="636ef-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="531a3-116">Row</span><span class="sxs-lookup"><span data-stu-id="531a3-116">Row</span></span>](row-element-line-gradient-sectionvisio-xml.md) <br/> |[<span data-ttu-id="531a3-117">LineGradientRow_Type</span><span class="sxs-lookup"><span data-stu-id="531a3-117">LineGradientRow_Type</span></span>](linegradientrow_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="636ef-116">Row</span><span class="sxs-lookup"><span data-stu-id="636ef-116">Row</span></span>](row-element-line-gradient-sectionvisio-xml.md) <br/> |[<span data-ttu-id="636ef-117">LineGradientRow_Type</span><span class="sxs-lookup"><span data-stu-id="636ef-117">LineGradientRow_Type</span></span>](linegradientrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="531a3-118">Atributos</span><span class="sxs-lookup"><span data-stu-id="531a3-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="636ef-118">Atributos</span><span class="sxs-lookup"><span data-stu-id="636ef-118">Attributes</span></span>
 
-<span data-ttu-id="531a3-119">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="531a3-119">None.</span></span>
+<span data-ttu-id="636ef-119">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="636ef-119">None.</span></span>
   
 

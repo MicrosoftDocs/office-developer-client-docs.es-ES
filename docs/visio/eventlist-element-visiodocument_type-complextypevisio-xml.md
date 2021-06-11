@@ -1,5 +1,5 @@
 ---
-title: Elemento EventList (VisioDocument_Type complexType) (XML de Visio)
+title: Elemento EventList (VisioDocument_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,44 +14,44 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541802"
 ---
-# <a name="eventlist-element-visiodocument_type-complextype-visio-xml"></a><span data-ttu-id="ee633-103">Elemento EventList (VisioDocument_Type complexType) (XML de Visio)</span><span class="sxs-lookup"><span data-stu-id="ee633-103">EventList element (VisioDocument_Type complexType) (Visio XML)</span></span>
+# <a name="eventlist-element-visiodocument_type-complextype-visio-xml"></a><span data-ttu-id="bb42b-103">Elemento EventList (VisioDocument_Type complexType) (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="bb42b-103">EventList element (VisioDocument_Type complexType) (Visio XML)</span></span>
 
-<span data-ttu-id="ee633-104">Contiene un **elemento EventItem** para cada evento al que debe responder un objeto.</span><span class="sxs-lookup"><span data-stu-id="ee633-104">Contains an **EventItem** element for each event to which an object should respond.</span></span> 
+<span data-ttu-id="bb42b-104">Contiene un **elemento EventItem** para cada evento al que debe responder un objeto.</span><span class="sxs-lookup"><span data-stu-id="bb42b-104">Contains an **EventItem** element for each event to which an object should respond.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="ee633-105">Información del elemento</span><span class="sxs-lookup"><span data-stu-id="ee633-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="bb42b-105">Información del elemento</span><span class="sxs-lookup"><span data-stu-id="bb42b-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ee633-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="ee633-106">**Element type**</span></span> <br/> |[<span data-ttu-id="ee633-107">EventList_Type</span><span class="sxs-lookup"><span data-stu-id="ee633-107">EventList_Type</span></span>](eventlist_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="ee633-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="ee633-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="ee633-109">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="ee633-109">**Schema file**</span></span> <br/> |<span data-ttu-id="ee633-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="ee633-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="ee633-111">**Elementos de documento**</span><span class="sxs-lookup"><span data-stu-id="ee633-111">**Document parts**</span></span> <br/> |<span data-ttu-id="ee633-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="ee633-112">document.xml</span></span>  <br/> |
+|<span data-ttu-id="bb42b-106">**Tipo de elemento**</span><span class="sxs-lookup"><span data-stu-id="bb42b-106">**Element type**</span></span> <br/> |[<span data-ttu-id="bb42b-107">EventList_Type</span><span class="sxs-lookup"><span data-stu-id="bb42b-107">EventList_Type</span></span>](eventlist_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="bb42b-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="bb42b-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="bb42b-109">**Archivo de esquema**</span><span class="sxs-lookup"><span data-stu-id="bb42b-109">**Schema file**</span></span> <br/> |<span data-ttu-id="bb42b-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="bb42b-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="bb42b-111">**Elementos de documento**</span><span class="sxs-lookup"><span data-stu-id="bb42b-111">**Document parts**</span></span> <br/> |<span data-ttu-id="bb42b-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="bb42b-112">document.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="ee633-113">Definición</span><span class="sxs-lookup"><span data-stu-id="ee633-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="bb42b-113">Definición</span><span class="sxs-lookup"><span data-stu-id="bb42b-113">Definition</span></span>
 
 ```XML
 < xs:element name="EventList" type="EventList_Type" minOccurs="0" maxOccurs="1" >
 </xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="ee633-114">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="ee633-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="bb42b-114">Elementos y atributos</span><span class="sxs-lookup"><span data-stu-id="bb42b-114">Elements and attributes</span></span>
 
-<span data-ttu-id="ee633-115">Si el esquema define requisitos específicos, como **secuencia,** **minOccurs**, **maxOccurs** y **elección,** vea la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="ee633-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="bb42b-115">Si el esquema define requisitos específicos, como **sequence**, **minOccurs**, **maxOccurs** y **choice**, vea la sección de definición.</span><span class="sxs-lookup"><span data-stu-id="bb42b-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="ee633-116">Elementos principales</span><span class="sxs-lookup"><span data-stu-id="ee633-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="bb42b-116">Elementos principales</span><span class="sxs-lookup"><span data-stu-id="bb42b-116">Parent elements</span></span>
 
-|<span data-ttu-id="ee633-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="ee633-117">**Element**</span></span>|<span data-ttu-id="ee633-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="ee633-118">**Type**</span></span>|<span data-ttu-id="ee633-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ee633-119">**Description**</span></span>|
+|<span data-ttu-id="bb42b-117">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="bb42b-117">**Element**</span></span>|<span data-ttu-id="bb42b-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="bb42b-118">**Type**</span></span>|<span data-ttu-id="bb42b-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="bb42b-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="ee633-120">VisioDocument</span><span class="sxs-lookup"><span data-stu-id="ee633-120">VisioDocument</span></span>](visiodocument-elementvisio-xml.md) <br/> |[<span data-ttu-id="ee633-121">VisioDocument_Type</span><span class="sxs-lookup"><span data-stu-id="ee633-121">VisioDocument_Type</span></span>](visiodocument_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="ee633-122">Elemento raíz de un documento de Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="ee633-122">The root element of a Microsoft Visio document.</span></span>  <br/> |
+|[<span data-ttu-id="bb42b-120">VisioDocument</span><span class="sxs-lookup"><span data-stu-id="bb42b-120">VisioDocument</span></span>](visiodocument-elementvisio-xml.md) <br/> |[<span data-ttu-id="bb42b-121">VisioDocument_Type</span><span class="sxs-lookup"><span data-stu-id="bb42b-121">VisioDocument_Type</span></span>](visiodocument_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="bb42b-122">Elemento raíz de un documento Visio Microsoft.</span><span class="sxs-lookup"><span data-stu-id="bb42b-122">The root element of a Microsoft Visio document.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="ee633-123">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="ee633-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="bb42b-123">Elementos secundarios</span><span class="sxs-lookup"><span data-stu-id="bb42b-123">Child elements</span></span>
 
-|<span data-ttu-id="ee633-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="ee633-124">**Element**</span></span>|<span data-ttu-id="ee633-125">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="ee633-125">**Type**</span></span>|<span data-ttu-id="ee633-126">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ee633-126">**Description**</span></span>|
+|<span data-ttu-id="bb42b-124">**Elemento**</span><span class="sxs-lookup"><span data-stu-id="bb42b-124">**Element**</span></span>|<span data-ttu-id="bb42b-125">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="bb42b-125">**Type**</span></span>|<span data-ttu-id="bb42b-126">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="bb42b-126">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="ee633-127">EventItem</span><span class="sxs-lookup"><span data-stu-id="ee633-127">EventItem</span></span>](eventitem-element-eventlist_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="ee633-128">EventItem_Type</span><span class="sxs-lookup"><span data-stu-id="ee633-128">EventItem_Type</span></span>](eventitem_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="ee633-129">Encapsula un código de evento.</span><span class="sxs-lookup"><span data-stu-id="ee633-129">Encapsulates an event code.</span></span>  <br/> |
+|[<span data-ttu-id="bb42b-127">EventItem</span><span class="sxs-lookup"><span data-stu-id="bb42b-127">EventItem</span></span>](eventitem-element-eventlist_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="bb42b-128">EventItem_Type</span><span class="sxs-lookup"><span data-stu-id="bb42b-128">EventItem_Type</span></span>](eventitem_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="bb42b-129">Encapsula un código de evento.</span><span class="sxs-lookup"><span data-stu-id="bb42b-129">Encapsulates an event code.</span></span>  <br/> |
    
-### <a name="attributes"></a><span data-ttu-id="ee633-130">Atributos</span><span class="sxs-lookup"><span data-stu-id="ee633-130">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="bb42b-130">Atributos</span><span class="sxs-lookup"><span data-stu-id="bb42b-130">Attributes</span></span>
 
-<span data-ttu-id="ee633-131">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="ee633-131">None.</span></span>
+<span data-ttu-id="bb42b-131">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="bb42b-131">None.</span></span>
   
 

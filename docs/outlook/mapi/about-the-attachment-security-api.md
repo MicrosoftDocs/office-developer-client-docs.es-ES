@@ -13,20 +13,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438879"
 ---
-# <a name="about-the-attachment-security-api"></a><span data-ttu-id="80294-103">Información sobre la API de seguridad de datos adjuntos</span><span class="sxs-lookup"><span data-stu-id="80294-103">About the Attachment Security API</span></span>
+# <a name="about-the-attachment-security-api"></a><span data-ttu-id="5928b-103">Información sobre la API de seguridad de datos adjuntos</span><span class="sxs-lookup"><span data-stu-id="5928b-103">About the Attachment Security API</span></span>
 
   
   
-<span data-ttu-id="80294-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="80294-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5928b-104">**Se aplica a**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5928b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="80294-105">La API de seguridad de datos adjuntos permite a las soluciones de Outlook detectar si Outlook considera que los datos adjuntos no son seguros y están bloqueados para su visualización e indización.</span><span class="sxs-lookup"><span data-stu-id="80294-105">The Attachment Security API allows Outlook solutions to discover whether an attachment is considered unsafe by Outlook and is blocked for viewing and indexing.</span></span> <span data-ttu-id="80294-106">Proporciona las siguientes definiciones e interfaz.</span><span class="sxs-lookup"><span data-stu-id="80294-106">It provides the following definitions and interface.</span></span>
+<span data-ttu-id="5928b-105">La API de seguridad de datos adjuntos Outlook soluciones para detectar si un archivo adjunto se considera no seguro por Outlook y está bloqueado para su visualización e indización.</span><span class="sxs-lookup"><span data-stu-id="5928b-105">The Attachment Security API allows Outlook solutions to discover whether an attachment is considered unsafe by Outlook and is blocked for viewing and indexing.</span></span> <span data-ttu-id="5928b-106">Proporciona las siguientes definiciones e interfaz.</span><span class="sxs-lookup"><span data-stu-id="5928b-106">It provides the following definitions and interface.</span></span>
   
-<span data-ttu-id="80294-107">Definiciones</span><span class="sxs-lookup"><span data-stu-id="80294-107">Definitions</span></span>
+<span data-ttu-id="5928b-107">Definiciones</span><span class="sxs-lookup"><span data-stu-id="5928b-107">Definitions</span></span>
   
-- [<span data-ttu-id="80294-108">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="80294-108">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="5928b-108">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="5928b-108">MAPI Constants</span></span>](mapi-constants.md)
     
-<span data-ttu-id="80294-109">Interfaz</span><span class="sxs-lookup"><span data-stu-id="80294-109">Interface</span></span>
+<span data-ttu-id="5928b-109">Interfaz</span><span class="sxs-lookup"><span data-stu-id="5928b-109">Interface</span></span>
   
-- <span data-ttu-id="80294-110">**[IAttachmentSecurity](iattachmentsecurityiunknown.md)**</span><span class="sxs-lookup"><span data-stu-id="80294-110">**[IAttachmentSecurity](iattachmentsecurityiunknown.md)**</span></span>
+- <span data-ttu-id="5928b-110">**[IAttachmentSecurity](iattachmentsecurityiunknown.md)**</span><span class="sxs-lookup"><span data-stu-id="5928b-110">**[IAttachmentSecurity](iattachmentsecurityiunknown.md)**</span></span>
     
 

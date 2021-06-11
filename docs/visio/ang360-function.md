@@ -16,40 +16,40 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 07/17/2020
 ms.locfileid: "45160303"
 ---
-# <a name="ang360-function"></a><span data-ttu-id="111c2-103">Función ANG360</span><span class="sxs-lookup"><span data-stu-id="111c2-103">ANG360 Function</span></span>
+# <a name="ang360-function"></a><span data-ttu-id="ee674-103">Función ANG360</span><span class="sxs-lookup"><span data-stu-id="ee674-103">ANG360 Function</span></span>
 
-<span data-ttu-id="111c2-104">Normaliza el intervalo de un ángulo en 0 = resultado \< \< 2PI radianes (0 \< = resultado \< 360 grados).</span><span class="sxs-lookup"><span data-stu-id="111c2-104">Normalizes an angle's range to be 0 \<= result \< 2PI radians (0 \<= result \< 360 degrees).</span></span>
+<span data-ttu-id="ee674-104">Normaliza el rango de un ángulo en 0 = radianes 2PI de resultado \< \< (0 \< = resultado \< 360 grados).</span><span class="sxs-lookup"><span data-stu-id="ee674-104">Normalizes an angle's range to be 0 \<= result \< 2PI radians (0 \<= result \< 360 degrees).</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="111c2-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="111c2-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ee674-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ee674-105">Syntax</span></span>
 
-<span data-ttu-id="111c2-106">ANG360(***ángulo*** )</span><span class="sxs-lookup"><span data-stu-id="111c2-106">ANG360(***angle*** )</span></span> 
+<span data-ttu-id="ee674-106">ANG360(***angle*** )</span><span class="sxs-lookup"><span data-stu-id="ee674-106">ANG360(***angle*** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="111c2-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="111c2-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="ee674-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="ee674-107">Parameters</span></span>
 
-|<span data-ttu-id="111c2-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="111c2-108">**Name**</span></span>|<span data-ttu-id="111c2-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="111c2-109">**Required/Optional**</span></span>|<span data-ttu-id="111c2-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="111c2-110">**Data Type**</span></span>|<span data-ttu-id="111c2-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="111c2-111">**Description**</span></span>|
+|<span data-ttu-id="ee674-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="ee674-108">**Name**</span></span>|<span data-ttu-id="ee674-109">**Necesario/Opcional**</span><span class="sxs-lookup"><span data-stu-id="ee674-109">**Required/Optional**</span></span>|<span data-ttu-id="ee674-110">**Tipo de datos**</span><span class="sxs-lookup"><span data-stu-id="ee674-110">**Data Type**</span></span>|<span data-ttu-id="ee674-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="ee674-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="111c2-112">_ángulo_</span><span class="sxs-lookup"><span data-stu-id="111c2-112">_angle_</span></span> <br/> |<span data-ttu-id="111c2-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="111c2-113">Required</span></span>  <br/> |<span data-ttu-id="111c2-114">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="111c2-114">**Numeric**</span></span> <br/> |<span data-ttu-id="111c2-115">El ángulo que se normalizará.</span><span class="sxs-lookup"><span data-stu-id="111c2-115">The angle to be normalized.</span></span>  <br/> |
+| <span data-ttu-id="ee674-112">_ángulo_</span><span class="sxs-lookup"><span data-stu-id="ee674-112">_angle_</span></span> <br/> |<span data-ttu-id="ee674-113">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="ee674-113">Required</span></span>  <br/> |<span data-ttu-id="ee674-114">**Numérico**</span><span class="sxs-lookup"><span data-stu-id="ee674-114">**Numeric**</span></span> <br/> |<span data-ttu-id="ee674-115">El ángulo que se normalizará.</span><span class="sxs-lookup"><span data-stu-id="ee674-115">The angle to be normalized.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="111c2-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="111c2-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ee674-116">Comentarios</span><span class="sxs-lookup"><span data-stu-id="ee674-116">Remarks</span></span>
 
-<span data-ttu-id="111c2-117">Si  *el*  ángulo no se especifica mediante unidades angulares, se interpreta como radianes.</span><span class="sxs-lookup"><span data-stu-id="111c2-117">If  *angle*  is not specified by using angular units, it is interpreted as radians.</span></span> <span data-ttu-id="111c2-118">Si  *el*  ángulo no se puede convertir en un valor, #VALUE!</span><span class="sxs-lookup"><span data-stu-id="111c2-118">If  *angle*  cannot be converted to a value, a #VALUE!</span></span> <span data-ttu-id="111c2-119">se devuelve.</span><span class="sxs-lookup"><span data-stu-id="111c2-119">error is returned.</span></span> 
+<span data-ttu-id="ee674-117">Si  *el*  ángulo no se especifica mediante unidades angulares, se interpreta como radianes.</span><span class="sxs-lookup"><span data-stu-id="ee674-117">If  *angle*  is not specified by using angular units, it is interpreted as radians.</span></span> <span data-ttu-id="ee674-118">Si  *el*  ángulo no se puede convertir en un valor, #VALUE!</span><span class="sxs-lookup"><span data-stu-id="ee674-118">If  *angle*  cannot be converted to a value, a #VALUE!</span></span> <span data-ttu-id="ee674-119">error se devuelve.</span><span class="sxs-lookup"><span data-stu-id="ee674-119">error is returned.</span></span> 
   
-## <a name="example-1"></a><span data-ttu-id="111c2-120">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="111c2-120">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="ee674-120">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="ee674-120">Example 1</span></span>
 
-<span data-ttu-id="111c2-121">ANG360(395 grad)</span><span class="sxs-lookup"><span data-stu-id="111c2-121">ANG360(395 deg)</span></span>
+<span data-ttu-id="ee674-121">ANG360(395 grad)</span><span class="sxs-lookup"><span data-stu-id="ee674-121">ANG360(395 deg)</span></span>
   
-<span data-ttu-id="111c2-122">Devuelve 35 grad</span><span class="sxs-lookup"><span data-stu-id="111c2-122">Returns 35 deg</span></span>
+<span data-ttu-id="ee674-122">Devuelve 35 grad</span><span class="sxs-lookup"><span data-stu-id="ee674-122">Returns 35 deg</span></span>
   
-## <a name="example-2"></a><span data-ttu-id="111c2-123">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="111c2-123">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="ee674-123">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="ee674-123">Example 2</span></span>
 
-<span data-ttu-id="111c2-124">ANG360(-9,8 rad)</span><span class="sxs-lookup"><span data-stu-id="111c2-124">ANG360(-9.8 rad)</span></span>
+<span data-ttu-id="ee674-124">ANG360(-9,8 rad)</span><span class="sxs-lookup"><span data-stu-id="ee674-124">ANG360(-9.8 rad)</span></span>
   
-<span data-ttu-id="111c2-125">Devuelve 2,7664 rad</span><span class="sxs-lookup"><span data-stu-id="111c2-125">Returns 2.7664 rad</span></span>
+<span data-ttu-id="ee674-125">Devuelve 2,7664 rad</span><span class="sxs-lookup"><span data-stu-id="ee674-125">Returns 2.7664 rad</span></span>
   
-## <a name="example-3"></a><span data-ttu-id="111c2-126">Ejemplo 3</span><span class="sxs-lookup"><span data-stu-id="111c2-126">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="ee674-126">Ejemplo 3</span><span class="sxs-lookup"><span data-stu-id="ee674-126">Example 3</span></span>
 
-<span data-ttu-id="111c2-127">ANG360(45)</span><span class="sxs-lookup"><span data-stu-id="111c2-127">ANG360(45)</span></span>
+<span data-ttu-id="ee674-127">ANG360(45)</span><span class="sxs-lookup"><span data-stu-id="ee674-127">ANG360(45)</span></span>
   
-<span data-ttu-id="111c2-128">Devuelve 58,31 grad (1,0177 rad)</span><span class="sxs-lookup"><span data-stu-id="111c2-128">Returns 58.31 deg (1.0177 rad)</span></span>
+<span data-ttu-id="ee674-128">Devuelve 58,31 grad (1,0177 rad)</span><span class="sxs-lookup"><span data-stu-id="ee674-128">Returns 58.31 deg (1.0177 rad)</span></span>
   
 
