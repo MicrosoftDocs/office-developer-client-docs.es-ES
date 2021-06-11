@@ -19,6 +19,6 @@ ms.locfileid: "33430850"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los proveedores de transporte pueden usar procesamiento personalizado para procesar las propiedades de un archivo adjunto, transmitir datos adjuntos por separado o transmitirlos a través del modelo de datos adjuntos del sistema de mensajería. TNEF usa un mecanismo que permite al proveedor de transporte enviar los datos adjuntos aparte del mensaje y volver a conectarlos en el lado receptor.
+Los proveedores de transporte pueden usar el procesamiento personalizado para procesar las propiedades de un archivo adjunto en sí, transmitir datos adjuntos por separado o transmitirlos a través del modelo de datos adjuntos del sistema de mensajería. TNEF usa un mecanismo que permite al proveedor de transporte enviar los datos adjuntos aparte del mensaje y volver a conectarlos en el lado de recepción.
   
 

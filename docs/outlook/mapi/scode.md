@@ -23,7 +23,7 @@ ms.locfileid: "33430136"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un valor de estado de 32 bits que se usa para describir un error o advertencia. 
+Valor de estado de 32 bits que se usa para describir un error o advertencia. 
   
 ```cpp
 typedef ULONG SCODE;
@@ -42,16 +42,16 @@ Un **valor SCODE** se divide en cuatro campos:
     
 - Un código de instalación de 4 bits que indica el área responsable del error o advertencia.
     
-- Un código de advertencia o error de 16 bits que describe el problema que está causando el error o la advertencia.
+- Un código de advertencia o error de 16 bits que describe el problema que está provocando el error o advertencia.
     
-Muchas de las funciones y métodos MAPI devuelven valores **SCODE** definidos como tipos de datos **HRESULT,** al igual que los métodos y funciones OLE. OLE define varias macros que se pueden usar para convertir entre **un SCODE** y **un HRESULT**.
+Muchas de las funciones y métodos MAPI devuelven valores **SCODE** definidos como tipos de datos **HRESULT,** al igual que los métodos y funciones OLE. OLE define varias macros que se pueden usar para convertir entre **un SCODE** y un **HRESULT**.
   
 > [!NOTE]
 > En MAPI de 64 bits, **SCODE** sigue siendo un valor de 32 bits. 
   
-Para obtener más información acerca de cómo MAPI usa el tipo de datos **SCODE,** vea [Control de errores.](error-handling-in-mapi.md) Para obtener más información acerca de OLE y el tipo de datos **SCODE,** vea la referencia  *del programador de OLE*  . 
+Para obtener más información acerca de cómo MAPI usa el tipo de datos **SCODE,** vea [Control de errores](error-handling-in-mapi.md). Para obtener más información acerca de OLE y el tipo de datos **SCODE,** vea referencia  *del programador OLE*  . 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

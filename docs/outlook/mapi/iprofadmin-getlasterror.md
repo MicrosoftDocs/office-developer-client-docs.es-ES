@@ -35,19 +35,19 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
-> [entrada] Un tipo de datos HRESULT que contiene el valor de error generado en la llamada al método anterior.
+> [in] Tipo de datos HRESULT que contiene el valor de error generado en la llamada al método anterior.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas de la [estructura MAPIERROR](mapierror.md) devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
+> Las cadenas de la [estructura MAPIERROR](mapierror.md) devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI. 
     
  _lppMAPIError_
   
@@ -61,21 +61,21 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
+> La marca MAPI_UNICODE se estableció y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IProfAdmin::GetLastError** recupera información sobre el último error devuelto desde una llamada de método para el objeto de administración de perfiles. 
+El **método IProfAdmin::GetLastError** recupera información sobre el último error devuelto de una llamada de método para el objeto de administración de perfiles. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede usar la estructura **MAPIERROR,** si MAPI proporciona una, a la que apunta el parámetro  _lppMAPIError_ solo si **GetLastError** devuelve S_OK. A veces MAPI no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, se devuelve un puntero a NULL  _en lppMAPIError_. 
+Puede usar la estructura **MAPIERROR,** si MAPI proporciona una, apuntada por el parámetro  _lppMAPIError_ solo si **GetLastError** devuelve S_OK. A veces MAPI no puede determinar cuál fue el último error o no tiene nada más que informar sobre el error. En esta situación, se devuelve un puntero a NULL en  _lppMAPIError_. 
   
 Para liberar toda la memoria asignada por MAPI para la estructura **MAPIERROR,** llame a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
-Para obtener más información acerca **del método GetLastError,** vea [El uso de errores extendidos](mapi-extended-errors.md).
+Para obtener más información sobre el **método GetLastError,** vea [Using Extended Errors](mapi-extended-errors.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "33428595"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Presenta un cuadro de diálogo que permite al usuario seleccionar un contenedor de formularios y devuelve una interfaz para el objeto contenedor seleccionado por el usuario.
+Presenta un cuadro de diálogo que permite al usuario seleccionar un contenedor de formulario y devuelve una interfaz para el objeto contenedor seleccionado por el usuario.
   
 ```cpp
 HRESULT SelectFormContainer(
@@ -35,15 +35,15 @@ HRESULT SelectFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del cuadro de diálogo mostrado. 
+> [in] Identificador de la ventana principal del cuadro de diálogo mostrado. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se selecciona la biblioteca de formularios (es decir, cómo se selecciona el contenedor de formularios). Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se selecciona la biblioteca de formularios (es decir, cómo se selecciona el contenedor de formularios). Se pueden establecer las siguientes marcas:
     
 MAPIFORM_SELECT_ALL_REGISTRIES 
   
@@ -55,7 +55,7 @@ MAPIFORM_SELECT_FOLDER_REGISTRY_ONLY
     
 MAPIFORM_SELECT_NON_FOLDER_REGISTRY_ONLY 
   
-> La selección solo se puede realizar desde contenedores que no están asociados a carpetas.
+> La selección solo se puede realizar desde contenedores que no están asociados con carpetas.
     
  _lppfcnt_
   
@@ -69,7 +69,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios suelen llamar al método **IMAPIFormMgr::SelectFormContainer** para seleccionar un contenedor de formulario en el que se instala un formulario. **SelectFormContainer** no se puede usar para seleccionar el contenedor de formularios local, que tiene el valor HFRMREG_LOCAL. 
+Los visores de formularios normalmente llaman al método **IMAPIFormMgr::SelectFormContainer** para seleccionar un contenedor de formulario en el que está instalado un formulario. **SelectFormContainer** no se puede usar para seleccionar el contenedor de formulario local, que tiene el valor HFRMREG_LOCAL. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -79,7 +79,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnSelectFormContainer  <br/> |MFCMAPI usa el **método IMAPIFormMgr::SelectFormContainer** para seleccionar un contenedor de formulario antes de representar su contenido.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

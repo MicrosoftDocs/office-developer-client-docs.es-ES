@@ -19,15 +19,15 @@ ms.locfileid: "33426425"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un proveedor de almacenamiento de mensajes, cuando se ejecuta en la memoria, es una [interfaz IMSProvider : IUnknown.](imsprovideriunknown.md) La **interfaz IMSProvider** permite a las aplicaciones cliente y a la cola MAPI iniciar y cerrar sesión en el almacén de mensajes. Las interfaces que las aplicaciones cliente y la cola MAPI usan para tener acceso a carpetas y mensajes en el almacén de mensajes son interfaces [IMSLogon](imslogoniunknown.md) [e IMsgStore.](imsgstoreimapiprop.md) Estas interfaces suelen crearse cuando el almacén de mensajes inicia sesión por primera vez, aunque el punto de entrada [MSProviderInit](msproviderinit.md) de la DLL del almacén de mensajes también podría crearlas. 
+Un proveedor de almacén de mensajes, cuando se ejecuta en la memoria, es una [interfaz IMSProvider : IUnknown.](imsprovideriunknown.md) La **interfaz IMSProvider** permite que las aplicaciones cliente y la cola MAPI inicien sesión en y fuera del almacén de mensajes. Las interfaces que las aplicaciones cliente y la cola MAPI usan para tener acceso a carpetas y mensajes en el almacén de mensajes son interfaces [IMSLogon](imslogoniunknown.md) e [IMsgStore.](imsgstoreimapiprop.md) Estas interfaces normalmente se crean cuando el almacén de mensajes inicia sesión por primera vez, aunque el punto de entrada [MSProviderInit](msproviderinit.md) del DLL del almacén de mensajes también podría crearlas. 
   
-Dado que **las interfaces IMSLogon** e **IMsgStore** comparten algunos métodos, puede resultar más fácil crear un objeto de clase que herede de ambas interfaces. También puede implementar estas interfaces en objetos independientes y escribir funciones auxiliares internas en la DLL que implementen los métodos compartidos a los que se puede llamar desde los métodos de las interfaces **IMSLogon** e **IMsgStore.** 
+Dado que **las interfaces IMSLogon** e **IMsgStore** comparten algunos métodos, puede ser más fácil crear un objeto de clase que herede de ambas interfaces. También puede implementar estas interfaces en objetos independientes y escribir funciones auxiliares internas en la DLL que implementan los métodos compartidos a los que se puede llamar desde los métodos de las interfaces **IMSLogon** e **IMsgStore.** 
   
 En la siguiente ilustración se muestra un esquema de alto nivel de la jerarquía de objetos dentro de un almacén de mensajes en ejecución.
   
 **Jerarquía de objetos del almacén de mensajes**
   
-![Jerarquía de objetos de almacén de mensajes Jerarquía]de objetos de almacén de(media/storeobj.gif "mensajes")
+![Jerarquía de objetos de almacén de mensajes]Jerarquía de objetos de almacén de(media/storeobj.gif "mensajes")
   
 ## <a name="see-also"></a>Vea también
 

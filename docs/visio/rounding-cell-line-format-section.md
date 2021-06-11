@@ -22,7 +22,7 @@ Indica el radio del arco de redondeo aplicado donde se unen dos segmentos contig
   
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer este  valor en el  cuadro de diálogo  Línea (en la ficha Inicio, en el grupo Formas, haga clic en Línea **,** elija Grosor **y,** a continuación, haga clic en **Más líneas).**
+También puede establecer este valor en el cuadro de diálogo  Línea (en la ficha Inicio, en el grupo Forma, haga clic en Línea **,** elija Peso y, a continuación, haga clic en **Más líneas).**  
   
 Para obtener una referencia a la celda Rounding por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID1._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID1._ 
     
  _lpEntryID1_
   
-> [entrada] Puntero al primer identificador de entrada que se va a comparar.
+> [in] Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID2._ 
+> [in] Número de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID2._ 
     
  _lpEntryID2_
   
-> [entrada] Puntero al segundo identificador de entrada que se va a comparar.
+> [in] Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [salida] Puntero al resultado de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
+> [salida] Puntero al resultado de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; en caso contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -82,7 +82,7 @@ El **método IMAPISession::CompareEntryIDs** compara dos identificadores de entr
 
 El **método CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esta situación puede producirse, por ejemplo, después de instalar una nueva versión de un proveedor de servicios. 
   
-Si **CompareEntryIDs** devuelve un error, no realice ninguna acción basada en el resultado de la comparación. En su lugar, toma el enfoque más conservador posible. **CompareEntryIDs** puede producir un error si, por ejemplo, uno o ambos identificadores de entrada contienen un **MAPIUID no válido.** 
+Si **CompareEntryIDs** devuelve un error, no realice ninguna acción en función del resultado de la comparación. En su lugar, tome el enfoque más conservador posible. **CompareEntryIDs** puede producir un error si, por ejemplo, uno o ambos identificadores de entrada contienen un **MAPIUID no válido**. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -92,7 +92,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CbaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI usa el **método IMAPISession::CompareEntryIDs** para comparar dos identificadores de entrada que escribe un usuario.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

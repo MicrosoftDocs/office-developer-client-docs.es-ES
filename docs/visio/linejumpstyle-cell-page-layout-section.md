@@ -23,9 +23,9 @@ Determina el estilo de salto de línea de todos los conectores de la página de 
 |**Valor**|**Estilo de salto de línea**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Arco  <br/> |**visLOJumpStyleDefault** <br/> |
-|1   <br/> |Arco  <br/> |**visLOJumpStyleArc** <br/> |
-|2   <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
-|3   <br/> |Cuadrado  <br/> |**visLOJumpStyleSquare** <br/> |
+|1  <br/> |Arco  <br/> |**visLOJumpStyleArc** <br/> |
+|2  <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
+|3  <br/> |Cuadrado  <br/> |**visLOJumpStyleSquare** <br/> |
 |4   <br/> |2 lados  <br/> |**visLOJumpStyleTriangle** <br/> |
 |5   <br/> |3 lados  <br/> |**visLOJumpStyle2Point** <br/> |
 |6   <br/> |4 lados  <br/> |**visLOJumpStyle3Point** <br/> |

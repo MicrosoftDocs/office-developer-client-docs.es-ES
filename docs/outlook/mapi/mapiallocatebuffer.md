@@ -40,11 +40,11 @@ SCODE MAPIAllocateBuffer(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbSize_
   
-> [entrada] Tamaño, en bytes, del búfer que se va a asignar. 
+> [in] Tamaño, en bytes, del búfer que se va a asignar. 
     
  _lppBuffer_
   
@@ -58,11 +58,11 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Durante **el procesamiento de llamadas MAPIAllocateBuffer,** la implementación de llamada adquiere un bloque de memoria del sistema operativo. El búfer de memoria se asigna en una dirección de bytes par. En plataformas en las que el acceso entero largo es más eficaz, el sistema operativo asigna el búfer en una dirección cuyo tamaño en bytes es un múltiplo de cuatro. 
+Durante **el procesamiento de llamadas MAPIAllocateBuffer,** la implementación de llamada adquiere un bloque de memoria del sistema operativo. El búfer de memoria se asigna en una dirección de bytes numerada par. En plataformas donde el acceso a enteros largos es más eficaz, el sistema operativo asigna el búfer en una dirección cuyo tamaño en bytes es un múltiplo de cuatro. 
   
-Al llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) se libera el búfer de memoria asignado por **MAPIAllocateBuffer** mediante una llamada a la función [MAPIAllocateMore](mapiallocatemore.md) y a los búferes vinculados a él, cuando ya no se necesita la memoria. 
+Al llamar a la función [MAPIFreeBuffer](mapifreebuffer.md) se libera el búfer de memoria asignado por **MAPIAllocateBuffer**, llamando a la función [MAPIAllocateMore](mapiallocatemore.md) y a los búferes vinculados a él, cuando la memoria ya no es necesaria. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

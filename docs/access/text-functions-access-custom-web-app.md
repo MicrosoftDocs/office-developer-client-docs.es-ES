@@ -44,6 +44,6 @@ ms.locfileid: "33426992"
     
 - [Función SubString (aplicación web personalizada de Access)](substring-function-access-custom-web-app.md)
     
-- [Función Superior (aplicación web personalizada de Access)](upper-function-access-custom-web-app.md)
+- [Función superior (aplicación web personalizada de Access)](upper-function-access-custom-web-app.md)
     
 

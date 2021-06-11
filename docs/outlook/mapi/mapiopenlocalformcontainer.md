@@ -39,7 +39,7 @@ MAPIOpenLocalFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppfcnt_
   
@@ -59,9 +59,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI usa el **método MAPIOpenLocalFormContainer** para abrir el contenedor de formularios local para representarlo en una nueva ventana.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI usa el **método MAPIOpenLocalFormContainer** para abrir el contenedor de formularios local que se representará en una nueva ventana.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

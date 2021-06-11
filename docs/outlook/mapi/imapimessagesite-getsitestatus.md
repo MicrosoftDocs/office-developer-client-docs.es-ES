@@ -25,7 +25,7 @@ ms.locfileid: "33430129"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve información de un objeto de sitio de mensaje acerca de las capacidades del sitio del mensaje para el mensaje actual.
+Devuelve información de un objeto de sitio de mensaje acerca de las capacidades del sitio de mensaje para el mensaje actual.
   
 ```cpp
 HRESULT GetSiteStatus(
@@ -33,7 +33,7 @@ HRESULT GetSiteStatus(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulStatus_
   
@@ -75,13 +75,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman **al método IMAPIMessageSite::GetSiteStatus** para obtener las capacidades del objeto de sitio de mensaje para el mensaje actual. Las marcas devueltas en el  _parámetro lpulStatus_ proporcionan información sobre el sitio del mensaje. Normalmente, un formulario habilita o deshabilita los comandos de menú, en función de la información que proporcionan las marcas sobre las capacidades de la implementación del sitio de mensajes. Si el método [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) o el método [IPersistMessage::Load](ipersistmessage-load.md) cargan un nuevo mensaje en un formulario, deben comprobarse las marcas de estado. Algunos objetos de sitio de mensajes, especialmente los objetos de solo lectura, no permiten que los mensajes se guarden o eliminen. 
+Los objetos Form llaman **al método IMAPIMessageSite::GetSiteStatus** para obtener las capacidades del objeto de sitio de mensaje para el mensaje actual. Las marcas devueltas en el  _parámetro lpulStatus_ proporcionan información sobre el sitio del mensaje. Normalmente, un formulario habilita o deshabilita los comandos de menú, en función de la información que proporcionan las marcas sobre las capacidades de la implementación del sitio del mensaje. Si el método [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) o el método [IPersistMessage::Load](ipersistmessage-load.md) cargan un nuevo mensaje en un formulario, se deben comprobar las marcas de estado. Algunos objetos de sitio de mensajes, especialmente los objetos de solo lectura, no permiten que los mensajes se guarden o eliminen. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-El **método IMAPIMessageSite::GetSiteStatus** puede requerir que la aplicación cliente realice algún cálculo para determinar qué operaciones se pueden o no realizar en el mensaje actual. Normalmente, esto implica consultar la fila de estado del proveedor de al almacenamiento de mensajes del mensaje actual o consultar al proveedor de almacenamiento para determinar qué acciones puede realizar la aplicación cliente mediante el almacén de mensajes. Por ejemplo, para determinar si se va a devolver la marca MAPI_DELETE_IS_MOVE, compruebe la propiedad **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) del objeto del almacén de mensajes para ver si hay una carpeta Elementos eliminados en el almacén de mensajes.  
+El **método IMAPIMessageSite::GetSiteStatus** puede requerir que la aplicación cliente realice algún cálculo para determinar qué operaciones se pueden o no se pueden realizar en el mensaje actual. Normalmente, esto implica ver la fila de estado del proveedor de almacén de mensajes del mensaje actual o consultar al proveedor de almacenamiento para determinar qué acciones puede realizar la aplicación cliente mediante el almacén de mensajes. Por ejemplo, para determinar si se devuelve la marca MAPI_DELETE_IS_MOVE, compruebe la propiedad **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) del objeto del almacén de mensajes para ver si hay una carpeta **Elementos** eliminados en el almacén de mensajes. 
   
-Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -91,7 +91,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSiteStatus  <br/> |MFCMAPI usa el **método IMAPIMessageSite::GetSiteStatus** para obtener el estado del sitio especificado. Puede devolver VCSTATUS_NEW_MESSAGE, VCSTATUS_SAVE o VCSTATUS_SUBMIT.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

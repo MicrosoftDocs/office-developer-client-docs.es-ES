@@ -23,7 +23,7 @@ Obtiene una cadena que representa una dirección URL que se usa para presentar u
 HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _url_
   
@@ -33,7 +33,7 @@ _url_
 
 Después de presentar el formulario al usuario, se llama al método [ISocialSession::LogonWeb](isocialsession-logonweb.md) con una cadena vacía para el _parámetro connectIn._ 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

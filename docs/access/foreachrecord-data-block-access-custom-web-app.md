@@ -24,15 +24,15 @@ Un **bloque de datos ForEachRecord** repite un conjunto de instrucciones para ca
 > [!NOTE]
 > El bloque de datos **ParaCadaRegistro** solo está disponible en macros de datos. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Configuración
 
 La acción **ParaCadaRegistro** utiliza los siguientes argumentos. 
   
 |**Nombre de argumento**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
-|**In** <br/> |Sí  <br/> |Una cadena que identifica el dominio de los registros en los que se operará. El  *argumento In*  puede contener el nombre de la tabla, una consulta de selección o una instrucción SQL lista.  <br/> **NOTA:** El dominio especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.           |
-|**Where Condition** <br/> |No  <br/> |Expresión de cadena usada para restringir el rango de datos en el que se ejecuta el bloque de datos **ForEachRecord.** Por ejemplo, los criterios a menudo equivalen a la cláusula WHERE en una expresión SQL, sin la palabra WHERE. Si se omiten criterios, el bloque de datos **ForEachRecord** opera en todo el dominio especificado por el *argumento In.* Cualquier campo que se incluya en los criterios también debe ser un campo en  *In*  .  <br/> |
-|**Alias** <br/> |No  <br/> |Cadena que proporciona un nombre alternativo para el dominio especificado por el *argumento In.* Se utiliza a menudo para acortar el nombre de la tabla en referencias posteriores con el fin de evitar posibles referencias ambiguas. Si  *no*  se especifica Alias, el nombre de la tabla o consulta se usará como alias.  <br/> |
+|**In** <br/> |Sí  <br/> |Una cadena que identifica el dominio de los registros en los que se operará. El *argumento In* puede contener el nombre de la tabla, una consulta select o una instrucción SQL.  <br/> **NOTA:** el dominio especificado no puede incluir datos almacenados en una tabla vinculada u origen de datos ODBC.           |
+|**Where Condition** <br/> |No  <br/> |Expresión de cadena usada para restringir el intervalo de datos en el que se realiza el bloque de datos **ForEachRecord.** Por ejemplo, los criterios a menudo equivalen a la cláusula WHERE en una expresión SQL, sin la palabra WHERE. Si se omiten criterios, el bloque de datos **ForEachRecord** funciona en todo el dominio especificado por el *argumento In.* Cualquier campo que se incluya en criteria también debe ser un campo en  *In*  .  <br/> |
+|**Alias** <br/> |No  <br/> |Cadena que proporciona un nombre alternativo para el dominio especificado por el *argumento In.* Se utiliza a menudo para acortar el nombre de la tabla en referencias posteriores con el fin de evitar posibles referencias ambiguas. Si no se especifica  *Alias,*  se usará el nombre de la tabla o consulta como alias.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

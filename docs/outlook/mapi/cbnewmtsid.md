@@ -36,13 +36,13 @@ Calcula el número de bytes que se deben asignar para una nueva estructura [MTSI
 CbNewMTSID (_cb)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _cb_
   
-> Recuento de bytes para que el identificador del agente de transferencia de mensajes se incluya en la nueva estructura **MTSID.** 
+> Recuento de bytes para el identificador del agente de transferencia de mensajes que se incluirá en la nueva **estructura MTSID.** 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

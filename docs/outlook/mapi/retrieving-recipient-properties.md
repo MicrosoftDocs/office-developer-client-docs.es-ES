@@ -21,12 +21,12 @@ ms.locfileid: "33426677"
   
 ### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Para obtener acceso a una o más propiedades de una entrada de libreta de direcciones
   
-1. Para cada entrada de interés de la libreta de direcciones, llame a [IAddrBook::OpenEntry](iaddrbook-openentry.md), pasando el identificador de entrada del usuario de mensajería de destino o la lista de distribución.
+1. Para cada entrada de la libreta de direcciones de interés, llame a [IAddrBook::OpenEntry](iaddrbook-openentry.md), pasando el identificador de entrada del usuario de mensajería de destino o la lista de distribución.
     
 2. A continuación, realice una de las siguientes acciones:
     
-   - Llame al método [IMAPIProp::GetProps](imapiprop-getprops.md) del usuario de mensajería o de la lista de distribución para cada entrada de interés de la libreta de direcciones, con una lista de las propiedades que se recuperarán. 
+   - Llama al método [IMAPIProp::GetProps](imapiprop-getprops.md) de la lista de mensajería para cada entrada de interés de la libreta de direcciones, con una lista de las propiedades que se recuperarán. 
     
-   - Llame [a IAddrBook::P repareRecips](iaddrbook-preparerecips.md)y pase una estructura [ADRLIST](adrlist.md) que contiene todas las propiedades de todas las entradas de la libreta de direcciones deseadas. Dado que una llamada a **PrepareRecips** puede devolver información para varias entradas de la libreta de direcciones, es la estrategia preferible cuando está interesado en más de un destinatario. 
+   - Llame [a IAddrBook::P repareRecips](iaddrbook-preparerecips.md), pasando una estructura [ADRLIST](adrlist.md) que contiene todas las propiedades de todas las entradas de la libreta de direcciones deseadas. Dado que una llamada a **PrepareRecips** puede devolver información para varias entradas de libreta de direcciones, es la estrategia preferible cuando está interesado en más de un destinatario. 
     
 

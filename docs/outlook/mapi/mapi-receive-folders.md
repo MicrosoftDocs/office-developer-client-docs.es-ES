@@ -72,7 +72,7 @@ Al llamar a **SetReceiveFolder**, los clientes suelen pasan una cadena de la cla
    
 Aunque la clase de un mensaje nunca debe estar vac�o, se puede producir una clase de mensaje vac�a. Es responsabilidad del almac�n de mensajes para asignar la clase de mensaje a **IPM** para nuevos mensajes salientes que tienen una clase vac�a; es responsabilidad del proveedor de transporte para asignar **IPM.Note** como la clase para los mensajes entrantes que tienen cualquier clase vac�a. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

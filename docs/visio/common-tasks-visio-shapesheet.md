@@ -1,5 +1,5 @@
 ---
-title: Tareas comunes (ShapeSheet de Visio)
+title: Tareas comunes (Visio ShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426978"
 ---
-# <a name="common-tasks-visio-shapesheet"></a>Tareas comunes (ShapeSheet de Visio)
+# <a name="common-tasks-visio-shapesheet"></a>Tareas comunes (Visio ShapeSheet)
 
 Esta página de navegación contiene vínculos a temas de descripción general de programación en Visio. Haga clic en los vínculos siguientes o utilice la tabla de contenido para desplazarse a estos temas:
   
-- [Agregar, cambiar o eliminar filas en ShapeSheet](add-change-or-delete-rows-in-the-shapesheet.md)
+- [Agregar, cambiar o eliminar filas en shapesheet](add-change-or-delete-rows-in-the-shapesheet.md)
     
 - [Agregar, mostrar, ocultar o eliminación de una sección](add-show-hide-or-delete-a-section.md)
     
@@ -32,11 +32,11 @@ Esta página de navegación contiene vínculos a temas de descripción general d
     
 - [Escribir una fórmula vacía](enter-an-empty-formula.md)
     
-- [Desplazarse por una ventana ShapeSheet](move-around-a-shapesheet-window.md)
+- [Mover alrededor de una ventana ShapeSheet](move-around-a-shapesheet-window.md)
     
 - [Abrir todas las ShapeSheet en la misma ventana](open-each-shapesheet-in-the-same-window.md)
     
-- [Abrir la ShapeSheet de una forma, una página o un documento](open-the-shapesheet-for-a-shape-page-or-document.md)
+- [Abra shapesheet para una forma, una página o un documento](open-the-shapesheet-for-a-shape-page-or-document.md)
     
 - [Hacer referencia a una celda en una fórmula](reference-a-cell-in-a-formula.md)
     
@@ -44,6 +44,6 @@ Esta página de navegación contiene vínculos a temas de descripción general d
     
 - [Mostrar un objeto en la ventana ShapeSheet](show-an-object-in-the-shapesheet-window.md)
     
-- [Escribir una nueva fórmula para una celda](type-a-new-formula-for-a-cell.md)
+- [Escriba una nueva fórmula para una celda](type-a-new-formula-for-a-cell.md)
     
 

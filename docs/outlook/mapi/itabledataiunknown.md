@@ -25,23 +25,23 @@ ms.locfileid: "33430598"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona métodos de utilidad para trabajar con tablas. MAPI proporciona objetos de datos de tabla u objetos que implementan **ITableData** para ayudar a los proveedores de servicios a realizar el mantenimiento de tablas. Para obtener un objeto de datos de tabla, los proveedores de servicios llaman a [la función CreateTable.](createtable.md) 
+Proporciona métodos de utilidad para trabajar con tablas. MAPI proporciona objetos u objetos de datos de tabla que implementan **ITableData** para ayudar a los proveedores de servicios a realizar el mantenimiento de tablas. Para obtener un objeto de datos de tabla, los proveedores de servicios llaman a la [función CreateTable.](createtable.md) 
   
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapiutil.h  <br/> |
-|Expuesto por:  <br/> |Objetos de datos de tabla  <br/> |
+|Expuesto por:  <br/> |Objetos de datos table  <br/> |
 |Implementado por:  <br/> |MAPI  <br/> |
 |Llamado por:  <br/> |Proveedores de servicios  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPITableData  <br/> |
 |Tipo de puntero:  <br/> |LPTABLEDATA  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |[HrGetView](itabledata-hrgetview.md) <br/> |Crea una vista de tabla y devuelve un puntero a una [implementación imapitable.](imapitableiunknown.md)  <br/> |
-|[HrModifyRow](itabledata-hrmodifyrow.md) <br/> |Inserta una nueva fila de tabla, posiblemente reemplazando una fila existente.  <br/> |
+|[HrModifyRow](itabledata-hrmodifyrow.md) <br/> |Inserta una fila de tabla nueva, posiblemente reemplazando una fila existente.  <br/> |
 |[HrDeleteRow](itabledata-hrdeleterow.md) <br/> |Elimina una fila de tabla.  <br/> |
 |[HrQueryRow](itabledata-hrqueryrow.md) <br/> |Recupera una fila de tabla.  <br/> |
 |[HrEnumRow](itabledata-hrenumrow.md) <br/> |Recupera una fila en función de su posición en la tabla.  <br/> |
@@ -52,13 +52,13 @@ Proporciona métodos de utilidad para trabajar con tablas. MAPI proporciona obje
    
 ## <a name="remarks"></a>Comentarios
 
-La implementación MAPI de **ITableData** funciona con tablas al contener todos los datos y las restricciones asociadas en la memoria, lo que hace que no sea adecuado para su uso con tablas muy grandes. No se admiten restricciones de gran tamaño y operaciones complejas como la categorización. 
+La implementación MAPI de **ITableData** funciona con tablas manteniendo todos los datos y las restricciones asociadas en la memoria, lo que hace que no sea adecuado para su uso con tablas muy grandes. No se admiten restricciones grandes ni operaciones complejas como la categorización. 
   
-Los objetos de datos de tabla identifican filas mediante una columna de índice, una propiedad que se garantiza que tiene un valor único para cada fila. La mayoría de los proveedores **de servicios PR_INSTANCE_KEY** propiedad ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) como columna de índice. Las propiedades que tienen varios valores no se pueden usar como columna de índice.
+Los objetos de datos de tabla identifican filas mediante una columna de índice, una propiedad que se garantiza que tiene un valor único para cada fila. La mayoría de los proveedores **de servicios usan la PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) como columna de índice. Las propiedades que tienen varios valores no se pueden usar como columna de índice.
   
-Los objetos de datos de tabla generan una sola notificación independientemente del número de filas afectadas por un cambio o eliminación. Si no existe una fila de destino en una operación, se agrega una fila.
+Los objetos de datos de tabla generan una única notificación independientemente del número de filas afectadas por un cambio o eliminación. Si no existe una fila de destino en una operación, se agrega una fila.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

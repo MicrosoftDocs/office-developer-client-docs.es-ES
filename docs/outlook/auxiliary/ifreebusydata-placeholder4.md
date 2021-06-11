@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 58119969-1d56-5b38-57ac-d8adf5097ef0
-description: Este miembro es un marcador de posición y no es compatible.
+description: Este miembro es un marcador de posición y no se admite.
 ms.openlocfilehash: a7e77846538a03691c134298396cb23c42c47f15
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33425655"
 ---
 # <a name="ifreebusydataplaceholder4"></a>IFreeBusyData::Placeholder4
 
-Este miembro es un marcador de posición y no es compatible.
+Este miembro es un marcador de posición y no se admite.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -44,7 +44,7 @@ Siempre S_OK, ya que se trata de un marcador de posición y no se admite.
 
 Este miembro debe devolver S_OK.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)

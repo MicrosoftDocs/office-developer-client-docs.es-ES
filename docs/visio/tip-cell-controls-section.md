@@ -26,7 +26,7 @@ Para obtener una referencia a la celda Tip por su nombre desde otra fórmula, o 
   
 |||
 |:-----|:-----|
-| Nombre de celda:  <br/> | Controles.  *nombre*  . Sugerencia en los controles.  *es*  el nombre de la fila de controles.  <br/> |
+| Nombre de celda:  <br/> | Controles.  *nombre*  . Sugerencias en los controles.  *nombre*  es el nombre de la fila de controles.  <br/> |
    
 Para obtener una referencia desde un programa a la celda Tip por su índice
 , utilice la propiedad **CellsSRC** con los argumentos siguientes: 

@@ -19,7 +19,7 @@ ms.locfileid: "33424885"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información ampliada para los elementos que se han eliminado en un almacén local. Esta información se usa durante el estado [de eliminación de carga.](upload-delete-status-state.md)
+Información extendida para los elementos que se han eliminado en un almacén local. Esta información se usa durante el estado [de eliminación de carga.](upload-delete-status-state.md)
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -40,11 +40,11 @@ struct UPDELE
 
 _ulFlags_
   
-> [out]/[in] Marcas para determinar el comportamiento apropiado durante la carga.
+> [out]/[in] Marca para determinar el comportamiento adecuado durante la carga.
     
   - UPD_ASSOC
     
-    - [salida] El elemento está asociado.
+    - [salida] Item está asociado.
     
   - UPD_MOV
     
@@ -52,19 +52,19 @@ _ulFlags_
     
   - UPD_OK 
     
-    - [entrada] La carga se ha realizado correctamente. El cliente establece esto después de cargar información en el servidor.
+    - [in] Upload se ha realizado correctamente. El cliente establece esto después de cargar información en el servidor.
     
   - UPD_MOVED
     
-    - [entrada] El elemento se movió correctamente.
+    - [in] El elemento se movió correctamente.
     
   - UPD_UPDATE
     
-    - [entrada] Marca el elemento de origen como modificado.
+    - [in] Marca el elemento de origen como modificado.
     
   - UPD_COMMIT
     
-    - [entrada] Confirmar el estado de carga ahora (entrada 0).
+    - [in] Confirmar el estado de carga ahora (entrada 0).
     
 _skey_
   
@@ -86,11 +86,11 @@ _skeyDst_
   
 > [salida] Clave de origen del elemento de destino si se ha movido el elemento.
     
-_mov_
+_pupmov_
   
-> [salida] Información de la carpeta de destino si se ha movido el elemento.
+> [salida] Información de carpeta de destino si se ha movido el elemento.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md) 
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

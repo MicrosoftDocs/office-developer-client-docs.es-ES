@@ -27,7 +27,7 @@ Oculta el texto en una forma. Puede ver el texto, editar las propiedades y aplic
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda HideText por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** utilice: 
+Para obtener una referencia a la celda HideText por su nombre desde otra fórmula, o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|

@@ -19,7 +19,7 @@ ms.locfileid: "33430409"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Información para sincronizar el contenido de las carpetas especificadas en un almacén local con el servidor durante el [estado de sincronización del contenido.](synchronize-contents-state.md) Esto implica simplemente la carga o una sincronización completa que implica una carga y, a continuación, una descarga.
+Información para sincronizar el contenido de las carpetas especificadas en un almacén local con el servidor durante el [estado de contenido de sincronización.](synchronize-contents-state.md) Esto implica simplemente cargar o una sincronización completa que implica una carga y, a continuación, una descarga.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -39,15 +39,15 @@ struct SYNCCONT
 
 _ulFlags_
   
-> [entrada] Marcas para determinar el comportamiento adecuado durante la sincronización.
+> [in] Marcas para determinar el comportamiento adecuado durante la sincronización.
     
   - UPC_OK
     
-  - [entrada] La carga o sincronización completa se ha realizado correctamente. El cliente establece esto después de sincronizar la información con el servidor.
+  - [in] Upload o la sincronización completa se ha realizado correctamente. El cliente establece esto después de sincronizar la información con el servidor.
     
 _iEnt_
   
-> [salida] Índice para realizar un seguimiento de la sincronización del contenido en el número de carpetas especificadas por  _cEnt_.
+> [salida] Index para realizar un seguimiento de la sincronización del contenido en el número de carpetas especificadas por  _cEnt_.
     
 _cEnt_
   
@@ -65,7 +65,7 @@ _psosReserved_
   
 > Este miembro está reservado para el uso interno de Outlook y no es compatible. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de replicación](about-the-replication-api.md)
 - [Información sobre la máquina de estados de replicación](about-the-replication-state-machine.md)

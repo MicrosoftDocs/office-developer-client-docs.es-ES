@@ -22,9 +22,9 @@ Indica si los remates de una línea son redondos, cuadrados o extendidos.
   
 |**Valor**|**Estilo de extremo de línea**|
 |:-----|:-----|
-|0  <br/> |Redondeada  <br/> |
-|1   <br/> |Cuadrado  <br/> |
-|2   <br/> |Extendido  <br/> |
+|0  <br/> |Redondeado  <br/> |
+|1  <br/> |Cuadrado  <br/> |
+|2  <br/> |Extendido  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

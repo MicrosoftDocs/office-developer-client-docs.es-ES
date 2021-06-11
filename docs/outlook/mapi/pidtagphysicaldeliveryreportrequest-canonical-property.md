@@ -25,7 +25,7 @@ ms.locfileid: "33431130"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el modo de un informe que se entregará a un destinatario de mensaje determinado cuando el sistema de control de mensajes haya completado la entrega o entrega de mensajes físicos.
+Contiene el modo de un informe que se entregará a un destinatario de mensaje determinado al finalizar la entrega o entrega de mensajes físicos por parte del sistema de control de mensajes.
   
 |||
 |:-----|:-----|
@@ -46,13 +46,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

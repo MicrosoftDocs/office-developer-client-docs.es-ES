@@ -21,21 +21,21 @@ ms.locfileid: "33424353"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En la tabla de perfiles se muestra información sobre todos los perfiles asociados a una aplicación cliente determinada. Hay una tabla de perfil para cada sesión, implementada por MAPI para su uso por parte de los clientes. 
+En la tabla de perfiles se muestra información sobre todos los perfiles asociados a una aplicación cliente determinada. Hay una tabla de perfil para cada sesión, implementada por MAPI para su uso por los clientes. 
   
-Los clientes tienen acceso a la tabla de perfiles llamando al [método IProfAdmin::GetProfileTable.](iprofadmin-getprofiletable.md) 
+Los clientes tienen acceso a la tabla de perfiles mediante una llamada [al método IProfAdmin::GetProfileTable.](iprofadmin-getprofiletable.md) 
   
-La tabla de perfil es una tabla estática. Los perfiles que se han marcado para su eliminación no se incluyen en la tabla de perfiles.
+La tabla de perfiles es una tabla estática. Los perfiles marcados para su eliminación no se incluyen en la tabla de perfiles.
   
 Al igual que con la mayoría de las implementaciones de tabla, si se llama a **GetProfileTable** y no hay perfiles disponibles para el cliente, la tabla se crea con cero filas. 
   
-Las siguientes propiedades son el conjunto de columnas requerido en las tablas de perfil:
+Las siguientes propiedades son la columna necesaria establecida en las tablas de perfiles:
   
  **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
   
  **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

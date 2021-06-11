@@ -22,11 +22,11 @@ ms.locfileid: "33425480"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Se llama por Microsoft Excel siempre que el usuario desactiva el XLL durante una sesión de Excel mediante el Administrador de Add-In. No se llama a esta función cuando una sesión de Excel se cierra, de forma normal o excepcional, con el complemento instalado.
+Se llama Microsoft Excel cuando el usuario desactiva el XLL durante una sesión Excel mediante el administrador de Add-In usuario. No se llama a esta función cuando una sesión de Excel se cierra, de forma normal o excepcional, con el complemento instalado.
   
-Esta función se puede usar para mostrar un cuadro de diálogo personalizado que le dice al usuario que el complemento se ha desactivado, o para leer o escribir en el Registro, por ejemplo.
+Esta función se puede usar para mostrar un cuadro de diálogo personalizado que le diga al usuario que el complemento se ha desactivado, o para leer o escribir en el Registro, por ejemplo.
   
-Excel no requiere un XLL para implementar y exportar esta función. 
+Excel requiere un XLL para implementar y exportar esta función. 
   
 ```cs
 int WINAPI xlAutoRemove(void);
@@ -42,7 +42,7 @@ La implementación de esta función debe devolver 1 (**int**).
   
 ## <a name="remarks"></a>Comentarios
 
-Usa esta función si el XLL necesita completar cualquier tarea cuando el administrador de Add-In elimina.
+Use esta función si el XLL necesita completar cualquier tarea cuando el Administrador de Add-In elimina.
   
 ## <a name="example"></a>Ejemplo
 

@@ -33,7 +33,7 @@ En ocasiones, un cliente realiza una llamada a **GetNamesFromIDs** que da como r
     
 - Establecer el contenido del recuento de estructuras **MAPINAMEID** en cero. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Propiedades con nombre MAPI](mapi-named-properties.md)
 

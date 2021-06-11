@@ -22,17 +22,17 @@ Especifica un intervalo que se va a probar.
   
 ## <a name="syntax"></a>Sintaxis
 
- *test_expression*  [ NO] **ENTRE** *begin_expression* **Y** *end_expression* 
+ *test_expression* [ NOT ] **ENTRE begin_expression**  **Y end_expression**  
   
 El **operador Between** contiene los argumentos siguientes. 
   
 |**Argumento**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
 | *test_expression*  <br/> |Sí  <br/> |Expresión que se va a probar en el intervalo definido por  *begin_expression*  y  *end_expression*  . Debe ser el mismo tipo de datos que  *begin_expression*  y  *end_expression*  .  <br/> |
-| *NOT*  <br/> |No  <br/> |Especifica que se nega el resultado del predicado.  <br/> |
+| *NOT*  <br/> |No  <br/> |Especifica que se niega el resultado del predicado.  <br/> |
 | *begin_expression*  <br/> |Sí  <br/> |Expresión válida. Debe ser el mismo tipo de datos que  *test_expression*  y  *end_expression*  .  <br/> |
 | *end_expression*  <br/> |Sí  <br/> |Expresión válida. Debe ser el mismo tipo de datos que  *test_expression*  y  *begin_expression*  .  <br/> |
-| *AND*  <br/> |Sí  <br/> |Indica que  *test_expression*  debe estar dentro del intervalo indicado por  *begin_expression*  y  *end_expression*  .  <br/> |
+| *Y*  <br/> |Sí  <br/> |Indica que  *test_expression*  debe estar dentro del intervalo indicado por  *begin_expression*  y  *end_expression*  .  <br/> |
    
 ## <a name="result-type"></a>Tipo de resultado
 
@@ -44,6 +44,6 @@ El **operador Between** contiene los argumentos siguientes.
   
  **NOT BETWEEN** devuelve **TRUE** si el valor de  *test_expression*  es menor que el valor de  *begin_expression*  o mayor que el valor de  *end_expression*  . 
   
-Para especificar un intervalo exclusivo, use los operadores mayor que ( ) y \> menor que ( \< ).
+Para especificar un intervalo exclusivo, use el valor mayor que ( \> ) y menor que los operadores ( \< ).
   
 

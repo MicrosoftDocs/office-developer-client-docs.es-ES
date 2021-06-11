@@ -38,23 +38,23 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID1._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID1._ 
     
  _lpEntryID1_
   
-> [entrada] Puntero al primer identificador de entrada que se va a comparar.
+> [in] Puntero al primer identificador de entrada que se va a comparar.
     
  _cbEntryID2_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID2._ 
+> [in] Número de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID2._ 
     
  _lpEntryID2_
   
-> [entrada] Puntero al segundo identificador de entrada que se va a comparar.
+> [in] Puntero al segundo identificador de entrada que se va a comparar.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [salida] Puntero al resultado de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; de lo contrario, FALSE.
+> [salida] Puntero al resultado de la comparación. TRUE si los dos identificadores de entrada hacen referencia al mismo objeto; en caso contrario, FALSE.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -76,15 +76,15 @@ MAPI_E_UNKNOWN_ENTRYID
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::CompareEntryIDs** se implementa para objetos de compatibilidad con la libreta de direcciones y el proveedor del almacén de mensajes. **CompareEntryIDs** compara dos identificadores de entrada que pertenecen a un único proveedor de servicios para determinar si hacen referencia al mismo objeto. MAPI extrae la [parte MAPIUID](mapiuid.md) de los identificadores de entrada para determinar el proveedor de servicios responsable de los objetos. A continuación, MAPI llama al método **CompareEntryIDs** del objeto de inicio de sesión para realizar la comparación. 
+El **método IMAPISupport::CompareEntryIDs** se implementa para objetos de soporte del proveedor de libreta de direcciones y almacén de mensajes. **CompareEntryIDs** compara dos identificadores de entrada que pertenecen a un único proveedor de servicios para determinar si hacen referencia al mismo objeto. MAPI extrae la parte [MAPIUID](mapiuid.md) de los identificadores de entrada para determinar el proveedor de servicios responsable de los objetos. A continuación, MAPI llama al método **CompareEntryIDs del** objeto de inicio de sesión para realizar la comparación. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
  **CompareEntryIDs** es útil porque un objeto puede tener más de un identificador de entrada válido. Esta situación puede producirse, por ejemplo, después de instalar una nueva versión de un proveedor de servicios. 
   
-Si **CompareEntryIDs** devuelve un error, no realice ninguna acción basada en el resultado de la comparación. En su lugar, toma el enfoque más conservador posible. **CompareEntryIDs** puede producir un error si, por ejemplo, uno o ambos identificadores de entrada contienen una estructura **MAPIUID no** válida. 
+Si **CompareEntryIDs** devuelve un error, no realice ninguna acción en función del resultado de la comparación. En su lugar, tome el enfoque más conservador posible. **CompareEntryIDs** puede producir un error si, por ejemplo, uno o ambos identificadores de entrada contienen una estructura **MAPIUID** no válida. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

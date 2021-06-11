@@ -36,7 +36,7 @@ ULONG cMethods
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -44,15 +44,15 @@ ULONG cMethods
     
  _lpObject_
   
-> [entrada] Puntero al objeto que se va a invalidar. La interfaz del objeto debe derivar de **IUnknown**.
+> [in] Puntero al objeto que se va a invalidar. La interfaz del objeto debe derivarse de **IUnknown**.
     
  _ulRefCount_
   
-> [entrada] Recuento de referencias presente del objeto.
+> [in] Recuento de referencias actual del objeto.
     
  _cMethods_
   
-> [entrada] Recuento de métodos en la tabla virtual del objeto.
+> [in] Recuento de métodos en la tabla vtable del objeto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,19 +62,19 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::MakeInvalid** se implementa para todos los objetos de compatibilidad. El objeto que se va a invalidar debe derivar de la interfaz **IUnknown** o de una interfaz derivada de **IUnknown**.
+El **método IMAPISupport::MakeInvalid** se implementa para todos los objetos de soporte técnico. El objeto que se va a invalidar debe derivar de la **interfaz IUnknown** o de una interfaz derivada de **IUnknown**.
   
- **MakeInvalid** marca un objeto como inutilizable reemplazando la tabla virtual del objeto por una tabla de código auxiliar de tamaño similar en la que los métodos **IUnknown::AddRef** e **IUnknown::Release** tienen el rendimiento esperado. Sin embargo, se producirá un error en cualquier otro método, devolviendo el valor MAPI_E_INVALID_OBJECT. 
+ **MakeInvalid** marca un objeto como inutilizable reemplazando la tabla vtable del objeto por una tabla vtable auxiliar de tamaño similar en la que los métodos **IUnknown::AddRef** e **IUnknown::Release** realizan el rendimiento esperado. Sin embargo, cualquier otro método falla, devolviendo el valor MAPI_E_INVALID_OBJECT. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Los proveedores de servicios y los servicios de mensajes suelen **llamar a MakeInvalid en** el momento del apagado. Sin embargo, se puede llamar a **MakeInvalid** en cualquier momento. Por ejemplo, si un cliente libera un objeto sin liberar algunos de sus subobjetos, puede llamar a **MakeInvalid** inmediatamente para liberar esos subobjetos. 
+Los proveedores de servicios y los servicios de mensajes normalmente llaman **a MakeInvalid en** el momento del apagado. Sin embargo, se puede llamar a **MakeInvalid** en cualquier momento. Por ejemplo, si un cliente libera un objeto sin liberar algunos de sus subobjetos, puede llamar a **MakeInvalid** inmediatamente para liberar esos subobjetos. 
   
-Debe ser el propietario del objeto que intenta invalidar. Debe tener al menos 16 bytes de longitud y tener al menos tres métodos en su tabla virtual. 
+Debe ser el propietario del objeto que intente invalidar. Debe tener al menos 16 bytes de longitud y tener al menos tres métodos en su tabla virtual. 
   
-Puede llamar a **MakeInvalid** y, a continuación, realizar cualquier trabajo de cierre, como descartar las estructuras de datos asociadas, que normalmente se realiza durante la publicación de un objeto. No es necesario conservar el código para admitir el objeto en la memoria, ya que MAPI libera la memoria llamando a [MAPIFreeBuffer](mapifreebuffer.md) y, a continuación, libera el objeto. Puede liberar recursos, llamar **a MakeInvalid** y, a continuación, omitir el objeto invalidado. 
+Puede llamar a **MakeInvalid** y, a continuación, realizar cualquier trabajo de apagado, como descartar estructuras de datos asociadas, que normalmente se realiza durante la liberación de un objeto. El código para admitir el objeto no debe mantenerse en la memoria, ya que MAPI libera la memoria llamando a [MAPIFreeBuffer](mapifreebuffer.md) y, a continuación, libera el objeto. Puede liberar recursos, llamar **a MakeInvalid** y, a continuación, omitir el objeto invalidado. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

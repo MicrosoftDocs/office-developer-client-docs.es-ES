@@ -36,9 +36,9 @@ Contiene el identificador de entrada del autor de la primera versión de un mens
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es una de las propiedades de dirección del autor de un mensaje. En el primer envío del mensaje, la aplicación cliente debe establecer esta propiedad en el valor **de PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Nunca se cambia cuando el mensaje se reenvía o se responde. 
+Esta propiedad es una de las propiedades de dirección del autor de un mensaje. En el primer envío del mensaje, la aplicación cliente debe establecer esta propiedad en el valor **de PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)). Nunca se cambia cuando se reenvía o se responde al mensaje. 
   
-La propiedad original del autor permite la conservación de la información desde fuera del dominio de mensajería local. Cuando un mensaje llega desde otro dominio de mensajería, como desde Internet, esta propiedad proporciona una forma de garantizar que no se pierda la información original.
+La propiedad author original permite conservar la información de fuera del dominio de mensajería local. Cuando un mensaje llega desde otro dominio de mensajería, como internet, esta propiedad proporciona una forma de garantizar que no se pierda la información original.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

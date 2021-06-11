@@ -35,19 +35,19 @@ HRESULT COfflineObj::Advise(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
->  [entrada] Marcas que modifican el comportamiento. Solo se admite MAPIOFFLINE_ADVISE_DEFAULT valor. 
+>  [in] Marcas que modifican el comportamiento. Solo se admite MAPIOFFLINE_ADVISE_DEFAULT valor. 
     
  _pAdviseInfo_
   
-> [entrada] Información sobre el tipo de devolución de llamada, cuándo recibir una devolución de llamada, una interfaz de devolución de llamada para el autor de la llamada y otros detalles. También contiene un token de cliente que Outlook usa para enviar devoluciones de llamada de notificación posteriores al autor de la llamada del cliente.
+> [in] Información sobre el tipo de devolución de llamada, cuándo recibir una devolución de llamada, una interfaz de devolución de llamada para el autor de la llamada y otros detalles. También contiene un token de cliente que Outlook para enviar devoluciones de llamada de notificación posteriores al autor de la llamada del cliente.
     
  _pulAdviseToken_
   
-> [salida] Un token de aviso devuelto al llamador de cliente para cancelar posteriormente la devolución de llamada del objeto.
+> [salida] Un token de aviso devuelto al autor de la llamada del cliente para cancelar posteriormente la devolución de llamada del objeto.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -67,7 +67,7 @@ E_NOINTERFACE
 
 Al abrir un objeto sin conexión mediante **[HrOpenOfflineObj](hropenofflineobj.md)**, un cliente obtiene un objeto sin conexión que admite **IMAPIOfflineMgr**. El cliente puede comprobar los tipos de devoluciones de llamada compatibles con el objeto mediante **[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)**. El cliente puede determinar el tipo y otros detalles sobre la devolución de llamada que desea y, a continuación, llamar a **IMAPIOfflineMgr::Advise** para registrarse para recibir dichas devoluciones de llamada sobre el objeto. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

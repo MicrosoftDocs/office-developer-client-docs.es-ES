@@ -21,7 +21,7 @@ ms.locfileid: "33430535"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta estructura permite especificar información para descomprimir el cuerpo de un mensaje en formato de texto enriquecido (RTF) comprimido y, opcionalmente, devolver la secuencia de cuerpo en su formato nativo.
+Esta estructura permite especificar información para descomprimir el cuerpo de un mensaje en formato de texto enriquecido comprimido (RTF) y, opcionalmente, devolver la secuencia de cuerpo en su formato nativo.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -39,27 +39,27 @@ typedef struct {
 
  _size_
   
-> Tamaño de la estructura **RTF_WCSINFO** en número de bytes. 
+> El tamaño de la **RTF_WCSINFO** en número de bytes. 
     
  _ulFlags_
   
-> Esta es la máscara de bits de las marcas de opción para [la función WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md) Las marcas de opción admitidas son: 
+> Esta es la máscara de bits de las marcas de opción para la [función WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md) Las marcas de opción admitidas son: 
     
 |||
 |:-----|:-----|
 |MAPI_MODIFY  <br/> |Esto indica si el cliente tiene la intención de escribir la interfaz de secuencia ajustada que se devuelve.  <br/> |
-|STORE_UNCOMPRESSED_RTF  <br/> |Esto indica si el RTF descomprimido debe escribirse en la secuencia a la que apunta el puntero _lpCompressedRTFStream_ de la función [WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md)  <br/> |
+|STORE_UNCOMPRESSED_RTF  <br/> |Esto indica si se supone que el RTF descomprimido debe escribirse en la secuencia a la que apunta el puntero _lpCompressedRTFStream_ de la función [WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md)  <br/> |
 |MAPI_NATIVE_BODY  <br/> |Esto indica si la secuencia descomprimida también se convierte en el cuerpo nativo antes de devolver la secuencia. Esta marca no se puede combinar con **la MAPI_MODIFY** marca.  <br/> |
    
  _ulInCodePage_
   
-> Este es el valor de la página de códigos del mensaje. Normalmente, este valor se obtiene de la propiedad canónica [PidTagInternetCodepage](pidtaginternetcodepage-canonical-property.md) del mensaje. Este valor solo se usa cuando la **MAPI_NATIVE_BODY** se pasa en  _ulFlags_. De lo contrario, se omite este valor.
+> Este es el valor de la página de código del mensaje. Normalmente, este valor se obtiene de la propiedad canónica [PidTagInternetCodepage](pidtaginternetcodepage-canonical-property.md) del mensaje. Este valor solo se usa cuando **la MAPI_NATIVE_BODY** se pasa en  _ulFlags_. De lo contrario, este valor se omite.
     
  _ulOutCodePage_
   
-> Este es el valor de la página de códigos de la secuencia descomprimida devuelta que desea. Si se establece en un valor distinto de cero, la función [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) convierte la secuencia en la página de códigos especificada. Si se establece en un valor cero, MAPI decide qué página de códigos usar. Este valor solo se usa cuando **MAPI_NATIVE_BODY** marca se pasa en  _ulFlags_ y el formato de cuerpo no es RTF. De lo contrario, se omite este valor.
+> Este es el valor de página de código de la secuencia descomprimida devuelta que desea. Si se establece en un valor distinto de cero, la función [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) convierte la secuencia en la página de código especificada. Si se establece en un valor cero, MAPI decide qué página de código usar. Este valor solo se usa cuando **la marca MAPI_NATIVE_BODY** se pasa en  _ulFlags_ y el formato del cuerpo no es RTF. De lo contrario, este valor se omite.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

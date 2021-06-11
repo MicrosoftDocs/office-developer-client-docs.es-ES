@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlGetInst
 keywords:
-- Función xlgetinst [excel 2007]
+- función xlgetinst [excel 2007]
 localization_priority: Normal
 ms.assetid: 631a8f4e-ea7c-4743-9ee1-b2233fd7d98d
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,14 +22,14 @@ ms.locfileid: "33428133"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Devuelve el identificador de instancia de la instancia de Microsoft Excel que actualmente llama a una DLL.
+Devuelve el identificador de instancia de la instancia de Microsoft Excel que actualmente llama a un archivo DLL.
   
 ```cs
 Excel4(xlGetInst, LPXLOPER pxRes, 0); /* returns low part only */
 Excel12(xlGetInst, LPXLOPER12 pxRes, 0); /* returns full handle */
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 Esta función no tiene argumentos.
   
@@ -41,14 +41,14 @@ El identificador de instancia (**xltypeInt**) estará en el **campo val.w.**
 
 Esta función se puede usar para distinguir entre varias instancias en ejecución de Excel que llaman a la DLL.
   
-Cuando se llama a esta función mediante [Excel4](excel4-excel12.md) o [Excel4v,](excel4v-excel12v.md)la variable de entero XLOPER devuelta es un int corto de 16 bits firmado. Esto solo es capaz de contener los 16 bits bajos del controlador de Windows de 32 bits. A partir de Excel 2007, la variable entera de **XLOPER12** es un int de 32 bits firmado y, por lo tanto, contiene todo el controlador, lo que elimina la necesidad de iterar todas las ventanas abiertas. 
+Cuando se llama a esta función mediante [Excel4](excel4-excel12.md) o [Excel4v,](excel4v-excel12v.md)la variable de entero XLOPER devuelta es un int corto de 16 bits firmado. Esto solo es capaz de contener los 16 bits bajos del controlador de Windows de 32 bits. A partir de Excel 2007, la variable de entero de **XLOPER12** es un int de 32 bits firmado y, por lo tanto, contiene todo el controlador, lo que elimina la necesidad de iterar todas las ventanas abiertas. 
   
 > [!IMPORTANT]
-> Si la **función xlGetInst** se usa con la versión de 64 bits de Microsoft Excel, se producirá un error en la función. Esto se debe a que el tipo de valor **xltypeInt** no es lo suficientemente ancho como para contener el controlador de 64 bits de longitud devuelto por Excel en este caso. Para este propósito, Excel 2010 introdujo una nueva función denominada [xlGetInstPtr](xlgetinstptr.md), que se ejecuta correctamente con las versiones de Excel de 32 bits y 64 bits. 
+> Si la **función xlGetInst** se usa con la versión de 64 bits de Microsoft Excel, se producirá un error en la función. Esto se debe a que el tipo de valor **xltypeInt** no es lo suficientemente ancho como para contener el controlador de 64 bits de longitud devuelto por Excel en este caso. Para ello, Excel 2010 introdujo una nueva función denominada [xlGetInstPtr](xlgetinstptr.md), que se ejecuta correctamente con las versiones de 32 bits y 64 bits de Excel. 
   
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se compara la instancia de la última copia de Excel que la llamó con la copia actual de Excel que la llamó. Si son iguales, devuelve 1; si no es así, devuelve 0; si se produce un error en la función, devuelve -1.
+En el ejemplo siguiente se compara la instancia de la última copia de Excel que la llamó a la copia actual de Excel que la llamó. Si son iguales, devuelve 1; si no es así, devuelve 0; si se produce un error en la función, devuelve -1.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -74,7 +74,7 @@ short WINAPI xlGetInstExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

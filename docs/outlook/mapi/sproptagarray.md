@@ -25,7 +25,7 @@ ms.locfileid: "33430703"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de etiquetas de propiedad. 
+Contiene una matriz de etiquetas de propiedades. 
   
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ typedef struct _SPropTagArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -55,11 +55,11 @@ typedef struct _SPropTagArray
 
 Una etiqueta de propiedad es un entero sin signo de 32 bits que consta de dos partes: 
   
-- Un identificador de 16 bits de orden alto.
+- Un identificador en el orden alto de 16 bits.
     
-- Un tipo en orden bajo de 16 bits.
+- Tipo de 16 bits de orden bajo.
     
-El identificador es un valor numérico de un intervalo determinado. MAPI define intervalos para que los identificadores describan para qué se usa la propiedad y quién es responsable de su mantenimiento. MAPI define restricciones para cada una de las etiquetas de propiedad que admite en el archivo de encabezado Mapitags.h.
+El identificador es un valor numérico en un intervalo determinado. MAPI define intervalos de identificadores para describir para qué se usa la propiedad y quién es responsable de mantenerla. MAPI define restricciones para cada una de las etiquetas de propiedad que admite en el archivo de encabezado Mapitags.h.
   
 El tipo indica el formato del valor de la propiedad. MAPI define constantes para cada uno de los tipos de propiedad que admite en el archivo de encabezado Mapidefs.h. 
   
@@ -71,9 +71,9 @@ Para obtener más información acerca de las etiquetas de propiedad y sus compon
   
 [Información general del tipo de propiedad MAPI](mapi-property-type-overview.md)
   
-Para obtener una lista completa de los tipos de propiedad de un solo valor y varios valores, vea el apéndice, Identificadores de [propiedad y tipos](property-identifiers-and-types.md). 
+Para obtener una lista completa de los tipos de propiedades de valor único y multivalor, vea el apéndice, [Identificadores](property-identifiers-and-types.md)de propiedad y Tipos . 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

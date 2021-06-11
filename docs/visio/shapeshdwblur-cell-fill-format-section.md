@@ -1,5 +1,5 @@
 ---
-title: Celda ShapeShdwBlur (Sección de formato de relleno)
+title: Celda ShapeShdwBlur (sección Fill Format)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424990"
 ---
-# <a name="shapeshdwblur-cell-fill-format-section"></a>Celda ShapeShdwBlur (Sección de formato de relleno)
+# <a name="shapeshdwblur-cell-fill-format-section"></a>Celda ShapeShdwBlur (sección Fill Format)
 
 Determina el tamaño del desenfoque de la sombra de una forma, en puntos (de 0,00 a 100,00). 
   
 ## <a name="remarks"></a>Comentarios
 
-Para obtener una referencia a la celda **ShapeShdwBlur** por su nombre desde otra fórmula, por valor del atributo **N** de un elemento **Cell** o desde un programa mediante la propiedad **CellsU,** utilice: 
+Para obtener una referencia a la celda **ShapeShdwBlur** por su nombre desde otra fórmula, por valor del atributo **N** de un **elemento Cell** o desde un programa mediante la propiedad **CellsU,** use: 
   
 |||
 |:-----|:-----|

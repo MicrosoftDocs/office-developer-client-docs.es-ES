@@ -36,7 +36,7 @@ Contiene una marca que es TRUE cuando el proveedor admite varias direcciones de 
    
 ## <a name="remarks"></a>Comentarios
 
-Si esta propiedad es TRUE, el proveedor no permite contactos sin direcciones de correo electrónico. Si es FALSE, el proveedor muestra a todos los contactos si tienen o no una dirección de correo electrónico principal. Solo se respetará la dirección de correo electrónico principal. Se trata de una propiedad de un contenedor de libreta de direcciones de contactos y una columna de la tabla de contenedores de libreta de direcciones de contactos.
+Si esta propiedad es TRUE, el proveedor no permite contactos sin direcciones de correo electrónico. Si es FALSE, el proveedor muestra a todos los contactos si tienen o no una dirección de correo electrónico principal. Solo se respetará la dirección de correo electrónico principal. Se trata de una propiedad en un contenedor de libreta de direcciones de contactos y una columna en la tabla de contenedores de libreta de direcciones de contactos.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

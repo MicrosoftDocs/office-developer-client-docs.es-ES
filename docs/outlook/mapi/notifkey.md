@@ -25,7 +25,7 @@ ms.locfileid: "33429631"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Identifica de forma única una conexión entre un receptor de avisos, un origen de avisos y MAPI.
+Identifica de forma única una conexión entre un receptor de avisos, un origen de aviso y MAPI.
   
 |||
 |:-----|:-----|
@@ -40,29 +40,29 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cb**
   
-> Número de bytes en el **miembro** ab. 
+> Recuento de bytes en el **miembro ab.** 
     
  **ab**
   
-> Matriz de bytes que describe la clave de notificación.
+> Matriz de bytes que describen la clave de notificación.
     
 ## <a name="remarks"></a>Comentarios
 
-Los [métodos Subscribe](imapisupport-subscribe.md) y [Notify](imapisupport-notify.md) de [IMAPISupport](imapisupportiunknown.md) usan la estructura **NOTIFKEY** para generar notificaciones al receptor de avisos adecuado sobre el origen de aviso adecuado. 
+Los [métodos Subscribe](imapisupport-subscribe.md) y [Notify](imapisupport-notify.md) de [IMAPISupport](imapisupportiunknown.md) usan la estructura **NOTIFKEY** para generar notificaciones al receptor de avisos adecuado sobre el origen de asesoramiento adecuado. 
   
-Los proveedores de servicios generan claves de notificación cuando se llama al método **Advise** y quieren llamar a **Subscribe** para controlar el registro de notificaciones y el envío posterior de notificaciones. Una clave de notificación puede ser el identificador de entrada del origen del aviso o puede ser cualquier otro elemento de identificación, como una constante. Por ejemplo, un proveedor de almacenamiento de mensajes puede usar la ruta de acceso de una carpeta como clave de notificación. 
+Los proveedores de servicios generan claves de notificación cuando se llama al método **Advise** y quieren llamar a **Subscribe** para controlar el registro de notificaciones y el envío posterior de notificaciones. Una clave de notificación puede ser el identificador de entrada del origen del aviso o puede ser cualquier otro elemento de identificación, como una constante. Por ejemplo, un proveedor de almacén de mensajes puede usar la ruta de acceso de una carpeta como clave de notificación. 
   
 La clave de notificación debe funcionar en varios procesos. 
   
-Los requisitos de ámbito para una clave de notificación son similares a los de un identificador de entrada a largo plazo. Sin embargo, a diferencia de un identificador de entrada, una clave de notificación debe ser binaria comparable. Normalmente, una clave de notificación incluye un **valor GUID** definido por el proveedor de servicios seguido de otra información específica del proveedor exclusiva del objeto. 
+Los requisitos de ámbito de una clave de notificación son similares a los de un identificador de entrada a largo plazo. Sin embargo, a diferencia de un identificador de entrada, una clave de notificación debe ser comparable a binarios. Normalmente, una clave de notificación incluye un **valor GUID** definido por el proveedor de servicios seguido de otra información específica del proveedor única del objeto. 
   
-Para obtener una explicación del uso de la estructura **NOTIFKEY** para administrar las conexiones entre los receptores de avisos y los objetos que generan las notificaciones, consulte Notificación de eventos [de soporte](supporting-event-notification.md)técnico. 
+Para obtener una explicación del uso de la estructura **NOTIFKEY** para administrar las conexiones entre los receptores de notificaciones y los objetos que generan las notificaciones, vea [Supporting Event Notification](supporting-event-notification.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

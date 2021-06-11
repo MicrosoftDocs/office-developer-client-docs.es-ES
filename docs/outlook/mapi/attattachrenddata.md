@@ -21,6 +21,6 @@ ms.locfileid: "33427139"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El **atributo attAttachRenddata** se codifica como una estructura **RENDDATA** que describe cómo y dónde se representan los datos adjuntos en el texto del mensaje. La **estructura RENDDATA** simplemente se codifica en la secuencia TNEF como bytes **sizeof(RENDDATA)** que comienzan por el primer miembro de la estructura **RENDDATA.** Si el valor del miembro **dwFlags** de la estructura **RENDDATA** se establece en **MAC_BINARY**, los datos de los siguientes datos adjuntos se almacenan en formato MacBinary; de lo contrario, los datos adjuntos se codifican como de costumbre.
+El **atributo attAttachRenddata** se codifica como una estructura **RENDDATA** que describe cómo y dónde se representan los datos adjuntos en el texto del mensaje. La **estructura RENDDATA** simplemente se codifica en la secuencia TNEF como **bytes sizeof(RENDDATA)** a partir del primer miembro de la **estructura RENDDATA.** Si el valor del miembro **dwFlags** de la estructura **RENDDATA** se establece en **MAC_BINARY**, los datos de los siguientes datos adjuntos se almacenan en formato MacBinary; de lo contrario, los datos adjuntos se codifican como de costumbre.
   
 

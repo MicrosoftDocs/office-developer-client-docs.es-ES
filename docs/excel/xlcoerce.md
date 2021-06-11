@@ -28,32 +28,32 @@ Convierte un tipo de **XLOPER** /  **XLOPER12** en otro o busca valores de celda
 Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestType);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pxSource_
   
-**XLOPER** /  **XLOPER12** de origen que se debe convertir. 
+**XLOPER** /  **XLOPER12** de origen que debe convertirse. 
   
  _pxDestType_ (**xltypeInt**)
   
-(Opcional). Máscara de bits de los tipos resultantes que estás dispuesto a aceptar. Debe usar el operador **OR** bit a bit ( | ) para especificar varios tipos posibles. Si se omite este argumento, las referencias a celdas únicas se convierten en uno de los tipos de valor **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (si la celda a la que se hace referencia está vacía) y las referencias a bloques de celdas se convierten en **xltypeMulti**. Esto hace **que xlCoerce sea** la forma más cómoda de buscar valores de celda. 
+(Opcional). Máscara de bits de los tipos resultantes que está dispuesto a aceptar. Debe usar el operador **OR** bit a bit ( | ) para especificar varios tipos posibles. Si se omite este argumento, las referencias a celdas únicas se convierten en uno de los tipos de valor **xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** (si la celda a la que se hace referencia está vacía) y las referencias a bloques de celdas se convierten en **xltypeMulti**. Esto hace **que xlCoerce sea** la forma más cómoda de buscar valores de celda. 
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Devuelve el valor coercido (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** o **xltypeMulti**).
+Devuelve el valor coerced (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeNil** o **xltypeMulti**).
   
 ## <a name="remarks"></a>Comentarios
 
  **xlCoerce** no puede convertir a o desde **xltypeBigData** o **xltypeFlow**. Pasar un **tipo xltypeMissing** o **xltypeNil** como  _pxDestType_ equivale a omitir el argumento. La conversión puede producir un error en algunos casos. Por ejemplo, algunas cadenas no se pueden convertir en números, mientras que otras sí. 
   
-Si una matriz o una referencia de varias celdas se convierte en un único tipo de valor, el resultado es el valor de la celda superior izquierda o el elemento de matriz.
+Si una matriz o una referencia de varias celdas se convierte en un único tipo de valor, el resultado es el valor de la celda superior izquierda o elemento de matriz.
   
 ## <a name="example"></a>Ejemplo
 
-El siguiente código puede encontrarse en  `\SAMPLES\EXAMPLE\EXAMPLE.C` . 
+El siguiente código se puede encontrar en  `\SAMPLES\EXAMPLE\EXAMPLE.C` . 
   
 > [!NOTE]
-> La función **xlcAlert** intenta implícitamente convertir su argumento en una cadena para que el paso de coerción que se muestra aquí se pueda quitar de hecho y **xInt** se pueda pasar directamente a **xlcAlert**. Como **xlcAlert es** una macro de comandos, este código solo funciona correctamente cuando se llama desde una hoja de macros. 
+> La **función xlcAlert** intenta convertir implícitamente su argumento en una cadena para que el paso de coerción que se muestra aquí se pueda quitar de hecho y **xInt** se pueda pasar directamente a **xlcAlert**. Como **xlcAlert es** una macro de comandos, este código solo funciona correctamente cuando se llama desde una hoja de macros. 
   
 ```cs
 short WINAPI xlCoerceExample(short iVal)
@@ -70,7 +70,7 @@ short WINAPI xlCoerceExample(short iVal)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

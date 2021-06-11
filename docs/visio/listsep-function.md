@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251882
 localization_priority: Normal
 ms.assetid: 73dc5981-2c8c-e76e-e4bd-e65a7c8db242
-description: Devuelve la cadena separadora de lista para la configuración regional del usuario actual.
+description: Devuelve la cadena separadora de lista de la configuración regional del usuario actual.
 ms.openlocfilehash: 901442a3c2af8509855b8b038057e7f813634ea1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33431410"
 ---
 # <a name="listsep-function"></a>Función LISTSEP
 
-Devuelve la cadena separadora de lista para la configuración regional del usuario actual.
+Devuelve la cadena separadora de lista de la configuración regional del usuario actual.
   
 ## <a name="syntax"></a>Sintaxis
 

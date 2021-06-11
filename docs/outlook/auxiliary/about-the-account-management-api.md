@@ -18,17 +18,17 @@ ms.locfileid: "33426252"
 
 La API de administración de cuentas proporciona acceso a la información de la cuenta y admite notificaciones de cambios en la cuenta. Como clientes de esta API, los proveedores de correo hacen lo siguiente:
   
-1. Usa [IOlkAccountManager para](iolkaccountmanager.md) administrar el acceso a las cuentas y configurar las notificaciones sobre los cambios de la cuenta. 
+1. Use [IOlkAccountManager para](iolkaccountmanager.md) administrar el acceso a las cuentas y configurar las notificaciones sobre los cambios en la cuenta. 
     
-2. Implementa y usa [IOlkAccountNotify para](iolkaccountnotify.md) enviar notificaciones sobre los cambios en la cuenta. 
+2. Implemente y use [IOlkAccountNotify para](iolkaccountnotify.md) enviar notificaciones sobre los cambios en la cuenta. 
     
 3. Use [IOlkEnum para](iolkenum.md) enumerar cuentas. 
     
-4. Usa [IOlkAccount para](iolkaccount.md) obtener y establecer propiedades y otra información sobre una cuenta. Los clientes obtienen esta interfaz a través [de IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md) o [IOlkEnum::GetNext](iolkenum-getnext.md) para acceder a una cuenta individual. 
+4. Use [IOlkAccount para](iolkaccount.md) obtener y establecer propiedades y otra información sobre una cuenta. Los clientes obtienen esta interfaz a través [de IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md) o [IOlkEnum::GetNext](iolkenum-getnext.md) para obtener acceso a una cuenta individual. 
     
 5. Implemente y use [IOlkAccountHelper](iolkaccounthelper.md) para proporcionar la funcionalidad auxiliar del administrador de cuentas, incluida la obtención del nombre de perfil de una cuenta y la sesión MAPI actual. 
     
-6. Implementa y usa [IOlkErrorUnknown](iolkerrorunknown.md) para proporcionar información adicional sobre un error en **IOlkAccountManager**, **IOlkAccountNotify** e **IOlkAccount**. 
+6. Implemente y [use IOlkErrorUnknown para](iolkerrorunknown.md) proporcionar información adicional sobre un error en **IOlkAccountManager**, **IOlkAccountNotify** y **IOlkAccount**. 
 
 ##  <a name="account-management-api-components"></a>Componentes de la API de administración de cuentas
 

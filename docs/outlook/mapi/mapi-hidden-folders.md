@@ -25,7 +25,7 @@ Carpetas ocultas son gen�rica que los clientes se crean en la carpeta ra�z d
   
 MAPI espera que todos los clientes puedan mostrar, crear, modificar y eliminar carpetas en un sub�rbol IPM. Compatibilidad para trabajar con carpetas en otros �rboles se considera opcional. Sin embargo, todos los almacenes de mensaje que puede usarse como el almac�n predeterminado y que puede enviar y recibir mensajes deben completamente compatible con las carpetas ocultas.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

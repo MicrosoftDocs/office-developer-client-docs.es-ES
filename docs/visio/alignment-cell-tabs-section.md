@@ -23,9 +23,9 @@ Especifica la alineación de las tabulaciones.
 |**Valor**|**Alignment**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Left  <br/> |**visTabStopLeft** <br/> |
-| 1   <br/> | Hacia el centro  <br/> |**visTabStopCenter** <br/> |
-| 2   <br/> | Derecha  <br/> |**visTabStopRight** <br/> |
-| 3   <br/> | Decimal  <br/> |**visTabStopDecimal** <br/> |
+| 1  <br/> | Hacia el centro  <br/> |**visTabStopCenter** <br/> |
+| 2  <br/> | Derecha  <br/> |**visTabStopRight** <br/> |
+| 3  <br/> | Decimal  <br/> |**visTabStopDecimal** <br/> |
 | 4   <br/> | Coma  <br/> |**visTabStopComma** <br/> |
    
 ## <a name="remarks"></a>Comentarios

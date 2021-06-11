@@ -19,13 +19,13 @@ ms.locfileid: "33430360"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Además del proveedor estándar y los objetos de inicio de sesión implementados por todos los proveedores de servicios, los proveedores de transporte deben implementar un objeto de estado. Para los demás tipos de proveedor de servicios, la implementación de un objeto de estado es opcional. Sin embargo, MAPI lo requiere para los proveedores de transporte. Los proveedores de transporte que admiten la descarga de encabezados de mensaje desde un servidor remoto también implementan una carpeta y una tabla. 
+Además del proveedor estándar y los objetos de inicio de sesión implementados por todos los proveedores de servicios, los proveedores de transporte deben implementar un objeto de estado. Para los demás tipos de proveedor de servicios, la implementación de un objeto status es opcional. Sin embargo, MAPI lo requiere para los proveedores de transporte. Los proveedores de transporte que admiten la descarga de encabezados de mensaje desde un servidor remoto también implementan una carpeta y una tabla. 
   
 En la siguiente ilustración se muestra cada uno de los objetos que los proveedores de transporte pueden implementar con sus interfaces correspondientes. La ilustración también indica si MAPI o un cliente es el usuario del objeto.
   
-![Objetos que los proveedores de transporte implementan]objetos que los proveedores de transporte(media/amapi_66.gif "implementan")
+![Objetos que los proveedores de transporte implementan]Objetos que los proveedores de transporte(media/amapi_66.gif "implementan")
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Objetos del proveedor de servicios MAPI](mapi-service-provider-objects.md)
 

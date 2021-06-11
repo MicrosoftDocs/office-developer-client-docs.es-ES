@@ -18,7 +18,7 @@ ms.locfileid: "33424416"
 ---
 # <a name="title-function"></a>Función TITLE
 
-Devuelve el texto del campo **Título** de las propiedades de un documento. 
+Devuelve el texto del **campo Título** de las propiedades de un documento. 
   
 ## <a name="syntax"></a>Sintaxis
 

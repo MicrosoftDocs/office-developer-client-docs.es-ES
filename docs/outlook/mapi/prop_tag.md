@@ -23,7 +23,7 @@ ms.locfileid: "33425886"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Devuelve una etiqueta de propiedad creada mediante la combinación de un identificador y un tipo de propiedad especificados. 
+Devuelve una etiqueta de propiedad creada combinando un identificador y un tipo de propiedad especificados. 
   
 |||
 |:-----|:-----|
@@ -34,11 +34,11 @@ Devuelve una etiqueta de propiedad creada mediante la combinación de un identif
 PROP_TAG (ulPropType, ulPropID)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ulPropType_
   
-> Tipo de propiedad de la nueva etiqueta de propiedad.
+> Tipo de propiedad para la nueva etiqueta de propiedad.
     
 _ulPropID_
   
@@ -46,7 +46,7 @@ _ulPropID_
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **\_ PROP TAG** crea una etiqueta de propiedad para una propiedad de tipo  _ulPropType_ y el identificador especificado en  _ulPropID_. Por ejemplo, una etiqueta de propiedad para un identificador de entrada se puede crear mediante la macro **PROP_TAG** siguiente: 
+La **macro \_ PROP TAG** crea una etiqueta de propiedad para una propiedad de tipo  _ulPropType_ y el identificador especificado en  _ulPropID_. Por ejemplo, una etiqueta de propiedad para un identificador de entrada se puede crear mediante la macro **PROP_TAG** como se muestra a continuación: 
   
 ```cpp
 PROP_TAG( PT_BINARY, 0x0FFF)
@@ -55,9 +55,9 @@ PROP_TAG( PT_BINARY, 0x0FFF)
 
 Los 16 bits de orden bajo de la etiqueta de propiedad devuelta contienen el tipo de propiedad, PT_BINARY y los 16 bits de orden alto contienen el identificador de propiedad, 0xFFFF.
   
-Para obtener más información acerca de las etiquetas de propiedad, vea [etiquetas de propiedad MAPI](mapi-property-tags.md).
+Para obtener más información acerca de las etiquetas de propiedad, vea [Etiquetas de propiedades MAPI](mapi-property-tags.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [SPropValue](spropvalue.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

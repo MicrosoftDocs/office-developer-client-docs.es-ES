@@ -36,7 +36,7 @@ Numérico
   
 ## <a name="remarks"></a>Comentarios
 
-Si  _el_ número es negativo, la función SQRT devuelve el valor de error #NUM!. 
+Si  _number_ es negativo, la función SQRT devuelve el valor de error #NUM!. 
   
 ## <a name="example"></a>Ejemplo
 

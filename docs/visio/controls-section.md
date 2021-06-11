@@ -22,6 +22,6 @@ Contiene una fila y celdas para cada controlador definido en una forma.
   
 ## <a name="remarks"></a>Comentarios
 
-Puede definir controladores en la sección **Controles de** la ventana ShapeSheet. Si la forma no tiene **sección Controles,** puede insertar una en la ventana ShapeSheet. Haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar sección** y, a continuación, active la casilla **Controles**. Para agregar controladores a una sección **controles** existente, haga clic con el botón secundario en una fila y haga clic en **Insertar** fila en el menú contextual. 
+Puede definir controladores de control en la **sección Controles** de la ventana ShapeSheet. Si la forma no tiene **ninguna sección Controles,** puede insertar una en la ventana ShapeSheet. Haga clic con el botón secundario en la ventana ShapeSheet, haga clic en **Insertar sección** y, a continuación, active la casilla **Controles**. Para agregar controladores de control a una sección **Controles** existente, haga clic con el botón secundario en una fila y haga clic **en Insertar fila** en el menú contextual. 
   
 

@@ -21,7 +21,7 @@ ms.locfileid: "33426124"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-MAPI define un conjunto de verbos estándar, o acciones realizadas cuando un usuario hace una selección de menú o hace clic en un botón, que todos los visores de formularios deben admitir. Cada verbo tiene una constante asociada para su identificación, definida en el EXCHFORM. Archivo de encabezado H. En la tabla siguiente se enumeran los verbos de formulario estándar y sus constantes asociadas:
+MAPI define un conjunto de verbos estándar, o acciones realizadas cuando un usuario realiza una selección de menú o hace clic en un botón, que todos los visores de formularios deben admitir. Cada verbo tiene una constante asociada para su identificación, definida en EXCHFORM. Archivo de encabezado H. En la tabla siguiente se enumeran los verbos de formulario estándar y sus constantes asociadas:
   
 |**Verb**|**Valor**|
 |:-----|:-----|
@@ -33,8 +33,8 @@ MAPI define un conjunto de verbos estándar, o acciones realizadas cuando un usu
 |Guardar como  <br/> |EXCHIVERB_SAVEAS  <br/> |
 |Responder en carpeta  <br/> |EXCHIVERB_REPLYTOFOLDER  <br/> |
    
-Cuando un usuario elige un verbo, pasa su constante en una llamada al método [IMAPIForm::D oVerb](imapiform-doverb.md) del formulario para realizar la acción correspondiente. 
+Cuando un usuario elija un verbo, pase su constante en una llamada al método [IMAPIForm::D oVerb](imapiform-doverb.md) del formulario para realizar su acción correspondiente. 
   
-Además de tener acceso a verbos a través del visor de formularios, los usuarios a veces pueden tener acceso a verbos directamente desde el formulario. Por ejemplo, algunos objetos de formulario permiten al usuario invocar el verbo  **Imprimir** haciendo clic con el botón secundario en el formulario y eligiendo Imprimir en un menú contextual. 
+Además de tener acceso a verbos a través del visor de formularios, los usuarios a veces pueden tener acceso a verbos directamente desde el formulario. Por ejemplo, algunos objetos de formulario permiten al usuario invocar el verbo **Imprimir** haciendo clic con el botón secundario en el formulario y eligiendo **Imprimir** en un menú contextual. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Trabajar con soluciones sin conexión mediante el modelo de objetos de InfoPath
+title: Trabajar con soluciones sin conexión con el modelo de objetos de InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429246"
 ---
-# <a name="work-with-offline-solutions-using-the-infopath-object-model"></a>Trabajar con soluciones sin conexión mediante el modelo de objetos de InfoPath
+# <a name="work-with-offline-solutions-using-the-infopath-object-model"></a>Trabajar con soluciones sin conexión con el modelo de objetos de InfoPath
 
 El modelo de objetos compatible con InfoPath 2003 proporciona la propiedad [MachineOnlineState](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.MachineOnlineState.aspx) del objeto [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) , que permite al código del formulario comprobar si el equipo del usuario está conectado a la red. El código del formulario puede realizar acciones distintas según el estado de la conexión. 
   
@@ -35,7 +35,7 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 4. En el **Asistente para la conexión de datos**, haga clic en **Enviar datos** y, a continuación, en **Siguiente**.
     
-5. En la página siguiente del asistente, haga clic en **Como mensaje de** correo electrónico y, a continuación, haga clic en **Siguiente.**
+5. En la página siguiente del asistente, haga clic **en Como mensaje de** correo electrónico y, a continuación, haga clic en **Siguiente**.
     
 6. En la siguiente página del asistente, escriba su dirección de correo electrónico en el **cuadro Para.** 
     
@@ -57,7 +57,7 @@ En este ejemplo, se supone que se ha creado un formulario para enviar un informe
     
 8. En el asistente, haga clic en **Siguiente**.
     
-9. En la página siguiente del asistente, escriba "Enviar correo electrónico" en el cuadro Escribir un nombre para esta conexión de datos y, **a** continuación, haga clic **en Finalizar**.
+9. En la página siguiente del asistente, escriba "Enviar correo electrónico" en el cuadro Escriba un nombre para esta conexión de datos y, **a** continuación, haga clic en **Finalizar**.
     
 ### <a name="add-logic-for-submitting-the-form-depending-on-the-connected-state-of-a-users-computer"></a>Añadir la lógica para enviar el formulario según el estado de la conexión del equipo del usuario
 

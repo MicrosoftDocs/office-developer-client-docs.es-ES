@@ -17,7 +17,7 @@ ms.locfileid: "33428168"
  
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cuando se agrega un campo definido por el usuario a un elemento de Microsoft Outlook, se agrega una definición de campo a la estructura de [secuencias PropertyDefinition](propertydefinition-stream-structure.md) correspondiente. Use el siguiente procedimiento para agregar una nueva definición de campo a una estructura de secuencia PropertyDefinition. 
+Al agregar un campo definido por el usuario a un elemento de Microsoft Outlook, se agrega una definición de campo a la estructura de secuencia [PropertyDefinition](propertydefinition-stream-structure.md) correspondiente. Use el siguiente procedimiento para agregar una nueva definición de campo a una estructura de secuencia PropertyDefinition. 
   
 ### <a name="to-add-a-definition-for-a-new-user-defined-field"></a>Para agregar una definición para un nuevo campo definido por el usuario
 
@@ -27,13 +27,13 @@ Cuando se agrega un campo definido por el usuario a un elemento de Microsoft Out
     
 3. Cree una definición del nuevo campo definido por el usuario en el formato PropDefV2 y agrégalo a la matriz.
     
-4. Establece el elemento Version de la estructura de secuencias PropertyDefinition como 0x0103, si el elemento Version no se ha establecido en ese valor.
+4. Establezca el elemento Version de la estructura de secuencia PropertyDefinition como 0x0103, si el elemento Version no se ha establecido en ese valor.
     
 5. Incremente el elemento FieldDefinitionCount en 1.
     
 6. Almacene la matriz como el valor del elemento FieldDefinitions.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Estructura de secuencia PropertyDefinition](propertydefinition-stream-structure.md)
 

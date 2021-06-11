@@ -34,15 +34,15 @@ HRESULT GetContentsTable(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se devuelve la tabla de contenido. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se devuelve la tabla de contenido. Se pueden establecer las siguientes marcas:
     
 MAPI_ASSOCIATED 
   
-> Se debe devolver la tabla de contenido asociada del contenedor en lugar de la tabla de contenido estándar. Esta marca solo se usa con carpetas. Los mensajes que se incluyen en la tabla de contenido asociada se crearon con la marca MAPI_ASSOCIATED establecida en la llamada al método [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) Normalmente, los clientes usan la tabla de contenido asociada para recuperar formularios, vistas y otros mensajes ocultos. 
+> La tabla de contenido asociada del contenedor debe devolverse en lugar de la tabla de contenido estándar. Esta marca solo se usa con carpetas. Los mensajes que se incluyen en la tabla de contenido asociada se crearon con la marca MAPI_ASSOCIATED establecida en la llamada al método [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) Los clientes suelen usar la tabla de contenido asociada para recuperar formularios, vistas y otros mensajes ocultos. 
     
 ACLTABLE_FREEBUSY
   
@@ -54,11 +54,11 @@ MAPI_DEFERRED_ERRORS
     
 MAPI_UNICODE 
   
-> Solicita que las columnas que contienen datos de cadena se devuelvan en formato Unicode. Si no MAPI_UNICODE marca, las cadenas deben devolverse en el formato ANSI. 
+> Solicita que las columnas que contienen datos de cadena se devuelvan en formato Unicode. Si no MAPI_UNICODE marca, las cadenas deben devolverse en formato ANSI. 
     
 SHOW_SOFT_DELETES
   
-> Muestra los elementos que están marcados actualmente como eliminados temporalmente, es decir, están en la fase de tiempo de retención de elementos eliminados.
+> Muestra los elementos marcados actualmente como eliminados temporalmente; es decir, se encuentran en la fase de tiempo de retención de elementos eliminados.
     
  _lppTable_
   
@@ -72,7 +72,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
+> La marca MAPI_UNICODE se estableció y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 MAPI_E_NO_SUPPORT 
   
@@ -80,23 +80,23 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPIContainer::GetContentsTable** devuelve un puntero a la tabla de contenido de un contenedor. Una tabla de contenido contiene información resumida acerca de los objetos del contenedor. 
+El **método IMAPIContainer::GetContentsTable** devuelve un puntero a la tabla de contenido de un contenedor. Una tabla de contenido contiene información de resumen sobre los objetos del contenedor. 
   
-Las tablas de contenido tienen conjuntos de columnas largos. Para obtener una lista completa de las columnas obligatorias y opcionales de las tablas de contenido, vea [Tablas de contenido.](contents-tables.md) 
+Las tablas de contenido tienen conjuntos de columnas largos. Para obtener una lista completa de las columnas obligatorias y opcionales de las tablas de contenido, vea [Tablas de contenido](contents-tables.md). 
   
-Es posible que algunos contenedores no tengan contenido. Estos contenedores devuelven MAPI_E_NO_SUPPORT de sus implementaciones **de GetContentsTable**.
+Es posible que algunos contenedores no tengan contenido. Estos contenedores devuelven MAPI_E_NO_SUPPORT de sus implementaciones de **GetContentsTable**.
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Si admite una tabla de contenido para el contenedor, también debe hacer lo siguiente:
   
-- Llamadas de soporte técnico al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor para abrir **la PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)).
+- Admite llamadas al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) del contenedor para abrir la propiedad **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)).
     
 - Devolver **PR_CONTAINER_CONTENTS** respuesta a una llamada al contenedor 
     
     [Métodos IMAPIProp::GetProps](imapiprop-getprops.md) e [IMAPIProp::GetPropList.](imapiprop-getproplist.md) 
     
-La implementación de este método por parte de un proveedor de transporte remoto debe devolver un puntero a una interfaz [IMAPITable : IUnknown](imapitableiunknown.md) en el parámetro _ppTable_ pasado al **método GetContentsTable.** Si el proveedor de transporte tiene una tabla de contenido existente, es suficiente con devolver un puntero a ella. Si no es así, este método debe crear un nuevo objeto [IMAPITable : IUnknown,](imapitableiunknown.md) rellenar la tabla con encabezados de mensaje (si hay alguno disponible) y devolver un puntero a la nueva tabla. El [método ITableData::HrGetView](itabledata-hrgetview.md) es útil para generar un valor devuelto y almacenar el puntero de tabla en el _parámetro ppTable._ La tabla de contenido debe admitir al menos las siguientes columnas de propiedad: 
+La implementación de este método por parte de un proveedor de transporte remoto debe devolver un puntero a una interfaz [IMAPITable: IUnknown](imapitableiunknown.md) en el _parámetro ppTable_ pasado al **método GetContentsTable.** Si el proveedor de transporte tiene una tabla de contenido existente, basta con devolverle un puntero. Si no es así, este método debe crear un nuevo objeto [IMAPITable : IUnknown,](imapitableiunknown.md) rellenar la tabla con encabezados de mensaje (si hay alguno disponible) y devolver un puntero a la nueva tabla. El [método ITableData::HrGetView](itabledata-hrgetview.md) es útil para generar un valor devuelto y almacenar el puntero de tabla en el _parámetro ppTable._ La tabla de contenido debe admitir al menos las siguientes columnas de propiedades: 
   
 - **PR_ENTRYID** ([PidTagEntryID](pidtagentryid-canonical-property.md))
     
@@ -136,7 +136,7 @@ La implementación de este método por parte de un proveedor de transporte remot
     
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Las columnas de la tabla de contenido binario y de cadena se pueden truncar. Normalmente, los proveedores devuelven 255 caracteres. Como no puede saber de antemano si una tabla incluye columnas truncadas, suponga que una columna se trunca si la longitud de la columna es de 255 o 510 bytes. Siempre puede recuperar el valor completo de una columna truncada, si es necesario, directamente desde el objeto usando su identificador de entrada para abrirlo y, a continuación, llamando al método **IMAPIProp::GetProps.** 
+Las columnas de la tabla de contenido binario y de cadena se pueden truncar. Normalmente, los proveedores devuelven 255 caracteres. Dado que no puede saber de antemano si una tabla incluye columnas truncadas, suponga que una columna se trunca si la longitud de la columna es de 255 o 510 bytes. Siempre puede recuperar el valor completo de una columna truncada, si es necesario, directamente desde el objeto mediante su identificador de entrada para abrirlo y, a continuación, llamar al método **IMAPIProp::GetProps.** 
   
 Según la implementación del proveedor, las restricciones y las operaciones de ordenación pueden aplicarse a toda una cadena o a la versión truncada de esa cadena.
   
@@ -148,7 +148,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableDialog.cpp  <br/> |CContentsTableDlg::CContentsTableDlg  <br/> |La **clase CContentsTableDlg** usa **GetContentsTable** para obtener las entradas de una tabla de contenido.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

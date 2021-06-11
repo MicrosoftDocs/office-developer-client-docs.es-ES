@@ -22,7 +22,7 @@ Especifica el comportamiento de colocación de una forma que puede colocarse.
   
 |**Valor**|**Modo de selección**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|&amp;H1  <br/> |No mueva esta forma cuando las formas estén colocadas mediante el **cuadro de** diálogo Configurar diseño.  <br/> |**visSLOFixedPlacement** <br/> |
+|&amp;H1  <br/> |No mueva esta forma cuando se establezcan formas mediante el **cuadro de diálogo** Configurar diseño.  <br/> |**visSLOFixedPlacement** <br/> |
 |&amp;H2  <br/> |No mover esta forma y no permitir que se coloquen sobre ella otras formas que la quiten.  <br/> |**visSLOFixedPlow** <br/> |
 |&amp;H4  <br/> |No mover esta forma y permitir colocar sobre ella otras formas que la quiten.  <br/> |**visSLOFixedPermeablePlow** <br/> |
 |&amp;H20 (32)  <br/> |Omitir las ubicaciones de los puntos de conexión cuando se está enrutando.  <br/> |**visSLOFixedConnPtsIgnore** <br/> |
@@ -31,9 +31,9 @@ Especifica el comportamiento de colocación de una forma que puede colocarse.
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda  en la ficha Colocación del [](run-in-developer-mode-display-the-developer-tab.md) cuadro de  diálogo Comportamiento (con una forma  seleccionada, en la ficha Programador, en el grupo Diseño de formas, haga clic en Comportamiento y, a continuación, haga clic en la ficha Colocación).   
+También puede establecer el valor de  esta celda en la ficha Ubicación del [](run-in-developer-mode-display-the-developer-tab.md) cuadro de diálogo Comportamiento (con una forma seleccionada, en la ficha Programador, en el grupo Diseño de formas, haga clic en Comportamiento y, a continuación, haga clic en la pestaña Ubicación).    
   
-Puede establecer cualquier combinación de valores para esta celda. Por ejemplo, puede escribir el valor 3 ( H3), que elimina el movimiento al diseñar formas mediante el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Volver a diseñar página y, a continuación, haga clic en Más opciones de diseño ) y cuando se coloquen otras formas colocables en la forma o cerca de &amp; ella.      
+Puede establecer cualquier combinación de valores para esta celda. Por ejemplo, puede escribir el valor 3 ( H3), que elimina el movimiento al establecer formas mediante el cuadro de diálogo Configurar diseño (en la ficha Diseño, en el grupo Diseño, haga clic en Volver a diseñar página y, a continuación, haga clic en Más opciones de diseño ) y cuando se colocan otras formas colocables en o cerca de &amp; la forma.      
   
 En las versiones anteriores a Visio 2000, este comportamiento se establece mediante la celda ObjInteract, en la sección de varios. 
   

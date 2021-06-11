@@ -23,7 +23,7 @@ ms.locfileid: "33424913"
   
 A great deal of the information that relates to message store provider support for folders is covered in [Carpetas de MAPI](mapi-folders.md). You should be familiar with that information before attempting to implement a message store provider. The [Carpetas de MAPI](mapi-folders.md) section is heavily oriented to the MAPI client's perspective; this topic covers additional information that is important from the message store provider's point of view. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

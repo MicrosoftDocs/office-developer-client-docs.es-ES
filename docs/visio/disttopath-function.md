@@ -32,16 +32,16 @@ DISTTOPATH(** *section* **, ** *x* **, ** *y* ** )
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Obligatorio  <br/> |**String** <br/> |Sección de geometría que representa la ruta de acceso, especificada por una referencia a su celda Path (por ejemplo, Geometry1.Path).  <br/> |
-| _x_ <br/> |Obligatorio  <br/> |**Double** <br/> |Coordenada  _x_ del punto.  <br/> |
+| _x_ <br/> |Obligatorio  <br/> |**Double** <br/> |La coordenada  _x_ del punto.  <br/> |
 | _y_ <br/> |Obligatorio  <br/> |**Double** <br/> |Coordenada  _y_ del punto.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
- **Double**
+ **Doble**
   
 ## <a name="remarks"></a>Comentarios
 
-Microsoft Visio devuelve #REF! si  _la sección_ no existe. 
+Microsoft Visio devuelve #REF! si  _la_ sección no existe. 
   
 El valor devuelto es positivo si el punto se encuentra a la izquierda de la dirección del recorrido y negativo si se encuentra a la derecha.
   

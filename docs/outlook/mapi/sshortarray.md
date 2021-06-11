@@ -40,11 +40,11 @@ typedef struct _SShortArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
-> Número de valores de la matriz que apunta el **miembro lpi.** 
+> Recuento de valores en la matriz apuntada por el **miembro lpi.** 
     
  **lpi**
   
@@ -52,9 +52,9 @@ typedef struct _SShortArray
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca PT_MV_SHORT y otros tipos de propiedad, vea [Tipos de propiedad](property-types.md). 
+Para obtener más información acerca de PT_MV_SHORT y otros tipos de propiedades, vea [Tipos de propiedad](property-types.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

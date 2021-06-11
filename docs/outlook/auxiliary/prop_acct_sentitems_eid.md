@@ -27,14 +27,14 @@ Vea [IOlkAccount](iolkaccount.md).
 |Identificador:  <br/> |0x0020  <br/> |
 |Tipo de propiedad:  <br/> |PT_BINARY  <br/> |
 |Etiqueta de propiedad:  <br/> |0x00200102  <br/> |
-|Acceso:  <br/> |Solo lectura  <br/> |
+|Access:  <br/> |Solo lectura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Obtenga esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md).
+Obtener esta propiedad mediante [IOlkAccount::GetProp](iolkaccount-getprop.md).
   
 La carpeta predeterminada para los elementos enviados es **Elementos enviados**.
   
-Esta propiedad es de solo lectura para cuentas POP3 e IMAP. Al intentar establecer esta propiedad para estos tipos de cuentas se **devuelve E_ACCT_NOT_FOUND**. 
+Esta propiedad es de solo lectura para cuentas POP3 e IMAP. Al intentar establecer esta propiedad para estos tipos de cuentas, **E_ACCT_NOT_FOUND**. 
   
 

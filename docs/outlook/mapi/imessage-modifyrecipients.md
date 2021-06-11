@@ -34,7 +34,7 @@ HRESULT ModifyRecipients(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -68,7 +68,7 @@ El m�todo **IMessage::ModifyRecipients** cambia la lista de destinatarios del 
   
 La estructura **ADRLIST** contiene una estructura [ADRENTRY](adrentry.md) para cada destinatario y cada estructura **ADRENTRY** contiene una matriz de valores de propiedad que describe las propiedades del destinatario. 
   
-Los destinatarios de la estructura **ADRLIST** se pueden resolver o sin resolver. La diferencia est� en el n�mero y tipo de propiedades que se incluyen. Un destinatario sin resolver contiene sólo las propiedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) y **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) mientras que un destinatario resuelto contiene esas dos propiedades más **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) y **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Si **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) está disponible, también se puede incluir.
+Los destinatarios de la estructura **ADRLIST** se pueden resolver o sin resolver. La diferencia est� en el n�mero y tipo de propiedades que se incluyen. Un destinatario no resuelto contiene solo las propiedades **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) y **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) mientras que un destinatario resuelto contiene esas dos propiedades más **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) y **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Si **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) está disponible, también se puede incluir.
   
 En el momento en que se env�a un mensaje, deben incluir s�lo los destinatarios resueltos en su lista de destinatarios. Destinatarios sin resolver dar lugar a informes de entrega que se crea y se env�a al remitente del mensaje original. Para obtener m�s informaci�n acerca del proceso de resoluci�n de nombres desde la perspectiva del cliente, vea la [resoluci�n de un nombre](resolving-a-recipient-name.md). Para obtener m�s informaci�n desde la perspectiva de la libreta de direcciones, vea [Implementaci�n de resoluci�n de nombres](implementing-name-resolution.md).
   
@@ -114,7 +114,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI, utiliza el m�todo **IMessage::ModifyRecipients** para agregar a un nuevo destinatario a un mensaje.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

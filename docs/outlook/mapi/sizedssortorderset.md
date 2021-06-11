@@ -23,7 +23,7 @@ ms.locfileid: "33428609"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Crea una estructura [SSortOrderSet](ssortorderset.md) con nombre que contiene un número especificado de criterios de ordenación. 
+Crea una estructura [SSortOrderSet](ssortorderset.md) con nombre que contiene un número especificado de órdenes de ordenación. 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Crea una estructura [SSortOrderSet](ssortorderset.md) con nombre que contiene un
 SizedSSortOrderSet (_csort,_name)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ _csort_
   
@@ -46,7 +46,7 @@ _ _name_
     
 ## <a name="remarks"></a>Comentarios
 
-Use la macro **SizedSSortOrderSet para** crear un conjunto de criterio de ordenación con límites explícitos. 
+Use la **macro SizedSSortOrderSet** para crear un conjunto de ordenación con límites explícitos. 
   
 Para usar la nueva estructura que resulta de la macro **SizedSSortOrderSet** como puntero a una estructura **SSortOrderSet,** realice la conversión siguiente: 
   
@@ -55,7 +55,7 @@ lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [SSortOrderSet](ssortorderset.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

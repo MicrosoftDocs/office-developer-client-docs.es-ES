@@ -25,7 +25,7 @@ ms.locfileid: "33430234"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela el envío de notificaciones previamente configuradas con una llamada al método [IMAPITable::Advise.](imapitable-advise.md) 
+Cancela el envío de notificaciones configuradas anteriormente con una llamada al [método IMAPITable::Advise.](imapitable-advise.md) 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,11 +33,11 @@ ULONG_PTR ulConnection
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [entrada] El número de la conexión de registro devuelta por una llamada a [IMAPITable::Advise](imapitable-advise.md).
+> [in] El número de la conexión de registro devuelta por una llamada a [IMAPITable::Advise](imapitable-advise.md).
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Utilice el método **IMAPITable::Unadvise** para liberar el puntero al objeto receptor de aviso pasado en el parámetro  _lpAdviseSink_ en la llamada anterior a **IMAPITable::Advise**, cancelando así un registro de notificación. Como parte de descartar el puntero al objeto receptor de aviso, se llama al método **IUnknown::Release** del objeto. Por lo general, se llama a **Release** durante la llamada **Unadvise,** pero si hay otro subproceso en proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el receptor de avisos, la llamada **release** se retrasa hasta que el método **OnNotify** devuelve. 
+Use el método **IMAPITable::Unadvise** para liberar el puntero al objeto receptor advise pasado en el parámetro  _lpAdviseSink_ en la llamada anterior a **IMAPITable::Advise**, cancelando así un registro de notificación. Como parte de descartar el puntero al objeto receptor advise, se llama al método **IUnknown::Release** del objeto. Por lo general, **se** llama a Release durante la llamada **Unadvise,** pero si otro subproceso está en el proceso de llamar al método [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) para el receptor de avisos, la llamada **Release** se retrasa hasta que el método **OnNotify** devuelve. 
   
-Para obtener más información sobre el proceso de notificación, vea [Notificación de eventos en MAPI](event-notification-in-mapi.md). Para obtener información específica acerca de la notificación de tabla, vea [Acerca de las notificaciones de tabla](about-table-notifications.md). Para obtener información acerca del uso **de los métodos IMAPISupport** para admitir notificaciones, vea [Notificación de eventos auxiliares.](supporting-event-notification.md)
+Para obtener más información sobre el proceso de notificación, vea [Event Notification in MAPI](event-notification-in-mapi.md). Para obtener información específica acerca de la notificación de tabla, vea [About Table Notifications](about-table-notifications.md). Para obtener información acerca del uso de los **métodos IMAPISupport** para admitir notificaciones, vea [Supporting Event Notification](supporting-event-notification.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -59,7 +59,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |MFCMAPI usa el **método IMAPITable::Unadvise** para cancelar las notificaciones de la tabla.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -21,7 +21,7 @@ ms.locfileid: "33431032"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-En esta sección se incluyen temas secundarios sobre cómo implementar algunas de las características más poco comunes o difíciles en una aplicación cliente.
+En esta sección se incluyen subtemas sobre cómo implementar algunas de las características más poco comunes o difíciles en una aplicación cliente.
   
 ## <a name="in-this-section"></a>En esta sección
 
@@ -33,7 +33,7 @@ En esta sección se incluyen temas secundarios sobre cómo implementar algunas d
   
 > Describe cómo escribir una aplicación cliente que proporciona acceso controlado a los mensajes almacenados en otro equipo.
     
-[Escritura de un Visor de jerarquía](writing-a-hierarchy-viewer.md)
+[Escritura de un visor de jerarquía](writing-a-hierarchy-viewer.md)
   
 > Describe cómo escribir un visor de jerarquía, un componente de interfaz de usuario que se usa para mostrar tablas de jerarquía de contenedor de carpetas y libretas de direcciones.
     
@@ -45,7 +45,7 @@ En esta sección se incluyen temas secundarios sobre cómo implementar algunas d
   
 > Describe cómo implementar un indicador de progreso.
     
-[Centralización de la recepción de NDRs](centralizing-the-receipt-of-ndrs.md)
+[Centralización de la recepción de NDR](centralizing-the-receipt-of-ndrs.md)
   
 > Describe cómo centralizar la recepción de informes de no entrega.
     

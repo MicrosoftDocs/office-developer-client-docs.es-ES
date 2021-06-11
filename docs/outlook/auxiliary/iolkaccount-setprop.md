@@ -29,15 +29,15 @@ HRESULT IOlkAccount::SetProp(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwProp_
   
-> [entrada] La etiqueta de propiedad de la propiedad de cuenta que se debe establecer.
+> [in] Etiqueta de propiedad de la propiedad account que se debe establecer.
     
 _pVar_
   
-> [entrada] Valor de la propiedad especificada.
+> [in] Valor de la propiedad especificada.
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -50,7 +50,7 @@ _pVar_
 
 Use [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) para guardar los cambios en el valor de las propiedades de la cuenta. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md) 
 - [IOlkAccount::GetProp](iolkaccount-getprop.md)

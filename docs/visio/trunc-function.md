@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251508
 localization_priority: Normal
 ms.assetid: 62f074ef-5bf8-df1e-d826-fc1027a36501
-description: Devuelve un número truncado al número de dígitos especificado.
+description: Devuelve un número truncado al número especificado de dígitos.
 ms.openlocfilehash: 5b2138ff3091f70313344d5b38d8225d572d8e70
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33426502"
 ---
 # <a name="trunc-function"></a>Función TRUNC
 
-Devuelve un número truncado al número de dígitos especificado.
+Devuelve un número truncado al número especificado de dígitos.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -29,7 +29,7 @@ TRUNC(** *number* **, ** *numberofdigits* ** )
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |El número que desea truncar.  <br/> |
-| _numberofdigits_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Número de dígitos a los que se va a truncar _el número._  <br/> |
+| _numberofdigits_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Número de dígitos a los que se va a truncar  _el número_.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
@@ -37,7 +37,7 @@ Numérico.
   
 ## <a name="remarks"></a>Comentarios
 
-Si  _numberofdigits_ es mayor que 0,  _el_ número se trunca a  _numberofdigits_ a la derecha del decimal. Si  _numberofdigits_ es 0,  _el número_ se trunca en un entero. Si  _numberofdigits_ es menor que 0,  _el_ número se trunca a  _numberofdigits_ a la izquierda del decimal. 
+Si  _numberofdigits_ es mayor que 0,  _number_ se trunca en  _numberofdigits_ a la derecha del decimal. Si  _numberofdigits_ es 0,  _el número_ se trunca en un entero. Si  _numberofdigits_ es menor que 0,  _number_ se trunca a  _numberofdigits_ a la izquierda del decimal. 
   
 ## <a name="example-1"></a>Ejemplo 1
 

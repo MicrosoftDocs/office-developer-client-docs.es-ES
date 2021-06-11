@@ -36,31 +36,31 @@ HRESULT CreateProvider(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszProvider_
   
-> [entrada] Puntero al nombre del proveedor que se agregará.
+> [in] Puntero al nombre del proveedor que se agregará.
     
  _cValues_
   
-> [entrada] Recuento de valores de propiedad a los que apunta el _parámetro lpProps._ 
+> [in] Recuento de valores de propiedad señalados por el _parámetro lpProps._ 
     
  _lpProps_
   
-> [entrada] Puntero a una matriz de valores de propiedad que describe las propiedades del proveedor que se agregarán.
+> [in] Puntero a una matriz de valores de propiedad que describe las propiedades del proveedor que se agregarán.
     
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal de cualquier cuadro de diálogo o ventana que muestra este método. El _parámetro ulUIParam_ se usa si la MAPI_DIALOG se establece en el _parámetro ulFlags._ 
+> [in] Un identificador de la ventana principal de cualquier cuadro de diálogo o ventana que muestre este método. El _parámetro ulUIParam_ se usa si la marca MAPI_DIALOG se establece en el _parámetro ulFlags._ 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla la adición del proveedor. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla la adición del proveedor. Se pueden establecer las siguientes marcas:
     
   - MAPI_DIALOG: muestra un cuadro de diálogo para solicitar información de configuración.
       
-  - MAPI_UNICODE: el nombre del proveedor y las propiedades de cadena están en formato Unicode. Si no MAPI_UNICODE marca, estas cadenas están en formato ANSI.
+  - MAPI_UNICODE: el nombre del proveedor y las propiedades de cadena están en formato Unicode. Si la MAPI_UNICODE no está establecida, estas cadenas tienen el formato ANSI.
     
  _lpUID_
   
@@ -74,7 +74,7 @@ S_OK
     
 MAPI_E_USER_CANCEL 
   
-> El usuario canceló la operación, normalmente haciendo clic en el **botón** Cancelar de un cuadro de diálogo. 
+> El usuario canceló la operación, normalmente haciendo clic en el **botón Cancelar** de un cuadro de diálogo. 
     
 ## <a name="remarks"></a>Comentarios
 
@@ -82,7 +82,7 @@ El **método IProviderAdmin::CreateProvider** agrega un proveedor de servicios a
   
 Después de agregar toda la información disponible sobre el proveedor de servicios al perfil desde el archivo Mapisvc.inf, **CreateProvider** llama a la función de punto de entrada del servicio de mensajes con el parámetro  _ulContext_ establecido en MSG_SERVICE_PROVIDER_CREATE. Si MAPI_DIALOG se establece en el parámetro _ulFlags_ del método **CreateProvider,** los valores de los parámetros _ulUIParam_ y _ulFlags_ también se pasan a la función de punto de entrada. Estos parámetros adicionales permiten al proveedor de servicios mostrar su hoja de propiedades para que el usuario pueda especificar las opciones de configuración. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [MAPIUID](mapiuid.md)  
 - [MSGSERVICEENTRY](msgserviceentry.md)  

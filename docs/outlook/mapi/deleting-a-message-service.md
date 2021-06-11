@@ -23,9 +23,9 @@ ms.locfileid: "33428126"
   
  **Para eliminar un servicio de mensajes de un perfil**
   
-1. Llame **a IMAPISession::GetMsgServiceTable** para obtener acceso a la tabla del servicio de mensajes. 
+1. Llame **a IMAPISession::GetMsgServiceTable para** obtener acceso a la tabla de servicio de mensajes. 
     
-2. Busque la fila para el servicio de mensajes y pase su columna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) en el parámetro  _lpuid_ a [IMsgServiceAdmin::D eleteMsgService](imsgserviceadmin-deletemsgservice.md). 
+2. Busque la fila del servicio de mensajes y pase su columna **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) en el parámetro  _lpuid_ a [IMsgServiceAdmin::D eleteMsgService](imsgserviceadmin-deletemsgservice.md). 
     
  **DeleteMsgService llama** a la función de punto de entrada del servicio de mensajes con el parámetro  _ulContext_ establecido en MSG_SERVICE_DELETE. Los servicios de mensajes realizan tareas de limpieza en este momento antes de quitarse del perfil. 
   

@@ -42,11 +42,11 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
-> Número de bytes en el identificador de entrada al que apunta el **miembro lpEntryID.** 
+> Recuento de bytes en el identificador de entrada al que apunta el **miembro lpEntryID.** 
     
  **lpEntryID**
   
@@ -54,7 +54,7 @@ typedef struct
     
  **cValues**
   
-> Recuento de [estructuras SPropValue](spropvalue.md) en la matriz a la que apunta el **miembro lpPropVals.** 
+> Recuento de [estructuras SPropValue](spropvalue.md) en la matriz señalada por el **miembro lpPropVals.** 
     
  **lpPropVals**
   
@@ -62,17 +62,17 @@ typedef struct
     
 ## <a name="remarks"></a>Comentarios
 
-La **STATUS_OBJECT_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de** información de la [estructura notification.](notification.md) La **STATUS_OBJECT_NOTIFICATION** se incluye con una notificación de objeto de estado para un evento de tipo  _fnevStatusObjectModified_. La notificación de objeto de estado es una notificación MAPI interna; los clientes y proveedores de servicios no pueden registrarse para él y los proveedores de servicios no pueden generarlo.
+La **STATUS_OBJECT_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de información** de la estructura [notification.](notification.md) La **STATUS_OBJECT_NOTIFICATION** se incluye con una notificación de objeto de estado para un evento de tipo  _fnevStatusObjectModified_. La notificación de objeto status es una notificación MAPI interna; los clientes y los proveedores de servicios no pueden registrarse y los proveedores de servicios no pueden generarlo.
   
 Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben administrar las notificaciones.  <br/> |
 |[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar **el método IMAPISupport** para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

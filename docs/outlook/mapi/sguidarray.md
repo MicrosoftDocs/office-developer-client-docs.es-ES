@@ -40,11 +40,11 @@ typedef struct _SGuidArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
-> Recuento de valores en la matriz a la que apunta el **miembro lpguid.** 
+> Recuento de valores en la matriz apuntada por el **miembro lpguid.** 
     
  **lpguid**
   
@@ -52,9 +52,9 @@ typedef struct _SGuidArray
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca PT_MV_CLSID, vea [Lista de tipos de propiedad](property-types.md).
+Para obtener más información sobre PT_MV_CLSID, [vea List of Property Types](property-types.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

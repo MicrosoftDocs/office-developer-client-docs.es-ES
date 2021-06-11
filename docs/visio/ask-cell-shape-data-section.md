@@ -34,7 +34,7 @@ Para obtener una referencia a la celda Ask por su nombre desde otra fórmula, o 
   
 |||
 |:-----|:-----|
-|Nombre de celda:  <br/> |Prop. *nombre*  . Compruebe dónde prop.  *es*  el nombre de la fila de propiedad personalizada.  <br/> |
+|Nombre de celda:  <br/> |Prop. *name*  . Compruebe dónde prop.  *nombre*  es el nombre de la fila de propiedad personalizada.  <br/> |
    
 Para obtener una referencia a la celda Ask por su índice desde un programa, utilice la propiedad **CellsSRC** con los argumentos siguientes: 
   

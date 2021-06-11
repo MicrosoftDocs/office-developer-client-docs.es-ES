@@ -25,7 +25,7 @@ ms.locfileid: "33430388"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una matriz de valores de hora.
+Contiene una matriz de valores de tiempo.
   
 |||
 |:-----|:-----|
@@ -40,21 +40,21 @@ typedef struct _SAppTimeArray
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cValues**
   
-> Recuento de valores en la matriz a la que apunta el **miembro lpat.** 
+> Recuento de valores en la matriz apuntada por el **miembro lpat.** 
     
  **lpat**
   
-> Puntero a una matriz de valores de hora de la aplicación. 
+> Puntero a una matriz de valores de tiempo de aplicación. 
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura SAppTimeArray** se usa para definir propiedades de tipo PT_MV_APPTIME. Para obtener más información acerca PT_MV_APPTIME, vea [Lista de tipos de propiedad](property-types.md).
+La **estructura SAppTimeArray** se usa para definir propiedades de tipo PT_MV_APPTIME. Para obtener más información PT_MV_APPTIME, [vea Lista de tipos de propiedad](property-types.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

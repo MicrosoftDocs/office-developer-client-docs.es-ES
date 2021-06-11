@@ -20,7 +20,7 @@ Omite un número especificado de bloques de datos de disponibilidad.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulta [IEnumFBBlock](ienumfbblock.md).
+Vea [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Skip(  
@@ -28,17 +28,17 @@ HRESULT Skip(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _celta_
   
->  [entrada] Número de bloques de disponibilidad que se omitirán. 
+>  [in] Número de bloques de disponibilidad que se omitirán. 
     
 ## <a name="return-values"></a>Valores devueltos
 
 S_OK si la llamada se realiza correctamente; de lo contrario, un código de error.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  

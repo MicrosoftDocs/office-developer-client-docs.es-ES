@@ -21,7 +21,7 @@ ms.locfileid: "33430311"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Identificador de un elemento de Outlook. Contiene un identificador de entrada y otra información relevante.
+Identificador de un Outlook elemento. Contiene un identificador de entrada y otra información relevante.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -40,11 +40,11 @@ struct MEID
 
  _abFlags_
   
-> Identificador de entrada de 4 bytes para el elemento de Outlook. Para obtener más información acerca de los identificadores de entrada MAPI, **[vea ENTRYID](entryid.md)**. 
+> Identificador de entrada de 4 bytes para el Outlook elemento. Para obtener más información acerca de los identificadores de entrada MAPI, vea **[ENTRYID](entryid.md)**. 
     
  _muid_
   
-> GUID que identifica el proveedor de almacén. Vea mapidefs.h para obtener la definición de tipo **de MAPIUID**. 
+> GUID que identifica el proveedor de almacenamiento. Vea mapidefs.h para obtener la definición de tipo **de MAPIUID**. 
     
  _marcador de posición_
   
@@ -56,9 +56,9 @@ struct MEID
     
  _ltidMsg_
   
-> Identificador a largo plazo del elemento de Outlook.
+> Identificador a largo plazo del Outlook elemento.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

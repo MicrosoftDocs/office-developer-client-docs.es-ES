@@ -21,21 +21,21 @@ ms.locfileid: "33425564"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El estado Uninitialized es el estado inicial en el que deben estar los objetos de formulario cuando se crean por primera vez. Los objetos de formulario se inicializan con datos de mensaje cuando una aplicación cliente llama al método [IPersistMessage::InitNew](ipersistmessage-initnew.md) o [IPersistMessage::Load](ipersistmessage-load.md) en el objeto de formulario. En la tabla siguiente se describen las transiciones permitidas desde el estado Unitialized. 
+El estado Uninitialized es el estado inicial en el que deben estar los objetos de formulario cuando se crean por primera vez. Los objetos form se inicializan con datos de mensaje cuando una aplicación cliente llama al método [IPersistMessage::InitNew](ipersistmessage-initnew.md) o [IPersistMessage::Load](ipersistmessage-load.md) en el objeto de formulario. En la tabla siguiente se describen las transiciones permitidas desde el estado Unitialized. 
   
-|**Método IPersistMessage**|**Acción**|**Nuevo estado**|
+|**Método IPersistMessage**|**Action**|**Nuevo estado**|
 |:-----|:-----|:-----|
 |[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Cargue el objeto de formulario con datos predeterminados.  <br/> |[Normal](normal-state.md) <br/> |
 |[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Cargue el objeto de formulario con datos del mensaje de destino.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Devuelve el resultado correcto o establece el último error en y devuelve E_UNEXPECTED.  <br/> |Sin inicializar  <br/> |
+|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Devolver correctamente o establecer el último error en y devolver E_UNEXPECTED.  <br/> |Sin inicializar  <br/> |
 |[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Devuelve el último error.  <br/> |Sin inicializar  <br/> |
-|Otros [métodos de IPersistMessage : IUnknown](ipersistmessageiunknown.md) o de otras interfaces  <br/> |Establezca el último error en y devuelva E_UNEXPECTED.  <br/> |Sin inicializar  <br/> |
+|Otros [métodos o métodos IPersistMessage: IUnknown](ipersistmessageiunknown.md) de otras interfaces  <br/> |Establece el último error en y devuelve E_UNEXPECTED.  <br/> |Sin inicializar  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Estado normal](normal-state.md)
   
-[Estados de formulario](form-states.md)
+[Estados del formulario](form-states.md)
 

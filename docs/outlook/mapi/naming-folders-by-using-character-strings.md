@@ -21,6 +21,6 @@ ms.locfileid: "33428315"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Si tiene acceso a una o más carpetas con frecuencia durante una sesión, considere la posibilidad de asignar nombres a las carpetas con el método [IMsgStore::SetReceiveFolder.](imsgstore-setreceivefolder.md) Aunque **IMsgStore::SetReceiveFolder** se usa principalmente para establecer carpetas especiales para recibir mensajes entrantes para determinadas clases de mensajes, también se puede usar para asociar cualquier carpeta con un nombre. El nombre puede ser el mismo que la clase de mensaje o puede ser cualquier cadena de caracteres, personalizada para el uso del cliente. Asociar un nombre a una carpeta reduce el tiempo que se tarda en buscar y abrir la carpeta. 
+Si tiene acceso a una o varias carpetas con frecuencia durante una sesión, considere la posibilidad de asignar nombres a las carpetas con el método [IMsgStore::SetReceiveFolder.](imsgstore-setreceivefolder.md) Aunque **IMsgStore::SetReceiveFolder** se usa principalmente para establecer carpetas especiales para recibir mensajes entrantes para determinadas clases de mensaje, también se puede usar para asociar cualquier carpeta con un nombre. El nombre puede ser el mismo que la clase de mensaje o puede ser cualquier cadena de caracteres, personalizada para el uso del cliente. La asociación de un nombre con una carpeta reduce el tiempo que se tarda en buscar y abrir la carpeta. 
   
 

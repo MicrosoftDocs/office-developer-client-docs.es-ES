@@ -23,9 +23,9 @@ Determina la escala de dibujo seleccionada en el cuadro de diálogo **Configurar
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Sin escala  <br/> |**visNoScale** <br/> |
-| 1   <br/> | Escala arquitectónica  <br/> |**visArchitectural** <br/> |
-| 2   <br/> | Escala de obras públicas  <br/> |**visEngineering** <br/> |
-| 3   <br/> | Escala personalizada  <br/> |**visScaleCustom** <br/> |
+| 1  <br/> | Escala arquitectónica  <br/> |**visArchitectural** <br/> |
+| 2  <br/> | Escala de obras públicas  <br/> |**visEngineering** <br/> |
+| 3  <br/> | Escala personalizada  <br/> |**visScaleCustom** <br/> |
 | 4   <br/> | Métrica  <br/> |**visScaleMetric** <br/> |
 | 5   <br/> | Escala de ingeniería mecánica  <br/> |**visScaleMechanical** <br/> |
    

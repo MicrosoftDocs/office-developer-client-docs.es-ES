@@ -23,21 +23,21 @@ Determina el estilo y la dirección de enrutamiento de todos los conectores de l
 |**Valor**|**Enrutamiento, estilo**|**Dirección**|**Constante de automatización**|
 |:-----|:-----|:-----|:-----|
 |0  <br/> |Predeterminado; ángulo recto  <br/> |Ninguno  <br/> |**visLORouteDefault** <br/> |
-|1   <br/> |Ángulo recto  <br/> |Ninguno  <br/> |**visLORouteRightAngle** <br/> |
-|2   <br/> |Recta  <br/> |Ninguno  <br/> |**visLORouteStraight** <br/> |
-|3   <br/> |Organigrama  <br/> |De arriba abajo  <br/> |**visLORouteOrgChartNS** <br/> |
+|1  <br/> |Ángulo recto  <br/> |Ninguno  <br/> |**visLORouteRightAngle** <br/> |
+|2  <br/> |Recto  <br/> |Ninguno  <br/> |**visLORouteStraight** <br/> |
+|3  <br/> |Organigrama  <br/> |De arriba abajo  <br/> |**visLORouteOrgChartNS** <br/> |
 |4   <br/> |Organigrama  <br/> |De izquierda a derecha  <br/> |**visLORouteOrgChartWE** <br/> |
 |5   <br/> |Diagrama de flujo  <br/> |De arriba abajo  <br/> |**visLORouteFlowchartNS** <br/> |
 |6   <br/> |Diagrama de flujo  <br/> |De izquierda a derecha  <br/> |**visLORouteFlowchartWE** <br/> |
 |7   <br/> |Árbol  <br/> |De arriba abajo  <br/> |**visLORouteTreeNS** <br/> |
 |8   <br/> |Árbol  <br/> |De izquierda a derecha  <br/> |**visLORouteTreeWE** <br/> |
 |9   <br/> |Red  <br/> |Ninguno  <br/> |**visLORouteNetwork** <br/> |
-|10    <br/> |Organigrama  <br/> |De abajo arriba  <br/> |**visLORouteOrgChartSN** <br/> |
+|10  <br/> |Organigrama  <br/> |De abajo arriba  <br/> |**visLORouteOrgChartSN** <br/> |
 |11  <br/> |Organigrama  <br/> |De derecha a izquierda  <br/> |**visLORouteOrgChartEW** <br/> |
 |12   <br/> |Diagrama de flujo  <br/> |De abajo arriba  <br/> |**visLORouteFlowchartSN** <br/> |
-|13   <br/> |Diagrama de flujo  <br/> |De derecha a izquierda  <br/> |**visLORouteFlowchartEW** <br/> |
+|13  <br/> |Diagrama de flujo  <br/> |De derecha a izquierda  <br/> |**visLORouteFlowchartEW** <br/> |
 |14   <br/> |Árbol  <br/> |De abajo arriba  <br/> |**visLORouteTreeSN** <br/> |
-|15   <br/> |Árbol  <br/> |De derecha a izquierda  <br/> |**visLORouteTreeEW** <br/> |
+|15  <br/> |Árbol  <br/> |De derecha a izquierda  <br/> |**visLORouteTreeEW** <br/> |
 |16   <br/> |De centro a centro  <br/> |Ninguno  <br/> |**visLORouteCenterToCenter** <br/> |
 |17   <br/> |Simple  <br/> |De arriba abajo  <br/> |**visLORouteSimpleNS** <br/> |
 |18   <br/> |Simple  <br/> |De izquierda a derecha  <br/> |**visLORouteSimpleWE** <br/> |
@@ -48,7 +48,7 @@ Determina el estilo y la dirección de enrutamiento de todos los conectores de l
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer el valor de esta celda en  la ficha Diseño  y enrutamiento del  cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en la flecha del programa de instalación de página, en Diseño y enrutamiento y, a continuación, haga clic en **Espaciado).**  
+También puede establecer el valor de esta celda en  la pestaña Diseño  y enrutamiento del  cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en la flecha Configurar página, haga clic en Diseño y enrutamiento y, a continuación, haga clic en Espaciado **).**  
   
 Puede establecer un estilo de enrutamiento local para un conector en la celda ShapeRouteStyle de la sección de diseño de la forma. 
   

@@ -38,9 +38,9 @@ Contiene una ruta de acceso al servidor del proveedor de servicios.
 
 La ruta de acceso contenida en estas propiedades representa la ruta de acceso sugerida donde el usuario puede encontrar recursos. La definición de estas propiedades es específica del proveedor. Por ejemplo, una aplicación de programación usa estas propiedades para especificar la ubicación sugerida para sus archivos de aplicación de programación.
   
-El perfil de usuario de mensajería proporciona estas propiedades como una comodidad para que una aplicación cliente no tenga que solicitar al usuario de mensajería una ruta de acceso de red o una letra de unidad de red.
+El perfil de usuario de mensajería proporciona estas propiedades para que una aplicación cliente no tenga que solicitar al usuario de mensajería una ruta de acceso de red o una letra de unidad de red.
   
-MAPI sólo funciona con nombres de archivo en el juego de caracteres del American National Standards Institute (ANSI). Las aplicaciones que usan nombres de archivo en un juego de caracteres oem (fabricante de equipos originales) deben convertirlos en ANSI antes de llamar a MAPI.
+MAPI solo funciona con nombres de archivo en el conjunto de caracteres del American National Standards Institute (ANSI). Las aplicaciones que usan nombres de archivo en un juego de caracteres del fabricante de equipos originales (OEM) deben convertirlos en ANSI antes de llamar a MAPI.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,13 +54,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

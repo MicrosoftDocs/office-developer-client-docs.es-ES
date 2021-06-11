@@ -29,11 +29,11 @@ HRESULT IOlkAccountManager::Advise (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pNotify_
   
-> [entrada] Una [interfaz IOlkAccountNotify](iolkaccountnotify.md) que el administrador de cuentas usará para enviar notificaciones al cliente. 
+> [in] Una [interfaz IOlkAccountNotify](iolkaccountnotify.md) que el administrador de cuentas usará para enviar notificaciones al cliente. 
     
 _pdwCookie_
   
@@ -47,7 +47,7 @@ _pdwCookie_
 |E_INVALIDARG  <br/> |Se ha proporcionado un argumento no válido.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)  
 - [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md)

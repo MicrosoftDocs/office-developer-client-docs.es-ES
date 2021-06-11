@@ -34,7 +34,7 @@ HRESULT QueryIdentity(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpcbEntryID_
   
@@ -48,17 +48,17 @@ HRESULT QueryIdentity(
 
 S_OK 
   
-> La identidad principal se devolvió correctamente.
+> La identidad principal se ha devuelto correctamente.
     
 MAPI_W_NO_SERVICE 
   
-> La llamada se ha hecho correctamente, pero no hay ninguna identidad principal para la sesión. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
+> La llamada se ha hecho correctamente, pero no hay ninguna identidad principal para la sesión. Cuando se devuelve esta advertencia, la llamada debe controlarse como correcta. Para probar esta advertencia, use la **HR_FAILED** macro. Para obtener más información, vea [Using Macros for Error Handling](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISession::QueryIdentity** recupera la identidad principal de la sesión actual y devuelve el valor a través del parámetro _lppEntryID._ La identidad principal es un objeto, normalmente un usuario de mensajería, que representa al usuario de una sesión.  _lppEntryID_ devuelve la identidad principal de un [objeto IMailUser,](imailuserimapiprop.md) que también se almacena como la [propiedad PidTagEntryID.](pidtagentryid-canonical-property.md) Puede usar el valor devuelto en  _lppEntryID para_ abrir un objeto **IMailUser** mediante [IMAPISession::OpenEntry](imapisession-openentry.md).
+El **método IMAPISession::QueryIdentity** recupera la identidad principal de la sesión actual y devuelve el valor a través del parámetro _lppEntryID._ La identidad principal es un objeto, normalmente un usuario de mensajería, que representa al usuario de una sesión.  _lppEntryID_ devuelve la identidad principal de un [objeto IMailUser,](imailuserimapiprop.md) que también se almacena como la [propiedad PidTagEntryID.](pidtagentryid-canonical-property.md) Puede usar el valor devuelto en  _lppEntryID_ para abrir un **objeto IMailUser** con [IMAPISession::OpenEntry](imapisession-openentry.md).
   
-Aunque muchos proveedores de servicios en varios servicios de mensajes pueden proporcionar la identidad principal de una sesión, MAPI designa un único proveedor de servicios. El proveedor de servicios que proporciona la identidad principal establece los siguientes elementos:
+Aunque muchos proveedores de servicios de varios servicios de mensajes pueden proporcionar la identidad principal de una sesión, MAPI designa un único proveedor de servicios. El proveedor de servicios que proporciona la identidad principal establece los siguientes elementos:
   
 - Marca STATUS_PRIMARY_IDENTITY en la **propiedad PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
@@ -68,23 +68,23 @@ Aunque muchos proveedores de servicios en varios servicios de mensajes pueden pr
     
 - Propiedad **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)).
     
-Si el proveedor de servicios que proporciona la identidad principal pertenece a un servicio de mensajes, los demás proveedores de servicios del servicio de mensajes también establecen las PR_IDENTITY servicio. Estas propiedades se publican en la tabla de estado de la sesión. 
+Si el proveedor de servicios que proporciona la identidad principal pertenece a un servicio de mensajes, los demás proveedores de servicios del servicio de mensajes también establecen las propiedades PR_IDENTITY mensaje. Estas propiedades se publican en la tabla de estado de la sesión. 
   
-Si es posible, **QueryIdentity** devuelve el valor de la **propiedad PR_IDENTITY_ENTRYID** de la fila de estado etiquetada con STATUS_PRIMARY_IDENTITY. Si falta **PR_IDENTITY_ENTRYID** propiedad de la fila de identidad principal, **QueryIdentity** devuelve un identificador de entrada de uso único creado con otra información de esa fila. 
+Si es posible, **QueryIdentity** devuelve el valor de la propiedad **PR_IDENTITY_ENTRYID** de la fila de estado etiquetada con STATUS_PRIMARY_IDENTITY. Si la **propiedad PR_IDENTITY_ENTRYID** falta en la fila de identidad principal, **QueryIdentity** devuelve un identificador de entrada único creado con otra información de esa fila. 
   
-Si falta STATUS_PRIMARY_IDENTITY marca en todas las columnas **PR_RESOURCE_FLAG** de la tabla de estado, **QueryIdentity** devuelve el primer identificador de entrada que encuentra. Cuando no hay ningún identificador de entrada adecuado para devolver, **QueryIdentity** se ejecuta correctamente con la advertencia MAPI_W_NO_SERVICE y apunta  _lppEntryID_ a un identificador de entrada codificado de forma hard. 
+Si falta STATUS_PRIMARY_IDENTITY marca de todas las columnas **PR_RESOURCE_FLAG** de la tabla de estado, **QueryIdentity** devuelve el primer identificador de entrada que encuentra. Cuando no hay un identificador de entrada adecuado que devolver, **QueryIdentity** se ejecuta correctamente con la advertencia MAPI_W_NO_SERVICE y apunta  _lppEntryID_ a un identificador de entrada codificado de forma indescriptida. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede llamar al método [IMsgServiceAdmin::SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) para asignar a un servicio de mensajes la tarea de suministrar la identidad principal de la sesión. 
+Puede llamar al método [IMsgServiceAdmin::SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) para asignar a un servicio de mensajes la tarea de proporcionar la identidad principal de la sesión. 
   
-Otra forma de recuperar la identidad principal es mediante la búsqueda en la tabla de estado de la fila con las **columnas PR_RESOURCE_FLAGS** establecidas en STATUS_PRIMARY_IDENTITY. Para obtener más información acerca de esta forma alternativa de recuperar información de identidad, vea [Tabla de estado y Objetos de estado](status-table-and-status-objects.md).
+Otra forma de recuperar la identidad principal es buscando en la tabla de estado de la fila con las **columnas** PR_RESOURCE_FLAGS establecidas en STATUS_PRIMARY_IDENTITY. Para obtener más información acerca de esta forma alternativa de recuperar información de identidad, vea [Tabla de estado y Objetos de estado](status-table-and-status-objects.md).
   
-Cuando haya terminado de usar el identificador de entrada para la identidad principal devuelta por **QueryIdentity**, libera su memoria llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
+Cuando haya terminado de usar el identificador de entrada de la identidad principal devuelta por **QueryIdentity,** libera su memoria llamando a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
-Para obtener más información acerca de la identidad en general, vea [Identidad principal mapi](mapi-primary-identity.md). 
+Para obtener más información acerca de la identidad en general, vea [Mapi Primary Identity](mapi-primary-identity.md). 
   
-Para obtener más información acerca de cómo recuperar la identidad de la sesión MAPI, vea [Recuperar la identidad principal y del proveedor.](retrieving-primary-and-provider-identity.md) 
+Para obtener más información acerca de cómo recuperar la identidad de la sesión MAPI, vea [Recuperar la identidad principal y del proveedor](retrieving-primary-and-provider-identity.md). 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -94,7 +94,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnQueryIdentity  <br/> |MFCMAPI usa el **método IMAPISession::QueryIdentity** para abrir la entrada de la libreta de direcciones para la identidad principal de la sesión.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -109,9 +109,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 
 [MFCMAPI como un ejemplo de código](mfcmapi-as-a-code-sample.md)
   
-[Identidad principal mapi](mapi-primary-identity.md)
+[Identidad principal MAPI](mapi-primary-identity.md)
   
-[Recuperación de identidad principal y de proveedor](retrieving-primary-and-provider-identity.md)
+[Recuperación de la identidad principal y del proveedor](retrieving-primary-and-provider-identity.md)
   
 [Uso de macros para el control de errores](using-macros-for-error-handling.md)
   

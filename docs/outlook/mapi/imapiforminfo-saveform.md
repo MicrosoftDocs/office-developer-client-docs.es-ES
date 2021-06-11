@@ -33,11 +33,11 @@ HRESULT SaveForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _szFileName_
   
-> [entrada] Cadena que nombra el archivo de mensaje de descripción del formulario donde se guarda su descripción. Este nombre de archivo debe tener la extensión .fdm.
+> [in] Cadena que nombra el archivo de mensaje de descripción del formulario donde se guarda su descripción. Este nombre de archivo debe tener la extensión .fdm.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -47,7 +47,7 @@ S_OK
     
 MAPI_E_EXTENDED_ERROR 
   
-> No se pudo escribir el archivo de configuración. Para obtener la [estructura MAPIERROR](mapierror.md) asociada al error, llame al método [IMAPIProp::GetLastError.](imapiprop-getlasterror.md) 
+> No se pudo escribir el archivo de configuración. Para obtener la [estructura MAPIERROR](mapierror.md) asociada al error, llame al [método IMAPIProp::GetLastError.](imapiprop-getlasterror.md) 
     
 MAPI_E_NO_SUPPORT 
   
@@ -59,11 +59,11 @@ Las aplicaciones cliente llaman al método **IMAPIFormInfo::SaveForm** para guar
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Puede volver a instalar los formularios seleccionándolos en una lista de mensajes descriptores de formulario en un cuadro de diálogo que muestran los proveedores de bibliotecas de formularios. La extensión recomendada para los mensajes del descriptor de formulario es .fdm.
+Puede volver a instalar los formularios seleccionándolos en una lista de mensajes descriptores de formulario en un cuadro de diálogo que muestran los proveedores de bibliotecas de formularios. La extensión recomendada para los mensajes de descriptor de formulario es .fdm.
   
 Llame al [método IMAPIProp::GetLastError](imapiprop-getlasterror.md) si **SaveForm** devuelve MAPI_E_EXTENDED_ERROR y compruebe la estructura **MAPIERROR** devuelta para determinar la condición que provocó el error. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

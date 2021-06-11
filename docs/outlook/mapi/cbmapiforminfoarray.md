@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [SMAPIFormInfoArray](smapiforminfo
 CbMAPIFormInfoArray (_c)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _c_
   
-> Recuento de objetos de información de formulario en la **estructura SMAPIFormInfoArray** existente. 
+> Recuento de objetos de información de formulario en la estructura **SMAPIFormInfoArray** existente. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

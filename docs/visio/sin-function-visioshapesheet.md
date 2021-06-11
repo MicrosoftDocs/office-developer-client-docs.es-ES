@@ -36,7 +36,7 @@ Número
   
 ## <a name="remarks"></a>Comentarios
 
-La función SIN usa radianes a menos que especifique una unidad de medida diferente en _ángulo._
+La función SIN usa radianes a menos que especifique una unidad de medida diferente en  _ángulo_.
   
 ## <a name="example"></a>Ejemplo
 

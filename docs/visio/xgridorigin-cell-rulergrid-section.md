@@ -1,5 +1,5 @@
 ---
-title: Celda XGridOrigin (Sección &amp; de cuadrícula de regla)
+title: Celda XGridOrigin (sección Regla &amp; de cuadrícula)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428623"
 ---
-# <a name="xgridorigin-cell-ruler-amp-grid-section"></a>Celda XGridOrigin (Sección &amp; de cuadrícula de regla)
+# <a name="xgridorigin-cell-ruler-amp-grid-section"></a>Celda XGridOrigin (sección Regla &amp; de cuadrícula)
 
 Especifica la coordenada horizontal del origen de la cuadrícula.
   
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción **&amp;** **de** origen de cuadrícula  horizontal en el cuadro de diálogo Cuadrícula de regla (en la ficha Ver, haga clic en **la flecha Mostrar.** 
+Esta celda corresponde a la opción **origen** de cuadrícula horizontal del cuadro de diálogo Cuadrícula de regla (en la ficha **Ver,** haga clic en **la flecha** Mostrar. **&amp;** 
   
 Para obtener una referencia a la celda XGridOrigin por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

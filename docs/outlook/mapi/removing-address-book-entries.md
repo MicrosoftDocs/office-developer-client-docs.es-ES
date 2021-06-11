@@ -19,7 +19,7 @@ ms.locfileid: "33425263"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Se llama al [método IABContainer::D eleteEntries](iabcontainer-deleteentries.md) del contenedor para quitar uno o más destinatarios. **DeleteEntries** tiene dos parámetros: una matriz de identificadores de entrada que representan los destinatarios que se eliminarán y un valor de marcas reservadas. La eliminación de un destinatario afecta a la tabla de contenido del contenedor; Además de eliminar el destinatario, el contenedor debe eliminar la fila de la tabla de contenido que representa al destinatario. Cuando la fila se ha quitado de la tabla, el contenedor debe emitir una notificación de tabla a cada cliente registrado. 
+Se llama al [método IABContainer::D eleteEntries del](iabcontainer-deleteentries.md) contenedor para quitar uno o varios destinatarios. **DeleteEntries** tiene dos parámetros: una matriz de identificadores de entrada que representan los destinatarios que se eliminarán y un valor de marcas reservadas. La eliminación de un destinatario afecta a la tabla de contenido del contenedor; además de eliminar el destinatario, el contenedor debe eliminar la fila de la tabla de contenido que representa al destinatario. Cuando la fila se ha quitado de la tabla, el contenedor debe emitir una notificación de tabla a cada cliente registrado. 
   
 ### <a name="to-implement-iabcontainerdeleteentries"></a>Para implementar IABContainer::D eleteEntries
   
@@ -27,8 +27,8 @@ Se llama al [método IABContainer::D eleteEntries](iabcontainer-deleteentries.md
     
 2. Si la tabla de contenido del contenedor está abierta:
     
-   - Envíe una  _notificación fnevTableModified_ con el miembro **ulTableEvent** establecido en TABLE_ROW_DELETED a los clientes registrados para cada fila de tabla de contenido eliminado. Si su proveedor usa la utilidad de notificación, llame a [IMAPISupport::Notify](imapisupport-notify.md) para enviar estas notificaciones. 
+   - Envíe una  _notificación fnevTableModified_ con el miembro **ulTableEvent** establecido en TABLE_ROW_DELETED a los clientes registrados para cada fila de tabla de contenido eliminado. Si su proveedor usa la utilidad de notificación, llame [a IMAPISupport::Notify](imapisupport-notify.md) para enviar estas notificaciones. 
     
-   - Si el proveedor admite notificaciones de objetos, envía también una _notificación fnevObjectDeleted._ 
+   - Si el proveedor admite notificaciones de objetos, también envíe una _notificación fnevObjectDeleted._ 
     
 

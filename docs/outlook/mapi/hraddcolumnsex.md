@@ -44,31 +44,31 @@ HRESULT HrAddColumnsEx(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lptbl_
   
-> [entrada] Puntero a la tabla MAPI afectada. 
+> [in] Puntero a la tabla MAPI afectada. 
     
  _lpproptagColumnsNew_
   
-> [entrada] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad para las propiedades que se van a agregar o mover al principio de la tabla. 
+> [in] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene una matriz de etiquetas de propiedad para las propiedades que se van a agregar o mover al principio de la tabla. 
     
  _lpAllocateBuffer_
   
-> [entrada] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria. 
+> [in] Puntero a la [función MAPIAllocateBuffer,](mapiallocatebuffer.md) que se usará para asignar memoria. 
     
  _lpFreeBuffer_
   
-> [entrada] Puntero a la [función MAPIFreeBuffer,](mapifreebuffer.md) que se usará para liberar memoria. 
+> [in] Puntero a la [función MAPIFreeBuffer,](mapifreebuffer.md) que se usará para liberar memoria. 
     
  _lpfnFilterColumns_
   
-> [entrada] Puntero a una función de devolución de llamada proporcionada por el autor de la llamada. Si el  _parámetro lpfnFilterColumns_ se establece en NULL, no se realiza ninguna devolución de llamada. 
+> [in] Puntero a una función de devolución de llamada proporcionada por el autor de la llamada. Si el  _parámetro lpfnFilterColumns_ se establece en NULL, no se realiza ninguna devolución de llamada. 
     
  _ptaga_
   
-> [entrada] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene la matriz de etiquetas de propiedad ya existentes en la tabla antes de agregar o mover las propiedades al principio. **HrAddColumnsEx** pasa este puntero como parámetro a la función de devolución de llamada a la que  _apunta lpfnFilterColumns_.
+> [in] Puntero a una [estructura SPropTagArray](sproptagarray.md) que contiene la matriz de etiquetas de propiedad que ya existen en la tabla antes de agregar o mover las propiedades al principio. **HrAddColumnsEx** pasa este puntero como parámetro a la función de devolución de llamada señalada por  _lpfnFilterColumns_.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -78,19 +78,19 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Las propiedades que se pasan a **HrAddColumnsEx** mediante el parámetro _lpproptagColumnsNew_ se convierten en las primeras propiedades expuestas en llamadas posteriores al método [IMAPITable::QueryRows.](imapitable-queryrows.md) Las propiedades anteriormente en la tabla que no se especificaron en el parámetro  _lpproptagColumnsNew_ se exponen después de todas las propiedades agregadas y movida. 
+Las propiedades que se pasan a **HrAddColumnsEx** mediante el parámetro _lpproptagColumnsNew_ se convierten en las primeras propiedades expuestas en llamadas posteriores al método [IMAPITable::QueryRows.](imapitable-queryrows.md) Todas las propiedades de la tabla que no se especificaron anteriormente en el parámetro  _lpproptagColumnsNew_ se exponen después de todas las propiedades agregadas y movida. 
   
-Si alguna de las propiedades de tabla no está definida cuando se llama **a QueryRows,** se devuelven con el tipo de propiedad PT_NULL y el identificador de PROP_ID_NULL. 
+Si alguna de las propiedades de tabla no está definida cuando se llama a **QueryRows,** se devuelven con el tipo de propiedad PT_NULL y el identificador de PROP_ID_NULL. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-La función **HrAddColumnsEx** permite al autor de la llamada proporcionar una función de devolución de llamada para filtrar las columnas que ya estaban en la tabla, por ejemplo para convertir cadenas de tipo de propiedad PT_UNICODE a PT_STRING8. **HrAddColumnsEx** pasa un puntero a la columna existente anteriormente establecida como parámetro para la función de devolución de llamada. La función de devolución de llamada puede cambiar los datos de la matriz de etiquetas de propiedades, pero no puede agregar nuevas etiquetas. 
+La **función HrAddColumnsEx** permite al autor de la llamada proporcionar una función de devolución de llamada para filtrar las columnas que ya estaban en la tabla, por ejemplo, convertir cadenas del tipo de propiedad PT_UNICODE a PT_STRING8. **HrAddColumnsEx** pasa un puntero al conjunto de columnas existente anteriormente como parámetro a la función de devolución de llamada. La función de devolución de llamada puede cambiar los datos de la matriz de etiquetas de propiedades, pero no puede agregar nuevas etiquetas. 
   
- **HrAddColumnsEx** primero llama a la función de devolución de llamada si hay una proporcionada, después agrega o mueve las columnas especificadas y, por último, llama [a IMAPITable::SetColumns](imapitable-setcolumns.md). 
+ **HrAddColumnsEx** primero llama a la función de devolución de llamada si una está proporcionada, después agrega o mueve las columnas especificadas y, por último, llama a [IMAPITable::SetColumns](imapitable-setcolumns.md). 
   
-Los  _parámetros de entrada lpAllocateBuffer_ y  _lpFreeBuffer_ apuntan a las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIFreeBuffer,](mapifreebuffer.md) respectivamente. Los valores exactos de los punteros pasados a **HrAddColumnsEx** dependen de si el autor de la llamada es una aplicación cliente o un proveedor de servicios. Un cliente pasa punteros a las funciones MAPI con los nombres especificados. Un proveedor de servicios pasa los punteros recibidos en su llamada de inicialización o recuperados llamando al método [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
+Los  _parámetros de entrada lpAllocateBuffer_ y  _lpFreeBuffer_ apuntan a las funciones [MAPIAllocateBuffer](mapiallocatebuffer.md) y [MAPIFreeBuffer,](mapifreebuffer.md) respectivamente. Los valores exactos de los punteros pasados a **HrAddColumnsEx** dependen de si el autor de la llamada es una aplicación cliente o un proveedor de servicios. Un cliente pasa punteros a las funciones MAPI con los nombres especificados. Un proveedor de servicios pasa los punteros que recibió en su llamada de inicialización o recuperó llamando al método [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -25,18 +25,18 @@ ms.locfileid: "33429197"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica una libreta de direcciones MAPI opcional que el convertidor de MAPI a MIME usa para resolver direcciones ambiguas al convertir un mensaje MAPI en una secuencia MIME.
+Especifica una libreta de direcciones MAPI opcional que el convertidor MAPI a MIME usa para resolver direcciones ambiguas al convertir un mensaje MAPI en una secuencia MIME.
   
 ```cpp
 HRESULT IConverterSession::SetAdrBook( 
 LPADRBOOK pab); 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pab_
   
-> [entrada] Puntero a una [interfaz IAddrBook : IMAPIProp](iaddrbookimapiprop.md) que se usará en la conversión MAPI a MIME. Establezca este parámetro en **null** cuando ya no necesite la Libreta de direcciones; esto libera la interfaz y restablece el convertidor para que no use ninguna libreta de direcciones. 
+> [in] Puntero a una [interfaz IAddrBook : IMAPIProp](iaddrbookimapiprop.md) que se usará en la conversión MAPI a MIME. Establezca este parámetro en **null** cuando ya no necesite la libreta de direcciones; esto libera la interfaz y restablece el convertidor para que no use ninguna libreta de direcciones. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -46,7 +46,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Por lo general, la conversión de un mensaje MAPI a secuencia MIME no requiere iniciar sesión en un perfil MAPI. Sin embargo, para especificar una libreta de direcciones MAPI para la conversión, es necesario iniciar sesión en un perfil para obtener la libreta de direcciones.
+Por lo general, la conversión de un mensaje MAPI a una secuencia MIME no requiere iniciar sesión en un perfil MAPI. Sin embargo, para especificar una libreta de direcciones MAPI para la conversión es necesario iniciar sesión en un perfil para obtener la libreta de direcciones.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -57,7 +57,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

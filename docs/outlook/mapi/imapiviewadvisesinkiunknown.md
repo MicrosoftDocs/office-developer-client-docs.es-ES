@@ -30,23 +30,23 @@ Recibe notificaciones de formularios.
 |||
 |:-----|:-----|
 |Archivo de encabezado:  <br/> |Mapiform.h  <br/> |
-|Expuesto por:  <br/> |Ver objetos receptores de aviso  <br/> |
+|Expuesto por:  <br/> |Ver aconsejar objetos de receptor  <br/> |
 |Implementado por:  <br/> |Visores de formularios  <br/> |
 |Llamado por:  <br/> |Objetos de formulario  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIViewAdviseSink  <br/> |
 |Tipo de puntero:  <br/> |LPMAPIVIEWADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Notifica al visor de formularios que se está cerrado un formulario.  <br/> |
-|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Notifica al visor de formularios que se ha cargado un mensaje nuevo o existente en un formulario.  <br/> |
+|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Notifica al visor de formularios que se está cierrando un formulario.  <br/> |
+|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Notifica al visor de formularios que se ha cargado un mensaje nuevo o un mensaje existente en un formulario.  <br/> |
 |[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Notifica al visor de formularios el estado de impresión de un formulario.  <br/> |
 |[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Notifica al visor de formularios que el mensaje actual se ha enviado a la cola MAPI.  <br/> |
 |[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Notifica al visor de formularios que se ha guardado el mensaje actual de un formulario.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -21,7 +21,7 @@ ms.locfileid: "33426810"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Clave de origen para un elemento de Outlook.
+Clave de origen para un Outlook elemento.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -39,7 +39,7 @@ struct SKEY
   
 > GUID del servidor que crea el objeto.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

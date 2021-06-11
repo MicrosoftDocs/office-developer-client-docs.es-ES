@@ -20,7 +20,7 @@ ms.locfileid: "33425858"
 
 Determina la coordenada  *x*  del centro de rotación del bloque de texto en relación con el origen del bloque de texto. La fórmula predeterminada es: 
   
-= TxtWidth \* 0,5
+= TxtWidth \* 0.5
   
 Esta fórmula da como resultado el centro horizontal del bloque de texto.
   

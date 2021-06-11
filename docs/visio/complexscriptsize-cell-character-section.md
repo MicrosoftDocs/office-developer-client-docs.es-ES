@@ -22,7 +22,7 @@ Tamaño de la fuente empleada para dar formato a un texto compuesto por caracter
   
 ## <a name="remarks"></a>Comentarios
 
-Los tamaños de fuente  de script complejos aparecen en la  ficha Fuente del cuadro de diálogo Texto (haga clic en la flecha del grupo Fuente de la **ficha** Inicio).  Esta lista aparece solo si agregó un idioma que contiene caracteres de script complejos o asiáticos en el cuadro de diálogo **Preferencias de idioma de Microsoft Office**. (Haga clic en **Inicio**, **Todos los programas**, **Microsoft Office**, **Herramientas de Microsoft Office** y, a continuación, en **Preferencias de idioma de Microsoft Office**).
+Los tamaños de fuente de script complejos se enumeran en  la **ficha** Fuente del **cuadro** de diálogo Texto (haga clic en la flecha del grupo Fuente de la **ficha** Inicio). Esta lista aparece solo si agregó un idioma que contiene caracteres de script complejos o asiáticos en el cuadro de diálogo **Preferencias de idioma de Microsoft Office**. (Haga clic en **Inicio**, **Todos los programas**, **Microsoft Office**, **Herramientas de Microsoft Office** y, a continuación, en **Preferencias de idioma de Microsoft Office**).
   
 Puede especificar este valor como un tamaño explícito o como un porcentaje. Si especifica un porcentaje, el valor se basará en el valor de la celda Size. El valor predeterminado 0 (cero) indica el 100%. 
   

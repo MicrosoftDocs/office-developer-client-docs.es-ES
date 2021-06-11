@@ -25,7 +25,7 @@ ms.locfileid: "33428189"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Define una función de devolución de llamada a la que MAPI llama cuando ha descartado un cuadro de diálogo de libreta de direcciones no modelada. 
+Define una función de devolución de llamada que llama MAPI cuando ha descartado un cuadro de diálogo de libreta de direcciones de modeless. 
   
 |||
 |:-----|:-----|
@@ -40,15 +40,15 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Valor específico de la implementación que se usa normalmente para pasar información de la interfaz de usuario a una función. Por ejemplo, en Microsoft Windows, este parámetro es el controlador de ventana principal para el cuadro de diálogo y es de tipo HWND, se convierte en un **ULONG_PTR**. Un valor de cero indica que no hay ninguna ventana primaria. 
+> [in] Valor específico de la implementación que normalmente se usa para pasar información de la interfaz de usuario a una función. Por ejemplo, en Microsoft Windows este parámetro es el identificador de ventana principal del cuadro de diálogo y es de tipo HWND, que se convierte en un **ULONG_PTR**. Un valor de cero indica que no hay ninguna ventana primaria. 
     
  _lpvContext_
   
-> [entrada] Puntero a un valor arbitrario pasado a la función de devolución de llamada cuando MAPI la llama. Este valor puede representar una dirección significativa para la aplicación cliente. Normalmente, para el código C++,  _lpvContext_ es un puntero a la dirección de una instancia de objeto de C++. 
+> [in] Puntero a un valor arbitrario pasado a la función de devolución de llamada cuando MAPI lo llama. Este valor puede representar una dirección de importancia para la aplicación cliente. Normalmente, para el código C++,  _lpvContext_ es un puntero a la dirección de una instancia de objeto de C++. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,9 +56,9 @@ Ninguno
   
 ## <a name="remarks"></a>Comentarios
 
-Cuando la aplicación cliente invoca un cuadro de diálogo de libreta de direcciones sin modelo, incluye en su bucle de mensajes de Windows una llamada a una función basada en el prototipo [ACCELERATEABSDI,](accelerateabsdi.md) que comprueba y procesa las teclas de aceleración. Cuando se cierra el cuadro de diálogo, MAPI llama a la función basada en **DISMISSMODELESS** para que la aplicación cliente deje de llamar a la función basada en **ACCELERATEABSDI.** 
+Cuando la aplicación cliente invoca un cuadro de diálogo de libreta de direcciones de modeless, incluye en su bucle de mensaje de Windows una llamada a una función basada en el prototipo [ACCELERATEABSDI,](accelerateabsdi.md) que comprueba y procesa las teclas de aceleración. Cuando se cierra el cuadro de diálogo, MAPI llama a la función basada **en DISMISSMODELESS** para que la aplicación cliente deje de llamar a la función basada en **ACCELERATEABSDI.** 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -35,19 +35,19 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
-> [entrada] Un tipo de datos HRESULT que contiene el valor de error generado en la llamada al método anterior para el objeto de almacén de mensajes.
+> [in] Un tipo de datos HRESULT que contiene el valor de error generado en la llamada al método anterior para el objeto de almacén de mensajes.
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla el tipo de cadenas devueltas. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI. 
+> Las cadenas de la **estructura MAPIERROR** devueltas en el parámetro  _lppMAPIError_ están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI. 
     
  _lppMAPIError_
   
@@ -61,17 +61,17 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se estableció MAPI_UNICODE marca y la implementación no admite Unicode o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
+> La marca MAPI_UNICODE se estableció y la implementación no admite Unicode, o MAPI_UNICODE no se estableció y la implementación solo admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-Utilice el **método IMSLogon::GetLastError** para recuperar información que se mostrará en un mensaje al usuario en relación con el último error devuelto desde una llamada de método para el objeto de almacén de mensajes. 
+Use el **método IMSLogon::GetLastError** para recuperar información que se mostrará en un mensaje al usuario con respecto al último error devuelto de una llamada de método para el objeto de almacén de mensajes. 
   
-Para liberar toda la memoria asignada por MAPI para la estructura **MAPIERROR** devuelta, las aplicaciones cliente solo necesitan llamar a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
+Para liberar toda la memoria asignada por MAPI para la estructura **MAPIERROR** devuelta, las aplicaciones cliente deben llamar solo a la [función MAPIFreeBuffer.](mapifreebuffer.md) 
   
-El valor devuelto de **GetLastError** debe ser S_OK para que una aplicación use **MAPIERROR**. Incluso si el valor devuelto es S_OK, es posible que no se devuelva **un ERROR** MAPI. Si la implementación no puede determinar cuál fue el último error o si **mapierror** no está disponible para ese error, **GetLastError** devuelve un puntero a NULL en  _lppMAPIError_ en su lugar. 
+El valor devuelto de **GetLastError** debe S_OK para que una aplicación use **mapierror**. Incluso si el valor devuelto es S_OK, es posible que no se devuelva **un MAPIERROR.** Si la implementación no puede determinar cuál fue el último error, o si un **MAPIERROR** no está disponible para ese error, **GetLastError** devuelve un puntero a NULL en  _lppMAPIError_ en su lugar. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -22,7 +22,7 @@ Determina si los objetos son colocables o enrutables en diagramas cuando se disp
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
-|&amp;H0  <br/> |Éste es el valor predeterminado. La aplicación decide según el contexto del dibujo.  <br/> |**visLOFlagsVisDecides** <br/> |
+|&amp;H0  <br/> |Valor predeterminado. La aplicación decide según el contexto del dibujo.  <br/> |**visLOFlagsVisDecides** <br/> |
 |&amp;H1  <br/> |La forma es colocable.  <br/> |**visLOFlagsPlacable** <br/> |
 |&amp;H2  <br/> |La forma es enrutable. Debe ser una forma unidimensional (1D).  <br/> |**visLOFlagsRoutable** <br/> |
 |&amp;H4  <br/> |La forma no es colocable ni enrutable.  <br/> |**visLOFlagsDont** <br/> |
@@ -32,7 +32,7 @@ Determina si los objetos son colocables o enrutables en diagramas cuando se disp
 
 De manera predeterminada, la celda ObjType se establece a No Formula para una forma. Esto equivale a 0, que significa que la aplicación determina si la forma puede ser colocable según su contexto. Por ejemplo, si dibuja un rectángulo simple, el valor de su celda ObjType es 0. Si, a continuación, usa la herramienta **Conector** para conectar el rectángulo a otra forma, Visio restablece el valor de la celda ObjType del rectángulo a 1 (colocable). 
   
-El valor de la celda ObjType puede ser una combinación de valores. Si se establece el bit no colocable ( H4), sin embargo, tiene prioridad sobre otros valores excepto el valor &amp; de grupo ( &amp; H8).
+El valor de la celda ObjType puede ser una combinación de valores. Sin embargo, si el bit no colocable se establece ( H4), tiene prioridad sobre otros valores excepto el valor &amp; de grupo ( &amp; H8).
   
 Para obtener una referencia a la celda ObjType por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

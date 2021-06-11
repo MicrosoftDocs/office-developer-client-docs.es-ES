@@ -30,17 +30,17 @@ BOUND (** *value* **, ** *type* **, ** *ignore* **, ** *value1* **, ** *value2* 
 |:-----|:-----|:-----|:-----|
 | _value_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Valor actual que se ha de restringir.  <br/> |
 | _type_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Indica si la restricción es inclusiva (0), exclusiva (1) o está deshabilitada (2).  <br/> |
-| _ignore_ <br/> |Obligatorio  <br/> |**Boolean** <br/> | TRUE para omitir el rango; FALSE para restringir el valor de la celda al rango.  <br/> |
+| _omitir_ <br/> |Obligatorio  <br/> |**Boolean** <br/> | TRUE para omitir el intervalo; FALSE para restringir el valor de la celda al intervalo.  <br/> |
 | _value1_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Primer valor de un intervalo.  <br/> |
 | _value2_ <br/> |Obligatorio  <br/> |**Numérico** <br/> |Segundo valor de un intervalo.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Use la función BOUND para restringir el valor de una celda entre un límite superior y uno inferior, por ejemplo, para controlar objetos que no deben estirarse más allá de una altura máxima o mínima. La restricción puede ser inclusiva o exclusiva con respecto a los intervalos. Si el valor actual no debe restringirse, establezca el parámetro  _de_ tipo en 2 (deshabilitado). 
+Use la función BOUND para restringir el valor de una celda entre un límite superior y uno inferior, por ejemplo, para controlar objetos que no deben estirarse más allá de una altura máxima o mínima. La restricción puede ser inclusiva o exclusiva con respecto a los intervalos. Si no se debe restringir el valor actual, establezca el parámetro  _type_ en 2 (deshabilitado). 
   
-Puede definir varios intervalos si proporciona varias repeticiones de los parámetros _ignore_, _value1_ y _value2._ Use el  _parámetro ignore_ para deshabilitar las restricciones de un intervalo determinado. 
+Puede definir varios intervalos mediante el suministro de varias repeticiones de los parámetros _ignore_, _value1_ y _value2._ Use el  _parámetro ignore_ para deshabilitar las restricciones de un intervalo determinado. 
   
-La fórmula que contiene la función BOUND no se sobrescribe cuando cambia su valor; en su lugar, la fórmula se conserva y el nuevo valor se coloca en el  _parámetro de_ valor. 
+La fórmula que contiene la función BOUND no se sobrescribe cuando cambia su valor; en su lugar, la fórmula se conserva y el nuevo valor se coloca en el _parámetro value._ 
   
 ## <a name="example-1"></a>Ejemplo 1
 

@@ -25,7 +25,7 @@ ms.locfileid: "33425277"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si el proveedor de transporte ha recibido uno o más mensajes entrantes.
+Indica si el proveedor de transporte ha recibido uno o varios mensajes entrantes.
   
 ```cpp
 HRESULT Poll(
@@ -33,7 +33,7 @@ HRESULT Poll(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulIncoming_
   
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-La cola MAPI llama periódicamente al método **IXPLogon::P oll** si el proveedor de transporte indica que se deben sondear los mensajes nuevos, lo que hace el proveedor pasando la marca LOGON_SP_POLL a la llamada al método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) al principio de una sesión. Si el proveedor de transporte  indica en respuesta a la llamada de sondeo que hay uno o más mensajes entrantes disponibles para procesar, la cola MAPI llama al método [IXPLogon::StartMessage](ixplogon-startmessage.md) para permitir que el proveedor procese el primer mensaje entrante. El proveedor de transporte indica los mensajes entrantes estableciendo el valor del parámetro  _lpulIncoming_ en un valor distinto de cero. 
+La cola MAPI llama periódicamente al método **IXPLogon::P oll** si el proveedor de transporte indica que debe sondear para obtener nuevos mensajes, lo que el proveedor hace pasando la marca LOGON_SP_POLL a la llamada al método [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) al principio de una sesión. Si el proveedor de transporte  indica en respuesta a la llamada poll que hay uno o varios mensajes entrantes disponibles para procesarlo, la cola MAPI llama al método [IXPLogon::StartMessage](ixplogon-startmessage.md) para permitir al proveedor procesar el primer mensaje entrante. El proveedor de transporte indica los mensajes entrantes estableciendo el valor del parámetro  _lpulIncoming_ en un valor distinto de cero. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

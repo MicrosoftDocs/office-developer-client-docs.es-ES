@@ -1,5 +1,5 @@
 ---
-title: Referencia de la función de macro (aplicación web personalizada de Access)
+title: Referencia de función de macro (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
@@ -34,6 +34,6 @@ ms.locfileid: "33426383"
     
 - [Flujo de programa (aplicación web personalizada de Access)](program-flow-access-custom-web-app.md)
     
-- [Comandos de la interfaz de usuario (aplicación web personalizada de Access)](user-interface-commands-access-custom-web-app.md)
+- [Comandos de interfaz de usuario (aplicación web personalizada de Access)](user-interface-commands-access-custom-web-app.md)
     
 

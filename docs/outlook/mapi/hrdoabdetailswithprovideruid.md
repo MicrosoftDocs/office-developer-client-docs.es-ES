@@ -21,7 +21,7 @@ ms.locfileid: "33426684"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Garantiza que el proveedor de libreta de direcciones de Exchange espera abrir el método **OpenEntry.** Esta función funciona de forma similar a [IAddrBook::D etails,](iaddrbook-details.md) pero abre **entryID** con la libreta de direcciones de Exchange identificada por  _pEmsabpUID_.
+Garantiza que el proveedor de la libreta de direcciones espera Exchange abrir el método **OpenEntry.** Esta función funciona de forma similar a [IAddrBook::D etails,](iaddrbook-details.md) pero abre **entryID** mediante la libreta de direcciones Exchange identificada por _pEmsabpUID_.
   
 |||
 |:-----|:-----|
@@ -45,15 +45,15 @@ HRESULT HrDoABDetailsWithProviderUID(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pEmsabpUID_
   
-> [entrada] Puntero a una  _emsabpUID_ que identifica al proveedor de libreta de direcciones de Exchange que esta función debe usar para mostrar detalles en el identificador de entrada. Si el identificador de entrada entrante no es un identificador de entrada de proveedor de libreta de direcciones de Exchange, este parámetro se omite y la llamada de función actúa exactamente igual que [IAddrBook::D etails](iaddrbook-details.md). Si este parámetro es NULL o un MAPIUID cero, esta función también actúa exactamente igual que [IAddrBook::D etails](iaddrbook-details.md).
+> [in] Puntero a un _emsabpUID_ que identifica el proveedor Exchange libreta de direcciones que esta función debe usar para mostrar detalles en el identificador de entrada. Si el identificador de entrada entrante no es un identificador de entrada de proveedor de libreta de direcciones de Exchange, este parámetro se omite y la llamada de función actúa exactamente igual que [IAddrBook::D etails](iaddrbook-details.md). Si este parámetro es NULL o un MAPIUID cero, esta función también actúa exactamente igual que [IAddrBook::D etails](iaddrbook-details.md).
     
  _pAddrBook_
   
-> [entrada] La libreta de direcciones usada para abrir el identificador de entrada. No puede ser NULL.
+> [in] La libreta de direcciones usada para abrir el identificador de entrada. No puede ser NULL.
     
  _lpulUIParam_
   
@@ -61,35 +61,35 @@ HRESULT HrDoABDetailsWithProviderUID(
     
  _lpfnDismiss_
   
-> [entrada] Puntero a una función basada en el prototipo **DISMISSMODELESS** o NULL. Este miembro se aplica solo a la versión no modelada del cuadro de diálogo, tal como se indica en la DIALOG_SDI marca que se está configurando. MAPI llama a la función **DISMISSMODELESS** cuando el usuario descarta el cuadro de diálogo de dirección no modelada e informa a un cliente que llama a Details de que el cuadro de diálogo ya no está activo. 
+> [in] Puntero a una función basada en el prototipo **DISMISSMODELESS** o NULL. Este miembro solo se aplica a la versión modeless del cuadro de diálogo, tal como se indica en la DIALOG_SDI marca que se va a establecer. MAPI llama a **la función DISMISSMODELESS** cuando el usuario descarta el cuadro de diálogo dirección de modeless e informa a un cliente que llama a Details de que el cuadro de diálogo ya no está activo. 
     
  _lpvDismissContext_
   
-> [entrada] Puntero a la información de contexto que se pasa a la **función DISMISSMODELESS** a la que apunta el parámetro _lpfnDismiss._ Este parámetro solo se aplica a la versión no modelada del cuadro de diálogo incluyendo la marca **DIALOG_SDI** en el _parámetro ulFlags._ 
+> [in] Puntero a la información de contexto que se pasa a la **función DISMISSMODELESS** a la que apunta el _parámetro lpfnDismiss._ Este parámetro solo se aplica a la versión modeless del cuadro de diálogo al incluir la marca **DIALOG_SDI** en el _parámetro ulFlags._ 
     
  _cbEntryID_
   
-> [entrada] Recuento de bytes del identificador de entrada especificado por el _parámetro lpEntryID._ 
+> [in] Recuento de bytes del identificador de entrada especificado por el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> [entrada] Puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se debe abrir.
+> [in] Puntero al identificador de entrada que representa la entrada de la libreta de direcciones que se debe abrir.
     
  _lpfButtonCallback_
   
-> [entrada] Puntero a una función basada en el prototipo de función **LPFNBUTTON.** Una **función LPFNBUTTON** agrega un botón al cuadro de diálogo de detalles. 
+> [in] Puntero a una función basada en el prototipo de función **LPFNBUTTON.** Una **función LPFNBUTTON** agrega un botón al cuadro de diálogo de detalles. 
     
  _lpvButtonContext_
   
-> [entrada] Puntero a datos que se usó como parámetro para la función especificada por el _parámetro lpfButtonCallback._ 
+> [in] Puntero a datos que se usó como parámetro para la función especificada por el _parámetro lpfButtonCallback._ 
     
  _lpszButtonText_
   
-> [entrada] Puntero a una cadena que contiene texto que se aplicará al botón agregado, si ese botón es extensible. El  _parámetro lpszButtonText_ debe ser NULL cuando no se necesite un botón extensible. 
+> [in] Puntero a una cadena que contiene texto que se aplicará al botón agregado, si ese botón es extensible. El  _parámetro lpszButtonText_ debe ser NULL cuando no se necesite un botón extensible. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de texto para el _parámetro lpszButtonText._ Se pueden establecer las siguientes marcas: 
+> [in] Máscara de bits de marcas que controla el tipo de texto del parámetro _lpszButtonText._ Se pueden establecer las siguientes marcas: 
     
 AB_TELL_DETAILS_CHANGE
   
@@ -101,10 +101,10 @@ DIALOG_MODAL
     
 DIALOG_SDI
   
-> Muestra la versión no modelada del cuadro de diálogo de direcciones comunes. Esta marca es mutuamente exclusiva con DIALOG_MODAL.
+> Muestra la versión modeless del cuadro de diálogo dirección común. Esta marca es mutuamente exclusiva con DIALOG_MODAL.
     
 MAPI_UNICODE
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
 

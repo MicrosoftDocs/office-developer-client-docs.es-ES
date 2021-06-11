@@ -25,7 +25,7 @@ ms.locfileid: "33424934"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona detalles que se muestran en el cuadro de diálogo De envío o recepción. Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función.
+Proporciona detalles que se muestran en el cuadro de diálogo Enviar y recibir. Si se producen errores durante la sincronización, el proveedor de almacenamiento llama a esta función.
   
 ```cpp
 HRESULT Error(
@@ -34,7 +34,7 @@ HRESULT Error(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  **hResult**
   
@@ -42,7 +42,7 @@ HRESULT Error(
     
  **pwcszErrorStr**
   
-> Puntero a la cadena asociada con el error que se va a mostrar.
+> Puntero a la cadena asociada al error que se va a mostrar.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -50,7 +50,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

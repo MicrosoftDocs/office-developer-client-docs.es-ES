@@ -27,7 +27,7 @@ MAPI permite a los proveedores de libreta de direcciones implementar dos niveles
     
 Because address book providers can support searching for each of their containers at the basic level, at both levels, or choose not to support it at all, do not expect searching to be implemented as a standard feature. To determine if a particular container supports searches, attempt to establish search criteria in a call to its [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method. If **SetSearchCriteria** returns MAPI_E_NO_SUPPORT, the container does not support searches. 
   
-In a container that supports searches, retrieve established criteria by calling [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md). You can also request that the user be prompted for search criteria before a container's contents table is displayed. Para elegir esta opción, establece la marca AB_FIND_ON_OPEN de la propiedad PR_CONTAINER_FLAGS **del** contenedor ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)). After the user enters the criteria, it is stored as a restriction and passed to the **SetSearchCriteria** method. Setting AB_FIND_ON_OPEN is particularly useful if you are using an online service or any address book provider that has a slow link to its data. 
+In a container that supports searches, retrieve established criteria by calling [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md). You can also request that the user be prompted for search criteria before a container's contents table is displayed. Para elegir esta opción, establezca AB_FIND_ON_OPEN marca de la propiedad PR_CONTAINER_FLAGS **(** [PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)). After the user enters the criteria, it is stored as a restriction and passed to the **SetSearchCriteria** method. Setting AB_FIND_ON_OPEN is particularly useful if you are using an online service or any address book provider that has a slow link to its data. 
   
 ### <a name="to-perform-a-basic-search-in-an-address-book-container"></a>Para realizar una b�squeda b�sica en un contenedor de libreta de direcciones
   
@@ -41,16 +41,16 @@ In a container that supports searches, retrieve established criteria by calling 
     
    - [IMAPITable:: Restrict](imapitable-restrict.md) to limit the table view. 
     
-   - Restricción de propiedad mediante **la PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) para resolver nombres ambiguos. Llamar a **IMAPITable:: Restrict** para imponer esta restricci�n. 
+   - Restricción de propiedades mediante **la PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) para resolver nombres ambiguos. Llamar a **IMAPITable:: Restrict** para imponer esta restricci�n. 
     
    - [IABContainer::ResolveNames](iabcontainer-resolvenames.md) to resolve ambiguous names. 
     
 3. Call [IMAPITable::QueryRows](imapitable-queryrows.md) to retrieve any rows that meet your applied search criteria. **QueryRows** can return zero or more matching rows. 
     
-Los m�todos **FindRow**, **SortTable** y **Restrict** son m�todos de tabla que est�n disponibles para cualquier tabla que se pueden crear, ya sea un cliente o un proveedor de servicios. La **restricción de la propiedad PR \_ ANR** y el método **IABContainer::ResolveNames** son específicos de los proveedores de libretas de direcciones y se usan para resolver nombres ambiguos. Nombres ambiguos son entradas en una lista de destinatarios que no tienen una propiedad de **PR_ENTRYID** asociada a ellos. 
+Los m�todos **FindRow**, **SortTable** y **Restrict** son m�todos de tabla que est�n disponibles para cualquier tabla que se pueden crear, ya sea un cliente o un proveedor de servicios. La restricción de la propiedad **\_ PR ANR** y el método **IABContainer::ResolveNames** son específicos de los proveedores de libretas de direcciones y se usan para resolver nombres ambiguos. Nombres ambiguos son entradas en una lista de destinatarios que no tienen una propiedad de **PR_ENTRYID** asociada a ellos. 
   
-La **restricción \_ PR ANR** invoca un algoritmo que separa una cadena de caracteres en palabras y las encuentra con información en la libreta de direcciones mediante la coincidencia de prefijos. The information used for the matching depends on the address book provider. All address book providers are required to support the **PR_ANR** restriction for their address book containers. For more information, see [Implementaci�n de la resoluci�n de nombres](implementing-name-resolution.md).
+La **restricción \_ PR ANR** invoca un algoritmo que separa una cadena de caracteres en palabras y las coincide con la información de la libreta de direcciones mediante la coincidencia de prefijos. The information used for the matching depends on the address book provider. All address book providers are required to support the **PR_ANR** restriction for their address book containers. For more information, see [Implementaci�n de la resoluci�n de nombres](implementing-name-resolution.md).
   
-**IABContainer::ResolveNames** realiza **PR_ANR** restricci�n de procesamiento en varios nombres sin necesidad de tabla de contenido del contenedor est� abierto. Llamar **a ResolveNames una** vez para resolver varios nombres puede ser mucho más rápido que invocar varias veces una restricción DE PR **\_ ANR.** Sin embargo, los proveedores de libreta de direcciones no deben admitir **ResolveNames**.
+**IABContainer::ResolveNames** realiza **PR_ANR** restricci�n de procesamiento en varios nombres sin necesidad de tabla de contenido del contenedor est� abierto. Llamar **a ResolveNames una** vez para resolver varios nombres puede ser mucho más rápido que invocar varias veces una restricción DE **\_ ANR de PR.** Sin embargo, los proveedores de libreta de direcciones no deben admitir **ResolveNames**.
   
 

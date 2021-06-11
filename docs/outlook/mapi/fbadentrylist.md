@@ -43,7 +43,7 @@ BOOL FBadEntryList(
 
  _lpEntryList_
   
-> [entrada] Puntero a una [estructura ENTRYLIST](entrylist.md) que contiene una matriz de identificadores de entrada que se va a validar. 
+> [in] Puntero a una [estructura ENTRYLIST](entrylist.md) que contiene una matriz de identificadores de entrada que se va a validar. 
     
 ## <a name="return-value"></a>Valor devuelto
 

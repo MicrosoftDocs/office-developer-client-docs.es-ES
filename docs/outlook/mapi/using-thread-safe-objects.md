@@ -1,5 +1,5 @@
 ---
-title: Uso de Thread-Safe objetos
+title: Uso Thread-Safe objetos
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425172"
 ---
-# <a name="using-thread-safe-objects"></a>Uso de Thread-Safe objetos
+# <a name="using-thread-safe-objects"></a>Uso Thread-Safe objetos
 
   
   
@@ -25,12 +25,12 @@ Las aplicaciones cliente pueden suponer que los objetos usados directamente o co
   
 - Objeto de estado de un proveedor de transporte obtenido a través de una llamada de cliente a [IMAPISession::OpenEntry con](imapisession-openentry.md) un identificador de entrada de la fila de tabla de estado del proveedor. 
     
-- Todos los objetos de formulario MAPI obtenidos a través de una llamada de cliente a [MAPIOpenFormMgr](mapiopenformmgr.md). Los objetos de formulario cumplen las reglas del modelo de departamentos y los clientes deben usarlos y todos los objetos contenidos en ellos solo en el subproceso que las creó.
+- Todos los objetos de formulario MAPI obtenidos a través de una llamada de cliente a [MAPIOpenFormMgr](mapiopenformmgr.md). Los objetos de formulario obedecen las reglas del modelo de departamentos y los clientes deben usarlos y todos los objetos contenidos por ellos solo en el subproceso que las creó.
     
-Cuando un cliente tiene acceso a la fila de un proveedor de transporte en la tabla de estado que incluye el identificador de entrada del objeto de estado asociado, el cliente puede llamar a **OpenEntry** con ese identificador de entrada para abrir el objeto de estado. Este objeto de estado no es seguro para subprocesos porque los proveedores de transporte se ejecutan en el contexto de la cola MAPI y no mantienen un contexto independiente para su objeto de estado. El objeto de estado cumple las reglas del modelo de departamentos y los clientes solo deben usarlo en el subproceso que lo creó. 
+Cuando un cliente tiene acceso a la fila de un proveedor de transporte en la tabla de estado que incluye el identificador de entrada del objeto de estado asociado, el cliente puede llamar a **OpenEntry** con ese identificador de entrada para abrir el objeto de estado. Este objeto de estado no es seguro para subprocesos porque los proveedores de transporte se ejecutan en el contexto de la cola MAPI y no mantienen un contexto independiente para su objeto de estado. El objeto status obedece las reglas del modelo de departamentos y los clientes solo deben usarlo en el subproceso que lo creó. 
   
-Un cliente también debe invocar [MAPIInitialize](mapiinitialize.md) en cada subproceso antes de usar cualquier objeto MAPI y [MAPIUninitialize](mapiuninitialize.md) cuando se complete ese uso. Estas llamadas deben realizarse incluso si los objetos que se van a usar se pasan al subproceso desde un origen externo. Se puede llamar a **MAPIInitialize** y **MAPIUninitialize** desde cualquier lugar excepto desde dentro de una función **DllMain** de Win32, una función que invoca el sistema cuando se inicializan y finalizan procesos y subprocesos, o cuando se llaman a las funciones **LoadLibrary** y **FreeLibrary.** 
+Un cliente también debe invocar [MAPIInitialize](mapiinitialize.md) en cada subproceso antes de usar cualquier objeto MAPI y [MAPIUninitialize](mapiuninitialize.md) cuando se complete ese uso. Estas llamadas deben realizarse incluso si los objetos que se van a usar se pasan al subproceso desde un origen externo. Se puede llamar a **MAPIInitialize** y **MAPIUninitialize** desde cualquier lugar excepto desde dentro de una función **DllMain** de Win32, función que invoca el sistema cuando los procesos y subprocesos se inicializan y terminan, o cuando se llaman a las funciones **LoadLibrary** y **FreeLibrary.** 
   
-Nunca se debe suponer que los objetos de uso indirecto son seguros para subprocesos. Los métodos que requieren punteros de interfaz de destino como parámetros de entrada devuelven objetos de uso indirecto. Algunos ejemplos de estos métodos son **IMAPIProp::CopyTo** y **CopyProps**, **IMAPIFolder::CopyFolder** y **CopyMessage** e **IMsgServiceAdmin::CopyMsgService**. Si un proveedor de servicios desea llamar a un objeto de este tipo desde un subproceso distinto del que se pasó, el proveedor es responsable de calcular explícitamente las referencias del objeto.
+Nunca se debe suponer que los objetos de uso indirecto son seguros para subprocesos. Los métodos que requieren punteros de interfaz de destino devuelven objetos de uso indirecto como parámetros de entrada. Ejemplos de estos métodos son **IMAPIProp::CopyTo** y **CopyProps**, **IMAPIFolder::CopyFolder** y **CopyMessage** y **IMsgServiceAdmin::CopyMsgService**. Si un proveedor de servicios desea llamar a este objeto desde un subproceso distinto del que se pasó, el proveedor es responsable de calcular explícitamente el cálculo de referencias del objeto.
   
 

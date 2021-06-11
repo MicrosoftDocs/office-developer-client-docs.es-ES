@@ -25,7 +25,7 @@ ms.locfileid: "33430794"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Establece el valor de una o más propiedades para un mensaje o datos adjuntos encapsulados sin modificar el mensaje o datos adjuntos originales. 
+Establece el valor de una o más propiedades para un mensaje encapsulado o datos adjuntos sin modificar el mensaje o los datos adjuntos originales. 
   
 ```cpp
 HRESULT SetProps(
@@ -36,27 +36,27 @@ HRESULT SetProps(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se establecen los valores de propiedad. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla cómo se establecen los valores de propiedad. Se puede establecer la siguiente marca:
     
 TNEF_PROP_CONTAINED 
   
-> Codifica solo las propiedades del mensaje o datos adjuntos especificados por el _parámetro ulElemID._ 
+> Codifica solo las propiedades del mensaje o los datos adjuntos especificados por _el parámetro ulElemID._ 
     
  _ulElemID_
   
-> [entrada] La propiedad **de** PR_ATTACH_NUM datos adjuntos ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), que contiene un número que identifica de forma exclusiva los datos adjuntos en su mensaje primario.
+> [in] Propiedad de **PR_ATTACH_NUM** datos adjuntos ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), que contiene un número que identifica de forma única los datos adjuntos en su mensaje primario.
     
  _cValues_
   
-> [entrada] El número de valores de propiedad en la [estructura SPropValue](spropvalue.md) a la que apunta el _parámetro lpProps._ 
+> [in] El número de valores de propiedad en la [estructura SPropValue](spropvalue.md) a la que apunta el _parámetro lpProps._ 
     
  _lpProps_
   
-> [entrada] Puntero a una **estructura SPropValue** que contiene los valores de propiedad de las propiedades que se establecerán. 
+> [in] Puntero a una **estructura SPropValue** que contiene los valores de propiedad de las propiedades que se establecerán. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -66,14 +66,14 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace llaman al método **ITnef::SetProps** para establecer las propiedades que se incluirán en la encapsulación de un mensaje o datos adjuntos sin modificar el mensaje o datos adjuntos originales. Las propiedades establecidas con esta llamada invalidan las propiedades existentes en el mensaje encapsulado. 
+Los proveedores de transporte, los proveedores de almacén de mensajes y las puertas de enlace llaman al método **ITnef::SetProps** para establecer las propiedades que se incluirán en la encapsulación de un mensaje o datos adjuntos sin modificar el mensaje o los datos adjuntos originales. Las propiedades establecidas con esta llamada invalidan las propiedades existentes en el mensaje encapsulado. 
   
- **SetProps solo** es compatible con objetos TNEF que se abren con la marca TNEF_ENCODE para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx.](opentnefstreamex.md) Se puede establecer cualquier número de propiedades con esta llamada. 
+ **SetProps** solo se admite para objetos TNEF que se abren con la marca TNEF_ENCODE para la función [OpenTnefStream](opentnefstream.md) o [OpenTnefStreamEx.](opentnefstreamex.md) Cualquier número de propiedades se puede establecer con esta llamada. 
   
 > [!NOTE]
-> No se produce ninguna codificación TNEF real para **SetProps** hasta después de llamar al método [ITnef::Finish.](itnef-finish.md) Esta funcionalidad significa que los punteros pasados **a SetProps** deben seguir siendo válidos hasta después de realizar **la** llamada a Finish. En ese momento, se pueden liberar o liberar todos los objetos y datos pasados a llamadas **SetProps.** 
+> No se produce ninguna codificación TNEF real para **SetProps** hasta después de llamar al método [ITnef::Finish.](itnef-finish.md) Esta funcionalidad significa que los punteros que se pasan a **SetProps** deben seguir siendo válidos hasta después de realizar la llamada a **Finish.** En ese momento, todos los objetos y datos pasados a **llamadas SetProps** se pueden liberar o liberar. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

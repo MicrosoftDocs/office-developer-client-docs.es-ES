@@ -25,7 +25,7 @@ ms.locfileid: "33428140"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Proporciona acceso a la tabla del almacén de mensajes que contiene información sobre todos los almacenes de mensajes en el perfil de sesión.
+Proporciona acceso a la tabla de almacén de mensajes que contiene información sobre todos los almacenes de mensajes del perfil de sesión.
   
 ```cpp
 HRESULT GetMsgStoresTable(
@@ -34,41 +34,41 @@ HRESULT GetMsgStoresTable(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que determina el formato de las columnas que son cadenas de caracteres. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que determina el formato de las columnas que son cadenas de caracteres. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena están en formato ANSI.
+> Las columnas de cadena están en formato Unicode. Si no MAPI_UNICODE marca, las columnas de cadena tienen el formato ANSI.
     
  _lppTable_
   
-> [salida] Puntero a un puntero a la tabla del almacén de mensajes.
+> [salida] Puntero a un puntero a la tabla de almacén de mensajes.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> La tabla se devolvió correctamente.
+> La tabla se ha devuelto correctamente.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Se MAPI_UNICODE marca y la sesión no admite Unicode.
+> La MAPI_UNICODE se estableció y la sesión no admite Unicode.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISession::GetMsgStoresTable** recupera un puntero a la tabla del almacén de mensajes, una tabla mantenida por MAPI que contiene información sobre cada almacén de mensajes abierto en el perfil. 
+El **método IMAPISession::GetMsgStoresTable** recupera un puntero a la tabla de almacén de mensajes, una tabla mantenida por MAPI que contiene información sobre cada almacén de mensajes abierto en el perfil. 
   
-Para obtener una lista completa de las columnas obligatorias y opcionales de la tabla del almacén de mensajes, vea [Tablas del almacén de mensajes.](message-store-tables.md) 
+Para obtener una lista completa de columnas obligatorias y opcionales en la tabla de almacén de mensajes, vea [Tablas del almacén de mensajes](message-store-tables.md). 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Dado que MAPI actualiza la tabla del almacén de mensajes durante la sesión siempre que se produzcan cambios, llame al método **Advise** de la tabla del almacén de mensajes para registrarse para recibir una notificación de estos cambios. Los cambios posibles incluyen la adición de nuevos almacenes de mensajes, la eliminación de almacenes existentes y los cambios en el almacén predeterminado. 
+Dado que MAPI actualiza la tabla de almacén de mensajes durante la sesión cada vez que se producen cambios, llame al método **Advise** de la tabla de almacén de mensajes para registrarse para recibir una notificación de estos cambios. Los posibles cambios incluyen la adición de nuevos almacenes de mensajes, la eliminación de los almacenes existentes y los cambios en el almacén predeterminado. 
   
-Establecer el MAPI_UNICODE en el parámetro _ulFlags_ afecta al formato de las columnas devueltas de los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el [método IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
+Establecer la marca MAPI_UNICODE en el _parámetro ulFlags_ afecta al formato de las columnas devueltas de los métodos [IMAPITable::QueryColumns](imapitable-querycolumns.md) e [IMAPITable::QueryRows.](imapitable-queryrows.md) Esta marca también controla los tipos de propiedad en el criterio de ordenación devuelto por el [método IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -76,9 +76,9 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
   
 |**Archivo**|**Función**|**Comentario**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenMessageStoreTable  <br/> |MFCMAPI usa el método **IMAPISession::GetMsgStoresTable** para obtener la tabla del almacén de mensajes de modo que se pueda representar en el cuadro de diálogo principal de MFCMAPI.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenMessageStoreTable  <br/> |MFCMAPI usa el método **IMAPISession::GetMsgStoresTable** para obtener la tabla de almacén de mensajes de modo que se pueda representar en el cuadro de diálogo principal de MFCMAPI.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

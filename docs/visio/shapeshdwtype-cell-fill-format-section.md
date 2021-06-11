@@ -23,12 +23,12 @@ Especifica el tipo de sombra de una forma.
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Se utilizan las opciones predeterminadas de la página (valor predeterminado)  <br/> |**visFSTPageDefault** <br/> |
-|1   <br/> |Simple  <br/> |**visFSTSimple** <br/> |
-|2   <br/> |Oblicua  <br/> |**visFSTOblique** <br/> |
+|1  <br/> |Simple  <br/> |**visFSTSimple** <br/> |
+|2  <br/> |Oblicua  <br/> |**visFSTOblique** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Use esta celda para aplicar una sombra de forma diferente de la predeterminada de página (el tipo de sombra predeterminado de página se define en la celda ShdwType de la Sección de propiedades de página).
+Use esta celda para aplicar una sombra de forma diferente del valor predeterminado de la página (el tipo de sombra predeterminado de página se define en la celda ShdwType de la sección Propiedades de página).
   
 Las sombras simples se describen en la interfaz de usuario como sombras de desplazamiento. Una sombra simple proporciona un efecto de sombra sobre un plano paralelo situado detrás de la forma. Las sombras oblicuas se describen en la interfaz de usuario como sombras oblicuas y proporcionan un efecto de sombra que se proyecta sobre un plano perpendicular a la forma. 
   

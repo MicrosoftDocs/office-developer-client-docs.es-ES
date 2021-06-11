@@ -37,7 +37,7 @@ Si la forma no es un miembro de la lista, la función LISTSHEETREF devuelve #REF
   
 ## <a name="example"></a>Ejemplo
 
-LISTSHEETREF(1)! Height 
+LISTSHEETREF(1)! Alto 
   
 Devuelve el valor de la celda Height de la forma del contenedor de lista que contiene la forma. 
   

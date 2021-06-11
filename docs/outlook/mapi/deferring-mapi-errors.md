@@ -29,7 +29,7 @@ Cuando un cliente realiza una llamada sin establecer el indicador MAPI_DEFERRED_
   
 Establecer el MAPI_DEFERRED_ERRORS marca cambia error del cliente en una implementaci�n de control en que se puede entregar la informaci�n devuelta en cualquier momento, en lugar de a la vez planeada. Es posible que un error que se devuelve cuando es demasiado tarde para realizar cualquier operaci�n sobre �l o despu�s de datos acerca de la solicitud original ya no est�n disponibles. Por ejemplo, si un cliente llama a **IMsgStore::OpenEntry** para abrir una carpeta eliminada con conjunto MAPI_DEFERRED_ERRORS, el cliente no tiene que saber del problema hasta que se realiza una llamada de **IMAPIProp::GetProps** para recuperar una de las propiedades de la carpeta. **GetProps**, a continuaci�n, devolver� MAPI_E_NOT_FOUND. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

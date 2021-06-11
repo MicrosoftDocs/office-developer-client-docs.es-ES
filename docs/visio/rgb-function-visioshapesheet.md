@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251489
 localization_priority: Normal
 ms.assetid: f6b9f65c-6752-16cb-7eb1-44e1ce56e80b
-description: Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color por sus componentes rojo, verde y azul, donde cada uno es un número entre 0 y 255, ambos incluidos, o una expresión que da como resultado dicho número.
+description: Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color por sus componentes rojo, verde y azul, donde cada uno es un número entre 0 y 255, ambos incluidos, o una expresión que se evalúa como tal número.
 ms.openlocfilehash: 34f9c2f2043afe6144feba561e545dc7be35a5a2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33426306"
 ---
 # <a name="rgb-function-visioshapesheet"></a>Función RGB (VisioShapeSheet)
 
-Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color por sus componentes rojo, verde y azul, donde cada uno es un número entre 0 y 255, ambos incluidos, o una expresión que da como resultado dicho número. 
+Devuelve un valor que representa un índice en la paleta de colores del documento. Especifica un color por sus componentes rojo, verde y azul, donde cada uno es un número entre 0 y 255, ambos incluidos, o una expresión que se evalúa como tal número. 
   
 ## <a name="syntax"></a>Sintaxis
 

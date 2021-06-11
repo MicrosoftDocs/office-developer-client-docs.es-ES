@@ -1,5 +1,5 @@
 ---
-title: Celda YGridDensity (Sección &amp; de cuadrícula de regla)
+title: Celda YGridDensity (sección Cuadrícula &amp; de regla)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,20 +16,20 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429813"
 ---
-# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Celda YGridDensity (Sección &amp; de cuadrícula de regla)
+# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Celda YGridDensity (sección Cuadrícula &amp; de regla)
 
 Especifica el tipo de cuadrícula vertical que se va a utilizar.
   
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 |0  <br/> |Decimal  <br/> |**visGridFixed** <br/> |
-|2   <br/> |Grueso  <br/> |**visGridCoarse** <br/> |
+|2  <br/> |Grueso  <br/> |**visGridCoarse** <br/> |
 |4   <br/> |Normal (predeterminada)  <br/> |**visGridNormal** <br/> |
 |8   <br/> |Bien  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta celda corresponde a la opción **&amp;** **de** espaciado vertical de  la cuadrícula en el cuadro de diálogo Cuadrícula de regla (en la ficha Ver, haga clic en **la flecha mostrar).** 
+Esta celda corresponde a la opción **espaciado** vertical cuadrícula del cuadro de diálogo Cuadrícula de regla (en la ficha **Ver,** haga clic en **la flecha** Mostrar). **&amp;** 
   
 Para obtener una referencia a la celda YGridDensity por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

@@ -1,5 +1,5 @@
 ---
-title: Sección de &amp; cuadrícula de regla
+title: Sección &amp; Cuadrícula de regla
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,12 +16,12 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430787"
 ---
-# <a name="ruler-amp-grid-section"></a>Sección de &amp; cuadrícula de regla
+# <a name="ruler-amp-grid-section"></a>Sección &amp; Cuadrícula de regla
 
 Muestra la configuración actual de las reglas y las cuadrículas de la página.
   
 ## <a name="remarks"></a>Comentarios
 
-Esta sección es una propiedad de página que solo se puede ver en la ventana ShapeSheet de una página. Las celdas que contiene corresponden a la configuración  del cuadro de diálogo Cuadrícula de regla (en la ficha Ver, en el grupo Mostrar **u** ocultar, haga clic en el iniciador de cuadros de diálogo). **&amp;** 
+Esta sección es una propiedad de página que solo se puede ver en la ventana ShapeSheet de una página. Las celdas que contiene corresponden a la configuración  del cuadro de diálogo Cuadrícula de reglas (en la pestaña Ver, en el grupo Mostrar **u** ocultar, haga clic en el iniciador del cuadro de diálogo). **&amp;** 
   
 

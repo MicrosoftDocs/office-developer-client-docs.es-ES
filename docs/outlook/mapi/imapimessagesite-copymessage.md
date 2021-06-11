@@ -33,11 +33,11 @@ HRESULT CopyMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pFolderDestination_
   
-> [entrada] Puntero a la carpeta donde se va a copiar el mensaje.
+> [in] Puntero a la carpeta donde se va a copiar el mensaje.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -51,21 +51,21 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman **al método IMAPIMessageSite::CopyMessage** para copiar el mensaje actual en una carpeta nueva. **CopyMessage** no cambia el mensaje que se muestra actualmente al usuario y no se devuelve ninguna interfaz para el mensaje recién creado al formulario. 
+Los objetos Form llaman **al método IMAPIMessageSite::CopyMessage** para copiar el mensaje actual en una nueva carpeta. **CopyMessage** no cambia el mensaje que se muestra actualmente al usuario y no se devuelve ninguna interfaz para el mensaje recién creado al formulario. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
 Una implementación típica del **método CopyMessage** realiza las siguientes tareas: 
   
-1. Crea un nuevo mensaje para el mensaje actual en el que se va a copiar.
+1. Crea un nuevo mensaje para el mensaje actual al que se va a copiar.
     
-2. Llama al [método IPersistMessage::Save](ipersistmessage-save.md) con un puntero al nuevo mensaje en el parámetro _pMessage_ y FALSE en el parámetro _fSameAsLoad._ 
+2. Llama al [método IPersistMessage::Save](ipersistmessage-save.md) con un puntero al nuevo mensaje del _parámetro pMessage_ y FALSE en el _parámetro fSameAsLoad._ 
     
-3. Llama al [método IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) y pasa NULL en el _parámetro pMessage._ 
+3. Llama al [método IPersistMessage::SaveCompleted,](ipersistmessage-savecompleted.md) pasando NULL en el _parámetro pMessage._ 
     
 4. Llama al [método IMAPIProp::SaveChanges](imapiprop-savechanges.md) en el nuevo mensaje. 
     
-Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -75,7 +75,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CopyMessage  <br/> |No implementado.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

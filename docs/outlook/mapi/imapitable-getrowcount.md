@@ -34,7 +34,7 @@ ULONG FAR * lpulCount
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -48,11 +48,11 @@ ULONG FAR * lpulCount
 
 S_OK 
   
-> El recuento de filas se devolvió correctamente.
+> El recuento de filas se ha devuelto correctamente.
     
 MAPI_E_BUSY 
   
-> Hay otra operación en curso que impide que se inicie la operación de recuperación del recuento de filas. La operación en curso debe poder completarse o debe detenerse.
+> Hay otra operación en curso que impide que se inicie la operación de recuperación de recuento de filas. Debe permitirse completar la operación en curso o detenerse.
     
 MAPI_E_NO_SUPPORT 
   
@@ -60,7 +60,7 @@ MAPI_E_NO_SUPPORT
     
 MAPI_W_APPROX_COUNT 
   
-> La llamada se ha hecho correctamente, pero se ha devuelto un recuento aproximado de filas porque no se pudo determinar el recuento exacto de filas posiblemente debido a restricciones de memoria. Para probar esta advertencia, use la **macro HR_FAILED** datos. Vea [El uso de macros para el control de errores.](using-macros-for-error-handling.md)
+> La llamada se ha hecho correctamente, pero se ha devuelto un recuento aproximado de filas porque no se pudo determinar el recuento exacto de filas posiblemente debido a restricciones de memoria. Para probar esta advertencia, use la **HR_FAILED** macro. Consulte [Using Macros for Error Handling](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
@@ -68,15 +68,15 @@ El **método IMAPITable::GetRowCount** recupera el número total de filas de una
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Si no puede determinar el recuento exacto de filas de la tabla, devuelva MAPI_W_APPROX_COUNT y un recuento de filas aproximado en el contenido del _parámetro lpulCount._ 
+Si no puede determinar el recuento exacto de filas de la tabla, devuelva MAPI_W_APPROX_COUNT y un recuento aproximado de filas en el contenido del parámetro _lpulCount._ 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
 Use **GetRowCount para** averiguar cuántas filas contiene una tabla antes de realizar una llamada al método [IMAPITable::QueryRows](imapitable-queryrows.md) para recuperar los datos. Si hay menos de veinte filas en la tabla, es seguro llamar a **QueryPosition** para recuperar toda la tabla. Si hay más de veinte filas en la tabla, considere la posibilidad de realizar varias llamadas a **QueryPosition** y limitar el número de filas recuperadas en cada llamada. 
   
-Algunas tablas no **admiten GetRowCount** y devuelven MAPI_E_NO_SUPPORT. Si **no se admite GetRowCount,** una alternativa podría ser llamar a [IMAPITable::QueryPosition](imapitable-queryposition.md). Con los resultados **de QueryPosition,** puede determinar la relación entre la fila actual y la última fila. 
+Algunas tablas no **admiten GetRowCount** y devuelven MAPI_E_NO_SUPPORT. Si **no se admite GetRowCount,** una alternativa podría ser llamar a [IMAPITable::QueryPosition](imapitable-queryposition.md). Con los resultados de **QueryPosition,** puede determinar la relación entre la fila actual y la última fila. 
   
-Cuando **GetRowCount** devuelve MAPI_E_BUSY porque no puede recuperar temporalmente un recuento de filas, llame al método [IMAPITable::WaitForCompletion.](imapitable-waitforcompletion.md) Cuando **waitForCompletion** devuelve, reintentar la llamada **a GetRowCount**. Otra forma de detectar si hay una operación asincrónica en curso es llamar al método [IMAPITable::GetStatus](imapitable-getstatus.md) y comprobar el contenido del parámetro _lpulTableState._ 
+Cuando **GetRowCount** devuelve MAPI_E_BUSY porque no puede recuperar temporalmente un recuento de filas, llame al método [IMAPITable::WaitForCompletion.](imapitable-waitforcompletion.md) Cuando **WaitForCompletion** devuelve, reintente la llamada a **GetRowCount**. Otra forma de detectar si una operación asincrónica está en curso es llamar al método [IMAPITable::GetStatus](imapitable-getstatus.md) y comprobar el contenido del parámetro _lpulTableState._ 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -86,7 +86,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI usa el método **IMAPITable::GetRowCount** para determinar cuántas filas hay en la tabla de origen para que se pueda asignar memoria para realizar la copia.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

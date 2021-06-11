@@ -22,7 +22,7 @@ Convierte una expresión de un tipo de datos en otro.
   
 ## <a name="syntax"></a>Sintaxis
 
-**Convert** (*Expression*, *DataType*) 
+**Convert** (*Expresión*, *DataType*) 
   
 |**Nombre del argumento**|**Descripción**|
 |:-----|:-----|

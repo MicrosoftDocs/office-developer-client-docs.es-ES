@@ -41,43 +41,43 @@ HRESULT Details(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpulUIParam_
   
-> [salida] Puntero al controlador de la ventana principal del cuadro de diálogo devuelto.
+> [salida] Puntero al controlador a la ventana primaria del cuadro de diálogo devuelto.
     
  _lpfnDismiss_
   
-> [entrada] Puntero a una función basada en el prototipo [DISMISSMODELESS](dismissmodeless.md) o NULL. Este miembro se aplica solo a la versión no modelada del cuadro de diálogo, como se indica en la DIALOG_SDI marca que se está configurando. MAPI llama a la función **DISMISSMODELESS** cuando el usuario descarta el cuadro de diálogo de dirección no modelada e informa a un cliente que llama a **IMAPISupport::D etails** que el cuadro de diálogo ya no está activo. 
+> [in] Puntero a una función basada en el prototipo [DISMISSMODELESS](dismissmodeless.md) o NULL. Este miembro solo se aplica a la versión modeless del cuadro de diálogo, tal como se indica en la DIALOG_SDI marca que se va a establecer. MAPI llama a la función **DISMISSMODELESS** cuando el usuario descarta el cuadro de diálogo dirección de modeless e informa a un cliente que llama a **IMAPISupport::D etails** que el cuadro de diálogo ya no está activo. 
     
  _lpvDismissContext_
   
-> [entrada] Puntero a la información de contexto que se pasa a la **función DISMISSMODELESS** a la que apunta el parámetro _lpfnDismiss._ Este parámetro solo se aplica a la versión no modelada del cuadro de diálogo, incluyendo la marca DIALOG_SDI en el _parámetro ulFlags._ 
+> [in] Puntero a la información de contexto que se pasa a la **función DISMISSMODELESS** a la que apunta el _parámetro lpfnDismiss._ Este parámetro solo se aplica a la versión modeless del cuadro de diálogo, incluyendo la marca DIALOG_SDI en el _parámetro ulFlags._ 
     
  _cbEntryID_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpEntryID._ 
     
  _lpEntryID_
   
-> [entrada] Puntero al identificador de entrada para el que se muestran los detalles.
+> [in] Puntero al identificador de entrada para el que se muestran los detalles.
     
  _lpfButtonCallback_
   
-> [entrada] Puntero a una función basada en el prototipo de [función LPFNBUTTON.](lpfnbutton.md) Una **función LPFNBUTTON** agrega un botón al cuadro de diálogo de detalles. 
+> [in] Puntero a una función basada en el prototipo de función [LPFNBUTTON.](lpfnbutton.md) Una **función LPFNBUTTON** agrega un botón al cuadro de diálogo de detalles. 
     
  _lpvButtonContext_
   
-> [entrada] Puntero a los datos usados como parámetro para la función especificada por el _parámetro lpfButtonCallback._ 
+> [in] Puntero a los datos usados como parámetro para la función especificada por el _parámetro lpfButtonCallback._ 
     
  _lpszButtonText_
   
-> [entrada] Puntero a una cadena que contiene texto que se aplicará al botón agregado si ese botón es extensible. El  _parámetro lpszButtonText_ debe ser NULL si no se necesita un botón extensible. 
+> [in] Puntero a una cadena que contiene texto que se aplicará al botón agregado si ese botón es extensible. El  _parámetro lpszButtonText_ debe ser NULL si no se necesita un botón extensible. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla el tipo de texto para el _parámetro lpszButtonText._ Se puede establecer la siguiente marca: 
+> [in] Máscara de bits de marcas que controla el tipo de texto del parámetro _lpszButtonText._ Se puede establecer la siguiente marca: 
     
 DIALOG_MODAL
   
@@ -85,23 +85,23 @@ DIALOG_MODAL
     
 DIALOG_SDI
   
->  Muestra la versión no modelada del cuadro de diálogo de direcciones comunes. Esta marca es mutuamente exclusiva con DIALOG_MODAL. 
+>  Mostrar la versión modeless del cuadro de diálogo dirección común. Esta marca es mutuamente exclusiva con DIALOG_MODAL. 
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> El cuadro de diálogo de detalles se ha mostrado correctamente para la entrada de la libreta de direcciones.
+> El cuadro de diálogo detalles se mostró correctamente para la entrada de la libreta de direcciones.
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::D etails** se implementa para objetos de compatibilidad del proveedor de libreta de direcciones. Los proveedores de libretas de direcciones llaman a **Details** para mostrar un cuadro de diálogo que proporciona detalles sobre una entrada concreta de la libreta de direcciones. Los  _parámetros lpfButtonCallback_,  _lpvButtonContext_ y  _lpszButtonText_ se pueden usar para agregar un botón definido por el cliente al cuadro de diálogo. Cuando se hace clic en el botón, MAPI llama a la función de devolución de llamada a la que  _apunta lpfButtonCallback_, pasando tanto el identificador de entrada del botón como los datos  _en lpvButtonContext_. Si no se necesita un botón extensible,  _lpszButtonText_ debe ser NULL. 
+El **método IMAPISupport::D etails** se implementa para objetos de soporte del proveedor de libreta de direcciones. Los proveedores de libreta de direcciones llaman a **Detalles** para mostrar un cuadro de diálogo que proporciona detalles sobre una entrada determinada de la libreta de direcciones. Los  _parámetros lpfButtonCallback_,  _lpvButtonContext_ y  _lpszButtonText_ se pueden usar para agregar un botón definido por el cliente al cuadro de diálogo. Cuando se hace clic en el botón, MAPI llama a la función de devolución de llamada señalada por  _lpfButtonCallback_, pasando tanto el identificador de entrada del botón como los datos de  _lpvButtonContext_. Si no se necesita un botón extensible,  _lpszButtonText_ debe ser NULL. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

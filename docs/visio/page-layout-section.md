@@ -22,8 +22,8 @@ Contiene celdas que controlan la configuración de la página para formas y cone
   
 ## <a name="remarks"></a>Comentarios
 
-Para invalidar los valores predeterminados de página para una forma específica, use las celdas de la sección **Diseño de** forma. 
+Para invalidar los valores predeterminados de página para una forma específica, use las celdas de la **sección Diseño de** forma. 
   
-También puede establecer los valores de las  celdas de esta  sección en la  ficha Diseño y enrutamiento del cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en el iniciador de cuadros de diálogo en el grupo Configurar **página).** 
+También puede establecer los valores de las  celdas de esta  sección en la  ficha Diseño y enrutamiento del cuadro de diálogo Configurar página (en la ficha Diseño, haga clic en el iniciador de cuadros de diálogo en el grupo Configuración de **página).** 
   
 

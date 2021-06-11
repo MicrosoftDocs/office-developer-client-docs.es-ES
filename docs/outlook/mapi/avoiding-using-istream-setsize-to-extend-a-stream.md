@@ -21,6 +21,6 @@ ms.locfileid: "33428917"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Al escribir en secuencias, a veces es necesario ampliarlas porque su tamaño inicial ya no es suficiente. Use el método OLE **IStream::Write** para hacerlo en lugar de **IStream::SetSize**. **IStream::Write** extiende automáticamente la secuencia, lo que hace que ** IStream::SetSize ** no es necesario. Llamar **a IStream::Write** sin **IStream::SetSize** puede ser hasta tres veces más rápido que realizar la llamada **SetSize** antes de **Escribir.**
+Al escribir en secuencias, a veces es necesario ampliarlas porque su tamaño inicial ya no es suficiente. Use el método OLE **IStream::Write** para lograr esto en lugar de **IStream::SetSize**. **IStream::Write** amplía automáticamente la secuencia, lo que hace que ** IStream::SetSize ** no es necesario. Llamar **a IStream::Write** sin **IStream::SetSize** puede ser hasta tres veces más rápido que realizar la llamada **SetSize** antes de **Escribir**.
   
 

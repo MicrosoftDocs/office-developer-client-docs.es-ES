@@ -25,7 +25,7 @@ ms.locfileid: "33429113"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Actualiza el estado en el cuadro de diálogo De envío o recepción. El proveedor de almacenamiento llama periódicamente a esta función.
+Actualiza el estado del cuadro de diálogo Enviar o recibir. El proveedor de almacenamiento llama periódicamente a esta función.
   
 ```cpp
 HRESULT Progress(
@@ -35,7 +35,7 @@ HRESULT Progress(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  **pwczsProgress**
   
@@ -43,7 +43,7 @@ HRESULT Progress(
     
  **ulIndex**
   
-> Posición actual en curso.
+> La posición actual en curso.
     
  **ulIndexMax**
   
@@ -55,7 +55,7 @@ S_OK
   
 > La llamada se ha realizado correctamente y devuelva el valor esperado o los valores.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: EstablecerVarLocal (acción de macro) (aplicación web personalizada de Access)
+title: Acción de macro SetLocalVar (aplicación web personalizada de Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428119"
 ---
-# <a name="setlocalvar-macro-action-access-custom-web-app"></a>EstablecerVarLocal (acción de macro) (aplicación web personalizada de Access)
+# <a name="setlocalvar-macro-action-access-custom-web-app"></a>Acción de macro SetLocalVar (aplicación web personalizada de Access)
 
 La acción **EstablecerVariableLocal** crea una variable temporal y la establece en un valor específico. 
   
@@ -22,7 +22,7 @@ La acción **EstablecerVariableLocal** crea una variable temporal y la establece
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 > [!NOTE]
-> La **acción EstablecerLocalVar** solo está disponible en macros de datos. 
+> La **acción SetLocalVar** solo está disponible en macros de datos. 
   
 ## <a name="setting"></a>Valor
 

@@ -17,15 +17,15 @@ ms.locfileid: "33427825"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Para implementar un proveedor de almacenamiento de archivos de carpetas personales (PST) ajustado, debe inicializar el proveedor de almacén de PST ajustado mediante la función **[MSProviderInit](msproviderinit.md)** como punto de entrada. Una vez inicializada la DLL del proveedor, la función **[MSGSERVICEENTRY](msgserviceentry.md)** configura el proveedor de almacén de PST ajustado. 
+Para implementar un proveedor de almacén de archivos de carpetas personales ajustado (PST), debe inicializar el proveedor de almacenamiento PST ajustado mediante la función **[MSProviderInit](msproviderinit.md)** como punto de entrada. Después de inicializar la DLL del proveedor, la función **[MSGSERVICEENTRY](msgserviceentry.md)** configura el proveedor de almacenamiento PST ajustado. 
   
-En este tema, la función **MSProviderInit** y la función **MSGSERVICEENTRY** se muestran mediante ejemplos de código del proveedor de almacén pst ajustado de ejemplo. El ejemplo implementa un proveedor de PST ajustado que está pensado para usarse junto con la API de replicación. Para obtener más información acerca de cómo descargar e instalar el proveedor de almacén pst ajustado de ejemplo, consulte Instalación del proveedor de almacén pst ajustado [de ejemplo.](installing-the-sample-wrapped-pst-store-provider.md) Para obtener más información acerca de la API de replicación, vea [Acerca de la API de replicación.](about-the-replication-api.md)
+En este tema, la **función MSProviderInit** y la función **MSGSERVICEENTRY** se muestran mediante ejemplos de código del proveedor de almacén PST ajustado de ejemplo. El ejemplo implementa un proveedor de PST ajustado que está pensado para usarse junto con la API de replicación. Para obtener más información acerca de cómo descargar e instalar el proveedor de la tienda PST encapsulada de muestra, consulte [Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md). Para obtener más información acerca de la API de replicación, vea [Acerca de la API de replicación](about-the-replication-api.md).
   
-Después de inicializar un proveedor de almacén de ARCHIVOS PST ajustado, debe implementar funciones para que MAPI y la cola MAPI puedan iniciar sesión en el proveedor del almacén de mensajes. Para obtener más información, [vea Inicio de sesión en un proveedor de almacén de PST ajustado.](logging-on-to-a-wrapped-pst-store-provider.md)
+Después de inicializar un proveedor de almacenamiento PST ajustado, debe implementar funciones para que MAPI y la cola MAPI puedan iniciar sesión en el proveedor del almacén de mensajes. Para obtener más información, vea [Logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md).
   
 ## <a name="initialization-routine"></a>Rutina de inicialización
 
-Todos los proveedores de almacén de PST ajustados deben implementar la función **[MSProviderInit](msproviderinit.md)** como punto de entrada para inicializar la DLL del proveedor. **MSProviderInit** comprueba si el número de versión de la interfaz del proveedor de servicios es compatible con `ulMAPIVer` el número de versión actual. `CURRENT_SPI_VERSION` La función guarda las rutinas de administración de memoria MAPI en  `g_lpAllocateBuffer` ,  `g_lpAllocateMore` y los  `g_lpFreeBuffer` parámetros. Estas rutinas de administración de memoria deben usarse en toda la implementación del almacén de PST ajustado para la asignación y desasignación de memoria. 
+Todos los proveedores de almacenamiento PST ajustados deben implementar la función **[MSProviderInit](msproviderinit.md)** como punto de entrada para inicializar la DLL del proveedor. **MSProviderInit** comprueba si el número de versión de la interfaz del proveedor de servicios,  `ulMAPIVer` , es compatible con el número de versión actual,  `CURRENT_SPI_VERSION` . La función guarda las rutinas de administración de memoria MAPI en  `g_lpAllocateBuffer` los  `g_lpAllocateMore` parámetros ,  `g_lpFreeBuffer` y. Estas rutinas de administración de memoria deben usarse en toda la implementación del almacén PST ajustado para la asignación de memoria y la desasignación. 
   
 ### <a name="msproviderinit-example"></a>Ejemplo de MSProviderInit()
 
@@ -106,9 +106,9 @@ STDINITMETHODIMP MSProviderInit (
 }
 ```
 
-### <a name="wrapped-pst-and-unicode-paths"></a>Rutas de acceso de PST y Unicode ajustadas
+### <a name="wrapped-pst-and-unicode-paths"></a>Rutas de acceso PST y Unicode ajustadas
 
-Para adaptar el ejemplo original preparado en Microsoft Visual Studio 2008 para usar rutas unicode a NST para su uso en Microsoft Outlook 2010 y Outlook 2013 habilitados para Unicode, la rutina **CreateStoreEntryID,** que produce el identificador de entrada, debe usar un formato para las rutas ASCII y otro para las rutas unicode. Se representan como estructuras en el ejemplo siguiente. 
+Para adaptar el ejemplo original preparado en Microsoft Visual Studio 2008 para usar rutas de acceso Unicode al NST para su uso en Microsoft Outlook 2010 y Outlook 2013 habilitados para Unicode, la rutina **CreateStoreEntryID,** que produce el identificador de entrada, debe usar un formato para rutas de acceso ASCII y otra para rutas unicode. Se representan como estructuras en el ejemplo siguiente. 
   
 ```cpp
 typedef struct                              // short format
@@ -131,11 +131,11 @@ typedef struct                              // Long format to support Unicode pa
 ```
 
 > [!IMPORTANT]
-> Las diferencias en estas estructuras son dos bytes NULL antes de una ruta de acceso Unicode. Si necesita interpretar el identificador de entrada en la "Rutina de entrada de servicio" que se muestra a continuación, una forma de determinar si ese es el caso o no sería convertir como EIDMS en primer lugar y, a continuación, compruebe si szPath[0] es NULL. Si es así, consédalo como EIDMSW en su lugar. 
+> Las diferencias en estas estructuras son dos bytes NULL antes de una ruta de acceso Unicode. Si necesita interpretar el identificador de entrada en la "Rutina de entrada de servicio" que se muestra a continuación, una forma de determinar si ese es el caso o no sería convertir como EIDMS en primer lugar, compruebe si szPath[0] es NULL. Si es así, conéctelo como EIDMSW en su lugar. 
   
 ## <a name="service-entry-routine"></a>Rutina de entrada de servicio
 
-La **[función MSGSERVICEENTRY es](msgserviceentry.md)** el punto de entrada del servicio de mensajes donde está configurado el proveedor de almacenamiento de ARCHIVOS PST ajustado. La función llama  `GetMemAllocRoutines()` para obtener las rutinas de administración de memoria MAPI. La función usa el  `lpProviderAdmin` parámetro para buscar la sección de perfil del proveedor y establece las propiedades en el perfil. 
+La **[función MSGSERVICEENTRY](msgserviceentry.md)** es el punto de entrada del servicio de mensajes donde se configura el proveedor de almacenamiento PST ajustado. La función llama  `GetMemAllocRoutines()` para obtener las rutinas de administración de memoria MAPI. La función usa el parámetro para buscar la sección de perfil del proveedor y  `lpProviderAdmin` establece las propiedades en el perfil. 
   
 ### <a name="serviceentry-example"></a>Ejemplo de ServiceEntry()
 
@@ -241,11 +241,11 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-- [Acerca del proveedor de almacenamiento PST ajustado de ejemplo](about-the-sample-wrapped-pst-store-provider.md)
-- [Instalación del proveedor de almacén pst ajustado de ejemplo](installing-the-sample-wrapped-pst-store-provider.md)
-- [Inicio de sesión en un proveedor de almacén de PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Uso de un proveedor de almacén de PST ajustado](using-a-wrapped-pst-store-provider.md)
-- [Apagar un proveedor de almacén de PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
+- [Acerca del proveedor de almacén PST ajustado de ejemplo](about-the-sample-wrapped-pst-store-provider.md)
+- [Instalación del proveedor de almacén PST ajustado de muestra](installing-the-sample-wrapped-pst-store-provider.md)
+- [Iniciar sesión en un proveedor de almacenamiento PST ajustado](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Uso de un proveedor de almacenamiento PST ajustado](using-a-wrapped-pst-store-provider.md)
+- [Apagar un proveedor de almacenamiento PST ajustado](shutting-down-a-wrapped-pst-store-provider.md)
 

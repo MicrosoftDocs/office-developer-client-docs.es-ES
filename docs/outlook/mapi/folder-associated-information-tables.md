@@ -27,21 +27,21 @@ Para implementar tablas de contenido asociadas, el proveedor de la tienda debe h
   
 - Admite la marca MAPI_ASSOCIATED en el método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) para que las aplicaciones cliente puedan obtener la tabla de contenido asociada de la carpeta en lugar de la tabla de contenido estándar. 
     
-- Admite la MAPI_ASSOCIATED en el método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) para que las aplicaciones cliente puedan agregar mensajes a la tabla de contenido asociada de una carpeta. 
+- Admite la MAPI_ASSOCIATED en el método [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) para que las aplicaciones cliente puedan agregar mensajes a la tabla de contenido asociada a una carpeta. 
     
-- Establezca el bit MAPI_ACCESS_CREATE_ASSOCIATED en la **propiedad PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) en objetos de carpeta.
+- Establezca el MAPI_ACCESS_CREATE_ASSOCIATED en la **propiedad PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) en objetos de carpeta.
     
 - Admite la DEL_ASSOCIATED en el [método IMAPIFolder::EmptyFolder.](imapifolder-emptyfolder.md) 
     
-- Establezca el bit MSGFLAG_ASSOCIATED en la **propiedad PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) para los mensajes de la tabla de contenido asociada.
+- Establezca el MSGFLAG_ASSOCIATED en la **propiedad PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) para los mensajes de la tabla de contenido asociada.
     
 - Exponer y responder a la **propiedad PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) en las carpetas.
     
 - Mantenga la **propiedad PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md)) en las carpetas.
     
-No hay ningún bit en la **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para indicar si el proveedor del almacén de mensajes admite tablas de contenido asociadas. Si el proveedor del almacén de mensajes no los admite, debe devolver MAPI_E_NO_SUPPORT cuando las aplicaciones cliente llamen a cualquiera de los métodos anteriores con la marca MAPI_ASSOCIATED mensaje.
+No hay ningún bit en la **propiedad PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) para indicar si el proveedor del almacén de mensajes admite tablas de contenido asociadas. Si el proveedor del almacén de mensajes no los admite, debe devolver MAPI_E_NO_SUPPORT cuando las aplicaciones cliente llamen a cualquiera de los métodos anteriores con la MAPI_ASSOCIATED marca.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -33,7 +33,7 @@ HRESULT GetViewContext(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ppViewContext_
   
@@ -51,11 +51,11 @@ S_FALSE
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman a **GetViewContext** para obtener un puntero al contexto de vista establecido en una llamada anterior a [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Si no se ha realizado ninguna llamada previa a **SetViewContext**, **GetViewContext** establece  _ppViewContext_ en NULL. 
+Los visores de formularios llaman a **GetViewContext** para obtener un puntero al contexto de vista establecido en una llamada anterior a [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Si no se ha realizado ninguna llamada previa a **SetViewContext,** **GetViewContext** establece  _ppViewContext_ en NULL. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Copie el puntero de contexto de vista del formulario en el puntero pasado por el visor del formulario de llamada en el _parámetro ppViewContext._ Si el formulario no tiene un contexto de vista, establezca  _ppViewContext_ en NULL. 
+Copie el puntero de contexto de vista del formulario en el puntero pasado por el visor de formularios de llamada en el _parámetro ppViewContext._ Si el formulario no tiene un contexto de vista, establezca  _ppViewContext_ en NULL. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -65,7 +65,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI usa el **método IMAPIForm::GetViewContext** para comprobar si un formulario tiene un contexto de vista.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

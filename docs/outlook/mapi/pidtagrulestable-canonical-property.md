@@ -34,7 +34,7 @@ Contiene una tabla con todas las reglas aplicadas a una carpeta.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad está presente en todos los objetos de carpeta de un Exchange Server que tienen reglas. Los valores incluidos en esta propiedad se usan para leer y modificar reglas. Puede usar el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) con el identificador de interfaz **IID_IExchangeModifyTable** para obtener una interfaz [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) para la tabla de reglas de una carpeta. Puede usar esta interfaz para leer y modificar esas reglas. 
+Esta propiedad está presente en todos los objetos de carpeta de Exchange Server que tienen reglas. Los valores incluidos en esta propiedad se usan para leer y modificar reglas. Puede usar el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) con el identificador de interfaz IID_IExchangeModifyTable para obtener una [interfaz IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) **a** la tabla de reglas de una carpeta. Puede usar esta interfaz para leer y modificar esas reglas. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

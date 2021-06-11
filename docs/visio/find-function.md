@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60101
 localization_priority: Normal
 ms.assetid: c827ecd4-5593-6d4f-2746-d13b02b098fe
-description: Busca una cadena de texto contenida en otra cadena de texto y devuelve la posición inicial de la cadena de texto que está buscando en relación con su posición en la cadena de texto que la contiene.
+description: Busca una cadena de texto incluida en otra cadena de texto y devuelve la posición inicial de la cadena de texto que está buscando en relación con su posición en la cadena de texto que la contiene.
 ms.openlocfilehash: 40d65af25d89774c1bdf7b235cf653dbb61dd1c7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33426579"
 ---
 # <a name="find-function"></a>Función FIND
 
-Busca una cadena de texto contenida en otra cadena de texto y devuelve la posición inicial de la cadena de texto que está buscando en relación con su posición en la cadena de texto que la contiene.
+Busca una cadena de texto incluida en otra cadena de texto y devuelve la posición inicial de la cadena de texto que está buscando en relación con su posición en la cadena de texto que la contiene.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -41,15 +41,15 @@ Número
 
 Si se encuentra el texto varias veces, la función FIND devolverá la posición de inicio de la primera aparición en la cadena. El  _find_text_ no considera que ningún carácter sea comodín. 
   
-Si _find_text:_
+Si  _find_text_:
   
 -  Está vacío (""), FIND coincide con el primer carácter de la cadena de búsqueda (es decir, el carácter  _numerado start_num_ o 1). 
     
-- No aparece en  _within_text_, FIND devuelve el #VALUE! valor de error. 
+- No aparece  _en_ within_text , FIND devuelve el #VALUE! valor de error. 
     
-Si _start_num:_
+Si  _start_num_:
   
-- No es mayor que cero (0), FIND devuelve el #VALUE! valor de error. 
+- No es mayor que cero (0), devolverá el error #VALUE! 
     
 - Es mayor que la longitud de  _within_text_, FINDreturns el #VALUE! valor de error. 
     

@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlUDF
 keywords:
-- Función xludf [excel 2007]
+- función xludf [excel 2007]
 localization_priority: Normal
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,14 +22,14 @@ ms.locfileid: "33430647"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Llama a una función definida por el usuario (UDF). Esta función permite a un DLL llamar a Visual Basic para Aplicaciones (VBA) definidas por el usuario, funciones de lenguaje de macros XLM y funciones registradas contenidas en otros complementos.
+Llama a una función definida por el usuario (UDF). Esta función permite que un DLL llame a funciones definidas por el usuario de Visual Basic para Aplicaciones (VBA), funciones de lenguaje de macros XLM y funciones registradas contenidas en otros complementos.
   
 ```cs
 Excel12(xlUDF, LPXLOPER12 pxRes, int iCount, LPXLOPER12 pxFnRef,
 LPXLOPER12 pxArg1, ...);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pxFnRef_ (**xltypeRef**, **xltypeSRef**, **xltypeStr** o **xltypeNum**)
   
@@ -37,7 +37,7 @@ Referencia de la función a la que desea llamar. Puede ser una referencia de cel
   
 _pxArg1, ..._
   
-Cero o más argumentos para la función definida por el usuario. Cuando se llama a esta función en versiones anteriores a Excel 2007, el número máximo de argumentos adicionales que se pueden pasar es 29, que es 30, incluido  _pxFnRef_. A partir de Excel 2007, este límite se eleva a 254, que es 255, incluido  _pxFnRef_.
+Cero o más argumentos para la función definida por el usuario. Cuando se llama a esta función en versiones anteriores a Excel 2007, el número máximo de argumentos adicionales que se pueden pasar es 29, que es 30, incluido _pxFnRef_. A partir Excel 2007, este límite se eleva a 254, que es 255, incluido _pxFnRef_.
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -45,7 +45,7 @@ Devuelve el valor que devuelva la función definida por el usuario.
   
 ## <a name="example"></a>Ejemplo
 
-En el siguiente ejemplo se **ejecuta TestMacro** en la hoja Macro1 de BOOK1.XLS. Asegúrese de que la macro se encuentra en una hoja denominada Macro1. 
+En el siguiente ejemplo se **ejecuta TestMacro** en la hoja Macro1 en BOOK1.XLS. Asegúrese de que la macro se encuentra en una hoja denominada Macro1. 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -61,7 +61,7 @@ short WINAPI xlUDFExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

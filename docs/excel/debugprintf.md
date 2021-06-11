@@ -22,7 +22,7 @@ ms.locfileid: "33424801"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de marcos que escribe una cadena de bytes terminada en null en el depurador activo a través de la función **OutputDebugStringA** de Windows SDK . Si la aplicación no tiene ningún depurador, el depurador del sistema muestra la cadena. Si la aplicación no tiene ningún depurador y el depurador del sistema no está activo, **debugPrintf** no hace nada. 
+Función de biblioteca de marcos que escribe una cadena de bytes terminada en null en el depurador activo mediante la función Windows SDK **OutputDebugStringA**. Si la aplicación no tiene ningún depurador, el depurador del sistema muestra la cadena. Si la aplicación no tiene depurador y el depurador del sistema no está activo, **debugPrintf** no hace nada. 
   
 Esta función no devuelve un valor.
   
@@ -30,11 +30,11 @@ Esta función no devuelve un valor.
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpFormat (LPSTR)_
   
-Cadena de formato, que sigue la sintaxis y las reglas que se usan con la **función sprintf.** 
+La cadena de formato, que sigue la sintaxis y las reglas para la que se usa con la **función sprintf.** 
   
  _argumentos_
   
@@ -42,7 +42,7 @@ Cero o más argumentos para que coincidan con la cadena de formato.
   
 ## <a name="example"></a>Ejemplo
 
-Esta función imprime una cadena para mostrar que se le ha pasado el control. El _DEBUG debe definirse antes de compilar o, de lo contrario, esta función no hace nada.
+Esta función imprime una cadena para mostrar que se le pasó el control. El _DEBUG debe definirse antes de compilar o, de lo contrario, esta función no hace nada.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -57,7 +57,7 @@ short WINAPI debugPrintfExample(void)
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

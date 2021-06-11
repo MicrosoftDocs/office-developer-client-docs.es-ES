@@ -21,7 +21,7 @@ ms.locfileid: "33427657"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El **atributo attOwner** se codifica como cadenas contadas colocadas de un extremo a otro. El formato de **attOwner** es el siguiente: 
+El **atributo attOwner** se codifica como cadenas contadas establecidas de un extremo a otro. El formato de **attOwner** es el siguiente: 
   
  **attOwner**: 
   
@@ -29,10 +29,10 @@ El **atributo attOwner** se codifica como cadenas contadas colocadas de un extre
     
  _email-address_
   
-> type **:** address 
+> tipo **:** address 
     
-A diferencia de otros valores de longitud, el nombre para mostrar-longitud y longitud de dirección son valores de 16 bits sin signo en lugar de enteros largos sin signo. Sin embargo, aún incluyen la terminación de caracteres nulos. Las cadenas de tipo y dirección de la entrada  _de dirección_ de correo electrónico están separadas por dos puntos literales (:) como, por ejemplo, "smtp:joe@nowhere.com". Solo el tipo **combinado: la** cadena de dirección termina en null.
+A diferencia de otros valores de longitud, los valores para mostrar-name-length y address-length son valores de 16 bits sin signo en lugar de enteros largos sin signo. Sin embargo, aún incluyen los caracteres nulos de terminación. Las cadenas de tipo y dirección de la entrada  _de dirección de_ correo electrónico están separadas por dos puntos literales (:) carácter, como "smtp:joe@nowhere.com". Solo el tipo combinado **:** la cadena de dirección termina en null.
   
-La asignación de propiedades MAPI al atributo **attOwner** depende de la clase de mensaje del mensaje que se va a codificar. 
+La asignación de propiedades MAPI al **atributo attOwner** depende de la clase de mensaje del mensaje que se codifica. 
   
 

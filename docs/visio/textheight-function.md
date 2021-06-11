@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251504
 localization_priority: Normal
 ms.assetid: 5a10892f-c8fa-c127-2f5a-564009ce5411
-description: Devuelve el alto del texto compuesto en una forma en la que ninguna línea de texto supera el valor máximo.
+description: Devuelve el alto del texto compuesto en una forma en la que ninguna línea de texto supera la anchura máxima.
 ms.openlocfilehash: 7455f58f14f9a4a0ae1fcd5375dba5d5860d3852
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33427412"
 ---
 # <a name="textheight-function"></a>Función TEXTHEIGHT
 
-Devuelve el alto del texto compuesto en una forma en la que ninguna línea de texto supera _el valor máximo._ 
+Devuelve el alto del texto compuesto en una forma en la que ninguna línea de texto supera  _maximumwidth_. 
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -28,12 +28,12 @@ TEXTHEIGHT(** *shapename! TheText* ** ** *[,maximumwidth]* ** )
 
 |**Name**|**Necesario/Opcional**|**Tipo de datos**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| _shapename!theText_ <br/> |Obligatorio  <br/> |**String** <br/> |Una referencia a la celda llamada TheText de la forma de destino.  _shapename!_ es el nombre de la forma de la que desea recuperar el texto.  <br/> |
+| _shapename!theText_ <br/> |Obligatorio  <br/> |**String** <br/> |Una referencia a la celda llamada TheText de la forma de destino.  _shapename!_ es el nombre de la forma desde la que desea recuperar el texto.  <br/> |
 | _maximumwidth_ <br/> |Opcional  <br/> |**Numérico** <br/> |Ancho máximo del bloque de texto.  <br/> |
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 

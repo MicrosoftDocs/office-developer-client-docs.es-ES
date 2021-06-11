@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 223869e3-1b79-101f-dfd3-87902fc43c6f
-description: Este miembro es un marcador de posición y no es compatible.
+description: Este miembro es un marcador de posición y no se admite.
 ms.openlocfilehash: aa9f7e6769ad849403a1d227352d731a3ffd7beb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33429659"
 ---
 # <a name="ifreebusysupportplaceholder9"></a>IFreeBusySupport::Placeholder9
 
-Este miembro es un marcador de posición y no es compatible.
+Este miembro es un marcador de posición y no se admite.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -30,13 +30,13 @@ HRESULT Placeholder9(
 
 ## <a name="return-values"></a>Valores devueltos
 
-Siempre E_NOTIMPL, porque este miembro es un marcador de posición y no es compatible.
+Siempre E_NOTIMPL, porque este miembro es un marcador de posición y no se admite.
   
 ## <a name="remarks"></a>Comentarios
 
 Este miembro debe devolver E_NOTIMPL.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de disponibilidad)](constants-free-busy-api.md) 
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)

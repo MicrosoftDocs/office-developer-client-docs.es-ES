@@ -36,7 +36,7 @@ La interfaz [DataObjectsCollection](https://msdn.microsoft.com/library/Microsoft
 |**Nombre**|**Descripción**|
 |:-----|:-----|
 |Propiedad [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx)  <br/> |Devuelve el número de instancias **DataSourceObject** contenidas en la colección  <br/> |
-|[Método GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.GetEnumerator.aspx)  <br/> |Devuelve un **IEnumerator** que se puede utilizar para recorrer en iteración la colección.  <br/> |
+|[GetEnumerator (método)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.GetEnumerator.aspx)  <br/> |Devuelve un **IEnumerator** que se puede utilizar para recorrer en iteración la colección.  <br/> |
 |Propiedad [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Item.aspx)  <br/> |Devuelve una referencia a la instancia **DataSourceObject** especificada  <br/> |
    
 ## <a name="overview-of-the-datasourceobject-interface"></a>Información general sobre la interfaz DataSourceObject
@@ -45,7 +45,7 @@ La interfaz [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Offi
   
 |**Nombre**|**Descripción**|
 |:-----|:-----|
-|[Método de](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx) consulta  <br/> |Ejecuta la consulta en el adaptador de datos e inserta los datos devueltos como XML en el modelo de objetos de documento (DOM) XML asociado a **DataSourceObject**.  <br/> |
+|[Método Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx)  <br/> |Ejecuta la consulta en el adaptador de datos e inserta los datos devueltos como XML en el modelo de objetos de documento (DOM) XML asociado a **DataSourceObject**.  <br/> |
 |[Dom (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.DOM.aspx)  <br/> |Devuelve una referencia al XML DOM que se utiliza para almacenar y manipular datos mediante **DataSourceObject**.  <br/> |
 |Propiedad [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Name.aspx)  <br/> |Devuelve un valor de cadena que indica el nombre de **DataSourceObject**  <br/> |
 |[QueryAdapter (propiedad)](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.QueryAdapter.aspx)  <br/> |Devuelve una referencia al objeto adaptador de datos asociado.  <br/> |

@@ -42,11 +42,11 @@ typedef struct _ERROR_NOTIFICATION
 } ERROR_NOTIFICATION;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
-> Recuento de bytes en el identificador de entrada al que apunta **lpEntryID**. 
+> Recuento de bytes en el identificador de entrada señalado por **lpEntryID**. 
     
  **lpEntryID**
   
@@ -54,15 +54,15 @@ typedef struct _ERROR_NOTIFICATION
     
  **scode**
   
-> Valor de error del error crítico. 
+> Valor de error para el error crítico. 
     
  **ulFlags**
   
-> Máscara de bits de marcas usadas para designar el formato del texto al que apunta el miembro **lpszError** en la estructura a la que apunta **lpMAPIError**. Se puede establecer la siguiente marca:
+> Máscara de bits de las marcas usadas para designar el formato del texto al que apunta el miembro **lpszError** en la estructura señalada por **lpMAPIError**. Se puede establecer la siguiente marca:
     
 MAPI_UNICODE 
   
-> Las cadenas pasadas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas pasadas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
  **lpMAPIError**
   
@@ -70,19 +70,19 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Comentarios
 
-La **ERROR_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de información** de la estructura [de](notification.md) notificación. Cuando el **miembro**  de información de una estructura notification contiene una estructura **ERROR_NOTIFICATION,** el miembro **ulEventType** de la estructura **NOTIFICATION** se establece en _fnevCriticalError_.
+La **ERROR_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el **miembro info** de la estructura [NOTIFICATION.](notification.md) Cuando el **miembro info** de una estructura **NOTIFICATION** contiene una estructura **ERROR_NOTIFICATION,** el **miembro ulEventType** de la estructura **NOTIFICATION** se establece en  _fnevCriticalError_.
   
-El valor del **miembro cbEntryID** y **el miembro lpEntryID** puede ser NULL. 
+El valor del **miembro cbEntryID** y el **miembro lpEntryID** puede ser NULL. 
   
 Para obtener más información acerca de la notificación, consulte los temas descritos en la tabla siguiente.
   
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben administrar las notificaciones.  <br/> |
 |[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar **el método IMAPISupport** para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

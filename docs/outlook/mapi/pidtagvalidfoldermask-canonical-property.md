@@ -36,13 +36,13 @@ Contiene una máscara de bits de marcas que indican la validez de los identifica
    
 ## <a name="remarks"></a>Comentarios
 
-El identificador de entrada de una carpeta puede volverse no válido si un usuario elimina la carpeta o si el almacén de mensajes se daña.
+El identificador de entrada de una carpeta puede ser inválido si un usuario elimina la carpeta o si el almacén de mensajes se daña.
   
 Se pueden establecer una o varias de las siguientes marcas para la máscara de bits: 
   
 FOLDER_COMMON_VIEWS_VALID 
   
-> La carpeta de vistas comunes tiene un identificador de entrada válido. Vea **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
+> La carpeta vistas comunes tiene un identificador de entrada válido. Vea **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
     
 FOLDER_FINDER_VALID 
   
@@ -70,7 +70,7 @@ FOLDER_IPM_WASTEBASKET_VALID
     
 FOLDER_VIEWS_VALID 
   
-> La carpeta vistas tiene un identificador de entrada válido. Vea **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
+> La carpeta views tiene un identificador de entrada válido. Vea **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -84,13 +84,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -19,21 +19,21 @@ ms.locfileid: "33427446"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Una tabla de datos adjuntos contiene información sobre todos los objetos adjuntos asociados con un mensaje enviado o un mensaje en composición. 
+Una tabla de datos adjuntos contiene información sobre todos los objetos de datos adjuntos asociados con un mensaje enviado o un mensaje en composición. 
   
-Solo se incluyen en la tabla los datos adjuntos que se han guardado a través de una llamada al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje. Los proveedores de almacenamiento de mensajes implementan las tablas de datos adjuntos y las usan las aplicaciones cliente y los proveedores de transporte. 
+Solo los datos adjuntos que se han guardado a través de una llamada al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) del mensaje se incluyen en la tabla. Los proveedores de almacenes de mensajes implementan las tablas de datos adjuntos y las usan las aplicaciones cliente y los proveedores de transporte. 
   
 Se puede tener acceso a una tabla de datos adjuntos llamando a cualquiera de las siguientes opciones:
   
 - [IMessage::GetAttachmentTable](imessage-getattachmenttable.md)
     
-- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), solicitando la **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)).
+- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), solicitando la **propiedad PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)).
     
 Las tablas de datos adjuntos son dinámicas.
   
-Los proveedores de almacenamiento de mensajes no son necesarios para admitir la ordenación en sus tablas de datos adjuntos. Si no se admite la ordenación, la tabla debe presentarse en orden por posición **de representación,** la propiedad PR_RENDERING_POSITION ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
+Los proveedores de almacén de mensajes no son necesarios para admitir la ordenación en sus tablas de datos adjuntos. Si no se admite la ordenación, la tabla debe presentarse en orden mediante la posición de **representación,** la propiedad PR_RENDERING_POSITION ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
   
-Tampoco es necesario que los proveedores de almacenamiento de mensajes admitan restricciones en sus tablas de datos adjuntos. Los proveedores que no admiten restricciones devuelven MAPI_E_NO_SUPPORT de sus implementaciones de [IMAPITable::Restrict](imapitable-restrict.md) e [IMAPITable::FindRow](imapitable-findrow.md).
+Los proveedores de almacén de mensajes tampoco son necesarios para admitir restricciones en sus tablas de datos adjuntos. Los proveedores que no admiten restricciones devuelven MAPI_E_NO_SUPPORT de sus implementaciones de [IMAPITable::Restrict](imapitable-restrict.md) e [IMAPITable::FindRow](imapitable-findrow.md).
   
 Las tablas de datos adjuntos pueden ser pequeñas; solo hay cuatro columnas en el conjunto de columnas requerido:
   
@@ -45,21 +45,21 @@ Las tablas de datos adjuntos pueden ser pequeñas; solo hay cuatro columnas en e
     
 - **PR_RENDERING_POSITION**
     
- **PR_ATTACH_NUM** no estransmitible y contiene un valor para identificar de forma única los datos adjuntos dentro de un mensaje. Esta propiedad se usa a menudo como un índice en las filas de la tabla. **PR_ATTACH_NUM** tiene una vida útil corta; solo es válido mientras el mensaje que contiene los datos adjuntos está abierto. Se garantiza que su valor permanezca constante mientras la tabla de datos adjuntos esté abierta. 
+ **PR_ATTACH_NUM** no es transmitible y contiene un valor para identificar de forma única los datos adjuntos de un mensaje. Esta propiedad suele usarse como índice en las filas de la tabla. **PR_ATTACH_NUM** tiene una vida útil corta; solo es válido mientras el mensaje que contiene los datos adjuntos está abierto. Se garantiza que su valor permanecerá constante mientras la tabla de datos adjuntos esté abierta. 
   
  **PR_INSTANCE_KEY** se requiere en casi todas las tablas. Se usa para identificar de forma única una fila determinada. 
   
- **PR_RECORD_KEY** se usa normalmente para identificar de forma única un objeto con fines de comparación. A **PR_ATTACH_NUM**, **PR_RECORD_KEY** tiene el mismo ámbito que un identificador de entrada a largo plazo; permanece disponible y válido incluso después de cerrar y volver a abrir el mensaje. Para obtener más información acerca del uso de claves de registro en MAPI, vea [Registro MAPI y Claves de búsqueda.](mapi-record-and-search-keys.md)
+ **PR_RECORD_KEY** se usa normalmente para identificar de forma única un objeto con fines de comparación. A **PR_ATTACH_NUM**, **PR_RECORD_KEY** tiene el mismo ámbito que un identificador de entrada a largo plazo; permanece disponible y válido incluso después de cerrar y volver a abrir el mensaje. Para obtener más información sobre el uso de claves de registro en MAPI, vea [Mapi Record and Search Keys](mapi-record-and-search-keys.md).
   
- **PR_RENDERING_POSITION** indica cómo se deben mostrar los datos adjuntos en un mensaje de texto enriquecido. Se puede establecer en un desplazamiento en caracteres, con el primer carácter del contenido del mensaje almacenado en la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) con el desplazamiento 0, o en -1 (0xFFFFFFFF), lo que indica que los datos adjuntos no deben representarse en el texto del mensaje. No establecer **PR_RENDERING_POSITION** también es una opción. 
+ **PR_RENDERING_POSITION** indica cómo se debe mostrar un dato adjunto en un mensaje de texto enriquecido. Se puede establecer en un desplazamiento en caracteres, con el primer carácter del contenido del mensaje almacenado en la propiedad **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) que se desplaza 0, o en -1 (0xFFFFFFFF), lo que indica que los datos adjuntos no deben representarse en el texto del mensaje en absoluto. No establecer **PR_RENDERING_POSITION** también es una opción. 
   
-Cuando una tabla de datos adjuntos se ordena por posición de representación, el proveedor del almacén de mensajes la trata como un valor firmado (PT_LONG). Por lo tanto, los datos adjuntos con posiciones de representación de -1 se ordenan antes que los datos adjuntos con posiciones de representación que reflejan desplazamientos válidos. 
+Cuando una tabla de datos adjuntos se ordena por posición de representación, el proveedor del almacén de mensajes la trata como un valor firmado (PT_LONG). Por lo tanto, los datos adjuntos con posiciones de representación de -1 se ordenan antes que los datos adjuntos con posiciones de representación que reflejen desplazamientos válidos. 
   
-Para obtener más información acerca de la representación de datos adjuntos en un mensaje de texto sin formato, vea Representación de [datos adjuntos en texto sin formato.](rendering-an-attachment-in-plain-text.md) 
+Para obtener más información acerca de la representación de datos adjuntos en un mensaje de texto sin formato, vea [Rendering an Attachment in Plain Text](rendering-an-attachment-in-plain-text.md). 
   
-Para obtener información acerca de la representación de datos adjuntos en texto con formato, como formato de texto enriquecido (RTF), vea Representación de datos adjuntos [en texto RTF](rendering-an-attachment-in-rtf-text.md).
+Para obtener información sobre la representación de datos adjuntos en texto con formato, como formato de texto enriquecido (RTF), vea [Rendering an Attachment in RTF Text](rendering-an-attachment-in-rtf-text.md).
   
-Algunos de los proveedores de almacenamiento de mensajes de propiedades que normalmente se incluyen en una tabla de datos adjuntos porque son fáciles de calcular o recuperar son:
+Algunas de las propiedades que los proveedores de almacén de mensajes normalmente incluyen en una tabla de datos adjuntos porque son fáciles de calcular o recuperar son:
   
 |||
 |:-----|:-----|
@@ -70,7 +70,7 @@ Algunos de los proveedores de almacenamiento de mensajes de propiedades que norm
 |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md))  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Tablas MAPI](mapi-tables.md)
 

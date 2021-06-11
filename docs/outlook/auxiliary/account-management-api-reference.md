@@ -1,5 +1,5 @@
 ---
-title: Referencia de API de administración de cuentas
+title: Referencia de api de administración de cuentas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427692"
 ---
-# <a name="account-management-api-reference"></a>Referencia de API de administración de cuentas
+# <a name="account-management-api-reference"></a>Referencia de api de administración de cuentas
 
-En esta sección se proporciona contenido de referencia para la API de administración de cuentas, que proporciona acceso a la información de la cuenta, admite notificaciones de cambios de cuenta, la protección de cuentas contra correo no deseado y la administración de descargas de mensajes para cuentas POP3.
+En esta sección se proporciona contenido de referencia para la API de administración de cuentas, que proporciona acceso a la información de la cuenta, admite notificaciones de cambios de cuentas, protege las cuentas contra correo no deseado y administra las descargas de mensajes para cuentas POP3.
 
 
 - [Constants](constants-account-management-api.md)

@@ -21,19 +21,19 @@ ms.locfileid: "33425935"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los implementadores de servidores de formulario deben esperar la siguiente secuencia de llamadas de método a su servidor de formulario y objetos de formulario cuando una aplicación cliente carga un mensaje:
+Los implementadores del servidor de formularios deben esperar la siguiente secuencia de llamadas de método a su servidor de formulario y objetos de formulario cuando una aplicación cliente carga un mensaje:
   
 1. La aplicación cliente abre el administrador de formularios con una llamada a la [función MAPIOpenFormMgr.](mapiopenformmgr.md) 
     
-2. La aplicación cliente llama al [método IMAPIFormMgr::LoadForm,](imapiformmgr-loadform.md) que devuelve un objeto [con IMAPIForm](imapiformiunknown.md). El administrador de formularios puede publicarse ahora si no se usará para otras activaciones de formularios. Tenga en cuenta que una llamada **a LoadForm** puede tardar algún tiempo porque es posible que el administrador de formularios tenga que instalar los archivos ejecutables del servidor de formularios antes de continuar. 
+2. La aplicación cliente llama al [método IMAPIFormMgr::LoadForm,](imapiformmgr-loadform.md) que devuelve un objeto [con IMAPIForm](imapiformiunknown.md). El administrador de formularios puede publicarse ahora si no se usará para otras activaciones de formulario. Tenga en cuenta que una llamada **a LoadForm** puede tardar algún tiempo porque es posible que el administrador de formularios tenga que instalar los archivos ejecutables del servidor de formularios antes de continuar. 
     
 3. Opcionalmente, la aplicación cliente puede preparar [IMAPIViewContext](imapiviewcontextiunknown.md) para controlar las operaciones que pueden hacer que el objeto de formulario cargue el mensaje anterior o siguiente en la carpeta. La aplicación cliente puede usar el método [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) para cambiar el contexto de vista predeterminado que se estableció en la **llamada LoadForm.** 
     
-4. La aplicación cliente llama al [método IPersistMessage::Load](ipersistmessage-load.md) para cargar datos de mensajes en el objeto de formulario. 
+4. La aplicación cliente llama al [método IPersistMessage::Load](ipersistmessage-load.md) para cargar los datos del mensaje en el objeto de formulario. 
     
-5. La aplicación cliente llama a [IMAPIForm::D oVerb](imapiform-doverb.md) para invocar el verbo abierto, pasando el puntero opcional de la interfaz [IMAPIViewContext.](imapiviewcontextiunknown.md) 
+5. La aplicación cliente llama [a IMAPIForm::D oVerb](imapiform-doverb.md) para invocar el verbo abierto, pasando el puntero de interfaz [IMAPIViewContext](imapiviewcontextiunknown.md) opcional. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

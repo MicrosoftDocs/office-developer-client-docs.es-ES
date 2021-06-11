@@ -36,23 +36,23 @@ Prueba dos [estructuras MAPIUID](mapiuid.md) para determinar si contienen el mis
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpuid1_
   
-> Puntero a la primera **estructura MAPIUID** que se probará. 
+> Puntero a la primera estructura **MAPIUID** que se va a probar. 
     
  _lpuid2_
   
-> Puntero a la segunda **estructura MAPIUID** que se va a probar. 
+> Puntero a la segunda estructura **MAPIUID** que se va a probar. 
     
 ## <a name="remarks"></a>Comentarios
 
-La **macro IsEqualMAPIUID** devuelve TRUE si las dos estructuras **MAPIUID** contienen el mismo identificador y FALSE si no lo contienen. 
+La **macro IsEqualMAPIUID** devuelve TRUE si las dos estructuras **MAPIUID** contienen el mismo identificador y FALSE si no lo hacen. 
   
 La **macro IsEqualMAPIUID** requiere que se incluya el archivo de encabezado Memory.h. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

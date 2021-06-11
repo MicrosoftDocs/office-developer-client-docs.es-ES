@@ -22,19 +22,19 @@ ms.locfileid: "33430591"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Devuelve la ruta de acceso completa y el nombre de archivo de la DLL en forma de cadena.
+Devuelve la ruta de acceso completa y el nombre del archivo DLL en forma de cadena.
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 Esta función no tiene argumentos.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Devuelve la ruta de acceso y el nombre de archivo (**xltypeStr**). 
+Devuelve la ruta de acceso y el nombre del archivo (**xltypeStr**). 
   
 ## <a name="example"></a>Ejemplo
 

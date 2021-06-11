@@ -44,11 +44,11 @@ HRESULT ValidateParameters(
 
  _eMethod_
   
-> [entrada] Especifica, por enumeración, el método que se debe validar. 
+> [in] Especifica, por enumeración, el método que se debe validar. 
     
  _Primero_
   
-> [entrada] Puntero al primer argumento de la pila.
+> [in] Puntero al primer argumento de la pila.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,6 +62,6 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Comentarios
 
-La macro **ValidateParameters** ha sido reemplazada por la macro [ValidateParms.](validateparms.md) **ValidateParameters** no funciona correctamente en plataformas RISC y ahora no se puede compilar en ellas. Sigue compilando y funciona correctamente en plataformas Intel, pero se recomienda **ValidateParms** en todas las plataformas. 
+La **macro ValidateParameters** ha sido reemplazada por la macro [ValidateParms.](validateparms.md) **ValidateParameters** no funciona correctamente en plataformas RISC y ahora no se puede compilar en ellas. Sigue compilando y funciona correctamente en plataformas Intel, pero se recomienda **ValidateParms** en todas las plataformas. 
   
 

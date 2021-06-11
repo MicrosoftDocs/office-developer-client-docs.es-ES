@@ -131,7 +131,7 @@ Si tiene que quitar un formulario de plena confianza, puede usar el método **Un
 
 ### <a name="digitally-signing-a-form-template-to-create-a-fully-trusted-form"></a>Firmar digitalmente una plantilla de formulario para crear un formulario de plena confianza
 
-Firmar digitalmente una plantilla de formulario permite implementar una plantilla de formulario de plena confianza por correo electrónico o en un servidor web, como un servidor que ejecuta Microsoft SharePoint Foundation. Realice los pasos de los tres procedimientos siguientes para crear un formulario de plena confianza mediante la especificación de plena confianza para el formulario, la estampación de una firma digital en él y, a continuación, su publicación.
+La firma digital de una plantilla de formulario permite implementar una plantilla de formulario de plena confianza por correo electrónico o en un servidor web, como un servidor que ejecuta Microsoft SharePoint Foundation. Realice los pasos de los tres procedimientos siguientes para crear un formulario de plena confianza mediante la especificación de plena confianza para el formulario, la estampación de una firma digital en él y, a continuación, su publicación.
   
 #### <a name="to-digitally-sign-a-form-template"></a>Para firmar digitalmente una plantilla de formulario
 

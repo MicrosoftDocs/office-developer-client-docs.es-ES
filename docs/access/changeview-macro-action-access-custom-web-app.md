@@ -5,7 +5,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7eb20f21-0218-4a2c-9bbc-90218a1e87bc
-description: Puedes usar la acción ChangeView para navegar entre vistas en su lugar.
+description: Puede usar la acción ChangeView para navegar entre las vistas en su lugar.
 ms.openlocfilehash: 0c1e27c264a826d38ec2efbd5be9bc6237ad7437
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,14 +15,14 @@ ms.locfileid: "33425361"
 ---
 # <a name="changeview-macro-action-access-custom-web-app"></a>Acción de macro ChangeView (aplicación web personalizada de Access)
 
-Puedes usar la acción **ChangeView** para navegar entre vistas en su lugar. 
+Puede usar la acción **ChangeView** para navegar entre las vistas en su lugar. 
   
 > [!IMPORTANT]
 > Microsoft ya no recomienda crear ni usar aplicaciones web de Access en SharePoint. Como alternativa, considere la posibilidad de usar [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) para crear soluciones empresariales sin código para la Web y dispositivos móviles. 
   
 ## <a name="setting"></a>Configuración
 
-La **acción ChangeView** tiene los siguientes argumentos. 
+La **acción ChangeView** tiene los argumentos siguientes. 
   
 |**Argumento de la acción**|**Obligatorio**|**Descripción**|
 |:-----|:-----|:-----|
@@ -33,10 +33,10 @@ La **acción ChangeView** tiene los siguientes argumentos.
    
 ## <a name="remarks"></a>Comentarios
 
-Cualquier ordenación o filtrado aplicado por el usuario se borra cuando se llama a la acción **ChangeView.** 
+Cualquier ordenación o filtrado aplicado por el usuario se borra cuando se llama a la **acción ChangeView.** 
   
 El  *argumento OrderBy*  es el nombre del campo o campos en los que desea ordenar los registros. Si usa más de un nombre de campo, separe los nombres con una coma (,). 
   
-Cuando se establece el  *argumento OrderBy,*  los registros se ordenan de forma predeterminada en orden ascendente. 
+Al establecer el argumento  *OrderBy,*  los registros se ordenan de forma predeterminada en orden ascendente. 
   
 

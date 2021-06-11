@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251437
 localization_priority: Normal
 ms.assetid: 2a21d6f9-bad6-92ab-6d36-477bcb9d7f17
-description: Devuelve un entero, de 0 a 23, que representa la hora del día de la fecha y hora o la expresión.
+description: Devuelve un número entero, de 0 a 23, que representa la hora del día de fecha y hora o expresión.
 ms.openlocfilehash: 1d0c6ec2bd80605401f44d2a5ef6e3d41bc72556
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33429638"
 ---
 # <a name="hour-function-visioshapesheet"></a>Función HOUR (VisioShapeSheet)
 
-Devuelve un entero, de 0 a 23, que representa la hora del día de  _la fecha y hora_ o la  _expresión_.
+Devuelve un entero, de 0 a 23, que representa la hora del día de  _datetime_ o  _expresión_.
   
 ## <a name="syntax"></a>Sintaxis
 
-HOUR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+HOUR(" ** *datetime* ** "| ** *expresión* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Parámetros
 
@@ -34,9 +34,9 @@ HOUR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
    
 ## <a name="remarks"></a>Comentarios
 
-Se descarta el componente de  *fecha y*  hora  *y la*  expresión. 
+El componente date en  *datetime*  y  *expresión*  se descarta. 
   
-No se realiza redondeo. Si falta  *la fecha y*  hora o no se puede convertir en un resultado válido, la función devuelve un error. 
+No se realiza redondeo. Si falta  *la fecha y hora*  o no se puede convertir en un resultado válido, la función devuelve un error. 
   
 El formato del valor devuelto corresponde al estilo de hora establecido en la configuración regional actual del sistema. 
   
@@ -62,7 +62,7 @@ Devuelve 12.
   
 ## <a name="example-4"></a>Ejemplo 4
 
-HOUR("30/5/1997")
+HOUR("5/30/1997")
   
 Devuelve 0.
   

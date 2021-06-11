@@ -36,7 +36,7 @@ Contiene la [estructura MAPIUID](mapiuid.md) de un servicio de mensajes.
    
 ## <a name="remarks"></a>Comentarios
 
-MAPI calcula esta propiedad en objetos de sección de perfil. MAPI lo usa para agrupar todos los proveedores que pertenecen al mismo servicio de mensajes. Esta propiedad se proporciona como un parámetro para la mayoría de los [métodos IMsgServiceAdmin.](imsgserviceadminiunknown.md) No debe aparecer en Mapisvc.inf. 
+Mapi calcula esta propiedad en objetos de sección de perfil. MAPI lo usa para agrupar todos los proveedores que pertenecen al mismo servicio de mensajes. Esta propiedad se proporciona como parámetro a la mayoría de los [métodos IMsgServiceAdmin.](imsgserviceadminiunknown.md) No debe aparecer en Mapisvc.inf. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

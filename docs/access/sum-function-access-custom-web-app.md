@@ -29,7 +29,7 @@ La **función Sum** contiene el argumento siguiente.
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Expresión que identifica el campo que contiene los datos numéricos que desea agregar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de  *NumericExpression*  pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de SQL agregado).  <br/> |
+| *NumericExpression*  <br/> |Expresión que identifica el campo que contiene los datos numéricos que desea agregar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de *NumericExpression* pueden incluir el nombre de un campo de tabla, una constante o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones SQL agregado).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

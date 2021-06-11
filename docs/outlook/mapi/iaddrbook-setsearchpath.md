@@ -34,7 +34,7 @@ HRESULT SetSearchPath(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT SetSearchPath(
     
  _lpSearchPath_
   
-> [entrada] Puntero a la estructura [SRowSet](srowset.md) usada para contener la ruta de búsqueda. La primera propiedad de cada **miembro de aRow** en **SRowSet** debe ser **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+> [in] Puntero a la [estructura SRowSet](srowset.md) usada para contener la ruta de búsqueda. La primera propiedad para cada **miembro de aRow** en **SRowSet** debe ser **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -56,11 +56,11 @@ MAPI_E_MISSING_REQUIRED_COLUMN
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes y proveedores de servicios llaman al método **SetSearchPath** para guardar los cambios realizados en el orden de búsqueda de contenedor que se usa para resolver nombres con el método [IAddrBook::ResolveName.](iaddrbook-resolvename.md) La ruta de búsqueda se guarda entre instancias de una sesión. 
+Los clientes y proveedores de servicios llaman al **método SetSearchPath** para guardar los cambios realizados en el orden de búsqueda del contenedor que se usa para resolver nombres con el método [IAddrBook::ResolveName.](iaddrbook-resolvename.md) La ruta de búsqueda se guarda entre instancias de una sesión. 
   
 Los clientes y proveedores no tienen que llamar al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) para que la ruta de búsqueda cambie de forma permanente. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -25,6 +25,6 @@ ms.locfileid: "33428931"
     
 - [Si... A continuación... Bloque de macros Else (aplicación web personalizada de Access)](ifthenelse-macro-block-access-custom-web-app.md)
     
-- [Bloque de macros de grupo (aplicación web personalizada de Access)](group-macro-block-access-custom-web-app.md)
+- [Bloque de macro de grupo (aplicación web personalizada de Access)](group-macro-block-access-custom-web-app.md)
     
 

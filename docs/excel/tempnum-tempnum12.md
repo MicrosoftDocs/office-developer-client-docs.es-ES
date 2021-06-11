@@ -8,7 +8,7 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- función tempnum12 [excel 2007],Función TempNum [Excel 2007]
+- función tempnum12 [excel 2007], función TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,18 +23,18 @@ ms.locfileid: "33426635"
 
  **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Función de biblioteca de marcos que crea un **XLOPER** /  **XLOPER12** temporal que contiene un número de hoja de cálculo de Microsoft Excel (doble IEEE de 8 bytes). 
+Función de biblioteca de marcos que crea un /  **XLOPER XLOPER12** temporal que contiene un número Microsoft Excel hoja de cálculo (un número de hoja de cálculo ieee de 8 bytes). 
   
 ```cs
 LPXLOPER TempNum(double d);
 LPXLOPER12 TempNum12(double d);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _d_ (**double**)
   
-El valor previsto. Tenga en cuenta que los números sub normales ieee no se admiten actualmente y se redondea a cero. Se admite el infinito negativo.
+El valor previsto. Tenga en cuenta que los números sub normales de IEEE no se admiten actualmente y se redondea a cero. Se admite infinito negativo.
   
 ## <a name="return-value"></a>Valor devuelto
 
@@ -42,7 +42,7 @@ Devuelve un **xltypeNum numérico** que contiene el valor pasado o cero si el va
   
 ## <a name="example"></a>Ejemplo
 
-En este ejemplo se **usa la función TempNum12** para pasar un argumento a **xlfGetWorkspace**.
+En este ejemplo se usa **la función TempNum12** para pasar un argumento a **xlfGetWorkspace**.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,7 +56,7 @@ short WINAPI TempNumExample(void)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

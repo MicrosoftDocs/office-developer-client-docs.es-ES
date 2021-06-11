@@ -29,10 +29,10 @@ La **función Log10** contiene el argumento siguiente.
   
 |**Nombre de argumento**|**Descripción**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Número positivo para el que quieres el logaritmo base 10.  <br/> |
+| *NumericExpression*  <br/> |El número positivo para el que desea el logaritmo base-10.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La **función Log** te permite cambiar la base del logaritmo, en lugar de usar la base 10. 
+La **función Log** permite cambiar la base del logaritmo, en lugar de usar la base 10. 
   
 

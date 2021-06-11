@@ -32,11 +32,11 @@ Contiene la subcategoría de un formulario, definida por una aplicación cliente
 |Propiedades asociadas:  <br/> |PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W  <br/> |
 |Identificador:  <br/> |0x3305  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Área:  <br/> |Mapi común  <br/> |
+|Área:  <br/> |MAPI común  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades están subordinadas a la categoría de formulario principal que se proporciona en **la PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
+Estas propiedades están subordinadas a la categoría de formulario principal que se proporciona en **la propiedad PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,13 +50,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

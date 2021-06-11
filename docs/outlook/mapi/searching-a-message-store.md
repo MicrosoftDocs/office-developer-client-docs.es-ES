@@ -19,30 +19,30 @@ ms.locfileid: "33426040"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las aplicaciones cliente pueden buscar en una o más carpetas mensajes que coincidan con los criterios de búsqueda. La técnica de búsqueda más sencilla implica aplicar una restricción para definir criterios y colocar los resultados en una carpeta de resultados de búsqueda, creada explícitamente para esta búsqueda o para una búsqueda anterior. No todos los almacenes de mensajes admiten esta técnica. 
+Las aplicaciones cliente pueden buscar a través de una o más carpetas en busca de mensajes que coincidan con los criterios de búsqueda. La técnica de búsqueda más sencilla consiste en aplicar una restricción para definir criterios y colocar los resultados en una carpeta de resultados de búsqueda, creada explícitamente para esta búsqueda o para una búsqueda anterior. No todos los almacenes de mensajes admiten esta técnica. 
 
-Para determinar si el almacén de mensajes que está usando admite el uso de carpetas de resultados de búsqueda, llame a su método [IMAPIProp::GetProps](imapiprop-getprops.md) para recuperar la propiedad **PR \_ STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). Si se STORE_SEARCH_OK marca, se admite la búsqueda. Si no se establece, necesitará un enfoque alternativo, como inspeccionar manualmente las carpetas de destino.
+Para determinar si el almacén de mensajes que está usando admite el uso de carpetas de resultados de búsqueda, llame a su [método IMAPIProp::GetProps](imapiprop-getprops.md) para recuperar la propiedad **PR \_ STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). Si se STORE_SEARCH_OK marca, se admite la búsqueda. Si no está establecido, necesitará un enfoque alternativo, como inspeccionar manualmente las carpetas de destino.
   
 ### <a name="to-search-one-or-more-folders-in-a-message-store"></a>Para buscar una o más carpetas en un almacén de mensajes
   
-1. Si tiene una carpeta de resultados de búsqueda de una búsqueda anterior, vaya directamente al paso 2. De lo contrario, para crear una carpeta de resultados de búsqueda:
+1. Si tiene una carpeta de resultados de búsqueda de una búsqueda anterior, vaya al paso 2. De lo contrario, para crear una carpeta de resultados de búsqueda:
     
     1. Recupere el identificador de entrada de la carpeta raíz de resultados de búsqueda llamando al método [IMAPIProp::GetProps](imapiprop-getprops.md) del almacén de mensajes y solicitando PR_FINDER_ENTRYID **(** [PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)).
         
-    2. Llame [a IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir la carpeta representada por PR_FINDER_ENTRYID. 
+    2. Llama [a IMsgStore::OpenEntry](imsgstore-openentry.md) para abrir la carpeta representada por PR_FINDER_ENTRYID. 
         
-    3. Llame al método [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) de la carpeta para crear una carpeta de resultados de búsqueda con el FOLDER_SEARCH marca establecida. 
+    3. Llame al método [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) de la carpeta para crear una carpeta de resultados de búsqueda con el FOLDER_SEARCH marca. 
     
-2. Crear una restricción para contener los criterios de búsqueda. 
+2. Crea una restricción para contener los criterios de búsqueda. 
     
-3. Cree una matriz de identificadores de entrada que representen las carpetas en las que buscar. Este paso no es necesario si la carpeta de resultados de búsqueda se ha usado antes y desea buscar en las mismas carpetas.
+3. Cree una matriz de identificadores de entrada que representen las carpetas que se buscarán. Este paso no es necesario si la carpeta de resultados de búsqueda se ha usado antes y desea buscar en las mismas carpetas.
     
-4. Llama al método [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) de la carpeta de resultados de búsqueda,  _apuntando lpContainerList_ a la matriz del identificador de entrada y  _lpRestriction_ a la restricción. 
+4. Llame al método [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) de la carpeta de resultados de búsqueda y señale  _lpContainerList_ a la matriz de identificadores de entrada y  _lpRestriction_ a la restricción. 
     
-5. Si se ha registrado para recibir notificaciones completas de búsqueda con el almacén de mensajes, espere a que llegue la notificación.
+5. Si se ha registrado para las notificaciones completas de búsqueda con el almacén de mensajes, espere a que llegue la notificación.
     
 6. Para ver los resultados de la búsqueda, llame al método [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) de la carpeta de resultados de búsqueda para obtener acceso a su tabla de contenido. 
     
-7. Llame al método [IMAPITable::QueryRows](imapitable-queryrows.md) de la tabla de contenido para recuperar los mensajes que cumplen los criterios de búsqueda. 
+7. Llame al método [IMAPITable::QueryRows](imapitable-queryrows.md) de la tabla de contenido para recuperar los mensajes que satisfacen los criterios de búsqueda. 
     
 

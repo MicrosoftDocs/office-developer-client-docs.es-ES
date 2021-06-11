@@ -22,7 +22,7 @@ Combina dos expresiones booleanas y devuelve TRUE cuando ambas expresiones son T
   
 ## <a name="syntax"></a>Sintaxis
 
- *boolean_expression* **Y** *boolean_expression* 
+ *boolean_expression* **AND** *boolean_expression* 
   
 ## <a name="return-value"></a>Valor devuelto
 

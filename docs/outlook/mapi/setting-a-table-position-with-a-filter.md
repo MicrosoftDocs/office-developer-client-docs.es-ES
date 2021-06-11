@@ -21,13 +21,13 @@ ms.locfileid: "33425473"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Los usuarios de la tabla pueden mover el cursor a una fila que coincida con un conjunto de criterios de filtro. Los filtros pueden basarse en una variedad de directrices, como valores de propiedad de columna, máscaras de bits o subobjetos. Los filtros se especifican en MAPI mediante una [estructura SRestriction.](srestriction.md) 
+Los usuarios de tabla pueden mover el cursor a una fila que coincida con un conjunto de criterios de filtro. Los filtros pueden basarse en una variedad de directrices, como valores de propiedad de columna, máscaras de bits o subobjetos. Los filtros se especifican en MAPI mediante una [estructura SRestriction.](srestriction.md) 
   
  **Para colocar una tabla en la primera fila que coincida con los criterios establecidos en una restricción**
   
-- Llame al [método IMAPITable::FindRow.](imapitable-findrow.md) Empezando por la fila representada por un marcador determinado, **FindRow** busca en dirección hacia delante o hacia atrás para buscar una fila que coincida con los criterios especificados en la restricción. **FindRow** puede ser útil para implementar una barra de desplazamiento basada en cadenas de caracteres, en lugar de valores fraccionados. Por ejemplo, un cliente puede llamar a la implementación de MAPI de **FindRow** al buscar en la libreta de direcciones integrada para permitir que un usuario, al escribir uno o más caracteres, busque el primer nombre que comienza con los caracteres especificados. 
+- Llame al [método IMAPITable::FindRow.](imapitable-findrow.md) A partir de la fila representada por un marcador determinado, **FindRow** busca en una dirección hacia delante o hacia atrás para buscar una fila que coincida con los criterios especificados en la restricción. **FindRow** puede ser útil para implementar una barra de desplazamiento basada en cadenas de caracteres, en lugar de valores fraccionados. Por ejemplo, un cliente puede llamar a la implementación de **FindRow** de MAPI al buscar en la libreta de direcciones integrada para permitir que un usuario, al escribir uno o varios caracteres, busque el primer nombre que comienza con los caracteres especificados. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

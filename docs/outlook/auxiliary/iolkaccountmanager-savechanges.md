@@ -29,11 +29,11 @@ HRESULT IOlkAccountManager::SaveChanges (
 ); 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _dwAcctID_
   
-> [entrada] El id. de cuenta que se guardará. 
+> [in] Id. de cuenta que se debe guardar. 
     
 _dwFlags_
   
@@ -43,15 +43,15 @@ _dwFlags_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |La llamada se ha realiza correctamente  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |No se encuentra la cuenta especificada.  <br/> |
+|S_OK  <br/> |La llamada se ha correctado  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |No se puede encontrar la cuenta especificada.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |No se ha inicializado el Administrador de cuentas para su uso.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Después de cambiar el valor de las propiedades de la cuenta mediante [IOlkAccount::SetProp](iolkaccount-setprop.md), use **IOlkAccountManager::SaveChanges** o [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) para guardar dichos cambios. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md) 
 - [IOlkAccount::SaveChanges](iolkaccount-savechanges.md)

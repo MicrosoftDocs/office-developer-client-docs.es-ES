@@ -25,7 +25,7 @@ ms.locfileid: "33428777"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si un perfil de usuario de mensajería es el perfil predeterminado de MAPI.
+Contiene TRUE si un perfil de usuario de mensajería es el perfil predeterminado mapi.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene TRUE si un perfil de usuario de mensajería es el perfil predeterminado
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad no aparece como una propiedad de ningún objeto, sino solo como una columna de una tabla de perfil. Una aplicación cliente puede usar el [método IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md) para designar el perfil predeterminado. 
+Esta propiedad no aparece como una propiedad de ningún objeto, sino solo como una columna en una tabla de perfil. Una aplicación cliente puede usar el [método IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md) para designar el perfil predeterminado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

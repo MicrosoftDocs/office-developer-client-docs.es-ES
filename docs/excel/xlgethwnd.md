@@ -22,32 +22,32 @@ ms.locfileid: "33425459"
 
 **Hace referencia a**: Excel 2013 | Office 2013 | Visual Studio 
   
-Devuelve el controlador de ventana de la ventana de Nivel superior de Microsoft Excel.
+Devuelve el identificador de ventana de la ventana de nivel Microsoft Excel superior.
   
 ```cs
 Excel4(xlGetHwnd, LPXLOPER pxRes, 0); /* returns low part only */
 Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 Esta función no tiene argumentos.
   
 ## <a name="property-valuereturn-value"></a>Valor de la propiedad/valor devuelto
 
-Contiene el controlador de ventana (**xltypeInt**) en el **campo val.w.** 
+Contiene el identificador de ventana (**xltypeInt**) en el **campo val.w.** 
   
 ## <a name="remarks"></a>Comentarios
 
-Esta función es útil para escribir código de la API de Windows.
+Esta función es útil para escribir Windows código api.
   
-Cuando se llama a esta función mediante [Excel4](excel4-excel12.md) o [Excel4v,](excel4v-excel12v.md)la variable de entero XLOPER devuelta es un int corto de 16 bits firmado. Esto solo es capaz de contener los 16 bits bajos del controlador de Windows de 32 bits. Para buscar la parte alta, el código debe recorrer en iteración todas las ventanas abiertas en busca de una coincidencia con la parte baja. A partir de Excel 2007, la variable entera de **XLOPER12** es un int de 32 bits firmado y, por lo tanto, contiene todo el controlador, lo que elimina la necesidad de iterar todas las ventanas abiertas. 
+Cuando se llama a esta función mediante [Excel4](excel4-excel12.md) o [Excel4v,](excel4v-excel12v.md)la variable de entero XLOPER devuelta es un int corto de 16 bits firmado. Esto solo es capaz de contener los 16 bits bajos del controlador de Windows de 32 bits. Para encontrar la parte alta, el código debe iterar por todas las ventanas abiertas en busca de una coincidencia con la parte baja. A partir de Excel 2007, la variable de entero de **XLOPER12** es un int de 32 bits firmado y, por lo tanto, contiene todo el controlador, lo que elimina la necesidad de iterar todas las ventanas abiertas. 
   
 ### <a name="example"></a>Ejemplo
 
 Vea el código de la [función fShowDialog](fshowdialog.md) en  `SAMPLES\GENERIC\GENERIC.C` .
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [xlGetInst](xlgetinst.md)
 - [Funciones de la API de C que se pueden llamar solo desde una DLL o XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

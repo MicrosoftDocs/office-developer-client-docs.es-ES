@@ -39,14 +39,14 @@ BOUNDINGBOXDIST(** *Index* ** )
   
 ## <a name="remarks"></a>Comentarios
 
- *El*  índice puede ser uno de los siguientes valores. 
+ *Index*  puede ser uno de los siguientes valores. 
   
 |**Elemento**|**Valor**|
 |:-----|:-----|
 |Width  <br/> |0  <br/> |
-|Height  <br/> |1   <br/> |
-|Borde izquierdo a eje de la forma  <br/> |2   <br/> |
-|Eje de la forma a borde derecho  <br/> |3   <br/> |
+|Height  <br/> |1  <br/> |
+|Borde izquierdo a eje de la forma  <br/> |2  <br/> |
+|Eje de la forma a borde derecho  <br/> |3  <br/> |
 |Eje de la forma a borde superior  <br/> |4   <br/> |
 |Borde inferior a eje de la forma  <br/> |5   <br/> |
 |Centro del cuadro de límite a EjeX  <br/> |6   <br/> |

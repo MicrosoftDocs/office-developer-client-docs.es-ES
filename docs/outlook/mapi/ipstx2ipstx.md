@@ -32,7 +32,7 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 |Proporcionado por  <br/> |Consulta en [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Identificador de interfaz:  <br/> |IID_IPSTX2  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ Esta interfaz proporciona funcionalidad auxiliar al realizar la replicación a t
 | *Miembro de marcador de posición*  <br/> | *No se admite ni se documenta.*  <br/> |
 |**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Establece el estado suspendido en la cola.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -21,7 +21,7 @@ ms.locfileid: "33426495"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el identificador de proceso del proceso que envía notificaciones al indizador acerca de los objetos listos para la indización.
+Contiene el identificador de proceso del proceso que envía notificaciones al indizador sobre objetos listos para la indización.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -32,6 +32,6 @@ Contiene el identificador de proceso del proceso que envía notificaciones al in
 |Identificador:  <br/> |0x3419  <br/> |
 |Tipo de propiedad:  <br/> |PT_LONG  <br/> |
 |Etiqueta de propiedad:  <br/> |0x34190003  <br/> |
-|Acceso:  <br/> |Solo lectura  <br/> |
+|Access:  <br/> |Solo lectura  <br/> |
    
 

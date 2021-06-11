@@ -38,31 +38,31 @@ HRESULT CreateOneOff(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpszName_
   
-> [entrada] Puntero al valor de la propiedad PR_DISPLAY_NAME **(** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) del destinatario. El  _parámetro lpszName_ puede ser NULL. 
+> [in] Puntero al valor de la propiedad PR_DISPLAY_NAME **(** [PidTagDisplayName](pidtagdisplayname-canonical-property.md)) del destinatario. El  _parámetro lpszName_ puede ser NULL. 
     
  _lpszAdrType_
   
-> [entrada] Puntero al tipo de dirección del destinatario, como FAX o SMTP. El  _parámetro lpszAdrType_ no puede ser NULL. 
+> [in] Puntero al tipo de dirección del destinatario, como FAX o SMTP. El  _parámetro lpszAdrType_ no puede ser NULL. 
     
  _lpszAddress_
   
-> [entrada] Puntero a la dirección del destinatario. El  _parámetro lpszAddress_ no puede ser NULL. 
+> [in] Puntero a la dirección del destinatario. El  _parámetro lpszAddress_ no puede ser NULL. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que afecta al destinatario de uso único. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que afecta al destinatario único. Se pueden establecer las siguientes marcas:
     
 MAPI_SEND_NO_RICH_INFO 
   
-> El destinatario no puede controlar el contenido del mensaje con formato. Si MAPI_SEND_NO_RICH_INFO se establece, MAPI establece la propiedad PR_SEND_RICH_INFO **del** destinatario ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) en FALSE. Si MAPI_SEND_NO_RICH_INFO no se establece, MAPI establece esta propiedad en TRUE a menos que la dirección de mensajería del destinatario a la que apunta  _lpszAddress_ se interprete como una dirección de Internet. En este caso, MAPI establece **PR_SEND_RICH_INFO** en FALSE. 
+> El destinatario no puede controlar el contenido del mensaje con formato. Si MAPI_SEND_NO_RICH_INFO se establece, MAPI establece la propiedad PR_SEND_RICH_INFO **del** destinatario ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) en FALSE. Si MAPI_SEND_NO_RICH_INFO no se establece, MAPI establece esta propiedad en TRUE a menos que la dirección de mensajería del destinatario señalada por  _lpszAddress_ se interprete como una dirección de Internet. En este caso, MAPI establece **PR_SEND_RICH_INFO** en FALSE. 
     
 MAPI_UNICODE 
   
-> El nombre para mostrar, el tipo de dirección y la dirección están en formato Unicode. Si no MAPI_UNICODE marca, estas cadenas están en formato ANSI.
+> El nombre para mostrar, el tipo de dirección y la dirección están en formato Unicode. Si la MAPI_UNICODE no está establecida, estas cadenas tienen el formato ANSI.
     
  _lpcbEntryID_
   
@@ -70,7 +70,7 @@ MAPI_UNICODE
     
  _lppEntryID_
   
-> [salida] Puntero a un puntero al identificador de entrada del destinatario de uso único.
+> [salida] Puntero a un puntero al identificador de entrada del destinatario único.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -80,13 +80,13 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Los clientes llaman al **método CreateOneOff** para crear un identificador de entrada para un destinatario de uso único, un destinatario que no pertenece a ninguno de los contenedores de ninguno de los proveedores de libretas de direcciones cargados actualmente. Los destinatarios de uso único pueden tener cualquier tipo de dirección compatible con uno de los proveedores de libretas de direcciones activas para la sesión. 
+Los clientes llaman al **método CreateOneOff** para crear un identificador de entrada para un destinatario único, un destinatario que no pertenece a ninguno de los contenedores de ninguno de los proveedores de libreta de direcciones cargados actualmente. Los destinatarios únicos pueden tener cualquier tipo de dirección que sea compatible con uno de los proveedores de libretas de direcciones activas para la sesión. 
   
-Los destinatarios de uso único suelen crearse con una plantilla para su tipo de dirección particular. El proveedor de libreta de direcciones que admite el tipo de dirección proporciona la plantilla. Un usuario de una aplicación cliente escribe la información relevante en la plantilla.
+Normalmente, los destinatarios únicos se crean con una plantilla para su tipo de dirección particular. El proveedor de libreta de direcciones que admite el tipo de dirección proporciona la plantilla. Un usuario de una aplicación cliente escribe la información relevante en la plantilla.
   
-MAPI admite cadenas de caracteres Unicode para el nombre para mostrar, el tipo de dirección y los parámetros de dirección **de CreateOneOff**.
+MAPI admite cadenas de caracteres Unicode para los parámetros de nombre para mostrar, tipo de dirección y dirección **de CreateOneOff**.
   
-La MAPI_SEND_NO_RICH_INFO marca controla si el texto con formato en formato de texto enriquecido (RTF) se envía junto con cada mensaje. La mayoría de los proveedores de transporte envían el formato de encapsulamiento neutro de transporte (TNEF), un formato que se usa para transmitir texto con formato, independientemente de cómo el destinatario establece su **propiedad PR_SEND_RICH_INFO** transporte. Esto no es un problema para los clientes de mensajería que trabajan con mensajes interpersonales. Sin embargo, dado que TNEF se usa normalmente para enviar propiedades personalizadas para clases de mensajes personalizadas, no admitirlo puede ser un problema para clientes basados en formularios o clientes que requieren propiedades MAPI personalizadas. Para obtener más información, vea [Enviar mensajes con TNEF](sending-messages-with-tnef.md).
+La MAPI_SEND_NO_RICH_INFO controla si el texto con formato en formato de texto enriquecido (RTF) se envía junto con cada mensaje. La mayoría de los proveedores de transporte envían el formato de encapsulación neutro de transporte (TNEF), un formato que se usa para transmitir texto con formato, independientemente de cómo el destinatario establece su **propiedad PR_SEND_RICH_INFO** transporte. Este no es un problema para los clientes de mensajería que trabajan con mensajes interpersonales. Sin embargo, como TNEF se usa normalmente para enviar propiedades personalizadas para clases de mensajes personalizadas, no admitirlo puede ser un problema para clientes basados en formularios o clientes que requieren propiedades MAPI personalizadas. Para obtener más información, vea [Sending Messages with TNEF](sending-messages-with-tnef.md).
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -96,7 +96,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |Mapiabfunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI usa el **método CreateOneOff** para crear un identificador de entrada para una dirección que no se encuentra en ninguna libreta de direcciones.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

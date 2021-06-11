@@ -39,11 +39,11 @@ typedef struct
 } MAPIOFFLINE_CREATEINFO;
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **ulSize**
   
-> Tamaño de la estructura.
+> El tamaño de la estructura.
     
  **ulCreateFlags**
   
@@ -64,7 +64,7 @@ typedef struct
    
  **pGUID**
   
-> Puntero a un GUID que se usa para identificar de forma única este tipo de objeto sin conexión de otros objetos sin conexión. GUID_GlobalState hace referencia al objeto sin conexión global que los objetos pueden usar como objeto primario.
+> Puntero a un GUID que se usa para identificar de forma única este tipo de objeto sin conexión desde otros objetos sin conexión. GUID_GlobalState hace referencia al objeto sin conexión global que los objetos pueden usar como objeto primario.
     
  **pInstance**
   
@@ -72,21 +72,21 @@ typedef struct
     
  **pParent**
   
-> Puntero al objeto sin conexión que es el elemento principal de este objeto sin conexión y cuyos cambios heredará este objeto sin conexión.
+> Puntero al objeto sin conexión que es el elemento primario de este objeto sin conexión y cuyos cambios heredará este objeto sin conexión.
     
  **pMAPISupport**
   
->  Identifica el objeto de compatibilidad mapi que usará este objeto sin conexión. Por ejemplo, si este objeto sin conexión se usa para realizar un seguimiento del estado sin conexión y en línea de un almacén, este es el objeto de soporte de almacenes. Sin embargo, si se trata de un objeto sin conexión para un objeto sin compatibilidad, puede ser NULL. 
+>  Identifica el objeto de soporte técnico MAPI que usará este objeto sin conexión. Por ejemplo, si este objeto sin conexión se usa para realizar un seguimiento del estado sin conexión y en línea de un almacén, este es el objeto de soporte de almacenes. Sin embargo, si se trata de un objeto sin conexión para un objeto sin ningún objeto de soporte, puede ser NULL. 
     
  **pAggregateInfo**
   
-> Puntero a una estructura MAPIOFFLINE_AGGREGATEINFO datos. Para obtener más información, [vea MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).
+> Puntero a una MAPIOFFLINE_AGGREGATEINFO estructura. Para obtener más información, [vea MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).
     
  **pConnectInfo**
   
 > Debe ser null.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

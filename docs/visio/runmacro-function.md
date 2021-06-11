@@ -33,9 +33,9 @@ RUNMACRO (** *macroname* ** [, ** *projname_opt* ** ])
    
 ## <a name="remarks"></a>Comentarios
 
-Si se especifica un proyecto, Microsoft Visio examina todos los documentos abiertos para el que  _projname_opt_ y llama a  _macroname_ en ese proyecto. Si  _projname_opt_ se omite o es null (""), se supone que  _macroname_ está en el proyecto VBA del documento que contiene la fórmula RUNMACRO que se está evaluando. 
+Si se especifica un proyecto, Microsoft Visio examina todos los documentos abiertos para el que _contiene projname_opt_ y llama _a macroname_ en ese proyecto. Si  _projname_opt_ se omite o null (""), se supone que  _macroname_ está en el proyecto VBA del documento que contiene la fórmula RUNMACRO que se está evaluando. 
   
-La función RUNMACRO difiere de la función CALLTHIS en que no pasa una referencia a la forma propietaria de la fórmula que se evalúa como  _nombreMacro_. Al igual que CALLTHIS, la función RUNMACRO no requiere una referencia a  _projname_opt_ llamar a ella. 
+La función RUNMACRO difiere de la función CALLTHIS en que no pasa una referencia a la forma propietaria de la fórmula que se evalúa como  _macroname_. Al igual que CALLTHIS, la función RUNMACRO no requiere una referencia a  _projname_opt_ llamar a ella. 
   
  El código VBA que se invoca cuando una copia de Visio evalúa una función RUNMACRO que forma parte de una fórmula no debe cerrar el documento que contiene la celda que utiliza la función, ya que, de hacerlo, se producirá un error de aplicación y la ejecución de Visio se terminará. 
   

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251433
 localization_priority: Normal
 ms.assetid: db80f147-71a0-0b23-bc7e-fe1915dfdd21
-description: Calcula el ángulo correcto de rotación de un bloque de texto para el giro de la forma indicada para evitar que el texto se desenlameja.
+description: Calcula el ángulo de giro correcto de un bloque de texto para el giro de la forma indicada para evitar que el texto se desenlame.
 ms.openlocfilehash: 77c944d954292e231f8bacbe3c8a4433aad5d689
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33429288"
 ---
 # <a name="gravity-function"></a>Función GRAVITY
 
-Calcula el ángulo correcto de rotación de un bloque de texto para el giro de la forma indicada para evitar que el texto se desenlameja.
+Calcula el ángulo de giro correcto de un bloque de texto para el giro de la forma indicada para evitar que el texto se desenlame.
   
 ## <a name="syntax"></a>Sintaxis
 
@@ -34,13 +34,13 @@ GRAVITY(** *angle* **,[ ** *limit1* ** ],[ ** *limit2* ** ])
    
 ### <a name="return-value"></a>Valor devuelto
 
-String
+Cadena
   
 ## <a name="remarks"></a>Comentarios
 
 La función GRAVITY se utiliza normalmente en la celda TxtAngle. 
   
-El valor devuelto es 180 grados si  _el ángulo_ está entre los valores especificados por  _limit1_ y  _limit2_; de lo contrario, el valor devuelto es 0 grados.
+El valor devuelto es 180 grados si  _el_ ángulo está entre los valores especificados por  _limit1_ y  _limit2_; de lo contrario, el valor devuelto es 0 grados.
   
 La función normaliza automáticamente todos los argumentos para que estén comprendidos entre 0 y 360 grados. Si en un argumento no se especifican las unidades, se supone que se trata de radianes. 
   

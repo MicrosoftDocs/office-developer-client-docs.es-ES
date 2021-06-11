@@ -34,11 +34,11 @@ Crea una estructura [SPropTagArray con](sproptagarray.md) nombre que incluye un 
 SizedSPropTagArray (_ctag, _name)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ _ctag_
   
-> Número de etiquetas de propiedad que se incluirán en la nueva estructura.
+> Recuento de etiquetas de propiedad que se incluirán en la nueva estructura.
     
 _ _name_
   
@@ -46,7 +46,7 @@ _ _name_
     
 ## <a name="remarks"></a>Comentarios
 
-Use la macro **SizedSPropTagArray** para crear una matriz de etiquetas de propiedades con límites explícitos. 
+Use la **macro SizedSPropTagArray** para crear una matriz de etiquetas de propiedades con límites explícitos. 
   
 Para usar la nueva estructura que resulta de la macro **SizedSPropTagArray** como puntero a una estructura **SPropTagArray,** realice la conversión siguiente: 
   
@@ -55,7 +55,7 @@ lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [SPropTagArray](sproptagarray.md)
 - [Macros relacionadas con estructuras](macros-related-to-structures.md)

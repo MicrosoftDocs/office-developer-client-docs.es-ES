@@ -25,7 +25,7 @@ ms.locfileid: "33426075"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Elimina uno o más mensajes.
+Elimina uno o varios mensajes.
   
 ```cpp
 HRESULT DeleteMessages(
@@ -36,23 +36,23 @@ HRESULT DeleteMessages(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMsgList_
   
-> [entrada] Puntero a una [estructura ENTRYLIST](entrylist.md) que contiene el número de mensajes que se deben eliminar y una matriz de estructuras [ENTRYID](entryid.md) que identifican los mensajes. 
+> [in] Puntero a una [estructura ENTRYLIST](entrylist.md) que contiene el número de mensajes que se deben eliminar y una matriz de estructuras [ENTRYID](entryid.md) que identifican los mensajes. 
     
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del indicador de progreso. El _parámetro ulUIParam_ se omite a menos que MESSAGE_DIALOG marca esté establecida en el _parámetro ulFlags._ 
+> [in] Identificador de la ventana principal del indicador de progreso. El _parámetro ulUIParam_ se omite a menos que MESSAGE_DIALOG marca esté establecida en _el parámetro ulFlags._ 
     
  _lpProgress_
   
-> [entrada] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El _parámetro lpProgress_ se omite a menos que MESSAGE_DIALOG marca esté establecida en el _parámetro ulFlags._ 
+> [in] Puntero a un objeto de progreso que muestra un indicador de progreso. Si se pasa NULL en  _lpProgress,_ el proveedor del almacén de mensajes muestra un indicador de progreso mediante la implementación del objeto de progreso MAPI. El _parámetro lpProgress_ se omite a menos que la marca MESSAGE_DIALOG se establezca en _el parámetro ulFlags._ 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se eliminan los mensajes. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se eliminan los mensajes. Se pueden establecer las siguientes marcas:
     
 DELETE_HARD_DELETE
   
@@ -70,7 +70,7 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> La llamada se ha realizado correctamente, pero no todos los mensajes se han eliminado correctamente. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
+> La llamada se ha realizado correctamente, pero no todos los mensajes se eliminaron correctamente. Cuando se devuelve esta advertencia, la llamada debe controlarse como correcta. Para probar esta advertencia, use la **HR_FAILED** macro. Para obtener más información, vea [Using Macros for Error Handling](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
@@ -78,7 +78,7 @@ El **método IMAPIFolder::D eleteMessages** elimina los mensajes de una carpeta.
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Cuando la operación de eliminación implica más de un mensaje, realice la operación lo más completa posible para cada carpeta, incluso si uno o varios de los mensajes no se pueden eliminar. No detenga la operación antes de tiempo a menos que se produzca un error que esté fuera de su control, como que se queme la memoria, que se esté quedando sin espacio en disco o que el almacén de mensajes esté dañado.
+Cuando la operación de eliminación implique más de un mensaje, realice la operación lo más completa posible para cada carpeta, incluso si uno o varios de los mensajes no se pueden eliminar. No detenga la operación prematuramente a menos que se produzca un error que esté fuera de su control, como que se esté quedando sin memoria, que se esté quedando sin espacio en disco o que se produzcan daños en el almacén de mensajes.
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
@@ -90,7 +90,7 @@ Espere estos valores devueltos en las siguientes condiciones.
 |**DeleteMessages** no pudo eliminar correctamente todos los mensajes y subcarpetas.  <br/> |MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND  <br/> |
 |**DeleteMessages** no se pudo completar.  <br/> |Cualquier valor de error excepto MAPI_E_NOT_FOUND  <br/> |
    
-Cuando **DeleteMessages** no se puede completar, no suponga que no se ha realizado ningún trabajo. **Es posible que DeleteMessages** haya podido eliminar uno o varios de los mensajes antes de encontrar el error. 
+Cuando **DeleteMessages** no se pueda completar, no suponga que no se ha realizado ningún trabajo. **Es posible que DeleteMessages** haya podido eliminar uno o varios de los mensajes antes de encontrar el error. 
   
  **DeleteMessages** devuelve MAPI_W_PARTIAL_COMPLETION o MAPI_E_NOT_FOUND, según la implementación del almacén de mensajes. 
   
@@ -102,7 +102,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnDeleteSelectedItem  <br/> |MFCMAPI usa el **método IMAPIFolder::D eleteMessages** para eliminar los mensajes especificados.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

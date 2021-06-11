@@ -36,23 +36,23 @@ LPENTRYID FAR * lppWrappedEntry
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _cbOrigEntry_
   
-> [entrada] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpOrigEntry._ 
+> [in] Recuento de bytes en el identificador de entrada al que apunta el _parámetro lpOrigEntry._ 
     
  _lpOrigEntry_
   
-> [entrada] Puntero al identificador de entrada privada para el almacén de mensajes.
+> [in] Puntero al identificador de entrada privada del almacén de mensajes.
     
  _lpcbWrappedEntry_
   
-> [salida] Puntero al recuento de bytes en el identificador de entrada al que apunta el parámetro _lppWrappedEntry._ 
+> [salida] Puntero al recuento de bytes en el identificador de entrada al que apunta el _parámetro lppWrappedEntry._ 
     
  _lppWrappedEntry_
   
-> [salida] Puntero a un puntero al identificador de entrada ajustado.
+> [salida] Puntero a un puntero al identificador de entrada ajustada.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -62,17 +62,17 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::WrapStoreEntryID** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios **usan WrapStoreEntryID para** que MAPI genere un identificador de entrada para un almacén de mensajes que ajuste el identificador de entrada interno del almacén. 
+El **método IMAPISupport::WrapStoreEntryID** se implementa para todos los objetos de soporte del proveedor de servicios. Los proveedores de servicios **usan WrapStoreEntryID para** que MAPI genere un identificador de entrada para un almacén de mensajes que encapsula el identificador de entrada interno del almacén. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Cuando un cliente llama al método [IMAPIProp::GetProps](imapiprop-getprops.md) del almacén de mensajes para recuperar su propiedad **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)), y el almacén de mensajes usa un identificador de entrada en formato privado, llame a **WrapStoreEntryID** y devuelva el identificador de entrada al que apunta el parámetro _lppWrappedEntry._ 
+Cuando un cliente llama al método [IMAPIProp::GetProps](imapiprop-getprops.md) del almacén de mensajes para recuperar su propiedad **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)), y el almacén de mensajes usa un identificador de entrada en un formato privado, llama a **WrapStoreEntryID** y devuelve el identificador de entrada al que apunta el parámetro _lppWrappedEntry._ 
   
 Las llamadas a [los métodos IMSProvider::Logon](imsprovider-logon.md) e [IMSLogon::CompareEntryIDs](imslogon-compareentryids.md) siempre obtienen el identificador de entrada privada del almacén; la versión ajustada solo se usa entre las aplicaciones cliente y MAPI. 
   
 Libera la memoria del identificador de entrada al que apunta el parámetro  _lppWrappedEntry_ mediante la función [MAPIFreeBuffer](mapifreebuffer.md) cuando termines de usar el identificador de entrada. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

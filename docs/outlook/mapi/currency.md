@@ -40,7 +40,7 @@ typedef struct tagCY
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **Lo**
   
@@ -52,11 +52,11 @@ typedef struct tagCY
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura CURRENCY** es una representación de enteros con escala de un número decimal con cuatro dígitos a la derecha del separador decimal. Por ejemplo, un valor almacenado de 327500 se interpretará como un valor de moneda de 32,7500. 
+La **estructura CURRENCY** es una representación de enteros con escala de un número decimal con cuatro dígitos a la derecha del punto decimal. Por ejemplo, un valor almacenado de 327500 debe interpretarse como un valor de moneda de 32.7500. 
   
 La **estructura CURRENCY** se usa para describir una propiedad de tipo PT_CURRENCY. Para obtener información acerca de los tipos de propiedad, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

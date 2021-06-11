@@ -23,12 +23,12 @@ Determina si el dibujo incluye una vista previa. Si la incluye, determina si la 
 |**Valor**|**Ámbito de la vista previa**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Primera página  <br/> |**visDocPreviewScope1stPage** <br/> |
-| 1   <br/> | Ninguno  <br/> |**visDocPreviewScopeNone** <br/> |
-| 2   <br/> | Todas las páginas  <br/> |**visDocPreviewScopeAllPages** <br/> |
+| 1  <br/> | Ninguno  <br/> |**visDocPreviewScopeNone** <br/> |
+| 2  <br/> | Todas las páginas  <br/> |**visDocPreviewScopeAllPages** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-También puede establecer este  valor en la  ficha Resumen del cuadro de  diálogo Propiedades (haga clic en el botón **De Office,** haga clic en la pestaña Información, en Propiedades del documento y, a continuación, en **Propiedades avanzadas).** 
+También puede establecer este valor en la ficha Resumen del cuadro de diálogo Propiedades  (haga clic en el botón **Office,** haga clic en la pestaña Información, haga clic en Propiedades del documento y, a continuación, en **Propiedades avanzadas**).  
   
 Para obtener una referencia a la celda PreviewScope por su nombre desde otra fórmula, o desde un programa mediante la propiedad **CellsU**, utilice: 
   

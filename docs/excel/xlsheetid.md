@@ -28,22 +28,22 @@ Busca el identificador de hoja de una hoja con nombre para crear referencias ext
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pxSheetName_ (**xltypeStr**)
   
-(Opcional). Nombre del libro y la hoja que desea averiguar. Si se omite, la **función xlSheetId** devuelve el identificador de hoja de la hoja activa (frontal). 
+(Opcional). El nombre del libro y la hoja que desea averiguar. Si se omite, la **función xlSheetId** devuelve el identificador de hoja de la hoja activa (frontal). 
   
 ## <a name="return-value"></a>Valor devuelto
 
 Devuelve el identificador de hoja  _en pxRes- \> val.mref.idSheet_. 
   
 > [!NOTE]
-> El puntero de matriz  _pxRes- \> val.mref.lpmref_ se establece en NULL después de esta llamada para que no sea necesario llamar **a xlFree** para liberar la memoria que contiene normalmente este tipo, aunque es completamente seguro hacerlo. 
+> El puntero de matriz  _pxRes- \> val.mref.lpmref_ se establece en NULL después de esta llamada para que no sea necesario llamar a **xlFree** para liberar la memoria que normalmente contiene este tipo, aunque es completamente seguro hacerlo. 
   
 ## <a name="remarks"></a>Comentarios
 
-El libro que contiene la hoja especificada debe estar abierto para usar esta función. No hay ninguna forma de construir una referencia a un libro sin abrir desde una DLL. Para obtener más información acerca del **uso de xlSheetId** para crear referencias, vea Administración de memoria en [Excel](memory-management-in-excel.md) para obtener ejemplos de **construcción xltypeRef.** 
+El libro que contiene la hoja especificada debe estar abierto para usar esta función. No hay forma de construir una referencia a un libro sin abrir desde un ARCHIVO DLL. Para obtener más información acerca del **uso de xlSheetId** para crear referencias, vea Administración de memoria [en Excel](memory-management-in-excel.md) ejemplos de **construcción xltypeRef.** 
   
 ## <a name="example"></a>Ejemplo
 

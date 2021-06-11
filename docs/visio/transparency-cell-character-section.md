@@ -28,7 +28,7 @@ Determina el nivel de transparencia de color de un intervalo de texto de una for
 
 Los valores se redondean al medio porcentaje más próximo. El valor 100% hace que sea totalmente transparente. Aunque una forma con texto totalmente transparente y otra sin texto tienen la misma apariencia en la página de dibujo, la interacción con los demás objetos de la página se producirá como si su transparencia fuera del 0%.
   
-También puedes establecer este valor mediante el control deslizante  de la ficha  Fuente del cuadro de diálogo Texto (en la pestaña Inicio, haz clic en la **flecha fuente).**  
+También puede establecer este valor mediante el  control deslizante de la ficha  Fuente del cuadro de diálogo Texto (en la ficha Inicio, haga clic en la **flecha** Fuente).  
   
 Si la sección de caracteres contiene varias filas, la celda Transparency contiene la información de formato que se aplica a un subintervalo del texto de la forma. En caso contrario, contiene información de formato para todo el texto de la forma.
   

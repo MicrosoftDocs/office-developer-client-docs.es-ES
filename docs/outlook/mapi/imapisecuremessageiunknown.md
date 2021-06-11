@@ -36,7 +36,7 @@ Define los métodos usados para administrar mensajes seguros.
 |Identificador de interfaz:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
 |Tipo de puntero:  <br/> |LPMAPISECUREMESSAGE  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -49,7 +49,7 @@ Define los métodos usados para administrar mensajes seguros.
 |Miembro de marcador de posición.  <br/> |No se admite ni se documenta.  <br/> |
 |Miembro de marcador de posición.  <br/> |No se admite ni se documenta.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -25,7 +25,7 @@ ms.locfileid: "33430171"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información sobre un objeto que se ha sometido a un cambio, como copiarse o modificarse.
+Contiene información sobre un objeto que ha sufrido un cambio, como copiarse o modificarse.
   
 |||
 |:-----|:-----|
@@ -48,11 +48,11 @@ typedef struct _OBJECT_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Miembros
+## <a name="members"></a>Members
 
  **cbEntryID**
   
-> Número de bytes en el identificador de entrada al que apunta el **miembro lpEntryID.** 
+> Recuento de bytes en el identificador de entrada al que apunta el **miembro lpEntryID.** 
     
  **lpEntryID**
   
@@ -76,7 +76,7 @@ MAPI_FOLDER
     
 MAPI_ABCONT 
   
-> Contenedor de la libreta de direcciones.
+> Contenedor de libreta de direcciones.
     
 MAPI_MESSAGE 
   
@@ -96,11 +96,11 @@ MAPI_DISTLIST
     
 MAPI_PROFSECT 
   
-> Sección de perfil.
+> Sección Perfil.
     
 MAPI_STATUS 
   
-> Objeto Status.
+> Status (objeto).
     
 MAPI_SESSION 
   
@@ -112,7 +112,7 @@ MAPI_SESSION
     
  **lpParentID**
   
-> Puntero al identificador de entrada del objeto primario del objeto afectado.
+> Puntero al identificador de entrada del elemento primario del objeto afectado.
     
  **cbOldID**
   
@@ -128,7 +128,7 @@ MAPI_SESSION
     
  **lpOldParentID**
   
-> Puntero al identificador de entrada del objeto primario del objeto original. Este puntero puede ser NULL si el evento no requiere un objeto original.
+> Puntero al identificador de entrada del elemento primario del objeto original. Este puntero puede ser NULL si el evento no requiere un objeto original.
     
  **lpPropTagArray**
   
@@ -136,7 +136,7 @@ MAPI_SESSION
     
 ## <a name="remarks"></a>Comentarios
 
-La **OBJECT_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el miembro **de** información de la [estructura notification.](notification.md) Cuando el miembro  **de** información de una estructura notification contiene una estructura **OBJECT_NOTIFICATION,** el miembro **ulEventType** de la estructura **NOTIFICATION** se establece en uno de los siguientes tipos de eventos: 
+La **OBJECT_NOTIFICATION** es uno de los miembros de la unión de estructuras incluidas en el **miembro de información** de la estructura [notification.](notification.md) Cuando el **miembro info** de una estructura **NOTIFICATION** contiene una estructura **OBJECT_NOTIFICATION,** el **miembro ulEventType** de la estructura **NOTIFICATION** se establece en uno de los siguientes tipos de eventos: 
   
 - fnevObjectCreated
     
@@ -150,7 +150,7 @@ La **OBJECT_NOTIFICATION** es uno de los miembros de la unión de estructuras in
     
 - fnevSearchComplete
     
-El evento de búsqueda completa, representado por el tipo de evento fnevSearchComplete, indica que se ha completado la búsqueda inicial del dominio para una carpeta de búsqueda.
+El evento de búsqueda completa, representado por el tipo de evento fnevSearchComplete, indica que se ha completado la búsqueda inicial del dominio de una carpeta de búsqueda.
   
 Los siguientes miembros que contienen información sobre el objeto original solo se usan en eventos de movimiento y copia. 
   
@@ -169,10 +169,10 @@ Para obtener más información acerca de la notificación, consulte los temas de
 |**Tema**|**Descripción**|
 |:-----|:-----|
 |[Notificación de eventos en MAPI](event-notification-in-mapi.md) <br/> |Información general sobre los eventos de notificación y notificación.  <br/> |
-|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben controlar las notificaciones.  <br/> |
+|[Control de notificaciones](handling-notifications.md) <br/> |Discusión sobre cómo los clientes deben administrar las notificaciones.  <br/> |
 |[Notificación de eventos de soporte técnico](supporting-event-notification.md) <br/> |Discusión sobre cómo los proveedores de servicios pueden usar [el método IMAPISupport](imapisupportiunknown.md) para generar notificaciones.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -36,13 +36,13 @@ Calcula el número de bytes de una estructura [ADRLIST](adrlist.md) existente.
 CbADRLIST (_lpadrlist)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ _lpadrlist_
   
 > Puntero a la estructura **ADRLIST** existente. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

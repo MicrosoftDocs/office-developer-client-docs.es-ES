@@ -23,7 +23,7 @@ ms.locfileid: "33428973"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica la eliminación del recibo de los mensajes que solicitan recibos. 
+Indica la disposición del recibo para los mensajes que solicitan recibos. 
   
 |||
 |:-----|:-----|
@@ -54,13 +54,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

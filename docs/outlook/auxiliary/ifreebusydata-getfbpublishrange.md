@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
-description: Obtiene un intervalo de tiempo preestablecido para una enumeración de bloques de datos de disponibilidad de un usuario.
+description: Obtiene un intervalo de tiempo preestablecido para una enumeración de bloques de datos de disponibilidad para un usuario.
 ms.openlocfilehash: 26951ea6a885f8d0e5e6a2fb5bcf9a63069c7f44
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33430080"
 ---
 # <a name="ifreebusydatagetfbpublishrange"></a>IFreeBusyData::GetFBPublishRange
 
-Obtiene un intervalo de tiempo preestablecido para una enumeración de bloques de datos de disponibilidad de un usuario.
+Obtiene un intervalo de tiempo preestablecido para una enumeración de bloques de datos de disponibilidad para un usuario.
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -30,15 +30,15 @@ HRESULT GetFBPublishRange(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _prtmStart_
   
-> [salida] Un valor de tiempo relativo para el inicio de la información de disponibilidad. Este valor es el número de minutos desde el 1 de enero de 1601.
+> [salida] Valor de tiempo relativo para el inicio de la información de disponibilidad. Este valor es el número de minutos desde el 1 de enero de 1601.
     
 _prtmEnd_
   
-> [salida] Un valor de tiempo relativo para el final de la información de disponibilidad. Este valor es el número de minutos desde el 1 de enero de 1601.
+> [salida] Valor de tiempo relativo para el final de la información de disponibilidad. Este valor es el número de minutos desde el 1 de enero de 1601.
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -50,7 +50,7 @@ Un proveedor de disponibilidad llama a [IFreeBusyData::EnumBlocks](ifreebusydata
   
 **IFreeBusyData::GetFBPublishRange** debe devolver los valores almacenados en caché para el intervalo de tiempo establecido por la llamada más reciente para **IFreeBusyData::EnumBlocks** o **IFreeBusyData::SetFBRange**. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Utilizar un tiempo relativo a los datos de disponibilidad de acceso](how-to-use-relative-time-to-access-free-busy-data.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)

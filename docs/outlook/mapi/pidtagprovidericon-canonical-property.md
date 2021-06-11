@@ -25,7 +25,7 @@ ms.locfileid: "33425641"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una cadena Unicode que especifica un icono o iconos personalizados que se mostrarán para un proveedor MAPI en la barra de estado Microsoft Office Outlook en los estados en línea y sin conexión.
+Contiene una cadena Unicode que especifica un icono o iconos personalizados que se mostrarán para un proveedor MAPI en la barra de estado Microsoft Office Outlook estados en línea y sin conexión.
   
 |||
 |:-----|:-----|
@@ -38,11 +38,11 @@ Contiene una cadena Unicode que especifica un icono o iconos personalizados que 
 
 Estas propiedades especifican el archivo de recursos que contiene un icono personalizado que representa un proveedor MAPI en un estado en línea y, opcionalmente, otro icono personalizado en el estado sin conexión. Outlook siempre solicita estas propiedades en representación Unicode. 
   
-Por ejemplo, el siguiente valor de propiedad indica a Outlook que cargue el identificador de icono 1001 desde el módulo mymod32.dll y use ese icono para el estado en línea:  `mymod32.dll,#1001` . Dado que no hay ningún icono específico del proveedor para el estado sin conexión, en este caso, el icono estándar sin conexión de Outlook se usa en la barra de estado. 
+Por ejemplo, el siguiente valor de propiedad indica a Outlook que cargue el identificador de icono 1001 desde el módulo mymod32.dll y use ese icono para el estado en línea: `mymod32.dll,#1001` . Dado que no hay ningún icono específico del proveedor para el estado sin conexión, en este caso, el icono estándar Outlook sin conexión se usa en la barra de estado. 
   
-El siguiente valor de propiedad indica a Outlook que cargue el identificador de icono 1001 desde el módulo mymod32.dll y use ese icono para el estado en línea, y que también cargue el identificador de icono 1002 desde este mismo módulo para usarlo para el estado sin conexión:  `mymod32.dll,#1001,#1002` . No se usa ningún icono de Outlook en la barra de estado. 
+El siguiente valor de propiedad indica a Outlook que cargue el identificador de icono 1001 desde el módulo mymod32.dll y use ese icono para el estado en línea, y que también cargue el identificador de icono 1002 desde este mismo módulo que se usará para el estado sin conexión: `mymod32.dll,#1001,#1002` . No Outlook icono en la barra de estado. 
   
-De forma predeterminada, si no se especifican iconos personalizados, el proveedor está representado por los iconos predeterminados de Outlook para el estado en línea y el estado sin conexión. Opcionalmente, el proveedor puede especificar un nombre para mostrar que se mostrará junto al icono en la barra de estado. Para obtener más información, **vea PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
+De forma predeterminada, si no se especifica ningún icono personalizado, el proveedor se representa mediante Outlook iconos predeterminados para el estado en línea y el estado sin conexión. El proveedor puede especificar opcionalmente un nombre para mostrar que se mostrará junto al icono de la barra de estado. Para obtener más información, **vea PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -56,13 +56,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

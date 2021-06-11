@@ -24,11 +24,11 @@ Calcula la media aritmética de un conjunto de valores contenidos en un campo es
 
  **Avg** (*NumericExpression*) 
   
-La **función Avg** contiene el siguiente argumento. 
+La **función Avg** contiene el argumento siguiente. 
   
 |**Argumento**|**Descripción**|
 |:-----|:-----|
-|NumericExpression  <br/> |Expresión de cadena que identifica el campo que contiene los datos numéricos que desea promediar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de  *NumericExpression*  pueden incluir el nombre de un campo de tabla, una variable o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones de SQL agregado).  <br/> |
+|NumericExpression  <br/> |Expresión de cadena que identifica el campo que contiene los datos numéricos que desea promediar o una expresión que realiza un cálculo con los datos de ese campo. Los operandos de *NumericExpression* pueden incluir el nombre de un campo de tabla, una variable o una función (que puede ser intrínseca o definida por el usuario, pero no una de las otras funciones SQL agregado).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

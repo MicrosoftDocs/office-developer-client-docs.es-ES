@@ -25,14 +25,14 @@ ms.locfileid: "33425333"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Esta propiedad contiene TRUE si un remitente del mensaje solicita una prueba de que el sistema de transferencia de mensajes ha enviado un mensaje para su entrega al destinatario previsto originalmente.
+Esta propiedad contiene TRUE si un remitente del mensaje solicita una prueba de que el sistema de transferencia de mensajes ha enviado un mensaje para su entrega al destinatario originalmente previsto.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_PROOF_OF_SUBMISSION  <br/> |
 |Identificador:  <br/> |0x0E26  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |MAPI no transmitible  <br/> |
+|Área:  <br/> |MAPI No transmitible  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,13 +46,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -22,9 +22,9 @@ Indica el idioma predeterminado del documento.
   
 ## <a name="remarks"></a>Comentarios
 
-El idioma del documento se basa en el idioma definido en el cuadro de diálogo Microsoft Office **preferencias** de idioma. (Haga **clic en Inicio**, **todos** los programas, **Microsoft Office**, **Microsoft Office Herramientas** y, a continuación, haga clic Microsoft Office **Preferencias de idioma).**
+El idioma del documento se basa en el idioma definido en el Microsoft Office **de diálogo Preferencias** de idioma. (Haga clic **en Inicio**, **en Todos** los programas, haga clic en **Microsoft Office**, haga clic en **Microsoft Office Herramientas** y, a continuación, haga clic **Microsoft Office Preferencias de idioma**.)
   
-Si desea cambiar el idioma de un documento, en lugar de editar esta  celda directamente,  es mejor cambiar este valor en el cuadro de diálogo Propiedades (haga clic en la ficha Archivo, haga clic en **Información,** en Propiedades y, a continuación, en Propiedades **avanzadas)** o mediante programación, mediante la propiedad **Language** del objeto **Document.** 
+Si desea cambiar el idioma de un documento, en lugar de editar esta  celda directamente,  es mejor cambiar este valor en el cuadro de diálogo Propiedades (haga clic en la pestaña Archivo, haga clic en Información **,** haga clic en Propiedades **y,** a continuación, en Propiedades **avanzadas)** o mediante programación, mediante la propiedad **Language** del **objeto Document.** 
   
 La siguiente tabla contiene una lista de idiomas y sus correspondientes identificadores de configuración regional (LCID).
   
@@ -49,20 +49,20 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
 |Croata  <br/> |1050  <br/> |
 |Checo  <br/> |1029  <br/> |
 |Danés  <br/> |1030  <br/> |
-|Sudivehi  <br/> |1125  <br/> |
+|Dhivehi  <br/> |1125  <br/> |
 |Neerlandés  <br/> |1043  <br/> |
 |Edo  <br/> |1126  <br/> |
 |Inglés (australiano)  <br/> |3081  <br/> |
 |Inglés (canadiense)  <br/> |4105  <br/> |
-|Inglés (Reino Unido)  <br/> |2057  <br/> |
+|Inglés ( Reino Unido)  <br/> |2057  <br/> |
 |Inglés (EE.UU.)  <br/> |1033  <br/> |
 |Estonio  <br/> |1061  <br/> |
-|Faeroés  <br/> |1080  <br/> |
+|Faeroese  <br/> |1080  <br/> |
 |Filipino  <br/> |1124  <br/> |
 |Finés  <br/> |1035  <br/> |
 |Francés  <br/> |1036  <br/> |
 |Francés (canadiense)  <br/> |3084  <br/> |
-|Frisiano  <br/> |1122  <br/> |
+|Frisian  <br/> |1122  <br/> |
 |Fulfulde  <br/> |1127  <br/> |
 |Gallego  <br/> |1110  <br/> |
 |Georgiano  <br/> |1079  <br/> |
@@ -72,7 +72,7 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
 |Griego  <br/> |1032  <br/> |
 |Gujarati  <br/> |1095  <br/> |
 |Hausa  <br/> |1128  <br/> |
-|Hawái  <br/> |1141  <br/> |
+|Hawaiano  <br/> |1141  <br/> |
 |Hebreo  <br/> |1037  <br/> |
 |Hindi  <br/> |1081  <br/> |
 |Húngaro  <br/> |1038  <br/> |
@@ -85,7 +85,7 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
 |Japonés  <br/> |1041  <br/> |
 |Kannada  <br/> |1099  <br/> |
 |Kanuri  <br/> |1137  <br/> |
-|Cachehmiri  <br/> |2144  <br/> |
+|Kashmiri  <br/> |2144  <br/> |
 |Cachemir (árabe)  <br/> |1120  <br/> |
 |Kazajo  <br/> |1087  <br/> |
 |Kirguís  <br/> |1088  <br/> |
@@ -118,7 +118,7 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
 |Serbio (cirílico)  <br/> |3098  <br/> |
 |Serbio (Latín)  <br/> |2074  <br/> |
 |Sindhi  <br/> |1113  <br/> |
-|Cingalés  <br/> |1115  <br/> |
+|Sinhalese  <br/> |1115  <br/> |
 |Eslovaco  <br/> |1051  <br/> |
 |Esloveno  <br/> |1060  <br/> |
 |Somalí  <br/> |1143  <br/> |
@@ -126,7 +126,7 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
 |Swahili  <br/> |1089  <br/> |
 |Sueco  <br/> |1053  <br/> |
 |Sirio  <br/> |1114  <br/> |
-|Tayiko  <br/> |1064  <br/> |
+|Tajik  <br/> |1064  <br/> |
 |Tamazight (árabe, Marruecos)  <br/> |1119  <br/> |
 |Tamazight (latino)  <br/> |2143  <br/> |
 |Tamil  <br/> |1097  <br/> |
@@ -146,7 +146,7 @@ La siguiente tabla contiene una lista de idiomas y sus correspondientes identifi
 |Yiddish  <br/> |1085  <br/> |
 |Yoruba  <br/> |1130  <br/> |
    
-Para obtener una referencia a la celda DocLangID por su nombre desde otra fórmula o desde un programa mediante la **propiedad CellsU,** utilice: 
+Para obtener una referencia a la celda DocLangID por su nombre desde otra fórmula o desde un programa mediante la **propiedad CellsU,** use: 
   
 |||
 |:-----|:-----|

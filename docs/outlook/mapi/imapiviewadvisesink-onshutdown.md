@@ -25,7 +25,7 @@ ms.locfileid: "33428525"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Notifica al visor de formularios que se está cerrado un formulario.
+Notifica al visor de formularios que se está cierrando un formulario.
   
 ```cpp
 HRESULT OnShutdown( void );
@@ -43,9 +43,9 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-Para obtener más información acerca de las notificaciones de formulario, vea [Enviar y recibir notificaciones de formulario.](sending-and-receiving-form-notifications.md)
+Para obtener más información acerca de las notificaciones de formulario, vea [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

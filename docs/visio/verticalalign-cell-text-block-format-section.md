@@ -23,8 +23,8 @@ Determina la alineación vertical del texto en el bloque de texto.
 |**Valor**|**Descripción**|**Constante de automatización**|
 |:-----|:-----|:-----|
 | 0  <br/> | Top  <br/> |**visVertTop** <br/> |
-| 1   <br/> | Middle  <br/> |**visVertMiddle** <br/> |
-| 2   <br/> | Hacia la parte inferior  <br/> |**visVertBottom** <br/> |
+| 1  <br/> | Middle  <br/> |**visVertMiddle** <br/> |
+| 2  <br/> | Hacia la parte inferior  <br/> |**visVertBottom** <br/> |
    
 ## <a name="remarks"></a>Comentarios
 

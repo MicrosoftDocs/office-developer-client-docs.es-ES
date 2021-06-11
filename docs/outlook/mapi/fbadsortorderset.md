@@ -43,7 +43,7 @@ ULONG FBadSortOrderSet(
 
  _lpsos_
   
-> [entrada] Puntero a una [estructura SSortOrderSet](ssortorderset.md) que identifica el criterio de ordenación que se va a validar. 
+> [in] Puntero a una [estructura SSortOrderSet](ssortorderset.md) que identifica el criterio de ordenación establecido para validarse. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -53,7 +53,7 @@ TRUE
     
 FALSE 
   
-> El conjunto de criterios de ordenación especificado es válido.
+> El conjunto de criterio de ordenación especificado es válido.
     
 ## <a name="remarks"></a>Comentarios
 

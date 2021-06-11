@@ -25,18 +25,18 @@ ms.locfileid: "33430178"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si el usuario de mensajería tiene permiso para enviar y recibir mensajes. 
+Contiene TRUE si el usuario de mensajería puede enviar y recibir mensajes. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_MAIL_PERMISSION  <br/> |
 |Identificador:  <br/> |0x3A0E  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Address  <br/> |
+|Área:  <br/> |Dirección  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si no se establece esta propiedad, MAPI la trata como si fuera un valor TRUE. 
+Si no se establece esta propiedad, MAPI la trata como que tiene un valor TRUE. 
   
 Establezca esta propiedad en FALSE en un directorio corporativo donde algunas de las entradas no están habilitadas para correo electrónico. 
   
@@ -52,13 +52,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

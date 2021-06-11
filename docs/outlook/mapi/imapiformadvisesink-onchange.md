@@ -33,11 +33,11 @@ HRESULT OnChange(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulDir_
   
-> [entrada] Máscara de bits de marcas que proporciona información sobre el cambio que se ha producido en el visor y la respuesta esperada en el formulario. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que proporciona información sobre el cambio que se ha producido en el visor y la respuesta esperada en el formulario. Se pueden establecer las siguientes marcas:
     
 VCSTATUS_CATEGORY 
   
@@ -45,11 +45,11 @@ VCSTATUS_CATEGORY
     
 VCSTATUS_INTERACTIVE 
   
-> El formulario debe mostrar una interfaz de usuario. Si no se establece esta marca, el formulario debería suprimir la visualización de una interfaz de usuario, incluso en respuesta a un verbo que normalmente hace que se muestre una interfaz de usuario. 
+> El formulario debe mostrar una interfaz de usuario. Si no se establece esta marca, el formulario debe suprimir la visualización de una interfaz de usuario, incluso en respuesta a un verbo que normalmente hace que se muestre una interfaz de usuario. 
     
 VCSTATUS_MODAL 
   
-> El formulario debe ser modal para el visor del formulario. 
+> El formulario debe ser modal para el visor de formularios. 
     
 VCSTATUS_NEXT 
   
@@ -61,7 +61,7 @@ VCSTATUS_PREV
     
 VCSTATUS_READONLY 
   
-> Las operaciones de eliminación, envío y movimiento deben deshabilitarse. 
+> Las operaciones eliminar, enviar y mover deben deshabilitarse. 
     
 VCSTATUS_UNREAD 
   
@@ -83,7 +83,7 @@ La configuración de VCSTATUS_MODAL y VCSTATUS_INTERACTIVE no pueden cambiar en 
 
 La implementación específica de este método depende completamente de los detalles del formulario. La mayoría de los objetos de formulario usan este método para cambiar su interfaz de usuario (por ejemplo, para habilitar o deshabilitar comandos de menú o botones para que coincidan con el parámetro de indicadores de estado del visor).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

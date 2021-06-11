@@ -40,19 +40,19 @@ Se pueden establecer una o varias de las siguientes marcas para esta propiedad:
   
 DT_ACCEPT_DBCS 
   
-> El control puede tener Double-Byte juego de caracteres (DBCS) en él. Esta marca se usa con controles de edición. Permite juegos de caracteres de varios bytes.
+> El control puede tener Double-Byte de juego de caracteres (DBCS) en él. Esta marca se usa con controles de edición. Permite conjuntos de caracteres de varios bytes.
     
 DT_EDITABLE 
   
-> El control se puede editar; se puede cambiar el valor asociado con el control. Cuando no se establece esta marca, el control es de solo lectura. Este valor se omite en los controles de etiqueta, cuadro de grupo, botón de inserción estándar, cuadro de lista desplegable multivalor y cuadro de lista.
+> El control se puede editar; se puede cambiar el valor asociado al control. Cuando no se establece esta marca, el control es de solo lectura. Este valor se omite en los controles de etiqueta, cuadro de grupo, botón de inserción estándar, cuadro de lista desplegable multivalor y cuadro de lista.
     
 DT_MULTILINE 
   
-> El control de edición puede contener varias líneas. Esto significa que se puede especificar un carácter devuelto dentro del control. Esta marca solo es válida para controles de edición.
+> El control de edición puede contener varias líneas. Esto significa que se puede especificar un carácter devuelto dentro del control. Esta marca solo es válida para los controles de edición.
     
 DT_PASSWORD_EDIT 
   
-> Se aplica a controles de edición. El control de edición se trata como una contraseña. El valor se muestra con asteriscos en lugar de hacer eco de los caracteres reales especificados.
+> Se aplica a los controles de edición. El control de edición se trata como una contraseña. El valor se muestra con asteriscos en lugar de hacer eco de los caracteres reales especificados.
     
 DT_REQUIRED 
   
@@ -60,17 +60,17 @@ DT_REQUIRED
     
 DT_SET_IMMEDIATE 
   
-> Habilita la configuración inmediata de un valor; Tan pronto como cambia un valor en el control, MAPI llama al **método SetProps** para la propiedad asociada con ese control. Cuando no se establece esta marca, los valores se establecen cuando se descarta el cuadro de diálogo. 
+> Habilita la configuración inmediata de un valor; tan pronto como cambia un valor en el control, MAPI llama al **método SetProps** para la propiedad asociada con ese control. Cuando no se establece esta marca, los valores se establecen cuando se descarta el cuadro de diálogo. 
     
 DT_SET_SELECTION 
   
-> Cuando se realiza una selección dentro del cuadro de lista, la columna de índice de ese cuadro de lista se establece como una propiedad. Siempre se usa con DT_SET_IMMEDIATE.
+> Cuando se realiza una selección en el cuadro de lista, la columna de índice de ese cuadro de lista se establece como una propiedad. Siempre se usa con DT_SET_IMMEDIATE.
     
-Esta propiedad se almacena en el miembro ulCtlFlags de la estructura [DTCTL](dtctl.md) de un control. La mayoría de las marcas de control se aplican a todos los controles que permiten la entrada del usuario; algunos se aplican solo al control de edición. Los controles que no permiten la entrada del usuario, como un botón o una etiqueta, establecen 0 para sus marcas de control. 
+Esta propiedad se almacena en el miembro ulCtlFlags de la [estructura DTCTL de un](dtctl.md) control. La mayoría de las marcas de control se aplican a todos los controles que permiten la entrada del usuario; algunos solo se aplican al control de edición. Los controles que no permiten la entrada del usuario, como un botón o una etiqueta, establecen 0 para sus marcas de control. 
   
-Muchos de los valores de marca se explican por sí solos. Por ejemplo, cuando DT_REQUIRED para un control, debe contener un valor antes de que se pueda descartar el cuadro de diálogo. El proveedor de servicios puede proporcionar un valor a través de su **implementación IMAPIProp** o el usuario puede escribir uno. DT_EDITABLE indica que se puede modificar el valor del control. DT_MULTILINE permite que el valor de un control de edición abarque varias líneas. 
+Muchos de los valores de marca son autoexplicativos. Por ejemplo, DT_REQUIRED se establece para un control, debe contener un valor antes de que se pueda descartar el cuadro de diálogo. El proveedor de servicios puede proporcionar un valor a través de su **implementación imapiprop** o el usuario puede escribir uno. DT_EDITABLE indica que se puede modificar el valor del control. DT_MULTILINE permite que el valor de un control de edición abarque varias líneas. 
   
-Algunas marcas de control no son tan obvias en su significado. Cuando un control establece DT_SET_IMMEDIATE marca, cualquier cambio en su valor tendrá efecto en cuanto el usuario se mueva a un nuevo control. MAPI realiza una sola llamada al método [IMAPIProp::SetProps](imapiprop-setprops.md) de la interfaz de propiedades para la propiedad del control. Esto es diferente del comportamiento predeterminado, que es posponer que los cambios  en los valores de control tengan efecto hasta que el usuario selecciona el botón Aceptar o descarta el cuadro de diálogo. La DT_SET_IMMEDIATE se usa a menudo en combinación con las notificaciones de la tabla de visualización. 
+Algunas marcas de control no son tan obvias en su significado. Cuando un control establece la marca DT_SET_IMMEDIATE, cualquier cambio en su valor afectará tan pronto como el usuario se mueva a un nuevo control. MAPI realiza una sola llamada al método [IMAPIProp::SetProps](imapiprop-setprops.md) de la interfaz de propiedad para la propiedad del control. Esto es diferente del comportamiento predeterminado, que es posponer que los cambios en los valores de control tengan efecto hasta que el usuario seleccione el botón **Aceptar** o descarte el cuadro de diálogo. La DT_SET_IMMEDIATE se usa a menudo en combinación con las notificaciones de tabla para mostrar. 
   
 En la tabla siguiente se enumeran los tipos de controles y todos los valores de marca que se pueden establecer para cada tipo.
   
@@ -84,8 +84,8 @@ En la tabla siguiente se enumeran los tipos de controles y todos los valores de 
 |Cuadro de grupo  <br/> |Debe ser cero  <br/> |
 |Etiqueta  <br/> |Debe ser cero  <br/> |
 |Cuadro de lista  <br/> |Debe ser cero  <br/> |
-|Cuadro de lista desplegable con varios valores  <br/> |Debe ser cero  <br/> |
-|Cuadro de lista de varios valores  <br/> |Debe ser cero  <br/> |
+|Cuadro de lista desplegable De varios valores  <br/> |Debe ser cero  <br/> |
+|Cuadro de lista Multivalor  <br/> |Debe ser cero  <br/> |
 |Página con pestañas  <br/> |Debe ser cero  <br/> |
 |Botón de radio  <br/> |Debe ser cero  <br/> |
    
@@ -101,13 +101,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
