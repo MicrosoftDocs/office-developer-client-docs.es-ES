@@ -35,19 +35,19 @@ HRESULT MoveMessage(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pFolderDestination_
   
-> [entrada] Puntero a la carpeta a la que se va a mover el mensaje.
+> [in] Puntero a la carpeta donde se va a mover el mensaje.
     
  _pViewContext_
   
-> [entrada] Puntero a un objeto de contexto de vista.
+> [in] Puntero a un objeto de contexto de vista.
     
  _prcPosRect_
   
-> [entrada] Puntero a una [estructura RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contiene el tamaño y la posición de la ventana del formulario actual. El siguiente formulario que se muestra también usa este rectángulo de ventana. 
+> [in] Puntero a una [estructura RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) que contiene el tamaño y la posición de la ventana del formulario actual. El siguiente formulario que se muestra también usa este rectángulo de ventana. 
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -61,17 +61,17 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Comentarios
 
-Los objetos de formulario llaman **al método IMAPIMessageSite::MoveMessage** para mover el mensaje actual a una nueva carpeta. 
+Los objetos Form llaman **al método IMAPIMessageSite::MoveMessage** para mover el mensaje actual a una nueva carpeta. 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-La implementación de **MoveMessage** de un visor de formulario debe llamar al método [IMAPIViewContext::ActivateNext,](imapiviewcontext-activatenext.md) pasando la marca VCDIR_MOVE, antes de mover realmente el mensaje a una nueva carpeta. Para obtener la **estructura RECT** usada por la ventana de un formulario, llame a la función [GetWindowRect de](https://msdn.microsoft.com/library/ms633519) Windows. 
+La implementación de **MoveMessage** de un visor de formulario debe llamar al método [IMAPIViewContext::ActivateNext,](imapiviewcontext-activatenext.md) pasando la marca VCDIR_MOVE, antes de mover realmente el mensaje a una carpeta nueva. Para obtener la **estructura RECT** usada por la ventana de un formulario, llame a la Windows [función GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
   
-Para obtener una lista de interfaces relacionadas con los servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
+Para obtener una lista de interfaces relacionadas con servidores de formulario, vea [Interfaces de formulario MAPI](mapi-form-interfaces.md).
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
-Tras la devolución de **MoveMessage**, los formularios deben comprobar si hay un mensaje actual y, a continuación, descartarse si no existe ninguno. 
+Tras la devolución de **MoveMessage,** los formularios deben buscar un mensaje actual y, a continuación, descartarse si no existe ninguno. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -81,7 +81,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |No implementado.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

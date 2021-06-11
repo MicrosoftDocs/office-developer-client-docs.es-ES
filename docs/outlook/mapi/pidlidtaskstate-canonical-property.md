@@ -31,9 +31,9 @@ Indica el estado de asignación actual de la tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskState  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008113  <br/> |
+|Id. largo (LID):  <br/> |0x00008113  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -41,11 +41,11 @@ El valor de esta propiedad debe ser uno de los siguientes.
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|0x00000000  <br/> |Esta tarea se creó para corresponder a una tarea incrustada en un rechazo de tarea pero no se pudo encontrar localmente.  <br/> |
+|0x00000000  <br/> |Esta tarea se creó para corresponder a una tarea incrustada en un rechazo de tarea pero que no se pudo encontrar localmente.  <br/> |
 |0x00000001  <br/> |La tarea no está asignada.  <br/> |
-|0x00000002  <br/> |La tarea es la copia de una tarea asignada del usuario al que se asigna la tarea.  <br/> |
-|0x00000003  <br/> |La tarea es la copia de una tarea asignada del asignador.  <br/> |
-|0x00000004  <br/> |La tarea es la copia de una tarea rechazada del asignador de tareas.  <br/> |
+|0x00000002  <br/> |La tarea es la copia del usuario asignado de una tarea asignada.  <br/> |
+|0x00000003  <br/> |La tarea es la copia del asignador de una tarea asignada.  <br/> |
+|0x00000004  <br/> |La tarea es la copia del asignador de tareas de una tarea rechazada.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -61,7 +61,7 @@ El valor de esta propiedad debe ser uno de los siguientes.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y localizar las carpetas especiales en un buzón.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
@@ -77,13 +77,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

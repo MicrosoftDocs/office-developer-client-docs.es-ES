@@ -36,7 +36,7 @@ Indica la agresividad con la que se debe enviar el correo entrante a la carpeta 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad corresponde a la configuración de filtro alto/ bajo / ninguno. Un valor de "0xFFFFFFFF" indica que no se debe aplicar el filtrado de correo no deseado, pero aún se deben aplicar listas de bloqueados. Un valor de "0x80000000" indica que todo el correo es correo no deseado excepto los mensajes de remitentes de la lista de remitentes de confianza o enviados a los destinatarios de la lista de destinatarios de confianza. Los valores para esto son los siguientes:
+Esta propiedad corresponde a la configuración de filtro de alto / bajo / ninguno. Un valor de "0xFFFFFFFF" indica que no se debe aplicar el filtrado de correo no deseado, pero aún deben aplicarse listas de bloqueo. Un valor de "0x80000000" indica que todo el correo es correo no deseado excepto los mensajes de remitentes de la lista de remitentes de confianza o enviados a destinatarios de la lista de destinatarios de confianza. Los valores para esto son los siguientes:
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
@@ -67,13 +67,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,13 +25,13 @@ ms.locfileid: "32315956"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si el usuario final desea que este objeto de mensaje se oculta a otros usuarios que tienen acceso al objeto de mensaje.
+Indica si el usuario final quiere que este objeto de mensaje se oculta a otros usuarios que tienen acceso al objeto de mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidPrivate  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008506  <br/> |
+|Id. largo (LID):  <br/> |0x00008506  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
@@ -41,11 +41,11 @@ Indica si el usuario final desea que este objeto de mensaje se oculta a otros us
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
+> Proporciona la definición del conjunto de propiedades y las referencias a las Exchange Server de protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

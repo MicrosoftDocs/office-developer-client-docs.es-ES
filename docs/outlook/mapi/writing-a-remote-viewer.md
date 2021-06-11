@@ -19,13 +19,13 @@ ms.locfileid: "32325665"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Un visor remoto es una ventana de una aplicación cliente que proporciona acceso controlado a los mensajes almacenados en otro equipo. Este acceso controlado puede funcionar en un vínculo de comunicaciones lento. En lugar de recuperar una selección completa de los mensajes disponibles cada vez que un usuario abre una carpeta, el visor remoto muestra primero solo los encabezados. A continuación, el usuario selecciona de los encabezados cuáles de los mensajes se mostrarán en su totalidad. Los clientes de visor remoto pueden permitir que sus usuarios eliminen mensajes antes de que se descarguen. 
+Un visor remoto es una ventana de una aplicación cliente que proporciona acceso controlado a los mensajes almacenados en otro equipo. Este acceso controlado puede funcionar en un vínculo de comunicaciones lento. En lugar de recuperar una selección completa de mensajes disponibles cada vez que un usuario abre una carpeta, el visor remoto muestra primero solo los encabezados. A continuación, el usuario selecciona de los encabezados cuáles de los mensajes se mostrarán en su totalidad. Los clientes de visor remoto pueden permitir que sus usuarios eliminen mensajes antes de que se descarguen. 
   
 ## <a name="to-retrieve-the-headers-of-messages-stored-remotely"></a>Para recuperar los encabezados de los mensajes almacenados de forma remota
   
-1. Llame [a IMAPISession::GetStatusTable](imapisession-getstatustable.md) para obtener acceso a la tabla de estado. 
+1. Llame [a IMAPISession::GetStatusTable para](imapisession-getstatustable.md) obtener acceso a la tabla de estado. 
     
-2. Llame [a IMAPITable::Restrict](imapitable-restrict.md) para limitar la tabla de estado solo a aquellas filas que tengan su columna **PR RESOURCE \_ \_ TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) establecida en PROVEEDOR DE \_ TRANSPORTE \_ MAPI. 
+2. Llame [a IMAPITable::Restrict](imapitable-restrict.md) para limitar la tabla de estado a solo aquellas filas que tienen su columna **PR RESOURCE \_ \_ TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) establecida en PROVEEDOR DE \_ TRANSPORTE \_ MAPI. 
     
 3. Llame [a IMAPITable::SetColumns](imapitable-setcolumns.md) para incluir las siguientes columnas en la tabla de estado: 
    - **PR \_ ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
@@ -35,9 +35,9 @@ Un visor remoto es una ventana de una aplicación cliente que proporciona acceso
     
 4. Llame [a HrQueryAllRows](hrqueryallrows.md) para recuperar todas las filas de la tabla de estado. 
     
-5. Pase el identificador de entrada de cada fila de la tabla en una llamada a [IMAPISession::OpenEntry](imapisession-openentry.md). Dado que esta interfaz se serializa desde el contexto de proceso de la cola MAPI al contexto de proceso del cliente ( a diferencia de las interfaces que normalmente se obtienen de proveedores de libreta de direcciones o almacén de mensajes), los problemas relacionados con el multithreading son de mayor importancia. 
+5. Pase el identificador de entrada de cada fila de la tabla en una llamada a [IMAPISession::OpenEntry](imapisession-openentry.md). Dado que esta interfaz se serializa desde el contexto de proceso de la cola MAPI al contexto de proceso del cliente, a diferencia de las interfaces que normalmente se obtienen de proveedores de libreta de direcciones o almacén de mensajes, los problemas relacionados con el multithreading son de mayor importancia. 
     
-6. Llama al método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) del objeto de estado, pasando IID_IMAPIFolder como identificador de interfaz, para recuperar la carpeta remota. La carpeta remota no es una implementación de carpeta completa; solo admite un subconjunto de propiedades y métodos de carpeta. Uno de los métodos necesarios, [IMAPIProp::GetProps](imapiprop-getprops.md), admite la recuperación de las siguientes propiedades:
+6. Llame al método [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) del objeto de estado, pasando IID_IMAPIFolder como identificador de interfaz, para recuperar la carpeta remota. La carpeta remota no es una implementación completa de la carpeta; solo admite un subconjunto de propiedades y métodos de carpeta. Uno de los métodos necesarios, [IMAPIProp::GetProps](imapiprop-getprops.md), admite la recuperación de las siguientes propiedades:
     
     |||
     |:-----|:-----|
@@ -47,7 +47,7 @@ Un visor remoto es una ventana de una aplicación cliente que proporciona acceso
     |**PR \_ SUBCARPETAS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md))  <br/> |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |
     |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |
     
-    Las carpetas remotas también deben admitir los métodos [IMAPIProp::GetPropList](imapiprop-getproplist.md), [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md)e [IMAPIFolder::SetMessageStatus.](imapifolder-setmessagestatus.md) Las tablas de contenido de carpetas remotas normalmente admiten las siguientes columnas: 
+    Las carpetas remotas también deben admitir los métodos [IMAPIProp::GetPropList](imapiprop-getproplist.md), [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md)y [IMAPIFolder::SetMessageStatus.](imapifolder-setmessagestatus.md) Las tablas de contenido de carpetas remotas suelen admitir las siguientes columnas: 
         
     |||
     |:-----|:-----|
@@ -61,9 +61,9 @@ Un visor remoto es una ventana de una aplicación cliente que proporciona acceso
     |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))  <br/> |
     |**PR \_ SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
-7. Llame al método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) del proveedor de transporte la primera vez que se seleccione una de las opciones de transferencia. Debe establecerse REFRESH_XP_HEADER_CACHE o PROCESS_XP_HEADER_CACHE de proceso, así como la marca SHOW_XP_SSESSION_UI para permitir que se pueda mostrar la interfaz de usuario. 
+7. Llama al método [IMAPIStatus::ValidateState](imapistatus-validatestate.md) del proveedor de transporte la primera vez que se elige una de las opciones de transferencia. Debe establecerse REFRESH_XP_HEADER_CACHE o PROCESS_XP_HEADER_CACHE de proceso, así como la marca SHOW_XP_SSESSION_UI para permitir que se pueda mostrar la interfaz de usuario. 
     
    > [!NOTE]
-   > Para marcar un encabezado de mensaje determinado para su descarga o eliminación, un cliente llama a [IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) y establece la marca MSGSTATUS_REMOTE_DOWNLOAD o MSGSTATUS_REMOTE_DELETE cliente. 
+   > Para marcar un encabezado de mensaje determinado para su descarga o eliminación, un cliente llama a [IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) y establece el MSGSTATUS_REMOTE_DOWNLOAD o MSGSTATUS_REMOTE_DELETE marca. 
   
 

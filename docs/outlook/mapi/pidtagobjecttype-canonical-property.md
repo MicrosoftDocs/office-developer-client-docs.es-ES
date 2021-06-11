@@ -25,7 +25,7 @@ ms.locfileid: "32329228"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el tipo de un objeto. 
+Contiene el tipo de objeto. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene el tipo de un objeto.
    
 ## <a name="remarks"></a>Comentarios
 
-El tipo de objeto contenido en esta propiedad corresponde a la interfaz principal disponible para un objeto accesible a través de la **interfaz OpenEntry.** Normalmente se obtiene consultando el  _parámetro lpulObjType_ devuelto por el método **OpenEntry** adecuado. Cuando la interfaz se obtiene de otras maneras, llame a [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor de esta propiedad. 
+El tipo de objeto contenido en esta propiedad corresponde a la interfaz principal disponible para un objeto accesible a través de la **interfaz OpenEntry.** Normalmente se obtiene consultando el parámetro  _lpulObjType_ devuelto por el método **OpenEntry** adecuado. Cuando la interfaz se obtiene de otras maneras, llama a [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor de esta propiedad. 
   
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
 MAPI_ABCONT 
   
-> Objeto contenedor de la libreta de direcciones 
+> Objeto contenedor de libreta de direcciones 
     
 MAPI_ADDRBOOK 
   
-> Objeto de libreta de direcciones 
+> Objeto libreta de direcciones 
     
 MAPI_ATTACH 
   
-> Objeto de datos adjuntos del mensaje 
+> Objeto de datos adjuntos de mensaje 
     
 MAPI_DISTLIST 
   
@@ -74,7 +74,7 @@ MAPI_MESSAGE
     
 MAPI_PROFSECT 
   
-> Objeto de sección de perfil 
+> Objeto de sección Perfil 
     
 MAPI_SESSION 
   
@@ -96,9 +96,9 @@ MAPI_STORE
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
@@ -114,19 +114,19 @@ MAPI_STORE
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convierte las convenciones de correo electrónico estándar de Internet en objetos de mensaje.
+> Convierte de convenciones de correo electrónico estándar de Internet a objetos de mensaje.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXOAB]](https://msdn.microsoft.com/library/b4750386-66ec-4e69-abb6-208dd131c7de%28Office.15%29.aspx)
   
-> Especifica los formatos de archivo de libreta de direcciones sin conexión (OAB) para la memoria caché de objetos de la libreta de direcciones local.
+> Especifica los formatos de archivo de libreta de direcciones sin conexión (OAB) para la memoria caché de objetos de libreta de direcciones local.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
@@ -142,13 +142,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

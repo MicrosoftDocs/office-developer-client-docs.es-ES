@@ -25,7 +25,7 @@ ms.locfileid: "32325588"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa la unidad de tiempo que se usa para determinar el tiempo que permanece un elemento en una carpeta antes de archivar el elemento.
+Representa la unidad de tiempo que se usa para determinar el tiempo que un elemento permanece en una carpeta antes de archivar el elemento.
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Representa la unidad de tiempo que se usa para determinar el tiempo que permanec
    
 ## <a name="remarks"></a>Comentarios
 
-Los valores posibles **para PR_AGING_GRANULARITY** pueden ser uno de los siguientes. 
+Los valores posibles **PR_AGING_GRANULARITY** pueden ser uno de los siguientes. 
   
 |**Name**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
 |**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** se define en número de meses.  <br/> |
-|**AG_WEEKS** <br/> |1   <br/> |**PR_AGING_PERIOD** se define en número de semanas.  <br/> |
-|**AG_DAYS** <br/> |2   <br/> |**PR_AGING_PERIOD** se define en número de días.  <br/> |
+|**AG_WEEKS** <br/> |1  <br/> |**PR_AGING_PERIOD** se define en número de semanas.  <br/> |
+|**AG_DAYS** <br/> |2  <br/> |**PR_AGING_PERIOD** se define en número de días.  <br/> |
    
 El tiempo que un elemento permanece en una carpeta antes de archivar el elemento está determinado por dos propiedades, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) y **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** representa el número de unidades de tiempo que el elemento permanece en la carpeta antes de archivarlo. 
   
@@ -60,7 +60,7 @@ El tiempo que un elemento permanece en una carpeta antes de archivar el elemento
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -72,13 +72,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

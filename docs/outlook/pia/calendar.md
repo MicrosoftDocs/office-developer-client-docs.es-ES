@@ -16,15 +16,15 @@ ms.locfileid: "32318980"
 ---
 # <a name="calendar"></a>Calendar
 
-En esta sección se proporcionan tareas de ejemplo relacionadas con la carpeta Calendario de Outlook.
+En esta sección se proporcionan tareas de ejemplo que implican Calendario de Outlook carpeta.
 
 ## <a name="in-this-section"></a>En esta sección
 
 |Tema|Descripción|
 |:----|:----------|
-|[Compartir la programación de disponibilidad en un período específico de un calendario](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  |Obtiene la programación de disponibilidad dentro de una semana especificada de un calendario y muestra los detalles de disponibilidad y asunto al usuario.|
+|[Compartir la programación de disponibilidad en un período específico de un calendario](how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md)  |Obtiene la programación de disponibilidad dentro de una semana especificada de un calendario y muestra los detalles de asunto, disponibilidad y libre al usuario.|
 |[Compartir información del calendario por correo electrónico](how-to-share-calendar-information-through-e-mail.md)  |Comparte información de un calendario por correo electrónico en el formato iCalendar.|
-|[Mostrar un calendario compartido de un destinatario](how-to-display-a-shared-calendar-of-a-recipient.md)  |Muestra el calendario compartido de un destinatario mediante los métodos [CreateRecipient(String)](https://msdn.microsoft.com/library/bb609962\(v=office.15\)) y [GetSharedDefaultFolder(Recipient, OlDefaultFolders).](https://msdn.microsoft.com/library/bb644850\(v=office.15\))|
+|[Mostrar un calendario compartido de un destinatario](how-to-display-a-shared-calendar-of-a-recipient.md)  |Muestra el calendario compartido de un destinatario mediante los [métodos CreateRecipient(String)](https://msdn.microsoft.com/library/bb609962\(v=office.15\)) y [GetSharedDefaultFolder(Recipient, OlDefaultFolders).](https://msdn.microsoft.com/library/bb644850\(v=office.15\))|
 |[Guardar un calendario en el disco](how-to-save-a-calendar-to-disk.md)  |Guarda un calendario completo en el disco en el formato de archivo iCalendar (.ics).|
 |[Abrir y ver los contenidos de un archivo de iCalendar](how-to-open-and-display-the-contents-of-an-icalendar-file.md)  |Abre y muestra el contenido de un archivo iCalendar, en función de si el archivo contiene una sola cita o una cita periódica o si el archivo contiene un grupo de citas.|
 

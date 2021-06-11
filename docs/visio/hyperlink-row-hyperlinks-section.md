@@ -30,15 +30,15 @@ Las filas Hyperlink se denominan Hyperlink. *nombre*  y contienen las celdas sig
 |[ExtraInfo](extrainfo-cell-hyperlinks-section.md) <br/> |Cadena de texto que pasa información utilizada para obtener una dirección URL.  <br/> |
 |[Frame](frame-cell-hyperlinks-section.md) <br/> |Nombre de un marco de destino cuando Microsoft Office Visio se abre como documento Active en un contenedor ActiveX. El valor predeterminado es una cadena vacía.  <br/> |
 |[SortKey](sortkey-cell-hyperlinks-section.md) <br/> |Determina el orden de los hipervínculos en el menú contextual.  <br/> |
-|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |Especifica si el hipervínculo se abre en una ventana nueva. Si es TRUE, abre la página, documento o sitio web vinculados en una nueva ventana. El valor predeterminado es FALSE.  <br/> |
+|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |Especifica si el hipervínculo se abre en una ventana nueva. Si es TRUE, abre la página, el documento o el sitio web vinculados en una nueva ventana. El valor predeterminado es FALSE.  <br/> |
 |[Default](default-cell-hyperlinks-section.md) <br/> |Hipervínculo predeterminado de una forma o de una página.  <br/> |
 |[Invisible](invisible-cell-hyperlinks-section.md) <br/> |Indica si el hipervínculo aparece o no en el menú contextual.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
- Puede agregar tantas filas Hyperlink.  *name*  rows as you need, assign meaningful names to the rows, and set cell values. Para agregar hipervínculos a una sección de hipervínculos existente, haga clic con el botón secundario en una fila y, después, haga clic en **Insertar fila** en el menú contextual. 
+ Puede agregar tantas filas Hyperlink.  *nombre*  de las filas que necesite, asigne nombres significativos a las filas y establezca valores de celda. Para agregar hipervínculos a una sección de hipervínculos existente, haga clic con el botón secundario en una fila y, después, haga clic en **Insertar fila** en el menú contextual. 
   
-Puede hacer referencia a estas celdas por su nombre de fila, que aparece en la ventana ShapeSheet como texto en color rojo. Para asignar un nombre descriptivo a una fila Hyperlink. *name*  rows, click the row, and then type a name such as  *Marketing*  , for example, to create the row name Hyperlink.Marketing. Después, podrá hacer referencia a la celda Description usando Hyperlink.Marketing.Description. 
+Puede hacer referencia a estas celdas por su nombre de fila, que aparece en la ventana ShapeSheet como texto en color rojo. Para asignar un nombre descriptivo a una fila Hyperlink. *filas*  de nombre, haga clic en la fila y, a continuación, escriba un nombre como  *Marketing*  , por ejemplo, para crear el nombre de fila Hyperlink.Marketing. Después, podrá hacer referencia a la celda Description usando Hyperlink.Marketing.Description. 
   
 El nombre de fila que escriba debe ser único en la sección.
   

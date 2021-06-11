@@ -21,6 +21,6 @@ ms.locfileid: "32317230"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Si también usa OLE, llame a la función [OLE OleInitialize para](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) inicializar las bibliotecas OLE. **OleInitialize inicializa** los datos globales de la sesión y prepara las bibliotecas OLE para aceptar llamadas. Para obtener información sobre cómo **llamar a OleInitialize,** consulta windows SDK.
+Si también usa OLE, llame a la función [OLE OleInitialize para](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) inicializar las bibliotecas OLE. **OleInitialize inicializa** los datos globales de la sesión y prepara las bibliotecas OLE para aceptar llamadas. Para obtener información sobre cómo **llamar a OleInitialize,** consulte el SDK Windows.
   
 

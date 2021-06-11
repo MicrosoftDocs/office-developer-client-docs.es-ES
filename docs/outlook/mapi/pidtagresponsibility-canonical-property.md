@@ -36,11 +36,11 @@ Contiene TRUE si algún proveedor de transporte ya ha aceptado la responsabilida
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando la cola MAPI presenta un mensaje saliente a un proveedor de transporte, a través de [IXPLogon::SubmitMessage](ixplogon-submitmessage.md), establece esta propiedad en FALSE para todos los destinatarios de los que la cola MAPI considera responsable al proveedor de transporte y TRUE para todos los demás destinatarios. El proveedor de transporte debe intentar controlar todos los destinatarios con **PR_RESPONSIBILITY** establecido en FALSE. Después de enviar correctamente o no enviar de forma concluyente a un destinatario, el proveedor de transporte debe establecer esta propiedad en TRUE en el mensaje de origen para indicar que ha aceptado la responsabilidad de ese destinatario. 
+Cuando la cola MAPI presenta un mensaje saliente a un proveedor de transporte, a través de [IXPLogon::SubmitMessage](ixplogon-submitmessage.md), establece esta propiedad en FALSE para todos los destinatarios de los que la cola MAPI considera responsable a ese proveedor de transporte y TRUE para todos los demás destinatarios. El proveedor de transporte debe intentar controlar todos los destinatarios con **PR_RESPONSIBILITY** establecido en FALSE. Después de enviar correctamente, o no enviar de forma concluyente, a un destinatario, el proveedor de transporte debe establecer esta propiedad en TRUE en el mensaje de origen para indicar que ha aceptado la responsabilidad de ese destinatario. 
   
-Si, después de examinar un destinatario, un proveedor de transporte decide que no  puede o no debe controlarlo, el proveedor de transporte debe dejar PR_RESPONSIBILITY establecido en FALSE. A continuación, la cola MAPI buscará otro proveedor de transporte que pueda controlar ese destinatario. En última instancia, la cola MAPI crea un informe de no entrega para los destinatarios para los que ningún proveedor de transporte acepta responsabilidades. 
+Si, después de examinar un destinatario, un proveedor de transporte decide que no  puede o no debe controlarlo, el proveedor de transporte debe dejar PR_RESPONSIBILITY establecido en FALSE. A continuación, la cola MAPI buscará otro proveedor de transporte que pueda controlar ese destinatario. En última instancia, la cola MAPI crea un informe de no entrega para los destinatarios de los que ningún proveedor de transporte acepta responsabilidades. 
   
-Si el proveedor de transporte intenta entregar el mensaje y no lo consigue, debe llamar al método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) para indicar a MAPI las razones del error, de modo que MAPI pueda generar un informe de no entrega. 
+Si el proveedor de transporte intenta y no entrega el mensaje, debe llamar al método [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) para indicar a MAPI las razones del error, de modo que MAPI pueda generar un informe de no entrega. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -73,7 +73,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

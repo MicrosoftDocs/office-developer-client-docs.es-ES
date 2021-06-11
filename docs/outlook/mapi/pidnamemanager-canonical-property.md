@@ -1,5 +1,5 @@
 ---
-title: PidNameManager (propiedad canónica)
+title: Propiedad canónica PidNameManager
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32335318"
 ---
-# <a name="pidnamemanager-canonical-property"></a>PidNameManager (propiedad canónica)
+# <a name="pidnamemanager-canonical-property"></a>Propiedad canónica PidNameManager
 
   
   
@@ -43,9 +43,9 @@ Especifica el administrador del archivo adjunto al documento.
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los documentos.
+> Especifica las propiedades y las operaciones permitidas en los documentos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

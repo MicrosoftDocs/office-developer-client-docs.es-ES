@@ -25,7 +25,7 @@ ms.locfileid: "32316595"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Implementa un objeto de almacenamiento para tener acceso a una secuencia.
+Implementa un objeto de almacenamiento para obtener acceso a una secuencia.
   
 ```cpp
 HRESULT IStorageFromStream(
@@ -36,23 +36,23 @@ HRESULT IStorageFromStream(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpUnkIn_
   
-> [entrada] Puntero a un objeto de secuencia.
+> [in] Puntero a un objeto stream.
     
  _lpInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la secuencia a la que apunta  _lpUnkIn_. Cualquiera de los siguientes valores son válidos: IID_IStream, IID_ILockBytes o **null**, lo que indica que se debe usar la interfaz [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) para obtener acceso a la secuencia. 
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la secuencia a la que  _apunta lpUnkIn_. Cualquiera de los siguientes valores son válidos: IID_IStream, IID_ILockBytes o **null**, lo que indica que la interfaz [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) debe usarse para obtener acceso a la secuencia. 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla cómo se va a crear el objeto de almacenamiento en relación con el objeto de secuencia. De forma predeterminada, el almacenamiento se crea con acceso de solo lectura y la secuencia comienza en la posición cero del almacenamiento. Se pueden establecer las siguientes marcas:
+> [in] Máscara de bits de marcas que controla cómo se va a crear el objeto de almacenamiento en relación con el objeto stream. De forma predeterminada, el almacenamiento se crea con acceso de solo lectura y la secuencia comienza en la posición cero del almacenamiento. Se pueden establecer las siguientes marcas:
     
 STGSTRM_CREATE 
   
-> Se debe crear un nuevo objeto de almacenamiento para el objeto de secuencia.
+> Se debe crear un nuevo objeto de almacenamiento para el objeto stream.
     
 STGSTRM_CURRENT 
   
@@ -78,7 +78,7 @@ S_OK
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISupport::IStorageFromStream** se implementa para todos los objetos de compatibilidad del proveedor de servicios. Los proveedores de servicios **llaman a IStorageFromStream** para crear un objeto de almacenamiento que se usará para abrir propiedades concretas. Los proveedores de servicios que tienen su propia implementación de [la interfaz IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) no necesitan llamar a **IStorageFromStream**. 
+El **método IMAPISupport::IStorageFromStream** se implementa para todos los objetos de soporte del proveedor de servicios. Los proveedores de servicios llaman a **IStorageFromStream** para crear un objeto de almacenamiento que se usará para abrir propiedades concretas. Los proveedores de servicios que tienen su propia implementación de la [interfaz IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) no necesitan llamar a **IStorageFromStream**. 
   
 El objeto de almacenamiento creado por **IStorageFromStream** llama al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) de la secuencia para incrementar su recuento de referencias y, a continuación, disminuye el recuento cuando se libera el almacenamiento. 
   
@@ -86,21 +86,21 @@ El objeto de almacenamiento creado por **IStorageFromStream** llama al método [
 
 Cuando se llama al método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) de uno de los objetos para abrir una propiedad con la interfaz **IStorage,** realice las siguientes tareas: 
   
-1. Abra un objeto de secuencia con permiso de lectura y escritura para la propiedad.
+1. Abra un objeto stream con permiso de lectura y escritura para la propiedad.
     
 2. Marca internamente la secuencia de propiedades como un objeto de almacenamiento.
     
-3. Llama **a IStorageFromStream** para generar un objeto de almacenamiento. 
+3. Llame **a IStorageFromStream** para generar un objeto de almacenamiento. 
     
 4. Devuelve un puntero a este objeto de almacenamiento.
     
-Si implementa interfaces adicionales que usan el objeto de almacenamiento, cree un objeto que ajuste el objeto de almacenamiento e implemente un método [IUnknown::QueryInterface de nivel](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) superior. 
+Si implementa interfaces adicionales que usan el objeto de almacenamiento, cree un objeto que ajuste el objeto de almacenamiento e implemente un método [IUnknown::QueryInterface de](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) nivel superior. 
   
-No permitir que se abra una propiedad con la **interfaz IStream** si se creó con **IStorage**. Por el contrario, no permita que se abra una propiedad con la interfaz **IStorage** si se creó con **IStream**. 
+No permita que se abra una propiedad con la **interfaz IStream** si se creó con **IStorage**. Por el contrario, no permita que se abra una propiedad con la **interfaz IStorage** si se creó con **IStream**. 
   
 Con una excepción, es aceptable usar la interfaz **IStreamDocfile** para transmitir un objeto de almacenamiento de un contenedor a otro, pero el identificador de interfaz IID_IStreamDocfile debe pasarse en el parámetro _lpInterface_ del método **OpenProperty.** 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

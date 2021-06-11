@@ -25,19 +25,19 @@ ms.locfileid: "32331286"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si un usuario al que se asigna una tarea ha respondido a una solicitud de tarea.
+Indica si un usuario asignado a una tarea ha respondido a una solicitud de tarea.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskAccepted  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008108  <br/> |
+|Id. largo (LID):  <br/> |0x00008108  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El cliente establece esta propiedad en FALSE para una nueva tarea o el cliente establece esta propiedad en TRUE cuando se acepta o rechaza una tarea. Si la propiedad se deja sin conjunto, se supone un valor FALSE.
+El cliente establece esta propiedad en FALSE para una nueva tarea o el cliente establece esta propiedad en TRUE cuando se acepta o rechaza una tarea. Si la propiedad se deja sin conjunto, se asume un valor de FALSE.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -47,9 +47,9 @@ El cliente establece esta propiedad en FALSE para una nueva tarea o el cliente e
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

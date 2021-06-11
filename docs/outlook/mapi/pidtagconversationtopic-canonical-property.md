@@ -36,11 +36,11 @@ Contiene el tema del primer mensaje de un hilo de conversación.
    
 ## <a name="remarks"></a>Comentarios
 
-Un hilo de conversación representa una serie de mensajes y respuestas. Estas propiedades se establecen para el primer mensaje de un subproceso, normalmente en la propiedad **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). Los mensajes posteriores en el subproceso deben usar el mismo tema sin modificaciones. 
+Un subproceso de conversación representa una serie de mensajes y respuestas. Estas propiedades se establecen para el primer mensaje de un subproceso, normalmente en la propiedad **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). Los mensajes subsiguientes del subproceso deben usar el mismo tema sin modificaciones. 
   
-La **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) indica la relación de orden entre mensajes y respuestas posteriores. Su uso es opcional, incluso si se establecen estas propiedades. 
+La **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) indica la relación de orden entre mensajes y respuestas posteriores. Su uso es opcional, incluso si estas propiedades están establecidas. 
   
-Un proveedor de almacén de mensajes tiene la opción de asegurar que estas propiedades siempre se establecen en los mensajes entrantes o salientes. Si estas propiedades ya están establecidas, no deben modificarse. Si no es así, se pueden establecer en **PR_NORMALIZED_SUBJECT**. Se debe realizar cualquier acción antes de [llamar a IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
+Un proveedor de almacén de mensajes tiene la opción de asegurar que estas propiedades siempre se establecen en los mensajes entrantes o salientes. Si estas propiedades ya están establecidas, no se deben modificar. Si no es así, se pueden establecer **en PR_NORMALIZED_SUBJECT**. Cualquier acción debe realizarse antes de [llamar a IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -52,7 +52,7 @@ Un proveedor de almacén de mensajes tiene la opción de asegurar que estas prop
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

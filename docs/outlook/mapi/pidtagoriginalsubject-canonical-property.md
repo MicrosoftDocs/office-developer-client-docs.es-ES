@@ -25,7 +25,7 @@ ms.locfileid: "32331146"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el asunto de un mensaje original para usarlo en un informe sobre el mensaje.
+Contiene el asunto de un mensaje original para su uso en un informe sobre el mensaje.
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Contiene el asunto de un mensaje original para usarlo en un informe sobre el men
 
 Estas propiedades se establecen originalmente en el mismo valor que **la propiedad PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
   
-Las propiedades de asunto suelen ser cadenas pequeñas de menos de 256 caracteres y un proveedor de almacenamiento de mensajes no está obligado a admitir la interfaz **IStream** de vinculación e incrustación de objetos (OLE) en ellas. El cliente siempre debe intentar obtener acceso a través de la interfaz **IMAPIProp** en primer lugar y recurrir a **IStream** solo si MAPI_E_NOT_ENOUGH_MEMORY **se** devuelve. 
+Las propiedades del asunto suelen ser pequeñas cadenas de menos de 256 caracteres y un proveedor de almacén de mensajes no está obligado a admitir la interfaz **IStream** de vinculación e inserción de objetos (OLE) en ellas. El cliente siempre debe intentar el acceso a través de la interfaz **IMAPIProp** primero y recurrir a **IStream** solo si **MAPI_E_NOT_ENOUGH_MEMORY** se devuelve. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,7 +54,7 @@ Las propiedades de asunto suelen ser cadenas pequeñas de menos de 256 caractere
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

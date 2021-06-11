@@ -25,19 +25,19 @@ ms.locfileid: "32336928"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa la fecha y hora de finalización del mensaje de diario.
+Representa la fecha y hora de finalización del mensaje del diario.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidLogEnd  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Log  <br/> |
-|Long ID (LID):  <br/> |0x00008708  <br/> |
+|Id. largo (LID):  <br/> |0x00008708  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Diario  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-La hora en que la actividad finalizó en hora universal coordinada (UTC), que debe ser igual a la propiedad **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) y mayor o igual que **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)).
+Hora en que la actividad finalizó en hora universal coordinada La (UTC), que debe ser igual a la propiedad **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) y mayor o igual que la propiedad **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -47,9 +47,9 @@ La hora en que la actividad finalizó en hora universal coordinada (UTC), que de
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los diarios.
+> Especifica las propiedades y las operaciones que son permisibles para los diarios.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

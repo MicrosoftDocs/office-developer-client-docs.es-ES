@@ -25,19 +25,19 @@ ms.locfileid: "32316628"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una estructura RecurrencePattern que proporciona información acerca de las tareas periódicas.
+Contiene una estructura RecurrencePattern que proporciona información sobre las tareas periódicas.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskRecur  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008116  <br/> |
+|Id. largo (LID):  <br/> |0x00008116  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Para obtener información acerca de cómo crear y especificar una estructura RecurrencePattern, vea [Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md).
+Para obtener información sobre cómo crear y especificar una estructura RecurrencePattern, vea [Create a Simple Recurrent Task Item](how-to-create-a-simple-recurrent-task-item.md).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -45,11 +45,11 @@ Para obtener información acerca de cómo crear y especificar una estructura Rec
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
+> Proporciona la definición del conjunto de propiedades y las referencias a las Exchange Server de protocolo relacionados.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
@@ -65,13 +65,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Creación de un asunto del mensaje
+title: Creación de un asunto de mensaje
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32332966"
 ---
-# <a name="creating-a-message-subject"></a>Creación de un asunto del mensaje
+# <a name="creating-a-message-subject"></a>Creación de un asunto de mensaje
 
   
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-El asunto de un mensaje, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)), es una propiedad opcional, que se usa para resumir la intención de un mensaje. Si decide establecerla, conséctela como una cadena de caracteres de 128 bytes o menos. El límite de 128 bytes no es un límite impuesto por MAPI; es un límite impuesto por algunos proveedores de al almacenamiento de mensajes. Para garantizar la interoperabilidad con los proveedores que sí lo imponen, limite los sujetos a 128 bytes. 
+El asunto de un mensaje, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)), es una propiedad opcional, que se usa para resumir la intención de un mensaje. Si decides establecerlo, haz que sea una cadena de caracteres de 128 bytes o menos. El límite de 128 bytes no es un límite impuesto por MAPI; es un límite impuesto por algunos proveedores de almacenes de mensajes. Para garantizar la interoperabilidad con los proveedores que sí lo imponen, limite los sujetos a 128 bytes. 
   
-Tenga en cuenta que algunos proveedores de al almacenamiento de mensajes **no** PR_SUBJECT que se escriban en una secuencia con la [interfaz IStream.](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) 
+Tenga en cuenta que algunos proveedores de almacén de mensajes **PR_SUBJECT** que se escriban en una secuencia con la [interfaz IStream.](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) 
   
-No establecer **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)); esta propiedad se establece solo en respuestas y mensajes reenviados. 
+No establezca **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)); esta propiedad solo se establece en las respuestas y los mensajes reenviados. 
   
 

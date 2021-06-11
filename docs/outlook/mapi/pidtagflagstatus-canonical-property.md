@@ -25,7 +25,7 @@ ms.locfileid: "32316299"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el estado de marca del objeto de mensaje.
+Especifica el estado de marca del objeto message.
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ Esta propiedad no debe existir en un objeto relacionado con la reunión y no deb
   
 |**Valor numérico**|**Nombre**|**Descripción**|
 |:-----|:-----|:-----|
-|No presente  <br/> |N/D  <br/> |Sin inflar  <br/> |
+|No presente  <br/> |N/D  <br/> |Sinflagged  <br/> |
 |0x00000001  <br/> |followupComplete  <br/> |Marcado completado  <br/> |
 |0x00000002  <br/> |followupFlagged  <br/> |Marcado  <br/> |
    
@@ -54,7 +54,7 @@ Esta propiedad no debe existir en un objeto relacionado con la reunión y no deb
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

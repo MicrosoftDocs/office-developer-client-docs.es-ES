@@ -25,7 +25,7 @@ ms.locfileid: "32316376"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la fecha y la hora en que el sistema de mensajería puede invalidar el contenido de un mensaje. 
+Contiene la fecha y hora en que el sistema de mensajería puede invalidar el contenido de un mensaje. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene la fecha y la hora en que el sistema de mensajería puede invalidar el 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se usa para dirigir al sistema de mensajería en el tratamiento de los mensajes interpersonales entregados. 
+Esta propiedad se usa para dirigir el sistema de mensajería en el control de mensajes interpersonales entregados. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Esta propiedad se usa para dirigir al sistema de mensajería en el tratamiento d
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en los mensajes de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

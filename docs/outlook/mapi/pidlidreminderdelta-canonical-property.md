@@ -25,19 +25,19 @@ ms.locfileid: "32315893"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el intervalo, en minutos, entre el momento en que el aviso se hace vencido por primera vez y la hora de inicio del objeto de calendario.
+Especifica el intervalo, en minutos, entre la hora en la que el aviso llega por primera vez a su fin y la hora de inicio del objeto calendar.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidReminderDelta  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008501  <br/> |
+|Id. largo (LID):  <br/> |0x00008501  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad debe establecerse en objetos de calendario. Para todos los objetos que no son de calendario, esta propiedad debe establecerse en "0x00000000" y se omite. Cuando se descarta un aviso para una instancia de un objeto de calendario periódico, el valor de esta propiedad se usa en el cálculo de la hora de señal para la siguiente instancia. Vea [[MS- OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) para obtener más información sobre la creación de objetos de calendario. 
+Esta propiedad debe establecerse en objetos de calendario. Para todos los objetos que no son de calendario, esta propiedad debe establecerse en "0x00000000" y se omite. Cuando se descarta un aviso para una instancia de un objeto de calendario periódico, el valor de esta propiedad se usa en el cálculo de la hora de señal de la siguiente instancia. Vea [[MS- OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) para obtener más información sobre la creación de objetos de calendario. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

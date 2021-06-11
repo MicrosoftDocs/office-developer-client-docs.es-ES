@@ -31,13 +31,13 @@ Especifica información sobre la zona horaria de una reunión periódica.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |LID_TIME_ZONE  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Meeting  <br/> |
-|Long ID (LID):  <br/> |0x0000000C  <br/> |
+|Id. largo (LID):  <br/> |0x0000000C  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad solo se lee si la propiedad **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) no está establecida, pero si la propiedad **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) es TRUE y la propiedad **LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) es FALSE. Word inferior especifica un índice en una tabla que contiene información de zona horaria. Desde la parte superior de WORD, solo se lee el bit más alto. Si se establece ese bit, la zona horaria a la que se hace referencia no observará el horario de verano (DST), de lo contrario se seguirán las fechas de horario de verano detalladas en [[MS-OLICOCAL].](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) 
+Esta propiedad solo se lee si la propiedad **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) no está establecida, pero si la propiedad **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) es TRUE y la propiedad **LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) es FALSE. Word inferior especifica un índice en una tabla que contiene información de zona horaria. Desde word superior, solo se lee el bit más alto. Si se establece ese bit, la zona horaria a la que se hace referencia no observará el horario de verano (DST), de lo contrario se seguirán las fechas de DST detalladas en [[MS-OXOCAL].](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Esta propiedad solo se lee si la propiedad **dispidApptRecur** ([PidLidAppointme
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

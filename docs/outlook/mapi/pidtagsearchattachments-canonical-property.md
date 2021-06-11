@@ -21,7 +21,7 @@ ms.locfileid: "32336326"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una cadena Unicode que se consulta en el contenido de los datos adjuntos del almacén.
+Contiene una cadena Unicode que se consulta en el contenido de los datos adjuntos en el almacén.
   
 ## 
 
@@ -35,7 +35,7 @@ Contiene una cadena Unicode que se consulta en el contenido de los datos adjunto
 ## <a name="related-resources"></a>Recursos relacionados
 
 > [!NOTE]
-> Es posible que esta etiqueta de restricción MAPI, que se usa al buscar contenido de datos adjuntos, no esté definida en el archivo de encabezado descargable que tiene actualmente. Puedes agregarlo al código mediante el siguiente valor: >  `#define PR_SEARCH_ATTACHMENTS_W PROP_TAG(PT_UNICODE, 0x0EA5)`
+> Es posible que esta etiqueta de restricción MAPI, que se usa al buscar contenido de datos adjuntos, no se defina en el archivo de encabezado descargable que tiene actualmente. Puede agregarlo al código mediante el siguiente valor: >  `#define PR_SEARCH_ATTACHMENTS_W PROP_TAG(PT_UNICODE, 0x0EA5)`
   
 ### <a name="protocol-specifications"></a>Especificaciones del protocolo
 
@@ -57,13 +57,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

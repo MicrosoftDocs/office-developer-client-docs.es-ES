@@ -31,7 +31,7 @@ HRESULT EnumBlocks(
 
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _ppenumfb_
   
@@ -39,11 +39,11 @@ _ppenumfb_
     
 _ftmStart_
   
-> [entrada] La hora de inicio de la enumeración. Se expresa en [FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
+> [in] Hora de inicio de la enumeración. Se expresa en [FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
     
 _ftmEnd_
   
-> [entrada] Hora de finalización de la enumeración. Se expresa en **FILETIME**. 
+> [in] Hora de finalización de la enumeración. Se expresa en **FILETIME**. 
     
 ## <a name="return-values"></a>Valores devueltos
 
@@ -51,11 +51,11 @@ S_OK si la llamada se realiza correctamente; de lo contrario, un código de erro
   
 ## <a name="remarks"></a>Comentarios
 
-Este método se usa para indicar el intervalo de tiempo de los elementos del calendario para los que se recuperarán los detalles. Los valores de  *ftmStart* y *ftmEnd* se almacenan en caché y se devuelven en una llamada posterior de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
+Este método se usa para indicar el intervalo de tiempo de los elementos del calendario para los que se van a recuperar detalles. Los valores de  *ftmStart* y *ftmEnd* se almacenan en caché y se devuelven en una llamada posterior de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
 Un proveedor de disponibilidad también puede usar posteriormente la interfaz [IEnumFBBlock](ienumfbblock.md) devuelta para obtener acceso a la enumeración. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [IEnumFBBlock](ienumfbblock.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)

@@ -31,7 +31,7 @@ Especifica el tipo de periodicidad de la serie periódica.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidRecurType  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008231  <br/> |
+|Id. largo (LID):  <br/> |0x00008231  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Calendar  <br/> |
    
@@ -42,9 +42,9 @@ Esta propiedad especifica el tipo de periodicidad de la serie periódica mediant
 |**Estado**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
 |rectypeNone  <br/> |0  <br/> |Una cita de instancia única.  <br/> |
-|rectypeDaily  <br/> |1   <br/> |Patrón de periodicidad diario.  <br/> |
-|rectypeWeekly  <br/> |2   <br/> |Patrón de periodicidad semanal.  <br/> |
-|rectypeMonthly  <br/> |3   <br/> |Patrón de periodicidad mensual.  <br/> |
+|rectypeDaily  <br/> |1  <br/> |Patrón de periodicidad diario.  <br/> |
+|rectypeWeekly  <br/> |2  <br/> |Patrón de periodicidad semanal.  <br/> |
+|rectypeMonthly  <br/> |3  <br/> |Patrón de periodicidad mensual.  <br/> |
 |rectypeYearly  <br/> |4   <br/> |Patrón de periodicidad anual.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -57,7 +57,7 @@ Esta propiedad especifica el tipo de periodicidad de la serie periódica mediant
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -65,13 +65,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

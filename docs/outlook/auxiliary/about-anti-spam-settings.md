@@ -28,14 +28,14 @@ Use las siguientes propiedades para obtener la configuración contra correo no d
 |:-----|:-----|
 |Ninguno  <br/> |0xFFFFFFFF  <br/> |
 |Bajo  <br/> |0x00000006  <br/> |
-|Mediano  <br/> |0x00000005  <br/> |
+|Medio  <br/> |0x00000005  <br/> |
 |Alto  <br/> |0x00000003  <br/> |
    
 - [PidTagSpamTrustedRecipients:](https://msdn.microsoft.com/library/59f43316-3ff6-4ed0-bc29-b31039192b08%28Office.15%29.aspx)especifica una lista delimitada por punto y coma de direcciones de correo electrónico y dominios que el usuario ha especificado como destinatarios de confianza para la cuenta.
     
 - [PidTagSpamTrustedSenders:](https://msdn.microsoft.com/library/8e3f0094-e64b-4828-ba8f-5eed35f85366%28Office.15%29.aspx)especifica una lista delimitada por punto y coma de direcciones de correo electrónico y dominios que el usuario ha especificado como remitentes de confianza para la cuenta.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 - [Agregar nombres a las listas de filtro de correo no deseado](https://office.microsoft.com/en-us/outlook-help/add-names-to-the-junk-email-filter-lists-HA010355043.aspx?CTT=1)

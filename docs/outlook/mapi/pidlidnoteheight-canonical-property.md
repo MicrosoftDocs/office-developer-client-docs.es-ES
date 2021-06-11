@@ -31,9 +31,9 @@ Especifica el alto de la ventana de mensaje visible en píxeles.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidNoteHeight  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Note  <br/> |
-|Long ID (LID):  <br/> |0x00008B03  <br/> |
+|Id. largo (LID):  <br/> |0x00008B03  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Nota rápida  <br/> |
+|Área:  <br/> |Nota pegajosa  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -49,7 +49,7 @@ Este valor debe ser mayor que cero.
     
 [[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en las notas.
+> Especifica las propiedades y las operaciones permitidas en las notas.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

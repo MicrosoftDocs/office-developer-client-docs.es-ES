@@ -19,8 +19,8 @@ ms.locfileid: "32326232"
 
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Al abrir datos adjuntos de un objeto OLE, use la **interfaz IStreamDocfile** en lugar de [IStream](https://msdn.microsoft.com/library/windows/desktop/aa380034%28v=vs.85%29.aspx) o [IStorage](https://msdn.microsoft.com/library/windows/desktop/aa380015%28v=vs.85%29.aspx). 
+Al abrir los datos adjuntos de un objeto OLE, use la **interfaz IStreamDocfile** en lugar de [IStream](https://msdn.microsoft.com/library/windows/desktop/aa380034%28v=vs.85%29.aspx) o [IStorage](https://msdn.microsoft.com/library/windows/desktop/aa380015%28v=vs.85%29.aspx). 
 
-**IStreamDocfile proporciona** acceso directo al objeto mediante almacenamiento estructurado, lo que elimina la necesidad de realizar una operación de copia y reduce la sobrecarga. **IStreamDocfile** es una implementación específica de **IStream** con el contenido de la secuencia que se garantiza que tenga el formato de almacenamiento estructurado. **IStreamDocfile** lo implementan los proveedores de al almacenamiento de mensajes. 
+**IStreamDocfile** proporciona acceso directo al objeto mediante almacenamiento estructurado, lo que elimina la necesidad de realizar una operación de copia y reduce la sobrecarga. **IStreamDocfile** es una implementación específica de **IStream** con el contenido de la secuencia con el formato garantizado como almacenamiento estructurado. Los proveedores de almacén de mensajes implementan **IStreamDocfile.** 
   
 

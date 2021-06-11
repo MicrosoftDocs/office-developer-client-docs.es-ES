@@ -25,7 +25,7 @@ ms.locfileid: "32329424"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Abre la libreta de direcciones integrada mapi y devuelve un [puntero IAddrBook](iaddrbookimapiprop.md) para obtener más acceso. 
+Abre la libreta de direcciones integrada MAPI y devuelve un puntero [IAddrBook](iaddrbookimapiprop.md) para obtener más acceso. 
   
 ```cpp
 HRESULT OpenAddressBook(
@@ -36,23 +36,23 @@ HRESULT OpenAddressBook(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [entrada] Identificador de la ventana principal del cuadro de diálogo de dirección común y otras pantallas relacionadas.
+> [in] Identificador de la ventana principal del cuadro de diálogo dirección común y otras pantallas relacionadas.
     
  _lpInterface_
   
-> [entrada] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la libreta de direcciones. Pasar **null** devuelve un puntero a la interfaz estándar de la libreta de direcciones, [IAddrBook : IMAPIProp](iaddrbookimapiprop.md). 
+> [in] Puntero al identificador de interfaz (IID) que representa la interfaz que se usará para tener acceso a la libreta de direcciones. Pasar **null** devuelve un puntero a la interfaz estándar de la libreta de direcciones, [IAddrBook : IMAPIProp](iaddrbookimapiprop.md). 
     
  _ulFlags_
   
-> [entrada] Máscara de bits de marcas que controla la apertura de la libreta de direcciones. Se puede establecer la siguiente marca:
+> [in] Máscara de bits de marcas que controla la apertura de la libreta de direcciones. Se puede establecer la siguiente marca:
     
 AB_NO_DIALOG 
   
-> Suprime la presentación de cuadros de diálogo. Si no AB_NO_DIALOG marca, los proveedores de libretas de direcciones que contribuyen a la libreta de direcciones integrada pueden solicitar al usuario la información necesaria. 
+> Suprime la presentación de cuadros de diálogo. Si no AB_NO_DIALOG marca, los proveedores de libreta de direcciones que contribuyen a la libreta de direcciones integrada pueden solicitar al usuario cualquier información necesaria. 
     
  _lppAdrBook_
   
@@ -66,17 +66,17 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> La llamada se ha hecho correctamente, pero no se pudieron abrir los contenedores de uno o varios proveedores de libretas de direcciones. Cuando se devuelve esta advertencia, la llamada debe tratarse como correcta. Para probar esta advertencia, use la **macro HR_FAILED** datos. Para obtener más información, vea [Usar macros para el control de errores.](using-macros-for-error-handling.md)
+> La llamada se ha hecho correctamente, pero no se pudieron abrir los contenedores de uno o varios proveedores de libreta de direcciones. Cuando se devuelve esta advertencia, la llamada debe controlarse como correcta. Para probar esta advertencia, use la **HR_FAILED** macro. Para obtener más información, vea [Using Macros for Error Handling](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Comentarios
 
-El **método IMAPISession::OpenAddressBook** abre la libreta de direcciones integrada mapi, una colección de contenedores de nivel superior de todos los proveedores de libretas de direcciones en el perfil. El puntero que se devuelve en el  _parámetro lppAdrBook_ proporciona acceso adicional al contenido de la libreta de direcciones. Esto permite al autor de la llamada realizar tareas como abrir contenedores individuales, buscar usuarios de mensajería y mostrar cuadros de diálogo de direcciones comunes. 
+El **método IMAPISession::OpenAddressBook** abre la libreta de direcciones integrada MAPI, una colección de contenedores de nivel superior de todos los proveedores de libreta de direcciones del perfil. El puntero que se devuelve en el parámetro  _lppAdrBook_ proporciona acceso adicional al contenido de la libreta de direcciones. Esto permite al autor de la llamada realizar tareas como abrir contenedores individuales, buscar usuarios de mensajería y mostrar cuadros de diálogo de direcciones comunes. 
   
 ## <a name="notes-to-callers"></a>Notas para los llamadores
 
- **OpenAddressBook** devuelve MAPI_W_ERRORS_RETURNED si no puede cargar uno o varios de los proveedores de libretas de direcciones en el perfil. Este valor es una advertencia, no un valor de error; controlarlo como lo haría S_OK. **OpenAddressBook** siempre devuelve un puntero válido en el parámetro  _lppAdrBook,_ independientemente del número de proveedores de libretas de direcciones que no se pudieron cargar. Por lo tanto, siempre debe llamar al método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de la libreta de direcciones en algún momento antes de cerrar sesión. 
+ **OpenAddressBook** devuelve MAPI_W_ERRORS_RETURNED si no puede cargar uno o varios de los proveedores de libreta de direcciones en el perfil. Este valor es una advertencia, no un valor de error; controlarlo como se S_OK. **OpenAddressBook** siempre devuelve un puntero válido en el parámetro  _lppAdrBook,_ independientemente del número de proveedores de libreta de direcciones que no se pudieron cargar. Por lo tanto, siempre debe llamar al método [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de la libreta de direcciones en algún momento antes de cerrar sesión. 
   
-Cuando **OpenAddressBook** devuelve MAPI_W_ERRORS_RETURNED, llame a [IMAPISession::GetLastError](imapisession-getlasterror.md) para obtener una estructura [MAPIERROR](mapierror.md) que contenga información sobre los proveedores con errores. Se devuelve **una única estructura MAPIERROR** que contiene información proporcionada por todos los proveedores. 
+Cuando **OpenAddressBook** devuelve MAPI_W_ERRORS_RETURNED, llama a [IMAPISession::GetLastError](imapisession-getlasterror.md) para obtener una estructura [MAPIERROR](mapierror.md) que contenga información sobre los proveedores con errores. Se devuelve una única estructura **MAPIERROR** que contiene información proporcionada por todos los proveedores. 
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -86,7 +86,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI usa el **método IMAPISession::OpenAddressBook** para obtener la libreta de direcciones integrada.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

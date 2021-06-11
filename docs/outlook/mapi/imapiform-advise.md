@@ -25,7 +25,7 @@ ms.locfileid: "32329487"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Registra un visor de formulario para notificaciones sobre eventos que afectan al formulario.
+Registra un visor de formularios para notificaciones sobre eventos que afectan al formulario.
   
 ```cpp
 HRESULT Advise(
@@ -34,11 +34,11 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pAdvise_
   
-> [entrada] Un puntero a un objeto receptor de aviso de vista para recibir las notificaciones posteriores. 
+> [in] Un puntero a una vista aconseja al objeto receptor que reciba las notificaciones posteriores. 
     
  _pulConnection_
   
@@ -60,15 +60,15 @@ Los visores de formularios llaman al método **IMAPIForm::Advise** de un formula
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Mantenga una copia del puntero receptor de aviso de vista pasado en el parámetro  _pAdvise_ para que pueda usarlo para llamar al método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) adecuado cuando se produzca un evento. Llama al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del receptor del aviso de vista para conservar el puntero hasta que se cancele el registro de notificaciones. Establezca el contenido del  _parámetro pulConnection_ en un número distinto de cero. 
+Mantenga una copia del puntero de receptor de aviso de vista pasado en el  _parámetro pAdvise_ para que pueda usarlo para llamar al método [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) adecuado cuando se produzca un evento. Llame al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de la vista advise para conservar el puntero hasta que se cancele el registro de notificación. Establezca el contenido del  _parámetro pulConnection_ en un número distinto de cero. 
   
-Muchos formularios implementan un objeto auxiliar para controlar el registro y la notificación subsiguiente de eventos. 
+Muchos formularios implementan un objeto auxiliar para controlar el registro y la notificación posterior de eventos. 
   
-Para obtener más información sobre el proceso de notificación en general, vea [Notificación de eventos en MAPI](event-notification-in-mapi.md). 
+Para obtener más información sobre el proceso de notificación en general, vea [Event Notification in MAPI](event-notification-in-mapi.md). 
   
-Para obtener más información acerca de las notificaciones y los [formularios, vea Enviar y recibir notificaciones de formularios.](sending-and-receiving-form-notifications.md)
+Para obtener más información acerca de las notificaciones y los [formularios,](sending-and-receiving-form-notifications.md)vea Sending and Receiving Form Notifications .
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -81,5 +81,5 @@ Para obtener más información acerca de las notificaciones y los [formularios, 
 
 [Notificación de eventos en MAPI](event-notification-in-mapi.md)
   
-[Enviar y recibir notificaciones de formularios](sending-and-receiving-form-notifications.md)
+[Enviar y recibir notificaciones de formulario](sending-and-receiving-form-notifications.md)
 

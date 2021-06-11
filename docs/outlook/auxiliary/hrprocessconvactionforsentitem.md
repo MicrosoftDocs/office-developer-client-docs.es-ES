@@ -22,7 +22,7 @@ Realiza la categorización posterior al envío en un elemento de correo basado e
 
 |||
 |:-----|:-----|
-|Exportado por:  <br/> |Outlook.exe  <br/> |
+|Exportada por:  <br/> |Outlook.exe  <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Outlook  <br/> |
    
@@ -34,27 +34,27 @@ HRESULT WINAPI HrProcessConvActionForSentItem(
     DWORD dwFlags)
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pmbinStoreEid_
   
-> [entrada] [PidTagEntryId del](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) almacén o [PidTagStoreEntryId](https://msdn.microsoft.com/library/0d705667-19f4-4eda-a068-e65ea8f00d9b%28Office.15%29.aspx) del elemento de correo. No puede ser NULL o no válido. 
+> [in] [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) del almacén o [PidTagStoreEntryId](https://msdn.microsoft.com/library/0d705667-19f4-4eda-a068-e65ea8f00d9b%28Office.15%29.aspx) del elemento de correo. No puede ser NULL o no es válido. 
     
 _pmbinMsgEid_
   
-> [entrada] [PidTagEntryId del](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) elemento de correo. No puede ser NULL o no válido. 
+> [in] [PidTagEntryId del](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) elemento de correo. No puede ser NULL o no es válido. 
     
 _pmbinConvID_
   
-> [entrada] [PidTagConversationId del](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx) elemento de correo. No puede ser NULL o no válido. 
+> [in] [PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx) del elemento de correo. No puede ser NULL o no es válido. 
     
 _dwFlags_
   
-> [entrada] Máscara de bits que especifica información adicional sobre la llamada al método.
+> [in] Máscara de bits que especifica información adicional acerca de la llamada al método.
     
-   - 0: no se usan opciones adicionales en esta llamada de método. Este es el valor recomendado. 
+   - 0: no se usan opciones adicionales en esta llamada al método. Este es el valor recomendado. 
     
-   - **PCAFSIF_MSGEID_IS_SEARCH_KEY:** _pmbinMsgEid_ es en realidad [pidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) del mensaje. El uso **de PidTagSearchKey** consume muchos recursos y debe evitarse si un [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) está disponible. 
+   - **PCAFSIF_MSGEID_IS_SEARCH_KEY:** _pmbinMsgEid_ es en realidad [el PidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) del mensaje. El uso **de PidTagSearchKey** consume muchos recursos y debe evitarse si hay un [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) disponible. 
     
 ## <a name="return-values"></a>Valores devueltos
 

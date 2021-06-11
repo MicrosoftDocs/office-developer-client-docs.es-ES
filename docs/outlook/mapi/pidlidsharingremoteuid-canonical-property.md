@@ -25,19 +25,19 @@ ms.locfileid: "32331265"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el identificador de entrada de la carpeta remota que se va a compartir. Esta es una propiedad de un mensaje para compartir.
+Especifica el identificador de entrada de la carpeta remota que se va a compartir. Esta es una propiedad de un mensaje de uso compartido.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSharingRemoteUid  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Sharing  <br/> |
-|Long ID (LID):  <br/> |0x00008A06  <br/> |
+|Id. largo (LID):  <br/> |0x00008A06  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Compartir  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad debe establecerse en la representación de cadena hexadecimal del valor de la propiedad PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) en la carpeta que se va a compartir. Esta es una propiedad de un mensaje para compartir.
+Esta propiedad debe establecerse en la representación de cadena hexadecimal del valor de la propiedad PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la carpeta que se comparte. Esta es una propiedad de un mensaje de uso compartido.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

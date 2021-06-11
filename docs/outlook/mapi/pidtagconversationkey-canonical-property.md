@@ -21,7 +21,7 @@ ms.locfileid: "32334702"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la clave de conversación que se usa en Microsoft Outlook solo al buscar **IPM. Mensajes de MessageManager,** como el mensaje que contiene el historial de descargas de una cuenta de Protocolo de oficina de correos (POP3). Esta propiedad ha quedado en desuso en Microsoft Exchange Server. 
+Contiene la clave de conversación usada en Microsoft Outlook solo al localizar **IPM. Mensajes messageManager,** como el mensaje que contiene el historial de descarga de una cuenta de Office (POP3). Esta propiedad ha quedado en desuso en Microsoft Exchange Server. 
   
 |||
 |:-----|:-----|
@@ -32,7 +32,7 @@ Contiene la clave de conversación que se usa en Microsoft Outlook solo al busca
    
 ## <a name="remarks"></a>Comentarios
 
-Al obtener acceso a los mensajes de correo electrónico como conversaciones y convertir las propiedades del mensaje al formato de encapsulación neutro para transporte [(TNEF),](transport-neutral-encapsulation-format-tnef.md)no use esta propiedad; en su lugar, use [las propiedades canónicas PidTagConversationIndex](pidtagconversationindex-canonical-property.md) y [PidTagConversationTopic.](pidtagconversationtopic-canonical-property.md) 
+Al obtener acceso a mensajes de correo electrónico como conversaciones y convertir propiedades de mensaje a Formato de encapsulación neutro de transporte [(TNEF),](transport-neutral-encapsulation-format-tnef.md)no use esta propiedad; en su lugar, use [las propiedades canónicas PidTagConversationIndex](pidtagconversationindex-canonical-property.md) y [PidTagConversationTopic.](pidtagconversationtopic-canonical-property.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -44,11 +44,11 @@ Al obtener acceso a los mensajes de correo electrónico como conversaciones y co
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,17 +60,17 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Subárbol IPM](ipm-subtree.md)
   
-[Carpetas especiales mapi](mapi-special-folders.md)
+[Carpetas especiales MAPI](mapi-special-folders.md)
   
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

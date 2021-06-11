@@ -21,7 +21,7 @@ ms.locfileid: "32331223"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el nombre principal del servidor proxy que usa Microsoft Outlook para conectarse a Microsoft Exchange Server mediante una llamada a procedimiento remoto (RPC) a través del protocolo de transferencia de hipertexto (HTTP).
+Contiene el nombre principal del servidor proxy que usa Microsoft Outlook para conectarse a Microsoft Exchange Server mediante una llamada de procedimiento remoto (RPC) a través del protocolo de transferencia de hipertexto (HTTP).
   
 ## 
 
@@ -46,7 +46,7 @@ Contiene el nombre principal del servidor proxy que usa Microsoft Outlook para c
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -58,13 +58,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

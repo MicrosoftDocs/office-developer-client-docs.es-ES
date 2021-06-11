@@ -25,7 +25,7 @@ ms.locfileid: "32336431"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene marcas de carpeta extendida que se aplican al contenedor de carpetas de búsqueda de la carpeta de búsqueda.
+Contiene las marcas de carpeta extendidas que se aplican al contenedor de carpetas de búsqueda de la carpeta de búsqueda.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene marcas de carpeta extendida que se aplican al contenedor de carpetas de
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad debe contener específicamente las marcas de la propiedad **PR_EXTENDED_FOLDER_FLAGS** ([PidTagExtendedFolderFlags](pidtagextendedfolderflags-canonical-property.md)) y la sub-propiedad **ExtendedFlags,** en el campo b de la carpeta. Para obtener información acerca de las marcas de carpeta, [vea [MS-OCFGCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx).
+Esta propiedad debe contener específicamente las marcas de la propiedad **PR_EXTENDED_FOLDER_FLAGS** ([PidTagExtendedFolderFlags](pidtagextendedfolderflags-canonical-property.md)) y la sub-propiedad **ExtendedFlags,** en el campo b de la carpeta. Para obtener información acerca de las marcas de carpeta, vea [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Esta propiedad debe contener específicamente las marcas de la propiedad **PR_EX
   
 > Especifica las propiedades y las operaciones para manipular una configuración de lista de carpetas de búsqueda.
     
-[[MS-OCFGCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > Especifica la ubicación y las propiedades de los datos de configuración de cliente y servidor, como listas de categorías compartidas y horas laborables.
     
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

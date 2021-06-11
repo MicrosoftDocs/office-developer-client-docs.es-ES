@@ -31,9 +31,9 @@ Indica el rol del usuario actual en relación con la tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskOwnership  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008129  <br/> |
+|Id. largo (LID):  <br/> |0x00008129  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
@@ -42,8 +42,8 @@ Esta propiedad debe ser uno de los siguientes valores.
 |**Valor**|**Descripción**|
 |:-----|:-----|
 |0x00000000  <br/> |La tarea no está asignada.  <br/> |
-|0x00000001  <br/> |La tarea es la copia de la tarea del asignador de la tarea.  <br/> |
-|0x00000002  <br/> |La tarea es la copia de la tarea del usuario al que se asigna la tarea.  <br/> |
+|0x00000001  <br/> |La tarea es la copia del asignador de tareas de la tarea.  <br/> |
+|0x00000002  <br/> |La tarea es la copia del usuario asignado de la tarea.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -53,7 +53,7 @@ Esta propiedad debe ser uno de los siguientes valores.
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
@@ -63,13 +63,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

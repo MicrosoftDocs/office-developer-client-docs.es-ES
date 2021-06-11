@@ -31,13 +31,13 @@ Indica el número de minutos que el usuario realizó una tarea.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskActualEffort  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008110  <br/> |
+|Id. largo (LID):  <br/> |0x00008110  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor debe ser mayor o igual que 0 y menor que 0x5AE980DF (1.525.252.319), donde 480 minutos equivalen a un día y 2400 minutos a una semana (ocho horas en un día laborable y cinco días en una semana laboral).
+El valor debe ser mayor o igual que 0 y menor que 0x5AE980DF (1.525.252.319), donde 480 minutos equivalen a un día y 2400 minutos igual a una semana (ocho horas en un día laborable y cinco días en una semana laboral).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -47,9 +47,9 @@ El valor debe ser mayor o igual que 0 y menor que 0x5AE980DF (1.525.252.319), do
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de lista de distribución personal y de contacto.
+> Especifica las propiedades y las operaciones permitidas para los objetos de lista de distribución personal y de contacto.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

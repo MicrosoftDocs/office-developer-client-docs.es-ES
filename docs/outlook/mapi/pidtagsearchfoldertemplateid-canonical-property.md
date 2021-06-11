@@ -36,9 +36,9 @@ Contiene el identificador de la plantilla que se usa para la búsqueda.
    
 ## <a name="remarks"></a>Comentarios
 
-Los criterios de la carpeta de búsqueda se especifican mediante una plantilla. Esta propiedad del mensaje que define la carpeta de búsqueda identifica su plantilla correspondiente. Además de definir criterios de búsqueda, una plantilla también define las carpetas que se excluirán de la búsqueda, define los elementos que se excluirán de la búsqueda y especifica el valor de **PR_WB_SF_STORAGE_TYPE** ([PidTagSearchFolderStorageType](pidtagsearchfolderstoragetype-canonical-property.md)).
+Los criterios de carpeta de búsqueda se especifican mediante una plantilla. Esta propiedad del mensaje que define la carpeta de búsqueda identifica su plantilla correspondiente. Además de definir criterios de búsqueda, una plantilla también define las carpetas que se excluirán de la búsqueda, define los elementos que se excluirán de la búsqueda y especifica el valor de **PR_WB_SF_STORAGE_TYPE** ([PidTagSearchFolderStorageType](pidtagsearchfolderstoragetype-canonical-property.md)).
   
-Para obtener más información acerca de las plantillas de carpeta de [búsqueda, vea [MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx) . 
+Para obtener más información acerca de las plantillas de carpeta de búsqueda, vea [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx) . 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

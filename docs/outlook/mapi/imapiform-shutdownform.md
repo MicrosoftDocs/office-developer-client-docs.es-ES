@@ -33,15 +33,15 @@ HRESULT ShutdownForm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulSaveOptions_
   
-> [entrada] Valor que controla cómo o si los datos del formulario se guardan antes de cerrar el formulario. Puede establecer uno de los siguientes indicadores:
+> [in] Valor que controla cómo o si los datos del formulario se guardan antes de cerrar el formulario. Puede establecer uno de los siguientes indicadores:
     
 SAVEOPTS_NOSAVE 
   
-> No se deben guardar los datos del formulario.
+> Los datos del formulario no deben guardarse.
     
 SAVEOPTS_PROMPTSAVE 
   
@@ -49,7 +49,7 @@ SAVEOPTS_PROMPTSAVE
     
 SAVEOPTS_SAVEIFDIRTY 
   
-> Los datos del formulario deben guardarse si han cambiado desde la última vez que se guardaron. Si no se muestra ninguna interfaz de usuario, el formulario puede cambiar opcionalmente a usar la funcionalidad para la SAVEOPTS_NOSAVE usuario.
+> Los datos del formulario deben guardarse si han cambiado desde el último guardado. Si no se muestra ninguna interfaz de usuario, el formulario puede cambiar opcionalmente al uso de la funcionalidad para la SAVEOPTS_NOSAVE usuario.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -59,7 +59,7 @@ S_OK
     
 E_UNEXPECTED 
   
-> El formulario ya estaba cerrado por una llamada anterior a **ShutdownForm**.
+> El formulario ya estaba cerrado mediante una llamada anterior a **ShutdownForm**.
     
 ## <a name="remarks"></a>Comentarios
 
@@ -67,25 +67,25 @@ Los visores de formularios llaman **al método IMAPIForm::ShutdownForm** para ce
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Realice las siguientes tareas en la implementación de **ShutdownForm:**
+Realice las siguientes tareas en la implementación de **ShutdownForm**:
   
-1. Comprueba que un visor aún no ha llamado **ShutdownForm** y devuelve E_UNEXPECTED si lo ha hecho. Aunque esto es poco probable, debe comprobarlo.
+1. Compruebe que un visor no haya llamado **a ShutdownForm** y devuelva E_UNEXPECTED si lo ha hecho. Aunque esto es poco probable, debe comprobarlo.
     
-2. Llame al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del formulario para que el almacenamiento del formulario y las estructuras de datos internas permanezcan disponibles hasta que finalice el procesamiento. 
+2. Llama al método [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) del formulario para que el almacenamiento del formulario y las estructuras de datos internas permanezcan disponibles hasta que finalice el procesamiento. 
     
-3. Determine si hay cambios no guardados en los datos del formulario. Guarde los datos no guardados de acuerdo con cómo se establece el parámetro  _ulSaveOptions_ llamando al método [IMAPIMessageSite::SaveMessage del](imapimessagesite-savemessage.md) visor. 
+3. Determine si hay cambios no guardados en los datos del formulario. Guarde los datos sin guardar según cómo se establece el parámetro  _ulSaveOptions_ llamando al método [IMAPIMessageSite::SaveMessage del](imapimessagesite-savemessage.md) visor. 
     
-4. Destruye la ventana de interfaz de usuario del formulario.
+4. Destruir la ventana de la interfaz de usuario del formulario.
     
-5. Libere los objetos de sitio de mensajes y mensajes del formulario llamando a sus métodos [IUnknown::Release.](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) 
+5. Libere los objetos de sitio de mensaje y mensaje del formulario llamando a sus [métodos IUnknown::Release.](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) 
     
-6. Notifica a todos los visores registrados del apagado pendiente llamando a sus [métodos IMAPIViewAdviseSink::OnShutdown.](imapiviewadvisesink-onshutdown.md) 
+6. Notifique a todos los visores registrados del cierre pendiente llamando a sus [métodos IMAPIViewAdviseSink::OnShutdown.](imapiviewadvisesink-onshutdown.md) 
     
-7. Llame al [método IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) para cancelar el registro del formulario para la notificación estableciendo el puntero receptor de aviso en **null**.
+7. Llame al [método IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) para cancelar el registro del formulario para la notificación estableciendo el puntero del receptor de notificaciones en **null**.
     
 8. Llama a [la función MAPIFreeBuffer](mapifreebuffer.md) para liberar la memoria de las propiedades del formulario. 
     
-9. Llame al método **IUnknown::Release** del formulario, que coincida con la **llamada AddRef** realizada en el paso 2. 
+9. Llama al método **IUnknown::Release** del formulario y coincide con la **llamada AddRef** realizada en el paso 2. 
     
 10. Devuelve S_OK.
     
@@ -96,7 +96,7 @@ Realice las siguientes tareas en la implementación de **ShutdownForm:**
 
 Cuando **ShutdownForm** devuelve, independientemente de si devuelve un error, libere el formulario llamando a su **método IUnknown::Release.** Puede omitir de forma segura los errores devueltos **por ShutdownForm**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

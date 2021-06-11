@@ -21,7 +21,7 @@ ms.locfileid: "32327450"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la configuración de un perfil usado por Microsoft Office Outlook para conectarse a Microsoft Exchange Server mediante una llamada a procedimiento remoto (RPC) a través del protocolo de transferencia de hipertexto (HTTP).
+Contiene la configuración de un perfil usado por Microsoft Office Outlook para conectarse a Microsoft Exchange Server mediante una llamada de procedimiento remoto (RPC) a través del protocolo de transferencia de hipertexto (HTTP).
   
 |||
 |:-----|:-----|
@@ -32,17 +32,17 @@ Contiene la configuración de un perfil usado por Microsoft Office Outlook para 
    
 ## <a name="remarks"></a>Comentarios
 
-La **PR_ROH_FLAGS** se almacena en la sección de perfil global de un perfil de interfaz de programación de aplicaciones de mensajería (MAPI). El valor de **PR_ROH_FLAGS** es una máscara de bits que está hecha de una o varias de las siguientes marcas. 
+La **PR_ROH_FLAGS** se almacena en la sección Perfil global de un perfil de interfaz de programación de aplicaciones de mensajería (MAPI). El valor **de PR_ROH_FLAGS** es una máscara de bits que está hecha de una o más de las siguientes marcas. 
   
 |**Name**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
-|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Conéctese a la Exchange Server mediante RPC sobre HTTP.  <br/> |
-|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Conéctese a la Exchange Server solo mediante capa de sockets seguros (SSL).  <br/> |
+|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Conectar a la Exchange Server mediante RPC sobre HTTP.  <br/> |
+|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Conectar a la Exchange Server usando capa de socket seguro (SSL).  <br/> |
 |**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Autenticar mutuamente la sesión al conectarse mediante SSL.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |En redes rápidas, conéctese primero mediante HTTP. A continuación, conéctese mediante TCP/IP.  <br/> |
+|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |En redes rápidas, conéctese primero con HTTP. A continuación, conéctese mediante TCP/IP.  <br/> |
 |**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |En redes lentas, conéctese primero con HTTP. A continuación, conéctese mediante TCP/IP.  <br/> |
    
-Por ejemplo, para establecer la propiedad **PR_ROH_FLAGS** para activar RPC sobre HTTP, para requerir SSL y para especificar que el protocolo HTTP debe usarse primero en conexiones lentas, establezca el valor de la propiedad PR_ROH_FLAGS que sea igual **a**  `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` 0x23. 
+Por ejemplo, para establecer la propiedad **PR_ROH_FLAGS** para activar RPC sobre HTTP, para requerir SSL y para especificar que el protocolo HTTP debe usarse primero en conexiones lentas, establezca el valor de la propiedad PR_ROH_FLAGS en la que es igual **0x23.** `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -58,7 +58,7 @@ Por ejemplo, para establecer la propiedad **PR_ROH_FLAGS** para activar RPC sobr
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -70,13 +70,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

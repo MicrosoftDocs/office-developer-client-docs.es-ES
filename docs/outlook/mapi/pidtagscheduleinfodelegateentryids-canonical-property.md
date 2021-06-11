@@ -25,7 +25,7 @@ ms.locfileid: "32321297"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los **EntryID de** los delegados. 
+Contiene los **EntryIDs** de los delegados. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene los **EntryID de** los delegados.
    
 ## <a name="remarks"></a>Comentarios
 
-Cada entrada debe contener el valor de **la propiedad PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la entrada de la libreta de direcciones de cada delegado. Esta propiedad debe establecerse en el objeto de información de delegado.
+Cada entrada debe contener el valor de la **propiedad PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la entrada de la libreta de direcciones de cada delegado. Esta propiedad debe establecerse en el objeto de información de delegado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Cada entrada debe contener el valor de **la propiedad PR_ENTRYID** ([PidTagEntry
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica métodos para conectar y configurar buzones como delegados e interacciones con objetos de mensaje y calendario cuando actúan en nombre de otro usuario.
+> Especifica métodos para conectarse y configurar buzones como delegados e interacciones con objetos de mensaje y calendario cuando actúan en nombre de otro usuario.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

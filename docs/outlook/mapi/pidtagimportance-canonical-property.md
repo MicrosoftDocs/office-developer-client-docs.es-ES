@@ -25,7 +25,7 @@ ms.locfileid: "32327926"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor que indica la opinión del remitente del mensaje de la importancia de un mensaje. 
+Contiene un valor que indica la opinión del remitente del mensaje sobre la importancia de un mensaje. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene un valor que indica la opinión del remitente del mensaje de la importa
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad y **la PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md)) no deben confundirse. La importancia indica un valor para los usuarios, mientras que la prioridad indica el orden o la velocidad a la que el software del sistema de mensajería debe enviar el mensaje. La prioridad más alta suele indicar un costo más alto. La interfaz de usuario suele asociar una mayor importancia a una pantalla diferente. 
+Esta propiedad y **la PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md)) no deben confundirse. Importance indica un valor para los usuarios, mientras que priority indica el orden o la velocidad a la que el software del sistema de mensajería debe enviar el mensaje. La prioridad más alta suele indicar un costo más alto. La interfaz de usuario suele asociar una mayor importancia a una pantalla diferente. 
   
 Esta propiedad puede tener exactamente uno de los siguientes valores:
   
@@ -46,11 +46,11 @@ IMPORTANCE_LOW
     
 IMPORTANCE_HIGH 
   
-> El mensaje tiene una importancia alta.
+> El mensaje tiene una gran importancia.
     
 IMPORTANCE_NORMAL 
   
-> El mensaje tiene importancia normal.
+> El mensaje tiene una importancia normal.
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,7 +62,7 @@ IMPORTANCE_NORMAL
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -74,13 +74,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

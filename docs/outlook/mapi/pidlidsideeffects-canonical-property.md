@@ -31,13 +31,13 @@ Controla el modo en que el cliente controla un objeto de mensaje al actuar en la
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSideEffects  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008510  <br/> |
+|Id. largo (LID):  <br/> |0x00008510  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Debe establecerse en un bit a bit o en cero o más de las siguientes marcas.
+Debe establecerse en una bit a bit o en cero o más de las siguientes marcas.
   
 |**Name**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
@@ -45,13 +45,13 @@ Debe establecerse en un bit a bit o en cero o más de las siguientes marcas.
 |seNoFrame  <br/> |0x0008  <br/> |No hay ninguna interfaz de usuario asociada con el objeto de mensaje.  <br/> |
 |seCoerceToInbox  <br/> |0x0010  <br/> |Se requiere procesamiento adicional en el objeto de mensaje al mover o copiar a un objeto de carpeta con una propiedad **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) de "IPF. Nota".  <br/> |
 |seOpenTocopy  <br/> |0x0020  <br/> |Se requiere procesamiento adicional en el objeto de mensaje al copiar en otra carpeta.  <br/> |
-|seOpenToMove  <br/> |0x0040  <br/> |Se requiere procesamiento adicional en el objeto de mensaje cuando se mueve a otra carpeta.  <br/> |
+|seOpenToMove  <br/> |0x0040  <br/> |Se requiere procesamiento adicional en el objeto de mensaje al mover a otra carpeta.  <br/> |
 |seOpenForCtxMenu  <br/> |0x0100  <br/> |Se requiere procesamiento adicional en el objeto de mensaje al mostrar verbos al usuario final.  <br/> |
 |seCannotUndoDelete  <br/> |0x0400  <br/> |No se puede deshacer la operación de eliminación, no se debe establecer a menos que se establezca "seOpenToDelete".  <br/> |
 |seCannotUndoCopy  <br/> |0x0800  <br/> |No se puede deshacer la operación de copia, no se debe establecer a menos que se establezca "seOpenTocopy".  <br/> |
 |seCannotUndoMove  <br/> |0x1000  <br/> |No se puede deshacer la operación de movimiento, no se debe establecer a menos que se establezca "seOpenToMove".  <br/> |
-|seHasScript  <br/> |0x2000  <br/> |El objeto de mensaje contiene un script de usuario final.  <br/> |
-|seOpenToPermDelete  <br/> |0x4000  <br/> |Se requiere un procesamiento adicional para eliminar permanentemente el objeto de mensaje.  <br/> |
+|seHasScript  <br/> |0x2000  <br/> |El objeto message contiene un script de usuario final.  <br/> |
+|seOpenToPermDelete  <br/> |0x4000  <br/> |Se requiere procesamiento adicional para eliminar permanentemente el objeto de mensaje.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -59,15 +59,15 @@ Debe establecerse en un bit a bit o en cero o más de las siguientes marcas.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
+> Proporciona la definición del conjunto de propiedades y las referencias a las Exchange Server de protocolo relacionados.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -75,13 +75,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

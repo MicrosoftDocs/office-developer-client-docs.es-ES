@@ -32,13 +32,13 @@ Contiene el nombre para mostrar de un destinatario en un formulario seguro que n
 |Propiedades asociadas:  <br/> |PR_TRANSMITABLE_DISPLAY_NAME, PR_TRANSMITABLE_DISPLAY_NAME_A, PR_TRANSMITABLE_DISPLAY_NAME_W  <br/> |
 |Identificador:  <br/> |0x3A20  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Área:  <br/> |Address  <br/> |
+|Área:  <br/> |Dirección  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Todas las libretas de direcciones deben implementar estas propiedades. Contienen la versión del nombre para mostrar del destinatario que se transmite con el mensaje. Para la mayoría de los proveedores de libretas de direcciones, estas propiedades tienen el mismo valor que **la propiedad PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Los proveedores que no tienen un nombre para mostrar seguro devuelven PT_ERROR MAPI cambia el nombre para mostrar agregando comillas alrededor del nombre.
+Todos los proveedores de libretas de direcciones deben implementar estas propiedades. Contienen la versión del nombre para mostrar del destinatario que se transmite con el mensaje. Para la mayoría de los proveedores de libreta de direcciones, estas propiedades tienen el mismo valor que **la propiedad PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Los proveedores que no tienen un nombre para mostrar seguro devuelven PT_ERROR y MAPI cambia el nombre para mostrar agregando comillas alrededor del nombre.
   
-Una aplicación cliente puede usar esta propiedad para evitar la alteración o "suplantación" de entradas. Un ejemplo de suplantación de nombre es la transmisión de John Doe como John (What a Guy) Doe.
+Una aplicación cliente puede usar esta propiedad para evitar la alteración o "suplantación" de entradas. Un ejemplo de suplantación de dominio es la transmisión de John Doe como John (What a Guy) Doe.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,9 +48,9 @@ Una aplicación cliente puede usar esta propiedad para evitar la alteración o "
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
@@ -62,7 +62,7 @@ Una aplicación cliente puede usar esta propiedad para evitar la alteración o "
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -74,13 +74,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

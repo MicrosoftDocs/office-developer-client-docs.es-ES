@@ -31,7 +31,7 @@ Especifica el título del archivo adjunto al documento.
 |:-----|:-----|
 |Nombres descriptivos:  <br/> |Ninguno  <br/> |
 |Conjunto de propiedades:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nombre de la propiedad:  <br/> |El título  <br/> |
+|Nombre de la propiedad:  <br/> |Title  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Común  <br/> |
    
@@ -43,9 +43,9 @@ Especifica el título del archivo adjunto al documento.
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los documentos.
+> Especifica las propiedades y las operaciones permitidas en los documentos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

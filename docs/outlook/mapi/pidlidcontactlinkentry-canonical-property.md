@@ -25,13 +25,13 @@ ms.locfileid: "32319477"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la lista de identificadores de entrada de la libreta de direcciones **vinculados** por este objeto de mensaje. 
+Contiene la lista de **entryIDs** de libreta de direcciones vinculados por este objeto de mensaje. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidContactLinkEntry  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008585  <br/> |
+|Id. largo (LID):  <br/> |0x00008585  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
@@ -45,7 +45,7 @@ Contiene la lista de identificadores de entrada de la libreta de direcciones **v
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

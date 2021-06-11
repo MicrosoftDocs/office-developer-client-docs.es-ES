@@ -33,22 +33,22 @@ Proporciona información para un objeto sin conexión.
 |Llamado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IMAPIOffline  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
 |**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Establece el estado actual de un objeto sin conexión en línea o sin conexión.  <br/> |
-|**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Obtiene las condiciones para las que un objeto sin conexión admite devoluciones de llamada.  <br/> |
+|**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Obtiene las condiciones para las que un objeto sin conexión admite las devoluciones de llamada.  <br/> |
 |**[GetCurrentState](imapioffline-getcurrentstate.md)** <br/> |Obtiene el estado actual en línea o sin conexión de un objeto sin conexión.  <br/> |
-| *Miembro de marcador de posición*  <br/> |Este miembro es un marcador de posición y no es compatible.  <br/> |
+| *Miembro de marcador de posición*  <br/> |Este miembro es un marcador de posición y no se admite.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Un cliente usa **[HrOpenOfflineObj para](hropenofflineobj.md)** abrir y obtener un objeto sin conexión que admite **IMAPIOfflineMgr**. Dado que **IMAPIOfflineMgr** hereda de [IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)el cliente puede consultar esta interfaz (mediante [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)) para obtener un puntero al puntero de interfaz **para IMAPIOffline** para el objeto sin conexión. A continuación, el cliente puede obtener o establecer el estado actual del objeto, o averiguar sobre las capacidades de devolución de llamada del objeto (llamando a **IMAPIOffline::GetCapabilities** ) y elegir configurar las devoluciones de llamada mediante **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
+Un cliente usa **[HrOpenOfflineObj para](hropenofflineobj.md)** abrir y obtener un objeto sin conexión compatible con **IMAPIOfflineMgr**. Dado que **IMAPIOfflineMgr** hereda de [IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)el cliente puede consultar esta interfaz (mediante [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)) para obtener un puntero al puntero de interfaz de **IMAPIOffline** para el objeto sin conexión. A continuación, el cliente puede obtener o establecer el estado actual del objeto, o averiguar las capacidades de devolución de llamada del objeto (llamando a **IMAPIOffline::GetCapabilities** ) y elegir configurar las devoluciones de llamada mediante **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
   
-Un miembro de esta interfaz es un marcador de posición reservado para el uso interno de Microsoft Outlook 2013 y está sujeto a cambios. Los demás miembros de esta interfaz solo deben usarse como documentados. 
+Un miembro de esta interfaz es un marcador de posición reservado para el uso interno de Microsoft Outlook 2013 y está sujeto a cambios. Otros miembros de esta interfaz deben usarse solo como documentados. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

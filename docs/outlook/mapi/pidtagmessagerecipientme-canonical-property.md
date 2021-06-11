@@ -25,7 +25,7 @@ ms.locfileid: "32325623"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si este usuario de mensajería se denomina específicamente como destinatario principal (Para), copia carbón (CC) o copia oculta (CCO) de este mensaje y no forma parte de una lista de distribución. 
+Contiene TRUE si este usuario de mensajería se denomina específicamente como destinatario principal (Para), copia de carbono (CC) o copia de carbón ciego (CCO) destinatario de este mensaje y no forma parte de una lista de distribución. 
   
 |||
 |:-----|:-----|
@@ -36,13 +36,13 @@ Contiene TRUE si este usuario de mensajería se denomina específicamente como d
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad proporciona una forma cómoda de determinar si el nombre de usuario aparece explícitamente en la lista de destinatarios, sin examinar todas las entradas de la lista. El valor representa la operación **lógica OR** de las propiedades **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)) y **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)) y la información CCO (que de otro modo no aparece en una propiedad). 
+Esta propiedad proporciona una forma cómoda de determinar si el nombre de usuario aparece explícitamente en la lista de destinatarios, sin examinar todas las entradas de la lista. El valor representa la operación **OR** lógica de las propiedades **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)) y **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)) y la información CCO (que de lo contrario no aparece en una propiedad). 
   
-Esta propiedad ayuda a controlar de forma automatizada los mensajes recibidos en el momento de la recepción. En la opción del proveedor de transporte, esta propiedad contiene FALSE o no se incluye si el usuario de mensajería no aparece directamente en la tabla de destinatarios. 
+Esta propiedad ayuda al tratamiento automatizado de los mensajes recibidos en el momento de la recepción. En la opción del proveedor de transporte, esta propiedad contiene FALSE o no se incluye si el usuario de mensajería no aparece directamente en la tabla de destinatarios. 
   
-La entrega de mensajes que se produce a partir de la expansión de la lista de distribución no hace que se establezca esta propiedad. El destinatario debe tener un nombre explícito. 
+La entrega de mensajes que resulta de la expansión de la lista de distribución no hace que se establezca esta propiedad. El destinatario debe tener un nombre explícito. 
   
-Por lo general, los mensajes no enviados no establecen esta propiedad, **PR_MESSAGE_CC_ME** o **PR_MESSAGE_TO_ME**. Si están presentes en mensajes a los que el usuario puede acceder en almacenes de mensajes públicos, en almacenes privados de otros usuarios, en archivos en disco o incrustados dentro de otros mensajes recibidos, generalmente contienen los valores a los que se estableció la última vez que un proveedor de transporte entregó el mensaje. 
+Por lo general, los mensajes no enviados no establecen esta propiedad, **PR_MESSAGE_CC_ME**, o **PR_MESSAGE_TO_ME**. Si están presentes en mensajes a los que el usuario puede acceder en almacenes de mensajes públicos, en almacenes privados de otros usuarios, en archivos en disco o incrustados dentro de otros mensajes recibidos, generalmente contienen los valores a los que se les estableció la última vez que un proveedor de transporte entregó el mensaje. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,7 +54,7 @@ Por lo general, los mensajes no enviados no establecen esta propiedad, **PR_MESS
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

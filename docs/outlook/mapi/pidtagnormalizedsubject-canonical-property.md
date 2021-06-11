@@ -36,21 +36,21 @@ Contiene el asunto del mensaje con cualquier prefijo quitado.
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades se calculan mediante el almacén de mensajes o proveedores de transporte de las propiedades **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) de la siguiente manera.
+Estas propiedades se calculan mediante el almacén de mensajes o los proveedores de transporte de las propiedades **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) de la siguiente manera.
   
 - Si el **PR_SUBJECT_PREFIX** está presente y es una subcadena inicial de **PR_SUBJECT**, **PR_NORMALIZED_SUBJECT** y las propiedades asociadas se establecen en el contenido de **PR_SUBJECT** con el prefijo quitado. 
     
-- Si **PR_SUBJECT_PREFIX** está presente, pero no es una subcadena inicial de PR_SUBJECT , **PR_SUBJECT_PREFIX** se elimina y vuelve a calcular de **PR_SUBJECT** mediante la siguiente regla: Si la cadena contenida en **PR_SUBJECT** comienza con uno **o** tres caracteres no numéricos seguidos de dos puntos y un espacio, la cadena junto con los dos puntos y el espacio en blanco se convierte en el prefijo. Los números, los espacios en blanco y los caracteres de puntuación no son caracteres de prefijo válidos. 
+- Si **PR_SUBJECT_PREFIX** está presente, pero no es una subcadena inicial de **PR_SUBJECT**, **PR_SUBJECT_PREFIX** se elimina y vuelve a calcular de **PR_SUBJECT** mediante la siguiente regla: si la cadena contenida en **PR_SUBJECT** comienza con uno o tres caracteres no numéricos seguidos de dos puntos y un espacio, la cadena junto con los dos puntos y el espacio en blanco se convierte en el prefijo. Los números, los espacios en blanco y los caracteres de puntuación no son caracteres de prefijo válidos. 
     
-- Si **PR_SUBJECT_PREFIX** está presente, se calcula a partir de **PR_SUBJECT** la regla descrita en el paso anterior. A continuación, esta propiedad se establece en el contenido **PR_SUBJECT** con el prefijo quitado. 
+- Si **PR_SUBJECT_PREFIX** no está presente, se calcula a partir **de PR_SUBJECT** la regla descrita en el paso anterior. A continuación, esta propiedad se establece en el contenido **de PR_SUBJECT** con el prefijo quitado. 
     
  **Nota** Cuando **PR_SUBJECT_PREFIX** es una cadena vacía, **PR_SUBJECT** y esta propiedad son las mismas. 
   
-En última instancia, esta propiedad debe ser la parte de **PR_SUBJECT** siguiente al prefijo. Si no hay ningún prefijo, esta propiedad se convierte en la misma que **PR_SUBJECT**.
+En última instancia, esta propiedad debe ser la parte de **PR_SUBJECT** siguiendo el prefijo. Si no hay ningún prefijo, esta propiedad se convierte en la misma que **PR_SUBJECT**.
   
- **PR_SUBJECT_PREFIX** y esta propiedad deben calcularse como parte de la [implementación IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Una aplicación cliente no debe solicitar al método [IMAPIProp::GetProps](imapiprop-getprops.md) sus valores hasta que se hayan confirmado mediante una llamada **IMAPIProp::SaveChanges.** 
+ **PR_SUBJECT_PREFIX** y esta propiedad deben calcularse como parte de la [implementación de IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Una aplicación cliente no debe solicitar al método [IMAPIProp::GetProps](imapiprop-getprops.md) sus valores hasta que una llamada **IMAPIProp::SaveChanges** los haya confirmado. 
   
-Las propiedades de asunto suelen ser cadenas pequeñas de menos de 256 caracteres y un proveedor de almacenamiento de mensajes no está obligado a admitir la interfaz **IStream** de vinculación e incrustación de objetos (OLE) en ellas. El cliente siempre debe intentar obtener acceso a través de la interfaz **IMAPIProp** en primer lugar y recurrir a **IStream** solo si MAPI_E_NOT_ENOUGH_MEMORY se devuelve. 
+Las propiedades del asunto suelen ser pequeñas cadenas de menos de 256 caracteres y un proveedor de almacén de mensajes no está obligado a admitir la interfaz **IStream** de vinculación e inserción de objetos (OLE) en ellas. El cliente siempre debe intentar el acceso a través de la interfaz **IMAPIProp** primero y recurrir a **IStream** solo si MAPI_E_NOT_ENOUGH_MEMORY se devuelve. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,11 +62,11 @@ Las propiedades de asunto suelen ser cadenas pequeñas de menos de 256 caractere
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -78,13 +78,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

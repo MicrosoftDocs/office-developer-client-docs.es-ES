@@ -41,7 +41,7 @@ Para exponer la funcionalidad de las categorías, el modelo de objetos de Outloo
 
 Estas propiedades devuelven un valor **OLE\_COLOR**, que depende de la propiedad **Color** del objeto **Category**.
 
-Los elementos de Outlook se muestran en función del nombre de categoría. Cada objeto de elemento tiene una propiedad **Categories** que almacena una cadena delimitada por comas que representa los nombres de categoría. (Por ejemplo, para el [objeto MailItem,](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) usaría la **propiedad Categorías de objeto MailItem).** [](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) Esto le permite agregar una categoría al elemento, incluso si no existe la categoría en la lista de principal de categorías.
+Los elementos de Outlook se muestran en función del nombre de categoría. Cada objeto de elemento tiene una propiedad **Categories** que almacena una cadena delimitada por comas que representa los nombres de categoría. (Por ejemplo, para el [objeto MailItem,](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) se usa la **propiedad MailItem** [Categories).](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) Esto le permite agregar una categoría al elemento, incluso si no existe la categoría en la lista de principal de categorías.
 
 
 > [!NOTE]

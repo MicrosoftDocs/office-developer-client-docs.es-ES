@@ -31,7 +31,7 @@ Indica el tipo de solicitud de reunión o actualización de reunión.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidMeetingType  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Meeting  <br/> |
-|Long ID (LID):  <br/> |0x00000026  <br/> |
+|Id. largo (LID):  <br/> |0x00000026  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
@@ -45,8 +45,8 @@ El valor de esta propiedad debe establecerse en uno de los siguientes valores:
 |mtgRequest  <br/> |0x00000001  <br/> |Solicitud de reunión inicial.  <br/> |
 |mtgFull  <br/> |0x00010000  <br/> |Actualización completa.  <br/> |
 |mtgInfo  <br/> |0x00020000  <br/> |Actualización informativo.  <br/> |
-|mtgOutOfDate  <br/> |0x00080000  <br/> |Después de esta, se recibió una solicitud de reunión o actualización de reunión más reciente.  <br/> |
-|mtgDelegatorCopy  <br/> |0x00100000  <br/> |Esto se establece en la copia del delegador cuando un delegado controla objetos relacionados con reuniones.  <br/> |
+|mtgOutOfDate  <br/> |0x00080000  <br/> |Después de esta, se recibió una nueva solicitud de reunión o actualización de reunión.  <br/> |
+|mtgDelegatorCopy  <br/> |0x00100000  <br/> |Esto se establece en la copia del delegado cuando un delegado controla objetos relacionados con reuniones.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -58,7 +58,7 @@ El valor de esta propiedad debe establecerse en uno de los siguientes valores:
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

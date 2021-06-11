@@ -25,19 +25,19 @@ ms.locfileid: "32331370"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor de cada asistente enumerado en la propiedad **dispidNonSendableTo** ([PidLidNonSendableTo](pidlidnonsendableto-canonical-property.md)).
+Contiene el valor de cada asistente que aparece en la **propiedad dispidNonSendableTo** ([PidLidNonSendableTo](pidlidnonsendableto-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidNonSendToTrackStatus  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008543  <br/> |
+|Id. largo (LID):  <br/> |0x00008543  <br/> |
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad solo es necesaria cuando se establece la propiedad **dispidNonSendableTo** . El número de valores de esta propiedad debe ser igual al número de valores de **dispidNonSendableTo**. Cada PT_LONG valor de esta propiedad corresponde al asistente de la propiedad **dispidNonSendableTo** en el mismo índice. 
+Esta propiedad solo es necesaria cuando se establece la propiedad **dispidNonSendableTo.** El número de valores de esta propiedad debe ser igual al número de valores de **dispidNonSendableTo**. Cada PT_LONG valor de esta propiedad corresponde al asistente de la **propiedad dispidNonSendableTo** en el mismo índice. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -45,11 +45,11 @@ Esta propiedad solo es necesaria cuando se establece la propiedad **dispidNonSen
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Proporciona la definición del conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
+> Proporciona la definición del conjunto de propiedades y las referencias a las Exchange Server de protocolo relacionados.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

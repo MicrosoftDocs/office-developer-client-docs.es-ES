@@ -31,7 +31,7 @@ Se usa para mostrar la información de contacto.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidContactItemData  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x00008007  <br/> |
+|Id. largo (LID):  <br/> |0x00008007  <br/> |
 |Tipo de datos:  <br/> |PT_MV_LONG  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
@@ -39,14 +39,14 @@ Se usa para mostrar la información de contacto.
 
 Si está presente, la propiedad debe tener seis entradas, cada una correspondiente a un campo visible en la interfaz de usuario de la aplicación.
   
-|**Índice de base uno en la propiedad de varios valores**|**El valor debe ser uno de los siguientes:**|**Descripción**|
+|**Índice basado en uno en la propiedad multivalor**|**El valor debe ser uno de los siguientes**|**Descripción**|
 |:-----|:-----|:-----|
 |1  <br/> |0x00000001  <br/> |La aplicación debe mostrar la dirección principal del contacto.  <br/> |
-|1   <br/> |0x00000002 o 0x00000000  <br/> |La aplicación debe mostrar el trabajo del contacto.  <br/> |
-|1   <br/> |0x00000003  <br/> |La aplicación debe mostrar la otra dirección del contacto.  <br/> |
-|2   <br/> |0x00008080  <br/> |La aplicación debe mostrar Email1.  <br/> |
-|2   <br/> |0x00008090  <br/> |La aplicación debe mostrar Correo electrónico2.  <br/> |
-|2   <br/> |0x000080A0  <br/> |La aplicación debe mostrar Email3.  <br/> |
+|1  <br/> |0x00000002 o 0x00000000  <br/> |La aplicación debe mostrar el trabajo del contacto.  <br/> |
+|1  <br/> |0x00000003  <br/> |La aplicación debe mostrar la otra dirección del contacto.  <br/> |
+|2  <br/> |0x00008080  <br/> |La aplicación debe mostrar Email1.  <br/> |
+|2  <br/> |0x00008090  <br/> |La aplicación debe mostrar Email2.  <br/> |
+|2  <br/> |0x000080A0  <br/> |La aplicación debe mostrar Email3.  <br/> |
 |3,4,5,6  <br/> |PropertyID de cualquiera de las propiedades telefónicas o cualquiera de los números de fax especificados en [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).  <br/> |La aplicación debe mostrar la propiedad correspondiente.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -59,7 +59,7 @@ Si está presente, la propiedad debe tener seis entradas, cada una correspondien
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -67,13 +67,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

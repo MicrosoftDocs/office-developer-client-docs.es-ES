@@ -25,7 +25,7 @@ ms.locfileid: "32316334"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información sobre las propiedades con nombre contenidas dentro de las condiciones de regla extendidas.
+Contiene información sobre las propiedades con nombre que se encuentran dentro de las condiciones de regla extendidas.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contiene información sobre las propiedades con nombre contenidas dentro de las 
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad debe establecerse en un mensaje FAI. Tiene el mismo propósito que **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), pero contiene información adicional sobre las propiedades con nombre usadas. Todos los valores de cadena incluidos en cualquier parte de este valor de propiedad de condición deben estar en formato Unicode.
+Esta propiedad debe establecerse en un mensaje fai. Tiene el mismo propósito que **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), pero contiene información adicional sobre las propiedades con nombre usadas. Todos los valores de cadena contenidos en cualquier parte de este valor de la propiedad condition deben tener un formato Unicode.
   
-Para obtener información sobre el formato de esta propiedad binaria, [vea [MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Para obtener información sobre el formato de esta propiedad binaria, vea [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Para obtener información sobre el formato de esta propiedad binaria, [vea [MS-O
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipula los mensajes de correo electrónico entrantes en un servidor.
     
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

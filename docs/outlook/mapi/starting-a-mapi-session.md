@@ -25,13 +25,13 @@ Aunque hay una cantidad significativa de trabajo realizado durante el inicio de 
   
  **Para iniciar una sesión MAPI**
   
-1. Llame **a MAPIInitialize** para inicializar el conjunto estándar de bibliotecas MAPI. 
+1. Llama **a MAPIInitialize** para inicializar el conjunto estándar de bibliotecas MAPI. 
     
-2. Si necesita usar las bibliotecas OLE, llame a la función OLE [OleInitialize](https://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
+2. Si necesita usar las bibliotecas OLE, llame a la función [OLE OleInitialize](https://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
     
 3. Si necesita usar la biblioteca de utilidades MAPI, llame [a ScInitMapiUtil](scinitmapiutil.md).
     
-4. Llame **a MAPILogonEx** con un perfil válido para iniciar sesión en el subsistema MAPI. **MAPILogonEx** comprueba la configuración de cada uno de los proveedores de servicios en los servicios de mensajes incluidos en el perfil, solicitando al usuario información adicional si es necesario y es posible. Cuando **MAPILogonEx finaliza,** los proveedores de servicios configurados están listos para el servicio. 
+4. Llame **a MAPILogonEx** con un perfil válido para iniciar sesión en el subsistema MAPI. **MAPILogonEx comprueba** la configuración de cada uno de los proveedores de servicios en los servicios de mensajes incluidos en el perfil, solicitando al usuario información adicional si es necesario y posible. Cuando **MAPILogonEx** finaliza, los proveedores de servicios configurados están listos para el servicio. 
     
 ## <a name="in-this-section"></a>En esta sección
 
@@ -45,10 +45,10 @@ Aunque hay una cantidad significativa de trabajo realizado durante el inicio de 
     
 [Inicialización de las utilidades MAPI](initializing-the-mapi-utilities.md)
   
-> Describe cómo inicializar utilidades MAPI.
+> Describe cómo inicializar las utilidades MAPI.
     
 [Iniciar sesión en MAPI](logging-on-to-mapi.md)
   
-> Describe cómo las aplicaciones cliente inician sesión en el subs system MAPI.
+> Describe cómo las aplicaciones cliente inician sesión en el subs sistema MAPI.
     
 

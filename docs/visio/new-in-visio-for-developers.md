@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7e3fb858-0ab8-bd2e-217c-c85b10d79785
-description: Este documento proporciona una vista de nivel superior de las mejoras y adiciones para desarrolladores en Visio 2013. Para los desarrolladores que están listos para empezar a trabajar en la plataforma Visio, proporciona información suficiente para empezar a codificar con Visio 2013.
+description: Este documento proporciona una vista de nivel superior de las mejoras y adiciones para desarrolladores en Visio 2013. Para los desarrolladores que están listos para iniciar el salto en la plataforma Visio, le proporciona suficientes detalles para empezar a codificar con respecto a Visio 2013.
 ms.openlocfilehash: df4bc1fa493ee3976c99802400ee52691d05d20a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,24 +16,24 @@ ms.locfileid: "32319820"
 ---
 # <a name="new-in-visio-for-developers"></a>Nuevo en Visio para desarrolladores
 
-Este documento proporciona una vista de nivel superior de las mejoras y adiciones para desarrolladores en Visio 2013. Para los desarrolladores que están listos para empezar a trabajar en la plataforma Visio, proporciona información suficiente para empezar a codificar con Visio 2013.
+Este documento proporciona una vista de nivel superior de las mejoras y adiciones para desarrolladores en Visio 2013. Para los desarrolladores que están listos para iniciar el salto en la plataforma Visio, le proporciona suficientes detalles para empezar a codificar con respecto a Visio 2013.
   
 ## <a name="introduction"></a>Introducción
 <a name="vis15_WhatsNew_Intro"> </a>
 
 Visio 2013 proporciona una plataforma única eficaz para las soluciones de dibujo personalizadas. Hay a su disposición más opciones para definir el comportamiento de los elementos de las soluciones, gracias a los nuevos objetos, colecciones, propiedades, métodos, enumeraciones y eventos, además de las nuevas celdas y funciones de ShapeSheet.
   
-Entre las nuevas características de interés para los desarrolladores de Visio 2013 se encuentran el nuevo formato de archivo; actualizaciones sólidas de los temas; cambiar la característica de forma (lo que permite reemplazar formas por otra); nuevos efectos de forma; mejoras en los comentarios; coautoría en SharePoint Server 2013; recorte de imagen personalizable; geometría relativa; compatibilidad con Servicios de conectividad empresarial datos de Servicios de conectividad empresarial (BCS); actualizaciones de Servicios de Visio en Microsoft SharePoint Server 2013; y una característica de página duplicada. En este tema se ofrece un breve resumen de cada una de estas características y se mencionan algunos de los nuevos objetos y miembros de Visio que están asociados con las características y se exponen en Visual Basic para Aplicaciones (VBA). Para obtener información sobre estas características y los ejemplos de código adjuntos, vea el [Centro para desarrolladores de Visio.](https://msdn.microsoft.com/office/aa905478.aspx)
+Entre las nuevas características de interés para los desarrolladores en Visio 2013 se encuentran el nuevo formato de archivo; actualizaciones sólidas de temas; cambiar la característica de forma (lo que permite reemplazar formas por otra); nuevos efectos de forma; mejoras en los comentarios; coautoría en SharePoint Server 2013; recorte de imagen personalizable; geometría relativa; compatibilidad con Servicios de conectividad empresarial (BCS); actualizaciones de Visio services en Microsoft SharePoint Server 2013; y una característica de página duplicada. En este tema se ofrece un breve resumen de cada una de estas características y se mencionan algunos de los nuevos objetos y miembros de Visio que están asociados con las características y se exponen en Visual Basic para Aplicaciones (VBA). Para obtener información acerca de estas características y ejemplos de código adjuntos, [vea el Visio Developer Center](https://msdn.microsoft.com/office/aa905478.aspx).
   
 > [!NOTE]
-> Visio 2013 incluye muchas celdas, filas y funciones de ShapeSheet nuevas para admitir las nuevas características de Visio. Para obtener más información acerca de las novedades de ShapeSheet para Visio 2013, vea el artículo Novedades para programadores de [ShapeSheet de Visio.](what-s-new-for-visio-shapesheet-developers.md) 
+> Visio 2013 incluye muchas celdas, filas y funciones shapesheet nuevas para admitir las nuevas características de Visio. Para obtener más información acerca de las novedades de ShapeSheet para Visio 2013, vea el artículo Novedades de [Visio desarrolladores de ShapeSheet](what-s-new-for-visio-shapesheet-developers.md). 
   
 ## <a name="new-file-format"></a>Nuevo formato de archivo
 <a name="vis15_WhatsNew_NewFF"> </a>
 
 Visio 2013 presenta un nuevo formato de archivo basado en el estándar de convenciones de empaquetado abierto (Open Packaging Conventions u OPC, ISO 29500 parte 2) y los elementos de XML del anterior formato de archivo de Visio XML (.vdx). Se trata de un formato de archivo comprimido basado en XML muy similar a los que se usan en otras aplicaciones de .
   
-Dado que visio 2013 y Servicios de Visio admiten el nuevo formato de archivo en Microsoft SharePoint Server 2013, puede guardar un dibujo de Visio directamente en una biblioteca de SharePoint Server, sin tener que publicar el archivo como dibujo web de Visio (.vdw). De hecho, en Servicios de Visio se puede seguir leyendo y visualizando archivos de dibujo web de Visio.
+Dado que Visio 2013 y Visio Services admiten el nuevo formato de archivo en Microsoft SharePoint Server 2013, puede guardar un dibujo de Visio directamente en una biblioteca de servidor de SharePoint, sin tener que publicar el archivo como un dibujo web de Visio (.vdw). De hecho, en Servicios de Visio se puede seguir leyendo y visualizando archivos de dibujo web de Visio.
   
 El nuevo formato de archivo incluye los siguientes tipos de archivo (por extensión):
   
@@ -51,7 +51,7 @@ El nuevo formato de archivo incluye los siguientes tipos de archivo (por extensi
     
 Mediante el uso de compatibilidad existente para leer y escribir en el paquete de formato de archivo (como [System.IO.Packaging)](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) y para analizar XML ( [System.Xml. Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx) ), puede trabajar mediante programación con los nuevos formatos de archivo. 
   
-Visio 2013 conserva la capacidad de leer los formatos de archivo antiguos (.vsd, .vss, .vst, .vdx, .vsx, .vtx, .vdw, .vwi). Visio 2013 no guarda en el formato de archivo XML de Visio anterior (.vdx). Es posible que las soluciones o herramientas que consumen los archivos de formato de archivo XML de Visio (.vdx) anteriores deban refactorizarse para poder leer el nuevo formato de archivo y sus esquemas.
+Visio 2013 conserva la capacidad de leer los formatos de archivo antiguos (.vsd, .vss, .vst, .vdx, .vsx, .vtx, .vdw, .vwi). Visio 2013 no guarda en el formato de archivo XML Visio anterior (.vdx). Es posible que sea necesario refactorizar las soluciones o herramientas que consumen los archivos de formato de archivo XML (.vdx) de Visio anterior para poder leer el nuevo formato de archivo y sus esquemas.
   
 Servicios de Visio conserva la capacidad de mostrar el formato de los dibujos web de Visio (.vdw) en el explorador. Ahora también representa los nuevos formatos de dibujo de Visio (.vsdx) y de dibujo habilitado para macros de Visio (.vsdm).
   
@@ -62,30 +62,30 @@ Los temas se han rediseñado en Visio 2013 a fin de aprovechar mejor la gran var
   
 También puede manipular temas en el nivel de los objetos [Page](https://msdn.microsoft.com/library/7a7f37ab-b448-eb70-b4f1-c185dfbd511e%28Office.15%29.aspx), [Shape](https://msdn.microsoft.com/library/da7a8872-4ebb-a607-e0ed-eebf68ff5630%28Office.15%29.aspx) y [Selection](https://msdn.microsoft.com/library/e5734140-6dbe-7de8-9695-1a22fb4ac628%28Office.15%29.aspx). Las nuevas API para trabajar con temas incluyen los métodos [Page.SetTheme](https://msdn.microsoft.com/library/5a186f58-9a7a-bd8a-826b-85da75a4d59f%28Office.15%29.aspx), [Page.SetThemeVariant](https://msdn.microsoft.com/library/8393a95f-83ca-0efa-d987-ae498bfe5e9d%28Office.15%29.aspx), [Shape.SetQuickStyle](https://msdn.microsoft.com/library/aebe80cb-fae9-0be7-e903-882f6eb58b63%28Office.15%29.aspx) y [Selection.SetQuickStyle](https://msdn.microsoft.com/library/39b810b5-0738-daed-0103-8a2df07559c6%28Office.15%29.aspx). 
   
-Para obtener una lista detallada de las nuevas API de Visio 2013, vea la sección cambios del modelo de objetos de [Visio](#vis15_WhatsNew_NewOM) en este artículo. Para obtener más información acerca de las nuevas celdas de ShapeSheet en Visio 2013, vea el artículo Novedades para programadores [de ShapeSheet de Visio.](what-s-new-for-visio-shapesheet-developers.md)
+Para obtener una lista detallada de las nuevas API de Visio 2013, vea la [sección](#vis15_WhatsNew_NewOM) Visio cambios del modelo de objetos en este artículo. Para obtener más información acerca de las nuevas celdas ShapeSheet de Visio 2013, vea el artículo Novedades de [Visio desarrolladores de ShapeSheet](what-s-new-for-visio-shapesheet-developers.md).
   
 ## <a name="change-shape"></a>Cambio de forma
 <a name="vis15_WhatsNew_ChangeShapes"> </a>
 
-Visio 2013 incluye una API de reemplazo de formas que permite intercambiar una o varias formas por otra forma contenida en una galería de símbolos, a la vez que conserva algunos de los valores locales de la forma original, como la forma de texto de la forma, los datos de formas o el formato de la forma. Los desarrolladores de formas pueden actualizar la configuración de ShapeSheet de sus formas personalizadas para especificar el comportamiento de Cambiar forma de sus formas. Entre las nuevas API están los métodos [Shape.ReplaceShapes](https://msdn.microsoft.com/library/b330a63d-4e3f-0c4d-c38c-6ee806670225%28Office.15%29.aspx) y [Selection.ReplaceShapes](https://msdn.microsoft.com/library/dc278901-77ce-e1fe-c44f-f464bbb1c360%28Office.15%29.aspx) y el evento [ReplaceShape](https://msdn.microsoft.com/library/26c4e7cb-6618-6d2f-a4be-515584f8cd10%28Office.15%29.aspx). 
+Visio 2013 incluye una API de reemplazo de formas que permite intercambiar una o más formas por otra forma contenida en una galería de símbolos, al tiempo que conserva algunos de los valores locales de la forma original, como la forma de texto de la forma, los datos de formas o el formato de la forma. Los desarrolladores de formas pueden actualizar la configuración de ShapeSheet de sus formas personalizadas para especificar el comportamiento de Cambiar forma de sus formas. Entre las nuevas API están los métodos [Shape.ReplaceShapes](https://msdn.microsoft.com/library/b330a63d-4e3f-0c4d-c38c-6ee806670225%28Office.15%29.aspx) y [Selection.ReplaceShapes](https://msdn.microsoft.com/library/dc278901-77ce-e1fe-c44f-f464bbb1c360%28Office.15%29.aspx) y el evento [ReplaceShape](https://msdn.microsoft.com/library/26c4e7cb-6618-6d2f-a4be-515584f8cd10%28Office.15%29.aspx). 
   
-Para obtener una lista detallada de las nuevas API de Visio 2013, vea la sección cambios del modelo de objetos de [Visio](#vis15_WhatsNew_NewOM) en este artículo. Para obtener más información acerca de las nuevas celdas de ShapeSheet en Visio 2013, vea el artículo Novedades para programadores [de ShapeSheet de Visio.](what-s-new-for-visio-shapesheet-developers.md)
+Para obtener una lista detallada de las nuevas API de Visio 2013, vea la [sección](#vis15_WhatsNew_NewOM) Visio cambios del modelo de objetos en este artículo. Para obtener más información acerca de las nuevas celdas ShapeSheet de Visio 2013, vea el artículo Novedades de [Visio desarrolladores de ShapeSheet](what-s-new-for-visio-shapesheet-developers.md).
   
 ## <a name="shape-effects"></a>Efectos de formas
 <a name="vis15_WhatsNew_ShapeEffects"> </a>
 
 Se han agregado a Visio 2013 nuevos efectos de forma como los de bisel, giro 3D, iluminado, reflejo y esbozo. La ShapeSheet incluye nuevas celdas para trabajar con estos efectos.
   
-Para obtener más información acerca de las nuevas celdas de ShapeSheet en Visio 2013, vea el artículo Novedades para programadores [de ShapeSheet de Visio.](what-s-new-for-visio-shapesheet-developers.md)
+Para obtener más información acerca de las nuevas celdas ShapeSheet de Visio 2013, vea el artículo Novedades de [Visio desarrolladores de ShapeSheet](what-s-new-for-visio-shapesheet-developers.md).
   
 ## <a name="commenting"></a>Comentarios
 <a name="vis15_WhatsNew_Commenting"> </a>
 
-Visio 2013 presenta un nuevo marco de comentarios. Ahora, los comentarios se pueden relacionar con una forma o página en concreto. Visio 2013 incluye dos objetos nuevos, [Comentarios](https://msdn.microsoft.com/library/f028cc03-0ef1-8017-a936-d30d45211864%28Office.15%29.aspx) y [Comentario](https://msdn.microsoft.com/library/7cd0ee53-6b8d-a03b-ecd6-f6f6dda0f2d4%28Office.15%29.aspx). Las nuevas API para obtener acceso a los comentarios mediante programación incluyen las propiedades [Document.Comments](https://msdn.microsoft.com/library/15a322ad-70eb-1487-701d-76e2fde73309%28Office.15%29.aspx), [Page.Comments](https://msdn.microsoft.com/library/9618c86c-96c0-be95-ee20-5d1b99f4d5e8%28Office.15%29.aspx), [Shape.Comments](https://msdn.microsoft.com/library/498eca91-beb9-b764-0262-a935e5205710%28Office.15%29.aspx) y [Page.ShapeComments](https://msdn.microsoft.com/library/b7d86594-ba1f-627b-222f-905da1b1201e%28Office.15%29.aspx). 
+Visio 2013 presenta un nuevo marco de comentarios. Ahora, los comentarios se pueden relacionar con una forma o página en concreto. Visio 2013 incluye dos nuevos objetos, [Comments](https://msdn.microsoft.com/library/f028cc03-0ef1-8017-a936-d30d45211864%28Office.15%29.aspx) y [Comment](https://msdn.microsoft.com/library/7cd0ee53-6b8d-a03b-ecd6-f6f6dda0f2d4%28Office.15%29.aspx). Las nuevas API para obtener acceso a los comentarios mediante programación incluyen las propiedades [Document.Comments](https://msdn.microsoft.com/library/15a322ad-70eb-1487-701d-76e2fde73309%28Office.15%29.aspx), [Page.Comments](https://msdn.microsoft.com/library/9618c86c-96c0-be95-ee20-5d1b99f4d5e8%28Office.15%29.aspx), [Shape.Comments](https://msdn.microsoft.com/library/498eca91-beb9-b764-0262-a935e5205710%28Office.15%29.aspx) y [Page.ShapeComments](https://msdn.microsoft.com/library/b7d86594-ba1f-627b-222f-905da1b1201e%28Office.15%29.aspx). 
   
-Servicios de Visio incluye API de JavaScript para leer los comentarios de una página o forma de un diagrama.
+Visio Los servicios incluyen API de JavaScript para leer los comentarios de una página o forma de un diagrama.
   
-Para obtener una lista detallada de las nuevas API de Visio 2013, vea la sección cambios del modelo de objetos de [Visio](#vis15_WhatsNew_NewOM) en este artículo. 
+Para obtener una lista detallada de las nuevas API de Visio 2013, vea la [sección](#vis15_WhatsNew_NewOM) Visio cambios del modelo de objetos en este artículo. 
   
 > [!NOTE]
 > Ya no se puede obtener acceso a los comentarios a través de la ShapeSheet. 
@@ -93,53 +93,53 @@ Para obtener una lista detallada de las nuevas API de Visio 2013, vea la secció
 ## <a name="coauthoring"></a>Coautoría
 <a name="vis15_WhatsNew_Coauthoring"> </a>
 
-Visio 2013 incluye la capacidad de co-autoría de diagramas almacenados en SharePoint o Microsoft OneDrive. Los desarrolladores tienen acceso al evento [Document.AfterDocumentMerge](https://msdn.microsoft.com/library/50658da5-592a-4d16-908f-c6abe3050f09%28Office.15%29.aspx) que proporciona información sobre los cambios realizados al diagrama debidos a la co-autoría. Los desarrolladores de soluciones también pueden deshabilitar la co-autoría para adaptarse a sus necesidades personalizadas mediante la celda [NoCoauth](nocoauth-cell-document-properties-section.md) en la ShapeSheet del documento. 
+Visio 2013 incluye la capacidad de coautor de diagramas almacenados en SharePoint o Microsoft OneDrive. Los desarrolladores tienen acceso al evento [Document.AfterDocumentMerge](https://msdn.microsoft.com/library/50658da5-592a-4d16-908f-c6abe3050f09%28Office.15%29.aspx) que proporciona información sobre los cambios realizados al diagrama debidos a la co-autoría. Los desarrolladores de soluciones también pueden deshabilitar la co-autoría para adaptarse a sus necesidades personalizadas mediante la celda [NoCoauth](nocoauth-cell-document-properties-section.md) en la ShapeSheet del documento. 
   
-Para obtener una lista detallada de las nuevas API de Visio 2013, vea la sección cambios del modelo de objetos de [Visio](#vis15_WhatsNew_NewOM) en este artículo. 
+Para obtener una lista detallada de las nuevas API de Visio 2013, vea la [sección](#vis15_WhatsNew_NewOM) Visio cambios del modelo de objetos en este artículo. 
   
 ## <a name="customizable-image-clipping"></a>Recorte de imágenes personalizable
 <a name="vis15_WhatsNew_ClipImages"> </a>
 
-Visio 2013 admite la definición de una ruta de recorte de imágenes personalizable para recortar las imágenes a cualquier forma. Esto amplía las capacidades de Visio 2010, que admite el recorte de imágenes de forma rectangular. Esta funcionalidad está disponible en la ShapeSheet mediante la celda [ClippingPath](clippingpath-cell-foreign-image-info-section.md) de la sección **Foreign Image Info**. 
+Visio 2013 admite la definición de una ruta de recorte de imágenes personalizable para recortar las imágenes a cualquier forma. Esto amplía las capacidades de Visio 2010, que admite imágenes de recorte de forma rectangular. Esta funcionalidad está disponible en la ShapeSheet mediante la celda [ClippingPath](clippingpath-cell-foreign-image-info-section.md) de la sección **Foreign Image Info**. 
   
-Para obtener más información acerca de las nuevas celdas de ShapeSheet en Visio 2013, vea el artículo Novedades para programadores [de ShapeSheet de Visio.](what-s-new-for-visio-shapesheet-developers.md)
+Para obtener más información acerca de las nuevas celdas ShapeSheet de Visio 2013, vea el artículo Novedades de [Visio desarrolladores de ShapeSheet](what-s-new-for-visio-shapesheet-developers.md).
   
 ## <a name="relative-geometries"></a>Geometrías relativas
 <a name="vis15_WhatsNew_RelativeGeometry"> </a>
 
-En versiones anteriores de Visio, la geometría de forma se define mediante fórmulas que dependían del alto o ancho de la forma. Por ejemplo, en Visio 2010, los vértices de muchas formas integradas de Visio se definieron multiplicando el alto o el ancho de la forma por una constante. Estas formas tenían **secciones de geometría** que incluían filas [MoveTo](moveto-row-geometry-section.md) [o LineTo](lineto-row-geometry-section.md) (por ejemplo) con fórmulas como  `Width*1` y  `Height*0` .
+En versiones anteriores de Visio, la geometría de forma se definió mediante fórmulas que dependían del alto o ancho de la forma. Por ejemplo, Visio 2010 los vértices de muchas formas Visio integradas se definieron multiplicando el alto o el ancho de la forma por una constante. Estas formas tenían **secciones geometry** que incluían [filas MoveTo](moveto-row-geometry-section.md) o [LineTo](lineto-row-geometry-section.md) (por ejemplo) con fórmulas como  `Width*1` y  `Height*0` .
   
 Visio 2013 pasa a admitir geometrías relativas en la ShapeSheet. Los desarrolladores de formas pueden usar geometrías relativas para especificar las geometrías como simples valores o fórmulas, que se multiplican por la altura o la anchura de forma automática. Los vértices de las formas se pueden expresar ahora con constantes, por ejemplo, lo que elimina la necesidad de expresar los vértices como múltiplos de la anchura o la altura de la forma. Esto facilita a los desarrolladores la tarea de crear formas, a la vez que mejora el rendimiento y reduce los tamaños de archivos. Las nuevas filas incluyen las filas [RelMoveTo](relmoveto-row-geometry-section.md) y [RelLineTo](rellineto-row-geometry-section.md) donde los valores de las celdas **X** e **Y** se multiplican de forma automática por la anchura o la altura de la forma (respectivamente). 
   
-Para obtener más información acerca de las nuevas filas de ShapeSheet en Visio 2013, vea el artículo Novedades para programadores [de ShapeSheet de Visio.](what-s-new-for-visio-shapesheet-developers.md)
+Para obtener más información acerca de las nuevas filas ShapeSheet de Visio 2013, vea el artículo Novedades de [Visio desarrolladores de ShapeSheet](what-s-new-for-visio-shapesheet-developers.md).
   
 ## <a name="support-for-business-connectivity-services-bcs-data"></a>Compatibilidad con los datos de Servicios de conectividad empresarial (BCS)
 <a name="vis15_WhatsNew_BCS"> </a>
 
-Los diagramas de Visio 2013 ahora se pueden conectar a listas externas en servidores de SharePoint Server 2013. Una lista externa es un origen de contenido externo a SharePoint (por ejemplo, una tabla SQL Server) que se ha conectado a una lista de SharePoint mediante Servicios de conectividad empresarial de Microsoft (BCS). En Servicios de Visio los diagramas se pueden actualizar al mismo tiempo que los datos lo hacen.
+Visio diagramas de 2013 ahora se pueden conectar a listas externas en SharePoint server 2013. Una lista externa es un origen de contenido externo a SharePoint (por ejemplo, una tabla SQL Server) que se ha conectado a una lista de SharePoint mediante Servicios de conectividad empresarial de Microsoft (BCS). En Servicios de Visio los diagramas se pueden actualizar al mismo tiempo que los datos lo hacen.
   
-Para obtener más información acerca de las novedades de Servicios de Visio, vea el artículo Servicios de [Visio en SharePoint 2013.](https://msdn.microsoft.com/library/jj164027%28office.15%29.aspx) Para obtener más información sobre Servicios de conectividad empresarial (BCS), [vea Servicios de conectividad empresarial en SharePoint 2013](https://msdn.microsoft.com/library/jj163782%28office.15%29.aspx).
+Para obtener más información sobre las novedades de Visio Services, vea el artículo [Visio Services in SharePoint 2013](https://msdn.microsoft.com/library/jj164027%28office.15%29.aspx). Para obtener más información sobre Servicios de conectividad empresarial (BCS), vea [Servicios de conectividad empresarial en SharePoint 2013](https://msdn.microsoft.com/library/jj163782%28office.15%29.aspx).
   
-## <a name="improvements-in-visio-services"></a>Mejoras en Servicios de Visio
+## <a name="improvements-in-visio-services"></a>Mejoras en Visio servicios
 <a name="vis15_WhatsNew_VisioServices"> </a>
 
-Servicios de Visio en Microsoft SharePoint Server 2013 incluye muchas mejoras. Como se mencionó anteriormente, Servicios de Visio admite el nuevo formato de archivo de Visio (tanto .vsdx como .vsdm). Servicios de Visio ha ampliado la actualización y actualización de datos, incluida la capacidad de recalcular fórmulas en todo un diagrama. 
+Visio Los servicios Microsoft SharePoint Server 2013 incluyen muchas mejoras. Como se mencionó anteriormente, Visio Services admite el nuevo formato de archivo Visio (tanto .vsdx como .vsdm). Visio Los servicios han expandido la actualización y el recálculo de datos, incluida la capacidad de volver a calcular fórmulas en todo un diagrama. 
   
-Para obtener más información acerca de las novedades de Servicios de Visio, vea el artículo Servicios de [Visio en SharePoint 2013.](https://msdn.microsoft.com/library/jj164027%28office.15%29.aspx)
+Para obtener más información sobre las novedades de Visio Services, vea el artículo [Visio Services in SharePoint 2013](https://msdn.microsoft.com/library/jj164027%28office.15%29.aspx).
   
 ## <a name="duplicate-page"></a>Página duplicada
 <a name="vis15_WhatsNew_DuplicatePage"> </a>
 
 Ahora puede copiar una página y todas sus formas dentro del mismo documento en Visio 2013. De acuerdo con esto, el objeto **Page** tiene un nuevo método, [Duplicar](https://msdn.microsoft.com/library/394be23b-997d-0da1-b3bd-8278564fb4e0%28Office.15%29.aspx), que duplica la página y devuelve un nuevo objeto **Page**. 
   
-## <a name="visio-object-model-changes"></a>Cambios en el modelo de objetos de Visio
+## <a name="visio-object-model-changes"></a>Visio modelo de objetos
 <a name="vis15_WhatsNew_NewOM"> </a>
 
-Se han agregado nuevos objetos, propiedades, métodos y eventos al modelo de objetos de Visio para proporcionar compatibilidad con programación para las nuevas características de Visio 2013. Además, las mejoras del modelo de objetos abordan frecuentes solicitudes de los desarrolladores para realizar cambios en la plataforma Visio.
+Se han agregado nuevos objetos, propiedades, métodos y eventos al modelo de objetos de Visio para proporcionar compatibilidad con la programación de nuevas características Visio 2013. Además, las mejoras del modelo de objetos abordan las solicitudes frecuentes de los desarrolladores para los cambios en la Visio plataforma.
   
 ### <a name="new-members"></a>Nuevos miembros
 
-Se han agregado los siguientes miembros a los objetos existentes en el modelo de objetos de Visio.
+Los siguientes miembros se han agregado a objetos existentes en el Visio de objetos.
   
  **Tabla 1. Mejoras del modelo de objetos de Visio**
   
@@ -154,7 +154,7 @@ Se han agregado los siguientes miembros a los objetos existentes en el modelo de
 |[Objeto Document (Visio)](https://msdn.microsoft.com/library/21640062-13a2-a2b2-7c61-7e707671207c%28Office.15%29.aspx) <br/> |[Evento Document.AfterDocumentMerge (Visio)](https://msdn.microsoft.com/library/50658da5-592a-4d16-908f-c6abe3050f09%28Office.15%29.aspx) <br/> |
 ||[Propiedad Document.Comments (Visio)](https://msdn.microsoft.com/library/15a322ad-70eb-1487-701d-76e2fde73309%28Office.15%29.aspx) <br/> |
 ||[Propiedad Document.CompatibilityMode (Visio)](https://msdn.microsoft.com/library/98fc00d3-5d2b-218e-9828-b5581ee7313d%28Office.15%29.aspx) <br/> |
-|[Objeto Documents (Visio)](https://msdn.microsoft.com/library/e9291149-964e-c6fb-4c62-bf2f35a6a0a7%28Office.15%29.aspx) <br/> |[Evento Documents.AfterDocumentMerge (Visio)](https://msdn.microsoft.com/library/cac0544d-77b9-b722-cfdb-e42475ce2558%28Office.15%29.aspx) <br/> |
+|[Documents (objeto) (Visio)](https://msdn.microsoft.com/library/e9291149-964e-c6fb-4c62-bf2f35a6a0a7%28Office.15%29.aspx) <br/> |[Evento Documents.AfterDocumentMerge (Visio)](https://msdn.microsoft.com/library/cac0544d-77b9-b722-cfdb-e42475ce2558%28Office.15%29.aspx) <br/> |
 ||[Evento Documents.AfterReplaceShapes (Visio)](https://msdn.microsoft.com/library/e01c069e-440b-7b8b-8d7d-cdb664f6e2d6%28Office.15%29.aspx) <br/> |
 ||[Evento Documents.BeforeReplaceShapes (Visio)](https://msdn.microsoft.com/library/55a66c47-a2ca-5c8a-2693-aaa1b079c704%28Office.15%29.aspx) <br/> |
 ||[Evento Documents.QueryCancelReplaceShapes (Visio)](https://msdn.microsoft.com/library/d613730e-04c8-d17f-0ad1-19e976aa107d%28Office.15%29.aspx) <br/> |
@@ -187,13 +187,13 @@ Se han agregado los siguientes miembros a los objetos existentes en el modelo de
    
 ### <a name="new-objects-and-enumerations"></a>Nuevos objetos y enumeraciones
 
-Se han agregado los siguientes objetos al modelo de objetos de Visio.
+Los siguientes objetos se han agregado al Visio de objetos.
   
  **Tabla 2. Adiciones al modelo de objetos de Visio**
   
 |**Objeto**|**Propiedades**|**Métodos**|
 |:-----|:-----|:-----|
-|[Objeto CoauthMergeEvent (Visio)](https://msdn.microsoft.com/library/eb9425cb-0108-4909-e334-9cd51e5b9303%28Office.15%29.aspx) <br/> |[Propiedad CoauthMergeEvent.BaseDocument (Visio)](https://msdn.microsoft.com/library/7ec09a85-6f51-685b-0c87-4b9eb3266773%28Office.15%29.aspx) <br/> [Propiedad CoauthMergeEvent.DownloadDocument (Visio)](https://msdn.microsoft.com/library/19239540-cd5a-13ea-3b26-282ac3676abd%28Office.15%29.aspx) <br/> [Propiedad CoauthMergeEvent.ObjectType (Visio)](https://msdn.microsoft.com/library/01baa0c2-75b7-2713-9732-1e7a8a7b33aa%28Office.15%29.aspx) <br/> [Propiedad CoauthMergeEvent.Stat (Visio)](https://msdn.microsoft.com/library/d8a96b8e-36b5-c61f-8cea-76266f7eed39%28Office.15%29.aspx) <br/> [Propiedad CoauthMergeEvent.WorkingDocument (Visio)](https://msdn.microsoft.com/library/0f3c4358-0d63-df7f-12fe-7f378bacca86%28Office.15%29.aspx) <br/> |Ninguno  <br/> |
+|[CoauthMergeEvent (objeto) (Visio)](https://msdn.microsoft.com/library/eb9425cb-0108-4909-e334-9cd51e5b9303%28Office.15%29.aspx) <br/> |[Propiedad CoauthMergeEvent.BaseDocument (Visio)](https://msdn.microsoft.com/library/7ec09a85-6f51-685b-0c87-4b9eb3266773%28Office.15%29.aspx) <br/> [Propiedad CoauthMergeEvent.DownloadDocument (Visio)](https://msdn.microsoft.com/library/19239540-cd5a-13ea-3b26-282ac3676abd%28Office.15%29.aspx) <br/> [Propiedad CoauthMergeEvent.ObjectType (Visio)](https://msdn.microsoft.com/library/01baa0c2-75b7-2713-9732-1e7a8a7b33aa%28Office.15%29.aspx) <br/> [Propiedad CoauthMergeEvent.Stat (Visio)](https://msdn.microsoft.com/library/d8a96b8e-36b5-c61f-8cea-76266f7eed39%28Office.15%29.aspx) <br/> [Propiedad CoauthMergeEvent.WorkingDocument (Visio)](https://msdn.microsoft.com/library/0f3c4358-0d63-df7f-12fe-7f378bacca86%28Office.15%29.aspx) <br/> |Ninguno  <br/> |
 |[Objeto Comment (Visio)](https://msdn.microsoft.com/library/f028cc03-0ef1-8017-a936-d30d45211864%28Office.15%29.aspx) <br/> |[Propiedad Comment.AssociatedObject (Visio)](https://msdn.microsoft.com/library/e28eed2e-260e-59c9-9b24-631817fe1ae1%28Office.15%29.aspx) <br/> [Propiedad Comment.AuthorInitials (Visio)](https://msdn.microsoft.com/library/abc07100-8c5c-9982-674d-40b58c096816%28Office.15%29.aspx) <br/> [Propiedad Comment.AuthorName (Visio)](https://msdn.microsoft.com/library/e1da4db8-7a16-16bf-2a5f-be1ac5372d34%28Office.15%29.aspx) <br/> [Propiedad Comment.AuthorSipAddress (Visio)](https://msdn.microsoft.com/library/f8d185a9-91b6-471a-3c0e-ffa8a06b36b3%28Office.15%29.aspx) <br/> [Propiedad Comment.AuthorSMTPAddress (Visio)](https://msdn.microsoft.com/library/22e04ccc-c524-ca08-d5e2-db68fdb3afb6%28Office.15%29.aspx) <br/> [Propiedad Comment.Collapsed (Visio)](https://msdn.microsoft.com/library/9552e379-e351-78d7-e0ed-4f524c3273a1%28Office.15%29.aspx) <br/> [Propiedad Comment.CreateDate (Visio)](https://msdn.microsoft.com/library/b643e13e-da12-a992-3a59-99b37f003fb9%28Office.15%29.aspx) <br/> [Comment.Document (Visio)](https://msdn.microsoft.com/library/d57b1377-b895-1fe1-2f98-ef000fdd9c39%28Office.15%29.aspx) <br/> [Propiedad Comment.EditDate (Visio)](https://msdn.microsoft.com/library/4ad13f54-215e-3680-5de6-13715e309fbf%28Office.15%29.aspx) <br/> [Propiedad Comment.ObjectType (Visio)](https://msdn.microsoft.com/library/bf0d786d-e1b6-65f1-3112-5dfd4ff324e9%28Office.15%29.aspx) <br/> [Propiedad Comment.Stat (Visio)](https://msdn.microsoft.com/library/f457598c-af42-cb83-ecd2-4fd42898ea16%28Office.15%29.aspx) <br/> [Propiedad Comment.Text (Visio)](https://msdn.microsoft.com/library/3ec63034-de5f-d9f2-16a5-e06a56883867%28Office.15%29.aspx) <br/> |[Método Comment.Delete (Visio)](https://msdn.microsoft.com/library/7762f264-f680-5758-7c35-dfe9067b61ca%28Office.15%29.aspx) <br/> |
 |[Objeto Comments (Visio)](https://msdn.microsoft.com/library/7cd0ee53-6b8d-a03b-ecd6-f6f6dda0f2d4%28Office.15%29.aspx) <br/> |[Propiedad Comments.Count (Visio)](https://msdn.microsoft.com/library/abac02d5-5047-2c9d-5c5c-e2738f99a4a6%28Office.15%29.aspx) <br/> [Comments.Document (Visio)](https://msdn.microsoft.com/library/507d4698-e282-f8a9-1299-c67945ee5fc4%28Office.15%29.aspx) <br/> [Propiedad Comments.Item (Visio)](https://msdn.microsoft.com/library/fed2a079-de87-d5ce-1d74-0bfa5a328441%28Office.15%29.aspx) <br/> [Propiedad Comments.ObjectType (Visio)](https://msdn.microsoft.com/library/06544d73-ce00-2c89-1ecb-20541b251d57%28Office.15%29.aspx) <br/> [Propiedad Comments.Stat (Visio)](https://msdn.microsoft.com/library/1f5f29b2-236c-91b6-6d25-7bacc37ca96c%28Office.15%29.aspx) <br/> |[Método Comments.Add (Visio)](https://msdn.microsoft.com/library/da02de49-8057-7e5c-6b59-0a013e56256d%28Office.15%29.aspx) <br/> [Método Comments.DeleteAll (Visio)](https://msdn.microsoft.com/library/50777ed3-553c-90ae-2d30-9dde412fe6b9%28Office.15%29.aspx) <br/> |
 |[Objeto ReplaceShapesEvent (Visio)](https://msdn.microsoft.com/library/26c4e7cb-6618-6d2f-a4be-515584f8cd10%28Office.15%29.aspx) <br/> |[Propiedad ReplaceShapesEvent.ObjectType (Visio)](https://msdn.microsoft.com/library/bcc442f0-aa4e-cd5a-d116-f3fb74459927%28Office.15%29.aspx) <br/> [Propiedad ReplaceShapesEvent.ReplaceFlags (Visio)](https://msdn.microsoft.com/library/d0d00891-c794-bd0c-d37e-1ab98c92beab%28Office.15%29.aspx) <br/> [Propiedad ReplaceShapesEvent.ReplacementMaster (Visio)](https://msdn.microsoft.com/library/326a1889-8952-b4ac-c5c0-ac4470257c06%28Office.15%29.aspx) <br/> [Propiedad ReplaceShapesEvent.SelectionSource (Visio)](https://msdn.microsoft.com/library/f81c0b66-b63b-fc7c-1769-d56a17d5cf78%28Office.15%29.aspx) <br/> [Propiedad ReplaceShapesEvent.Stat (Visio)](https://msdn.microsoft.com/library/96f3d382-5dda-7f93-088d-96edc831cd7c%28Office.15%29.aspx) <br/> |Ninguno  <br/> |
@@ -219,14 +219,14 @@ En la tabla siguiente se enumeran los objetos y miembros en desuso introducidos 
 |:-----|:-----|
 |**Window (objeto)**  <br/> |Propiedad **PageTabWidth**  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="vis15_WhatsNew_Additional"> </a>
 
 - [Visio para desarrolladores](https://msdn.microsoft.com/office/aa905478.aspx)
     
 - [Novedades para programadores de ShapeSheet de Visio](what-s-new-for-visio-shapesheet-developers.md)
     
-- [Servicios de Visio en SharePoint 2013](https://msdn.microsoft.com/library/jj164027%28office.15%29.aspx)
+- [Visio Servicios en SharePoint 2013](https://msdn.microsoft.com/library/jj164027%28office.15%29.aspx)
     
 - [Novedades de Visio (Office.com)](https://office.com/redir/HA102749364.aspx)
     

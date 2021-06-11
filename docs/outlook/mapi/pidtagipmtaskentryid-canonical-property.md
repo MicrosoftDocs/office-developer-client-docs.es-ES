@@ -25,18 +25,18 @@ ms.locfileid: "32327855"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el **EntryID de** la carpeta Tareas de Outlook. 
+Contiene el **EntryID de** la carpeta Outlook Tareas. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_IPM_TASK_ENTRYID  <br/> |
 |Identificador:  <br/> |0x36D4  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
-|Área:  <br/> |Folder  <br/> |
+|Área:  <br/> |Carpeta  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se lee o escribe mediante el protocolo Property y Stream Object. Se lee y se escribe en la bandeja de entrada o en la carpeta raíz. La implementación debe usar la carpeta Bandeja de entrada cuando el almacén es el del usuario de mensajería principal y debe usar la carpeta raíz cuando el almacén es el de un usuario delegado.
+Esta propiedad se lee o se escribe mediante el protocolo Property y Stream Object. Se lee y se escribe en la carpeta Bandeja de entrada o raíz. La implementación debe usar la carpeta Bandeja de entrada cuando el almacén es el del usuario de mensajería principal y debe usar la carpeta Raíz cuando el almacén es el de un usuario delegado.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,11 +48,11 @@ Esta propiedad se lee o escribe mediante el protocolo Property y Stream Object. 
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones para crear y buscar las carpetas especiales en un buzón.
+> Especifica las propiedades y las operaciones para crear y localizar las carpetas especiales en un buzón.
     
 [[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
-> Especifica métodos para conectar y configurar buzones como delegados e interacciones con objetos de mensaje y calendario cuando actúan en nombre de otro usuario.
+> Especifica métodos para conectarse y configurar buzones como delegados e interacciones con objetos de mensaje y calendario cuando actúan en nombre de otro usuario.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

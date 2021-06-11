@@ -20,7 +20,7 @@ Obtiene el nombre de perfil de una cuenta.
   
 ## <a name="quick-info"></a>Información rápida
 
-Consulta [IOlkAccountHelper](iolkaccounthelper.md).
+Vea [IOlkAccountHelper](iolkaccounthelper.md).
   
 ```cpp
 HRESULT IOlkAccountHelper::GetIdentity (  
@@ -29,29 +29,29 @@ HRESULT IOlkAccountHelper::GetIdentity (
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
 _pwszIdentity_
   
-> [entrada] [salida] Nombre del perfil.
+> [in] [salida] Nombre del perfil.
     
 _pcch_
   
-> [entrada] [salida] Al llamar a este método, contiene el tamaño (en número de caracteres) de  _pwszIdentity_ que se ha asignado. Tras la devolución, contiene la longitud real, incluido el carácter de terminación 0, del nombre del perfil devuelto. 
+> [in] [salida] Al llamar a este método, contiene el tamaño (en número de caracteres) de  _pwszIdentity_ que se ha asignado. Al devolver, contiene la longitud real, incluido el carácter de 0 terminación, del nombre del perfil devuelto. 
     
 ## <a name="return-values"></a>Valores devueltos
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |La llamada ha sido correcta.  <br/> |
-|E_OUTOFMEMORY  <br/> |El nombre de perfil devuelto es más largo que el tamaño de  _pwszIdentity_.  <br/> |
+|E_OUTOFMEMORY  <br/> |El nombre del perfil devuelto es mayor que el tamaño de  _pwszIdentity_.  <br/> |
 |E_INVALIDARG  <br/> | _pcch_ es NULL.  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Si  _pwszIdentity_ es demasiado pequeño para contener el nombre del perfil, no se establecerá en la devolución y  _pcch_ apuntará al tamaño necesario para  _pwszIdentity_.
+Si  _pwszIdentity_ es demasiado pequeño para contener el nombre del perfil, no se establecerá en la devolución y  _pcch_ señalará el tamaño necesario para  _pwszIdentity_.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 - [PidTagProfileName](https://msdn.microsoft.com/library/13ca726d-ae7a-4da9-9c8e-3db3c479f839%28Office.15%29.aspx)

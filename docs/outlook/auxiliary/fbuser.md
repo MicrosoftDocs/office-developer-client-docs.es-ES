@@ -43,13 +43,13 @@ _m_lpEid_
     
 _m_ulReserved_
   
-> Este parámetro está reservado para uso interno de Outlook y no es compatible.
+> Este parámetro está reservado para Outlook uso interno y no es compatible.
     
 _m_pwszReserved_
   
-> Este parámetro está reservado para uso interno de Outlook y no es compatible.
+> Este parámetro está reservado para Outlook uso interno y no es compatible.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Información sobre la API de disponibilidad](about-the-free-busy-api.md)  
 - [IFreeBusySupport](ifreebusysupport.md)

@@ -36,11 +36,11 @@ Contiene el nombre de archivo de la DLL que contiene la función de punto de ent
    
 ## <a name="remarks"></a>Comentarios
 
-Cuando el nombre de la función de punto de entrada aparece en el **método PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)), indica que el punto de entrada existe.
+Cuando el nombre de la función de punto de entrada aparece en el método **PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)), indica que el punto de entrada existe.
   
-MAPI usa una convención de nomenclatura de archivos DLL. Anexa la cadena 32 al nombre de dll base para identificar la versión que se ejecuta en plataformas de 32 bits. Por ejemplo, cuando se especifica el nombre MAPI.DLL, MAPI construye el nombre MAPI32.DLL para representar la versión de 32 bits correspondiente de la DLL.
+MAPI usa una convención de nomenclatura de archivos DLL. Anexa la cadena 32 al nombre de DLL base para identificar la versión que se ejecuta en plataformas de 32 bits. Por ejemplo, cuando se especifica MAPI.DLL nombre, MAPI construye el nombre MAPI32.DLL para representar la versión de 32 bits correspondiente de la DLL.
   
-Estas propiedades deben especificar el nombre base. MAPI anexa la cadena 32 según corresponda. La inclusión de la cadena 32 como parte de estas propiedades produce un error.
+Estas propiedades deben especificar el nombre base. MAPI anexa la cadena 32 según corresponda. Si se incluye la cadena 32 como parte de estas propiedades, se produce un error.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -54,7 +54,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -63,7 +63,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ Proporciona información adicional sobre el último error.
 |Suministrado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IOlkErrorUnknown  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -33,9 +33,9 @@ Proporciona información adicional sobre el último error.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta interfaz proporciona información adicional sobre un error en [IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md)e [IOlkAccount](iolkaccount.md). También es la interfaz base para **IOlkAccountManager**, **IOlkAccountNotify** e **IOlkAccount**. 
+Esta interfaz proporciona información adicional sobre un error en [IOlkAccountManager](iolkaccountmanager.md), [IOlkAccountNotify](iolkaccountnotify.md)y [IOlkAccount](iolkaccount.md). También es la interfaz base para **IOlkAccountManager**, **IOlkAccountNotify** y **IOlkAccount**. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

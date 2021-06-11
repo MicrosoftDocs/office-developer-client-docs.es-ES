@@ -21,9 +21,9 @@ ms.locfileid: "32316488"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Las estrategias de prueba varían en función de si está desarrollando un cliente o un proveedor de servicios. Dado que una aplicación cliente requiere que uno o más proveedores de servicios funcionen, los clientes deben probarse en un entorno con distintos conjuntos de proveedores de servicios.
+Las estrategias de prueba varían en función de si está desarrollando un cliente o un proveedor de servicios. Dado que una aplicación cliente requiere que uno o varios proveedores de servicios funcionen, los clientes deben probarse en un entorno con distintos conjuntos de proveedores de servicios.
   
-Sin embargo, los proveedores de servicios deben probarse de forma aislada antes de integrarse con otros proveedores. MAPI proporciona herramientas que están pensadas para probar las características de un proveedor de servicios de un tipo determinado. La [aplicación de ejemplo MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) muestra cómo probar las características de un proveedor de libreta de direcciones y funciona con un proveedor de almacén de mensajes. 
+Sin embargo, los proveedores de servicios deben probarse de forma aislada antes de integrarse con otros proveedores. MAPI proporciona herramientas destinadas a probar las características de un proveedor de servicios de un tipo determinado. La [aplicación de ejemplo MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) muestra cómo probar las características de un proveedor de libreta de direcciones y funciona con un proveedor de almacén de mensajes. 
   
 ## <a name="see-also"></a>Vea también
 

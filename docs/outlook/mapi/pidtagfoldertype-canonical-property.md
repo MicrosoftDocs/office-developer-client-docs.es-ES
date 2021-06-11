@@ -40,19 +40,19 @@ Esta propiedad puede tener exactamente uno de los siguientes valores:
   
 FOLDER_GENERIC 
   
-> Carpeta genérica que contiene mensajes y otras carpetas.
+> Una carpeta genérica que contiene mensajes y otras carpetas.
     
 FOLDER_ROOT 
   
-> La carpeta raíz de la tabla de jerarquía de carpetas, es decir, una carpeta que no tiene ninguna carpeta principal.
+> La carpeta raíz de la tabla de jerarquía de carpetas, es decir, una carpeta que no tiene ninguna carpeta primaria.
     
 FOLDER_SEARCH 
   
 > Carpeta que contiene los resultados de una búsqueda, en forma de vínculos a mensajes que cumplen los criterios de búsqueda.
     
-La raíz de un almacén de mensajes no debe confundirse con la raíz del subárbol del mensaje interpersonal (IPM) de ese almacén. La carpeta raíz del almacén, que no tiene ningún elemento primario, se obtiene llamando al método [IMsgStore::OpenEntry](imsgstore-openentry.md) con un identificador de entrada nulo. La carpeta raíz del subárbol IPM, que tiene un elemento primario, se obtiene mediante el valor de la propiedad **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) para la llamada **a OpenEntry.** 
+La raíz de un almacén de mensajes no debe confundirse con la raíz del subárbol de mensajes interpersonales (IPM) de ese almacén. La carpeta raíz del almacén, que no tiene ningún elemento primario, se obtiene llamando al método [IMsgStore::OpenEntry](imsgstore-openentry.md) con un identificador de entrada nulo. La carpeta raíz del subárbol IPM, que tiene un elemento primario, se obtiene mediante el valor de la propiedad **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) para la **llamada OpenEntry.** 
   
-MAPI solo permite una carpeta raíz por almacén de mensajes. Esta carpeta contiene mensajes y otras carpetas. La propiedad PR_PARENT_ENTRYID **de** la carpeta raíz ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) contiene el identificador de entrada de la carpeta.
+MAPI solo permite una carpeta raíz por almacén de mensajes. Esta carpeta contiene mensajes y otras carpetas. La propiedad de **PR_PARENT_ENTRYID** raíz ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) contiene el identificador de entrada de la carpeta.
   
 La información de una carpeta de resultados de búsqueda se almacena principalmente en su tabla de contenido, que contiene las mismas columnas que una tabla de contenido típica, así como dos columnas adicionales que identifican la carpeta en la que se encontró cada mensaje: **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) (nombre para mostrar, obligatorio) y esta propiedad (identificador de entrada, opcional).
   
@@ -78,13 +78,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

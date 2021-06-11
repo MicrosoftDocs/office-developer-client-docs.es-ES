@@ -25,7 +25,7 @@ ms.locfileid: "32329473"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Cancela un registro de notificaciones con un visor de formulario establecido anteriormente llamando a [IMAPIForm::Advise](imapiform-advise.md).
+Cancela un registro para las notificaciones con un visor de formulario establecido anteriormente mediante una llamada a [IMAPIForm::Advise](imapiform-advise.md).
   
 ```cpp
 HRESULT Unadvise(
@@ -33,17 +33,17 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [entrada] Número de conexión que identifica el registro de notificación que se va a cancelar.
+> [in] Número de conexión que identifica el registro de notificación que se va a cancelar.
     
 ## <a name="return-value"></a>Valor devuelto
 
 S_OK 
   
-> Se canceló el registro.
+> El registro se canceló.
     
 E_INVALIDARG 
   
@@ -51,13 +51,13 @@ E_INVALIDARG
     
 ## <a name="remarks"></a>Comentarios
 
-Los visores de formularios llaman al método **IMAPIForm::Unadvise** para cancelar un registro de notificación que establecieron por primera vez llamando al método **IMAPIForm::Advise.** 
+Los visores de formularios llaman al método **IMAPIForm::Unadvise** para cancelar un registro para la notificación que establecieron por primera vez llamando al método **IMAPIForm::Advise.** 
   
 ## <a name="notes-to-implementers"></a>Notas a los implementadores
 
-Descarte el puntero que está manteniendo en el receptor de avisos de vista del visor de formularios llamando a su [método IUnknown::Release.](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) Por lo general, se llama a **Release** durante la **llamada Unadvise.** Sin embargo, si otro subproceso está en proceso de llamar a uno de los métodos [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) para el receptor de aviso de vista, retrase la llamada **release** hasta que el método **IMAPIViewAdviseSink** vuelva. 
+Descarte el puntero que está manteniendo en la vista del visor de formularios para avisar al receptor llamando a su [método IUnknown::Release.](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) Por lo general, se llama a **Release** durante la **llamada Unadvise.** Sin embargo, si otro subproceso está en proceso de llamar a uno de los métodos [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) para el receptor de aviso de vista, retrase la llamada **Release** hasta que el método **IMAPIViewAdviseSink** devuelva. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

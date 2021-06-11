@@ -25,7 +25,7 @@ ms.locfileid: "32329403"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un identificador del sistema de transferencia de mensajes (MTS) para el agente de transferencia de mensajes (MTA).
+Contiene un identificador de sistema de transferencia de mensajes (MTS) para el agente de transferencia de mensajes (MTA).
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene un identificador del sistema de transferencia de mensajes (MTS) para el
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es devuelta por el MTA una vez completado correctamente el envío de mensajes. Cualquier contacto futuro con el MTA relacionado con este mensaje, como solicitar la cancelación, usa el identificador MTS en esta propiedad.
+Esta propiedad es devuelta por el MTA una vez completado correctamente el envío de mensajes. Cualquier contacto futuro con el MTA con respecto a este mensaje, como solicitar la cancelación, usa el identificador mts en esta propiedad.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Esta propiedad es devuelta por el MTA una vez completado correctamente el envío
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,13 +25,13 @@ ms.locfileid: "32315984"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el contenido del campo de título del XML de la fuente \< \> Atom o canal \< \> \< \> RSS.
+Contiene el contenido del campo \< title del XML de la fuente Atom o el canal RSS \> \< \> \< \> .
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidPostRssChannel  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_PostRss  <br/> |
-|Long ID (LID):  <br/> |0x00008904  <br/> |
+|Id. largo (LID):  <br/> |0x00008904  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |RSS  <br/> |
    
@@ -45,7 +45,7 @@ Contiene el contenido del campo de título del XML de la fuente \< \> Atom o can
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones que representan elementos RSS.
+> Especifica las propiedades y las operaciones que representan elementos RSS.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

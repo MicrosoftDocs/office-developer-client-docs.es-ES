@@ -25,20 +25,20 @@ Proporciona funcionalidad auxiliar en la sesión MAPI actual para administrar cu
 |Suministrado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IOlkAccountHelper  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
-|[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *Este miembro es un marcador de posición y no es compatible.*  <br/> |
+|[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *Este miembro es un marcador de posición y no se admite.*  <br/> |
 |[GetIdentity](iolkaccounthelper-getidentity.md) <br/> |Obtiene el nombre de perfil de una cuenta.  <br/> |
-|[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Abre una sesión MAPI y mantiene una referencia a la sesión para el administrador de cuentas.  <br/> |
+|[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Abre una sesión MAPI y mantiene una referencia a la sesión del administrador de cuentas.  <br/> |
 |[HandsOffSession](iolkaccounthelper-handsoffsession.md) <br/> |Libera el objeto de sesión MAPI devuelto por [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
 Esta interfaz se pasa a [IOlkAccountManager::Init al](iolkaccountmanager-init.md) inicializar el administrador de cuentas. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

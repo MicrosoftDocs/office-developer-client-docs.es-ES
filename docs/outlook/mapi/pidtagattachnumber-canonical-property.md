@@ -38,9 +38,9 @@ Contiene un número que identifica de forma única los datos adjuntos dentro de 
 
 Los almacenes de mensajes generan y mantienen esta propiedad. El número de datos adjuntos es la clave de ordenación secundaria, después de la posición de representación, en la tabla de datos adjuntos. 
   
- **PR_ATTACH_NUM** se usa para abrir los datos adjuntos con el [método IMessage::OpenAttach.](imessage-openattach.md) Dentro de la sesión de una aplicación cliente, la propiedad **PR_ATTACH_NUM** de datos adjuntos de un mensaje permanece constante mientras la tabla de datos adjuntos esté abierta. 
+ **PR_ATTACH_NUM** se usa para abrir los datos adjuntos con el [método IMessage::OpenAttach.](imessage-openattach.md) Dentro de la sesión de una aplicación cliente, la propiedad **PR_ATTACH_NUM** de datos adjuntos de un mensaje permanece constante siempre que la tabla de datos adjuntos esté abierta. 
   
-El almacén de mensajes propaga los cambios a la tabla mediante los métodos **IMessage::CreateAttach** e **IMessage::D eleteAttach.** En su opción, el almacén de mensajes puede generar notificaciones de tabla en tablas de datos adjuntos abiertas para que los clientes puedan volver a sincronizarse con esos cambios. 
+El almacén de mensajes propaga los cambios en la tabla mediante los métodos **IMessage::CreateAttach** e **IMessage::D eleteAttach.** En su opción, el almacén de mensajes puede generar notificaciones de tabla en tablas de datos adjuntos abiertas para que los clientes puedan volver a sincronizarse con esos cambios. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ El almacén de mensajes propaga los cambios a la tabla mediante los métodos **I
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

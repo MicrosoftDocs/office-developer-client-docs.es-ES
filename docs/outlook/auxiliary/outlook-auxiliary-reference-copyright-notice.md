@@ -1,5 +1,5 @@
 ---
-title: Aviso de derechos de autor de referencia auxiliar de Outlook
+title: Outlook aviso de copyright de referencia auxiliar
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32327793"
 ---
-# <a name="outlook-auxiliary-reference-copyright-notice"></a>Aviso de derechos de autor de referencia auxiliar de Outlook
+# <a name="outlook-auxiliary-reference-copyright-notice"></a>Outlook aviso de copyright de referencia auxiliar
 
 Este documento se ofrece "tal cual". La información y las vistas expresadas en este documento, incluidas las url y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. Usted es responsable de los riegos de su uso.
   

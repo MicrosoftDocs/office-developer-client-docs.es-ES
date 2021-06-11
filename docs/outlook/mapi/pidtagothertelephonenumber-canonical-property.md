@@ -32,13 +32,13 @@ Contiene un número de teléfono alternativo para el destinatario.
 |Propiedades asociadas:  <br/> |PR_OTHER_TELEPHONE_NUMBER, PR_OTHER_TELEPHONE_NUMBER_A, PR_OTHER_TELEPHONE_NUMBER_W  <br/> |
 |Identificador:  <br/> |0x3A1F  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Área:  <br/> |Address  <br/> |
+|Área:  <br/> |Dirección  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades proporcionan información de identificación y acceso para un destinatario. Los define el destinatario y su organización. 
+Estas propiedades proporcionan información de identificación y acceso para un destinatario. El destinatario y su organización los definen. 
   
-Estas propiedades se usan para un número de teléfono distinto del lugar de la empresa, el domicilio o la oficina del destinatario.
+Estas propiedades se usan para un número de teléfono distinto del lugar de negocio, hogar u oficina del destinatario.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,13 +48,13 @@ Estas propiedades se usan para un número de teléfono distinto del lugar de la 
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para las plantillas de libreta de direcciones.
+> Especifica las propiedades y las operaciones permitidas para las plantillas de libreta de direcciones.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -66,13 +66,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

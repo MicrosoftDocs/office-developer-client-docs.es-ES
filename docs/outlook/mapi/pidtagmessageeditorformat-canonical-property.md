@@ -36,22 +36,22 @@ Especifica el formato de un editor que se usará para mostrar un mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Los valores posibles **para PR_MSG_EDITOR_FORMAT** pueden ser uno de los siguientes: 
+Los valores posibles **PR_MSG_EDITOR_FORMAT** pueden ser uno de los siguientes: 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
-|**EDITOR_FORMAT_DONTKNOW** <br/> |El formato para el editor que se va a usar es desconocido.  <br/> |
+|**EDITOR_FORMAT_DONTKNOW** <br/> |El formato que debe usar el editor es desconocido.  <br/> |
 |**EDITOR_FORMAT_PLAINTEXT** <br/> |El editor debe mostrar el mensaje en formato de texto sin formato.  <br/> |
 |**EDITOR_FORMAT_HTML** <br/> |El editor debe mostrar el mensaje en formato HTML.  <br/> |
 |**EDITOR_FORMAT_RTF** <br/> |El editor debe mostrar el mensaje en formato de texto enriquecido.  <br/> |
    
-De forma predeterminada, los mensajes de correo (con la clase de **mensaje IPM. Nota** o con una clase de mensaje personalizada derivada de **IPM. Nota)** Los envíos desde una cuenta de correo POP3/SMTP se envían en el formato de encapsulación neutro para el transporte (TNEF). La **PR_MSG_EDITOR_FORMAT** puede usarse para aplicar solo texto sin formato, y no TNEF, al enviar un mensaje. Si **PR_MSG_EDITOR_FORMAT** se establece **en EDITOR_FORMAT_PLAINTEXT**, el mensaje se envía como texto sin formato sin TNEF. Si **PR_MSG_EDITOR_FORMAT** se establece en **EDITOR_FORMAT_RTF,** la codificación TNEF está habilitada implícitamente y el mensaje se envía mediante el formato predeterminado de Internet especificado en el cliente de Outlook.
+De forma predeterminada, los mensajes de correo (con la clase de **mensaje IPM. Nota** o con una clase de mensaje personalizada derivada de **IPM. Nota**) los envíos desde una cuenta de correo POP3/SMTP se envían en el formato de encapsulación neutral de transporte (TNEF). La **PR_MSG_EDITOR_FORMAT** puede usarse para aplicar solo texto sin formato, y no TNEF, al enviar un mensaje. Si **PR_MSG_EDITOR_FORMAT** se establece **en EDITOR_FORMAT_PLAINTEXT**, el mensaje se envía como texto sin formato sin TNEF. Si **PR_MSG_EDITOR_FORMAT** se establece en **EDITOR_FORMAT_RTF**, la codificación TNEF está habilitada implícitamente y el mensaje se envía mediante el formato de Internet predeterminado que se especifica en el Outlook cliente.
   
 Existen otras dos formas de exigir el uso de TNEF al enviar un mensaje.
   
-- Establecer la propiedad con nombre **dispidUseTNEF** ([PidLidUseTnef](pidlidusetnef-canonical-property.md)) en True en un mensaje indica que se debe incluir TNEF al convertir el mensaje de MAPI a MIME/SMTP. Tenga en cuenta que **dispidUseTNEF** solo se aplica cuando el mensaje se envía desde una cuenta de correo POP3/SMTP y no se aplica cuando otros proveedores envían el mensaje, como Microsoft Exchange Server. **dispidUseTNEF** invalida la configuración en **PR_MSG_EDITOR_FORMAT**.
+- Si se establece la propiedad **dispidUseTNEF** ([PidLidUseTnef](pidlidusetnef-canonical-property.md)) en True en un mensaje, se indica que TNEF debe incluirse al convertir el mensaje de MAPI a MIME/SMTP. Tenga en cuenta que **dispidUseTNEF** solo se aplica cuando el mensaje se envía desde una cuenta de correo POP3/SMTP y no se aplica cuando el mensaje lo envían otros proveedores, como Microsoft Exchange Server. **dispidUseTNEF** invalida la configuración de **PR_MSG_EDITOR_FORMAT**.
     
-- El uso **CCSF_USE_TNEF** marca al llamar a [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) para convertir un mensaje MAPI saliente en una secuencia MIME también puede exigir TNEF. Esto se aplica incluso si **dispidUseTNEF** no está establecido. 
+- El uso **de CCSF_USE_TNEF** al llamar a [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) para convertir un mensaje MAPI saliente en una secuencia MIME también puede aplicar TNEF. Esto se aplica incluso si **dispidUseTNEF** no está establecido. 
     
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -67,7 +67,7 @@ Existen otras dos formas de exigir el uso de TNEF al enviar un mensaje.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -79,13 +79,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

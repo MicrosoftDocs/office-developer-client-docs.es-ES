@@ -51,7 +51,7 @@ typedef struct
     
 MAPI_UNICODE 
   
-> Las cadenas están en formato Unicode. Si no MAPI_UNICODE marca, las cadenas están en formato ANSI.
+> Las cadenas están en formato Unicode. Si la MAPI_UNICODE no está establecida, las cadenas tienen el formato ANSI.
     
  **hDevmode**
   
@@ -59,7 +59,7 @@ MAPI_UNICODE
     
  **hDevnames**
   
-> Controlar la ruta de acceso de la impresora.
+> Controla la ruta de acceso de la impresora.
     
  **ulFirstPageNumber**
   
@@ -67,17 +67,17 @@ MAPI_UNICODE
     
  **ulFPrintAttachments**
   
-> Marca que indica si hay datos adjuntos que se imprimirán. Si hay datos adjuntos que imprimir, **el miembro ulFPrintAttachments** se establece en 1. Si no hay datos adjuntos que imprimir, se establece en 0. 
+> Marca que indica si hay datos adjuntos que se van a imprimir. Si hay datos adjuntos que imprimir, **el miembro ulFPrintAttachments** se establece en 1. Si no hay datos adjuntos que imprimir, se establece en 0. 
     
 ## <a name="remarks"></a>Comentarios
 
-La **estructura FORMPRINTSETUP** se usa para describir la información de configuración de impresión de un objeto de formulario. Las implementaciones de [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md) rellenan la estructura **FORMPRINTSETUP** y lo devuelven en el contenido del parámetro de salida  _lppFormPrintSetup_ **de GetPrintSetup**.
+La **estructura FORMPRINTSETUP** se usa para describir la información de instalación de impresión de un objeto de formulario. Las implementaciones de [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md) rellenan la estructura **FORMPRINTSETUP** y la devuelven en el contenido del parámetro de salida  _lppFormPrintSetup_ de **GetPrintSetup**.
   
 Si la marca MAPI_UNICODE se pasa en el parámetro  _ulFlags_ de **GetPrintSetup**, las cadenas a las que hacen referencia los miembros **hDevmode** y **hDevnames** deben estar en formato Unicode. De lo contrario, las cadenas deben estar en formato ANSI. 
   
-Los visores de formulario que implementan **IMAPIViewContext** deben asignar la estructura **FORMPRINTSETUP** mediante la función de asignador MAPI [MAPIAllocateBuffer](mapiallocatebuffer.md), pero asignar los miembros individuales, **hDevMode** y **hDevNames**, con la función de Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). La liberación de memoria se controla de forma similar. Los **miembros hDevMode** y **hDevNames** deben liberarse mediante la función de Windows [GlobalFree,](https://go.microsoft.com/fwlink/?LinkId=132108) mientras que la estructura **FORMPRINTSETUP** debe liberarse con la [función MAPIFreeBuffer.](mapifreebuffer.md) 
+Los visores de formulario que implementan **IMAPIViewContext** deben asignar la estructura **FORMPRINTSETUP** mediante la función de asignador [MAPI MAPIAllocateBuffer](mapiallocatebuffer.md), pero asignar los miembros individuales, **hDevMode** y **hDevNames**, con la función Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). La liberación de memoria se controla de forma similar. Los **miembros hDevMode** y **hDevNames** deben liberarse mediante la función Windows [GlobalFree,](https://go.microsoft.com/fwlink/?LinkId=132108) mientras que la estructura **FORMPRINTSETUP** debe liberarse con la función [MAPIFreeBuffer.](mapifreebuffer.md) 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

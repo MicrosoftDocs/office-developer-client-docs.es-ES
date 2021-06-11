@@ -15,7 +15,7 @@ ms.locfileid: "32322102"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-Admite la enumeración de cuentas como [objetos IUnknown.](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) 
+Admite enumerar cuentas como [objetos IUnknown.](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) 
   
 ## <a name="quick-info"></a>Información rápida
 
@@ -27,7 +27,7 @@ Admite la enumeración de cuentas como [objetos IUnknown.](https://docs.microsof
 |Llamado por:  <br/> |Cliente  <br/> |
 |Identificador de interfaz:  <br/> |IID_IOlkEnum  <br/> |
    
-## <a name="vtable-order"></a>Orden de tabla virtual
+## <a name="vtable-order"></a>Orden de Vtable
 
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ Admite la enumeración de cuentas como [objetos IUnknown.](https://docs.microsof
 
 **IOlkAccountManager::EnumerateAccounts** devuelve esta interfaz al obtener un enumerador de cuentas. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md) 
 - [Constantes (API de administración de cuenta)](constants-account-management-api.md)

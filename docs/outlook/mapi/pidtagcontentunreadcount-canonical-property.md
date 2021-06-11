@@ -25,22 +25,22 @@ ms.locfileid: "32331874"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el número de mensajes no leídos de una carpeta, calculado por el almacén de mensajes. 
+Contiene el número de mensajes no leídos de una carpeta, tal como lo calcula el almacén de mensajes. 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_CONTENT_UNREAD  <br/> |
 |Identificador:  <br/> |0x3603  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Folder  <br/> |
+|Área:  <br/> |Carpeta  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad calculada por el almacén de mensajes se usa para dos propósitos diferentes, aunque relacionados. En un objeto de carpeta MAPI, contiene el número de mensajes de una carpeta. En una fila de título en tablas MAPI categorizadas, contiene el número de mensajes no asociados no leídos en la categoría correspondiente a esa fila de título.
+Esta propiedad calculada por el almacén de mensajes se usa para dos propósitos diferentes, aunque relacionados. En un objeto de carpeta MAPI, contiene el número de mensajes de una carpeta. En una fila de encabezado en tablas MAPI categorizadas, contiene el número de mensajes no leídos no asociados en la categoría correspondiente a esa fila de título.
   
-Esta propiedad contiene el número de mensajes de la tabla de contenido de la carpeta para los que no se establece la marca MSGFLAG_READ en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). La **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) contiene el recuento total de mensajes de la carpeta. Las **PR_CONTENT_COUNT** y esta propiedad son de solo lectura para los clientes. 
+Esta propiedad contiene el número de mensajes de la tabla de contenido de carpeta para los que no se establece la marca MSGFLAG_READ en la propiedad **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). La **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md)) contiene el recuento total de mensajes de la carpeta. El **PR_CONTENT_COUNT** y esta propiedad son de solo lectura para los clientes. 
   
-Algunas aplicaciones cliente muestran la fila de título de una categoría de forma diferente según el valor de esta propiedad. Por ejemplo, un cliente puede mostrar una categoría que incluya mensajes no leídos en negrita. Esta propiedad no se puede usar como categoría y si se intenta hacerlo, se devuelve el valor MAPI_E_INVALID_PARAMETER del método [IMAPITable::SortTable.](imapitable-sorttable.md) 
+Algunas aplicaciones cliente muestran la fila de encabezado de una categoría de forma diferente en función del valor de esta propiedad. Por ejemplo, un cliente puede mostrar una categoría que incluye mensajes no leídos en negrita. Esta propiedad no se puede usar como categoría y un intento de hacerlo da como resultado que se devuelva el valor MAPI_E_INVALID_PARAMETER del método [IMAPITable::SortTable.](imapitable-sorttable.md) 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -56,7 +56,7 @@ Algunas aplicaciones cliente muestran la fila de título de una categoría de fo
     
 [[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
-> Incluye operaciones permitidas para los objetos de tabla principales.
+> Incluye operaciones permitidas para los objetos de tabla principal.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

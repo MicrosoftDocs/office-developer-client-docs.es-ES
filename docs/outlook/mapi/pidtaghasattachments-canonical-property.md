@@ -36,7 +36,7 @@ Contiene TRUE si un mensaje contiene al menos un dato adjunto.
    
 ## <a name="remarks"></a>Comentarios
 
-El almacén de mensajes copia esta propiedad de **la marca MSGFLAG_HASATTACH** de la **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). A continuación, una aplicación cliente **puede PR_HASATTACH** para ordenar los datos adjuntos del mensaje en un visor de mensajes. 
+El almacén de mensajes copia esta propiedad de la **marca MSGFLAG_HASATTACH** de la **propiedad PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Después, una aplicación cliente **puede usar PR_HASATTACH** para ordenar datos adjuntos de mensajes en un visor de mensajes. 
   
 El valor de esta propiedad se actualiza con el [método IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
@@ -46,7 +46,7 @@ El valor de esta propiedad se actualiza con el [método IMAPIProp::SaveChanges.]
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -58,13 +58,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

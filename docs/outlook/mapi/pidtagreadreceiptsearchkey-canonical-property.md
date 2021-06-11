@@ -25,7 +25,7 @@ ms.locfileid: "32320044"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene una clave de búsqueda para el usuario de mensajería al que el sistema de mensajería debe dirigir un informe de lectura para un mensaje.
+Contiene una clave de búsqueda para el usuario de mensajería al que el sistema de mensajería debe dirigir un informe de lectura de un mensaje.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contiene una clave de búsqueda para el usuario de mensajería al que el sistema
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se omite a menos **PR_READ_RECEIPT_REQUESTED** propiedad ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) esté establecida en TRUE.
+Esta propiedad se omite a menos **que la propiedad PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) esté establecida en TRUE.
   
-Si una aplicación cliente desea recibir informes de lectura, puede dejar esta propiedad sin establecer o establecerla en la clave de búsqueda contenida en la propiedad **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) en el momento del envío del mensaje.
+Si una aplicación cliente quiere recibir informes de lectura en sí, puede dejar esta propiedad sin establecer o establecerla en la clave de búsqueda incluida en la propiedad **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) en el momento del envío del mensaje.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Si una aplicación cliente desea recibir informes de lectura, puede dejar esta p
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en los mensajes de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

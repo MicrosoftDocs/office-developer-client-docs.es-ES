@@ -25,19 +25,19 @@ ms.locfileid: "32334779"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica una lista de todos los asistentes excepto el organizador, incluidos los recursos y los asistentes insendibles.
+Especifica una lista de todos los asistentes excepto el organizador, incluidos los recursos y los asistentes insensibles.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidAllAttendeesString  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008238  <br/> |
+|Id. largo (LID):  <br/> |0x00008238  <br/> |
 |Tipo de datos:  <br/> |PT_UNICODE  <br/> |
 |Área:  <br/> |Reuniones  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de cada asistente es el nombre para mostrar del asistente. Las entradas independientes deben estar delimitadas por un punto y coma seguido de un espacio. Esta propiedad no es necesaria.
+El valor de cada asistente es el nombre para mostrar del asistente. Las entradas independientes deben delimitarse por un punto y coma seguido de un espacio. Esta propiedad no es necesaria.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ El valor de cada asistente es el nombre para mostrar del asistente. Las entradas
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

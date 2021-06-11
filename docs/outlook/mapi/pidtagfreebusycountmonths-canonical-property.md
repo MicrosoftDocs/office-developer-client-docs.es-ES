@@ -25,18 +25,18 @@ ms.locfileid: "32316194"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor para calcular las fechas de inicio y finalización del intervalo de datos de disponibilidad que se publicarán en carpetas públicas.
+Contiene el valor para calcular las fechas de inicio y finalización del intervalo de datos de disponibilidad que se van a publicar en carpetas públicas.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_FREEBUSY_COUNT_MONTHS  <br/> |
 |Identificador:  <br/> |0x6869  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Transmitible definido por clase de mensaje  <br/> |
+|Área:  <br/> |Transmitible definida por la clase message  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de esta propiedad debe ser mayor o igual que 0 y menor o igual que 36. Esta propiedad no es obligatoria.
+El valor de esta propiedad debe ser mayor o igual que 0 y menor o igual que 36. No es una propiedad obligatoria.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ El valor de esta propiedad debe ser mayor o igual que 0 y menor o igual que 36. 
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

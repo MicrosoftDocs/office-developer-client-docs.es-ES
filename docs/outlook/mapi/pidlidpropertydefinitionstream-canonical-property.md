@@ -31,13 +31,13 @@ Representa las definiciones de campos definidos por el usuario y la configuraci�
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidPropDefStream  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008540  <br/> |
+|Id. largo (LID):  <br/> |0x00008540  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Configuración en tiempo de ejecución  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de la **propiedad PidLidPropertyDefinitionStream** se guarda como parte de la definición de formulario personalizada para el mensaje. 
+El valor de la **propiedad PidLidPropertyDefinitionStream** se guarda como parte de la definición de formulario personalizada del mensaje. 
   
 El valor de esta propiedad es una secuencia binaria. Para obtener información sobre la estructura de esta secuencia, vea [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md). 
   
@@ -55,11 +55,11 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
-[Elementos y campos de Outlook](outlook-items-and-fields.md)
+[Outlook Elementos y campos](outlook-items-and-fields.md)
   
 [Agregar una definición para un nuevo User-Defined campo](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
@@ -67,7 +67,7 @@ Mapidefs.h
   
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

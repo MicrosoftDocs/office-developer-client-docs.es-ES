@@ -36,7 +36,7 @@ Contiene la hora de finalización del intervalo de publicación.
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de esta propiedad se calcula agregando el valor de **PR_FREEBUSY_COUNT_MONTHS** ([PidTagFreeBusyCountMonths](pidtagfreebusycountmonths-canonical-property.md)) a la fecha de inicio del intervalo de publicación. Este valor se expresa como el número de minutos desde la medianoche del 1 de enero de 1601 en hora universal coordinada (UTC).
+El valor de esta propiedad se calcula agregando el valor de **PR_FREEBUSY_COUNT_MONTHS** ([PidTagFreeBusyCountMonths](pidtagfreebusycountmonths-canonical-property.md)) a la fecha de inicio del intervalo de publicación. Este valor se expresa como el número de minutos desde la medianoche del 1 de enero de 1601 en la hora universal coordinada (UTC).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

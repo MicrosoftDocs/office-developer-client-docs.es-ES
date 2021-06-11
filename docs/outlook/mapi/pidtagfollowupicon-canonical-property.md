@@ -25,25 +25,25 @@ ms.locfileid: "32316285"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica el color de marca del objeto de mensaje.
+Especifica el color de la marca del objeto de mensaje.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_FOLLOWUP_ICON  <br/> |
 |Identificador:  <br/> |0x1095  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
-|Área:  <br/> |Cambiar el nombre de la carpeta del mensaje  <br/> |
+|Área:  <br/> |Cambiar el nombre de la carpeta de mensajes  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad no debe existir a menos que el valor de la propiedad **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) esté establecido en "followupFlagged" o el objeto de mensaje sea un objeto relacionado con la reunión. Esta propiedad no debe existir en un objeto de tarea. Cuando se establece en otros objetos de mensaje, esta propiedad debe establecerse en uno de los siguientes valores.
+Esta propiedad no debe existir a menos que el valor de la propiedad **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) esté establecido en "followupFlagged" o el objeto message sea un objeto relacionado con la reunión. Esta propiedad no debe existir en un objeto task. Cuando se establece en otros objetos de mensaje, esta propiedad debe establecerse en uno de los siguientes valores.
   
 |**Valor numérico**|**Nombre**|**Descripción**|
 |:-----|:-----|:-----|
 |No presente  <br/> |N/D  <br/> |Sin color  <br/> |
-|1   <br/> |followupIcon1  <br/> |Marca púrpura  <br/> |
-|2   <br/> |followupIcon2  <br/> |Marca naranja  <br/> |
-|3   <br/> |followupIcon3  <br/> |Marca verde  <br/> |
+|1  <br/> |followupIcon1  <br/> |Marca púrpura  <br/> |
+|2  <br/> |followupIcon2  <br/> |Marca naranja  <br/> |
+|3  <br/> |followupIcon3  <br/> |Marca verde  <br/> |
 |4   <br/> |followupIcon4  <br/> |Marca amarilla  <br/> |
 |5   <br/> |followupIcon5  <br/> |Marca azul  <br/> |
 |6   <br/> |followupIcon6  <br/> |Marca roja  <br/> |
@@ -58,7 +58,7 @@ Esta propiedad no debe existir a menos que el valor de la propiedad **PR_FLAG_ST
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -70,13 +70,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

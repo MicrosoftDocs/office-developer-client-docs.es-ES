@@ -36,15 +36,15 @@ Contiene el valor de resolución de conflictos de una carpeta.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad de la carpeta que contiene el mensaje de resolución de conflictos indicará cómo resolver el conflicto. Esta propiedad no es necesaria. Sin embargo, si se establece, no deben estar presentes marcas que no sean las siguientes:
+Esta propiedad de la carpeta que contiene el mensaje de resolución de conflictos indicará cómo resolver el conflicto. Esta propiedad no es necesaria. Sin embargo, si se establece, las marcas que no sean las siguientes no deben estar presentes:
   
 |||
 |:-----|:-----|
 |RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |Se debe generar un mensaje de resolución de conflictos.  <br/> |
-|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Sobrescribir el mensaje de destino con los cambios actuales que se aplican.  <br/> |
-|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |No envíe un mensaje de notificación de conflicto al generar el mensaje de resolución de conflictos en una carpeta pública.  <br/> |
+|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Sobrescriba el mensaje de destino con los cambios actuales que se aplican.  <br/> |
+|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |No envíe un mensaje de notificación de conflicto al generar un mensaje de resolución de conflictos en una carpeta pública.  <br/> |
    
-Un cliente o servidor no debe generar un mensaje de resolución de conflictos para los mensajes asociados. Estos mensajes deben resolverse mediante la **RESOLVE_METHOD_LAST_WRITER_WINS** semántica. 
+Un cliente o servidor no debe generar un mensaje de resolución de conflictos para los mensajes asociados. Estos mensajes deben resolverse mediante **RESOLVE_METHOD_LAST_WRITER_WINS** semántica. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -68,13 +68,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

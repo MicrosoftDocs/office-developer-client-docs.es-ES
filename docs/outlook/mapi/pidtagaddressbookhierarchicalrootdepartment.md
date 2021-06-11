@@ -25,29 +25,29 @@ ms.locfileid: "32326127"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
- Contiene el nombre distintivo (DN) de la raíz jerárquica de la dirección (HAB). 
+ Contiene el nombre distintivo (DN) de la raíz jerárquica de direcciones (HAB). 
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |PR_EMS_AB_HAB_ROOT_DEPARTMENT, PR_EMS_AB_HAB_ROOT_DEPARTMENT_A  <br/> |
 |Conjunto de propiedades:  <br/> |Libreta de direcciones  <br/> |
-|Long ID (LID):  <br/> |0x8C98  <br/> |
+|Id. largo (LID):  <br/> |0x8C98  <br/> |
 |Tipo de datos:  <br/> |PT_STRING8  <br/> |
 |Área:  <br/> |Libreta de direcciones de Exchange  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Se trata de una propiedad del contenedor de la lista global de direcciones (GAL) y representa el nombre distintivo de la raíz jerárquica de direcciones. Esta propiedad solo está presente en la libreta de direcciones sin conexión y nunca en los Servicios de dominio de Active Directory (AD DS). Los autores de llamadas deben MAPI_CACHE_ONLY a la llamada GetProps para evitar una llamada a procedimiento remoto. Si no está presente, los autores de llamadas deben usar PR_EMS_AB_HAB_ROOT_DEPARTMENT, que es de tipo PT_OBJECT, para encontrar el departamento raíz. 
+Se trata de una propiedad en el contenedor de la lista global de direcciones (GAL) y representa el nombre distintivo de la raíz jerárquica de la dirección. Esta propiedad solo está presente en la libreta de direcciones sin conexión y nunca en Servicios de dominio de Active Directory (AD DS). Los autores de llamadas deben MAPI_CACHE_ONLY a la llamada GetProps para evitar una llamada de procedimiento remoto. Si no está presente, los autores de llamadas deben usar PR_EMS_AB_HAB_ROOT_DEPARTMENT, que es de tipo PT_OBJECT, para encontrar el departamento raíz. 
   
-Una vez que se obtiene el departamento raíz, puede tener un tipo de objeto MAPI_MAILUSER o MAPI_DISTLIST. Si el tipo de objeto MAPI_DISTLIST, se está empleando el nuevo esquema. Si el tipo de objeto MAPI_MAILUSER, se está empleando el esquema anterior. 
+Una vez obtenido el departamento raíz, puede tener un tipo de objeto MAPI_MAILUSER o MAPI_DISTLIST. Si el tipo de objeto MAPI_DISTLIST, se está empleando el nuevo esquema. Si el tipo de objeto MAPI_MAILUSER, se está empleando el esquema anterior. 
   
 - Microsoft Office Outlook 2007 Service Pack 2 admite ambos esquemas. 
     
 - Microsoft Outlook 2010 y Microsoft Outlook 2013 admiten el nuevo esquema.
     
-En el nuevo esquema, todos los grupos departamentales también son listas de distribución y son de tipo MAPI_DISTLIST. Los miembros de los grupos departamentales y los departamentos dentro de los grupos departamentales se obtienen mediante PR_EMS_AB_MEMBER, exactamente igual que los miembros de la lista de distribución.
+En el nuevo esquema, todos los grupos departamentales también son listas de distribución y son de tipo MAPI_DISTLIST. Los miembros de grupos departamentales y departamentos dentro de grupos departamentales se obtienen mediante el PR_EMS_AB_MEMBER, exactamente igual que los miembros de la lista de distribución.
   
-Una vez que se obtiene el departamento raíz, puede tener un tipo de objeto MAPI_MAILUSER o MAPI_DISTLIST. Si el tipo de objeto MAPI_DISTLIST, se usa el nuevo esquema. Si el tipo de objeto MAPI_MAILUSER, se usa el esquema antiguo. 
+Una vez obtenido el departamento raíz, puede tener un tipo de objeto MAPI_MAILUSER o MAPI_DISTLIST. Si el tipo de objeto MAPI_DISTLIST, se usa el nuevo esquema. Si el tipo de objeto MAPI_MAILUSER, se usa el esquema antiguo. 
   
 En el nuevo esquema, todos los grupos departamentales también son DLs y son de tipo MAPI_DISTLIST.
   
@@ -65,13 +65,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

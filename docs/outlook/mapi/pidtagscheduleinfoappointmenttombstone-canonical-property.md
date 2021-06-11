@@ -36,7 +36,7 @@ Contiene una lista de bloques de datos que representan reuniones rechazadas.
    
 ## <a name="remarks"></a>Comentarios
 
-Los bloques de datos comienzan con un encabezado de valores de 32 bits definidos como:
+Los bloques de datos comienzan con un encabezado de 32 valores de bits definidos como:
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
@@ -46,14 +46,14 @@ Los bloques de datos comienzan con un encabezado de valores de 32 bits definidos
 |RecordsCount  <br/> |Recuento de registros siguientes.  <br/> |
 |RecordsSize  <br/> |Este campo debe tener el valor 0x00000014.  <br/> |
    
-El encabezado va seguido de **las entradas RecordsCount** de valores de 32 bits definidos como: 
+El encabezado va seguido de **entradas RecordsCount** de valores de 32 bits definidos como: 
   
 |**Valor**|**Descripción**|
 |:-----|:-----|
 |StartTime  <br/> |Hora de inicio del objeto de reunión en minutos desde la medianoche del 1 de enero de 1601, UTC.  <br/> |
 |EndTime  <br/> |Hora de finalización del objeto de reunión en minutos desde la medianoche del 1 de enero de 1601, UTC.  <br/> |
 |GlobalObjectIdSize  <br/> |Tamaño, en bytes, del campo GlobalObjectId.  <br/> |
-|GlobalObjectId  <br/> |El valor de la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la reunión que representa este registro.  <br/> |
+|GlobalObjectId  <br/> |Valor de la **propiedad LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la reunión que representa este registro.  <br/> |
 |UserName  <br/> |Los dos primeros bytes son la longitud de la PT_STRING8 siguiente.  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
@@ -66,7 +66,7 @@ El encabezado va seguido de **las entradas RecordsCount** de valores de 32 bits 
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -78,13 +78,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

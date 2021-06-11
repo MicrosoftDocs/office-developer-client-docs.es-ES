@@ -36,7 +36,7 @@ El nombre del componente de dirección URL de un mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades deben ser únicas dentro de una carpeta. Si no se establece cuando se crea el mensaje, el almacén de mensajes debe establecer estas propiedades en función de varias propiedades del mensaje, según la clase de mensaje. Por ejemplo, **ipm. Nota** e **IPM. Los** mensajes de cita deben tener esta propiedad establecida según **la propiedad PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y el **IPM. Los** mensajes de contacto deben tener esta propiedad establecida en función de la propiedad **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)). Para la mayoría de las demás clases de mensajes, esta propiedad debe basarse en **la propiedad PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
+Estas propiedades deben ser únicas dentro de una carpeta. Si no se establece cuando se crea el mensaje, el almacén de mensajes debe establecer estas propiedades en función de varias propiedades de mensaje, según la clase de mensaje. Por ejemplo, **el IPM. Nota** e **IPM. Los** mensajes de cita deben tener esta propiedad establecida en función **de la propiedad PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) y el **IPM. Los** mensajes de contacto deben tener esta propiedad establecida en función de la **propiedad dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)). Para la mayoría de las demás clases de mensaje, esta propiedad debe basarse en la **propiedad PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,11 +48,11 @@ Estas propiedades deben ser únicas dentro de una carpeta. Si no se establece cu
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -27,13 +27,13 @@ Vea [IOlkAccount](iolkaccount.md).
 |Identificador:  <br/> |0x2002  <br/> |
 |Tipo de propiedad:  <br/> |PT_BINARY  <br/> |
 |Etiqueta de propiedad:  <br/> |0x20020102  <br/> |
-|Acceso:  <br/> |Lectura/escritura  <br/> |
+|Access:  <br/> |Lectura/escritura  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
- **PROP \_ No \_ se espera que MAPI IDENTITY \_ ENTRYID** exista en todas las cuentas. Por ejemplo, una cuenta de Exchange podría tener establecido **PROP \_ MAPI IDENTITY \_ \_ ENTRYID** y no [PROP \_ ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), mientras que para una cuenta SMTP/POP3 se invierte la situación. **PROP \_ MAPI_IDENTITY_ENTRYID** devuelve un identificador de entrada similar al valor devuelto por  _lppEntryID_ en [IMAPISession::QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
+ **PROP \_ No \_ se espera que \_ ENTRYID** DE IDENTIDAD MAPI exista en todas las cuentas. Por ejemplo, una cuenta Exchange puede tener prop **\_ MAPI IDENTITY \_ \_ ENTRYID** establecido y no [prop \_ ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), mientras que para una cuenta SMTP/POP3 la situación se invierte. **PROP \_ MAPI_IDENTITY_ENTRYID** devuelve un identificador de entrada similar al valor devuelto por  _lppEntryID_ en [IMAPISession::QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de la API de administración de cuenta](about-the-account-management-api.md)
 

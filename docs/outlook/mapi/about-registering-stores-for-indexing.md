@@ -21,28 +21,28 @@ ms.locfileid: "32321829"
   
 Este tema es específico de la búsqueda instantánea en Microsoft Office Outlook 2007.
   
-La búsqueda instantánea le permite buscar rápidamente elementos en Outlook. Usa componentes de Windows Desktop Search.
+La búsqueda instantánea le permite buscar rápidamente elementos en Outlook. Usa componentes de Windows búsqueda de escritorio.
   
-El controlador de protocolo MAPI comprueba en el Registro de Windows los almacenes que debe indizar con fines de búsqueda. Los proveedores de la Tienda que deban indizarse deben estar registrados en el Registro de Windows.
+El controlador de protocolo MAPI comprueba Windows registro de almacenes que debe indizar con fines de búsqueda. Los proveedores de almacenamiento que desean indizarse deben estar registrados en el Windows registro.
   
-De forma predeterminada, La búsqueda en el escritorio de Windows agrega los siguientes cuatro tipos de proveedores de almacenamiento al Registro de Windows para permitir la indización:
+De forma predeterminada, Windows búsqueda de escritorio agrega los siguientes cuatro tipos de proveedores de almacenamiento al registro de Windows para permitir la indización:
   
 - Almacenar archivos de carpetas personales (. PST).
     
--  Almacén de Microsoft Exchange, incluidos los archivos de carpetas sin conexión (.ost). 
+-  Microsoft Exchange, incluidos los archivos de carpeta sin conexión (.ost). 
     
--  Almacén de carpetas públicas. 
+-  Almacenar para carpetas públicas. 
     
 -  Almacenar para Microsoft Office Outlook Connector para MSN. 
     
- Los proveedores de almacenamiento de terceros que deban indizarse deben registrarse en el Registro de Windows. 
+ Los proveedores de almacenes de terceros que desean indizarse deben registrarse en el registro Windows usuario. 
   
 > [!NOTE]
-> Los administradores y usuarios pueden usar una configuración de directiva de grupo para evitar que la búsqueda en el escritorio de Windows indexe elementos de Outlook. Para obtener más información, consulta [Extender la búsqueda en el escritorio de Windows.](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx) 
+> Los administradores y usuarios pueden usar una configuración de directiva de grupo para evitar que Windows búsqueda de escritorio indexe Outlook elementos. Para obtener más información, vea [Extending Windows Desktop Search](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
   
 ## <a name="registry-keys"></a>Claves del Registro
 
-En un equipo, todos los proveedores de almacén que deban indizarse deben registrarse solo en una de las tres claves del Registro siguientes en el Registro de Windows. El controlador de protocolo MAPI busca debajo de cada una de estas claves en el siguiente orden:
+En un equipo, todos los proveedores de almacén que quieran indizarse deben registrarse solo en una de las tres claves del Registro siguientes en Windows registro. El controlador de protocolo MAPI busca debajo de cada una de estas claves en el orden siguiente:
   
 1. [HKLM]\Software\Policies\Microsoft\Windows\Windows Search\
     
@@ -50,21 +50,21 @@ En un equipo, todos los proveedores de almacén que deban indizarse deben regist
     
 3. [HKCU]\Software\Microsoft\Windows\Windows Search\Preferences\
     
- Cada valor de la clave corresponde a un proveedor de almacén que se indizaría. El nombre del valor es el identificador único global (GUID) del proveedor del almacén, que es del tipo **DWORD** y tiene el valor hexadecimal 0x00000001. 
+ Cada valor bajo la clave corresponde a un proveedor de almacén que se indizaría. El nombre del valor es el identificador único global (GUID) del proveedor de almacén, que es del tipo **DWORD** y tiene el valor hexadecimal 0x00000001. 
   
-## <a name="guids-for-store-providers"></a>GUID para proveedores de la Tienda
+## <a name="guids-for-store-providers"></a>GUID para proveedores de tienda
 
-La propiedad MAPI **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.md)** especifica el GUID de un almacén MAPI. Los GUID de los proveedores de almacenamiento que índices de Outlook se describen en la tabla siguiente. 
+La propiedad MAPI **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.md)** especifica el GUID de un almacén MAPI. En la tabla siguiente se describen los GUID para los proveedores de Outlook los índices de almacenamiento. 
   
 ||||
 |:-----|:-----|:-----|
-|**Tipo de proveedor de la Tienda** <br/> |**GUID** <br/> |**Notas** <br/> |
-|Archivos de carpetas personales (. PST)  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |El GUID se documenta en el archivo de encabezado público mspst.h como **MSPST_UID_PROVIDER** <br/> |
-|Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |EL GUID se documenta en el archivo de encabezado público edkmdb.h **como pbExchangeProviderPrimaryUserGuid** <br/> |
-|Carpetas públicas  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |EL GUID se documenta en el archivo de encabezado público edkmdb.h **como pbExchangeProviderPublicGuid** <br/> |
-|Conector de Outlook para MSN  <br/> |{c34f5c97-eb05-bb4b-b199-2a7570ec7cf9}  <br/> |Ninguno  <br/> |
+|**Tipo de proveedor de la tienda** <br/> |**GUID** <br/> |**Notas** <br/> |
+|Archivos de carpetas personales (. PST)  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |GUID se documenta en el archivo de encabezado público mspst.h como **MSPST_UID_PROVIDER** <br/> |
+|Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |GUID se documenta en el archivo de encabezado público edkmdb.h como **pbExchangeProviderPrimaryUserGuid** <br/> |
+|Carpetas públicas  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |GUID se documenta en el archivo de encabezado público edkmdb.h como **pbExchangeProviderPublicGuid** <br/> |
+|Outlook Conector para MSN  <br/> |{c34f5c97-eb05-bb4b-b199-2a7570ec7cf9}  <br/> |Ninguno  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

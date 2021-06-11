@@ -25,21 +25,21 @@ ms.locfileid: "32316621"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si las instancias futuras de tareas periódicas necesitan avisos, aunque **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) sea FALSE.
+Indica si las instancias futuras de tareas periódicas necesitan avisos, aunque **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) es FALSE.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskResetReminder  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008107  <br/> |
+|Id. largo (LID):  <br/> |0x00008107  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Este valor se establece en TRUE cuando se descarta el aviso de la tarea y se establece en FALSE en caso contrario. Si se deja sin conjunto, se supone que el valor predeterminado es FALSE.
+Este valor se establece en TRUE cuando se descarta el aviso de la tarea y se establece en FALSE en caso contrario. Si se deja sin conjunto, se presupone un valor predeterminado de FALSE.
   
-Como se especifica en [[MS-OBIORMDR],](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)la propiedad **dispidReminderSet** indica si se establece un aviso en la tarea. Sin embargo, esta propiedad solo indica la presencia de un aviso en una sola tarea. No se puede usar solo para determinar si una instancia futura de una tarea periódica necesita un aviso. 
+Como se especifica en [[MS-OXORMDR],](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)la propiedad **dispidReminderSet** indica si se establece un aviso en la tarea. Sin embargo, esta propiedad solo indica la presencia de un aviso en una sola tarea. No se puede usar solo para determinar si una instancia futura de una tarea periódica necesita un aviso. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,7 +49,7 @@ Como se especifica en [[MS-OBIORMDR],](https://msdn.microsoft.com/library/5454eb
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
@@ -63,7 +63,7 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -72,7 +72,7 @@ Mapidefs.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "32327247"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene información de formato sobre los datos adjuntos de extensiones multipropósito al correo de Internet (MIME). 
+Contiene información de formato sobre los datos adjuntos de extensiones multipropósito de correo de Internet (MIME). 
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contiene información de formato sobre los datos adjuntos de extensiones multipr
    
 ## <a name="remarks"></a>Comentarios
 
-Si la **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiene el valor **OID_MIMETAG**, el proveedor de transporte debe buscar estas propiedades para determinar cómo se formatearán los datos adjuntos. 
+Si la **propiedad PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contiene el valor **OID_MIMETAG**, el proveedor de transporte debe buscar estas propiedades para determinar cómo se formatearán los datos adjuntos. 
   
-Estas propiedades se copian del parámetro content-type del encabezado MIME entrante. La composición de la cadena se define en el documento RFC 1521. El formato es tipo/subtipo, como aplicación/binario o texto/sin formato. 
+Estas propiedades se copian del parámetro Content-type del encabezado MIME entrante. La composición de la cadena se define en el documento RFC 1521. El formato es tipo/subtipo, como application/binary o text/plain. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,7 +46,7 @@ Estas propiedades se copian del parámetro content-type del encabezado MIME entr
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

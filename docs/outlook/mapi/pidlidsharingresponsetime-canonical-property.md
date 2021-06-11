@@ -25,13 +25,13 @@ ms.locfileid: "32331160"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la hora a la que el destinatario de la solicitud de uso compartido envió una respuesta para compartir. Esta es una propiedad de un mensaje para compartir.
+Especifica el momento en que el destinatario de la solicitud de uso compartido envió una respuesta de uso compartido. Esta es una propiedad de un mensaje de uso compartido.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSharingResponseTime  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Sharing  <br/> |
-|Long ID (LID):  <br/> |0x00008A28  <br/> |
+|Id. largo (LID):  <br/> |0x00008A28  <br/> |
 |Tipo de datos:  <br/> |PT_SYSTIME  <br/> |
 |Área:  <br/> |Compartir  <br/> |
    
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

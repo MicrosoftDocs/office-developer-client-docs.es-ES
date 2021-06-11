@@ -25,7 +25,7 @@ ms.locfileid: "32327968"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un valor de cadena para su uso en una restricción de propiedad en una tabla de contenido de contenedor de libreta de direcciones. 
+Contiene un valor de cadena para su uso en una restricción de propiedades en una tabla de contenido de contenedor de libreta de direcciones. 
   
 |||
 |:-----|:-----|
@@ -36,11 +36,11 @@ Contiene un valor de cadena para su uso en una restricción de propiedad en una 
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades no pertenecen a ningún objeto; lo ofrecen los proveedores de libretas de direcciones en [estructuras SPropertyRestriction.](spropertyrestriction.md) Esta propiedad contiene una cadena de resolución de nombres ambiguos (ANR) que se puede probar con la tabla de contenido de un contenedor de libreta de direcciones para buscar los destinatarios de mensajes correspondientes. 
+Estas propiedades no pertenecen a ningún objeto; los proveedores de libretas de direcciones en [estructuras SPropertyRestriction.](spropertyrestriction.md) Esta propiedad contiene una cadena de resolución de nombres ambigua (ANR) que se puede probar en la tabla de contenido de un contenedor de libreta de direcciones para buscar destinatarios de mensajes correspondientes. 
   
-Los proveedores de libretas de direcciones coinciden con el valor de **PR_ANR** y las propiedades asociadas con cada entrada de la tabla de contenido, mediante un algoritmo de coincidencia definido por el proveedor. El proveedor elige la columna o las columnas que se usan en esta coincidencia como parte del algoritmo. La **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) es la más usada; la **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) también es útil cuando contiene el nombre de correo electrónico del usuario. 
+Los proveedores de libreta de direcciones coinciden con el valor de **PR_ANR** propiedades asociadas con cada entrada de la tabla de contenido, mediante un algoritmo de coincidencia definido por el proveedor. El proveedor elige la columna o las columnas que se usan en esta coincidencia como parte del algoritmo. La **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) es la más usada; la **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) también es útil cuando contiene el nombre de correo electrónico del usuario. 
   
-Para obtener más información sobre la resolución de nombres ambiguos, vea [Restricciones de la libreta de direcciones.](address-book-restrictions.md) 
+Para obtener más información sobre la resolución de nombres ambiguos, vea [Address Book Restrictions](address-book-restrictions.md). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,9 +50,9 @@ Para obtener más información sobre la resolución de nombres ambiguos, vea [Re
   
 > Proporciona referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones de listas de usuarios, contactos, grupos y recursos.
+> Especifica las propiedades y las operaciones de listas de usuarios, contactos, grupos y recursos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -75,7 +75,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

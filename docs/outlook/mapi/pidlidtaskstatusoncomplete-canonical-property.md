@@ -25,15 +25,15 @@ ms.locfileid: "32316544"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica si se ha solicitado al usuario al que se asigna una tarea que envíe una actualización de mensajes de correo electrónico cuando complete la tarea asignada.
+Indica si se ha solicitado al destinatario de la tarea que envíe una actualización de mensaje de correo electrónico cuando complete la tarea asignada.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidTaskSOC  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Task  <br/> |
-|Long ID (LID):  <br/> |0x00008119  <br/> |
+|Id. largo (LID):  <br/> |0x00008119  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
-|Área:  <br/> |Task  <br/> |
+|Área:  <br/> |Tarea  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -43,7 +43,7 @@ Indica si se ha solicitado al usuario al que se asigna una tarea que envíe una 
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Define varios objetos que modela el equivalente electrónico de tareas, asignaciones de tareas y actualizaciones de tareas.
     
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

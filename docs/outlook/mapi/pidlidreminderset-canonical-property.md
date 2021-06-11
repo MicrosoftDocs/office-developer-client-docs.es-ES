@@ -31,7 +31,7 @@ Especifica si se establece un aviso en el objeto.
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidReminderSet  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008503  <br/> |
+|Id. largo (LID):  <br/> |0x00008503  <br/> |
 |Tipo de datos:  <br/> |PT_BOOLEAN  <br/> |
 |Área:  <br/> |Reminder  <br/> |
    
@@ -39,7 +39,7 @@ Especifica si se establece un aviso en el objeto.
 
 Si un objeto de calendario periódico tiene esta propiedad establecida en TRUE, el cliente puede invalidar este valor para excepciones.
   
-Si esta propiedad es FALSE en un objeto de calendario periódico, los avisos se deshabilitan para toda la serie, incluidas las excepciones. Para objetos de tareas periódicas, esta propiedad no se puede reemplazar por excepciones (vea [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) y [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) para obtener más información). 
+Si esta propiedad es FALSE en un objeto de calendario periódico, los avisos se deshabilitan para toda la serie, incluidas las excepciones. Para los objetos de tarea periódicos, esta propiedad no se puede invalidar mediante excepciones (vea [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) y [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) para obtener más información). 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -59,13 +59,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

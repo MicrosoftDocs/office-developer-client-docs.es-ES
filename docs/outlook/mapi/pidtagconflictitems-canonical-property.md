@@ -25,7 +25,7 @@ ms.locfileid: "32338020"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene uno o más identificadores de entrada de elementos que se han implicado en una resolución automática de conflictos.
+Contiene uno o más identificadores de entrada de elementos que han participado en una resolución automática de conflictos.
   
 ## 
 
@@ -38,12 +38,12 @@ Contiene uno o más identificadores de entrada de elementos que se han implicado
    
 ## <a name="remarks"></a>Comentarios
 
-Los tipos de elementos estándar de Microsoft Outlook que admiten la resolución automática de conflictos incluyen los siguientes tipos de elementos estándar: elementos de cita, elementos de contacto, elementos de diario, elementos de correo, elementos de reunión, elementos de nota permanente y elementos de tareas. Un elemento que pertenece a una clase de mensaje que deriva de uno de estos tipos de elementos estándar también admite la resolución automática de conflictos. En Microsoft Outlook 2003 y Microsoft Office Outlook 2007, cuando Outlook sincroniza elementos y considera que existe la posibilidad de que la copia resultante no contenga  todos los datos esenciales, Outlook almacena las copias en conflicto en la carpeta **Conflictos,** en la carpeta Problemas de sincronización. 
+Los tipos de elementos estándar de Microsoft Outlook que admiten la resolución automática de conflictos incluyen los siguientes tipos de elementos estándar: elementos de cita, elementos de contacto, elementos de diario, elementos de correo, elementos de reunión, elementos de notas adhesivas y elementos de tareas. Un elemento que pertenece a una clase de mensaje que deriva de uno de estos tipos de elementos estándar también admite la resolución automática de conflictos. En Microsoft Outlook 2003 y Microsoft Office Outlook 2007, cuando Outlook sincroniza elementos y considera que existe la posibilidad de que la copia resultante no contenga todos los datos esenciales, Outlook  almacena las copias en conflicto en la carpeta **Conflictos,** en la carpeta Problemas de sincronización. 
   
 > [!NOTE]
 > **Los problemas de** sincronización y sus subcarpetas están ocultos hasta que haga clic en **Lista de carpetas** en el **menú** Ir. 
   
-Un elemento expone la propiedad **PR_CONFLICT_ITEMS** si es uno de los tipos de elementos que admiten la resolución automática de conflictos, si ha ganado en una resolución de conflictos o se ha colocado en la carpeta Conflictos debido a una resolución de **conflictos.** La carpeta en la que se coloca el elemento determina el contenido de **PR_CONFLICT_ITEMS**. Si el elemento se encuentra en una carpeta que no sea la carpeta **Conflictos** y el elemento expone la propiedad **PR_CONFLICT_ITEMS,** el elemento debe haber ganado la resolución de conflictos y **PR_CONFLICT_ITEMS** contendrá uno o más identificadores de entrada de los elementos que perdieron en la resolución de conflictos. Si el elemento se encuentra en la carpeta **Conflictos** y el elemento expone la propiedad **PR_CONFLICT_ITEMS,** este elemento debe haber perdido la resolución de conflictos y **PR_CONFLICT_ITEMS** contendrá el identificador de entrada del elemento que ha ganado en la resolución de conflictos. 
+Un elemento expone la propiedad **PR_CONFLICT_ITEMS** si es uno de los tipos de elementos que admiten la resolución automática de conflictos, si ha ganado en una resolución de conflictos o si se ha colocado en la carpeta Conflictos debido a una resolución de **conflictos.** La carpeta en la que se coloca el elemento determina el contenido de **PR_CONFLICT_ITEMS**. Si el elemento se encuentra en alguna carpeta que no sea la carpeta **Conflictos** y el elemento expone la propiedad **PR_CONFLICT_ITEMS,** el elemento debe haber ganado la resolución de conflictos y **PR_CONFLICT_ITEMS** contendrá uno o más identificadores de entrada de los elementos que se perdieron en la resolución de conflictos. Si el elemento se encuentra en la carpeta **Conflictos** y el elemento expone la propiedad **PR_CONFLICT_ITEMS,** este elemento debe haber perdido la resolución de conflictos y **PR_CONFLICT_ITEMS** contendrá el identificador de entrada del elemento que obtuvo la resolución de conflictos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -75,7 +75,7 @@ Mapitags.h
   
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

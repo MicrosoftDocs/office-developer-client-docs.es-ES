@@ -25,7 +25,7 @@ ms.locfileid: "32329270"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Representa un valor nulo o un valor de una propiedad o reserva espacio de matriz.
+Representa un valor nulo o un valor de una propiedad o reserva el espacio de la matriz.
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Representa un valor nulo o un valor de una propiedad o reserva espacio de matriz
 
 Esta propiedad se usa para reservar espacio en matrices de [estructuras SPropValue.](spropvalue.md) Se usa en una matriz de estructuras [SPropTagArray](sproptagarray.md) para decir al método que reserve espacio en la matriz devuelta de **estructuras SPropValue.** Esto permite que las propiedades calculadas se llenen de forma económica. 
   
-Para obtener más información, vea [Información general sobre el tipo de propiedad MAPI.](mapi-property-type-overview.md)
+Para obtener más información, vea [Información general sobre el tipo de propiedad MAPI](mapi-property-type-overview.md).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -46,7 +46,7 @@ Para obtener más información, vea [Información general sobre el tipo de propi
 
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas en las listas de distribución personal y de contactos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -58,13 +58,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

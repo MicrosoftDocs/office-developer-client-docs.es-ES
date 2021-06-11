@@ -27,7 +27,7 @@ Realiza una copia de seguridad de la copia actual de mapi32.dll en el equipo cli
 
 |||
 |:-----|:-----|
-|Exportado por:  <br/> |mapistub.dll  <br/> |
+|Exportada por:  <br/> |mapistub.dll  <br/> |
 |Llamado por:  <br/> |Cliente  <br/> |
 |Implementado por:  <br/> |Windows  <br/> |
    
@@ -39,17 +39,17 @@ DWORD STDAPICALLTYPE FixMAPI(void);
 
 Si la función se realiza correctamente, el valor devuelto es un valor distinto de cero.
   
-Si se produce un error en la función, el valor devuelto es cero. Para obtener información de error extendida, llame a la función del Kit de desarrollo de software (SDK) de Microsoft Windows, **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**. 
+Si se produce un error en la función, el valor devuelto es cero. Para obtener información de error extendida, llame a la función Kit de desarrollo de software (SDK) de Microsoft Windows, **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**. 
   
 ## <a name="remarks"></a>Comentarios
 
  **FixMAPI** no reemplaza el archivo mapi32.dll actual si el archivo está marcado como de solo lectura. 
   
- **FixMAPI** no reemplaza el archivo mapi32.dll si Microsoft Exchange Server está instalado en el equipo. 
+ **FixMAPI** no reemplaza la configuración mapi32.dll si Microsoft Exchange Server está instalado en el equipo. 
   
-Cuando **FixMAPI** realiza una copia de seguridad de la copia actual de mapi32.dll en el equipo, asigna a la copia de seguridad un nombre distinto de "mapi32.dll". A continuación, dirige las llamadas posteriores destinadas a ese ensamblado a la copia de seguridad. 
+Cuando **FixMAPI** realiza una copia de seguridad de la copia actual de mapi32.dll en el equipo, asigna a la copia de seguridad un nombre diferente de "mapi32.dll". A continuación, dirige las llamadas posteriores destinadas a ese ensamblado a la copia de seguridad. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

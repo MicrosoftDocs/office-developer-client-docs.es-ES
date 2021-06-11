@@ -25,19 +25,19 @@ ms.locfileid: "32319463"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los nombres de los contactos asociados con el elemento.
+Contiene los nombres de los contactos asociados al elemento.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidContacts  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x0000853A  <br/> |
+|Id. largo (LID):  <br/> |0x0000853A  <br/> |
 |Tipo de datos:  <br/> |PT_MV_UNICODE  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad contiene la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de cada **EntryID** de libreta de direcciones al que se hace referencia en el valor de la propiedad **dispidContactLinkEntry** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)). Puede incluir nombres a los que no se hace referencia **en dispidContactLinkEntry**.
+Esta propiedad contiene la **propiedad PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de cada **entryID** de libreta de direcciones al que se hace referencia en el valor de la propiedad **dispidContactLinkEntry** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)). Puede incluir nombres a los que no se hace referencia **en dispidContactLinkEntry**.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -49,15 +49,15 @@ Esta propiedad contiene la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdispla
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
-[[MS-OJOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los diarios.
+> Especifica las propiedades y las operaciones que son permisibles para los diarios.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -65,13 +65,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

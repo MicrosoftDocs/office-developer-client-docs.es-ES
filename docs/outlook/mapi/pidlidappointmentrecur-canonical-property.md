@@ -25,27 +25,27 @@ ms.locfileid: "32331783"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica las fechas y horas en las que se produce una serie periódica mediante uno de los patrones e intervalos de periodicidad especificados en [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
+Especifica las fechas y las horas en las que se produce una serie periódica mediante uno de los patrones e intervalos de periodicidad especificados en [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidApptRecur  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Appointment  <br/> |
-|Long ID (LID):  <br/> |0x00008216  <br/> |
+|Id. largo (LID):  <br/> |0x00008216  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Calendar  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad especifica las fechas y horas en las que se produce una serie periódica mediante uno de los patrones e intervalos de periodicidad detallados en [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). El valor de esta propiedad también contiene información sobre las excepciones modificadas y eliminadas; información como fechas, asunto, ubicación y varias otras propiedades de excepciones. Los datos binarios de esta propiedad para elementos de calendario periódicos se almacenan como la **estructura AppointmentRecurrencePattern.** Esta propiedad no debe existir en elementos de calendario de instancia única. 
+Esta propiedad especifica las fechas y horas en las que se produce una serie periódica mediante uno de los patrones y intervalos de periodicidad detallados en [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). El valor de esta propiedad también contiene información sobre las excepciones modificadas y eliminadas; información como fechas, asunto, ubicación y varias otras propiedades de excepciones. Los datos binarios de esta propiedad para elementos de calendario periódicos se almacenan como **la estructura AppointmentRecurrencePattern.** Esta propiedad no debe existir en elementos de calendario de una sola instancia. 
   
-Existen algunas limitaciones para las repeticiones:
+Hay algunas limitaciones a las periodicidades:
   
 - Varias instancias no deben iniciarse el mismo día.
     
 - Las repeticiones no deben superponerse. En concreto, una excepción que modifica la fecha de inicio de una instancia de la serie periódica debe producirse en una fecha posterior al final de la instancia anterior y al inicio de la siguiente instancia de la serie periódica. Lo mismo sucede si las instancias anteriores o siguientes de la serie periódica son excepciones.
     
-La programación de una serie periódica viene determinada por su patrón y intervalo de periodicidad.
+La programación de una serie periódica viene determinada por su patrón de periodicidad y su intervalo.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,7 +57,7 @@ La programación de una serie periódica viene determinada por su patrón y inte
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
@@ -69,13 +69,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

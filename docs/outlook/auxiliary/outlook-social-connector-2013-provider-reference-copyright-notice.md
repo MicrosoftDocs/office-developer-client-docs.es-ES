@@ -1,5 +1,5 @@
 ---
-title: Aviso de derechos de autor de referencia de proveedor de Outlook Social Connector 2013
+title: Outlook Aviso de copyright de referencia de proveedor de Social Connector 2013
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32327695"
 ---
-# <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Aviso de derechos de autor de referencia de proveedor de Outlook Social Connector 2013
+# <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Outlook Aviso de copyright de referencia de proveedor de Social Connector 2013
 
 Este documento se ofrece "tal cual". La información y las vistas expresadas en este documento, incluidas las url y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. Usted es responsable de los riegos de su uso.
   

@@ -25,7 +25,7 @@ ms.locfileid: "32327961"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el valor del campo de encabezado de un mensaje Return-Path multipropósito de correo de Internet (MIME). La dirección de correo electrónico del remitente del mensaje.
+Contiene el valor del campo de encabezado de un mensaje Multipurpose Internet Mail Extensions (MIME Return-Path). Dirección de correo electrónico del remitente del mensaje.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene el valor del campo de encabezado de un mensaje Return-Path multipropós
    
 ## <a name="remarks"></a>Comentarios
 
-Para recuperar el valor de esta propiedad, use primero [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor. Al llamar [a IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), especifique los siguientes valores para la estructura [MAPINAMEID](mapinameid.md) señalada por el parámetro de entrada  _lppPropNames_:
+Para recuperar el valor de esta propiedad, primero use [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) para obtener la etiqueta de propiedad y, a continuación, especifique esta etiqueta de propiedad en [IMAPIProp::GetProps](imapiprop-getprops.md) para obtener el valor. Al llamar [a IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), especifique los siguientes valores para la estructura [MAPINAMEID](mapinameid.md) apuntada por el parámetro de entrada  _lppPropNames_:
   
 |||
 |:-----|:-----|
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -74,7 +74,7 @@ Mapitags.h
   
 [Constantes MAPI](mapi-constants.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

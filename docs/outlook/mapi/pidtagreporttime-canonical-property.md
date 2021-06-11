@@ -25,7 +25,7 @@ ms.locfileid: "32330152"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene la fecha y la hora en que el sistema de mensajería generó un informe.
+Contiene la fecha y hora en que el sistema de mensajería generó un informe.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene la fecha y la hora en que el sistema de mensajería generó un informe.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad representa una propiedad por destinatario en los informes de entrega y no entrega, y una propiedad por mensaje en informes leídos y no leídos. 
+Esta propiedad representa una propiedad por destinatario en los informes de entrega y no entrega y una propiedad por mensaje en informes leídos y no leídos. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Esta propiedad representa una propiedad por destinatario en los informes de entr
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas en los mensajes de correo electrónico.
+> Especifica las propiedades y las operaciones permitidas en los mensajes de correo electrónico.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

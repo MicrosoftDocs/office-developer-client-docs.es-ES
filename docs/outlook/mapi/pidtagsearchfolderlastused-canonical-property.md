@@ -36,7 +36,7 @@ Representa la última vez que se tuvo acceso a la carpeta.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad debe tener el formato de número de minutos desde la medianoche hora universal coordinada (UTC) del 1 de enero de 1601.
+Esta propiedad debe tener el formato de número de minutos desde la medianoche hora universal coordinada (UTC) 1 de enero de 1601.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

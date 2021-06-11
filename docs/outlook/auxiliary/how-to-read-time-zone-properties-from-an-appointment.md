@@ -16,9 +16,9 @@ ms.locfileid: "32317622"
 ---
 # <a name="read-time-zone-properties-from-an-appointment"></a>Leer las propiedades de la zona horaria en una cita
 
-En este tema se muestra una función, , que llama a las dos funciones y , para leer las propiedades de la zona  `ReadTimeZones`  `BinToTZDEFINITION`  `BinToTZREG` horaria, [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) y [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), desde una cita.
+En este tema se muestra una función, , que llama a las dos funciones y , para leer las propiedades de zona  `ReadTimeZones`  `BinToTZDEFINITION`  `BinToTZREG` [horaria, PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) y [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), desde una cita.
   
-**PidLidAppointmentTimeZoneDefinitionStartDisplay** contiene una secuencia que se asigna al formato persistente de una estructura [TZDEFINITION](tzdefinition.md) y **PidLidTimeZoneStruct** contiene una secuencia que se asigna al formato persistente de una estructura [TZREG.](tzreg.md) Para obtener las estructuras **exactas TZDEFINITION** y **TZREG,** y se usan para analizar los valores de secuencia de estas propiedades  `BinToTZDEFINITION`  `BinToTZREG` correctamente. Estas dos funciones se definen en analizar una secuencia de una propiedad binaria para leer la estructura [TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) y analizar una secuencia de una propiedad binaria para leer la estructura [TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectivamente. 
+**PidLidAppointmentTimeZoneDefinitionStartDisplay** contiene una secuencia que se asigna al formato persistente de una estructura [TZDEFINITION](tzdefinition.md) y **PidLidTimeZoneStruct** contiene una secuencia que se asigna al formato persistente de una estructura [TZREG.](tzreg.md) Para obtener las estructuras **TZDEFINITION** y **TZREG** exactas, y se usan para analizar los valores de secuencia  `BinToTZDEFINITION` de estas propiedades  `BinToTZREG` correctamente. Estas dos funciones se definen en Analizar una secuencia de una propiedad binaria para leer la estructura [TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) y analizar una secuencia de una propiedad binaria para leer la estructura [TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectivamente. 
   
 ```cpp
 void ReadTimeZones(LPMAPIPROP lpAppointment) 
@@ -74,7 +74,7 @@ void ReadTimeZones(LPMAPIPROP lpAppointment)
 }
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Acerca de reajuste mediante programación los calendarios del horario de verano](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

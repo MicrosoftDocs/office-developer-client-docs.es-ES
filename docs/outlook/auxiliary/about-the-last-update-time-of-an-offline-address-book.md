@@ -22,7 +22,7 @@ Los administradores de Exchange pueden elegir qué libretas de direcciones que e
   
 Soluciones de Outlook que desean proporcionar a sus usuarios acceso sin conexión a una OAB que necesite saber cuándo se actualizó por última vez la OAB desde el servidor de Exchange. Para buscar la última hora de actualización de una OAB, las soluciones pueden utilizar la siguiente entrada en el registro de Windows: **HKCU\Software\Microsoft\Exchange\Exchange Provider\OAB tiempo de última modificación**. El tipo de esta entrada del registro es **REG_BINARY**. Los datos están de 8 bytes de tamaño. Puede convertir los datos a una estructura [FILETIME](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) de 64 bits al especificar un valor de hora Universal coordinada (UTC) que Outlook descarga última los archivos de OAB desde el servidor de Exchange en el equipo cliente. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Managing Offline Address Books](https://msdn.microsoft.com/library/b7f26eca-b93b-4834-ba50-11febdefbb18.aspx)
 

@@ -36,13 +36,13 @@ Contiene la ruta de acceso completa y el nombre de archivo de un archivo adjunto
    
 ## <a name="remarks"></a>Comentarios
 
-Se recomienda que los subobjetos de datos adjuntos expongan estas propiedades. Establecerlos indica que los datos adjuntos no se incluyen en el mensaje, pero están disponibles en un servidor de archivos común. Estas propiedades son necesarias junto con cualquiera de las marcas **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indican datos adjuntos por referencia: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** o **ATTACH_BY_REF_ONLY**. 
+Se recomienda que los subobjetos adjuntos exponán estas propiedades. Establecerlos indica que los datos adjuntos no están incluidos en el mensaje, pero están disponibles en un servidor de archivos común. Estas propiedades son necesarias junto con cualquiera de las marcas **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) que indican datos adjuntos por referencia: **ATTACH_BY_REFERENCE**, **ATTACH_BY_REF_RESOLVE** o **ATTACH_BY_REF_ONLY**. 
   
 Cada directorio o nombre de archivo está restringido a un nombre de ocho caracteres más una extensión de tres caracteres. La ruta de acceso general está restringida a 256 caracteres. Para una plataforma que admita nombres de archivo largos, establezca estas propiedades **y PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
   
 Las aplicaciones cliente deben usar una convención de nomenclatura universal (UNC) en la mayoría de los casos cuando se comparte el archivo y deben usar una ruta de acceso absoluta cuando el archivo es local.
   
-MAPI sólo funciona con rutas de acceso y nombres de archivo en el juego de caracteres ANSI. Los clientes que usan rutas de acceso y nombres de archivo en un juego de caracteres OEM deben convertirlos en ANSI antes de llamar a MAPI. 
+MAPI solo funciona con rutas de acceso y nombres de archivo en el juego de caracteres ANSI. Los clientes que usan rutas de acceso y nombres de archivo en un juego de caracteres OEM deben convertirlos en ANSI antes de llamar a MAPI. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ MAPI sólo funciona con rutas de acceso y nombres de archivo en el juego de cara
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
@@ -66,7 +66,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -77,7 +77,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

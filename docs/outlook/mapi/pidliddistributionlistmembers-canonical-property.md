@@ -31,19 +31,19 @@ Especifica la lista de EntryIds de los objetos que corresponden a los miembros d
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidDLMembers  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Address  <br/> |
-|Long ID (LID):  <br/> |0x00008055  <br/> |
+|Id. largo (LID):  <br/> |0x00008055  <br/> |
 |Tipo de datos:  <br/> |PT_MV_BINARY  <br/> |
 |Área:  <br/> |Contacto  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-Los miembros de la lista de distribución personal pueden ser otras listas de distribución personales, direcciones electrónicas contenidas en un contacto, usuarios de la lista global de direcciones o listas de distribución, o direcciones de correo electrónico de uso único. El formato de cada EntryId debe ser un EntryId de uso único, como se especifica en [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) o un EntryId ajustado. 
+Los miembros de la lista de distribución personal pueden ser otras listas de distribución personales, direcciones electrónicas contenidas en un contacto, usuarios de lista global de direcciones o listas de distribución, o direcciones de correo electrónico únicas. El formato de cada EntryId debe ser un EntryId único, como se especifica en [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) o un EntryId ajustado. 
   
-Al establecer esta propiedad, el cliente o el servidor debe asegurarse de que su tamaño total sea inferior a 15.000 bytes.
+Al establecer esta propiedad, el cliente o el servidor deben asegurarse de que su tamaño total es inferior a 15 000 bytes.
   
-Esta propiedad especifica la lista de EntryIds de uso único que corresponden a los miembros de la lista de distribución personal. Estos EntryIds únicos encapsulan los nombres para mostrar y las direcciones de correo electrónico de los miembros de la lista de distribución personal.
+Esta propiedad especifica la lista de entryids únicos que corresponden a los miembros de la lista de distribución personal. Estos EntryIds únicos encapsulan los nombres para mostrar y las direcciones de correo electrónico de los miembros de la lista de distribución personal.
   
-Si el cliente o el servidor establecen esta propiedad, debe sincronizarse con esta propiedad **dispidDLMembers** para cada entrada de la propiedad **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), debe haber una entrada en la misma posición en **dispidDLOneOffMembers**.
+Si el cliente o el servidor establecen esta propiedad, debe sincronizarse con esta propiedad **dispidDLMembers** para cada entrada de la propiedad **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), debe haber una entrada en la misma posición en **la dispidDLOneOffMembers**.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -55,7 +55,7 @@ Si el cliente o el servidor establecen esta propiedad, debe sincronizarse con es
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para contactos y listas de distribución personales.
+> Especifica las propiedades y las operaciones permitidas para contactos y listas de distribución personales.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -63,13 +63,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

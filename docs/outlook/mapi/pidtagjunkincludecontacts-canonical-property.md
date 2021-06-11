@@ -36,9 +36,9 @@ Indica si las direcciones de correo electrónico de los contactos de la carpeta 
    
 ## <a name="remarks"></a>Comentarios
 
-Si se establece en "0x00000001", estas direcciones de correo electrónico deben rellenar la parte de dirección de correo electrónico de contacto de "confianza" de la restricción de regla de correo electrónico no deseado de forma que el correo de estas direcciones se trate como "correo no deseado". Si se establece en "0x00000000", las direcciones de correo electrónico de la carpeta Contactos no deben agregarse a la regla de correo electrónico no deseado y la sección de la regla debe ser NULL.
+Si se establece en "0x00000001", estas direcciones de correo electrónico deben rellenar la parte de dirección de correo electrónico de contacto "de confianza" de la restricción de regla de correo electrónico no deseado, de forma que el correo de estas direcciones se trate como "no deseado". Si se establece en "0x00000000", las direcciones de correo electrónico de la carpeta Contactos no se deben agregar a la regla de correo electrónico no deseado y la sección de la regla debe ser NULL.
   
-Si esta propiedad está presente con un valor de "0x00000001" y el contacto agregado tiene direcciones de correo electrónico que aún no se incluyen en la sección de contactos de confianza de la regla de correo electrónico no deseado, dichas direcciones de correo electrónico deben agregarse a la restricción. Si esta propiedad es "0x00000000", no se requiere ninguna acción.
+Si esta propiedad está presente con un valor de "0x00000001" y si el contacto agregado tiene direcciones de correo electrónico que aún no están incluidas en la sección contactos de confianza de la regla de correo electrónico no deseado, esas direcciones de correo electrónico deben agregarse a la restricción. Si esta propiedad es "0x00000000", no se requiere ninguna acción.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,7 +25,7 @@ ms.locfileid: "32330089"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene TRUE si no se pueden superponer citas.
+Contiene TRUE si las citas superpuestas no están permitidos.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contiene TRUE si no se pueden superponer citas.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad solo es significativa cuando el valor de **la propiedad PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) es TRUE. Un valor TRUE indica que, al responder automáticamente a las solicitudes de reunión, un cliente o servidor debe rechazar instancias que se superponen a eventos previamente programados. Un valor FALSE o la ausencia de esta propiedad indica que se deben aceptar instancias superpuestas. Esta propiedad no es obligatoria.
+Esta propiedad solo es significativa cuando el valor de **la propiedad PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) es TRUE. Un valor true indica que al responder automáticamente a las solicitudes de reunión, un cliente o servidor debe rechazar instancias que se superponen a eventos programados previamente. Un valor de FALSE o la ausencia de esta propiedad indica que se deben aceptar instancias superpuestas. No es una propiedad obligatoria.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Esta propiedad solo es significativa cuando el valor de **la propiedad PR_SCHDIN
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones de los mensajes de cita, de reunión y de respuesta.
+> Especifica las propiedades y las operaciones de los mensajes de cita, solicitud de reunión y respuesta.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
@@ -64,13 +64,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

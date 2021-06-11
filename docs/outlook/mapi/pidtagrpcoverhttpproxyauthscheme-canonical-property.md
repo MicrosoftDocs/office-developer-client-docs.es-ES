@@ -32,7 +32,7 @@ Representa el protocolo de autenticación que se usará para este perfil.
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se puede establecer para la autenticación básica o la autenticación NT LAN Manager (NTLM). Los valores posibles para esta propiedad son los siguientes.
+Esta propiedad se puede establecer para la autenticación básica o la autenticación del Administrador de LAN NT (NTLM). Los valores posibles para esta propiedad son los siguientes.
   
 |**Name**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
@@ -53,7 +53,7 @@ Esta propiedad se puede establecer para la autenticación básica o la autentica
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Especifica las propiedades y las operaciones permitidas para los objetos de mensaje de correo electrónico.
+> Especifica las propiedades y las operaciones que son permisibles para los objetos de mensaje de correo electrónico.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -65,13 +65,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

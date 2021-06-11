@@ -20,11 +20,11 @@ En esta sección se describen las interfaces de la API de administración de cue
   
 |**Interfaz**|**Descripción**|
 |:-----|:-----|
-|[IOlkAccount](iolkaccount.md) <br/> |Admite la obtención y el establecimiento de propiedades y otra información sobre una cuenta.  <br/> |
+|[IOlkAccount](iolkaccount.md) <br/> |Admite la obtención y la configuración de propiedades y otra información sobre una cuenta.  <br/> |
 |[IOlkAccountHelper](iolkaccounthelper.md) <br/> |Proporciona funcionalidad auxiliar en la sesión MAPI actual para administrar cuentas.  <br/> |
 |[IOlkAccountManager](iolkaccountmanager.md) <br/> |Administra el acceso a las cuentas y configura las notificaciones sobre los cambios en la cuenta.  <br/> |
-|[IOlkAccountNotify](iolkaccountnotify.md) <br/> |Proporciona una devolución de llamada al cliente para los cambios en una cuenta.  <br/> |
-|[IOlkEnum](iolkenum.md) <br/> |Admite la enumeración de cuentas como [objetos IUnknown.](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown)  <br/> |
+|[IOlkAccountNotify](iolkaccountnotify.md) <br/> |Proporciona una devolución de llamada al cliente para los cambios realizados en una cuenta.  <br/> |
+|[IOlkEnum](iolkenum.md) <br/> |Admite enumerar cuentas como [objetos IUnknown.](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown)  <br/> |
 |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |Proporciona información adicional sobre el último error.  <br/> |
    
 

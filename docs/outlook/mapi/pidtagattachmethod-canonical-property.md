@@ -48,7 +48,7 @@ ATTACH_BY_VALUE
     
 ATTACH_BY_REFERENCE 
   
-> La **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) o **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)) contiene una ruta de acceso completa que identifica los datos adjuntos a los destinatarios con acceso a un servidor de archivos común. 
+> La **propiedad PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) o **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)) contiene una ruta de acceso completa que identifica los datos adjuntos a los destinatarios con acceso a un servidor de archivos común. 
     
 ATTACH_BY_REF_RESOLVE 
   
@@ -70,25 +70,25 @@ ATTACH_BY_WEBREFERENCE
   
 > El contenido de los datos adjuntos no está en el mensaje. 
     
-Cuando se crean, todos los objetos adjuntos tienen un **valor PR_ATTACH_METHOD** inicial de **NO_ATTACHMENT**. 
+Cuando se crea, todos los objetos adjuntos tienen un valor **PR_ATTACH_METHOD** de **NO_ATTACHMENT**. 
   
-Las aplicaciones cliente y los proveedores de servicios solo son necesarios para admitir el método de datos adjuntos representado por **el ATTACH_BY_VALUE** cliente. Los otros métodos de datos adjuntos son opcionales. El almacén de mensajes no exige ninguna coherencia entre el valor de **PR_ATTACH_METHOD** y los valores de las otras propiedades de datos adjuntos. 
+Las aplicaciones cliente y los proveedores de servicios solo son necesarios para admitir el método de datos adjuntos representado por **ATTACH_BY_VALUE** valor. Los otros métodos de datos adjuntos son opcionales. El almacén de mensajes no exige ninguna coherencia entre el valor de **PR_ATTACH_METHOD** y los valores de las otras propiedades de datos adjuntos. 
   
-Se recomiendan nombres de convención de nomenclatura universal (UNC)  para rutas de acceso completas, que se deben usar con ATTACH_BY_REFERENCE **y ATTACH_BY_REF_ONLY**. Con **ATTACH_BY_REF_RESOLVE,** una ruta de acceso absoluta es más rápida, porque la cola MAPI convierte los datos adjuntos en **ATTACH_BY_VALUE**. 
+Se recomiendan nombres de convención de nomenclatura universal (UNC) para rutas de acceso completas, que deben usarse con ATTACH_BY_REFERENCE **y** **ATTACH_BY_REF_ONLY**. Con **ATTACH_BY_REF_RESOLVE,** una ruta de acceso absoluta es más rápida, ya que la cola MAPI convierte los datos adjuntos en **ATTACH_BY_VALUE**. 
   
-Si **ATTACH_BY_REFERENCE** está establecido, **PR_ATTACH_DATA_BIN** debe estar vacío. Una puerta de enlace saliente puede convertir ATTACH_BY_REFERENCE **datos** adjuntos en un ATTACH_BY_VALUE **adjuntos** copiando los datos adjuntos en la **PR_ATTACH_DATA_BIN** datos adjuntos. 
+Si **ATTACH_BY_REFERENCE** está establecido, **PR_ATTACH_DATA_BIN** debe estar vacío. Una puerta de enlace saliente puede convertir **ATTACH_BY_REFERENCE** datos adjuntos en ATTACH_BY_VALUE **datos** adjuntos copiando los datos adjuntos en la **PR_ATTACH_DATA_BIN** datos adjuntos. 
   
-Si **ATTACH_BY_REF_RESOLVE** se establece, **PR_ATTACH_DATA_BIN** debe estar vacío. Cuando se envía el mensaje que ATTACH_BY_REF_RESOLVE **datos** adjuntos, la cola MAPI copia los datos adjuntos **en** una ATTACH_BY_VALUE datos adjuntos. Este proceso de resolución coloca los datos adjuntos **en PR_ATTACH_DATA_BIN**. 
+Si **ATTACH_BY_REF_RESOLVE** está establecido, **PR_ATTACH_DATA_BIN** debe estar vacío. Cuando se envía el mensaje que contiene **ATTACH_BY_REF_RESOLVE** datos adjuntos, la cola MAPI copia los datos adjuntos en un archivo **ATTACH_BY_VALUE** datos adjuntos. Este proceso de resolución coloca los datos adjuntos **en PR_ATTACH_DATA_BIN**. 
   
 Si **ATTACH_BY_REF_ONLY** se establece, **PR_ATTACH_DATA_BIN** debe estar vacío y el sistema de mensajería nunca resuelve la referencia de datos adjuntos. Use este valor cuando desee enviar el vínculo, pero no los datos. 
   
-Cuando el objeto OLE está en formato **IStorage** de OLE 2.0, se puede acceder a los datos a través **de PR_ATTACH_DATA_OBJ**. Cuando el objeto OLE está en formato OLE 1.0 **OLESTREAM,** los datos son accesibles a través **PR_ATTACH_DATA_BIN** como **un IStream**. El tipo de la codificación OLE puede determinarse mediante **el PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+Cuando el objeto OLE está en formato OLE 2.0 **IStorage,** los datos son accesibles a través **de PR_ATTACH_DATA_OBJ**. Cuando el objeto OLE está en formato OLE 1.0 **OLESTREAM,** los datos son accesibles PR_ATTACH_DATA_BIN **como** **IStream**. El tipo de codificación OLE puede determinarse mediante **el PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) valor. 
   
-Para obtener más información sobre las interfaces y formatos OLE, vea la referencia *del programador de OLE.* 
+Para obtener más información sobre las interfaces y formatos  *OLE,*  vea referencia del programador OLE . 
   
 ## <a name="remarks"></a>Comentarios
 
-Cuando el **PR_ATTACH_METHOD** está **ATTACH_BY_WEBREFERENCE,** el contenido de los datos adjuntos no está en el mensaje. En su lugar, **PR_ATTACH_LONG_FILENAME** propiedad contiene una dirección URL absoluta para el contenido de datos adjuntos, que se almacena en línea. 
+Cuando el **PR_ATTACH_METHOD** está **ATTACH_BY_WEBREFERENCE**, el contenido de los datos adjuntos no está en el mensaje. En su lugar, **PR_ATTACH_LONG_FILENAME** propiedad contiene una dirección URL absoluta para el contenido de datos adjuntos, que se almacena en línea. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -96,7 +96,7 @@ Cuando el **PR_ATTACH_METHOD** está **ATTACH_BY_WEBREFERENCE,** el contenido de
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -108,7 +108,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -117,7 +117,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

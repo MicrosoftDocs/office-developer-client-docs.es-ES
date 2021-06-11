@@ -1,5 +1,5 @@
 ---
-title: PidTagBody (propiedad canónica)
+title: Propiedad canónica PidTagBody
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32326638"
 ---
-# <a name="pidtagbody-canonical-property"></a>PidTagBody (propiedad canónica)
+# <a name="pidtagbody-canonical-property"></a>Propiedad canónica PidTagBody
 
   
   
@@ -36,9 +36,9 @@ Contiene el texto del mensaje.
    
 ## <a name="remarks"></a>Comentarios
 
-Estas propiedades se suelen usar solo en un mensaje interpersonal (IPM). 
+Estas propiedades se usan normalmente solo en un mensaje interpersonal (IPM). 
   
-Los almacenes de mensajes que admiten formato de texto enriquecido (RTF) omiten los cambios realizados en los espacios en blanco del texto del mensaje. Cuando **PR_BODY** se almacena por primera vez, el almacén de mensajes también genera y almacena la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la versión RTF del texto del mensaje. Si posteriormente se llama al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) y PR_BODY se ha modificado, el almacén de mensajes llama **a** la función [RTFSync](rtfsync.md) para garantizar la sincronización con la versión RTF. Si solo se han cambiado los espacios en blanco, las propiedades no se modifican. Esto conserva cualquier formato RTF notrivial cuando el mensaje viaja a través de clientes y sistemas de mensajería que no son compatibles con RTF. 
+Los almacenes de mensajes que admiten formato de texto enriquecido (RTF) omiten cualquier cambio en el espacio en blanco del texto del mensaje. Cuando **PR_BODY** se almacena por primera vez, el almacén de mensajes también genera y almacena la propiedad **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la versión RTF del texto del mensaje. Si posteriormente se llama al método [IMAPIProp::SaveChanges](imapiprop-savechanges.md) y PR_BODY se ha modificado, el almacén de mensajes llama **a** la función [RTFSync](rtfsync.md) para garantizar la sincronización con la versión RTF. Si solo se ha cambiado el espacio en blanco, las propiedades no se modifican. Esto conserva cualquier formato RTF no interesante cuando el mensaje viaja a través de clientes y sistemas de mensajería que no son compatibles con RTF. 
   
 El valor de esta propiedad debe expresarse en la página de códigos del sistema operativo en el que se ejecuta MAPI. 
   
@@ -52,7 +52,7 @@ El valor de esta propiedad debe expresarse en la página de códigos del sistema
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -64,7 +64,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -73,7 +73,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

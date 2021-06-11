@@ -38,7 +38,7 @@ Contiene caracteres significativos que aparecen al principio del texto del mensa
 
 La [función RTFSync](rtfsync.md) usa la etiqueta de texto para indicar el principio del texto del mensaje. Cuando se modifica el texto, la etiqueta se usa para buscar el principio del texto anterior. 
   
-Estas propiedades son propiedades auxiliares de formato de texto enriquecido. La función **RTFSync** las usa y no están pensadas para ser usadas directamente por las aplicaciones cliente. 
+Estas propiedades son propiedades auxiliares de formato de texto enriquecido. La función **RTFSync** las usa y las aplicaciones cliente no las usan directamente. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -50,7 +50,7 @@ Estas propiedades son propiedades auxiliares de formato de texto enriquecido. La
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

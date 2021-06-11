@@ -25,19 +25,19 @@ ms.locfileid: "32331559"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Indica en qué carpeta estaba un mensaje antes de que se filtrara en la carpeta de correo no deseado.
+Indica en qué carpeta estaba un mensaje antes de filtrarlo a la carpeta de correo no deseado.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSpamOriginalFolder  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x0000859C  <br/> |
+|Id. largo (LID):  <br/> |0x0000859C  <br/> |
 |Tipo de datos:  <br/> |PT_BINARY  <br/> |
 |Área:  <br/> |Correo no deseado  <br/> |
    
 ## <a name="remarks"></a>Comentarios
 
-El valor de esta propiedad es **el EntryID** de la carpeta que contenía el mensaje antes de moverlo. Esta propiedad debe establecerse cuando un mensaje se marca como correo no deseado. 
+El valor de esta propiedad es **el EntryID** de la carpeta que contenía el mensaje antes de que se moviese. Esta propiedad debe establecerse cuando un mensaje se marca como correo no deseado. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -57,13 +57,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

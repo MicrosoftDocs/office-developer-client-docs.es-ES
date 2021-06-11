@@ -41,11 +41,11 @@ SCODE OpenIMsgSession(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _lpMalloc_
   
-> [entrada] Puntero a un objeto de asignador de memoria que expone la interfaz OLE [IMalloc.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) MAPI debe usar este método de asignación al trabajar con la interfaz OLE [IStorage.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) 
+> [in] Puntero a un objeto de asignador de memoria que expone la [interfaz OLE IMalloc.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) MAPI debe usar este método de asignación al trabajar con la interfaz OLE [IStorage.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) 
     
  _ulFlags_
   
@@ -67,20 +67,20 @@ MAPI_E_INVALID_PARAMETER
     
 MAPI_E_INVALID_FLAGS
   
-> Se han pasado marcas no válidas.
+> Se pasaron marcas no válidas.
     
 MAPI_UNICODE
   
-> Al llamar a esta función, un cliente o proveedor de servicios establece la marca MAPI_UNICODE para crear archivos .msg Unicode. El archivo [Imessage](imessageimapiprop.md) resultante muestra STORE_UNICODE_OK en su PR_STORE_SUPPORT_MASK admite propiedades Unicode. 
+> Al llamar a esta función, un cliente o proveedor de servicios establece la marca MAPI_UNICODE para crear archivos .msg Unicode. El archivo [Imessage](imessageimapiprop.md) resultante muestra STORE_UNICODE_OK en su PR_STORE_SUPPORT_MASK y admite propiedades Unicode. 
     
 ## <a name="remarks"></a>Comentarios
 
-Las aplicaciones cliente y los proveedores de servicios usan una sesión de mensaje que desea tratar con varios objetos MAPI [IMessage relacionados: IMAPIProp](imessageimapiprop.md) creados sobre objetos OLE **IStorage** subyacentes. El cliente o el proveedor usa las funciones **OpenIMsgSession** y [CloseIMsgSession](closeimsgsession.md) para encapsular la creación de estos mensajes dentro de una sesión de mensaje. Una vez abierta la sesión del mensaje, el cliente o el proveedor le pasa un puntero en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo **objeto IMessage**-on- **IStorage.** 
+Las aplicaciones cliente y los proveedores de servicios usan una sesión de mensajes que desean tratar varios objetos IMessage de MAPI [relacionados: IMAPIProp](imessageimapiprop.md) creados sobre objetos OLE **IStorage** subyacentes. El cliente o el proveedor usa las **funciones OpenIMsgSession** y [CloseIMsgSession](closeimsgsession.md) para encapsular la creación de dichos mensajes dentro de una sesión de mensaje. Una vez abierta la sesión del mensaje, el cliente o el proveedor le pasa un puntero en una llamada a [OpenIMsgOnIStg](openimsgonistg.md) para crear un nuevo **objeto IMessage**-on- **IStorage.** 
   
-Una sesión de mensaje realiza un seguimiento de todos los objetos **IMessage**-on- **IStorage** creados durante la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o proveedor llama **a CloseIMsgSession,** cierra todos estos objetos. Llamar **a CloseIMsgSession** es la única forma de cerrar **objetos IMessage**-on- **IStorage.** 
+Una sesión de mensaje realiza un seguimiento de todos los objetos **IMessage**-on- **IStorage** creados durante la duración de la sesión, además de todos los datos adjuntos y otras propiedades de los mensajes. Cuando un cliente o proveedor llama **a CloseIMsgSession**, cierra todos estos objetos. Llamar **a CloseIMsgSession** es la única forma de cerrar **objetos IMessage**-on- **IStorage.** 
   
- **OpenIMsgSession** lo usan clientes y proveedores que requieren la capacidad de controlar varios mensajes relacionados como objetos OLE **IStorage.** Si solo uno de estos mensajes debe estar abierto a la vez, no es necesario realizar un seguimiento de varios mensajes ni ninguna razón para crear una sesión de mensaje con **OpenIMsgSession**. 
+ Los clientes y proveedores usan **OpenIMsgSession** para controlar varios mensajes relacionados como objetos OLE **IStorage.** Si solo se va a abrir uno de estos mensajes a la vez, no es necesario realizar un seguimiento de varios mensajes ni motivo para crear una sesión de mensaje con **OpenIMsgSession**. 
   
-Dado que se trata de un objeto OLE subyacente, MAPI debe usar la asignación de memoria OLE. Para obtener más información acerca de los objetos de almacenamiento estructurado OLE y la asignación de memoria OLE, vea [OLE y transferencia de datos](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Dado que se trata de un objeto OLE subyacente, MAPI debe usar la asignación de memoria OLE. Para obtener más información acerca de los objetos de almacenamiento estructurado OLE y la asignación de memoria OLE, vea [OLE y Transferencia de datos](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 

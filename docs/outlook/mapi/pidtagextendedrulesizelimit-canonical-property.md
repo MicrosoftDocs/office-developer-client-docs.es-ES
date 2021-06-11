@@ -25,7 +25,7 @@ ms.locfileid: "32316348"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene el tamaño máximo, en bytes, que el usuario puede acumular para una única regla "extendida".
+Contiene el tamaño máximo, en bytes, que el usuario puede acumular para una sola regla "extendida".
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Contiene el tamaño máximo, en bytes, que el usuario puede acumular para una ú
 
 Si esta propiedad se establece en el objeto de inicio de sesión, el cliente debe mantener el tamaño de la propiedad **PR_EXTENDED_RULE_MSG_CONDITION** ([PidTagExtendedRuleMessageCondition](pidtagextendedrulemessagecondition-canonical-property.md)) en el valor especificado por esta propiedad. Por el contrario, el servidor debe devolver un error si el cliente intenta establecer una propiedad binaria demasiado grande.
   
-Para obtener información acerca de las reglas extendidas, [vea [MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Para obtener información acerca de las reglas extendidas, vea [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -62,13 +62,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

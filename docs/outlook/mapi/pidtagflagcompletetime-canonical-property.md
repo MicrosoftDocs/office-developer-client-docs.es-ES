@@ -25,7 +25,7 @@ ms.locfileid: "32316292"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la fecha y la hora en hora universal coordinada (UTC) en la que el objeto de mensaje se marcó como completado.
+Especifica la fecha y hora en la hora universal coordinada (UTC) que el objeto de mensaje se marcó como completado.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Especifica la fecha y la hora en hora universal coordinada (UTC) en la que el ob
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad se elimina si el objeto de mensaje no está marcado como completado. La resolución más pequeña del tiempo debe ser de minutos (el valor debe ser un múltiplo de 600 000 000). Esta propiedad no debe existir si el objeto es un objeto relacionado con la reunión y no debe existir en un objeto de tarea.
+Esta propiedad se elimina si el objeto de mensaje no está marcado completo. La resolución más pequeña del tiempo debe ser minutos (el valor debe ser un múltiplo de 600 000 000). Esta propiedad no debe existir si el objeto es un objeto relacionado con la reunión y no debe existir en un objeto de tarea.
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -48,7 +48,7 @@ Esta propiedad se elimina si el objeto de mensaje no está marcado como completa
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones relacionadas con la marcación.
+> Especifica las propiedades y las operaciones relacionadas con la marcación.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -60,13 +60,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

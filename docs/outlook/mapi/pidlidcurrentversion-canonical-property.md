@@ -25,13 +25,13 @@ ms.locfileid: "32327268"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un long que representa el número de compilación de la aplicación Outlook para un elemento.
+Contiene un long que representa el número de compilación de la Outlook de un elemento.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidCurrentVersion  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008552  <br/> |
+|Id. largo (LID):  <br/> |0x00008552  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
@@ -53,7 +53,7 @@ Contiene un long que representa el número de compilación de la aplicación Out
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Codifica y descodifica objetos de mensaje y datos adjuntos a una representación de secuencia eficiente.
+> Codifica y descodifica objetos de mensaje y datos adjuntos en una representación de secuencia eficiente.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -61,13 +61,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

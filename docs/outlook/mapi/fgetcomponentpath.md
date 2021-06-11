@@ -37,27 +37,27 @@ BOOL FGetComponentPath(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _szComponent_
   
-> [entrada] La clave de registro MSIComponentID descrita en [Mapi32.dll configuración del Registro de códigos auxiliares.](https://msdn.microsoft.com/library/dd162409.aspx)
+> [in] La clave de registro MSIComponentID descrita en [Mapi32.dll registro de código auxiliar](https://msdn.microsoft.com/library/dd162409.aspx)Configuración .
     
  _szQualifier_
   
-> [entrada] La subclave MSIApplicationLCID o MSIOfficeLCID descrita en [Elegir una versión específica de MAPI para cargar.](how-to-choose-a-specific-version-of-mapi-to-load.md) Los autores de llamadas pueden **pasar null** si no hay ningún calificador. 
+> [in] La subclave MSIApplicationLCID o MSIOfficeLCID descrita en [Elegir una versión específica de MAPI para cargar](how-to-choose-a-specific-version-of-mapi-to-load.md). Los autores de llamadas pueden **pasar null** si no hay calificador. 
     
  _szDllPath_
   
-> [entrada] La ruta de acceso a la Mapi32.dll privada, que tiene funcionalidad MAPI completa (las mismas exportaciones que el Mapi32.dll).
+> [in] La ruta de acceso a la Mapi32.dll privada, que tiene funcionalidad MAPI completa (las mismas exportaciones que el Mapi32.dll).
     
  _cchBufferSize_
   
-> [entrada] El tamaño de  _szDllPath_, en caracteres.
+> [in] El tamaño de  _szDllPath_, en caracteres.
     
  _fInstall_
   
-> [entrada] Indica a MAPI que instale el componente Mapi32.dll privado si no está presente.
+> [in] Indica a MAPI que instale el componente Mapi32.dll privado si no está presente.
     
 ## <a name="return-value"></a>Valor devuelto
 
@@ -71,14 +71,14 @@ BOOL FGetComponentPath(
     
 ## <a name="remarks"></a>Comentarios
 
-Usa la **función FGetComponentPath** cuando necesites obtener la ruta de acceso a la ruta de acceso Mapi32.dll. 
+Use la **función FGetComponentPath** cuando necesite obtener la ruta de acceso a la ruta de acceso Mapi32.dll. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Elegir una versión específica de MAPI para cargar](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Mapi32.dll del Registro de códigos auxiliares](https://msdn.microsoft.com/library/dd162409.aspx)
+[Mapi32.dll registro de código auxiliar Configuración](https://msdn.microsoft.com/library/dd162409.aspx)
 

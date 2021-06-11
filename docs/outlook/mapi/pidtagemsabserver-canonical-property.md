@@ -25,7 +25,7 @@ ms.locfileid: "32335802"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Especifica la ruta de acceso de un contenedor de libreta de direcciones en un escenario sin conexión o el nombre de dominio completo del servidor de catálogo global donde reside el contenedor de la libreta de direcciones en un escenario en línea.
+Especifica la ruta de acceso de un contenedor de libreta de direcciones en un escenario sin conexión o el nombre de dominio completo del servidor de catálogo global donde reside el contenedor de libreta de direcciones en un escenario en línea.
   
 ## 
 
@@ -38,7 +38,7 @@ Especifica la ruta de acceso de un contenedor de libreta de direcciones en un es
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad tiene el tipo de propiedad restablecido a **PT_UNICODE** cuando se compila con el símbolo en una plataforma Unicode y a PT_STRING8 cuando no se compila con `UNICODE` el  `UNICODE` símbolo. 
+Esta propiedad tiene el tipo de propiedad **restablecido a PT_UNICODE** cuando se compila con el símbolo en una plataforma Unicode y PT_STRING8 cuando no se compila con `UNICODE` el  `UNICODE` símbolo. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -58,13 +58,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

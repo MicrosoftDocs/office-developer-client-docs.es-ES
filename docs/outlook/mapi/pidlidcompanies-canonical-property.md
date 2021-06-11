@@ -25,13 +25,13 @@ ms.locfileid: "32319533"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene los nombres de las compañías asociadas a un elemento.
+Contiene los nombres de las empresas asociadas a un elemento.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidCompanies  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Common  <br/> |
-|Long ID (LID):  <br/> |0x00008539  <br/> |
+|Id. largo (LID):  <br/> |0x00008539  <br/> |
 |Tipo de datos:  <br/> |PT_MV_UNICODE  <br/> |
 |Área:  <br/> |Mensajería general  <br/> |
    
@@ -43,9 +43,9 @@ Contiene los nombres de las compañías asociadas a un elemento.
   
 > Proporciona definiciones de conjunto de propiedades y referencias a las especificaciones Exchange Server protocolo relacionados.
     
-[[MS-OJOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Especifica las propiedades y operaciones permitidas para los diarios.
+> Especifica las propiedades y las operaciones que son permisibles para los diarios.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -53,13 +53,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

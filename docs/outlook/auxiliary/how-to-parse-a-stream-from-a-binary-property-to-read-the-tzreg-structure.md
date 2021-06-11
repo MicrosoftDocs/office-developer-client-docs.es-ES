@@ -16,7 +16,7 @@ ms.locfileid: "32317657"
 ---
 # <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a>Analizar una secuencia de una propiedad binaria para leer la estructura TZREG
 
-En este tema se muestra cómo leer la estructura [TZREG](tzreg.md) desde el formato persistente almacenado en la propiedad binaria [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).
+En este tema se muestra cómo leer la [estructura TZREG](tzreg.md) desde el formato persistente almacenado en la propiedad binaria [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).
   
 ```cpp
 TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)  
@@ -55,7 +55,7 @@ TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)
 
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 - [Leer las propiedades de la zona horaria en una cita](how-to-read-time-zone-properties-from-an-appointment.md)
 

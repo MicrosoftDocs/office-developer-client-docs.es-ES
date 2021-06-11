@@ -25,7 +25,7 @@ ms.locfileid: "32316306"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Contiene un objeto de tabla de contenido incrustado que proporciona información acerca de la tabla de contenido asociada. 
+Contiene un objeto de tabla de contenido incrustado que proporciona información sobre la tabla de contenido asociada. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contiene un objeto de tabla de contenido incrustado que proporciona información
    
 ## <a name="remarks"></a>Comentarios
 
-La tabla de contenido asociada representa una subcarpeta que no aparece en la tabla de contenido estándar. Contiene los mensajes asociados u ocultos de la carpeta. 
+La tabla de contenido asociada representa una subcarpeta que no aparece en la tabla de contenido estándar. Contiene los mensajes asociados o ocultos de la carpeta. 
   
-Esta propiedad puede excluirse en operaciones [IMAPIProp::CopyTo](imapiprop-copyto.md) o incluirse en [operaciones IMAPIProp::CopyProps.](imapiprop-copyprops.md) Como propiedad de **tipo** PT_OBJECT , el método [IMAPIProp::GetProps](imapiprop-getprops.md) no puede recuperarla correctamente; el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) debe tener acceso a su contenido, solicitando el **IID_IMAPITable** de interfaz. Los proveedores de servicios deben notificarlo al método [IMAPIProp::GetPropList](imapiprop-getproplist.md) si está establecido, pero opcionalmente pueden notificarlo o no si no está establecido. 
+Esta propiedad puede excluirse en operaciones [IMAPIProp::CopyTo](imapiprop-copyto.md) o incluirse en [operaciones IMAPIProp::CopyProps.](imapiprop-copyprops.md) Como una propiedad de tipo **PT_OBJECT**, el método [IMAPIProp::GetProps](imapiprop-getprops.md) no puede recuperarla correctamente; el método [IMAPIProp::OpenProperty](imapiprop-openproperty.md) debe tener acceso a su contenido, solicitando el **IID_IMAPITable** de interfaz. Los proveedores de servicios deben notificarlo al método [IMAPIProp::GetPropList](imapiprop-getproplist.md) si está establecido, pero opcionalmente pueden notificarlo o no si no está establecido. 
   
 Para recuperar el contenido de la tabla, las aplicaciones cliente deben llamar al [método IMAPIContainer::GetContentsTable.](imapicontainer-getcontentstable.md) Para obtener más información sobre las tablas de contenido de carpetas, vea [Tablas de contenido](contents-tables.md) y Mostrar una tabla de contenido de [carpeta.](displaying-a-folder-contents-table.md) 
   
-El **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) y esta propiedad son similares en uso. Varias propiedades MAPI proporcionan acceso a las tablas: 
+El **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) y esta propiedad son similares en uso. Varias propiedades MAPI proporcionan acceso a tablas: 
   
-|**Propiedad**|**Table**|
+|**Property**|**Table**|
 |:-----|:-----|
-|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Tabla Contents  <br/> |
-|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Tabla Jerarquía  <br/> |
-|**PR_FOLDER_ASSOCIATED_CONTENTS** <br/> |Tabla de contenido asociado  <br/> |
-|**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Tabla Attachment  <br/> |
-|**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Tabla Recipient  <br/> |
+|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Tabla contenido  <br/> |
+|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Tabla jerarquía  <br/> |
+|**PR_FOLDER_ASSOCIATED_CONTENTS** <br/> |Tabla de contenido asociada  <br/> |
+|**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Tabla de datos adjuntos  <br/> |
+|**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Tabla de destinatarios  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -78,7 +78,7 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como nombres alternativos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
@@ -87,7 +87,7 @@ Mapitags.h
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

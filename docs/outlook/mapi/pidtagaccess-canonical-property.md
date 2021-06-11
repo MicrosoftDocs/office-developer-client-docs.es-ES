@@ -36,7 +36,7 @@ Contiene una máscara de bits de marcas que indica las operaciones que están di
    
 ## <a name="remarks"></a>Comentarios
 
-Esta propiedad es de solo lectura para el cliente. Debe ser un or bit **a** bit de cero o más valores de la tabla siguiente. 
+Esta propiedad es de solo lectura para el cliente. Debe ser un or bit a **bit** de cero o más valores de la tabla siguiente. 
   
 |**Name**|**Valor**|**Descripción**|
 |:-----|:-----|:-----|
@@ -47,7 +47,7 @@ Esta propiedad es de solo lectura para el cliente. Debe ser un or bit **a** bit 
 |MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Crear mensajes de contenido  <br/> |
 |MAPI_ACCESS_CREATE_ASSOCIATED  <br/> |0x00000020  <br/> |Crear mensajes de contenido asociados  <br/> |
    
-Las marcas MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY y MAPI_ACCESS_READ se encuentran en los objetos de carpeta y mensaje, y en la columna **PR_ACCESS** de las tablas de contenido y las tablas de contenido asociadas. Las MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS y MAPI_ACCESS_CREATE_HIERARCHY se encuentran únicamente en objetos de carpeta. 
+Las MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY y MAPI_ACCESS_READ se encuentran en objetos de carpeta y mensaje y en la columna **PR_ACCESS** en tablas de contenido y tablas de contenido asociadas. Las MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS y MAPI_ACCESS_CREATE_HIERARCHY se encuentran únicamente en objetos de carpeta. 
   
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -59,7 +59,7 @@ Las marcas MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY y MAPI_ACCESS_READ se encuentr
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Controla los objetos de mensaje y datos adjuntos.
+> Controla objetos de mensaje y datos adjuntos.
     
 ### <a name="header-files"></a>Archivos de encabezado
 
@@ -71,13 +71,13 @@ Mapitags.h
   
 > Contiene definiciones de propiedades enumeradas como propiedades asociadas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

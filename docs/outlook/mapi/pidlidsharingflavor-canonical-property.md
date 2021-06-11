@@ -25,13 +25,13 @@ ms.locfileid: "32327485"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Designa como propiedad de un mensaje para compartir.
+Designa como una propiedad de un mensaje de uso compartido.
   
 |||
 |:-----|:-----|
 |Propiedades asociadas:  <br/> |dispidSharingFlavor  <br/> |
 |Conjunto de propiedades:  <br/> |PSETID_Sharing  <br/> |
-|Long ID (LID):  <br/> |0x00008A18  <br/> |
+|Id. largo (LID):  <br/> |0x00008A18  <br/> |
 |Tipo de datos:  <br/> |PT_LONG  <br/> |
 |Área:  <br/> |Compartir  <br/> |
    
@@ -39,14 +39,14 @@ Designa como propiedad de un mensaje para compartir.
 
 El valor de esta propiedad debe ser uno de los siguientes:
   
-|**Valor**|**Tipo de objeto de mensaje de uso compartido**|
+|**Valor**|**Tipo de objeto Sharing Message**|
 |:-----|:-----|
 |0x00020310  <br/> |Una invitación para compartir para una carpeta especial.  <br/> |
 |0x00000310  <br/> |Una invitación para compartir para una carpeta que no es una carpeta especial.  <br/> |
 |0x00020500  <br/> |Una solicitud de uso compartido.  <br/> |
 |0x00020710  <br/> |Tanto una invitación para compartir para una carpeta especial como una solicitud de uso compartido para la carpeta especial equivalente del destinatario.  <br/> |
-|0x00025100  <br/> |Una respuesta para compartir que deniega una solicitud.  <br/> |
-|0x00023310  <br/> |Una respuesta para compartir que acepta una solicitud (también un tipo de invitación para compartir).  <br/> |
+|0x00025100  <br/> |Respuesta de uso compartido que niega una solicitud.  <br/> |
+|0x00023310  <br/> |Una respuesta de uso compartido que acepta una solicitud (también un tipo de invitación para compartir).  <br/> |
    
 ## <a name="related-resources"></a>Recursos relacionados
 
@@ -66,13 +66,13 @@ Mapidefs.h
   
 > Proporciona definiciones de tipo de datos.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 
 [Propiedades MAPI](mapi-properties.md)
   
-[Propiedades canónicas de MAPI](mapi-canonical-properties.md)
+[Propiedades canónicas MAPI](mapi-canonical-properties.md)
   
 [Asignación de nombres de propiedades canónicas a nombres MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

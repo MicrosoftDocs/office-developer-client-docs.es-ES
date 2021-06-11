@@ -33,11 +33,11 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 );
 ```
 
-## <a name="parameters"></a>Parámetros
+## <a name="parameters"></a>Parameters
 
  _pmsg_
   
-> [entrada] Puntero al mensaje que se convertirá. Vea mapidefs.h para obtener la definición de tipo **de LPMESSAGE**.
+> [in] Puntero al mensaje que se debe convertir. Vea mapidefs.h para obtener la definición de tipo **de LPMESSAGE**.
     
  _pstm_
   
@@ -45,7 +45,7 @@ HRESULT IConverterSession::MAPIToMIMEStm(
     
  _ulFlags_
   
->  [entrada] Marcas que indican acciones específicas para el convertidor: 
+>  [in] Marcas que indican acciones específicas para el convertidor: 
     
 CCSF_8BITHEADERS
   
@@ -53,7 +53,7 @@ CCSF_8BITHEADERS
     
 CCSF_EMBEDDED_MESSAGE
   
-> La información enviada o no enviada se conserva en X-Unsent.
+> La información enviada o no se conserva en X-Unsent.
     
 CCSF_GLOBAL_MESSAGE
   
@@ -77,25 +77,25 @@ CCSF_PLAIN_TEXT_ONLY
     
 CCSF_SMTP
   
-> Se pasa un mensaje SMTP al convertidor. Esta marca siempre debe establecerse.
+> Se pasa al convertidor un mensaje SMTP. Esta marca siempre debe establecerse.
     
 CCSF_USE_RTF
   
-> El convertidor debe convertir el formato HTML a RTF en el mensaje MIME.
+> El convertidor debe convertir de html a formato RTF en el mensaje MIME.
     
 CCSF_USE_TNEF
   
-> El convertidor debe usar el formato TNEF (Transport Neutral Encapsulation Format) en el mensaje MIME.
+> El convertidor debe usar el formato de formato de encapsulación neutro de transporte (TNEF) en el mensaje MIME.
     
 ## <a name="return-values"></a>Valores devueltos
 
 E_INVALIDARG
   
-> Se han pasado marcas no válidas o  *pmsg*  o  *pstm*  es NULL. 
+> Se pasaron marcas no válidas, o  *pmsg*  o  *pstm*  es NULL. 
     
 ## <a name="remarks"></a>Comentarios
 
-Solo se admite para tipos de mensajes estándar de Outlook.
+Solo se admite para tipos Outlook mensajes estándar.
   
 ## <a name="mfcmapi-reference"></a>Referencia de MFCMAPI
 
@@ -106,7 +106,7 @@ Para obtener un ejemplo de código de MFCMAPI, vea la siguiente tabla.
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI usa MimeToMAPI para convertir un archivo EML en un mensaje MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI usa MAPIToMIMEStm para convertir un mensaje MAPI en un archivo EML.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

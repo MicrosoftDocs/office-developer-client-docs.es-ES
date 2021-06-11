@@ -21,9 +21,9 @@ ms.locfileid: "32331111"
   
 **Se aplica a**: Outlook 2013 | Outlook 2016 
   
-Este ejemplo admite un único contenedor de solo lectura para nombres para mostrar y direcciones de correo electrónico, que se leen desde un archivo binario plano. El ejemplo admite plantillas de uso único y todas las opciones de configuración excepto el Asistente para perfiles.
+Este ejemplo admite un único contenedor de solo lectura para nombres para mostrar y direcciones de correo electrónico, que se leen desde un archivo binario plano. El ejemplo admite plantillas únicas y todas las opciones de configuración excepto el Asistente para perfiles.
   
-Puede descargar este ejemplo de ejemplos de código de la API de mensajería [de Outlook (MAPI).](https://go.microsoft.com/fwlink/?LinkId=129740
+Puede descargar este ejemplo de Outlook de código de la API de mensajería [(MAPI).](https://go.microsoft.com/fwlink/?LinkId=129740
 )
   
 |||
@@ -33,23 +33,23 @@ Puede descargar este ejemplo de ejemplos de código de la API de mensajería [de
 |Idioma:  <br/> |C++  <br/> |
 |Plataformas:  <br/> |Microsoft Visual Studio 2008 para compilar para Windows Vista, Windows Server 2008, Windows XP SP2 y Windows Server 2003 SP1  <br/> |
    
-## <a name="supported-features"></a>Características admitidas
+## <a name="supported-features"></a>Características compatibles
 
-Este ejemplo admite las siguientes características:
+En este ejemplo se admiten las siguientes características:
   
-- Restricciones de tabla. El ejemplo implementa la resolución de coincidencia de prefijo y nombre ambiguo. No implementa el lenguaje de restricción MAPI completo y las restricciones solo se admiten en el nombre para mostrar.
+- Restricciones de tabla. El ejemplo implementa la resolución prefix-match y ambiguous-name. No implementa el lenguaje de restricción MAPI completo y las restricciones solo se admiten en el nombre para mostrar.
     
-- Una tabla de visualización de detalles para los usuarios de mensajería. 
+- Tabla para mostrar detalles para los usuarios de mensajería. 
     
-- Direcciones de un solo servidor.
+- Direcciones únicas.
     
 - Un cuadro de diálogo de búsqueda avanzada.
     
-- Una [interfaz IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Esta interfaz es parcialmente compatible; sus **métodos IMAPIProp** se delegan a la **interfaz IPropData.** Para obtener más información, vea la [interfaz IPropData : IMAPIProp.](ipropdataimapiprop.md) 
+- Una [interfaz IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Esta interfaz es parcialmente compatible; sus **métodos IMAPIProp** se delegan en la **interfaz IPropData.** Para obtener más información, vea la [interfaz IPropData : IMAPIProp.](ipropdataimapiprop.md) 
     
-- Configuración interactiva y mediante programación.
+- Configuración interactiva y programática.
     
-## <a name="unsupported-features"></a>Características no compatibles
+## <a name="unsupported-features"></a>Características no admitidas
 
 En este ejemplo no se admiten las siguientes características:
   
@@ -63,31 +63,31 @@ En este ejemplo no se admiten las siguientes características:
     
 - Propiedades con nombre.
     
-- Distinguir entre el nombre y los apellidos en los nombres para mostrar.
+- Distinguir entre nombres y apellidos en nombres para mostrar.
     
  **Para instalar el proveedor de libreta de direcciones de ejemplo**
   
-1. Para descargar el proveedor de libreta de direcciones de ejemplo, consulte [Descargar los ejemplos MAPI de Outlook](downloading-the-outlook-mapi-samples.md).
+1. Para descargar el proveedor de libreta de direcciones de ejemplo, [vea Downloading the Outlook MAPI Samples](downloading-the-outlook-mapi-samples.md).
     
-2. Busque la carpeta donde guardó los ejemplos MAPI de Outlook. Haga clic con el botón secundario en la carpeta zip Número de versión **de \< \> OutlookMAPISamples** y haga **clic en Extraer todo**.
+2. Busque la carpeta donde guardó la Outlook mapi. Haga clic con el botón secundario en la **carpeta zip OutlookMAPISamples- \< version \> number** y haga clic en Extraer **todo**.
     
 3. Haga **clic en** Examinar, seleccione la ubicación donde desea guardar el ejemplo y haga clic en **Extraer**.
     
 4. Ejecute Visual Studio 2008.
     
-5. En Visual Studio 2008, haga clic en Archivo **,** seleccione **Abrir** y, a continuación, haga clic en **Proyecto/Solución.**
+5. En Visual Studio 2008, haga **clic** en Archivo , seleccione Abrir **y,** a continuación, haga clic **en Project/Solución**.
     
-6. Vaya a la ubicación donde guardó el ejemplo, haga clic en **SABP.vcproj** y, a continuación, haga clic en **Abrir**.
+6. Vaya a la ubicación donde guardó el ejemplo, haga clic **en SABP.vcproj** y, a continuación, haga clic **en Abrir**.
     
 7. On the **Build** menu, click **Build Solution**.
     
-8. En el **cuadro de diálogo Guardar archivo** como, haga clic en **Guardar**.
+8. En el **cuadro de diálogo Guardar archivo como,** haga clic en **Guardar**.
     
-9. En la carpeta donde guardó el ejemplo, haga clic con el botón secundario en **install.bat** archivo y haga clic **en Ejecutar como administrador.**
+9. En la carpeta donde guardó el ejemplo, haga clic con el botón secundario en **el archivoinstall.bat** y haga clic en Ejecutar como **administrador.**
     
 10. En el cuadro de diálogo **Control de cuentas de usuario**, haga clic en **Continuar**.
     
     > [!NOTE]
-    > **Install.bat** copia el archivo .dll en la carpeta de instalación Microsoft Office predeterminada, C:\Archivos de programa\Microsoft Office\Office12\. Si ha instalado productos de Office en una ubicación diferente, haga clic con el botón secundario **enInstall.bat** haga clic en **Editar**. El archivo se abre en el Bloc de notas. Reemplace la ruta de instalación predeterminada por la ruta de instalación que se usa en el equipo. 
+    > **Install.bat** copia el .dll a la carpeta de instalación Microsoft Office predeterminada, C:\Archivos de programa\Microsoft Office\Office12\. Si ha instalado productos Office en otra ubicación, haga clic con el botón secundario **enInstall.bat** y haga clic en **Editar**. El archivo se abre en Bloc de notas. Reemplace la ruta de instalación predeterminada por la ruta de instalación usada en el equipo. 
   
 
