@@ -7,19 +7,19 @@ ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 3f3da0d9e68024d7da9a0bcfca0fef30c7f646ed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d1870f80c15d958fc1b28cf9ef165df0a834971c
+ms.sourcegitcommit: 35b723efe168ae4bad461bd16b26f9a2412656f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292051"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53139089"
 ---
-# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="d23c4-102">Control de errores en VBScript</span><span class="sxs-lookup"><span data-stu-id="d23c4-102">Handling errors in VBScript</span></span>
+# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="64934-102">Control de errores en VBScript</span><span class="sxs-lookup"><span data-stu-id="64934-102">Handling errors in VBScript</span></span>
 
 
-<span data-ttu-id="d23c4-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d23c4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="64934-103">**Se aplica a:** Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="64934-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d23c4-104">Hay poca diferencia entre los métodos utilizados en Visual Basic y los usados con VBScript.</span><span class="sxs-lookup"><span data-stu-id="d23c4-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="d23c4-105">La principal diferencia es que VBScript no admite el concepto de tratamiento de errores por continuación de la ejecución en una etiqueta.</span><span class="sxs-lookup"><span data-stu-id="d23c4-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="d23c4-106">En otras palabras, no puede usar On Error GoTo en VBScript.</span><span class="sxs-lookup"><span data-stu-id="d23c4-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="d23c4-107">En su lugar, use en VBScript.</span><span class="sxs-lookup"><span data-stu-id="d23c4-107">Instead, use in VBScript.</span></span> <span data-ttu-id="d23c4-108">En su lugar, use On Error Resume Next y, a continuación, compruebe **err.number** y **la propiedad Count** de la colección **Errors,** como se muestra en el ejemplo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d23c4-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
+<span data-ttu-id="64934-104">Hay poca diferencia entre los métodos utilizados en Visual Basic y los usados con VBScript.</span><span class="sxs-lookup"><span data-stu-id="64934-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="64934-105">La principal diferencia es que VBScript no admite el concepto de tratamiento de errores por continuación de la ejecución en una etiqueta.</span><span class="sxs-lookup"><span data-stu-id="64934-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="64934-106">En otras palabras, no puede usar On Error GoTo en VBScript.</span><span class="sxs-lookup"><span data-stu-id="64934-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="64934-107">En su lugar, en VBScript, use On Error Resume Next y, a continuación, compruebe **Err.Number** y **la propiedad Count** de la colección **Errors,** como se muestra en el ejemplo siguiente:</span><span class="sxs-lookup"><span data-stu-id="64934-107">Instead, in VBScript, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
 
 ```vb 
  
