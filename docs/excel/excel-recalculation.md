@@ -9,12 +9,12 @@ keywords:
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
 description: 'Hace referencia a: Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
-ms.openlocfilehash: 07deec5ad104c59074567725d6abf9b66711e351
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c4b6dbad7a31b7155d1bec3a5c867b6c74d0ff42
+ms.sourcegitcommit: 35b723efe168ae4bad461bd16b26f9a2412656f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304119"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53139096"
 ---
 # <a name="excel-recalculation"></a>Actualización de Excel
 
@@ -97,10 +97,10 @@ Las siguientes funciones de Excel son volátiles:
     
 La API de C y VBA admiten maneras para informar a Excel que una función definida por el usuario (UDF) debe tratarse como volátil. Con VBA, UDF se declara como volátil del siguiente modo.
   
-```vb
+```vba
 Function MyUDF(MakeMeVolatile As Boolean) As Double
    ' Good practice to call this on the first line.
-   Application.Volatile (MakeMeVolatile)
+   Application.Volatile MakeMeVolatile
    MyUDF = Now
 End Function
 
